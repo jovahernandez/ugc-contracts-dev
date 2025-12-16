@@ -1,21 +1,26 @@
 // src/middleware/authMiddleware.ts
 import type { Request, Response, NextFunction } from 'express';
 
+// Token esperado (definido como variable de entorno en Railway / .env)
 const EXPECTED_TOKEN = process.env.API_AUTH_TOKEN;
 
 /**
- * Autenticación muy simple para webhooks:
- * - Lee el token de:
- *   - body.apiAuthToken
- *   - header Authorization: Bearer <token>
- *   - header x-api-key o x-api-token
+ * Autenticación simple para webhooks.
+ *
+ * Acepta el token en:
+ *  - body.apiAuthToken
+ *  - body.api_auth_token
+ *  - body.api_token
+ *  - body.token
+ *  - Authorization: Bearer <token>
+ *  - x-api-key / x-api-token
  */
 export function authMiddleware(
   req: Request,
   res: Response,
   next: NextFunction
 ): void {
-  // Si no hay token configurado en el server, no bloqueamos (solo log)
+  // Si no hay token configurado en el entorno, dejamos pasar (solo log de aviso)
   if (!EXPECTED_TOKEN) {
     console.warn(
       '[AuthMiddleware] API_AUTH_TOKEN is not set; skipping auth check.'
@@ -23,32 +28,42 @@ export function authMiddleware(
     return next();
   }
 
-  // 1) Token por body (forma que usaremos desde HubSpot)
-  const bodyToken =
-    typeof req.body?.apiAuthToken === 'string'
-      ? (req.body.apiAuthToken as string)
-      : undefined;
+  // ----- 1) TOKENS POR BODY -----
+  const bodyCandidates: unknown[] = [
+    req.body?.apiAuthToken,
+    req.body?.api_auth_token,
+    req.body?.api_token,
+    req.body?.token,
+  ];
 
-  // 2) Token por Authorization: Bearer xxx
+  const bodyToken = bodyCandidates.find(
+    (v) => typeof v === 'string' && v.length > 0
+  ) as string | undefined;
+
+  // ----- 2) Authorization: Bearer <token> -----
   const authHeader = req.header('authorization') || req.header('Authorization');
   let bearerToken: string | undefined;
   if (authHeader && authHeader.toLowerCase().startsWith('bearer ')) {
     bearerToken = authHeader.slice(7).trim();
   }
 
-  // 3) Token por cabecera x-api-key / x-api-token
+  // ----- 3) x-api-key / x-api-token -----
   const xApiKey =
     (req.header('x-api-key') as string | undefined) ||
     (req.header('x-api-token') as string | undefined);
 
   const resolvedToken = bodyToken || bearerToken || xApiKey;
 
+  // Log seguro para debug (no imprime el valor del token)
+  console.log('[AuthMiddleware] token check', {
+    hasBodyToken: !!bodyToken,
+    hasBearer: !!bearerToken,
+    hasXApiKey: !!xApiKey,
+    expectedSet: !!EXPECTED_TOKEN,
+  });
+
   if (!resolvedToken || resolvedToken !== EXPECTED_TOKEN) {
-    console.warn('[AuthMiddleware] Missing or invalid API token', {
-      hasBodyToken: !!bodyToken,
-      hasBearer: !!bearerToken,
-      hasXApiKey: !!xApiKey,
-    });
+    console.warn('[AuthMiddleware] Missing or invalid API token');
 
     res.status(401).json({
       status: 'error',
