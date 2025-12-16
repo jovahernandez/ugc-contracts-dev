@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* Salida de compilación */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Target: Node backend clásico */
+    "target": "ES2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+
+    /* Compatibilidad y ergonomía */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Type checking (relajado para evitar peleas) */
+    "strict": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
+}
