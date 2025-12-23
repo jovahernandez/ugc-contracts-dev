@@ -44,6 +44,9 @@ COPY src ./src
 # Compilamos TypeScript → dist/
 RUN npm run build
 
+# Copiamos los templates (DOCX, HTML) al dist porque TypeScript no los copia
+RUN cp -r src/templates dist/templates
+
 # Creamos carpeta de almacenamiento para contratos y firmas
 RUN mkdir -p /app/storage
 
