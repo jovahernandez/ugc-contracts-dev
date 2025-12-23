@@ -10,6 +10,9 @@ import contractsRoutes from './routes/contractsRoutes';
 
 const app = express();
 
+// Trust proxy para obtener IP real detrás de Railway/Codespaces/Vercel
+app.set('trust proxy', true);
+
 const PORT = process.env.PORT || 3000;
 const STORAGE_ROOT = process.env.STORAGE_ROOT || 'storage';
 const storageRootPath = path.join(__dirname, '..', STORAGE_ROOT);

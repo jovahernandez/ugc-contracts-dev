@@ -11,6 +11,15 @@ import { buildContractDataFromContact } from '../services/templateService';
 import { renderContractDocx } from '../services/docxContractService';
 import { renderSignedContractDocx } from '../services/signedDocxService';
 import { convertDocxToPdf } from '../services/docxToPdfService';
+import {
+  getClientIp,
+  extractSignatureMetadata,
+  generateDocumentHash,
+  isTokenExpired,
+  daysUntilExpiration,
+  formatExpirationDate,
+  type SignatureMetadata,
+} from '../utils/requestMetadata';
 
 const router = Router();
 
@@ -41,22 +50,28 @@ function ensureDirs() {
 
 ensureDirs();
 
+// Días de vigencia del link de firma (configurable por env)
+const SIGNATURE_EXPIRATION_DAYS = parseInt(process.env.SIGNATURE_EXPIRATION_DAYS || '5', 10);
+
 interface SignatureRecord {
   token: string;
   contactId: string;
   docxPath: string;
   docxUrl: string;
-  status: 'pending' | 'signed' | 'cancelled';
+  status: 'pending' | 'signed' | 'cancelled' | 'expired';
   createdAt: string;
+  expiresAt: string;
   signed: boolean;
   signedAt?: string;
   signerName?: string;
-  ip?: string;
-  userAgent?: string;
+  // Metadata extendida para auditoría legal
+  signatureMetadata?: SignatureMetadata;
+  documentHash?: string;
   signatureImagePath?: string;
   signatureImageUrl?: string;
   signedPdfPath?: string;
   signedPdfUrl?: string;
+  signedDocumentHash?: string;
 }
 
 function getSignatureFilePath(token: string): string {
@@ -225,6 +240,12 @@ router.post(
       const docxUrl = `${publicBaseUrl}/storage/contracts/${baseFileName}.docx`;
 
       const token = randomUUID();
+      const now = new Date();
+      const expiresAt = new Date(now.getTime() + (SIGNATURE_EXPIRATION_DAYS * 24 * 60 * 60 * 1000));
+
+      // Generar hash del documento para auditoría
+      const docxBuffer = fs.readFileSync(docxPath);
+      const documentHash = generateDocumentHash(docxBuffer);
 
       const record: SignatureRecord = {
         token,
@@ -232,8 +253,10 @@ router.post(
         docxPath,
         docxUrl,
         status: 'pending',
-        createdAt: new Date().toISOString(),
+        createdAt: now.toISOString(),
+        expiresAt: expiresAt.toISOString(),
         signed: false,
+        documentHash,
       };
 
       saveSignature(record);
@@ -394,14 +417,23 @@ router.get(
 
       if (!signatureRecord) {
         const token = randomUUID();
+        const now = new Date();
+        const expiresAt = new Date(now.getTime() + (SIGNATURE_EXPIRATION_DAYS * 24 * 60 * 60 * 1000));
+        
+        // Generar hash del documento para auditoría
+        const docxBuffer = fs.readFileSync(docxPath);
+        const documentHash = generateDocumentHash(docxBuffer);
+
         signatureRecord = {
           token,
           contactId,
           docxPath,
           docxUrl,
           status: 'pending',
-          createdAt: new Date().toISOString(),
+          createdAt: now.toISOString(),
+          expiresAt: expiresAt.toISOString(),
           signed: false,
+          documentHash,
         };
         saveSignature(signatureRecord);
       }
@@ -607,14 +639,38 @@ router.get(
         return;
       }
 
-      if (record.status !== 'pending') {
+      // Verificar si el token expiró
+      if (record.expiresAt && isTokenExpired(record.createdAt, SIGNATURE_EXPIRATION_DAYS)) {
+        // Marcar como expirado si aún no lo estaba
+        if (record.status === 'pending') {
+          record.status = 'expired';
+          saveSignature(record);
+        }
         res
-          .status(400)
+          .status(410)
           .send(
-            '<h1>Enlace no disponible</h1><p>Este contrato ya fue firmado o el enlace está inactivo.</p>'
+            `<h1>Enlace expirado</h1><p>El plazo para firmar este contrato ha vencido. Por favor contacta a Another Co. para solicitar un nuevo enlace.</p>`
           );
         return;
       }
+
+      if (record.status !== 'pending') {
+        const statusMessages: Record<string, string> = {
+          signed: 'Este contrato ya fue firmado.',
+          cancelled: 'Este contrato fue rechazado.',
+          expired: 'El plazo para firmar este contrato ha vencido.',
+        };
+        res
+          .status(400)
+          .send(
+            `<h1>Enlace no disponible</h1><p>${statusMessages[record.status] || 'El enlace está inactivo.'}</p>`
+          );
+        return;
+      }
+
+      // Calcular días restantes para mostrar al usuario
+      const daysLeft = daysUntilExpiration(record.createdAt, SIGNATURE_EXPIRATION_DAYS);
+      const expirationDateFormatted = formatExpirationDate(record.createdAt, SIGNATURE_EXPIRATION_DAYS);
 
       const contractHtml = await convertDocxToHtml(record.docxPath);
 
@@ -735,6 +791,12 @@ router.get(
   <div class="container">
     <h1>Revisión y firma de contrato UGC</h1>
     <p>Contrato asociado al contacto: <strong>${record.contactId}</strong></p>
+    
+    <div style="background: #fef3c7; border: 1px solid #f59e0b; border-radius: 6px; padding: 12px; margin: 16px 0;">
+      <p style="margin: 0; font-size: 14px; color: #92400e;">
+        <strong>⏰ Vigencia del enlace:</strong> Tienes hasta el <strong>${expirationDateFormatted}</strong> para firmar este contrato (${daysLeft} día${daysLeft !== 1 ? 's' : ''} restante${daysLeft !== 1 ? 's' : ''}).
+      </p>
+    </div>
 
     <h2>1. Revisa tu contrato</h2>
     <p>Este contrato es de solo lectura, no puede ser modificado.</p>
@@ -769,11 +831,15 @@ router.get(
       </div>
 
       <input type="hidden" name="signatureData" id="signatureData" />
+      <input type="hidden" name="timezoneOffset" id="timezoneOffset" />
     </form>
   </div>
 
   <script>
     (function() {
+      // Capturar timezone del cliente
+      document.getElementById('timezoneOffset').value = new Date().getTimezoneOffset();
+      
       var canvas = document.getElementById('signatureCanvas');
       var ctx = canvas.getContext('2d');
       var drawing = false;
@@ -886,6 +952,20 @@ router.post(
         return;
       }
 
+      // Verificar expiración también en POST
+      if (record.expiresAt && isTokenExpired(record.createdAt, SIGNATURE_EXPIRATION_DAYS)) {
+        if (record.status === 'pending') {
+          record.status = 'expired';
+          saveSignature(record);
+        }
+        res
+          .status(410)
+          .send(
+            `<h1>Enlace expirado</h1><p>El plazo para firmar este contrato ha vencido. Por favor contacta a Another Co. para solicitar un nuevo enlace.</p>`
+          );
+        return;
+      }
+
       if (record.status !== 'pending') {
         res
           .status(400)
@@ -898,6 +978,7 @@ router.post(
       const signerName = (req.body?.signerName || '').toString().trim();
       const accepted = req.body?.accepted;
       const signatureData = req.body?.signatureData;
+      const timezoneOffset = parseInt(req.body?.timezoneOffset || '0', 10);
 
       if (!signerName) {
         res
@@ -988,21 +1069,28 @@ router.post(
         .replace(/\\/g, '/');
       const signedPdfUrl = `${publicBaseUrl}/storage/${pdfRelative}`;
 
-      // 4) Actualizar registro local
+      // Generar hash del documento firmado para auditoría
+      const signedDocBuffer = fs.readFileSync(pdfPath);
+      const signedDocumentHash = generateDocumentHash(signedDocBuffer);
+
+      // 4) Extraer metadata completa para auditoría legal
+      const signatureMetadata = extractSignatureMetadata(req, timezoneOffset);
+
+      // 5) Actualizar registro local con toda la información
       record.signed = true;
       record.status = 'signed';
       record.signedAt = signedAtDate.toISOString();
       record.signerName = signerName;
-      record.ip = req.ip;
-      record.userAgent = req.get('user-agent') || undefined;
+      record.signatureMetadata = signatureMetadata;
       record.signatureImagePath = signatureImagePath;
       record.signatureImageUrl = signatureImageUrl;
       record.signedPdfPath = pdfPath;
       record.signedPdfUrl = signedPdfUrl;
+      record.signedDocumentHash = signedDocumentHash;
 
       saveSignature(record);
 
-      // 5) Actualizar HubSpot (no rompe si falla)
+      // 6) Actualizar HubSpot (no rompe si falla)
       try {
         await updateContactProperties(record.contactId, {
           // Fecha en formato YYYY-MM-DD (para propiedad de fecha en HubSpot)
@@ -1022,7 +1110,7 @@ router.post(
       }
 
 
-      // 6) Responder al creador
+      // 7) Responder al creador con opción de descarga
       const html = `<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -1047,46 +1135,98 @@ router.post(
     h1 {
       font-size: 20px;
       margin-bottom: 8px;
+      color: #16a34a;
     }
     p {
       margin: 4px 0;
     }
+    .success-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
     .note {
-      font-size: 12px;
+      font-size: 13px;
       color: #6b7280;
-      margin-top: 12px;
+      margin-top: 16px;
+      padding: 12px;
+      background: #f9fafb;
+      border-radius: 6px;
     }
     img {
-      max-width: 100%;
+      max-width: 200px;
       border: 1px solid #d1d5db;
       border-radius: 4px;
       margin-top: 12px;
     }
+    .download-section {
+      margin-top: 24px;
+      padding: 16px;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 8px;
+    }
+    .download-section h2 {
+      font-size: 16px;
+      margin: 0 0 12px 0;
+      color: #1e40af;
+    }
     a.button-link {
       display: inline-block;
-      margin-top: 12px;
-      padding: 8px 12px;
+      margin-top: 8px;
+      margin-right: 8px;
+      padding: 10px 16px;
       background: #2563eb;
       color: #fff;
       text-decoration: none;
-      border-radius: 4px;
+      border-radius: 6px;
       font-size: 14px;
+      font-weight: 500;
+    }
+    a.button-link:hover {
+      background: #1d4ed8;
+    }
+    a.button-secondary {
+      background: #6b7280;
+    }
+    a.button-secondary:hover {
+      background: #4b5563;
+    }
+    .metadata {
+      font-size: 11px;
+      color: #9ca3af;
+      margin-top: 16px;
+      padding-top: 12px;
+      border-top: 1px solid #e5e7eb;
     }
   </style>
 </head>
 <body>
   <div class="container">
+    <div class="success-icon">✅</div>
     <h1>¡Contrato firmado correctamente!</h1>
     <p>Gracias, <strong>${signerName}</strong>. Hemos registrado tu firma electrónica manuscrita.</p>
 
+    <div class="download-section">
+      <h2>📄 Descarga tu copia</h2>
+      <p>Guarda una copia del contrato firmado para tus registros:</p>
+      <a href="${signedPdfUrl}" class="button-link" download>Descargar PDF firmado</a>
+    </div>
+
     <div class="note">
-      <p>Fecha de firma: ${signedAtDisplay}</p>
+      <p><strong>Fecha de firma:</strong> ${signedAtDisplay}</p>
+      <p><strong>Firmante:</strong> ${signerName}</p>
       ${
         signatureImageUrl
-          ? `<p>Tu firma registrada:</p><img src="${signatureImageUrl}" alt="Firma electrónica" />`
+          ? `<p><strong>Tu firma registrada:</strong></p><img src="${signatureImageUrl}" alt="Firma electrónica" />`
           : ''
       }
-      <p>Another Co. conservará en sus sistemas el contrato firmado en formato electrónico para cualquier aclaración futura.</p>
+      <p style="margin-top: 12px;">Another Co. conservará en sus sistemas el contrato firmado en formato electrónico para cualquier aclaración futura.</p>
+    </div>
+    
+    <div class="metadata">
+      <p>ID de transacción: ${token}</p>
+      <p>IP registrada: ${signatureMetadata.ip}</p>
+      <p>Hora UTC: ${signatureMetadata.signedAtUtc}</p>
     </div>
   </div>
 </body>
