@@ -131,6 +131,137 @@ router.get('/health', (_req: Request, res: Response) => {
 });
 
 // ---------------------------------------------------------------------------
+// GET /contracts/demo
+// Genera un contrato de PRUEBA con datos ficticios (no requiere HubSpot)
+// ---------------------------------------------------------------------------
+router.get(
+  '/demo',
+  async (req: Request, res: Response): Promise<void> => {
+    try {
+      ensureDirs();
+
+      // Datos ficticios para prueba
+      const demoContactId = `demo_${Date.now()}`;
+      const demoData = {
+        nombre_completo: 'Juan Pérez García',
+        email: 'juan.perez@ejemplo.com',
+        rfc: 'PEGJ900101ABC',
+        domicilio: 'Av. Reforma 123, Col. Centro, CDMX',
+        razon_social: 'Creador Demo S.A. de C.V.',
+        marca_a_promocionar: 'Another Co.',
+        monto_total: '15,000.00',
+        monto_total_letra: 'Quince mil pesos 00/100 M.N.',
+        fecha_de_inicio_de_servicio: '01/01/2026',
+        fecha_de_fin_de_servicio: '31/01/2026',
+        sow__acciones: '3 videos para TikTok, 2 historias para Instagram',
+        exclusividad: 'No aplica',
+        dias_de_pago: '30',
+        campana: 'Campaña Demo 2026',
+        cliente_ugc: 'Another Co.',
+        fecha_actual: new Date().toLocaleDateString('es-MX'),
+        fecha_de_la_firma: '',
+        firma_creador: '',
+      };
+
+      // Crear un DOCX simple de prueba (sin template real)
+      const baseFileName = `contract_${demoContactId}`;
+      const docxPath = path.join(contractsDir, `${baseFileName}.docx`);
+
+      // Intentar generar con template real, si no existe crear uno básico
+      try {
+        const { renderContractDocx } = await import('../services/docxContractService');
+        const docxBuffer = renderContractDocx(demoData as any);
+        fs.writeFileSync(docxPath, docxBuffer);
+      } catch (templateErr) {
+        // Si no hay template, crear archivo placeholder
+        fs.writeFileSync(docxPath, Buffer.from('Demo contract placeholder'));
+      }
+
+      const publicBaseUrl =
+        process.env.PUBLIC_BASE_URL || `${req.protocol}://${req.get('host')}`;
+      const docxUrl = `${publicBaseUrl}/storage/contracts/${baseFileName}.docx`;
+
+      // Crear registro de firma
+      const token = randomUUID();
+      const now = new Date();
+      const expiresAt = new Date(now.getTime() + (SIGNATURE_EXPIRATION_DAYS * 24 * 60 * 60 * 1000));
+
+      const record: SignatureRecord = {
+        token,
+        contactId: demoContactId,
+        docxPath,
+        docxUrl,
+        status: 'pending',
+        createdAt: now.toISOString(),
+        expiresAt: expiresAt.toISOString(),
+        signed: false,
+        documentHash: 'demo-hash-' + Date.now(),
+      };
+
+      saveSignature(record);
+
+      const signingUrl = `${publicBaseUrl}/contracts/sign/${token}`;
+      const previewUrl = `${publicBaseUrl}/contracts/preview/${demoContactId}`;
+
+      // Responder con HTML amigable
+      const html = `<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Demo de Contrato UGC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
+    .container { max-width: 600px; margin: 0 auto; background: #fff; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    h1 { color: #16a34a; font-size: 24px; }
+    .info { background: #f0fdf4; border: 1px solid #86efac; padding: 16px; border-radius: 6px; margin: 16px 0; }
+    .info p { margin: 8px 0; }
+    a.btn { display: inline-block; padding: 12px 24px; background: #2563eb; color: #fff; text-decoration: none; border-radius: 6px; margin: 8px 8px 8px 0; }
+    a.btn.green { background: #16a34a; }
+    code { background: #e5e7eb; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+    .metadata { font-size: 12px; color: #6b7280; margin-top: 20px; padding-top: 16px; border-top: 1px solid #e5e7eb; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>✅ Contrato de Prueba Generado</h1>
+    
+    <div class="info">
+      <p><strong>Contacto:</strong> ${demoData.nombre_completo}</p>
+      <p><strong>Email:</strong> ${demoData.email}</p>
+      <p><strong>Monto:</strong> $${demoData.monto_total} MXN</p>
+      <p><strong>Vigencia del link:</strong> ${SIGNATURE_EXPIRATION_DAYS} días</p>
+    </div>
+
+    <h2>Prueba el flujo:</h2>
+    <p>
+      <a href="${signingUrl}" class="btn green">🖊️ Ir a Firmar Contrato</a>
+    </p>
+
+    <h2>Datos técnicos:</h2>
+    <div class="metadata">
+      <p><strong>Token:</strong> <code>${token}</code></p>
+      <p><strong>Contact ID:</strong> <code>${demoContactId}</code></p>
+      <p><strong>Expira:</strong> ${expiresAt.toLocaleString('es-MX')}</p>
+      <p><strong>URL de firma:</strong><br/><code>${signingUrl}</code></p>
+    </div>
+  </div>
+</body>
+</html>`;
+
+      res.status(200).send(html);
+    } catch (err: any) {
+      console.error('Error generating demo contract:', err);
+      res.status(500).json({
+        status: 'error',
+        message: 'Failed to generate demo contract',
+        detail: err?.message || 'Unknown error',
+      });
+    }
+  }
+);
+
+// ---------------------------------------------------------------------------
 // POST /contracts/generate
 // Genera el contrato DOCX a partir de un contacto de HubSpot
 // ---------------------------------------------------------------------------
