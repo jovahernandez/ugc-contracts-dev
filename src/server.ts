@@ -7,6 +7,7 @@ import path from 'path';
 
 // IMPORTANTE: default import, NO llaves
 import contractsRoutes from './routes/contractsRoutes';
+import webhookRoutes from './routes/webhookRoutes';
 
 const app = express();
 
@@ -46,6 +47,9 @@ app.get('/health', (_req, res) => {
 // Rutas de contratos
 // AQUÍ era donde se rompía: el segundo argumento debe ser una función/router
 app.use('/contracts', contractsRoutes);
+
+// Rutas de webhooks (HubSpot, etc.)
+app.use('/webhook', webhookRoutes);
 
 // Arranque del servidor
 app.listen(PORT, () => {
