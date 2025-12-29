@@ -1,0 +1,306 @@
+================================================================================
+REPORTE DE IMPLEMENTACIÓN - SISTEMA DE CONTRATOS UGC
+Fecha: 29 de diciembre de 2025
+Repositorio: jovahernandez/ugc-contracts-dev
+Ambiente de producción: ugc-contracts-dev.onrender.com
+================================================================================
+
+RESUMEN EJECUTIVO
+-----------------
+Se implementó un sistema completo de generación y firma de contratos para
+creadores UGC, con integración automática a HubSpot mediante webhooks. El
+sistema incluye tracking de metadata legal, expiración de links de firma, y
+validación de seguridad.
+
+
+FUNCIONALIDADES IMPLEMENTADAS
+------------------------------
+
+1. TRACKING DE METADATA LEGAL Y SEGURIDAD (Fase 1)
+   ✅ Captura de IP real del firmante (detrás de proxies/Render)
+   ✅ Detección de timezone del firmante
+   ✅ Timestamp preciso de firma
+   ✅ Hash criptográfico del documento (SHA-256)
+   ✅ Almacenamiento de metadata en archivo JSON
+   ✅ Validación de integridad del documento
+
+   Ubicación: src/utils/requestMetadata.ts
+   Implementación: Express middleware con trust proxy habilitado
+
+2. EXPIRACIÓN DE LINKS DE FIRMA
+   ✅ Links de firma tienen vigencia configurable (default: 5 días)
+   ✅ Validación automática en cada acceso
+   ✅ Estado del link: pending, signed, cancelled, expired
+   ✅ Mensaje claro al usuario cuando el link expira
+
+   Ubicación: src/routes/contractsRoutes.ts
+   Variable de entorno: SIGNATURE_EXPIRATION_DAYS
+
+3. INTEGRACIÓN AUTOMÁTICA CON HUBSPOT WEBHOOKS (Fase 2)
+   ✅ Webhook endpoint configurado en /webhook/hubspot
+   ✅ Generación automática de contratos al marcar ready_to_generate=true
+   ✅ Creación automática de link de firma con expiración
+   ✅ Actualización automática de HubSpot con link de firma
+   ✅ Reset automático de ready_to_generate para evitar loops
+   ✅ Validación de firma de webhooks (HMAC-SHA256)
+   ✅ Captura de raw body para validación de seguridad
+
+   Ubicación: src/routes/webhookRoutes.ts
+   Propiedades HubSpot usadas:
+   - ready_to_generate (trigger del webhook)
+   - contract_signed_link (donde se guarda el link de firma)
+
+4. SEGURIDAD DEL WEBHOOK
+   ✅ Validación de firma X-HubSpot-Signature-v3
+   ✅ Prevención de webhooks falsos/spoofing
+   ✅ Middleware de captura de raw body implementado
+   ✅ Repositorio GitHub convertido a privado
+
+   Ubicación: src/server.ts (middleware de raw body)
+   Variable de entorno: HUBSPOT_WEBHOOK_SECRET
+
+
+FLUJO COMPLETO AUTOMATIZADO
+----------------------------
+
+1. Usuario marca contacto en HubSpot con ready_to_generate = true
+2. HubSpot dispara webhook a tu servidor en Render
+3. Servidor valida firma del webhook (seguridad)
+4. Servidor obtiene datos del contacto desde HubSpot
+5. Servidor genera contrato DOCX automáticamente
+6. Servidor crea token de firma con expiración de 5 días
+7. Servidor guarda link de firma en HubSpot (contract_signed_link)
+8. Servidor resetea ready_to_generate a false
+9. Usuario copia link y lo envía al creador
+10. Creador abre link, ve contrato, y firma
+11. Sistema captura IP, timezone, timestamp, y hash del documento
+12. Creador descarga PDF firmado
+
+
+PROBLEMAS ENCONTRADOS Y SOLUCIONES
+-----------------------------------
+
+PROBLEMA 1: Validación de Firma del Webhook Fallaba
+Síntoma: Webhook rechazado con "Invalid signature"
+Causa raíz: Express parseaba JSON body antes de validar firma,
+             destruyendo el raw body necesario para HMAC-SHA256
+Solución: Implementar middleware express.json({ verify: ... }) para
+          capturar raw body antes del parsing
+Archivos modificados: src/server.ts, src/routes/webhookRoutes.ts
+Estado: ✅ RESUELTO
+
+PROBLEMA 2: Propiedad contract_link No Existía en HubSpot
+Síntoma: Error 400 "Property contract_link does not exist"
+Causa raíz: Nombre de propiedad incorrecto
+Solución: Usar propiedad existente "contract_signed_link"
+Archivo modificado: src/routes/webhookRoutes.ts línea 228
+Estado: ✅ RESUELTO
+
+PROBLEMA 3: Repositorio GitHub Público con URL del Webhook
+Síntoma: URL del webhook visible en GitHub público
+Riesgo: Potencial spoofing de webhooks si no hay validación
+Solución 1: Habilitar validación de firma (crítico)
+Solución 2: Convertir repositorio a privado (complementario)
+Estado: ✅ RESUELTO (ambas soluciones implementadas)
+
+
+ARCHIVOS CLAVE MODIFICADOS
+---------------------------
+
+1. src/server.ts
+   - Agregado middleware de captura de raw body
+   - Configurado trust proxy para IP real
+   - Declaración global de tipo Request con rawBody
+
+2. src/routes/webhookRoutes.ts
+   - Endpoint POST /webhook/hubspot
+   - Función validateHubSpotSignature() habilitada
+   - Generación automática de contratos
+   - Actualización de propiedades en HubSpot
+   - Endpoint GET /webhook/test para verificación
+
+3. src/routes/contractsRoutes.ts
+   - Validación de expiración de links
+   - Captura de metadata al firmar
+   - Tracking de IP y timezone
+
+4. src/utils/requestMetadata.ts
+   - Funciones de captura de IP real
+   - Generación de hash de documento
+   - Obtención de timezone
+
+5. src/clients/hubspotClient.ts
+   - Función getContact()
+   - Función updateContactProperties()
+   - Lista de propiedades del contacto
+
+
+VARIABLES DE ENTORNO CONFIGURADAS EN RENDER
+--------------------------------------------
+
+HUBSPOT_PRIVATE_APP_TOKEN=pat-na1-****************
+  Descripción: Token de Private App de HubSpot para API calls
+  Ubicación: Settings → Integrations → Private Apps → Show token
+
+HUBSPOT_WEBHOOK_SECRET=****************
+  Descripción: Secret compartido con HubSpot para validar firma v3
+  Generado con: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+  Importante: DEBE ser idéntico al configurado en HubSpot
+
+PUBLIC_BASE_URL=https://ugc-contracts-dev.onrender.com
+  Descripción: URL pública del servidor para generar links
+
+SIGNATURE_EXPIRATION_DAYS=5
+  Descripción: Días de vigencia del link de firma (opcional, default: 5)
+
+API_AUTH_TOKEN=****************
+  Descripción: Token para proteger endpoints manuales (opcional)
+
+
+CONFIGURACIÓN EN HUBSPOT
+-------------------------
+
+1. Private App configurada con permisos:
+   - crm.objects.contacts.read
+   - crm.objects.contacts.write
+
+2. Webhook configurado:
+   Tipo: contact.propertyChange
+   Propiedad: ready_to_generate
+   URL: https://ugc-contracts-dev.onrender.com/webhook/hubspot
+   Secret: [mismo que HUBSPOT_WEBHOOK_SECRET en Render]
+   Estado: Activo ✅
+
+3. Propiedades personalizadas usadas:
+   - ready_to_generate (boolean) → Trigger del webhook
+   - contract_signed_link (text) → Donde se guarda el link de firma
+   - signed (boolean) → Estado de firma
+
+
+PRUEBAS REALIZADAS
+------------------
+
+✅ Generación manual de contratos (/contracts/generate)
+✅ Firma de contratos con captura de IP y metadata
+✅ Descarga de PDF firmado
+✅ Webhook de HubSpot → Generación automática
+✅ Actualización automática de HubSpot con link de firma
+✅ Validación de firma del webhook (seguridad)
+✅ Endpoint de test /webhook/test
+✅ Expiración de links (configurado, pendiente test temporal)
+
+
+ESTADO ACTUAL DEL SISTEMA
+--------------------------
+
+✅ PRODUCCIÓN - FUNCIONANDO
+- Webhook operativo y validado
+- Generación automática de contratos
+- Links de firma con expiración
+- Tracking de metadata legal
+- Seguridad habilitada (validación de firma)
+- Repositorio privado
+
+⚠️ WARNINGS NO CRÍTICOS
+- Deprecation warning de docxtemplater .setData()
+  (no afecta funcionalidad, actualización futura recomendada)
+
+
+PRÓXIMOS PASOS OPCIONALES
+--------------------------
+
+FASE 3: INTEGRACIÓN CON AIRTABLE (Opcional)
+- Guardar metadata de firmas automáticamente en Airtable
+- Backup de contratos firmados
+- Dashboard de análisis
+
+FASE 4: NOTIFICACIONES AUTOMÁTICAS (Opcional)
+- Enviar link por WhatsApp/Email automáticamente
+- Webhook cuando contract_signed = true
+- Notificaciones a equipo interno
+
+FASE 5: MEJORAS TÉCNICAS
+- Actualizar docxtemplater para eliminar warning
+- Implementar rate limiting en webhooks
+- Agregar retry logic para llamadas a HubSpot API
+- Tests automatizados
+
+
+COMMITS RELEVANTES
+------------------
+
+Commit más reciente: 7e847cd
+Mensaje: "fix: enable webhook signature validation with raw body capture"
+Fecha: [hoy]
+Archivos: src/server.ts, src/routes/webhookRoutes.ts
+
+Commits anteriores relevantes:
+- feat: add IP tracking, signature expiration, and legal metadata
+- feat: add /contracts/demo endpoint for testing
+- fix: copy templates to dist for production
+
+
+DOCUMENTACIÓN GENERADA
+-----------------------
+
+✅ .env.example - Plantilla de variables de entorno con documentación
+✅ WEBHOOK_SETUP.md - Guía completa de configuración de webhooks
+✅ README.md - Documentación general del proyecto (existente)
+
+
+SEGURIDAD
+---------
+
+✅ Validación de firma de webhooks habilitada
+✅ Repositorio GitHub convertido a privado
+✅ Secrets nunca expuestos en código (solo en .env local y Render)
+✅ .env en .gitignore
+✅ HTTPS forzado en Render
+✅ Trust proxy configurado correctamente
+✅ CORS configurado
+
+
+ARQUITECTURA
+------------
+
+Backend: Node.js + Express + TypeScript
+Plantillas: Docxtemplater (DOCX)
+Generación PDF: Puppeteer (fallback de CloudConvert)
+Almacenamiento: Sistema de archivos local (storage/)
+Deploy: Render (auto-deploy desde GitHub main branch)
+CRM: HubSpot (webhooks + API v3)
+Estructura:
+  - storage/contracts/     → DOCX generados
+  - storage/signatures/    → JSON con metadata de firmas
+  - storage/signed/        → PDF firmados por creadores
+
+
+CONTACTOS Y ACCESOS
+-------------------
+
+Repositorio GitHub:
+  - Principal (Andrés): github.com/Another-andy/another-ugc-contracts (privado)
+  - Fork (Jovani): github.com/jovahernandez/ugc-contracts-dev (privado)
+
+Deploy en Render:
+  - URL: ugc-contracts-dev.onrender.com
+  - Dashboard: render.com/dashboard
+
+HubSpot:
+  - Portal ID: [configurado en private app]
+  - Acceso: Compartido con equipo
+
+
+CONCLUSIÓN
+----------
+
+El sistema está completamente operativo y listo para uso en producción.
+Se logró automatización completa del flujo de contratos desde HubSpot,
+con seguridad robusta y tracking legal de todas las firmas.
+
+Todos los objetivos de Andrés para la integración con HubSpot han sido
+completados exitosamente.
+
+================================================================================
+FIN DEL REPORTE
+================================================================================

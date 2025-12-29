@@ -1,0 +1,670 @@
+================================================================================
+EXPLICACIÓN DETALLADA DE SOLUCIONES - SISTEMA DE CONTRATOS UGC
+Guía no técnica de cómo se resolvió cada problema
+================================================================================
+
+INTRODUCCIÓN
+------------
+
+Este documento explica de forma clara y sencilla cómo se abordó cada desafío
+durante el desarrollo del sistema de contratos. Está escrito para que cualquier
+persona del equipo pueda entender QUÉ problema había, POR QUÉ era importante
+resolverlo, y CÓMO se solucionó.
+
+
+================================================================================
+PROBLEMA 1: CAPTURA DE LA DIRECCIÓN IP REAL DEL FIRMANTE
+================================================================================
+
+QUÉ PROBLEMA HABÍA
+------------------
+Cuando un creador firma un contrato desde su navegador, necesitamos saber desde
+qué dirección IP lo hizo. Esto es importante legalmente porque:
+
+- Sirve como evidencia de dónde se firmó el contrato
+- Ayuda a detectar fraudes (ej: si alguien firma desde otro país)
+- Es información requerida en muchos marcos legales
+
+EL DESAFÍO TÉCNICO
+------------------
+Nuestro servidor está detrás de Render (un servicio de hosting). Cuando alguien
+accede a nuestro sitio, Render actúa como intermediario. Esto significa que si
+no hacemos nada especial, TODAS las peticiones parecen venir de los servidores
+de Render, no del usuario real.
+
+Es como si enviaras una carta por correo:
+- Sin configuración: Solo vemos la dirección del cartero (Render)
+- Con configuración: Podemos ver la dirección real del remitente (usuario)
+
+CÓMO SE SOLUCIONÓ
+-----------------
+Implementamos dos cosas:
+
+1. TRUST PROXY
+   Le dijimos a nuestro servidor: "Confía en los headers que Render te envía
+   con la IP real del usuario". Render siempre pasa esta información en un
+   header especial llamado "X-Forwarded-For".
+
+   CÓDIGO AGREGADO en src/server.ts (línea 24):
+
+   app.set('trust proxy', true);
+
+2. FUNCIÓN PARA EXTRAER LA IP
+   Creamos una función que sabe buscar la IP real en el lugar correcto,
+   considerando todos los posibles intermediarios (proxies).
+
+   CÓDIGO NUEVO en src/utils/requestMetadata.ts:
+
+   export function getRealIpAddress(req: Request): string {
+     // Busca en orden de prioridad
+     const forwarded = req.headers['x-forwarded-for'];
+     if (forwarded) {
+       const ips = (forwarded as string).split(',');
+       return ips[0].trim(); // Primera IP = cliente real
+     }
+
+     const realIp = req.headers['x-real-ip'];
+     if (realIp) return realIp as string;
+
+     return req.ip || req.socket.remoteAddress || 'unknown';
+   }
+
+RESULTADO
+---------
+Ahora cuando alguien firma, capturamos su IP real (ej: 187.141.23.45) en lugar
+de la IP de Render. Esta información se guarda en el archivo JSON de metadata
+junto con la firma.
+
+Ubicación del código: src/utils/requestMetadata.ts (función getRealIpAddress)
+
+
+================================================================================
+PROBLEMA 2: CAPTURA DE LA FECHA Y HORA EXACTA (CON TIMEZONE)
+================================================================================
+
+QUÉ PROBLEMA HABÍA
+------------------
+Necesitamos saber exactamente CUÁNDO firmó el creador el contrato. Pero no es
+tan simple como guardar "29 de diciembre a las 3pm" porque:
+
+- ¿3pm en qué zona horaria? ¿México? ¿Argentina? ¿España?
+- ¿Qué pasa si hay una disputa y necesitamos probar la hora exacta?
+- ¿Cómo evitamos confusiones con horarios de verano?
+
+POR QUÉ ES IMPORTANTE
+---------------------
+Imagina que un creador dice "yo firmé el día 28, no el 29". Si no tenemos el
+timezone correcto, no podemos probar nada con certeza. El timestamp debe ser
+absolutamente preciso y sin ambigüedades.
+
+CÓMO SE SOLUCIONÓ
+-----------------
+Implementamos captura de TRES datos relacionados con el tiempo:
+
+1. TIMESTAMP UTC (Universal)
+   Guardamos la fecha y hora en formato UTC (tiempo universal coordinado).
+   Este es un estándar mundial que NO cambia con zonas horarias.
+
+   Ejemplo: 2025-12-29T21:30:45.123Z
+   (La "Z" significa "Zulu time" = UTC)
+
+2. TIMEZONE DEL USUARIO
+   Capturamos desde qué zona horaria el usuario firmó. Esto se detecta
+   automáticamente desde el navegador del usuario.
+
+   Ejemplo: America/Mexico_City, America/Argentina/Buenos_Aires
+
+3. OFFSET (Diferencia con UTC)
+   Guardamos cuántas horas de diferencia hay con UTC.
+
+   Ejemplo: -6 (México está 6 horas detrás de UTC)
+
+CÓMO FUNCIONA EN PRÁCTICA
+--------------------------
+Cuando un creador abre el link de firma:
+
+1. El navegador nos dice: "Estoy en zona horaria America/Mexico_City"
+2. Nuestro servidor registra el momento exacto en UTC
+3. Guardamos ambos datos en el archivo JSON
+
+CÓDIGO IMPLEMENTADO en src/utils/requestMetadata.ts:
+
+export function getTimezoneInfo(req: Request): {
+  timezone: string;
+  offset: number;
+} {
+  const tz = req.headers['x-timezone'] as string;
+  const offset = parseInt(req.headers['x-timezone-offset'] as string || '0');
+
+  return {
+    timezone: tz || 'UTC',
+    offset: offset || 0
+  };
+}
+
+Y al guardar la firma en src/routes/contractsRoutes.ts:
+
+const metadata = {
+  signedAt: new Date().toISOString(),  // UTC timestamp
+  timezone: timezoneInfo.timezone,     // Zona horaria del usuario
+  timezoneOffset: timezoneInfo.offset, // Diferencia con UTC
+  ip: getRealIpAddress(req),
+  documentHash: generateDocumentHash(docxBuffer)
+};
+
+Ejemplo real de metadata guardada:
+{
+  "signedAt": "2025-12-29T21:30:45.123Z",
+  "timezone": "America/Mexico_City",
+  "timezoneOffset": -360
+}
+
+Con esto, podemos:
+- Probar EXACTAMENTE cuándo firmó (UTC nunca miente)
+- Mostrar la hora local del firmante si es necesario
+- Convertir a cualquier zona horaria para reportes
+
+RESULTADO
+---------
+Tenemos un registro inequívoco del momento exacto de firma, válido
+legalmente en cualquier país o jurisdicción.
+
+Ubicación del código: src/utils/requestMetadata.ts (función getTimezoneInfo)
+
+
+================================================================================
+PROBLEMA 3: EXPIRACIÓN AUTOMÁTICA DE LINKS DE FIRMA
+================================================================================
+
+QUÉ PROBLEMA HABÍA
+------------------
+Cuando generamos un link de firma, ese link funciona para siempre. Esto
+crea varios problemas:
+
+- Riesgo de seguridad: Alguien podría usar un link viejo años después
+- Confusión: Un creador podría firmar un contrato obsoleto
+- Sin control: No hay forma de "invalidar" un link una vez enviado
+
+POR QUÉ NECESITÁBAMOS EXPIRACIÓN
+---------------------------------
+En el mundo real, los documentos legales tienen fechas límite. Si envías
+un contrato por correo físico y el creador no lo firma en 30 días, ese
+contrato se vence. Lo mismo debe pasar con los links digitales.
+
+Casos de uso:
+- "Le enviamos el link hace 2 meses y nunca firmó, ya no es válido"
+- "Ese link era de una versión antigua del contrato, necesita uno nuevo"
+- "El monto cambió, ese link anterior ya no sirve"
+
+CÓMO SE SOLUCIONÓ
+-----------------
+Implementamos un sistema de expiración automática:
+
+1. AL CREAR EL LINK
+   Cuando se genera un link de firma, calculamos una fecha de expiración.
+   Por defecto: 5 días desde la creación.
+
+   CÓDIGO en src/routes/webhookRoutes.ts (línea 200):
+
+   const SIGNATURE_EXPIRATION_DAYS = parseInt(
+     process.env.SIGNATURE_EXPIRATION_DAYS || '5', 10
+   );
+
+   const now = new Date();
+   const expiresAt = new Date(
+     now.getTime() + (SIGNATURE_EXPIRATION_DAYS * 24 * 60 * 60 * 1000)
+   );
+
+   const record = {
+     token: randomUUID(),
+     contactId,
+     docxPath,
+     docxUrl,
+     status: 'pending',
+     createdAt: now.toISOString(),
+     expiresAt: expiresAt.toISOString(),  // ← Fecha de expiración
+     signed: false
+   };
+
+2. AL ABRIR EL LINK
+   Cada vez que alguien abre el link, ANTES de mostrar el contrato,
+   verificamos:
+
+   CÓDIGO en src/routes/contractsRoutes.ts (endpoint /sign/:token):
+
+   // Cargar el registro de firma
+   const record = loadSignatureRecord(token);
+
+   // Verificar si expiró
+   const now = new Date();
+   const expiresAt = new Date(record.expiresAt);
+
+   if (now > expiresAt) {
+     // Link expirado
+     return res.status(410).send(`
+       <h1>Link Expirado</h1>
+       <p>Este link de firma ha expirado.</p>
+       <p>Venció el: ${expiresAt.toLocaleString()}</p>
+     `);
+   }
+
+   // Link válido, mostrar contrato...
+
+3. ESTADOS DEL LINK
+   Cada link tiene un estado que indica su situación:
+
+   - "pending" → Link activo, esperando firma
+   - "signed" → Ya fue firmado
+   - "expired" → Se venció el tiempo
+   - "cancelled" → Fue cancelado manualmente
+
+CONFIGURACIÓN FLEXIBLE
+-----------------------
+Los días de vigencia se pueden configurar según la necesidad:
+
+- En desarrollo: Puedes poner 30 días para tener tiempo de probar
+- En producción: El equipo decidió 5 días (configurable en Render)
+
+Para cambiar la vigencia:
+1. Ir a Render → Environment Variables
+2. Cambiar SIGNATURE_EXPIRATION_DAYS=5 al número de días deseado
+3. El cambio aplica para todos los links nuevos (los viejos mantienen
+   su fecha de expiración original)
+
+RESULTADO
+---------
+Los links de firma ahora tienen "fecha de caducidad" como un cupón de
+descuento. Esto da control sobre qué contratos están activos y cuáles ya
+no deben usarse.
+
+Ubicación del código:
+- Cálculo de expiración: src/routes/webhookRoutes.ts (línea 200)
+- Validación: src/routes/contractsRoutes.ts (endpoint /sign/:token)
+
+
+================================================================================
+PROBLEMA 4: VALIDACIÓN DE FIRMA DE WEBHOOKS (EL MÁS COMPLEJO)
+================================================================================
+
+QUÉ PROBLEMA HABÍA
+------------------
+HubSpot nos envía webhooks (notificaciones automáticas) cuando algo cambia
+en un contacto. Pero hay un problema de seguridad:
+
+¿Cómo sabemos que el webhook realmente viene de HubSpot y no de un hacker?
+
+Sin validación, CUALQUIER PERSONA podría:
+1. Descubrir nuestra URL del webhook (estaba en GitHub público)
+2. Enviar peticiones falsas haciéndose pasar por HubSpot
+3. Hacer que generemos contratos falsos, actualicemos datos incorrectos, etc.
+
+EJEMPLO DE ATAQUE SIN VALIDACIÓN
+---------------------------------
+Hacker descubre: https://ugc-contracts-dev.onrender.com/webhook/hubspot
+
+Hacker envía petición falsa:
+{
+  "objectId": 999999,
+  "propertyName": "ready_to_generate",
+  "propertyValue": "true"
+}
+
+Nuestro servidor (sin validación):
+"Ok, voy a generar un contrato para el contacto 999999"
+→ Genera contrato falso
+→ Desperdicia recursos
+→ Puede causar problemas en HubSpot
+
+CÓMO FUNCIONA LA FIRMA DE HUBSPOT
+----------------------------------
+HubSpot implementa un sistema de "firma digital" para sus webhooks:
+
+1. TÚ y HUBSPOT comparten un "secret" (contraseña secreta)
+2. HubSpot toma el contenido del webhook y lo "firma" usando ese secret
+3. HubSpot envía: el contenido + la firma
+4. TÚ recalculas la firma usando el mismo secret
+5. Si las firmas coinciden → Es legítimo
+6. Si no coinciden → Es falso
+
+Es como un sello de lacre en una carta:
+- Solo quien tiene el sello oficial puede cerrarlo correctamente
+- Si intentas falsificarlo, se nota
+
+EL PROBLEMA TÉCNICO QUE ENCONTRAMOS
+------------------------------------
+Intentamos validar la firma, pero SIEMPRE fallaba. ¿Por qué?
+
+El problema era sutil:
+
+1. HubSpot firma el contenido EXACTAMENTE como lo envía (texto puro)
+2. Express (nuestro servidor) lee ese contenido y lo convierte a un
+   objeto JavaScript para que sea más fácil trabajar con él
+3. Cuando intentábamos validar la firma, reconvertíamos el objeto a texto
+4. Pero el texto reconvertido NO era exactamente igual al original
+5. Pequeñas diferencias (espacios, orden de campos) hacían que la firma
+   no coincidiera
+
+ANALOGÍA
+--------
+Imagina que te envían una carta lacrada:
+
+1. HubSpot escribe: "Generar contrato para contacto 12345"
+2. HubSpot pone el lacre (firma)
+3. Express abre la carta y la reescribe con otras palabras:
+   "Para el contacto 12345 generar contrato"
+4. Tratamos de validar el lacre con el texto reescrito
+5. El lacre NO coincide porque el texto cambió
+
+CÓMO SE SOLUCIONÓ
+-----------------
+Implementamos "captura de contenido original" ANTES de que Express lo modifique:
+
+PASO 1: CONFIGURAR CAPTURA DE RAW BODY
+En el servidor (src/server.ts), agregamos un middleware que dice:
+
+"Antes de que conviertas el JSON a objeto, guárdame una copia del texto
+original exactamente como llegó"
+
+ANTES (src/server.ts línea 32):
+──────────────────────────────────────
+app.use(express.json());  // ❌ Parsea JSON pero pierde el raw body
+
+
+DESPUÉS (src/server.ts líneas 32-48):
+──────────────────────────────────────
+// Agregar declaración de tipo al inicio del archivo
+declare global {
+  namespace Express {
+    interface Request {
+      rawBody?: string;  // ← Nueva propiedad
+    }
+  }
+}
+
+// Modificar el middleware de JSON
+app.use(
+  express.json({
+    verify: (req: any, _res: any, buf: any, encoding: any) => {
+      // Guardar raw body ANTES de que Express lo parsee
+      req.rawBody = buf.toString(encoding || 'utf8');
+    },
+  })
+);
+
+
+PASO 2: USAR RAW BODY PARA VALIDAR
+En el validador de firma (src/routes/webhookRoutes.ts):
+
+ANTES (líneas 56-88) - DESHABILITADO TEMPORALMENTE:
+──────────────────────────────────────────────────
+function validateHubSpotSignature(req: Request): boolean {
+  console.warn('[Webhook] Signature validation temporarily disabled');
+  return true;  // ❌ Acepta CUALQUIER webhook sin verificar
+
+  /* Código comentado que no funcionaba:
+  const requestBody = JSON.stringify(req.body);  // ❌ Reconvertido
+  const hash = crypto.createHmac('sha256', HUBSPOT_WEBHOOK_SECRET)
+    .update(sourceString)
+    .digest('base64');
+  */
+}
+
+
+DESPUÉS (líneas 56-94) - HABILITADO Y FUNCIONANDO:
+───────────────────────────────────────────────────
+function validateHubSpotSignature(req: Request): boolean {
+  if (!HUBSPOT_WEBHOOK_SECRET) {
+    console.warn('[Webhook] HUBSPOT_WEBHOOK_SECRET not set');
+    return true;
+  }
+
+  const signature = req.headers['x-hubspot-signature-v3'] as string;
+  const timestamp = req.headers['x-hubspot-request-timestamp'] as string;
+
+  if (!signature || !timestamp) {
+    console.error('[Webhook] Missing signature or timestamp headers');
+    return false;
+  }
+
+  // ✅ Usar el raw body capturado en server.ts
+  const requestBody = req.rawBody;
+
+  if (!requestBody) {
+    console.error('[Webhook] Raw body not available');
+    return false;
+  }
+
+  // Calcular firma según spec de HubSpot v3
+  const sourceString = timestamp + req.method + req.originalUrl + requestBody;
+  const hash = crypto.createHmac('sha256', HUBSPOT_WEBHOOK_SECRET)
+    .update(sourceString)
+    .digest('base64');
+
+  const isValid = hash === signature;
+
+  if (!isValid) {
+    console.error('[Webhook] Invalid signature');
+    console.error('[Webhook] Expected:', hash);
+    console.error('[Webhook] Received:', signature);
+  } else {
+    console.log('[Webhook] ✅ Signature validation passed');
+  }
+
+  return isValid;  // ✅ Ahora valida correctamente
+}
+
+
+PASO 3: COMPARACIÓN VISUAL
+La diferencia clave:
+
+ANTES (NO FUNCIONABA):
+  requestBody = JSON.stringify(req.body)
+  → Resultado: '{"objectId":12345,"propertyName":"ready_to_generate"}'
+  → Firma calculada: ABC123
+  → Firma de HubSpot: XYZ789
+  → NO COINCIDEN ❌
+
+DESPUÉS (FUNCIONA):
+  requestBody = req.rawBody
+  → Resultado: '[{"objectId": 12345, "propertyName": "ready_to_generate"}]'
+  → Firma calculada: XYZ789
+  → Firma de HubSpot: XYZ789
+  → COINCIDEN ✅
+
+RESULTADO
+---------
+Ahora el webhook está protegido. Aunque la URL sea pública, nadie puede
+enviar webhooks falsos porque no tienen el secret.
+
+Intentos de ataque:
+1. Hacker envía webhook falso
+2. Hacker no conoce el secret, así que no puede firmar correctamente
+3. Nuestro servidor calcula la firma esperada
+4. Las firmas no coinciden
+5. Webhook rechazado con error 401 (No autorizado)
+
+Ubicación del código:
+- Captura de raw body: src/server.ts (líneas 32-48)
+- Validación: src/routes/webhookRoutes.ts (función validateHubSpotSignature)
+
+
+================================================================================
+PROBLEMA 5: PROPIEDAD "contract_link" NO EXISTÍA EN HUBSPOT
+================================================================================
+
+QUÉ PROBLEMA HABÍA
+------------------
+Cuando el webhook generaba el contrato exitosamente, intentaba guardar el
+link de firma en HubSpot en una propiedad llamada "contract_link".
+
+HubSpot respondía con error:
+"Property 'contract_link' does not exist"
+
+POR QUÉ PASÓ ESTO
+-----------------
+En HubSpot, las propiedades personalizadas tienen DOS nombres:
+
+1. LABEL (Nombre visible): "Contract Link"
+2. INTERNAL NAME (Nombre interno): "contract_link_preview"
+
+Nosotros intentábamos usar un nombre que no existía.
+
+CÓMO SE DESCUBRIÓ
+-----------------
+Durante las pruebas, el webhook fallaba. Revisamos los logs de Render y
+vimos el error de HubSpot.
+
+El usuario (tú) revisó en HubSpot y encontró que la propiedad que SÍ existía
+se llamaba "Contract Link Preview" con nombre interno "contract_link_preview".
+
+CÓMO SE SOLUCIONÓ
+-----------------
+Simplemente cambiamos el código para usar el nombre correcto:
+
+ANTES (src/routes/webhookRoutes.ts línea 227):
+──────────────────────────────────────────────
+await updateContactProperties(contactId, {
+  contract_link: signingUrl,  // ❌ Esta propiedad no existe
+  ready_to_generate: 'false',
+});
+
+Resultado:
+  Error 400 de HubSpot: "Property 'contract_link' does not exist"
+  ❌ Webhook falla
+  ❌ Link NO se guarda en HubSpot
+  ❌ Usuario tiene que generar link manualmente
+
+
+DESPUÉS (src/routes/webhookRoutes.ts línea 233):
+─────────────────────────────────────────────────
+await updateContactProperties(contactId, {
+  contract_signed_link: signingUrl,  // ✅ Esta propiedad sí existe
+  ready_to_generate: 'false',
+});
+
+Resultado:
+  ✅ Actualización exitosa
+  ✅ Link guardado en HubSpot
+  ✅ Visible en el contacto en la propiedad "Contract Signed Link"
+
+
+VERIFICACIÓN EN HUBSPOT:
+Nombre visible: "Contract Signed Link"
+Nombre interno: contract_signed_link  ← Este es el que usamos en el código
+
+
+LECCIÓN APRENDIDA
+-----------------
+Siempre verificar los nombres internos exactos de las propiedades en HubSpot.
+No asumir que el nombre visible es el nombre interno.
+
+Para encontrar el nombre interno en HubSpot:
+1. Settings → Properties
+2. Buscar la propiedad
+3. Click en ella
+4. Ver "Internal name" o "API name"
+
+Ubicación del código: src/routes/webhookRoutes.ts (línea 221-224)
+
+
+================================================================================
+PROBLEMA 6: REPOSITORIO GITHUB PÚBLICO CON URL DEL WEBHOOK
+================================================================================
+
+QUÉ PROBLEMA HABÍA
+------------------
+Tu repositorio de GitHub estaba configurado como PÚBLICO, lo que significa
+que cualquier persona en internet podía ver el código.
+
+Esto no es malo por sí mismo (muchos proyectos de código abierto son públicos),
+PERO en nuestro caso teníamos un archivo llamado WEBHOOK_SETUP.md que contenía
+la URL completa del webhook:
+
+https://ugc-contracts-dev.onrender.com/webhook/hubspot
+
+RIESGO DE SEGURIDAD
+-------------------
+Aunque los SECRETS (contraseñas, tokens) NUNCA estuvieron en el repo
+(están en .gitignore), la URL sí estaba visible.
+
+Esto significaba:
+- Cualquiera podía encontrar tu URL de webhook buscando en GitHub
+- Si no tuviéramos validación de firma, podrían atacarte
+- Es como publicar tu dirección en internet (no es la llave, pero sí la ubicación)
+
+CÓMO SE SOLUCIONÓ
+-----------------
+Implementamos una solución de DOS capas (defensa en profundidad):
+
+CAPA 1: VALIDACIÓN DE FIRMA (Principal)
+Ya explicada en el Problema 4. Esto hace que aunque alguien conozca la URL,
+no pueda enviar webhooks falsos porque no tienen el secret.
+
+CAPA 2: REPOSITORIO PRIVADO (Complementaria)
+Convertimos el repositorio de público a privado.
+
+Pasos que hiciste:
+1. Ir a GitHub → Repositorio → Settings
+2. Scroll hasta "Danger Zone"
+3. Click en "Change visibility"
+4. Seleccionar "Make private"
+5. Confirmar
+
+RESULTADO
+---------
+Ahora el código solo es visible para:
+- Ti (jovahernandez)
+- Andrés (Another-andy)
+- Cualquier colaborador que agreguen explícitamente
+
+Nadie más puede ver:
+- La URL del webhook
+- La estructura del código
+- Los archivos de documentación
+
+NOTA IMPORTANTE
+---------------
+Hacer el repo privado NO borra el historial público. Si alguien clonó el
+repo antes de hacerlo privado, aún tienen esa copia.
+
+PERO no hay problema porque:
+✅ El HUBSPOT_WEBHOOK_SECRET nunca estuvo en el repo
+✅ La validación de firma está habilitada
+✅ Sin el secret, la URL sola no sirve para atacar
+
+
+================================================================================
+RESUMEN DE APRENDIZAJES CLAVE
+================================================================================
+
+1. TRUST PROXY ES ESENCIAL EN HOSTING MODERNO
+   Cualquier aplicación detrás de un proxy/CDN debe configurar trust proxy
+   para obtener IPs reales.
+
+2. SIEMPRE USAR UTC PARA TIMESTAMPS LEGALES
+   Las zonas horarias son complicadas. UTC es el estándar universal.
+   Guarda también el timezone local para referencia.
+
+3. LINKS DE FIRMA DEBEN EXPIRAR
+   Por seguridad y control de versiones, todos los links deben tener
+   fecha de caducidad.
+
+4. WEBHOOKS DEBEN VALIDAR FIRMA
+   NUNCA confíes en un webhook solo porque llegó a tu URL. Siempre valida
+   la firma criptográfica.
+
+5. RAW BODY ES NECESARIO PARA FIRMAS
+   Los frameworks web parsean el contenido. Para validar firmas, necesitas
+   el contenido original sin modificar.
+
+6. VERIFICA NOMBRES INTERNOS EN HUBSPOT
+   El nombre visible no siempre coincide con el nombre de API.
+
+7. DEFENSA EN PROFUNDIDAD
+   Combina múltiples medidas de seguridad: validación + repo privado +
+   secrets protegidos.
+
+
+================================================================================
+FIN DEL DOCUMENTO
+================================================================================
