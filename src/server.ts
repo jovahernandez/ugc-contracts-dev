@@ -9,6 +9,15 @@ import path from 'path';
 import contractsRoutes from './routes/contractsRoutes';
 import webhookRoutes from './routes/webhookRoutes';
 
+// Extender el tipo Request de Express para incluir rawBody
+declare global {
+  namespace Express {
+    interface Request {
+      rawBody?: string;
+    }
+  }
+}
+
 const app = express();
 
 // Trust proxy para obtener IP real detrás de Railway/Codespaces/Vercel
@@ -28,8 +37,15 @@ console.log('[Env] HUBSPOT_BASE_URL:', process.env.HUBSPOT_BASE_URL);
 // Middlewares globales
 app.use(cors());
 
-// Body parsers
-app.use(express.json());
+// Body parsers con captura de raw body para validación de webhooks
+app.use(
+  express.json({
+    verify: (req: any, _res: any, buf: any, encoding: any) => {
+      // Guardar el raw body como string para validación de firma de webhooks
+      req.rawBody = buf.toString(encoding || 'utf8');
+    },
+  })
+);
 app.use(
   express.urlencoded({
     extended: true,

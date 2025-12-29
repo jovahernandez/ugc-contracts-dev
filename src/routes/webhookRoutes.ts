@@ -54,37 +54,43 @@ function saveSignature(record: SignatureRecord): void {
  * Docs: https://developers.hubspot.com/docs/api/webhooks/validating-requests
  */
 function validateHubSpotSignature(req: Request): boolean {
-  // TODO: Fix signature validation - temporarily disabled to test flow
-  // The issue is that Express parses JSON body and we lose the raw body needed for signature
-  console.warn('[Webhook] Signature validation temporarily disabled for testing');
-  return true;
-
-  /* Original validation code - needs raw body to work correctly
   if (!HUBSPOT_WEBHOOK_SECRET) {
     console.warn('[Webhook] HUBSPOT_WEBHOOK_SECRET not set - skipping signature validation (INSECURE)');
     return true;
   }
 
-  const signature = req.headers['x-hubspot-signature-v3'];
-  const requestBody = JSON.stringify(req.body);
-  const timestamp = req.headers['x-hubspot-request-timestamp'];
+  const signature = req.headers['x-hubspot-signature-v3'] as string;
+  const timestamp = req.headers['x-hubspot-request-timestamp'] as string;
 
   if (!signature || !timestamp) {
     console.error('[Webhook] Missing signature or timestamp headers');
     return false;
   }
 
+  // Usar el raw body capturado en server.ts
+  const requestBody = req.rawBody;
+
+  if (!requestBody) {
+    console.error('[Webhook] Raw body not available for signature validation');
+    return false;
+  }
+
+  // HubSpot v3 signature: timestamp + method + uri + body
   const sourceString = timestamp + req.method + req.originalUrl + requestBody;
   const hash = crypto.createHmac('sha256', HUBSPOT_WEBHOOK_SECRET).update(sourceString).digest('base64');
 
   const isValid = hash === signature;
 
   if (!isValid) {
-    console.error('[Webhook] Invalid signature:', { expected: hash, received: signature });
+    console.error('[Webhook] Invalid signature');
+    console.error('[Webhook] Expected:', hash);
+    console.error('[Webhook] Received:', signature);
+    console.error('[Webhook] Source string length:', sourceString.length);
+  } else {
+    console.log('[Webhook] ✅ Signature validation passed');
   }
 
   return isValid;
-  */
 }
 
 /**
