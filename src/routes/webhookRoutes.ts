@@ -68,9 +68,9 @@ function validateHubSpotSignature(req: Request): boolean {
     return false;
   }
 
-  // HubSpot firma con: SHA256(secret + method + uri + body + timestamp)
-  const sourceString = HUBSPOT_WEBHOOK_SECRET + req.method + req.originalUrl + requestBody + timestamp;
-  const hash = crypto.createHash('sha256').update(sourceString).digest('hex');
+  // HubSpot v3 firma con: HMAC-SHA256(secret, method + uri + body + timestamp) en base64
+  const sourceString = req.method + req.originalUrl + requestBody + timestamp;
+  const hash = crypto.createHmac('sha256', HUBSPOT_WEBHOOK_SECRET).update(sourceString).digest('base64');
 
   const isValid = hash === signature;
 
