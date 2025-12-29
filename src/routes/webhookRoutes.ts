@@ -225,7 +225,7 @@ async function handleGenerateContract(contactId: string, req: Request): Promise<
 
     // 5. Actualizar HubSpot con el link de firma
     await updateContactProperties(contactId, {
-      contract_link: signingUrl,
+      contract_link_preview: signingUrl,
       ready_to_generate: 'false', // Resetear para evitar loops
     });
 
