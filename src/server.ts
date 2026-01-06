@@ -8,6 +8,7 @@ import path from 'path';
 // IMPORTANTE: default import, NO llaves
 import contractsRoutes from './routes/contractsRoutes';
 import webhookRoutes from './routes/webhookRoutes';
+import declaracionRoutes from './routes/declaracionRoutes';
 
 // Extender el tipo Request de Express para incluir rawBody
 declare global {
@@ -66,6 +67,9 @@ app.use('/contracts', contractsRoutes);
 
 // Rutas de webhooks (HubSpot, etc.)
 app.use('/webhook', webhookRoutes);
+
+// Rutas de declaración de conflicto de interés (EFICENTA)
+app.use('/declaracion', declaracionRoutes);
 
 // Arranque del servidor
 app.listen(PORT, () => {
