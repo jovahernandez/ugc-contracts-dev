@@ -15,6 +15,10 @@ import {
   generateDocumentHash,
   type SignatureMetadata,
 } from '../utils/requestMetadata';
+import {
+  isGitHubStorageEnabled,
+  saveDeclaracionToGitHub,
+} from '../services/githubStorageService';
 
 const router = Router();
 
@@ -684,6 +688,33 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
     record.signatureMetadata = signatureMetadata;
     saveRecord(record);
 
+    // ✅ Persistir en GitHub automáticamente (si está configurado)
+    if (isGitHubStorageEnabled()) {
+      try {
+        const gitResult = await saveDeclaracionToGitHub(record.uid, {
+          uid: record.uid,
+          status: record.status,
+          proveedor: record.proveedorData,
+          signedAt: record.signedAt,
+          signedPdfUrl: record.signedPdfUrl,
+          signatureMetadata: {
+            ip: signatureMetadata.ip,
+            userAgent: signatureMetadata.userAgent,
+            signedAtUtc: signatureMetadata.signedAtUtc,
+            signedAtLocal: signatureMetadata.signedAtLocal,
+          },
+          documentHash: record.signedDocumentHash,
+        });
+        if (gitResult.success) {
+          console.log(`✅ Declaración ${record.uid} guardada en GitHub: ${gitResult.url}`);
+        } else {
+          console.warn(`⚠️ No se pudo guardar en GitHub: ${gitResult.message}`);
+        }
+      } catch (gitErr) {
+        console.warn('⚠️ Error al guardar en GitHub (no crítico):', gitErr);
+      }
+    }
+
     // Respuesta exitosa
     const html = `<!DOCTYPE html>
 <html lang="es">
@@ -767,6 +798,62 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
 });
 
 // ---------------------------------------------------------------------------
+// GET /declaracion/all
+// Lista todas las declaraciones (requiere API key)
+// ---------------------------------------------------------------------------
+router.get('/all', (req: Request, res: Response): void => {
+  try {
+    const apiKey = req.query.api_key as string || req.headers['x-api-key'] as string;
+    const expectedApiKey = process.env.EFICENTA_API_KEY || 'eficenta-secret-key';
+    
+    if (apiKey !== expectedApiKey) {
+      res.status(401).json({ error: 'API key inválida' });
+      return;
+    }
+
+    ensureDirs();
+    
+    const files = fs.readdirSync(declaracionesDir)
+      .filter(f => f.startsWith('record_') && f.endsWith('.json'));
+    
+    const records = files.map(file => {
+      try {
+        const record = JSON.parse(fs.readFileSync(path.join(declaracionesDir, file), 'utf-8'));
+        return {
+          uid: record.uid,
+          status: record.status,
+          proveedor: record.proveedorData?.nombre_proveedor_razon_social || null,
+          representante_legal: record.proveedorData?.nombre_representante_legal || null,
+          email: record.proveedorData?.email || null,
+          createdAt: record.createdAt,
+          signedAt: record.signedAt || null,
+          signedPdfUrl: record.signedPdfUrl || null,
+        };
+      } catch {
+        return null;
+      }
+    }).filter(Boolean);
+
+    // Estadísticas
+    const stats = {
+      total: records.length,
+      signed: records.filter(r => r?.status === 'signed').length,
+      pending_form: records.filter(r => r?.status === 'pending_form').length,
+      pending_signature: records.filter(r => r?.status === 'pending_signature').length,
+    };
+
+    res.json({
+      success: true,
+      stats,
+      records,
+    });
+  } catch (err: any) {
+    console.error('Error en GET /declaracion/all:', err);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// ---------------------------------------------------------------------------
 // GET /declaracion/status?uid=XXX
 // API JSON para que EFICENTA consulte el status
 // ---------------------------------------------------------------------------
@@ -802,6 +889,204 @@ router.get('/status', (req: Request, res: Response): void => {
   } catch (err: any) {
     console.error('Error en GET /declaracion/status:', err);
     res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// POST /declaracion/webhook/crear
+// Webhook para que EFICENTA cree un link de declaración dinámicamente
+// ---------------------------------------------------------------------------
+router.post('/webhook/crear', (req: Request, res: Response): void => {
+  try {
+    const { uid, api_key } = req.body || {};
+
+    // Validar API key (configurable por env)
+    const expectedApiKey = process.env.EFICENTA_API_KEY || 'eficenta-secret-key';
+    if (api_key !== expectedApiKey) {
+      res.status(401).json({
+        success: false,
+        error: 'API key inválida',
+      });
+      return;
+    }
+
+    // Validar uid
+    if (!uid || typeof uid !== 'string' || uid.trim() === '') {
+      res.status(400).json({
+        success: false,
+        error: 'uid es requerido',
+      });
+      return;
+    }
+
+    const cleanUid = uid.trim();
+    ensureDirs();
+
+    // Verificar si ya existe un registro para este uid
+    let record = loadRecord(cleanUid);
+    const publicBaseUrl = process.env.PUBLIC_BASE_URL || `${req.protocol}://${req.get('host')}`;
+
+    if (record) {
+      // Si ya existe y está firmado, devolver info
+      if (record.status === 'signed') {
+        res.json({
+          success: true,
+          uid: cleanUid,
+          status: 'already_signed',
+          message: 'Este proveedor ya firmó la declaración',
+          signedAt: record.signedAt,
+          signedPdfUrl: record.signedPdfUrl,
+        });
+        return;
+      }
+
+      // Si existe pero no está firmado, devolver el link existente
+      const formUrl = `${publicBaseUrl}/declaracion?uid=${encodeURIComponent(cleanUid)}`;
+      res.json({
+        success: true,
+        uid: cleanUid,
+        status: record.status,
+        message: 'Registro existente, link disponible',
+        formUrl,
+        statusUrl: `${publicBaseUrl}/declaracion/status?uid=${encodeURIComponent(cleanUid)}`,
+        createdAt: record.createdAt,
+      });
+      return;
+    }
+
+    // Crear nuevo registro
+    const token = randomUUID();
+    const now = new Date();
+
+    record = {
+      uid: cleanUid,
+      token,
+      status: 'pending_form',
+      createdAt: now.toISOString(),
+    };
+
+    saveRecord(record);
+
+    const formUrl = `${publicBaseUrl}/declaracion?uid=${encodeURIComponent(cleanUid)}`;
+    const statusUrl = `${publicBaseUrl}/declaracion/status?uid=${encodeURIComponent(cleanUid)}`;
+
+    res.json({
+      success: true,
+      uid: cleanUid,
+      status: 'pending_form',
+      message: 'Link creado exitosamente',
+      formUrl,
+      statusUrl,
+      createdAt: record.createdAt,
+    });
+
+  } catch (err: any) {
+    console.error('Error en POST /declaracion/webhook/crear:', err);
+    res.status(500).json({
+      success: false,
+      error: 'Error interno del servidor',
+    });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// POST /declaracion/webhook/bulk
+// Webhook para crear múltiples links en una sola llamada
+// ---------------------------------------------------------------------------
+router.post('/webhook/bulk', (req: Request, res: Response): void => {
+  try {
+    const { uids, api_key } = req.body || {};
+
+    // Validar API key
+    const expectedApiKey = process.env.EFICENTA_API_KEY || 'eficenta-secret-key';
+    if (api_key !== expectedApiKey) {
+      res.status(401).json({
+        success: false,
+        error: 'API key inválida',
+      });
+      return;
+    }
+
+    // Validar uids
+    if (!Array.isArray(uids) || uids.length === 0) {
+      res.status(400).json({
+        success: false,
+        error: 'uids debe ser un array no vacío',
+      });
+      return;
+    }
+
+    if (uids.length > 100) {
+      res.status(400).json({
+        success: false,
+        error: 'Máximo 100 uids por llamada',
+      });
+      return;
+    }
+
+    ensureDirs();
+    const publicBaseUrl = process.env.PUBLIC_BASE_URL || `${req.protocol}://${req.get('host')}`;
+    const results: any[] = [];
+
+    for (const uid of uids) {
+      if (!uid || typeof uid !== 'string' || uid.trim() === '') {
+        results.push({
+          uid,
+          success: false,
+          error: 'uid inválido',
+        });
+        continue;
+      }
+
+      const cleanUid = uid.trim();
+      let record = loadRecord(cleanUid);
+
+      if (record) {
+        // Ya existe
+        results.push({
+          uid: cleanUid,
+          success: true,
+          status: record.status,
+          formUrl: `${publicBaseUrl}/declaracion?uid=${encodeURIComponent(cleanUid)}`,
+          signedPdfUrl: record.signedPdfUrl || null,
+          existing: true,
+        });
+      } else {
+        // Crear nuevo
+        const token = randomUUID();
+        record = {
+          uid: cleanUid,
+          token,
+          status: 'pending_form',
+          createdAt: new Date().toISOString(),
+        };
+        saveRecord(record);
+
+        results.push({
+          uid: cleanUid,
+          success: true,
+          status: 'pending_form',
+          formUrl: `${publicBaseUrl}/declaracion?uid=${encodeURIComponent(cleanUid)}`,
+          existing: false,
+        });
+      }
+    }
+
+    res.json({
+      success: true,
+      total: uids.length,
+      created: results.filter(r => r.success && !r.existing).length,
+      existing: results.filter(r => r.success && r.existing).length,
+      failed: results.filter(r => !r.success).length,
+      results,
+    });
+
+  } catch (err: any) {
+    console.error('Error en POST /declaracion/webhook/bulk:', err);
+    res.status(500).json({
+      success: false,
+      error: 'Error interno del servidor',
+    });
   }
 });
 

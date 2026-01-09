@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: add HubSpot webhook integration for automatic contract generation\n\n- Add webhook endpoint to receive HubSpot property change events\n- Validate webhook signatures with SHA-256 for security\n- Auto-generate contracts when ready_to_generate=true\n- Auto-create signature links with 5-day expiration\n- Update HubSpot with contract_link automatically\n- Reset ready_to_generate to prevent loops\n- Add comprehensive setup documentation\n- Add .env.example with all required variables\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(node:*)",
+      "Bash(python3:*)",
+      "Bash(powershell:*)",
+      "Bash(git checkout:*)",
+      "Bash(git pull:*)",
+      "Bash(git merge:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
