@@ -42,8 +42,6 @@ ensureDirs();
 interface ProveedorData {
   nombre_proveedor_razon_social: string;
   nombre_representante_legal: string;
-  domicilio: string;
-  telefono: string;
   email: string;
 }
 
@@ -170,6 +168,16 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
+    .logo-container {
+      text-align: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .logo-container img {
+      max-width: 180px;
+      height: auto;
+    }
     h1 {
       font-size: 20px;
       color: #1e40af;
@@ -226,27 +234,25 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
 </head>
 <body>
   <div class="container">
+    <div class="logo-container">
+      <img src="/assets/another-logo.svg" alt="Another">
+    </div>
+    
     <h1>📋 Declaración de Ausencia de Conflicto de Interés</h1>
     <p class="subtitle">Complete los siguientes datos para generar su declaración</p>
     
     <div class="info">
-      <strong>ID del Proveedor:</strong> ${uid}
+      <strong>ID del Proveedor:</strong> \${uid}
     </div>
 
     <form action="/declaracion/generar" method="POST">
-      <input type="hidden" name="uid" value="${uid}">
+      <input type="hidden" name="uid" value="\${uid}">
       
       <label for="nombre_proveedor_razon_social">Nombre o Razón Social del Proveedor *</label>
       <input type="text" id="nombre_proveedor_razon_social" name="nombre_proveedor_razon_social" required placeholder="Ej: Empresa ABC S.A. de C.V.">
       
       <label for="nombre_representante_legal">Nombre del Representante Legal *</label>
       <input type="text" id="nombre_representante_legal" name="nombre_representante_legal" required placeholder="Ej: Juan Pérez García">
-      
-      <label for="domicilio">Domicilio *</label>
-      <input type="text" id="domicilio" name="domicilio" required placeholder="Ej: Av. Reforma 123, Col. Centro, CDMX">
-      
-      <label for="telefono">Teléfono *</label>
-      <input type="tel" id="telefono" name="telefono" required placeholder="Ej: 55 1234 5678">
       
       <label for="email">Correo Electrónico *</label>
       <input type="email" id="email" name="email" required placeholder="Ej: contacto@empresa.com">
@@ -274,12 +280,10 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
       uid,
       nombre_proveedor_razon_social,
       nombre_representante_legal,
-      domicilio,
-      telefono,
       email,
     } = req.body;
 
-    if (!uid || !nombre_proveedor_razon_social || !nombre_representante_legal || !domicilio || !telefono || !email) {
+    if (!uid || !nombre_proveedor_razon_social || !nombre_representante_legal || !email) {
       res.status(400).send('<h1>Error</h1><p>Todos los campos son obligatorios.</p>');
       return;
     }
@@ -289,8 +293,6 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
     const proveedorData: ProveedorData = {
       nombre_proveedor_razon_social,
       nombre_representante_legal,
-      domicilio,
-      telefono,
       email,
     };
 
@@ -312,8 +314,6 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
     doc.render({
       nombre_proveedor_razon_social,
       nombre_representante_legal,
-      domicilio,
-      telefono,
       email,
       fecha_de_la_firma: '',
     });
@@ -406,6 +406,16 @@ router.get('/firmar/:token', async (req: Request, res: Response): Promise<void> 
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
+    .logo-container {
+      text-align: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .logo-container img {
+      max-width: 180px;
+      height: auto;
+    }
     h1 { font-size: 20px; color: #1e40af; }
     h2 { font-size: 16px; margin-top: 24px; }
     .document-preview {
@@ -470,11 +480,15 @@ router.get('/firmar/:token', async (req: Request, res: Response): Promise<void> 
 </head>
 <body>
   <div class="container">
+    <div class="logo-container">
+      <img src="/assets/another-logo.svg" alt="Another">
+    </div>
+    
     <h1>📋 Declaración de Ausencia de Conflicto de Interés</h1>
     
     <div class="info-box">
-      <strong>Proveedor:</strong> ${record.proveedorData?.nombre_proveedor_razon_social || 'N/A'}<br>
-      <strong>Representante Legal:</strong> ${record.proveedorData?.nombre_representante_legal || 'N/A'}
+      <strong>Proveedor:</strong> \${record.proveedorData?.nombre_proveedor_razon_social || 'N/A'}<br>
+      <strong>Representante Legal:</strong> \${record.proveedorData?.nombre_representante_legal || 'N/A'}
     </div>
 
     <h2>1. Revise el documento</h2>
@@ -738,6 +752,16 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       text-align: center;
     }
+    .logo-container {
+      text-align: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .logo-container img {
+      max-width: 180px;
+      height: auto;
+    }
     .success-icon { font-size: 64px; margin-bottom: 16px; }
     h1 { color: #16a34a; }
     .download-btn {
@@ -770,21 +794,25 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
 </head>
 <body>
   <div class="container">
+    <div class="logo-container">
+      <img src="/assets/another-logo.svg" alt="Another">
+    </div>
+    
     <div class="success-icon">✅</div>
     <h1>¡Declaración Firmada Exitosamente!</h1>
     <p>Su declaración de ausencia de conflicto de interés ha sido registrada.</p>
     
-    <a href="${signedPdfUrl}" class="download-btn" download>📄 Descargar PDF Firmado</a>
+    <a href="\${signedPdfUrl}" class="download-btn" download>📄 Descargar PDF Firmado</a>
     
     <div class="info">
-      <p><strong>Proveedor:</strong> ${record.proveedorData?.nombre_proveedor_razon_social}</p>
-      <p><strong>Representante Legal:</strong> ${record.proveedorData?.nombre_representante_legal}</p>
-      <p><strong>Fecha de firma:</strong> ${fechaFirma}</p>
+      <p><strong>Proveedor:</strong> \${record.proveedorData?.nombre_proveedor_razon_social}</p>
+      <p><strong>Representante Legal:</strong> \${record.proveedorData?.nombre_representante_legal}</p>
+      <p><strong>Fecha de firma:</strong> \${fechaFirma}</p>
     </div>
     
     <div class="metadata">
-      <p>ID: ${record.uid} | IP: ${signatureMetadata.ip}</p>
-      <p>Hora UTC: ${signatureMetadata.signedAtUtc}</p>
+      <p>ID: \${record.uid} | IP: \${signatureMetadata.ip}</p>
+      <p>Hora UTC: \${signatureMetadata.signedAtUtc}</p>
     </div>
   </div>
 </body>

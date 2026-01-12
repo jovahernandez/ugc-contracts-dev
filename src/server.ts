@@ -56,6 +56,9 @@ app.use(
 // Archivos estáticos (DOCX, PDF, firmas, etc.)
 app.use('/storage', express.static(storageRootPath));
 
+// Assets estáticos (logos, imágenes, etc.)
+app.use('/assets', express.static(path.join(__dirname, 'assets')));
+
 // Healthcheck básico
 app.get('/health', (_req, res) => {
   res.json({ status: 'ok' });
