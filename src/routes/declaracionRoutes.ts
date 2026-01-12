@@ -235,18 +235,18 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
 <body>
   <div class="container">
     <div class="logo-container">
-      <img src="/assets/another-logo.svg" alt="Another">
+      <img src="https://raw.githubusercontent.com/jovahernandez/ugc-contracts-dev/main/src/assets/another-logo.svg" alt="Another">
     </div>
     
     <h1>📋 Declaración de Ausencia de Conflicto de Interés</h1>
     <p class="subtitle">Complete los siguientes datos para generar su declaración</p>
     
     <div class="info">
-      <strong>ID del Proveedor:</strong> \${uid}
+      <strong>ID del Proveedor:</strong> ${uid}
     </div>
 
     <form action="/declaracion/generar" method="POST">
-      <input type="hidden" name="uid" value="\${uid}">
+      <input type="hidden" name="uid" value="${uid}">
       
       <label for="nombre_proveedor_razon_social">Nombre o Razón Social del Proveedor *</label>
       <input type="text" id="nombre_proveedor_razon_social" name="nombre_proveedor_razon_social" required placeholder="Ej: Empresa ABC S.A. de C.V.">
@@ -481,14 +481,14 @@ router.get('/firmar/:token', async (req: Request, res: Response): Promise<void> 
 <body>
   <div class="container">
     <div class="logo-container">
-      <img src="/assets/another-logo.svg" alt="Another">
+      <img src="https://raw.githubusercontent.com/jovahernandez/ugc-contracts-dev/main/src/assets/another-logo.svg" alt="Another">
     </div>
     
     <h1>📋 Declaración de Ausencia de Conflicto de Interés</h1>
     
     <div class="info-box">
-      <strong>Proveedor:</strong> \${record.proveedorData?.nombre_proveedor_razon_social || 'N/A'}<br>
-      <strong>Representante Legal:</strong> \${record.proveedorData?.nombre_representante_legal || 'N/A'}
+      <strong>Proveedor:</strong> ${record.proveedorData?.nombre_proveedor_razon_social || 'N/A'}<br>
+      <strong>Representante Legal:</strong> ${record.proveedorData?.nombre_representante_legal || 'N/A'}
     </div>
 
     <h2>1. Revise el documento</h2>
@@ -795,24 +795,24 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
 <body>
   <div class="container">
     <div class="logo-container">
-      <img src="/assets/another-logo.svg" alt="Another">
+      <img src="https://raw.githubusercontent.com/jovahernandez/ugc-contracts-dev/main/src/assets/another-logo.svg" alt="Another">
     </div>
     
     <div class="success-icon">✅</div>
     <h1>¡Declaración Firmada Exitosamente!</h1>
     <p>Su declaración de ausencia de conflicto de interés ha sido registrada.</p>
     
-    <a href="\${signedPdfUrl}" class="download-btn" download>📄 Descargar PDF Firmado</a>
+    <a href="${signedPdfUrl}" class="download-btn" download>📄 Descargar PDF Firmado</a>
     
     <div class="info">
-      <p><strong>Proveedor:</strong> \${record.proveedorData?.nombre_proveedor_razon_social}</p>
-      <p><strong>Representante Legal:</strong> \${record.proveedorData?.nombre_representante_legal}</p>
-      <p><strong>Fecha de firma:</strong> \${fechaFirma}</p>
+      <p><strong>Proveedor:</strong> ${record.proveedorData?.nombre_proveedor_razon_social}</p>
+      <p><strong>Representante Legal:</strong> ${record.proveedorData?.nombre_representante_legal}</p>
+      <p><strong>Fecha de firma:</strong> ${fechaFirma}</p>
     </div>
     
     <div class="metadata">
-      <p>ID: \${record.uid} | IP: \${signatureMetadata.ip}</p>
-      <p>Hora UTC: \${signatureMetadata.signedAtUtc}</p>
+      <p>ID: ${record.uid} | IP: ${signatureMetadata.ip}</p>
+      <p>Hora UTC: ${signatureMetadata.signedAtUtc}</p>
     </div>
   </div>
 </body>
