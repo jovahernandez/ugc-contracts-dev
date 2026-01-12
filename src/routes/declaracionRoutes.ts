@@ -749,11 +749,16 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
       }
     }
 
-    // Variable para el template
-    const signedPdfUrl = record.signedPdfUrl;
+    // Convertir documento a base64 para descarga directa (evita problema de storage efímero)
+    const docBase64 = signedDocBuffer.toString('base64');
+    const isDocx = finalFilePath.endsWith('.docx');
+    const mimeType = isDocx ? 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' : 'application/pdf';
+    const fileExt = isDocx ? 'docx' : 'pdf';
+    const dataUrl = `data:${mimeType};base64,${docBase64}`;
+    const downloadFileName = `declaracion_${record.uid}_firmada.${fileExt}`;
 
     // Respuesta exitosa
-    const html = `<!DOCTYPE html>>
+    const html = `<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -825,7 +830,7 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
     <h1>¡Declaración Firmada Exitosamente!</h1>
     <p>Su declaración de ausencia de conflicto de interés ha sido registrada.</p>
     
-    <a href="${signedPdfUrl}" class="download-btn" download>📄 Descargar Documento Firmado</a>
+    <a href="${dataUrl}" class="download-btn" download="${downloadFileName}">📄 Descargar Documento Firmado</a>
     
     <div class="info">
       <p><strong>Proveedor:</strong> ${record.proveedorData?.nombre_proveedor_razon_social}</p>
