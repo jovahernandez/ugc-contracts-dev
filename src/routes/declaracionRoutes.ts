@@ -315,6 +315,8 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
       nombre_proveedor_razon_social,
       nombre_representante_legal,
       email,
+      domicilio: '',
+      telefono: '',
       fecha_de_la_firma: '',
     });
 
@@ -382,7 +384,13 @@ router.get('/firmar/:token', async (req: Request, res: Response): Promise<void> 
       return;
     }
 
-    const documentHtml = await convertDocxToHtml(record.docxPath);
+    let documentHtml = await convertDocxToHtml(record.docxPath);
+    // Limpiar líneas de Domicilio y Teléfono vacíos
+    documentHtml = documentHtml
+      .replace(/<p[^>]*>\s*Domicilio:\s*<\/p>/gi, '')
+      .replace(/<p[^>]*>\s*Tel[ée]fono:\s*<\/p>/gi, '')
+      .replace(/Domicilio:\s*(<br\s*\/?>|\n|\r|<\/p>)/gi, '')
+      .replace(/Tel[ée]fono:\s*(<br\s*\/?>|\n|\r|<\/p>)/gi, '');
 
     const html = `<!DOCTYPE html>
 <html lang="es">
@@ -670,6 +678,8 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
 
     doc.render({
       ...record.proveedorData,
+      domicilio: '',
+      telefono: '',
       fecha_de_la_firma: fechaFirma,
       firma_proveedor: signatureImagePath,
     });
