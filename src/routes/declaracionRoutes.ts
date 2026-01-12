@@ -678,15 +678,25 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
     const signedDocxPath = path.join(signedDir, `declaracion_${record.uid}_signed.docx`);
     fs.writeFileSync(signedDocxPath, signedDocxBuffer);
 
-    // Convertir a PDF
-    const pdfPath = await convertDocxToPdf(signedDocxPath, signedDir);
-
     const publicBaseUrl = process.env.PUBLIC_BASE_URL || `${req.protocol}://${req.get('host')}`;
-    const pdfRelative = path.relative(storageRoot, pdfPath).replace(/\\/g, '/');
-    const signedPdfUrl = `${publicBaseUrl}/storage/${pdfRelative}`;
+    
+    // Intentar convertir a PDF, si falla usar DOCX
+    let finalFilePath = signedDocxPath;
+    let finalFileUrl: string;
+    
+    try {
+      const pdfPath = await convertDocxToPdf(signedDocxPath, signedDir);
+      finalFilePath = pdfPath;
+      const pdfRelative = path.relative(storageRoot, pdfPath).replace(/\\/g, '/');
+      finalFileUrl = `${publicBaseUrl}/storage/${pdfRelative}`;
+    } catch (pdfErr: any) {
+      console.warn('⚠️ CloudConvert falló, usando DOCX:', pdfErr.message);
+      const docxRelative = path.relative(storageRoot, signedDocxPath).replace(/\\/g, '/');
+      finalFileUrl = `${publicBaseUrl}/storage/${docxRelative}`;
+    }
 
     // Generar hash del documento firmado
-    const signedDocBuffer = fs.readFileSync(pdfPath);
+    const signedDocBuffer = fs.readFileSync(finalFilePath);
     const signedDocumentHash = generateDocumentHash(signedDocBuffer);
 
     // Metadata de firma
@@ -696,8 +706,8 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
     record.status = 'signed';
     record.signedAt = signedAt.toISOString();
     record.signatureImagePath = signatureImagePath;
-    record.signedPdfPath = pdfPath;
-    record.signedPdfUrl = signedPdfUrl;
+    record.signedPdfPath = finalFilePath;
+    record.signedPdfUrl = finalFileUrl;
     record.signedDocumentHash = signedDocumentHash;
     record.signatureMetadata = signatureMetadata;
     saveRecord(record);
@@ -729,8 +739,11 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
       }
     }
 
+    // Variable para el template
+    const signedPdfUrl = record.signedPdfUrl;
+
     // Respuesta exitosa
-    const html = `<!DOCTYPE html>
+    const html = `<!DOCTYPE html>>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -802,7 +815,7 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
     <h1>¡Declaración Firmada Exitosamente!</h1>
     <p>Su declaración de ausencia de conflicto de interés ha sido registrada.</p>
     
-    <a href="${signedPdfUrl}" class="download-btn" download>📄 Descargar PDF Firmado</a>
+    <a href="${signedPdfUrl}" class="download-btn" download>📄 Descargar Documento Firmado</a>
     
     <div class="info">
       <p><strong>Proveedor:</strong> ${record.proveedorData?.nombre_proveedor_razon_social}</p>
