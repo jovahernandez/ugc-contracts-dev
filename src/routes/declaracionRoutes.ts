@@ -343,6 +343,28 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
     };
     saveRecord(record);
 
+    // ✅ Persistir en GitHub inmediatamente (evita pérdida de datos en restart)
+    if (isGitHubStorageEnabled()) {
+      try {
+        const gitResult = await saveDeclaracionToGitHub(record.uid, {
+          uid: record.uid,
+          status: record.status,
+          proveedor: record.proveedorData,
+          signedAt: null,
+          signedPdfUrl: null,
+          signatureMetadata: null,
+          documentHash: record.documentHash,
+        });
+        if (gitResult.success) {
+          console.log(`✅ Declaración ${record.uid} (pending_signature) guardada en GitHub: ${gitResult.url}`);
+        } else {
+          console.warn(`⚠️ No se pudo guardar en GitHub: ${gitResult.message}`);
+        }
+      } catch (gitErr) {
+        console.warn('⚠️ Error al guardar en GitHub (no crítico):', gitErr);
+      }
+    }
+
     // Redirigir a página de firma
     res.redirect(`/declaracion/firmar/${token}`);
   } catch (err: any) {
@@ -952,7 +974,7 @@ router.get('/status', (req: Request, res: Response): void => {
 // POST /declaracion/webhook/crear
 // Webhook para que EFICENTA cree un link de declaración dinámicamente
 // ---------------------------------------------------------------------------
-router.post('/webhook/crear', (req: Request, res: Response): void => {
+router.post('/webhook/crear', async (req: Request, res: Response): Promise<void> => {
   try {
     const { uid, api_key } = req.body || {};
 
@@ -1022,6 +1044,28 @@ router.post('/webhook/crear', (req: Request, res: Response): void => {
     };
 
     saveRecord(record);
+
+    // ✅ Persistir en GitHub inmediatamente (evita pérdida de datos en restart)
+    if (isGitHubStorageEnabled()) {
+      try {
+        const gitResult = await saveDeclaracionToGitHub(record.uid, {
+          uid: record.uid,
+          status: record.status,
+          proveedor: null, // Aún no tiene datos del proveedor
+          signedAt: null,
+          signedPdfUrl: null,
+          signatureMetadata: null,
+          documentHash: null,
+        });
+        if (gitResult.success) {
+          console.log(`✅ Declaración ${record.uid} (pending_form) guardada en GitHub: ${gitResult.url}`);
+        } else {
+          console.warn(`⚠️ No se pudo guardar en GitHub: ${gitResult.message}`);
+        }
+      } catch (gitErr) {
+        console.warn('⚠️ Error al guardar en GitHub (no crítico):', gitErr);
+      }
+    }
 
     const formUrl = `${publicBaseUrl}/declaracion?uid=${encodeURIComponent(cleanUid)}`;
     const statusUrl = `${publicBaseUrl}/declaracion/status?uid=${encodeURIComponent(cleanUid)}`;
