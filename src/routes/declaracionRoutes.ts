@@ -19,6 +19,7 @@ import {
   isGitHubStorageEnabled,
   saveDeclaracionToGitHub,
   loadDeclaracionFromGitHub,
+  loadDeclaracionFromGitHubByToken,
 } from '../services/githubStorageService';
 
 const router = Router();
@@ -76,6 +77,57 @@ function getRecordByToken(token: string): DeclaracionRecord | null {
       if (record.token === token) return record;
     } catch {}
   }
+  return null;
+}
+
+/**
+ * Busca un registro por token con fallback a GitHub
+ * Versión async que soporta lookup en GitHub si el local no existe
+ */
+async function getRecordByTokenAsync(token: string): Promise<DeclaracionRecord | null> {
+  // 1. Intentar buscar en local primero (rápido)
+  try {
+    ensureDirs();
+    if (fs.existsSync(declaracionesDir)) {
+      const files = fs.readdirSync(declaracionesDir).filter(f => f.startsWith('record_') && f.endsWith('.json'));
+      for (const file of files) {
+        try {
+          const record = JSON.parse(fs.readFileSync(path.join(declaracionesDir, file), 'utf-8'));
+          if (record.token === token) {
+            return record;
+          }
+        } catch {}
+      }
+    }
+  } catch (err) {
+    console.error(`Error buscando token localmente:`, err);
+  }
+
+  // 2. Si no existe localmente, intentar desde GitHub (fallback)
+  if (isGitHubStorageEnabled()) {
+    try {
+      console.log(`[GitHub Fallback] Buscando token ${token} en GitHub...`);
+      const record = await loadDeclaracionFromGitHubByToken(token);
+
+      if (record) {
+        console.log(`✅ [GitHub Fallback] Token ${token} encontrado en GitHub`);
+
+        // 3. Guardar en local para próximas consultas (cache)
+        ensureDirs();
+        const filePath = getRecordPath(record.uid);
+        fs.writeFileSync(filePath, JSON.stringify(record, null, 2), 'utf-8');
+        console.log(`✅ [GitHub Fallback] Token ${token} guardado en cache local`);
+
+        return record as DeclaracionRecord;
+      } else {
+        console.log(`⚠️ [GitHub Fallback] Token ${token} no encontrado en GitHub`);
+      }
+    } catch (err) {
+      console.error(`Error cargando token desde GitHub:`, err);
+    }
+  }
+
+  // 3. No encontrado en ningún lado
   return null;
 }
 
@@ -427,7 +479,7 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
 router.get('/firmar/:token', async (req: Request, res: Response): Promise<void> => {
   try {
     const { token } = req.params;
-    const record = getRecordByToken(token);
+    const record = await getRecordByTokenAsync(token);
 
     if (!record) {
       res.status(404).send('<h1>Enlace no válido</h1><p>El enlace de firma no existe o ha expirado.</p>');
@@ -689,7 +741,7 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
     const { token } = req.params;
     const { accepted, signatureData, timezoneOffset } = req.body;
 
-    const record = getRecordByToken(token);
+    const record = await getRecordByTokenAsync(token);
 
     if (!record) {
       res.status(404).send('<h1>Enlace no válido</h1>');

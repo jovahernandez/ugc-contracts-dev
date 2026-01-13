@@ -176,23 +176,93 @@ export async function loadFromGitHub<T>(filePath: string): Promise<T | null> {
 
 /**
  * Guarda un registro de declaración en GitHub (en path predecible para lookup)
+ * Guarda en dos ubicaciones: by-uid y by-token para permitir búsqueda por ambos
  */
 export async function saveDeclaracionToGitHub(
   uid: string,
-  data: object
+  data: any
 ): Promise<CommitResult> {
-  // Guardar en path predecible para fácil lookup
-  const filePath = `data/declaraciones/by-uid/${uid}.json`;
+  // Guardar por UID (principal)
+  const filePathByUid = `data/declaraciones/by-uid/${uid}.json`;
   const commitMessage = `📝 Declaración: ${uid} - ${new Date().toLocaleString('es-MX')}`;
 
-  return saveToGitHub(filePath, data, commitMessage);
+  const result = await saveToGitHub(filePathByUid, data, commitMessage);
+
+  // Si tiene token, también guardar por token para lookup rápido
+  if (data.token) {
+    const filePathByToken = `data/declaraciones/by-token/${data.token}.json`;
+    const commitMessageToken = `🔗 Declaración por token: ${data.token} -> ${uid}`;
+
+    // Guardar en paralelo (no bloqueante)
+    saveToGitHub(filePathByToken, data, commitMessageToken).catch(err => {
+      console.warn(`⚠️ No se pudo guardar en GitHub por token: ${err.message}`);
+    });
+  }
+
+  return result;
 }
 
 /**
  * Carga un registro de declaración desde GitHub por UID
+ * Intenta primero el path nuevo, luego busca en formato legacy (fecha_uid.json)
  */
 export async function loadDeclaracionFromGitHub(uid: string): Promise<any | null> {
+  // 1. Intentar path nuevo
   const filePath = `data/declaraciones/by-uid/${uid}.json`;
+  let record = await loadFromGitHub(filePath);
+
+  if (record) {
+    return record;
+  }
+
+  // 2. Intentar path legacy (formato: YYYY-MM-DD_UID.json)
+  // Buscar en commits recientes que contengan el UID
+  console.log(`[Legacy Path] Buscando ${uid} en formato legacy...`);
+
+  try {
+    const { token, repo, owner, branch } = getGitHubConfig();
+    if (!token) return null;
+
+    // Listar archivos en el directorio raíz de declaraciones
+    const url = `https://api.github.com/repos/${owner}/${repo}/contents/data/declaraciones?ref=${branch}`;
+    const response = await fetch(url, {
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'another-ugc-contracts',
+      },
+    });
+
+    if (response.ok) {
+      const files = await response.json();
+
+      // Buscar archivo que termine con _UID.json
+      const legacyFile = files.find((f: any) =>
+        f.name.endsWith(`_${uid}.json`) && f.type === 'file'
+      );
+
+      if (legacyFile) {
+        console.log(`✅ [Legacy Path] Encontrado: ${legacyFile.name}`);
+        const legacyPath = `data/declaraciones/${legacyFile.name}`;
+        record = await loadFromGitHub(legacyPath);
+
+        if (record) {
+          return record;
+        }
+      }
+    }
+  } catch (err) {
+    console.error(`Error buscando en legacy path:`, err);
+  }
+
+  return null;
+}
+
+/**
+ * Carga un registro de declaración desde GitHub por token
+ */
+export async function loadDeclaracionFromGitHubByToken(token: string): Promise<any | null> {
+  const filePath = `data/declaraciones/by-token/${token}.json`;
   return loadFromGitHub(filePath);
 }
 
