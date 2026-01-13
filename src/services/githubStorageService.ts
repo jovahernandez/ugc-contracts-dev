@@ -284,3 +284,119 @@ export async function saveDeclaracionesIndex(
 export async function loadDeclaracionesIndex<T>(): Promise<T[] | null> {
   return loadFromGitHub<T[]>('data/declaraciones/index.json');
 }
+
+/**
+ * Guarda un archivo binario (DOCX, PDF, etc.) en GitHub
+ */
+export async function saveFileToGitHub(
+  filePath: string,
+  fileBuffer: Buffer,
+  commitMessage: string
+): Promise<CommitResult> {
+  const { token, repo, owner, branch } = getGitHubConfig();
+
+  if (!token) {
+    return {
+      success: false,
+      message: 'GitHub token not configured (GITHUB_TOKEN env var)',
+    };
+  }
+
+  try {
+    // Codificar archivo en base64
+    const contentBase64 = fileBuffer.toString('base64');
+
+    // Verificar si el archivo ya existe para obtener su SHA
+    const existingFile = await getFileFromGitHub(filePath);
+
+    // Preparar el payload
+    const payload: any = {
+      message: commitMessage,
+      content: contentBase64,
+      branch,
+    };
+
+    // Si el archivo existe, incluir SHA para actualizar
+    if (existingFile?.sha) {
+      payload.sha = existingFile.sha;
+    }
+
+    // Hacer el commit
+    const url = `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`;
+    const response = await fetch(url, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json',
+        'User-Agent': 'another-ugc-contracts',
+      },
+      body: JSON.stringify(payload),
+    });
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error('GitHub file commit failed:', response.status, errorText);
+      return {
+        success: false,
+        message: `GitHub API error: ${response.status}`,
+      };
+    }
+
+    const result = await response.json();
+
+    console.log(`✅ GitHub file committed: ${filePath}`);
+
+    return {
+      success: true,
+      message: 'File committed to GitHub',
+      sha: result.commit?.sha,
+      url: result.content?.html_url,
+    };
+
+  } catch (err: any) {
+    console.error('Error saving file to GitHub:', err);
+    return {
+      success: false,
+      message: err.message || 'Unknown error',
+    };
+  }
+}
+
+/**
+ * Carga un archivo binario desde GitHub
+ */
+export async function loadFileFromGitHub(filePath: string): Promise<Buffer | null> {
+  try {
+    const file = await getFileFromGitHub(filePath);
+
+    if (!file?.content) return null;
+
+    // Decodificar base64 a Buffer
+    return Buffer.from(file.content, 'base64');
+  } catch (err) {
+    console.error('Error loading file from GitHub:', err);
+    return null;
+  }
+}
+
+/**
+ * Guarda el DOCX firmado de una declaración en GitHub
+ */
+export async function saveSignedDocxToGitHub(
+  uid: string,
+  fileBuffer: Buffer
+): Promise<CommitResult> {
+  const filePath = `data/declaraciones/signed/${uid}.docx`;
+  const commitMessage = `📄 DOCX firmado: ${uid} - ${new Date().toLocaleString('es-MX')}`;
+
+  return saveFileToGitHub(filePath, fileBuffer, commitMessage);
+}
+
+/**
+ * Carga el DOCX firmado de una declaración desde GitHub
+ */
+export async function loadSignedDocxFromGitHub(uid: string): Promise<Buffer | null> {
+  const filePath = `data/declaraciones/signed/${uid}.docx`;
+  return loadFileFromGitHub(filePath);
+}

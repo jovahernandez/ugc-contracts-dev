@@ -20,6 +20,8 @@ import {
   saveDeclaracionToGitHub,
   loadDeclaracionFromGitHub,
   loadDeclaracionFromGitHubByToken,
+  saveSignedDocxToGitHub,
+  loadSignedDocxFromGitHub,
 } from '../services/githubStorageService';
 
 const router = Router();
@@ -810,21 +812,13 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
     fs.writeFileSync(signedDocxPath, signedDocxBuffer);
 
     const publicBaseUrl = process.env.PUBLIC_BASE_URL || `${req.protocol}://${req.get('host')}`;
-    
-    // Intentar convertir a PDF, si falla usar DOCX
-    let finalFilePath = signedDocxPath;
-    let finalFileUrl: string;
-    
-    try {
-      const pdfPath = await convertDocxToPdf(signedDocxPath, signedDir);
-      finalFilePath = pdfPath;
-      const pdfRelative = path.relative(storageRoot, pdfPath).replace(/\\/g, '/');
-      finalFileUrl = `${publicBaseUrl}/storage/${pdfRelative}`;
-    } catch (pdfErr: any) {
-      console.warn('⚠️ CloudConvert falló, usando DOCX:', pdfErr.message);
-      const docxRelative = path.relative(storageRoot, signedDocxPath).replace(/\\/g, '/');
-      finalFileUrl = `${publicBaseUrl}/storage/${docxRelative}`;
-    }
+
+    // Usar endpoint con fallback a GitHub en lugar de /storage directo
+    const finalFileUrl = `${publicBaseUrl}/declaracion/download/${record.uid}`;
+
+    // Nota: Ya no usamos CloudConvert porque el archivo siempre será DOCX
+    // y estará disponible vía el endpoint /download que tiene fallback a GitHub
+    const finalFilePath = signedDocxPath;
 
     // Generar hash del documento firmado
     const signedDocBuffer = fs.readFileSync(finalFilePath);
@@ -846,6 +840,7 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
     // ✅ Persistir en GitHub automáticamente (si está configurado)
     if (isGitHubStorageEnabled()) {
       try {
+        // 1. Guardar metadata JSON
         const gitResult = await saveDeclaracionToGitHub(record.uid, {
           uid: record.uid,
           status: record.status,
@@ -861,9 +856,17 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
           documentHash: record.signedDocumentHash,
         });
         if (gitResult.success) {
-          console.log(`✅ Declaración ${record.uid} guardada en GitHub: ${gitResult.url}`);
+          console.log(`✅ Declaración ${record.uid} metadata guardada en GitHub: ${gitResult.url}`);
         } else {
-          console.warn(`⚠️ No se pudo guardar en GitHub: ${gitResult.message}`);
+          console.warn(`⚠️ No se pudo guardar metadata en GitHub: ${gitResult.message}`);
+        }
+
+        // 2. Guardar archivo DOCX firmado (archivo binario)
+        const docxResult = await saveSignedDocxToGitHub(record.uid, signedDocxBuffer);
+        if (docxResult.success) {
+          console.log(`✅ DOCX firmado ${record.uid} guardado en GitHub`);
+        } else {
+          console.warn(`⚠️ No se pudo guardar DOCX en GitHub: ${docxResult.message}`);
         }
       } catch (gitErr) {
         console.warn('⚠️ Error al guardar en GitHub (no crítico):', gitErr);
@@ -971,6 +974,75 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
   } catch (err: any) {
     console.error('Error en POST /declaracion/firmar:', err);
     res.status(500).send(`<h1>Error</h1><p>No fue posible procesar la firma: ${err.message}</p>`);
+  }
+});
+
+// ---------------------------------------------------------------------------
+// GET /declaracion/download/:uid
+// Descarga el DOCX firmado con fallback a GitHub
+// ---------------------------------------------------------------------------
+router.get('/download/:uid', async (req: Request, res: Response): Promise<void> => {
+  try {
+    const { uid } = req.params;
+
+    if (!uid) {
+      res.status(400).send('<h1>Error</h1><p>UID es requerido</p>');
+      return;
+    }
+
+    let docxBuffer: Buffer | null = null;
+    let source = 'unknown';
+
+    // 1. Intentar cargar desde local primero (rápido)
+    const localPath = path.join(signedDir, `declaracion_${uid}_signed.docx`);
+
+    if (fs.existsSync(localPath)) {
+      docxBuffer = fs.readFileSync(localPath);
+      source = 'local';
+      console.log(`[Download] Archivo ${uid} cargado desde local`);
+    } else if (isGitHubStorageEnabled()) {
+      // 2. Si no existe localmente, intentar desde GitHub
+      console.log(`[Download] Archivo ${uid} no encontrado en local, buscando en GitHub...`);
+      docxBuffer = await loadSignedDocxFromGitHub(uid);
+
+      if (docxBuffer) {
+        source = 'github';
+        console.log(`✅ [Download] Archivo ${uid} recuperado desde GitHub`);
+
+        // 3. Auto-cachear en local para próximas descargas
+        try {
+          ensureDirs();
+          fs.writeFileSync(localPath, docxBuffer);
+          console.log(`✅ [Download] Archivo ${uid} cacheado en local`);
+        } catch (cacheErr) {
+          console.warn(`⚠️ No se pudo cachear archivo localmente:`, cacheErr);
+        }
+      } else {
+        console.log(`⚠️ [Download] Archivo ${uid} no encontrado en GitHub`);
+      }
+    }
+
+    // 4. Si no se encontró en ningún lado
+    if (!docxBuffer) {
+      res.status(404).send(`
+        <h1>Archivo no encontrado</h1>
+        <p>El archivo firmado para ${uid} no está disponible.</p>
+        <p>Es posible que la declaración aún no haya sido firmada o que el archivo haya expirado.</p>
+      `);
+      return;
+    }
+
+    // 5. Enviar archivo
+    const fileName = `declaracion_${uid}_firmada.docx`;
+    res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+    res.setHeader('Content-Disposition', `attachment; filename="${fileName}"`);
+    res.setHeader('X-File-Source', source); // Header para debugging
+    res.send(docxBuffer);
+
+    console.log(`✅ [Download] Archivo ${uid} descargado exitosamente (source: ${source})`);
+  } catch (err: any) {
+    console.error('Error en GET /declaracion/download/:uid:', err);
+    res.status(500).send(`<h1>Error</h1><p>No fue posible descargar el archivo: ${err.message}</p>`);
   }
 });
 
