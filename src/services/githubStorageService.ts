@@ -175,17 +175,25 @@ export async function loadFromGitHub<T>(filePath: string): Promise<T | null> {
 }
 
 /**
- * Guarda un registro de declaración firmada en GitHub
+ * Guarda un registro de declaración en GitHub (en path predecible para lookup)
  */
 export async function saveDeclaracionToGitHub(
   uid: string,
   data: object
 ): Promise<CommitResult> {
-  const timestamp = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
-  const filePath = `data/declaraciones/${timestamp}_${uid}.json`;
-  const commitMessage = `📝 Declaración firmada: ${uid} - ${new Date().toLocaleString('es-MX')}`;
-  
+  // Guardar en path predecible para fácil lookup
+  const filePath = `data/declaraciones/by-uid/${uid}.json`;
+  const commitMessage = `📝 Declaración: ${uid} - ${new Date().toLocaleString('es-MX')}`;
+
   return saveToGitHub(filePath, data, commitMessage);
+}
+
+/**
+ * Carga un registro de declaración desde GitHub por UID
+ */
+export async function loadDeclaracionFromGitHub(uid: string): Promise<any | null> {
+  const filePath = `data/declaraciones/by-uid/${uid}.json`;
+  return loadFromGitHub(filePath);
 }
 
 /**

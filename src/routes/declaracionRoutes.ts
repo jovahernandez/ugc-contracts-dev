@@ -18,6 +18,7 @@ import {
 import {
   isGitHubStorageEnabled,
   saveDeclaracionToGitHub,
+  loadDeclaracionFromGitHub,
 } from '../services/githubStorageService';
 
 const router = Router();
@@ -80,8 +81,54 @@ function getRecordByToken(token: string): DeclaracionRecord | null {
 
 function loadRecord(uid: string): DeclaracionRecord | null {
   const filePath = getRecordPath(uid);
-  if (!fs.existsSync(filePath)) return null;
-  return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  if (fs.existsSync(filePath)) {
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  }
+  // Si no existe localmente, no podemos hacer await aquí
+  // Esta función será reemplazada por loadRecordAsync
+  return null;
+}
+
+/**
+ * Carga un registro desde filesystem local o GitHub (con fallback)
+ * Versión async que soporta lookup en GitHub si el local no existe
+ */
+async function loadRecordAsync(uid: string): Promise<DeclaracionRecord | null> {
+  // 1. Intentar cargar desde local primero (rápido)
+  const filePath = getRecordPath(uid);
+  if (fs.existsSync(filePath)) {
+    try {
+      return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    } catch (err) {
+      console.error(`Error leyendo archivo local para ${uid}:`, err);
+    }
+  }
+
+  // 2. Si no existe localmente, intentar desde GitHub (fallback)
+  if (isGitHubStorageEnabled()) {
+    try {
+      console.log(`[GitHub Fallback] Buscando ${uid} en GitHub...`);
+      const record = await loadDeclaracionFromGitHub(uid);
+
+      if (record) {
+        console.log(`✅ [GitHub Fallback] Registro ${uid} encontrado en GitHub`);
+
+        // 3. Guardar en local para próximas consultas (cache)
+        ensureDirs();
+        fs.writeFileSync(filePath, JSON.stringify(record, null, 2), 'utf-8');
+        console.log(`✅ [GitHub Fallback] Registro ${uid} guardado en cache local`);
+
+        return record as DeclaracionRecord;
+      } else {
+        console.log(`⚠️ [GitHub Fallback] Registro ${uid} no encontrado en GitHub`);
+      }
+    } catch (err) {
+      console.error(`Error cargando desde GitHub para ${uid}:`, err);
+    }
+  }
+
+  // 3. No encontrado en ningún lado
+  return null;
 }
 
 function saveRecord(record: DeclaracionRecord): void {
@@ -935,7 +982,7 @@ router.get('/all', (req: Request, res: Response): void => {
 // GET /declaracion/status?uid=XXX
 // API JSON para que EFICENTA consulte el status
 // ---------------------------------------------------------------------------
-router.get('/status', (req: Request, res: Response): void => {
+router.get('/status', async (req: Request, res: Response): Promise<void> => {
   try {
     const uid = req.query.uid as string;
 
@@ -944,7 +991,8 @@ router.get('/status', (req: Request, res: Response): void => {
       return;
     }
 
-    const record = loadRecord(uid);
+    // ✅ Usar loadRecordAsync para buscar en GitHub si no existe localmente
+    const record = await loadRecordAsync(uid);
 
     if (!record) {
       res.json({
