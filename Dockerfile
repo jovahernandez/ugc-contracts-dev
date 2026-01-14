@@ -42,8 +42,15 @@ COPY tsconfig.json ./
 COPY src ./src
 
 # Compilamos TypeScript → dist/
-# El script de build ya copia templates y assets automáticamente
 RUN npm run build
+
+# Copiar templates y assets explícitamente (el script de npm puede fallar en Docker)
+RUN cp -r src/templates dist/templates || true
+RUN cp -r src/assets dist/assets || true
+
+# Verificar que se copiaron correctamente
+RUN ls -la dist/templates || echo "WARNING: templates directory not found"
+RUN ls -la dist/assets || echo "WARNING: assets directory not found"
 
 # Creamos carpeta de almacenamiento para contratos y firmas
 RUN mkdir -p /app/storage
