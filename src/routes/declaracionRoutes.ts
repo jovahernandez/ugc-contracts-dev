@@ -776,9 +776,19 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
     const signatureImagePath = path.join(signaturesDir, signatureFileName);
     fs.writeFileSync(signatureImagePath, signatureBuffer);
 
-    // Fecha de firma
+    // Fecha de firma (ajustada a la zona horaria del usuario)
     const signedAt = new Date();
-    const fechaFirma = signedAt.toLocaleDateString('es-MX', {
+
+    // Ajustar fecha según timezone del usuario
+    // timezoneOffset viene del navegador en minutos (ej: 360 para UTC-6 México)
+    const userOffset = parseInt(timezoneOffset || '0', 10);
+    const serverOffset = signedAt.getTimezoneOffset();
+    const offsetDiff = userOffset - serverOffset;
+
+    // Crear fecha ajustada a la zona horaria local del usuario
+    const localSignedAt = new Date(signedAt.getTime() - (offsetDiff * 60 * 1000));
+
+    const fechaFirma = localSignedAt.toLocaleDateString('es-MX', {
       day: '2-digit',
       month: 'long',
       year: 'numeric',
@@ -1091,7 +1101,8 @@ router.get('/download/:uid', async (req: Request, res: Response): Promise<void> 
       : 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
 
     res.setHeader('Content-Type', mimeType);
-    res.setHeader('Content-Disposition', `attachment; filename="${fileName}"`);
+    // Usar 'inline' para que el navegador muestre el PDF, no lo descargue automáticamente
+    res.setHeader('Content-Disposition', `inline; filename="${fileName}"`);
     res.setHeader('X-File-Source', source); // Header para debugging
     res.setHeader('X-File-Type', fileType); // Header para debugging
     res.send(fileBuffer);
