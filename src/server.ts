@@ -75,7 +75,7 @@ app.use('/webhook', webhookRoutes);
 app.use('/declaracion', declaracionRoutes);
 
 // Arranque del servidor
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Contracts service listening on port ${PORT}`);
   console.log('Storage root served from:', storageRootPath);
 });
