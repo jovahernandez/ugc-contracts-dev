@@ -42,17 +42,15 @@ COPY tsconfig.json ./
 COPY src ./src
 
 # Compilamos TypeScript → dist/
+# El script de build ya copia templates y assets automáticamente
 RUN npm run build
-
-# Copiamos los templates (DOCX, HTML) al dist porque TypeScript no los copia
-RUN cp -r src/templates dist/templates
 
 # Creamos carpeta de almacenamiento para contratos y firmas
 RUN mkdir -p /app/storage
 
 # Variables de entorno por defecto (Railway luego inyecta PORT real)
 ENV NODE_ENV=production
-ENV PORT=3000
+ENV PORT=8080
 
 # Comando de arranque del servidor
 CMD ["node", "dist/server.js"]
