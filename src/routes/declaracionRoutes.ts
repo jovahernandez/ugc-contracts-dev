@@ -849,7 +849,7 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
 
     // Actualizar registro
     record.status = 'signed';
-    record.signedAt = signedAt.toISOString();
+    record.signedAt = localSignedAt.toISOString(); // ✅ Usar fecha ajustada al timezone del usuario
     record.signatureImagePath = signatureImagePath;
     record.signedPdfPath = finalFilePath;
     record.signedPdfUrl = finalFileUrl;
