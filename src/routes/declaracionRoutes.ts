@@ -22,6 +22,8 @@ import {
   loadDeclaracionFromGitHubByToken,
   saveSignedDocxToGitHub,
   loadSignedDocxFromGitHub,
+  saveSignedPdfToGitHub,
+  loadSignedPdfFromGitHub,
 } from '../services/githubStorageService';
 
 const router = Router();
@@ -811,14 +813,22 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
     const signedDocxPath = path.join(signedDir, `declaracion_${record.uid}_signed.docx`);
     fs.writeFileSync(signedDocxPath, signedDocxBuffer);
 
+    // Convertir DOCX a PDF usando Puppeteer
+    let finalFilePath = signedDocxPath;
+    try {
+      console.log(`[PDF] Convirtiendo DOCX a PDF para ${record.uid}...`);
+      const pdfPath = await convertDocxToPdf(signedDocxPath, signedDir);
+      finalFilePath = pdfPath;
+      console.log(`[PDF] ✅ Conversión exitosa: ${pdfPath}`);
+    } catch (pdfErr: any) {
+      console.error(`[PDF] ⚠️ Error en conversión, usando DOCX: ${pdfErr.message}`);
+      // Si falla la conversión, continuamos con DOCX (fallback)
+    }
+
     const publicBaseUrl = process.env.PUBLIC_BASE_URL || `${req.protocol}://${req.get('host')}`;
 
     // Usar endpoint con fallback a GitHub en lugar de /storage directo
     const finalFileUrl = `${publicBaseUrl}/declaracion/download/${record.uid}`;
-
-    // Nota: Ya no usamos CloudConvert porque el archivo siempre será DOCX
-    // y estará disponible vía el endpoint /download que tiene fallback a GitHub
-    const finalFilePath = signedDocxPath;
 
     // Generar hash del documento firmado
     const signedDocBuffer = fs.readFileSync(finalFilePath);
@@ -861,12 +871,23 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
           console.warn(`⚠️ No se pudo guardar metadata en GitHub: ${gitResult.message}`);
         }
 
-        // 2. Guardar archivo DOCX firmado (archivo binario)
+        // 2. Guardar archivo firmado (DOCX como backup y PDF como archivo principal)
         const docxResult = await saveSignedDocxToGitHub(record.uid, signedDocxBuffer);
         if (docxResult.success) {
-          console.log(`✅ DOCX firmado ${record.uid} guardado en GitHub`);
+          console.log(`✅ DOCX firmado ${record.uid} guardado en GitHub (backup)`);
         } else {
           console.warn(`⚠️ No se pudo guardar DOCX en GitHub: ${docxResult.message}`);
+        }
+
+        // 3. Si se generó PDF, también guardarlo en GitHub
+        if (finalFilePath.endsWith('.pdf') && fs.existsSync(finalFilePath)) {
+          const pdfBuffer = fs.readFileSync(finalFilePath);
+          const pdfResult = await saveSignedPdfToGitHub(record.uid, pdfBuffer);
+          if (pdfResult.success) {
+            console.log(`✅ PDF firmado ${record.uid} guardado en GitHub`);
+          } else {
+            console.warn(`⚠️ No se pudo guardar PDF en GitHub: ${pdfResult.message}`);
+          }
         }
       } catch (gitErr) {
         console.warn('⚠️ Error al guardar en GitHub (no crítico):', gitErr);
@@ -979,7 +1000,7 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
 
 // ---------------------------------------------------------------------------
 // GET /declaracion/download/:uid
-// Descarga el DOCX firmado con fallback a GitHub
+// Descarga el archivo firmado (PDF preferido, DOCX fallback) con fallback a GitHub
 // ---------------------------------------------------------------------------
 router.get('/download/:uid', async (req: Request, res: Response): Promise<void> => {
   try {
@@ -990,40 +1011,71 @@ router.get('/download/:uid', async (req: Request, res: Response): Promise<void> 
       return;
     }
 
-    let docxBuffer: Buffer | null = null;
+    let fileBuffer: Buffer | null = null;
     let source = 'unknown';
+    let fileType: 'pdf' | 'docx' = 'pdf';
 
-    // 1. Intentar cargar desde local primero (rápido)
-    const localPath = path.join(signedDir, `declaracion_${uid}_signed.docx`);
+    // 1. Intentar cargar PDF primero (local o GitHub)
+    const localPdfPath = path.join(signedDir, `declaracion_${uid}_signed.pdf`);
 
-    if (fs.existsSync(localPath)) {
-      docxBuffer = fs.readFileSync(localPath);
-      source = 'local';
-      console.log(`[Download] Archivo ${uid} cargado desde local`);
+    if (fs.existsSync(localPdfPath)) {
+      fileBuffer = fs.readFileSync(localPdfPath);
+      source = 'local-pdf';
+      fileType = 'pdf';
+      console.log(`[Download] PDF ${uid} cargado desde local`);
     } else if (isGitHubStorageEnabled()) {
-      // 2. Si no existe localmente, intentar desde GitHub
-      console.log(`[Download] Archivo ${uid} no encontrado en local, buscando en GitHub...`);
-      docxBuffer = await loadSignedDocxFromGitHub(uid);
+      // Intentar PDF desde GitHub
+      console.log(`[Download] PDF ${uid} no encontrado en local, buscando en GitHub...`);
+      fileBuffer = await loadSignedPdfFromGitHub(uid);
 
-      if (docxBuffer) {
-        source = 'github';
-        console.log(`✅ [Download] Archivo ${uid} recuperado desde GitHub`);
+      if (fileBuffer) {
+        source = 'github-pdf';
+        fileType = 'pdf';
+        console.log(`✅ [Download] PDF ${uid} recuperado desde GitHub`);
 
-        // 3. Auto-cachear en local para próximas descargas
+        // Auto-cachear en local
         try {
           ensureDirs();
-          fs.writeFileSync(localPath, docxBuffer);
-          console.log(`✅ [Download] Archivo ${uid} cacheado en local`);
+          fs.writeFileSync(localPdfPath, fileBuffer);
+          console.log(`✅ [Download] PDF ${uid} cacheado en local`);
         } catch (cacheErr) {
-          console.warn(`⚠️ No se pudo cachear archivo localmente:`, cacheErr);
+          console.warn(`⚠️ No se pudo cachear PDF localmente:`, cacheErr);
         }
-      } else {
-        console.log(`⚠️ [Download] Archivo ${uid} no encontrado en GitHub`);
       }
     }
 
-    // 4. Si no se encontró en ningún lado
-    if (!docxBuffer) {
+    // 2. Si no hay PDF, intentar DOCX (backward compatibility con registros antiguos)
+    if (!fileBuffer) {
+      const localDocxPath = path.join(signedDir, `declaracion_${uid}_signed.docx`);
+
+      if (fs.existsSync(localDocxPath)) {
+        fileBuffer = fs.readFileSync(localDocxPath);
+        source = 'local-docx';
+        fileType = 'docx';
+        console.log(`[Download] DOCX ${uid} cargado desde local (fallback)`);
+      } else if (isGitHubStorageEnabled()) {
+        console.log(`[Download] DOCX ${uid} no encontrado en local, buscando en GitHub...`);
+        fileBuffer = await loadSignedDocxFromGitHub(uid);
+
+        if (fileBuffer) {
+          source = 'github-docx';
+          fileType = 'docx';
+          console.log(`✅ [Download] DOCX ${uid} recuperado desde GitHub (fallback)`);
+
+          // Auto-cachear en local
+          try {
+            ensureDirs();
+            fs.writeFileSync(localDocxPath, fileBuffer);
+            console.log(`✅ [Download] DOCX ${uid} cacheado en local`);
+          } catch (cacheErr) {
+            console.warn(`⚠️ No se pudo cachear DOCX localmente:`, cacheErr);
+          }
+        }
+      }
+    }
+
+    // 3. Si no se encontró en ningún lado
+    if (!fileBuffer) {
       res.status(404).send(`
         <h1>Archivo no encontrado</h1>
         <p>El archivo firmado para ${uid} no está disponible.</p>
@@ -1032,14 +1084,19 @@ router.get('/download/:uid', async (req: Request, res: Response): Promise<void> 
       return;
     }
 
-    // 5. Enviar archivo
-    const fileName = `declaracion_${uid}_firmada.docx`;
-    res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+    // 4. Enviar archivo con el MIME type correcto
+    const fileName = `declaracion_${uid}_firmada.${fileType}`;
+    const mimeType = fileType === 'pdf'
+      ? 'application/pdf'
+      : 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+
+    res.setHeader('Content-Type', mimeType);
     res.setHeader('Content-Disposition', `attachment; filename="${fileName}"`);
     res.setHeader('X-File-Source', source); // Header para debugging
-    res.send(docxBuffer);
+    res.setHeader('X-File-Type', fileType); // Header para debugging
+    res.send(fileBuffer);
 
-    console.log(`✅ [Download] Archivo ${uid} descargado exitosamente (source: ${source})`);
+    console.log(`✅ [Download] Archivo ${uid} (${fileType.toUpperCase()}) descargado exitosamente (source: ${source})`);
   } catch (err: any) {
     console.error('Error en GET /declaracion/download/:uid:', err);
     res.status(500).send(`<h1>Error</h1><p>No fue posible descargar el archivo: ${err.message}</p>`);

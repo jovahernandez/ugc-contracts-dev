@@ -400,3 +400,24 @@ export async function loadSignedDocxFromGitHub(uid: string): Promise<Buffer | nu
   const filePath = `data/declaraciones/signed/${uid}.docx`;
   return loadFileFromGitHub(filePath);
 }
+
+/**
+ * Guarda el PDF firmado de una declaración en GitHub
+ */
+export async function saveSignedPdfToGitHub(
+  uid: string,
+  fileBuffer: Buffer
+): Promise<CommitResult> {
+  const filePath = `data/declaraciones/signed/${uid}.pdf`;
+  const commitMessage = `📄 PDF firmado: ${uid} - ${new Date().toLocaleString('es-MX')}`;
+
+  return saveFileToGitHub(filePath, fileBuffer, commitMessage);
+}
+
+/**
+ * Carga el PDF firmado de una declaración desde GitHub
+ */
+export async function loadSignedPdfFromGitHub(uid: string): Promise<Buffer | null> {
+  const filePath = `data/declaraciones/signed/${uid}.pdf`;
+  return loadFileFromGitHub(filePath);
+}

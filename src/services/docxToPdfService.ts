@@ -1,11 +1,11 @@
 // src/services/docxToPdfService.ts
 import fs from 'fs';
 import path from 'path';
-import https from 'https';
-import CloudConvert from 'cloudconvert';
+import puppeteer from 'puppeteer';
+import mammoth from 'mammoth';
 
 /**
- * Convierte un DOCX firmado a PDF usando CloudConvert.
+ * Convierte un DOCX firmado a PDF usando Puppeteer.
  *
  * - signedDocxPath: ruta ABSOLUTA al DOCX ya firmado.
  * - outputDir: carpeta donde guardaremos el PDF generado.
@@ -21,22 +21,6 @@ export async function convertDocxToPdf(
     throw new Error(`Signed DOCX not found at: ${signedDocxPath}`);
   }
 
-  const apiKey = process.env.CLOUDCONVERT_API_KEY;
-  const useSandbox = process.env.CLOUDCONVERT_SANDBOX === 'true';
-
-  // Si no hay API key, no rompemos el flujo: devolvemos el DOCX
-  if (!apiKey) {
-    console.warn(
-      '[CloudConvert] CLOUDCONVERT_API_KEY is not set. Returning DOCX path instead of PDF.'
-    );
-    return signedDocxPath;
-  }
-
-  // Soportar ambas formas de export del paquete (default / named)
-  const CloudConvertCtor: any =
-    (CloudConvert as any).default || (CloudConvert as any);
-  const cloudConvert = new CloudConvertCtor(apiKey, useSandbox);
-
   // Asegurar carpeta de salida
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
@@ -47,83 +31,91 @@ export async function convertDocxToPdf(
     path.basename(signedDocxPath, path.extname(signedDocxPath)) + '.pdf';
   const pdfPath = path.join(outputDir, pdfFileName);
 
-  // 1) Crear Job en CloudConvert
-  let job: any = await cloudConvert.jobs.create({
-    tasks: {
-      'import-my-file': {
-        operation: 'import/upload',
+  try {
+    // 1) Convertir DOCX a HTML usando mammoth
+    const docxBuffer = fs.readFileSync(signedDocxPath);
+    const result = await mammoth.convertToHtml({ buffer: docxBuffer });
+    const htmlContent = result.value;
+
+    // 2) Crear HTML completo con estilos para mejor formato
+    const fullHtml = `
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @page {
+      margin: 2cm;
+      size: letter;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 12pt;
+      line-height: 1.6;
+      color: #000;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    img {
+      max-width: 150px;
+      height: auto;
+      display: block;
+      margin: 10px 0;
+    }
+    p {
+      margin: 10px 0;
+      text-align: justify;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    td, th {
+      border: 1px solid #000;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  ${htmlContent}
+</body>
+</html>`;
+
+    // 3) Usar Puppeteer para convertir HTML a PDF
+    const browser = await puppeteer.launch({
+      headless: true,
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-gpu',
+      ],
+    });
+
+    const page = await browser.newPage();
+    await page.setContent(fullHtml, { waitUntil: 'networkidle0' });
+
+    await page.pdf({
+      path: pdfPath,
+      format: 'Letter',
+      printBackground: true,
+      margin: {
+        top: '2cm',
+        right: '2cm',
+        bottom: '2cm',
+        left: '2cm',
       },
-      'convert-my-file': {
-        operation: 'convert',
-        input: 'import-my-file',
-        input_format: 'docx',
-        output_format: 'pdf',
-      },
-      'export-my-file': {
-        operation: 'export/url',
-        input: 'convert-my-file',
-      },
-    },
-  });
+    });
 
-  // 2) Subir el DOCX al task de import/upload
-  const uploadTask = job.tasks.filter(
-    (task: any) => task.name === 'import-my-file'
-  )[0];
+    await browser.close();
 
-  await cloudConvert.tasks.upload(
-    uploadTask,
-    fs.createReadStream(signedDocxPath)
-  );
+    console.log(`✅ PDF generado con Puppeteer: ${pdfPath}`);
+    return pdfPath;
 
-  // 3) Esperar a que el Job termine
-  job = await cloudConvert.jobs.wait(job.id);
-
-  // 4) Obtener la URL del PDF generado (export/url)
-  const exportTask = job.tasks.filter(
-    (task: any) => task.name === 'export-my-file'
-  )[0];
-
-  if (
-    !exportTask ||
-    !exportTask.result ||
-    !exportTask.result.files ||
-    !exportTask.result.files[0]
-  ) {
-    throw new Error('[CloudConvert] No export file found in job result.');
+  } catch (err: any) {
+    console.error('[Puppeteer] Error convirtiendo DOCX a PDF:', err);
+    throw new Error(`Failed to convert DOCX to PDF: ${err.message}`);
   }
-
-  const file = exportTask.result.files[0];
-
-  // 5) Descargar el PDF a pdfPath
-  await new Promise<void>((resolve, reject) => {
-    https
-      .get(file.url, (response) => {
-        if (response.statusCode && response.statusCode >= 400) {
-          reject(
-            new Error(
-              `[CloudConvert] Download failed with status ${response.statusCode}`
-            )
-          );
-          return;
-        }
-
-        const fileStream = fs.createWriteStream(pdfPath);
-        response
-          .pipe(fileStream)
-          .on('finish', () => {
-            fileStream.close();
-            resolve();
-          })
-          .on('error', (err) => {
-            fileStream.close();
-            reject(err);
-          });
-      })
-      .on('error', (err) => {
-        reject(err);
-      });
-  });
-
-  return pdfPath;
 }
