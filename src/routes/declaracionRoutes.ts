@@ -57,6 +57,7 @@ interface DeclaracionRecord {
   token: string;
   status: 'pending_form' | 'pending_signature' | 'signed';
   proveedorData?: ProveedorData;
+  expectedProveedorData?: ProveedorData; // Datos esperados para validación (enviados por EFICENTA)
   docxPath?: string;
   signedPdfPath?: string;
   signedPdfUrl?: string;
@@ -224,8 +225,8 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
 
     ensureDirs();
 
-    // Verificar si ya existe un registro
-    let record = loadRecord(uid);
+    // Verificar si ya existe un registro (usar async version)
+    let record = await loadRecordAsync(uid);
 
     if (record && record.status === 'signed') {
       res.send(`
@@ -247,6 +248,16 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
       res.redirect(`/declaracion/firmar/${record.token}`);
       return;
     }
+
+    // Preparar datos pre-llenados si existen
+    const hasExpectedData = record?.expectedProveedorData;
+    const expectedData = record?.expectedProveedorData;
+
+    // Si hay datos esperados, pre-llenar y bloquear campos
+    const nombreValue = hasExpectedData ? expectedData!.nombre_proveedor_razon_social : '';
+    const representanteValue = hasExpectedData ? expectedData!.nombre_representante_legal : '';
+    const emailValue = hasExpectedData ? expectedData!.email : '';
+    const isReadonly = hasExpectedData;
 
     // Mostrar formulario
     const html = `<!DOCTYPE html>
@@ -309,6 +320,11 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
       border-color: #2563eb;
       box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
     }
+    input:read-only {
+      background: #f9fafb;
+      border-color: #e5e7eb;
+      cursor: not-allowed;
+    }
     button {
       margin-top: 24px;
       width: 100%;
@@ -324,6 +340,17 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
     button:hover {
       background: #1d4ed8;
     }
+    button:disabled {
+      background: #9ca3af;
+      cursor: not-allowed;
+    }
+    .btn-error {
+      background: #dc2626;
+      margin-top: 12px;
+    }
+    .btn-error:hover {
+      background: #b91c1c;
+    }
     .info {
       background: #eff6ff;
       border: 1px solid #bfdbfe;
@@ -333,6 +360,18 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
       font-size: 13px;
       color: #1e40af;
     }
+    .warning {
+      background: #fef3c7;
+      border: 1px solid #fde68a;
+      padding: 12px;
+      border-radius: 6px;
+      margin-bottom: 16px;
+      font-size: 13px;
+      color: #92400e;
+    }
+    .hidden {
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -340,29 +379,87 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
     <div class="logo-container">
       <img src="https://raw.githubusercontent.com/jovahernandez/ugc-contracts-dev/main/src/assets/another-logo.svg" alt="Another">
     </div>
-    
+
     <h1>📋 Declaración de Ausencia de Conflicto de Interés</h1>
-    <p class="subtitle">Complete los siguientes datos para generar su declaración</p>
-    
+    <p class="subtitle">${hasExpectedData ? 'Verifique que los siguientes datos sean correctos' : 'Complete los siguientes datos para generar su declaración'}</p>
+
     <div class="info">
       <strong>ID del Proveedor:</strong> ${uid}
     </div>
 
-    <form action="/declaracion/generar" method="POST">
+    ${hasExpectedData ? `
+    <div class="warning" id="readonly-notice">
+      <strong>ℹ️ Datos Pre-llenados</strong><br>
+      Los datos han sido pre-llenados por EFICENTA. Si encuentra algún error, haga clic en "Datos erróneos" para corregirlos.
+    </div>
+    ` : ''}
+
+    <form action="/declaracion/generar" method="POST" id="declaracion-form">
       <input type="hidden" name="uid" value="${uid}">
-      
+
       <label for="nombre_proveedor_razon_social">Nombre o Razón Social del Proveedor *</label>
-      <input type="text" id="nombre_proveedor_razon_social" name="nombre_proveedor_razon_social" required placeholder="Ej: Empresa ABC S.A. de C.V.">
-      
+      <input
+        type="text"
+        id="nombre_proveedor_razon_social"
+        name="nombre_proveedor_razon_social"
+        value="${nombreValue}"
+        ${isReadonly ? 'readonly' : ''}
+        required
+        placeholder="Ej: Empresa ABC S.A. de C.V.">
+
       <label for="nombre_representante_legal">Nombre del Representante Legal *</label>
-      <input type="text" id="nombre_representante_legal" name="nombre_representante_legal" required placeholder="Ej: Juan Pérez García">
-      
+      <input
+        type="text"
+        id="nombre_representante_legal"
+        name="nombre_representante_legal"
+        value="${representanteValue}"
+        ${isReadonly ? 'readonly' : ''}
+        required
+        placeholder="Ej: Juan Pérez García">
+
       <label for="email">Correo Electrónico *</label>
-      <input type="email" id="email" name="email" required placeholder="Ej: contacto@empresa.com">
-      
+      <input
+        type="email"
+        id="email"
+        name="email"
+        value="${emailValue}"
+        ${isReadonly ? 'readonly' : ''}
+        required
+        placeholder="Ej: contacto@empresa.com">
+
       <button type="submit">Generar Documento →</button>
+
+      ${hasExpectedData ? `
+      <button type="button" class="btn-error" id="unlock-btn">⚠️ Datos erróneos - Desbloquear para editar</button>
+      ` : ''}
     </form>
   </div>
+
+  ${hasExpectedData ? `
+  <script>
+    const unlockBtn = document.getElementById('unlock-btn');
+    const readonlyNotice = document.getElementById('readonly-notice');
+    const inputs = document.querySelectorAll('#declaracion-form input[type="text"], #declaracion-form input[type="email"]');
+
+    unlockBtn.addEventListener('click', function() {
+      // Desbloquear campos
+      inputs.forEach(input => {
+        input.removeAttribute('readonly');
+        input.style.background = '#fff';
+        input.focus();
+      });
+
+      // Cambiar aviso
+      readonlyNotice.innerHTML = '<strong>✏️ Modo de Edición</strong><br>Los campos han sido desbloqueados. Por favor corrija los datos incorrectos.';
+      readonlyNotice.style.background = '#fef3c7';
+      readonlyNotice.style.borderColor = '#fde68a';
+      readonlyNotice.style.color = '#92400e';
+
+      // Ocultar botón
+      unlockBtn.classList.add('hidden');
+    });
+  </script>
+  ` : ''}
 </body>
 </html>`;
 
@@ -392,6 +489,9 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
     }
 
     ensureDirs();
+
+    // No validamos los datos - confiamos en la corrección del usuario
+    // Si los campos estaban pre-llenados, el usuario tuvo la opción de editarlos
 
     const proveedorData: ProveedorData = {
       nombre_proveedor_razon_social,
@@ -1216,7 +1316,13 @@ router.get('/status', async (req: Request, res: Response): Promise<void> => {
 // ---------------------------------------------------------------------------
 router.post('/webhook/crear', async (req: Request, res: Response): Promise<void> => {
   try {
-    const { uid, api_key } = req.body || {};
+    const {
+      uid,
+      api_key,
+      nombre_proveedor_razon_social,
+      nombre_representante_legal,
+      email,
+    } = req.body || {};
 
     // Validar API key (configurable por env)
     const expectedApiKey = process.env.EFICENTA_API_KEY || 'eficenta-secret-key';
@@ -1272,6 +1378,13 @@ router.post('/webhook/crear', async (req: Request, res: Response): Promise<void>
       return;
     }
 
+    // Preparar datos esperados del proveedor (si fueron enviados)
+    const expectedProveedorData = (nombre_proveedor_razon_social && nombre_representante_legal && email) ? {
+      nombre_proveedor_razon_social: nombre_proveedor_razon_social.trim(),
+      nombre_representante_legal: nombre_representante_legal.trim(),
+      email: email.trim(),
+    } : undefined;
+
     // Crear nuevo registro
     const token = randomUUID();
     const now = new Date();
@@ -1281,6 +1394,7 @@ router.post('/webhook/crear', async (req: Request, res: Response): Promise<void>
       token,
       status: 'pending_form',
       createdAt: now.toISOString(),
+      expectedProveedorData, // ✅ Guardar datos esperados para validación
     };
 
     saveRecord(record);
@@ -1292,6 +1406,7 @@ router.post('/webhook/crear', async (req: Request, res: Response): Promise<void>
           uid: record.uid,
           status: record.status,
           proveedor: null, // Aún no tiene datos del proveedor
+          expectedProveedor: expectedProveedorData || null, // Datos esperados para validación
           signedAt: null,
           signedPdfUrl: null,
           signatureMetadata: null,
