@@ -1856,8 +1856,6 @@ router.get('/debug/:uid', async (req: Request, res: Response): Promise<void> => 
   }
 });
 
-export default router;
-
 // ---------------------------------------------------------------------------
 // GET /declaracion/test-pdf
 // Endpoint de test para verificar que Puppeteer funciona
@@ -1910,3 +1908,5 @@ router.get('/test-pdf', async (req: Request, res: Response): Promise<void> => {
     });
   }
 });
+
+export default router;
