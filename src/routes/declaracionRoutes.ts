@@ -1794,3 +1794,56 @@ router.delete('/webhook/delete', async (req: Request, res: Response): Promise<vo
 });
 
 export default router;
+
+// ---------------------------------------------------------------------------
+// GET /declaracion/test-pdf
+// Endpoint de test para verificar que Puppeteer funciona
+// ---------------------------------------------------------------------------
+router.get('/test-pdf', async (req: Request, res: Response): Promise<void> => {
+  try {
+    const puppeteer = require('puppeteer');
+    
+    console.log('[TEST] Iniciando test de Puppeteer...');
+    console.log('[TEST] Executable path:', process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium');
+    
+    const browser = await puppeteer.launch({
+      headless: true,
+      executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium',
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-gpu',
+        '--disable-software-rasterizer',
+        '--disable-extensions',
+      ],
+      timeout: 30000,
+    });
+    
+    console.log('[TEST] ✅ Navegador lanzado correctamente');
+    
+    const page = await browser.newPage();
+    await page.setContent('<h1>Test PDF</h1><p>Puppeteer funciona correctamente!</p>');
+    
+    const pdfBuffer = await page.pdf({
+      format: 'Letter',
+      printBackground: true,
+    });
+    
+    await browser.close();
+    
+    console.log('[TEST] ✅ PDF generado correctamente');
+    
+    res.setHeader('Content-Type', 'application/pdf');
+    res.setHeader('Content-Disposition', 'inline; filename="test.pdf"');
+    res.send(pdfBuffer);
+    
+  } catch (err: any) {
+    console.error('[TEST] ❌ Error:', err);
+    res.status(500).json({
+      success: false,
+      error: err.message,
+      stack: err.stack,
+    });
+  }
+});

@@ -79,4 +79,5 @@ app.listen(PORT, '0.0.0.0', () => {
   console.log(`Contracts service listening on port ${PORT}`);
   console.log('Storage root served from:', storageRootPath);
   console.log('Server started successfully');
+  console.log('[CACHE] Server instance started - any cached records cleared');
 });
