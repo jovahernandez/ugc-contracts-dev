@@ -1648,15 +1648,16 @@ router.delete('/webhook/delete', async (req: Request, res: Response): Promise<vo
     const cleanUid = uid.trim();
     const recordPath = getRecordPath(cleanUid);
 
-    // Intentar cargar el registro (local o desde GitHub)
-    const record = await loadRecordAsync(cleanUid);
+    // IMPORTANTE: NO usar loadRecordAsync porque re-crea el archivo desde GitHub
+    // En su lugar, intentar leer directamente desde el sistema de archivos local
+    let record: DeclaracionRecord | null = null;
 
-    if (!record) {
-      res.status(404).json({
-        success: false,
-        error: `No se encontró registro con uid: ${cleanUid}`,
-      });
-      return;
+    if (fs.existsSync(recordPath)) {
+      try {
+        record = JSON.parse(fs.readFileSync(recordPath, 'utf-8'));
+      } catch (err) {
+        console.warn(`[DELETE] No se pudo leer ${recordPath}:`, err);
+      }
     }
 
     // Borrar archivos locales asociados si existen
@@ -1689,8 +1690,8 @@ router.delete('/webhook/delete', async (req: Request, res: Response): Promise<vo
     if (isGitHubStorageEnabled()) {
       try {
         const githubToken = process.env.GITHUB_TOKEN;
-        const githubRepo = process.env.GITHUB_REPO || 'Another-andy/another-ugc-contracts';
-        const [owner, repo] = githubRepo.split('/');
+        const owner = process.env.GITHUB_OWNER || 'another-company';
+        const repo = process.env.GITHUB_REPO || 'another-ugc-contracts';
         const branch = process.env.GITHUB_BRANCH || 'main';
 
         // Intentar borrar archivo por UID (formato nuevo)
