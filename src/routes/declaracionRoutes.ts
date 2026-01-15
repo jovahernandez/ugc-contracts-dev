@@ -1,5 +1,5 @@
 // src/routes/declaracionRoutes.ts
-// Flujo de Declaración de Ausencia de Conflicto de Interés para EFICENTA
+// Flujo de Declaración de Ausencia de Conflicto de Interés para EFFICENTA
 import { Router, Request, Response } from 'express';
 import path from 'path';
 import fs from 'fs';
@@ -57,7 +57,7 @@ interface DeclaracionRecord {
   token: string;
   status: 'pending_form' | 'pending_signature' | 'signed';
   proveedorData?: ProveedorData;
-  expectedProveedorData?: ProveedorData; // Datos esperados para validación (enviados por EFICENTA)
+  expectedProveedorData?: ProveedorData; // Datos esperados para validación (enviados por EFFICENTA)
   docxPath?: string;
   signedPdfPath?: string;
   signedPdfUrl?: string;
@@ -216,7 +216,7 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
         <body style="font-family: system-ui; padding: 40px; text-align: center;">
           <h1>⚠️ Enlace inválido</h1>
           <p>El enlace no contiene el identificador del proveedor (uid).</p>
-          <p>Por favor contacte a EFICENTA para obtener el enlace correcto.</p>
+          <p>Por favor contacte a EFFICENTA para obtener el enlace correcto.</p>
         </body>
         </html>
       `);
@@ -225,7 +225,7 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
 
     ensureDirs();
 
-    // Leer parámetros del URL (si EFICENTA los envió)
+    // Leer parámetros del URL (si EFFICENTA los envió)
     const nombreFromUrl = req.query.nombre_proveedor_razon_social as string || req.query.nombre as string;
     const representanteFromUrl = req.query.nombre_representante_legal as string || req.query.representante as string;
     const emailFromUrl = req.query.email as string;
@@ -469,7 +469,7 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
     ${hasExpectedData ? `
     <div class="warning" id="readonly-notice">
       <strong>ℹ️ Datos Pre-llenados</strong><br>
-      Los datos han sido pre-llenados por EFICENTA. Si encuentra algún error, haga clic en "Datos erróneos" para corregirlos.
+      Los datos han sido pre-llenados por EFFICENTA. Si encuentra algún error, haga clic en "Datos incorrectos" para contactarnos.
     </div>
     ` : ''}
 
@@ -509,7 +509,7 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
       <button type="submit">Generar Documento →</button>
 
       ${hasExpectedData ? `
-      <button type="button" class="btn-error" id="unlock-btn">⚠️ Datos erróneos - Desbloquear para editar</button>
+      <button type="button" class="btn-error" id="unlock-btn">⚠️ Datos incorrectos - Contactar a EFFICENTA</button>
       ` : ''}
     </form>
   </div>
@@ -517,25 +517,19 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
   ${hasExpectedData ? `
   <script>
     const unlockBtn = document.getElementById('unlock-btn');
-    const readonlyNotice = document.getElementById('readonly-notice');
-    const inputs = document.querySelectorAll('#declaracion-form input[type="text"], #declaracion-form input[type="email"]');
 
     unlockBtn.addEventListener('click', function() {
-      // Desbloquear campos
-      inputs.forEach(input => {
-        input.removeAttribute('readonly');
-        input.style.background = '#fff';
-        input.focus();
-      });
+      // Mostrar mensaje al usuario
+      alert('Te redirigiremos a EFFICENTA para corroborar tus datos, gracias');
 
-      // Cambiar aviso
-      readonlyNotice.innerHTML = '<strong>✏️ Modo de Edición</strong><br>Los campos han sido desbloqueados. Por favor corrija los datos incorrectos.';
-      readonlyNotice.style.background = '#fef3c7';
-      readonlyNotice.style.borderColor = '#fde68a';
-      readonlyNotice.style.color = '#92400e';
+      // Intentar cerrar la ventana/pestaña
+      window.close();
 
-      // Ocultar botón
-      unlockBtn.classList.add('hidden');
+      // Si window.close() no funciona (en algunas situaciones del navegador),
+      // redirigir al usuario de vuelta
+      setTimeout(function() {
+        window.history.back();
+      }, 500);
     });
   </script>
   ` : ''}
@@ -817,7 +811,7 @@ router.get('/firmar/:token', async (req: Request, res: Response): Promise<void> 
         <div class="checkbox-row">
           <input type="checkbox" id="accepted" name="accepted" value="yes" required>
           <label for="accepted">
-            Declaro bajo protesta de decir verdad que no tengo conflicto de interés alguno con EFICENTA, y autorizo el uso de mi firma electrónica manuscrita.
+            Declaro bajo protesta de decir verdad que no tengo conflicto de interés alguno con EFFICENTA, y autorizo el uso de mi firma electrónica manuscrita.
           </label>
         </div>
 
@@ -1617,6 +1611,88 @@ router.post('/webhook/bulk', (req: Request, res: Response): void => {
 
   } catch (err: any) {
     console.error('Error en POST /declaracion/webhook/bulk:', err);
+    res.status(500).json({
+      success: false,
+      error: 'Error interno del servidor',
+    });
+  }
+});
+
+// ---------------------------------------------------------------------------
+// DELETE /declaracion/webhook/delete
+// Borra un registro específico (requiere autenticación)
+// ---------------------------------------------------------------------------
+router.delete('/webhook/delete', async (req: Request, res: Response): Promise<void> => {
+  try {
+    const { uid, api_key } = req.body;
+
+    // Validar API key
+    const expectedApiKey = process.env.EFICENTA_API_KEY || 'eficenta-secret-key';
+    if (api_key !== expectedApiKey) {
+      res.status(401).json({
+        success: false,
+        error: 'API key inválida',
+      });
+      return;
+    }
+
+    // Validar UID
+    if (!uid) {
+      res.status(400).json({
+        success: false,
+        error: 'UID es requerido',
+      });
+      return;
+    }
+
+    const cleanUid = uid.trim();
+    const recordPath = getRecordPath(cleanUid);
+
+    // Verificar si el registro existe
+    if (!fs.existsSync(recordPath)) {
+      res.status(404).json({
+        success: false,
+        error: `No se encontró registro con uid: ${cleanUid}`,
+      });
+      return;
+    }
+
+    // Leer el registro antes de borrarlo para obtener rutas de archivos
+    const record = loadRecord(cleanUid);
+
+    // Borrar archivos asociados si existen
+    const filesToDelete: string[] = [recordPath];
+
+    if (record?.docxPath && fs.existsSync(record.docxPath)) {
+      filesToDelete.push(record.docxPath);
+    }
+    if (record?.signedPdfPath && fs.existsSync(record.signedPdfPath)) {
+      filesToDelete.push(record.signedPdfPath);
+    }
+    if (record?.signatureImagePath && fs.existsSync(record.signatureImagePath)) {
+      filesToDelete.push(record.signatureImagePath);
+    }
+
+    // Borrar todos los archivos
+    filesToDelete.forEach(filePath => {
+      try {
+        fs.unlinkSync(filePath);
+        console.log(`[DELETE] Archivo borrado: ${filePath}`);
+      } catch (err) {
+        console.error(`[DELETE] Error borrando ${filePath}:`, err);
+      }
+    });
+
+    console.log(`[DELETE] Registro ${cleanUid} borrado exitosamente`);
+
+    res.json({
+      success: true,
+      message: `Registro ${cleanUid} y archivos asociados borrados exitosamente`,
+      deletedFiles: filesToDelete.length,
+    });
+
+  } catch (err: any) {
+    console.error('Error en DELETE /declaracion/webhook/delete:', err);
     res.status(500).json({
       success: false,
       error: 'Error interno del servidor',

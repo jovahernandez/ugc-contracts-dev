@@ -1,10 +1,10 @@
-# EFICENTA - Pre-llenado de Datos via URL
+# EFFICENTA - Pre-llenado de Datos via URL
 
 ## Descripción
 
 El sistema de declaraciones ahora soporta **pre-llenado automático de datos** mediante parámetros en el URL.
 
-EFICENTA puede enviar los datos del proveedor directamente en el link, y el formulario se mostrará con estos datos **pre-llenados y bloqueados** para validación visual del usuario.
+EFFICENTA puede enviar los datos del proveedor directamente en el link, y el formulario se mostrará con estos datos **pre-llenados y bloqueados** para validación visual del usuario.
 
 ## Flujo de Validación Visual
 
@@ -12,8 +12,8 @@ El sistema implementa un flujo de **validación visual** para mejorar la experie
 
 ### Pasos del Flujo
 
-1. **EFICENTA construye el URL** → Añade los datos como parámetros en el link
-2. **EFICENTA envía el link al proveedor** → Por correo, WhatsApp, etc.
+1. **EFFICENTA construye el URL** → Añade los datos como parámetros en el link
+2. **EFFICENTA envía el link al proveedor** → Por correo, WhatsApp, etc.
 3. **Usuario abre el link** → El formulario lee los parámetros y pre-llena los campos
 4. **Formulario pre-llenado** → Los campos se muestran bloqueados (readonly) con los datos enviados
 5. **Usuario valida visualmente** → El usuario revisa que los datos sean correctos
@@ -54,7 +54,7 @@ https://coi-acuerdo.up.railway.app/declaracion?uid=XXX&nombre_proveedor_razon_so
 | Parámetro | Requerido | Descripción | Ejemplo |
 |-----------|-----------|-------------|---------|
 | `uid` | ✅ Obligatorio | Identificador único del proveedor | `PROV001` |
-| `nombre_proveedor_razon_social` o `nombre` | ⚠️ Opcional | Nombre o razón social del proveedor | `EFICENTA%20S.A.%20DE%20C.V.` |
+| `nombre_proveedor_razon_social` o `nombre` | ⚠️ Opcional | Nombre o razón social del proveedor | `EFFICENTA%20S.A.%20DE%20C.V.` |
 | `nombre_representante_legal` o `representante` | ⚠️ Opcional | Nombre del representante legal | `Juan%20P%C3%A9rez%20Garc%C3%ADa` |
 | `email` | ⚠️ Opcional | Correo electrónico | `contacto@eficenta.com` |
 
@@ -69,10 +69,10 @@ https://coi-acuerdo.up.railway.app/declaracion?uid=XXX&nombre_proveedor_razon_so
 - No hay pre-llenado ni bloqueo
 
 ### Con parámetros opcionales (formulario pre-llenado)
-- EFICENTA construye el URL con todos los datos
+- EFFICENTA construye el URL con todos los datos
 - El usuario abre el link
 - El formulario se muestra con los campos **pre-llenados y bloqueados** (readonly)
-- Se muestra un aviso: *"Los datos han sido pre-llenados por EFICENTA. Si encuentra algún error, haga clic en 'Datos erróneos' para corregirlos."*
+- Se muestra un aviso: *"Los datos han sido pre-llenados por EFFICENTA. Si encuentra algún error, haga clic en 'Datos erróneos' para corregirlos."*
 - **Opción 1:** Usuario verifica y hace clic en "Generar Documento" (datos correctos)
 - **Opción 2:** Usuario hace clic en "Datos erróneos" para desbloquear, editar y enviar
 - **Importante:** NO hay validación de las ediciones del usuario - se confía en su corrección
@@ -91,7 +91,7 @@ POST https://coi-acuerdo.up.railway.app/declaracion/webhook/crear
 {
   "uid": "PROV001",
   "api_key": "tu-api-key-secreta",
-  "nombre_proveedor_razon_social": "EFICENTA S.A. DE C.V.",
+  "nombre_proveedor_razon_social": "EFFICENTA S.A. DE C.V.",
   "nombre_representante_legal": "Juan Pérez García",
   "email": "contacto@eficenta.com"
 }
@@ -127,12 +127,12 @@ https://coi-acuerdo.up.railway.app/declaracion?uid=PROV001
 
 **Opción 1: Nombres completos de parámetros**
 ```
-https://coi-acuerdo.up.railway.app/declaracion?uid=PROV001&nombre_proveedor_razon_social=EFICENTA%20S.A.%20DE%20C.V.&nombre_representante_legal=Juan%20P%C3%A9rez%20Garc%C3%ADa&email=contacto@eficenta.com
+https://coi-acuerdo.up.railway.app/declaracion?uid=PROV001&nombre_proveedor_razon_social=EFFICENTA%20S.A.%20DE%20C.V.&nombre_representante_legal=Juan%20P%C3%A9rez%20Garc%C3%ADa&email=contacto@eficenta.com
 ```
 
 **Opción 2: Nombres cortos (alias)**
 ```
-https://coi-acuerdo.up.railway.app/declaracion?uid=PROV001&nombre=EFICENTA%20S.A.%20DE%20C.V.&representante=Juan%20P%C3%A9rez%20Garc%C3%ADa&email=contacto@eficenta.com
+https://coi-acuerdo.up.railway.app/declaracion?uid=PROV001&nombre=EFFICENTA%20S.A.%20DE%20C.V.&representante=Juan%20P%C3%A9rez%20Garc%C3%ADa&email=contacto@eficenta.com
 ```
 
 ### Generar URL desde código (JavaScript ejemplo)
@@ -153,20 +153,20 @@ function construirUrlDeclaracion(uid, nombre, representante, email) {
 // Uso:
 const url = construirUrlDeclaracion(
   'PROV001',
-  'EFICENTA S.A. DE C.V.',
+  'EFFICENTA S.A. DE C.V.',
   'Juan Pérez García',
   'contacto@eficenta.com'
 );
 
 console.log(url);
-// Output: https://coi-acuerdo.up.railway.app/declaracion?uid=PROV001&nombre_proveedor_razon_social=EFICENTA+S.A.+DE+C.V.&nombre_representante_legal=Juan+P%C3%A9rez+Garc%C3%ADa&email=contacto%40eficenta.com
+// Output: https://coi-acuerdo.up.railway.app/declaracion?uid=PROV001&nombre_proveedor_razon_social=EFFICENTA+S.A.+DE+C.V.&nombre_representante_legal=Juan+P%C3%A9rez+Garc%C3%ADa&email=contacto%40eficenta.com
 ```
 
 ## Ventajas del Pre-llenado via URL
 
 1. **Simplicidad**: Solo necesitan construir un URL, sin llamar APIs
 2. **Ahorro de Tiempo**: El usuario no necesita escribir todos sus datos manualmente
-3. **Reducción de Errores**: Los datos vienen directamente de la base de EFICENTA
+3. **Reducción de Errores**: Los datos vienen directamente de la base de EFFICENTA
 4. **Validación Visual**: El usuario solo necesita revisar que los datos sean correctos
 5. **Flexibilidad**: Si hay un error, el usuario puede corregirlo directamente
 6. **Sin Dependencias**: No requiere autenticación ni API keys para el link
