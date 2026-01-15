@@ -230,6 +230,21 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
     const representanteFromUrl = req.query.nombre_representante_legal as string || req.query.representante as string;
     const emailFromUrl = req.query.email as string;
 
+    // DEBUG: Log para ver qué parámetros llegan
+    console.log('[DEBUG] URL Query params:', {
+      nombre_proveedor_razon_social: req.query.nombre_proveedor_razon_social,
+      nombre: req.query.nombre,
+      nombre_representante_legal: req.query.nombre_representante_legal,
+      representante: req.query.representante,
+      email: req.query.email,
+    });
+    console.log('[DEBUG] Valores extraídos:', {
+      nombreFromUrl,
+      representanteFromUrl,
+      emailFromUrl,
+      allPresent: !!(nombreFromUrl && representanteFromUrl && emailFromUrl),
+    });
+
     // Verificar si ya existe un registro (usar async version)
     let record = await loadRecordAsync(uid);
 
@@ -307,13 +322,19 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
       nombreValue = record.expectedProveedorData.nombre_proveedor_razon_social;
       representanteValue = record.expectedProveedorData.nombre_representante_legal;
       emailValue = record.expectedProveedorData.email;
+      console.log('[DEBUG] Usando datos desde registro:', { nombreValue, representanteValue, emailValue });
     } else if (nombreFromUrl && representanteFromUrl && emailFromUrl) {
       // Datos desde URL (si no hay registro aún)
       hasExpectedData = true;
       nombreValue = nombreFromUrl;
       representanteValue = representanteFromUrl;
       emailValue = emailFromUrl;
+      console.log('[DEBUG] Usando datos desde URL:', { nombreValue, representanteValue, emailValue });
+    } else {
+      console.log('[DEBUG] No hay datos pre-llenados - formulario vacío');
     }
+
+    console.log('[DEBUG] hasExpectedData:', hasExpectedData, '| isReadonly:', hasExpectedData);
 
     const isReadonly = hasExpectedData;
 
