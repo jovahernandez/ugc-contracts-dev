@@ -78,4 +78,5 @@ app.use('/declaracion', declaracionRoutes);
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Contracts service listening on port ${PORT}`);
   console.log('Storage root served from:', storageRootPath);
+  console.log('Server started successfully');
 });
