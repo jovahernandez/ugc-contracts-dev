@@ -1793,6 +1793,69 @@ router.delete('/webhook/delete', async (req: Request, res: Response): Promise<vo
   }
 });
 
+// ---------------------------------------------------------------------------
+// GET /declaracion/debug/:uid
+// Debug endpoint para ver de dónde se carga un registro
+// ---------------------------------------------------------------------------
+router.get('/debug/:uid', async (req: Request, res: Response): Promise<void> => {
+  try {
+    const uid = req.params.uid;
+    const recordPath = getRecordPath(uid);
+
+    // Check local
+    const existsLocal = fs.existsSync(recordPath);
+    let localContent = null;
+    if (existsLocal) {
+      localContent = JSON.parse(fs.readFileSync(recordPath, 'utf-8'));
+    }
+
+    // Check GitHub config
+    const githubEnabled = isGitHubStorageEnabled();
+    const githubConfig = {
+      token: process.env.GITHUB_TOKEN ? '***' + process.env.GITHUB_TOKEN.slice(-4) : null,
+      repo: process.env.GITHUB_REPO || 'another-ugc-contracts',
+      owner: process.env.GITHUB_OWNER || 'another-company',
+      branch: process.env.GITHUB_BRANCH || 'main',
+    };
+
+    // Try to load from GitHub
+    let githubRecord = null;
+    let githubError = null;
+    if (githubEnabled) {
+      try {
+        githubRecord = await loadDeclaracionFromGitHub(uid);
+      } catch (err: any) {
+        githubError = err.message;
+      }
+    }
+
+    // Try loadRecordAsync to see what it returns
+    const loadedRecord = await loadRecordAsync(uid);
+
+    res.json({
+      uid,
+      localFile: {
+        path: recordPath,
+        exists: existsLocal,
+        content: localContent,
+      },
+      github: {
+        enabled: githubEnabled,
+        config: githubConfig,
+        foundInGitHub: !!githubRecord,
+        githubRecord: githubRecord ? { status: githubRecord.status, signedAt: githubRecord.signedAt } : null,
+        error: githubError,
+      },
+      loadRecordAsync: {
+        found: !!loadedRecord,
+        record: loadedRecord ? { status: loadedRecord.status, signedAt: loadedRecord.signedAt, signedPdfUrl: loadedRecord.signedPdfUrl } : null,
+      },
+    });
+  } catch (err: any) {
+    res.status(500).json({ error: err.message, stack: err.stack });
+  }
+});
+
 export default router;
 
 // ---------------------------------------------------------------------------
