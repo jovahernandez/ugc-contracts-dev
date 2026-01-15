@@ -225,6 +225,11 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
 
     ensureDirs();
 
+    // Leer parámetros del URL (si EFICENTA los envió)
+    const nombreFromUrl = req.query.nombre_proveedor_razon_social as string || req.query.nombre as string;
+    const representanteFromUrl = req.query.nombre_representante_legal as string || req.query.representante as string;
+    const emailFromUrl = req.query.email as string;
+
     // Verificar si ya existe un registro (usar async version)
     let record = await loadRecordAsync(uid);
 
@@ -249,14 +254,67 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
       return;
     }
 
-    // Preparar datos pre-llenados si existen
-    const hasExpectedData = record?.expectedProveedorData;
-    const expectedData = record?.expectedProveedorData;
+    // Si vienen datos en el URL y NO hay registro, crear uno con esos datos
+    if (!record && nombreFromUrl && representanteFromUrl && emailFromUrl) {
+      const token = randomUUID();
+      const expectedProveedorData: ProveedorData = {
+        nombre_proveedor_razon_social: nombreFromUrl.trim(),
+        nombre_representante_legal: representanteFromUrl.trim(),
+        email: emailFromUrl.trim(),
+      };
 
-    // Si hay datos esperados, pre-llenar y bloquear campos
-    const nombreValue = hasExpectedData ? expectedData!.nombre_proveedor_razon_social : '';
-    const representanteValue = hasExpectedData ? expectedData!.nombre_representante_legal : '';
-    const emailValue = hasExpectedData ? expectedData!.email : '';
+      record = {
+        uid,
+        token,
+        status: 'pending_form',
+        createdAt: new Date().toISOString(),
+        expectedProveedorData,
+      };
+
+      saveRecord(record);
+
+      // Persistir en GitHub si está habilitado
+      if (isGitHubStorageEnabled()) {
+        try {
+          const gitResult = await saveDeclaracionToGitHub(record.uid, {
+            uid: record.uid,
+            status: record.status,
+            proveedor: null,
+            expectedProveedor: expectedProveedorData,
+            signedAt: null,
+            signedPdfUrl: null,
+            signatureMetadata: null,
+            documentHash: null,
+          });
+          if (gitResult.success) {
+            console.log(`✅ Declaración ${record.uid} guardada desde URL params en GitHub`);
+          }
+        } catch (gitErr) {
+          console.warn('⚠️ Error al guardar en GitHub:', gitErr);
+        }
+      }
+    }
+
+    // Preparar datos pre-llenados (del registro o del URL)
+    let hasExpectedData = false;
+    let nombreValue = '';
+    let representanteValue = '';
+    let emailValue = '';
+
+    if (record?.expectedProveedorData) {
+      // Datos desde el registro
+      hasExpectedData = true;
+      nombreValue = record.expectedProveedorData.nombre_proveedor_razon_social;
+      representanteValue = record.expectedProveedorData.nombre_representante_legal;
+      emailValue = record.expectedProveedorData.email;
+    } else if (nombreFromUrl && representanteFromUrl && emailFromUrl) {
+      // Datos desde URL (si no hay registro aún)
+      hasExpectedData = true;
+      nombreValue = nombreFromUrl;
+      representanteValue = representanteFromUrl;
+      emailValue = emailFromUrl;
+    }
+
     const isReadonly = hasExpectedData;
 
     // Mostrar formulario
@@ -1300,16 +1358,9 @@ router.get('/status', async (req: Request, res: Response): Promise<void> => {
       status: record.status,
       proveedor: record.proveedorData?.nombre_proveedor_razon_social || null,
       representante_legal: record.proveedorData?.nombre_representante_legal || null,
-      email: record.proveedorData?.email || null,
       createdAt: record.createdAt,
       signedAt: record.signedAt || null,
       signedPdfUrl: record.signedPdfUrl || null,
-      // Datos esperados para validación (si EFICENTA los envió)
-      expectedProveedor: record.expectedProveedorData ? {
-        nombre_proveedor_razon_social: record.expectedProveedorData.nombre_proveedor_razon_social,
-        nombre_representante_legal: record.expectedProveedorData.nombre_representante_legal,
-        email: record.expectedProveedorData.email,
-      } : null,
     });
   } catch (err: any) {
     console.error('Error en GET /declaracion/status:', err);
