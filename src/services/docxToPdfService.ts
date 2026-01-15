@@ -32,10 +32,15 @@ export async function convertDocxToPdf(
   const pdfPath = path.join(outputDir, pdfFileName);
 
   try {
+    console.log('[PDF] Iniciando conversión DOCX → PDF');
+    console.log('[PDF] Executable path:', process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium');
+
     // 1) Convertir DOCX a HTML usando mammoth
+    console.log('[PDF] Paso 1: Convirtiendo DOCX a HTML...');
     const docxBuffer = fs.readFileSync(signedDocxPath);
     const result = await mammoth.convertToHtml({ buffer: docxBuffer });
     const htmlContent = result.value;
+    console.log('[PDF] ✅ DOCX → HTML completado');
 
     // 2) Crear HTML completo con estilos para mejor formato
     const fullHtml = `
@@ -84,6 +89,7 @@ export async function convertDocxToPdf(
 </html>`;
 
     // 3) Usar Puppeteer para convertir HTML a PDF
+    console.log('[PDF] Paso 2: Lanzando navegador Chromium...');
     const browser = await puppeteer.launch({
       headless: true,
       executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/chromium',
@@ -92,12 +98,22 @@ export async function convertDocxToPdf(
         '--disable-setuid-sandbox',
         '--disable-dev-shm-usage',
         '--disable-gpu',
+        '--disable-software-rasterizer',
+        '--disable-extensions',
       ],
+      timeout: 30000, // 30 segundos timeout
     });
+    console.log('[PDF] ✅ Navegador lanzado correctamente');
 
+    console.log('[PDF] Paso 3: Renderizando HTML...');
     const page = await browser.newPage();
-    await page.setContent(fullHtml, { waitUntil: 'networkidle0' });
+    await page.setContent(fullHtml, {
+      waitUntil: 'networkidle0',
+      timeout: 30000,
+    });
+    console.log('[PDF] ✅ HTML renderizado');
 
+    console.log('[PDF] Paso 4: Generando PDF...');
     await page.pdf({
       path: pdfPath,
       format: 'Letter',
@@ -109,14 +125,19 @@ export async function convertDocxToPdf(
         left: '2cm',
       },
     });
+    console.log('[PDF] ✅ PDF generado');
 
     await browser.close();
+    console.log('[PDF] ✅ Navegador cerrado');
 
-    console.log(`✅ PDF generado con Puppeteer: ${pdfPath}`);
+    console.log(`✅ PDF generado exitosamente: ${pdfPath}`);
     return pdfPath;
 
   } catch (err: any) {
-    console.error('[Puppeteer] Error convirtiendo DOCX a PDF:', err);
+    console.error('[Puppeteer] ❌ Error convirtiendo DOCX a PDF:');
+    console.error('[Puppeteer] Error name:', err.name);
+    console.error('[Puppeteer] Error message:', err.message);
+    console.error('[Puppeteer] Error stack:', err.stack);
     throw new Error(`Failed to convert DOCX to PDF: ${err.message}`);
   }
 }
