@@ -207,9 +207,8 @@ async function handleGenerateContract(contactId: string, req: Request): Promise<
 
     const documentHash = generateDocumentHash(docxBuffer);
 
-    // Determinar la URL base (Railway, Render, etc.)
+    // Determinar la URL base
     const publicBaseUrl = process.env.PUBLIC_BASE_URL ||
-                          process.env.RENDER_EXTERNAL_URL ||
                           `${req.protocol}://${req.get('host')}`;
 
     const docxUrl = `${publicBaseUrl}/storage/contracts/${baseFileName}.docx`;
