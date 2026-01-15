@@ -1300,9 +1300,16 @@ router.get('/status', async (req: Request, res: Response): Promise<void> => {
       status: record.status,
       proveedor: record.proveedorData?.nombre_proveedor_razon_social || null,
       representante_legal: record.proveedorData?.nombre_representante_legal || null,
+      email: record.proveedorData?.email || null,
       createdAt: record.createdAt,
       signedAt: record.signedAt || null,
       signedPdfUrl: record.signedPdfUrl || null,
+      // Datos esperados para validación (si EFICENTA los envió)
+      expectedProveedor: record.expectedProveedorData ? {
+        nombre_proveedor_razon_social: record.expectedProveedorData.nombre_proveedor_razon_social,
+        nombre_representante_legal: record.expectedProveedorData.nombre_representante_legal,
+        email: record.expectedProveedorData.email,
+      } : null,
     });
   } catch (err: any) {
     console.error('Error en GET /declaracion/status:', err);
