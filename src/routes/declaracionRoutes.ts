@@ -1648,8 +1648,10 @@ router.delete('/webhook/delete', async (req: Request, res: Response): Promise<vo
     const cleanUid = uid.trim();
     const recordPath = getRecordPath(cleanUid);
 
-    // Verificar si el registro existe
-    if (!fs.existsSync(recordPath)) {
+    // Intentar cargar el registro (local o desde GitHub)
+    const record = await loadRecordAsync(cleanUid);
+
+    if (!record) {
       res.status(404).json({
         success: false,
         error: `No se encontró registro con uid: ${cleanUid}`,
@@ -1657,38 +1659,129 @@ router.delete('/webhook/delete', async (req: Request, res: Response): Promise<vo
       return;
     }
 
-    // Leer el registro antes de borrarlo para obtener rutas de archivos
-    const record = loadRecord(cleanUid);
+    // Borrar archivos locales asociados si existen
+    const filesToDelete: string[] = [];
 
-    // Borrar archivos asociados si existen
-    const filesToDelete: string[] = [recordPath];
+    if (fs.existsSync(recordPath)) {
+      filesToDelete.push(recordPath);
+      fs.unlinkSync(recordPath);
+      console.log(`[DELETE] Archivo local borrado: ${recordPath}`);
+    }
 
     if (record?.docxPath && fs.existsSync(record.docxPath)) {
       filesToDelete.push(record.docxPath);
+      fs.unlinkSync(record.docxPath);
+      console.log(`[DELETE] DOCX borrado: ${record.docxPath}`);
     }
     if (record?.signedPdfPath && fs.existsSync(record.signedPdfPath)) {
       filesToDelete.push(record.signedPdfPath);
+      fs.unlinkSync(record.signedPdfPath);
+      console.log(`[DELETE] PDF borrado: ${record.signedPdfPath}`);
     }
     if (record?.signatureImagePath && fs.existsSync(record.signatureImagePath)) {
       filesToDelete.push(record.signatureImagePath);
+      fs.unlinkSync(record.signatureImagePath);
+      console.log(`[DELETE] Firma borrada: ${record.signatureImagePath}`);
     }
 
-    // Borrar todos los archivos
-    filesToDelete.forEach(filePath => {
+    // Borrar de GitHub si está configurado
+    let githubDeleted = false;
+    if (isGitHubStorageEnabled()) {
       try {
-        fs.unlinkSync(filePath);
-        console.log(`[DELETE] Archivo borrado: ${filePath}`);
-      } catch (err) {
-        console.error(`[DELETE] Error borrando ${filePath}:`, err);
-      }
-    });
+        const githubToken = process.env.GITHUB_TOKEN;
+        const githubRepo = process.env.GITHUB_REPO || 'Another-andy/another-ugc-contracts';
+        const [owner, repo] = githubRepo.split('/');
+        const branch = process.env.GITHUB_BRANCH || 'main';
 
-    console.log(`[DELETE] Registro ${cleanUid} borrado exitosamente`);
+        // Intentar borrar archivo por UID (formato nuevo)
+        const filePathByUid = `data/declaraciones/by-uid/${cleanUid}.json`;
+        const urlByUid = `https://api.github.com/repos/${owner}/${repo}/contents/${filePathByUid}`;
+
+        // Obtener SHA del archivo
+        const getResponse = await fetch(urlByUid, {
+          headers: {
+            'Authorization': `Bearer ${githubToken}`,
+            'Accept': 'application/vnd.github.v3+json',
+            'User-Agent': 'another-ugc-contracts',
+          },
+        });
+
+        if (getResponse.ok) {
+          const fileData = await getResponse.json();
+
+          // Borrar el archivo
+          const deleteResponse = await fetch(urlByUid, {
+            method: 'DELETE',
+            headers: {
+              'Authorization': `Bearer ${githubToken}`,
+              'Accept': 'application/vnd.github.v3+json',
+              'User-Agent': 'another-ugc-contracts',
+            },
+            body: JSON.stringify({
+              message: `🗑️ DELETE: Registro ${cleanUid}`,
+              sha: fileData.sha,
+              branch,
+            }),
+          });
+
+          if (deleteResponse.ok) {
+            console.log(`✅ [GitHub] Archivo borrado: ${filePathByUid}`);
+            githubDeleted = true;
+          }
+        }
+
+        // Intentar borrar archivo legacy (formato YYYY-MM-DD_UID.json)
+        const listUrl = `https://api.github.com/repos/${owner}/${repo}/contents/data/declaraciones?ref=${branch}`;
+        const listResponse = await fetch(listUrl, {
+          headers: {
+            'Authorization': `Bearer ${githubToken}`,
+            'Accept': 'application/vnd.github.v3+json',
+            'User-Agent': 'another-ugc-contracts',
+          },
+        });
+
+        if (listResponse.ok) {
+          const files = await listResponse.json();
+          const legacyFile = files.find((f: any) =>
+            f.name.endsWith(`_${cleanUid}.json`) && f.type === 'file'
+          );
+
+          if (legacyFile) {
+            const legacyPath = `data/declaraciones/${legacyFile.name}`;
+            const legacyUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${legacyPath}`;
+
+            const deleteLegacyResponse = await fetch(legacyUrl, {
+              method: 'DELETE',
+              headers: {
+                'Authorization': `Bearer ${githubToken}`,
+                'Accept': 'application/vnd.github.v3+json',
+                'User-Agent': 'another-ugc-contracts',
+              },
+              body: JSON.stringify({
+                message: `🗑️ DELETE: Registro legacy ${cleanUid}`,
+                sha: legacyFile.sha,
+                branch,
+              }),
+            });
+
+            if (deleteLegacyResponse.ok) {
+              console.log(`✅ [GitHub] Archivo legacy borrado: ${legacyPath}`);
+              githubDeleted = true;
+            }
+          }
+        }
+      } catch (err) {
+        console.error('[GitHub] Error borrando de GitHub:', err);
+      }
+    }
+
+    console.log(`[DELETE] Registro ${cleanUid} borrado exitosamente (local + GitHub)`);
 
     res.json({
       success: true,
-      message: `Registro ${cleanUid} y archivos asociados borrados exitosamente`,
-      deletedFiles: filesToDelete.length,
+      message: `Registro ${cleanUid} borrado exitosamente`,
+      deletedFilesLocal: filesToDelete.length,
+      deletedFromGitHub: githubDeleted,
     });
 
   } catch (err: any) {
