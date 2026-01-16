@@ -9,6 +9,7 @@ import Docxtemplater from 'docxtemplater';
 import PizZip from 'pizzip';
 import ImageModule from 'docxtemplater-image-module-free';
 import { convertDocxToPdf } from '../services/docxToPdfService';
+import { convertDocxToPdfWithCloudConvert } from '../services/cloudConvertService';
 import {
   getClientIp,
   extractSignatureMetadata,
@@ -509,7 +510,7 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
       <button type="submit">Generar Documento →</button>
 
       ${hasExpectedData ? `
-      <button type="button" class="btn-error" id="unlock-btn">⚠️ Datos incorrectos - Contactar a EFFICENTA</button>
+      <button type="button" class="btn-error" id="unlock-btn">Regresar a EFFICENTA</button>
       ` : ''}
     </form>
   </div>
@@ -996,17 +997,47 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
     const signedDocxPath = path.join(signedDir, `declaracion_${record.uid}_signed.docx`);
     fs.writeFileSync(signedDocxPath, signedDocxBuffer);
 
-    // Convertir DOCX a PDF usando Puppeteer
+    // Convertir DOCX a PDF usando CloudConvert (con Puppeteer como fallback)
     let finalFilePath = signedDocxPath;
+    let conversionMethod = 'none';
+
     try {
       console.log(`[PDF] Convirtiendo DOCX a PDF para ${record.uid}...`);
-      const pdfPath = await convertDocxToPdf(signedDocxPath, signedDir);
-      finalFilePath = pdfPath;
-      console.log(`[PDF] ✅ Conversión exitosa: ${pdfPath}`);
+
+      // Intentar primero con CloudConvert (más confiable)
+      const cloudConvertApiKey = process.env.CLOUDCONVERT_API_KEY;
+      if (cloudConvertApiKey) {
+        try {
+          console.log(`[PDF] Intentando conversión con CloudConvert...`);
+          const pdfPath = await convertDocxToPdfWithCloudConvert(signedDocxPath, signedDir);
+          finalFilePath = pdfPath;
+          conversionMethod = 'cloudconvert';
+          console.log(`[PDF] ✅ Conversión exitosa con CloudConvert: ${pdfPath}`);
+        } catch (cloudConvertErr: any) {
+          console.error(`[PDF] ⚠️ CloudConvert falló: ${cloudConvertErr.message}`);
+          console.log(`[PDF] Intentando con Puppeteer como fallback...`);
+
+          // Fallback a Puppeteer si CloudConvert falla
+          const pdfPath = await convertDocxToPdf(signedDocxPath, signedDir);
+          finalFilePath = pdfPath;
+          conversionMethod = 'puppeteer';
+          console.log(`[PDF] ✅ Conversión exitosa con Puppeteer (fallback): ${pdfPath}`);
+        }
+      } else {
+        // Si no hay CloudConvert configurado, usar Puppeteer directamente
+        console.log(`[PDF] CloudConvert no configurado, usando Puppeteer...`);
+        const pdfPath = await convertDocxToPdf(signedDocxPath, signedDir);
+        finalFilePath = pdfPath;
+        conversionMethod = 'puppeteer';
+        console.log(`[PDF] ✅ Conversión exitosa con Puppeteer: ${pdfPath}`);
+      }
     } catch (pdfErr: any) {
-      console.error(`[PDF] ⚠️ Error en conversión, usando DOCX: ${pdfErr.message}`);
-      // Si falla la conversión, continuamos con DOCX (fallback)
+      console.error(`[PDF] ⚠️ Error en todas las conversiones, usando DOCX: ${pdfErr.message}`);
+      conversionMethod = 'failed';
+      // Si falla todo, continuamos con DOCX (fallback final)
     }
+
+    console.log(`[PDF] Método de conversión usado: ${conversionMethod}`);
 
     const publicBaseUrl = process.env.PUBLIC_BASE_URL || `${req.protocol}://${req.get('host')}`;
 
