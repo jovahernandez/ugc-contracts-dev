@@ -11,6 +11,7 @@ import { buildContractDataFromContact } from '../services/templateService';
 import { renderContractDocx } from '../services/docxContractService';
 import { renderSignedContractDocx } from '../services/signedDocxService';
 import { convertDocxToPdf } from '../services/docxToPdfService';
+import { convertDocxToPdfWithCloudConvert } from '../services/cloudConvertService';
 import {
   getClientIp,
   extractSignatureMetadata,
@@ -1189,11 +1190,43 @@ router.post(
       );
       fs.writeFileSync(signedDocxPath, signedDocxBuffer);
 
-      // 3.4 Convertir a PDF (stub: en Codespaces devuelve la ruta DOCX)
-      const pdfPath = await convertDocxToPdf(
-        signedDocxPath,
-        signedContractsDir
-      );
+      // 3.4 Convertir DOCX a PDF usando CloudConvert (con Puppeteer como fallback)
+      let pdfPath: string;
+      let conversionMethod = 'none';
+
+      try {
+        console.log(`[PDF] Convirtiendo contrato DOCX a PDF para ${record.contactId}...`);
+
+        // Intentar primero con CloudConvert (más confiable)
+        const cloudConvertApiKey = process.env.CLOUDCONVERT_API_KEY;
+        if (cloudConvertApiKey) {
+          try {
+            console.log(`[PDF] Intentando conversión con CloudConvert...`);
+            pdfPath = await convertDocxToPdfWithCloudConvert(signedDocxPath, signedContractsDir);
+            conversionMethod = 'cloudconvert';
+            console.log(`[PDF] ✅ Conversión exitosa con CloudConvert: ${pdfPath}`);
+          } catch (cloudConvertErr: any) {
+            console.error(`[PDF] ⚠️ CloudConvert falló: ${cloudConvertErr.message}`);
+            console.log(`[PDF] Intentando con Puppeteer como fallback...`);
+
+            // Fallback a Puppeteer si CloudConvert falla
+            pdfPath = await convertDocxToPdf(signedDocxPath, signedContractsDir);
+            conversionMethod = 'puppeteer';
+            console.log(`[PDF] ✅ Conversión exitosa con Puppeteer (fallback): ${pdfPath}`);
+          }
+        } else {
+          // Si no hay CloudConvert configurado, usar Puppeteer directamente
+          console.log(`[PDF] CloudConvert no configurado, usando Puppeteer...`);
+          pdfPath = await convertDocxToPdf(signedDocxPath, signedContractsDir);
+          conversionMethod = 'puppeteer';
+          console.log(`[PDF] ✅ Conversión exitosa con Puppeteer: ${pdfPath}`);
+        }
+      } catch (pdfErr: any) {
+        console.error(`[PDF] ❌ Error en todas las conversiones: ${pdfErr.message}`);
+        throw new Error(`Error al convertir contrato a PDF: ${pdfErr.message}`);
+      }
+
+      console.log(`[PDF] Método de conversión usado: ${conversionMethod}`);
 
       const pdfRelative = path
         .relative(storageRoot, pdfPath)
