@@ -626,7 +626,7 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
         const gitResult = await saveDeclaracionToGitHub(record.uid, {
           uid: record.uid,
           status: record.status,
-          proveedor: record.proveedorData,
+          proveedor: record.proveedorData || record.expectedProveedorData,
           signedAt: null,
           signedPdfUrl: null,
           signatureMetadata: null,
@@ -891,12 +891,38 @@ router.get('/firmar/:token', async (req: Request, res: Response): Promise<void> 
       hasDrawing = false;
     });
 
+    // Función para contar píxeles de la firma (no transparentes)
+    function getSignaturePixelCount() {
+      var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+      var pixels = imageData.data;
+      var count = 0;
+      // Cada píxel tiene 4 valores: R, G, B, A
+      for (var i = 3; i < pixels.length; i += 4) {
+        // Si el canal alpha es mayor a 0, el píxel tiene contenido
+        if (pixels[i] > 0) {
+          count++;
+        }
+      }
+      return count;
+    }
+
+    // Mínimo de píxeles requeridos para una firma válida (aprox. 500 = una firma básica)
+    var MIN_SIGNATURE_PIXELS = 500;
+
     document.querySelector('form').addEventListener('submit', function(e) {
       if (!hasDrawing) {
         e.preventDefault();
         alert('Por favor dibuje su firma antes de continuar.');
         return;
       }
+
+      var pixelCount = getSignaturePixelCount();
+      if (pixelCount < MIN_SIGNATURE_PIXELS) {
+        e.preventDefault();
+        alert('La firma es muy pequeña. Por favor dibuje una firma más completa y legible.');
+        return;
+      }
+
       document.getElementById('signatureData').value = canvas.toDataURL('image/png');
     });
   </script>
@@ -1068,7 +1094,7 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
         const gitResult = await saveDeclaracionToGitHub(record.uid, {
           uid: record.uid,
           status: record.status,
-          proveedor: record.proveedorData,
+          proveedor: record.proveedorData || record.expectedProveedorData,
           signedAt: record.signedAt,
           signedPdfUrl: record.signedPdfUrl,
           signatureMetadata: {
@@ -1340,12 +1366,13 @@ router.get('/all', (req: Request, res: Response): void => {
     const records = files.map(file => {
       try {
         const record = JSON.parse(fs.readFileSync(path.join(declaracionesDir, file), 'utf-8'));
+        const provData = record.proveedorData || record.expectedProveedorData;
         return {
           uid: record.uid,
           status: record.status,
-          proveedor: record.proveedorData?.nombre_proveedor_razon_social || null,
-          representante_legal: record.proveedorData?.nombre_representante_legal || null,
-          email: record.proveedorData?.email || null,
+          proveedor: provData?.nombre_proveedor_razon_social || null,
+          representante_legal: provData?.nombre_representante_legal || null,
+          email: provData?.email || null,
           createdAt: record.createdAt,
           signedAt: record.signedAt || null,
           signedPdfUrl: record.signedPdfUrl || null,
@@ -1399,11 +1426,12 @@ router.get('/status', async (req: Request, res: Response): Promise<void> => {
       return;
     }
 
+    const provData = record.proveedorData || record.expectedProveedorData;
     res.json({
       uid: record.uid,
       status: record.status,
-      proveedor: record.proveedorData?.nombre_proveedor_razon_social || null,
-      representante_legal: record.proveedorData?.nombre_representante_legal || null,
+      proveedor: provData?.nombre_proveedor_razon_social || null,
+      representante_legal: provData?.nombre_representante_legal || null,
       createdAt: record.createdAt,
       signedAt: record.signedAt || null,
       signedPdfUrl: record.signedPdfUrl || null,

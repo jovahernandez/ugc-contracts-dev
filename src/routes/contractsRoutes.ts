@@ -1038,6 +1038,24 @@ router.get(
         hasDrawing = false;
       });
 
+      // Función para contar píxeles de la firma (no transparentes)
+      function getSignaturePixelCount() {
+        var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        var pixels = imageData.data;
+        var count = 0;
+        // Cada píxel tiene 4 valores: R, G, B, A
+        for (var i = 3; i < pixels.length; i += 4) {
+          // Si el canal alpha es mayor a 0, el píxel tiene contenido
+          if (pixels[i] > 0) {
+            count++;
+          }
+        }
+        return count;
+      }
+
+      // Mínimo de píxeles requeridos para una firma válida
+      var MIN_SIGNATURE_PIXELS = 500;
+
       // Submit del formulario
       var form = document.querySelector('form');
       var signatureInput = document.getElementById('signatureData');
@@ -1048,6 +1066,14 @@ router.get(
           alert('Por favor realiza tu firma en el recuadro antes de continuar.');
           return;
         }
+
+        var pixelCount = getSignaturePixelCount();
+        if (pixelCount < MIN_SIGNATURE_PIXELS) {
+          e.preventDefault();
+          alert('La firma es muy pequeña. Por favor dibuja una firma más completa y legible.');
+          return;
+        }
+
         var dataUrl = canvas.toDataURL('image/png');
         signatureInput.value = dataUrl;
       });
