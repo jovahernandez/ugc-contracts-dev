@@ -29,6 +29,233 @@ import {
 
 const router = Router();
 
+// ============================================================================
+// SISTEMA DE INTERNACIONALIZACIÓN (i18n)
+// ============================================================================
+type SupportedLanguage = 'es' | 'en' | 'pt';
+
+const translations: Record<SupportedLanguage, Record<string, string>> = {
+  es: {
+    // Language selector
+    lang_title: 'Seleccione su idioma',
+    lang_subtitle: 'Por favor seleccione el idioma en el que desea ver el documento',
+    lang_spanish: 'Español',
+    lang_english: 'English',
+    lang_portuguese: 'Português',
+    lang_continue: 'Continuar',
+    lang_select_required: 'Debe seleccionar un idioma para continuar',
+
+    // Form page
+    form_title: 'Declaración de Ausencia de Conflicto de Interés',
+    form_subtitle_prefilled: 'Verifique que los siguientes datos sean correctos',
+    form_subtitle_empty: 'Complete los siguientes datos para generar su declaración',
+    form_provider_id: 'ID del Proveedor',
+    form_prefilled_notice: 'Datos Pre-llenados',
+    form_prefilled_msg: 'Los datos han sido pre-llenados por EFFICENTA. Si encuentra algún error, haga clic en "Datos incorrectos" para contactarnos.',
+    form_company_name: 'Nombre o Razón Social del Proveedor',
+    form_company_placeholder: 'Ej: Empresa ABC S.A. de C.V.',
+    form_legal_rep: 'Nombre del Representante Legal',
+    form_legal_rep_placeholder: 'Ej: Juan Pérez García',
+    form_email: 'Correo Electrónico',
+    form_email_placeholder: 'Ej: contacto@empresa.com',
+    form_submit: 'Generar Documento',
+    form_back_btn: 'Regresar a EFFICENTA',
+    form_required: '*',
+
+    // Signature page
+    sign_title: 'Declaración de Ausencia de Conflicto de Interés',
+    sign_provider: 'Proveedor',
+    sign_legal_rep: 'Representante Legal',
+    sign_review_doc: '1. Revise el documento',
+    sign_section_title: '2. Firme electrónicamente',
+    sign_instructions: 'Dibuje su firma en el recuadro (use su dedo en móvil o mouse en computadora):',
+    sign_checkbox: 'Declaro bajo protesta de decir verdad que no tengo conflicto de interés alguno con EFFICENTA, y autorizo el uso de mi firma electrónica manuscrita.',
+    sign_clear_btn: 'Borrar firma',
+    sign_submit_btn: 'Firmar Declaración',
+    sign_no_signature: 'Por favor dibuje su firma antes de continuar.',
+    sign_too_small: 'La firma es muy pequeña. Por favor dibuje una firma más completa y legible.',
+    sign_authorized_note: 'Indique el nombre completo de la persona autorizada para firmar legalmente en nombre de su empresa.',
+
+    // Success page
+    success_title: '¡Declaración Firmada Exitosamente!',
+    success_message: 'Su declaración de ausencia de conflicto de interés ha sido registrada.',
+    success_download: 'Descargar Documento Firmado',
+    success_provider: 'Proveedor',
+    success_legal_rep: 'Representante Legal',
+    success_date: 'Fecha de firma',
+
+    // Errors
+    error_invalid_link: 'Enlace inválido',
+    error_no_uid: 'El enlace no contiene el identificador del proveedor (uid).',
+    error_contact: 'Por favor contacte a EFFICENTA para obtener el enlace correcto.',
+    error_already_signed: 'Declaración ya firmada',
+    error_already_signed_msg: 'La declaración para este proveedor ya fue completada y firmada.',
+    error_sign_date: 'Fecha de firma',
+    error_link_invalid: 'Enlace no válido',
+    error_link_expired: 'El enlace de firma no existe o ha expirado.',
+    error_doc_not_found: 'Documento no encontrado.',
+    error_generic: 'Error',
+    error_accept_required: 'Debe aceptar la declaración para continuar.',
+    error_no_signature: 'No se recibió una firma válida.',
+    error_already_signed_simple: 'Esta declaración ya fue firmada',
+  },
+  en: {
+    // Language selector
+    lang_title: 'Select your language',
+    lang_subtitle: 'Please select the language in which you want to view the document',
+    lang_spanish: 'Español',
+    lang_english: 'English',
+    lang_portuguese: 'Português',
+    lang_continue: 'Continue',
+    lang_select_required: 'You must select a language to continue',
+
+    // Form page
+    form_title: 'Statement of No Conflict of Interest',
+    form_subtitle_prefilled: 'Verify that the following information is correct',
+    form_subtitle_empty: 'Complete the following information to generate your statement',
+    form_provider_id: 'Supplier ID',
+    form_prefilled_notice: 'Pre-filled Data',
+    form_prefilled_msg: 'The data has been pre-filled by EFFICENTA. If you find any errors, click "Incorrect Data" to contact us.',
+    form_company_name: 'Name of Supplier or Company Name',
+    form_company_placeholder: 'Ex: ABC Company Inc.',
+    form_legal_rep: 'Name of Legal Representative',
+    form_legal_rep_placeholder: 'Ex: John Smith',
+    form_email: 'Email Address',
+    form_email_placeholder: 'Ex: contact@company.com',
+    form_submit: 'Generate Document',
+    form_back_btn: 'Return to EFFICENTA',
+    form_required: '*',
+
+    // Signature page
+    sign_title: 'Statement of No Conflict of Interest',
+    sign_provider: 'Supplier',
+    sign_legal_rep: 'Legal Representative',
+    sign_review_doc: '1. Review the document',
+    sign_section_title: '2. Sign electronically',
+    sign_instructions: 'Draw your signature in the box (use your finger on mobile or mouse on computer):',
+    sign_checkbox: 'I declare under penalty of perjury that I have no conflict of interest with EFFICENTA, and I authorize the use of my handwritten electronic signature.',
+    sign_clear_btn: 'Clear signature',
+    sign_submit_btn: 'Sign Statement',
+    sign_no_signature: 'Please draw your signature before continuing.',
+    sign_too_small: 'The signature is too small. Please draw a more complete and legible signature.',
+    sign_authorized_note: 'Please indicate the full name of the person authorized to legally sign on behalf of your company.',
+
+    // Success page
+    success_title: 'Statement Successfully Signed!',
+    success_message: 'Your statement of no conflict of interest has been recorded.',
+    success_download: 'Download Signed Document',
+    success_provider: 'Supplier',
+    success_legal_rep: 'Legal Representative',
+    success_date: 'Signature date',
+
+    // Errors
+    error_invalid_link: 'Invalid link',
+    error_no_uid: 'The link does not contain the supplier identifier (uid).',
+    error_contact: 'Please contact EFFICENTA to obtain the correct link.',
+    error_already_signed: 'Statement already signed',
+    error_already_signed_msg: 'The statement for this supplier has already been completed and signed.',
+    error_sign_date: 'Signature date',
+    error_link_invalid: 'Invalid link',
+    error_link_expired: 'The signature link does not exist or has expired.',
+    error_doc_not_found: 'Document not found.',
+    error_generic: 'Error',
+    error_accept_required: 'You must accept the statement to continue.',
+    error_no_signature: 'No valid signature received.',
+    error_already_signed_simple: 'This statement has already been signed',
+  },
+  pt: {
+    // Language selector
+    lang_title: 'Selecione seu idioma',
+    lang_subtitle: 'Por favor selecione o idioma em que deseja ver o documento',
+    lang_spanish: 'Español',
+    lang_english: 'English',
+    lang_portuguese: 'Português',
+    lang_continue: 'Continuar',
+    lang_select_required: 'Você deve selecionar um idioma para continuar',
+
+    // Form page
+    form_title: 'Declaração de Ausência de Conflito de Interesses',
+    form_subtitle_prefilled: 'Verifique se as seguintes informações estão corretas',
+    form_subtitle_empty: 'Preencha as seguintes informações para gerar sua declaração',
+    form_provider_id: 'ID do Fornecedor',
+    form_prefilled_notice: 'Dados Pré-preenchidos',
+    form_prefilled_msg: 'Os dados foram pré-preenchidos pela EFFICENTA. Se encontrar algum erro, clique em "Dados incorretos" para nos contatar.',
+    form_company_name: 'Nome do Fornecedor ou Razão Social',
+    form_company_placeholder: 'Ex: Empresa ABC Ltda.',
+    form_legal_rep: 'Nome do Representante Legal',
+    form_legal_rep_placeholder: 'Ex: João Silva',
+    form_email: 'Endereço de E-mail',
+    form_email_placeholder: 'Ex: contato@empresa.com',
+    form_submit: 'Gerar Documento',
+    form_back_btn: 'Voltar para EFFICENTA',
+    form_required: '*',
+
+    // Signature page
+    sign_title: 'Declaração de Ausência de Conflito de Interesses',
+    sign_provider: 'Fornecedor',
+    sign_legal_rep: 'Representante Legal',
+    sign_review_doc: '1. Revise o documento',
+    sign_section_title: '2. Assine eletronicamente',
+    sign_instructions: 'Desenhe sua assinatura na caixa (use seu dedo no celular ou mouse no computador):',
+    sign_checkbox: 'Declaro sob pena de perjúrio que não tenho conflito de interesses com a EFFICENTA, e autorizo o uso da minha assinatura eletrônica manuscrita.',
+    sign_clear_btn: 'Limpar assinatura',
+    sign_submit_btn: 'Assinar Declaração',
+    sign_no_signature: 'Por favor desenhe sua assinatura antes de continuar.',
+    sign_too_small: 'A assinatura é muito pequena. Por favor desenhe uma assinatura mais completa e legível.',
+    sign_authorized_note: 'Indique o nome completo da pessoa autorizada a assinar legalmente em nome da sua empresa.',
+
+    // Success page
+    success_title: 'Declaração Assinada com Sucesso!',
+    success_message: 'Sua declaração de ausência de conflito de interesses foi registrada.',
+    success_download: 'Baixar Documento Assinado',
+    success_provider: 'Fornecedor',
+    success_legal_rep: 'Representante Legal',
+    success_date: 'Data da assinatura',
+
+    // Errors
+    error_invalid_link: 'Link inválido',
+    error_no_uid: 'O link não contém o identificador do fornecedor (uid).',
+    error_contact: 'Por favor entre em contato com a EFFICENTA para obter o link correto.',
+    error_already_signed: 'Declaração já assinada',
+    error_already_signed_msg: 'A declaração para este fornecedor já foi completada e assinada.',
+    error_sign_date: 'Data da assinatura',
+    error_link_invalid: 'Link inválido',
+    error_link_expired: 'O link de assinatura não existe ou expirou.',
+    error_doc_not_found: 'Documento não encontrado.',
+    error_generic: 'Erro',
+    error_accept_required: 'Você deve aceitar a declaração para continuar.',
+    error_no_signature: 'Nenhuma assinatura válida recebida.',
+    error_already_signed_simple: 'Esta declaração já foi assinada',
+  },
+};
+
+// Helper function to get translation
+function t(lang: SupportedLanguage, key: string): string {
+  return translations[lang]?.[key] || translations['es'][key] || key;
+}
+
+// Get template path by language
+function getTemplatePath(lang: SupportedLanguage): string {
+  const templateFiles: Record<SupportedLanguage, string> = {
+    es: 'declaracion-conflicto-es.docx',
+    en: 'declaracion-conflicto-en.docx',
+    pt: 'declaracion-conflicto-pt.docx',
+  };
+  return path.join(__dirname, '..', 'templates', templateFiles[lang]);
+}
+
+// Get locale for date formatting
+function getLocale(lang: SupportedLanguage): string {
+  const locales: Record<SupportedLanguage, string> = {
+    es: 'es-MX',
+    en: 'en-US',
+    pt: 'pt-BR',
+  };
+  return locales[lang];
+}
+
+// ============================================================================
+
 // Directorios de almacenamiento
 const storageRoot = path.join(process.cwd(), 'storage');
 const declaracionesDir = path.join(storageRoot, 'declaraciones');
@@ -56,7 +283,8 @@ interface ProveedorData {
 interface DeclaracionRecord {
   uid: string;
   token: string;
-  status: 'pending_form' | 'pending_signature' | 'signed';
+  status: 'pending_language' | 'pending_form' | 'pending_signature' | 'signed';
+  language?: SupportedLanguage; // Idioma seleccionado por el usuario
   proveedorData?: ProveedorData;
   expectedProveedorData?: ProveedorData; // Datos esperados para validación (enviados por EFFICENTA)
   docxPath?: string;
@@ -203,7 +431,7 @@ async function convertDocxToHtml(docxPath: string): Promise<string> {
 
 // ---------------------------------------------------------------------------
 // GET /declaracion?uid=XXX
-// Muestra formulario para que el proveedor llene sus datos
+// Muestra página de selección de idioma (primer paso)
 // ---------------------------------------------------------------------------
 router.get('/', async (req: Request, res: Response): Promise<void> => {
   try {
@@ -231,36 +459,28 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
     const representanteFromUrl = req.query.nombre_representante_legal as string || req.query.representante as string;
     const emailFromUrl = req.query.email as string;
 
-    // DEBUG: Log para ver qué parámetros llegan
-    console.log('[DEBUG] URL Query params:', {
-      nombre_proveedor_razon_social: req.query.nombre_proveedor_razon_social,
-      nombre: req.query.nombre,
-      nombre_representante_legal: req.query.nombre_representante_legal,
-      representante: req.query.representante,
-      email: req.query.email,
-    });
-    console.log('[DEBUG] Valores extraídos:', {
-      nombreFromUrl,
-      representanteFromUrl,
-      emailFromUrl,
-      allPresent: !!(nombreFromUrl && representanteFromUrl && emailFromUrl),
-    });
-
-    // Verificar si ya existe un registro (usar async version)
+    // Verificar si ya existe un registro
     let record = await loadRecordAsync(uid);
 
     if (record && record.status === 'signed') {
+      const lang = record.language || 'es';
       res.send(`
         <!DOCTYPE html>
-        <html lang="es">
-        <head><meta charset="UTF-8"><title>Declaración Completada</title></head>
+        <html lang="${lang}">
+        <head><meta charset="UTF-8"><title>${t(lang, 'error_already_signed')}</title></head>
         <body style="font-family: system-ui; padding: 40px; text-align: center;">
-          <h1>✅ Declaración ya firmada</h1>
-          <p>La declaración para este proveedor ya fue completada y firmada.</p>
-          <p>Fecha de firma: ${record.signedAt ? new Date(record.signedAt).toLocaleDateString('es-MX') : 'N/A'}</p>
+          <h1>✅ ${t(lang, 'error_already_signed')}</h1>
+          <p>${t(lang, 'error_already_signed_msg')}</p>
+          <p>${t(lang, 'error_sign_date')}: ${record.signedAt ? new Date(record.signedAt).toLocaleDateString(getLocale(lang)) : 'N/A'}</p>
         </body>
         </html>
       `);
+      return;
+    }
+
+    // Si ya tiene idioma seleccionado y está pendiente de formulario, redirigir
+    if (record && record.status === 'pending_form' && record.language) {
+      res.redirect(`/declaracion/formulario?uid=${encodeURIComponent(uid)}`);
       return;
     }
 
@@ -282,7 +502,7 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
       record = {
         uid,
         token,
-        status: 'pending_form',
+        status: 'pending_language',
         createdAt: new Date().toISOString(),
         expectedProveedorData,
       };
@@ -309,43 +529,356 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
           console.warn('⚠️ Error al guardar en GitHub:', gitErr);
         }
       }
+    } else if (!record) {
+      // Crear registro nuevo sin datos esperados
+      const token = randomUUID();
+      record = {
+        uid,
+        token,
+        status: 'pending_language',
+        createdAt: new Date().toISOString(),
+      };
+      saveRecord(record);
     }
 
-    // Preparar datos pre-llenados (del registro o del URL)
+    // Mostrar página de selección de idioma
+    const html = `<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seleccione su idioma / Select your language</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 0;
+      padding: 16px;
+      background: #f5f5f5;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .logo-container {
+      text-align: center;
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .logo-container img {
+      max-width: 180px;
+      height: auto;
+    }
+    h1 {
+      font-size: 24px;
+      color: #1e40af;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+    .subtitle {
+      color: #6b7280;
+      text-align: center;
+      margin-bottom: 32px;
+      font-size: 14px;
+    }
+    .language-options {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .language-option {
+      display: flex;
+      align-items: center;
+      padding: 16px 20px;
+      border: 2px solid #e5e7eb;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .language-option:hover {
+      border-color: #2563eb;
+      background: #eff6ff;
+    }
+    .language-option.selected {
+      border-color: #2563eb;
+      background: #eff6ff;
+    }
+    .language-option input[type="radio"] {
+      margin-right: 16px;
+      width: 20px;
+      height: 20px;
+      accent-color: #2563eb;
+    }
+    .language-info {
+      flex: 1;
+    }
+    .language-name {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1f2937;
+    }
+    .language-native {
+      font-size: 14px;
+      color: #6b7280;
+      margin-top: 2px;
+    }
+    .flag {
+      font-size: 32px;
+      margin-left: 12px;
+    }
+    button {
+      margin-top: 32px;
+      width: 100%;
+      padding: 14px;
+      background: #2563eb;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background: #1d4ed8;
+    }
+    button:disabled {
+      background: #9ca3af;
+      cursor: not-allowed;
+    }
+    .info-box {
+      background: #f0fdf4;
+      border: 1px solid #86efac;
+      padding: 12px 16px;
+      border-radius: 8px;
+      margin-top: 24px;
+      font-size: 13px;
+      color: #166534;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo-container">
+      <img src="https://raw.githubusercontent.com/jovahernandez/ugc-contracts-dev/main/src/assets/another-logo.svg" alt="Another">
+    </div>
+
+    <h1>🌐 Seleccione su idioma</h1>
+    <p class="subtitle">Please select the language in which you want to view the document<br>Por favor seleccione el idioma en el que desea ver el documento</p>
+
+    <form action="/declaracion/seleccionar-idioma" method="POST" id="language-form">
+      <input type="hidden" name="uid" value="${uid}">
+
+      <div class="language-options">
+        <label class="language-option" for="lang-es">
+          <input type="radio" name="language" id="lang-es" value="es" required>
+          <div class="language-info">
+            <div class="language-name">Español</div>
+            <div class="language-native">Spanish</div>
+          </div>
+          <span class="flag">🇲🇽</span>
+        </label>
+
+        <label class="language-option" for="lang-en">
+          <input type="radio" name="language" id="lang-en" value="en">
+          <div class="language-info">
+            <div class="language-name">English</div>
+            <div class="language-native">Inglés</div>
+          </div>
+          <span class="flag">🇺🇸</span>
+        </label>
+
+        <label class="language-option" for="lang-pt">
+          <input type="radio" name="language" id="lang-pt" value="pt">
+          <div class="language-info">
+            <div class="language-name">Português</div>
+            <div class="language-native">Portuguese</div>
+          </div>
+          <span class="flag">🇧🇷</span>
+        </label>
+      </div>
+
+      <button type="submit" id="continue-btn">Continuar / Continue →</button>
+    </form>
+
+    <div class="info-box">
+      <strong>ID:</strong> ${uid}
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById('language-form');
+    const options = document.querySelectorAll('.language-option');
+
+    options.forEach(option => {
+      option.addEventListener('click', function() {
+        options.forEach(o => o.classList.remove('selected'));
+        this.classList.add('selected');
+      });
+    });
+
+    form.addEventListener('submit', function(e) {
+      const selected = document.querySelector('input[name="language"]:checked');
+      if (!selected) {
+        e.preventDefault();
+        alert('Please select a language / Por favor seleccione un idioma');
+      }
+    });
+  </script>
+</body>
+</html>`;
+
+    res.status(200).send(html);
+  } catch (err: any) {
+    console.error('Error en GET /declaracion:', err);
+    res.status(500).send('<h1>Error</h1><p>No fue posible cargar la página.</p>');
+  }
+});
+
+// ---------------------------------------------------------------------------
+// POST /declaracion/seleccionar-idioma
+// Guarda el idioma seleccionado y redirige al formulario
+// ---------------------------------------------------------------------------
+router.post('/seleccionar-idioma', async (req: Request, res: Response): Promise<void> => {
+  try {
+    const { uid, language } = req.body;
+
+    if (!uid || !language) {
+      res.status(400).send('<h1>Error</h1><p>UID e idioma son requeridos.</p>');
+      return;
+    }
+
+    const validLanguages: SupportedLanguage[] = ['es', 'en', 'pt'];
+    if (!validLanguages.includes(language)) {
+      res.status(400).send('<h1>Error</h1><p>Idioma no válido.</p>');
+      return;
+    }
+
+    let record = await loadRecordAsync(uid);
+
+    if (!record) {
+      res.status(404).send('<h1>Error</h1><p>Registro no encontrado.</p>');
+      return;
+    }
+
+    // Actualizar registro con idioma
+    record.language = language as SupportedLanguage;
+    record.status = 'pending_form';
+    saveRecord(record);
+
+    // Persistir en GitHub
+    if (isGitHubStorageEnabled()) {
+      try {
+        await saveDeclaracionToGitHub(record.uid, {
+          uid: record.uid,
+          status: record.status,
+          language: record.language,
+          proveedor: record.proveedorData || null,
+          expectedProveedor: record.expectedProveedorData || null,
+          signedAt: null,
+          signedPdfUrl: null,
+          signatureMetadata: null,
+          documentHash: null,
+        });
+      } catch (gitErr) {
+        console.warn('⚠️ Error al guardar en GitHub:', gitErr);
+      }
+    }
+
+    res.redirect(`/declaracion/formulario?uid=${encodeURIComponent(uid)}`);
+  } catch (err: any) {
+    console.error('Error en POST /declaracion/seleccionar-idioma:', err);
+    res.status(500).send('<h1>Error</h1><p>No fue posible procesar la selección.</p>');
+  }
+});
+
+// ---------------------------------------------------------------------------
+// GET /declaracion/formulario?uid=XXX
+// Muestra formulario en el idioma seleccionado
+// ---------------------------------------------------------------------------
+router.get('/formulario', async (req: Request, res: Response): Promise<void> => {
+  try {
+    const uid = req.query.uid as string;
+
+    if (!uid) {
+      res.status(400).send(`
+        <!DOCTYPE html>
+        <html lang="es">
+        <head><meta charset="UTF-8"><title>Error</title></head>
+        <body style="font-family: system-ui; padding: 40px; text-align: center;">
+          <h1>⚠️ Enlace inválido</h1>
+          <p>El enlace no contiene el identificador del proveedor (uid).</p>
+        </body>
+        </html>
+      `);
+      return;
+    }
+
+    ensureDirs();
+
+    let record = await loadRecordAsync(uid);
+
+    if (!record) {
+      res.redirect(`/declaracion?uid=${encodeURIComponent(uid)}`);
+      return;
+    }
+
+    // Si no tiene idioma, redirigir a selección
+    if (!record.language) {
+      res.redirect(`/declaracion?uid=${encodeURIComponent(uid)}`);
+      return;
+    }
+
+    const lang = record.language;
+
+    if (record.status === 'signed') {
+      res.send(`
+        <!DOCTYPE html>
+        <html lang="${lang}">
+        <head><meta charset="UTF-8"><title>${t(lang, 'error_already_signed')}</title></head>
+        <body style="font-family: system-ui; padding: 40px; text-align: center;">
+          <h1>✅ ${t(lang, 'error_already_signed')}</h1>
+          <p>${t(lang, 'error_already_signed_msg')}</p>
+          <p>${t(lang, 'error_sign_date')}: ${record.signedAt ? new Date(record.signedAt).toLocaleDateString(getLocale(lang)) : 'N/A'}</p>
+        </body>
+        </html>
+      `);
+      return;
+    }
+
+    if (record.status === 'pending_signature' && record.token) {
+      res.redirect(`/declaracion/firmar/${record.token}`);
+      return;
+    }
+
+    // Preparar datos pre-llenados
     let hasExpectedData = false;
     let nombreValue = '';
     let representanteValue = '';
     let emailValue = '';
 
     if (record?.expectedProveedorData) {
-      // Datos desde el registro
       hasExpectedData = true;
       nombreValue = record.expectedProveedorData.nombre_proveedor_razon_social;
       representanteValue = record.expectedProveedorData.nombre_representante_legal;
       emailValue = record.expectedProveedorData.email;
-      console.log('[DEBUG] Usando datos desde registro:', { nombreValue, representanteValue, emailValue });
-    } else if (nombreFromUrl && representanteFromUrl && emailFromUrl) {
-      // Datos desde URL (si no hay registro aún)
-      hasExpectedData = true;
-      nombreValue = nombreFromUrl;
-      representanteValue = representanteFromUrl;
-      emailValue = emailFromUrl;
-      console.log('[DEBUG] Usando datos desde URL:', { nombreValue, representanteValue, emailValue });
-    } else {
-      console.log('[DEBUG] No hay datos pre-llenados - formulario vacío');
     }
-
-    console.log('[DEBUG] hasExpectedData:', hasExpectedData, '| isReadonly:', hasExpectedData);
 
     const isReadonly = hasExpectedData;
 
-    // Mostrar formulario
+    // Mostrar formulario en el idioma seleccionado
     const html = `<!DOCTYPE html>
-<html lang="es">
+<html lang="${lang}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Declaración de Ausencia de Conflicto de Interés</title>
+  <title>${t(lang, 'form_title')}</title>
   <style>
     * { box-sizing: border-box; }
     body {
@@ -449,8 +982,14 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
       font-size: 13px;
       color: #92400e;
     }
-    .hidden {
-      display: none;
+    .note {
+      background: #f0fdf4;
+      border: 1px solid #86efac;
+      padding: 12px;
+      border-radius: 6px;
+      margin-top: 16px;
+      font-size: 13px;
+      color: #166534;
     }
   </style>
 </head>
@@ -460,24 +999,25 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
       <img src="https://raw.githubusercontent.com/jovahernandez/ugc-contracts-dev/main/src/assets/another-logo.svg" alt="Another">
     </div>
 
-    <h1>📋 Declaración de Ausencia de Conflicto de Interés</h1>
-    <p class="subtitle">${hasExpectedData ? 'Verifique que los siguientes datos sean correctos' : 'Complete los siguientes datos para generar su declaración'}</p>
+    <h1>📋 ${t(lang, 'form_title')}</h1>
+    <p class="subtitle">${hasExpectedData ? t(lang, 'form_subtitle_prefilled') : t(lang, 'form_subtitle_empty')}</p>
 
     <div class="info">
-      <strong>ID del Proveedor:</strong> ${uid}
+      <strong>${t(lang, 'form_provider_id')}:</strong> ${uid}
     </div>
 
     ${hasExpectedData ? `
     <div class="warning" id="readonly-notice">
-      <strong>ℹ️ Datos Pre-llenados</strong><br>
-      Los datos han sido pre-llenados por EFFICENTA. Si encuentra algún error, haga clic en "Datos incorrectos" para contactarnos.
+      <strong>ℹ️ ${t(lang, 'form_prefilled_notice')}</strong><br>
+      ${t(lang, 'form_prefilled_msg')}
     </div>
     ` : ''}
 
     <form action="/declaracion/generar" method="POST" id="declaracion-form">
       <input type="hidden" name="uid" value="${uid}">
+      <input type="hidden" name="language" value="${lang}">
 
-      <label for="nombre_proveedor_razon_social">Nombre o Razón Social del Proveedor *</label>
+      <label for="nombre_proveedor_razon_social">${t(lang, 'form_company_name')} ${t(lang, 'form_required')}</label>
       <input
         type="text"
         id="nombre_proveedor_razon_social"
@@ -485,9 +1025,9 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
         value="${nombreValue}"
         ${isReadonly ? 'readonly' : ''}
         required
-        placeholder="Ej: Empresa ABC S.A. de C.V.">
+        placeholder="${t(lang, 'form_company_placeholder')}">
 
-      <label for="nombre_representante_legal">Nombre del Representante Legal *</label>
+      <label for="nombre_representante_legal">${t(lang, 'form_legal_rep')} ${t(lang, 'form_required')}</label>
       <input
         type="text"
         id="nombre_representante_legal"
@@ -495,9 +1035,9 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
         value="${representanteValue}"
         ${isReadonly ? 'readonly' : ''}
         required
-        placeholder="Ej: Juan Pérez García">
+        placeholder="${t(lang, 'form_legal_rep_placeholder')}">
 
-      <label for="email">Correo Electrónico *</label>
+      <label for="email">${t(lang, 'form_email')} ${t(lang, 'form_required')}</label>
       <input
         type="email"
         id="email"
@@ -505,12 +1045,16 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
         value="${emailValue}"
         ${isReadonly ? 'readonly' : ''}
         required
-        placeholder="Ej: contacto@empresa.com">
+        placeholder="${t(lang, 'form_email_placeholder')}">
 
-      <button type="submit">Generar Documento →</button>
+      <div class="note">
+        <strong>📝</strong> ${t(lang, 'sign_authorized_note')}
+      </div>
+
+      <button type="submit">${t(lang, 'form_submit')} →</button>
 
       ${hasExpectedData ? `
-      <button type="button" class="btn-error" id="unlock-btn">Regresar a EFFICENTA</button>
+      <button type="button" class="btn-error" id="unlock-btn">${t(lang, 'form_back_btn')}</button>
       ` : ''}
     </form>
   </div>
@@ -520,14 +1064,8 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
     const unlockBtn = document.getElementById('unlock-btn');
 
     unlockBtn.addEventListener('click', function() {
-      // Mostrar mensaje al usuario
-      alert('Te redirigiremos a EFFICENTA para corroborar tus datos, gracias');
-
-      // Intentar cerrar la ventana/pestaña
+      alert('${lang === 'es' ? 'Te redirigiremos a EFFICENTA para corroborar tus datos, gracias' : lang === 'en' ? 'We will redirect you to EFFICENTA to verify your data, thank you' : 'Vamos redirecioná-lo para EFFICENTA para verificar seus dados, obrigado'}');
       window.close();
-
-      // Si window.close() no funciona (en algunas situaciones del navegador),
-      // redirigir al usuario de vuelta
       setTimeout(function() {
         window.history.back();
       }, 500);
@@ -539,7 +1077,7 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
 
     res.status(200).send(html);
   } catch (err: any) {
-    console.error('Error en GET /declaracion:', err);
+    console.error('Error en GET /declaracion/formulario:', err);
     res.status(500).send('<h1>Error</h1><p>No fue posible cargar el formulario.</p>');
   }
 });
@@ -552,6 +1090,7 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
   try {
     const {
       uid,
+      language,
       nombre_proveedor_razon_social,
       nombre_representante_legal,
       email,
@@ -564,8 +1103,9 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
 
     ensureDirs();
 
-    // No validamos los datos - confiamos en la corrección del usuario
-    // Si los campos estaban pre-llenados, el usuario tuvo la opción de editarlos
+    // Obtener idioma del registro o del formulario
+    let existingRecord = await loadRecordAsync(uid);
+    const lang: SupportedLanguage = (language as SupportedLanguage) || existingRecord?.language || 'es';
 
     const proveedorData: ProveedorData = {
       nombre_proveedor_razon_social,
@@ -573,11 +1113,15 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
       email,
     };
 
-    // Cargar template
-    const templatePath = path.join(__dirname, '..', 'templates', 'declaracion-conflicto.docx');
+    // Cargar template según idioma
+    const templatePath = getTemplatePath(lang);
     if (!fs.existsSync(templatePath)) {
-      res.status(500).send('<h1>Error</h1><p>Template de declaración no encontrado.</p>');
-      return;
+      // Fallback al template español si no existe el del idioma
+      const fallbackPath = path.join(__dirname, '..', 'templates', 'declaracion-conflicto.docx');
+      if (!fs.existsSync(fallbackPath)) {
+        res.status(500).send(`<h1>${t(lang, 'error_generic')}</h1><p>Template de declaración no encontrado.</p>`);
+        return;
+      }
     }
 
     const templateContent = fs.readFileSync(templatePath, 'binary');
@@ -588,13 +1132,23 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
     });
 
     // Renderizar con datos (sin firma aún)
+    // Los campos pueden variar según el idioma del template
     doc.render({
+      // Español
       nombre_proveedor_razon_social,
       nombre_representante_legal,
       email,
       domicilio: '',
       telefono: '',
       fecha_de_la_firma: '',
+      // English (campos alternativos para templates en inglés)
+      supplier_name: nombre_proveedor_razon_social,
+      legal_representative: nombre_representante_legal,
+      signature_date: '',
+      // Português (campos alternativos para templates en portugués)
+      nome_fornecedor: nombre_proveedor_razon_social,
+      representante_legal: nombre_representante_legal,
+      data_assinatura: '',
     });
 
     const docxBuffer = doc.getZip().generate({ type: 'nodebuffer' });
@@ -606,17 +1160,19 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
     const documentHash = generateDocumentHash(docxBuffer);
 
     // Crear token para firma
-    const token = randomUUID();
+    const token = existingRecord?.token || randomUUID();
 
     // Guardar registro
     const record: DeclaracionRecord = {
       uid,
       token,
       status: 'pending_signature',
+      language: lang,
       proveedorData,
+      expectedProveedorData: existingRecord?.expectedProveedorData,
       docxPath,
       documentHash,
-      createdAt: new Date().toISOString(),
+      createdAt: existingRecord?.createdAt || new Date().toISOString(),
     };
     saveRecord(record);
 
@@ -626,6 +1182,7 @@ router.post('/generar', async (req: Request, res: Response): Promise<void> => {
         const gitResult = await saveDeclaracionToGitHub(record.uid, {
           uid: record.uid,
           status: record.status,
+          language: record.language,
           proveedor: record.proveedorData || record.expectedProveedorData,
           signedAt: null,
           signedPdfUrl: null,
@@ -664,14 +1221,16 @@ router.get('/firmar/:token', async (req: Request, res: Response): Promise<void> 
       return;
     }
 
+    const lang = record.language || 'es';
+
     if (record.status === 'signed') {
       res.send(`
         <!DOCTYPE html>
-        <html lang="es">
-        <head><meta charset="UTF-8"><title>Declaración Completada</title></head>
+        <html lang="${lang}">
+        <head><meta charset="UTF-8"><title>${t(lang, 'error_already_signed')}</title></head>
         <body style="font-family: system-ui; padding: 40px; text-align: center;">
-          <h1>✅ Declaración ya firmada</h1>
-          <p>Esta declaración ya fue firmada el ${record.signedAt ? new Date(record.signedAt).toLocaleDateString('es-MX') : 'N/A'}.</p>
+          <h1>✅ ${t(lang, 'error_already_signed')}</h1>
+          <p>${t(lang, 'error_already_signed_simple')} ${record.signedAt ? new Date(record.signedAt).toLocaleDateString(getLocale(lang)) : 'N/A'}.</p>
         </body>
         </html>
       `);
@@ -679,24 +1238,28 @@ router.get('/firmar/:token', async (req: Request, res: Response): Promise<void> 
     }
 
     if (!record.docxPath || !fs.existsSync(record.docxPath)) {
-      res.status(404).send('<h1>Error</h1><p>Documento no encontrado.</p>');
+      res.status(404).send(`<h1>${t(lang, 'error_generic')}</h1><p>${t(lang, 'error_doc_not_found')}</p>`);
       return;
     }
 
     let documentHtml = await convertDocxToHtml(record.docxPath);
-    // Limpiar líneas de Domicilio y Teléfono vacíos
+    // Limpiar líneas de Domicilio y Teléfono vacíos (multi-idioma)
     documentHtml = documentHtml
       .replace(/<p[^>]*>\s*Domicilio:\s*<\/p>/gi, '')
       .replace(/<p[^>]*>\s*Tel[ée]fono:\s*<\/p>/gi, '')
       .replace(/Domicilio:\s*(<br\s*\/?>|\n|\r|<\/p>)/gi, '')
-      .replace(/Tel[ée]fono:\s*(<br\s*\/?>|\n|\r|<\/p>)/gi, '');
+      .replace(/Tel[ée]fono:\s*(<br\s*\/?>|\n|\r|<\/p>)/gi, '')
+      .replace(/<p[^>]*>\s*Address:\s*<\/p>/gi, '')
+      .replace(/<p[^>]*>\s*Phone:\s*<\/p>/gi, '')
+      .replace(/<p[^>]*>\s*Endereço:\s*<\/p>/gi, '')
+      .replace(/<p[^>]*>\s*Telefone:\s*<\/p>/gi, '');
 
     const html = `<!DOCTYPE html>
-<html lang="es">
+<html lang="${lang}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Firmar Declaración</title>
+  <title>${t(lang, 'sign_title')}</title>
   <style>
     * { box-sizing: border-box; }
     body {
@@ -783,6 +1346,15 @@ router.get('/firmar/:token', async (req: Request, res: Response): Promise<void> 
       border-radius: 6px;
       font-size: 13px;
     }
+    .note {
+      background: #fef3c7;
+      border: 1px solid #fde68a;
+      padding: 12px;
+      border-radius: 6px;
+      margin-top: 16px;
+      font-size: 13px;
+      color: #92400e;
+    }
   </style>
 </head>
 <body>
@@ -790,35 +1362,39 @@ router.get('/firmar/:token', async (req: Request, res: Response): Promise<void> 
     <div class="logo-container">
       <img src="https://raw.githubusercontent.com/jovahernandez/ugc-contracts-dev/main/src/assets/another-logo.svg" alt="Another">
     </div>
-    
-    <h1>📋 Declaración de Ausencia de Conflicto de Interés</h1>
-    
+
+    <h1>📋 ${t(lang, 'sign_title')}</h1>
+
     <div class="info-box">
-      <strong>Proveedor:</strong> ${record.proveedorData?.nombre_proveedor_razon_social || 'N/A'}<br>
-      <strong>Representante Legal:</strong> ${record.proveedorData?.nombre_representante_legal || 'N/A'}
+      <strong>${t(lang, 'sign_provider')}:</strong> ${record.proveedorData?.nombre_proveedor_razon_social || 'N/A'}<br>
+      <strong>${t(lang, 'sign_legal_rep')}:</strong> ${record.proveedorData?.nombre_representante_legal || 'N/A'}
     </div>
 
-    <h2>1. Revise el documento</h2>
+    <h2>${t(lang, 'sign_review_doc')}</h2>
     <div class="document-preview">
       ${documentHtml}
     </div>
 
     <div class="signature-section">
-      <h2>2. Firme electrónicamente</h2>
+      <h2>${t(lang, 'sign_section_title')}</h2>
       <form method="POST">
-        <p>Dibuje su firma en el recuadro (use su dedo en móvil o mouse en computadora):</p>
+        <p>${t(lang, 'sign_instructions')}</p>
         <canvas id="signatureCanvas" width="600" height="200"></canvas>
-        
+
+        <div class="note">
+          <strong>📝</strong> ${t(lang, 'sign_authorized_note')}
+        </div>
+
         <div class="checkbox-row">
           <input type="checkbox" id="accepted" name="accepted" value="yes" required>
           <label for="accepted">
-            Declaro bajo protesta de decir verdad que no tengo conflicto de interés alguno con EFFICENTA, y autorizo el uso de mi firma electrónica manuscrita.
+            ${t(lang, 'sign_checkbox')}
           </label>
         </div>
 
         <div class="actions">
-          <button type="button" class="secondary" id="clearBtn">Borrar firma</button>
-          <button type="submit" class="primary">✍️ Firmar Declaración</button>
+          <button type="button" class="secondary" id="clearBtn">${t(lang, 'sign_clear_btn')}</button>
+          <button type="submit" class="primary">✍️ ${t(lang, 'sign_submit_btn')}</button>
         </div>
 
         <input type="hidden" name="signatureData" id="signatureData">
@@ -829,7 +1405,7 @@ router.get('/firmar/:token', async (req: Request, res: Response): Promise<void> 
 
   <script>
     document.getElementById('timezoneOffset').value = new Date().getTimezoneOffset();
-    
+
     var canvas = document.getElementById('signatureCanvas');
     var ctx = canvas.getContext('2d');
     var drawing = false;
@@ -912,14 +1488,14 @@ router.get('/firmar/:token', async (req: Request, res: Response): Promise<void> 
     document.querySelector('form').addEventListener('submit', function(e) {
       if (!hasDrawing) {
         e.preventDefault();
-        alert('Por favor dibuje su firma antes de continuar.');
+        alert('${t(lang, 'sign_no_signature').replace(/'/g, "\\'")}');
         return;
       }
 
       var pixelCount = getSignaturePixelCount();
       if (pixelCount < MIN_SIGNATURE_PIXELS) {
         e.preventDefault();
-        alert('La firma es muy pequeña. Por favor dibuje una firma más completa y legible.');
+        alert('${t(lang, 'sign_too_small').replace(/'/g, "\\'")}');
         return;
       }
 
@@ -952,18 +1528,20 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
       return;
     }
 
+    const lang = record.language || 'es';
+
     if (record.status === 'signed') {
-      res.status(400).send('<h1>Esta declaración ya fue firmada</h1>');
+      res.status(400).send(`<h1>${t(lang, 'error_already_signed_simple')}</h1>`);
       return;
     }
 
     if (accepted !== 'yes') {
-      res.status(400).send('<h1>Error</h1><p>Debe aceptar la declaración para continuar.</p>');
+      res.status(400).send(`<h1>${t(lang, 'error_generic')}</h1><p>${t(lang, 'error_accept_required')}</p>`);
       return;
     }
 
     if (!signatureData || !signatureData.startsWith('data:image/')) {
-      res.status(400).send('<h1>Error</h1><p>No se recibió una firma válida.</p>');
+      res.status(400).send(`<h1>${t(lang, 'error_generic')}</h1><p>${t(lang, 'error_no_signature')}</p>`);
       return;
     }
 
@@ -988,14 +1566,14 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
     // Crear fecha ajustada a la zona horaria local del usuario
     const localSignedAt = new Date(signedAt.getTime() - (offsetDiff * 60 * 1000));
 
-    const fechaFirma = localSignedAt.toLocaleDateString('es-MX', {
+    const fechaFirma = localSignedAt.toLocaleDateString(getLocale(lang), {
       day: '2-digit',
       month: 'long',
       year: 'numeric',
     });
 
-    // Regenerar DOCX con firma
-    const templatePath = path.join(__dirname, '..', 'templates', 'declaracion-conflicto.docx');
+    // Regenerar DOCX con firma usando template del idioma seleccionado
+    const templatePath = getTemplatePath(lang);
     const templateContent = fs.readFileSync(templatePath, 'binary');
     const zip = new PizZip(templateContent);
 
@@ -1144,11 +1722,11 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
 
     // Respuesta exitosa
     const html = `<!DOCTYPE html>
-<html lang="es">
+<html lang="${lang}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Declaración Firmada</title>
+  <title>${t(lang, 'success_title')}</title>
   <style>
     body {
       font-family: system-ui, sans-serif;
@@ -1210,17 +1788,17 @@ router.post('/firmar/:token', async (req: Request, res: Response): Promise<void>
     <div class="logo-container">
       <img src="https://raw.githubusercontent.com/jovahernandez/ugc-contracts-dev/main/src/assets/another-logo.svg" alt="Another">
     </div>
-    
+
     <div class="success-icon">✅</div>
-    <h1>¡Declaración Firmada Exitosamente!</h1>
-    <p>Su declaración de ausencia de conflicto de interés ha sido registrada.</p>
-    
-    <a href="${dataUrl}" class="download-btn" download="${downloadFileName}">📄 Descargar Documento Firmado</a>
-    
+    <h1>${t(lang, 'success_title')}</h1>
+    <p>${t(lang, 'success_message')}</p>
+
+    <a href="${dataUrl}" class="download-btn" download="${downloadFileName}">📄 ${t(lang, 'success_download')}</a>
+
     <div class="info">
-      <p><strong>Proveedor:</strong> ${record.proveedorData?.nombre_proveedor_razon_social}</p>
-      <p><strong>Representante Legal:</strong> ${record.proveedorData?.nombre_representante_legal}</p>
-      <p><strong>Fecha de firma:</strong> ${fechaFirma}</p>
+      <p><strong>${t(lang, 'success_provider')}:</strong> ${record.proveedorData?.nombre_proveedor_razon_social}</p>
+      <p><strong>${t(lang, 'success_legal_rep')}:</strong> ${record.proveedorData?.nombre_representante_legal}</p>
+      <p><strong>${t(lang, 'success_date')}:</strong> ${fechaFirma}</p>
     </div>
     
     <div class="metadata">
