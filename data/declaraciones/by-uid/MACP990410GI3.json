@@ -1,19 +1,100 @@
 {
   "uid": "MACP990410GI3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Paulina Martinez Claro",
     "nombre_representante_legal": "Paulina Martinez",
     "email": "paumartinezmx@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Paulina Martinez Claro",
-    "nombre_representante_legal": "Paulina Martinez",
-    "email": "paumartinezmx@gmail.com"
+  "personaAutorizada": "PAULINA LIZBETH MARTINEZ CLARO",
+  "signedAt": "2026-01-26T15:11:25.936Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MACP990410GI3",
+  "signatureMetadata": {
+    "ip": "189.240.66.202",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-26T21:11:29.372Z",
+    "signedAtLocal": "2026-01-26T15:11:29.372Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c42dc0f71c0563cac77820e77d700981037e4be0403ebafd61e6f739c4acf4ba"
+  "documentHash": "9bb180d4e2e24dede3f3f4e69b126709180fb1068baad1ab5d5ca9985695bdc6",
+  "auditTrail": [
+    {
+      "eventId": "1bd5d1dd-3fdb-475f-af0c-7d49d53ad47f",
+      "uid": "MACP990410GI3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-26T21:10:38.171Z",
+      "timestampLocal": "2026-01-26T21:10:38.171Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.240.66.202",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MACP990410GI3&nombre_proveedor_razon_social=Paulina+Martinez+Claro&nombre_representante_legal=Paulina+Martinez&email=paumartinezmx%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "c42dc0f71c0563cac77820e77d700981037e4be0403ebafd61e6f739c4acf4ba",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8bc5120023b3aa4e44c3c1416cf402c9b06b39980226396923e217452576cfcb"
+    },
+    {
+      "eventId": "aa5aec30-8891-4723-a28f-e4dd9f291832",
+      "uid": "MACP990410GI3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-26T21:10:38.171Z",
+      "timestampLocal": "2026-01-26T21:10:38.171Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.240.66.202",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MACP990410GI3&nombre_proveedor_razon_social=Paulina+Martinez+Claro&nombre_representante_legal=Paulina+Martinez&email=paumartinezmx%40gmail.com",
+      "previousEventHash": "8bc5120023b3aa4e44c3c1416cf402c9b06b39980226396923e217452576cfcb",
+      "documentHash": "c42dc0f71c0563cac77820e77d700981037e4be0403ebafd61e6f739c4acf4ba",
+      "metadata": {
+        "proveedor": "Paulina Martinez Claro",
+        "representante": "Paulina Martinez"
+      },
+      "eventHash": "77f556dfc8cc76c21a20f9ee8ef762d6f74229c57f89d81606be283bd1224bb0"
+    },
+    {
+      "eventId": "1bbe22ca-629b-4242-bef3-c0f116bf370c",
+      "uid": "MACP990410GI3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-26T21:10:39.311Z",
+      "timestampLocal": "2026-01-26T21:10:39.311Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.240.66.202",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MACP990410GI3&nombre_proveedor_razon_social=Paulina+Martinez+Claro&nombre_representante_legal=Paulina+Martinez&email=paumartinezmx%40gmail.com",
+      "previousEventHash": "77f556dfc8cc76c21a20f9ee8ef762d6f74229c57f89d81606be283bd1224bb0",
+      "documentHash": "c42dc0f71c0563cac77820e77d700981037e4be0403ebafd61e6f739c4acf4ba",
+      "eventHash": "0325a60ce47c2baba85c1ef9d8276980daf1317e8c7dcbd4fc2c330c87736580"
+    },
+    {
+      "eventId": "663245bc-4c9a-4fbf-94d5-f4763044f5d1",
+      "uid": "MACP990410GI3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-26T21:11:29.373Z",
+      "timestampLocal": "2026-01-26T15:11:29.373Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.240.66.202",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/12bea615-199d-42ed-bb72-830b25234572",
+      "previousEventHash": "0325a60ce47c2baba85c1ef9d8276980daf1317e8c7dcbd4fc2c330c87736580",
+      "documentHash": "9bb180d4e2e24dede3f3f4e69b126709180fb1068baad1ab5d5ca9985695bdc6",
+      "signatureHash": "9c480c47782dc807d4ea13777cc307319186d8ac83eca0c560c460f8b0447cce",
+      "metadata": {
+        "personaAutorizada": "PAULINA LIZBETH MARTINEZ CLARO",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-26T15:11:25.936Z"
+      },
+      "eventHash": "2a4a6424f084d927302f7225daf42add76a3ce85f22c056ef6d9092430caedc9"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-26T21:11:29.373Z"
+  }
 }
