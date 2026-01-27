@@ -1,19 +1,100 @@
 {
   "uid": "FMT210830TS1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "FOR ME TIPS SA de CV",
     "nombre_representante_legal": "Lorenzo Sanchez",
     "email": "belen.beltramino@formetips.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "FOR ME TIPS SA de CV",
-    "nombre_representante_legal": "Lorenzo Sanchez",
-    "email": "belen.beltramino@formetips.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-27T15:21:57.933Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/FMT210830TS1",
+  "signatureMetadata": {
+    "ip": "181.4.237.194",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-27T18:22:01.396Z",
+    "signedAtLocal": "2026-01-27T15:22:01.396Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a59b59c0bcd442678731317a91a80791fe3c1fef9dc7413f3f1f49997ec96741"
+  "documentHash": "838d6a7a40f6bcda555c2c86a54d7d2e70d634359e4de17b3eed70ce7162cdf2",
+  "auditTrail": [
+    {
+      "eventId": "8eabae27-4474-4e72-90c3-15619675d5ea",
+      "uid": "FMT210830TS1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-27T18:21:40.778Z",
+      "timestampLocal": "2026-01-27T18:21:40.778Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.4.237.194",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FMT210830TS1&nombre_proveedor_razon_social=FOR+ME+TIPS+SA+de+CV&nombre_representante_legal=Lorenzo+Sanchez&email=belen.beltramino%40formetips.com",
+      "previousEventHash": null,
+      "documentHash": "a59b59c0bcd442678731317a91a80791fe3c1fef9dc7413f3f1f49997ec96741",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "bc369a270bca8d26a04e56368335e988cb2e3d14535a6fadba6b617b9481daff"
+    },
+    {
+      "eventId": "7c80412d-e825-4587-bdc3-0c423bb248a6",
+      "uid": "FMT210830TS1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-27T18:21:40.778Z",
+      "timestampLocal": "2026-01-27T18:21:40.778Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.4.237.194",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FMT210830TS1&nombre_proveedor_razon_social=FOR+ME+TIPS+SA+de+CV&nombre_representante_legal=Lorenzo+Sanchez&email=belen.beltramino%40formetips.com",
+      "previousEventHash": "bc369a270bca8d26a04e56368335e988cb2e3d14535a6fadba6b617b9481daff",
+      "documentHash": "a59b59c0bcd442678731317a91a80791fe3c1fef9dc7413f3f1f49997ec96741",
+      "metadata": {
+        "proveedor": "FOR ME TIPS SA de CV",
+        "representante": "Lorenzo Sanchez"
+      },
+      "eventHash": "ed98f7b8cefd58b9bd3e1d6ff5c7512ea5039ef5c6e77e164e6411179787d096"
+    },
+    {
+      "eventId": "dfb09407-5d9f-49db-b1f5-aac8200a5c3c",
+      "uid": "FMT210830TS1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-27T18:21:42.142Z",
+      "timestampLocal": "2026-01-27T18:21:42.142Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.4.237.194",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FMT210830TS1&nombre_proveedor_razon_social=FOR+ME+TIPS+SA+de+CV&nombre_representante_legal=Lorenzo+Sanchez&email=belen.beltramino%40formetips.com",
+      "previousEventHash": "ed98f7b8cefd58b9bd3e1d6ff5c7512ea5039ef5c6e77e164e6411179787d096",
+      "documentHash": "a59b59c0bcd442678731317a91a80791fe3c1fef9dc7413f3f1f49997ec96741",
+      "eventHash": "0e1540a15329b088b53e293077652f6f378a6845c37d9265eb814529503f0221"
+    },
+    {
+      "eventId": "15182ab2-9033-47d7-b77d-db2737a71ce6",
+      "uid": "FMT210830TS1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-27T18:22:01.396Z",
+      "timestampLocal": "2026-01-27T15:22:01.396Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.4.237.194",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/82ea76ac-4945-4a8b-92f0-459cfd266294",
+      "previousEventHash": "0e1540a15329b088b53e293077652f6f378a6845c37d9265eb814529503f0221",
+      "documentHash": "838d6a7a40f6bcda555c2c86a54d7d2e70d634359e4de17b3eed70ce7162cdf2",
+      "signatureHash": "b688730c7ed46c5960e07b65bd8ca66c0eb571ef6e9b3e4352dcd161d066e651",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-27T15:21:57.933Z"
+      },
+      "eventHash": "bc2e72229600e1372a26a9b459395ab6ffb7b127ad0aefa139fcb42ba5649924"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-27T18:22:01.397Z"
+  }
 }
