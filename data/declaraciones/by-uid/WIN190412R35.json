@@ -1,19 +1,100 @@
 {
   "uid": "WIN190412R35",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "WOOVE INTERNACIONAL SA DE CV",
     "nombre_representante_legal": "Miguel Angel Martinez Silhy",
     "email": "msilhy@woove.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "WOOVE INTERNACIONAL SA DE CV",
-    "nombre_representante_legal": "Miguel Angel Martinez Silhy",
-    "email": "msilhy@woove.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-27T11:54:04.529Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/WIN190412R35",
+  "signatureMetadata": {
+    "ip": "187.189.145.95",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-27T17:54:07.909Z",
+    "signedAtLocal": "2026-01-27T11:54:07.909Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "92a1b67d26442012dd1c89dd0b880d1505785b8a0f22afade25625b4c61b98ee"
+  "documentHash": "f2ca58949aa1ba2a3663064c06a73c15d538c397457f93f75c360fa5f719c46c",
+  "auditTrail": [
+    {
+      "eventId": "66cbb5b8-b037-4eb4-97ef-4fec5e3d3fc6",
+      "uid": "WIN190412R35",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-27T17:51:49.555Z",
+      "timestampLocal": "2026-01-27T17:51:49.555Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.145.95",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=WIN190412R35&nombre_proveedor_razon_social=WOOVE+INTERNACIONAL+SA+DE+CV&nombre_representante_legal=Miguel+Angel+Martinez+Silhy&email=msilhy%40woove.mx",
+      "previousEventHash": null,
+      "documentHash": "92a1b67d26442012dd1c89dd0b880d1505785b8a0f22afade25625b4c61b98ee",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a9525cc8940714bada09f53a3989a495ec8544a37720362a1d73f129384f8d27"
+    },
+    {
+      "eventId": "c3308e8f-9dad-46e8-8007-c16877db14d4",
+      "uid": "WIN190412R35",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-27T17:51:49.555Z",
+      "timestampLocal": "2026-01-27T17:51:49.555Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.145.95",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=WIN190412R35&nombre_proveedor_razon_social=WOOVE+INTERNACIONAL+SA+DE+CV&nombre_representante_legal=Miguel+Angel+Martinez+Silhy&email=msilhy%40woove.mx",
+      "previousEventHash": "a9525cc8940714bada09f53a3989a495ec8544a37720362a1d73f129384f8d27",
+      "documentHash": "92a1b67d26442012dd1c89dd0b880d1505785b8a0f22afade25625b4c61b98ee",
+      "metadata": {
+        "proveedor": "WOOVE INTERNACIONAL SA DE CV",
+        "representante": "Miguel Angel Martinez Silhy"
+      },
+      "eventHash": "1384f4139742247aca8eb3449b62587695a1171c678100774e92bf7ce88ee92f"
+    },
+    {
+      "eventId": "3e7740ae-0cc0-4b86-ba66-02497103d7f1",
+      "uid": "WIN190412R35",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-27T17:51:53.212Z",
+      "timestampLocal": "2026-01-27T17:51:53.212Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.145.95",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=WIN190412R35&nombre_proveedor_razon_social=WOOVE+INTERNACIONAL+SA+DE+CV&nombre_representante_legal=Miguel+Angel+Martinez+Silhy&email=msilhy%40woove.mx",
+      "previousEventHash": "1384f4139742247aca8eb3449b62587695a1171c678100774e92bf7ce88ee92f",
+      "documentHash": "92a1b67d26442012dd1c89dd0b880d1505785b8a0f22afade25625b4c61b98ee",
+      "eventHash": "dd7c4330f0a5cff52824284fca5f54a33d1011b02432551c3930ffb8703a1ecb"
+    },
+    {
+      "eventId": "6247a0d5-2843-46d2-ae5e-e4f4fff6cad1",
+      "uid": "WIN190412R35",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-27T17:54:07.909Z",
+      "timestampLocal": "2026-01-27T11:54:07.909Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.145.95",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/793d7bf3-8ce2-42d6-baf9-8973eb9f0b55",
+      "previousEventHash": "dd7c4330f0a5cff52824284fca5f54a33d1011b02432551c3930ffb8703a1ecb",
+      "documentHash": "f2ca58949aa1ba2a3663064c06a73c15d538c397457f93f75c360fa5f719c46c",
+      "signatureHash": "03d118c61677906dcf4dfab1d3d6fb3ab10a090f415f478db9392c30cbcec794",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-27T11:54:04.529Z"
+      },
+      "eventHash": "fba1fca2e6b99cef3921fa431ecd4555936a0edc190da1660d66bd245fb435d5"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-27T17:54:07.909Z"
+  }
 }
