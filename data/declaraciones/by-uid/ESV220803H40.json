@@ -1,19 +1,100 @@
 {
   "uid": "ESV220803H40",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ESV2 S.C.",
     "nombre_representante_legal": "ESV2 S.C.",
     "email": "dfragoso@efficenta.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ESV2 S.C.",
-    "nombre_representante_legal": "ESV2 S.C.",
-    "email": "dfragoso@efficenta.com"
+  "personaAutorizada": "DIEGO ESCORZA FRAGOSO",
+  "signedAt": "2026-01-27T08:19:11.724Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ESV220803H40",
+  "signatureMetadata": {
+    "ip": "189.147.79.107",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/144 Version/11.1.1 Safari/605.1.15",
+    "signedAtUtc": "2026-01-27T14:19:15.050Z",
+    "signedAtLocal": "2026-01-27T08:19:15.050Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "dc5e7f9df7f9932199d2b83242723047ad17cc843be02758a1212dc1ae238575"
+  "documentHash": "d17c9424f2c255de85978b8ac691c884e1d2b05572308635be00e5bcc2080454",
+  "auditTrail": [
+    {
+      "eventId": "3b35d0ce-f6e0-4443-9dfe-8855ec3a25c7",
+      "uid": "ESV220803H40",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-27T14:18:21.013Z",
+      "timestampLocal": "2026-01-27T14:18:21.013Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.79.107",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/144 Version/11.1.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "dc5e7f9df7f9932199d2b83242723047ad17cc843be02758a1212dc1ae238575",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "024366b01a4aa321bf156d703e8fe006f32b0b5761e91de2eb2a99b06fec6f1d"
+    },
+    {
+      "eventId": "0c7734d7-661e-40d3-8fab-a41f923ed7c9",
+      "uid": "ESV220803H40",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-27T14:18:21.013Z",
+      "timestampLocal": "2026-01-27T14:18:21.013Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.79.107",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/144 Version/11.1.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "024366b01a4aa321bf156d703e8fe006f32b0b5761e91de2eb2a99b06fec6f1d",
+      "documentHash": "dc5e7f9df7f9932199d2b83242723047ad17cc843be02758a1212dc1ae238575",
+      "metadata": {
+        "proveedor": "ESV2 S.C.",
+        "representante": "ESV2 S.C."
+      },
+      "eventHash": "0d327909a785eb02d830162eb20b39ea83e2605d6840dbda66606e7cfc2d3eb3"
+    },
+    {
+      "eventId": "369b1af3-efb6-429a-bff3-3bd1a6ff707a",
+      "uid": "ESV220803H40",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-27T14:18:22.228Z",
+      "timestampLocal": "2026-01-27T14:18:22.228Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.79.107",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/144 Version/11.1.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "0d327909a785eb02d830162eb20b39ea83e2605d6840dbda66606e7cfc2d3eb3",
+      "documentHash": "dc5e7f9df7f9932199d2b83242723047ad17cc843be02758a1212dc1ae238575",
+      "eventHash": "1b5935a1d0e766b368939b55a163c10b62884620ff3205c028bc2e706b505e44"
+    },
+    {
+      "eventId": "e2f84507-3b36-4f2a-abb9-a75f1db3c441",
+      "uid": "ESV220803H40",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-27T14:19:15.050Z",
+      "timestampLocal": "2026-01-27T08:19:15.050Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.147.79.107",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/144 Version/11.1.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "1b5935a1d0e766b368939b55a163c10b62884620ff3205c028bc2e706b505e44",
+      "documentHash": "d17c9424f2c255de85978b8ac691c884e1d2b05572308635be00e5bcc2080454",
+      "signatureHash": "d328eb2531ef320d4897b6a80b000f905cc0b23bc9876297ad372dc21b6f61b7",
+      "metadata": {
+        "personaAutorizada": "DIEGO ESCORZA FRAGOSO",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-27T08:19:11.724Z"
+      },
+      "eventHash": "51efeb96437c39f8a24a54ac9de32b558ef9bcd41dfff8952ed06c8704f29447"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-27T14:19:15.051Z"
+  }
 }
