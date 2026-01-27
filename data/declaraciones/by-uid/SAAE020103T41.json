@@ -1,19 +1,100 @@
 {
   "uid": "SAAE020103T41",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ELISA ROSAMAYRA SALINAS AGUILAR",
     "nombre_representante_legal": "ELISA ROSAMAYRA SALINAS AGUILAR",
     "email": "elisa.salinaas@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ELISA ROSAMAYRA SALINAS AGUILAR",
-    "nombre_representante_legal": "ELISA ROSAMAYRA SALINAS AGUILAR",
-    "email": "elisa.salinaas@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-27T10:25:24.523Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SAAE020103T41",
+  "signatureMetadata": {
+    "ip": "200.68.168.54",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-01-27T16:25:27.894Z",
+    "signedAtLocal": "2026-01-27T10:25:27.894Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d5348d2a0270ccd898e86088c1b36e0c0c735008024bdae723f7d7040fdf7a3d"
+  "documentHash": "39e35eb2404bccb9786f594002fd85b0d9652fed660e8d9321827916fd6b2a1c",
+  "auditTrail": [
+    {
+      "eventId": "b1be2a57-eaa4-406c-83bc-1a3f4b923bbe",
+      "uid": "SAAE020103T41",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-27T16:23:10.074Z",
+      "timestampLocal": "2026-01-27T16:23:10.074Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.168.54",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "d5348d2a0270ccd898e86088c1b36e0c0c735008024bdae723f7d7040fdf7a3d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "091b0a150b95de64a0f58986c7e61ea51380a357346fa19f4adf2fc5eba0cafb"
+    },
+    {
+      "eventId": "bf6e5fd1-6190-4028-9092-d4553736905f",
+      "uid": "SAAE020103T41",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-27T16:23:10.074Z",
+      "timestampLocal": "2026-01-27T16:23:10.074Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.168.54",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "091b0a150b95de64a0f58986c7e61ea51380a357346fa19f4adf2fc5eba0cafb",
+      "documentHash": "d5348d2a0270ccd898e86088c1b36e0c0c735008024bdae723f7d7040fdf7a3d",
+      "metadata": {
+        "proveedor": "ELISA ROSAMAYRA SALINAS AGUILAR",
+        "representante": "ELISA ROSAMAYRA SALINAS AGUILAR"
+      },
+      "eventHash": "9853ccc53a29ab7b7672ad09eb0fad22a6b2c027a4dcd06670b43f20487806ea"
+    },
+    {
+      "eventId": "d7b776ea-0590-4d13-b587-5e02410fe20a",
+      "uid": "SAAE020103T41",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-27T16:23:11.383Z",
+      "timestampLocal": "2026-01-27T16:23:11.383Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.168.54",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "9853ccc53a29ab7b7672ad09eb0fad22a6b2c027a4dcd06670b43f20487806ea",
+      "documentHash": "d5348d2a0270ccd898e86088c1b36e0c0c735008024bdae723f7d7040fdf7a3d",
+      "eventHash": "f6f568f26497f63b49da3a3dc352e785553d8535cfe85d7ea56c33e4c683ea3f"
+    },
+    {
+      "eventId": "0831615c-7456-4f7c-922e-061e2645f4b9",
+      "uid": "SAAE020103T41",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-27T16:25:27.894Z",
+      "timestampLocal": "2026-01-27T10:25:27.894Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.68.168.54",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f6f568f26497f63b49da3a3dc352e785553d8535cfe85d7ea56c33e4c683ea3f",
+      "documentHash": "39e35eb2404bccb9786f594002fd85b0d9652fed660e8d9321827916fd6b2a1c",
+      "signatureHash": "f3d4cb16aa021a5f50ce39d190683cc6e6bec31df1c308294b7ab27fed2ac578",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-27T10:25:24.523Z"
+      },
+      "eventHash": "afbbb939a8908a721a5ada2721ca13fce4ce738408a1c7b12839f0b20b05b0b0"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-27T16:25:27.895Z"
+  }
 }
