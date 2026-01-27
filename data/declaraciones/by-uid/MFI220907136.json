@@ -1,19 +1,100 @@
 {
   "uid": "MFI220907136",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MOLVO FILMS SA DE CV",
     "nombre_representante_legal": "Mauricio Fajardo Pacheco",
     "email": "daniela@molvofilms.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MOLVO FILMS SA DE CV",
-    "nombre_representante_legal": "Mauricio Fajardo Pacheco",
-    "email": "daniela@molvofilms.com"
+  "personaAutorizada": "Daniela Fajardo Pacheco",
+  "signedAt": "2026-01-27T13:04:00.218Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MFI220907136",
+  "signatureMetadata": {
+    "ip": "187.190.206.228",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-27T19:04:03.454Z",
+    "signedAtLocal": "2026-01-27T13:04:03.454Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5bb5e1c8663bb6df7cfbcad39a46860fe3af1fd1f27270d87ea3e43e249268d6"
+  "documentHash": "931dfe7e72189e347222266a3db03bad01cbc286b89bb5d6347a06c6e2bdb71c",
+  "auditTrail": [
+    {
+      "eventId": "fa00c09c-63cc-4dc0-895f-9a6e70ff92fb",
+      "uid": "MFI220907136",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-27T19:03:30.162Z",
+      "timestampLocal": "2026-01-27T19:03:30.162Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.206.228",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MFI220907136&nombre_proveedor_razon_social=MOLVO+FILMS+SA+DE+CV&nombre_representante_legal=Mauricio+Fajardo+Pacheco&email=daniela%40molvofilms.com",
+      "previousEventHash": null,
+      "documentHash": "5bb5e1c8663bb6df7cfbcad39a46860fe3af1fd1f27270d87ea3e43e249268d6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "482454aa2bedeb588a235e61a24e94a8eab9bf7d750cc2d2cce41fb1800b99fd"
+    },
+    {
+      "eventId": "005cd9e8-40da-4218-86df-584a18d461f6",
+      "uid": "MFI220907136",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-27T19:03:30.162Z",
+      "timestampLocal": "2026-01-27T19:03:30.162Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.206.228",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MFI220907136&nombre_proveedor_razon_social=MOLVO+FILMS+SA+DE+CV&nombre_representante_legal=Mauricio+Fajardo+Pacheco&email=daniela%40molvofilms.com",
+      "previousEventHash": "482454aa2bedeb588a235e61a24e94a8eab9bf7d750cc2d2cce41fb1800b99fd",
+      "documentHash": "5bb5e1c8663bb6df7cfbcad39a46860fe3af1fd1f27270d87ea3e43e249268d6",
+      "metadata": {
+        "proveedor": "MOLVO FILMS SA DE CV",
+        "representante": "Mauricio Fajardo Pacheco"
+      },
+      "eventHash": "532490bc1e129874199af14802defa05a5a4afb81d7a919e726776d7bea35caa"
+    },
+    {
+      "eventId": "4e10ec2e-3208-415b-bf16-ae640b258867",
+      "uid": "MFI220907136",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-27T19:03:31.196Z",
+      "timestampLocal": "2026-01-27T19:03:31.196Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.206.228",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MFI220907136&nombre_proveedor_razon_social=MOLVO+FILMS+SA+DE+CV&nombre_representante_legal=Mauricio+Fajardo+Pacheco&email=daniela%40molvofilms.com",
+      "previousEventHash": "532490bc1e129874199af14802defa05a5a4afb81d7a919e726776d7bea35caa",
+      "documentHash": "5bb5e1c8663bb6df7cfbcad39a46860fe3af1fd1f27270d87ea3e43e249268d6",
+      "eventHash": "fdf79b62533212640133050894064a9caf937b49b4f5123793de26ea42a586c1"
+    },
+    {
+      "eventId": "54563dac-4729-48e6-b7bd-2cc9f96cb957",
+      "uid": "MFI220907136",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-27T19:04:03.455Z",
+      "timestampLocal": "2026-01-27T13:04:03.455Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.206.228",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8cdfc233-67cc-4934-b66e-98fd7bcba8b5",
+      "previousEventHash": "fdf79b62533212640133050894064a9caf937b49b4f5123793de26ea42a586c1",
+      "documentHash": "931dfe7e72189e347222266a3db03bad01cbc286b89bb5d6347a06c6e2bdb71c",
+      "signatureHash": "ef8d707838b791439d4688d5a209d3c8ab309fea38dc3217c7ef3713b9ab6a17",
+      "metadata": {
+        "personaAutorizada": "Daniela Fajardo Pacheco",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-27T13:04:00.218Z"
+      },
+      "eventHash": "f65521fab98f9fceceebee86dcadb66581d3ccac5cb42597e38c0dea9a70ae1f"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-27T19:04:03.456Z"
+  }
 }
