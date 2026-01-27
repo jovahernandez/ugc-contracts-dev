@@ -1,15 +1,115 @@
 {
   "uid": "SEP220201N10",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "",
     "nombre_representante_legal": "",
     "email": ""
   },
-  "expectedProveedor": null,
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b48bc7b2a19af15f5ec78369a9d8d643edc1d72d8a7512ec9223472903492f7f"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-27T12:56:08.255Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SEP220201N10",
+  "signatureMetadata": {
+    "ip": "201.124.217.221",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-27T18:56:11.798Z",
+    "signedAtLocal": "2026-01-27T12:56:11.798Z"
+  },
+  "documentHash": "5252a5531c234ccdce0887e777c1b3ab56588773f9f1a2e03a559441024d656b",
+  "auditTrail": [
+    {
+      "eventId": "ea6a0759-dbf5-46b6-9cba-6985148ae71a",
+      "uid": "SEP220201N10",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-27T18:54:46.151Z",
+      "timestampLocal": "2026-01-27T18:54:46.151Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.217.221",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SEP220201N10&nombre_proveedor_razon_social=SOLUCIONES+DE+EMPAQUE+PROMOCIO%CC%81N+E+IMPRESIO%CC%81N+PLAN+A+SAS+DE+CV&nombre_representante_legal=GILBERTO+ANTONIO+SALDIVAR+SILVA&email=gilberto%40planasoluciones.mx",
+      "previousEventHash": null,
+      "documentHash": "b48bc7b2a19af15f5ec78369a9d8d643edc1d72d8a7512ec9223472903492f7f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1367520a133555016b92da94571d0b92aa73111a9dd16211fcd063e5e8fe3d51"
+    },
+    {
+      "eventId": "bd33af94-60b9-4cf0-8c75-7ee1fdda48b6",
+      "uid": "SEP220201N10",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-27T18:54:46.152Z",
+      "timestampLocal": "2026-01-27T18:54:46.152Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.217.221",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SEP220201N10&nombre_proveedor_razon_social=SOLUCIONES+DE+EMPAQUE+PROMOCIO%CC%81N+E+IMPRESIO%CC%81N+PLAN+A+SAS+DE+CV&nombre_representante_legal=GILBERTO+ANTONIO+SALDIVAR+SILVA&email=gilberto%40planasoluciones.mx",
+      "previousEventHash": "1367520a133555016b92da94571d0b92aa73111a9dd16211fcd063e5e8fe3d51",
+      "documentHash": "b48bc7b2a19af15f5ec78369a9d8d643edc1d72d8a7512ec9223472903492f7f",
+      "metadata": {
+        "proveedor": "",
+        "representante": ""
+      },
+      "eventHash": "2ecf612d2361ce3455fc56e44610d21c620a26aff407736a259fcb99ca2228e5"
+    },
+    {
+      "eventId": "afbd68c2-e816-4c6e-a5ab-f1b8b4c4ab85",
+      "uid": "SEP220201N10",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-27T18:54:47.176Z",
+      "timestampLocal": "2026-01-27T18:54:47.176Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.217.221",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SEP220201N10&nombre_proveedor_razon_social=SOLUCIONES+DE+EMPAQUE+PROMOCIO%CC%81N+E+IMPRESIO%CC%81N+PLAN+A+SAS+DE+CV&nombre_representante_legal=GILBERTO+ANTONIO+SALDIVAR+SILVA&email=gilberto%40planasoluciones.mx",
+      "previousEventHash": "2ecf612d2361ce3455fc56e44610d21c620a26aff407736a259fcb99ca2228e5",
+      "documentHash": "b48bc7b2a19af15f5ec78369a9d8d643edc1d72d8a7512ec9223472903492f7f",
+      "eventHash": "7b697b05f7c1aa055a8a8c92b8abf32afa72cf63cbe73d3ee6239b3d6b29027b"
+    },
+    {
+      "eventId": "3ca448df-ca6d-474f-890f-b2afdd4cc062",
+      "uid": "SEP220201N10",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-27T18:55:34.111Z",
+      "timestampLocal": "2026-01-27T18:55:34.111Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.217.221",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "7b697b05f7c1aa055a8a8c92b8abf32afa72cf63cbe73d3ee6239b3d6b29027b",
+      "documentHash": "b48bc7b2a19af15f5ec78369a9d8d643edc1d72d8a7512ec9223472903492f7f",
+      "eventHash": "222b2452525acaa18ca127b1948f27961978318494e4b8fc9cd256f39a5e0eeb"
+    },
+    {
+      "eventId": "573cbd5b-bd9e-42ea-b6b2-8c5770c7a277",
+      "uid": "SEP220201N10",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-27T18:56:11.798Z",
+      "timestampLocal": "2026-01-27T12:56:11.798Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.124.217.221",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a600de3a-3d7b-40a0-b841-9539da5d51d1",
+      "previousEventHash": "222b2452525acaa18ca127b1948f27961978318494e4b8fc9cd256f39a5e0eeb",
+      "documentHash": "5252a5531c234ccdce0887e777c1b3ab56588773f9f1a2e03a559441024d656b",
+      "signatureHash": "655e672658f0658e54f282ad020b30ab365a3dc325779200a284965e1fb65090",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-27T12:56:08.255Z"
+      },
+      "eventHash": "8526257e9fd6b980e574274f004f00b31022649a8cd6eb0a2d1de080d9b2f89b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-01-27T18:56:11.799Z"
+  }
 }
