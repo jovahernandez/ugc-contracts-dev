@@ -1,19 +1,100 @@
 {
   "uid": "LEN191230TA0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Lumo Escénico y Negocios S.A de C.V",
     "nombre_representante_legal": "Luis Jaime Morales Fregoso",
     "email": "esteban@galletacreativa.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Lumo Escénico y Negocios S.A de C.V",
-    "nombre_representante_legal": "Luis Jaime Morales Fregoso",
-    "email": "esteban@galletacreativa.com"
+  "personaAutorizada": "Carlos Esteban Corona Villagómez",
+  "signedAt": "2026-01-28T12:24:43.463Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LEN191230TA0",
+  "signatureMetadata": {
+    "ip": "201.141.96.104",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-28T18:24:49.312Z",
+    "signedAtLocal": "2026-01-28T12:24:49.312Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "765648dfbee4c1d0b53bc64178f87e394159064f4bba151333ad4293a632475d"
+  "documentHash": "d647829bc492696aa1899d6c737bb25e72d3acefc6e33599b9823bd3e155ff15",
+  "auditTrail": [
+    {
+      "eventId": "9067cd4e-7d15-4e22-9280-ef9a243979e7",
+      "uid": "LEN191230TA0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-28T18:24:07.125Z",
+      "timestampLocal": "2026-01-28T18:24:07.125Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.96.104",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7,bg;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LEN191230TA0&nombre_proveedor_razon_social=Lumo+Esc%C3%A9nico+y+Negocios+S.A+de+C.V&nombre_representante_legal=Luis+Jaime+Morales+Fregoso&email=esteban%40galletacreativa.com",
+      "previousEventHash": null,
+      "documentHash": "765648dfbee4c1d0b53bc64178f87e394159064f4bba151333ad4293a632475d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2618701d669c264f6865539c3fe75a0d1c493856f619f7ff0bae7feab458100d"
+    },
+    {
+      "eventId": "d17d0f8b-a300-4fe7-98a2-3bb592211fd5",
+      "uid": "LEN191230TA0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-28T18:24:07.125Z",
+      "timestampLocal": "2026-01-28T18:24:07.125Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.96.104",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7,bg;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LEN191230TA0&nombre_proveedor_razon_social=Lumo+Esc%C3%A9nico+y+Negocios+S.A+de+C.V&nombre_representante_legal=Luis+Jaime+Morales+Fregoso&email=esteban%40galletacreativa.com",
+      "previousEventHash": "2618701d669c264f6865539c3fe75a0d1c493856f619f7ff0bae7feab458100d",
+      "documentHash": "765648dfbee4c1d0b53bc64178f87e394159064f4bba151333ad4293a632475d",
+      "metadata": {
+        "proveedor": "Lumo Escénico y Negocios S.A de C.V",
+        "representante": "Luis Jaime Morales Fregoso"
+      },
+      "eventHash": "2a9d7767e335d0f50bb3e3a35a16518cfee7fad7fb77a5439699f5525ffbb417"
+    },
+    {
+      "eventId": "88dc7b23-d029-4529-80a4-9af1c81a0ca2",
+      "uid": "LEN191230TA0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-28T18:24:08.157Z",
+      "timestampLocal": "2026-01-28T18:24:08.157Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.96.104",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7,bg;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LEN191230TA0&nombre_proveedor_razon_social=Lumo+Esc%C3%A9nico+y+Negocios+S.A+de+C.V&nombre_representante_legal=Luis+Jaime+Morales+Fregoso&email=esteban%40galletacreativa.com",
+      "previousEventHash": "2a9d7767e335d0f50bb3e3a35a16518cfee7fad7fb77a5439699f5525ffbb417",
+      "documentHash": "765648dfbee4c1d0b53bc64178f87e394159064f4bba151333ad4293a632475d",
+      "eventHash": "59dceceaf06cd0c7bf596e038326d8598e886b772fba637343a61f10b6c21364"
+    },
+    {
+      "eventId": "1a895798-1f01-41a7-9836-06597529bf8c",
+      "uid": "LEN191230TA0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-28T18:24:49.312Z",
+      "timestampLocal": "2026-01-28T12:24:49.312Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.96.104",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7,bg;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/17fe4e45-1dae-4db0-8cb6-c47cc2892672",
+      "previousEventHash": "59dceceaf06cd0c7bf596e038326d8598e886b772fba637343a61f10b6c21364",
+      "documentHash": "d647829bc492696aa1899d6c737bb25e72d3acefc6e33599b9823bd3e155ff15",
+      "signatureHash": "4b6b863dc9d3a07b4c23680c2bb3d03b1e9ceb29ba0039ee31c39cb7baac0af1",
+      "metadata": {
+        "personaAutorizada": "Carlos Esteban Corona Villagómez",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-28T12:24:43.463Z"
+      },
+      "eventHash": "d7dd660b72ee05779e98cccfef638eae5ce30b933941f19cff1f8ff68d43ee2b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-28T18:24:49.312Z"
+  }
 }
