@@ -1,19 +1,100 @@
 {
   "uid": "FOHI701223CBA",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Israel Flores Hernández",
     "nombre_representante_legal": "Israel Flores",
     "email": "impresos21@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Israel Flores Hernández",
-    "nombre_representante_legal": "Israel Flores",
-    "email": "impresos21@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-27T19:04:46.243Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/FOHI701223CBA",
+  "signatureMetadata": {
+    "ip": "187.168.1.39",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-28T01:04:49.561Z",
+    "signedAtLocal": "2026-01-27T19:04:49.561Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9fb79c44b96f396806e8ce788c80b9687796cb2f5f6d2ef4ecd4bde3fcacb567"
+  "documentHash": "2775dccd473cb9d675ba09176d3ad28c8f8820e234fdab5e86d5e6db719779c7",
+  "auditTrail": [
+    {
+      "eventId": "0154995d-0cd3-408d-9cb3-0cb9fee68b75",
+      "uid": "FOHI701223CBA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-28T00:59:09.408Z",
+      "timestampLocal": "2026-01-28T00:59:09.408Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.1.39",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FOHI701223CBA&nombre_proveedor_razon_social=Israel+Flores+Hern%C3%A1ndez&nombre_representante_legal=Israel+Flores+&email=impresos21%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "9fb79c44b96f396806e8ce788c80b9687796cb2f5f6d2ef4ecd4bde3fcacb567",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f106b65a87a15139bfc0c53bb71ba859ddb7d687c7ac13bdf7c58a9f8c56a94c"
+    },
+    {
+      "eventId": "fb0563ca-fa97-4595-8264-3bb077f7b527",
+      "uid": "FOHI701223CBA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-28T00:59:09.408Z",
+      "timestampLocal": "2026-01-28T00:59:09.408Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.1.39",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FOHI701223CBA&nombre_proveedor_razon_social=Israel+Flores+Hern%C3%A1ndez&nombre_representante_legal=Israel+Flores+&email=impresos21%40gmail.com",
+      "previousEventHash": "f106b65a87a15139bfc0c53bb71ba859ddb7d687c7ac13bdf7c58a9f8c56a94c",
+      "documentHash": "9fb79c44b96f396806e8ce788c80b9687796cb2f5f6d2ef4ecd4bde3fcacb567",
+      "metadata": {
+        "proveedor": "Israel Flores Hernández",
+        "representante": "Israel Flores"
+      },
+      "eventHash": "636f3bc9de81eb02c22be0adc3dfcffb859325fb9307c29b5a7c048a2e386dd4"
+    },
+    {
+      "eventId": "a9c124b1-e071-46b3-a410-d1c285554c50",
+      "uid": "FOHI701223CBA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-28T00:59:10.500Z",
+      "timestampLocal": "2026-01-28T00:59:10.500Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.1.39",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FOHI701223CBA&nombre_proveedor_razon_social=Israel+Flores+Hern%C3%A1ndez&nombre_representante_legal=Israel+Flores+&email=impresos21%40gmail.com",
+      "previousEventHash": "636f3bc9de81eb02c22be0adc3dfcffb859325fb9307c29b5a7c048a2e386dd4",
+      "documentHash": "9fb79c44b96f396806e8ce788c80b9687796cb2f5f6d2ef4ecd4bde3fcacb567",
+      "eventHash": "252a35dffa118990a23e65bad6f7b6bf4893ad61422a1bc4544bdf7969853ccc"
+    },
+    {
+      "eventId": "ffb6b3b9-acae-4163-a016-675ad715368d",
+      "uid": "FOHI701223CBA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-28T01:04:49.562Z",
+      "timestampLocal": "2026-01-27T19:04:49.562Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.168.1.39",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d4f693c0-ed41-4fc2-9313-afe4bdb82bf2",
+      "previousEventHash": "252a35dffa118990a23e65bad6f7b6bf4893ad61422a1bc4544bdf7969853ccc",
+      "documentHash": "2775dccd473cb9d675ba09176d3ad28c8f8820e234fdab5e86d5e6db719779c7",
+      "signatureHash": "529acd6f542f9ccca91ec51f7485a0624ec3c9de2877db93db0b9e9003742353",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-27T19:04:46.243Z"
+      },
+      "eventHash": "7162691eacfc626db311ce8ab4ac7b63c22a04a462d02fa0ad7ad3992edd93ed"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-28T01:04:49.562Z"
+  }
 }
