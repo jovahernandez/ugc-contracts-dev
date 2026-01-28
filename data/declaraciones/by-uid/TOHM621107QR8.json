@@ -1,19 +1,100 @@
 {
   "uid": "TOHM621107QR8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MIRNA ALICIA TORO HERNANDEZ",
     "nombre_representante_legal": "MIRNA ALICIA TORO HERNANDEZ",
     "email": "salmics@live.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MIRNA ALICIA TORO HERNANDEZ",
-    "nombre_representante_legal": "MIRNA ALICIA TORO HERNANDEZ",
-    "email": "salmics@live.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-27T21:28:06.175Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TOHM621107QR8",
+  "signatureMetadata": {
+    "ip": "187.188.14.132",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-28T03:28:09.569Z",
+    "signedAtLocal": "2026-01-27T21:28:09.569Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "817fe15b4d77450a183bed411145d1ecbb484cc5ea2189e45adb1b560ddb0911"
+  "documentHash": "ed2f032e38796b160ed56f53eea2321894c3613265889c648ee666ab9abd8d73",
+  "auditTrail": [
+    {
+      "eventId": "b6874b88-8774-413b-a542-122296f72fa1",
+      "uid": "TOHM621107QR8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-28T03:27:35.218Z",
+      "timestampLocal": "2026-01-28T03:27:35.218Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.14.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-MX;q=0.9,es-419;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TOHM621107QR8&nombre_proveedor_razon_social=MIRNA+ALICIA+TORO+HERNANDEZ&nombre_representante_legal=MIRNA+ALICIA+TORO+HERNANDEZ&email=salmics%40live.com",
+      "previousEventHash": null,
+      "documentHash": "817fe15b4d77450a183bed411145d1ecbb484cc5ea2189e45adb1b560ddb0911",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "638200cc74b2860995627c942d3898868ecc204e5ae1df023ba88b1d3079fe11"
+    },
+    {
+      "eventId": "56c0584d-a41f-4bdb-b20a-09594c586906",
+      "uid": "TOHM621107QR8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-28T03:27:35.218Z",
+      "timestampLocal": "2026-01-28T03:27:35.218Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.14.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-MX;q=0.9,es-419;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TOHM621107QR8&nombre_proveedor_razon_social=MIRNA+ALICIA+TORO+HERNANDEZ&nombre_representante_legal=MIRNA+ALICIA+TORO+HERNANDEZ&email=salmics%40live.com",
+      "previousEventHash": "638200cc74b2860995627c942d3898868ecc204e5ae1df023ba88b1d3079fe11",
+      "documentHash": "817fe15b4d77450a183bed411145d1ecbb484cc5ea2189e45adb1b560ddb0911",
+      "metadata": {
+        "proveedor": "MIRNA ALICIA TORO HERNANDEZ",
+        "representante": "MIRNA ALICIA TORO HERNANDEZ"
+      },
+      "eventHash": "cd6617f85f873951e5f7add14bea3479cac1b94cdc97660c94673ffde53ebd34"
+    },
+    {
+      "eventId": "b800c43d-6179-44ac-ae99-99453e2d8af4",
+      "uid": "TOHM621107QR8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-28T03:27:36.134Z",
+      "timestampLocal": "2026-01-28T03:27:36.134Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.14.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-MX;q=0.9,es-419;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TOHM621107QR8&nombre_proveedor_razon_social=MIRNA+ALICIA+TORO+HERNANDEZ&nombre_representante_legal=MIRNA+ALICIA+TORO+HERNANDEZ&email=salmics%40live.com",
+      "previousEventHash": "cd6617f85f873951e5f7add14bea3479cac1b94cdc97660c94673ffde53ebd34",
+      "documentHash": "817fe15b4d77450a183bed411145d1ecbb484cc5ea2189e45adb1b560ddb0911",
+      "eventHash": "f63b48b7db3d06c87e50bdc45f65113e8d26e0394b7d2026f3ad109bfb4f41d0"
+    },
+    {
+      "eventId": "5690b758-69e1-48df-b932-8d39209918b8",
+      "uid": "TOHM621107QR8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-28T03:28:09.570Z",
+      "timestampLocal": "2026-01-27T21:28:09.570Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.14.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-MX;q=0.9,es-419;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/0fce7bc3-f5cc-4c86-8183-47c70220b718",
+      "previousEventHash": "f63b48b7db3d06c87e50bdc45f65113e8d26e0394b7d2026f3ad109bfb4f41d0",
+      "documentHash": "ed2f032e38796b160ed56f53eea2321894c3613265889c648ee666ab9abd8d73",
+      "signatureHash": "373b5eedadc4a99a009956c24b710bcffcccae0f2d1a49828aef40c6c77bf946",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-27T21:28:06.175Z"
+      },
+      "eventHash": "ed81a59c4ebbcc2a2456155544209c211c0121e73a806e7c6664114e79fcf68b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-28T03:28:09.571Z"
+  }
 }
