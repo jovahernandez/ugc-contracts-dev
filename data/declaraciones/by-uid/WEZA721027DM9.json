@@ -1,19 +1,100 @@
 {
   "uid": "WEZA721027DM9",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ALICIA WEIZL ZONANA",
     "nombre_representante_legal": "ALICIA WEIZL ZONANA",
     "email": "facturacion@dreamlabagency.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ALICIA WEIZL ZONANA",
-    "nombre_representante_legal": "ALICIA WEIZL ZONANA",
-    "email": "facturacion@dreamlabagency.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-28T13:04:51.371Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/WEZA721027DM9",
+  "signatureMetadata": {
+    "ip": "200.76.4.234",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-28T19:04:54.947Z",
+    "signedAtLocal": "2026-01-28T13:04:54.947Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4055802f097bd491074ac837d863d8e10080001622db166cdb802aecf931ab4b"
+  "documentHash": "396fa88b5317831208b48bbb10b5736561a56e8482949a18f49cd12747439663",
+  "auditTrail": [
+    {
+      "eventId": "f05e0daa-1988-4141-b475-383f2068f821",
+      "uid": "WEZA721027DM9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-28T19:03:46.203Z",
+      "timestampLocal": "2026-01-28T19:03:46.203Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.4.234",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=WEZA721027DM9&nombre_proveedor_razon_social=ALICIA+WEIZL+ZONANA&nombre_representante_legal=ALICIA+WEIZL+ZONANA&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": null,
+      "documentHash": "4055802f097bd491074ac837d863d8e10080001622db166cdb802aecf931ab4b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "802aa49dc64035b67f2a329d2d4f6619adc056f5aad889ae6d5df833fbc92fe6"
+    },
+    {
+      "eventId": "a3784787-b21c-4d02-95c5-0ba137ad1a7e",
+      "uid": "WEZA721027DM9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-28T19:03:46.203Z",
+      "timestampLocal": "2026-01-28T19:03:46.203Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.4.234",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=WEZA721027DM9&nombre_proveedor_razon_social=ALICIA+WEIZL+ZONANA&nombre_representante_legal=ALICIA+WEIZL+ZONANA&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "802aa49dc64035b67f2a329d2d4f6619adc056f5aad889ae6d5df833fbc92fe6",
+      "documentHash": "4055802f097bd491074ac837d863d8e10080001622db166cdb802aecf931ab4b",
+      "metadata": {
+        "proveedor": "ALICIA WEIZL ZONANA",
+        "representante": "ALICIA WEIZL ZONANA"
+      },
+      "eventHash": "e600990926a4931d7dbbdbd02d2238d1da4789b60848d9fc887cf09e420340e8"
+    },
+    {
+      "eventId": "ef5c1878-f55e-45c0-b98d-0aaab4b4a266",
+      "uid": "WEZA721027DM9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-28T19:03:46.982Z",
+      "timestampLocal": "2026-01-28T19:03:46.982Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.4.234",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=WEZA721027DM9&nombre_proveedor_razon_social=ALICIA+WEIZL+ZONANA&nombre_representante_legal=ALICIA+WEIZL+ZONANA&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "e600990926a4931d7dbbdbd02d2238d1da4789b60848d9fc887cf09e420340e8",
+      "documentHash": "4055802f097bd491074ac837d863d8e10080001622db166cdb802aecf931ab4b",
+      "eventHash": "82fbd620da2a13e84acd628f7850cdae3395cfac85debd3b034ff3a516142ab6"
+    },
+    {
+      "eventId": "1a34e378-8a97-4c32-95fb-63684620e7f5",
+      "uid": "WEZA721027DM9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-28T19:04:54.947Z",
+      "timestampLocal": "2026-01-28T13:04:54.947Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.76.4.234",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a0872095-8b66-4592-a692-438ddc4251e2",
+      "previousEventHash": "82fbd620da2a13e84acd628f7850cdae3395cfac85debd3b034ff3a516142ab6",
+      "documentHash": "396fa88b5317831208b48bbb10b5736561a56e8482949a18f49cd12747439663",
+      "signatureHash": "c43ecf7362cc639c0714725bb1bb80b5526a340c20d3b58ca23d8d42c3d68d13",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-28T13:04:51.371Z"
+      },
+      "eventHash": "a6656fd8e0080b06c2000da7eebb95286a3fbbd23d58451cf6f05a9a7e56975d"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-28T19:04:54.948Z"
+  }
 }
