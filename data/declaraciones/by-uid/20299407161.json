@@ -1,19 +1,100 @@
 {
   "uid": "20299407161",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Francisco Almeida Huerta",
     "nombre_representante_legal": "Francisco Almeida Huerta",
     "email": "pacoalmeida@hotmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Francisco Almeida Huerta",
-    "nombre_representante_legal": "Francisco Almeida Huerta",
-    "email": "pacoalmeida@hotmail.com"
+  "personaAutorizada": "Francisco Almeida Huerta",
+  "signedAt": "2026-01-29T13:12:44.834Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20299407161",
+  "signatureMetadata": {
+    "ip": "186.22.17.176",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-29T16:12:48.166Z",
+    "signedAtLocal": "2026-01-29T13:12:48.166Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0f5a7e35845a45d563ef97425215e419834f6134bfaeef62ea8904b0da051086"
+  "documentHash": "3aba674600e325b96a65b8c33156102ba85d4d8970839fac88b965a1777ed173",
+  "auditTrail": [
+    {
+      "eventId": "5b859be7-0163-46f3-967c-45a5efcc17c6",
+      "uid": "20299407161",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T16:12:26.828Z",
+      "timestampLocal": "2026-01-29T16:12:26.828Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.22.17.176",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-AR,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20299407161&nombre_proveedor_razon_social=Francisco+Almeida+Huerta&nombre_representante_legal=Francisco+Almeida+Huerta&email=pacoalmeida%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "0f5a7e35845a45d563ef97425215e419834f6134bfaeef62ea8904b0da051086",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b329062795b4d4bf0983adc5eaa5f1717872172262221c1dfdfc73adfba77715"
+    },
+    {
+      "eventId": "48e9b640-3a3f-4a3b-a3da-3804cefae13b",
+      "uid": "20299407161",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T16:12:26.828Z",
+      "timestampLocal": "2026-01-29T16:12:26.828Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.22.17.176",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-AR,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20299407161&nombre_proveedor_razon_social=Francisco+Almeida+Huerta&nombre_representante_legal=Francisco+Almeida+Huerta&email=pacoalmeida%40hotmail.com",
+      "previousEventHash": "b329062795b4d4bf0983adc5eaa5f1717872172262221c1dfdfc73adfba77715",
+      "documentHash": "0f5a7e35845a45d563ef97425215e419834f6134bfaeef62ea8904b0da051086",
+      "metadata": {
+        "proveedor": "Francisco Almeida Huerta",
+        "representante": "Francisco Almeida Huerta"
+      },
+      "eventHash": "be43e4cd182d858339d6a7d0ebb095b8ac18ec419fc0304ed501013b6117f215"
+    },
+    {
+      "eventId": "841eb42a-7bd8-4026-8d10-8925688f4f6a",
+      "uid": "20299407161",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T16:12:27.792Z",
+      "timestampLocal": "2026-01-29T16:12:27.792Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.22.17.176",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-AR,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20299407161&nombre_proveedor_razon_social=Francisco+Almeida+Huerta&nombre_representante_legal=Francisco+Almeida+Huerta&email=pacoalmeida%40hotmail.com",
+      "previousEventHash": "be43e4cd182d858339d6a7d0ebb095b8ac18ec419fc0304ed501013b6117f215",
+      "documentHash": "0f5a7e35845a45d563ef97425215e419834f6134bfaeef62ea8904b0da051086",
+      "eventHash": "2e4fe2f7ecefe59ab528bfe174025b312c6fd7140a486e3af7618e26e7b01161"
+    },
+    {
+      "eventId": "ecbb34a1-a27c-4378-b821-fb69f40966a9",
+      "uid": "20299407161",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T16:12:48.167Z",
+      "timestampLocal": "2026-01-29T13:12:48.167Z",
+      "timezone": "UTC-3",
+      "ipAddress": "186.22.17.176",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-AR,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/07154167-ea7c-42d6-9913-3ad92df60942",
+      "previousEventHash": "2e4fe2f7ecefe59ab528bfe174025b312c6fd7140a486e3af7618e26e7b01161",
+      "documentHash": "3aba674600e325b96a65b8c33156102ba85d4d8970839fac88b965a1777ed173",
+      "signatureHash": "248c3f2b3e2c23019c7537175e94a673727b7362552c8f7831967ce4d349e43c",
+      "metadata": {
+        "personaAutorizada": "Francisco Almeida Huerta",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-29T13:12:44.834Z"
+      },
+      "eventHash": "e958d18afa288b2bbe8bd0cf1b9bea8b063c55d3b382e0ceea1d855e313c89ee"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-29T16:12:48.167Z"
+  }
 }
