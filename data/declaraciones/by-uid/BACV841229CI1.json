@@ -1,19 +1,100 @@
 {
   "uid": "BACV841229CI1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "VANIA MARGARITA BACHUR COLIN",
     "nombre_representante_legal": "VANIA MARGARITA BACHUR COLIN",
     "email": "hola@vaniabachur.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "VANIA MARGARITA BACHUR COLIN",
-    "nombre_representante_legal": "VANIA MARGARITA BACHUR COLIN",
-    "email": "hola@vaniabachur.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-29T14:18:43.796Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BACV841229CI1",
+  "signatureMetadata": {
+    "ip": "187.230.170.158",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-29T20:18:47.111Z",
+    "signedAtLocal": "2026-01-29T14:18:47.111Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d569fb4c4eb35c01d6bc21c6ebb9de2dcd42bc525fe7eccb68941e5ecdfe27a4"
+  "documentHash": "83beca866521380a177fffc503f32c6b6ba0144ffc8a9b16f68943f4cb2cd1cb",
+  "auditTrail": [
+    {
+      "eventId": "c9d0ddbc-4c4d-413c-880e-d355697a3e17",
+      "uid": "BACV841229CI1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T20:18:17.556Z",
+      "timestampLocal": "2026-01-29T20:18:17.556Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.230.170.158",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BACV841229CI1&nombre_proveedor_razon_social=VANIA+MARGARITA+BACHUR+COLIN&nombre_representante_legal=VANIA+MARGARITA+BACHUR+COLIN&email=hola%40vaniabachur.com",
+      "previousEventHash": null,
+      "documentHash": "d569fb4c4eb35c01d6bc21c6ebb9de2dcd42bc525fe7eccb68941e5ecdfe27a4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5202666f51c67fc67e4de2437213d762ff4099c6adc0678f37b56505f7e3759a"
+    },
+    {
+      "eventId": "3b32eeb9-8658-4d6b-a05b-a7453bb25989",
+      "uid": "BACV841229CI1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T20:18:17.557Z",
+      "timestampLocal": "2026-01-29T20:18:17.557Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.230.170.158",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BACV841229CI1&nombre_proveedor_razon_social=VANIA+MARGARITA+BACHUR+COLIN&nombre_representante_legal=VANIA+MARGARITA+BACHUR+COLIN&email=hola%40vaniabachur.com",
+      "previousEventHash": "5202666f51c67fc67e4de2437213d762ff4099c6adc0678f37b56505f7e3759a",
+      "documentHash": "d569fb4c4eb35c01d6bc21c6ebb9de2dcd42bc525fe7eccb68941e5ecdfe27a4",
+      "metadata": {
+        "proveedor": "VANIA MARGARITA BACHUR COLIN",
+        "representante": "VANIA MARGARITA BACHUR COLIN"
+      },
+      "eventHash": "8a1a3a9d0a95a957226aabb098e9cd4cd44ec7af57dd9a9b117e6d414e018d4e"
+    },
+    {
+      "eventId": "362d3d4e-2646-4069-8f0a-b35cc3af9755",
+      "uid": "BACV841229CI1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T20:18:18.658Z",
+      "timestampLocal": "2026-01-29T20:18:18.658Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.230.170.158",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BACV841229CI1&nombre_proveedor_razon_social=VANIA+MARGARITA+BACHUR+COLIN&nombre_representante_legal=VANIA+MARGARITA+BACHUR+COLIN&email=hola%40vaniabachur.com",
+      "previousEventHash": "8a1a3a9d0a95a957226aabb098e9cd4cd44ec7af57dd9a9b117e6d414e018d4e",
+      "documentHash": "d569fb4c4eb35c01d6bc21c6ebb9de2dcd42bc525fe7eccb68941e5ecdfe27a4",
+      "eventHash": "fe10e95ce4643170d127abf515059706cc6f98ecb03fd2816671ee852b36dc91"
+    },
+    {
+      "eventId": "badacb28-46a2-409f-aa2b-7c65c98a957a",
+      "uid": "BACV841229CI1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T20:18:47.111Z",
+      "timestampLocal": "2026-01-29T14:18:47.111Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.230.170.158",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/eb5accd4-bec9-41a1-a87b-6515088f758a",
+      "previousEventHash": "fe10e95ce4643170d127abf515059706cc6f98ecb03fd2816671ee852b36dc91",
+      "documentHash": "83beca866521380a177fffc503f32c6b6ba0144ffc8a9b16f68943f4cb2cd1cb",
+      "signatureHash": "d81af9ae5abbe860c63d1f55d5ac3ae10383783d74df4c7dc85b795ade8e18d0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-29T14:18:43.796Z"
+      },
+      "eventHash": "4ef2f5ca6ce64391f78a4b84a2bd82018b1e6ca508d2b8ad67b314d5b5c4de44"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-29T20:18:47.112Z"
+  }
 }
