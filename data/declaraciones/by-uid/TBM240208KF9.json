@@ -1,19 +1,352 @@
 {
   "uid": "TBM240208KF9",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "TODO EL BRETE Y EL MITOTE",
     "nombre_representante_legal": "NABILE AHUMADA LLANES",
     "email": "paulinasosa@purobrete.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "TODO EL BRETE Y EL MITOTE",
-    "nombre_representante_legal": "NABILE AHUMADA LLANES",
-    "email": "paulinasosa@purobrete.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-29T11:23:45.124Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TBM240208KF9",
+  "signatureMetadata": {
+    "ip": "201.149.37.158",
+    "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-29T17:23:48.399Z",
+    "signedAtLocal": "2026-01-29T11:23:48.399Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d46a3587215bdf22bbc9c18c69c0d0f0baf796a1fe88fccd7aee4d08559c06e8"
+  "documentHash": "4c822091526d351bfa86349abe7eedb68e55d7463b95c5725f83384377e03bb5",
+  "auditTrail": [
+    {
+      "eventId": "3223a500-70b7-41a8-a1ea-1fea86ca58e2",
+      "uid": "TBM240208KF9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T17:01:55.108Z",
+      "timestampLocal": "2026-01-29T17:01:55.108Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": null,
+      "documentHash": "843468843f039c0ecaed910d6b1ff17e58b26d36f5d36ccc34b9db7e4d70da46",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "162660fa8c01cb2fcbf2a8362ef5cf4e2a5dbdc28e7a86bf97454def38c917d1"
+    },
+    {
+      "eventId": "2e99e10c-a693-4e63-b333-bb91476d9d81",
+      "uid": "TBM240208KF9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T17:01:55.109Z",
+      "timestampLocal": "2026-01-29T17:01:55.109Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "162660fa8c01cb2fcbf2a8362ef5cf4e2a5dbdc28e7a86bf97454def38c917d1",
+      "documentHash": "843468843f039c0ecaed910d6b1ff17e58b26d36f5d36ccc34b9db7e4d70da46",
+      "metadata": {
+        "proveedor": "TODO EL BRETE Y EL MITOTE",
+        "representante": "NABILE AHUMADA LLANES"
+      },
+      "eventHash": "a32f15261bcd83f683552459b996da60bfda9a7af594fd6a7d3429293092751f"
+    },
+    {
+      "eventId": "6d60ea9a-5368-4c0e-b52a-df715039e769",
+      "uid": "TBM240208KF9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T17:01:58.047Z",
+      "timestampLocal": "2026-01-29T17:01:58.047Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "a32f15261bcd83f683552459b996da60bfda9a7af594fd6a7d3429293092751f",
+      "documentHash": "16d9211fb0c305e092fd73ef74a0918edef1aeaa16b90757b2cbde5daa06b962",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cf5afedceb2c30c9bac7fb16c1804b40ee120e52a8c1e15ad6101ea77b4a4253"
+    },
+    {
+      "eventId": "01fef0e0-0d4f-4cb3-8390-19fa9013b192",
+      "uid": "TBM240208KF9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T17:01:58.047Z",
+      "timestampLocal": "2026-01-29T17:01:58.047Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "cf5afedceb2c30c9bac7fb16c1804b40ee120e52a8c1e15ad6101ea77b4a4253",
+      "documentHash": "16d9211fb0c305e092fd73ef74a0918edef1aeaa16b90757b2cbde5daa06b962",
+      "metadata": {
+        "proveedor": "TODO EL BRETE Y EL MITOTE",
+        "representante": "NABILE AHUMADA LLANES"
+      },
+      "eventHash": "6af23c168404698adf607b9c031a13f461abe43dfa414f552b032a402e4aa99a"
+    },
+    {
+      "eventId": "1cd97b7b-2826-4405-9252-e7c709ff6a72",
+      "uid": "TBM240208KF9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T17:02:01.349Z",
+      "timestampLocal": "2026-01-29T17:02:01.349Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "6af23c168404698adf607b9c031a13f461abe43dfa414f552b032a402e4aa99a",
+      "documentHash": "aeb0f91e91b68c82613fe823d71b359a97c0609b5515715fd5d1a928896b40ed",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "27e9fcaaa2c31f29822afca4995c2b06fcb4d8fff1d39c72d7f83c472a39ec1f"
+    },
+    {
+      "eventId": "c2e7658c-8c3f-4137-81c6-774f5385d52c",
+      "uid": "TBM240208KF9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T17:02:01.349Z",
+      "timestampLocal": "2026-01-29T17:02:01.349Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "27e9fcaaa2c31f29822afca4995c2b06fcb4d8fff1d39c72d7f83c472a39ec1f",
+      "documentHash": "aeb0f91e91b68c82613fe823d71b359a97c0609b5515715fd5d1a928896b40ed",
+      "metadata": {
+        "proveedor": "TODO EL BRETE Y EL MITOTE",
+        "representante": "NABILE AHUMADA LLANES"
+      },
+      "eventHash": "c7806fdbf07af38e7a765191b44aecb7993cedbd4947a5d38e6ab74cd92fa2ea"
+    },
+    {
+      "eventId": "9970be22-4023-4047-8f9a-2638d0306ff5",
+      "uid": "TBM240208KF9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T17:02:02.398Z",
+      "timestampLocal": "2026-01-29T17:02:02.398Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "c7806fdbf07af38e7a765191b44aecb7993cedbd4947a5d38e6ab74cd92fa2ea",
+      "documentHash": "d46a3587215bdf22bbc9c18c69c0d0f0baf796a1fe88fccd7aee4d08559c06e8",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "aafd83ec2d81c67b99f24696a3347e79f8068dc64414cd3a509e462d681fd6a3"
+    },
+    {
+      "eventId": "fb9943df-522b-4e17-8f12-7f89ef1da012",
+      "uid": "TBM240208KF9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T17:02:02.398Z",
+      "timestampLocal": "2026-01-29T17:02:02.398Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "aafd83ec2d81c67b99f24696a3347e79f8068dc64414cd3a509e462d681fd6a3",
+      "documentHash": "d46a3587215bdf22bbc9c18c69c0d0f0baf796a1fe88fccd7aee4d08559c06e8",
+      "metadata": {
+        "proveedor": "TODO EL BRETE Y EL MITOTE",
+        "representante": "NABILE AHUMADA LLANES"
+      },
+      "eventHash": "5ca037cd319a9d56d4a0dbd5f4e9560b291522477f86a80c9f066570226f3d88"
+    },
+    {
+      "eventId": "19c0a00b-a8e2-4322-b429-f6da81974b84",
+      "uid": "TBM240208KF9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T17:02:02.549Z",
+      "timestampLocal": "2026-01-29T17:02:02.549Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "5ca037cd319a9d56d4a0dbd5f4e9560b291522477f86a80c9f066570226f3d88",
+      "documentHash": "d46a3587215bdf22bbc9c18c69c0d0f0baf796a1fe88fccd7aee4d08559c06e8",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "01847d59c67e9f9dd4c81b07a14f4283afcc01aa551a17850b67295b59fa1453"
+    },
+    {
+      "eventId": "7956dfb5-46ac-420d-84e7-16df6bf34993",
+      "uid": "TBM240208KF9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T17:02:02.549Z",
+      "timestampLocal": "2026-01-29T17:02:02.549Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "01847d59c67e9f9dd4c81b07a14f4283afcc01aa551a17850b67295b59fa1453",
+      "documentHash": "d46a3587215bdf22bbc9c18c69c0d0f0baf796a1fe88fccd7aee4d08559c06e8",
+      "metadata": {
+        "proveedor": "TODO EL BRETE Y EL MITOTE",
+        "representante": "NABILE AHUMADA LLANES"
+      },
+      "eventHash": "0d5d5e77004a0c8b36885a71fb5db813fb3e690ed7395561a23b20fdb22cf7b7"
+    },
+    {
+      "eventId": "dbee26e8-bebb-4efb-8df1-71d6dcd357e9",
+      "uid": "TBM240208KF9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T17:02:03.873Z",
+      "timestampLocal": "2026-01-29T17:02:03.873Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "0d5d5e77004a0c8b36885a71fb5db813fb3e690ed7395561a23b20fdb22cf7b7",
+      "documentHash": "d46a3587215bdf22bbc9c18c69c0d0f0baf796a1fe88fccd7aee4d08559c06e8",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "96ae4ea2ba80d560dedf38c15baf59781e29e24e0181494faf27d30f9af6e293"
+    },
+    {
+      "eventId": "1a0cea9f-72c7-4d21-8031-aa933db33611",
+      "uid": "TBM240208KF9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T17:02:03.874Z",
+      "timestampLocal": "2026-01-29T17:02:03.874Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "96ae4ea2ba80d560dedf38c15baf59781e29e24e0181494faf27d30f9af6e293",
+      "documentHash": "d46a3587215bdf22bbc9c18c69c0d0f0baf796a1fe88fccd7aee4d08559c06e8",
+      "metadata": {
+        "proveedor": "TODO EL BRETE Y EL MITOTE",
+        "representante": "NABILE AHUMADA LLANES"
+      },
+      "eventHash": "cfa8ba925fde6e91db85ad5efbea90f9a73d33a1526e539c1ad4569e8d1876a1"
+    },
+    {
+      "eventId": "8deb4a1b-6721-407f-be33-e0313a8c1626",
+      "uid": "TBM240208KF9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T17:02:04.029Z",
+      "timestampLocal": "2026-01-29T17:02:04.029Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "cfa8ba925fde6e91db85ad5efbea90f9a73d33a1526e539c1ad4569e8d1876a1",
+      "documentHash": "ee938d7fdcc44b8638cd7c42f2ce01f5913d3cb6fecec5f9f94d10eb3bc64920",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "eb645ae5453cf70f52da87dab52ad2ec159bb5100304b32acda2c46bf39c5b25"
+    },
+    {
+      "eventId": "e12a4088-4887-4fe2-b5a0-b0c2ccd8f77a",
+      "uid": "TBM240208KF9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T17:02:04.029Z",
+      "timestampLocal": "2026-01-29T17:02:04.029Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "eb645ae5453cf70f52da87dab52ad2ec159bb5100304b32acda2c46bf39c5b25",
+      "documentHash": "ee938d7fdcc44b8638cd7c42f2ce01f5913d3cb6fecec5f9f94d10eb3bc64920",
+      "metadata": {
+        "proveedor": "TODO EL BRETE Y EL MITOTE",
+        "representante": "NABILE AHUMADA LLANES"
+      },
+      "eventHash": "5d8486072f957ce4d9c8013964f837d9c5441b13e6a6152f485c84e8ca61de84"
+    },
+    {
+      "eventId": "0854d00b-3368-4e42-8f63-01a1cedcd6b8",
+      "uid": "TBM240208KF9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T17:02:05.017Z",
+      "timestampLocal": "2026-01-29T17:02:05.017Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TBM240208KF9&nombre_proveedor_razon_social=TODO+EL+BRETE+Y+EL+MITOTE+&nombre_representante_legal=NABILE+AHUMADA+LLANES&email=paulinasosa%40purobrete.com",
+      "previousEventHash": "5d8486072f957ce4d9c8013964f837d9c5441b13e6a6152f485c84e8ca61de84",
+      "documentHash": "ee938d7fdcc44b8638cd7c42f2ce01f5913d3cb6fecec5f9f94d10eb3bc64920",
+      "eventHash": "9f39e4593457d003155e7f0e892e2d435a46ea6c20103d1cde910dc460a69584"
+    },
+    {
+      "eventId": "6939621d-d2bb-4866-a713-06902632be34",
+      "uid": "TBM240208KF9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T17:02:08.981Z",
+      "timestampLocal": "2026-01-29T17:02:08.981Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "9f39e4593457d003155e7f0e892e2d435a46ea6c20103d1cde910dc460a69584",
+      "documentHash": "ee938d7fdcc44b8638cd7c42f2ce01f5913d3cb6fecec5f9f94d10eb3bc64920",
+      "eventHash": "c952592c9715fe0ae4696663f84004c4267c68f3bb2fdbf02e0871adc424900a"
+    },
+    {
+      "eventId": "8cedd68e-9693-4987-875a-f797fc88c5da",
+      "uid": "TBM240208KF9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T17:23:07.061Z",
+      "timestampLocal": "2026-01-29T17:23:07.061Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c952592c9715fe0ae4696663f84004c4267c68f3bb2fdbf02e0871adc424900a",
+      "documentHash": "ee938d7fdcc44b8638cd7c42f2ce01f5913d3cb6fecec5f9f94d10eb3bc64920",
+      "eventHash": "3b5a6e19d823695285d5f89c3a81dd596aa3739a6e05169eaf074d7169733df4"
+    },
+    {
+      "eventId": "89543eac-8276-4bb3-9268-478f2e898ec6",
+      "uid": "TBM240208KF9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T17:23:48.399Z",
+      "timestampLocal": "2026-01-29T11:23:48.399Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.149.37.158",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8d819577-56a4-4754-8bd2-5239923ffffb",
+      "previousEventHash": "3b5a6e19d823695285d5f89c3a81dd596aa3739a6e05169eaf074d7169733df4",
+      "documentHash": "4c822091526d351bfa86349abe7eedb68e55d7463b95c5725f83384377e03bb5",
+      "signatureHash": "1ed48e6df2f23da96edd340c9055b0a01787583f03d5ced37a4d8416b11e577c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-29T11:23:45.124Z"
+      },
+      "eventHash": "cb7236a61a5332887eee5ee2265e1c6a5319cf20b86adc0ef6af4e75b50e14ac"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 18,
+    "verifiedAt": "2026-01-29T17:23:48.400Z"
+  }
 }
