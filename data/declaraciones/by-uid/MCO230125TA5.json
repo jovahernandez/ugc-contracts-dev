@@ -1,19 +1,100 @@
 {
   "uid": "MCO230125TA5",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MURACH CONTADORES",
     "nombre_representante_legal": "JOSE FRANCISCO RAMIREZ RAMIREZ",
     "email": "contabilidad@murach.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MURACH CONTADORES",
-    "nombre_representante_legal": "JOSE FRANCISCO RAMIREZ RAMIREZ",
-    "email": "contabilidad@murach.com.mx"
+  "personaAutorizada": "JOSE FRANCISCO RAMIREZ RAMIREZ",
+  "signedAt": "2026-01-29T17:05:54.685Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MCO230125TA5",
+  "signatureMetadata": {
+    "ip": "177.238.16.199",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-29T23:05:58.060Z",
+    "signedAtLocal": "2026-01-29T17:05:58.060Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "564740ef3051951deef5aeed6b10d2ddf69a4c9f6b799bfb4083fdb147519e2e"
+  "documentHash": "a1d658f0b6cc92195609cfdf509766d0783281d819cfc322316dd11952d145d5",
+  "auditTrail": [
+    {
+      "eventId": "e17cb900-6c8b-477b-a5c4-c80e99621834",
+      "uid": "MCO230125TA5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T23:05:17.492Z",
+      "timestampLocal": "2026-01-29T23:05:17.492Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.238.16.199",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,ca;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MCO230125TA5&nombre_proveedor_razon_social=MURACH+CONTADORES&nombre_representante_legal=JOSE+FRANCISCO+RAMIREZ+RAMIREZ&email=contabilidad%40murach.com.mx",
+      "previousEventHash": null,
+      "documentHash": "564740ef3051951deef5aeed6b10d2ddf69a4c9f6b799bfb4083fdb147519e2e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e4d4eaec52c5187389d4e083c7845d74d56dc672ea72f2a9268983a2af27c0ed"
+    },
+    {
+      "eventId": "87ba3106-4c80-4d91-a5de-41d405f859ce",
+      "uid": "MCO230125TA5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T23:05:17.493Z",
+      "timestampLocal": "2026-01-29T23:05:17.493Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.238.16.199",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,ca;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MCO230125TA5&nombre_proveedor_razon_social=MURACH+CONTADORES&nombre_representante_legal=JOSE+FRANCISCO+RAMIREZ+RAMIREZ&email=contabilidad%40murach.com.mx",
+      "previousEventHash": "e4d4eaec52c5187389d4e083c7845d74d56dc672ea72f2a9268983a2af27c0ed",
+      "documentHash": "564740ef3051951deef5aeed6b10d2ddf69a4c9f6b799bfb4083fdb147519e2e",
+      "metadata": {
+        "proveedor": "MURACH CONTADORES",
+        "representante": "JOSE FRANCISCO RAMIREZ RAMIREZ"
+      },
+      "eventHash": "74270b4285dc783965274e69eb58dec7c5caec77a97136907fa804347758f8c9"
+    },
+    {
+      "eventId": "773c8858-efc2-4da8-95fe-6f44d120ee1c",
+      "uid": "MCO230125TA5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T23:05:19.652Z",
+      "timestampLocal": "2026-01-29T23:05:19.652Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.238.16.199",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,ca;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MCO230125TA5&nombre_proveedor_razon_social=MURACH+CONTADORES&nombre_representante_legal=JOSE+FRANCISCO+RAMIREZ+RAMIREZ&email=contabilidad%40murach.com.mx",
+      "previousEventHash": "74270b4285dc783965274e69eb58dec7c5caec77a97136907fa804347758f8c9",
+      "documentHash": "564740ef3051951deef5aeed6b10d2ddf69a4c9f6b799bfb4083fdb147519e2e",
+      "eventHash": "0f296262f3317bc7e0cce0dec024ae0add8ac670720fc57ce4640ff79724e78d"
+    },
+    {
+      "eventId": "4fd5c9ce-f910-49b9-9774-a6cfc5233b9b",
+      "uid": "MCO230125TA5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T23:05:58.060Z",
+      "timestampLocal": "2026-01-29T17:05:58.060Z",
+      "timezone": "UTC-6",
+      "ipAddress": "177.238.16.199",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,ca;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/6111b1df-d4c5-40ae-8e0e-34c9fb2122a9",
+      "previousEventHash": "0f296262f3317bc7e0cce0dec024ae0add8ac670720fc57ce4640ff79724e78d",
+      "documentHash": "a1d658f0b6cc92195609cfdf509766d0783281d819cfc322316dd11952d145d5",
+      "signatureHash": "d04499a8e09f2f9dad98f1c51af04d44a2428d373ef28c70e1d213c3f2ffccbc",
+      "metadata": {
+        "personaAutorizada": "JOSE FRANCISCO RAMIREZ RAMIREZ",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-29T17:05:54.685Z"
+      },
+      "eventHash": "234d0b447677af646e9a4bb0ef41f4623218872cd3b5166dc14b29ec598787e8"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-29T23:05:58.067Z"
+  }
 }
