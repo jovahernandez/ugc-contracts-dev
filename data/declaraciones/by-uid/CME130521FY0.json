@@ -1,19 +1,115 @@
 {
   "uid": "CME130521FY0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CLEVERFLOW DE MEXICO SAPI DE CV",
     "nombre_representante_legal": "CLEVERFLOW DE MEXICO SAPI DE CV",
     "email": "facturacion@cleverflow.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CLEVERFLOW DE MEXICO SAPI DE CV",
-    "nombre_representante_legal": "CLEVERFLOW DE MEXICO SAPI DE CV",
-    "email": "facturacion@cleverflow.mx"
+  "personaAutorizada": "NOMARA TAGLE",
+  "signedAt": "2026-01-29T15:46:39.278Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CME130521FY0",
+  "signatureMetadata": {
+    "ip": "189.216.168.146",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-29T21:46:42.592Z",
+    "signedAtLocal": "2026-01-29T15:46:42.592Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a7d52190995f1008595e7eaa672dce469fb75ecad10775c5e062c9f978f12d68"
+  "documentHash": "faa6e4f1b4fb578d74659b9541e88b1937bcb6ac8a395b0da33254e4d3dc73da",
+  "auditTrail": [
+    {
+      "eventId": "302ba755-9cf7-4d15-b41c-6e43bf4e990e",
+      "uid": "CME130521FY0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T21:45:30.144Z",
+      "timestampLocal": "2026-01-29T21:45:30.144Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.168.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CME130521FY0&nombre_proveedor_razon_social=CLEVERFLOW+DE+MEXICO+SAPI+DE+CV&nombre_representante_legal=CLEVERFLOW+DE+MEXICO+SAPI+DE+CV&email=facturacion%40cleverflow.mx",
+      "previousEventHash": null,
+      "documentHash": "a7d52190995f1008595e7eaa672dce469fb75ecad10775c5e062c9f978f12d68",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "dd0263baf7af713a198ea619d3171cb511d89079a1508ca27ae80b7cf74975bd"
+    },
+    {
+      "eventId": "548294f2-eb3e-4a73-92cb-cb7ebe6272ef",
+      "uid": "CME130521FY0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T21:45:30.144Z",
+      "timestampLocal": "2026-01-29T21:45:30.144Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.168.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CME130521FY0&nombre_proveedor_razon_social=CLEVERFLOW+DE+MEXICO+SAPI+DE+CV&nombre_representante_legal=CLEVERFLOW+DE+MEXICO+SAPI+DE+CV&email=facturacion%40cleverflow.mx",
+      "previousEventHash": "dd0263baf7af713a198ea619d3171cb511d89079a1508ca27ae80b7cf74975bd",
+      "documentHash": "a7d52190995f1008595e7eaa672dce469fb75ecad10775c5e062c9f978f12d68",
+      "metadata": {
+        "proveedor": "CLEVERFLOW DE MEXICO SAPI DE CV",
+        "representante": "CLEVERFLOW DE MEXICO SAPI DE CV"
+      },
+      "eventHash": "e5810252408cfdd75988e632e886c6253ceb1761cdedd15c9fa8052babecbf7b"
+    },
+    {
+      "eventId": "c7e27d54-facc-4543-8cc7-57725581f682",
+      "uid": "CME130521FY0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T21:45:30.999Z",
+      "timestampLocal": "2026-01-29T21:45:30.999Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.168.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CME130521FY0&nombre_proveedor_razon_social=CLEVERFLOW+DE+MEXICO+SAPI+DE+CV&nombre_representante_legal=CLEVERFLOW+DE+MEXICO+SAPI+DE+CV&email=facturacion%40cleverflow.mx",
+      "previousEventHash": "e5810252408cfdd75988e632e886c6253ceb1761cdedd15c9fa8052babecbf7b",
+      "documentHash": "a7d52190995f1008595e7eaa672dce469fb75ecad10775c5e062c9f978f12d68",
+      "eventHash": "c6e76471f8ca11e66674fcdaba39fe761e788d3692505caef01c2dd622ba00e2"
+    },
+    {
+      "eventId": "62f59149-361d-414e-b355-5cccac79f2ea",
+      "uid": "CME130521FY0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T21:46:14.335Z",
+      "timestampLocal": "2026-01-29T21:46:14.335Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.168.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c6e76471f8ca11e66674fcdaba39fe761e788d3692505caef01c2dd622ba00e2",
+      "documentHash": "a7d52190995f1008595e7eaa672dce469fb75ecad10775c5e062c9f978f12d68",
+      "eventHash": "32ed863e41bf8bbdd6143d5ee21146d3c566c47329349f159a0180b8a0a0cd45"
+    },
+    {
+      "eventId": "84f1cb90-c62a-415d-a074-adde3740d267",
+      "uid": "CME130521FY0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T21:46:42.593Z",
+      "timestampLocal": "2026-01-29T15:46:42.593Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.216.168.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e3b96d68-be2a-4070-ac73-db3272ab6332",
+      "previousEventHash": "32ed863e41bf8bbdd6143d5ee21146d3c566c47329349f159a0180b8a0a0cd45",
+      "documentHash": "faa6e4f1b4fb578d74659b9541e88b1937bcb6ac8a395b0da33254e4d3dc73da",
+      "signatureHash": "da671ccd1cf6ef36703b75cdd4740e902ca501416fe2ba86065881a20b9e7876",
+      "metadata": {
+        "personaAutorizada": "NOMARA TAGLE",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-29T15:46:39.278Z"
+      },
+      "eventHash": "86c742108973ae673ec7876c53351aa8bb88ef0769780947b485cb7f18d5167f"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-01-29T21:46:42.593Z"
+  }
 }
