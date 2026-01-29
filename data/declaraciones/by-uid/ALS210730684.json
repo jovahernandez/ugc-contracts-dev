@@ -1,19 +1,100 @@
 {
   "uid": "ALS210730684",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Academia LSM",
     "nombre_representante_legal": "Doris garcía Abenchunchan",
     "email": "dabenchunchan@hotmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Academia LSM",
-    "nombre_representante_legal": "Doris garcía Abenchunchan",
-    "email": "dabenchunchan@hotmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-29T15:21:22.864Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ALS210730684",
+  "signatureMetadata": {
+    "ip": "189.236.36.236",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+    "signedAtUtc": "2026-01-29T21:21:28.437Z",
+    "signedAtLocal": "2026-01-29T15:21:28.437Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c878bceb6d5c009ae889360e7337ba54b91e3d24f57a60c2abb3fd6d49aa02b2"
+  "documentHash": "a5bed544821316b802cb6bf90cc42a2303a3ca723732fd819f4be5b940c3c4ac",
+  "auditTrail": [
+    {
+      "eventId": "fef15064-f6ea-4de1-9a6d-65308f660d1c",
+      "uid": "ALS210730684",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T21:20:21.573Z",
+      "timestampLocal": "2026-01-29T21:20:21.573Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.36.236",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "c878bceb6d5c009ae889360e7337ba54b91e3d24f57a60c2abb3fd6d49aa02b2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ed3dcce86d1006a07c0eccd8e91d7016ddeb0980b1798f2b9158b6dc1f1e9088"
+    },
+    {
+      "eventId": "ab01e429-05ab-41d5-9e7a-be35dc650635",
+      "uid": "ALS210730684",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T21:20:21.573Z",
+      "timestampLocal": "2026-01-29T21:20:21.573Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.36.236",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ed3dcce86d1006a07c0eccd8e91d7016ddeb0980b1798f2b9158b6dc1f1e9088",
+      "documentHash": "c878bceb6d5c009ae889360e7337ba54b91e3d24f57a60c2abb3fd6d49aa02b2",
+      "metadata": {
+        "proveedor": "Academia LSM",
+        "representante": "Doris garcía Abenchunchan"
+      },
+      "eventHash": "d4c2b4622b1cca3ac7d258cf7b8f4218c8831b857a746d089a776dad5c621e4d"
+    },
+    {
+      "eventId": "b5448034-bd33-44ef-b8f3-6a1646f46288",
+      "uid": "ALS210730684",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T21:20:22.785Z",
+      "timestampLocal": "2026-01-29T21:20:22.785Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.36.236",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "d4c2b4622b1cca3ac7d258cf7b8f4218c8831b857a746d089a776dad5c621e4d",
+      "documentHash": "c878bceb6d5c009ae889360e7337ba54b91e3d24f57a60c2abb3fd6d49aa02b2",
+      "eventHash": "51b2c629a89c343ab5094910a87de492359cfd4b1f781e5ddb50e3d2db13b96f"
+    },
+    {
+      "eventId": "450df50d-574c-4895-bafd-614944acb76f",
+      "uid": "ALS210730684",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T21:21:28.437Z",
+      "timestampLocal": "2026-01-29T15:21:28.437Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.236.36.236",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "51b2c629a89c343ab5094910a87de492359cfd4b1f781e5ddb50e3d2db13b96f",
+      "documentHash": "a5bed544821316b802cb6bf90cc42a2303a3ca723732fd819f4be5b940c3c4ac",
+      "signatureHash": "8dce59412fd17f5a1eaa7e0a543285d0557381e54c30e502c330465e435cae45",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-29T15:21:22.864Z"
+      },
+      "eventHash": "3bc88f560c86389602169519597bb2966a0b0e7ad00d9e027e43d8d62be6d8f8"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-29T21:21:28.437Z"
+  }
 }
