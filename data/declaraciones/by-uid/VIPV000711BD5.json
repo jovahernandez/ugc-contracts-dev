@@ -1,19 +1,100 @@
 {
   "uid": "VIPV000711BD5",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Victoria Villezcas Pacheco",
     "nombre_representante_legal": "Victoria Villezcas Pacheco",
     "email": "vicvillezcas@truecompany.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Victoria Villezcas Pacheco",
-    "nombre_representante_legal": "Victoria Villezcas Pacheco",
-    "email": "vicvillezcas@truecompany.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-28T19:42:58.236Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/VIPV000711BD5",
+  "signatureMetadata": {
+    "ip": "189.146.108.182",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-29T01:43:01.588Z",
+    "signedAtLocal": "2026-01-28T19:43:01.588Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4ad0c29864daf452feb3921d7387eb7ab5a3531f3beb920c18e99f0f84be5dd9"
+  "documentHash": "f92acf1eedca73f023b6e133f34f8ef80b6db5d0b75dd0888ef0295db191dbe2",
+  "auditTrail": [
+    {
+      "eventId": "0b44a447-ea58-494a-8aa4-ffc30f43e7cf",
+      "uid": "VIPV000711BD5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T01:42:30.101Z",
+      "timestampLocal": "2026-01-29T01:42:30.101Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.146.108.182",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,ko;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VIPV000711BD5&nombre_proveedor_razon_social=Victoria+Villezcas+Pacheco&nombre_representante_legal=Victoria+Villezcas+Pacheco&email=vicvillezcas%40truecompany.com.mx",
+      "previousEventHash": null,
+      "documentHash": "4ad0c29864daf452feb3921d7387eb7ab5a3531f3beb920c18e99f0f84be5dd9",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ea58d85786fd223ab5ebac2fa1c93343c464b17dd5f4d88d4e8833a4f9bb7ea6"
+    },
+    {
+      "eventId": "ca6e3799-ec0c-47db-a2ea-a4750d27797d",
+      "uid": "VIPV000711BD5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T01:42:30.101Z",
+      "timestampLocal": "2026-01-29T01:42:30.101Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.146.108.182",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,ko;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VIPV000711BD5&nombre_proveedor_razon_social=Victoria+Villezcas+Pacheco&nombre_representante_legal=Victoria+Villezcas+Pacheco&email=vicvillezcas%40truecompany.com.mx",
+      "previousEventHash": "ea58d85786fd223ab5ebac2fa1c93343c464b17dd5f4d88d4e8833a4f9bb7ea6",
+      "documentHash": "4ad0c29864daf452feb3921d7387eb7ab5a3531f3beb920c18e99f0f84be5dd9",
+      "metadata": {
+        "proveedor": "Victoria Villezcas Pacheco",
+        "representante": "Victoria Villezcas Pacheco"
+      },
+      "eventHash": "dff2d5294b4667b0829cf71d0b8809f5421affc037bb67d49705ed0b65f7e0b4"
+    },
+    {
+      "eventId": "4afd615b-d6da-49be-80b6-50bfceeebc0a",
+      "uid": "VIPV000711BD5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T01:42:32.051Z",
+      "timestampLocal": "2026-01-29T01:42:32.051Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.146.108.182",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,ko;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VIPV000711BD5&nombre_proveedor_razon_social=Victoria+Villezcas+Pacheco&nombre_representante_legal=Victoria+Villezcas+Pacheco&email=vicvillezcas%40truecompany.com.mx",
+      "previousEventHash": "dff2d5294b4667b0829cf71d0b8809f5421affc037bb67d49705ed0b65f7e0b4",
+      "documentHash": "4ad0c29864daf452feb3921d7387eb7ab5a3531f3beb920c18e99f0f84be5dd9",
+      "eventHash": "763003d1cbc646e4dea635fe5dcd51ace6e6d37c903aa9948d733653a39e95e1"
+    },
+    {
+      "eventId": "4faae71d-f04b-4adb-8051-7ba108dd7634",
+      "uid": "VIPV000711BD5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T01:43:01.589Z",
+      "timestampLocal": "2026-01-28T19:43:01.589Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.146.108.182",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,ko;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/63c7d769-81f1-4c72-a715-96310b9923af",
+      "previousEventHash": "763003d1cbc646e4dea635fe5dcd51ace6e6d37c903aa9948d733653a39e95e1",
+      "documentHash": "f92acf1eedca73f023b6e133f34f8ef80b6db5d0b75dd0888ef0295db191dbe2",
+      "signatureHash": "8d4312c81d313ac77b2e89673606802dc83eaf49f22d575463b4a1f15e8e4ecd",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-28T19:42:58.236Z"
+      },
+      "eventHash": "6096cbe2cb1df0256ab67d60a13e88565789e618b1702b46b422948b45460bbb"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-29T01:43:01.589Z"
+  }
 }
