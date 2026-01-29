@@ -1,19 +1,152 @@
 {
   "uid": "BAS210601QC4",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "BASKARI SA DE CV",
     "nombre_representante_legal": "ARTURO LEOPOLDO RAMIREZ SEOANE",
     "email": "administracion@dinara.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "BASKARI SA DE CV",
-    "nombre_representante_legal": "ARTURO LEOPOLDO RAMIREZ SEOANE",
-    "email": "administracion@dinara.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-29T15:20:53.844Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BAS210601QC4",
+  "signatureMetadata": {
+    "ip": "189.147.9.207",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Avast/143.0.0.0",
+    "signedAtUtc": "2026-01-29T21:20:57.204Z",
+    "signedAtLocal": "2026-01-29T15:20:57.204Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6ae2042045736b661f2c96f401ef6d845c089eee17d2e2ce1e5ddb684383cb30"
+  "documentHash": "2eb09f254da410c8afcbf4e2dd3c01e1b83c5b8acedf1aa0a127f3cebc00415c",
+  "auditTrail": [
+    {
+      "eventId": "f2af50fd-9cea-4034-a747-2b866f4596a1",
+      "uid": "BAS210601QC4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T15:37:35.091Z",
+      "timestampLocal": "2026-01-29T15:37:35.091Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.9.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Avast/143.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BAS210601QC4&nombre_proveedor_razon_social=BASKARI+SA+DE+CV&nombre_representante_legal=ARTURO+LEOPOLDO+RAMIREZ+SEOANE&email=administracion%40dinara.com.mx",
+      "previousEventHash": null,
+      "documentHash": "6ae2042045736b661f2c96f401ef6d845c089eee17d2e2ce1e5ddb684383cb30",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "95acd722eb63ca2176255592ec00e9643cf1d8bb6d85f0745c78079288136123"
+    },
+    {
+      "eventId": "7c313524-ec23-4237-869a-18a5151c268f",
+      "uid": "BAS210601QC4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T15:37:35.091Z",
+      "timestampLocal": "2026-01-29T15:37:35.091Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.9.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Avast/143.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BAS210601QC4&nombre_proveedor_razon_social=BASKARI+SA+DE+CV&nombre_representante_legal=ARTURO+LEOPOLDO+RAMIREZ+SEOANE&email=administracion%40dinara.com.mx",
+      "previousEventHash": "95acd722eb63ca2176255592ec00e9643cf1d8bb6d85f0745c78079288136123",
+      "documentHash": "6ae2042045736b661f2c96f401ef6d845c089eee17d2e2ce1e5ddb684383cb30",
+      "metadata": {
+        "proveedor": "BASKARI SA DE CV",
+        "representante": "ARTURO LEOPOLDO RAMIREZ SEOANE"
+      },
+      "eventHash": "d16ede0861693a2a167022020113e0fe546d2468317d129a84acedc5ff97adb0"
+    },
+    {
+      "eventId": "bfefdbdf-66fe-4e6c-8c22-82448c84cb44",
+      "uid": "BAS210601QC4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T15:37:37.861Z",
+      "timestampLocal": "2026-01-29T15:37:37.861Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.9.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Avast/143.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BAS210601QC4&nombre_proveedor_razon_social=BASKARI+SA+DE+CV&nombre_representante_legal=ARTURO+LEOPOLDO+RAMIREZ+SEOANE&email=administracion%40dinara.com.mx",
+      "previousEventHash": "d16ede0861693a2a167022020113e0fe546d2468317d129a84acedc5ff97adb0",
+      "documentHash": "b15293f96029c6b0217d354749fbb34d5245e51641cb345e4eabd8d84766c264",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "84112421739c134da09f33680038452673fd4d2b32b7439563190fc6fed30d89"
+    },
+    {
+      "eventId": "940a269c-28a4-42ed-bfb0-8179ea0737cc",
+      "uid": "BAS210601QC4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T15:37:37.861Z",
+      "timestampLocal": "2026-01-29T15:37:37.861Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.9.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Avast/143.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BAS210601QC4&nombre_proveedor_razon_social=BASKARI+SA+DE+CV&nombre_representante_legal=ARTURO+LEOPOLDO+RAMIREZ+SEOANE&email=administracion%40dinara.com.mx",
+      "previousEventHash": "84112421739c134da09f33680038452673fd4d2b32b7439563190fc6fed30d89",
+      "documentHash": "b15293f96029c6b0217d354749fbb34d5245e51641cb345e4eabd8d84766c264",
+      "metadata": {
+        "proveedor": "BASKARI SA DE CV",
+        "representante": "ARTURO LEOPOLDO RAMIREZ SEOANE"
+      },
+      "eventHash": "011943b13e1a6a3ad424474409bc8d29e0037d616edd27fb5910b481b71bc275"
+    },
+    {
+      "eventId": "d0883587-f8c2-4787-9986-3535249a69fb",
+      "uid": "BAS210601QC4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T15:37:40.180Z",
+      "timestampLocal": "2026-01-29T15:37:40.180Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.9.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Avast/143.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BAS210601QC4&nombre_proveedor_razon_social=BASKARI+SA+DE+CV&nombre_representante_legal=ARTURO+LEOPOLDO+RAMIREZ+SEOANE&email=administracion%40dinara.com.mx",
+      "previousEventHash": "011943b13e1a6a3ad424474409bc8d29e0037d616edd27fb5910b481b71bc275",
+      "documentHash": "b15293f96029c6b0217d354749fbb34d5245e51641cb345e4eabd8d84766c264",
+      "eventHash": "e17f07af03a241dc0decba940d511e78f8c71bf57525368fa14d834e0bcca677"
+    },
+    {
+      "eventId": "b6dea62b-9b49-49ee-bf7d-3e5141e0567a",
+      "uid": "BAS210601QC4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T21:19:24.653Z",
+      "timestampLocal": "2026-01-29T21:19:24.653Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.9.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Avast/143.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "e17f07af03a241dc0decba940d511e78f8c71bf57525368fa14d834e0bcca677",
+      "documentHash": "b15293f96029c6b0217d354749fbb34d5245e51641cb345e4eabd8d84766c264",
+      "eventHash": "958ac752917c8b88f4dba5a4fecfaece5b87fd5bc6933992c889b569561e17e4"
+    },
+    {
+      "eventId": "1f1f4fd5-2afa-4585-a211-8cfe727367ee",
+      "uid": "BAS210601QC4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T21:20:57.205Z",
+      "timestampLocal": "2026-01-29T15:20:57.205Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.147.9.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Avast/143.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/03ad8eee-3d53-4ab9-a805-deb8629db2fb",
+      "previousEventHash": "958ac752917c8b88f4dba5a4fecfaece5b87fd5bc6933992c889b569561e17e4",
+      "documentHash": "2eb09f254da410c8afcbf4e2dd3c01e1b83c5b8acedf1aa0a127f3cebc00415c",
+      "signatureHash": "79e35c9eb36525cfdb3abfb6680dc47b57d02cefa52a3796ee12fea080618624",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-29T15:20:53.844Z"
+      },
+      "eventHash": "db6a6be679f08f478dd1142576473b3d58d4a47b24029ce282a7f973bb2e6eb9"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-01-29T21:20:57.205Z"
+  }
 }
