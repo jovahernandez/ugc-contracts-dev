@@ -1,19 +1,100 @@
 {
   "uid": "ODE990311LZ7",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "O'DONNELL EXPRESS",
     "nombre_representante_legal": "Hector Horacio Olivares Hernandez",
     "email": "oscar.silva@odonnellexpress.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "O'DONNELL EXPRESS",
-    "nombre_representante_legal": "Hector Horacio Olivares Hernandez",
-    "email": "oscar.silva@odonnellexpress.com"
+  "personaAutorizada": "oscar silva",
+  "signedAt": "2026-01-29T14:12:05.401Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ODE990311LZ7",
+  "signatureMetadata": {
+    "ip": "201.137.233.28",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-29T20:12:08.685Z",
+    "signedAtLocal": "2026-01-29T14:12:08.685Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9555892fe838900bf3c5c829ace77956466dffd16b3f2904c82d191d11f84132"
+  "documentHash": "034f3112bc9b125dbcc399a53dba4eef4a9e18bc6feea9ac0e78c27ca66b0efb",
+  "auditTrail": [
+    {
+      "eventId": "1779ca8e-1ec2-4139-ac54-555179039bc4",
+      "uid": "ODE990311LZ7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T20:11:26.218Z",
+      "timestampLocal": "2026-01-29T20:11:26.218Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.233.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ODE990311LZ7&nombre_proveedor_razon_social=O%27DONNELL+EXPRESS&nombre_representante_legal=Hector+Horacio+Olivares+Hernandez&email=oscar.silva%40odonnellexpress.com",
+      "previousEventHash": null,
+      "documentHash": "9555892fe838900bf3c5c829ace77956466dffd16b3f2904c82d191d11f84132",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6a6cac77fe5152c9eb1e5cd95b0caabc89e8fbe1c6cef2562896ed772358fd21"
+    },
+    {
+      "eventId": "c233b765-6d90-471b-8b41-5eba9cf00748",
+      "uid": "ODE990311LZ7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T20:11:26.218Z",
+      "timestampLocal": "2026-01-29T20:11:26.218Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.233.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ODE990311LZ7&nombre_proveedor_razon_social=O%27DONNELL+EXPRESS&nombre_representante_legal=Hector+Horacio+Olivares+Hernandez&email=oscar.silva%40odonnellexpress.com",
+      "previousEventHash": "6a6cac77fe5152c9eb1e5cd95b0caabc89e8fbe1c6cef2562896ed772358fd21",
+      "documentHash": "9555892fe838900bf3c5c829ace77956466dffd16b3f2904c82d191d11f84132",
+      "metadata": {
+        "proveedor": "O'DONNELL EXPRESS",
+        "representante": "Hector Horacio Olivares Hernandez"
+      },
+      "eventHash": "77a33f71bf5d338ac7757eb9249fa748d725c0210e73dfa9bdaab761cb761ec4"
+    },
+    {
+      "eventId": "ad741e72-c671-4fff-a1f7-9c87bf2d10c4",
+      "uid": "ODE990311LZ7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T20:11:27.043Z",
+      "timestampLocal": "2026-01-29T20:11:27.043Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.233.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ODE990311LZ7&nombre_proveedor_razon_social=O%27DONNELL+EXPRESS&nombre_representante_legal=Hector+Horacio+Olivares+Hernandez&email=oscar.silva%40odonnellexpress.com",
+      "previousEventHash": "77a33f71bf5d338ac7757eb9249fa748d725c0210e73dfa9bdaab761cb761ec4",
+      "documentHash": "9555892fe838900bf3c5c829ace77956466dffd16b3f2904c82d191d11f84132",
+      "eventHash": "39c3d838735b70bde9760dc5c9692eebedd887e1540d40061b5dad4c226870d7"
+    },
+    {
+      "eventId": "ca5104f7-539d-496f-a6c6-652215034d48",
+      "uid": "ODE990311LZ7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T20:12:08.685Z",
+      "timestampLocal": "2026-01-29T14:12:08.685Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.137.233.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b41f8fea-562b-4a5e-b0cc-f010bc8f106e",
+      "previousEventHash": "39c3d838735b70bde9760dc5c9692eebedd887e1540d40061b5dad4c226870d7",
+      "documentHash": "034f3112bc9b125dbcc399a53dba4eef4a9e18bc6feea9ac0e78c27ca66b0efb",
+      "signatureHash": "8db86c47026689d7c1b378a0ddbc8c403cfd4d323a2620bd3a2537bbffe5bf21",
+      "metadata": {
+        "personaAutorizada": "oscar silva",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-29T14:12:05.401Z"
+      },
+      "eventHash": "9d1e157aa0999a28ed270f0419094a48e616264ecc060943f296f23a9d858b13"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-29T20:12:08.686Z"
+  }
 }
