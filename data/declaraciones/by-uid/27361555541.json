@@ -1,19 +1,507 @@
 {
   "uid": "27361555541",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GONZALEZ PISTINER MAITE",
     "nombre_representante_legal": "GONZALEZ PISTINER MAITE",
     "email": "maipistiner@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "GONZALEZ PISTINER MAITE",
-    "nombre_representante_legal": "GONZALEZ PISTINER MAITE",
-    "email": "maipistiner@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-29T10:38:44.491Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/27361555541",
+  "signatureMetadata": {
+    "ip": "181.29.100.34",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+    "signedAtUtc": "2026-01-29T13:38:47.959Z",
+    "signedAtLocal": "2026-01-29T10:38:47.959Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "07aba070b12a1414bec8ffe37fe0a9e0c22cff7c8d9e7129c53448c571f67fb4"
+  "documentHash": "33ddc65dca18ca6524e28fda8ec382be5ad8e492dedf49ac327f96bd88b55f32",
+  "auditTrail": [
+    {
+      "eventId": "1488b3ee-084c-43b9-afc4-49e704f400f1",
+      "uid": "27361555541",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T13:38:09.087Z",
+      "timestampLocal": "2026-01-29T13:38:09.087Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "161b0dd3648944238a816ee61014676fe75892feaa64833a5f94fe1569555200",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2990416f966c4e6afd6898ae08beda40f06fcd532c402d30747538d06e283c7b"
+    },
+    {
+      "eventId": "588eb567-8941-4390-b7cf-2d5ba4e945e7",
+      "uid": "27361555541",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T13:38:09.087Z",
+      "timestampLocal": "2026-01-29T13:38:09.087Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "2990416f966c4e6afd6898ae08beda40f06fcd532c402d30747538d06e283c7b",
+      "documentHash": "161b0dd3648944238a816ee61014676fe75892feaa64833a5f94fe1569555200",
+      "metadata": {
+        "proveedor": "GONZALEZ PISTINER MAITE",
+        "representante": "GONZALEZ PISTINER MAITE"
+      },
+      "eventHash": "4185787f3e6e6ae9ca0147a3cab27be60585827f667c5555f99101d927b572e7"
+    },
+    {
+      "eventId": "97e15f2a-cdf3-497f-b929-63624f434545",
+      "uid": "27361555541",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T13:38:11.754Z",
+      "timestampLocal": "2026-01-29T13:38:11.754Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "4185787f3e6e6ae9ca0147a3cab27be60585827f667c5555f99101d927b572e7",
+      "documentHash": "e8ac569e040cd0cf9dd34c6fac80236aaffa46d9b8ee8d30fb06b30658a0d346",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "12c99621a9419f26a97179d943197c40156052daa5a9628c23dc5a3a2a414e3a"
+    },
+    {
+      "eventId": "293e7030-019a-47b1-879d-982b3a2b6c6f",
+      "uid": "27361555541",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T13:38:11.755Z",
+      "timestampLocal": "2026-01-29T13:38:11.755Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "12c99621a9419f26a97179d943197c40156052daa5a9628c23dc5a3a2a414e3a",
+      "documentHash": "e8ac569e040cd0cf9dd34c6fac80236aaffa46d9b8ee8d30fb06b30658a0d346",
+      "metadata": {
+        "proveedor": "GONZALEZ PISTINER MAITE",
+        "representante": "GONZALEZ PISTINER MAITE"
+      },
+      "eventHash": "4b4c1bdec205cd4d715d11e6cf59ed10ead1926e1706c0764b50ab42acd3d195"
+    },
+    {
+      "eventId": "1c18a57e-4a05-4d4c-828a-ae21c0e77019",
+      "uid": "27361555541",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T13:38:13.889Z",
+      "timestampLocal": "2026-01-29T13:38:13.889Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "4b4c1bdec205cd4d715d11e6cf59ed10ead1926e1706c0764b50ab42acd3d195",
+      "documentHash": "f4ac606d25c0f2d9da182fda5da239ba5f402804afc17288631dc7e319de6bff",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a541330bf6683cefb298e3f42066b01ddaa077314b77975447ca1c48e6073ef6"
+    },
+    {
+      "eventId": "34b97143-5f96-4b16-9e72-565153266193",
+      "uid": "27361555541",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T13:38:13.889Z",
+      "timestampLocal": "2026-01-29T13:38:13.889Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "a541330bf6683cefb298e3f42066b01ddaa077314b77975447ca1c48e6073ef6",
+      "documentHash": "f4ac606d25c0f2d9da182fda5da239ba5f402804afc17288631dc7e319de6bff",
+      "metadata": {
+        "proveedor": "GONZALEZ PISTINER MAITE",
+        "representante": "GONZALEZ PISTINER MAITE"
+      },
+      "eventHash": "174a9afec2f11b73e14199c183f558219058fa4b9a3d63bc2c973249db8cbe6f"
+    },
+    {
+      "eventId": "b1a828b8-d73f-4a77-a118-51fb58966169",
+      "uid": "27361555541",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T13:38:14.367Z",
+      "timestampLocal": "2026-01-29T13:38:14.367Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "174a9afec2f11b73e14199c183f558219058fa4b9a3d63bc2c973249db8cbe6f",
+      "documentHash": "a8be515086e1201dcc1d067b28d7b6a66fc00ab5bee27fb57f481e32ad65de40",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5afcd46e6262dcf6a50f5b609d8c1c8efed2cc066e9c93b17cb3fcc7c9542883"
+    },
+    {
+      "eventId": "5c1562eb-a6df-40e1-97d4-656e78e63f0e",
+      "uid": "27361555541",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T13:38:14.367Z",
+      "timestampLocal": "2026-01-29T13:38:14.367Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "5afcd46e6262dcf6a50f5b609d8c1c8efed2cc066e9c93b17cb3fcc7c9542883",
+      "documentHash": "a8be515086e1201dcc1d067b28d7b6a66fc00ab5bee27fb57f481e32ad65de40",
+      "metadata": {
+        "proveedor": "GONZALEZ PISTINER MAITE",
+        "representante": "GONZALEZ PISTINER MAITE"
+      },
+      "eventHash": "6246f79236b682db48e895d2af9a0ceb810f6d5d626e1e3ded3514ebbfe23389"
+    },
+    {
+      "eventId": "e9ff1b59-430a-4cbe-aa5e-32601ae8bfa7",
+      "uid": "27361555541",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T13:38:14.533Z",
+      "timestampLocal": "2026-01-29T13:38:14.533Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "6246f79236b682db48e895d2af9a0ceb810f6d5d626e1e3ded3514ebbfe23389",
+      "documentHash": "a8be515086e1201dcc1d067b28d7b6a66fc00ab5bee27fb57f481e32ad65de40",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ce589b9597366d7a0d89f485c8a00ef8303d8c2f4380c2e50cfa346d28d51810"
+    },
+    {
+      "eventId": "59d8b8b3-6758-469f-b1e6-5d82296f4973",
+      "uid": "27361555541",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T13:38:14.533Z",
+      "timestampLocal": "2026-01-29T13:38:14.533Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "ce589b9597366d7a0d89f485c8a00ef8303d8c2f4380c2e50cfa346d28d51810",
+      "documentHash": "a8be515086e1201dcc1d067b28d7b6a66fc00ab5bee27fb57f481e32ad65de40",
+      "metadata": {
+        "proveedor": "GONZALEZ PISTINER MAITE",
+        "representante": "GONZALEZ PISTINER MAITE"
+      },
+      "eventHash": "746965fcdc184f26cd128ecd9f923123c8ddc7c2619b08aaa63f3eec1e9511fb"
+    },
+    {
+      "eventId": "46d81722-bf61-470d-93e0-a41a725867fe",
+      "uid": "27361555541",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T13:38:14.712Z",
+      "timestampLocal": "2026-01-29T13:38:14.712Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "746965fcdc184f26cd128ecd9f923123c8ddc7c2619b08aaa63f3eec1e9511fb",
+      "documentHash": "a8be515086e1201dcc1d067b28d7b6a66fc00ab5bee27fb57f481e32ad65de40",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "38e27f2c989d2fd334777c0356cefe8a23a456544db09958b4fbb056a3c09c17"
+    },
+    {
+      "eventId": "b1c1fe95-d860-4852-8ef1-731b0c5addec",
+      "uid": "27361555541",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T13:38:14.712Z",
+      "timestampLocal": "2026-01-29T13:38:14.712Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "38e27f2c989d2fd334777c0356cefe8a23a456544db09958b4fbb056a3c09c17",
+      "documentHash": "a8be515086e1201dcc1d067b28d7b6a66fc00ab5bee27fb57f481e32ad65de40",
+      "metadata": {
+        "proveedor": "GONZALEZ PISTINER MAITE",
+        "representante": "GONZALEZ PISTINER MAITE"
+      },
+      "eventHash": "61e5cfc0bc88a62767bd94ff818dae9fcf58a2672d1d22beefaf2298ceac633c"
+    },
+    {
+      "eventId": "2a06497e-36f3-4c68-acd8-73624951037d",
+      "uid": "27361555541",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T13:38:17.574Z",
+      "timestampLocal": "2026-01-29T13:38:17.574Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "61e5cfc0bc88a62767bd94ff818dae9fcf58a2672d1d22beefaf2298ceac633c",
+      "documentHash": "4c5483cd966bb3d14dc1ec9bdc6ce24466ea347e557043bba6cd93e9437e06f6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "dab626477966e4997b82c52ddc6e3cae1204521df669f90fb4d0ff90d45a7e38"
+    },
+    {
+      "eventId": "42298e70-119a-4721-a7aa-cb0a8c2207d8",
+      "uid": "27361555541",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T13:38:17.574Z",
+      "timestampLocal": "2026-01-29T13:38:17.574Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "dab626477966e4997b82c52ddc6e3cae1204521df669f90fb4d0ff90d45a7e38",
+      "documentHash": "4c5483cd966bb3d14dc1ec9bdc6ce24466ea347e557043bba6cd93e9437e06f6",
+      "metadata": {
+        "proveedor": "GONZALEZ PISTINER MAITE",
+        "representante": "GONZALEZ PISTINER MAITE"
+      },
+      "eventHash": "d89c85391261545590cc338aaf47a56cfd01fea0a6cbdbda9ca4b5028d5b8545"
+    },
+    {
+      "eventId": "70b25cbb-0269-491a-bca4-8be0e4279150",
+      "uid": "27361555541",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T13:38:17.746Z",
+      "timestampLocal": "2026-01-29T13:38:17.746Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "d89c85391261545590cc338aaf47a56cfd01fea0a6cbdbda9ca4b5028d5b8545",
+      "documentHash": "4c5483cd966bb3d14dc1ec9bdc6ce24466ea347e557043bba6cd93e9437e06f6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "68619ea0739e13b896e9864fcd273b23f1dd374886fb3fa89cd28cdcc700a31c"
+    },
+    {
+      "eventId": "602c8488-ec9c-434a-87e7-9035239665cb",
+      "uid": "27361555541",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T13:38:17.746Z",
+      "timestampLocal": "2026-01-29T13:38:17.746Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "68619ea0739e13b896e9864fcd273b23f1dd374886fb3fa89cd28cdcc700a31c",
+      "documentHash": "4c5483cd966bb3d14dc1ec9bdc6ce24466ea347e557043bba6cd93e9437e06f6",
+      "metadata": {
+        "proveedor": "GONZALEZ PISTINER MAITE",
+        "representante": "GONZALEZ PISTINER MAITE"
+      },
+      "eventHash": "1d67980e0441af48abed5f8816a050a8713a1ffc48d45ea9ca9e5d92add7fb2e"
+    },
+    {
+      "eventId": "80893308-355e-474e-9a63-0273b135b54c",
+      "uid": "27361555541",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T13:38:18.024Z",
+      "timestampLocal": "2026-01-29T13:38:18.024Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "1d67980e0441af48abed5f8816a050a8713a1ffc48d45ea9ca9e5d92add7fb2e",
+      "documentHash": "07aba070b12a1414bec8ffe37fe0a9e0c22cff7c8d9e7129c53448c571f67fb4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "65b9b4fb2db8c4e11de6bbc9124ec922a205c8df5e6d85a210b5c1b3b7559271"
+    },
+    {
+      "eventId": "6cfe0735-aec5-4229-a71e-186bec0d946e",
+      "uid": "27361555541",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T13:38:18.024Z",
+      "timestampLocal": "2026-01-29T13:38:18.024Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "65b9b4fb2db8c4e11de6bbc9124ec922a205c8df5e6d85a210b5c1b3b7559271",
+      "documentHash": "07aba070b12a1414bec8ffe37fe0a9e0c22cff7c8d9e7129c53448c571f67fb4",
+      "metadata": {
+        "proveedor": "GONZALEZ PISTINER MAITE",
+        "representante": "GONZALEZ PISTINER MAITE"
+      },
+      "eventHash": "2668e26567bd9287d03c2b58ada33b38a67386ea5239c12388910a6caac63e1e"
+    },
+    {
+      "eventId": "77b4db5a-ebb2-4d44-bb4f-ffcbcdfaf694",
+      "uid": "27361555541",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T13:38:18.183Z",
+      "timestampLocal": "2026-01-29T13:38:18.183Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "2668e26567bd9287d03c2b58ada33b38a67386ea5239c12388910a6caac63e1e",
+      "documentHash": "07aba070b12a1414bec8ffe37fe0a9e0c22cff7c8d9e7129c53448c571f67fb4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "45f89cd2000e24c2d4aca9e64d4512691390b11737bb13083242189ecbf34cc5"
+    },
+    {
+      "eventId": "92e00623-8f7f-4d42-a2c3-c727e93d5a41",
+      "uid": "27361555541",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T13:38:18.183Z",
+      "timestampLocal": "2026-01-29T13:38:18.183Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "45f89cd2000e24c2d4aca9e64d4512691390b11737bb13083242189ecbf34cc5",
+      "documentHash": "07aba070b12a1414bec8ffe37fe0a9e0c22cff7c8d9e7129c53448c571f67fb4",
+      "metadata": {
+        "proveedor": "GONZALEZ PISTINER MAITE",
+        "representante": "GONZALEZ PISTINER MAITE"
+      },
+      "eventHash": "8963b9956e317528906ae612f8bb4067e8667a0b365a03b3584f9db0a1fa7e0e"
+    },
+    {
+      "eventId": "b44c62e4-e6d6-4778-9829-d3b51ac0d1e5",
+      "uid": "27361555541",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T13:38:18.313Z",
+      "timestampLocal": "2026-01-29T13:38:18.313Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "8963b9956e317528906ae612f8bb4067e8667a0b365a03b3584f9db0a1fa7e0e",
+      "documentHash": "07aba070b12a1414bec8ffe37fe0a9e0c22cff7c8d9e7129c53448c571f67fb4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "534a79144ee6cae8cb7bb43c5bb95007979f6475d31e13ab774b61df3745550b"
+    },
+    {
+      "eventId": "70ffb1d8-9a4b-4384-9327-ebdce1fe1404",
+      "uid": "27361555541",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T13:38:18.314Z",
+      "timestampLocal": "2026-01-29T13:38:18.314Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "534a79144ee6cae8cb7bb43c5bb95007979f6475d31e13ab774b61df3745550b",
+      "documentHash": "07aba070b12a1414bec8ffe37fe0a9e0c22cff7c8d9e7129c53448c571f67fb4",
+      "metadata": {
+        "proveedor": "GONZALEZ PISTINER MAITE",
+        "representante": "GONZALEZ PISTINER MAITE"
+      },
+      "eventHash": "cedb8b8127720b75782519dce8ce422b15a33d960c4708841e8f5991666996ed"
+    },
+    {
+      "eventId": "da17423f-7875-44d9-ac89-243db81b60ab",
+      "uid": "27361555541",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T13:38:18.453Z",
+      "timestampLocal": "2026-01-29T13:38:18.453Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "cedb8b8127720b75782519dce8ce422b15a33d960c4708841e8f5991666996ed",
+      "documentHash": "07aba070b12a1414bec8ffe37fe0a9e0c22cff7c8d9e7129c53448c571f67fb4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "bb702c5e7cb0be82478832aae9c0322ac7729f8248081b1f0071e245de3db124"
+    },
+    {
+      "eventId": "5ffd4ec0-0376-4717-8e95-ec4806585f5d",
+      "uid": "27361555541",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T13:38:18.453Z",
+      "timestampLocal": "2026-01-29T13:38:18.453Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27361555541&nombre_proveedor_razon_social=GONZALEZ+PISTINER+MAITE&nombre_representante_legal=GONZALEZ+PISTINER+MAITE&email=maipistiner%40gmail.com",
+      "previousEventHash": "bb702c5e7cb0be82478832aae9c0322ac7729f8248081b1f0071e245de3db124",
+      "documentHash": "07aba070b12a1414bec8ffe37fe0a9e0c22cff7c8d9e7129c53448c571f67fb4",
+      "metadata": {
+        "proveedor": "GONZALEZ PISTINER MAITE",
+        "representante": "GONZALEZ PISTINER MAITE"
+      },
+      "eventHash": "13562716a1392db0faf9e65ac6ff16d1b1e45692c2e3a0f494f8384a2d0e98b1"
+    },
+    {
+      "eventId": "7e47c51a-1763-480e-9a11-d5d1c0ef1409",
+      "uid": "27361555541",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T13:38:30.479Z",
+      "timestampLocal": "2026-01-29T13:38:30.479Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "13562716a1392db0faf9e65ac6ff16d1b1e45692c2e3a0f494f8384a2d0e98b1",
+      "documentHash": "07aba070b12a1414bec8ffe37fe0a9e0c22cff7c8d9e7129c53448c571f67fb4",
+      "eventHash": "1012213e469b3641a8453ee54ae7358b0d88859209b7c0a5b9d00554e3db8f3a"
+    },
+    {
+      "eventId": "31578d0c-da55-40e9-9eed-3cb6f2bd0a3c",
+      "uid": "27361555541",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T13:38:47.960Z",
+      "timestampLocal": "2026-01-29T10:38:47.960Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.29.100.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/004d0d69-7018-4a89-8bcc-6dd02f007542",
+      "previousEventHash": "1012213e469b3641a8453ee54ae7358b0d88859209b7c0a5b9d00554e3db8f3a",
+      "documentHash": "33ddc65dca18ca6524e28fda8ec382be5ad8e492dedf49ac327f96bd88b55f32",
+      "signatureHash": "42d8e8e758e102af5ce16abbfccaeccff49f79826470b8b792ad7df2fe9afdf0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-29T10:38:44.491Z"
+      },
+      "eventHash": "b9817237fc705ab030b9ba464af423cacdf905a0806b271cd0d15b58008f31f2"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 26,
+    "verifiedAt": "2026-01-29T13:38:47.961Z"
+  }
 }
