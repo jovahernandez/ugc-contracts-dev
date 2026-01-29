@@ -1,19 +1,100 @@
 {
   "uid": "CENA930416FU4",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ANDREIDA CEBRIAN DE NEGRI",
     "nombre_representante_legal": "ANDREIDA CEBRIAN DE NEGRI",
     "email": "andreidadnpr@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ANDREIDA CEBRIAN DE NEGRI",
-    "nombre_representante_legal": "ANDREIDA CEBRIAN DE NEGRI",
-    "email": "andreidadnpr@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-29T15:53:31.809Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CENA930416FU4",
+  "signatureMetadata": {
+    "ip": "189.233.158.61",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-29T21:53:35.109Z",
+    "signedAtLocal": "2026-01-29T15:53:35.109Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1427590546b1f0286b4279187d553d11d028392c7994398c22c15d0e4fedba51"
+  "documentHash": "017a614880950975b214360abcb7e38bb768a3716534f1d7eb6cb68f314de856",
+  "auditTrail": [
+    {
+      "eventId": "c407325c-527f-44d3-b4c8-1b3046eefafb",
+      "uid": "CENA930416FU4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T21:52:55.366Z",
+      "timestampLocal": "2026-01-29T21:52:55.366Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.233.158.61",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CENA930416FU4&nombre_proveedor_razon_social=ANDREIDA+CEBRIAN+DE+NEGRI&nombre_representante_legal=ANDREIDA+CEBRIAN+DE+NEGRI&email=andreidadnpr%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "1427590546b1f0286b4279187d553d11d028392c7994398c22c15d0e4fedba51",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "fe168d6c4cdf7cb51a8865383efbe970f7cb8ed8a952045e3b1acbd734ba9a92"
+    },
+    {
+      "eventId": "011e1071-66d3-4199-87bf-da03bd330fea",
+      "uid": "CENA930416FU4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T21:52:55.366Z",
+      "timestampLocal": "2026-01-29T21:52:55.366Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.233.158.61",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CENA930416FU4&nombre_proveedor_razon_social=ANDREIDA+CEBRIAN+DE+NEGRI&nombre_representante_legal=ANDREIDA+CEBRIAN+DE+NEGRI&email=andreidadnpr%40gmail.com",
+      "previousEventHash": "fe168d6c4cdf7cb51a8865383efbe970f7cb8ed8a952045e3b1acbd734ba9a92",
+      "documentHash": "1427590546b1f0286b4279187d553d11d028392c7994398c22c15d0e4fedba51",
+      "metadata": {
+        "proveedor": "ANDREIDA CEBRIAN DE NEGRI",
+        "representante": "ANDREIDA CEBRIAN DE NEGRI"
+      },
+      "eventHash": "83d37be9c4cf9d801fa41fbeebc771854258cf43d3204a512acec2390a581b8d"
+    },
+    {
+      "eventId": "6d31b2c3-a61c-49f7-b3d6-674f2e2cac50",
+      "uid": "CENA930416FU4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T21:52:56.199Z",
+      "timestampLocal": "2026-01-29T21:52:56.199Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.233.158.61",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CENA930416FU4&nombre_proveedor_razon_social=ANDREIDA+CEBRIAN+DE+NEGRI&nombre_representante_legal=ANDREIDA+CEBRIAN+DE+NEGRI&email=andreidadnpr%40gmail.com",
+      "previousEventHash": "83d37be9c4cf9d801fa41fbeebc771854258cf43d3204a512acec2390a581b8d",
+      "documentHash": "1427590546b1f0286b4279187d553d11d028392c7994398c22c15d0e4fedba51",
+      "eventHash": "1aab5ae0fdf75408bd3c2c853803ef0e71c78b774495b18d7fe39e97152b117e"
+    },
+    {
+      "eventId": "e3243245-d6c7-4ee5-b2d8-65c1df8cdd11",
+      "uid": "CENA930416FU4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T21:53:35.109Z",
+      "timestampLocal": "2026-01-29T15:53:35.109Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.233.158.61",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ae5d95b4-280d-4b3b-822f-6cbf9f8ddfbf",
+      "previousEventHash": "1aab5ae0fdf75408bd3c2c853803ef0e71c78b774495b18d7fe39e97152b117e",
+      "documentHash": "017a614880950975b214360abcb7e38bb768a3716534f1d7eb6cb68f314de856",
+      "signatureHash": "af8b149b2000509f1c108ef7e2077b0c49a0b91b882e959e9a9ab7cef725f393",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-29T15:53:31.809Z"
+      },
+      "eventHash": "31ca2d1a85af733a3e151043d1e6d73c3ba36b9ae30344bf2005c6db43eb958f"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-29T21:53:35.110Z"
+  }
 }
