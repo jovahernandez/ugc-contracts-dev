@@ -1,19 +1,100 @@
 {
   "uid": "EIPA940228T8A",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Ana Laura Espinosa Picazo",
     "nombre_representante_legal": "Ana Laura Espinosa Picazo",
     "email": "espinosap.ana@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Ana Laura Espinosa Picazo",
-    "nombre_representante_legal": "Ana Laura Espinosa Picazo",
-    "email": "espinosap.ana@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-28T18:04:45.091Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/EIPA940228T8A",
+  "signatureMetadata": {
+    "ip": "187.190.166.244",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-29T00:04:48.456Z",
+    "signedAtLocal": "2026-01-28T18:04:48.456Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d443cee68ec5031b26573f6c1e3d72ce4bbfae3d28df91e2d868124782320988"
+  "documentHash": "8da89e38fc7780b887514f9c1550095fc47ed12bd0e3022bb88d92e9db6306db",
+  "auditTrail": [
+    {
+      "eventId": "d01d8a6d-dfcd-44ab-8cf5-690a00804514",
+      "uid": "EIPA940228T8A",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T00:02:48.742Z",
+      "timestampLocal": "2026-01-29T00:02:48.742Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.166.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIPA940228T8A&nombre_proveedor_razon_social=Ana+Laura+Espinosa+Picazo&nombre_representante_legal=Ana+Laura+Espinosa+Picazo&email=espinosap.ana%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "d443cee68ec5031b26573f6c1e3d72ce4bbfae3d28df91e2d868124782320988",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6647df7b67666567ea38655e6a1f3872425b33ffce9b9c09463254e1eb59348c"
+    },
+    {
+      "eventId": "8a678b56-5095-465b-9073-19f5a85c252e",
+      "uid": "EIPA940228T8A",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T00:02:48.742Z",
+      "timestampLocal": "2026-01-29T00:02:48.742Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.166.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIPA940228T8A&nombre_proveedor_razon_social=Ana+Laura+Espinosa+Picazo&nombre_representante_legal=Ana+Laura+Espinosa+Picazo&email=espinosap.ana%40gmail.com",
+      "previousEventHash": "6647df7b67666567ea38655e6a1f3872425b33ffce9b9c09463254e1eb59348c",
+      "documentHash": "d443cee68ec5031b26573f6c1e3d72ce4bbfae3d28df91e2d868124782320988",
+      "metadata": {
+        "proveedor": "Ana Laura Espinosa Picazo",
+        "representante": "Ana Laura Espinosa Picazo"
+      },
+      "eventHash": "6e3e84c214ef36af1950918e0d5c5245fec26de67260d73eb0334a1fbbab924d"
+    },
+    {
+      "eventId": "cf86fc26-fd97-4c89-9b7b-e3404e84628e",
+      "uid": "EIPA940228T8A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T00:02:49.551Z",
+      "timestampLocal": "2026-01-29T00:02:49.551Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.166.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIPA940228T8A&nombre_proveedor_razon_social=Ana+Laura+Espinosa+Picazo&nombre_representante_legal=Ana+Laura+Espinosa+Picazo&email=espinosap.ana%40gmail.com",
+      "previousEventHash": "6e3e84c214ef36af1950918e0d5c5245fec26de67260d73eb0334a1fbbab924d",
+      "documentHash": "d443cee68ec5031b26573f6c1e3d72ce4bbfae3d28df91e2d868124782320988",
+      "eventHash": "d2a2ca96c49ad614091576dd5a49bbe4ffe342e6d161dfa05bb2d23d0c33e98c"
+    },
+    {
+      "eventId": "1734edbd-d2a6-46b9-9f12-0dac6a2671f1",
+      "uid": "EIPA940228T8A",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T00:04:48.456Z",
+      "timestampLocal": "2026-01-28T18:04:48.456Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.166.244",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/cdaea1dd-9e15-4daa-a63c-17ca0f7f5807",
+      "previousEventHash": "d2a2ca96c49ad614091576dd5a49bbe4ffe342e6d161dfa05bb2d23d0c33e98c",
+      "documentHash": "8da89e38fc7780b887514f9c1550095fc47ed12bd0e3022bb88d92e9db6306db",
+      "signatureHash": "68783f5353a6e5377acd28d9cac92398c64c902b5d83908c56ec01b542364547",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-28T18:04:45.091Z"
+      },
+      "eventHash": "a424803300398e8caac8d9932827a3d9e2789106083f5d8f2cbb7b9795c53a99"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-29T00:04:48.457Z"
+  }
 }
