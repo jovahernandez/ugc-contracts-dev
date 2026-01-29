@@ -1,19 +1,100 @@
 {
   "uid": "CFA111027LY4",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CLICK FACTURA SA DE CV",
     "nombre_representante_legal": "Alejandro Ayub Garza Castillón",
     "email": "liliana.bello@clickfactura.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CLICK FACTURA SA DE CV",
-    "nombre_representante_legal": "Alejandro Ayub Garza Castillón",
-    "email": "liliana.bello@clickfactura.mx"
+  "personaAutorizada": "Liliana Bello López",
+  "signedAt": "2026-01-29T14:31:46.477Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CFA111027LY4",
+  "signatureMetadata": {
+    "ip": "177.240.114.84",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-29T20:31:49.772Z",
+    "signedAtLocal": "2026-01-29T14:31:49.772Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "173a20a995270bdee830ce7d98992df4c2d2fa0141527149dd5f992a63a2be2e"
+  "documentHash": "a06d317d8075d4bef4ff5ed214d6a4e5c41aafc4c0ca0a2674d2c3b119539c31",
+  "auditTrail": [
+    {
+      "eventId": "b40ad6ea-dcff-4cb7-a400-d117fe3f7100",
+      "uid": "CFA111027LY4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T20:30:32.416Z",
+      "timestampLocal": "2026-01-29T20:30:32.416Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.240.114.84",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CFA111027LY4&nombre_proveedor_razon_social=CLICK+FACTURA+SA+DE+CV&nombre_representante_legal=Alejandro+Ayub+Garza+Castill%C3%B3n&email=liliana.bello%40clickfactura.mx",
+      "previousEventHash": null,
+      "documentHash": "173a20a995270bdee830ce7d98992df4c2d2fa0141527149dd5f992a63a2be2e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d50d721b48d1555de76d44b6c2a6b8365b5955bc4030b9a3e892f8c6eb5ae7d6"
+    },
+    {
+      "eventId": "96f0eec5-c674-4674-af81-e19f18f0c917",
+      "uid": "CFA111027LY4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T20:30:32.416Z",
+      "timestampLocal": "2026-01-29T20:30:32.416Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.240.114.84",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CFA111027LY4&nombre_proveedor_razon_social=CLICK+FACTURA+SA+DE+CV&nombre_representante_legal=Alejandro+Ayub+Garza+Castill%C3%B3n&email=liliana.bello%40clickfactura.mx",
+      "previousEventHash": "d50d721b48d1555de76d44b6c2a6b8365b5955bc4030b9a3e892f8c6eb5ae7d6",
+      "documentHash": "173a20a995270bdee830ce7d98992df4c2d2fa0141527149dd5f992a63a2be2e",
+      "metadata": {
+        "proveedor": "CLICK FACTURA SA DE CV",
+        "representante": "Alejandro Ayub Garza Castillón"
+      },
+      "eventHash": "a583abe88afe4bc42e86b0334f9ba127f9955ae309bf1c0848581fe1991a1643"
+    },
+    {
+      "eventId": "6ab74146-b9c0-4902-9540-509a976595d8",
+      "uid": "CFA111027LY4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T20:30:34.007Z",
+      "timestampLocal": "2026-01-29T20:30:34.007Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.240.114.84",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CFA111027LY4&nombre_proveedor_razon_social=CLICK+FACTURA+SA+DE+CV&nombre_representante_legal=Alejandro+Ayub+Garza+Castill%C3%B3n&email=liliana.bello%40clickfactura.mx",
+      "previousEventHash": "a583abe88afe4bc42e86b0334f9ba127f9955ae309bf1c0848581fe1991a1643",
+      "documentHash": "173a20a995270bdee830ce7d98992df4c2d2fa0141527149dd5f992a63a2be2e",
+      "eventHash": "2c0b48666a88c09dae6a4a96b4a6609d5da23ec50a77c3a00103dcfd240d37ed"
+    },
+    {
+      "eventId": "40f15b3d-bda2-4652-9c50-cc2f63c81cad",
+      "uid": "CFA111027LY4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T20:31:49.772Z",
+      "timestampLocal": "2026-01-29T14:31:49.772Z",
+      "timezone": "UTC-6",
+      "ipAddress": "177.240.114.84",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/6703b609-fd41-4f3f-bdb9-b1fbdcaa0769",
+      "previousEventHash": "2c0b48666a88c09dae6a4a96b4a6609d5da23ec50a77c3a00103dcfd240d37ed",
+      "documentHash": "a06d317d8075d4bef4ff5ed214d6a4e5c41aafc4c0ca0a2674d2c3b119539c31",
+      "signatureHash": "9c24ee77b74095e076bea054616a9c13faee9a1c7c6ab17eceec02928773c043",
+      "metadata": {
+        "personaAutorizada": "Liliana Bello López",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-29T14:31:46.477Z"
+      },
+      "eventHash": "4eeae768efcf571cd86f1a6eebd530ad568d51f693a7781d6d75fc550e0fef4d"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-29T20:31:49.773Z"
+  }
 }
