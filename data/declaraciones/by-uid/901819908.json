@@ -1,19 +1,100 @@
 {
   "uid": "901819908",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SOUL CREATORS SAS",
     "nombre_representante_legal": "BRAYAN RODOLFO MANTILLA",
     "email": "asistente.soulcreators@factcil.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SOUL CREATORS SAS",
-    "nombre_representante_legal": "BRAYAN RODOLFO MANTILLA",
-    "email": "asistente.soulcreators@factcil.com"
+  "personaAutorizada": "Brayan Mantilla",
+  "signedAt": "2026-01-29T11:38:20.392Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/901819908",
+  "signatureMetadata": {
+    "ip": "186.84.20.148",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-29T16:38:23.833Z",
+    "signedAtLocal": "2026-01-29T11:38:23.833Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "16b0d3b34689f62e0ce562ef0c01818f75f5ef82f806ec39f5796330cd5229f0"
+  "documentHash": "704525bf7680ebeea6ab5ec17e6c84b595b4a4df28470af01653b3a7f3f096d5",
+  "auditTrail": [
+    {
+      "eventId": "8a65f2a1-acb9-4a6b-a1ef-b116bc106370",
+      "uid": "901819908",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-29T16:36:34.021Z",
+      "timestampLocal": "2026-01-29T16:36:34.021Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.84.20.148",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901819908&nombre_proveedor_razon_social=SOUL+CREATORS+SAS&nombre_representante_legal=BRAYAN+RODOLFO+MANTILLA&email=asistente.soulcreators%40factcil.com",
+      "previousEventHash": null,
+      "documentHash": "16b0d3b34689f62e0ce562ef0c01818f75f5ef82f806ec39f5796330cd5229f0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d7131edf857a398f28fe7045e2dc53977f94759e1fa1aee650bf2ab84e28f72c"
+    },
+    {
+      "eventId": "2711a96c-4c72-407f-b879-6591d5650395",
+      "uid": "901819908",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-29T16:36:34.021Z",
+      "timestampLocal": "2026-01-29T16:36:34.021Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.84.20.148",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901819908&nombre_proveedor_razon_social=SOUL+CREATORS+SAS&nombre_representante_legal=BRAYAN+RODOLFO+MANTILLA&email=asistente.soulcreators%40factcil.com",
+      "previousEventHash": "d7131edf857a398f28fe7045e2dc53977f94759e1fa1aee650bf2ab84e28f72c",
+      "documentHash": "16b0d3b34689f62e0ce562ef0c01818f75f5ef82f806ec39f5796330cd5229f0",
+      "metadata": {
+        "proveedor": "SOUL CREATORS SAS",
+        "representante": "BRAYAN RODOLFO MANTILLA"
+      },
+      "eventHash": "5827ff9dbb3ee7b97c104202c45722882dc86d3091bc7114aaf358643506e266"
+    },
+    {
+      "eventId": "37ac1e14-709e-458f-b0f9-4f914c07de93",
+      "uid": "901819908",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-29T16:36:34.984Z",
+      "timestampLocal": "2026-01-29T16:36:34.984Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.84.20.148",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901819908&nombre_proveedor_razon_social=SOUL+CREATORS+SAS&nombre_representante_legal=BRAYAN+RODOLFO+MANTILLA&email=asistente.soulcreators%40factcil.com",
+      "previousEventHash": "5827ff9dbb3ee7b97c104202c45722882dc86d3091bc7114aaf358643506e266",
+      "documentHash": "16b0d3b34689f62e0ce562ef0c01818f75f5ef82f806ec39f5796330cd5229f0",
+      "eventHash": "4592f54feb84a169e0d223f4bd2b2b0e56da8785c49aa42ea9185bc6bfc22cc8"
+    },
+    {
+      "eventId": "242b22b1-29dd-4efa-a660-6c51033c089f",
+      "uid": "901819908",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-29T16:38:23.833Z",
+      "timestampLocal": "2026-01-29T11:38:23.833Z",
+      "timezone": "UTC-5",
+      "ipAddress": "186.84.20.148",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b465074d-c35f-4099-bc24-6cce9a1e843d",
+      "previousEventHash": "4592f54feb84a169e0d223f4bd2b2b0e56da8785c49aa42ea9185bc6bfc22cc8",
+      "documentHash": "704525bf7680ebeea6ab5ec17e6c84b595b4a4df28470af01653b3a7f3f096d5",
+      "signatureHash": "924d1113118a460059742353a870c8031048645022da940282600111ee3d6252",
+      "metadata": {
+        "personaAutorizada": "Brayan Mantilla",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-29T11:38:20.392Z"
+      },
+      "eventHash": "d5dc77a809cae8883ca0b4462f3291e3b35542d854f420b11735649d43afefc4"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-29T16:38:23.834Z"
+  }
 }
