@@ -1,19 +1,100 @@
 {
   "uid": "EMA230321HR5",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EVOLUTION MANAGEMENT AGENCY SA DE CV",
     "nombre_representante_legal": "Rosa María Belmont",
     "email": "cuentasporcobrar@em.agency"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "EVOLUTION MANAGEMENT AGENCY SA DE CV",
-    "nombre_representante_legal": "Rosa María Belmont",
-    "email": "cuentasporcobrar@em.agency"
+  "personaAutorizada": "ROSA MARÍA HERNANDEZ BELMONT",
+  "signedAt": "2026-01-30T16:19:18.943Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/EMA230321HR5",
+  "signatureMetadata": {
+    "ip": "189.242.163.53",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-30T22:19:22.251Z",
+    "signedAtLocal": "2026-01-30T16:19:22.251Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c44bbc04800a49942cf6324d7b787a33bff0bbd7f0d93051415edf908099aed6"
+  "documentHash": "a977b11d44504c0726a977615fa99bed7f08d3ae07bfb148713de88ad24607c9",
+  "auditTrail": [
+    {
+      "eventId": "5ffa2e20-770b-4565-977d-62d0dccf62a9",
+      "uid": "EMA230321HR5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-30T21:51:13.049Z",
+      "timestampLocal": "2026-01-30T21:51:13.049Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.242.163.53",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EMA230321HR5&nombre_proveedor_razon_social=EVOLUTION+MANAGEMENT+AGENCY+SA+DE+CV&nombre_representante_legal=Rosa+Mar%C3%ADa+Belmont&email=cuentasporcobrar%40em.agency",
+      "previousEventHash": null,
+      "documentHash": "c44bbc04800a49942cf6324d7b787a33bff0bbd7f0d93051415edf908099aed6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8f53d0e5ac799ca5617b900078902b531c5245b3925b706280ba1d1f7d4549af"
+    },
+    {
+      "eventId": "0dbf1448-8e2b-415a-8c30-1bb51e764e7f",
+      "uid": "EMA230321HR5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-30T21:51:13.050Z",
+      "timestampLocal": "2026-01-30T21:51:13.050Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.242.163.53",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EMA230321HR5&nombre_proveedor_razon_social=EVOLUTION+MANAGEMENT+AGENCY+SA+DE+CV&nombre_representante_legal=Rosa+Mar%C3%ADa+Belmont&email=cuentasporcobrar%40em.agency",
+      "previousEventHash": "8f53d0e5ac799ca5617b900078902b531c5245b3925b706280ba1d1f7d4549af",
+      "documentHash": "c44bbc04800a49942cf6324d7b787a33bff0bbd7f0d93051415edf908099aed6",
+      "metadata": {
+        "proveedor": "EVOLUTION MANAGEMENT AGENCY SA DE CV",
+        "representante": "Rosa María Belmont"
+      },
+      "eventHash": "9b3dabd1863d4da4eeaa1de3ccaf920f0354469358fd007e75b27cf64bd87f54"
+    },
+    {
+      "eventId": "ce7a4888-8bc1-46bc-ad81-782ca19917c1",
+      "uid": "EMA230321HR5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-30T21:51:14.066Z",
+      "timestampLocal": "2026-01-30T21:51:14.066Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.242.163.53",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EMA230321HR5&nombre_proveedor_razon_social=EVOLUTION+MANAGEMENT+AGENCY+SA+DE+CV&nombre_representante_legal=Rosa+Mar%C3%ADa+Belmont&email=cuentasporcobrar%40em.agency",
+      "previousEventHash": "9b3dabd1863d4da4eeaa1de3ccaf920f0354469358fd007e75b27cf64bd87f54",
+      "documentHash": "c44bbc04800a49942cf6324d7b787a33bff0bbd7f0d93051415edf908099aed6",
+      "eventHash": "ac5f86cf4ec34f1a64a945469bbb888ffdabc7ba06bd1ea2f6b6f3b77716cc4d"
+    },
+    {
+      "eventId": "b9c57684-9e24-423d-9d8f-4657d480335e",
+      "uid": "EMA230321HR5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-30T22:19:22.251Z",
+      "timestampLocal": "2026-01-30T16:19:22.251Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.242.163.53",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8af16bb1-5578-4728-b43a-51ab75fa7a8a",
+      "previousEventHash": "ac5f86cf4ec34f1a64a945469bbb888ffdabc7ba06bd1ea2f6b6f3b77716cc4d",
+      "documentHash": "a977b11d44504c0726a977615fa99bed7f08d3ae07bfb148713de88ad24607c9",
+      "signatureHash": "3cbc9f39d203bf171480fd761c8f541afb4df631a55ebe998b5d251a148df022",
+      "metadata": {
+        "personaAutorizada": "ROSA MARÍA HERNANDEZ BELMONT",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-30T16:19:18.943Z"
+      },
+      "eventHash": "fb06ddc39d4584c8f99d071236374c511aad1e83466e852e8adf021ee1c53787"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-30T22:19:22.252Z"
+  }
 }
