@@ -1,19 +1,100 @@
 {
   "uid": "MEFG891208PJA",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GABRIELA MEZA FIGUEROA",
     "nombre_representante_legal": "GABRIELA MEZA FIGUEROA",
     "email": "gaby@fueradefoco.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "GABRIELA MEZA FIGUEROA",
-    "nombre_representante_legal": "GABRIELA MEZA FIGUEROA",
-    "email": "gaby@fueradefoco.com.mx"
+  "personaAutorizada": "GABRIELA MEZA FIGUEROA",
+  "signedAt": "2026-01-30T10:56:25.916Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MEFG891208PJA",
+  "signatureMetadata": {
+    "ip": "187.191.36.96",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15",
+    "signedAtUtc": "2026-01-30T16:56:29.395Z",
+    "signedAtLocal": "2026-01-30T10:56:29.395Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d09c3ed726d42c49c03304d5c994f3dbb9e804de310a7cd58d24400bcb7ce7d9"
+  "documentHash": "abcfa705d22131875251c89df9c49001f1282f2a4d9a799ffeed535741de216a",
+  "auditTrail": [
+    {
+      "eventId": "113bd482-f6ba-4d6c-9bb0-47edb5863834",
+      "uid": "MEFG891208PJA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-30T16:56:05.307Z",
+      "timestampLocal": "2026-01-30T16:56:05.307Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.36.96",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "d09c3ed726d42c49c03304d5c994f3dbb9e804de310a7cd58d24400bcb7ce7d9",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a838e96d6a8a01e2e04a02fa422d404f0b02ab3f94ee10e6dcab470510e24588"
+    },
+    {
+      "eventId": "b5033821-9d8c-4545-bb8d-9f9966582fba",
+      "uid": "MEFG891208PJA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-30T16:56:05.307Z",
+      "timestampLocal": "2026-01-30T16:56:05.307Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.36.96",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a838e96d6a8a01e2e04a02fa422d404f0b02ab3f94ee10e6dcab470510e24588",
+      "documentHash": "d09c3ed726d42c49c03304d5c994f3dbb9e804de310a7cd58d24400bcb7ce7d9",
+      "metadata": {
+        "proveedor": "GABRIELA MEZA FIGUEROA",
+        "representante": "GABRIELA MEZA FIGUEROA"
+      },
+      "eventHash": "330b0bb64bdf39f125d7e0c4ad17da86688b5fc185ef987c30d2efc2e81d6531"
+    },
+    {
+      "eventId": "444d425f-4e33-4cf3-a48b-c213d4da37fc",
+      "uid": "MEFG891208PJA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-30T16:56:07.434Z",
+      "timestampLocal": "2026-01-30T16:56:07.434Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.36.96",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "330b0bb64bdf39f125d7e0c4ad17da86688b5fc185ef987c30d2efc2e81d6531",
+      "documentHash": "d09c3ed726d42c49c03304d5c994f3dbb9e804de310a7cd58d24400bcb7ce7d9",
+      "eventHash": "acf0559c381358f79438771ff3b32e44950a6d4e43881a5ab9f858b0f3493775"
+    },
+    {
+      "eventId": "11a1a0a4-eeea-4a5b-a8b2-407c85ff7e86",
+      "uid": "MEFG891208PJA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-30T16:56:29.395Z",
+      "timestampLocal": "2026-01-30T10:56:29.395Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.191.36.96",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "acf0559c381358f79438771ff3b32e44950a6d4e43881a5ab9f858b0f3493775",
+      "documentHash": "abcfa705d22131875251c89df9c49001f1282f2a4d9a799ffeed535741de216a",
+      "signatureHash": "ce4c4b6cd42220c0f9859d612b398e30bac78bfa07f0c24360d9d2aaf9bc7d96",
+      "metadata": {
+        "personaAutorizada": "GABRIELA MEZA FIGUEROA",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-30T10:56:25.916Z"
+      },
+      "eventHash": "4b12676f0b55c72aa01a2b30127306e91a21316f7462eec7a366d5990842d90a"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-30T16:56:29.396Z"
+  }
 }
