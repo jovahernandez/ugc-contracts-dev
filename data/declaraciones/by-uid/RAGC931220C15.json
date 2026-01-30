@@ -1,19 +1,115 @@
 {
   "uid": "RAGC931220C15",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CAROLINA RAMOS GARCIA",
     "nombre_representante_legal": "CAROLINA RAMOS GARCIA",
     "email": "carol@easyagency.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CAROLINA RAMOS GARCIA",
-    "nombre_representante_legal": "CAROLINA RAMOS GARCIA",
-    "email": "carol@easyagency.mx"
+  "personaAutorizada": "Carolina Ramos Garcia",
+  "signedAt": "2026-01-30T16:12:20.486Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RAGC931220C15",
+  "signatureMetadata": {
+    "ip": "187.168.56.226",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-30T22:12:26.234Z",
+    "signedAtLocal": "2026-01-30T16:12:26.234Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8849f0fd41678a8c0f779b6a63bf1feaad2c5310897401e9bb014cb3a08eaba0"
+  "documentHash": "f97af0a28dde763d337c411d90663250de7dbb432b35bf75b24a3ecd84217ae8",
+  "auditTrail": [
+    {
+      "eventId": "949342d7-7a63-4c5c-ba0b-c9fc9f5bdaae",
+      "uid": "RAGC931220C15",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-30T22:11:37.074Z",
+      "timestampLocal": "2026-01-30T22:11:37.074Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.56.226",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RAGC931220C15&nombre_proveedor_razon_social=CAROLINA+RAMOS+GARCIA++&nombre_representante_legal=CAROLINA+RAMOS+GARCIA&email=carol%40easyagency.mx",
+      "previousEventHash": null,
+      "documentHash": "8849f0fd41678a8c0f779b6a63bf1feaad2c5310897401e9bb014cb3a08eaba0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0ecfa0397e5c683451718c92c03726a12b49b86b2faedd31152a4add1924d755"
+    },
+    {
+      "eventId": "d9e22d26-3c64-472e-b21c-119e6c479684",
+      "uid": "RAGC931220C15",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-30T22:11:37.074Z",
+      "timestampLocal": "2026-01-30T22:11:37.074Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.56.226",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RAGC931220C15&nombre_proveedor_razon_social=CAROLINA+RAMOS+GARCIA++&nombre_representante_legal=CAROLINA+RAMOS+GARCIA&email=carol%40easyagency.mx",
+      "previousEventHash": "0ecfa0397e5c683451718c92c03726a12b49b86b2faedd31152a4add1924d755",
+      "documentHash": "8849f0fd41678a8c0f779b6a63bf1feaad2c5310897401e9bb014cb3a08eaba0",
+      "metadata": {
+        "proveedor": "CAROLINA RAMOS GARCIA",
+        "representante": "CAROLINA RAMOS GARCIA"
+      },
+      "eventHash": "9a6a6a9f90e7239c5184be8a21222f21d3c1562bce758b83b4d5ae43b453db6f"
+    },
+    {
+      "eventId": "0d281f9d-60b8-475d-9fe9-ca1f629296cc",
+      "uid": "RAGC931220C15",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-30T22:11:37.800Z",
+      "timestampLocal": "2026-01-30T22:11:37.800Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.56.226",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RAGC931220C15&nombre_proveedor_razon_social=CAROLINA+RAMOS+GARCIA++&nombre_representante_legal=CAROLINA+RAMOS+GARCIA&email=carol%40easyagency.mx",
+      "previousEventHash": "9a6a6a9f90e7239c5184be8a21222f21d3c1562bce758b83b4d5ae43b453db6f",
+      "documentHash": "8849f0fd41678a8c0f779b6a63bf1feaad2c5310897401e9bb014cb3a08eaba0",
+      "eventHash": "3f13cbbc8f62564e140dddc0fd81beffea7cd62193f93888e4b3b98a5c665c45"
+    },
+    {
+      "eventId": "46cf2348-27a2-469b-b42b-b358f8ece13f",
+      "uid": "RAGC931220C15",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-30T22:11:57.123Z",
+      "timestampLocal": "2026-01-30T22:11:57.123Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.56.226",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "3f13cbbc8f62564e140dddc0fd81beffea7cd62193f93888e4b3b98a5c665c45",
+      "documentHash": "8849f0fd41678a8c0f779b6a63bf1feaad2c5310897401e9bb014cb3a08eaba0",
+      "eventHash": "53ef7fc547ede38ff243985ee908548ea1fff929ac7ebf0841cdf3097a1d2aed"
+    },
+    {
+      "eventId": "a9d46e82-4920-4651-93bd-659445a3591f",
+      "uid": "RAGC931220C15",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-30T22:12:26.234Z",
+      "timestampLocal": "2026-01-30T16:12:26.234Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.168.56.226",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/6b2641b6-14e3-4810-9a87-6da839b702fe",
+      "previousEventHash": "53ef7fc547ede38ff243985ee908548ea1fff929ac7ebf0841cdf3097a1d2aed",
+      "documentHash": "f97af0a28dde763d337c411d90663250de7dbb432b35bf75b24a3ecd84217ae8",
+      "signatureHash": "3b8e6be91b1e7421be6f86d5c71f2fb94502c50d109c47bcdf4fce8365bccb72",
+      "metadata": {
+        "personaAutorizada": "Carolina Ramos Garcia",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-30T16:12:20.486Z"
+      },
+      "eventHash": "f41f62b282e283e52d9a799b2fedfa97dc5f3afaa304d42459093f3b4929bc71"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-01-30T22:12:26.240Z"
+  }
 }
