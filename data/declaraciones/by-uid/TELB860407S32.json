@@ -1,19 +1,100 @@
 {
   "uid": "TELB860407S32",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "BRENDA TELLO LÓPEZ",
     "nombre_representante_legal": "BRENDA TELLO LOPEZ",
     "email": "tellobren@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "BRENDA TELLO LÓPEZ",
-    "nombre_representante_legal": "BRENDA TELLO LOPEZ",
-    "email": "tellobren@gmail.com"
+  "personaAutorizada": "BRENDA TELLO LOPEZ",
+  "signedAt": "2026-01-30T00:45:38.054Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TELB860407S32",
+  "signatureMetadata": {
+    "ip": "189.164.56.79",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+    "signedAtUtc": "2026-01-30T06:45:41.405Z",
+    "signedAtLocal": "2026-01-30T00:45:41.405Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8258cef0505325b4eb07c89fa07041483871b81fa4fc4dc9bcbf2c5a7cde9ba1"
+  "documentHash": "a94c0f539a3ab1a6779d2da595407cbe3235b128a2baca93599657330b8fa2f2",
+  "auditTrail": [
+    {
+      "eventId": "79e41c36-8e08-4e78-b204-1fa87ad4d03b",
+      "uid": "TELB860407S32",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-30T06:45:13.925Z",
+      "timestampLocal": "2026-01-30T06:45:13.925Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.164.56.79",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "8258cef0505325b4eb07c89fa07041483871b81fa4fc4dc9bcbf2c5a7cde9ba1",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5f9d500aca8ea71f6aaf97c8471008092b07d2f5935b0270be3b55f45de31146"
+    },
+    {
+      "eventId": "88810552-9e45-4c6e-89d6-b07931c40a33",
+      "uid": "TELB860407S32",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-30T06:45:13.925Z",
+      "timestampLocal": "2026-01-30T06:45:13.925Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.164.56.79",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "5f9d500aca8ea71f6aaf97c8471008092b07d2f5935b0270be3b55f45de31146",
+      "documentHash": "8258cef0505325b4eb07c89fa07041483871b81fa4fc4dc9bcbf2c5a7cde9ba1",
+      "metadata": {
+        "proveedor": "BRENDA TELLO LÓPEZ",
+        "representante": "BRENDA TELLO LOPEZ"
+      },
+      "eventHash": "8d4914783259191540954343c92b683f69d971160a6685332736df7310aee6cb"
+    },
+    {
+      "eventId": "6a119f35-9570-44fd-9683-eb0e88ad64ec",
+      "uid": "TELB860407S32",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-30T06:45:15.010Z",
+      "timestampLocal": "2026-01-30T06:45:15.010Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.164.56.79",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8d4914783259191540954343c92b683f69d971160a6685332736df7310aee6cb",
+      "documentHash": "8258cef0505325b4eb07c89fa07041483871b81fa4fc4dc9bcbf2c5a7cde9ba1",
+      "eventHash": "ac1f5ddb17fd1eec236564efa835e625442804a9de58c23a33648498d6e681bd"
+    },
+    {
+      "eventId": "2cdd9ce3-9083-45cc-b8b1-4df8a3204b15",
+      "uid": "TELB860407S32",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-30T06:45:41.405Z",
+      "timestampLocal": "2026-01-30T00:45:41.405Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.164.56.79",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ac1f5ddb17fd1eec236564efa835e625442804a9de58c23a33648498d6e681bd",
+      "documentHash": "a94c0f539a3ab1a6779d2da595407cbe3235b128a2baca93599657330b8fa2f2",
+      "signatureHash": "a76687eeb22b80973801f4345a8131c54f0a03ac74a43a6fe1ac51b96eef4e94",
+      "metadata": {
+        "personaAutorizada": "BRENDA TELLO LOPEZ",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-30T00:45:38.054Z"
+      },
+      "eventHash": "72fc4da7a2d6d98757491d2c6492016a627f496b0222a9a68fd396970f82b29d"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-30T06:45:41.405Z"
+  }
 }
