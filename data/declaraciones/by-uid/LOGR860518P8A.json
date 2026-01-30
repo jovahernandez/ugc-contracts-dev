@@ -1,19 +1,100 @@
 {
   "uid": "LOGR860518P8A",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ROSA ADORACIÓN LÓPEZ GONZÁLEZ",
     "nombre_representante_legal": "ROSA ADORACIÓN LÓPEZ GONZÁLEZ",
     "email": "rosedermaa@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ROSA ADORACIÓN LÓPEZ GONZÁLEZ",
-    "nombre_representante_legal": "ROSA ADORACIÓN LÓPEZ GONZÁLEZ",
-    "email": "rosedermaa@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-30T11:14:44.408Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LOGR860518P8A",
+  "signatureMetadata": {
+    "ip": "187.189.240.208",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-01-30T17:14:47.693Z",
+    "signedAtLocal": "2026-01-30T11:14:47.693Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a95524e61f115d9737eb4e9945e25eb0224f01e68b480fad3377f27860d71b7d"
+  "documentHash": "1c27319ece541dcd23973456424887132d27db526c7cc505e0baf1053f8a3796",
+  "auditTrail": [
+    {
+      "eventId": "fa8fef6f-7ca3-423e-80ca-01395364563d",
+      "uid": "LOGR860518P8A",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-30T17:14:29.768Z",
+      "timestampLocal": "2026-01-30T17:14:29.768Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.240.208",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "a95524e61f115d9737eb4e9945e25eb0224f01e68b480fad3377f27860d71b7d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "11856c594e93a1dfbe1efc5281403354b9aa014774909ff11994df4b4d1f358f"
+    },
+    {
+      "eventId": "004607d2-2d4e-4686-840c-8a050a9727a7",
+      "uid": "LOGR860518P8A",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-30T17:14:29.768Z",
+      "timestampLocal": "2026-01-30T17:14:29.768Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.240.208",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "11856c594e93a1dfbe1efc5281403354b9aa014774909ff11994df4b4d1f358f",
+      "documentHash": "a95524e61f115d9737eb4e9945e25eb0224f01e68b480fad3377f27860d71b7d",
+      "metadata": {
+        "proveedor": "ROSA ADORACIÓN LÓPEZ GONZÁLEZ",
+        "representante": "ROSA ADORACIÓN LÓPEZ GONZÁLEZ"
+      },
+      "eventHash": "5589de8646a679ea3ae450b9030c1986f680c049f66e605885b384aba700c2fe"
+    },
+    {
+      "eventId": "2d5a31a0-e519-4e52-93b0-a8d8b08c8271",
+      "uid": "LOGR860518P8A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-30T17:14:31.625Z",
+      "timestampLocal": "2026-01-30T17:14:31.625Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.240.208",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "5589de8646a679ea3ae450b9030c1986f680c049f66e605885b384aba700c2fe",
+      "documentHash": "a95524e61f115d9737eb4e9945e25eb0224f01e68b480fad3377f27860d71b7d",
+      "eventHash": "658a65dff0431241e30aaccf757bc5391cc3c985ac09464d35866b60742df4f4"
+    },
+    {
+      "eventId": "2ac2ebf2-b7bf-4c01-ba37-1be469540882",
+      "uid": "LOGR860518P8A",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-30T17:14:47.694Z",
+      "timestampLocal": "2026-01-30T11:14:47.694Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.240.208",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "658a65dff0431241e30aaccf757bc5391cc3c985ac09464d35866b60742df4f4",
+      "documentHash": "1c27319ece541dcd23973456424887132d27db526c7cc505e0baf1053f8a3796",
+      "signatureHash": "762115c53ea853672451f1df458275543dc260e0da9910f0546c263b6c53be8c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-30T11:14:44.408Z"
+      },
+      "eventHash": "ddb5b7669693eba3b2fdf0b9284963e4e23f6520067687f6857579c64b135e80"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-30T17:14:47.694Z"
+  }
 }
