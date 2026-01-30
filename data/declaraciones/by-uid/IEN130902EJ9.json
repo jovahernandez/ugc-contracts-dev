@@ -1,19 +1,100 @@
 {
   "uid": "IEN130902EJ9",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "INK ENTOURAGE",
     "nombre_representante_legal": "JOSE MANUEL RINCON LOPEZ",
     "email": "tperez@prmanagement.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "INK ENTOURAGE",
-    "nombre_representante_legal": "JOSE MANUEL RINCON LOPEZ",
-    "email": "tperez@prmanagement.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-01-30T16:24:56.921Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/IEN130902EJ9",
+  "signatureMetadata": {
+    "ip": "187.202.201.224",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-30T22:25:00.209Z",
+    "signedAtLocal": "2026-01-30T16:25:00.209Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c11e78b93a0f9b8c2295736c083c96ffb7f420d6acbad2b891628c7555d774f5"
+  "documentHash": "c43c19d510bc50d3434ff02aebd4ddeb2e14ecccaed76d149af4ff47a7a81efe",
+  "auditTrail": [
+    {
+      "eventId": "72fc8eea-0e92-4253-a73e-fa36fbf2ea74",
+      "uid": "IEN130902EJ9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-30T22:23:45.044Z",
+      "timestampLocal": "2026-01-30T22:23:45.044Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.201.224",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IEN130902EJ9&nombre_proveedor_razon_social=INK+ENTOURAGE&nombre_representante_legal=JOSE+MANUEL+RINCON+LOPEZ&email=tperez%40prmanagement.com.mx",
+      "previousEventHash": null,
+      "documentHash": "c11e78b93a0f9b8c2295736c083c96ffb7f420d6acbad2b891628c7555d774f5",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "130a913e1ed2b8ae57776f36638a986cebdaa1b952045caf2d8a26afc9d4dd6e"
+    },
+    {
+      "eventId": "adcb4cd4-ec70-4931-9f06-293c929137c5",
+      "uid": "IEN130902EJ9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-30T22:23:45.044Z",
+      "timestampLocal": "2026-01-30T22:23:45.044Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.201.224",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IEN130902EJ9&nombre_proveedor_razon_social=INK+ENTOURAGE&nombre_representante_legal=JOSE+MANUEL+RINCON+LOPEZ&email=tperez%40prmanagement.com.mx",
+      "previousEventHash": "130a913e1ed2b8ae57776f36638a986cebdaa1b952045caf2d8a26afc9d4dd6e",
+      "documentHash": "c11e78b93a0f9b8c2295736c083c96ffb7f420d6acbad2b891628c7555d774f5",
+      "metadata": {
+        "proveedor": "INK ENTOURAGE",
+        "representante": "JOSE MANUEL RINCON LOPEZ"
+      },
+      "eventHash": "b2a1fd4f249a948a0b7167cd904cf18b2d342f632d8b398ba6ceae5ee4d53266"
+    },
+    {
+      "eventId": "95db8a23-bf3c-4e54-bf2d-d54c87e1e239",
+      "uid": "IEN130902EJ9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-30T22:23:46.259Z",
+      "timestampLocal": "2026-01-30T22:23:46.259Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.201.224",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IEN130902EJ9&nombre_proveedor_razon_social=INK+ENTOURAGE&nombre_representante_legal=JOSE+MANUEL+RINCON+LOPEZ&email=tperez%40prmanagement.com.mx",
+      "previousEventHash": "b2a1fd4f249a948a0b7167cd904cf18b2d342f632d8b398ba6ceae5ee4d53266",
+      "documentHash": "c11e78b93a0f9b8c2295736c083c96ffb7f420d6acbad2b891628c7555d774f5",
+      "eventHash": "41dbe54af81cf19cbdbeb121800e6e584e6ba7e75d64147ab17aeffdbf8cc734"
+    },
+    {
+      "eventId": "43135ec4-47ec-49a1-a7b9-66bca670a336",
+      "uid": "IEN130902EJ9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-30T22:25:00.210Z",
+      "timestampLocal": "2026-01-30T16:25:00.210Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.202.201.224",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e8f9a480-c7ea-495c-bdf1-6d9f73a14f82",
+      "previousEventHash": "41dbe54af81cf19cbdbeb121800e6e584e6ba7e75d64147ab17aeffdbf8cc734",
+      "documentHash": "c43c19d510bc50d3434ff02aebd4ddeb2e14ecccaed76d149af4ff47a7a81efe",
+      "signatureHash": "499baaee0dd94fa647d8a5d4aa23acea058db3fa59bc1cfecddfa8f63042383b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-30T16:24:56.921Z"
+      },
+      "eventHash": "11ddf40deeec96839ffd8dcc6700994c308a6a17352c9a5e07a7f161a220776c"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-30T22:25:00.210Z"
+  }
 }
