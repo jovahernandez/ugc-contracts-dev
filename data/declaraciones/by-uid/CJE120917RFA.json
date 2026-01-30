@@ -1,19 +1,100 @@
 {
   "uid": "CJE120917RFA",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "COC JERRY SC",
     "nombre_representante_legal": "COC JERRY SC",
     "email": "veronica@jerryml.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "COC JERRY SC",
-    "nombre_representante_legal": "COC JERRY SC",
-    "email": "veronica@jerryml.com"
+  "personaAutorizada": "Veronica",
+  "signedAt": "2026-01-30T14:25:19.956Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CJE120917RFA",
+  "signatureMetadata": {
+    "ip": "189.203.193.230",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-01-30T20:25:23.284Z",
+    "signedAtLocal": "2026-01-30T14:25:23.284Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "aa59f9ba4527ecf39745ec5f79b98d39472f882d59905ca573bac878a011ef6a"
+  "documentHash": "226f9738a1b97c7711795cdf0ead6b7bb877b41a114f640b9ec6c0e6baf43af3",
+  "auditTrail": [
+    {
+      "eventId": "78472a45-46c9-4a12-80fe-5633c0796b8a",
+      "uid": "CJE120917RFA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-30T20:24:43.506Z",
+      "timestampLocal": "2026-01-30T20:24:43.506Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.193.230",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CJE120917RFA&nombre_proveedor_razon_social=COC+JERRY+SC&nombre_representante_legal=COC+JERRY+SC&email=veronica%40jerryml.com",
+      "previousEventHash": null,
+      "documentHash": "aa59f9ba4527ecf39745ec5f79b98d39472f882d59905ca573bac878a011ef6a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6bd973aafdc9973010b459b50444a95bf8847ff94f439c37aad5e72b868fe52b"
+    },
+    {
+      "eventId": "aba6acf9-296f-4d49-ae91-46b7dc7a5e48",
+      "uid": "CJE120917RFA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-30T20:24:43.506Z",
+      "timestampLocal": "2026-01-30T20:24:43.506Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.193.230",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CJE120917RFA&nombre_proveedor_razon_social=COC+JERRY+SC&nombre_representante_legal=COC+JERRY+SC&email=veronica%40jerryml.com",
+      "previousEventHash": "6bd973aafdc9973010b459b50444a95bf8847ff94f439c37aad5e72b868fe52b",
+      "documentHash": "aa59f9ba4527ecf39745ec5f79b98d39472f882d59905ca573bac878a011ef6a",
+      "metadata": {
+        "proveedor": "COC JERRY SC",
+        "representante": "COC JERRY SC"
+      },
+      "eventHash": "d07bb06d807f2ea5f815d6a13ed333312276c610c56b17b7297745c297eefb36"
+    },
+    {
+      "eventId": "9fc20674-142f-4a9f-a6e2-b7bd7dfc88eb",
+      "uid": "CJE120917RFA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-30T20:24:44.461Z",
+      "timestampLocal": "2026-01-30T20:24:44.461Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.193.230",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CJE120917RFA&nombre_proveedor_razon_social=COC+JERRY+SC&nombre_representante_legal=COC+JERRY+SC&email=veronica%40jerryml.com",
+      "previousEventHash": "d07bb06d807f2ea5f815d6a13ed333312276c610c56b17b7297745c297eefb36",
+      "documentHash": "aa59f9ba4527ecf39745ec5f79b98d39472f882d59905ca573bac878a011ef6a",
+      "eventHash": "231fa9f4845e5bc3ed6966dbc45b938ce8c450681dcf809c856e3278c1c8b2fe"
+    },
+    {
+      "eventId": "b00d00eb-8b0b-45e2-ac92-b14141ddd4fa",
+      "uid": "CJE120917RFA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-01-30T20:25:23.284Z",
+      "timestampLocal": "2026-01-30T14:25:23.284Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.193.230",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/92013b9e-dfd6-4ff9-866a-f6fe55397a76",
+      "previousEventHash": "231fa9f4845e5bc3ed6966dbc45b938ce8c450681dcf809c856e3278c1c8b2fe",
+      "documentHash": "226f9738a1b97c7711795cdf0ead6b7bb877b41a114f640b9ec6c0e6baf43af3",
+      "signatureHash": "f4b126ca7527da4d9a524152525e07b971a16a1e70c2667eca66b690887cee52",
+      "metadata": {
+        "personaAutorizada": "Veronica",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-01-30T14:25:19.956Z"
+      },
+      "eventHash": "507651a6eccd0e7e77b4ce4f86a3956a19d7bd256f02e12ac23cfa1229cd19a1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-01-30T20:25:23.284Z"
+  }
 }
