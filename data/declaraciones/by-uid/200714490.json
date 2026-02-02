@@ -1,19 +1,100 @@
 {
   "uid": "200714490",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DIEGO DE VIDTS",
     "nombre_representante_legal": "DIEGO DE VIDTS",
     "email": "v.alamos@acmanagement.cl"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "DIEGO DE VIDTS",
-    "nombre_representante_legal": "DIEGO DE VIDTS",
-    "email": "v.alamos@acmanagement.cl"
+  "personaAutorizada": "valentina alamos",
+  "signedAt": "2026-02-02T10:36:01.327Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/200714490",
+  "signatureMetadata": {
+    "ip": "181.173.245.139",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-02T13:36:04.727Z",
+    "signedAtLocal": "2026-02-02T10:36:04.727Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4ded032c5154b2ace99d876e468c314d9499a5119efedf33507f61e4f41833e4"
+  "documentHash": "c7a41ada7bb7f43c4036da5f71f53fd6d903a8dfaf0e351d9248aeae69b23450",
+  "auditTrail": [
+    {
+      "eventId": "62431679-acdd-4a94-b002-4ed7cb3c4163",
+      "uid": "200714490",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-02T13:35:16.976Z",
+      "timestampLocal": "2026-02-02T13:35:16.976Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.173.245.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=200714490&nombre_proveedor_razon_social=DIEGO+DE+VIDTS&nombre_representante_legal=DIEGO+DE+VIDTS&email=v.alamos%40acmanagement.cl",
+      "previousEventHash": null,
+      "documentHash": "4ded032c5154b2ace99d876e468c314d9499a5119efedf33507f61e4f41833e4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6c2e3bbd70a8287be4246a4a609a8afafd60c0577303cdc3772550571d2a260a"
+    },
+    {
+      "eventId": "79476157-41b6-4401-9d89-a41f865266ac",
+      "uid": "200714490",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-02T13:35:16.976Z",
+      "timestampLocal": "2026-02-02T13:35:16.976Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.173.245.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=200714490&nombre_proveedor_razon_social=DIEGO+DE+VIDTS&nombre_representante_legal=DIEGO+DE+VIDTS&email=v.alamos%40acmanagement.cl",
+      "previousEventHash": "6c2e3bbd70a8287be4246a4a609a8afafd60c0577303cdc3772550571d2a260a",
+      "documentHash": "4ded032c5154b2ace99d876e468c314d9499a5119efedf33507f61e4f41833e4",
+      "metadata": {
+        "proveedor": "DIEGO DE VIDTS",
+        "representante": "DIEGO DE VIDTS"
+      },
+      "eventHash": "efda2d3d1dbdea02d9a2aa12fe0c1207102a3c22e1080cfff8201e31fb77fc0a"
+    },
+    {
+      "eventId": "e47ab35e-8b61-4a5f-be41-d7db5c4fa9b6",
+      "uid": "200714490",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-02T13:35:18.037Z",
+      "timestampLocal": "2026-02-02T13:35:18.037Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.173.245.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=200714490&nombre_proveedor_razon_social=DIEGO+DE+VIDTS&nombre_representante_legal=DIEGO+DE+VIDTS&email=v.alamos%40acmanagement.cl",
+      "previousEventHash": "efda2d3d1dbdea02d9a2aa12fe0c1207102a3c22e1080cfff8201e31fb77fc0a",
+      "documentHash": "4ded032c5154b2ace99d876e468c314d9499a5119efedf33507f61e4f41833e4",
+      "eventHash": "468e3e73798db597527cdbd0637a5a7f1d248c12f7137647e02e72893fbd4a35"
+    },
+    {
+      "eventId": "ed727918-400d-4326-a058-eab7750ad97b",
+      "uid": "200714490",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-02T13:36:04.727Z",
+      "timestampLocal": "2026-02-02T10:36:04.727Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.173.245.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/80b6d545-d7f8-4cb7-94e0-ce56ffbdea80",
+      "previousEventHash": "468e3e73798db597527cdbd0637a5a7f1d248c12f7137647e02e72893fbd4a35",
+      "documentHash": "c7a41ada7bb7f43c4036da5f71f53fd6d903a8dfaf0e351d9248aeae69b23450",
+      "signatureHash": "b35981543ab29f2a273eafef9eef164b789b7a17153b79416fc497170f8e057b",
+      "metadata": {
+        "personaAutorizada": "valentina alamos",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-02T10:36:01.327Z"
+      },
+      "eventHash": "80cbb5fe912d915d787398e754a0921357e8b12f43630d1794abd153b288cbe1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-02T13:36:04.728Z"
+  }
 }
