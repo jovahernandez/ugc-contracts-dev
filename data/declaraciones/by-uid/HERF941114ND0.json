@@ -1,19 +1,100 @@
 {
   "uid": "HERF941114ND0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "FRANCI DANIELA HERNANDEZ RUEDA",
     "nombre_representante_legal": "FRANCI DANIELA HERNANDEZ RUEDA",
     "email": "danielarueda.48@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "FRANCI DANIELA HERNANDEZ RUEDA",
-    "nombre_representante_legal": "FRANCI DANIELA HERNANDEZ RUEDA",
-    "email": "danielarueda.48@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-02T20:20:37.516Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/HERF941114ND0",
+  "signatureMetadata": {
+    "ip": "187.190.4.43",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-02-03T02:20:40.996Z",
+    "signedAtLocal": "2026-02-02T20:20:40.996Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "57ca7dda5cc707b823e00d0f1d1444e57d90fd2133bdc11a1fb8c776bfbfa11e"
+  "documentHash": "764c5a4374c44747261f6fe7cb680123ecc246a42d9f5ce7c37e28727aab0ad5",
+  "auditTrail": [
+    {
+      "eventId": "c9ba08a1-f9c8-4694-8427-2336b08ec61d",
+      "uid": "HERF941114ND0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-03T02:20:02.426Z",
+      "timestampLocal": "2026-02-03T02:20:02.426Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.4.43",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "57ca7dda5cc707b823e00d0f1d1444e57d90fd2133bdc11a1fb8c776bfbfa11e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "eb7009da4f27a423b792ff89cf85cbfda18c684b58a82566ef9564dce5e500f6"
+    },
+    {
+      "eventId": "0e0fc313-8ef8-48e6-8fbd-3f1d432c7d9c",
+      "uid": "HERF941114ND0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-03T02:20:02.427Z",
+      "timestampLocal": "2026-02-03T02:20:02.427Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.4.43",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "eb7009da4f27a423b792ff89cf85cbfda18c684b58a82566ef9564dce5e500f6",
+      "documentHash": "57ca7dda5cc707b823e00d0f1d1444e57d90fd2133bdc11a1fb8c776bfbfa11e",
+      "metadata": {
+        "proveedor": "FRANCI DANIELA HERNANDEZ RUEDA",
+        "representante": "FRANCI DANIELA HERNANDEZ RUEDA"
+      },
+      "eventHash": "2bd1ef9b3a730cdee109255fd18771adf4c43c8d9606364c785c36b3b1e5d529"
+    },
+    {
+      "eventId": "bd2fc3d9-0452-4ec1-97df-b94e9053559c",
+      "uid": "HERF941114ND0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-03T02:20:04.451Z",
+      "timestampLocal": "2026-02-03T02:20:04.451Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.4.43",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "2bd1ef9b3a730cdee109255fd18771adf4c43c8d9606364c785c36b3b1e5d529",
+      "documentHash": "57ca7dda5cc707b823e00d0f1d1444e57d90fd2133bdc11a1fb8c776bfbfa11e",
+      "eventHash": "39d4bcb9da2e216593bc8de3556f8ff01084826f0ae3855a188f0f366ae6f04f"
+    },
+    {
+      "eventId": "f4f2a8a4-5e26-4b5f-9b93-6310c07e6fbc",
+      "uid": "HERF941114ND0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-03T02:20:40.996Z",
+      "timestampLocal": "2026-02-02T20:20:40.996Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.4.43",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "39d4bcb9da2e216593bc8de3556f8ff01084826f0ae3855a188f0f366ae6f04f",
+      "documentHash": "764c5a4374c44747261f6fe7cb680123ecc246a42d9f5ce7c37e28727aab0ad5",
+      "signatureHash": "395747aade06844106df63fd296519e2806da05f379e303846e844377bc7e314",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-02T20:20:37.516Z"
+      },
+      "eventHash": "fb9558591383a8030622e26c1f68aaca4ba52196334d2bc0cfce1678b81d9644"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-03T02:20:40.997Z"
+  }
 }
