@@ -1,19 +1,130 @@
 {
   "uid": "IWE2307192RA",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "INTERMEDIASTR WEB SA DE CV",
     "nombre_representante_legal": "ARACELI DIAZ PINEDA",
     "email": "facturacion@aintrmex.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "INTERMEDIASTR WEB SA DE CV",
-    "nombre_representante_legal": "ARACELI DIAZ PINEDA",
-    "email": "facturacion@aintrmex.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-03T16:48:31.715Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/IWE2307192RA",
+  "signatureMetadata": {
+    "ip": "189.193.232.98",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-03T22:48:35.040Z",
+    "signedAtLocal": "2026-02-03T16:48:35.040Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "129e23f788c0d27a568db38de4e4a60e8faeb55600c3d8b74e0dd5a9e4d08e89"
+  "documentHash": "1c3cf950d8c0bbdea4e394980e061481e9263592415aafaa96fad66eaecd8e74",
+  "auditTrail": [
+    {
+      "eventId": "32098350-d06d-45e7-b224-822062fa6653",
+      "uid": "IWE2307192RA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-03T18:00:21.270Z",
+      "timestampLocal": "2026-02-03T18:00:21.270Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.193.232.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IWE2307192RA&nombre_proveedor_razon_social=INTERMEDIASTR+WEB+SA+DE+CV&nombre_representante_legal=ARACELI+DIAZ+PINEDA&email=facturacion%40aintrmex.com",
+      "previousEventHash": null,
+      "documentHash": "129e23f788c0d27a568db38de4e4a60e8faeb55600c3d8b74e0dd5a9e4d08e89",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "32cc6bb92f9010dcc515f0aa6544266843d3a38bc4be9936e68225bfcbbe920a"
+    },
+    {
+      "eventId": "1408a66f-77a4-4c74-ac13-82cfccc1b7a4",
+      "uid": "IWE2307192RA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-03T18:00:21.270Z",
+      "timestampLocal": "2026-02-03T18:00:21.270Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.193.232.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IWE2307192RA&nombre_proveedor_razon_social=INTERMEDIASTR+WEB+SA+DE+CV&nombre_representante_legal=ARACELI+DIAZ+PINEDA&email=facturacion%40aintrmex.com",
+      "previousEventHash": "32cc6bb92f9010dcc515f0aa6544266843d3a38bc4be9936e68225bfcbbe920a",
+      "documentHash": "129e23f788c0d27a568db38de4e4a60e8faeb55600c3d8b74e0dd5a9e4d08e89",
+      "metadata": {
+        "proveedor": "INTERMEDIASTR WEB SA DE CV",
+        "representante": "ARACELI DIAZ PINEDA"
+      },
+      "eventHash": "cb9031b496210752402ed0f72cdd949aeb1ca44767acb9c1a22436cf64cf6882"
+    },
+    {
+      "eventId": "f4846e14-206d-4b79-b5ee-c6c29dc2ef9e",
+      "uid": "IWE2307192RA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-03T18:00:22.475Z",
+      "timestampLocal": "2026-02-03T18:00:22.475Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.193.232.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IWE2307192RA&nombre_proveedor_razon_social=INTERMEDIASTR+WEB+SA+DE+CV&nombre_representante_legal=ARACELI+DIAZ+PINEDA&email=facturacion%40aintrmex.com",
+      "previousEventHash": "cb9031b496210752402ed0f72cdd949aeb1ca44767acb9c1a22436cf64cf6882",
+      "documentHash": "129e23f788c0d27a568db38de4e4a60e8faeb55600c3d8b74e0dd5a9e4d08e89",
+      "eventHash": "d41af05425bb5a980da5392079b39e454d6de8ef1901e843d4d93e29cdcfa347"
+    },
+    {
+      "eventId": "2123f8b4-ad24-4a28-8f3b-73f9e016f10b",
+      "uid": "IWE2307192RA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-03T18:02:51.113Z",
+      "timestampLocal": "2026-02-03T18:02:51.113Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.193.232.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "d41af05425bb5a980da5392079b39e454d6de8ef1901e843d4d93e29cdcfa347",
+      "documentHash": "129e23f788c0d27a568db38de4e4a60e8faeb55600c3d8b74e0dd5a9e4d08e89",
+      "eventHash": "2b8be730de59acf956cf6a368e48ae742d68e8d8f4bdfb3d501b4095213aa9a6"
+    },
+    {
+      "eventId": "b6c197b7-6623-4482-a0c9-3f2ee8916ba3",
+      "uid": "IWE2307192RA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-03T22:46:19.851Z",
+      "timestampLocal": "2026-02-03T22:46:19.851Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.193.232.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "2b8be730de59acf956cf6a368e48ae742d68e8d8f4bdfb3d501b4095213aa9a6",
+      "documentHash": "129e23f788c0d27a568db38de4e4a60e8faeb55600c3d8b74e0dd5a9e4d08e89",
+      "eventHash": "f3c54175c1b73dfe545aa4883c279a9e3f62827d56997ecf96a268a7a8370560"
+    },
+    {
+      "eventId": "215733ff-6d6d-42fe-b1c5-4a98bdd9c99f",
+      "uid": "IWE2307192RA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-03T22:48:35.040Z",
+      "timestampLocal": "2026-02-03T16:48:35.040Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.193.232.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/9c08b0f6-3438-428d-a5f0-f2d9fa2f0d42",
+      "previousEventHash": "f3c54175c1b73dfe545aa4883c279a9e3f62827d56997ecf96a268a7a8370560",
+      "documentHash": "1c3cf950d8c0bbdea4e394980e061481e9263592415aafaa96fad66eaecd8e74",
+      "signatureHash": "bdb007eb4089713ccfe8baffa074e7ec7fd680f3ec06fc19f78346c2feb2b3e6",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-03T16:48:31.715Z"
+      },
+      "eventHash": "adca552e86aa791c1e11b4a2e845543cddfacf6e92f30e4ee483b21e9e70f89a"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-02-03T22:48:35.041Z"
+  }
 }
