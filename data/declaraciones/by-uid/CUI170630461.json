@@ -1,19 +1,115 @@
 {
   "uid": "CUI170630461",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CUIDADOSAMENTE SA DE CV",
     "nombre_representante_legal": "Sara Beneyto",
     "email": "contacto@cuidadosamente.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CUIDADOSAMENTE SA DE CV",
-    "nombre_representante_legal": "Sara Beneyto",
-    "email": "contacto@cuidadosamente.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-03T14:36:28.756Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CUI170630461",
+  "signatureMetadata": {
+    "ip": "15.220.188.101",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-03T20:36:32.179Z",
+    "signedAtLocal": "2026-02-03T14:36:32.179Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6678116094b46363e0814f3988e3aea55aa26e1ac1f466ea809929422ed86898"
+  "documentHash": "6d7ec6ec5f49cb0d3647df066f7b089ded87ab089bbede56c00788e17757804f",
+  "auditTrail": [
+    {
+      "eventId": "0e0ae2e6-6cbc-4497-8bef-51c1a9c57918",
+      "uid": "CUI170630461",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-03T18:26:44.692Z",
+      "timestampLocal": "2026-02-03T18:26:44.692Z",
+      "timezone": "UTC+0",
+      "ipAddress": "15.220.188.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8,pt;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CUI170630461&nombre_proveedor_razon_social=CUIDADOSAMENTE+SA+DE+CV&nombre_representante_legal=Sara+Beneyto&email=contacto%40cuidadosamente.com",
+      "previousEventHash": null,
+      "documentHash": "6678116094b46363e0814f3988e3aea55aa26e1ac1f466ea809929422ed86898",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "96a986ff4804e20784b8207d328c3dd1e172cffbe37b240ae5084a9934bf8628"
+    },
+    {
+      "eventId": "94665bb4-c3da-4e5d-b19a-73fbf5bf53b8",
+      "uid": "CUI170630461",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-03T18:26:44.692Z",
+      "timestampLocal": "2026-02-03T18:26:44.692Z",
+      "timezone": "UTC+0",
+      "ipAddress": "15.220.188.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8,pt;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CUI170630461&nombre_proveedor_razon_social=CUIDADOSAMENTE+SA+DE+CV&nombre_representante_legal=Sara+Beneyto&email=contacto%40cuidadosamente.com",
+      "previousEventHash": "96a986ff4804e20784b8207d328c3dd1e172cffbe37b240ae5084a9934bf8628",
+      "documentHash": "6678116094b46363e0814f3988e3aea55aa26e1ac1f466ea809929422ed86898",
+      "metadata": {
+        "proveedor": "CUIDADOSAMENTE SA DE CV",
+        "representante": "Sara Beneyto"
+      },
+      "eventHash": "10f65b539e77299d43bafe2d3ee857e1ebe2265d8ffd2ff930dfd080a9b24e1a"
+    },
+    {
+      "eventId": "aaea9519-6a99-4666-b733-008d73572477",
+      "uid": "CUI170630461",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-03T18:26:45.763Z",
+      "timestampLocal": "2026-02-03T18:26:45.763Z",
+      "timezone": "UTC+0",
+      "ipAddress": "15.220.188.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8,pt;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CUI170630461&nombre_proveedor_razon_social=CUIDADOSAMENTE+SA+DE+CV&nombre_representante_legal=Sara+Beneyto&email=contacto%40cuidadosamente.com",
+      "previousEventHash": "10f65b539e77299d43bafe2d3ee857e1ebe2265d8ffd2ff930dfd080a9b24e1a",
+      "documentHash": "6678116094b46363e0814f3988e3aea55aa26e1ac1f466ea809929422ed86898",
+      "eventHash": "df77890280268ab56f050a389a7dbb2663b4105cd081d2e4eef564e690d060c7"
+    },
+    {
+      "eventId": "9c045e76-cd7e-4d46-917e-42ac0c9d989a",
+      "uid": "CUI170630461",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-03T20:25:01.147Z",
+      "timestampLocal": "2026-02-03T20:25:01.147Z",
+      "timezone": "UTC+0",
+      "ipAddress": "15.220.188.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8,pt;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "df77890280268ab56f050a389a7dbb2663b4105cd081d2e4eef564e690d060c7",
+      "documentHash": "6678116094b46363e0814f3988e3aea55aa26e1ac1f466ea809929422ed86898",
+      "eventHash": "a2eb8f2999113d7dd4715aaed8fda11b258cd694984d9d9e9e6290a2cf3c809a"
+    },
+    {
+      "eventId": "e6748704-5c08-4386-80af-6e38034c980e",
+      "uid": "CUI170630461",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-03T20:36:32.179Z",
+      "timestampLocal": "2026-02-03T14:36:32.179Z",
+      "timezone": "UTC-6",
+      "ipAddress": "15.220.188.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8,pt;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e6940dad-f99f-49f7-8a07-ca4a993e155d",
+      "previousEventHash": "a2eb8f2999113d7dd4715aaed8fda11b258cd694984d9d9e9e6290a2cf3c809a",
+      "documentHash": "6d7ec6ec5f49cb0d3647df066f7b089ded87ab089bbede56c00788e17757804f",
+      "signatureHash": "5c22eeb4ada2046a54090d25e3022f3fa64c6f334fefa40a0fc3bc940c965007",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-03T14:36:28.756Z"
+      },
+      "eventHash": "56dcbba1f59a97d1cc58b19f3e7de0eeeac92221acf1fb4216a24093a9f394fa"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-02-03T20:36:32.180Z"
+  }
 }
