@@ -1,19 +1,115 @@
 {
   "uid": "PIM180629TE1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PIN IT MEDIA SA DE CV",
     "nombre_representante_legal": "Santiago Emilio Rodriguez Robles",
     "email": "cobranza@pinit.media"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PIN IT MEDIA SA DE CV",
-    "nombre_representante_legal": "Santiago Emilio Rodriguez Robles",
-    "email": "cobranza@pinit.media"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-03T18:23:55.060Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PIM180629TE1",
+  "signatureMetadata": {
+    "ip": "189.236.179.243",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-04T00:23:58.580Z",
+    "signedAtLocal": "2026-02-03T18:23:58.580Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "59b56f2245e28751478d6d69b9b027ebcf4a4256922a708917e60fbe2e97c5a5"
+  "documentHash": "b201166480d09b92eed6ebaa39393e4e655f2aea62c749f0c10e0aec489b611e",
+  "auditTrail": [
+    {
+      "eventId": "343048df-3f72-4b9b-8d6d-2d83618b3087",
+      "uid": "PIM180629TE1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-30T21:00:53.306Z",
+      "timestampLocal": "2026-01-30T21:00:53.306Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.179.243",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PIM180629TE1&nombre_proveedor_razon_social=PIN+IT+MEDIA+SA+DE+CV&nombre_representante_legal=Santiago+Emilio+Rodriguez+Robles&email=cobranza%40pinit.media",
+      "previousEventHash": null,
+      "documentHash": "59b56f2245e28751478d6d69b9b027ebcf4a4256922a708917e60fbe2e97c5a5",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "25f942214bde8db17aef6104632118edce24377226954f210d3dd339cc2c946f"
+    },
+    {
+      "eventId": "cdc712ec-e0d7-4d62-8bd7-c3e48ab5ecd5",
+      "uid": "PIM180629TE1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-30T21:00:53.306Z",
+      "timestampLocal": "2026-01-30T21:00:53.306Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.179.243",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PIM180629TE1&nombre_proveedor_razon_social=PIN+IT+MEDIA+SA+DE+CV&nombre_representante_legal=Santiago+Emilio+Rodriguez+Robles&email=cobranza%40pinit.media",
+      "previousEventHash": "25f942214bde8db17aef6104632118edce24377226954f210d3dd339cc2c946f",
+      "documentHash": "59b56f2245e28751478d6d69b9b027ebcf4a4256922a708917e60fbe2e97c5a5",
+      "metadata": {
+        "proveedor": "PIN IT MEDIA SA DE CV",
+        "representante": "Santiago Emilio Rodriguez Robles"
+      },
+      "eventHash": "e44c638daeb58c2b04cc3a49dc0e1ac836c76d1b28898c27928b5bceadefeea5"
+    },
+    {
+      "eventId": "c6498b97-3071-441e-976c-27e223858f16",
+      "uid": "PIM180629TE1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-30T21:00:54.550Z",
+      "timestampLocal": "2026-01-30T21:00:54.550Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.179.243",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PIM180629TE1&nombre_proveedor_razon_social=PIN+IT+MEDIA+SA+DE+CV&nombre_representante_legal=Santiago+Emilio+Rodriguez+Robles&email=cobranza%40pinit.media",
+      "previousEventHash": "e44c638daeb58c2b04cc3a49dc0e1ac836c76d1b28898c27928b5bceadefeea5",
+      "documentHash": "59b56f2245e28751478d6d69b9b027ebcf4a4256922a708917e60fbe2e97c5a5",
+      "eventHash": "e21cd802cbe2dd87818f27c669b06007de3f7d2de6fb37b955496f4ba6447729"
+    },
+    {
+      "eventId": "dbb99ab1-d81d-4fde-8b44-fda01452e268",
+      "uid": "PIM180629TE1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-04T00:23:19.864Z",
+      "timestampLocal": "2026-02-04T00:23:19.864Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.179.243",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "e21cd802cbe2dd87818f27c669b06007de3f7d2de6fb37b955496f4ba6447729",
+      "documentHash": "59b56f2245e28751478d6d69b9b027ebcf4a4256922a708917e60fbe2e97c5a5",
+      "eventHash": "7cb871d5e4197a5eb3c8bd4a3b4ac339f0d7ac1f2164de5ab4a68908b90ee774"
+    },
+    {
+      "eventId": "d8b60d39-9c8e-45df-8671-a50de3c97620",
+      "uid": "PIM180629TE1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-04T00:23:58.580Z",
+      "timestampLocal": "2026-02-03T18:23:58.580Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.236.179.243",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c4ed23b0-f8af-4d00-ad2c-6cc77818c551",
+      "previousEventHash": "7cb871d5e4197a5eb3c8bd4a3b4ac339f0d7ac1f2164de5ab4a68908b90ee774",
+      "documentHash": "b201166480d09b92eed6ebaa39393e4e655f2aea62c749f0c10e0aec489b611e",
+      "signatureHash": "e09b1268bdee247db6df37da3bc9ab8c04321ba32817ca3a3e15523eb4295170",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-03T18:23:55.060Z"
+      },
+      "eventHash": "60a395ec0b5f2fbed8c2151845ee8e05b8b7184d6039c6a487a20442f6e9d2f2"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-02-04T00:23:58.581Z"
+  }
 }
