@@ -1,19 +1,100 @@
 {
   "uid": "901425926-8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Casa Manglar SAS",
     "nombre_representante_legal": "Julian Morales",
     "email": "admin@casamanglar.co"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Casa Manglar SAS",
-    "nombre_representante_legal": "Julian Morales",
-    "email": "admin@casamanglar.co"
+  "personaAutorizada": "Leidy Castañeda Colorado - Administrado de Casa Manglar",
+  "signedAt": "2026-02-04T17:54:34.438Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/901425926-8",
+  "signatureMetadata": {
+    "ip": "181.140.246.229",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 OPR/126.0.0.0",
+    "signedAtUtc": "2026-02-04T22:54:39.527Z",
+    "signedAtLocal": "2026-02-04T17:54:39.527Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2874433af7cc960e76af3baa02c63631813978b3b7a41008e299c33f5e100a87"
+  "documentHash": "f75a730517f27008ae4f39ee167d4fea7f7edc9d5e8c35c697db8b50f06f86a6",
+  "auditTrail": [
+    {
+      "eventId": "e78e73d7-421d-48ab-a11b-e592c48acbf8",
+      "uid": "901425926-8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-04T22:53:40.996Z",
+      "timestampLocal": "2026-02-04T22:53:40.996Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.140.246.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 OPR/126.0.0.0",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901425926-8&nombre_proveedor_razon_social=Casa+Manglar+SAS&nombre_representante_legal=Julian+Morales&email=admin%40casamanglar.co",
+      "previousEventHash": null,
+      "documentHash": "2874433af7cc960e76af3baa02c63631813978b3b7a41008e299c33f5e100a87",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d9281421109817ae29be608668913a94ed668af951c07a3633972d0f588ab270"
+    },
+    {
+      "eventId": "98db9654-095a-468f-a22f-74b3aae69ea0",
+      "uid": "901425926-8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-04T22:53:40.996Z",
+      "timestampLocal": "2026-02-04T22:53:40.996Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.140.246.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 OPR/126.0.0.0",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901425926-8&nombre_proveedor_razon_social=Casa+Manglar+SAS&nombre_representante_legal=Julian+Morales&email=admin%40casamanglar.co",
+      "previousEventHash": "d9281421109817ae29be608668913a94ed668af951c07a3633972d0f588ab270",
+      "documentHash": "2874433af7cc960e76af3baa02c63631813978b3b7a41008e299c33f5e100a87",
+      "metadata": {
+        "proveedor": "Casa Manglar SAS",
+        "representante": "Julian Morales"
+      },
+      "eventHash": "9bef1b5eb7cb6d08a97d667ad51aa0a456cadc7d9f91de6b09befae57f2c7b82"
+    },
+    {
+      "eventId": "f34f0bc2-352b-4a97-9338-1188a4210bcd",
+      "uid": "901425926-8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-04T22:53:42.602Z",
+      "timestampLocal": "2026-02-04T22:53:42.602Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.140.246.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 OPR/126.0.0.0",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901425926-8&nombre_proveedor_razon_social=Casa+Manglar+SAS&nombre_representante_legal=Julian+Morales&email=admin%40casamanglar.co",
+      "previousEventHash": "9bef1b5eb7cb6d08a97d667ad51aa0a456cadc7d9f91de6b09befae57f2c7b82",
+      "documentHash": "2874433af7cc960e76af3baa02c63631813978b3b7a41008e299c33f5e100a87",
+      "eventHash": "fd03a63ce09c2d3830cce73e7f7fdf74cb4c49d902d28782d2c0eda677f29de4"
+    },
+    {
+      "eventId": "9cd1c476-3330-40aa-a4ce-41df224bd084",
+      "uid": "901425926-8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-04T22:54:39.527Z",
+      "timestampLocal": "2026-02-04T17:54:39.527Z",
+      "timezone": "UTC-5",
+      "ipAddress": "181.140.246.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 OPR/126.0.0.0",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/592bdf64-27bd-4017-9bb2-43483bb4672d",
+      "previousEventHash": "fd03a63ce09c2d3830cce73e7f7fdf74cb4c49d902d28782d2c0eda677f29de4",
+      "documentHash": "f75a730517f27008ae4f39ee167d4fea7f7edc9d5e8c35c697db8b50f06f86a6",
+      "signatureHash": "25c210c6ca18e3cc18da70fe49a5549e83eeb7bcc47c36e1390e07251f145274",
+      "metadata": {
+        "personaAutorizada": "Leidy Castañeda Colorado - Administrado de Casa Manglar",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-04T17:54:34.438Z"
+      },
+      "eventHash": "cc3a543b09c2da1e5df9f48c80a4212daafc5f2820f5b0c2ee249e4e814b8925"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-04T22:54:39.528Z"
+  }
 }
