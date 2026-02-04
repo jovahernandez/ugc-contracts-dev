@@ -1,19 +1,175 @@
 {
   "uid": "WME1705046A0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "WEBEDIA MEXICO SA DE CV",
     "nombre_representante_legal": "Cyrielle Bonfils",
     "email": "facturacion.mx@webedia-group.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "WEBEDIA MEXICO SA DE CV",
-    "nombre_representante_legal": "Cyrielle Bonfils",
-    "email": "facturacion.mx@webedia-group.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-03T22:18:36.855Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/WME1705046A0",
+  "signatureMetadata": {
+    "ip": "189.216.168.158",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-04T04:18:40.429Z",
+    "signedAtLocal": "2026-02-03T22:18:40.429Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "13ef68b19efd909cd66e2205d4474011a3616e4feeee86bd3f53f3dad8338247"
+  "documentHash": "acc2737810c2f06c5caa13bfa88594c7e07c0fa67259d262457c6aee73a647f3",
+  "auditTrail": [
+    {
+      "eventId": "33dd82f3-e2f7-44e7-bad2-beb696fe963b",
+      "uid": "WME1705046A0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-01-27T23:55:33.656Z",
+      "timestampLocal": "2026-01-27T23:55:33.656Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.188.112.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=WME1705046A0&nombre_proveedor_razon_social=WEBEDIA+MEXICO+SA+DE+CV&nombre_representante_legal=Cyrielle+Bonfils&email=facturacion.mx%40webedia-group.com",
+      "previousEventHash": null,
+      "documentHash": "13ef68b19efd909cd66e2205d4474011a3616e4feeee86bd3f53f3dad8338247",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6314f2594d2a69331b32c6c4379c3ed7b93d901cd4d6463f126c1192e73730e7"
+    },
+    {
+      "eventId": "4d88bec8-3fe7-40ef-a4fe-1cc2348c6c82",
+      "uid": "WME1705046A0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-01-27T23:55:33.657Z",
+      "timestampLocal": "2026-01-27T23:55:33.657Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.188.112.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=WME1705046A0&nombre_proveedor_razon_social=WEBEDIA+MEXICO+SA+DE+CV&nombre_representante_legal=Cyrielle+Bonfils&email=facturacion.mx%40webedia-group.com",
+      "previousEventHash": "6314f2594d2a69331b32c6c4379c3ed7b93d901cd4d6463f126c1192e73730e7",
+      "documentHash": "13ef68b19efd909cd66e2205d4474011a3616e4feeee86bd3f53f3dad8338247",
+      "metadata": {
+        "proveedor": "WEBEDIA MEXICO SA DE CV",
+        "representante": "Cyrielle Bonfils"
+      },
+      "eventHash": "1f949d95df608b88f3ca116c275ad16bbc2763085d084a715e007008a2da46af"
+    },
+    {
+      "eventId": "7e727b8f-2931-463d-9caf-87771fb7b345",
+      "uid": "WME1705046A0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-27T23:55:34.467Z",
+      "timestampLocal": "2026-01-27T23:55:34.467Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.188.112.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=WME1705046A0&nombre_proveedor_razon_social=WEBEDIA+MEXICO+SA+DE+CV&nombre_representante_legal=Cyrielle+Bonfils&email=facturacion.mx%40webedia-group.com",
+      "previousEventHash": "1f949d95df608b88f3ca116c275ad16bbc2763085d084a715e007008a2da46af",
+      "documentHash": "13ef68b19efd909cd66e2205d4474011a3616e4feeee86bd3f53f3dad8338247",
+      "eventHash": "80a3ade9879f366fe8d8b8583e3fb7b35e0d13a1a22f9e3717d8e539b59dd768"
+    },
+    {
+      "eventId": "9dc1969d-e362-4450-bca2-3096f03a3b11",
+      "uid": "WME1705046A0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-28T15:22:56.362Z",
+      "timestampLocal": "2026-01-28T15:22:56.362Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.188.112.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "80a3ade9879f366fe8d8b8583e3fb7b35e0d13a1a22f9e3717d8e539b59dd768",
+      "documentHash": "13ef68b19efd909cd66e2205d4474011a3616e4feeee86bd3f53f3dad8338247",
+      "eventHash": "17c709a6ef658e854bb05b4c536a5e357500018d4a09330b8548280900b9c819"
+    },
+    {
+      "eventId": "69cfacc6-8d96-470c-a510-4eaa2849c43c",
+      "uid": "WME1705046A0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-28T15:27:26.061Z",
+      "timestampLocal": "2026-01-28T15:27:26.061Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.188.112.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "17c709a6ef658e854bb05b4c536a5e357500018d4a09330b8548280900b9c819",
+      "documentHash": "13ef68b19efd909cd66e2205d4474011a3616e4feeee86bd3f53f3dad8338247",
+      "eventHash": "184010197bb95a5270fd192953e0c86f3f1cef7a45709db1d13dd7b63ff1e463"
+    },
+    {
+      "eventId": "b5df093f-e9d8-403e-9d5b-8a8ba6f54240",
+      "uid": "WME1705046A0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-28T15:51:10.073Z",
+      "timestampLocal": "2026-01-28T15:51:10.073Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.188.112.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "184010197bb95a5270fd192953e0c86f3f1cef7a45709db1d13dd7b63ff1e463",
+      "documentHash": "13ef68b19efd909cd66e2205d4474011a3616e4feeee86bd3f53f3dad8338247",
+      "eventHash": "7daf04fe8590f960b43d34c379bb9c97ed78369cf2b482eb669cbcdefaa10a36"
+    },
+    {
+      "eventId": "18cb0cae-d88b-4764-9921-3f4ff15e9892",
+      "uid": "WME1705046A0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-01-28T15:55:59.023Z",
+      "timestampLocal": "2026-01-28T15:55:59.023Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.188.112.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "7daf04fe8590f960b43d34c379bb9c97ed78369cf2b482eb669cbcdefaa10a36",
+      "documentHash": "13ef68b19efd909cd66e2205d4474011a3616e4feeee86bd3f53f3dad8338247",
+      "eventHash": "41af2f5db30a9446b6e77958c0e3bfe40331a0a4980e50cd485a16f4ad0ebc64"
+    },
+    {
+      "eventId": "49abd540-d596-44ba-8554-2d7faec5d037",
+      "uid": "WME1705046A0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-04T04:18:11.291Z",
+      "timestampLocal": "2026-02-04T04:18:11.291Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.168.158",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,fr;q=0.7,gl;q=0.6",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "41af2f5db30a9446b6e77958c0e3bfe40331a0a4980e50cd485a16f4ad0ebc64",
+      "documentHash": "13ef68b19efd909cd66e2205d4474011a3616e4feeee86bd3f53f3dad8338247",
+      "eventHash": "8fbcade7a63ec775fc8cd1e074132c72919720c0aa8565781e04fd4e775643a9"
+    },
+    {
+      "eventId": "20a45aea-04ce-4b49-9886-67ba6aa5a393",
+      "uid": "WME1705046A0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-04T04:18:40.429Z",
+      "timestampLocal": "2026-02-03T22:18:40.429Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.216.168.158",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,fr;q=0.7,gl;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/68348497-fd8d-43c4-9d34-f79e7999290f",
+      "previousEventHash": "8fbcade7a63ec775fc8cd1e074132c72919720c0aa8565781e04fd4e775643a9",
+      "documentHash": "acc2737810c2f06c5caa13bfa88594c7e07c0fa67259d262457c6aee73a647f3",
+      "signatureHash": "759045b562ffbbbb1f59f5b28a14a60fdea0b24816cb5b6170a5968ff9420cb0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-03T22:18:36.855Z"
+      },
+      "eventHash": "049c49e485f144abd39059e288ce816321a871e4cb5ecb7924e5bc0da04ef612"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 9,
+    "verifiedAt": "2026-02-04T04:18:40.430Z"
+  }
 }
