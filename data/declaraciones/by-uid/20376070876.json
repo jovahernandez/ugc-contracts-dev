@@ -1,19 +1,100 @@
 {
   "uid": "20376070876",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "TOMAS REBORD",
     "nombre_representante_legal": "TOMAS REBORD",
     "email": "estudiomelgarejo.abogado@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "TOMAS REBORD",
-    "nombre_representante_legal": "TOMAS REBORD",
-    "email": "estudiomelgarejo.abogado@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-04T14:45:53.140Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20376070876",
+  "signatureMetadata": {
+    "ip": "181.104.49.74",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-04T17:45:56.432Z",
+    "signedAtLocal": "2026-02-04T14:45:56.432Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4e3b7058b997c347feb67cd4dab35cf98b794a377ec0ca6a12c0d8a78b350709"
+  "documentHash": "b76919ff3d8b0e346e07cd057ee0343d4021afe5f1f3aa60dc4d19f3b34ed641",
+  "auditTrail": [
+    {
+      "eventId": "129d2f9b-4b76-4929-a9ff-875a78d2382a",
+      "uid": "20376070876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-04T17:42:49.427Z",
+      "timestampLocal": "2026-02-04T17:42:49.427Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.104.49.74",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,fr;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20376070876&nombre_proveedor_razon_social=TOMAS+REBORD&nombre_representante_legal=TOMAS+REBORD&email=estudiomelgarejo.abogado%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "4e3b7058b997c347feb67cd4dab35cf98b794a377ec0ca6a12c0d8a78b350709",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9cb47398e5e627992bba3fe505b9769c6ceb8b061bc5c8090f981b5124318be5"
+    },
+    {
+      "eventId": "c422faf6-8e05-4184-b8e3-fe26ea008178",
+      "uid": "20376070876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-04T17:42:49.427Z",
+      "timestampLocal": "2026-02-04T17:42:49.427Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.104.49.74",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,fr;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20376070876&nombre_proveedor_razon_social=TOMAS+REBORD&nombre_representante_legal=TOMAS+REBORD&email=estudiomelgarejo.abogado%40gmail.com",
+      "previousEventHash": "9cb47398e5e627992bba3fe505b9769c6ceb8b061bc5c8090f981b5124318be5",
+      "documentHash": "4e3b7058b997c347feb67cd4dab35cf98b794a377ec0ca6a12c0d8a78b350709",
+      "metadata": {
+        "proveedor": "TOMAS REBORD",
+        "representante": "TOMAS REBORD"
+      },
+      "eventHash": "371f9b7f47dd1fdc7c6ec326740385a87c2938fbfe6684088e7507877e52c506"
+    },
+    {
+      "eventId": "40589435-f365-4604-b16a-d9967fe790f0",
+      "uid": "20376070876",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-04T17:42:50.555Z",
+      "timestampLocal": "2026-02-04T17:42:50.555Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.104.49.74",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,fr;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20376070876&nombre_proveedor_razon_social=TOMAS+REBORD&nombre_representante_legal=TOMAS+REBORD&email=estudiomelgarejo.abogado%40gmail.com",
+      "previousEventHash": "371f9b7f47dd1fdc7c6ec326740385a87c2938fbfe6684088e7507877e52c506",
+      "documentHash": "4e3b7058b997c347feb67cd4dab35cf98b794a377ec0ca6a12c0d8a78b350709",
+      "eventHash": "e85d391898a71a0092296872c86e6b995ace1a0816f197fb5e0bb4c0c8cd0acd"
+    },
+    {
+      "eventId": "68a07974-9f28-45bc-8f99-be895c86c218",
+      "uid": "20376070876",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-04T17:45:56.432Z",
+      "timestampLocal": "2026-02-04T14:45:56.432Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.104.49.74",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,fr;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8372314c-12b0-466f-befb-5229d758d795",
+      "previousEventHash": "e85d391898a71a0092296872c86e6b995ace1a0816f197fb5e0bb4c0c8cd0acd",
+      "documentHash": "b76919ff3d8b0e346e07cd057ee0343d4021afe5f1f3aa60dc4d19f3b34ed641",
+      "signatureHash": "bb77703206a6193dbf6535f566429c101793e54d2196acb97c7afaada8d47f37",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-04T14:45:53.140Z"
+      },
+      "eventHash": "d388620a4306a0b9e66e61db53283b44d19c1e41f58ddfbe9c4375f92b399ed3"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-04T17:45:56.432Z"
+  }
 }
