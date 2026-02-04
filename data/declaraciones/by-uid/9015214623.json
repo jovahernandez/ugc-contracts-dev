@@ -1,19 +1,100 @@
 {
   "uid": "9015214623",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ISSAVP GROUP DIGITAL S.A.S",
     "nombre_representante_legal": "Issabela Vasquez",
     "email": "natalia@latinwe.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ISSAVP GROUP DIGITAL S.A.S",
-    "nombre_representante_legal": "Issabela Vasquez",
-    "email": "natalia@latinwe.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-03T19:30:04.004Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/9015214623",
+  "signatureMetadata": {
+    "ip": "190.13.24.234",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-04T00:30:07.449Z",
+    "signedAtLocal": "2026-02-03T19:30:07.449Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6299e6d534de727247c83551f61b0e221005bf2bfa82a28daa9b057c0ab7bdf6"
+  "documentHash": "20e22a4ae4fc7e54be7f97f018d98203b8c6050dd84bf0068500f0f1c35d5c00",
+  "auditTrail": [
+    {
+      "eventId": "1fedccce-ff99-4f51-b79f-00d5e1066557",
+      "uid": "9015214623",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-04T00:07:58.463Z",
+      "timestampLocal": "2026-02-04T00:07:58.463Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.13.24.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=9015214623&nombre_proveedor_razon_social=ISSAVP+GROUP+DIGITAL+S.A.S&nombre_representante_legal=Issabela+Vasquez&email=natalia%40latinwe.com",
+      "previousEventHash": null,
+      "documentHash": "6299e6d534de727247c83551f61b0e221005bf2bfa82a28daa9b057c0ab7bdf6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e319c798d2385cca3c4513ef3d29ef0f9d842b5608c0cb2f9b9b0f9efa010ae4"
+    },
+    {
+      "eventId": "2841a267-3f96-4b5b-a6db-4b61fdf0192d",
+      "uid": "9015214623",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-04T00:07:58.463Z",
+      "timestampLocal": "2026-02-04T00:07:58.463Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.13.24.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=9015214623&nombre_proveedor_razon_social=ISSAVP+GROUP+DIGITAL+S.A.S&nombre_representante_legal=Issabela+Vasquez&email=natalia%40latinwe.com",
+      "previousEventHash": "e319c798d2385cca3c4513ef3d29ef0f9d842b5608c0cb2f9b9b0f9efa010ae4",
+      "documentHash": "6299e6d534de727247c83551f61b0e221005bf2bfa82a28daa9b057c0ab7bdf6",
+      "metadata": {
+        "proveedor": "ISSAVP GROUP DIGITAL S.A.S",
+        "representante": "Issabela Vasquez"
+      },
+      "eventHash": "e16566b54d9c745b04dfcdd4712ae7c5069f99b9b89c65fc35f373cd85080af2"
+    },
+    {
+      "eventId": "a2a3b476-40fe-405a-a747-5afd1c5cc1ed",
+      "uid": "9015214623",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-04T00:07:59.541Z",
+      "timestampLocal": "2026-02-04T00:07:59.541Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.13.24.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=9015214623&nombre_proveedor_razon_social=ISSAVP+GROUP+DIGITAL+S.A.S&nombre_representante_legal=Issabela+Vasquez&email=natalia%40latinwe.com",
+      "previousEventHash": "e16566b54d9c745b04dfcdd4712ae7c5069f99b9b89c65fc35f373cd85080af2",
+      "documentHash": "6299e6d534de727247c83551f61b0e221005bf2bfa82a28daa9b057c0ab7bdf6",
+      "eventHash": "cd5fe60cd24b799fb9bc4758d143f6e0dea8b64d4922da31a6eb03a7c5afa83c"
+    },
+    {
+      "eventId": "1131d301-cacd-4ffa-abdc-85c1a11cf051",
+      "uid": "9015214623",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-04T00:30:07.449Z",
+      "timestampLocal": "2026-02-03T19:30:07.449Z",
+      "timezone": "UTC-5",
+      "ipAddress": "190.13.24.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/14a68a8e-7291-42e9-af8d-011d2a7317fc",
+      "previousEventHash": "cd5fe60cd24b799fb9bc4758d143f6e0dea8b64d4922da31a6eb03a7c5afa83c",
+      "documentHash": "20e22a4ae4fc7e54be7f97f018d98203b8c6050dd84bf0068500f0f1c35d5c00",
+      "signatureHash": "fdf58610c6f1736c6f3d64bf60f181dbca9a2400bbe384243c819715326f219e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-03T19:30:04.004Z"
+      },
+      "eventHash": "bc45a3abbc52eceef046ad7cb5108cbeaeabfe11b612c1584b5983020fef46d4"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-04T00:30:07.450Z"
+  }
 }
