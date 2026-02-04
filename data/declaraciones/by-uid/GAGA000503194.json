@@ -1,19 +1,100 @@
 {
   "uid": "GAGA000503194",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ANA PAULA GARZA GARCIA",
     "nombre_representante_legal": "ANA PAULA GARZA GARCIA",
     "email": "anapaula.gza@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ANA PAULA GARZA GARCIA",
-    "nombre_representante_legal": "ANA PAULA GARZA GARCIA",
-    "email": "anapaula.gza@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-04T12:19:34.405Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GAGA000503194",
+  "signatureMetadata": {
+    "ip": "189.175.165.19",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-04T18:19:46.916Z",
+    "signedAtLocal": "2026-02-04T12:19:46.916Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e9a99fd741c3c0b4c2c846cb1481931111ce80fafbc701c04f62b75578b58408"
+  "documentHash": "183552107cb16ce2d1fee1d5b7257a770bc5910fd3c505de30e52f81b77f07d8",
+  "auditTrail": [
+    {
+      "eventId": "ed02aef4-5627-4145-87ae-78024db33877",
+      "uid": "GAGA000503194",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-04T18:15:47.929Z",
+      "timestampLocal": "2026-02-04T18:15:47.929Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.165.19",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAGA000503194&nombre_proveedor_razon_social=ANA+PAULA+GARZA+GARCIA&nombre_representante_legal=ANA+PAULA+GARZA+GARCIA&email=anapaula.gza%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "e9a99fd741c3c0b4c2c846cb1481931111ce80fafbc701c04f62b75578b58408",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6604fc5ee873970e9818a09cb536588fd540404b5bab541de9d1b7f48297d61b"
+    },
+    {
+      "eventId": "105fc84f-86d3-4800-b1a7-cc97719066ca",
+      "uid": "GAGA000503194",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-04T18:15:47.930Z",
+      "timestampLocal": "2026-02-04T18:15:47.930Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.165.19",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAGA000503194&nombre_proveedor_razon_social=ANA+PAULA+GARZA+GARCIA&nombre_representante_legal=ANA+PAULA+GARZA+GARCIA&email=anapaula.gza%40gmail.com",
+      "previousEventHash": "6604fc5ee873970e9818a09cb536588fd540404b5bab541de9d1b7f48297d61b",
+      "documentHash": "e9a99fd741c3c0b4c2c846cb1481931111ce80fafbc701c04f62b75578b58408",
+      "metadata": {
+        "proveedor": "ANA PAULA GARZA GARCIA",
+        "representante": "ANA PAULA GARZA GARCIA"
+      },
+      "eventHash": "2281214a257be6297ff08aec005798ce481cf254e9478ebdaa6c2156661f5034"
+    },
+    {
+      "eventId": "dac2dba3-2657-44a4-97cd-a3d47c4e4dc0",
+      "uid": "GAGA000503194",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-04T18:15:48.987Z",
+      "timestampLocal": "2026-02-04T18:15:48.987Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.165.19",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAGA000503194&nombre_proveedor_razon_social=ANA+PAULA+GARZA+GARCIA&nombre_representante_legal=ANA+PAULA+GARZA+GARCIA&email=anapaula.gza%40gmail.com",
+      "previousEventHash": "2281214a257be6297ff08aec005798ce481cf254e9478ebdaa6c2156661f5034",
+      "documentHash": "e9a99fd741c3c0b4c2c846cb1481931111ce80fafbc701c04f62b75578b58408",
+      "eventHash": "d6d8e7fd8193793df731d7c285402e4cc78a4844dee33f6d4d68b278587b56c1"
+    },
+    {
+      "eventId": "53f95b6d-4add-4073-86f8-ea3813168b69",
+      "uid": "GAGA000503194",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-04T18:19:46.916Z",
+      "timestampLocal": "2026-02-04T12:19:46.916Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.175.165.19",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d5ac38fc-bd8f-492f-b0e0-2abdf502e56b",
+      "previousEventHash": "d6d8e7fd8193793df731d7c285402e4cc78a4844dee33f6d4d68b278587b56c1",
+      "documentHash": "183552107cb16ce2d1fee1d5b7257a770bc5910fd3c505de30e52f81b77f07d8",
+      "signatureHash": "7aebcad787734cea97b7cd5bf8f3e8bc31272808b5bb1bf4a04f0998583a20ad",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-04T12:19:34.405Z"
+      },
+      "eventHash": "46932de527f9bccc9f9e2c638b75597e9c47a122b759f689e6611bafc4dd7eaa"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-04T18:19:46.919Z"
+  }
 }
