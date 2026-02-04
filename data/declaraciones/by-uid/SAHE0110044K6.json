@@ -1,19 +1,152 @@
 {
   "uid": "SAHE0110044K6",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EDUARDO SACAL HAIAT",
     "nombre_representante_legal": "EDUARDO SACAL HAIAT",
     "email": "facturacion@dreamlabagency.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "EDUARDO SACAL HAIAT",
-    "nombre_representante_legal": "EDUARDO SACAL HAIAT",
-    "email": "facturacion@dreamlabagency.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-04T15:37:49.129Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SAHE0110044K6",
+  "signatureMetadata": {
+    "ip": "200.76.4.234",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-04T21:37:59.657Z",
+    "signedAtLocal": "2026-02-04T15:37:59.657Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ade47a3193dd11bc0cf69371784f5f7ef1d25f283a9463f9e53cfb701e67fe3c"
+  "documentHash": "ce0a513fae166ed21d5f536a5c8da8573a30434b7b94eaa023b5073a8dc1bbc5",
+  "auditTrail": [
+    {
+      "eventId": "2c95eafd-1401-472c-b67d-ce1dd2fa7074",
+      "uid": "SAHE0110044K6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-04T21:35:33.121Z",
+      "timestampLocal": "2026-02-04T21:35:33.121Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.4.234",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAHE0110044K6&nombre_proveedor_razon_social=EDUARDO+SACAL+HAIAT&nombre_representante_legal=EDUARDO+SACAL+HAIAT&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": null,
+      "documentHash": "8b5512a2cc685a98c9b477fd58b53f9ce887f3bbdd8163e8a21fefa33822b530",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4eb7cda40eb0267cbf297eb609420eb14c400e128cf92372d884a2e1aeb25c2b"
+    },
+    {
+      "eventId": "7a075105-2d69-40e9-98be-e3b654c82902",
+      "uid": "SAHE0110044K6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-04T21:35:33.122Z",
+      "timestampLocal": "2026-02-04T21:35:33.122Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.4.234",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAHE0110044K6&nombre_proveedor_razon_social=EDUARDO+SACAL+HAIAT&nombre_representante_legal=EDUARDO+SACAL+HAIAT&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "4eb7cda40eb0267cbf297eb609420eb14c400e128cf92372d884a2e1aeb25c2b",
+      "documentHash": "8b5512a2cc685a98c9b477fd58b53f9ce887f3bbdd8163e8a21fefa33822b530",
+      "metadata": {
+        "proveedor": "EDUARDO SACAL HAIAT",
+        "representante": "EDUARDO SACAL HAIAT"
+      },
+      "eventHash": "4b8d730e54d611be3d44eba9995725bb76ff43f0814b05298b1e44f7bb0b83d6"
+    },
+    {
+      "eventId": "c6126a27-b43c-4066-9a13-10861e8f07ae",
+      "uid": "SAHE0110044K6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-04T21:35:35.159Z",
+      "timestampLocal": "2026-02-04T21:35:35.159Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.4.234",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAHE0110044K6&nombre_proveedor_razon_social=EDUARDO+SACAL+HAIAT&nombre_representante_legal=EDUARDO+SACAL+HAIAT&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "4b8d730e54d611be3d44eba9995725bb76ff43f0814b05298b1e44f7bb0b83d6",
+      "documentHash": "8b5512a2cc685a98c9b477fd58b53f9ce887f3bbdd8163e8a21fefa33822b530",
+      "eventHash": "faf415e9122b9953381fb2a4cbdd7e0bb0073bc503d31f1ba4aebe4ea2247903"
+    },
+    {
+      "eventId": "3065465a-23f3-43c3-922d-c4fe4b1e79eb",
+      "uid": "SAHE0110044K6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-04T21:35:35.439Z",
+      "timestampLocal": "2026-02-04T21:35:35.439Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.4.234",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAHE0110044K6&nombre_proveedor_razon_social=EDUARDO+SACAL+HAIAT&nombre_representante_legal=EDUARDO+SACAL+HAIAT&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "faf415e9122b9953381fb2a4cbdd7e0bb0073bc503d31f1ba4aebe4ea2247903",
+      "documentHash": "ade47a3193dd11bc0cf69371784f5f7ef1d25f283a9463f9e53cfb701e67fe3c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "42d968fb670c6d5e7e772371dbc1d5f88e5081d4758464bdd8149987d2e7cb5c"
+    },
+    {
+      "eventId": "d3e41fd8-b9d9-48bc-86e0-5fd1dc818a82",
+      "uid": "SAHE0110044K6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-04T21:35:35.439Z",
+      "timestampLocal": "2026-02-04T21:35:35.439Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.4.234",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAHE0110044K6&nombre_proveedor_razon_social=EDUARDO+SACAL+HAIAT&nombre_representante_legal=EDUARDO+SACAL+HAIAT&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "42d968fb670c6d5e7e772371dbc1d5f88e5081d4758464bdd8149987d2e7cb5c",
+      "documentHash": "ade47a3193dd11bc0cf69371784f5f7ef1d25f283a9463f9e53cfb701e67fe3c",
+      "metadata": {
+        "proveedor": "EDUARDO SACAL HAIAT",
+        "representante": "EDUARDO SACAL HAIAT"
+      },
+      "eventHash": "d7a46aadb8d70420824f5f7acaffa402977e158813dc8c578fded8ce9016f4c6"
+    },
+    {
+      "eventId": "12da03ac-ffc3-4238-b49b-ac58505fdb4f",
+      "uid": "SAHE0110044K6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-04T21:35:37.113Z",
+      "timestampLocal": "2026-02-04T21:35:37.113Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.4.234",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAHE0110044K6&nombre_proveedor_razon_social=EDUARDO+SACAL+HAIAT&nombre_representante_legal=EDUARDO+SACAL+HAIAT&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "d7a46aadb8d70420824f5f7acaffa402977e158813dc8c578fded8ce9016f4c6",
+      "documentHash": "ade47a3193dd11bc0cf69371784f5f7ef1d25f283a9463f9e53cfb701e67fe3c",
+      "eventHash": "eaa72bf060a04db27a9be929ad696747c5bf481cdfaca9b2c90b60aafe9787ae"
+    },
+    {
+      "eventId": "91c242a2-baf1-49b4-a235-b2cd45abb49f",
+      "uid": "SAHE0110044K6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-04T21:37:59.657Z",
+      "timestampLocal": "2026-02-04T15:37:59.657Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.76.4.234",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/bc089500-9e00-42c2-a596-2df5e3fb9201",
+      "previousEventHash": "eaa72bf060a04db27a9be929ad696747c5bf481cdfaca9b2c90b60aafe9787ae",
+      "documentHash": "ce0a513fae166ed21d5f536a5c8da8573a30434b7b94eaa023b5073a8dc1bbc5",
+      "signatureHash": "61e94658b12964c2ed175470b17a1a44effd8365936953dfe5e837d3c619f6c2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-04T15:37:49.129Z"
+      },
+      "eventHash": "da5bd949f82238815d4b0d8a752360d6c2ac3b92057cba57bad97a060e4a6b7e"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-02-04T21:37:59.658Z"
+  }
 }
