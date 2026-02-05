@@ -1,19 +1,100 @@
 {
   "uid": "27179660000138",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "SOLLER LTDA",
     "nombre_representante_legal": "Isabela Lourenço Soller",
     "email": "suporte.administrativo@gruposoller.com.br"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SOLLER LTDA",
-    "nombre_representante_legal": "Isabela Lourenço Soller",
-    "email": "suporte.administrativo@gruposoller.com.br"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-05T10:59:46.796Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/27179660000138",
+  "signatureMetadata": {
+    "ip": "201.43.44.110",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-05T13:59:50.085Z",
+    "signedAtLocal": "2026-02-05T10:59:50.085Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7c2381f05d01206e9033a5967fbf5cddd3dd0ab48d43527f44cb620bb232d59b"
+  "documentHash": "2b1c24313408e6695174f8c9a0d917997785e1773f25cd8f01f3ec99b9c57d36",
+  "auditTrail": [
+    {
+      "eventId": "0c7f60d9-4262-4119-8906-c1188380e82d",
+      "uid": "27179660000138",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T13:57:17.471Z",
+      "timestampLocal": "2026-02-05T13:57:17.471Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.43.44.110",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27179660000138&nombre_proveedor_razon_social=SOLLER+LTDA&nombre_representante_legal=Isabela+Louren%C3%A7o+Soller&email=suporte.administrativo%40gruposoller.com.br",
+      "previousEventHash": null,
+      "documentHash": "7c2381f05d01206e9033a5967fbf5cddd3dd0ab48d43527f44cb620bb232d59b",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "acb8299b53ab8dd11e4b23fe802cd5f47809b4e077d2c97e4b93c80b15e1ff45"
+    },
+    {
+      "eventId": "003376d8-f03a-4376-b5e6-8e7e8afc8495",
+      "uid": "27179660000138",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T13:57:17.471Z",
+      "timestampLocal": "2026-02-05T13:57:17.471Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.43.44.110",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27179660000138&nombre_proveedor_razon_social=SOLLER+LTDA&nombre_representante_legal=Isabela+Louren%C3%A7o+Soller&email=suporte.administrativo%40gruposoller.com.br",
+      "previousEventHash": "acb8299b53ab8dd11e4b23fe802cd5f47809b4e077d2c97e4b93c80b15e1ff45",
+      "documentHash": "7c2381f05d01206e9033a5967fbf5cddd3dd0ab48d43527f44cb620bb232d59b",
+      "metadata": {
+        "proveedor": "SOLLER LTDA",
+        "representante": "Isabela Lourenço Soller"
+      },
+      "eventHash": "284513d219f542ac95fdeb9a96b5c7308cc8716c41171364c5e07fda87c5ff2a"
+    },
+    {
+      "eventId": "f12599db-daa5-4ff6-bb71-9d5ace19b570",
+      "uid": "27179660000138",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-05T13:57:18.559Z",
+      "timestampLocal": "2026-02-05T13:57:18.559Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.43.44.110",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27179660000138&nombre_proveedor_razon_social=SOLLER+LTDA&nombre_representante_legal=Isabela+Louren%C3%A7o+Soller&email=suporte.administrativo%40gruposoller.com.br",
+      "previousEventHash": "284513d219f542ac95fdeb9a96b5c7308cc8716c41171364c5e07fda87c5ff2a",
+      "documentHash": "7c2381f05d01206e9033a5967fbf5cddd3dd0ab48d43527f44cb620bb232d59b",
+      "eventHash": "709d335bae36b8135a67cf030c48a08c4cf7ab983fea4e5e8099459fe9996807"
+    },
+    {
+      "eventId": "3771a535-a461-49eb-a237-ccb951152995",
+      "uid": "27179660000138",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-05T13:59:50.085Z",
+      "timestampLocal": "2026-02-05T10:59:50.085Z",
+      "timezone": "UTC-3",
+      "ipAddress": "201.43.44.110",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b86dfde1-cd79-44fc-b422-5a96af1b1e16",
+      "previousEventHash": "709d335bae36b8135a67cf030c48a08c4cf7ab983fea4e5e8099459fe9996807",
+      "documentHash": "2b1c24313408e6695174f8c9a0d917997785e1773f25cd8f01f3ec99b9c57d36",
+      "signatureHash": "0357d7b5343a663275e11481d7bffbb8ec53386ad2a0575fe1fc80f195dda6ab",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-05T10:59:46.796Z"
+      },
+      "eventHash": "57aa20206a6151df127aab7d07925dde0336f1f0996b1ba22f32797e35afb27f"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-05T13:59:50.085Z"
+  }
 }
