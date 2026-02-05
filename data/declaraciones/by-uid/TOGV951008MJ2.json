@@ -1,19 +1,100 @@
 {
   "uid": "TOGV951008MJ2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "VALERIA DE LA TORRE GARCES",
     "nombre_representante_legal": "VALERIA DE LA TORRE GARCES",
     "email": "asantander@paocme.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "VALERIA DE LA TORRE GARCES",
-    "nombre_representante_legal": "VALERIA DE LA TORRE GARCES",
-    "email": "asantander@paocme.com"
+  "personaAutorizada": "Alejandra Santander Guzman",
+  "signedAt": "2026-02-05T14:59:32.223Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TOGV951008MJ2",
+  "signatureMetadata": {
+    "ip": "201.141.27.130",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-05T20:59:38.161Z",
+    "signedAtLocal": "2026-02-05T14:59:38.161Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d2e68e774c41fcdff86c5603d22e16eb62b40254898fb22922de28eb0ad1936a"
+  "documentHash": "98c846420b2e1ed56b90eb8cb27b99d6e12192595c19ba907f78db3bc90fdcbd",
+  "auditTrail": [
+    {
+      "eventId": "60669411-d0ec-4397-932e-e476e85c3157",
+      "uid": "TOGV951008MJ2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T20:57:49.834Z",
+      "timestampLocal": "2026-02-05T20:57:49.834Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.27.130",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TOGV951008MJ2&nombre_proveedor_razon_social=VALERIA+DE+LA+TORRE+GARCES&nombre_representante_legal=VALERIA+DE+LA+TORRE+GARCES&email=asantander%40paocme.com",
+      "previousEventHash": null,
+      "documentHash": "d2e68e774c41fcdff86c5603d22e16eb62b40254898fb22922de28eb0ad1936a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8d0be3d8ed4cfd2debee926e275b43b9b6e6ab1e23f4a279dee4021ded6eb1e9"
+    },
+    {
+      "eventId": "41bede1f-7fa8-4500-a6f7-b0be4a11a4a0",
+      "uid": "TOGV951008MJ2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T20:57:49.834Z",
+      "timestampLocal": "2026-02-05T20:57:49.834Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.27.130",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TOGV951008MJ2&nombre_proveedor_razon_social=VALERIA+DE+LA+TORRE+GARCES&nombre_representante_legal=VALERIA+DE+LA+TORRE+GARCES&email=asantander%40paocme.com",
+      "previousEventHash": "8d0be3d8ed4cfd2debee926e275b43b9b6e6ab1e23f4a279dee4021ded6eb1e9",
+      "documentHash": "d2e68e774c41fcdff86c5603d22e16eb62b40254898fb22922de28eb0ad1936a",
+      "metadata": {
+        "proveedor": "VALERIA DE LA TORRE GARCES",
+        "representante": "VALERIA DE LA TORRE GARCES"
+      },
+      "eventHash": "5e63c6130bed784886e5ae2acd50f7f29d3c7880af46772d5ff4644b202f37c2"
+    },
+    {
+      "eventId": "87c852ad-95ee-42eb-8f53-e3c47172a564",
+      "uid": "TOGV951008MJ2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-05T20:57:50.715Z",
+      "timestampLocal": "2026-02-05T20:57:50.715Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.27.130",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TOGV951008MJ2&nombre_proveedor_razon_social=VALERIA+DE+LA+TORRE+GARCES&nombre_representante_legal=VALERIA+DE+LA+TORRE+GARCES&email=asantander%40paocme.com",
+      "previousEventHash": "5e63c6130bed784886e5ae2acd50f7f29d3c7880af46772d5ff4644b202f37c2",
+      "documentHash": "d2e68e774c41fcdff86c5603d22e16eb62b40254898fb22922de28eb0ad1936a",
+      "eventHash": "c1ecb0ab1fb3ba9033ac9ef570739c3aaed1f6272683c1752d3a14b0f6b29fd7"
+    },
+    {
+      "eventId": "bec90ea0-1506-431e-9bcb-db893cfe469e",
+      "uid": "TOGV951008MJ2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-05T20:59:38.161Z",
+      "timestampLocal": "2026-02-05T14:59:38.161Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.27.130",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/cdd5e1bb-17bd-4414-9c3d-ba73dcb74e6b",
+      "previousEventHash": "c1ecb0ab1fb3ba9033ac9ef570739c3aaed1f6272683c1752d3a14b0f6b29fd7",
+      "documentHash": "98c846420b2e1ed56b90eb8cb27b99d6e12192595c19ba907f78db3bc90fdcbd",
+      "signatureHash": "8fe91214c462945ba65a0ce8c9773aba25f39b1b97b77d4098863e493bfdc7c8",
+      "metadata": {
+        "personaAutorizada": "Alejandra Santander Guzman",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-05T14:59:32.223Z"
+      },
+      "eventHash": "0202e802653e60f1e399313832ae095b73333250b12e27b8ef7a2f5099c99779"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-05T20:59:38.178Z"
+  }
 }
