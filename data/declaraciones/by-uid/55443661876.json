@@ -1,19 +1,988 @@
 {
   "uid": "55443661876",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "Vinícius Dias dos Santos",
     "nombre_representante_legal": "Vinícius Dias dos Santos",
     "email": "vinicius.santos@another.co"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Vinícius Dias dos Santos",
-    "nombre_representante_legal": "Vinícius Dias dos Santos",
-    "email": "vinicius.santos@another.co"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-05T16:56:34.203Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/55443661876",
+  "signatureMetadata": {
+    "ip": "207.223.100.146",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-05T19:56:39.867Z",
+    "signedAtLocal": "2026-02-05T16:56:39.867Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "aa711f9aafe23b8b81ac8a9595b330a3a7fb05a2ee9ebe48313e4de990f6a4a7"
+  "documentHash": "a6f9dc3ca513a57167a85a064a0aba772f8db82c57d81faaa8a3d61b17e80a2c",
+  "auditTrail": [
+    {
+      "eventId": "2d02a466-e2b9-4963-9128-b1651069e9e5",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:33.325Z",
+      "timestampLocal": "2026-02-05T19:55:33.325Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": null,
+      "documentHash": "2b8f83cfa565c3e1d1235715ca37d134dbdb5366f2547d80d586f943dcbc1117",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "57e4056aa79e1dfb6e8716c4b13e5c1cb73a5edec180bb17aea67c439dfba9c7"
+    },
+    {
+      "eventId": "40fe2165-aa61-470b-9359-be94f749fa80",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:33.325Z",
+      "timestampLocal": "2026-02-05T19:55:33.325Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "57e4056aa79e1dfb6e8716c4b13e5c1cb73a5edec180bb17aea67c439dfba9c7",
+      "documentHash": "2b8f83cfa565c3e1d1235715ca37d134dbdb5366f2547d80d586f943dcbc1117",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "994c89d44f233b4b524448ba9d08223792b3763c9e4f1a941e622550178d8a58"
+    },
+    {
+      "eventId": "67beb944-ac95-498e-af57-94dda240f467",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:35.993Z",
+      "timestampLocal": "2026-02-05T19:55:35.993Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "994c89d44f233b4b524448ba9d08223792b3763c9e4f1a941e622550178d8a58",
+      "documentHash": "ef6fd17eda15e8ce2c4de509946bced5627db02ca9c0413e2fcc3982b6f252a4",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "93416463f57f54a860379e6746280f81762c70a5e32e6ab75120e3268ed62deb"
+    },
+    {
+      "eventId": "08b774d5-ae02-4109-96a7-331b8254c14d",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:35.993Z",
+      "timestampLocal": "2026-02-05T19:55:35.993Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "93416463f57f54a860379e6746280f81762c70a5e32e6ab75120e3268ed62deb",
+      "documentHash": "ef6fd17eda15e8ce2c4de509946bced5627db02ca9c0413e2fcc3982b6f252a4",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "72031f0377c0b1e8aa227fd1d1622f0bddc9de888251bd90a55014e6214a9883"
+    },
+    {
+      "eventId": "5dba3831-0aa6-47ca-8194-dc1c3574a0ec",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:37.854Z",
+      "timestampLocal": "2026-02-05T19:55:37.854Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "72031f0377c0b1e8aa227fd1d1622f0bddc9de888251bd90a55014e6214a9883",
+      "documentHash": "832aa6a21ddd97f181697544ee6fc9fd42ac22797fc81d3e5879601a3211f802",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "e53321d53717381874c19f6a7a9878e63d07ab44c9b2452aaf6495b32194d325"
+    },
+    {
+      "eventId": "fecf818f-24d0-47f3-9d2b-ff61069fd31f",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:37.854Z",
+      "timestampLocal": "2026-02-05T19:55:37.854Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "e53321d53717381874c19f6a7a9878e63d07ab44c9b2452aaf6495b32194d325",
+      "documentHash": "832aa6a21ddd97f181697544ee6fc9fd42ac22797fc81d3e5879601a3211f802",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "12dfe56066115da8db2b0084ed7ed9835374853e2d0be80a91cf68138480bb1c"
+    },
+    {
+      "eventId": "d155726e-48e9-4859-a02d-5926ab692557",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:38.650Z",
+      "timestampLocal": "2026-02-05T19:55:38.650Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "12dfe56066115da8db2b0084ed7ed9835374853e2d0be80a91cf68138480bb1c",
+      "documentHash": "59dd8d299617a18156cb370ce6d7a33368883a60aa24cc60c4296aa5707d383d",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "dbdb9fa7bc6cfe62222c5731619edffbadc85a0f04b8197d0f1f43413f7df7d0"
+    },
+    {
+      "eventId": "1253b7a6-bdb0-433c-afe3-017444355b41",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:38.650Z",
+      "timestampLocal": "2026-02-05T19:55:38.650Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "dbdb9fa7bc6cfe62222c5731619edffbadc85a0f04b8197d0f1f43413f7df7d0",
+      "documentHash": "59dd8d299617a18156cb370ce6d7a33368883a60aa24cc60c4296aa5707d383d",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "1216d278d9284e09e285da93a3e3e2ec8f752e21ec4f9b75484cdc5b76e0ea9d"
+    },
+    {
+      "eventId": "67e75b59-f719-4a4e-9e85-364d65c71fc4",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:39.978Z",
+      "timestampLocal": "2026-02-05T19:55:39.978Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "1216d278d9284e09e285da93a3e3e2ec8f752e21ec4f9b75484cdc5b76e0ea9d",
+      "documentHash": "59dd8d299617a18156cb370ce6d7a33368883a60aa24cc60c4296aa5707d383d",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "c156bf6077ac646ca88d915eb2c2aa6ce1a3f1e601c917c22323168a4175e9f7"
+    },
+    {
+      "eventId": "4a073c43-3c5f-44b0-a6a0-a38bce3bf838",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:39.978Z",
+      "timestampLocal": "2026-02-05T19:55:39.978Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "c156bf6077ac646ca88d915eb2c2aa6ce1a3f1e601c917c22323168a4175e9f7",
+      "documentHash": "59dd8d299617a18156cb370ce6d7a33368883a60aa24cc60c4296aa5707d383d",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "92d3f306dde2c5453d0e3d67f2d737c8da02e345b6ec955c6523f69c651b8f54"
+    },
+    {
+      "eventId": "e9fd5d85-a0f5-4014-8058-4cf5fb667d2c",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:40.173Z",
+      "timestampLocal": "2026-02-05T19:55:40.173Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "92d3f306dde2c5453d0e3d67f2d737c8da02e345b6ec955c6523f69c651b8f54",
+      "documentHash": "fd6c4f81a26382fddad3bbc59796006a14fb78845f4b7e2d580a6c5b57d507ff",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "303c913597cc6a7ec3c902a9945e500e3904ddec78f3650e458488fe1846b2bc"
+    },
+    {
+      "eventId": "8ddd8efa-5609-46fb-bb7f-6693622e18ef",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:40.173Z",
+      "timestampLocal": "2026-02-05T19:55:40.173Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "303c913597cc6a7ec3c902a9945e500e3904ddec78f3650e458488fe1846b2bc",
+      "documentHash": "fd6c4f81a26382fddad3bbc59796006a14fb78845f4b7e2d580a6c5b57d507ff",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "f97734dca0e586e5ec64f0969cee0c424a2ac18f3a7054105ed51208cbf642c9"
+    },
+    {
+      "eventId": "e7f18f4d-4fb2-42b4-b9f4-8d78c526692f",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:40.366Z",
+      "timestampLocal": "2026-02-05T19:55:40.366Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "f97734dca0e586e5ec64f0969cee0c424a2ac18f3a7054105ed51208cbf642c9",
+      "documentHash": "fd6c4f81a26382fddad3bbc59796006a14fb78845f4b7e2d580a6c5b57d507ff",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "70acee05d9be0cd0ae4e8c35e2383e57fad1d49fb4bd35920e401d75c05418f7"
+    },
+    {
+      "eventId": "a3d07517-b93a-48e7-9967-00e5d15662ee",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:40.366Z",
+      "timestampLocal": "2026-02-05T19:55:40.366Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "70acee05d9be0cd0ae4e8c35e2383e57fad1d49fb4bd35920e401d75c05418f7",
+      "documentHash": "fd6c4f81a26382fddad3bbc59796006a14fb78845f4b7e2d580a6c5b57d507ff",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "357d2aee407a05999fbbce1c0f912190989e1ceccbb8ea56bd654bf4e95428cd"
+    },
+    {
+      "eventId": "43ce4b8f-2b49-4e5e-aaab-59faedc47765",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:40.499Z",
+      "timestampLocal": "2026-02-05T19:55:40.499Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "357d2aee407a05999fbbce1c0f912190989e1ceccbb8ea56bd654bf4e95428cd",
+      "documentHash": "fd6c4f81a26382fddad3bbc59796006a14fb78845f4b7e2d580a6c5b57d507ff",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "ad506494ab9efebb67eec289198413544fcdd841c65821f4d6c751bcaefb33ca"
+    },
+    {
+      "eventId": "442545eb-b932-4e8c-9ddb-ef74ca913572",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:40.500Z",
+      "timestampLocal": "2026-02-05T19:55:40.500Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "ad506494ab9efebb67eec289198413544fcdd841c65821f4d6c751bcaefb33ca",
+      "documentHash": "fd6c4f81a26382fddad3bbc59796006a14fb78845f4b7e2d580a6c5b57d507ff",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "1e76413bd518072c9eb9b01565f389294a0b25a545e049e39b418c2b358f9a38"
+    },
+    {
+      "eventId": "d4421a65-93ce-4b11-b7a6-b42c0e53684f",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:40.678Z",
+      "timestampLocal": "2026-02-05T19:55:40.678Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "1e76413bd518072c9eb9b01565f389294a0b25a545e049e39b418c2b358f9a38",
+      "documentHash": "fd6c4f81a26382fddad3bbc59796006a14fb78845f4b7e2d580a6c5b57d507ff",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "3b4c1860cc1d54fd275f26616212cd51202d17a9d3bb4e0027afadf131ec52ce"
+    },
+    {
+      "eventId": "5b36ff4a-af4b-49db-8207-ba744a106ae3",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:40.678Z",
+      "timestampLocal": "2026-02-05T19:55:40.678Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "3b4c1860cc1d54fd275f26616212cd51202d17a9d3bb4e0027afadf131ec52ce",
+      "documentHash": "fd6c4f81a26382fddad3bbc59796006a14fb78845f4b7e2d580a6c5b57d507ff",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "41a23edabe5a8c6478b66d74fb019c2ae14ca3b47bbb9421350988d0a25b014e"
+    },
+    {
+      "eventId": "464d746e-c42c-4bb3-bac1-383f5282a26b",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:40.876Z",
+      "timestampLocal": "2026-02-05T19:55:40.876Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "41a23edabe5a8c6478b66d74fb019c2ae14ca3b47bbb9421350988d0a25b014e",
+      "documentHash": "fd6c4f81a26382fddad3bbc59796006a14fb78845f4b7e2d580a6c5b57d507ff",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "effc127cf94204a7c407f3d3971148d51f98b55653d524d70bb33e8c4f8e4c10"
+    },
+    {
+      "eventId": "0e729397-0790-4289-a566-c2c9dffda4ac",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:40.876Z",
+      "timestampLocal": "2026-02-05T19:55:40.876Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "effc127cf94204a7c407f3d3971148d51f98b55653d524d70bb33e8c4f8e4c10",
+      "documentHash": "fd6c4f81a26382fddad3bbc59796006a14fb78845f4b7e2d580a6c5b57d507ff",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "85743704424cc1c8b5ed5e16e9b9213d932c3505eaef825f246cb24639ad335e"
+    },
+    {
+      "eventId": "851d17e0-65dc-4edc-8ed3-fbdf7aa36544",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:41.363Z",
+      "timestampLocal": "2026-02-05T19:55:41.363Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "85743704424cc1c8b5ed5e16e9b9213d932c3505eaef825f246cb24639ad335e",
+      "documentHash": "fd6c4f81a26382fddad3bbc59796006a14fb78845f4b7e2d580a6c5b57d507ff",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "b7be8ad2531100bfda06e460dd1adbc3deac22c0c55863f0565f94be3309824b"
+    },
+    {
+      "eventId": "d6890f01-e07d-4b3e-a587-4ad96f3efcec",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:41.363Z",
+      "timestampLocal": "2026-02-05T19:55:41.363Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "b7be8ad2531100bfda06e460dd1adbc3deac22c0c55863f0565f94be3309824b",
+      "documentHash": "fd6c4f81a26382fddad3bbc59796006a14fb78845f4b7e2d580a6c5b57d507ff",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "8a40f24c7cedd856d4fe56efa38510c12891c4062d32666eef300fc8372bf677"
+    },
+    {
+      "eventId": "c4ca68a4-4506-404b-9235-2322e76eefcc",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:42.742Z",
+      "timestampLocal": "2026-02-05T19:55:42.742Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "8a40f24c7cedd856d4fe56efa38510c12891c4062d32666eef300fc8372bf677",
+      "documentHash": "9d577b2024257c465a331a2d768b230536587d800867a2d3951940da6894d3ce",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "158142b1ae491b4ac5063b71e2e10f1eebbca7008faf04f6f93865d813625673"
+    },
+    {
+      "eventId": "c65e7dc2-9a51-4864-b46f-0bb27a933f4a",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:42.742Z",
+      "timestampLocal": "2026-02-05T19:55:42.742Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "158142b1ae491b4ac5063b71e2e10f1eebbca7008faf04f6f93865d813625673",
+      "documentHash": "9d577b2024257c465a331a2d768b230536587d800867a2d3951940da6894d3ce",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "069f59f9045c2894cb3c1cc52ddc70fe5e88e4ffecc84c3dbbbc0beab27426d2"
+    },
+    {
+      "eventId": "e476fa39-873f-451f-bfc6-973c868dd121",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:43.267Z",
+      "timestampLocal": "2026-02-05T19:55:43.267Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "069f59f9045c2894cb3c1cc52ddc70fe5e88e4ffecc84c3dbbbc0beab27426d2",
+      "documentHash": "9d577b2024257c465a331a2d768b230536587d800867a2d3951940da6894d3ce",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "e8622c2823a357c084f36300036181b5db2462cfab1f60abbfe75e595b266d59"
+    },
+    {
+      "eventId": "a69af1d1-18c3-45b2-b648-d91c6e51229a",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:43.267Z",
+      "timestampLocal": "2026-02-05T19:55:43.267Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "e8622c2823a357c084f36300036181b5db2462cfab1f60abbfe75e595b266d59",
+      "documentHash": "9d577b2024257c465a331a2d768b230536587d800867a2d3951940da6894d3ce",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "9d4223550038fa01eab758b9d7562a33d0cd73588b39483d0b084617aaf18b75"
+    },
+    {
+      "eventId": "bcc75177-9408-4197-90e3-53ef69a96594",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:43.437Z",
+      "timestampLocal": "2026-02-05T19:55:43.437Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "9d4223550038fa01eab758b9d7562a33d0cd73588b39483d0b084617aaf18b75",
+      "documentHash": "9d577b2024257c465a331a2d768b230536587d800867a2d3951940da6894d3ce",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "0196384a41e67175fa8738ebfc9f07bd3a30c4e58e03eab3eb3181ddde832872"
+    },
+    {
+      "eventId": "9b7da0e0-05f0-4013-bdc2-31ceae745b61",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:43.437Z",
+      "timestampLocal": "2026-02-05T19:55:43.437Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "0196384a41e67175fa8738ebfc9f07bd3a30c4e58e03eab3eb3181ddde832872",
+      "documentHash": "9d577b2024257c465a331a2d768b230536587d800867a2d3951940da6894d3ce",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "f3922370b7beb58c2c0c019242ae0690c2c587c025b4599fa556faf88e53827b"
+    },
+    {
+      "eventId": "00446224-7d36-4672-827f-8d74bee789b1",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:43.692Z",
+      "timestampLocal": "2026-02-05T19:55:43.692Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "f3922370b7beb58c2c0c019242ae0690c2c587c025b4599fa556faf88e53827b",
+      "documentHash": "9d577b2024257c465a331a2d768b230536587d800867a2d3951940da6894d3ce",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "2be84b57058662afd87f55df9d421e4682116fb88b62828b5a7df25178dfd44b"
+    },
+    {
+      "eventId": "917fd8f3-e631-4644-9dbb-3a80fec606ae",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:43.692Z",
+      "timestampLocal": "2026-02-05T19:55:43.692Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "2be84b57058662afd87f55df9d421e4682116fb88b62828b5a7df25178dfd44b",
+      "documentHash": "9d577b2024257c465a331a2d768b230536587d800867a2d3951940da6894d3ce",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "eb742eb915ef09083af2fec55f2b37127921c48796b840383145ea01c30b05a3"
+    },
+    {
+      "eventId": "cfcf2e02-f104-40d3-9e8e-b39745b1969f",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:43.785Z",
+      "timestampLocal": "2026-02-05T19:55:43.785Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "eb742eb915ef09083af2fec55f2b37127921c48796b840383145ea01c30b05a3",
+      "documentHash": "9d577b2024257c465a331a2d768b230536587d800867a2d3951940da6894d3ce",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "c7f28248e6d0ba2cc3f76d8c6cb73e914dcf8bfdff31d84fe22778f9ef27b652"
+    },
+    {
+      "eventId": "89307ff6-f5fc-4e30-8866-26806a68a436",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:43.785Z",
+      "timestampLocal": "2026-02-05T19:55:43.785Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "c7f28248e6d0ba2cc3f76d8c6cb73e914dcf8bfdff31d84fe22778f9ef27b652",
+      "documentHash": "9d577b2024257c465a331a2d768b230536587d800867a2d3951940da6894d3ce",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "fc1b0bd02678d9327282d603c7b70f68207dcedc396d4364a2ac3705e9d0348e"
+    },
+    {
+      "eventId": "be7e39c8-66d3-4046-a63c-228b106d8b69",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:44.073Z",
+      "timestampLocal": "2026-02-05T19:55:44.073Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "fc1b0bd02678d9327282d603c7b70f68207dcedc396d4364a2ac3705e9d0348e",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "20f8d3566ade0935e3ea82d6fadb3db1fe5bdeee4f75fdd21fe6bf543142400e"
+    },
+    {
+      "eventId": "1739ce7d-a03a-4efa-8a19-333f2364fd1c",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:44.073Z",
+      "timestampLocal": "2026-02-05T19:55:44.073Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "20f8d3566ade0935e3ea82d6fadb3db1fe5bdeee4f75fdd21fe6bf543142400e",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "2cea5070f527f57d23aab5b9f80b5d4f4de43e4edd73c4be9023421ea581d111"
+    },
+    {
+      "eventId": "487b8cfb-b432-4cbe-a20e-0045607a3d53",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:44.327Z",
+      "timestampLocal": "2026-02-05T19:55:44.327Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "2cea5070f527f57d23aab5b9f80b5d4f4de43e4edd73c4be9023421ea581d111",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "ab6d2a60b2044f6773703f9bdb7fed260c8862aef20f927a1341359ea9a48e7d"
+    },
+    {
+      "eventId": "38abace6-82a5-4874-b03f-40102a584951",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:44.327Z",
+      "timestampLocal": "2026-02-05T19:55:44.327Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "ab6d2a60b2044f6773703f9bdb7fed260c8862aef20f927a1341359ea9a48e7d",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "de00bab11b7cab1a2f78021913be770396a53b1a20ae6a26b6d9465673597779"
+    },
+    {
+      "eventId": "afd43774-7c1b-44de-b8ec-c63460fcc406",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:44.703Z",
+      "timestampLocal": "2026-02-05T19:55:44.703Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "de00bab11b7cab1a2f78021913be770396a53b1a20ae6a26b6d9465673597779",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "3618a27925a50cd6098715eea5945e472958ac14ba836ad7e9523c63b2803c88"
+    },
+    {
+      "eventId": "85aad79a-27f1-4155-8c05-ce695c6d21c3",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:44.703Z",
+      "timestampLocal": "2026-02-05T19:55:44.703Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "3618a27925a50cd6098715eea5945e472958ac14ba836ad7e9523c63b2803c88",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "563e1eed8ee05da057202a1421030b199254ffd7c303a359f1b9379ed028fcd1"
+    },
+    {
+      "eventId": "0ecc6366-0ce3-4527-a4ee-30a32be9cdf0",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:44.793Z",
+      "timestampLocal": "2026-02-05T19:55:44.793Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "563e1eed8ee05da057202a1421030b199254ffd7c303a359f1b9379ed028fcd1",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "3e6a17ca001fe4108203a72ef61c64e3eba1b10c808cfa2b235fee70c214ad50"
+    },
+    {
+      "eventId": "c0ff94de-9647-4055-85e9-4464d43f241c",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:44.793Z",
+      "timestampLocal": "2026-02-05T19:55:44.793Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "3e6a17ca001fe4108203a72ef61c64e3eba1b10c808cfa2b235fee70c214ad50",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "1b60cff930a54b1540ff624234e404ac34c663d4bcf0958b29060c1748386686"
+    },
+    {
+      "eventId": "13d9629c-400c-47d8-8d9d-ec6ad5013a19",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:44.990Z",
+      "timestampLocal": "2026-02-05T19:55:44.990Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "1b60cff930a54b1540ff624234e404ac34c663d4bcf0958b29060c1748386686",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "26ec9913d59455a5218a90ad07a447cd1b18fecd5c89f1f2939e69e33b101911"
+    },
+    {
+      "eventId": "2cc4ba1a-dffe-4b7f-8b54-a58658c97c18",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:44.990Z",
+      "timestampLocal": "2026-02-05T19:55:44.990Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "26ec9913d59455a5218a90ad07a447cd1b18fecd5c89f1f2939e69e33b101911",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "9934f0ec397539ca499d0d4f836da7fd939efcc23a37c5ebb9d7e50df8593601"
+    },
+    {
+      "eventId": "c6da9bbc-20ce-4ad0-a555-29d1446975a9",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:45.206Z",
+      "timestampLocal": "2026-02-05T19:55:45.206Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "9934f0ec397539ca499d0d4f836da7fd939efcc23a37c5ebb9d7e50df8593601",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "4c63b4e3aa288050d9693963aa2d83063725bd1d137b21e4cfba112bebd820d1"
+    },
+    {
+      "eventId": "7f2cb865-7daf-4ab0-94de-9be91f9e39dd",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:45.206Z",
+      "timestampLocal": "2026-02-05T19:55:45.206Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "4c63b4e3aa288050d9693963aa2d83063725bd1d137b21e4cfba112bebd820d1",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "52b061f134d0125683ba896b2b5d1c9f57c47d1e4b319d48785478bc4806f739"
+    },
+    {
+      "eventId": "5c4d351f-be30-46cf-b225-1ead05282d5b",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:45.407Z",
+      "timestampLocal": "2026-02-05T19:55:45.407Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "52b061f134d0125683ba896b2b5d1c9f57c47d1e4b319d48785478bc4806f739",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "6abb284f67b37c4f809b94db6e497f9edd4f19e7dc9152a7a152a780ed1c96a5"
+    },
+    {
+      "eventId": "501b9b8c-2c71-4d40-a95c-48cac9be30a1",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:45.407Z",
+      "timestampLocal": "2026-02-05T19:55:45.407Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "6abb284f67b37c4f809b94db6e497f9edd4f19e7dc9152a7a152a780ed1c96a5",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "d2261baf6672476afcc4600223b65370b5a04733e5de39c4bdab538fd1c8ffc3"
+    },
+    {
+      "eventId": "168a78c7-d354-4a24-9a77-fcfa14778fd3",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:45.656Z",
+      "timestampLocal": "2026-02-05T19:55:45.656Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "d2261baf6672476afcc4600223b65370b5a04733e5de39c4bdab538fd1c8ffc3",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "fb95411d22b977fc6c3201945a101296e5ca50a64dc7f50c8ec3f5d50e7b2bb1"
+    },
+    {
+      "eventId": "f88af796-a764-4994-b140-543b814dfecf",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:45.656Z",
+      "timestampLocal": "2026-02-05T19:55:45.656Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "fb95411d22b977fc6c3201945a101296e5ca50a64dc7f50c8ec3f5d50e7b2bb1",
+      "documentHash": "375583df485571df4561fe1ef8204552047fe0ac41a5c2620c09279135821c1a",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "b222fa5a06c29b3dd7fa274a209a21bf9f43901720c5bc7630c60551ad388078"
+    },
+    {
+      "eventId": "cab8d757-c332-4ee1-91bd-891d35c23d51",
+      "uid": "55443661876",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:55:46.214Z",
+      "timestampLocal": "2026-02-05T19:55:46.214Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "b222fa5a06c29b3dd7fa274a209a21bf9f43901720c5bc7630c60551ad388078",
+      "documentHash": "aa711f9aafe23b8b81ac8a9595b330a3a7fb05a2ee9ebe48313e4de990f6a4a7",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "e3f7b077c680f2388d5757028e0fb6c01e53836dbf94e4444c38a5f9a81bb244"
+    },
+    {
+      "eventId": "c0e7e87e-df24-46f0-b644-40a045104e1b",
+      "uid": "55443661876",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:55:46.215Z",
+      "timestampLocal": "2026-02-05T19:55:46.215Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "e3f7b077c680f2388d5757028e0fb6c01e53836dbf94e4444c38a5f9a81bb244",
+      "documentHash": "aa711f9aafe23b8b81ac8a9595b330a3a7fb05a2ee9ebe48313e4de990f6a4a7",
+      "metadata": {
+        "proveedor": "Vinícius Dias dos Santos",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "6b6527c9454a61735c684a5e29acc372f415d88c72074701a07a2729435d9927"
+    },
+    {
+      "eventId": "193d4754-a800-4a75-95e4-f8b56003a80e",
+      "uid": "55443661876",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-05T19:55:47.136Z",
+      "timestampLocal": "2026-02-05T19:55:47.136Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55443661876&nombre_proveedor_razon_social=Vin%C3%ADcius+Dias+dos+Santos&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "6b6527c9454a61735c684a5e29acc372f415d88c72074701a07a2729435d9927",
+      "documentHash": "aa711f9aafe23b8b81ac8a9595b330a3a7fb05a2ee9ebe48313e4de990f6a4a7",
+      "eventHash": "2e6ff9e97c70bcaeb5abcadbdda320396be3d9ef58adede8d620d14c2a1f2160"
+    },
+    {
+      "eventId": "7605848f-cdc3-4978-be47-be3af9011aea",
+      "uid": "55443661876",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-05T19:56:39.867Z",
+      "timestampLocal": "2026-02-05T16:56:39.867Z",
+      "timezone": "UTC-3",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1105c42a-e23c-483c-bbd5-ad894a9c327c",
+      "previousEventHash": "2e6ff9e97c70bcaeb5abcadbdda320396be3d9ef58adede8d620d14c2a1f2160",
+      "documentHash": "a6f9dc3ca513a57167a85a064a0aba772f8db82c57d81faaa8a3d61b17e80a2c",
+      "signatureHash": "d98d392fda1afe848b4c68baf438662b000654e7dcc003818c9676efa2b1f016",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-05T16:56:34.203Z"
+      },
+      "eventHash": "50ac8574fcac419ab2345c2eb595c596b028ed4f113fc036a5a85909e13fba6a"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 52,
+    "verifiedAt": "2026-02-05T19:56:39.875Z"
+  }
 }
