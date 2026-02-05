@@ -1,19 +1,100 @@
 {
   "uid": "901729828",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Marmax Entertainment SAS",
     "nombre_representante_legal": "Gladys Garcia",
     "email": "info@mariajosearroyo.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Marmax Entertainment SAS",
-    "nombre_representante_legal": "Gladys Garcia",
-    "email": "info@mariajosearroyo.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-05T10:08:28.541Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/901729828",
+  "signatureMetadata": {
+    "ip": "190.66.253.63",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-05T15:08:31.968Z",
+    "signedAtLocal": "2026-02-05T10:08:31.968Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4fbccaa1e9dcbe12a51c5e20e53691c3fb191d223c9f10cbed50e2e367b8e924"
+  "documentHash": "054983db0df966290445823530b647a5feb31e5da79cc82376996b0e5fdf07bd",
+  "auditTrail": [
+    {
+      "eventId": "657aaedf-2bd4-4d33-9fed-6690929b0019",
+      "uid": "901729828",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T15:07:28.219Z",
+      "timestampLocal": "2026-02-05T15:07:28.219Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.66.253.63",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,hr;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901729828&nombre_proveedor_razon_social=Marmax+Entertainment+SAS&nombre_representante_legal=Gladys+Garcia&email=info%40mariajosearroyo.com",
+      "previousEventHash": null,
+      "documentHash": "4fbccaa1e9dcbe12a51c5e20e53691c3fb191d223c9f10cbed50e2e367b8e924",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c4d55233787bf727cffcc65f8644de9939efe0a69f03ba940f7450dcafff9914"
+    },
+    {
+      "eventId": "acd23a7d-acdd-447f-8876-16e9ddf061d1",
+      "uid": "901729828",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T15:07:28.219Z",
+      "timestampLocal": "2026-02-05T15:07:28.219Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.66.253.63",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,hr;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901729828&nombre_proveedor_razon_social=Marmax+Entertainment+SAS&nombre_representante_legal=Gladys+Garcia&email=info%40mariajosearroyo.com",
+      "previousEventHash": "c4d55233787bf727cffcc65f8644de9939efe0a69f03ba940f7450dcafff9914",
+      "documentHash": "4fbccaa1e9dcbe12a51c5e20e53691c3fb191d223c9f10cbed50e2e367b8e924",
+      "metadata": {
+        "proveedor": "Marmax Entertainment SAS",
+        "representante": "Gladys Garcia"
+      },
+      "eventHash": "1b60e7cfbb7dee36385de35a2e2b21d61801d1ba411ba97463faf664d5eab5ac"
+    },
+    {
+      "eventId": "75788ba8-3dd2-45a8-b29a-3dfdc99ac25f",
+      "uid": "901729828",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-05T15:07:29.310Z",
+      "timestampLocal": "2026-02-05T15:07:29.310Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.66.253.63",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,hr;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901729828&nombre_proveedor_razon_social=Marmax+Entertainment+SAS&nombre_representante_legal=Gladys+Garcia&email=info%40mariajosearroyo.com",
+      "previousEventHash": "1b60e7cfbb7dee36385de35a2e2b21d61801d1ba411ba97463faf664d5eab5ac",
+      "documentHash": "4fbccaa1e9dcbe12a51c5e20e53691c3fb191d223c9f10cbed50e2e367b8e924",
+      "eventHash": "62384e7def2f328941f1c4a917fb4e0b104477d1d87286133e9968568333bebc"
+    },
+    {
+      "eventId": "47f2c6ed-4ec9-493c-ade0-5f6cee168261",
+      "uid": "901729828",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-05T15:08:31.968Z",
+      "timestampLocal": "2026-02-05T10:08:31.968Z",
+      "timezone": "UTC-5",
+      "ipAddress": "190.66.253.63",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,hr;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/3fdd0dbc-590e-41ce-ba20-634f58184b88",
+      "previousEventHash": "62384e7def2f328941f1c4a917fb4e0b104477d1d87286133e9968568333bebc",
+      "documentHash": "054983db0df966290445823530b647a5feb31e5da79cc82376996b0e5fdf07bd",
+      "signatureHash": "42f345f8a92e249d62ab89e193ec12c82defb0d571f309a376d0f916a6198dcd",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-05T10:08:28.541Z"
+      },
+      "eventHash": "26de49382a4e02c1592a39d6e703cacfe635d4dcf459713a4bf7e269640fe353"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-05T15:08:31.978Z"
+  }
 }
