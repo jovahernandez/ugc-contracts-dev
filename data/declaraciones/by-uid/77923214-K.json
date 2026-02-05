@@ -1,19 +1,100 @@
 {
   "uid": "77923214-K",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Thomas Fotografia SpA",
     "nombre_representante_legal": "Ana Laura Thomas",
     "email": "anitathomasphoto@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Thomas Fotografia SpA",
-    "nombre_representante_legal": "Ana Laura Thomas",
-    "email": "anitathomasphoto@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-05T14:26:04.365Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/77923214-K",
+  "signatureMetadata": {
+    "ip": "186.106.44.150",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+    "signedAtUtc": "2026-02-05T17:26:07.747Z",
+    "signedAtLocal": "2026-02-05T14:26:07.747Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c1dfa3ec57af73de808e4df0c051a88f49cccf329e0ca79bf0f57833b0f57167"
+  "documentHash": "7bded66952af0adddc404c4fa7f225ac2985ecc78b37f548d7bace3fe1d2f25d",
+  "auditTrail": [
+    {
+      "eventId": "32c0fd70-50a7-4875-9e8a-404266911faf",
+      "uid": "77923214-K",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T17:25:04.869Z",
+      "timestampLocal": "2026-02-05T17:25:04.869Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.106.44.150",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5,gd;q=0.4,pt-PT;q=0.3,pt;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=77923214-K&nombre_proveedor_razon_social=Thomas+Fotografia+SpA&nombre_representante_legal=Ana+Laura+Thomas&email=anitathomasphoto%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "c1dfa3ec57af73de808e4df0c051a88f49cccf329e0ca79bf0f57833b0f57167",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "13df2788d28aad57fc3d60d8b35cc8259520e6fbe8823b6cf85bb9613b65e8a6"
+    },
+    {
+      "eventId": "90b53c5b-a821-4ff4-8f5a-8ec447404dd4",
+      "uid": "77923214-K",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T17:25:04.869Z",
+      "timestampLocal": "2026-02-05T17:25:04.869Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.106.44.150",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5,gd;q=0.4,pt-PT;q=0.3,pt;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=77923214-K&nombre_proveedor_razon_social=Thomas+Fotografia+SpA&nombre_representante_legal=Ana+Laura+Thomas&email=anitathomasphoto%40gmail.com",
+      "previousEventHash": "13df2788d28aad57fc3d60d8b35cc8259520e6fbe8823b6cf85bb9613b65e8a6",
+      "documentHash": "c1dfa3ec57af73de808e4df0c051a88f49cccf329e0ca79bf0f57833b0f57167",
+      "metadata": {
+        "proveedor": "Thomas Fotografia SpA",
+        "representante": "Ana Laura Thomas"
+      },
+      "eventHash": "bc73a530b6d543c5e4c6d8c263def2f1777241a373b90d8b5dd928b13c1c19b2"
+    },
+    {
+      "eventId": "3f2eeab1-65be-4d3d-84b5-b59a8ebc0889",
+      "uid": "77923214-K",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-05T17:25:05.997Z",
+      "timestampLocal": "2026-02-05T17:25:05.997Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.106.44.150",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5,gd;q=0.4,pt-PT;q=0.3,pt;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=77923214-K&nombre_proveedor_razon_social=Thomas+Fotografia+SpA&nombre_representante_legal=Ana+Laura+Thomas&email=anitathomasphoto%40gmail.com",
+      "previousEventHash": "bc73a530b6d543c5e4c6d8c263def2f1777241a373b90d8b5dd928b13c1c19b2",
+      "documentHash": "c1dfa3ec57af73de808e4df0c051a88f49cccf329e0ca79bf0f57833b0f57167",
+      "eventHash": "e70aa5852b0cebc1045e3ddfa73b0824d8b624c992fd851d3c5ae5fdc1b6801b"
+    },
+    {
+      "eventId": "c7766204-ec9f-4d80-b65f-26860b80f25d",
+      "uid": "77923214-K",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-05T17:26:07.747Z",
+      "timestampLocal": "2026-02-05T14:26:07.747Z",
+      "timezone": "UTC-3",
+      "ipAddress": "186.106.44.150",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5,gd;q=0.4,pt-PT;q=0.3,pt;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5d451e53-36ed-46bf-b85b-3b33e5e9a53e",
+      "previousEventHash": "e70aa5852b0cebc1045e3ddfa73b0824d8b624c992fd851d3c5ae5fdc1b6801b",
+      "documentHash": "7bded66952af0adddc404c4fa7f225ac2985ecc78b37f548d7bace3fe1d2f25d",
+      "signatureHash": "ed3184ab25ad4ed8dbf6b943cf78ca86c950637990b36d5d34849e14c4ea5210",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-05T14:26:04.365Z"
+      },
+      "eventHash": "534e9d6ddc2163745afabd4e61943de4f4b78ffbacee9d2ffcd25af438b022f9"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-05T17:26:07.747Z"
+  }
 }
