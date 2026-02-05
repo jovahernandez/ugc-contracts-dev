@@ -1,19 +1,100 @@
 {
   "uid": "CAAF9012108N4",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MARIA FERNANDA CARMONA ARAMBULA",
     "nombre_representante_legal": "MARIA FERNANDA CARMONA ARAMBULA",
     "email": "drafernandacarmona@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MARIA FERNANDA CARMONA ARAMBULA",
-    "nombre_representante_legal": "MARIA FERNANDA CARMONA ARAMBULA",
-    "email": "drafernandacarmona@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-05T13:32:20.968Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CAAF9012108N4",
+  "signatureMetadata": {
+    "ip": "187.190.202.252",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+    "signedAtUtc": "2026-02-05T19:32:24.422Z",
+    "signedAtLocal": "2026-02-05T13:32:24.422Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ad5d47e2dbbb94e8774e1371096caf90cf44b624c5f0a6cb5110a4eeb2473820"
+  "documentHash": "a37f8abb406d3e4ce3bf7c8178bae4b6582ed48b7b5701102087fbefa70ead3f",
+  "auditTrail": [
+    {
+      "eventId": "3fed5df3-88a9-43b8-abd1-9953f743265f",
+      "uid": "CAAF9012108N4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-05T19:31:59.109Z",
+      "timestampLocal": "2026-02-05T19:31:59.109Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.202.252",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "ad5d47e2dbbb94e8774e1371096caf90cf44b624c5f0a6cb5110a4eeb2473820",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "318ac34c1aa2c90b94c2d74c547ada6da2ae8dfdb721efdcb068f34beacfface"
+    },
+    {
+      "eventId": "e17c0338-c66d-41cc-a246-44aba6add0a9",
+      "uid": "CAAF9012108N4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-05T19:31:59.109Z",
+      "timestampLocal": "2026-02-05T19:31:59.109Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.202.252",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "318ac34c1aa2c90b94c2d74c547ada6da2ae8dfdb721efdcb068f34beacfface",
+      "documentHash": "ad5d47e2dbbb94e8774e1371096caf90cf44b624c5f0a6cb5110a4eeb2473820",
+      "metadata": {
+        "proveedor": "MARIA FERNANDA CARMONA ARAMBULA",
+        "representante": "MARIA FERNANDA CARMONA ARAMBULA"
+      },
+      "eventHash": "863299dc235fc6e80a03094a331a92985b3944cfec41d93d748d1753cb6e5341"
+    },
+    {
+      "eventId": "ee211f8f-3b6e-46ff-88da-246fa12ef0fd",
+      "uid": "CAAF9012108N4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-05T19:32:00.043Z",
+      "timestampLocal": "2026-02-05T19:32:00.043Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.202.252",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "863299dc235fc6e80a03094a331a92985b3944cfec41d93d748d1753cb6e5341",
+      "documentHash": "ad5d47e2dbbb94e8774e1371096caf90cf44b624c5f0a6cb5110a4eeb2473820",
+      "eventHash": "76d6def93dd04e4103a71b28a3bcb07328cb590b50793b5fb6230ac9a3bb4523"
+    },
+    {
+      "eventId": "c16cd363-b4a9-4adb-8c11-0910cf64160e",
+      "uid": "CAAF9012108N4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-05T19:32:24.422Z",
+      "timestampLocal": "2026-02-05T13:32:24.422Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.202.252",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "76d6def93dd04e4103a71b28a3bcb07328cb590b50793b5fb6230ac9a3bb4523",
+      "documentHash": "a37f8abb406d3e4ce3bf7c8178bae4b6582ed48b7b5701102087fbefa70ead3f",
+      "signatureHash": "c5cba08ad2c0ae0bcf3072b08cbf240b6157a8e62d3ca70fb70c075285e46cbd",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-05T13:32:20.968Z"
+      },
+      "eventHash": "e92cd8a6c3e8d37492967b0ff32c50b2bbe792c3c141be8128389c4314bfe14b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-05T19:32:24.423Z"
+  }
 }
