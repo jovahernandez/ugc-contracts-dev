@@ -1,19 +1,100 @@
 {
   "uid": "1140845677",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Nicole Ravachi",
     "nombre_representante_legal": "Nicole Ravachi",
     "email": "nr@nicoleravachi.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Nicole Ravachi",
-    "nombre_representante_legal": "Nicole Ravachi",
-    "email": "nr@nicoleravachi.com"
+  "personaAutorizada": "Nicole ravachi ",
+  "signedAt": "2026-02-06T12:37:40.420Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/1140845677",
+  "signatureMetadata": {
+    "ip": "190.84.119.128",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+    "signedAtUtc": "2026-02-06T17:37:46.018Z",
+    "signedAtLocal": "2026-02-06T12:37:46.018Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "38d50beae3837f8944423126368bcb5b8b23eacae775d075daeaa26150dc0bd6"
+  "documentHash": "bacb93ea79627748bee1ce98f054dbc9481b2399daf0286d0c620d4f6ffcefeb",
+  "auditTrail": [
+    {
+      "eventId": "8becb913-59c7-4bc4-8fb5-6b3081efaadc",
+      "uid": "1140845677",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-06T17:35:24.543Z",
+      "timestampLocal": "2026-02-06T17:35:24.543Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.84.119.128",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-US,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "38d50beae3837f8944423126368bcb5b8b23eacae775d075daeaa26150dc0bd6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ff5b85f9fec17814aea7caab4425e6bb0571e0f9c5b8573904bf5b7124cb6dfc"
+    },
+    {
+      "eventId": "eca7e086-338a-41c8-8b1d-3f2d9208980a",
+      "uid": "1140845677",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-06T17:35:24.543Z",
+      "timestampLocal": "2026-02-06T17:35:24.543Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.84.119.128",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-US,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ff5b85f9fec17814aea7caab4425e6bb0571e0f9c5b8573904bf5b7124cb6dfc",
+      "documentHash": "38d50beae3837f8944423126368bcb5b8b23eacae775d075daeaa26150dc0bd6",
+      "metadata": {
+        "proveedor": "Nicole Ravachi",
+        "representante": "Nicole Ravachi"
+      },
+      "eventHash": "a4e504f6eba0ce881a3b34f9547ccab6e7d9fc95bc2a4d0c11177fbe03ac52e5"
+    },
+    {
+      "eventId": "40654a19-d0e3-46f3-87dc-6112fd40667f",
+      "uid": "1140845677",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-06T17:35:25.706Z",
+      "timestampLocal": "2026-02-06T17:35:25.706Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.84.119.128",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-US,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a4e504f6eba0ce881a3b34f9547ccab6e7d9fc95bc2a4d0c11177fbe03ac52e5",
+      "documentHash": "38d50beae3837f8944423126368bcb5b8b23eacae775d075daeaa26150dc0bd6",
+      "eventHash": "10a1f891e5eafded094a639505f0bc567d7dc2b933c41654cac844a516eb2899"
+    },
+    {
+      "eventId": "b569001f-246b-4a9c-b592-4c9b45a43d36",
+      "uid": "1140845677",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-06T17:37:46.018Z",
+      "timestampLocal": "2026-02-06T12:37:46.018Z",
+      "timezone": "UTC-5",
+      "ipAddress": "190.84.119.128",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-US,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "10a1f891e5eafded094a639505f0bc567d7dc2b933c41654cac844a516eb2899",
+      "documentHash": "bacb93ea79627748bee1ce98f054dbc9481b2399daf0286d0c620d4f6ffcefeb",
+      "signatureHash": "1596f69458c0bc70840db4c8e200b3914956f7b088d51c5b047f7cec3a428083",
+      "metadata": {
+        "personaAutorizada": "Nicole ravachi ",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-06T12:37:40.420Z"
+      },
+      "eventHash": "187ce4dfc7c4f9cb9759fe58cccf6b2b4f1fa9df0df1d9364eba515672731512"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-06T17:37:46.018Z"
+  }
 }
