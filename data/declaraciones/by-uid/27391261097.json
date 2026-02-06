@@ -1,19 +1,100 @@
 {
   "uid": "27391261097",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CAROLINA GISEL URDIALES",
     "nombre_representante_legal": "CAROLINA GISEL URDIALES",
     "email": "urdialescg@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CAROLINA GISEL URDIALES",
-    "nombre_representante_legal": "CAROLINA GISEL URDIALES",
-    "email": "urdialescg@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-06T14:09:07.526Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/27391261097",
+  "signatureMetadata": {
+    "ip": "200.59.178.77",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-06T17:09:13.290Z",
+    "signedAtLocal": "2026-02-06T14:09:13.290Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8ae97b5d34d39882dc2375221b0cff5ec2d52ff1b3991c163320af6b51d54010"
+  "documentHash": "671729663cdfb6511ccc32113823bf0ba3c030ef912f88f2ddeeb4096cca44b4",
+  "auditTrail": [
+    {
+      "eventId": "b17f5c74-13ab-4cdb-a54b-07f82ccb67bf",
+      "uid": "27391261097",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-06T17:06:14.011Z",
+      "timestampLocal": "2026-02-06T17:06:14.011Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.59.178.77",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27391261097&nombre_proveedor_razon_social=CAROLINA+GISEL+URDIALES&nombre_representante_legal=CAROLINA+GISEL+URDIALES&email=urdialescg%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "8ae97b5d34d39882dc2375221b0cff5ec2d52ff1b3991c163320af6b51d54010",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3e879675a7bb7614bd20dd5f20ebb80a70936dc4290542815c07e246ce7f2fe2"
+    },
+    {
+      "eventId": "924b8c06-9774-4a39-b957-34dc6c53281c",
+      "uid": "27391261097",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-06T17:06:14.011Z",
+      "timestampLocal": "2026-02-06T17:06:14.011Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.59.178.77",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27391261097&nombre_proveedor_razon_social=CAROLINA+GISEL+URDIALES&nombre_representante_legal=CAROLINA+GISEL+URDIALES&email=urdialescg%40gmail.com",
+      "previousEventHash": "3e879675a7bb7614bd20dd5f20ebb80a70936dc4290542815c07e246ce7f2fe2",
+      "documentHash": "8ae97b5d34d39882dc2375221b0cff5ec2d52ff1b3991c163320af6b51d54010",
+      "metadata": {
+        "proveedor": "CAROLINA GISEL URDIALES",
+        "representante": "CAROLINA GISEL URDIALES"
+      },
+      "eventHash": "bb53159db0714ea76515c00f844599787a136c7cebdffecf36f6721dfb6c9290"
+    },
+    {
+      "eventId": "e409306f-b76c-44cd-9bc3-cf9e2e2c5f3b",
+      "uid": "27391261097",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-06T17:06:15.285Z",
+      "timestampLocal": "2026-02-06T17:06:15.285Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.59.178.77",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27391261097&nombre_proveedor_razon_social=CAROLINA+GISEL+URDIALES&nombre_representante_legal=CAROLINA+GISEL+URDIALES&email=urdialescg%40gmail.com",
+      "previousEventHash": "bb53159db0714ea76515c00f844599787a136c7cebdffecf36f6721dfb6c9290",
+      "documentHash": "8ae97b5d34d39882dc2375221b0cff5ec2d52ff1b3991c163320af6b51d54010",
+      "eventHash": "3603be165e0c1fd49597cdaa299c55790cf2a010b58ac8dccea8716788cf84b7"
+    },
+    {
+      "eventId": "49cc3d01-3793-403a-b313-ab5c3d8b9020",
+      "uid": "27391261097",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-06T17:09:13.290Z",
+      "timestampLocal": "2026-02-06T14:09:13.290Z",
+      "timezone": "UTC-3",
+      "ipAddress": "200.59.178.77",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/428da85a-b99e-4797-a499-287b7a893c3d",
+      "previousEventHash": "3603be165e0c1fd49597cdaa299c55790cf2a010b58ac8dccea8716788cf84b7",
+      "documentHash": "671729663cdfb6511ccc32113823bf0ba3c030ef912f88f2ddeeb4096cca44b4",
+      "signatureHash": "db1abe7cc8283857c6223431e3f5f1e9317cdee94e1652c8115e9d53c4f3bd57",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-06T14:09:07.526Z"
+      },
+      "eventHash": "98bbde02783b2998862fe2e106e70ff174adfe72df50cc6e41585c3b9f5522ac"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-06T17:09:13.297Z"
+  }
 }
