@@ -1,19 +1,100 @@
 {
   "uid": "45459137000147",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "CAIO DE AQUINO GALLO 43484657898",
     "nombre_representante_legal": "CAIO DE AQUINO GALLO 43484657898",
     "email": "caiodaquino@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CAIO DE AQUINO GALLO 43484657898",
-    "nombre_representante_legal": "CAIO DE AQUINO GALLO 43484657898",
-    "email": "caiodaquino@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-06T09:31:42.397Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/45459137000147",
+  "signatureMetadata": {
+    "ip": "189.125.206.213",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-06T12:31:47.927Z",
+    "signedAtLocal": "2026-02-06T09:31:47.927Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6afcff0396cd5dcdca5f7edc3fa4aae35b8531f1d6b9454f83d3f4517d6423fd"
+  "documentHash": "9a044515eee7765a2bd41237a8ec933411feecd3e8d51bb9ae0d6241b76ac419",
+  "auditTrail": [
+    {
+      "eventId": "6381c0dd-6cf7-47f9-b389-f602d27badb3",
+      "uid": "45459137000147",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-06T12:31:07.205Z",
+      "timestampLocal": "2026-02-06T12:31:07.205Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.125.206.213",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=45459137000147&nombre_proveedor_razon_social=CAIO+DE+AQUINO+GALLO+43484657898&nombre_representante_legal=CAIO+DE+AQUINO+GALLO+43484657898&email=caiodaquino%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "6afcff0396cd5dcdca5f7edc3fa4aae35b8531f1d6b9454f83d3f4517d6423fd",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "52fb91ca0d4e690406dd24b59298f6a044e755005d5cffa7484b0b809866368d"
+    },
+    {
+      "eventId": "99385414-e69c-4932-8dd0-a56969edcc5a",
+      "uid": "45459137000147",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-06T12:31:07.205Z",
+      "timestampLocal": "2026-02-06T12:31:07.205Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.125.206.213",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=45459137000147&nombre_proveedor_razon_social=CAIO+DE+AQUINO+GALLO+43484657898&nombre_representante_legal=CAIO+DE+AQUINO+GALLO+43484657898&email=caiodaquino%40gmail.com",
+      "previousEventHash": "52fb91ca0d4e690406dd24b59298f6a044e755005d5cffa7484b0b809866368d",
+      "documentHash": "6afcff0396cd5dcdca5f7edc3fa4aae35b8531f1d6b9454f83d3f4517d6423fd",
+      "metadata": {
+        "proveedor": "CAIO DE AQUINO GALLO 43484657898",
+        "representante": "CAIO DE AQUINO GALLO 43484657898"
+      },
+      "eventHash": "2b49f8e3395948acbfbb637bd2396a3fb0433e4d9456f55a9d0d3e7cf5ba2e26"
+    },
+    {
+      "eventId": "3f87dfad-e0fa-4a18-9421-ca9787ae1316",
+      "uid": "45459137000147",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-06T12:31:08.348Z",
+      "timestampLocal": "2026-02-06T12:31:08.348Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.125.206.213",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=45459137000147&nombre_proveedor_razon_social=CAIO+DE+AQUINO+GALLO+43484657898&nombre_representante_legal=CAIO+DE+AQUINO+GALLO+43484657898&email=caiodaquino%40gmail.com",
+      "previousEventHash": "2b49f8e3395948acbfbb637bd2396a3fb0433e4d9456f55a9d0d3e7cf5ba2e26",
+      "documentHash": "6afcff0396cd5dcdca5f7edc3fa4aae35b8531f1d6b9454f83d3f4517d6423fd",
+      "eventHash": "c7d4a6abd09b7227d540efbc9dbc562310b70cf0f31fdff4c4a3db531b7df860"
+    },
+    {
+      "eventId": "c1ca86d2-85bb-4923-a99b-0a7de9029b59",
+      "uid": "45459137000147",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-06T12:31:47.927Z",
+      "timestampLocal": "2026-02-06T09:31:47.927Z",
+      "timezone": "UTC-3",
+      "ipAddress": "189.125.206.213",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f7bffe34-2141-4ca7-b2a8-6cfca02a0b01",
+      "previousEventHash": "c7d4a6abd09b7227d540efbc9dbc562310b70cf0f31fdff4c4a3db531b7df860",
+      "documentHash": "9a044515eee7765a2bd41237a8ec933411feecd3e8d51bb9ae0d6241b76ac419",
+      "signatureHash": "a85b6fc3360f83ec2fbe0f2ecf5bd22a9e8043d68bb5c55e2cb71b25ebac88d2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-06T09:31:42.397Z"
+      },
+      "eventHash": "2ef8c3022d43bfc7343531bc8671284af69443ef02414453434421b087b615a6"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-06T12:31:47.927Z"
+  }
 }
