@@ -1,19 +1,100 @@
 {
   "uid": "27-36155554-1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Gonzalez Pistiner Maite",
     "nombre_representante_legal": "-",
     "email": "administracion@vanepellizzeri.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Gonzalez Pistiner Maite",
-    "nombre_representante_legal": "-",
-    "email": "administracion@vanepellizzeri.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-06T11:36:55.480Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/27-36155554-1",
+  "signatureMetadata": {
+    "ip": "190.195.62.26",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-06T14:36:58.754Z",
+    "signedAtLocal": "2026-02-06T11:36:58.754Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "28bf67a419aa5d3b51b315cede9fc054d8da4248df65c9a222119255ac7239d8"
+  "documentHash": "2b876079b22974076d8777db65df4508777d02d16dc4773542535bead1bfd80c",
+  "auditTrail": [
+    {
+      "eventId": "480db2db-27d6-408e-8e34-82a07b3d8c2b",
+      "uid": "27-36155554-1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-06T14:30:58.362Z",
+      "timestampLocal": "2026-02-06T14:30:58.362Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.195.62.26",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27-36155554-1&nombre_proveedor_razon_social=Gonzalez+Pistiner+Maite&nombre_representante_legal=-&email=administracion%40vanepellizzeri.com",
+      "previousEventHash": null,
+      "documentHash": "28bf67a419aa5d3b51b315cede9fc054d8da4248df65c9a222119255ac7239d8",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6faa7ac1a1ac68ced8d56170869bffb203536dd5a4d1ef7988867f0d43e0b548"
+    },
+    {
+      "eventId": "2d49103d-82c5-4189-bf89-5b9be5edd4a2",
+      "uid": "27-36155554-1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-06T14:30:58.362Z",
+      "timestampLocal": "2026-02-06T14:30:58.362Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.195.62.26",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27-36155554-1&nombre_proveedor_razon_social=Gonzalez+Pistiner+Maite&nombre_representante_legal=-&email=administracion%40vanepellizzeri.com",
+      "previousEventHash": "6faa7ac1a1ac68ced8d56170869bffb203536dd5a4d1ef7988867f0d43e0b548",
+      "documentHash": "28bf67a419aa5d3b51b315cede9fc054d8da4248df65c9a222119255ac7239d8",
+      "metadata": {
+        "proveedor": "Gonzalez Pistiner Maite",
+        "representante": "-"
+      },
+      "eventHash": "2f2dee395c3c27a37a8fc2a53806c1a11c622114aeabb799aa898897432dc3e0"
+    },
+    {
+      "eventId": "232ea17e-f14f-433e-a4d6-eb1a1ca909b2",
+      "uid": "27-36155554-1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-06T14:30:59.405Z",
+      "timestampLocal": "2026-02-06T14:30:59.405Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.195.62.26",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27-36155554-1&nombre_proveedor_razon_social=Gonzalez+Pistiner+Maite&nombre_representante_legal=-&email=administracion%40vanepellizzeri.com",
+      "previousEventHash": "2f2dee395c3c27a37a8fc2a53806c1a11c622114aeabb799aa898897432dc3e0",
+      "documentHash": "28bf67a419aa5d3b51b315cede9fc054d8da4248df65c9a222119255ac7239d8",
+      "eventHash": "676ec6ca6260712e4f59a1a46f758a21bbd6b3c483c1deb8f62c7d37474d8678"
+    },
+    {
+      "eventId": "122a7b09-e0b1-4639-94df-764601171f74",
+      "uid": "27-36155554-1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-06T14:36:58.755Z",
+      "timestampLocal": "2026-02-06T11:36:58.755Z",
+      "timezone": "UTC-3",
+      "ipAddress": "190.195.62.26",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f9a7c1e7-688e-4690-9543-6afbe129ac2f",
+      "previousEventHash": "676ec6ca6260712e4f59a1a46f758a21bbd6b3c483c1deb8f62c7d37474d8678",
+      "documentHash": "2b876079b22974076d8777db65df4508777d02d16dc4773542535bead1bfd80c",
+      "signatureHash": "0330422bc5aa472080c3e48970a585f196b6671224520fd2caee0f2d05997941",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-06T11:36:55.480Z"
+      },
+      "eventHash": "6e8c5a7ecd3207dd6a2f984ff848b57f4d3b17dc2a8aeb065b58f564d138adfa"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-06T14:36:58.755Z"
+  }
 }
