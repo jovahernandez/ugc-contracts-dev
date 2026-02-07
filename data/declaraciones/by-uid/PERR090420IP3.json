@@ -1,19 +1,100 @@
 {
   "uid": "PERR090420IP3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "REGINA PEÑA RAMIREZ",
     "nombre_representante_legal": "VERONICA RAMIREZ GONZALEZ",
     "email": "regirampeofc2004@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "REGINA PEÑA RAMIREZ",
-    "nombre_representante_legal": "VERONICA RAMIREZ GONZALEZ",
-    "email": "regirampeofc2004@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-06T23:48:38.411Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PERR090420IP3",
+  "signatureMetadata": {
+    "ip": "201.141.19.204",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+    "signedAtUtc": "2026-02-07T05:48:44.605Z",
+    "signedAtLocal": "2026-02-06T23:48:44.605Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3d406d2285c5901a0728d6442fc5e1e8ed25d674dbcd118f40d7bf5f04fde8b7"
+  "documentHash": "38cc32ebd1e5202333264c5f4f2a371a1ea1657e88e8b0053bc79f5919b6b8b6",
+  "auditTrail": [
+    {
+      "eventId": "7a7e949d-015c-4f53-820f-9fed408355dd",
+      "uid": "PERR090420IP3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-07T05:47:27.027Z",
+      "timestampLocal": "2026-02-07T05:47:27.027Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.19.204",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "3d406d2285c5901a0728d6442fc5e1e8ed25d674dbcd118f40d7bf5f04fde8b7",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f6802c54bfed2335aa9dc2ed3c205c87d031ea76c694e9920f994a2ab8e82271"
+    },
+    {
+      "eventId": "bd33218d-c21a-450f-82b2-bc4a75b2b881",
+      "uid": "PERR090420IP3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-07T05:47:27.028Z",
+      "timestampLocal": "2026-02-07T05:47:27.028Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.19.204",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f6802c54bfed2335aa9dc2ed3c205c87d031ea76c694e9920f994a2ab8e82271",
+      "documentHash": "3d406d2285c5901a0728d6442fc5e1e8ed25d674dbcd118f40d7bf5f04fde8b7",
+      "metadata": {
+        "proveedor": "REGINA PEÑA RAMIREZ",
+        "representante": "VERONICA RAMIREZ GONZALEZ"
+      },
+      "eventHash": "5f922a5e180ec05849c325b4073d6c83ea3d68649a904b8f95351044ed98c77c"
+    },
+    {
+      "eventId": "7e380294-4fe8-42e7-a83d-7ab0920f2ba6",
+      "uid": "PERR090420IP3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-07T05:47:28.019Z",
+      "timestampLocal": "2026-02-07T05:47:28.019Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.19.204",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "5f922a5e180ec05849c325b4073d6c83ea3d68649a904b8f95351044ed98c77c",
+      "documentHash": "3d406d2285c5901a0728d6442fc5e1e8ed25d674dbcd118f40d7bf5f04fde8b7",
+      "eventHash": "bcbe173bb171f1d9b62d9d8940f0cfd5e923a4c3e5d7603c5b1d6f7b85a9b376"
+    },
+    {
+      "eventId": "259089fe-ea97-49fa-b396-523333704acd",
+      "uid": "PERR090420IP3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-07T05:48:44.605Z",
+      "timestampLocal": "2026-02-06T23:48:44.605Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.19.204",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "bcbe173bb171f1d9b62d9d8940f0cfd5e923a4c3e5d7603c5b1d6f7b85a9b376",
+      "documentHash": "38cc32ebd1e5202333264c5f4f2a371a1ea1657e88e8b0053bc79f5919b6b8b6",
+      "signatureHash": "5cf33383bf7059a5677d436979f6c794ba45cefbf404ac9c24c86a9df9214777",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-06T23:48:38.411Z"
+      },
+      "eventHash": "9328793ed61bc88931f9f8726b137c3887abaa6c42669629f048b7ffdc15237e"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-07T05:48:44.605Z"
+  }
 }
