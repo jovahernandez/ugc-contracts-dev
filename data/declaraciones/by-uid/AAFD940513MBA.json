@@ -1,19 +1,100 @@
 {
   "uid": "AAFD940513MBA",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DIEGO ANDRADE FARIAS",
     "nombre_representante_legal": "DIEGO ANDRADE FARIAS",
     "email": "asantander@paocme.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "DIEGO ANDRADE FARIAS",
-    "nombre_representante_legal": "DIEGO ANDRADE FARIAS",
-    "email": "asantander@paocme.com"
+  "personaAutorizada": "Alejandra Santander",
+  "signedAt": "2026-02-06T20:44:32.448Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AAFD940513MBA",
+  "signatureMetadata": {
+    "ip": "201.141.30.71",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-07T02:44:35.702Z",
+    "signedAtLocal": "2026-02-06T20:44:35.702Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5e98fed73fbd6a4c11d69e4af5e6e1d46b85e89e325ccc335cc340d3e213c034"
+  "documentHash": "0ead07bfbe8dd4cb9022246ff2cab83234e80181e3e3ba8c7924e6a544624f78",
+  "auditTrail": [
+    {
+      "eventId": "79d4fcc9-70c4-43de-b979-c075cdbbc843",
+      "uid": "AAFD940513MBA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-07T02:44:00.468Z",
+      "timestampLocal": "2026-02-07T02:44:00.468Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.30.71",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AAFD940513MBA&nombre_proveedor_razon_social=DIEGO+ANDRADE+FARIAS&nombre_representante_legal=DIEGO+ANDRADE+FARIAS&email=asantander%40paocme.com",
+      "previousEventHash": null,
+      "documentHash": "5e98fed73fbd6a4c11d69e4af5e6e1d46b85e89e325ccc335cc340d3e213c034",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d80cb653eeb624a83994c06d98efb55bcaffe7bc598bc309eb74bda4c60378ab"
+    },
+    {
+      "eventId": "c7a07710-727f-4210-ac4e-3f2ecee2780c",
+      "uid": "AAFD940513MBA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-07T02:44:00.469Z",
+      "timestampLocal": "2026-02-07T02:44:00.469Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.30.71",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AAFD940513MBA&nombre_proveedor_razon_social=DIEGO+ANDRADE+FARIAS&nombre_representante_legal=DIEGO+ANDRADE+FARIAS&email=asantander%40paocme.com",
+      "previousEventHash": "d80cb653eeb624a83994c06d98efb55bcaffe7bc598bc309eb74bda4c60378ab",
+      "documentHash": "5e98fed73fbd6a4c11d69e4af5e6e1d46b85e89e325ccc335cc340d3e213c034",
+      "metadata": {
+        "proveedor": "DIEGO ANDRADE FARIAS",
+        "representante": "DIEGO ANDRADE FARIAS"
+      },
+      "eventHash": "6d907a453ad0a807aa580f104e86ead53a75728af5f9e50b2b5799d5c748236c"
+    },
+    {
+      "eventId": "5bbc0148-1bae-43f4-a284-8b0c5a0ee6f0",
+      "uid": "AAFD940513MBA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-07T02:44:01.453Z",
+      "timestampLocal": "2026-02-07T02:44:01.453Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.30.71",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AAFD940513MBA&nombre_proveedor_razon_social=DIEGO+ANDRADE+FARIAS&nombre_representante_legal=DIEGO+ANDRADE+FARIAS&email=asantander%40paocme.com",
+      "previousEventHash": "6d907a453ad0a807aa580f104e86ead53a75728af5f9e50b2b5799d5c748236c",
+      "documentHash": "5e98fed73fbd6a4c11d69e4af5e6e1d46b85e89e325ccc335cc340d3e213c034",
+      "eventHash": "993c8b0dcfbf76195801f0fdce0e2073e88db4eef9b06dc137ffd117136ea867"
+    },
+    {
+      "eventId": "14fdf4b1-e0f5-42c9-9981-b35d258a77ec",
+      "uid": "AAFD940513MBA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-07T02:44:35.702Z",
+      "timestampLocal": "2026-02-06T20:44:35.702Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.30.71",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/81a8ce2b-84ba-40f9-9499-48105e9107ae",
+      "previousEventHash": "993c8b0dcfbf76195801f0fdce0e2073e88db4eef9b06dc137ffd117136ea867",
+      "documentHash": "0ead07bfbe8dd4cb9022246ff2cab83234e80181e3e3ba8c7924e6a544624f78",
+      "signatureHash": "d25690c67d4e2eca0ff3a90e47732b1b21dddaf5feb80cc2904d326bca72648b",
+      "metadata": {
+        "personaAutorizada": "Alejandra Santander",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-06T20:44:32.448Z"
+      },
+      "eventHash": "1803d4a1181d05aba68ddeadb07449fe2e8f0c25ae8f2774db9eb6c9f185af20"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-07T02:44:35.702Z"
+  }
 }
