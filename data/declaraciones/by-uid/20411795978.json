@@ -1,19 +1,100 @@
 {
   "uid": "20411795978",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Juan José Portella Valdivia",
     "nombre_representante_legal": "Juan José Portella Valdivia",
     "email": "juanportella98@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Juan José Portella Valdivia",
-    "nombre_representante_legal": "Juan José Portella Valdivia",
-    "email": "juanportella98@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-09T16:30:19.038Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20411795978",
+  "signatureMetadata": {
+    "ip": "191.84.15.155",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-09T19:30:22.143Z",
+    "signedAtLocal": "2026-02-09T16:30:22.143Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "543a5efddb7f77017951e8970fe2a3842b36983e18ea3ead6196f1424db3316e"
+  "documentHash": "ef9d34eb086af37bf5f371d5a4d909391dd60f6c91a43b6fc75d66f57f0a279a",
+  "auditTrail": [
+    {
+      "eventId": "ed5c89f8-7e57-4fc2-a1ce-320b0ac95f8b",
+      "uid": "20411795978",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-09T19:28:46.375Z",
+      "timestampLocal": "2026-02-09T19:28:46.375Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.84.15.155",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20411795978&nombre_proveedor_razon_social=Juan+Jos%C3%A9+Portella+Valdivia&nombre_representante_legal=Juan+Jos%C3%A9+Portella+Valdivia&email=juanportella98%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "543a5efddb7f77017951e8970fe2a3842b36983e18ea3ead6196f1424db3316e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "de82d21fd7f4b055f7c816e5274a412345c7e1cb1a492f2287a06a6909569404"
+    },
+    {
+      "eventId": "1e0a722f-3091-4f68-a6c3-d197c64a3f83",
+      "uid": "20411795978",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-09T19:28:46.375Z",
+      "timestampLocal": "2026-02-09T19:28:46.375Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.84.15.155",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20411795978&nombre_proveedor_razon_social=Juan+Jos%C3%A9+Portella+Valdivia&nombre_representante_legal=Juan+Jos%C3%A9+Portella+Valdivia&email=juanportella98%40gmail.com",
+      "previousEventHash": "de82d21fd7f4b055f7c816e5274a412345c7e1cb1a492f2287a06a6909569404",
+      "documentHash": "543a5efddb7f77017951e8970fe2a3842b36983e18ea3ead6196f1424db3316e",
+      "metadata": {
+        "proveedor": "Juan José Portella Valdivia",
+        "representante": "Juan José Portella Valdivia"
+      },
+      "eventHash": "b18a0eacf72a14d329f5ea27dc93eb581a71371a3b02fb587f902c01776994e7"
+    },
+    {
+      "eventId": "fb7826ae-556a-4d9b-8820-bfee1cb0b15a",
+      "uid": "20411795978",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-09T19:28:47.546Z",
+      "timestampLocal": "2026-02-09T19:28:47.546Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.84.15.155",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20411795978&nombre_proveedor_razon_social=Juan+Jos%C3%A9+Portella+Valdivia&nombre_representante_legal=Juan+Jos%C3%A9+Portella+Valdivia&email=juanportella98%40gmail.com",
+      "previousEventHash": "b18a0eacf72a14d329f5ea27dc93eb581a71371a3b02fb587f902c01776994e7",
+      "documentHash": "543a5efddb7f77017951e8970fe2a3842b36983e18ea3ead6196f1424db3316e",
+      "eventHash": "e323f3fc7018e8023bb6dc24dc7e56ca165630a5fadf4e9800893d718f83a744"
+    },
+    {
+      "eventId": "bd1d23b0-baff-437c-9310-6252535a7fb2",
+      "uid": "20411795978",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-09T19:30:22.143Z",
+      "timestampLocal": "2026-02-09T16:30:22.143Z",
+      "timezone": "UTC-3",
+      "ipAddress": "191.84.15.155",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/4a01bd57-8130-4476-88d8-20469e25a485",
+      "previousEventHash": "e323f3fc7018e8023bb6dc24dc7e56ca165630a5fadf4e9800893d718f83a744",
+      "documentHash": "ef9d34eb086af37bf5f371d5a4d909391dd60f6c91a43b6fc75d66f57f0a279a",
+      "signatureHash": "44360657f658596217bb4e174707220bf09137e40f1b37380c88fe577492fa4a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-09T16:30:19.038Z"
+      },
+      "eventHash": "962f633e1bd463cede65eb3fb18b9cd5841f7545ee4777d503dc7fe7d359b384"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-09T19:30:22.177Z"
+  }
 }
