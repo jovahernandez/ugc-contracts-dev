@@ -1,19 +1,100 @@
 {
   "uid": "EPU210412N76",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ENSARTI PUBLICITARIA SA DE CV",
     "nombre_representante_legal": "Marisol Alejadra Estrada Omelas",
     "email": "contacto@rickypadilla.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ENSARTI PUBLICITARIA SA DE CV",
-    "nombre_representante_legal": "Marisol Alejadra Estrada Omelas",
-    "email": "contacto@rickypadilla.com.mx"
+  "personaAutorizada": " Marisol Alejadra Estrada Omelas",
+  "signedAt": "2026-02-09T13:56:34.146Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/EPU210412N76",
+  "signatureMetadata": {
+    "ip": "189.216.171.124",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+    "signedAtUtc": "2026-02-09T19:56:37.521Z",
+    "signedAtLocal": "2026-02-09T13:56:37.521Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "181c7fff08d41f28751da96e4501c8ca569d4de89e2f73ea9ebfd95cea9afa6e"
+  "documentHash": "64d74d8d82ffdd0e8e28d733cf00ee08df8ddc7f717016e24d7a73a290fe5241",
+  "auditTrail": [
+    {
+      "eventId": "0f2ac816-74fa-4f0b-b9a3-1275009bcbb6",
+      "uid": "EPU210412N76",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-09T19:54:42.056Z",
+      "timestampLocal": "2026-02-09T19:54:42.056Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.171.124",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "181c7fff08d41f28751da96e4501c8ca569d4de89e2f73ea9ebfd95cea9afa6e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "dcef2ceca2ca09cf601a2c5a030b797f9e2c8f6e96bd49e97d801771f72d7826"
+    },
+    {
+      "eventId": "46417a11-001a-4390-a7a5-6bfe1f51827b",
+      "uid": "EPU210412N76",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-09T19:54:42.056Z",
+      "timestampLocal": "2026-02-09T19:54:42.056Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.171.124",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "dcef2ceca2ca09cf601a2c5a030b797f9e2c8f6e96bd49e97d801771f72d7826",
+      "documentHash": "181c7fff08d41f28751da96e4501c8ca569d4de89e2f73ea9ebfd95cea9afa6e",
+      "metadata": {
+        "proveedor": "ENSARTI PUBLICITARIA SA DE CV",
+        "representante": "Marisol Alejadra Estrada Omelas"
+      },
+      "eventHash": "55bb69df29c7b716960b957e06007a547ab7c816563fc92a7039e064833672fb"
+    },
+    {
+      "eventId": "ea695158-b791-4041-9e8e-969d33235c02",
+      "uid": "EPU210412N76",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-09T19:54:43.132Z",
+      "timestampLocal": "2026-02-09T19:54:43.132Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.171.124",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "55bb69df29c7b716960b957e06007a547ab7c816563fc92a7039e064833672fb",
+      "documentHash": "181c7fff08d41f28751da96e4501c8ca569d4de89e2f73ea9ebfd95cea9afa6e",
+      "eventHash": "9e019fde3bdb99f4c405e6b2647467ff8b5777006d7c1ab8fc2780308ea55a7a"
+    },
+    {
+      "eventId": "cd257577-dfb5-4a27-bab4-a3b8f1218759",
+      "uid": "EPU210412N76",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-09T19:56:37.521Z",
+      "timestampLocal": "2026-02-09T13:56:37.521Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.216.171.124",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "9e019fde3bdb99f4c405e6b2647467ff8b5777006d7c1ab8fc2780308ea55a7a",
+      "documentHash": "64d74d8d82ffdd0e8e28d733cf00ee08df8ddc7f717016e24d7a73a290fe5241",
+      "signatureHash": "a90bdd5eaee16de31091e04642216a3b62452925ccfbaadcb4616300c6704830",
+      "metadata": {
+        "personaAutorizada": " Marisol Alejadra Estrada Omelas",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-09T13:56:34.146Z"
+      },
+      "eventHash": "9d387181d3cabac61eeaa3f53b3aa6a700c803292b9f5b23626bf2c9370de775"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-09T19:56:37.521Z"
+  }
 }
