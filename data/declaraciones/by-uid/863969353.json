@@ -1,19 +1,100 @@
 {
   "uid": "863969353",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "TASTY MEDIA LATIN AMERICA LLC",
     "nombre_representante_legal": "Diego Ortiz",
     "email": "dgarcia@tastymedia.co"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "TASTY MEDIA LATIN AMERICA LLC",
-    "nombre_representante_legal": "Diego Ortiz",
-    "email": "dgarcia@tastymedia.co"
+  "personaAutorizada": "Karen Daniela Garcia Pinilla",
+  "signedAt": "2026-02-10T13:28:20.317Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/863969353",
+  "signatureMetadata": {
+    "ip": "189.203.29.75",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-10T19:28:23.851Z",
+    "signedAtLocal": "2026-02-10T13:28:23.851Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fdaa412fd30cb60a5b64d3b8f3a0d49c0c209ecc4da5219527dc3221bbc9553a"
+  "documentHash": "409c81eef57f6be4f94cfb455ecbfb88802d19ed4c781869ccd5142df41a0b0f",
+  "auditTrail": [
+    {
+      "eventId": "cde07380-83e8-4471-8dc0-c9cb3461df91",
+      "uid": "863969353",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-10T19:27:33.100Z",
+      "timestampLocal": "2026-02-10T19:27:33.100Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.29.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=863969353&nombre_proveedor_razon_social=TASTY+MEDIA+LATIN+AMERICA+LLC&nombre_representante_legal=Diego+Ortiz&email=dgarcia%40tastymedia.co",
+      "previousEventHash": null,
+      "documentHash": "fdaa412fd30cb60a5b64d3b8f3a0d49c0c209ecc4da5219527dc3221bbc9553a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3cd1578f786eb5ed1a3a677f08de6065175d543d52976aa2a7f63563890e110c"
+    },
+    {
+      "eventId": "c00495e5-f5be-4344-ae0a-dcc6b2e72328",
+      "uid": "863969353",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-10T19:27:33.100Z",
+      "timestampLocal": "2026-02-10T19:27:33.100Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.29.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=863969353&nombre_proveedor_razon_social=TASTY+MEDIA+LATIN+AMERICA+LLC&nombre_representante_legal=Diego+Ortiz&email=dgarcia%40tastymedia.co",
+      "previousEventHash": "3cd1578f786eb5ed1a3a677f08de6065175d543d52976aa2a7f63563890e110c",
+      "documentHash": "fdaa412fd30cb60a5b64d3b8f3a0d49c0c209ecc4da5219527dc3221bbc9553a",
+      "metadata": {
+        "proveedor": "TASTY MEDIA LATIN AMERICA LLC",
+        "representante": "Diego Ortiz"
+      },
+      "eventHash": "2122221b44f9438ab709c5672fbb01c545e00473cfa9f88093d7e2ab70a377ae"
+    },
+    {
+      "eventId": "0cd7208f-b7c8-476b-a3bb-353fbf4dde8e",
+      "uid": "863969353",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-10T19:27:34.382Z",
+      "timestampLocal": "2026-02-10T19:27:34.382Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.29.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=863969353&nombre_proveedor_razon_social=TASTY+MEDIA+LATIN+AMERICA+LLC&nombre_representante_legal=Diego+Ortiz&email=dgarcia%40tastymedia.co",
+      "previousEventHash": "2122221b44f9438ab709c5672fbb01c545e00473cfa9f88093d7e2ab70a377ae",
+      "documentHash": "fdaa412fd30cb60a5b64d3b8f3a0d49c0c209ecc4da5219527dc3221bbc9553a",
+      "eventHash": "2894cdacf7ce520ede71493695db0e69161f812c77be8e3651fa5644b30f36f2"
+    },
+    {
+      "eventId": "43431ebe-20e3-4059-9b3e-d4f4a359342a",
+      "uid": "863969353",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-10T19:28:23.852Z",
+      "timestampLocal": "2026-02-10T13:28:23.852Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.29.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5f8f1b6f-5865-4734-8071-3043aa20de87",
+      "previousEventHash": "2894cdacf7ce520ede71493695db0e69161f812c77be8e3651fa5644b30f36f2",
+      "documentHash": "409c81eef57f6be4f94cfb455ecbfb88802d19ed4c781869ccd5142df41a0b0f",
+      "signatureHash": "9661d9f555442850a79bf8f210d97dab4ecad06aba8c41bf8f0e3b056cf96c12",
+      "metadata": {
+        "personaAutorizada": "Karen Daniela Garcia Pinilla",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-10T13:28:20.317Z"
+      },
+      "eventHash": "396e171632178ffb7c44fb1034d5c0ee768744f5c94d7a3339962bee56fa3668"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-10T19:28:23.854Z"
+  }
 }
