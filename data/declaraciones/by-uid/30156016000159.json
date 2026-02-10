@@ -1,19 +1,100 @@
 {
   "uid": "30156016000159",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "mariana nery fraga",
     "nombre_representante_legal": "MARIANA NERY FRAGA",
     "email": "mariananeryf@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "mariana nery fraga",
-    "nombre_representante_legal": "MARIANA NERY FRAGA",
-    "email": "mariananeryf@gmail.com"
+  "personaAutorizada": "mariana nery",
+  "signedAt": "2026-02-10T16:50:19.525Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/30156016000159",
+  "signatureMetadata": {
+    "ip": "186.204.56.160",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-10T19:50:22.819Z",
+    "signedAtLocal": "2026-02-10T16:50:22.819Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2fb9de24c65acf1ce9ce90048e9502d003f77b590fe80e43ca856cde1fd26351"
+  "documentHash": "e5c41ecaccf81057d79508d6b9be0b2f69bbc463a9b50f142bc957417b2771c5",
+  "auditTrail": [
+    {
+      "eventId": "046673fa-9d52-4620-8f2c-4f4c4c2b5995",
+      "uid": "30156016000159",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-10T19:50:02.088Z",
+      "timestampLocal": "2026-02-10T19:50:02.088Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.56.160",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=30156016000159&nombre_proveedor_razon_social=mariana+nery+fraga&nombre_representante_legal=MARIANA+NERY+FRAGA&email=mariananeryf%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "2fb9de24c65acf1ce9ce90048e9502d003f77b590fe80e43ca856cde1fd26351",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "4bc75b10e26a23d18231fdc4c11fa2c22a40df99a68d0f70f20886a4c0ca0d8d"
+    },
+    {
+      "eventId": "eea91b6b-dcc4-451c-8c17-6dd0356d2bfb",
+      "uid": "30156016000159",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-10T19:50:02.088Z",
+      "timestampLocal": "2026-02-10T19:50:02.088Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.56.160",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=30156016000159&nombre_proveedor_razon_social=mariana+nery+fraga&nombre_representante_legal=MARIANA+NERY+FRAGA&email=mariananeryf%40gmail.com",
+      "previousEventHash": "4bc75b10e26a23d18231fdc4c11fa2c22a40df99a68d0f70f20886a4c0ca0d8d",
+      "documentHash": "2fb9de24c65acf1ce9ce90048e9502d003f77b590fe80e43ca856cde1fd26351",
+      "metadata": {
+        "proveedor": "mariana nery fraga",
+        "representante": "MARIANA NERY FRAGA"
+      },
+      "eventHash": "50485fd661d1e1025614ca3e026323b1391a5acf3294b9a018182f74dca94f34"
+    },
+    {
+      "eventId": "dec6d91b-4bc8-4601-b6a3-c0c94e920775",
+      "uid": "30156016000159",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-10T19:50:03.080Z",
+      "timestampLocal": "2026-02-10T19:50:03.080Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.56.160",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=30156016000159&nombre_proveedor_razon_social=mariana+nery+fraga&nombre_representante_legal=MARIANA+NERY+FRAGA&email=mariananeryf%40gmail.com",
+      "previousEventHash": "50485fd661d1e1025614ca3e026323b1391a5acf3294b9a018182f74dca94f34",
+      "documentHash": "2fb9de24c65acf1ce9ce90048e9502d003f77b590fe80e43ca856cde1fd26351",
+      "eventHash": "0a9513026615cbe9a40a76b0cb9288a3d278a263022da034543fe42c544374e4"
+    },
+    {
+      "eventId": "7e9d2328-e50e-45a2-98c9-27f8453b28d1",
+      "uid": "30156016000159",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-10T19:50:22.819Z",
+      "timestampLocal": "2026-02-10T16:50:22.819Z",
+      "timezone": "UTC-3",
+      "ipAddress": "186.204.56.160",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/225512ee-d2ff-49f8-a096-9da6a47a662c",
+      "previousEventHash": "0a9513026615cbe9a40a76b0cb9288a3d278a263022da034543fe42c544374e4",
+      "documentHash": "e5c41ecaccf81057d79508d6b9be0b2f69bbc463a9b50f142bc957417b2771c5",
+      "signatureHash": "ee8275ca87456155e011de7594e3363815df5fff92252cac208b70a202a7a66a",
+      "metadata": {
+        "personaAutorizada": "mariana nery",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-10T16:50:19.525Z"
+      },
+      "eventHash": "2592f722257efe34943240a5f2454a67c817035781974027a3ba0518f07e8274"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-10T19:50:22.826Z"
+  }
 }
