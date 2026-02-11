@@ -1,19 +1,100 @@
 {
   "uid": "15558703322014 dv 36",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DEBUT IMPORT, S.A.",
     "nombre_representante_legal": "Johan Noffra",
     "email": "debutpanama@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "DEBUT IMPORT, S.A.",
-    "nombre_representante_legal": "Johan Noffra",
-    "email": "debutpanama@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-11T09:33:55.819Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/15558703322014 dv 36",
+  "signatureMetadata": {
+    "ip": "186.74.207.134",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-11T14:33:59.190Z",
+    "signedAtLocal": "2026-02-11T09:33:59.190Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "38e2fdaee570615f33a73cbe99bff122836350c648066ec4fa0946cc2e13c810"
+  "documentHash": "e4455ba72a75ba0ffa68fa8ef2763715c6772fac0bf9ed0b5ec702e0ae2df6db",
+  "auditTrail": [
+    {
+      "eventId": "33918c7d-f428-4039-be31-eb6955bdedea",
+      "uid": "15558703322014 dv 36",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-11T14:32:55.265Z",
+      "timestampLocal": "2026-02-11T14:32:55.265Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.74.207.134",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=15558703322014+dv+36&nombre_proveedor_razon_social=DEBUT+IMPORT%2C+S.A.&nombre_representante_legal=Johan+Noffra&email=debutpanama%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "38e2fdaee570615f33a73cbe99bff122836350c648066ec4fa0946cc2e13c810",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1548ed5bf3fa7e985901c9ec23daafc9b6887d4c73af6802d8a6a600188f7592"
+    },
+    {
+      "eventId": "103ab49c-df27-40da-82c6-d8f425c8f3da",
+      "uid": "15558703322014 dv 36",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-11T14:32:55.265Z",
+      "timestampLocal": "2026-02-11T14:32:55.265Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.74.207.134",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=15558703322014+dv+36&nombre_proveedor_razon_social=DEBUT+IMPORT%2C+S.A.&nombre_representante_legal=Johan+Noffra&email=debutpanama%40gmail.com",
+      "previousEventHash": "1548ed5bf3fa7e985901c9ec23daafc9b6887d4c73af6802d8a6a600188f7592",
+      "documentHash": "38e2fdaee570615f33a73cbe99bff122836350c648066ec4fa0946cc2e13c810",
+      "metadata": {
+        "proveedor": "DEBUT IMPORT, S.A.",
+        "representante": "Johan Noffra"
+      },
+      "eventHash": "404c1e15bfc1150900cb16326c208566f756037dfbbd7dcc9c193f75d150f3be"
+    },
+    {
+      "eventId": "04692747-7c11-4b32-8718-a31f67cd5b43",
+      "uid": "15558703322014 dv 36",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-11T14:32:56.544Z",
+      "timestampLocal": "2026-02-11T14:32:56.544Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.74.207.134",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=15558703322014+dv+36&nombre_proveedor_razon_social=DEBUT+IMPORT%2C+S.A.&nombre_representante_legal=Johan+Noffra&email=debutpanama%40gmail.com",
+      "previousEventHash": "404c1e15bfc1150900cb16326c208566f756037dfbbd7dcc9c193f75d150f3be",
+      "documentHash": "38e2fdaee570615f33a73cbe99bff122836350c648066ec4fa0946cc2e13c810",
+      "eventHash": "737ab06cfbddff431bd8a77e8dc1a2bf306d62c6e627fe145995e1ca1418b1be"
+    },
+    {
+      "eventId": "6861f494-7033-4bf2-b4cf-132b6b479258",
+      "uid": "15558703322014 dv 36",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-11T14:33:59.190Z",
+      "timestampLocal": "2026-02-11T09:33:59.190Z",
+      "timezone": "UTC-5",
+      "ipAddress": "186.74.207.134",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5ae14a46-6bd2-4617-bcc0-d76860ea6164",
+      "previousEventHash": "737ab06cfbddff431bd8a77e8dc1a2bf306d62c6e627fe145995e1ca1418b1be",
+      "documentHash": "e4455ba72a75ba0ffa68fa8ef2763715c6772fac0bf9ed0b5ec702e0ae2df6db",
+      "signatureHash": "3f71118b3cb1e20c8140240b088e4efb912e11192bb1206a39226b64f7f79948",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-11T09:33:55.819Z"
+      },
+      "eventHash": "8455e72cca7aad48bf500a7fe6170f580ec00cd955b580c9ebb8039ddcb886bd"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-11T14:33:59.193Z"
+  }
 }
