@@ -1,19 +1,100 @@
 {
   "uid": "SAOJ001228NE2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JESSICA ALEJANDRA SALINAS OCAMPO",
     "nombre_representante_legal": "JESSICA ALEJANDRA SALINAS OCAMPO",
     "email": "jezxline@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "JESSICA ALEJANDRA SALINAS OCAMPO",
-    "nombre_representante_legal": "JESSICA ALEJANDRA SALINAS OCAMPO",
-    "email": "jezxline@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-11T17:08:57.760Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SAOJ001228NE2",
+  "signatureMetadata": {
+    "ip": "189.242.231.232",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-11T23:09:01.127Z",
+    "signedAtLocal": "2026-02-11T17:09:01.127Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "22ff5dbca5b769d5d3e15768d8b1cf4074bcbfdb4bae69e6e85793bdbcd6bd78"
+  "documentHash": "ebeb7df2e967aa7d9b7d05c5789c271a49a83309988c9d8d9a07b9acc6878296",
+  "auditTrail": [
+    {
+      "eventId": "a7848afe-a6b1-442a-bbce-e858f735a123",
+      "uid": "SAOJ001228NE2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-11T23:07:59.918Z",
+      "timestampLocal": "2026-02-11T23:07:59.918Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.242.231.232",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAOJ001228NE2&nombre_proveedor_razon_social=JESSICA+ALEJANDRA+SALINAS+OCAMPO&nombre_representante_legal=JESSICA+ALEJANDRA+SALINAS+OCAMPO&email=jezxline%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "22ff5dbca5b769d5d3e15768d8b1cf4074bcbfdb4bae69e6e85793bdbcd6bd78",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4793ac988fb9cc8ba40ddc09f1f9920b5c09fe54d9518113510740e037a08e5e"
+    },
+    {
+      "eventId": "462e2c41-9ca7-4650-ae42-f7bb409dd1e8",
+      "uid": "SAOJ001228NE2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-11T23:07:59.918Z",
+      "timestampLocal": "2026-02-11T23:07:59.918Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.242.231.232",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAOJ001228NE2&nombre_proveedor_razon_social=JESSICA+ALEJANDRA+SALINAS+OCAMPO&nombre_representante_legal=JESSICA+ALEJANDRA+SALINAS+OCAMPO&email=jezxline%40gmail.com",
+      "previousEventHash": "4793ac988fb9cc8ba40ddc09f1f9920b5c09fe54d9518113510740e037a08e5e",
+      "documentHash": "22ff5dbca5b769d5d3e15768d8b1cf4074bcbfdb4bae69e6e85793bdbcd6bd78",
+      "metadata": {
+        "proveedor": "JESSICA ALEJANDRA SALINAS OCAMPO",
+        "representante": "JESSICA ALEJANDRA SALINAS OCAMPO"
+      },
+      "eventHash": "095e60315d82a21da8d9a6b65c75fb05593b24771ff642a1104163ea7452a548"
+    },
+    {
+      "eventId": "f160e4cc-1dac-4167-9bc3-345d202c7a18",
+      "uid": "SAOJ001228NE2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-11T23:08:00.882Z",
+      "timestampLocal": "2026-02-11T23:08:00.882Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.242.231.232",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAOJ001228NE2&nombre_proveedor_razon_social=JESSICA+ALEJANDRA+SALINAS+OCAMPO&nombre_representante_legal=JESSICA+ALEJANDRA+SALINAS+OCAMPO&email=jezxline%40gmail.com",
+      "previousEventHash": "095e60315d82a21da8d9a6b65c75fb05593b24771ff642a1104163ea7452a548",
+      "documentHash": "22ff5dbca5b769d5d3e15768d8b1cf4074bcbfdb4bae69e6e85793bdbcd6bd78",
+      "eventHash": "111e88ff5dadfd47726c433b9da91cdc751710097430b2ee965503efe372593b"
+    },
+    {
+      "eventId": "586b8d96-74a2-4283-9391-24cb89a513e0",
+      "uid": "SAOJ001228NE2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-11T23:09:01.127Z",
+      "timestampLocal": "2026-02-11T17:09:01.127Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.242.231.232",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e82c9953-7eff-4d7c-8bc4-cd151d963a20",
+      "previousEventHash": "111e88ff5dadfd47726c433b9da91cdc751710097430b2ee965503efe372593b",
+      "documentHash": "ebeb7df2e967aa7d9b7d05c5789c271a49a83309988c9d8d9a07b9acc6878296",
+      "signatureHash": "e6abdf9d430318e3d977bef52579048e400fa3141387c16643dde0435a28675f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-11T17:08:57.760Z"
+      },
+      "eventHash": "21999b586e4d6044668ef4b6ce84e54aa8d16e061d0b6f6021b27d1488c9e6c1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-11T23:09:01.128Z"
+  }
 }
