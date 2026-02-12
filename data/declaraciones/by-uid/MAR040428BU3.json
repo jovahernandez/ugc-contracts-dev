@@ -1,19 +1,100 @@
 {
   "uid": "MAR040428BU3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MARMITON SA DE CV",
     "nombre_representante_legal": "Gabriel Marie Ernest Chabre",
     "email": "administracion@galiachef.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MARMITON SA DE CV",
-    "nombre_representante_legal": "Gabriel Marie Ernest Chabre",
-    "email": "administracion@galiachef.com"
+  "personaAutorizada": "GABRIEL MARIE ERNEST CHABRE",
+  "signedAt": "2026-02-12T12:23:08.217Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MAR040428BU3",
+  "signatureMetadata": {
+    "ip": "189.235.174.190",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-12T18:23:11.712Z",
+    "signedAtLocal": "2026-02-12T12:23:11.712Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1b3e633c8cff74a39527bcb551a226645be87ab371b992d24f64d0069b7a1051"
+  "documentHash": "d9485d35b1085b3efeb628255b66e6d2002d8a35da98643d4891307676807057",
+  "auditTrail": [
+    {
+      "eventId": "9c518254-76db-4c7d-a521-c7179f359707",
+      "uid": "MAR040428BU3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-12T18:20:50.945Z",
+      "timestampLocal": "2026-02-12T18:20:50.945Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.235.174.190",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAR040428BU3&nombre_proveedor_razon_social=MARMITON+SA+DE+CV&nombre_representante_legal=Gabriel+Marie+Ernest+Chabre&email=administracion%40galiachef.com",
+      "previousEventHash": null,
+      "documentHash": "1b3e633c8cff74a39527bcb551a226645be87ab371b992d24f64d0069b7a1051",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ee386c1e136192eed1f0b7387279012caa3056f43c3d6fdc8c0b9d3cb840f036"
+    },
+    {
+      "eventId": "cb3290d8-9051-4d0e-bf76-e40f2d436cf5",
+      "uid": "MAR040428BU3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-12T18:20:50.945Z",
+      "timestampLocal": "2026-02-12T18:20:50.945Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.235.174.190",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAR040428BU3&nombre_proveedor_razon_social=MARMITON+SA+DE+CV&nombre_representante_legal=Gabriel+Marie+Ernest+Chabre&email=administracion%40galiachef.com",
+      "previousEventHash": "ee386c1e136192eed1f0b7387279012caa3056f43c3d6fdc8c0b9d3cb840f036",
+      "documentHash": "1b3e633c8cff74a39527bcb551a226645be87ab371b992d24f64d0069b7a1051",
+      "metadata": {
+        "proveedor": "MARMITON SA DE CV",
+        "representante": "Gabriel Marie Ernest Chabre"
+      },
+      "eventHash": "5a337e7a22da7cdcbdbe56ec3fc21c53d6ebe6e9a1bbf56fb918f9f9f3a4a91d"
+    },
+    {
+      "eventId": "c36e42f4-a70a-4404-8bed-a8cc3cb4e92e",
+      "uid": "MAR040428BU3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-12T18:20:51.998Z",
+      "timestampLocal": "2026-02-12T18:20:51.998Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.235.174.190",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAR040428BU3&nombre_proveedor_razon_social=MARMITON+SA+DE+CV&nombre_representante_legal=Gabriel+Marie+Ernest+Chabre&email=administracion%40galiachef.com",
+      "previousEventHash": "5a337e7a22da7cdcbdbe56ec3fc21c53d6ebe6e9a1bbf56fb918f9f9f3a4a91d",
+      "documentHash": "1b3e633c8cff74a39527bcb551a226645be87ab371b992d24f64d0069b7a1051",
+      "eventHash": "1f1941176e06490bb192b92f4126cad699ce62c6e734db79e686d688292c9cec"
+    },
+    {
+      "eventId": "bca1fab5-243b-4d15-b817-ddfe29c84ecf",
+      "uid": "MAR040428BU3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-12T18:23:11.712Z",
+      "timestampLocal": "2026-02-12T12:23:11.712Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.235.174.190",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/753bce33-660c-4765-b066-404a401f913c",
+      "previousEventHash": "1f1941176e06490bb192b92f4126cad699ce62c6e734db79e686d688292c9cec",
+      "documentHash": "d9485d35b1085b3efeb628255b66e6d2002d8a35da98643d4891307676807057",
+      "signatureHash": "758ad527431b1caa573f02e354bc95bdccc57ac398b56ea2e5878ec05e4217b3",
+      "metadata": {
+        "personaAutorizada": "GABRIEL MARIE ERNEST CHABRE",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-12T12:23:08.217Z"
+      },
+      "eventHash": "a8b0e0637f1389c67cfcf13b68d0d3be4077a95c2d26d21aa1e3f5b64080177d"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-12T18:23:11.713Z"
+  }
 }
