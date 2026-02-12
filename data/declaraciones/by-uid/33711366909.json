@@ -1,19 +1,130 @@
 {
   "uid": "33711366909",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IN ACTION SRL",
     "nombre_representante_legal": "IN ACTION SRL",
     "email": "mauro@jalifebrothers.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "IN ACTION SRL",
-    "nombre_representante_legal": "IN ACTION SRL",
-    "email": "mauro@jalifebrothers.com"
+  "personaAutorizada": "Mauro Scokay",
+  "signedAt": "2026-02-12T13:30:48.196Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/33711366909",
+  "signatureMetadata": {
+    "ip": "190.19.30.87",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-12T16:30:51.713Z",
+    "signedAtLocal": "2026-02-12T13:30:51.713Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c4669712bcbb1fbdb766b1d433888c67ec149196ca1f2693323de091d5d2f5d6"
+  "documentHash": "af35b402cd9d3266c5f3289256ecedfbfc6e31a5f3ea9829d506baa82ba5f360",
+  "auditTrail": [
+    {
+      "eventId": "85121899-bd91-4b61-88bd-64637b2069ec",
+      "uid": "33711366909",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-12T16:27:08.538Z",
+      "timestampLocal": "2026-02-12T16:27:08.538Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.19.30.87",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=33711366909&nombre_proveedor_razon_social=IN+ACTION+SRL&nombre_representante_legal=IN+ACTION+SRL&email=mauro%40jalifebrothers.com",
+      "previousEventHash": null,
+      "documentHash": "c4669712bcbb1fbdb766b1d433888c67ec149196ca1f2693323de091d5d2f5d6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e54f8f064c0e05741a69c6f6567c7d5df00cd7c9fd8f9512e869c5ad3b348a66"
+    },
+    {
+      "eventId": "13702bcc-5043-43fb-af03-3fae38468c6a",
+      "uid": "33711366909",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-12T16:27:08.538Z",
+      "timestampLocal": "2026-02-12T16:27:08.538Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.19.30.87",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=33711366909&nombre_proveedor_razon_social=IN+ACTION+SRL&nombre_representante_legal=IN+ACTION+SRL&email=mauro%40jalifebrothers.com",
+      "previousEventHash": "e54f8f064c0e05741a69c6f6567c7d5df00cd7c9fd8f9512e869c5ad3b348a66",
+      "documentHash": "c4669712bcbb1fbdb766b1d433888c67ec149196ca1f2693323de091d5d2f5d6",
+      "metadata": {
+        "proveedor": "IN ACTION SRL",
+        "representante": "IN ACTION SRL"
+      },
+      "eventHash": "e8a3805091c029651c54b64c03c028187706b417fa42e487180101bd5c25b39b"
+    },
+    {
+      "eventId": "edfdc4df-1857-45ae-b64e-648420299480",
+      "uid": "33711366909",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-12T16:27:09.894Z",
+      "timestampLocal": "2026-02-12T16:27:09.894Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.19.30.87",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=33711366909&nombre_proveedor_razon_social=IN+ACTION+SRL&nombre_representante_legal=IN+ACTION+SRL&email=mauro%40jalifebrothers.com",
+      "previousEventHash": "e8a3805091c029651c54b64c03c028187706b417fa42e487180101bd5c25b39b",
+      "documentHash": "c4669712bcbb1fbdb766b1d433888c67ec149196ca1f2693323de091d5d2f5d6",
+      "eventHash": "bbd38fd765aa257ee647e6b230fbeec02758fb6914a3c3b8b6b39bf22311b81b"
+    },
+    {
+      "eventId": "4e38ec62-6475-4472-9169-fe9a7d09cee9",
+      "uid": "33711366909",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-12T16:28:49.663Z",
+      "timestampLocal": "2026-02-12T16:28:49.663Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.19.30.87",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "bbd38fd765aa257ee647e6b230fbeec02758fb6914a3c3b8b6b39bf22311b81b",
+      "documentHash": "c4669712bcbb1fbdb766b1d433888c67ec149196ca1f2693323de091d5d2f5d6",
+      "eventHash": "73fe246ac6c25d953f7c08de0da4aa5dce583a16cc2431405828af63cfb592af"
+    },
+    {
+      "eventId": "c9debf75-5bf0-4b3c-8ec5-d1d6004322be",
+      "uid": "33711366909",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-12T16:29:20.007Z",
+      "timestampLocal": "2026-02-12T16:29:20.007Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.19.30.87",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "73fe246ac6c25d953f7c08de0da4aa5dce583a16cc2431405828af63cfb592af",
+      "documentHash": "c4669712bcbb1fbdb766b1d433888c67ec149196ca1f2693323de091d5d2f5d6",
+      "eventHash": "ffeae566e4086e36b02a808af549e11b36b3f946eb33ecd884f17f637007a927"
+    },
+    {
+      "eventId": "a419764e-3fae-486f-9e64-66423928aef1",
+      "uid": "33711366909",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-12T16:30:51.714Z",
+      "timestampLocal": "2026-02-12T13:30:51.714Z",
+      "timezone": "UTC-3",
+      "ipAddress": "190.19.30.87",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b0b75d3b-2dea-44ec-92b8-a5e37cc2b633",
+      "previousEventHash": "ffeae566e4086e36b02a808af549e11b36b3f946eb33ecd884f17f637007a927",
+      "documentHash": "af35b402cd9d3266c5f3289256ecedfbfc6e31a5f3ea9829d506baa82ba5f360",
+      "signatureHash": "a2645c7c1f7808ced713af565662279de47f38b18bad3f6a7bb049668bf4b5a0",
+      "metadata": {
+        "personaAutorizada": "Mauro Scokay",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-12T13:30:48.196Z"
+      },
+      "eventHash": "e590fb45e00b65a87d52534c31ff501e74aab2f09d84c916ee2b7220ce85ecc1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-02-12T16:30:51.714Z"
+  }
 }
