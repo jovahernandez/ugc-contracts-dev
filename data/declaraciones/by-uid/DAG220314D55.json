@@ -1,19 +1,100 @@
 {
   "uid": "DAG220314D55",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DW AGENCY",
     "nombre_representante_legal": "DW AGENCY",
     "email": "alan.morales@wearedw.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "DW AGENCY",
-    "nombre_representante_legal": "DW AGENCY",
-    "email": "alan.morales@wearedw.com"
+  "personaAutorizada": "Alan Morales",
+  "signedAt": "2026-02-12T12:49:03.514Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DAG220314D55",
+  "signatureMetadata": {
+    "ip": "201.124.63.244",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-12T18:49:06.905Z",
+    "signedAtLocal": "2026-02-12T12:49:06.905Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2538cce5bf75ab5029d8a1eec956bd3178254663f9bd238b8cf073a5a5099d17"
+  "documentHash": "091d0ecf6b9fe227198b0e64e33f02494bc41cdece10464964d59c73a33e5273",
+  "auditTrail": [
+    {
+      "eventId": "16094ba8-909b-4078-9a8b-b418de06e414",
+      "uid": "DAG220314D55",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-12T18:48:26.026Z",
+      "timestampLocal": "2026-02-12T18:48:26.026Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.63.244",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,de;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DAG220314D55&nombre_proveedor_razon_social=DW+AGENCY&nombre_representante_legal=DW+AGENCY&email=alan.morales%40wearedw.com",
+      "previousEventHash": null,
+      "documentHash": "2538cce5bf75ab5029d8a1eec956bd3178254663f9bd238b8cf073a5a5099d17",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ddd2285f49265a1a41895c90955a9426f920d997209b982352ebd2a6fb53caf5"
+    },
+    {
+      "eventId": "ff04a22b-2249-42de-bff7-888b492a9e0f",
+      "uid": "DAG220314D55",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-12T18:48:26.027Z",
+      "timestampLocal": "2026-02-12T18:48:26.027Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.63.244",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,de;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DAG220314D55&nombre_proveedor_razon_social=DW+AGENCY&nombre_representante_legal=DW+AGENCY&email=alan.morales%40wearedw.com",
+      "previousEventHash": "ddd2285f49265a1a41895c90955a9426f920d997209b982352ebd2a6fb53caf5",
+      "documentHash": "2538cce5bf75ab5029d8a1eec956bd3178254663f9bd238b8cf073a5a5099d17",
+      "metadata": {
+        "proveedor": "DW AGENCY",
+        "representante": "DW AGENCY"
+      },
+      "eventHash": "f3a68b40285c4130591ec5b6ffa0a3deb10918941d778fddc2225525c2d39b67"
+    },
+    {
+      "eventId": "6a4c8ef5-4c5e-4873-a6d5-c51249e46db7",
+      "uid": "DAG220314D55",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-12T18:48:27.163Z",
+      "timestampLocal": "2026-02-12T18:48:27.163Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.63.244",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,de;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DAG220314D55&nombre_proveedor_razon_social=DW+AGENCY&nombre_representante_legal=DW+AGENCY&email=alan.morales%40wearedw.com",
+      "previousEventHash": "f3a68b40285c4130591ec5b6ffa0a3deb10918941d778fddc2225525c2d39b67",
+      "documentHash": "2538cce5bf75ab5029d8a1eec956bd3178254663f9bd238b8cf073a5a5099d17",
+      "eventHash": "0f661d0c66e05112b1d713f317635c425d6449ad03c7d8ace76d73f1a2651fde"
+    },
+    {
+      "eventId": "57c7afe4-39ac-4979-8c87-9842f1e3a414",
+      "uid": "DAG220314D55",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-12T18:49:06.905Z",
+      "timestampLocal": "2026-02-12T12:49:06.905Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.124.63.244",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,de;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c85f6d91-6f68-43c8-b20e-a092dffcaa9a",
+      "previousEventHash": "0f661d0c66e05112b1d713f317635c425d6449ad03c7d8ace76d73f1a2651fde",
+      "documentHash": "091d0ecf6b9fe227198b0e64e33f02494bc41cdece10464964d59c73a33e5273",
+      "signatureHash": "f652a1f371574e8b8d8ee6858e93fb650b39fddc6b24cdb1bb4e04e346b0c02e",
+      "metadata": {
+        "personaAutorizada": "Alan Morales",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-12T12:49:03.514Z"
+      },
+      "eventHash": "fcbfe35eb152112ff4c6599f586fd03b9003d99452c601468ce786055e346866"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-12T18:49:06.906Z"
+  }
 }
