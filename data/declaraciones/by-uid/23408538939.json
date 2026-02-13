@@ -1,19 +1,100 @@
 {
   "uid": "23408538939",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JUAN SEBASTIAN MANZONI",
     "nombre_representante_legal": "JUAN SEBASTIAN MANZONI",
     "email": "sebasmanzoniok@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "JUAN SEBASTIAN MANZONI",
-    "nombre_representante_legal": "JUAN SEBASTIAN MANZONI",
-    "email": "sebasmanzoniok@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-13T16:17:08.906Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/23408538939",
+  "signatureMetadata": {
+    "ip": "186.22.225.152",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-13T19:17:12.393Z",
+    "signedAtLocal": "2026-02-13T16:17:12.393Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "977c239a1f31869283a5e7da3a0463e9852e976c5a6a7afed48208434ce0275e"
+  "documentHash": "7768c98a8961a8b1d1df9af19382490add87281970efbd0b882626defe87b450",
+  "auditTrail": [
+    {
+      "eventId": "b7288108-24e9-44a4-9baf-218abe5f8290",
+      "uid": "23408538939",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-13T19:16:17.326Z",
+      "timestampLocal": "2026-02-13T19:16:17.326Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.22.225.152",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=23408538939&nombre_proveedor_razon_social=JUAN+SEBASTIAN+MANZONI&nombre_representante_legal=JUAN+SEBASTIAN+MANZONI&email=sebasmanzoniok%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "977c239a1f31869283a5e7da3a0463e9852e976c5a6a7afed48208434ce0275e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "fed45df3bc8480208e236f376b942724dfa3e319cd1c887c33681decf53c9acf"
+    },
+    {
+      "eventId": "82bbb64b-a9b0-4e14-8bca-60ddb40e3c6e",
+      "uid": "23408538939",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-13T19:16:17.327Z",
+      "timestampLocal": "2026-02-13T19:16:17.327Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.22.225.152",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=23408538939&nombre_proveedor_razon_social=JUAN+SEBASTIAN+MANZONI&nombre_representante_legal=JUAN+SEBASTIAN+MANZONI&email=sebasmanzoniok%40gmail.com",
+      "previousEventHash": "fed45df3bc8480208e236f376b942724dfa3e319cd1c887c33681decf53c9acf",
+      "documentHash": "977c239a1f31869283a5e7da3a0463e9852e976c5a6a7afed48208434ce0275e",
+      "metadata": {
+        "proveedor": "JUAN SEBASTIAN MANZONI",
+        "representante": "JUAN SEBASTIAN MANZONI"
+      },
+      "eventHash": "5271a8e0099f3e3d2b4fec83dfd3af910998df218f002ea69ddb47e0dfaa72b6"
+    },
+    {
+      "eventId": "e8c58b22-d319-4e20-81a0-d8b604d0a842",
+      "uid": "23408538939",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-13T19:16:18.460Z",
+      "timestampLocal": "2026-02-13T19:16:18.460Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.22.225.152",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=23408538939&nombre_proveedor_razon_social=JUAN+SEBASTIAN+MANZONI&nombre_representante_legal=JUAN+SEBASTIAN+MANZONI&email=sebasmanzoniok%40gmail.com",
+      "previousEventHash": "5271a8e0099f3e3d2b4fec83dfd3af910998df218f002ea69ddb47e0dfaa72b6",
+      "documentHash": "977c239a1f31869283a5e7da3a0463e9852e976c5a6a7afed48208434ce0275e",
+      "eventHash": "a049b89563a5a1927df7856425c1cfe9a1c85343d85f9a3300c5659824eb7e55"
+    },
+    {
+      "eventId": "98b0ea2f-7f10-49f4-8397-d64cb82d18d8",
+      "uid": "23408538939",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-13T19:17:12.393Z",
+      "timestampLocal": "2026-02-13T16:17:12.393Z",
+      "timezone": "UTC-3",
+      "ipAddress": "186.22.225.152",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/6537fe2e-aa2d-4980-baf3-d673161b26cc",
+      "previousEventHash": "a049b89563a5a1927df7856425c1cfe9a1c85343d85f9a3300c5659824eb7e55",
+      "documentHash": "7768c98a8961a8b1d1df9af19382490add87281970efbd0b882626defe87b450",
+      "signatureHash": "4ad9d3cc622878dbdd58aae3c7b5a48efcef1283ba452fcc0f5ea0d3ea5c4992",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-13T16:17:08.906Z"
+      },
+      "eventHash": "e70de99422eb2bb000d526a2baed051d2f30aa389434ae1c9edd99f794bedacd"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-13T19:17:12.394Z"
+  }
 }
