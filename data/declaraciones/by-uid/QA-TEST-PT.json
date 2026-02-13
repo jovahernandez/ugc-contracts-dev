@@ -1,8 +1,13 @@
 {
   "uid": "QA-TEST-PT",
-  "status": "pending_language",
-  "proveedor": null,
-  "expectedProveedorData": {
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "EMPRESA TESTE LTDA",
+    "nombre_representante_legal": "Joao Silva Santos",
+    "email": "qa-pt@test.com"
+  },
+  "expectedProveedor": {
     "nombre_proveedor_razon_social": "EMPRESA TESTE LTDA",
     "nombre_representante_legal": "Joao Silva Santos",
     "email": "qa-pt@test.com"
@@ -10,5 +15,5 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "49031b3e887945879e06876caba2c46d7551d2e6a73e5264f36a59bb5a5b4c63"
 }
