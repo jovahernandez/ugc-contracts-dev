@@ -1,8 +1,13 @@
 {
   "uid": "QA-TEST-EN",
-  "status": "pending_language",
-  "proveedor": null,
-  "expectedProveedorData": {
+  "status": "pending_signature",
+  "language": "en",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "TEST COMPANY LLC",
+    "nombre_representante_legal": "John Smith Jr",
+    "email": "qa-en@test.com"
+  },
+  "expectedProveedor": {
     "nombre_proveedor_razon_social": "TEST COMPANY LLC",
     "nombre_representante_legal": "John Smith Jr",
     "email": "qa-en@test.com"
@@ -10,5 +15,5 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "eee69be330bc5c38e81a6e80d982189fc50ce2f505f71fd49f3f1e5cc7172155"
 }
