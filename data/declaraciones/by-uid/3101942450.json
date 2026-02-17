@@ -1,19 +1,100 @@
 {
   "uid": "3101942450",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "3101942450 SA",
     "nombre_representante_legal": "SAMARIS ZAMORA",
     "email": "dalexsasi@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "3101942450 SA",
-    "nombre_representante_legal": "SAMARIS ZAMORA",
-    "email": "dalexsasi@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-17T15:35:48.115Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/3101942450",
+  "signatureMetadata": {
+    "ip": "201.194.36.182",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-17T21:35:51.477Z",
+    "signedAtLocal": "2026-02-17T15:35:51.477Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3ac29c2fad5742939ac6d51f0cef097ca5db622258828666737f94d5d88b44af"
+  "documentHash": "2eec16e91306500e45d8d8edd1c477e03b4c6f71826c503d78886881dd07334b",
+  "auditTrail": [
+    {
+      "eventId": "6979475f-6a3b-4044-a7a7-70408bf6d863",
+      "uid": "3101942450",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-17T21:34:01.842Z",
+      "timestampLocal": "2026-02-17T21:34:01.842Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.194.36.182",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=3101942450&nombre_proveedor_razon_social=3101942450+SA&nombre_representante_legal=SAMARIS+ZAMORA&email=dalexsasi%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "3ac29c2fad5742939ac6d51f0cef097ca5db622258828666737f94d5d88b44af",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "38e3d685e627e2bdd21c6fdca32e4bb2f11f93df1420e838d407f6d051f27edb"
+    },
+    {
+      "eventId": "ed2e6a3c-473f-4889-a3fa-d73960b23767",
+      "uid": "3101942450",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-17T21:34:01.843Z",
+      "timestampLocal": "2026-02-17T21:34:01.843Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.194.36.182",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=3101942450&nombre_proveedor_razon_social=3101942450+SA&nombre_representante_legal=SAMARIS+ZAMORA&email=dalexsasi%40gmail.com",
+      "previousEventHash": "38e3d685e627e2bdd21c6fdca32e4bb2f11f93df1420e838d407f6d051f27edb",
+      "documentHash": "3ac29c2fad5742939ac6d51f0cef097ca5db622258828666737f94d5d88b44af",
+      "metadata": {
+        "proveedor": "3101942450 SA",
+        "representante": "SAMARIS ZAMORA"
+      },
+      "eventHash": "4d0b8d43b7c9ce2e0e4346fe2a7e9ba5e2cb238cf3ca12f028f4fb650a7d4ae5"
+    },
+    {
+      "eventId": "b512a54a-162c-475f-a117-c1d12bce94d2",
+      "uid": "3101942450",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-17T21:34:03.426Z",
+      "timestampLocal": "2026-02-17T21:34:03.426Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.194.36.182",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=3101942450&nombre_proveedor_razon_social=3101942450+SA&nombre_representante_legal=SAMARIS+ZAMORA&email=dalexsasi%40gmail.com",
+      "previousEventHash": "4d0b8d43b7c9ce2e0e4346fe2a7e9ba5e2cb238cf3ca12f028f4fb650a7d4ae5",
+      "documentHash": "3ac29c2fad5742939ac6d51f0cef097ca5db622258828666737f94d5d88b44af",
+      "eventHash": "b35a49cf3157812395b258aecbad92c4a000ebba192f3c5cc97bd72de33b04cd"
+    },
+    {
+      "eventId": "42df0b6a-4c99-4950-8b75-0d869d3a4ea9",
+      "uid": "3101942450",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-17T21:35:51.477Z",
+      "timestampLocal": "2026-02-17T15:35:51.477Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.194.36.182",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/12fb507c-2cd3-4f71-9b97-5976635183ab",
+      "previousEventHash": "b35a49cf3157812395b258aecbad92c4a000ebba192f3c5cc97bd72de33b04cd",
+      "documentHash": "2eec16e91306500e45d8d8edd1c477e03b4c6f71826c503d78886881dd07334b",
+      "signatureHash": "870636749c962b2dac4a4a2d9f0be43dc0235c01103dfa8c6ea41a856ae25517",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-17T15:35:48.115Z"
+      },
+      "eventHash": "d6b908d5faa11be98369420e40e446fa9829eb998b4217999d6bd61f79c3f59a"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-17T21:35:51.478Z"
+  }
 }
