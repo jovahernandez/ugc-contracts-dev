@@ -1,19 +1,100 @@
 {
   "uid": "SMM181008N88",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SAKURA MANAGEMENT MX",
     "nombre_representante_legal": "Melisa Maiola",
     "email": "administracion@sakuratalento.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SAKURA MANAGEMENT MX",
-    "nombre_representante_legal": "Melisa Maiola",
-    "email": "administracion@sakuratalento.com"
+  "personaAutorizada": "Maria de las Nieves Alonso ",
+  "signedAt": "2026-02-17T11:41:20.070Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SMM181008N88",
+  "signatureMetadata": {
+    "ip": "189.235.135.194",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0",
+    "signedAtUtc": "2026-02-17T16:41:26.128Z",
+    "signedAtLocal": "2026-02-17T11:41:26.128Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c54261b1a338b3724db204d1f7b943aa000a8fa215a722e9d880992d50ba5aed"
+  "documentHash": "4732312c9b5f546cfa2a22ef6ee80cfab4fcd49f3cf964d32aa9138c231bf2fd",
+  "auditTrail": [
+    {
+      "eventId": "23e44323-0047-4042-92d7-1d7b132b0ce2",
+      "uid": "SMM181008N88",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-17T16:40:20.702Z",
+      "timestampLocal": "2026-02-17T16:40:20.702Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.235.135.194",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SMM181008N88&nombre_proveedor_razon_social=SAKURA+MANAGEMENT+MX+&nombre_representante_legal=Melisa+Maiola&email=administracion%40sakuratalento.com",
+      "previousEventHash": null,
+      "documentHash": "c54261b1a338b3724db204d1f7b943aa000a8fa215a722e9d880992d50ba5aed",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6b1cdffd27245f4f9319143b4a87938b57277d6c8a3b422437b74ad6a856492f"
+    },
+    {
+      "eventId": "5c209dea-6983-41b6-b219-1c529abd95cb",
+      "uid": "SMM181008N88",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-17T16:40:20.702Z",
+      "timestampLocal": "2026-02-17T16:40:20.702Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.235.135.194",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SMM181008N88&nombre_proveedor_razon_social=SAKURA+MANAGEMENT+MX+&nombre_representante_legal=Melisa+Maiola&email=administracion%40sakuratalento.com",
+      "previousEventHash": "6b1cdffd27245f4f9319143b4a87938b57277d6c8a3b422437b74ad6a856492f",
+      "documentHash": "c54261b1a338b3724db204d1f7b943aa000a8fa215a722e9d880992d50ba5aed",
+      "metadata": {
+        "proveedor": "SAKURA MANAGEMENT MX",
+        "representante": "Melisa Maiola"
+      },
+      "eventHash": "d1e3c28fb759456e56423d471202d6309731fbee89296e9fc9fc127c8315756e"
+    },
+    {
+      "eventId": "67bb1705-a10d-4e80-b8f5-39ba680e15a7",
+      "uid": "SMM181008N88",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-17T16:40:21.876Z",
+      "timestampLocal": "2026-02-17T16:40:21.876Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.235.135.194",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SMM181008N88&nombre_proveedor_razon_social=SAKURA+MANAGEMENT+MX+&nombre_representante_legal=Melisa+Maiola&email=administracion%40sakuratalento.com",
+      "previousEventHash": "d1e3c28fb759456e56423d471202d6309731fbee89296e9fc9fc127c8315756e",
+      "documentHash": "c54261b1a338b3724db204d1f7b943aa000a8fa215a722e9d880992d50ba5aed",
+      "eventHash": "a5f1f2f8e0ac9084ec2a964042476f9545c91164986bf9c9df5cab96e15a8e65"
+    },
+    {
+      "eventId": "8214d5ba-fda5-4e3f-a806-10393b9f622b",
+      "uid": "SMM181008N88",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-17T16:41:26.129Z",
+      "timestampLocal": "2026-02-17T11:41:26.129Z",
+      "timezone": "UTC-5",
+      "ipAddress": "189.235.135.194",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/3227e90e-408b-4939-b770-c5f416dbd92a",
+      "previousEventHash": "a5f1f2f8e0ac9084ec2a964042476f9545c91164986bf9c9df5cab96e15a8e65",
+      "documentHash": "4732312c9b5f546cfa2a22ef6ee80cfab4fcd49f3cf964d32aa9138c231bf2fd",
+      "signatureHash": "406279d3e5440f08a97dbe04acc394a6d2d7f79df11528b838b728adcd5ec598",
+      "metadata": {
+        "personaAutorizada": "Maria de las Nieves Alonso ",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-17T11:41:20.070Z"
+      },
+      "eventHash": "30cefc61c049d487f2409adf885fd3d7141e09b1061f3b56bc72ab79373b3fb0"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-17T16:41:26.130Z"
+  }
 }
