@@ -1,19 +1,100 @@
 {
   "uid": "782308319",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "717 COMPANY SPA",
     "nombre_representante_legal": "Raúl Bustamante",
     "email": "talent@717.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "717 COMPANY SPA",
-    "nombre_representante_legal": "Raúl Bustamante",
-    "email": "talent@717.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-17T00:05:50.111Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/782308319",
+  "signatureMetadata": {
+    "ip": "201.189.139.253",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-17T03:05:53.716Z",
+    "signedAtLocal": "2026-02-17T00:05:53.716Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d968d4ff2b2ab00bbefa69c6591b7d1f08c7fa257ff0b260850fc5d70b200ca2"
+  "documentHash": "bef5e737e6c8f3fa5f5fef9f9201bde03d236c5ab3827a0fbf1ffe5696924db4",
+  "auditTrail": [
+    {
+      "eventId": "b5468621-1bb7-4fe6-b5bf-00a32adfd120",
+      "uid": "782308319",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-17T03:05:03.735Z",
+      "timestampLocal": "2026-02-17T03:05:03.735Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.189.139.253",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=782308319&nombre_proveedor_razon_social=717+COMPANY+SPA&nombre_representante_legal=Ra%C3%BAl+Bustamante&email=talent%40717.com",
+      "previousEventHash": null,
+      "documentHash": "d968d4ff2b2ab00bbefa69c6591b7d1f08c7fa257ff0b260850fc5d70b200ca2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b47c36e2abd8d91eee09d8d5790ed5d0d779c80235e4a67bc1848c90840cdbd4"
+    },
+    {
+      "eventId": "fb5960e8-579b-4b42-a965-db40bcbc7c9c",
+      "uid": "782308319",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-17T03:05:03.735Z",
+      "timestampLocal": "2026-02-17T03:05:03.735Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.189.139.253",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=782308319&nombre_proveedor_razon_social=717+COMPANY+SPA&nombre_representante_legal=Ra%C3%BAl+Bustamante&email=talent%40717.com",
+      "previousEventHash": "b47c36e2abd8d91eee09d8d5790ed5d0d779c80235e4a67bc1848c90840cdbd4",
+      "documentHash": "d968d4ff2b2ab00bbefa69c6591b7d1f08c7fa257ff0b260850fc5d70b200ca2",
+      "metadata": {
+        "proveedor": "717 COMPANY SPA",
+        "representante": "Raúl Bustamante"
+      },
+      "eventHash": "fc8b32d5b5413ea9f1f10260fb326dd1a5fdedd3ec1a32c86ed9a18937747c84"
+    },
+    {
+      "eventId": "93d4496b-69b4-490b-8c69-0acf4367712a",
+      "uid": "782308319",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-17T03:05:04.914Z",
+      "timestampLocal": "2026-02-17T03:05:04.914Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.189.139.253",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=782308319&nombre_proveedor_razon_social=717+COMPANY+SPA&nombre_representante_legal=Ra%C3%BAl+Bustamante&email=talent%40717.com",
+      "previousEventHash": "fc8b32d5b5413ea9f1f10260fb326dd1a5fdedd3ec1a32c86ed9a18937747c84",
+      "documentHash": "d968d4ff2b2ab00bbefa69c6591b7d1f08c7fa257ff0b260850fc5d70b200ca2",
+      "eventHash": "34394b06c5585e2330c4607e6ad27cef17b6c02edc47adfe8d67fc959fea4409"
+    },
+    {
+      "eventId": "82c46910-3dbf-44d6-ac89-007579e3e689",
+      "uid": "782308319",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-17T03:05:53.716Z",
+      "timestampLocal": "2026-02-17T00:05:53.716Z",
+      "timezone": "UTC-3",
+      "ipAddress": "201.189.139.253",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/83e1d782-f4ae-44a9-9ed9-6edc6008329b",
+      "previousEventHash": "34394b06c5585e2330c4607e6ad27cef17b6c02edc47adfe8d67fc959fea4409",
+      "documentHash": "bef5e737e6c8f3fa5f5fef9f9201bde03d236c5ab3827a0fbf1ffe5696924db4",
+      "signatureHash": "2e2abed00a74e1c042403fa3ed6802adce8bd6022423d7df4d2552d4963ac25a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-17T00:05:50.111Z"
+      },
+      "eventHash": "3c587da228c21af9e7a442de3141f5343ec29080e53304e98cf45e558265f9d8"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-17T03:05:53.716Z"
+  }
 }
