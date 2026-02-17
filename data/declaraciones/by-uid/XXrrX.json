@@ -1,8 +1,13 @@
 {
   "uid": "XXrrX",
-  "status": "pending_language",
-  "proveedor": null,
-  "expectedProveedorData": {
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "YYY",
+    "nombre_representante_legal": "ZZZ",
+    "email": "AAA"
+  },
+  "expectedProveedor": {
     "nombre_proveedor_razon_social": "YYY",
     "nombre_representante_legal": "ZZZ",
     "email": "AAA"
@@ -10,5 +15,5 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d411511888a35ecb76fb77c9a127bda00cc4efa7f9a8698053eb8fae8f429bf8"
 }
