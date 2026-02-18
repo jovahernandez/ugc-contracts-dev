@@ -1,19 +1,100 @@
 {
   "uid": "20346826194",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Matías Palleiro",
     "nombre_representante_legal": "Matías Palleiro",
     "email": "hola@teamtulaga.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Matías Palleiro",
-    "nombre_representante_legal": "Matías Palleiro",
-    "email": "hola@teamtulaga.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-18T10:44:25.939Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20346826194",
+  "signatureMetadata": {
+    "ip": "201.141.103.11",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-18T16:44:29.186Z",
+    "signedAtLocal": "2026-02-18T10:44:29.186Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "728e35c534d048d6703e3f20b2ff7847d395a1e4c32466f00f36157ea3b338a7"
+  "documentHash": "5c8e888b0ca16e83ff5ef77fc5672c00f0f98f3db01ed8521f1197028f322d81",
+  "auditTrail": [
+    {
+      "eventId": "3a2d085f-0354-4d23-8deb-3cb9262749ee",
+      "uid": "20346826194",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-18T16:42:39.023Z",
+      "timestampLocal": "2026-02-18T16:42:39.023Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.103.11",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20346826194&nombre_proveedor_razon_social=Mat%C3%ADas+Palleiro&nombre_representante_legal=Mat%C3%ADas+Palleiro&email=hola%40teamtulaga.com",
+      "previousEventHash": null,
+      "documentHash": "728e35c534d048d6703e3f20b2ff7847d395a1e4c32466f00f36157ea3b338a7",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1fe8f0cda8c25faf87717aed7b220229671a55f2bcad6d7e4b2848dec75491ee"
+    },
+    {
+      "eventId": "bc22c0d3-cfb8-49ac-b023-ac41fb638cf7",
+      "uid": "20346826194",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-18T16:42:39.023Z",
+      "timestampLocal": "2026-02-18T16:42:39.023Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.103.11",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20346826194&nombre_proveedor_razon_social=Mat%C3%ADas+Palleiro&nombre_representante_legal=Mat%C3%ADas+Palleiro&email=hola%40teamtulaga.com",
+      "previousEventHash": "1fe8f0cda8c25faf87717aed7b220229671a55f2bcad6d7e4b2848dec75491ee",
+      "documentHash": "728e35c534d048d6703e3f20b2ff7847d395a1e4c32466f00f36157ea3b338a7",
+      "metadata": {
+        "proveedor": "Matías Palleiro",
+        "representante": "Matías Palleiro"
+      },
+      "eventHash": "19d5fddebdea9341c16ea7fbd937984fd125b6115f0b06dffb50a20342f717b0"
+    },
+    {
+      "eventId": "7657312a-4be0-466b-b373-0f562ab1ad37",
+      "uid": "20346826194",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-18T16:42:40.153Z",
+      "timestampLocal": "2026-02-18T16:42:40.153Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.103.11",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20346826194&nombre_proveedor_razon_social=Mat%C3%ADas+Palleiro&nombre_representante_legal=Mat%C3%ADas+Palleiro&email=hola%40teamtulaga.com",
+      "previousEventHash": "19d5fddebdea9341c16ea7fbd937984fd125b6115f0b06dffb50a20342f717b0",
+      "documentHash": "728e35c534d048d6703e3f20b2ff7847d395a1e4c32466f00f36157ea3b338a7",
+      "eventHash": "0619bd75a1cb8dd8034984d8113eec142055615f959d86b9170bccf2ec5b093e"
+    },
+    {
+      "eventId": "5d3f417c-b1b4-4a1a-a10a-6d0f45ee5b86",
+      "uid": "20346826194",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-18T16:44:29.187Z",
+      "timestampLocal": "2026-02-18T10:44:29.187Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.103.11",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/36af7ee9-de88-4850-9bd2-0ce99b1ee777",
+      "previousEventHash": "0619bd75a1cb8dd8034984d8113eec142055615f959d86b9170bccf2ec5b093e",
+      "documentHash": "5c8e888b0ca16e83ff5ef77fc5672c00f0f98f3db01ed8521f1197028f322d81",
+      "signatureHash": "e0e2fa57250c3b99f87e2018fd7c8549a52e0b1e72650dee1ce9c941b06fc410",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-18T10:44:25.939Z"
+      },
+      "eventHash": "8e83599441142d68a6c9bd093a92992eff90e659e0ab23c2129fc2336d7736a9"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-18T16:44:29.187Z"
+  }
 }
