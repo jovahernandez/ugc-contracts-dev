@@ -1,19 +1,100 @@
 {
   "uid": "RRU210511MT2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "REYES RUBINI S.A DE C.V",
     "nombre_representante_legal": "Elmis Yulan Gómez Beltrán",
     "email": "administrativo@getagency.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "REYES RUBINI S.A DE C.V",
-    "nombre_representante_legal": "Elmis Yulan Gómez Beltrán",
-    "email": "administrativo@getagency.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-18T16:13:39.292Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RRU210511MT2",
+  "signatureMetadata": {
+    "ip": "187.234.64.190",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-18T22:13:42.747Z",
+    "signedAtLocal": "2026-02-18T16:13:42.747Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a91bb25b556415f02f261b754151bb9888c5ec738248425902f4da74c7b73527"
+  "documentHash": "e40ae5400e09576ed3e40c1c43e88e6c5af1a8651f10c331a05e87001156b1e7",
+  "auditTrail": [
+    {
+      "eventId": "6c5dd243-7f5a-495d-af41-26de5b851709",
+      "uid": "RRU210511MT2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-18T22:13:08.536Z",
+      "timestampLocal": "2026-02-18T22:13:08.536Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.234.64.190",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RRU210511MT2&nombre_proveedor_razon_social=REYES+RUBINI+S.A+DE+C.V&nombre_representante_legal=Elmis+Yulan+G%C3%B3mez+Beltr%C3%A1n&email=administrativo%40getagency.mx",
+      "previousEventHash": null,
+      "documentHash": "a91bb25b556415f02f261b754151bb9888c5ec738248425902f4da74c7b73527",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "32181c994ed88934a840e5cfa42ceb3dc275c3aab931af80ab43996e6dd47b17"
+    },
+    {
+      "eventId": "8d5b3c2b-f305-45de-8a24-f73c659c1348",
+      "uid": "RRU210511MT2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-18T22:13:08.536Z",
+      "timestampLocal": "2026-02-18T22:13:08.536Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.234.64.190",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RRU210511MT2&nombre_proveedor_razon_social=REYES+RUBINI+S.A+DE+C.V&nombre_representante_legal=Elmis+Yulan+G%C3%B3mez+Beltr%C3%A1n&email=administrativo%40getagency.mx",
+      "previousEventHash": "32181c994ed88934a840e5cfa42ceb3dc275c3aab931af80ab43996e6dd47b17",
+      "documentHash": "a91bb25b556415f02f261b754151bb9888c5ec738248425902f4da74c7b73527",
+      "metadata": {
+        "proveedor": "REYES RUBINI S.A DE C.V",
+        "representante": "Elmis Yulan Gómez Beltrán"
+      },
+      "eventHash": "07df6c49cd7902d7479ac40f1dfcd083edc820a45d83f6b98ac3acb710184cf2"
+    },
+    {
+      "eventId": "2693dc48-9ef9-4cf8-819a-630b023357a0",
+      "uid": "RRU210511MT2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-18T22:13:09.778Z",
+      "timestampLocal": "2026-02-18T22:13:09.778Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.234.64.190",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RRU210511MT2&nombre_proveedor_razon_social=REYES+RUBINI+S.A+DE+C.V&nombre_representante_legal=Elmis+Yulan+G%C3%B3mez+Beltr%C3%A1n&email=administrativo%40getagency.mx",
+      "previousEventHash": "07df6c49cd7902d7479ac40f1dfcd083edc820a45d83f6b98ac3acb710184cf2",
+      "documentHash": "a91bb25b556415f02f261b754151bb9888c5ec738248425902f4da74c7b73527",
+      "eventHash": "919459fced38a1f8ac789eaab1c418845148f4155327fd376390aed4230ce3f4"
+    },
+    {
+      "eventId": "15b4c9f9-a1c0-4de8-8425-d36259e7f0b5",
+      "uid": "RRU210511MT2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-18T22:13:42.747Z",
+      "timestampLocal": "2026-02-18T16:13:42.747Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.234.64.190",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a08fad5d-f37a-4122-b34a-c7f9f8f64e39",
+      "previousEventHash": "919459fced38a1f8ac789eaab1c418845148f4155327fd376390aed4230ce3f4",
+      "documentHash": "e40ae5400e09576ed3e40c1c43e88e6c5af1a8651f10c331a05e87001156b1e7",
+      "signatureHash": "1bdbc6963d5c3d40d70e5fca2d140ef2c42a8043664bde9d21d252de861f4361",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-18T16:13:39.292Z"
+      },
+      "eventHash": "06f7203e92e35261d9f56b2b9ffd988fded4c2e8c62710a640e5bc3c1400048b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-18T22:13:42.748Z"
+  }
 }
