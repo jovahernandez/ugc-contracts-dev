@@ -1,19 +1,100 @@
 {
   "uid": "2042103319",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Damian Josue Nakache",
     "nombre_representante_legal": "Damian Josue Nakache",
     "email": "hablemosdecine01@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Damian Josue Nakache",
-    "nombre_representante_legal": "Damian Josue Nakache",
-    "email": "hablemosdecine01@gmail.com"
+  "personaAutorizada": "Damian Nakache",
+  "signedAt": "2026-02-18T09:30:09.534Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/2042103319",
+  "signatureMetadata": {
+    "ip": "190.245.159.7",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-18T12:30:12.734Z",
+    "signedAtLocal": "2026-02-18T09:30:12.734Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a03e5b4d23147e06991250130c2ea8af54ada15db3872010feefee1575a017c6"
+  "documentHash": "ed0538491b18bd68dd38d2767ddbc1b56ad9f70431f5ad4e03a9aaebd6ab4d3d",
+  "auditTrail": [
+    {
+      "eventId": "2cc2d905-eede-44fd-aa39-06a4d15c3a6e",
+      "uid": "2042103319",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-18T12:29:53.329Z",
+      "timestampLocal": "2026-02-18T12:29:53.329Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.245.159.7",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=2042103319&nombre_proveedor_razon_social=Damian+Josue+Nakache&nombre_representante_legal=Damian+Josue+Nakache&email=hablemosdecine01%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "a03e5b4d23147e06991250130c2ea8af54ada15db3872010feefee1575a017c6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8752666c9342c46cb8819e7faba84ab83af4dd2cb00c8d201ef0cb2a8d1b113e"
+    },
+    {
+      "eventId": "6ba488f4-da97-4daf-a76f-1dd6e50a0973",
+      "uid": "2042103319",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-18T12:29:53.329Z",
+      "timestampLocal": "2026-02-18T12:29:53.329Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.245.159.7",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=2042103319&nombre_proveedor_razon_social=Damian+Josue+Nakache&nombre_representante_legal=Damian+Josue+Nakache&email=hablemosdecine01%40gmail.com",
+      "previousEventHash": "8752666c9342c46cb8819e7faba84ab83af4dd2cb00c8d201ef0cb2a8d1b113e",
+      "documentHash": "a03e5b4d23147e06991250130c2ea8af54ada15db3872010feefee1575a017c6",
+      "metadata": {
+        "proveedor": "Damian Josue Nakache",
+        "representante": "Damian Josue Nakache"
+      },
+      "eventHash": "a1855937a9aa28aee67cd31219a11ceae392837efa79db3adc4f615499813430"
+    },
+    {
+      "eventId": "7f02cd60-ae75-4b5f-a91b-86a43cac482f",
+      "uid": "2042103319",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-18T12:29:54.547Z",
+      "timestampLocal": "2026-02-18T12:29:54.547Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.245.159.7",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=2042103319&nombre_proveedor_razon_social=Damian+Josue+Nakache&nombre_representante_legal=Damian+Josue+Nakache&email=hablemosdecine01%40gmail.com",
+      "previousEventHash": "a1855937a9aa28aee67cd31219a11ceae392837efa79db3adc4f615499813430",
+      "documentHash": "a03e5b4d23147e06991250130c2ea8af54ada15db3872010feefee1575a017c6",
+      "eventHash": "83db844be8a879ac1fe0f7c823bb77459016129bb70a8bd2cc28f72413866ff9"
+    },
+    {
+      "eventId": "5c88ca3e-1e71-4808-9378-d8d231ffca75",
+      "uid": "2042103319",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-18T12:30:12.735Z",
+      "timestampLocal": "2026-02-18T09:30:12.735Z",
+      "timezone": "UTC-3",
+      "ipAddress": "190.245.159.7",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a336e5ab-3083-44c8-bddf-0d766a79e06b",
+      "previousEventHash": "83db844be8a879ac1fe0f7c823bb77459016129bb70a8bd2cc28f72413866ff9",
+      "documentHash": "ed0538491b18bd68dd38d2767ddbc1b56ad9f70431f5ad4e03a9aaebd6ab4d3d",
+      "signatureHash": "c112a7b9d872c76a760803e9733aefd64936298d732c287c74c5a2f20f788ca7",
+      "metadata": {
+        "personaAutorizada": "Damian Nakache",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-18T09:30:09.534Z"
+      },
+      "eventHash": "1d238996bf8009252155fb6da69501c4d5cfe01d3c44928851fcb8b6c70bc57b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-18T12:30:12.735Z"
+  }
 }
