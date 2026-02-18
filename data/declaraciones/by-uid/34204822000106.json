@@ -1,19 +1,100 @@
 {
   "uid": "34204822000106",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "ALINE BIANCA SILVA 23099039810",
     "nombre_representante_legal": "Aline Bianca",
     "email": "contatoalinebianca@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ALINE BIANCA SILVA 23099039810",
-    "nombre_representante_legal": "Aline Bianca",
-    "email": "contatoalinebianca@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-18T17:21:47.775Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/34204822000106",
+  "signatureMetadata": {
+    "ip": "179.209.45.189",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-18T20:21:53.423Z",
+    "signedAtLocal": "2026-02-18T17:21:53.423Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "97c3864d1ad640e6f8be4fb65372cb11954d4a02bfdd0c5c2006c5497f372278"
+  "documentHash": "51cc2f9e302b5f31266a4cf6373fdb3aab0eedfa202e58f06e3a6c37403c06bf",
+  "auditTrail": [
+    {
+      "eventId": "8f00acc7-7c9d-45af-a41f-195ac7a81878",
+      "uid": "34204822000106",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-18T20:21:19.941Z",
+      "timestampLocal": "2026-02-18T20:21:19.941Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.209.45.189",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=34204822000106&nombre_proveedor_razon_social=ALINE+BIANCA+SILVA+23099039810&nombre_representante_legal=Aline+Bianca&email=contatoalinebianca%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "97c3864d1ad640e6f8be4fb65372cb11954d4a02bfdd0c5c2006c5497f372278",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "bcca658cc9ffdd593556b75aa5416f8a9f57e51138a4a328a04fcd9d898681f0"
+    },
+    {
+      "eventId": "63e06669-86bb-4c5c-9129-328dc1ac40f0",
+      "uid": "34204822000106",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-18T20:21:19.941Z",
+      "timestampLocal": "2026-02-18T20:21:19.941Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.209.45.189",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=34204822000106&nombre_proveedor_razon_social=ALINE+BIANCA+SILVA+23099039810&nombre_representante_legal=Aline+Bianca&email=contatoalinebianca%40gmail.com",
+      "previousEventHash": "bcca658cc9ffdd593556b75aa5416f8a9f57e51138a4a328a04fcd9d898681f0",
+      "documentHash": "97c3864d1ad640e6f8be4fb65372cb11954d4a02bfdd0c5c2006c5497f372278",
+      "metadata": {
+        "proveedor": "ALINE BIANCA SILVA 23099039810",
+        "representante": "Aline Bianca"
+      },
+      "eventHash": "4157f4063c7af8724a21c7fdc1683a936bf5165de0e6c79c8d5fa87c9cf7ce69"
+    },
+    {
+      "eventId": "b7e6da9f-4f75-40a2-afaf-71691c251796",
+      "uid": "34204822000106",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-18T20:21:21.061Z",
+      "timestampLocal": "2026-02-18T20:21:21.061Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.209.45.189",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=34204822000106&nombre_proveedor_razon_social=ALINE+BIANCA+SILVA+23099039810&nombre_representante_legal=Aline+Bianca&email=contatoalinebianca%40gmail.com",
+      "previousEventHash": "4157f4063c7af8724a21c7fdc1683a936bf5165de0e6c79c8d5fa87c9cf7ce69",
+      "documentHash": "97c3864d1ad640e6f8be4fb65372cb11954d4a02bfdd0c5c2006c5497f372278",
+      "eventHash": "7237ba7480766cdd99f08168352f88ea485267108c610c637b7211d2b68942bd"
+    },
+    {
+      "eventId": "0a7a043f-14c1-442a-aff3-b292f3198840",
+      "uid": "34204822000106",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-18T20:21:53.424Z",
+      "timestampLocal": "2026-02-18T17:21:53.424Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.209.45.189",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/dcee20d1-bfd4-4abe-9696-2e7fd6bfb736",
+      "previousEventHash": "7237ba7480766cdd99f08168352f88ea485267108c610c637b7211d2b68942bd",
+      "documentHash": "51cc2f9e302b5f31266a4cf6373fdb3aab0eedfa202e58f06e3a6c37403c06bf",
+      "signatureHash": "32e0335fc1af2996423bcf4fc5c379f6df3f6629e8b916b65431bab524f72be1",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-18T17:21:47.775Z"
+      },
+      "eventHash": "a1c0ca48ebce0dff09a84514cee634da0ccccb08abb35690c2a4e914fe515c1d"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-18T20:21:53.424Z"
+  }
 }
