@@ -1,19 +1,100 @@
 {
   "uid": "MIS1607132M9",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MISULA SA DE CV",
     "nombre_representante_legal": "MISULA SA DE CV",
     "email": "misulafiscal@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MISULA SA DE CV",
-    "nombre_representante_legal": "MISULA SA DE CV",
-    "email": "misulafiscal@gmail.com"
+  "personaAutorizada": "LUZ VERONICA DELGADO HERNANDEZ",
+  "signedAt": "2026-02-19T17:01:11.629Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MIS1607132M9",
+  "signatureMetadata": {
+    "ip": "148.230.246.86",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+    "signedAtUtc": "2026-02-19T23:01:15.004Z",
+    "signedAtLocal": "2026-02-19T17:01:15.004Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d4947e84fb407ff85a23d0697e837eb0b0e1115cc243b4dd2f80f07d0a69bffa"
+  "documentHash": "143af4c28fe62dc9eb9c1387615cf1056dc0a2030d7aa16ab9ddb6d3f5419dfc",
+  "auditTrail": [
+    {
+      "eventId": "0c691a85-1920-4cdb-b306-611eec84b307",
+      "uid": "MIS1607132M9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-19T22:59:56.880Z",
+      "timestampLocal": "2026-02-19T22:59:56.880Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.230.246.86",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MIS1607132M9&nombre_proveedor_razon_social=MISULA+SA+DE+CV&nombre_representante_legal=MISULA+SA+DE+CV&email=misulafiscal%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "d4947e84fb407ff85a23d0697e837eb0b0e1115cc243b4dd2f80f07d0a69bffa",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "162a0d87bbf8ea64aeae7edc984291594488d077a69404b5e49fb242ca2782ae"
+    },
+    {
+      "eventId": "f477369e-1144-470b-b124-bb63f95eda61",
+      "uid": "MIS1607132M9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-19T22:59:56.880Z",
+      "timestampLocal": "2026-02-19T22:59:56.880Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.230.246.86",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MIS1607132M9&nombre_proveedor_razon_social=MISULA+SA+DE+CV&nombre_representante_legal=MISULA+SA+DE+CV&email=misulafiscal%40gmail.com",
+      "previousEventHash": "162a0d87bbf8ea64aeae7edc984291594488d077a69404b5e49fb242ca2782ae",
+      "documentHash": "d4947e84fb407ff85a23d0697e837eb0b0e1115cc243b4dd2f80f07d0a69bffa",
+      "metadata": {
+        "proveedor": "MISULA SA DE CV",
+        "representante": "MISULA SA DE CV"
+      },
+      "eventHash": "f268070524936a0e9cfc40589d330c1c7873aefc211aa6e080a4b7c874090554"
+    },
+    {
+      "eventId": "dbd96e88-d7da-4893-8d81-0169703f6737",
+      "uid": "MIS1607132M9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-19T22:59:57.965Z",
+      "timestampLocal": "2026-02-19T22:59:57.965Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.230.246.86",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MIS1607132M9&nombre_proveedor_razon_social=MISULA+SA+DE+CV&nombre_representante_legal=MISULA+SA+DE+CV&email=misulafiscal%40gmail.com",
+      "previousEventHash": "f268070524936a0e9cfc40589d330c1c7873aefc211aa6e080a4b7c874090554",
+      "documentHash": "d4947e84fb407ff85a23d0697e837eb0b0e1115cc243b4dd2f80f07d0a69bffa",
+      "eventHash": "40aa3b7f492a4dce52d8ce2d5f40fa43ed1f6a4c303a28332abccf6b2f0b800b"
+    },
+    {
+      "eventId": "cb7d0ad9-9186-45c5-a5c1-908be8ab5447",
+      "uid": "MIS1607132M9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-19T23:01:15.004Z",
+      "timestampLocal": "2026-02-19T17:01:15.004Z",
+      "timezone": "UTC-6",
+      "ipAddress": "148.230.246.86",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/2bcafbcf-27b5-42f2-be8d-5884b0bb5626",
+      "previousEventHash": "40aa3b7f492a4dce52d8ce2d5f40fa43ed1f6a4c303a28332abccf6b2f0b800b",
+      "documentHash": "143af4c28fe62dc9eb9c1387615cf1056dc0a2030d7aa16ab9ddb6d3f5419dfc",
+      "signatureHash": "26e05490562b4a7cbb3e22600605b12e8d59721d37ea43534caa55d53068b5fb",
+      "metadata": {
+        "personaAutorizada": "LUZ VERONICA DELGADO HERNANDEZ",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-19T17:01:11.629Z"
+      },
+      "eventHash": "cc0b12214b17935238695eea38a0a0f4b7db3a28324be8ae25a8ef90883f7227"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-19T23:01:15.006Z"
+  }
 }
