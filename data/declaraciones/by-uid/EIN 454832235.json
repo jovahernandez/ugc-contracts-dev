@@ -1,19 +1,115 @@
 {
   "uid": "EIN 454832235",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "LAT ONE INTERNATIONAL LLC",
     "nombre_representante_legal": "FABIAN DARIO BARRERA FIQUE",
     "email": "sandras@latonegroup.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "LAT ONE INTERNATIONAL LLC",
-    "nombre_representante_legal": "FABIAN DARIO BARRERA FIQUE",
-    "email": "sandras@latonegroup.com"
+  "personaAutorizada": "SANDRA SALAZAR MORA",
+  "signedAt": "2026-02-19T12:42:13.828Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/EIN 454832235",
+  "signatureMetadata": {
+    "ip": "191.108.13.107",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-19T17:42:17.234Z",
+    "signedAtLocal": "2026-02-19T12:42:17.234Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "cfcd13752ac7770659843978b2fbda63699af22ab02184fa171ffc4d59ecab86"
+  "documentHash": "a9436ef8099b006e44e282332ee45b591cc26667cffce1975d7ad315c44162cc",
+  "auditTrail": [
+    {
+      "eventId": "94df1057-f142-40af-93bb-1b03ec8f0652",
+      "uid": "EIN 454832235",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-19T17:40:42.517Z",
+      "timestampLocal": "2026-02-19T17:40:42.517Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.108.13.107",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,pt-BR;q=0.7,pt;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIN+454832235&nombre_proveedor_razon_social=LAT+ONE+INTERNATIONAL+LLC&nombre_representante_legal=FABIAN+DARIO+BARRERA+FIQUE&email=sandras%40latonegroup.com",
+      "previousEventHash": null,
+      "documentHash": "cfcd13752ac7770659843978b2fbda63699af22ab02184fa171ffc4d59ecab86",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "69599ae312c81c6f0e8d2b7ca912fecf15fad10fa2c436bbd1418c1dd27aca9b"
+    },
+    {
+      "eventId": "18264dbb-8603-46dc-b7fc-fe6556cb0825",
+      "uid": "EIN 454832235",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-19T17:40:42.517Z",
+      "timestampLocal": "2026-02-19T17:40:42.517Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.108.13.107",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,pt-BR;q=0.7,pt;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIN+454832235&nombre_proveedor_razon_social=LAT+ONE+INTERNATIONAL+LLC&nombre_representante_legal=FABIAN+DARIO+BARRERA+FIQUE&email=sandras%40latonegroup.com",
+      "previousEventHash": "69599ae312c81c6f0e8d2b7ca912fecf15fad10fa2c436bbd1418c1dd27aca9b",
+      "documentHash": "cfcd13752ac7770659843978b2fbda63699af22ab02184fa171ffc4d59ecab86",
+      "metadata": {
+        "proveedor": "LAT ONE INTERNATIONAL LLC",
+        "representante": "FABIAN DARIO BARRERA FIQUE"
+      },
+      "eventHash": "ca292aa679a80c39debb2f74ccb92105508470f0f8fa36329fd8f56a52b4575e"
+    },
+    {
+      "eventId": "71771b59-472e-4254-8b9c-427c846be434",
+      "uid": "EIN 454832235",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-19T17:40:43.608Z",
+      "timestampLocal": "2026-02-19T17:40:43.608Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.108.13.107",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,pt-BR;q=0.7,pt;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIN+454832235&nombre_proveedor_razon_social=LAT+ONE+INTERNATIONAL+LLC&nombre_representante_legal=FABIAN+DARIO+BARRERA+FIQUE&email=sandras%40latonegroup.com",
+      "previousEventHash": "ca292aa679a80c39debb2f74ccb92105508470f0f8fa36329fd8f56a52b4575e",
+      "documentHash": "cfcd13752ac7770659843978b2fbda63699af22ab02184fa171ffc4d59ecab86",
+      "eventHash": "98c42d78e81c2d3812c40969e6fc144eb825d2421ae2e56d5bdba5023de52b60"
+    },
+    {
+      "eventId": "ebea7781-b99c-47a9-807e-a08cd59c9250",
+      "uid": "EIN 454832235",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-19T17:41:51.476Z",
+      "timestampLocal": "2026-02-19T17:41:51.476Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.108.13.107",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,pt-BR;q=0.7,pt;q=0.6",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "98c42d78e81c2d3812c40969e6fc144eb825d2421ae2e56d5bdba5023de52b60",
+      "documentHash": "cfcd13752ac7770659843978b2fbda63699af22ab02184fa171ffc4d59ecab86",
+      "eventHash": "9367b2a72fdd6ff202a9abc2e110bbdb432df77d1d65ea1c9a54c0fa317c1066"
+    },
+    {
+      "eventId": "6853cc7a-f4c0-42fc-b322-daf8dfd616a1",
+      "uid": "EIN 454832235",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-19T17:42:17.234Z",
+      "timestampLocal": "2026-02-19T12:42:17.234Z",
+      "timezone": "UTC-5",
+      "ipAddress": "191.108.13.107",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,pt-BR;q=0.7,pt;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/52f61f59-ad34-466e-b098-1ae2a94c7f56",
+      "previousEventHash": "9367b2a72fdd6ff202a9abc2e110bbdb432df77d1d65ea1c9a54c0fa317c1066",
+      "documentHash": "a9436ef8099b006e44e282332ee45b591cc26667cffce1975d7ad315c44162cc",
+      "signatureHash": "6b4e5de121fe10e74245fe916b47ff473abb6dbd477fd8f1a285edeff62f67fc",
+      "metadata": {
+        "personaAutorizada": "SANDRA SALAZAR MORA",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-19T12:42:13.828Z"
+      },
+      "eventHash": "ae36aa33a5aae3965522ba984b91ea87a73a73a48bc9915c7c2b2c8f8c862438"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-02-19T17:42:17.234Z"
+  }
 }
