@@ -1,19 +1,100 @@
 {
   "uid": "SSM040309NE0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SANIXA SIERRA MADRE SA DE CV",
     "nombre_representante_legal": "HUMBERTO IBARRA",
     "email": "cphibarra@outlook.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SANIXA SIERRA MADRE SA DE CV",
-    "nombre_representante_legal": "HUMBERTO IBARRA",
-    "email": "cphibarra@outlook.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-19T11:47:43.377Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SSM040309NE0",
+  "signatureMetadata": {
+    "ip": "189.158.203.152",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 AVG/144.0.0.0",
+    "signedAtUtc": "2026-02-19T17:47:46.810Z",
+    "signedAtLocal": "2026-02-19T11:47:46.810Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e5327d80635dc1f7c985ebef3d24f912af04a1517df9e96fb04546cfc3c4d858"
+  "documentHash": "d345d1982a62bea8f538076fc25c664b44aeb816a467327343a733f7a05b648d",
+  "auditTrail": [
+    {
+      "eventId": "f5289688-f88d-4fdb-83e5-9fad4caac893",
+      "uid": "SSM040309NE0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-19T17:47:18.419Z",
+      "timestampLocal": "2026-02-19T17:47:18.419Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.158.203.152",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 AVG/144.0.0.0",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SSM040309NE0&nombre_proveedor_razon_social=SANIXA+SIERRA+MADRE+SA+DE+CV&nombre_representante_legal=HUMBERTO+IBARRA&email=cphibarra%40outlook.com",
+      "previousEventHash": null,
+      "documentHash": "e5327d80635dc1f7c985ebef3d24f912af04a1517df9e96fb04546cfc3c4d858",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cc874aa46cc7e7dc46cf3d6c457edc5c5c5f133a8589c357579c097e72797deb"
+    },
+    {
+      "eventId": "6b02b1e2-eb9c-4963-b328-a22f6a646a93",
+      "uid": "SSM040309NE0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-19T17:47:18.419Z",
+      "timestampLocal": "2026-02-19T17:47:18.419Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.158.203.152",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 AVG/144.0.0.0",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SSM040309NE0&nombre_proveedor_razon_social=SANIXA+SIERRA+MADRE+SA+DE+CV&nombre_representante_legal=HUMBERTO+IBARRA&email=cphibarra%40outlook.com",
+      "previousEventHash": "cc874aa46cc7e7dc46cf3d6c457edc5c5c5f133a8589c357579c097e72797deb",
+      "documentHash": "e5327d80635dc1f7c985ebef3d24f912af04a1517df9e96fb04546cfc3c4d858",
+      "metadata": {
+        "proveedor": "SANIXA SIERRA MADRE SA DE CV",
+        "representante": "HUMBERTO IBARRA"
+      },
+      "eventHash": "7c57033157b1209e960fa0312c5c5b5b16629d19aa8150f020697deb46e467ab"
+    },
+    {
+      "eventId": "8f476bdb-a61c-4c90-9099-68189adda3eb",
+      "uid": "SSM040309NE0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-19T17:47:19.306Z",
+      "timestampLocal": "2026-02-19T17:47:19.306Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.158.203.152",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 AVG/144.0.0.0",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SSM040309NE0&nombre_proveedor_razon_social=SANIXA+SIERRA+MADRE+SA+DE+CV&nombre_representante_legal=HUMBERTO+IBARRA&email=cphibarra%40outlook.com",
+      "previousEventHash": "7c57033157b1209e960fa0312c5c5b5b16629d19aa8150f020697deb46e467ab",
+      "documentHash": "e5327d80635dc1f7c985ebef3d24f912af04a1517df9e96fb04546cfc3c4d858",
+      "eventHash": "cac2859b5d1c77ff99cc2e8c1b2def598fe483552eccd970d868c3390084cdbf"
+    },
+    {
+      "eventId": "1e7f68e9-1aba-4ffc-a52c-b836b400cd0f",
+      "uid": "SSM040309NE0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-19T17:47:46.810Z",
+      "timestampLocal": "2026-02-19T11:47:46.810Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.158.203.152",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 AVG/144.0.0.0",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5a07f10d-ab57-4e77-98bb-4c0bb9a85c0c",
+      "previousEventHash": "cac2859b5d1c77ff99cc2e8c1b2def598fe483552eccd970d868c3390084cdbf",
+      "documentHash": "d345d1982a62bea8f538076fc25c664b44aeb816a467327343a733f7a05b648d",
+      "signatureHash": "41d6b24b1ec1893de80618e02793fcbbd3e6d1935de575b141502068a78da1e5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-19T11:47:43.377Z"
+      },
+      "eventHash": "6ae918e49dfd77d10f3f42baa921058523842d84db1b77f5c6cd1019d8b8fdac"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-19T17:47:46.811Z"
+  }
 }
