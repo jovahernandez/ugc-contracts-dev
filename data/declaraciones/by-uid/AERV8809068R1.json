@@ -1,19 +1,100 @@
 {
   "uid": "AERV8809068R1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "VERONICA ALEMAN ROSAS",
     "nombre_representante_legal": "VERONICA ALEMAN ROSAS",
     "email": "administracion@onelab-agency.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "VERONICA ALEMAN ROSAS",
-    "nombre_representante_legal": "VERONICA ALEMAN ROSAS",
-    "email": "administracion@onelab-agency.com"
+  "personaAutorizada": "ANDREA GONZALEZ ROJAS",
+  "signedAt": "2026-02-18T22:28:08.012Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AERV8809068R1",
+  "signatureMetadata": {
+    "ip": "187.189.213.119",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-19T04:28:11.378Z",
+    "signedAtLocal": "2026-02-18T22:28:11.378Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8fbb82d44e4339e943124ace37d2247f63024ff6be32974ca3bb58749ff3aef4"
+  "documentHash": "9b2316d6cdef4d27b1fb4662c3cc2d0bee62f8ba067c6b5fb98af0ba1b0510e5",
+  "auditTrail": [
+    {
+      "eventId": "93857bb5-c9cc-439a-9635-bef8feb7e6cf",
+      "uid": "AERV8809068R1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-19T04:27:39.653Z",
+      "timestampLocal": "2026-02-19T04:27:39.653Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.213.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AERV8809068R1&nombre_proveedor_razon_social=VERONICA+ALEMAN+ROSAS&nombre_representante_legal=VERONICA+ALEMAN+ROSAS&email=administracion%40onelab-agency.com",
+      "previousEventHash": null,
+      "documentHash": "8fbb82d44e4339e943124ace37d2247f63024ff6be32974ca3bb58749ff3aef4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c5e4f1b643ef831aa93fff5ab7323b84c6c4b6a8de3c7879f3a93650b7d1b040"
+    },
+    {
+      "eventId": "552d3487-e47c-425b-b38b-226f29c6d29e",
+      "uid": "AERV8809068R1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-19T04:27:39.654Z",
+      "timestampLocal": "2026-02-19T04:27:39.654Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.213.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AERV8809068R1&nombre_proveedor_razon_social=VERONICA+ALEMAN+ROSAS&nombre_representante_legal=VERONICA+ALEMAN+ROSAS&email=administracion%40onelab-agency.com",
+      "previousEventHash": "c5e4f1b643ef831aa93fff5ab7323b84c6c4b6a8de3c7879f3a93650b7d1b040",
+      "documentHash": "8fbb82d44e4339e943124ace37d2247f63024ff6be32974ca3bb58749ff3aef4",
+      "metadata": {
+        "proveedor": "VERONICA ALEMAN ROSAS",
+        "representante": "VERONICA ALEMAN ROSAS"
+      },
+      "eventHash": "964a34f7b8f4080f90fd4c86bf8221601dc8551cf742a1b5ef1a45d70826d7f6"
+    },
+    {
+      "eventId": "887211eb-5ace-4471-bf47-3fed05e875c1",
+      "uid": "AERV8809068R1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-19T04:27:40.831Z",
+      "timestampLocal": "2026-02-19T04:27:40.831Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.213.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AERV8809068R1&nombre_proveedor_razon_social=VERONICA+ALEMAN+ROSAS&nombre_representante_legal=VERONICA+ALEMAN+ROSAS&email=administracion%40onelab-agency.com",
+      "previousEventHash": "964a34f7b8f4080f90fd4c86bf8221601dc8551cf742a1b5ef1a45d70826d7f6",
+      "documentHash": "8fbb82d44e4339e943124ace37d2247f63024ff6be32974ca3bb58749ff3aef4",
+      "eventHash": "ef9be09d1f607c3b35d2b0c938c9ead1f636e71f2da9eb7b97607a1e51ce9f82"
+    },
+    {
+      "eventId": "1d81e8e2-415a-4766-a425-b59643acdc20",
+      "uid": "AERV8809068R1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-19T04:28:11.378Z",
+      "timestampLocal": "2026-02-18T22:28:11.378Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.213.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ab27d74b-bc40-40aa-9ae4-449a3a002054",
+      "previousEventHash": "ef9be09d1f607c3b35d2b0c938c9ead1f636e71f2da9eb7b97607a1e51ce9f82",
+      "documentHash": "9b2316d6cdef4d27b1fb4662c3cc2d0bee62f8ba067c6b5fb98af0ba1b0510e5",
+      "signatureHash": "f3a350cfa795ad63d9196bc30bf6bcea1455b8dd7917dcd387936c9310390f59",
+      "metadata": {
+        "personaAutorizada": "ANDREA GONZALEZ ROJAS",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-18T22:28:08.012Z"
+      },
+      "eventHash": "22c11a59b6c1f403e8fabf9ca17a76514d5b5087a2a982676bf5601e1d4c20a1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-19T04:28:11.379Z"
+  }
 }
