@@ -1,19 +1,100 @@
 {
   "uid": "RPR241217TK2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "RAMONES PRODUCTIONS",
     "nombre_representante_legal": "RAMONES PRODUCTIONS",
     "email": "asantander@paocme.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "RAMONES PRODUCTIONS",
-    "nombre_representante_legal": "RAMONES PRODUCTIONS",
-    "email": "asantander@paocme.com"
+  "personaAutorizada": "Alejandra Santander",
+  "signedAt": "2026-02-20T17:40:32.936Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RPR241217TK2",
+  "signatureMetadata": {
+    "ip": "201.141.25.211",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-20T23:40:36.485Z",
+    "signedAtLocal": "2026-02-20T17:40:36.485Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "df72760e190e78bba85ebb9d8a6f1b4324b0d2edeb13a1781a6d84d0efa6a98e"
+  "documentHash": "91bd7f0af240fba043cb4a0a9d3a9fda5ceb107ae2659daa484b1b79ea5273e7",
+  "auditTrail": [
+    {
+      "eventId": "c21f0677-c6b7-46f6-815f-6dbcb3e51571",
+      "uid": "RPR241217TK2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-20T23:40:16.020Z",
+      "timestampLocal": "2026-02-20T23:40:16.020Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.25.211",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RPR241217TK2&nombre_proveedor_razon_social=RAMONES+PRODUCTIONS&nombre_representante_legal=RAMONES+PRODUCTIONS&email=asantander%40paocme.com",
+      "previousEventHash": null,
+      "documentHash": "df72760e190e78bba85ebb9d8a6f1b4324b0d2edeb13a1781a6d84d0efa6a98e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "62465b64ab6d7994e18cd000eeb071144ccc1bd85ebc94f38a368aa933646d03"
+    },
+    {
+      "eventId": "58b1c826-a7a5-4d1b-9075-e4a4e147ab19",
+      "uid": "RPR241217TK2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-20T23:40:16.020Z",
+      "timestampLocal": "2026-02-20T23:40:16.020Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.25.211",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RPR241217TK2&nombre_proveedor_razon_social=RAMONES+PRODUCTIONS&nombre_representante_legal=RAMONES+PRODUCTIONS&email=asantander%40paocme.com",
+      "previousEventHash": "62465b64ab6d7994e18cd000eeb071144ccc1bd85ebc94f38a368aa933646d03",
+      "documentHash": "df72760e190e78bba85ebb9d8a6f1b4324b0d2edeb13a1781a6d84d0efa6a98e",
+      "metadata": {
+        "proveedor": "RAMONES PRODUCTIONS",
+        "representante": "RAMONES PRODUCTIONS"
+      },
+      "eventHash": "71251c9220a79899f26b82bf35fddf8b084251b00252a18944099173a1bcc791"
+    },
+    {
+      "eventId": "4dcf88bd-1944-416f-a56c-f2d2286a67a9",
+      "uid": "RPR241217TK2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-20T23:40:16.786Z",
+      "timestampLocal": "2026-02-20T23:40:16.786Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.25.211",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RPR241217TK2&nombre_proveedor_razon_social=RAMONES+PRODUCTIONS&nombre_representante_legal=RAMONES+PRODUCTIONS&email=asantander%40paocme.com",
+      "previousEventHash": "71251c9220a79899f26b82bf35fddf8b084251b00252a18944099173a1bcc791",
+      "documentHash": "df72760e190e78bba85ebb9d8a6f1b4324b0d2edeb13a1781a6d84d0efa6a98e",
+      "eventHash": "7283c5d807f824cbc4ae5275ab85f5779944075284d4edf2e781780ffc96df89"
+    },
+    {
+      "eventId": "4bea23c3-6104-444b-80d1-f6948d6cb0ea",
+      "uid": "RPR241217TK2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-20T23:40:36.485Z",
+      "timestampLocal": "2026-02-20T17:40:36.485Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.25.211",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/eb4994ad-5bd2-45aa-b8db-3134e98212f8",
+      "previousEventHash": "7283c5d807f824cbc4ae5275ab85f5779944075284d4edf2e781780ffc96df89",
+      "documentHash": "91bd7f0af240fba043cb4a0a9d3a9fda5ceb107ae2659daa484b1b79ea5273e7",
+      "signatureHash": "5793c8cce5477cfd88f0a3b178618652381d9125c5ffa129f8f2abd8f2f8cf50",
+      "metadata": {
+        "personaAutorizada": "Alejandra Santander",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-20T17:40:32.936Z"
+      },
+      "eventHash": "28b3de1cd2bd9e9a5828b3c7c92fd4b237a5c951282ebfbbc947abf20b2b65fc"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-20T23:40:36.486Z"
+  }
 }
