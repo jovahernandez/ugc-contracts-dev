@@ -1,19 +1,100 @@
 {
   "uid": "EIN454832235",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "LAT ONE INTERNATIONAL LLC",
     "nombre_representante_legal": "FABIAN DARIO BARRERA FIQUE",
     "email": "sandras@latonegroup.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "LAT ONE INTERNATIONAL LLC",
-    "nombre_representante_legal": "FABIAN DARIO BARRERA FIQUE",
-    "email": "sandras@latonegroup.com"
+  "personaAutorizada": "Sandra Salazar Mora",
+  "signedAt": "2026-02-20T14:55:53.580Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/EIN454832235",
+  "signatureMetadata": {
+    "ip": "181.79.3.230",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-20T19:55:56.963Z",
+    "signedAtLocal": "2026-02-20T14:55:56.963Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "41753f741124456b092dabb474bb3fcfc6854f1c787dd9bde2a0b537e6efb72b"
+  "documentHash": "abc8636c9a731e7e20fce1bf48c9d42919c22fb278d4e9bc10abafb884fe294f",
+  "auditTrail": [
+    {
+      "eventId": "2548ed44-35da-4b0f-954b-8f41c2095a31",
+      "uid": "EIN454832235",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-20T19:55:16.656Z",
+      "timestampLocal": "2026-02-20T19:55:16.656Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.79.3.230",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,pt-BR;q=0.7,pt;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIN454832235&nombre_proveedor_razon_social=LAT+ONE+INTERNATIONAL+LLC&nombre_representante_legal=FABIAN+DARIO+BARRERA+FIQUE&email=sandras%40latonegroup.com",
+      "previousEventHash": null,
+      "documentHash": "41753f741124456b092dabb474bb3fcfc6854f1c787dd9bde2a0b537e6efb72b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "39cd9a6eaccaef2fe92caf9d7e51a7932b4f1b74a95f76798eef909aa03d3b43"
+    },
+    {
+      "eventId": "b258d33f-150d-46ae-9e47-397e51951c04",
+      "uid": "EIN454832235",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-20T19:55:16.657Z",
+      "timestampLocal": "2026-02-20T19:55:16.657Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.79.3.230",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,pt-BR;q=0.7,pt;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIN454832235&nombre_proveedor_razon_social=LAT+ONE+INTERNATIONAL+LLC&nombre_representante_legal=FABIAN+DARIO+BARRERA+FIQUE&email=sandras%40latonegroup.com",
+      "previousEventHash": "39cd9a6eaccaef2fe92caf9d7e51a7932b4f1b74a95f76798eef909aa03d3b43",
+      "documentHash": "41753f741124456b092dabb474bb3fcfc6854f1c787dd9bde2a0b537e6efb72b",
+      "metadata": {
+        "proveedor": "LAT ONE INTERNATIONAL LLC",
+        "representante": "FABIAN DARIO BARRERA FIQUE"
+      },
+      "eventHash": "fc9ddcbe41a234ceaf75106706588bddddd2ac73a87caf1cf4e713b1b618ce9d"
+    },
+    {
+      "eventId": "48ab7820-086f-4aef-b3d3-27b7e9b9cf0a",
+      "uid": "EIN454832235",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-20T19:55:17.715Z",
+      "timestampLocal": "2026-02-20T19:55:17.715Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.79.3.230",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,pt-BR;q=0.7,pt;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIN454832235&nombre_proveedor_razon_social=LAT+ONE+INTERNATIONAL+LLC&nombre_representante_legal=FABIAN+DARIO+BARRERA+FIQUE&email=sandras%40latonegroup.com",
+      "previousEventHash": "fc9ddcbe41a234ceaf75106706588bddddd2ac73a87caf1cf4e713b1b618ce9d",
+      "documentHash": "41753f741124456b092dabb474bb3fcfc6854f1c787dd9bde2a0b537e6efb72b",
+      "eventHash": "3e6da2f23e492309a299ba9457f6688f21a235ee24bd5593b4192e5469cd74b8"
+    },
+    {
+      "eventId": "69dd86a8-758f-45b9-a4cd-02733d231151",
+      "uid": "EIN454832235",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-20T19:55:56.963Z",
+      "timestampLocal": "2026-02-20T14:55:56.963Z",
+      "timezone": "UTC-5",
+      "ipAddress": "181.79.3.230",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,pt-BR;q=0.7,pt;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/655f83bb-d171-49df-9dc3-65eb0377cff5",
+      "previousEventHash": "3e6da2f23e492309a299ba9457f6688f21a235ee24bd5593b4192e5469cd74b8",
+      "documentHash": "abc8636c9a731e7e20fce1bf48c9d42919c22fb278d4e9bc10abafb884fe294f",
+      "signatureHash": "ba36ca1dd000f1a4a911ec9538fadabf6c14c422857a15548b90e71ba3faf65f",
+      "metadata": {
+        "personaAutorizada": "Sandra Salazar Mora",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-20T14:55:53.580Z"
+      },
+      "eventHash": "40aacb84b2e75aade6aa97a5a92f95d8fc30e5725d41090aa038082939014620"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-20T19:55:56.964Z"
+  }
 }
