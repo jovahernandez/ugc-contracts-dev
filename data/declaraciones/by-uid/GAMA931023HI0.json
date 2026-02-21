@@ -1,19 +1,100 @@
 {
   "uid": "GAMA931023HI0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ARIZAI GARCIA MIRANDA",
     "nombre_representante_legal": "ARIZAI GARCIA MIRANDA",
     "email": "aripakita@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ARIZAI GARCIA MIRANDA",
-    "nombre_representante_legal": "ARIZAI GARCIA MIRANDA",
-    "email": "aripakita@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-20T20:18:14.568Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GAMA931023HI0",
+  "signatureMetadata": {
+    "ip": "70.163.172.80",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",
+    "signedAtUtc": "2026-02-21T03:18:17.603Z",
+    "signedAtLocal": "2026-02-20T20:18:17.603Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c7dc384bcc91e8f21d4851b1431b75a7b432a8b2c9ac123e094630f9b9bd0396"
+  "documentHash": "58360676e583728e71c18fe71fa49ee8368a9277371519642a7cddb4774734db",
+  "auditTrail": [
+    {
+      "eventId": "e02e5bb6-56a6-4f23-aeb0-bb6d72cdc7b5",
+      "uid": "GAMA931023HI0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-21T03:16:50.556Z",
+      "timestampLocal": "2026-02-21T03:16:50.556Z",
+      "timezone": "UTC+0",
+      "ipAddress": "70.163.172.80",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAMA931023HI0&nombre_proveedor_razon_social=ARIZAI+GARCIA+MIRANDA&nombre_representante_legal=ARIZAI+GARCIA+MIRANDA&email=aripakita%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "c7dc384bcc91e8f21d4851b1431b75a7b432a8b2c9ac123e094630f9b9bd0396",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c3c5dd64b213d7e12213ba1c92a23487b63a2f6899e5e5d0d60e9623a0b747c6"
+    },
+    {
+      "eventId": "daa72870-1478-4f63-b173-140b8e8fab4a",
+      "uid": "GAMA931023HI0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-21T03:16:50.556Z",
+      "timestampLocal": "2026-02-21T03:16:50.556Z",
+      "timezone": "UTC+0",
+      "ipAddress": "70.163.172.80",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAMA931023HI0&nombre_proveedor_razon_social=ARIZAI+GARCIA+MIRANDA&nombre_representante_legal=ARIZAI+GARCIA+MIRANDA&email=aripakita%40gmail.com",
+      "previousEventHash": "c3c5dd64b213d7e12213ba1c92a23487b63a2f6899e5e5d0d60e9623a0b747c6",
+      "documentHash": "c7dc384bcc91e8f21d4851b1431b75a7b432a8b2c9ac123e094630f9b9bd0396",
+      "metadata": {
+        "proveedor": "ARIZAI GARCIA MIRANDA",
+        "representante": "ARIZAI GARCIA MIRANDA"
+      },
+      "eventHash": "a5c58a3bf2cfe629b119074be8fe9defcc18d5ad6c253702a318c9486b6d66ad"
+    },
+    {
+      "eventId": "d9cb6313-d2fa-4dab-a514-e48e07f216fd",
+      "uid": "GAMA931023HI0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-21T03:16:51.593Z",
+      "timestampLocal": "2026-02-21T03:16:51.593Z",
+      "timezone": "UTC+0",
+      "ipAddress": "70.163.172.80",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAMA931023HI0&nombre_proveedor_razon_social=ARIZAI+GARCIA+MIRANDA&nombre_representante_legal=ARIZAI+GARCIA+MIRANDA&email=aripakita%40gmail.com",
+      "previousEventHash": "a5c58a3bf2cfe629b119074be8fe9defcc18d5ad6c253702a318c9486b6d66ad",
+      "documentHash": "c7dc384bcc91e8f21d4851b1431b75a7b432a8b2c9ac123e094630f9b9bd0396",
+      "eventHash": "ed75dbd50cf9b2af2050b6829b879593b3892bded1f5746de15244a74738b872"
+    },
+    {
+      "eventId": "ef88e3fb-2d21-4ab2-ab8a-eeb0d6bd2357",
+      "uid": "GAMA931023HI0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-21T03:18:17.603Z",
+      "timestampLocal": "2026-02-20T20:18:17.603Z",
+      "timezone": "UTC-7",
+      "ipAddress": "70.163.172.80",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1d9cfd10-aa89-4f9c-9511-a0db4844e1a6",
+      "previousEventHash": "ed75dbd50cf9b2af2050b6829b879593b3892bded1f5746de15244a74738b872",
+      "documentHash": "58360676e583728e71c18fe71fa49ee8368a9277371519642a7cddb4774734db",
+      "signatureHash": "83032d80d826257dcf0de372e56d1afbbe691bd043fe7ac378814f09345366aa",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-20T20:18:14.568Z"
+      },
+      "eventHash": "496e4f45ed22da436e5f11431c5ec8314f472774bd948bdf42ceb44c162b5651"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-21T03:18:17.604Z"
+  }
 }
