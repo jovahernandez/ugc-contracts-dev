@@ -1,19 +1,115 @@
 {
   "uid": "MCO201127798",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MOVDI COMUNICACION SA DE CV",
     "nombre_representante_legal": "DANIELA RAMIREZ REYES",
     "email": "hola@movdi.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MOVDI COMUNICACION SA DE CV",
-    "nombre_representante_legal": "DANIELA RAMIREZ REYES",
-    "email": "hola@movdi.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-23T09:40:23.647Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MCO201127798",
+  "signatureMetadata": {
+    "ip": "189.217.199.39",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-23T15:40:27.077Z",
+    "signedAtLocal": "2026-02-23T09:40:27.077Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "55fad98ce63ecd07ae7ce013deaac2a4d1b56375cd2eb2362aebc8fb1427ac91"
+  "documentHash": "98464d6215081c2a373389dad2c3807abefe80ec7a79fa0bd42528653fcbd3cd",
+  "auditTrail": [
+    {
+      "eventId": "c2af6aad-5ff0-4491-9158-f337e78f3628",
+      "uid": "MCO201127798",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-20T19:27:07.106Z",
+      "timestampLocal": "2026-02-20T19:27:07.106Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.171.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "55fad98ce63ecd07ae7ce013deaac2a4d1b56375cd2eb2362aebc8fb1427ac91",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ba66a579c5076761f981c9c402f8e723c870e77c99da87e9e13abf8e5b393c94"
+    },
+    {
+      "eventId": "e02e3f8d-720a-4231-8f6a-b0023ecf7678",
+      "uid": "MCO201127798",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-20T19:27:07.106Z",
+      "timestampLocal": "2026-02-20T19:27:07.106Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.171.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ba66a579c5076761f981c9c402f8e723c870e77c99da87e9e13abf8e5b393c94",
+      "documentHash": "55fad98ce63ecd07ae7ce013deaac2a4d1b56375cd2eb2362aebc8fb1427ac91",
+      "metadata": {
+        "proveedor": "MOVDI COMUNICACION SA DE CV",
+        "representante": "DANIELA RAMIREZ REYES"
+      },
+      "eventHash": "d1ebffd03de7346a864c734b8fd5d79b18b3db43b624a6492919fef9fa1a6b1f"
+    },
+    {
+      "eventId": "740558e0-9085-4913-a607-6582c79457ad",
+      "uid": "MCO201127798",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-20T19:27:08.464Z",
+      "timestampLocal": "2026-02-20T19:27:08.464Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.171.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "d1ebffd03de7346a864c734b8fd5d79b18b3db43b624a6492919fef9fa1a6b1f",
+      "documentHash": "55fad98ce63ecd07ae7ce013deaac2a4d1b56375cd2eb2362aebc8fb1427ac91",
+      "eventHash": "da053e7801123e5ccd53f731041c8516a3bc2b391246c4de892a50c17c4dac84"
+    },
+    {
+      "eventId": "9adb7a6a-896c-4431-b68f-4938f9c8dfac",
+      "uid": "MCO201127798",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-23T15:33:50.063Z",
+      "timestampLocal": "2026-02-23T15:33:50.063Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.199.39",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "da053e7801123e5ccd53f731041c8516a3bc2b391246c4de892a50c17c4dac84",
+      "documentHash": "55fad98ce63ecd07ae7ce013deaac2a4d1b56375cd2eb2362aebc8fb1427ac91",
+      "eventHash": "c1bdab3ce4d5400239ea329c49bcfb7d211457fb9184355bfa0509dadc459ce6"
+    },
+    {
+      "eventId": "cb80542c-c143-46dd-80c2-8ce6238607f0",
+      "uid": "MCO201127798",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-23T15:40:27.077Z",
+      "timestampLocal": "2026-02-23T09:40:27.077Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.199.39",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/99f44d3f-df93-4d9c-a985-67ba03e10b11",
+      "previousEventHash": "c1bdab3ce4d5400239ea329c49bcfb7d211457fb9184355bfa0509dadc459ce6",
+      "documentHash": "98464d6215081c2a373389dad2c3807abefe80ec7a79fa0bd42528653fcbd3cd",
+      "signatureHash": "aed854cce201d265784bb18141d30993d431433e9e3b4d82971c4e456b8cc9d0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-23T09:40:23.647Z"
+      },
+      "eventHash": "a5f552b633fe8a13e525bee9f6dea52c08234c4774f1d88ba087156ec5677cee"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-02-23T15:40:27.077Z"
+  }
 }
