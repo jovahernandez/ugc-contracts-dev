@@ -1,19 +1,100 @@
 {
   "uid": "20605976060",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "LAINAP AGENCIA EIRL",
     "nombre_representante_legal": "NICOLE NUNURA",
     "email": "nicole@lainap.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "LAINAP AGENCIA EIRL",
-    "nombre_representante_legal": "NICOLE NUNURA",
-    "email": "nicole@lainap.com"
+  "personaAutorizada": "nickol alexandra nunura lopez ",
+  "signedAt": "2026-02-23T18:57:11.681Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20605976060",
+  "signatureMetadata": {
+    "ip": "190.43.154.221",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+    "signedAtUtc": "2026-02-23T23:57:14.980Z",
+    "signedAtLocal": "2026-02-23T18:57:14.980Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f48d29fc832e7ac0d60b2f99b668b61efa2b0d6f0f3dde502f0b9c513d152864"
+  "documentHash": "89a71e1e0bd31d3f8f5a8980ec5a10fe92485206ade2d78a7bc65cd8e3f827b1",
+  "auditTrail": [
+    {
+      "eventId": "b01e7863-16dd-4d19-b427-11a511448596",
+      "uid": "20605976060",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-23T23:56:45.113Z",
+      "timestampLocal": "2026-02-23T23:56:45.113Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.43.154.221",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "f48d29fc832e7ac0d60b2f99b668b61efa2b0d6f0f3dde502f0b9c513d152864",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "eaa212d198c0d6887af75ff60c277d2a82b1b46ed700f9dfe3d2689780793d03"
+    },
+    {
+      "eventId": "d6c8987e-0156-46eb-86c2-7c0d9b69842c",
+      "uid": "20605976060",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-23T23:56:45.113Z",
+      "timestampLocal": "2026-02-23T23:56:45.113Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.43.154.221",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "eaa212d198c0d6887af75ff60c277d2a82b1b46ed700f9dfe3d2689780793d03",
+      "documentHash": "f48d29fc832e7ac0d60b2f99b668b61efa2b0d6f0f3dde502f0b9c513d152864",
+      "metadata": {
+        "proveedor": "LAINAP AGENCIA EIRL",
+        "representante": "NICOLE NUNURA"
+      },
+      "eventHash": "4e2ef37a32eb528c9c26e74b6c6b6bb07371e25c0b61df7692cc01bb2d31eecf"
+    },
+    {
+      "eventId": "42bb5e5c-d96c-4785-b2c2-0fc7e80ece4a",
+      "uid": "20605976060",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-23T23:56:45.876Z",
+      "timestampLocal": "2026-02-23T23:56:45.876Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.43.154.221",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4e2ef37a32eb528c9c26e74b6c6b6bb07371e25c0b61df7692cc01bb2d31eecf",
+      "documentHash": "f48d29fc832e7ac0d60b2f99b668b61efa2b0d6f0f3dde502f0b9c513d152864",
+      "eventHash": "a687dbfe2365c5f3bdc81e35472bae0929e3da121374e980ce97019c05519568"
+    },
+    {
+      "eventId": "4730788b-d704-4892-9879-55621bc25c25",
+      "uid": "20605976060",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-23T23:57:14.980Z",
+      "timestampLocal": "2026-02-23T18:57:14.980Z",
+      "timezone": "UTC-5",
+      "ipAddress": "190.43.154.221",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a687dbfe2365c5f3bdc81e35472bae0929e3da121374e980ce97019c05519568",
+      "documentHash": "89a71e1e0bd31d3f8f5a8980ec5a10fe92485206ade2d78a7bc65cd8e3f827b1",
+      "signatureHash": "d31cacf531a28e458e8aa7a15f3b3a83e585cc4ef45f516ab63d22ffd2c87393",
+      "metadata": {
+        "personaAutorizada": "nickol alexandra nunura lopez ",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-23T18:57:11.681Z"
+      },
+      "eventHash": "bd04fb7526b420b18a5e34893a537314a4abe642c12a8731013c457fdef431b3"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-23T23:57:14.981Z"
+  }
 }
