@@ -1,19 +1,115 @@
 {
   "uid": "90826958",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MATIZ LMT",
     "nombre_representante_legal": "Gina María Yepes Becerra",
     "email": "contacto@matizlmt.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MATIZ LMT",
-    "nombre_representante_legal": "Gina María Yepes Becerra",
-    "email": "contacto@matizlmt.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-23T16:37:28.869Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/90826958",
+  "signatureMetadata": {
+    "ip": "181.234.203.18",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-23T21:37:34.697Z",
+    "signedAtLocal": "2026-02-23T16:37:34.697Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5b6c6c8d2aab2037998b5a39ebf488603eaf8ce313b766657966f1a6d37d17b6"
+  "documentHash": "be220a6d686989bcce6f176d4f94fea396642ba8a55c051958346017975b3a0f",
+  "auditTrail": [
+    {
+      "eventId": "fd2ce88e-16ef-4110-b464-6b4d89f7a1ff",
+      "uid": "90826958",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-23T21:33:04.970Z",
+      "timestampLocal": "2026-02-23T21:33:04.970Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.234.203.18",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=90826958&nombre_proveedor_razon_social=MATIZ+LMT&nombre_representante_legal=Gina+Mar%C3%ADa+Yepes+Becerra&email=contacto%40matizlmt.com",
+      "previousEventHash": null,
+      "documentHash": "5b6c6c8d2aab2037998b5a39ebf488603eaf8ce313b766657966f1a6d37d17b6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1eeefc8758a8d229c5f74f5878f2f6d35eb37bf7c8c50a7dc37c18496473ea3f"
+    },
+    {
+      "eventId": "7656bf82-0d30-4762-bb5c-9c5bfc3095a3",
+      "uid": "90826958",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-23T21:33:04.970Z",
+      "timestampLocal": "2026-02-23T21:33:04.970Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.234.203.18",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=90826958&nombre_proveedor_razon_social=MATIZ+LMT&nombre_representante_legal=Gina+Mar%C3%ADa+Yepes+Becerra&email=contacto%40matizlmt.com",
+      "previousEventHash": "1eeefc8758a8d229c5f74f5878f2f6d35eb37bf7c8c50a7dc37c18496473ea3f",
+      "documentHash": "5b6c6c8d2aab2037998b5a39ebf488603eaf8ce313b766657966f1a6d37d17b6",
+      "metadata": {
+        "proveedor": "MATIZ LMT",
+        "representante": "Gina María Yepes Becerra"
+      },
+      "eventHash": "c27d9ba99f7092fcbddc1f2d019c413dfc2179e689dbb4392b03e882a12419a2"
+    },
+    {
+      "eventId": "fbbb4595-a6f6-419f-83d5-4ad40f19e9bd",
+      "uid": "90826958",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-23T21:33:06.044Z",
+      "timestampLocal": "2026-02-23T21:33:06.044Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.234.203.18",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=90826958&nombre_proveedor_razon_social=MATIZ+LMT&nombre_representante_legal=Gina+Mar%C3%ADa+Yepes+Becerra&email=contacto%40matizlmt.com",
+      "previousEventHash": "c27d9ba99f7092fcbddc1f2d019c413dfc2179e689dbb4392b03e882a12419a2",
+      "documentHash": "5b6c6c8d2aab2037998b5a39ebf488603eaf8ce313b766657966f1a6d37d17b6",
+      "eventHash": "e694dc12d61b58c322793e88760cb891291a7657a9b9faf869e00a8001e46df6"
+    },
+    {
+      "eventId": "247505b0-e69b-43fe-a552-57933ad3db83",
+      "uid": "90826958",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-23T21:34:12.175Z",
+      "timestampLocal": "2026-02-23T21:34:12.175Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.234.203.18",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "e694dc12d61b58c322793e88760cb891291a7657a9b9faf869e00a8001e46df6",
+      "documentHash": "5b6c6c8d2aab2037998b5a39ebf488603eaf8ce313b766657966f1a6d37d17b6",
+      "eventHash": "a2bd760c5433db2cdf84fb1f2dbbed76aa70a65b968f7441169559eefb015df1"
+    },
+    {
+      "eventId": "d5944b64-46d7-4a1b-bc2f-ab7ffc05c923",
+      "uid": "90826958",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-23T21:37:34.697Z",
+      "timestampLocal": "2026-02-23T16:37:34.697Z",
+      "timezone": "UTC-5",
+      "ipAddress": "181.234.203.18",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e805ccb7-ea46-437a-aec8-497dfe80c1ae",
+      "previousEventHash": "a2bd760c5433db2cdf84fb1f2dbbed76aa70a65b968f7441169559eefb015df1",
+      "documentHash": "be220a6d686989bcce6f176d4f94fea396642ba8a55c051958346017975b3a0f",
+      "signatureHash": "700bb24abbac7a727d3cfbd77cd6170dd749df1069cef694e8312d071f64aa45",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-23T16:37:28.869Z"
+      },
+      "eventHash": "7478c66b381cc1afff7dc07a9bd700bc3589b0ec0e0a8090f176d419e69c307a"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-02-23T21:37:34.698Z"
+  }
 }
