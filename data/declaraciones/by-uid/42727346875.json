@@ -1,19 +1,100 @@
 {
   "uid": "42727346875",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "BRUNA ANDREOLLI TEZINHO",
     "nombre_representante_legal": "BRUNA ANDREOLLI TEZINHO",
     "email": "brukesper94@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "BRUNA ANDREOLLI TEZINHO",
-    "nombre_representante_legal": "BRUNA ANDREOLLI TEZINHO",
-    "email": "brukesper94@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-23T11:43:32.721Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/42727346875",
+  "signatureMetadata": {
+    "ip": "187.182.236.58",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-23T14:43:36.147Z",
+    "signedAtLocal": "2026-02-23T11:43:36.147Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1ea626917e209b18b8ddf66ee770625bd59b20617105d4f9f7032d8aea4eb229"
+  "documentHash": "f6c05793219c90b0b48314ea9b2450f383976d9f60ae1444f0b54f53d0f53e76",
+  "auditTrail": [
+    {
+      "eventId": "db3b0a37-a6b3-4c14-885f-d9ab01d57323",
+      "uid": "42727346875",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-23T14:42:47.095Z",
+      "timestampLocal": "2026-02-23T14:42:47.095Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.182.236.58",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42727346875&nombre_proveedor_razon_social=BRUNA+ANDREOLLI+TEZINHO&nombre_representante_legal=BRUNA+ANDREOLLI+TEZINHO&email=brukesper94%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "1ea626917e209b18b8ddf66ee770625bd59b20617105d4f9f7032d8aea4eb229",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "f29e1bb8c3ec6c6c2be0f31c7aad4143df5480c70152cc2c3ef3cac2391dd672"
+    },
+    {
+      "eventId": "9132c86e-9f2f-4758-ae05-8660a2b1c4bd",
+      "uid": "42727346875",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-23T14:42:47.095Z",
+      "timestampLocal": "2026-02-23T14:42:47.095Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.182.236.58",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42727346875&nombre_proveedor_razon_social=BRUNA+ANDREOLLI+TEZINHO&nombre_representante_legal=BRUNA+ANDREOLLI+TEZINHO&email=brukesper94%40gmail.com",
+      "previousEventHash": "f29e1bb8c3ec6c6c2be0f31c7aad4143df5480c70152cc2c3ef3cac2391dd672",
+      "documentHash": "1ea626917e209b18b8ddf66ee770625bd59b20617105d4f9f7032d8aea4eb229",
+      "metadata": {
+        "proveedor": "BRUNA ANDREOLLI TEZINHO",
+        "representante": "BRUNA ANDREOLLI TEZINHO"
+      },
+      "eventHash": "f9522e80d716cf4b9430ebac44fbcc105f73b6f76f8b8a8510012dee8b0583b8"
+    },
+    {
+      "eventId": "a4a94aef-ce18-4a01-a927-8d3de67ca3f4",
+      "uid": "42727346875",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-23T14:42:48.119Z",
+      "timestampLocal": "2026-02-23T14:42:48.119Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.182.236.58",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42727346875&nombre_proveedor_razon_social=BRUNA+ANDREOLLI+TEZINHO&nombre_representante_legal=BRUNA+ANDREOLLI+TEZINHO&email=brukesper94%40gmail.com",
+      "previousEventHash": "f9522e80d716cf4b9430ebac44fbcc105f73b6f76f8b8a8510012dee8b0583b8",
+      "documentHash": "1ea626917e209b18b8ddf66ee770625bd59b20617105d4f9f7032d8aea4eb229",
+      "eventHash": "3db687b9768a57223972cfa7aee77840200c8d0117b7f34a1a5b2eec7d674ebd"
+    },
+    {
+      "eventId": "ebc207ad-5eab-46de-9b08-f5cf62a008ba",
+      "uid": "42727346875",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-23T14:43:36.147Z",
+      "timestampLocal": "2026-02-23T11:43:36.147Z",
+      "timezone": "UTC-3",
+      "ipAddress": "187.182.236.58",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ab712b0d-6087-484f-92c3-a5de33e06296",
+      "previousEventHash": "3db687b9768a57223972cfa7aee77840200c8d0117b7f34a1a5b2eec7d674ebd",
+      "documentHash": "f6c05793219c90b0b48314ea9b2450f383976d9f60ae1444f0b54f53d0f53e76",
+      "signatureHash": "683c750247e77900fb0521f7f9d32d76c235b02a513b615468a8f4db5fc281fe",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-23T11:43:32.721Z"
+      },
+      "eventHash": "17199ef4dd872a69e7fc298f804fc7157c2e4faf9861a9bd7c5da2ae98d5eed1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-23T14:43:36.148Z"
+  }
 }
