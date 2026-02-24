@@ -1,19 +1,100 @@
 {
   "uid": "CAHC021120RS6",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CARLOS ALFONSO CARRILLO HERNANDEZ",
     "nombre_representante_legal": "CARLOS ALFONSO CARRILLO HERNANDEZ",
     "email": "contacto.charlie@socialhills.eu"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CARLOS ALFONSO CARRILLO HERNANDEZ",
-    "nombre_representante_legal": "CARLOS ALFONSO CARRILLO HERNANDEZ",
-    "email": "contacto.charlie@socialhills.eu"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-24T08:38:07.919Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CAHC021120RS6",
+  "signatureMetadata": {
+    "ip": "213.96.173.109",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-24T07:38:11.253Z",
+    "signedAtLocal": "2026-02-24T08:38:11.253Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "47127a27caec07ecdc6bb61f1b91a0fd567ae3f516280c2fd09d057077be1156"
+  "documentHash": "fd8d598d66ed2069f70b1c3fe91632bfb407991d55236d687e172fc032925fad",
+  "auditTrail": [
+    {
+      "eventId": "72a64223-ecc7-4549-abb2-b370e5f14f7e",
+      "uid": "CAHC021120RS6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-24T07:37:41.704Z",
+      "timestampLocal": "2026-02-24T07:37:41.704Z",
+      "timezone": "UTC+0",
+      "ipAddress": "213.96.173.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAHC021120RS6&nombre_proveedor_razon_social=CARLOS+ALFONSO+CARRILLO+HERNANDEZ&nombre_representante_legal=CARLOS+ALFONSO+CARRILLO+HERNANDEZ&email=contacto.charlie%40socialhills.eu",
+      "previousEventHash": null,
+      "documentHash": "47127a27caec07ecdc6bb61f1b91a0fd567ae3f516280c2fd09d057077be1156",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f6066ff6684401c1408ccc72cca0ad69ccae327ebe4c37de70de2eac630ade72"
+    },
+    {
+      "eventId": "e7ea1567-693f-45f5-ae2b-2eb91e9db8b2",
+      "uid": "CAHC021120RS6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-24T07:37:41.704Z",
+      "timestampLocal": "2026-02-24T07:37:41.704Z",
+      "timezone": "UTC+0",
+      "ipAddress": "213.96.173.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAHC021120RS6&nombre_proveedor_razon_social=CARLOS+ALFONSO+CARRILLO+HERNANDEZ&nombre_representante_legal=CARLOS+ALFONSO+CARRILLO+HERNANDEZ&email=contacto.charlie%40socialhills.eu",
+      "previousEventHash": "f6066ff6684401c1408ccc72cca0ad69ccae327ebe4c37de70de2eac630ade72",
+      "documentHash": "47127a27caec07ecdc6bb61f1b91a0fd567ae3f516280c2fd09d057077be1156",
+      "metadata": {
+        "proveedor": "CARLOS ALFONSO CARRILLO HERNANDEZ",
+        "representante": "CARLOS ALFONSO CARRILLO HERNANDEZ"
+      },
+      "eventHash": "b001b4858f3f16d819a82978f2ed444716c313606fda25312f019abf9584e0ab"
+    },
+    {
+      "eventId": "d7347252-3d70-4fd7-9bf7-081d598e6d14",
+      "uid": "CAHC021120RS6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-24T07:37:42.983Z",
+      "timestampLocal": "2026-02-24T07:37:42.983Z",
+      "timezone": "UTC+0",
+      "ipAddress": "213.96.173.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAHC021120RS6&nombre_proveedor_razon_social=CARLOS+ALFONSO+CARRILLO+HERNANDEZ&nombre_representante_legal=CARLOS+ALFONSO+CARRILLO+HERNANDEZ&email=contacto.charlie%40socialhills.eu",
+      "previousEventHash": "b001b4858f3f16d819a82978f2ed444716c313606fda25312f019abf9584e0ab",
+      "documentHash": "47127a27caec07ecdc6bb61f1b91a0fd567ae3f516280c2fd09d057077be1156",
+      "eventHash": "be3aa3a1952aadb565804b6890bd88a025a28812ac501af4c4fa85b39f8ce50b"
+    },
+    {
+      "eventId": "e78b8f8c-7dbb-4dee-a99e-9f0b647d0ead",
+      "uid": "CAHC021120RS6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-24T07:38:11.253Z",
+      "timestampLocal": "2026-02-24T08:38:11.253Z",
+      "timezone": "UTC+1",
+      "ipAddress": "213.96.173.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d7f2d422-110e-4183-ae86-6da7fc096d1f",
+      "previousEventHash": "be3aa3a1952aadb565804b6890bd88a025a28812ac501af4c4fa85b39f8ce50b",
+      "documentHash": "fd8d598d66ed2069f70b1c3fe91632bfb407991d55236d687e172fc032925fad",
+      "signatureHash": "8866dffd25d9dcb80ab8f274f8e76818c9967c7c73fffe90090c6c6637ca3221",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-24T08:38:07.919Z"
+      },
+      "eventHash": "a7ce3bcb233e97824444c03e55ddd573fb9121f69e5a39fc6e139357300d2663"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-24T07:38:11.254Z"
+  }
 }
