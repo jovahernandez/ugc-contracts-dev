@@ -1,19 +1,100 @@
 {
   "uid": "ZURA881112BA0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JOSE ABDIEL ZULBARAN RABASA",
     "nombre_representante_legal": "JOSE ABDIEL ZULBARAN RABASA",
     "email": "ABDIELZR@ICLOUD.COM"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "JOSE ABDIEL ZULBARAN RABASA",
-    "nombre_representante_legal": "JOSE ABDIEL ZULBARAN RABASA",
-    "email": "ABDIELZR@ICLOUD.COM"
+  "personaAutorizada": "JOSE ABDIEL ZULBARAN RABASA",
+  "signedAt": "2026-02-24T16:54:55.309Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ZURA881112BA0",
+  "signatureMetadata": {
+    "ip": "83.39.100.222",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+    "signedAtUtc": "2026-02-24T15:55:01.017Z",
+    "signedAtLocal": "2026-02-24T16:55:01.017Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c21db1d8bf96c6483efc71a0d0cb0b58e0077fa3f2adefc462129e28265a1bbf"
+  "documentHash": "9d3166e0d62f26707f72b2b30e5459d3aaea0685b09d290ea32b714d01a57802",
+  "auditTrail": [
+    {
+      "eventId": "11b16334-1b91-43f2-8d96-2c1dab822079",
+      "uid": "ZURA881112BA0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-24T15:54:37.336Z",
+      "timestampLocal": "2026-02-24T15:54:37.336Z",
+      "timezone": "UTC+0",
+      "ipAddress": "83.39.100.222",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "c21db1d8bf96c6483efc71a0d0cb0b58e0077fa3f2adefc462129e28265a1bbf",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b0b41fe74dd7620acc8981358bc3677662494a73f0f31c9d5415496b8ed58186"
+    },
+    {
+      "eventId": "1c7646ee-8be1-4bc9-b765-e7d2a643f8b6",
+      "uid": "ZURA881112BA0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-24T15:54:37.336Z",
+      "timestampLocal": "2026-02-24T15:54:37.336Z",
+      "timezone": "UTC+0",
+      "ipAddress": "83.39.100.222",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "b0b41fe74dd7620acc8981358bc3677662494a73f0f31c9d5415496b8ed58186",
+      "documentHash": "c21db1d8bf96c6483efc71a0d0cb0b58e0077fa3f2adefc462129e28265a1bbf",
+      "metadata": {
+        "proveedor": "JOSE ABDIEL ZULBARAN RABASA",
+        "representante": "JOSE ABDIEL ZULBARAN RABASA"
+      },
+      "eventHash": "5f5815d454b7bada7034b9339f45909231c488653012253c0ebb7219b5a69e1c"
+    },
+    {
+      "eventId": "f6820c6f-7cd6-4bb3-9863-169cf0f0c8fd",
+      "uid": "ZURA881112BA0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-24T15:54:38.832Z",
+      "timestampLocal": "2026-02-24T15:54:38.832Z",
+      "timezone": "UTC+0",
+      "ipAddress": "83.39.100.222",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "5f5815d454b7bada7034b9339f45909231c488653012253c0ebb7219b5a69e1c",
+      "documentHash": "c21db1d8bf96c6483efc71a0d0cb0b58e0077fa3f2adefc462129e28265a1bbf",
+      "eventHash": "0cfc69b78bcf069fdb5b47b07d22ce03e95c5f2d9c08db7bf40786fe868ee6b6"
+    },
+    {
+      "eventId": "e2de2b30-29a3-4bcd-a00f-16a94330c768",
+      "uid": "ZURA881112BA0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-24T15:55:01.017Z",
+      "timestampLocal": "2026-02-24T16:55:01.017Z",
+      "timezone": "UTC+1",
+      "ipAddress": "83.39.100.222",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "0cfc69b78bcf069fdb5b47b07d22ce03e95c5f2d9c08db7bf40786fe868ee6b6",
+      "documentHash": "9d3166e0d62f26707f72b2b30e5459d3aaea0685b09d290ea32b714d01a57802",
+      "signatureHash": "39f7ddb3c529c53c43e97cdf8d66fab478a0885813c053f61b9abe7584fa42b9",
+      "metadata": {
+        "personaAutorizada": "JOSE ABDIEL ZULBARAN RABASA",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-24T16:54:55.309Z"
+      },
+      "eventHash": "e2e8573ad57978ccb67f37aab2d1d6be143b3d14b4c8e9614de9a58ac2860592"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-24T15:55:01.018Z"
+  }
 }
