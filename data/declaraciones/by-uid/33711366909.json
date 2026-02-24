@@ -1,19 +1,115 @@
 {
   "uid": "33711366909",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IN ACTION SRL",
     "nombre_representante_legal": "Jessica Natalia Jalife",
     "email": "mauro@jalifebrothers.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "IN ACTION SRL",
-    "nombre_representante_legal": "Jessica Natalia Jalife",
-    "email": "mauro@jalifebrothers.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-24T18:15:20.835Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/33711366909",
+  "signatureMetadata": {
+    "ip": "149.78.32.102",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/145.0.7632.108 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-02-24T21:15:24.194Z",
+    "signedAtLocal": "2026-02-24T18:15:24.194Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8e7aca2f8dcb0a40b8bc883b25637b8ac0ab25f4d1a08cec235c32136a04f08a"
+  "documentHash": "9b4f4d36efcab2851da7548d1a3ba6652e265bc6491bbdf6c394f25fc3b822f3",
+  "auditTrail": [
+    {
+      "eventId": "cac7b302-82aa-4057-b7ab-7805bb0ed936",
+      "uid": "33711366909",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-24T21:09:48.454Z",
+      "timestampLocal": "2026-02-24T21:09:48.454Z",
+      "timezone": "UTC+0",
+      "ipAddress": "149.78.32.102",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en;q=0.9,en-US;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=33711366909&nombre_proveedor_razon_social=IN+ACTION+SRL&nombre_representante_legal=Jessica+Natalia+Jalife&email=mauro%40jalifebrothers.com",
+      "previousEventHash": null,
+      "documentHash": "8e7aca2f8dcb0a40b8bc883b25637b8ac0ab25f4d1a08cec235c32136a04f08a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1a42c77ecf8dbfa2993568e88044a2a1cc78dc6df963dfc9376b69377df00762"
+    },
+    {
+      "eventId": "355d8950-8b93-4750-863e-36be0a38080c",
+      "uid": "33711366909",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-24T21:09:48.454Z",
+      "timestampLocal": "2026-02-24T21:09:48.454Z",
+      "timezone": "UTC+0",
+      "ipAddress": "149.78.32.102",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en;q=0.9,en-US;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=33711366909&nombre_proveedor_razon_social=IN+ACTION+SRL&nombre_representante_legal=Jessica+Natalia+Jalife&email=mauro%40jalifebrothers.com",
+      "previousEventHash": "1a42c77ecf8dbfa2993568e88044a2a1cc78dc6df963dfc9376b69377df00762",
+      "documentHash": "8e7aca2f8dcb0a40b8bc883b25637b8ac0ab25f4d1a08cec235c32136a04f08a",
+      "metadata": {
+        "proveedor": "IN ACTION SRL",
+        "representante": "Jessica Natalia Jalife"
+      },
+      "eventHash": "a1560208c4ff2106e50f49d0947e581cc4e7b4a5b840f819277ead7dcc9f2fdd"
+    },
+    {
+      "eventId": "67cf1586-54e1-46c8-a5c5-27a0da7f40f7",
+      "uid": "33711366909",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-24T21:09:49.752Z",
+      "timestampLocal": "2026-02-24T21:09:49.752Z",
+      "timezone": "UTC+0",
+      "ipAddress": "149.78.32.102",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en;q=0.9,en-US;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=33711366909&nombre_proveedor_razon_social=IN+ACTION+SRL&nombre_representante_legal=Jessica+Natalia+Jalife&email=mauro%40jalifebrothers.com",
+      "previousEventHash": "a1560208c4ff2106e50f49d0947e581cc4e7b4a5b840f819277ead7dcc9f2fdd",
+      "documentHash": "8e7aca2f8dcb0a40b8bc883b25637b8ac0ab25f4d1a08cec235c32136a04f08a",
+      "eventHash": "7f82cf1182c50d05a290ad2d24946c36314b3ffb1bb8df2300848b96f6745139"
+    },
+    {
+      "eventId": "2db56d75-7c07-42a7-b2b7-b17d7ebcd6df",
+      "uid": "33711366909",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-24T21:13:47.778Z",
+      "timestampLocal": "2026-02-24T21:13:47.778Z",
+      "timezone": "UTC+0",
+      "ipAddress": "149.78.32.102",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/145.0.7632.108 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "7f82cf1182c50d05a290ad2d24946c36314b3ffb1bb8df2300848b96f6745139",
+      "documentHash": "8e7aca2f8dcb0a40b8bc883b25637b8ac0ab25f4d1a08cec235c32136a04f08a",
+      "eventHash": "15fcdb534a6b3f01c345f47164509715f929c7bcd2270de2e3ee4b141bc16444"
+    },
+    {
+      "eventId": "79931be6-0386-4113-a383-67a7bbc772e7",
+      "uid": "33711366909",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-24T21:15:24.194Z",
+      "timestampLocal": "2026-02-24T18:15:24.194Z",
+      "timezone": "UTC-3",
+      "ipAddress": "149.78.32.102",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/145.0.7632.108 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "15fcdb534a6b3f01c345f47164509715f929c7bcd2270de2e3ee4b141bc16444",
+      "documentHash": "9b4f4d36efcab2851da7548d1a3ba6652e265bc6491bbdf6c394f25fc3b822f3",
+      "signatureHash": "08d3c05924a43638b1eb73263634e2e52bd246f58bf64cd0918941128afba34f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-24T18:15:20.835Z"
+      },
+      "eventHash": "0bf6e442382a1a34d30a19549fb83b7924afcc5c7a392a3c2cde0fe7ceffd054"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-02-24T21:15:24.194Z"
+  }
 }
