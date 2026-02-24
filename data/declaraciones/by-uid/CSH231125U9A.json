@@ -1,19 +1,100 @@
 {
   "uid": "CSH231125U9A",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Cosmic Shift",
     "nombre_representante_legal": "Diana Vela",
     "email": "orstsmr@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Cosmic Shift",
-    "nombre_representante_legal": "Diana Vela",
-    "email": "orstsmr@gmail.com"
+  "personaAutorizada": "Orestes Mora",
+  "signedAt": "2026-02-24T10:46:23.557Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CSH231125U9A",
+  "signatureMetadata": {
+    "ip": "187.187.192.233",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-24T16:46:26.927Z",
+    "signedAtLocal": "2026-02-24T10:46:26.927Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5b89022990201b65b09dfc8cab5aa7ee4389ea4bd88990304d62b217450717c1"
+  "documentHash": "a02f214595fd318ce7115f9e11899dfaf6e3ca05c4131c5fb5a312bab933db92",
+  "auditTrail": [
+    {
+      "eventId": "d7acdfe0-f3e7-420f-a9b5-c17c118830c6",
+      "uid": "CSH231125U9A",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-24T16:43:24.368Z",
+      "timestampLocal": "2026-02-24T16:43:24.368Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.187.192.233",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CSH231125U9A&nombre_proveedor_razon_social=Cosmic+Shift&nombre_representante_legal=Diana+Vela&email=orstsmr%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "5b89022990201b65b09dfc8cab5aa7ee4389ea4bd88990304d62b217450717c1",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "442bdc19c754bd5fc3cea9786bfbc5c4927536665214483c46a8f5c24b37d5b0"
+    },
+    {
+      "eventId": "7e3d9685-8f34-41ea-b2ed-e32ba5bca996",
+      "uid": "CSH231125U9A",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-24T16:43:24.368Z",
+      "timestampLocal": "2026-02-24T16:43:24.368Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.187.192.233",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CSH231125U9A&nombre_proveedor_razon_social=Cosmic+Shift&nombre_representante_legal=Diana+Vela&email=orstsmr%40gmail.com",
+      "previousEventHash": "442bdc19c754bd5fc3cea9786bfbc5c4927536665214483c46a8f5c24b37d5b0",
+      "documentHash": "5b89022990201b65b09dfc8cab5aa7ee4389ea4bd88990304d62b217450717c1",
+      "metadata": {
+        "proveedor": "Cosmic Shift",
+        "representante": "Diana Vela"
+      },
+      "eventHash": "3bf0b64aaf9e78dcdbb97be59d1afbad81bd85ec19e01f6e63f3963e4d1eee87"
+    },
+    {
+      "eventId": "9990c4d6-f207-4fa6-9a84-020da55419af",
+      "uid": "CSH231125U9A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-24T16:43:25.546Z",
+      "timestampLocal": "2026-02-24T16:43:25.546Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.187.192.233",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CSH231125U9A&nombre_proveedor_razon_social=Cosmic+Shift&nombre_representante_legal=Diana+Vela&email=orstsmr%40gmail.com",
+      "previousEventHash": "3bf0b64aaf9e78dcdbb97be59d1afbad81bd85ec19e01f6e63f3963e4d1eee87",
+      "documentHash": "5b89022990201b65b09dfc8cab5aa7ee4389ea4bd88990304d62b217450717c1",
+      "eventHash": "a24471b88c7b4092a82eb6df4ae6e63520884a1557a574fe10400c6fe14e3239"
+    },
+    {
+      "eventId": "43b91f3f-1559-407b-9d04-5c01336da0df",
+      "uid": "CSH231125U9A",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-24T16:46:26.927Z",
+      "timestampLocal": "2026-02-24T10:46:26.927Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.187.192.233",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/9f34c461-86c6-4eb7-ac9a-bab6399f1fc0",
+      "previousEventHash": "a24471b88c7b4092a82eb6df4ae6e63520884a1557a574fe10400c6fe14e3239",
+      "documentHash": "a02f214595fd318ce7115f9e11899dfaf6e3ca05c4131c5fb5a312bab933db92",
+      "signatureHash": "38385ad3208a4ca1fb992eed3cd8efe2bf24c2993593129627165143d6c90b5f",
+      "metadata": {
+        "personaAutorizada": "Orestes Mora",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-24T10:46:23.557Z"
+      },
+      "eventHash": "53a69e0a779f2f05ad870f7716b29baa714d73b92b271122264ddd60a4607800"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-24T16:46:26.927Z"
+  }
 }
