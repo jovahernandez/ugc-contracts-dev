@@ -1,19 +1,100 @@
 {
   "uid": "413961513",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Disque Dee Deane III",
     "nombre_representante_legal": "Disque Dee Deane III",
     "email": "uki@bermies.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Disque Dee Deane III",
-    "nombre_representante_legal": "Disque Dee Deane III",
-    "email": "uki@bermies.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-25T17:17:21.098Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/413961513",
+  "signatureMetadata": {
+    "ip": "201.141.116.51",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-25T23:17:24.471Z",
+    "signedAtLocal": "2026-02-25T17:17:24.471Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2aebb50f70bbf190b7af33f2fb220f27d0aa11e78794a9ae77b7a3284b3ca7b3"
+  "documentHash": "70636d398f5ff9c9838b6fb7b148f1ec9fc2397b57e03d7eb5135cfe645075ff",
+  "auditTrail": [
+    {
+      "eventId": "792f39f3-63db-46f9-b59d-cba1c6943875",
+      "uid": "413961513",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-25T23:15:46.781Z",
+      "timestampLocal": "2026-02-25T23:15:46.781Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.116.51",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=413961513&nombre_proveedor_razon_social=Disque+Dee+Deane+III&nombre_representante_legal=Disque+Dee+Deane+III&email=uki%40bermies.com",
+      "previousEventHash": null,
+      "documentHash": "2aebb50f70bbf190b7af33f2fb220f27d0aa11e78794a9ae77b7a3284b3ca7b3",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "69862e532d4c7b3d25e2668881ba5824fadc9ac9644a6be04b26a419098ef6f2"
+    },
+    {
+      "eventId": "ccfabdb4-5e3f-4571-b5cb-973d7affd0b0",
+      "uid": "413961513",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-25T23:15:46.781Z",
+      "timestampLocal": "2026-02-25T23:15:46.781Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.116.51",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=413961513&nombre_proveedor_razon_social=Disque+Dee+Deane+III&nombre_representante_legal=Disque+Dee+Deane+III&email=uki%40bermies.com",
+      "previousEventHash": "69862e532d4c7b3d25e2668881ba5824fadc9ac9644a6be04b26a419098ef6f2",
+      "documentHash": "2aebb50f70bbf190b7af33f2fb220f27d0aa11e78794a9ae77b7a3284b3ca7b3",
+      "metadata": {
+        "proveedor": "Disque Dee Deane III",
+        "representante": "Disque Dee Deane III"
+      },
+      "eventHash": "867682341f41dc1613a357259a8d168b6421144ff9e09a2257b795c65f7db3c6"
+    },
+    {
+      "eventId": "2bec87e5-bae7-455a-b0f0-bb1956e2451c",
+      "uid": "413961513",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-25T23:15:47.913Z",
+      "timestampLocal": "2026-02-25T23:15:47.913Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.116.51",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=413961513&nombre_proveedor_razon_social=Disque+Dee+Deane+III&nombre_representante_legal=Disque+Dee+Deane+III&email=uki%40bermies.com",
+      "previousEventHash": "867682341f41dc1613a357259a8d168b6421144ff9e09a2257b795c65f7db3c6",
+      "documentHash": "2aebb50f70bbf190b7af33f2fb220f27d0aa11e78794a9ae77b7a3284b3ca7b3",
+      "eventHash": "a0694fc6f62d13975d255eb3db39f48766a43fa94f040aed0d392779bef5f61a"
+    },
+    {
+      "eventId": "d206ac88-73a1-47ce-893d-b9cf19ddbe2f",
+      "uid": "413961513",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-25T23:17:24.471Z",
+      "timestampLocal": "2026-02-25T17:17:24.471Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.116.51",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/47d83cf6-760b-4ae6-9caf-73f2dfb6567e",
+      "previousEventHash": "a0694fc6f62d13975d255eb3db39f48766a43fa94f040aed0d392779bef5f61a",
+      "documentHash": "70636d398f5ff9c9838b6fb7b148f1ec9fc2397b57e03d7eb5135cfe645075ff",
+      "signatureHash": "a1d84228cb72f52315c3e44b261a6c10d5ad17391dd2f0ba3032bbe6a4bca292",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-25T17:17:21.098Z"
+      },
+      "eventHash": "75e1f7eb1e0ea54ad0e1fbb9d8c24b4f4b941e6c9ce780efd653a9ceea286836"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-25T23:17:24.472Z"
+  }
 }
