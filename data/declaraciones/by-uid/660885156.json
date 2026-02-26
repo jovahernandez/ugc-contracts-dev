@@ -1,19 +1,100 @@
 {
   "uid": "660885156",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "UNITED MOVEMENT INC",
     "nombre_representante_legal": "PATRICK LUIS AQUINO FELIZ",
     "email": "INFO@UNITEDMOVEMENTPR.COM"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "UNITED MOVEMENT INC",
-    "nombre_representante_legal": "PATRICK LUIS AQUINO FELIZ",
-    "email": "INFO@UNITEDMOVEMENTPR.COM"
+  "personaAutorizada": "Patrick Aquino",
+  "signedAt": "2026-02-26T09:02:39.276Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/660885156",
+  "signatureMetadata": {
+    "ip": "24.171.220.77",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+    "signedAtUtc": "2026-02-26T13:02:42.602Z",
+    "signedAtLocal": "2026-02-26T09:02:42.602Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5d835a167604cf5b5a8bdee2d6487e3b09bb9d736013ce510ddcd200f1e0cbfc"
+  "documentHash": "dfb48f8d0378b1cbdfa5d3d162a87419d70634ae55f9789de4d95059d9fbcaab",
+  "auditTrail": [
+    {
+      "eventId": "0007a5de-8ea5-4a02-b9fc-d193583ba0e6",
+      "uid": "660885156",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-26T13:01:33.691Z",
+      "timestampLocal": "2026-02-26T13:01:33.691Z",
+      "timezone": "UTC+0",
+      "ipAddress": "24.171.220.77",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "5d835a167604cf5b5a8bdee2d6487e3b09bb9d736013ce510ddcd200f1e0cbfc",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4353fe44df9016fa82c23a5749323b10d3362c4f3b37931e44b50819f8f87822"
+    },
+    {
+      "eventId": "df8925b9-30e2-44c9-a011-7f175f97b2d2",
+      "uid": "660885156",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-26T13:01:33.691Z",
+      "timestampLocal": "2026-02-26T13:01:33.691Z",
+      "timezone": "UTC+0",
+      "ipAddress": "24.171.220.77",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4353fe44df9016fa82c23a5749323b10d3362c4f3b37931e44b50819f8f87822",
+      "documentHash": "5d835a167604cf5b5a8bdee2d6487e3b09bb9d736013ce510ddcd200f1e0cbfc",
+      "metadata": {
+        "proveedor": "UNITED MOVEMENT INC",
+        "representante": "PATRICK LUIS AQUINO FELIZ"
+      },
+      "eventHash": "679fe1d85172178f139c8bb1f3c37021428d169b890cfddbb5fdeba4b68635b6"
+    },
+    {
+      "eventId": "9d91a761-0568-4d30-b851-f6cfc7ef6287",
+      "uid": "660885156",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-26T13:01:34.978Z",
+      "timestampLocal": "2026-02-26T13:01:34.978Z",
+      "timezone": "UTC+0",
+      "ipAddress": "24.171.220.77",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "679fe1d85172178f139c8bb1f3c37021428d169b890cfddbb5fdeba4b68635b6",
+      "documentHash": "5d835a167604cf5b5a8bdee2d6487e3b09bb9d736013ce510ddcd200f1e0cbfc",
+      "eventHash": "b362c0e29d7abb4722a89592bf45d775eeae1bf1090355df445256db903886ea"
+    },
+    {
+      "eventId": "7d8ed67e-1398-4423-aaa3-e6a5bef75c20",
+      "uid": "660885156",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-26T13:02:42.602Z",
+      "timestampLocal": "2026-02-26T09:02:42.602Z",
+      "timezone": "UTC-4",
+      "ipAddress": "24.171.220.77",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "b362c0e29d7abb4722a89592bf45d775eeae1bf1090355df445256db903886ea",
+      "documentHash": "dfb48f8d0378b1cbdfa5d3d162a87419d70634ae55f9789de4d95059d9fbcaab",
+      "signatureHash": "96c9058d550bd547cd0b66badec98940d0b8156e194e868f76f1051535adf4f6",
+      "metadata": {
+        "personaAutorizada": "Patrick Aquino",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-26T09:02:39.276Z"
+      },
+      "eventHash": "a4da316334fcaae5ab3d0902dc697c0b9f855b0cbcb216a02dc708b824281ea6"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-26T13:02:42.603Z"
+  }
 }
