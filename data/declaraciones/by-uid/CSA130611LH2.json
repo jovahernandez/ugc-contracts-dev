@@ -1,19 +1,100 @@
 {
   "uid": "CSA130611LH2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CATERING SERVICE AND EVENT PLANNING",
     "nombre_representante_legal": "Álvaro Hernández Austin",
     "email": "ana@kuchencatering.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CATERING SERVICE AND EVENT PLANNING",
-    "nombre_representante_legal": "Álvaro Hernández Austin",
-    "email": "ana@kuchencatering.com"
+  "personaAutorizada": "Ana Paola Marín Alcaraz",
+  "signedAt": "2026-02-26T15:23:03.361Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CSA130611LH2",
+  "signatureMetadata": {
+    "ip": "187.189.242.13",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-26T21:23:06.834Z",
+    "signedAtLocal": "2026-02-26T15:23:06.834Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3f750f9d3fca625987ed13c65dd2898b7e5ca087b84f111f5b4bbe74b790f6cc"
+  "documentHash": "bc36b165365b63b43d04a7da3e32a9a4704642283a8ede820e7095777ad775b0",
+  "auditTrail": [
+    {
+      "eventId": "9dd5daff-6525-413c-aece-acb7ee3e4711",
+      "uid": "CSA130611LH2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-26T21:21:50.395Z",
+      "timestampLocal": "2026-02-26T21:21:50.395Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.242.13",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CSA130611LH2&nombre_proveedor_razon_social=CATERING+SERVICE+AND+EVENT+PLANNING&nombre_representante_legal=%C3%81lvaro+Hern%C3%A1ndez+Austin&email=ana%40kuchencatering.com",
+      "previousEventHash": null,
+      "documentHash": "3f750f9d3fca625987ed13c65dd2898b7e5ca087b84f111f5b4bbe74b790f6cc",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a1465d59e72863ae9475c906a85e4a6c3f086b856322b3231cbaf40f72e8b7a7"
+    },
+    {
+      "eventId": "881b2974-2b90-48cf-bbf1-e3b58a0fb395",
+      "uid": "CSA130611LH2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-26T21:21:50.395Z",
+      "timestampLocal": "2026-02-26T21:21:50.395Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.242.13",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CSA130611LH2&nombre_proveedor_razon_social=CATERING+SERVICE+AND+EVENT+PLANNING&nombre_representante_legal=%C3%81lvaro+Hern%C3%A1ndez+Austin&email=ana%40kuchencatering.com",
+      "previousEventHash": "a1465d59e72863ae9475c906a85e4a6c3f086b856322b3231cbaf40f72e8b7a7",
+      "documentHash": "3f750f9d3fca625987ed13c65dd2898b7e5ca087b84f111f5b4bbe74b790f6cc",
+      "metadata": {
+        "proveedor": "CATERING SERVICE AND EVENT PLANNING",
+        "representante": "Álvaro Hernández Austin"
+      },
+      "eventHash": "1f2b786edcb9c63e84c1624fbc3c5db232ca3430a9fa2479d9eb20f347751d00"
+    },
+    {
+      "eventId": "e6a2e2a9-d85d-4ce5-8952-06a5f5f9c4b0",
+      "uid": "CSA130611LH2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-26T21:21:52.046Z",
+      "timestampLocal": "2026-02-26T21:21:52.046Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.242.13",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CSA130611LH2&nombre_proveedor_razon_social=CATERING+SERVICE+AND+EVENT+PLANNING&nombre_representante_legal=%C3%81lvaro+Hern%C3%A1ndez+Austin&email=ana%40kuchencatering.com",
+      "previousEventHash": "1f2b786edcb9c63e84c1624fbc3c5db232ca3430a9fa2479d9eb20f347751d00",
+      "documentHash": "3f750f9d3fca625987ed13c65dd2898b7e5ca087b84f111f5b4bbe74b790f6cc",
+      "eventHash": "d4b309536b9022218524be075f4272d021646ea32cbaca2807ff466a1d3c5538"
+    },
+    {
+      "eventId": "9d0ef706-b9ca-4ef5-abb1-ffef06928a20",
+      "uid": "CSA130611LH2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-26T21:23:06.834Z",
+      "timestampLocal": "2026-02-26T15:23:06.834Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.242.13",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/392c748c-b81a-49ef-b04b-5dfefa0fc135",
+      "previousEventHash": "d4b309536b9022218524be075f4272d021646ea32cbaca2807ff466a1d3c5538",
+      "documentHash": "bc36b165365b63b43d04a7da3e32a9a4704642283a8ede820e7095777ad775b0",
+      "signatureHash": "c11bb865cbe9c0642fb95c3bc3758c6fe1ff93af86bcb6d7945ff5915039a861",
+      "metadata": {
+        "personaAutorizada": "Ana Paola Marín Alcaraz",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-26T15:23:03.361Z"
+      },
+      "eventHash": "a4ec7e8b03f827a3744f08fc027ce4acfdcaccb85fd0c490caf615ae2e52e84c"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-26T21:23:06.834Z"
+  }
 }
