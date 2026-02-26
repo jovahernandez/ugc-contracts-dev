@@ -1,19 +1,100 @@
 {
   "uid": "SAP240730NN9",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Santa Agencia Productora",
     "nombre_representante_legal": "Andrés Bonilla Izquierdo",
     "email": "administracion@santoproyecto.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Santa Agencia Productora",
-    "nombre_representante_legal": "Andrés Bonilla Izquierdo",
-    "email": "administracion@santoproyecto.com"
+  "personaAutorizada": "MARISOL REYNOSO VELÁZQUEZ ",
+  "signedAt": "2026-02-25T18:13:22.186Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SAP240730NN9",
+  "signatureMetadata": {
+    "ip": "187.190.24.13",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-26T00:13:25.515Z",
+    "signedAtLocal": "2026-02-25T18:13:25.515Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "072756d6812102e71bd70fa123d9f2ca4205163d415f26437a0e7594cf7a7b40"
+  "documentHash": "b2545b1d2e5ba89b2ad734e26900ad6f6af5aa395c9859cac871b6cafed163ca",
+  "auditTrail": [
+    {
+      "eventId": "cd9d76bf-03ca-44f0-9e58-c4988bf0ae25",
+      "uid": "SAP240730NN9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-26T00:11:22.584Z",
+      "timestampLocal": "2026-02-26T00:11:22.584Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.24.13",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAP240730NN9&nombre_proveedor_razon_social=Santa+Agencia+Productora+&nombre_representante_legal=Andr%C3%A9s+Bonilla+Izquierdo&email=administracion%40santoproyecto.com",
+      "previousEventHash": null,
+      "documentHash": "072756d6812102e71bd70fa123d9f2ca4205163d415f26437a0e7594cf7a7b40",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a5541f7123b5d87b6c52965cefec4740dd77b2cee1cac52cdd36257514005be9"
+    },
+    {
+      "eventId": "ac9d0561-dbf7-42ba-aa4e-8a6e683a83b0",
+      "uid": "SAP240730NN9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-26T00:11:22.584Z",
+      "timestampLocal": "2026-02-26T00:11:22.584Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.24.13",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAP240730NN9&nombre_proveedor_razon_social=Santa+Agencia+Productora+&nombre_representante_legal=Andr%C3%A9s+Bonilla+Izquierdo&email=administracion%40santoproyecto.com",
+      "previousEventHash": "a5541f7123b5d87b6c52965cefec4740dd77b2cee1cac52cdd36257514005be9",
+      "documentHash": "072756d6812102e71bd70fa123d9f2ca4205163d415f26437a0e7594cf7a7b40",
+      "metadata": {
+        "proveedor": "Santa Agencia Productora",
+        "representante": "Andrés Bonilla Izquierdo"
+      },
+      "eventHash": "8a20ba16f5c41d519dd6861154e1de5274880a4c9fbdb639aab18b019e1ec396"
+    },
+    {
+      "eventId": "9769c633-6d28-4a7f-aa76-51197404e0b6",
+      "uid": "SAP240730NN9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-26T00:11:23.686Z",
+      "timestampLocal": "2026-02-26T00:11:23.686Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.24.13",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAP240730NN9&nombre_proveedor_razon_social=Santa+Agencia+Productora+&nombre_representante_legal=Andr%C3%A9s+Bonilla+Izquierdo&email=administracion%40santoproyecto.com",
+      "previousEventHash": "8a20ba16f5c41d519dd6861154e1de5274880a4c9fbdb639aab18b019e1ec396",
+      "documentHash": "072756d6812102e71bd70fa123d9f2ca4205163d415f26437a0e7594cf7a7b40",
+      "eventHash": "34a7dfd2344927189cac81a9982da794b3a995654e073f6cdbf47a785bf7e493"
+    },
+    {
+      "eventId": "e5387d55-8324-4983-8357-fcaeb76b898c",
+      "uid": "SAP240730NN9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-26T00:13:25.515Z",
+      "timestampLocal": "2026-02-25T18:13:25.515Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.24.13",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a0eeb21c-d5cd-4ec2-ba9a-0184471db5ec",
+      "previousEventHash": "34a7dfd2344927189cac81a9982da794b3a995654e073f6cdbf47a785bf7e493",
+      "documentHash": "b2545b1d2e5ba89b2ad734e26900ad6f6af5aa395c9859cac871b6cafed163ca",
+      "signatureHash": "26d06e11f64c6593e6260065c95019c4139f99d34a7f103cd6dd07cd1bd4532e",
+      "metadata": {
+        "personaAutorizada": "MARISOL REYNOSO VELÁZQUEZ ",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-25T18:13:22.186Z"
+      },
+      "eventHash": "4ebc17dc27417549ab51cf5867b2888766d9737020bc3fd47e88cb14f9b2d3fc"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-26T00:13:25.516Z"
+  }
 }
