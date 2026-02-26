@@ -1,19 +1,100 @@
 {
   "uid": "DIR230519KV1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DIRODIGA SA DE CV",
     "nombre_representante_legal": "Ana Luisa Rodriguez Sanchez",
     "email": "julio.capital@outlook.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "DIRODIGA SA DE CV",
-    "nombre_representante_legal": "Ana Luisa Rodriguez Sanchez",
-    "email": "julio.capital@outlook.com"
+  "personaAutorizada": "Julio Antonio Ruiz Lazcano",
+  "signedAt": "2026-02-26T16:47:26.987Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DIR230519KV1",
+  "signatureMetadata": {
+    "ip": "187.190.203.44",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-26T22:47:30.333Z",
+    "signedAtLocal": "2026-02-26T16:47:30.333Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a4e50eacdbb370fb05a572da8a497a84484182a0a66dc4573a41b328a6b51465"
+  "documentHash": "0b32794c312fd63f583f528454af8462a46c44ac1f031c55912af70d49d391c5",
+  "auditTrail": [
+    {
+      "eventId": "dd3ffe66-011b-461c-9ddc-27af7b2bd1e9",
+      "uid": "DIR230519KV1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-26T22:42:24.105Z",
+      "timestampLocal": "2026-02-26T22:42:24.105Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.203.44",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DIR230519KV1&nombre_proveedor_razon_social=DIRODIGA+SA+DE+CV&nombre_representante_legal=Ana+Luisa+Rodriguez+Sanchez&email=julio.capital%40outlook.com",
+      "previousEventHash": null,
+      "documentHash": "a4e50eacdbb370fb05a572da8a497a84484182a0a66dc4573a41b328a6b51465",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2d1c88cde5b5441bba4713ce3399da62c3fdca4783ab78a84f39ed7bf95bf01a"
+    },
+    {
+      "eventId": "8a6bedc1-3239-472d-8996-959a90a50eb9",
+      "uid": "DIR230519KV1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-26T22:42:24.106Z",
+      "timestampLocal": "2026-02-26T22:42:24.106Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.203.44",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DIR230519KV1&nombre_proveedor_razon_social=DIRODIGA+SA+DE+CV&nombre_representante_legal=Ana+Luisa+Rodriguez+Sanchez&email=julio.capital%40outlook.com",
+      "previousEventHash": "2d1c88cde5b5441bba4713ce3399da62c3fdca4783ab78a84f39ed7bf95bf01a",
+      "documentHash": "a4e50eacdbb370fb05a572da8a497a84484182a0a66dc4573a41b328a6b51465",
+      "metadata": {
+        "proveedor": "DIRODIGA SA DE CV",
+        "representante": "Ana Luisa Rodriguez Sanchez"
+      },
+      "eventHash": "b523b4b66865de788a6979a51f3c02b58edaceea1cf8d7232256a0d26c133a7d"
+    },
+    {
+      "eventId": "00eaf989-7e42-47e5-9f3b-50420f7a3b8c",
+      "uid": "DIR230519KV1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-26T22:42:25.097Z",
+      "timestampLocal": "2026-02-26T22:42:25.097Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.203.44",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DIR230519KV1&nombre_proveedor_razon_social=DIRODIGA+SA+DE+CV&nombre_representante_legal=Ana+Luisa+Rodriguez+Sanchez&email=julio.capital%40outlook.com",
+      "previousEventHash": "b523b4b66865de788a6979a51f3c02b58edaceea1cf8d7232256a0d26c133a7d",
+      "documentHash": "a4e50eacdbb370fb05a572da8a497a84484182a0a66dc4573a41b328a6b51465",
+      "eventHash": "512ab2d90eabda7bc50a3a8b62554649bbe1d77be23dbf86eb85006e7c6e4f11"
+    },
+    {
+      "eventId": "a3ca4fcd-8b8a-4b9f-a6b2-cc98b6ecf2b5",
+      "uid": "DIR230519KV1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-26T22:47:30.333Z",
+      "timestampLocal": "2026-02-26T16:47:30.333Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.203.44",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8d10fb54-938f-41b7-8490-b03fbce68f35",
+      "previousEventHash": "512ab2d90eabda7bc50a3a8b62554649bbe1d77be23dbf86eb85006e7c6e4f11",
+      "documentHash": "0b32794c312fd63f583f528454af8462a46c44ac1f031c55912af70d49d391c5",
+      "signatureHash": "79ee4ddfeb592c5f2ba869161f58871438fed1bae21181a6417d7d96a5b8a635",
+      "metadata": {
+        "personaAutorizada": "Julio Antonio Ruiz Lazcano",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-26T16:47:26.987Z"
+      },
+      "eventHash": "72821ef05f4c4e020ce0b670bc09498ee96c678e3aa6994e44246ac6d6d67e17"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-26T22:47:30.352Z"
+  }
 }
