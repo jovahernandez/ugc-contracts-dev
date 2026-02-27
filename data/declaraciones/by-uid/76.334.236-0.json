@@ -1,19 +1,100 @@
 {
   "uid": "76.334.236-0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Producciones Shangril-a SpA",
     "nombre_representante_legal": "Paola Mondiglio",
     "email": "matias@agumedia.cl"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Producciones Shangril-a SpA",
-    "nombre_representante_legal": "Paola Mondiglio",
-    "email": "matias@agumedia.cl"
+  "personaAutorizada": "Matias Valenzuela",
+  "signedAt": "2026-02-27T18:43:37.594Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/76.334.236-0",
+  "signatureMetadata": {
+    "ip": "186.10.142.134",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-27T21:43:41.047Z",
+    "signedAtLocal": "2026-02-27T18:43:41.047Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fbab775fa299ab7d32f562e122b71e8c5babe37a28a0beb6f65aac796c4ecede"
+  "documentHash": "450e7598d6791ac602eb0365e8fc6af6b2dd1ea63976af6e15590272aebb5664",
+  "auditTrail": [
+    {
+      "eventId": "4058c494-a0d8-4533-8ec1-9e0248293450",
+      "uid": "76.334.236-0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-27T21:42:41.626Z",
+      "timestampLocal": "2026-02-27T21:42:41.626Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.10.142.134",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=76.334.236-0&nombre_proveedor_razon_social=Producciones+Shangril-a+SpA&nombre_representante_legal=Paola+Mondiglio&email=matias%40agumedia.cl",
+      "previousEventHash": null,
+      "documentHash": "fbab775fa299ab7d32f562e122b71e8c5babe37a28a0beb6f65aac796c4ecede",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e1cbf0f19eb857e05bbfe6d50a171ecb3cb4e65ca34c161e0d040dc021a291f3"
+    },
+    {
+      "eventId": "488c8f0a-3d22-48dc-b9f7-ede72b1b498c",
+      "uid": "76.334.236-0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-27T21:42:41.626Z",
+      "timestampLocal": "2026-02-27T21:42:41.626Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.10.142.134",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=76.334.236-0&nombre_proveedor_razon_social=Producciones+Shangril-a+SpA&nombre_representante_legal=Paola+Mondiglio&email=matias%40agumedia.cl",
+      "previousEventHash": "e1cbf0f19eb857e05bbfe6d50a171ecb3cb4e65ca34c161e0d040dc021a291f3",
+      "documentHash": "fbab775fa299ab7d32f562e122b71e8c5babe37a28a0beb6f65aac796c4ecede",
+      "metadata": {
+        "proveedor": "Producciones Shangril-a SpA",
+        "representante": "Paola Mondiglio"
+      },
+      "eventHash": "d5b905edf8534c95224993c51ef5d84a1d89488ae072f3b4061fac888301b217"
+    },
+    {
+      "eventId": "9c1cb4cb-84b3-4643-934b-e984928ea19f",
+      "uid": "76.334.236-0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-27T21:42:43.273Z",
+      "timestampLocal": "2026-02-27T21:42:43.273Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.10.142.134",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=76.334.236-0&nombre_proveedor_razon_social=Producciones+Shangril-a+SpA&nombre_representante_legal=Paola+Mondiglio&email=matias%40agumedia.cl",
+      "previousEventHash": "d5b905edf8534c95224993c51ef5d84a1d89488ae072f3b4061fac888301b217",
+      "documentHash": "fbab775fa299ab7d32f562e122b71e8c5babe37a28a0beb6f65aac796c4ecede",
+      "eventHash": "ef79c9bfa3e6572c281d5a721fa8770760675975d86878c4e53781dddcae08d4"
+    },
+    {
+      "eventId": "5261080f-0a6c-4734-be94-e974e347a93c",
+      "uid": "76.334.236-0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-27T21:43:41.047Z",
+      "timestampLocal": "2026-02-27T18:43:41.047Z",
+      "timezone": "UTC-3",
+      "ipAddress": "186.10.142.134",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/2d4bf37e-2f85-415d-a307-3d4d1102b988",
+      "previousEventHash": "ef79c9bfa3e6572c281d5a721fa8770760675975d86878c4e53781dddcae08d4",
+      "documentHash": "450e7598d6791ac602eb0365e8fc6af6b2dd1ea63976af6e15590272aebb5664",
+      "signatureHash": "822f957ebfbad2ad7f842374909258df15b34de92ab8558f927153b8f893200d",
+      "metadata": {
+        "personaAutorizada": "Matias Valenzuela",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-27T18:43:37.594Z"
+      },
+      "eventHash": "f58294dfd95fb710f4bfbf664fd1b0a561a7e90a8e29d6768ce3ebd8526cf44e"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-02-27T21:43:41.048Z"
+  }
 }
