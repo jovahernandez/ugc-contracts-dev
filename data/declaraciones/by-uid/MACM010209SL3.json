@@ -1,19 +1,115 @@
 {
   "uid": "MACM010209SL3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MARIAGNA MARTÍNEZ CARRILLO",
     "nombre_representante_legal": "MARIAGNA MARTÍNEZ CARRILLO",
     "email": "mariagnacolaboraciones@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MARIAGNA MARTÍNEZ CARRILLO",
-    "nombre_representante_legal": "MARIAGNA MARTÍNEZ CARRILLO",
-    "email": "mariagnacolaboraciones@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-02-27T16:05:20.890Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MACM010209SL3",
+  "signatureMetadata": {
+    "ip": "201.174.171.29",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-02-27T22:05:24.333Z",
+    "signedAtLocal": "2026-02-27T16:05:24.333Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "cdc112e08889236997067eadef667e9bb0ff43ab637f6ac493959decbb893735"
+  "documentHash": "e57af879c6c8e34ad0ea9d9d1d31b44744e80a72efcece51372155922cd33ef4",
+  "auditTrail": [
+    {
+      "eventId": "cb3628cc-b638-45e9-9d97-bc19d0936cec",
+      "uid": "MACM010209SL3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-02-27T22:01:03.072Z",
+      "timestampLocal": "2026-02-27T22:01:03.072Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.174.171.29",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es-US;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MACM010209SL3&nombre_proveedor_razon_social=MARIAGNA+MART%C3%8DNEZ+CARRILLO+&nombre_representante_legal=MARIAGNA+MART%C3%8DNEZ+CARRILLO+&email=mariagnacolaboraciones%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "cdc112e08889236997067eadef667e9bb0ff43ab637f6ac493959decbb893735",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "75b6950ca9bb40b98fd37581a1426386d991926afa9d2deab7116f2a2be26e0e"
+    },
+    {
+      "eventId": "ec0eab57-582d-43d0-9803-4e36e1a2f926",
+      "uid": "MACM010209SL3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-02-27T22:01:03.073Z",
+      "timestampLocal": "2026-02-27T22:01:03.073Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.174.171.29",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es-US;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MACM010209SL3&nombre_proveedor_razon_social=MARIAGNA+MART%C3%8DNEZ+CARRILLO+&nombre_representante_legal=MARIAGNA+MART%C3%8DNEZ+CARRILLO+&email=mariagnacolaboraciones%40gmail.com",
+      "previousEventHash": "75b6950ca9bb40b98fd37581a1426386d991926afa9d2deab7116f2a2be26e0e",
+      "documentHash": "cdc112e08889236997067eadef667e9bb0ff43ab637f6ac493959decbb893735",
+      "metadata": {
+        "proveedor": "MARIAGNA MARTÍNEZ CARRILLO",
+        "representante": "MARIAGNA MARTÍNEZ CARRILLO"
+      },
+      "eventHash": "6e89b8c970959c96ff1455bb82e4d839c2d1519251e44b74857439c68f54be00"
+    },
+    {
+      "eventId": "adde8965-4c28-4e19-90a6-23684e36d406",
+      "uid": "MACM010209SL3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-27T22:01:04.463Z",
+      "timestampLocal": "2026-02-27T22:01:04.463Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.174.171.29",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es-US;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MACM010209SL3&nombre_proveedor_razon_social=MARIAGNA+MART%C3%8DNEZ+CARRILLO+&nombre_representante_legal=MARIAGNA+MART%C3%8DNEZ+CARRILLO+&email=mariagnacolaboraciones%40gmail.com",
+      "previousEventHash": "6e89b8c970959c96ff1455bb82e4d839c2d1519251e44b74857439c68f54be00",
+      "documentHash": "cdc112e08889236997067eadef667e9bb0ff43ab637f6ac493959decbb893735",
+      "eventHash": "08627b6e1f90c2488702680ebd732934b2ea940618639c16ec81dd3f09df3533"
+    },
+    {
+      "eventId": "9c38678d-35f0-41c2-aa14-a9cff79e76f2",
+      "uid": "MACM010209SL3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-02-27T22:02:25.279Z",
+      "timestampLocal": "2026-02-27T22:02:25.279Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.174.171.29",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es-US;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "08627b6e1f90c2488702680ebd732934b2ea940618639c16ec81dd3f09df3533",
+      "documentHash": "cdc112e08889236997067eadef667e9bb0ff43ab637f6ac493959decbb893735",
+      "eventHash": "00694f52b6afb0f7c85c2da1f09d6dfae1cb1420052da11ce6b41fefd59b0a84"
+    },
+    {
+      "eventId": "c3e14700-3942-47be-a420-e5f89d161955",
+      "uid": "MACM010209SL3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-02-27T22:05:24.333Z",
+      "timestampLocal": "2026-02-27T16:05:24.333Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.174.171.29",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es-US;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f704004c-7291-44a2-82e9-08111f1d02d1",
+      "previousEventHash": "00694f52b6afb0f7c85c2da1f09d6dfae1cb1420052da11ce6b41fefd59b0a84",
+      "documentHash": "e57af879c6c8e34ad0ea9d9d1d31b44744e80a72efcece51372155922cd33ef4",
+      "signatureHash": "523681f1fc35b612226f7dd446fca0ef9b642f150ebfccb65b4aaa7d66f7e222",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-02-27T16:05:20.890Z"
+      },
+      "eventHash": "37c926a20094082704c6721a31752656bb258a6461f4a50428323fdba0ba4680"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-02-27T22:05:24.334Z"
+  }
 }
