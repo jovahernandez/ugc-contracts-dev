@@ -1,19 +1,100 @@
 {
   "uid": "KCO180322Q21",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "KERTEC CORPORATION SA DE CV",
     "nombre_representante_legal": "CARLOS VILLEGAS RUIZ",
     "email": "facturacion@kertec.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "KERTEC CORPORATION SA DE CV",
-    "nombre_representante_legal": "CARLOS VILLEGAS RUIZ",
-    "email": "facturacion@kertec.com.mx"
+  "personaAutorizada": "YAZMIN GÓMEZ MÉNDEZ",
+  "signedAt": "2026-03-03T10:23:56.614Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/KCO180322Q21",
+  "signatureMetadata": {
+    "ip": "187.251.245.118",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-03T16:24:02.158Z",
+    "signedAtLocal": "2026-03-03T10:24:02.158Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "54149dbb89bfd35f7906a07866ff470b48a2b792e9430aaa8f4c88ca7bc89992"
+  "documentHash": "c520315021d7063df184d9344be4b8c0f9e06ae037682d9d9546919caceb6251",
+  "auditTrail": [
+    {
+      "eventId": "76909abe-b6f6-4490-8d89-8071e3be6ee2",
+      "uid": "KCO180322Q21",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-03T16:19:41.014Z",
+      "timestampLocal": "2026-03-03T16:19:41.014Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.245.118",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-MX;q=0.9,es-419;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=KCO180322Q21&nombre_proveedor_razon_social=KERTEC+CORPORATION+SA+DE+CV&nombre_representante_legal=CARLOS+VILLEGAS+RUIZ&email=facturacion%40kertec.com.mx",
+      "previousEventHash": null,
+      "documentHash": "54149dbb89bfd35f7906a07866ff470b48a2b792e9430aaa8f4c88ca7bc89992",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "09ea8163fb959135d92dc3cc85b525ba3004653d60283313565e6cbeaf09c504"
+    },
+    {
+      "eventId": "02d1cffa-4f52-46df-b296-ef02f74d0a25",
+      "uid": "KCO180322Q21",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-03T16:19:41.014Z",
+      "timestampLocal": "2026-03-03T16:19:41.014Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.245.118",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-MX;q=0.9,es-419;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=KCO180322Q21&nombre_proveedor_razon_social=KERTEC+CORPORATION+SA+DE+CV&nombre_representante_legal=CARLOS+VILLEGAS+RUIZ&email=facturacion%40kertec.com.mx",
+      "previousEventHash": "09ea8163fb959135d92dc3cc85b525ba3004653d60283313565e6cbeaf09c504",
+      "documentHash": "54149dbb89bfd35f7906a07866ff470b48a2b792e9430aaa8f4c88ca7bc89992",
+      "metadata": {
+        "proveedor": "KERTEC CORPORATION SA DE CV",
+        "representante": "CARLOS VILLEGAS RUIZ"
+      },
+      "eventHash": "de67ef79c70ec10a6b664efdb08a2eb0ad54678ddda480cc84ebd378cb523b2f"
+    },
+    {
+      "eventId": "9f66e3fc-efed-4388-a310-2475790ce314",
+      "uid": "KCO180322Q21",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-03T16:19:42.336Z",
+      "timestampLocal": "2026-03-03T16:19:42.336Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.245.118",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-MX;q=0.9,es-419;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=KCO180322Q21&nombre_proveedor_razon_social=KERTEC+CORPORATION+SA+DE+CV&nombre_representante_legal=CARLOS+VILLEGAS+RUIZ&email=facturacion%40kertec.com.mx",
+      "previousEventHash": "de67ef79c70ec10a6b664efdb08a2eb0ad54678ddda480cc84ebd378cb523b2f",
+      "documentHash": "54149dbb89bfd35f7906a07866ff470b48a2b792e9430aaa8f4c88ca7bc89992",
+      "eventHash": "c49ac5961606cc80cefa1bd240181a731c055eb6ff5fbadf90201f2802f8b41e"
+    },
+    {
+      "eventId": "ce76a93c-942e-445a-9265-e2852e1fc7c7",
+      "uid": "KCO180322Q21",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-03T16:24:02.158Z",
+      "timestampLocal": "2026-03-03T10:24:02.158Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.251.245.118",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-MX;q=0.9,es-419;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1afba3d9-fa59-431a-9813-75eef4377cbc",
+      "previousEventHash": "c49ac5961606cc80cefa1bd240181a731c055eb6ff5fbadf90201f2802f8b41e",
+      "documentHash": "c520315021d7063df184d9344be4b8c0f9e06ae037682d9d9546919caceb6251",
+      "signatureHash": "8add2e74de279ba02ec128bcfb788b6e9946f63463a737ec9b97ff7ece8a230e",
+      "metadata": {
+        "personaAutorizada": "YAZMIN GÓMEZ MÉNDEZ",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-03T10:23:56.614Z"
+      },
+      "eventHash": "18cd2ee18982617ab989e7c627db14c11fdc7ab1a6dd477ceaab9275acc066dc"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-03T16:24:02.159Z"
+  }
 }
