@@ -1,19 +1,100 @@
 {
   "uid": "GATY861007747",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Maria Yulene Galera Trillas",
     "nombre_representante_legal": "Maria Yulene Galera Trillas",
     "email": "management@coinspire.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Maria Yulene Galera Trillas",
-    "nombre_representante_legal": "Maria Yulene Galera Trillas",
-    "email": "management@coinspire.com.mx"
+  "personaAutorizada": "NA",
+  "signedAt": "2026-03-02T18:10:03.685Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GATY861007747",
+  "signatureMetadata": {
+    "ip": "189.217.202.229",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-03T00:10:07.428Z",
+    "signedAtLocal": "2026-03-02T18:10:07.428Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1115e830432de47c00b910aa32de805126728969d3cd0e7817843d9dbdbb963f"
+  "documentHash": "53946af544215ac63a0bc7aac68a593553b2bf7e1f8168347a4d255f943739a8",
+  "auditTrail": [
+    {
+      "eventId": "7b471b82-e756-44f7-92dc-15c12fd6b1c8",
+      "uid": "GATY861007747",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-03T00:07:48.146Z",
+      "timestampLocal": "2026-03-03T00:07:48.146Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.202.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GATY861007747&nombre_proveedor_razon_social=Maria+Yulene+Galera+Trillas&nombre_representante_legal=Maria+Yulene+Galera+Trillas&email=management%40coinspire.com.mx",
+      "previousEventHash": null,
+      "documentHash": "1115e830432de47c00b910aa32de805126728969d3cd0e7817843d9dbdbb963f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "87b9187dbfd5ea71bd672542bae6b0f01b944cd91a0c93b73a12cf0decac12ae"
+    },
+    {
+      "eventId": "068b2d38-4e1c-44cc-9d8d-03985335b671",
+      "uid": "GATY861007747",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-03T00:07:48.146Z",
+      "timestampLocal": "2026-03-03T00:07:48.146Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.202.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GATY861007747&nombre_proveedor_razon_social=Maria+Yulene+Galera+Trillas&nombre_representante_legal=Maria+Yulene+Galera+Trillas&email=management%40coinspire.com.mx",
+      "previousEventHash": "87b9187dbfd5ea71bd672542bae6b0f01b944cd91a0c93b73a12cf0decac12ae",
+      "documentHash": "1115e830432de47c00b910aa32de805126728969d3cd0e7817843d9dbdbb963f",
+      "metadata": {
+        "proveedor": "Maria Yulene Galera Trillas",
+        "representante": "Maria Yulene Galera Trillas"
+      },
+      "eventHash": "5699fb02ab6fe4e6e6f2eb95cbafc18199b63d0c68136bfdfccd98c63e7b2818"
+    },
+    {
+      "eventId": "7223ef15-816e-47c0-aa60-3b9d1861144e",
+      "uid": "GATY861007747",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-03T00:07:49.266Z",
+      "timestampLocal": "2026-03-03T00:07:49.266Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.202.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GATY861007747&nombre_proveedor_razon_social=Maria+Yulene+Galera+Trillas&nombre_representante_legal=Maria+Yulene+Galera+Trillas&email=management%40coinspire.com.mx",
+      "previousEventHash": "5699fb02ab6fe4e6e6f2eb95cbafc18199b63d0c68136bfdfccd98c63e7b2818",
+      "documentHash": "1115e830432de47c00b910aa32de805126728969d3cd0e7817843d9dbdbb963f",
+      "eventHash": "52445dd83d719907202436bc0deb8b78c7d5421ef994f36acb45e2e5a5c96d3f"
+    },
+    {
+      "eventId": "0cd5dc15-cdea-4f65-87ce-109b2e00399e",
+      "uid": "GATY861007747",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-03T00:10:07.428Z",
+      "timestampLocal": "2026-03-02T18:10:07.428Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.202.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/69a88a30-0f5a-4118-b107-570a6f48f242",
+      "previousEventHash": "52445dd83d719907202436bc0deb8b78c7d5421ef994f36acb45e2e5a5c96d3f",
+      "documentHash": "53946af544215ac63a0bc7aac68a593553b2bf7e1f8168347a4d255f943739a8",
+      "signatureHash": "3c0303e24112dc7b9b585e9ec0738fdf8ada89b2e688eb7517367bfc3b07e523",
+      "metadata": {
+        "personaAutorizada": "NA",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-02T18:10:03.685Z"
+      },
+      "eventHash": "cfd42e17c6622e2cf2ea1429ed22b6516e909741917d24574b23c4cdb0a1ba4c"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-03T00:10:07.428Z"
+  }
 }
