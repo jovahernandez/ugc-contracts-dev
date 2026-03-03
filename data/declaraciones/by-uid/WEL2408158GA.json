@@ -1,19 +1,100 @@
 {
   "uid": "WEL2408158GA",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "WELOVEMODELS SA DE CV",
     "nombre_representante_legal": "MARIA ELENA ARIZZI",
     "email": "malena@welovemodels.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "WELOVEMODELS SA DE CV",
-    "nombre_representante_legal": "MARIA ELENA ARIZZI",
-    "email": "malena@welovemodels.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-03T11:40:06.224Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/WEL2408158GA",
+  "signatureMetadata": {
+    "ip": "187.189.146.81",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+    "signedAtUtc": "2026-03-03T17:40:11.928Z",
+    "signedAtLocal": "2026-03-03T11:40:11.928Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c52cb6ed7729f762f5768a05742f5363cdaf0bb40cf1540864ebe2a1889793ff"
+  "documentHash": "764c116432baa8ba8ec842404295009f10a4cea91774a9907994829492352244",
+  "auditTrail": [
+    {
+      "eventId": "0b625d8f-0e52-47c0-9cad-92c5def2fbdf",
+      "uid": "WEL2408158GA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-03T17:39:25.548Z",
+      "timestampLocal": "2026-03-03T17:39:25.548Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.81",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "c52cb6ed7729f762f5768a05742f5363cdaf0bb40cf1540864ebe2a1889793ff",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ff479d46e4b83f4c5c2214f169899b357f4e1f199a22caa0970931c7cb2f9b40"
+    },
+    {
+      "eventId": "400ae508-3465-47dc-9c21-188008dce61b",
+      "uid": "WEL2408158GA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-03T17:39:25.548Z",
+      "timestampLocal": "2026-03-03T17:39:25.548Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.81",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ff479d46e4b83f4c5c2214f169899b357f4e1f199a22caa0970931c7cb2f9b40",
+      "documentHash": "c52cb6ed7729f762f5768a05742f5363cdaf0bb40cf1540864ebe2a1889793ff",
+      "metadata": {
+        "proveedor": "WELOVEMODELS SA DE CV",
+        "representante": "MARIA ELENA ARIZZI"
+      },
+      "eventHash": "5edf2c6a362ad3eee25cb05c41c68f1c7eaa8578e47d777cf3f5cd2fd61fda7b"
+    },
+    {
+      "eventId": "f00bf5b6-c71c-4857-b9fb-a373728dba87",
+      "uid": "WEL2408158GA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-03T17:39:26.729Z",
+      "timestampLocal": "2026-03-03T17:39:26.729Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.81",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "5edf2c6a362ad3eee25cb05c41c68f1c7eaa8578e47d777cf3f5cd2fd61fda7b",
+      "documentHash": "c52cb6ed7729f762f5768a05742f5363cdaf0bb40cf1540864ebe2a1889793ff",
+      "eventHash": "4f8a459f8ad85f70266f7b389eed73be7b646fbd9292aee00fff22fe4ea0712f"
+    },
+    {
+      "eventId": "8edc168d-8cf2-41da-aac8-78f96bef06fd",
+      "uid": "WEL2408158GA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-03T17:40:11.928Z",
+      "timestampLocal": "2026-03-03T11:40:11.928Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.146.81",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4f8a459f8ad85f70266f7b389eed73be7b646fbd9292aee00fff22fe4ea0712f",
+      "documentHash": "764c116432baa8ba8ec842404295009f10a4cea91774a9907994829492352244",
+      "signatureHash": "726dbd132143dbc4c16bf90f7123227ca5e93f92c3beb84c892c7054c2ff6dcc",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-03T11:40:06.224Z"
+      },
+      "eventHash": "460487cba1087d6a348673226e96169d25373dde833040473c2cb336bd6a0ea7"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-03T17:40:11.929Z"
+  }
 }
