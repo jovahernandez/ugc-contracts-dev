@@ -1,19 +1,100 @@
 {
   "uid": "DMS1704047G4",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DECIBEL MEXICO SERVICIOS DE AUDIO SA DE CV",
     "nombre_representante_legal": "CARLOS ALBERTO ORTEGA BADILLO",
     "email": "administracion@decibel.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "DECIBEL MEXICO SERVICIOS DE AUDIO SA DE CV",
-    "nombre_representante_legal": "CARLOS ALBERTO ORTEGA BADILLO",
-    "email": "administracion@decibel.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-04T20:13:36.219Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DMS1704047G4",
+  "signatureMetadata": {
+    "ip": "38.49.137.170",
+    "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+    "signedAtUtc": "2026-03-05T02:13:39.620Z",
+    "signedAtLocal": "2026-03-04T20:13:39.620Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7bc2112547ebfa296e2fadae13a3269ffff71eda197dba976b24dec1a12db797"
+  "documentHash": "2b5a2485e10dbd81e4d47e2c81de30e6c1d938332776fa4f0c8bcf0bcc3d99cb",
+  "auditTrail": [
+    {
+      "eventId": "a999a3a0-6d65-4ae0-b96b-355f2910d4a6",
+      "uid": "DMS1704047G4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-05T02:09:20.420Z",
+      "timestampLocal": "2026-03-05T02:09:20.420Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.49.137.170",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+      "acceptLanguage": "es-MX,es;q=0.8,en-US;q=0.5,en;q=0.3",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DMS1704047G4&nombre_proveedor_razon_social=DECIBEL+MEXICO+SERVICIOS+DE+AUDIO+SA+DE+CV&nombre_representante_legal=CARLOS+ALBERTO+ORTEGA+BADILLO&email=administracion%40decibel.com.mx",
+      "previousEventHash": null,
+      "documentHash": "7bc2112547ebfa296e2fadae13a3269ffff71eda197dba976b24dec1a12db797",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "45a694b519088b7caa90b46f24d2cc8ba2a36c1f42c7a89a37c2c1f007d94b8d"
+    },
+    {
+      "eventId": "25f41dbb-0257-4de1-a461-187bbd946caa",
+      "uid": "DMS1704047G4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-05T02:09:20.420Z",
+      "timestampLocal": "2026-03-05T02:09:20.420Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.49.137.170",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+      "acceptLanguage": "es-MX,es;q=0.8,en-US;q=0.5,en;q=0.3",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DMS1704047G4&nombre_proveedor_razon_social=DECIBEL+MEXICO+SERVICIOS+DE+AUDIO+SA+DE+CV&nombre_representante_legal=CARLOS+ALBERTO+ORTEGA+BADILLO&email=administracion%40decibel.com.mx",
+      "previousEventHash": "45a694b519088b7caa90b46f24d2cc8ba2a36c1f42c7a89a37c2c1f007d94b8d",
+      "documentHash": "7bc2112547ebfa296e2fadae13a3269ffff71eda197dba976b24dec1a12db797",
+      "metadata": {
+        "proveedor": "DECIBEL MEXICO SERVICIOS DE AUDIO SA DE CV",
+        "representante": "CARLOS ALBERTO ORTEGA BADILLO"
+      },
+      "eventHash": "7529086237bc3a4a05031b9e55d9f4857c78078b7083f725564c4fe4144fc157"
+    },
+    {
+      "eventId": "53c1d566-8f3e-4d3d-8a4c-89a992b0c905",
+      "uid": "DMS1704047G4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-05T02:09:21.585Z",
+      "timestampLocal": "2026-03-05T02:09:21.585Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.49.137.170",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+      "acceptLanguage": "es-MX,es;q=0.8,en-US;q=0.5,en;q=0.3",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DMS1704047G4&nombre_proveedor_razon_social=DECIBEL+MEXICO+SERVICIOS+DE+AUDIO+SA+DE+CV&nombre_representante_legal=CARLOS+ALBERTO+ORTEGA+BADILLO&email=administracion%40decibel.com.mx",
+      "previousEventHash": "7529086237bc3a4a05031b9e55d9f4857c78078b7083f725564c4fe4144fc157",
+      "documentHash": "7bc2112547ebfa296e2fadae13a3269ffff71eda197dba976b24dec1a12db797",
+      "eventHash": "981b63766d31defa8719d3edb7200ddfdf8d2b59b47545ed84a56193fba6afa9"
+    },
+    {
+      "eventId": "46f492b2-278c-4fee-ae66-d677d4c889fa",
+      "uid": "DMS1704047G4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-05T02:13:39.621Z",
+      "timestampLocal": "2026-03-04T20:13:39.621Z",
+      "timezone": "UTC-6",
+      "ipAddress": "38.49.137.170",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+      "acceptLanguage": "es-MX,es;q=0.8,en-US;q=0.5,en;q=0.3",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e1c09e37-a2fc-4bcc-aed0-47001c0c547a",
+      "previousEventHash": "981b63766d31defa8719d3edb7200ddfdf8d2b59b47545ed84a56193fba6afa9",
+      "documentHash": "2b5a2485e10dbd81e4d47e2c81de30e6c1d938332776fa4f0c8bcf0bcc3d99cb",
+      "signatureHash": "6905dd4dd81440b101ff5109d89b90160bd2b725afdf5e33d3549677b2215a3d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-04T20:13:36.219Z"
+      },
+      "eventHash": "1433353e78557bb6a1fd81e318285bfb2025b61da7f16944362eaf377fc2a0df"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-05T02:13:39.621Z"
+  }
 }
