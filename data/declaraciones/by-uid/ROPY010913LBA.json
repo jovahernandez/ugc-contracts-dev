@@ -1,19 +1,100 @@
 {
   "uid": "ROPY010913LBA",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "YAEL ROMERO PEREZ",
     "nombre_representante_legal": "YAEL ROMERO",
     "email": "yaelromerop@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "YAEL ROMERO PEREZ",
-    "nombre_representante_legal": "YAEL ROMERO",
-    "email": "yaelromerop@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-04T19:15:13.370Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ROPY010913LBA",
+  "signatureMetadata": {
+    "ip": "189.245.9.166",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-05T01:15:19.437Z",
+    "signedAtLocal": "2026-03-04T19:15:19.437Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1ba74743770cd405960591f707bb8ba8e205e49ce9304382089bbb7f4c788998"
+  "documentHash": "5b783922396ff9e9d0e5924665286aae43ceca5269eeeb2ae63f89052f2ec82e",
+  "auditTrail": [
+    {
+      "eventId": "97a0d0de-7f1a-4be4-9f05-c1adb58e21c1",
+      "uid": "ROPY010913LBA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-05T01:13:54.551Z",
+      "timestampLocal": "2026-03-05T01:13:54.551Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.9.166",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ROPY010913LBA&nombre_proveedor_razon_social=YAEL+ROMERO+PEREZ&nombre_representante_legal=YAEL+ROMERO&email=yaelromerop%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "1ba74743770cd405960591f707bb8ba8e205e49ce9304382089bbb7f4c788998",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "83aa33af7f5e8bcf59691947e4fd5fbea1dade6ac5272564fcae3d4938e9ad3c"
+    },
+    {
+      "eventId": "eea20ddc-d6e2-4c48-a025-899a8b67e6a2",
+      "uid": "ROPY010913LBA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-05T01:13:54.551Z",
+      "timestampLocal": "2026-03-05T01:13:54.551Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.9.166",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ROPY010913LBA&nombre_proveedor_razon_social=YAEL+ROMERO+PEREZ&nombre_representante_legal=YAEL+ROMERO&email=yaelromerop%40gmail.com",
+      "previousEventHash": "83aa33af7f5e8bcf59691947e4fd5fbea1dade6ac5272564fcae3d4938e9ad3c",
+      "documentHash": "1ba74743770cd405960591f707bb8ba8e205e49ce9304382089bbb7f4c788998",
+      "metadata": {
+        "proveedor": "YAEL ROMERO PEREZ",
+        "representante": "YAEL ROMERO"
+      },
+      "eventHash": "a931c4d71c80b2500e58b411f197e819ed220383684bc8822e2d99842cfae6d4"
+    },
+    {
+      "eventId": "9bfc86d5-9e4d-4eaa-b698-1fa2921c7852",
+      "uid": "ROPY010913LBA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-05T01:13:55.559Z",
+      "timestampLocal": "2026-03-05T01:13:55.559Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.9.166",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ROPY010913LBA&nombre_proveedor_razon_social=YAEL+ROMERO+PEREZ&nombre_representante_legal=YAEL+ROMERO&email=yaelromerop%40gmail.com",
+      "previousEventHash": "a931c4d71c80b2500e58b411f197e819ed220383684bc8822e2d99842cfae6d4",
+      "documentHash": "1ba74743770cd405960591f707bb8ba8e205e49ce9304382089bbb7f4c788998",
+      "eventHash": "9872e4493a3f746289b6783ecd4c030d56c4a76ab3d113aeee9f31af69e29924"
+    },
+    {
+      "eventId": "cc4c3429-272a-400d-bc1f-7a920fc6b062",
+      "uid": "ROPY010913LBA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-05T01:15:19.437Z",
+      "timestampLocal": "2026-03-04T19:15:19.437Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.245.9.166",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f1a989f9-a8ba-4b91-9f12-06ce29958fa8",
+      "previousEventHash": "9872e4493a3f746289b6783ecd4c030d56c4a76ab3d113aeee9f31af69e29924",
+      "documentHash": "5b783922396ff9e9d0e5924665286aae43ceca5269eeeb2ae63f89052f2ec82e",
+      "signatureHash": "ed27cd5b1124094456793409d5b42b432aed39c3d05e94b42b59d27cb2ae0d8e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-04T19:15:13.370Z"
+      },
+      "eventHash": "4ab5aade224d6a7d37efe778995b0802ab82471cfa76e0f0ee466b570509f061"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-05T01:15:19.438Z"
+  }
 }
