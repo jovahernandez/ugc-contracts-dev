@@ -1,19 +1,100 @@
 {
   "uid": "CTC171003D1A",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CENTRO DE TRABAJO CO-MADRE",
     "nombre_representante_legal": "PAOLA TABACHNIK BESUDO",
     "email": "mariana@co-madre.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CENTRO DE TRABAJO CO-MADRE",
-    "nombre_representante_legal": "PAOLA TABACHNIK BESUDO",
-    "email": "mariana@co-madre.com"
+  "personaAutorizada": "Paola Tabachnik Besudo",
+  "signedAt": "2026-03-10T10:51:44.496Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CTC171003D1A",
+  "signatureMetadata": {
+    "ip": "187.245.230.14",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-10T16:51:47.897Z",
+    "signedAtLocal": "2026-03-10T10:51:47.897Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "74e339ceec4e02d2b5999669512a4fb32c80d874e5d6eb9244c74ee6a12f84f2"
+  "documentHash": "37a720076d1fc380b9d525af8852b6ca0d18cb4d3ff26c7b05cdbafead8bff58",
+  "auditTrail": [
+    {
+      "eventId": "8cc59c6c-50eb-4789-8fe7-dd1c1dada251",
+      "uid": "CTC171003D1A",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-10T16:37:29.984Z",
+      "timestampLocal": "2026-03-10T16:37:29.984Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.245.230.14",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CTC171003D1A&nombre_proveedor_razon_social=CENTRO+DE+TRABAJO+CO-MADRE&nombre_representante_legal=PAOLA+TABACHNIK+BESUDO&email=mariana%40co-madre.com",
+      "previousEventHash": null,
+      "documentHash": "74e339ceec4e02d2b5999669512a4fb32c80d874e5d6eb9244c74ee6a12f84f2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1f40a776e2d6fbbdad42a8ed339a14c1ee5b775f2070c5af482ada3b6ba41ffa"
+    },
+    {
+      "eventId": "062883e2-be8f-40b2-97bb-c66ec3013cf9",
+      "uid": "CTC171003D1A",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-10T16:37:29.984Z",
+      "timestampLocal": "2026-03-10T16:37:29.984Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.245.230.14",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CTC171003D1A&nombre_proveedor_razon_social=CENTRO+DE+TRABAJO+CO-MADRE&nombre_representante_legal=PAOLA+TABACHNIK+BESUDO&email=mariana%40co-madre.com",
+      "previousEventHash": "1f40a776e2d6fbbdad42a8ed339a14c1ee5b775f2070c5af482ada3b6ba41ffa",
+      "documentHash": "74e339ceec4e02d2b5999669512a4fb32c80d874e5d6eb9244c74ee6a12f84f2",
+      "metadata": {
+        "proveedor": "CENTRO DE TRABAJO CO-MADRE",
+        "representante": "PAOLA TABACHNIK BESUDO"
+      },
+      "eventHash": "8c99cd08bbfd34f265d703b53e5378a8737022bb9f1f02ac615529d275b83e37"
+    },
+    {
+      "eventId": "99b09a2a-4075-44a4-9847-8a594d55227a",
+      "uid": "CTC171003D1A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-10T16:37:31.088Z",
+      "timestampLocal": "2026-03-10T16:37:31.088Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.245.230.14",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CTC171003D1A&nombre_proveedor_razon_social=CENTRO+DE+TRABAJO+CO-MADRE&nombre_representante_legal=PAOLA+TABACHNIK+BESUDO&email=mariana%40co-madre.com",
+      "previousEventHash": "8c99cd08bbfd34f265d703b53e5378a8737022bb9f1f02ac615529d275b83e37",
+      "documentHash": "74e339ceec4e02d2b5999669512a4fb32c80d874e5d6eb9244c74ee6a12f84f2",
+      "eventHash": "1a9edf9b65309f4290fe2b370e924add71bcf89040494c392fc14e86ee3385d2"
+    },
+    {
+      "eventId": "55fe39d7-948b-4c93-b031-e0255a8d1475",
+      "uid": "CTC171003D1A",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-10T16:51:47.897Z",
+      "timestampLocal": "2026-03-10T10:51:47.897Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.245.230.14",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c0876314-4402-4bc5-954e-d0b478044f26",
+      "previousEventHash": "1a9edf9b65309f4290fe2b370e924add71bcf89040494c392fc14e86ee3385d2",
+      "documentHash": "37a720076d1fc380b9d525af8852b6ca0d18cb4d3ff26c7b05cdbafead8bff58",
+      "signatureHash": "a2f932095226c90e533b76e9548ea24b947536372abfb2f2e1b6784a393124d0",
+      "metadata": {
+        "personaAutorizada": "Paola Tabachnik Besudo",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-10T10:51:44.496Z"
+      },
+      "eventHash": "ff235c2422b7d6012b469fd3167c970491929befe4730560e58f32f16909d2b9"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-10T16:51:47.898Z"
+  }
 }
