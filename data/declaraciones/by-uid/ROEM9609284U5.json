@@ -1,19 +1,100 @@
 {
   "uid": "ROEM9609284U5",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MICHAEL RONDA ESCOBOSA",
     "nombre_representante_legal": "-",
     "email": "fannee40@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MICHAEL RONDA ESCOBOSA",
-    "nombre_representante_legal": "-",
-    "email": "fannee40@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-10T12:25:49.996Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ROEM9609284U5",
+  "signatureMetadata": {
+    "ip": "201.141.54.26",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-10T18:25:53.466Z",
+    "signedAtLocal": "2026-03-10T12:25:53.466Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "780fa3d7c41b210df8a23b7b1e38e5b501a22a6ac59415d3a5508e25f0f05f0a"
+  "documentHash": "cbd4aadc0cf6e3c0d7aac88e7129758ec302cc2a9d71f834f258dae9828eb9a7",
+  "auditTrail": [
+    {
+      "eventId": "e721022e-72a7-4a5f-8986-501c0485dbb2",
+      "uid": "ROEM9609284U5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-10T18:23:32.469Z",
+      "timestampLocal": "2026-03-10T18:23:32.469Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.54.26",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ROEM9609284U5&nombre_proveedor_razon_social=MICHAEL+RONDA+ESCOBOSA&nombre_representante_legal=-&email=fannee40%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "780fa3d7c41b210df8a23b7b1e38e5b501a22a6ac59415d3a5508e25f0f05f0a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f33ea2b62b21ea109128d720320929c6dc617dd0f4bb655ba3432d82384eff4e"
+    },
+    {
+      "eventId": "a24bea21-e1f4-46ec-bfef-ecd913dbc93b",
+      "uid": "ROEM9609284U5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-10T18:23:32.469Z",
+      "timestampLocal": "2026-03-10T18:23:32.469Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.54.26",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ROEM9609284U5&nombre_proveedor_razon_social=MICHAEL+RONDA+ESCOBOSA&nombre_representante_legal=-&email=fannee40%40gmail.com",
+      "previousEventHash": "f33ea2b62b21ea109128d720320929c6dc617dd0f4bb655ba3432d82384eff4e",
+      "documentHash": "780fa3d7c41b210df8a23b7b1e38e5b501a22a6ac59415d3a5508e25f0f05f0a",
+      "metadata": {
+        "proveedor": "MICHAEL RONDA ESCOBOSA",
+        "representante": "-"
+      },
+      "eventHash": "3f289d8f97808444b0ec95854db98e94e9e31180210945ae9c45216c88c0d780"
+    },
+    {
+      "eventId": "4f7fdc7b-f0e2-44c8-a8e9-e8cbb8d293a5",
+      "uid": "ROEM9609284U5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-10T18:23:33.975Z",
+      "timestampLocal": "2026-03-10T18:23:33.975Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.54.26",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ROEM9609284U5&nombre_proveedor_razon_social=MICHAEL+RONDA+ESCOBOSA&nombre_representante_legal=-&email=fannee40%40gmail.com",
+      "previousEventHash": "3f289d8f97808444b0ec95854db98e94e9e31180210945ae9c45216c88c0d780",
+      "documentHash": "780fa3d7c41b210df8a23b7b1e38e5b501a22a6ac59415d3a5508e25f0f05f0a",
+      "eventHash": "0902534172383317cfca85fb8e28228cfe3b2bf9caab12de86e2363b9ebb478e"
+    },
+    {
+      "eventId": "e2b23fbf-c257-4fd5-9353-c0f1af61c391",
+      "uid": "ROEM9609284U5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-10T18:25:53.466Z",
+      "timestampLocal": "2026-03-10T12:25:53.466Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.54.26",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/639fc0e5-b62b-41ac-b0ae-600f1a987e6e",
+      "previousEventHash": "0902534172383317cfca85fb8e28228cfe3b2bf9caab12de86e2363b9ebb478e",
+      "documentHash": "cbd4aadc0cf6e3c0d7aac88e7129758ec302cc2a9d71f834f258dae9828eb9a7",
+      "signatureHash": "3659f571563ccafb0be1b43f695c05c2f253894475bc77df1ee0797cb8bc4ed5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-10T12:25:49.996Z"
+      },
+      "eventHash": "a39db328dee6f117a8ca627d4e545849f3178dbf666c483e176e11ee876b96ca"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-10T18:25:53.466Z"
+  }
 }
