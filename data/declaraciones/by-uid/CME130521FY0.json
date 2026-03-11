@@ -1,19 +1,100 @@
 {
   "uid": "CME130521FY0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CLEVERFLOW DE MEXICO SAPI DE CV",
     "nombre_representante_legal": "CLEVERFLOW DE MEXICO SAPI DE CV",
     "email": "facturacion@cleverflow.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CLEVERFLOW DE MEXICO SAPI DE CV",
-    "nombre_representante_legal": "CLEVERFLOW DE MEXICO SAPI DE CV",
-    "email": "facturacion@cleverflow.mx"
+  "personaAutorizada": "Nomara Tagle ",
+  "signedAt": "2026-03-11T13:38:22.242Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CME130521FY0",
+  "signatureMetadata": {
+    "ip": "189.216.168.146",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+    "signedAtUtc": "2026-03-11T19:38:25.586Z",
+    "signedAtLocal": "2026-03-11T13:38:25.586Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ae5bb3e4d820ef31fd51e8069d9e8026d3f9026448bf8fa6f7ca75039ad40010"
+  "documentHash": "8d79f96c1ce11d98f6936f94509ac689c0905caac0d70b69c6d556a816394770",
+  "auditTrail": [
+    {
+      "eventId": "6ac8b564-e1a2-42bc-bda5-290fc4d8a44f",
+      "uid": "CME130521FY0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-11T19:37:33.514Z",
+      "timestampLocal": "2026-03-11T19:37:33.514Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.168.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "ae5bb3e4d820ef31fd51e8069d9e8026d3f9026448bf8fa6f7ca75039ad40010",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d215096761fc6fff34a225570d3bd99928e3787670f4ee0421994c6b1964e8ba"
+    },
+    {
+      "eventId": "6f2093bf-839b-48c7-9575-b3cc7b973e5b",
+      "uid": "CME130521FY0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-11T19:37:33.514Z",
+      "timestampLocal": "2026-03-11T19:37:33.514Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.168.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "d215096761fc6fff34a225570d3bd99928e3787670f4ee0421994c6b1964e8ba",
+      "documentHash": "ae5bb3e4d820ef31fd51e8069d9e8026d3f9026448bf8fa6f7ca75039ad40010",
+      "metadata": {
+        "proveedor": "CLEVERFLOW DE MEXICO SAPI DE CV",
+        "representante": "CLEVERFLOW DE MEXICO SAPI DE CV"
+      },
+      "eventHash": "82b833c62e9f38e78997b1e6473f321f79c005fc1abc84c77dfdea7dcfb3c81c"
+    },
+    {
+      "eventId": "cf2a575e-a6d4-436a-948e-e163347e0b9e",
+      "uid": "CME130521FY0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-11T19:37:34.665Z",
+      "timestampLocal": "2026-03-11T19:37:34.665Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.168.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "82b833c62e9f38e78997b1e6473f321f79c005fc1abc84c77dfdea7dcfb3c81c",
+      "documentHash": "ae5bb3e4d820ef31fd51e8069d9e8026d3f9026448bf8fa6f7ca75039ad40010",
+      "eventHash": "16ced63ef6bf64887ae65a3a04fe698ffb3ff21b83f484d5f52e3a37fb47789c"
+    },
+    {
+      "eventId": "cf31442e-8997-44f4-9c92-269cca83ec43",
+      "uid": "CME130521FY0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-11T19:38:25.586Z",
+      "timestampLocal": "2026-03-11T13:38:25.586Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.216.168.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "16ced63ef6bf64887ae65a3a04fe698ffb3ff21b83f484d5f52e3a37fb47789c",
+      "documentHash": "8d79f96c1ce11d98f6936f94509ac689c0905caac0d70b69c6d556a816394770",
+      "signatureHash": "f4dc6048ef6c3fbec850c3d88b2c849017ed75fe0791ad619ed630fb4917103c",
+      "metadata": {
+        "personaAutorizada": "Nomara Tagle ",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-11T13:38:22.242Z"
+      },
+      "eventHash": "0fca84231a8a6446088bdce93d9d24db396abc2440e2f44385ec9e3a93c77eb4"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-11T19:38:25.586Z"
+  }
 }
