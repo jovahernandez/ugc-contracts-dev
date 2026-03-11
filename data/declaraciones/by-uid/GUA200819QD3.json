@@ -1,19 +1,130 @@
 {
   "uid": "GUA200819QD3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GUARROMANTICO SA DE CV",
     "nombre_representante_legal": "Julio César Piña Vargas",
     "email": "hola@guarromantico.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "GUARROMANTICO SA DE CV",
-    "nombre_representante_legal": "Julio César Piña Vargas",
-    "email": "hola@guarromantico.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-11T13:51:40.633Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GUA200819QD3",
+  "signatureMetadata": {
+    "ip": "187.190.192.90",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-11T19:51:44.240Z",
+    "signedAtLocal": "2026-03-11T13:51:44.240Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0a5afe98ab59ecaf0e80514530a50ac96dbb5a037f7ff77fbf150b5b7d669509"
+  "documentHash": "0a6ddfe4a22e459cb3b427e56c7a315c18579bd37d7aab9bde43ada208f98a7e",
+  "auditTrail": [
+    {
+      "eventId": "5073f70d-0072-4cec-80d3-c460af76c575",
+      "uid": "GUA200819QD3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-11T19:41:18.785Z",
+      "timestampLocal": "2026-03-11T19:41:18.785Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.158.77",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GUA200819QD3&nombre_proveedor_razon_social=GUARROMANTICO+SA+DE+CV&nombre_representante_legal=Julio+C%C3%A9sar+Pi%C3%B1a+Vargas&email=hola%40guarromantico.com",
+      "previousEventHash": null,
+      "documentHash": "0a5afe98ab59ecaf0e80514530a50ac96dbb5a037f7ff77fbf150b5b7d669509",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "193963d0809dddb3922f5505a61e37db45b3973f5445d9a5a533aaa8e1f4daa1"
+    },
+    {
+      "eventId": "0a5c8a60-c98e-4c90-9e5a-5f05150a984b",
+      "uid": "GUA200819QD3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-11T19:41:18.785Z",
+      "timestampLocal": "2026-03-11T19:41:18.785Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.158.77",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GUA200819QD3&nombre_proveedor_razon_social=GUARROMANTICO+SA+DE+CV&nombre_representante_legal=Julio+C%C3%A9sar+Pi%C3%B1a+Vargas&email=hola%40guarromantico.com",
+      "previousEventHash": "193963d0809dddb3922f5505a61e37db45b3973f5445d9a5a533aaa8e1f4daa1",
+      "documentHash": "0a5afe98ab59ecaf0e80514530a50ac96dbb5a037f7ff77fbf150b5b7d669509",
+      "metadata": {
+        "proveedor": "GUARROMANTICO SA DE CV",
+        "representante": "Julio César Piña Vargas"
+      },
+      "eventHash": "ef1ed2d662b055759b0266ac0bdaf58f4ce4e985ac00f016b4b6c12dda84de04"
+    },
+    {
+      "eventId": "24f5d315-3d56-4680-8165-d20595f3f2c5",
+      "uid": "GUA200819QD3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-11T19:41:19.787Z",
+      "timestampLocal": "2026-03-11T19:41:19.787Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.158.77",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GUA200819QD3&nombre_proveedor_razon_social=GUARROMANTICO+SA+DE+CV&nombre_representante_legal=Julio+C%C3%A9sar+Pi%C3%B1a+Vargas&email=hola%40guarromantico.com",
+      "previousEventHash": "ef1ed2d662b055759b0266ac0bdaf58f4ce4e985ac00f016b4b6c12dda84de04",
+      "documentHash": "0a5afe98ab59ecaf0e80514530a50ac96dbb5a037f7ff77fbf150b5b7d669509",
+      "eventHash": "e0a52c887a51bcd9c8e4fc442eb03a7169d550294f1bce9e7a925f2c0c74477a"
+    },
+    {
+      "eventId": "9b0769f9-ca19-4ecf-b806-20cb2c7e1aa2",
+      "uid": "GUA200819QD3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-11T19:43:05.910Z",
+      "timestampLocal": "2026-03-11T19:43:05.910Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.158.77",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "e0a52c887a51bcd9c8e4fc442eb03a7169d550294f1bce9e7a925f2c0c74477a",
+      "documentHash": "0a5afe98ab59ecaf0e80514530a50ac96dbb5a037f7ff77fbf150b5b7d669509",
+      "eventHash": "658541b610fc262279577f58b5d2c2e7c4abd61dc5f8e7955c11c33b369d76d6"
+    },
+    {
+      "eventId": "abd9b5b9-224f-46ea-b70e-b2a78ece2a07",
+      "uid": "GUA200819QD3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-11T19:50:32.746Z",
+      "timestampLocal": "2026-03-11T19:50:32.746Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.192.90",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "658541b610fc262279577f58b5d2c2e7c4abd61dc5f8e7955c11c33b369d76d6",
+      "documentHash": "0a5afe98ab59ecaf0e80514530a50ac96dbb5a037f7ff77fbf150b5b7d669509",
+      "eventHash": "e6b2fd84942dc0af8047399eb9b95de6b50ea5cc77e3061b1766782ffc5d28e4"
+    },
+    {
+      "eventId": "8395ac7b-d21f-4877-b767-0694c011d2a0",
+      "uid": "GUA200819QD3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-11T19:51:44.240Z",
+      "timestampLocal": "2026-03-11T13:51:44.240Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.192.90",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/fe84f984-8d29-489b-b43b-bd445695a231",
+      "previousEventHash": "e6b2fd84942dc0af8047399eb9b95de6b50ea5cc77e3061b1766782ffc5d28e4",
+      "documentHash": "0a6ddfe4a22e459cb3b427e56c7a315c18579bd37d7aab9bde43ada208f98a7e",
+      "signatureHash": "d6e878547c9c566454f494e8276295468510ea215482dd5950e476c4eadc040e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-11T13:51:40.633Z"
+      },
+      "eventHash": "46fae7afad0464d148428c3d4985c8c3afca832acd65ec7c597e56a76e001da9"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-03-11T19:51:44.241Z"
+  }
 }
