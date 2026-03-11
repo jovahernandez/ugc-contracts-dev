@@ -1,19 +1,100 @@
 {
   "uid": "30719016398",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ESTOESREACH",
     "nombre_representante_legal": "REACH",
     "email": "admin@reachlatam.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ESTOESREACH",
-    "nombre_representante_legal": "REACH",
-    "email": "admin@reachlatam.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-11T15:11:04.384Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/30719016398",
+  "signatureMetadata": {
+    "ip": "200.127.15.50",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-11T18:11:07.816Z",
+    "signedAtLocal": "2026-03-11T15:11:07.816Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "84fcfc8d84c75e7f890242fb65062ac7940fa0989459db453a6d1e374b3d7e63"
+  "documentHash": "553457234f2a3db6ec8726f692e07c13ebe4705f8db98b65aee1bf4707ed1f45",
+  "auditTrail": [
+    {
+      "eventId": "fcfaa1b9-98cd-45da-b12f-81d9130dbb4c",
+      "uid": "30719016398",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-11T18:10:41.863Z",
+      "timestampLocal": "2026-03-11T18:10:41.863Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.127.15.50",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=30719016398&nombre_proveedor_razon_social=ESTOESREACH&nombre_representante_legal=REACH&email=admin%40reachlatam.com",
+      "previousEventHash": null,
+      "documentHash": "84fcfc8d84c75e7f890242fb65062ac7940fa0989459db453a6d1e374b3d7e63",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "61fd2f2c4bbefbfe455b449a14f261e924014821e4c086499da852b3063e4485"
+    },
+    {
+      "eventId": "f0e4c82c-287a-4f46-9835-bedced4f01bc",
+      "uid": "30719016398",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-11T18:10:41.863Z",
+      "timestampLocal": "2026-03-11T18:10:41.863Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.127.15.50",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=30719016398&nombre_proveedor_razon_social=ESTOESREACH&nombre_representante_legal=REACH&email=admin%40reachlatam.com",
+      "previousEventHash": "61fd2f2c4bbefbfe455b449a14f261e924014821e4c086499da852b3063e4485",
+      "documentHash": "84fcfc8d84c75e7f890242fb65062ac7940fa0989459db453a6d1e374b3d7e63",
+      "metadata": {
+        "proveedor": "ESTOESREACH",
+        "representante": "REACH"
+      },
+      "eventHash": "6e4df1bf36f5c2459f567d598fe9bbc5335da2e8bed115da3cd463d43da6e643"
+    },
+    {
+      "eventId": "57d42d3b-8af2-464a-92d7-b54f5270d31f",
+      "uid": "30719016398",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-11T18:10:43.217Z",
+      "timestampLocal": "2026-03-11T18:10:43.217Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.127.15.50",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=30719016398&nombre_proveedor_razon_social=ESTOESREACH&nombre_representante_legal=REACH&email=admin%40reachlatam.com",
+      "previousEventHash": "6e4df1bf36f5c2459f567d598fe9bbc5335da2e8bed115da3cd463d43da6e643",
+      "documentHash": "84fcfc8d84c75e7f890242fb65062ac7940fa0989459db453a6d1e374b3d7e63",
+      "eventHash": "8c67869c8d3efa77a6b9fab8fa40a1048e9ed100c749ba556817604f9bbc21ae"
+    },
+    {
+      "eventId": "9de60967-8135-4fb7-90d8-ed974e391688",
+      "uid": "30719016398",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-11T18:11:07.816Z",
+      "timestampLocal": "2026-03-11T15:11:07.816Z",
+      "timezone": "UTC-3",
+      "ipAddress": "200.127.15.50",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/4dddac0b-d504-45f7-82b3-730a394c0c61",
+      "previousEventHash": "8c67869c8d3efa77a6b9fab8fa40a1048e9ed100c749ba556817604f9bbc21ae",
+      "documentHash": "553457234f2a3db6ec8726f692e07c13ebe4705f8db98b65aee1bf4707ed1f45",
+      "signatureHash": "3337476ebd3b75358274144818300ac87f429a499ad595bfbb6336a53f8c6e2b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-11T15:11:04.384Z"
+      },
+      "eventHash": "625fa4cc04a0af34b55594ee0391bafb37040cf533f262a595c848bddab504a9"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-11T18:11:07.817Z"
+  }
 }
