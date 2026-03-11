@@ -1,19 +1,100 @@
 {
   "uid": "VEM200904I48",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "VISION ENT MX",
     "nombre_representante_legal": "Liam Dominik Scholey",
     "email": "sergio.garcia@vision-la.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "VISION ENT MX",
-    "nombre_representante_legal": "Liam Dominik Scholey",
-    "email": "sergio.garcia@vision-la.com"
+  "personaAutorizada": "Sergio Christian Garcia Medina",
+  "signedAt": "2026-03-11T16:44:57.827Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/VEM200904I48",
+  "signatureMetadata": {
+    "ip": "216.250.124.135",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-11T22:45:01.272Z",
+    "signedAtLocal": "2026-03-11T16:45:01.272Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "13e972821800cb1be929ca2d35aa3837fd06ec49b36c37dd5208521530548488"
+  "documentHash": "b1bb0cb819301abbd3d0dc6eaea75c21a05b651dc0d2bd2a6d2102ab3361d566",
+  "auditTrail": [
+    {
+      "eventId": "7f93e450-8dab-48dc-94a1-7dde1f263868",
+      "uid": "VEM200904I48",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-11T22:43:54.108Z",
+      "timestampLocal": "2026-03-11T22:43:54.108Z",
+      "timezone": "UTC+0",
+      "ipAddress": "216.250.124.135",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VEM200904I48&nombre_proveedor_razon_social=VISION+ENT+MX&nombre_representante_legal=Liam+Dominik+Scholey&email=sergio.garcia%40vision-la.com",
+      "previousEventHash": null,
+      "documentHash": "13e972821800cb1be929ca2d35aa3837fd06ec49b36c37dd5208521530548488",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a30bbb57c5657172c4f92c6b01b148cd1f99500584aad60ed9c38351f36bcf85"
+    },
+    {
+      "eventId": "723a1f4c-56cc-4c2a-94e6-fcde06076070",
+      "uid": "VEM200904I48",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-11T22:43:54.109Z",
+      "timestampLocal": "2026-03-11T22:43:54.109Z",
+      "timezone": "UTC+0",
+      "ipAddress": "216.250.124.135",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VEM200904I48&nombre_proveedor_razon_social=VISION+ENT+MX&nombre_representante_legal=Liam+Dominik+Scholey&email=sergio.garcia%40vision-la.com",
+      "previousEventHash": "a30bbb57c5657172c4f92c6b01b148cd1f99500584aad60ed9c38351f36bcf85",
+      "documentHash": "13e972821800cb1be929ca2d35aa3837fd06ec49b36c37dd5208521530548488",
+      "metadata": {
+        "proveedor": "VISION ENT MX",
+        "representante": "Liam Dominik Scholey"
+      },
+      "eventHash": "391b49e025fe5f83dff85db0542c6fa44f02b5ba91b62c8c5b671e920006763b"
+    },
+    {
+      "eventId": "bea01500-94c5-4325-aac8-af9b4b2e41d9",
+      "uid": "VEM200904I48",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-11T22:43:55.171Z",
+      "timestampLocal": "2026-03-11T22:43:55.171Z",
+      "timezone": "UTC+0",
+      "ipAddress": "216.250.124.135",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VEM200904I48&nombre_proveedor_razon_social=VISION+ENT+MX&nombre_representante_legal=Liam+Dominik+Scholey&email=sergio.garcia%40vision-la.com",
+      "previousEventHash": "391b49e025fe5f83dff85db0542c6fa44f02b5ba91b62c8c5b671e920006763b",
+      "documentHash": "13e972821800cb1be929ca2d35aa3837fd06ec49b36c37dd5208521530548488",
+      "eventHash": "7c24d41c22804a213cc9166b0e8a0a1a0b08e92afa86ca7c0c8aa973117bb696"
+    },
+    {
+      "eventId": "e3d51a6c-4d88-4957-9ddd-554b0edba50c",
+      "uid": "VEM200904I48",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-11T22:45:01.272Z",
+      "timestampLocal": "2026-03-11T16:45:01.272Z",
+      "timezone": "UTC-6",
+      "ipAddress": "216.250.124.135",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7d9cb0e6-a024-46c5-a7dd-9462cf65443b",
+      "previousEventHash": "7c24d41c22804a213cc9166b0e8a0a1a0b08e92afa86ca7c0c8aa973117bb696",
+      "documentHash": "b1bb0cb819301abbd3d0dc6eaea75c21a05b651dc0d2bd2a6d2102ab3361d566",
+      "signatureHash": "b5efbd6d6c999a5184300660df27e1595806962f5d3c8ef124bd3069c024a806",
+      "metadata": {
+        "personaAutorizada": "Sergio Christian Garcia Medina",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-11T16:44:57.827Z"
+      },
+      "eventHash": "2db6db31180dbeb7ad7389c62d813af44205ca45cf9acb3b4cd3a2be649751ef"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-11T22:45:01.273Z"
+  }
 }
