@@ -1,19 +1,100 @@
 {
   "uid": "660917140",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "It's Prisma PR, LLC",
     "nombre_representante_legal": "Desiree Arroyo Rivera",
     "email": "desiree@itsprismapr.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "It's Prisma PR, LLC",
-    "nombre_representante_legal": "Desiree Arroyo Rivera",
-    "email": "desiree@itsprismapr.com"
+  "personaAutorizada": "Desiree Arroyo Rivera",
+  "signedAt": "2026-03-12T09:36:25.719Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/660917140",
+  "signatureMetadata": {
+    "ip": "24.41.189.132",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+    "signedAtUtc": "2026-03-12T13:36:29.081Z",
+    "signedAtLocal": "2026-03-12T09:36:29.081Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7aa27a72eab9f189b8506ce7dc83bca85bebdd466f9942fc11305a2f135e5757"
+  "documentHash": "f98e310b5532830ccead1d01e4f417f43bfe760f1c99d057a33af0f3abd958d0",
+  "auditTrail": [
+    {
+      "eventId": "90d0e507-6eb0-4d68-acea-971eb0406689",
+      "uid": "660917140",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-12T13:35:50.605Z",
+      "timestampLocal": "2026-03-12T13:35:50.605Z",
+      "timezone": "UTC+0",
+      "ipAddress": "24.41.189.132",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "7aa27a72eab9f189b8506ce7dc83bca85bebdd466f9942fc11305a2f135e5757",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "75e9f2cc33abc03dba3507b64126cd930863266c079812f5ac571439e3d2f2d0"
+    },
+    {
+      "eventId": "fb1966d0-ae85-4852-9d89-4ec76e8b73d7",
+      "uid": "660917140",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-12T13:35:50.605Z",
+      "timestampLocal": "2026-03-12T13:35:50.605Z",
+      "timezone": "UTC+0",
+      "ipAddress": "24.41.189.132",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "75e9f2cc33abc03dba3507b64126cd930863266c079812f5ac571439e3d2f2d0",
+      "documentHash": "7aa27a72eab9f189b8506ce7dc83bca85bebdd466f9942fc11305a2f135e5757",
+      "metadata": {
+        "proveedor": "It's Prisma PR, LLC",
+        "representante": "Desiree Arroyo Rivera"
+      },
+      "eventHash": "97a302e6755368c033cf1eb6827f6d630788fd1e709232b29a10692275812f37"
+    },
+    {
+      "eventId": "0b6e3168-3130-4122-aba0-dc266cd4a94e",
+      "uid": "660917140",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-12T13:35:51.880Z",
+      "timestampLocal": "2026-03-12T13:35:51.880Z",
+      "timezone": "UTC+0",
+      "ipAddress": "24.41.189.132",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "97a302e6755368c033cf1eb6827f6d630788fd1e709232b29a10692275812f37",
+      "documentHash": "7aa27a72eab9f189b8506ce7dc83bca85bebdd466f9942fc11305a2f135e5757",
+      "eventHash": "f088176a7657fae2618731b6879d6cd943d36492bf936defe11a27ad95a229d1"
+    },
+    {
+      "eventId": "fc4be6f4-169d-497c-a58e-00c31415f342",
+      "uid": "660917140",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-12T13:36:29.081Z",
+      "timestampLocal": "2026-03-12T09:36:29.081Z",
+      "timezone": "UTC-4",
+      "ipAddress": "24.41.189.132",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f088176a7657fae2618731b6879d6cd943d36492bf936defe11a27ad95a229d1",
+      "documentHash": "f98e310b5532830ccead1d01e4f417f43bfe760f1c99d057a33af0f3abd958d0",
+      "signatureHash": "2a9ade6667765852e38e798024de5af6c371ae5787efa8448efc7e984640855a",
+      "metadata": {
+        "personaAutorizada": "Desiree Arroyo Rivera",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-12T09:36:25.719Z"
+      },
+      "eventHash": "1cdfb31d9fcf07e6a4754ce0aa0095c959f0509ce0667d1e9b44b10d0380f609"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-12T13:36:29.082Z"
+  }
 }
