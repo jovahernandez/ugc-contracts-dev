@@ -1,19 +1,100 @@
 {
   "uid": "MAM080124U60",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MONTERO & MARTINEZ ABOGADOS SC",
     "nombre_representante_legal": "FRANCISCO XAVIER MARTINEZ RODRIGUEZ",
     "email": "jimeneza@abogadosmm.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MONTERO & MARTINEZ ABOGADOS SC",
-    "nombre_representante_legal": "FRANCISCO XAVIER MARTINEZ RODRIGUEZ",
-    "email": "jimeneza@abogadosmm.com.mx"
+  "personaAutorizada": "ANDREA JIMENEZ LOPEZ",
+  "signedAt": "2026-03-12T15:57:49.942Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MAM080124U60",
+  "signatureMetadata": {
+    "ip": "187.170.39.133",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+    "signedAtUtc": "2026-03-12T21:57:53.458Z",
+    "signedAtLocal": "2026-03-12T15:57:53.458Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7d8fe952a8444b5a0f078749b842c2142c0f412bc22beb17754953748e427b95"
+  "documentHash": "2193f2cb3e113e75da25fed76a7528121ab831f825d9f349b501447779cd7c61",
+  "auditTrail": [
+    {
+      "eventId": "fd12f40d-c0c8-4360-a8fc-3a408f99d432",
+      "uid": "MAM080124U60",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-12T21:43:11.002Z",
+      "timestampLocal": "2026-03-12T21:43:11.002Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.39.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAM080124U60&nombre_proveedor_razon_social=MONTERO+%26+MARTINEZ+ABOGADOS+SC&nombre_representante_legal=FRANCISCO+XAVIER+MARTINEZ+RODRIGUEZ&email=jimeneza%40abogadosmm.com.mx",
+      "previousEventHash": null,
+      "documentHash": "7d8fe952a8444b5a0f078749b842c2142c0f412bc22beb17754953748e427b95",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0839c7096352610bd9ca36d955c01ff6721ba5846784eff6e3946709b7648094"
+    },
+    {
+      "eventId": "eacaf2ec-b3dd-42b0-b622-f0556f68791f",
+      "uid": "MAM080124U60",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-12T21:43:11.002Z",
+      "timestampLocal": "2026-03-12T21:43:11.002Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.39.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAM080124U60&nombre_proveedor_razon_social=MONTERO+%26+MARTINEZ+ABOGADOS+SC&nombre_representante_legal=FRANCISCO+XAVIER+MARTINEZ+RODRIGUEZ&email=jimeneza%40abogadosmm.com.mx",
+      "previousEventHash": "0839c7096352610bd9ca36d955c01ff6721ba5846784eff6e3946709b7648094",
+      "documentHash": "7d8fe952a8444b5a0f078749b842c2142c0f412bc22beb17754953748e427b95",
+      "metadata": {
+        "proveedor": "MONTERO & MARTINEZ ABOGADOS SC",
+        "representante": "FRANCISCO XAVIER MARTINEZ RODRIGUEZ"
+      },
+      "eventHash": "98e7a50e755832a96e27427f1c2443396428c6af1cba04a8c707e93ee0c734cb"
+    },
+    {
+      "eventId": "e3fc03c2-c87b-4203-b8d9-bb0bfa60d33c",
+      "uid": "MAM080124U60",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-12T21:43:11.956Z",
+      "timestampLocal": "2026-03-12T21:43:11.956Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.39.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAM080124U60&nombre_proveedor_razon_social=MONTERO+%26+MARTINEZ+ABOGADOS+SC&nombre_representante_legal=FRANCISCO+XAVIER+MARTINEZ+RODRIGUEZ&email=jimeneza%40abogadosmm.com.mx",
+      "previousEventHash": "98e7a50e755832a96e27427f1c2443396428c6af1cba04a8c707e93ee0c734cb",
+      "documentHash": "7d8fe952a8444b5a0f078749b842c2142c0f412bc22beb17754953748e427b95",
+      "eventHash": "2e01ede19b1e72a1c8a8b4f53fce4d9f2d8f3c102bf80784a27e909b04ef93bf"
+    },
+    {
+      "eventId": "23de7a28-7c33-4a2e-ad3b-430d3b3d0054",
+      "uid": "MAM080124U60",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-12T21:57:53.458Z",
+      "timestampLocal": "2026-03-12T15:57:53.458Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.170.39.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/eefd81b0-43fc-4550-8638-713c7b0dea74",
+      "previousEventHash": "2e01ede19b1e72a1c8a8b4f53fce4d9f2d8f3c102bf80784a27e909b04ef93bf",
+      "documentHash": "2193f2cb3e113e75da25fed76a7528121ab831f825d9f349b501447779cd7c61",
+      "signatureHash": "1035c6f4b6d19540755ad0f8cd78c8e36754a3c130dd43b7e199916759ce66ae",
+      "metadata": {
+        "personaAutorizada": "ANDREA JIMENEZ LOPEZ",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-12T15:57:49.942Z"
+      },
+      "eventHash": "06c00085c5aa2c5bcfc6f999500df32288d2d25ee06e451c5aba9feb90a65204"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-12T21:57:53.459Z"
+  }
 }
