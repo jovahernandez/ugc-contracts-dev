@@ -1,19 +1,100 @@
 {
   "uid": "ACO161114357",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ATOMOS DE COBRE SC",
     "nombre_representante_legal": "Diana Rebeca Gonzalez fuentes",
     "email": "carmen@atomicomx.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ATOMOS DE COBRE SC",
-    "nombre_representante_legal": "Diana Rebeca Gonzalez fuentes",
-    "email": "carmen@atomicomx.com"
+  "personaAutorizada": "Carmen Peregrina",
+  "signedAt": "2026-03-11T21:01:56.182Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ACO161114357",
+  "signatureMetadata": {
+    "ip": "201.124.100.55",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-12T03:01:59.559Z",
+    "signedAtLocal": "2026-03-11T21:01:59.559Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3642e3c2f37fb48f163cb07cadfd44d7d8ad7f9277d32825efffca642775d310"
+  "documentHash": "fe07e9ea7304520e464a4de9f919f6e1aca46aff208e6c3b8206f6b14efa99ad",
+  "auditTrail": [
+    {
+      "eventId": "0e233744-1ee2-4e10-9646-5854676f0cf0",
+      "uid": "ACO161114357",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-12T02:58:16.843Z",
+      "timestampLocal": "2026-03-12T02:58:16.843Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.100.55",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ACO161114357&nombre_proveedor_razon_social=ATOMOS+DE+COBRE+SC&nombre_representante_legal=Diana+Rebeca+Gonzalez+fuentes&email=carmen%40atomicomx.com",
+      "previousEventHash": null,
+      "documentHash": "3642e3c2f37fb48f163cb07cadfd44d7d8ad7f9277d32825efffca642775d310",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "af586b1a04c9cb3d8b29655dff3a6f97120bb37492422bf2e44766d2c871aaf8"
+    },
+    {
+      "eventId": "88706921-381a-4926-a48d-51e2cd0aa491",
+      "uid": "ACO161114357",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-12T02:58:16.843Z",
+      "timestampLocal": "2026-03-12T02:58:16.843Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.100.55",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ACO161114357&nombre_proveedor_razon_social=ATOMOS+DE+COBRE+SC&nombre_representante_legal=Diana+Rebeca+Gonzalez+fuentes&email=carmen%40atomicomx.com",
+      "previousEventHash": "af586b1a04c9cb3d8b29655dff3a6f97120bb37492422bf2e44766d2c871aaf8",
+      "documentHash": "3642e3c2f37fb48f163cb07cadfd44d7d8ad7f9277d32825efffca642775d310",
+      "metadata": {
+        "proveedor": "ATOMOS DE COBRE SC",
+        "representante": "Diana Rebeca Gonzalez fuentes"
+      },
+      "eventHash": "1260eeb336f1fbe7872b8640de6c923b34a979f72401f66d1259f6c2fb2d8704"
+    },
+    {
+      "eventId": "de927708-308c-4626-afbd-218633915059",
+      "uid": "ACO161114357",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-12T02:58:17.917Z",
+      "timestampLocal": "2026-03-12T02:58:17.917Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.100.55",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ACO161114357&nombre_proveedor_razon_social=ATOMOS+DE+COBRE+SC&nombre_representante_legal=Diana+Rebeca+Gonzalez+fuentes&email=carmen%40atomicomx.com",
+      "previousEventHash": "1260eeb336f1fbe7872b8640de6c923b34a979f72401f66d1259f6c2fb2d8704",
+      "documentHash": "3642e3c2f37fb48f163cb07cadfd44d7d8ad7f9277d32825efffca642775d310",
+      "eventHash": "bc8963934a20f7b77fcc95c09b73713bb9bc88e4cade505a3a9a4bd6bdcd6d7c"
+    },
+    {
+      "eventId": "b732e3fa-0f0e-4ac9-a50d-8ad3ab26c285",
+      "uid": "ACO161114357",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-12T03:01:59.559Z",
+      "timestampLocal": "2026-03-11T21:01:59.559Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.124.100.55",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/3c3d97d2-5c2a-4359-8c41-113077e10912",
+      "previousEventHash": "bc8963934a20f7b77fcc95c09b73713bb9bc88e4cade505a3a9a4bd6bdcd6d7c",
+      "documentHash": "fe07e9ea7304520e464a4de9f919f6e1aca46aff208e6c3b8206f6b14efa99ad",
+      "signatureHash": "e847a52c529d9bacaa33a3af1980da41150c0ed3d8eab6490d45813c819e3d38",
+      "metadata": {
+        "personaAutorizada": "Carmen Peregrina",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-11T21:01:56.182Z"
+      },
+      "eventHash": "e19570cdf3b499c7c390a841c634729bba9334873afaea59f3e2c0c8efa279d0"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-12T03:01:59.559Z"
+  }
 }
