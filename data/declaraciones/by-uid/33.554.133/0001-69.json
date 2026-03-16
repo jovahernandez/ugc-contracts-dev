@@ -1,19 +1,100 @@
 {
   "uid": "33.554.133/0001-69",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "CHANGO DIGITAL LTDA",
     "nombre_representante_legal": "Vinicius",
     "email": "michelsilva@changodigital.com.br"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CHANGO DIGITAL LTDA",
-    "nombre_representante_legal": "Vinicius",
-    "email": "michelsilva@changodigital.com.br"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-16T16:42:43.342Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/33.554.133%2F0001-69",
+  "signatureMetadata": {
+    "ip": "191.205.194.119",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-16T19:42:46.861Z",
+    "signedAtLocal": "2026-03-16T16:42:46.861Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "62972a866dbe7be02c81a252d6b5301d13dc065c9d19922448f854b4398427c7"
+  "documentHash": "01fa089d0c2310a1523f233cb03a754660417f3fcef123b6262353882d85922c",
+  "auditTrail": [
+    {
+      "eventId": "735afa73-7948-40e0-b258-a566701cc3c6",
+      "uid": "33.554.133/0001-69",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-16T19:42:12.845Z",
+      "timestampLocal": "2026-03-16T19:42:12.845Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.205.194.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=33.554.133%2F0001-69&nombre_proveedor_razon_social=CHANGO+DIGITAL+LTDA&nombre_representante_legal=Vinicius+&email=michelsilva%40changodigital.com.br",
+      "previousEventHash": null,
+      "documentHash": "62972a866dbe7be02c81a252d6b5301d13dc065c9d19922448f854b4398427c7",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "c8cdd00020c2bec8a075a249c383eb355f6210b08c7a33ed85d070a50975b536"
+    },
+    {
+      "eventId": "aef31725-f20a-4eac-9cee-5bad209ade70",
+      "uid": "33.554.133/0001-69",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-16T19:42:12.845Z",
+      "timestampLocal": "2026-03-16T19:42:12.845Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.205.194.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=33.554.133%2F0001-69&nombre_proveedor_razon_social=CHANGO+DIGITAL+LTDA&nombre_representante_legal=Vinicius+&email=michelsilva%40changodigital.com.br",
+      "previousEventHash": "c8cdd00020c2bec8a075a249c383eb355f6210b08c7a33ed85d070a50975b536",
+      "documentHash": "62972a866dbe7be02c81a252d6b5301d13dc065c9d19922448f854b4398427c7",
+      "metadata": {
+        "proveedor": "CHANGO DIGITAL LTDA",
+        "representante": "Vinicius"
+      },
+      "eventHash": "62f951c3390e276fee085b68500368063d87d926591856b43ca3321dad6230e1"
+    },
+    {
+      "eventId": "6eac801c-9e9c-4ea8-9670-b2f33735c2ad",
+      "uid": "33.554.133/0001-69",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-16T19:42:14.193Z",
+      "timestampLocal": "2026-03-16T19:42:14.193Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.205.194.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=33.554.133%2F0001-69&nombre_proveedor_razon_social=CHANGO+DIGITAL+LTDA&nombre_representante_legal=Vinicius+&email=michelsilva%40changodigital.com.br",
+      "previousEventHash": "62f951c3390e276fee085b68500368063d87d926591856b43ca3321dad6230e1",
+      "documentHash": "62972a866dbe7be02c81a252d6b5301d13dc065c9d19922448f854b4398427c7",
+      "eventHash": "3a67d1639f65623e870a7e94facbd5e61c3fe1a2879e4d8136fc25e14869ba60"
+    },
+    {
+      "eventId": "0dd7449f-858e-43f3-b91c-cd9afdb02612",
+      "uid": "33.554.133/0001-69",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-16T19:42:46.861Z",
+      "timestampLocal": "2026-03-16T16:42:46.861Z",
+      "timezone": "UTC-3",
+      "ipAddress": "191.205.194.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/72e824eb-1054-4875-bdb9-9d42e110a8ee",
+      "previousEventHash": "3a67d1639f65623e870a7e94facbd5e61c3fe1a2879e4d8136fc25e14869ba60",
+      "documentHash": "01fa089d0c2310a1523f233cb03a754660417f3fcef123b6262353882d85922c",
+      "signatureHash": "d80891f6832c657de9d3ea94d0a9f043a17195cd0d69d28f490dd09d01643273",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-16T16:42:43.342Z"
+      },
+      "eventHash": "e35488e7e069a9dc32a1b9e539f32d2ba41aafac4e9180fab6c005226af19e5d"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-16T19:42:46.862Z"
+  }
 }
