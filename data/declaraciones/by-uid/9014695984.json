@@ -1,19 +1,115 @@
 {
   "uid": "9014695984",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MATCH MANAGEMENT SAS",
     "nombre_representante_legal": "CESAR IVAN GARCIA URQUIJO",
     "email": "salome@matchmgmt.co"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MATCH MANAGEMENT SAS",
-    "nombre_representante_legal": "CESAR IVAN GARCIA URQUIJO",
-    "email": "salome@matchmgmt.co"
+  "personaAutorizada": "CESAR IVAN GARCIA URQUIJO",
+  "signedAt": "2026-03-16T17:23:45.766Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/9014695984",
+  "signatureMetadata": {
+    "ip": "181.48.241.5",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-16T22:23:49.166Z",
+    "signedAtLocal": "2026-03-16T17:23:49.166Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f1e96252c607e4271e0b46dd0065caabbb0e3190d066ea65692a3f727478ad5c"
+  "documentHash": "83b4c78ddb5099d3b39e7bd58b193a2a5ee200206868b37be39c9109e051f141",
+  "auditTrail": [
+    {
+      "eventId": "fa3a0178-b6af-44b4-a6f3-70411febe531",
+      "uid": "9014695984",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-16T21:31:15.022Z",
+      "timestampLocal": "2026-03-16T21:31:15.022Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.156.147.78",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=9014695984&nombre_proveedor_razon_social=MATCH+MANAGEMENT+SAS&nombre_representante_legal=CESAR+IVAN+GARCIA+URQUIJO&email=salome%40matchmgmt.co",
+      "previousEventHash": null,
+      "documentHash": "f1e96252c607e4271e0b46dd0065caabbb0e3190d066ea65692a3f727478ad5c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "087fd91d0b7101b8e9e6dc371c2af59e08ec4ad1388e79e67d1f1ce93296d317"
+    },
+    {
+      "eventId": "6be885cf-8121-4032-a4a7-baff8a370be6",
+      "uid": "9014695984",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-16T21:31:15.023Z",
+      "timestampLocal": "2026-03-16T21:31:15.023Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.156.147.78",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=9014695984&nombre_proveedor_razon_social=MATCH+MANAGEMENT+SAS&nombre_representante_legal=CESAR+IVAN+GARCIA+URQUIJO&email=salome%40matchmgmt.co",
+      "previousEventHash": "087fd91d0b7101b8e9e6dc371c2af59e08ec4ad1388e79e67d1f1ce93296d317",
+      "documentHash": "f1e96252c607e4271e0b46dd0065caabbb0e3190d066ea65692a3f727478ad5c",
+      "metadata": {
+        "proveedor": "MATCH MANAGEMENT SAS",
+        "representante": "CESAR IVAN GARCIA URQUIJO"
+      },
+      "eventHash": "144ab8d24e3db96e20e3989f651e4053fc776a0cf4446df89437213dc5a2df95"
+    },
+    {
+      "eventId": "1c004601-4519-4cda-8d22-cfbfdad24739",
+      "uid": "9014695984",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-16T21:31:16.043Z",
+      "timestampLocal": "2026-03-16T21:31:16.043Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.156.147.78",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=9014695984&nombre_proveedor_razon_social=MATCH+MANAGEMENT+SAS&nombre_representante_legal=CESAR+IVAN+GARCIA+URQUIJO&email=salome%40matchmgmt.co",
+      "previousEventHash": "144ab8d24e3db96e20e3989f651e4053fc776a0cf4446df89437213dc5a2df95",
+      "documentHash": "f1e96252c607e4271e0b46dd0065caabbb0e3190d066ea65692a3f727478ad5c",
+      "eventHash": "cf0398ccfad5f43da779d413a05475c09ba121cf05511021fb6449dddbcffc14"
+    },
+    {
+      "eventId": "646599df-17f0-4fb2-90a9-530a01ce2bb4",
+      "uid": "9014695984",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-16T21:50:36.072Z",
+      "timestampLocal": "2026-03-16T21:50:36.072Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.156.147.78",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "cf0398ccfad5f43da779d413a05475c09ba121cf05511021fb6449dddbcffc14",
+      "documentHash": "f1e96252c607e4271e0b46dd0065caabbb0e3190d066ea65692a3f727478ad5c",
+      "eventHash": "8417b77fce316098fed57ee5750800f83c67aa3aa37cf1e6a9b01b1df11b7a5d"
+    },
+    {
+      "eventId": "8a024f91-e534-4e59-a1cd-cbc96f797974",
+      "uid": "9014695984",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-16T22:23:49.166Z",
+      "timestampLocal": "2026-03-16T17:23:49.166Z",
+      "timezone": "UTC-5",
+      "ipAddress": "181.48.241.5",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/893d33fd-26c0-475c-a7cd-08477d0b3b60",
+      "previousEventHash": "8417b77fce316098fed57ee5750800f83c67aa3aa37cf1e6a9b01b1df11b7a5d",
+      "documentHash": "83b4c78ddb5099d3b39e7bd58b193a2a5ee200206868b37be39c9109e051f141",
+      "signatureHash": "3a735ea5c1428cbb088efe58051d1cab406de5332d6df5c3e6b365ef3761874d",
+      "metadata": {
+        "personaAutorizada": "CESAR IVAN GARCIA URQUIJO",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-16T17:23:45.766Z"
+      },
+      "eventHash": "7fd45d934496ae5234755120cf035c3ffd1e5526e4bebad79afe3d6e4aac59cf"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-03-16T22:23:49.166Z"
+  }
 }
