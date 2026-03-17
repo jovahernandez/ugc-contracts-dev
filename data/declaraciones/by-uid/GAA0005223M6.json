@@ -1,19 +1,100 @@
 {
   "uid": "GAA0005223M6",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GARCIA ALCOCER ABOGADOS",
     "nombre_representante_legal": "JOSE ANTONIO GARCIA LUQUE",
     "email": "krojas@garciaalcocer.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "GARCIA ALCOCER ABOGADOS",
-    "nombre_representante_legal": "JOSE ANTONIO GARCIA LUQUE",
-    "email": "krojas@garciaalcocer.com"
+  "personaAutorizada": "MARIA KARINA ROJAS HERNANDEZ",
+  "signedAt": "2026-03-17T14:30:38.005Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GAA0005223M6",
+  "signatureMetadata": {
+    "ip": "200.66.78.213",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-17T20:30:41.432Z",
+    "signedAtLocal": "2026-03-17T14:30:41.432Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f43991d9ce14db5a69a30f2522a34eb740ccea4ff587bc0abeb39884c0431d79"
+  "documentHash": "d351df5511036335bca8d3f776a4bbceccc8fae2f1659207c94182fe6b45277c",
+  "auditTrail": [
+    {
+      "eventId": "19bf29fe-8405-40da-8674-a0f5cf53dc52",
+      "uid": "GAA0005223M6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-17T20:29:49.398Z",
+      "timestampLocal": "2026-03-17T20:29:49.398Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.66.78.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAA0005223M6&nombre_proveedor_razon_social=GARCIA+ALCOCER+ABOGADOS&nombre_representante_legal=JOSE+ANTONIO+GARCIA+LUQUE&email=krojas%40garciaalcocer.com",
+      "previousEventHash": null,
+      "documentHash": "f43991d9ce14db5a69a30f2522a34eb740ccea4ff587bc0abeb39884c0431d79",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "84a7685f793e1aac853932023cb662face4cf6ea364593241ad1c8f1501502b5"
+    },
+    {
+      "eventId": "4fe52105-a5d5-4b34-a480-5f0fa9b0e5f4",
+      "uid": "GAA0005223M6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-17T20:29:49.399Z",
+      "timestampLocal": "2026-03-17T20:29:49.399Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.66.78.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAA0005223M6&nombre_proveedor_razon_social=GARCIA+ALCOCER+ABOGADOS&nombre_representante_legal=JOSE+ANTONIO+GARCIA+LUQUE&email=krojas%40garciaalcocer.com",
+      "previousEventHash": "84a7685f793e1aac853932023cb662face4cf6ea364593241ad1c8f1501502b5",
+      "documentHash": "f43991d9ce14db5a69a30f2522a34eb740ccea4ff587bc0abeb39884c0431d79",
+      "metadata": {
+        "proveedor": "GARCIA ALCOCER ABOGADOS",
+        "representante": "JOSE ANTONIO GARCIA LUQUE"
+      },
+      "eventHash": "97db65dfbf9df6b1ac606c892a4bc5f1182f7f9d8772116c9678acd248b28389"
+    },
+    {
+      "eventId": "10abe939-47dc-47f8-b51e-0a5de2454dfb",
+      "uid": "GAA0005223M6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-17T20:29:50.383Z",
+      "timestampLocal": "2026-03-17T20:29:50.383Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.66.78.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAA0005223M6&nombre_proveedor_razon_social=GARCIA+ALCOCER+ABOGADOS&nombre_representante_legal=JOSE+ANTONIO+GARCIA+LUQUE&email=krojas%40garciaalcocer.com",
+      "previousEventHash": "97db65dfbf9df6b1ac606c892a4bc5f1182f7f9d8772116c9678acd248b28389",
+      "documentHash": "f43991d9ce14db5a69a30f2522a34eb740ccea4ff587bc0abeb39884c0431d79",
+      "eventHash": "d2a43f8fb1427afe08449c5d8dfc3b34473b0be2baf9445d596d6b0a51ce1dfd"
+    },
+    {
+      "eventId": "3feb7776-2f30-494e-b7ec-61539b97b650",
+      "uid": "GAA0005223M6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-17T20:30:41.432Z",
+      "timestampLocal": "2026-03-17T14:30:41.432Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.66.78.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7db06437-c713-4a31-aeb8-390b006bcd77",
+      "previousEventHash": "d2a43f8fb1427afe08449c5d8dfc3b34473b0be2baf9445d596d6b0a51ce1dfd",
+      "documentHash": "d351df5511036335bca8d3f776a4bbceccc8fae2f1659207c94182fe6b45277c",
+      "signatureHash": "b359cd833af657a5f21973fbe8016fc58c1385d252b9ff6e42285dad70c90396",
+      "metadata": {
+        "personaAutorizada": "MARIA KARINA ROJAS HERNANDEZ",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-17T14:30:38.005Z"
+      },
+      "eventHash": "edba369a38ad0789d6d30433a91e17ca936a4842a6498ea688ece3dcac47a875"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-17T20:30:41.432Z"
+  }
 }
