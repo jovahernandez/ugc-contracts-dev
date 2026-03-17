@@ -1,19 +1,100 @@
 {
   "uid": "CAAA851108S66",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Antonio Castillo Argueta",
     "nombre_representante_legal": "Antonio Castillo Argueta",
     "email": "antonio@art8.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Antonio Castillo Argueta",
-    "nombre_representante_legal": "Antonio Castillo Argueta",
-    "email": "antonio@art8.mx"
+  "personaAutorizada": "ANTONIO CASTILLO ARGUETA",
+  "signedAt": "2026-03-17T13:45:11.952Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CAAA851108S66",
+  "signatureMetadata": {
+    "ip": "189.217.88.187",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-17T19:45:15.378Z",
+    "signedAtLocal": "2026-03-17T13:45:15.378Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4555c690b75e64b0650e65a4dbca0ea3ee80bf855a3aa1299f5d555bf17e3667"
+  "documentHash": "8478292a88b55230c3757ca99acb746e4b1e64d3a3c2b28841adacfb19a00a27",
+  "auditTrail": [
+    {
+      "eventId": "1b80258a-5eef-4b57-ae93-a78adbf6a572",
+      "uid": "CAAA851108S66",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-17T19:44:11.764Z",
+      "timestampLocal": "2026-03-17T19:44:11.764Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.88.187",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAAA851108S66&nombre_proveedor_razon_social=Antonio+Castillo+Argueta+&nombre_representante_legal=Antonio+Castillo+Argueta&email=antonio%40art8.mx",
+      "previousEventHash": null,
+      "documentHash": "4555c690b75e64b0650e65a4dbca0ea3ee80bf855a3aa1299f5d555bf17e3667",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "87c9b0cc96bfc4dadc6ce96caf2823fd452e63449f5bf1cac0784bc61f0d3bf1"
+    },
+    {
+      "eventId": "eb7a8ba4-bede-40ff-b8ba-fb3ce315fb07",
+      "uid": "CAAA851108S66",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-17T19:44:11.764Z",
+      "timestampLocal": "2026-03-17T19:44:11.764Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.88.187",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAAA851108S66&nombre_proveedor_razon_social=Antonio+Castillo+Argueta+&nombre_representante_legal=Antonio+Castillo+Argueta&email=antonio%40art8.mx",
+      "previousEventHash": "87c9b0cc96bfc4dadc6ce96caf2823fd452e63449f5bf1cac0784bc61f0d3bf1",
+      "documentHash": "4555c690b75e64b0650e65a4dbca0ea3ee80bf855a3aa1299f5d555bf17e3667",
+      "metadata": {
+        "proveedor": "Antonio Castillo Argueta",
+        "representante": "Antonio Castillo Argueta"
+      },
+      "eventHash": "c6faf96c4e4e06f061825424f8b27ab84a6becd8d6ff80e8b872dc3074098165"
+    },
+    {
+      "eventId": "bd7f6eee-a35f-463e-afe2-34d860bd6b13",
+      "uid": "CAAA851108S66",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-17T19:44:12.940Z",
+      "timestampLocal": "2026-03-17T19:44:12.940Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.88.187",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAAA851108S66&nombre_proveedor_razon_social=Antonio+Castillo+Argueta+&nombre_representante_legal=Antonio+Castillo+Argueta&email=antonio%40art8.mx",
+      "previousEventHash": "c6faf96c4e4e06f061825424f8b27ab84a6becd8d6ff80e8b872dc3074098165",
+      "documentHash": "4555c690b75e64b0650e65a4dbca0ea3ee80bf855a3aa1299f5d555bf17e3667",
+      "eventHash": "9c68dfbc0824f416d00db180128fefb743e0cdb923afce2a62fbbc6e87c589a8"
+    },
+    {
+      "eventId": "58a5f19a-5e7a-42b3-9a47-624976f0396d",
+      "uid": "CAAA851108S66",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-17T19:45:15.378Z",
+      "timestampLocal": "2026-03-17T13:45:15.378Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.88.187",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c99c62d7-b4a4-4897-9728-47b2a05c9caf",
+      "previousEventHash": "9c68dfbc0824f416d00db180128fefb743e0cdb923afce2a62fbbc6e87c589a8",
+      "documentHash": "8478292a88b55230c3757ca99acb746e4b1e64d3a3c2b28841adacfb19a00a27",
+      "signatureHash": "f018873983557213d7ad670eccb4f2e68ba9e4f6d803c11815fadb0578293ca5",
+      "metadata": {
+        "personaAutorizada": "ANTONIO CASTILLO ARGUETA",
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-17T13:45:11.952Z"
+      },
+      "eventHash": "949cf3383901477454e9729ad6b5152f448b5f2ff427b6b3a306e5b07727ec31"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-17T19:45:15.379Z"
+  }
 }
