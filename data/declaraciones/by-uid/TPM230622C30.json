@@ -1,19 +1,100 @@
 {
   "uid": "TPM230622C30",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "INNOVADOR PUBLICITARIO DOCE CINCO",
     "nombre_representante_legal": "Salvador Martinez Valladolid",
     "email": "publicitariodoce5@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "INNOVADOR PUBLICITARIO DOCE CINCO",
-    "nombre_representante_legal": "Salvador Martinez Valladolid",
-    "email": "publicitariodoce5@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-18T10:35:12.974Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TPM230622C30",
+  "signatureMetadata": {
+    "ip": "148.230.241.153",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-18T16:35:16.331Z",
+    "signedAtLocal": "2026-03-18T10:35:16.331Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ec2dd83cd3b763bf933a32c2f8c67b1043a35e787b5029fa1b0727a131899e24"
+  "documentHash": "aacde5c6df74f2d55f4da193e4f96ad0206ec60f2737d7b3b70105f7ed0fed5f",
+  "auditTrail": [
+    {
+      "eventId": "4eb7d12f-9d8b-4541-82b4-8579c459ec55",
+      "uid": "TPM230622C30",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-18T16:27:03.886Z",
+      "timestampLocal": "2026-03-18T16:27:03.886Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.230.241.153",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TPM230622C30&nombre_proveedor_razon_social=INNOVADOR+PUBLICITARIO+DOCE+CINCO&nombre_representante_legal=Salvador+Martinez+Valladolid&email=publicitariodoce5%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "ec2dd83cd3b763bf933a32c2f8c67b1043a35e787b5029fa1b0727a131899e24",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d0eb7881973ed1f250655efde2938d4d34b29b07b1f51aaa7692849461918a77"
+    },
+    {
+      "eventId": "5a3f2fae-dfc0-4b0a-878d-c15e95ca2a32",
+      "uid": "TPM230622C30",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-18T16:27:03.886Z",
+      "timestampLocal": "2026-03-18T16:27:03.886Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.230.241.153",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TPM230622C30&nombre_proveedor_razon_social=INNOVADOR+PUBLICITARIO+DOCE+CINCO&nombre_representante_legal=Salvador+Martinez+Valladolid&email=publicitariodoce5%40gmail.com",
+      "previousEventHash": "d0eb7881973ed1f250655efde2938d4d34b29b07b1f51aaa7692849461918a77",
+      "documentHash": "ec2dd83cd3b763bf933a32c2f8c67b1043a35e787b5029fa1b0727a131899e24",
+      "metadata": {
+        "proveedor": "INNOVADOR PUBLICITARIO DOCE CINCO",
+        "representante": "Salvador Martinez Valladolid"
+      },
+      "eventHash": "b3c6fd3ab3640069428d0aecffcaa72f1dc80dfe687d3593d22bcf7663d12c16"
+    },
+    {
+      "eventId": "2c2cfe5b-c0ee-4dd5-a7c7-f96e46a102df",
+      "uid": "TPM230622C30",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-18T16:27:05.519Z",
+      "timestampLocal": "2026-03-18T16:27:05.519Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.230.241.153",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TPM230622C30&nombre_proveedor_razon_social=INNOVADOR+PUBLICITARIO+DOCE+CINCO&nombre_representante_legal=Salvador+Martinez+Valladolid&email=publicitariodoce5%40gmail.com",
+      "previousEventHash": "b3c6fd3ab3640069428d0aecffcaa72f1dc80dfe687d3593d22bcf7663d12c16",
+      "documentHash": "ec2dd83cd3b763bf933a32c2f8c67b1043a35e787b5029fa1b0727a131899e24",
+      "eventHash": "c5af94ae685b409019cd17cb3659c099963c8895461698a0615fc96dd1c4080a"
+    },
+    {
+      "eventId": "c7ceb3cd-c816-4d9b-95ad-4c0286a1636b",
+      "uid": "TPM230622C30",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-18T16:35:16.331Z",
+      "timestampLocal": "2026-03-18T10:35:16.331Z",
+      "timezone": "UTC-6",
+      "ipAddress": "148.230.241.153",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c4b97d52-713c-4b08-8f8e-2abf6bb9c23c",
+      "previousEventHash": "c5af94ae685b409019cd17cb3659c099963c8895461698a0615fc96dd1c4080a",
+      "documentHash": "aacde5c6df74f2d55f4da193e4f96ad0206ec60f2737d7b3b70105f7ed0fed5f",
+      "signatureHash": "7f646c8803d77cd1f3205b3561724e974ddbce7b6f23d7b9a846bfec9e6b3d5f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-18T10:35:12.974Z"
+      },
+      "eventHash": "3dabdd6c0a4a5477cbf6bd624607ba17d64839282c6ff44a59e70ad61d4ee980"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-18T16:35:16.331Z"
+  }
 }
