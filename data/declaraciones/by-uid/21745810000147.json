@@ -1,19 +1,145 @@
 {
   "uid": "21745810000147",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "lr contents eventos ltda",
     "nombre_representante_legal": "Antonio alex costa",
     "email": "fiscal@lrcontents.com.br"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "lr contents eventos ltda",
-    "nombre_representante_legal": "Antonio alex costa",
-    "email": "fiscal@lrcontents.com.br"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-19T13:20:09.498Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/21745810000147",
+  "signatureMetadata": {
+    "ip": "179.244.1.185",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-19T16:20:12.963Z",
+    "signedAtLocal": "2026-03-19T13:20:12.963Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "313de885b54a811e4164fdd7a68f1cba26a19eb1c6dc5436b60ab55e6f1b21bf"
+  "documentHash": "83064b8f03ace272b0ad3f6ba150e3b3bd342412ac7e4444569b93b1d78890f3",
+  "auditTrail": [
+    {
+      "eventId": "4e090fdc-9cd2-489a-ae56-e7721678ea88",
+      "uid": "21745810000147",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-19T15:01:59.739Z",
+      "timestampLocal": "2026-03-19T15:01:59.739Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.244.1.185",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=21745810000147&nombre_proveedor_razon_social=lr+contents+eventos+ltda+&nombre_representante_legal=Antonio+alex+costa+&email=fiscal%40lrcontents.com.br",
+      "previousEventHash": null,
+      "documentHash": "313de885b54a811e4164fdd7a68f1cba26a19eb1c6dc5436b60ab55e6f1b21bf",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "2d76e932b22fda370ab25a0c84b1b6674a2e86339fd482d439b7d777df118cac"
+    },
+    {
+      "eventId": "a1e61fa9-3e91-4045-9b2b-a08dfdce0dae",
+      "uid": "21745810000147",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-19T15:01:59.739Z",
+      "timestampLocal": "2026-03-19T15:01:59.739Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.244.1.185",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=21745810000147&nombre_proveedor_razon_social=lr+contents+eventos+ltda+&nombre_representante_legal=Antonio+alex+costa+&email=fiscal%40lrcontents.com.br",
+      "previousEventHash": "2d76e932b22fda370ab25a0c84b1b6674a2e86339fd482d439b7d777df118cac",
+      "documentHash": "313de885b54a811e4164fdd7a68f1cba26a19eb1c6dc5436b60ab55e6f1b21bf",
+      "metadata": {
+        "proveedor": "lr contents eventos ltda",
+        "representante": "Antonio alex costa"
+      },
+      "eventHash": "5de92cbede7065672e72ddaa96d66dddbf9c71a0a6931c940db985071439383b"
+    },
+    {
+      "eventId": "01f85808-18b0-48da-b97b-b13cde1f1cc2",
+      "uid": "21745810000147",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-19T15:02:01.073Z",
+      "timestampLocal": "2026-03-19T15:02:01.073Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.244.1.185",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=21745810000147&nombre_proveedor_razon_social=lr+contents+eventos+ltda+&nombre_representante_legal=Antonio+alex+costa+&email=fiscal%40lrcontents.com.br",
+      "previousEventHash": "5de92cbede7065672e72ddaa96d66dddbf9c71a0a6931c940db985071439383b",
+      "documentHash": "313de885b54a811e4164fdd7a68f1cba26a19eb1c6dc5436b60ab55e6f1b21bf",
+      "eventHash": "fff2fa89aa563a114b83b70c6933b647b0d63e9f5ed59579c01dadfabbf44e20"
+    },
+    {
+      "eventId": "56aec37e-09e1-4085-b85e-4628bb2001e8",
+      "uid": "21745810000147",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-19T15:05:31.148Z",
+      "timestampLocal": "2026-03-19T15:05:31.148Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.244.1.185",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "fff2fa89aa563a114b83b70c6933b647b0d63e9f5ed59579c01dadfabbf44e20",
+      "documentHash": "313de885b54a811e4164fdd7a68f1cba26a19eb1c6dc5436b60ab55e6f1b21bf",
+      "eventHash": "664ee02dc971a14a431ff5e7d5e0d856e8b423016a2534a8f4c5f8248841eb60"
+    },
+    {
+      "eventId": "25ffdc78-e39a-413f-a22c-eb301fab7eb5",
+      "uid": "21745810000147",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-19T15:10:41.771Z",
+      "timestampLocal": "2026-03-19T15:10:41.771Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.69.91.194",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/146.0.7680.40 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "664ee02dc971a14a431ff5e7d5e0d856e8b423016a2534a8f4c5f8248841eb60",
+      "documentHash": "313de885b54a811e4164fdd7a68f1cba26a19eb1c6dc5436b60ab55e6f1b21bf",
+      "eventHash": "600cab1b34c9ba303282df0432c8741f4776221f58161e4fd65e5f8141a02144"
+    },
+    {
+      "eventId": "93b56b53-7bd3-418a-a462-e8a37752c87f",
+      "uid": "21745810000147",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-19T16:19:16.700Z",
+      "timestampLocal": "2026-03-19T16:19:16.700Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.244.1.185",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "600cab1b34c9ba303282df0432c8741f4776221f58161e4fd65e5f8141a02144",
+      "documentHash": "313de885b54a811e4164fdd7a68f1cba26a19eb1c6dc5436b60ab55e6f1b21bf",
+      "eventHash": "c152b3727050f68fd3cfcf4acacf275db5e057d3ab03e961cf5d955eca50f3a2"
+    },
+    {
+      "eventId": "b572c34f-a5ec-45f1-8e66-1e36a8c8b377",
+      "uid": "21745810000147",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-19T16:20:12.963Z",
+      "timestampLocal": "2026-03-19T13:20:12.963Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.244.1.185",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/23b81f16-0102-4a32-8e91-9fbbdd072207",
+      "previousEventHash": "c152b3727050f68fd3cfcf4acacf275db5e057d3ab03e961cf5d955eca50f3a2",
+      "documentHash": "83064b8f03ace272b0ad3f6ba150e3b3bd342412ac7e4444569b93b1d78890f3",
+      "signatureHash": "fc0b9b8859da2af2d035b5053746414832fc637056a23c30a81d0cf1dec91359",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-19T13:20:09.498Z"
+      },
+      "eventHash": "89c3d1f0a6798a0b4089826fde9e77799d65f0f80b0768ab31051bfd09baac80"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-03-19T16:20:12.964Z"
+  }
 }
