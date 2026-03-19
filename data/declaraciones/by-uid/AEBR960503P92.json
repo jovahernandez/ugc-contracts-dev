@@ -1,19 +1,100 @@
 {
   "uid": "AEBR960503P92",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Regina Alejandra Allende Bres",
     "nombre_representante_legal": "Regina Alejandra Allende Bres",
     "email": "allenderegina@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Regina Alejandra Allende Bres",
-    "nombre_representante_legal": "Regina Alejandra Allende Bres",
-    "email": "allenderegina@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-18T18:44:24.894Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AEBR960503P92",
+  "signatureMetadata": {
+    "ip": "201.141.23.109",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-19T00:44:28.263Z",
+    "signedAtLocal": "2026-03-18T18:44:28.263Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3397147ea1bc6658fcc593e818d5af6c6638e6d23f3f189984475d6a6b334926"
+  "documentHash": "9a1cfff90c4e12e3fc23ab81e9c2584faace7ae15a3f4c088c36011eaa92c8f4",
+  "auditTrail": [
+    {
+      "eventId": "dc04bfe1-8957-4375-8c21-fb753179d3d1",
+      "uid": "AEBR960503P92",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-19T00:43:51.774Z",
+      "timestampLocal": "2026-03-19T00:43:51.774Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.23.109",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AEBR960503P92&nombre_proveedor_razon_social=Regina+Alejandra+Allende+Bres&nombre_representante_legal=Regina+Alejandra+Allende+Bres&email=allenderegina%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "3397147ea1bc6658fcc593e818d5af6c6638e6d23f3f189984475d6a6b334926",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "df5f86c2b8319900100fa382b53226086c0eb7f0aece005b15719a77d33a259d"
+    },
+    {
+      "eventId": "bdbedf3e-199a-4440-a130-e62a27802ecd",
+      "uid": "AEBR960503P92",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-19T00:43:51.774Z",
+      "timestampLocal": "2026-03-19T00:43:51.774Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.23.109",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AEBR960503P92&nombre_proveedor_razon_social=Regina+Alejandra+Allende+Bres&nombre_representante_legal=Regina+Alejandra+Allende+Bres&email=allenderegina%40gmail.com",
+      "previousEventHash": "df5f86c2b8319900100fa382b53226086c0eb7f0aece005b15719a77d33a259d",
+      "documentHash": "3397147ea1bc6658fcc593e818d5af6c6638e6d23f3f189984475d6a6b334926",
+      "metadata": {
+        "proveedor": "Regina Alejandra Allende Bres",
+        "representante": "Regina Alejandra Allende Bres"
+      },
+      "eventHash": "dd1950ff7e899af0461c643f8e8a14df12e14b07d6e6e39bab1802fb1319b8d0"
+    },
+    {
+      "eventId": "575409ff-b1fe-4789-b4bf-f2f65d36b797",
+      "uid": "AEBR960503P92",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-19T00:43:52.759Z",
+      "timestampLocal": "2026-03-19T00:43:52.759Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.23.109",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AEBR960503P92&nombre_proveedor_razon_social=Regina+Alejandra+Allende+Bres&nombre_representante_legal=Regina+Alejandra+Allende+Bres&email=allenderegina%40gmail.com",
+      "previousEventHash": "dd1950ff7e899af0461c643f8e8a14df12e14b07d6e6e39bab1802fb1319b8d0",
+      "documentHash": "3397147ea1bc6658fcc593e818d5af6c6638e6d23f3f189984475d6a6b334926",
+      "eventHash": "80084cf411d316974672cb25b48527455ef71083c0ca8b07636c799ab2b802fe"
+    },
+    {
+      "eventId": "8aec0c21-ec51-4640-8ec0-dea6c3ce6d21",
+      "uid": "AEBR960503P92",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-19T00:44:28.263Z",
+      "timestampLocal": "2026-03-18T18:44:28.263Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.23.109",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/77d4606d-8071-4b9b-93e3-ce077682ef78",
+      "previousEventHash": "80084cf411d316974672cb25b48527455ef71083c0ca8b07636c799ab2b802fe",
+      "documentHash": "9a1cfff90c4e12e3fc23ab81e9c2584faace7ae15a3f4c088c36011eaa92c8f4",
+      "signatureHash": "2eb280e132a9095ca0013b09715524b5840f36c27c8b89bb999c6b1ae1899807",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-18T18:44:24.894Z"
+      },
+      "eventHash": "0647f039f5f293c4f3322ba7b5efb01b9d443929362f9f9718a93f6c44ced316"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-19T00:44:28.263Z"
+  }
 }
