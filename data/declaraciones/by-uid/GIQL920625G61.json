@@ -1,19 +1,115 @@
 {
   "uid": "GIQL920625G61",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "LUIS HUMBERTO GIL QUINTERO",
     "nombre_representante_legal": "LUIS HUMBERTO GIL QUINTERO",
     "email": "luisgilteam@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "LUIS HUMBERTO GIL QUINTERO",
-    "nombre_representante_legal": "LUIS HUMBERTO GIL QUINTERO",
-    "email": "luisgilteam@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-21T11:22:26.630Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GIQL920625G61",
+  "signatureMetadata": {
+    "ip": "189.203.52.151",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-03-21T17:22:29.992Z",
+    "signedAtLocal": "2026-03-21T11:22:29.992Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "36a8b7736f2585ea7f0a638dff599178ef7069ecc6274a6af7b9a8cc18d71ded"
+  "documentHash": "803e7ae7c71af339f9c72adccda38ef15f6483a007b20c5f54e5e28f61ccb475",
+  "auditTrail": [
+    {
+      "eventId": "b6a425a0-afbe-44cf-b63a-7b0ea89e0b6b",
+      "uid": "GIQL920625G61",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-20T03:44:12.923Z",
+      "timestampLocal": "2026-03-20T03:44:12.923Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.134.80.37",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14816.131.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GIQL920625G61&nombre_proveedor_razon_social=LUIS+HUMBERTO+GIL+QUINTERO&nombre_representante_legal=LUIS+HUMBERTO+GIL+QUINTERO&email=luisgilteam%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "36a8b7736f2585ea7f0a638dff599178ef7069ecc6274a6af7b9a8cc18d71ded",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9675208b8547855208860ed3adf16ebeeea5339d93c110872065bf13ede269f2"
+    },
+    {
+      "eventId": "9dd20c8f-5309-467f-87fb-5c8fcd3d0bec",
+      "uid": "GIQL920625G61",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-20T03:44:12.923Z",
+      "timestampLocal": "2026-03-20T03:44:12.923Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.134.80.37",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14816.131.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GIQL920625G61&nombre_proveedor_razon_social=LUIS+HUMBERTO+GIL+QUINTERO&nombre_representante_legal=LUIS+HUMBERTO+GIL+QUINTERO&email=luisgilteam%40gmail.com",
+      "previousEventHash": "9675208b8547855208860ed3adf16ebeeea5339d93c110872065bf13ede269f2",
+      "documentHash": "36a8b7736f2585ea7f0a638dff599178ef7069ecc6274a6af7b9a8cc18d71ded",
+      "metadata": {
+        "proveedor": "LUIS HUMBERTO GIL QUINTERO",
+        "representante": "LUIS HUMBERTO GIL QUINTERO"
+      },
+      "eventHash": "f2577dceaf6885620d29330056b01c43351233c1ab3d9b103dffb7f848df8dfd"
+    },
+    {
+      "eventId": "96d395d5-3ad0-4c12-abaa-01dfba431c29",
+      "uid": "GIQL920625G61",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-20T03:44:13.939Z",
+      "timestampLocal": "2026-03-20T03:44:13.939Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.134.80.37",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14816.131.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GIQL920625G61&nombre_proveedor_razon_social=LUIS+HUMBERTO+GIL+QUINTERO&nombre_representante_legal=LUIS+HUMBERTO+GIL+QUINTERO&email=luisgilteam%40gmail.com",
+      "previousEventHash": "f2577dceaf6885620d29330056b01c43351233c1ab3d9b103dffb7f848df8dfd",
+      "documentHash": "36a8b7736f2585ea7f0a638dff599178ef7069ecc6274a6af7b9a8cc18d71ded",
+      "eventHash": "1cd700664a17b27195e9bf996127ed8b1f1d42095a061732f46cf18a3fc47d64"
+    },
+    {
+      "eventId": "fe62d03b-e283-479b-bd7c-d7f80ac37672",
+      "uid": "GIQL920625G61",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-21T17:21:43.419Z",
+      "timestampLocal": "2026-03-21T17:21:43.419Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.52.151",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "1cd700664a17b27195e9bf996127ed8b1f1d42095a061732f46cf18a3fc47d64",
+      "documentHash": "36a8b7736f2585ea7f0a638dff599178ef7069ecc6274a6af7b9a8cc18d71ded",
+      "eventHash": "f14a6957c0ff62e92a23d784d314bd5f368cd8074ea9dcd14ad736b91cb962e9"
+    },
+    {
+      "eventId": "3939f439-a1a3-476d-bcff-80915a1be825",
+      "uid": "GIQL920625G61",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-21T17:22:29.993Z",
+      "timestampLocal": "2026-03-21T11:22:29.993Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.52.151",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f14a6957c0ff62e92a23d784d314bd5f368cd8074ea9dcd14ad736b91cb962e9",
+      "documentHash": "803e7ae7c71af339f9c72adccda38ef15f6483a007b20c5f54e5e28f61ccb475",
+      "signatureHash": "207e641c7ce85fcecd7c60281d796e5e446a8ae5b9093f8956050e85de6741c4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-21T11:22:26.630Z"
+      },
+      "eventHash": "a38d0ad252ce806b785708dcffea79e8f6c635012594c7e230610a6d8e0c390b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-03-21T17:22:29.993Z"
+  }
 }
