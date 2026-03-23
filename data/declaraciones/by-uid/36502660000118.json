@@ -1,19 +1,100 @@
 {
   "uid": "36502660000118",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "LM RODUOES LTDA",
     "nombre_representante_legal": "LUCAS MONTALVÃO DE PINA SILVA",
     "email": "financeiro@bomtalvaoag.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "LM RODUOES LTDA",
-    "nombre_representante_legal": "LUCAS MONTALVÃO DE PINA SILVA",
-    "email": "financeiro@bomtalvaoag.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-23T16:02:29.261Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/36502660000118",
+  "signatureMetadata": {
+    "ip": "152.254.216.229",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-23T19:02:32.695Z",
+    "signedAtLocal": "2026-03-23T16:02:32.695Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "092970900d3f623f040ad186032f7524baf0c6b7aa9a0e480cf08cdd4696c087"
+  "documentHash": "950458015007c9ad1fee92b12b55aefe3d4a8d1ec1f362fd560256dee2b8bdd3",
+  "auditTrail": [
+    {
+      "eventId": "ed560c0c-74b1-4975-a113-1748cb21f7ce",
+      "uid": "36502660000118",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-23T19:00:33.426Z",
+      "timestampLocal": "2026-03-23T19:00:33.426Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.254.216.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=36502660000118&nombre_proveedor_razon_social=LM+RODUOES+LTDA&nombre_representante_legal=LUCAS+MONTALV%C3%83O+DE+PINA+SILVA&email=financeiro%40bomtalvaoag.com",
+      "previousEventHash": null,
+      "documentHash": "092970900d3f623f040ad186032f7524baf0c6b7aa9a0e480cf08cdd4696c087",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "46dcafc01c4cb5073d908983b05ca97212fc8558d2fc7489b8f72044a11ff045"
+    },
+    {
+      "eventId": "16ad0da6-0c48-45d5-b6e0-d1e10dc58dd1",
+      "uid": "36502660000118",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-23T19:00:33.426Z",
+      "timestampLocal": "2026-03-23T19:00:33.426Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.254.216.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=36502660000118&nombre_proveedor_razon_social=LM+RODUOES+LTDA&nombre_representante_legal=LUCAS+MONTALV%C3%83O+DE+PINA+SILVA&email=financeiro%40bomtalvaoag.com",
+      "previousEventHash": "46dcafc01c4cb5073d908983b05ca97212fc8558d2fc7489b8f72044a11ff045",
+      "documentHash": "092970900d3f623f040ad186032f7524baf0c6b7aa9a0e480cf08cdd4696c087",
+      "metadata": {
+        "proveedor": "LM RODUOES LTDA",
+        "representante": "LUCAS MONTALVÃO DE PINA SILVA"
+      },
+      "eventHash": "2afa014bcd606ab49a8e450f3e713eb46f187b93c4ad41fd927663c5735a4fa4"
+    },
+    {
+      "eventId": "614b3162-c579-4f86-b9f6-b13fd848f03b",
+      "uid": "36502660000118",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-23T19:00:35.256Z",
+      "timestampLocal": "2026-03-23T19:00:35.256Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.254.216.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=36502660000118&nombre_proveedor_razon_social=LM+RODUOES+LTDA&nombre_representante_legal=LUCAS+MONTALV%C3%83O+DE+PINA+SILVA&email=financeiro%40bomtalvaoag.com",
+      "previousEventHash": "2afa014bcd606ab49a8e450f3e713eb46f187b93c4ad41fd927663c5735a4fa4",
+      "documentHash": "092970900d3f623f040ad186032f7524baf0c6b7aa9a0e480cf08cdd4696c087",
+      "eventHash": "c4212ec46fc6bfff30dd35d3616588076fb30d27a35d1c2f93293a60f4f927cf"
+    },
+    {
+      "eventId": "91fa91a7-d3ff-4d29-848d-f8338b0304fa",
+      "uid": "36502660000118",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-23T19:02:32.695Z",
+      "timestampLocal": "2026-03-23T16:02:32.695Z",
+      "timezone": "UTC-3",
+      "ipAddress": "152.254.216.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/82a27111-c04f-45ed-b8cc-2b1f623ed8b2",
+      "previousEventHash": "c4212ec46fc6bfff30dd35d3616588076fb30d27a35d1c2f93293a60f4f927cf",
+      "documentHash": "950458015007c9ad1fee92b12b55aefe3d4a8d1ec1f362fd560256dee2b8bdd3",
+      "signatureHash": "7f96b923a995e6e9b4394ffb02148362fe2c6ce2648bad2a9c55b67e46b46cf2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-23T16:02:29.261Z"
+      },
+      "eventHash": "8e05da56ffd21b3fc9fedde67df696839daaf30baf101b4b31347eefae87d8b5"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-23T19:02:32.696Z"
+  }
 }
