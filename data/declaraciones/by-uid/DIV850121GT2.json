@@ -1,19 +1,130 @@
 {
   "uid": "DIV850121GT2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DIVI SA DE CV",
     "nombre_representante_legal": "Daniel Francisco Díaz Gómez",
     "email": "admon@senseimedia.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "DIVI SA DE CV",
-    "nombre_representante_legal": "Daniel Francisco Díaz Gómez",
-    "email": "admon@senseimedia.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-23T14:25:20.552Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DIV850121GT2",
+  "signatureMetadata": {
+    "ip": "201.137.131.75",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-23T20:25:23.987Z",
+    "signedAtLocal": "2026-03-23T14:25:23.987Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6f07968104970112db2cba00c326cf84dbb11c5a7ece7cde228aae3e28bff3a0"
+  "documentHash": "195264060fd1dbb7ff780661f9a5601baa00258fc0cdb2c9903237ebfc79f758",
+  "auditTrail": [
+    {
+      "eventId": "29269ed9-71f4-45ef-8ad2-344e68e3f605",
+      "uid": "DIV850121GT2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-23T20:11:44.302Z",
+      "timestampLocal": "2026-03-23T20:11:44.302Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.131.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DIV850121GT2&nombre_proveedor_razon_social=DIVI+SA+DE+CV&nombre_representante_legal=Daniel+Francisco+D%C3%ADaz+G%C3%B3mez+&email=admon%40senseimedia.mx",
+      "previousEventHash": null,
+      "documentHash": "6f07968104970112db2cba00c326cf84dbb11c5a7ece7cde228aae3e28bff3a0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f1639ac2fc5bcb4ec0d5930a990d9012944d8d9ca5374e9071de20ab66cbeb97"
+    },
+    {
+      "eventId": "865f1283-7f66-4883-87bc-cbe9f8bcd494",
+      "uid": "DIV850121GT2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-23T20:11:44.302Z",
+      "timestampLocal": "2026-03-23T20:11:44.302Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.131.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DIV850121GT2&nombre_proveedor_razon_social=DIVI+SA+DE+CV&nombre_representante_legal=Daniel+Francisco+D%C3%ADaz+G%C3%B3mez+&email=admon%40senseimedia.mx",
+      "previousEventHash": "f1639ac2fc5bcb4ec0d5930a990d9012944d8d9ca5374e9071de20ab66cbeb97",
+      "documentHash": "6f07968104970112db2cba00c326cf84dbb11c5a7ece7cde228aae3e28bff3a0",
+      "metadata": {
+        "proveedor": "DIVI SA DE CV",
+        "representante": "Daniel Francisco Díaz Gómez"
+      },
+      "eventHash": "09fd0501c3a98d358ff962a77060fa4cf63ec8f80e6c0575310dd32cdc18fc7a"
+    },
+    {
+      "eventId": "0fb4a3a7-180c-4f29-8326-895d2741bac4",
+      "uid": "DIV850121GT2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-23T20:11:45.559Z",
+      "timestampLocal": "2026-03-23T20:11:45.559Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.131.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DIV850121GT2&nombre_proveedor_razon_social=DIVI+SA+DE+CV&nombre_representante_legal=Daniel+Francisco+D%C3%ADaz+G%C3%B3mez+&email=admon%40senseimedia.mx",
+      "previousEventHash": "09fd0501c3a98d358ff962a77060fa4cf63ec8f80e6c0575310dd32cdc18fc7a",
+      "documentHash": "6f07968104970112db2cba00c326cf84dbb11c5a7ece7cde228aae3e28bff3a0",
+      "eventHash": "b3947dcddb025786abf9ce7604fb5a95b4f1864bb202270f795e44068ad2b0a3"
+    },
+    {
+      "eventId": "abf42bf8-0a86-4236-bffd-3db28419e35d",
+      "uid": "DIV850121GT2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-23T20:22:36.535Z",
+      "timestampLocal": "2026-03-23T20:22:36.535Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.131.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "b3947dcddb025786abf9ce7604fb5a95b4f1864bb202270f795e44068ad2b0a3",
+      "documentHash": "6f07968104970112db2cba00c326cf84dbb11c5a7ece7cde228aae3e28bff3a0",
+      "eventHash": "71c8aca36be7cd0b74df4d37b0c6fef332ba31ba7ec5e1eae5d1c3cc562cc36c"
+    },
+    {
+      "eventId": "91c4508e-0439-4969-b605-a61e5ce92321",
+      "uid": "DIV850121GT2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-23T20:24:50.669Z",
+      "timestampLocal": "2026-03-23T20:24:50.669Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.131.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "71c8aca36be7cd0b74df4d37b0c6fef332ba31ba7ec5e1eae5d1c3cc562cc36c",
+      "documentHash": "6f07968104970112db2cba00c326cf84dbb11c5a7ece7cde228aae3e28bff3a0",
+      "eventHash": "e015a01c3a3b0383e2d2ce54a3ba258951e5f83d6a208311a3d988143163e031"
+    },
+    {
+      "eventId": "4113186d-41f7-4b9c-b0b1-bbca41362ce1",
+      "uid": "DIV850121GT2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-23T20:25:23.987Z",
+      "timestampLocal": "2026-03-23T14:25:23.987Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.137.131.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/99702771-e953-4c47-b895-ca949085dc05",
+      "previousEventHash": "e015a01c3a3b0383e2d2ce54a3ba258951e5f83d6a208311a3d988143163e031",
+      "documentHash": "195264060fd1dbb7ff780661f9a5601baa00258fc0cdb2c9903237ebfc79f758",
+      "signatureHash": "c9450face35b3bc48fa4990d68835f4c0f7ed88fc8864899217c35aa4dbd4d64",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-23T14:25:20.552Z"
+      },
+      "eventHash": "4bfe4cccbc595bc44b5cf4f0526dff12d53f1f0a350253f439e9a70a9f9c9c14"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-03-23T20:25:23.988Z"
+  }
 }
