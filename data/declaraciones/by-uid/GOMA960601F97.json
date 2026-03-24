@@ -1,19 +1,115 @@
 {
   "uid": "GOMA960601F97",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ARTURO ADRIAN GONZALEZ MARTINEZ",
     "nombre_representante_legal": "ARTURO ADRIAN GONZALEZ MARTINEZ",
     "email": "artuur-goonzalez@hotmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ARTURO ADRIAN GONZALEZ MARTINEZ",
-    "nombre_representante_legal": "ARTURO ADRIAN GONZALEZ MARTINEZ",
-    "email": "artuur-goonzalez@hotmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-24T17:18:06.589Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GOMA960601F97",
+  "signatureMetadata": {
+    "ip": "187.190.205.88",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-24T23:18:10.543Z",
+    "signedAtLocal": "2026-03-24T17:18:10.543Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f40839fc1cb982bd6caea52e0d7777cde2c2f383c9f6a03fac894c13bc06ede6"
+  "documentHash": "e0c350d281ec776a6b27f1385175d3e74577ab062cd8b46bc3794c581fc2a694",
+  "auditTrail": [
+    {
+      "eventId": "ddbcacb3-0bcc-4c8e-8646-69c43b6d6495",
+      "uid": "GOMA960601F97",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-24T23:17:07.735Z",
+      "timestampLocal": "2026-03-24T23:17:07.735Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.205.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOMA960601F97&nombre_proveedor_razon_social=ARTURO+ADRIAN+GONZALEZ+MARTINEZ&nombre_representante_legal=ARTURO+ADRIAN+GONZALEZ+MARTINEZ&email=artuur-goonzalez%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "f40839fc1cb982bd6caea52e0d7777cde2c2f383c9f6a03fac894c13bc06ede6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "fd5dfe5bc42abc88bea77d4ebd43d71500f42103d375fcb62721e143b9944509"
+    },
+    {
+      "eventId": "6bb4b7b0-7911-4266-876d-dd546e953941",
+      "uid": "GOMA960601F97",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-24T23:17:07.736Z",
+      "timestampLocal": "2026-03-24T23:17:07.736Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.205.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOMA960601F97&nombre_proveedor_razon_social=ARTURO+ADRIAN+GONZALEZ+MARTINEZ&nombre_representante_legal=ARTURO+ADRIAN+GONZALEZ+MARTINEZ&email=artuur-goonzalez%40hotmail.com",
+      "previousEventHash": "fd5dfe5bc42abc88bea77d4ebd43d71500f42103d375fcb62721e143b9944509",
+      "documentHash": "f40839fc1cb982bd6caea52e0d7777cde2c2f383c9f6a03fac894c13bc06ede6",
+      "metadata": {
+        "proveedor": "ARTURO ADRIAN GONZALEZ MARTINEZ",
+        "representante": "ARTURO ADRIAN GONZALEZ MARTINEZ"
+      },
+      "eventHash": "e79a86d9fdff45c2dff42fdc6ac9b9342c2aec0569e9f4b170f6dbe4ed661ce4"
+    },
+    {
+      "eventId": "142e1838-863b-43f2-921f-fedac87e5fed",
+      "uid": "GOMA960601F97",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-24T23:17:10.514Z",
+      "timestampLocal": "2026-03-24T23:17:10.514Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.205.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOMA960601F97&nombre_proveedor_razon_social=ARTURO+ADRIAN+GONZALEZ+MARTINEZ&nombre_representante_legal=ARTURO+ADRIAN+GONZALEZ+MARTINEZ&email=artuur-goonzalez%40hotmail.com",
+      "previousEventHash": "e79a86d9fdff45c2dff42fdc6ac9b9342c2aec0569e9f4b170f6dbe4ed661ce4",
+      "documentHash": "f40839fc1cb982bd6caea52e0d7777cde2c2f383c9f6a03fac894c13bc06ede6",
+      "eventHash": "11c867ac1789ac9b17dd84cb7f0189d9cddea810ec7597203737c301e84d179d"
+    },
+    {
+      "eventId": "6b7ac76d-cdec-4a70-b3fa-2fffba43843f",
+      "uid": "GOMA960601F97",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-24T23:17:21.052Z",
+      "timestampLocal": "2026-03-24T23:17:21.052Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.205.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "11c867ac1789ac9b17dd84cb7f0189d9cddea810ec7597203737c301e84d179d",
+      "documentHash": "f40839fc1cb982bd6caea52e0d7777cde2c2f383c9f6a03fac894c13bc06ede6",
+      "eventHash": "aff5477a966c36b4a3d822a5f8a658955511322e63cabcf89668573e25dbbd34"
+    },
+    {
+      "eventId": "d32fb0f7-5fa2-4445-95c3-2e405aa922a4",
+      "uid": "GOMA960601F97",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-24T23:18:10.543Z",
+      "timestampLocal": "2026-03-24T17:18:10.543Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.205.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/589b1a81-d5aa-4b9e-8116-636c6931c16e",
+      "previousEventHash": "aff5477a966c36b4a3d822a5f8a658955511322e63cabcf89668573e25dbbd34",
+      "documentHash": "e0c350d281ec776a6b27f1385175d3e74577ab062cd8b46bc3794c581fc2a694",
+      "signatureHash": "e96ca10a501abe274845a8c7a940035e3b4522ecbbdb465ca4f3dacfcc2d85dc",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-24T17:18:06.589Z"
+      },
+      "eventHash": "82a2c8f2bcde53bea1a9359b11d64723cf14abbc6b70a1527c05a4b00ecd1057"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-03-24T23:18:10.543Z"
+  }
 }
