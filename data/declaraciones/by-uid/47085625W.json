@@ -1,19 +1,100 @@
 {
   "uid": "47085625W",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CAROLINA ROJAS MELERO",
     "nombre_representante_legal": "CAROLINA ROJAS MELERO",
     "email": "carolina.rojas.melero@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CAROLINA ROJAS MELERO",
-    "nombre_representante_legal": "CAROLINA ROJAS MELERO",
-    "email": "carolina.rojas.melero@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-25T12:34:28.268Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/47085625W",
+  "signatureMetadata": {
+    "ip": "85.55.204.98",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-25T11:34:31.538Z",
+    "signedAtLocal": "2026-03-25T12:34:31.538Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c9d5d9a608c0e50ebc0ae8a2852138743c48e33fa58a7b8ef0d5012f556c9efb"
+  "documentHash": "d2d9e0ce644dccf450c5c328f88453227c1bfe383f24f69c301ea132d7bf750e",
+  "auditTrail": [
+    {
+      "eventId": "1f161fe0-a2f2-4eb2-9b6a-99f23d944f0d",
+      "uid": "47085625W",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-25T11:33:57.207Z",
+      "timestampLocal": "2026-03-25T11:33:57.207Z",
+      "timezone": "UTC+0",
+      "ipAddress": "85.55.204.98",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,de;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=47085625W&nombre_proveedor_razon_social=CAROLINA+ROJAS+MELERO&nombre_representante_legal=CAROLINA+ROJAS+MELERO&email=carolina.rojas.melero%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "c9d5d9a608c0e50ebc0ae8a2852138743c48e33fa58a7b8ef0d5012f556c9efb",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "fb9583fcd1a96cd6c8cb9f7382380fe9fa6f16950bd3db850537e5682c427c3f"
+    },
+    {
+      "eventId": "e2151d3d-7b70-408a-883b-d6235d93afce",
+      "uid": "47085625W",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-25T11:33:57.207Z",
+      "timestampLocal": "2026-03-25T11:33:57.207Z",
+      "timezone": "UTC+0",
+      "ipAddress": "85.55.204.98",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,de;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=47085625W&nombre_proveedor_razon_social=CAROLINA+ROJAS+MELERO&nombre_representante_legal=CAROLINA+ROJAS+MELERO&email=carolina.rojas.melero%40gmail.com",
+      "previousEventHash": "fb9583fcd1a96cd6c8cb9f7382380fe9fa6f16950bd3db850537e5682c427c3f",
+      "documentHash": "c9d5d9a608c0e50ebc0ae8a2852138743c48e33fa58a7b8ef0d5012f556c9efb",
+      "metadata": {
+        "proveedor": "CAROLINA ROJAS MELERO",
+        "representante": "CAROLINA ROJAS MELERO"
+      },
+      "eventHash": "7249e50da7771201ec1356aea288df983d3cb64b76fcdbfa91d54b822fd71bca"
+    },
+    {
+      "eventId": "9611659a-a3d3-4193-958a-c45127d4edb5",
+      "uid": "47085625W",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-25T11:33:58.264Z",
+      "timestampLocal": "2026-03-25T11:33:58.264Z",
+      "timezone": "UTC+0",
+      "ipAddress": "85.55.204.98",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,de;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=47085625W&nombre_proveedor_razon_social=CAROLINA+ROJAS+MELERO&nombre_representante_legal=CAROLINA+ROJAS+MELERO&email=carolina.rojas.melero%40gmail.com",
+      "previousEventHash": "7249e50da7771201ec1356aea288df983d3cb64b76fcdbfa91d54b822fd71bca",
+      "documentHash": "c9d5d9a608c0e50ebc0ae8a2852138743c48e33fa58a7b8ef0d5012f556c9efb",
+      "eventHash": "15b91242300aa42ef511d4096018216c111f4f8856dc01face7d10d57081e6b9"
+    },
+    {
+      "eventId": "3a54813e-4be6-43d1-96e3-d05c1929088e",
+      "uid": "47085625W",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-25T11:34:31.539Z",
+      "timestampLocal": "2026-03-25T12:34:31.539Z",
+      "timezone": "UTC+1",
+      "ipAddress": "85.55.204.98",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,de;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5155c7a8-2cad-46e6-9663-4a8f85c0c6b9",
+      "previousEventHash": "15b91242300aa42ef511d4096018216c111f4f8856dc01face7d10d57081e6b9",
+      "documentHash": "d2d9e0ce644dccf450c5c328f88453227c1bfe383f24f69c301ea132d7bf750e",
+      "signatureHash": "3e4b876f985728d66b661315cb1c8773902277a90e0f9c715af1b86eec8ca6fc",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-25T12:34:28.268Z"
+      },
+      "eventHash": "d762b26cb304853f05ec3f87f5c6f18cc05e79fa9579c618798ae68b6bc420ea"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-25T11:34:31.539Z"
+  }
 }
