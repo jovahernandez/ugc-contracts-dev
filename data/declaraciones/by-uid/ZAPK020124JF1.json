@@ -1,19 +1,100 @@
 {
   "uid": "ZAPK020124JF1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "KARLA FERNANDA ZAMORA PEREZ",
     "nombre_representante_legal": "N/A",
     "email": "glambyfnda@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "KARLA FERNANDA ZAMORA PEREZ",
-    "nombre_representante_legal": "N/A",
-    "email": "glambyfnda@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-25T15:17:42.228Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ZAPK020124JF1",
+  "signatureMetadata": {
+    "ip": "157.52.103.47",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-25T21:17:45.580Z",
+    "signedAtLocal": "2026-03-25T15:17:45.580Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5ee88f5c28a65828ab418bd1179c7622c397bf2205043caeda0b6677af10deaf"
+  "documentHash": "1865d67b96178e28da4b00695150d29b27be1826769cd01defb2a69d7eeb04d1",
+  "auditTrail": [
+    {
+      "eventId": "77192bce-466d-4610-b358-70a3e21fab0f",
+      "uid": "ZAPK020124JF1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-25T21:11:06.100Z",
+      "timestampLocal": "2026-03-25T21:11:06.100Z",
+      "timezone": "UTC+0",
+      "ipAddress": "157.52.103.33",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ZAPK020124JF1&nombre_proveedor_razon_social=KARLA+FERNANDA+ZAMORA+PEREZ&nombre_representante_legal=N%2FA&email=glambyfnda%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "5ee88f5c28a65828ab418bd1179c7622c397bf2205043caeda0b6677af10deaf",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "92f14e35ec0b584520cbc1ba01803803c5b25fb497f5b40ef235da292b88f4a1"
+    },
+    {
+      "eventId": "e7e02675-23a8-4541-aa01-e7b52a184457",
+      "uid": "ZAPK020124JF1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-25T21:11:06.100Z",
+      "timestampLocal": "2026-03-25T21:11:06.100Z",
+      "timezone": "UTC+0",
+      "ipAddress": "157.52.103.33",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ZAPK020124JF1&nombre_proveedor_razon_social=KARLA+FERNANDA+ZAMORA+PEREZ&nombre_representante_legal=N%2FA&email=glambyfnda%40gmail.com",
+      "previousEventHash": "92f14e35ec0b584520cbc1ba01803803c5b25fb497f5b40ef235da292b88f4a1",
+      "documentHash": "5ee88f5c28a65828ab418bd1179c7622c397bf2205043caeda0b6677af10deaf",
+      "metadata": {
+        "proveedor": "KARLA FERNANDA ZAMORA PEREZ",
+        "representante": "N/A"
+      },
+      "eventHash": "daff36f4cb13f6572800f6de48f11adefa0497f545fa3d568814de58414c3a65"
+    },
+    {
+      "eventId": "344f7aee-d49b-4ec4-ba3f-69eca1d8c28c",
+      "uid": "ZAPK020124JF1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-25T21:11:07.304Z",
+      "timestampLocal": "2026-03-25T21:11:07.304Z",
+      "timezone": "UTC+0",
+      "ipAddress": "157.52.103.33",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ZAPK020124JF1&nombre_proveedor_razon_social=KARLA+FERNANDA+ZAMORA+PEREZ&nombre_representante_legal=N%2FA&email=glambyfnda%40gmail.com",
+      "previousEventHash": "daff36f4cb13f6572800f6de48f11adefa0497f545fa3d568814de58414c3a65",
+      "documentHash": "5ee88f5c28a65828ab418bd1179c7622c397bf2205043caeda0b6677af10deaf",
+      "eventHash": "41600f7a8c629154da9d49902e8bac07a04e9fa65133040b01679f89523d0ae0"
+    },
+    {
+      "eventId": "ee1abac8-5e91-443f-a497-3d5d1cb250bc",
+      "uid": "ZAPK020124JF1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-25T21:17:45.580Z",
+      "timestampLocal": "2026-03-25T15:17:45.580Z",
+      "timezone": "UTC-6",
+      "ipAddress": "157.52.103.47",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f1625ef8-aa55-4c75-ba83-92b55500190b",
+      "previousEventHash": "41600f7a8c629154da9d49902e8bac07a04e9fa65133040b01679f89523d0ae0",
+      "documentHash": "1865d67b96178e28da4b00695150d29b27be1826769cd01defb2a69d7eeb04d1",
+      "signatureHash": "bff81f8eb5680bf7e7ba805f1032aa211b0b8de3a3a392ca91a3adfcf3672f8e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-25T15:17:42.228Z"
+      },
+      "eventHash": "b7875c1b02114355cc005f9e88329105ed6bef065f7b42bed99e2a1d249dbad0"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-25T21:17:45.581Z"
+  }
 }
