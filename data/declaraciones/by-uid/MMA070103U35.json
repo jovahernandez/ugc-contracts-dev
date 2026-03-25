@@ -1,19 +1,100 @@
 {
   "uid": "MMA070103U35",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "METRO MART",
     "nombre_representante_legal": "Eduardo Javier Gracida Campos",
     "email": "egracida@2remain.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "METRO MART",
-    "nombre_representante_legal": "Eduardo Javier Gracida Campos",
-    "email": "egracida@2remain.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-24T22:14:43.260Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MMA070103U35",
+  "signatureMetadata": {
+    "ip": "187.172.196.245",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-25T04:14:46.589Z",
+    "signedAtLocal": "2026-03-24T22:14:46.589Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "48b19462f483321b79151446f6089f60a80668f3c7c6f30b51af294083ad4c7c"
+  "documentHash": "8425f2e55f03a770d7a08e2e07ad1dae94ea5bf781112418b5813ce2ea129e07",
+  "auditTrail": [
+    {
+      "eventId": "77044ec3-bf0d-42e6-a45e-7df9389ac3d2",
+      "uid": "MMA070103U35",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-25T04:13:51.050Z",
+      "timestampLocal": "2026-03-25T04:13:51.050Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.172.196.245",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MMA070103U35&nombre_proveedor_razon_social=METRO+MART&nombre_representante_legal=Eduardo+Javier+Gracida+Campos&email=egracida%402remain.mx",
+      "previousEventHash": null,
+      "documentHash": "48b19462f483321b79151446f6089f60a80668f3c7c6f30b51af294083ad4c7c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "07f871c59ce6e8e01d8fc5cc7cc0787593999a59c0cf53a00fda893264c4ea7c"
+    },
+    {
+      "eventId": "a1f6a721-46f7-4d6f-8cc3-9121e94ba954",
+      "uid": "MMA070103U35",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-25T04:13:51.050Z",
+      "timestampLocal": "2026-03-25T04:13:51.050Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.172.196.245",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MMA070103U35&nombre_proveedor_razon_social=METRO+MART&nombre_representante_legal=Eduardo+Javier+Gracida+Campos&email=egracida%402remain.mx",
+      "previousEventHash": "07f871c59ce6e8e01d8fc5cc7cc0787593999a59c0cf53a00fda893264c4ea7c",
+      "documentHash": "48b19462f483321b79151446f6089f60a80668f3c7c6f30b51af294083ad4c7c",
+      "metadata": {
+        "proveedor": "METRO MART",
+        "representante": "Eduardo Javier Gracida Campos"
+      },
+      "eventHash": "36160612b3fce68c93af8ec7a431d7c28b532d3789ee3a07454672aa840dccb1"
+    },
+    {
+      "eventId": "80331503-8680-4fa9-8381-96c7a4d26813",
+      "uid": "MMA070103U35",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-25T04:13:51.926Z",
+      "timestampLocal": "2026-03-25T04:13:51.926Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.172.196.245",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MMA070103U35&nombre_proveedor_razon_social=METRO+MART&nombre_representante_legal=Eduardo+Javier+Gracida+Campos&email=egracida%402remain.mx",
+      "previousEventHash": "36160612b3fce68c93af8ec7a431d7c28b532d3789ee3a07454672aa840dccb1",
+      "documentHash": "48b19462f483321b79151446f6089f60a80668f3c7c6f30b51af294083ad4c7c",
+      "eventHash": "a7041667dae44cb260a2fed86e44fe7f60653c4760d366cc7bafe65386ff0acb"
+    },
+    {
+      "eventId": "ebd18ef2-39d3-4602-bedb-4a1f32431659",
+      "uid": "MMA070103U35",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-25T04:14:46.589Z",
+      "timestampLocal": "2026-03-24T22:14:46.589Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.172.196.245",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/4717cb68-836a-408b-9998-a0d885c3e87b",
+      "previousEventHash": "a7041667dae44cb260a2fed86e44fe7f60653c4760d366cc7bafe65386ff0acb",
+      "documentHash": "8425f2e55f03a770d7a08e2e07ad1dae94ea5bf781112418b5813ce2ea129e07",
+      "signatureHash": "5fa2cf6b66097610ebe55f523eaafd025e2c4e0e871d4c32b342d3168e49da4f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-24T22:14:43.260Z"
+      },
+      "eventHash": "71dd422a9eb641a9f590327f74d351600710f786f99228ee40294b36d836e8d3"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-25T04:14:46.589Z"
+  }
 }
