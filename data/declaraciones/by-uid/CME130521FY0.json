@@ -1,19 +1,115 @@
 {
   "uid": "CME130521FY0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CLEVERFLOW DE MEXICO SAPI DE CV",
     "nombre_representante_legal": "Juan Carlos Espinosa Ponce de León",
     "email": "facturacion@cleverflow.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CLEVERFLOW DE MEXICO SAPI DE CV",
-    "nombre_representante_legal": "Juan Carlos Espinosa Ponce de León",
-    "email": "facturacion@cleverflow.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-24T23:28:30.411Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CME130521FY0",
+  "signatureMetadata": {
+    "ip": "201.141.55.5",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-03-25T05:28:33.745Z",
+    "signedAtLocal": "2026-03-24T23:28:33.745Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e5f20eb0251ccb0e70e1ecb0fc4219f9e3e5c8f0358225510757fd7955c64b4a"
+  "documentHash": "655db58055a5feae5a7485f24313fdeea222223428caa908d451da0735f34b44",
+  "auditTrail": [
+    {
+      "eventId": "eb7c7152-97bd-4506-bcbb-eca9904905d9",
+      "uid": "CME130521FY0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-25T01:36:01.993Z",
+      "timestampLocal": "2026-03-25T01:36:01.993Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.52.119",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "e5f20eb0251ccb0e70e1ecb0fc4219f9e3e5c8f0358225510757fd7955c64b4a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a656e5a09f57a6d1587e123bbb065380c484ebe26c02daf9021ccf209a2ec459"
+    },
+    {
+      "eventId": "0bd5535a-c24e-4bd2-b912-b2f45e36028f",
+      "uid": "CME130521FY0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-25T01:36:01.993Z",
+      "timestampLocal": "2026-03-25T01:36:01.993Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.52.119",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a656e5a09f57a6d1587e123bbb065380c484ebe26c02daf9021ccf209a2ec459",
+      "documentHash": "e5f20eb0251ccb0e70e1ecb0fc4219f9e3e5c8f0358225510757fd7955c64b4a",
+      "metadata": {
+        "proveedor": "CLEVERFLOW DE MEXICO SAPI DE CV",
+        "representante": "Juan Carlos Espinosa Ponce de León"
+      },
+      "eventHash": "3763816bd457a412296c88ba9d2dadba29cca7bd220b4c842d804c334cfe8bf6"
+    },
+    {
+      "eventId": "e23b9323-1e83-493b-868e-f68921f8b686",
+      "uid": "CME130521FY0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-25T01:36:02.983Z",
+      "timestampLocal": "2026-03-25T01:36:02.983Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.52.119",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "3763816bd457a412296c88ba9d2dadba29cca7bd220b4c842d804c334cfe8bf6",
+      "documentHash": "e5f20eb0251ccb0e70e1ecb0fc4219f9e3e5c8f0358225510757fd7955c64b4a",
+      "eventHash": "e239c93ad5c7a588c6a612c89b3524e9349938e80b726da5606b494dac786094"
+    },
+    {
+      "eventId": "068eec9f-4546-4bd9-a6f5-cb975fcec2af",
+      "uid": "CME130521FY0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-25T05:28:08.211Z",
+      "timestampLocal": "2026-03-25T05:28:08.211Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.55.5",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "e239c93ad5c7a588c6a612c89b3524e9349938e80b726da5606b494dac786094",
+      "documentHash": "e5f20eb0251ccb0e70e1ecb0fc4219f9e3e5c8f0358225510757fd7955c64b4a",
+      "eventHash": "9d0bcc0b73d9662b5554c6d51cce6726ffaf80a13c3203abd87149552604ecf3"
+    },
+    {
+      "eventId": "42676bc4-8d55-4e0a-a150-ab6066431787",
+      "uid": "CME130521FY0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-25T05:28:33.745Z",
+      "timestampLocal": "2026-03-24T23:28:33.745Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.55.5",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "9d0bcc0b73d9662b5554c6d51cce6726ffaf80a13c3203abd87149552604ecf3",
+      "documentHash": "655db58055a5feae5a7485f24313fdeea222223428caa908d451da0735f34b44",
+      "signatureHash": "f87081b35b1a82be6723655ac809fd6c576004a009a619a4fcfe925e946b47d6",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-24T23:28:30.411Z"
+      },
+      "eventHash": "de27eecae3472cc79eef6ca4b4772a4ce4eebd4c621fe8a7ff723bba6c257170"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-03-25T05:28:33.745Z"
+  }
 }
