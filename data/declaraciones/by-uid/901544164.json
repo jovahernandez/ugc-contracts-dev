@@ -1,19 +1,100 @@
 {
   "uid": "901544164",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Edilven Nieblas Cabrera",
     "nombre_representante_legal": "Teddy Miller",
     "email": "contacto@eddynieblas.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Edilven Nieblas Cabrera",
-    "nombre_representante_legal": "Teddy Miller",
-    "email": "contacto@eddynieblas.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-25T12:23:40.383Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/901544164",
+  "signatureMetadata": {
+    "ip": "157.52.74.139",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+    "signedAtUtc": "2026-03-25T17:23:45.861Z",
+    "signedAtLocal": "2026-03-25T12:23:45.861Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "76edacb3f4b1d5275a58479d78cb21ddc169a24e33effb1e0da98372eb916ee0"
+  "documentHash": "4ce8b36322322da3c594ebd8adf0c629165d55334d862ccdb8107d1e64a71dbb",
+  "auditTrail": [
+    {
+      "eventId": "8cc2e02d-b716-415c-a44e-70b4e90f91b4",
+      "uid": "901544164",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-25T17:23:03.338Z",
+      "timestampLocal": "2026-03-25T17:23:03.338Z",
+      "timezone": "UTC+0",
+      "ipAddress": "157.52.74.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "null",
+      "previousEventHash": null,
+      "documentHash": "76edacb3f4b1d5275a58479d78cb21ddc169a24e33effb1e0da98372eb916ee0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ae4f2a041be2a92705d62051521d4138664bec156ae0a21c91d11c16332fd6fd"
+    },
+    {
+      "eventId": "d0e383ff-a459-46d2-bef7-e0e07c696d58",
+      "uid": "901544164",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-25T17:23:03.338Z",
+      "timestampLocal": "2026-03-25T17:23:03.338Z",
+      "timezone": "UTC+0",
+      "ipAddress": "157.52.74.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "null",
+      "previousEventHash": "ae4f2a041be2a92705d62051521d4138664bec156ae0a21c91d11c16332fd6fd",
+      "documentHash": "76edacb3f4b1d5275a58479d78cb21ddc169a24e33effb1e0da98372eb916ee0",
+      "metadata": {
+        "proveedor": "Edilven Nieblas Cabrera",
+        "representante": "Teddy Miller"
+      },
+      "eventHash": "cf6048cf7875aff7a2fb1a56b5f904c7c69af13fb776c6c1f638296c4a7ddf5b"
+    },
+    {
+      "eventId": "6caf08cb-2049-48f3-9f44-bada6d2b0b18",
+      "uid": "901544164",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-25T17:23:04.563Z",
+      "timestampLocal": "2026-03-25T17:23:04.563Z",
+      "timezone": "UTC+0",
+      "ipAddress": "157.52.74.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "direct",
+      "previousEventHash": "cf6048cf7875aff7a2fb1a56b5f904c7c69af13fb776c6c1f638296c4a7ddf5b",
+      "documentHash": "76edacb3f4b1d5275a58479d78cb21ddc169a24e33effb1e0da98372eb916ee0",
+      "eventHash": "13376e5423c9dffb17bf8358cefd3784d1a6ef428b28d3373ec47319c435ac64"
+    },
+    {
+      "eventId": "ae492a54-4424-4e18-8aac-ef8dbc1790b1",
+      "uid": "901544164",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-25T17:23:45.861Z",
+      "timestampLocal": "2026-03-25T12:23:45.861Z",
+      "timezone": "UTC-5",
+      "ipAddress": "157.52.74.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "null",
+      "previousEventHash": "13376e5423c9dffb17bf8358cefd3784d1a6ef428b28d3373ec47319c435ac64",
+      "documentHash": "4ce8b36322322da3c594ebd8adf0c629165d55334d862ccdb8107d1e64a71dbb",
+      "signatureHash": "2dc23806a721bc0d6b5e24290a371b3f26d22045301330ad5ac8848dd5c2b3a6",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-25T12:23:40.383Z"
+      },
+      "eventHash": "0cd56ad02772820620e6b16a9e6ebf608403d30fc770833db685ab1c85c292ff"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-25T17:23:45.892Z"
+  }
 }
