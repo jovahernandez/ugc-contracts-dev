@@ -1,19 +1,100 @@
 {
   "uid": "HAZ250521EV1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Hamaca Azul S de RL de CV",
     "nombre_representante_legal": "Juan Carlos Amor de Llano",
     "email": "cuentas@hamacaazul.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Hamaca Azul S de RL de CV",
-    "nombre_representante_legal": "Juan Carlos Amor de Llano",
-    "email": "cuentas@hamacaazul.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-25T10:33:56.229Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/HAZ250521EV1",
+  "signatureMetadata": {
+    "ip": "201.141.38.209",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "signedAtUtc": "2026-03-25T16:34:01.850Z",
+    "signedAtLocal": "2026-03-25T10:34:01.850Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9dd3300be760bb58a95a5e6bb617705b7fed9099c4de62b89a9b092a65cb35ad"
+  "documentHash": "cbb667432df673a5203e08daa82a44bda6f8af6b901571285725f9673aa452f6",
+  "auditTrail": [
+    {
+      "eventId": "78ef7c73-8b0c-4c4b-a104-c7f4ad3bbf8f",
+      "uid": "HAZ250521EV1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-25T16:32:13.389Z",
+      "timestampLocal": "2026-03-25T16:32:13.389Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.38.209",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HAZ250521EV1&nombre_proveedor_razon_social=Hamaca+Azul+S+de+RL+de+CV&nombre_representante_legal=Juan+Carlos+Amor+de+Llano&email=cuentas%40hamacaazul.com",
+      "previousEventHash": null,
+      "documentHash": "9dd3300be760bb58a95a5e6bb617705b7fed9099c4de62b89a9b092a65cb35ad",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ab1f1049b75087c44ff0418a1f7029344ac29d619ea240745eb65cc433019822"
+    },
+    {
+      "eventId": "acfd85b7-dd49-4262-83f9-731bfdcf590b",
+      "uid": "HAZ250521EV1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-25T16:32:13.389Z",
+      "timestampLocal": "2026-03-25T16:32:13.389Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.38.209",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HAZ250521EV1&nombre_proveedor_razon_social=Hamaca+Azul+S+de+RL+de+CV&nombre_representante_legal=Juan+Carlos+Amor+de+Llano&email=cuentas%40hamacaazul.com",
+      "previousEventHash": "ab1f1049b75087c44ff0418a1f7029344ac29d619ea240745eb65cc433019822",
+      "documentHash": "9dd3300be760bb58a95a5e6bb617705b7fed9099c4de62b89a9b092a65cb35ad",
+      "metadata": {
+        "proveedor": "Hamaca Azul S de RL de CV",
+        "representante": "Juan Carlos Amor de Llano"
+      },
+      "eventHash": "0e6eb28b5f79d1504b47acf2ceab3705f666ca1a188399057f6ee6f0cebe7097"
+    },
+    {
+      "eventId": "ad3c30a1-9c5d-4367-aae6-da5208ea1f16",
+      "uid": "HAZ250521EV1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-25T16:32:14.535Z",
+      "timestampLocal": "2026-03-25T16:32:14.535Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.38.209",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HAZ250521EV1&nombre_proveedor_razon_social=Hamaca+Azul+S+de+RL+de+CV&nombre_representante_legal=Juan+Carlos+Amor+de+Llano&email=cuentas%40hamacaazul.com",
+      "previousEventHash": "0e6eb28b5f79d1504b47acf2ceab3705f666ca1a188399057f6ee6f0cebe7097",
+      "documentHash": "9dd3300be760bb58a95a5e6bb617705b7fed9099c4de62b89a9b092a65cb35ad",
+      "eventHash": "be4e44b50f51ec3cd2f5d8a0d36f9826168876eb1625c7f6be5247b3fe1c5410"
+    },
+    {
+      "eventId": "2a4aa7c7-2577-4dd0-a76d-1a12216426bb",
+      "uid": "HAZ250521EV1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-25T16:34:01.850Z",
+      "timestampLocal": "2026-03-25T10:34:01.850Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.38.209",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/64d11628-b09f-4583-90ce-59ea9cc52c5c",
+      "previousEventHash": "be4e44b50f51ec3cd2f5d8a0d36f9826168876eb1625c7f6be5247b3fe1c5410",
+      "documentHash": "cbb667432df673a5203e08daa82a44bda6f8af6b901571285725f9673aa452f6",
+      "signatureHash": "d52ef602feb1a1c8cf828932618b8a49473f49458540fc4c01dfe359162b948e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-25T10:33:56.229Z"
+      },
+      "eventHash": "e48505c38edbb71bd3191d883c750b1040a60057953b512209f4def832adfe38"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-25T16:34:01.851Z"
+  }
 }
