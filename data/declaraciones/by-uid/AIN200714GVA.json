@@ -1,19 +1,174 @@
 {
   "uid": "AIN200714GVA",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ALCEGA INDUSTRIAS",
     "nombre_representante_legal": "LOURDES GARZA",
     "email": "contactolulug@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ALCEGA INDUSTRIAS",
-    "nombre_representante_legal": "LOURDES GARZA",
-    "email": "contactolulug@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-27T10:11:13.472Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AIN200714GVA",
+  "signatureMetadata": {
+    "ip": "189.159.190.139",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-27T16:11:17.315Z",
+    "signedAtLocal": "2026-03-27T10:11:17.315Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0d997d14d128064b43bd0035a001fbb39123dd0d2ba4f2c1603ee076c36d33e3"
+  "documentHash": "0b5b271bd3ff68e09987ad55891bddae45d572309ea4a261f1f307e92efc3752",
+  "auditTrail": [
+    {
+      "eventId": "0f9027cc-14d8-468c-9668-75897d666fcf",
+      "uid": "AIN200714GVA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-27T16:10:43.161Z",
+      "timestampLocal": "2026-03-27T16:10:43.161Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.159.190.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AIN200714GVA&nombre_proveedor_razon_social=ALCEGA+INDUSTRIAS&nombre_representante_legal=LOURDES+GARZA&email=contactolulug%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "38e5802f9929f7cf69fb9e917a0dae6a952665a10a86e40d92535698512dea97",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d306e8aca559fb8ef4f76b9d34ca6970a716649a7604c4c295a8fc0c87851c6b"
+    },
+    {
+      "eventId": "29779c51-54e0-42a3-8e24-af9d7cd9eed7",
+      "uid": "AIN200714GVA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-27T16:10:43.161Z",
+      "timestampLocal": "2026-03-27T16:10:43.161Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.159.190.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AIN200714GVA&nombre_proveedor_razon_social=ALCEGA+INDUSTRIAS&nombre_representante_legal=LOURDES+GARZA&email=contactolulug%40gmail.com",
+      "previousEventHash": "d306e8aca559fb8ef4f76b9d34ca6970a716649a7604c4c295a8fc0c87851c6b",
+      "documentHash": "38e5802f9929f7cf69fb9e917a0dae6a952665a10a86e40d92535698512dea97",
+      "metadata": {
+        "proveedor": "ALCEGA INDUSTRIAS",
+        "representante": "LOURDES GARZA"
+      },
+      "eventHash": "e6c5532f03f9b98557e33fcc4cf29f9a2e588591cb2a1c9245ce9f7e7fecd836"
+    },
+    {
+      "eventId": "d7c8b8bb-a1a9-4973-b4cf-4bb30ae78beb",
+      "uid": "AIN200714GVA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-27T16:10:47.091Z",
+      "timestampLocal": "2026-03-27T16:10:47.091Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.159.190.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AIN200714GVA&nombre_proveedor_razon_social=ALCEGA+INDUSTRIAS&nombre_representante_legal=LOURDES+GARZA&email=contactolulug%40gmail.com",
+      "previousEventHash": "e6c5532f03f9b98557e33fcc4cf29f9a2e588591cb2a1c9245ce9f7e7fecd836",
+      "documentHash": "56947c8fa747fb95ae4aa9c703b9729b0d57a1dfabceffb1cb0284aaec8d8798",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0d7d552160ee7607d649f3d5b76c91789128fcaf7c095056edb3bdc5347d05fb"
+    },
+    {
+      "eventId": "b17d5036-804b-45d7-8d7e-81dde320a849",
+      "uid": "AIN200714GVA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-27T16:10:47.091Z",
+      "timestampLocal": "2026-03-27T16:10:47.091Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.159.190.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AIN200714GVA&nombre_proveedor_razon_social=ALCEGA+INDUSTRIAS&nombre_representante_legal=LOURDES+GARZA&email=contactolulug%40gmail.com",
+      "previousEventHash": "0d7d552160ee7607d649f3d5b76c91789128fcaf7c095056edb3bdc5347d05fb",
+      "documentHash": "56947c8fa747fb95ae4aa9c703b9729b0d57a1dfabceffb1cb0284aaec8d8798",
+      "metadata": {
+        "proveedor": "ALCEGA INDUSTRIAS",
+        "representante": "LOURDES GARZA"
+      },
+      "eventHash": "895117b9bb609f19125c79d2ace7586063e8540de44aab56373fa5aba350ac28"
+    },
+    {
+      "eventId": "47c6ea08-213e-4f1b-ada9-4d59c81b7f8a",
+      "uid": "AIN200714GVA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-27T16:10:50.704Z",
+      "timestampLocal": "2026-03-27T16:10:50.704Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.159.190.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AIN200714GVA&nombre_proveedor_razon_social=ALCEGA+INDUSTRIAS&nombre_representante_legal=LOURDES+GARZA&email=contactolulug%40gmail.com",
+      "previousEventHash": "895117b9bb609f19125c79d2ace7586063e8540de44aab56373fa5aba350ac28",
+      "documentHash": "0d997d14d128064b43bd0035a001fbb39123dd0d2ba4f2c1603ee076c36d33e3",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a828a606a9e05b5d03ed368b0af3db8668fd119afbd7d9d34d0b8de4242b97d8"
+    },
+    {
+      "eventId": "a51f61e5-6bcb-46c7-8117-487754665d25",
+      "uid": "AIN200714GVA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-27T16:10:50.704Z",
+      "timestampLocal": "2026-03-27T16:10:50.704Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.159.190.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AIN200714GVA&nombre_proveedor_razon_social=ALCEGA+INDUSTRIAS&nombre_representante_legal=LOURDES+GARZA&email=contactolulug%40gmail.com",
+      "previousEventHash": "a828a606a9e05b5d03ed368b0af3db8668fd119afbd7d9d34d0b8de4242b97d8",
+      "documentHash": "0d997d14d128064b43bd0035a001fbb39123dd0d2ba4f2c1603ee076c36d33e3",
+      "metadata": {
+        "proveedor": "ALCEGA INDUSTRIAS",
+        "representante": "LOURDES GARZA"
+      },
+      "eventHash": "7a94a33ab67325666d7e698efb19ebb54f3c8357d785cc4593aa5f7a8a931644"
+    },
+    {
+      "eventId": "8579b5c2-6661-4c5f-8562-90aa13099c1b",
+      "uid": "AIN200714GVA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-27T16:10:54.473Z",
+      "timestampLocal": "2026-03-27T16:10:54.473Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.159.190.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AIN200714GVA&nombre_proveedor_razon_social=ALCEGA+INDUSTRIAS&nombre_representante_legal=LOURDES+GARZA&email=contactolulug%40gmail.com",
+      "previousEventHash": "7a94a33ab67325666d7e698efb19ebb54f3c8357d785cc4593aa5f7a8a931644",
+      "documentHash": "0d997d14d128064b43bd0035a001fbb39123dd0d2ba4f2c1603ee076c36d33e3",
+      "eventHash": "00b8967fdce9a8b26b9fa0f9e07fb6467ea368f9c1478095e7e77ff0847c0eed"
+    },
+    {
+      "eventId": "413789e9-c772-4d30-bb76-63048a15f152",
+      "uid": "AIN200714GVA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-27T16:11:17.315Z",
+      "timestampLocal": "2026-03-27T10:11:17.315Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.159.190.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1e2dbac4-2e21-4a51-843b-fc24e6abcb14",
+      "previousEventHash": "00b8967fdce9a8b26b9fa0f9e07fb6467ea368f9c1478095e7e77ff0847c0eed",
+      "documentHash": "0b5b271bd3ff68e09987ad55891bddae45d572309ea4a261f1f307e92efc3752",
+      "signatureHash": "3ec2bbdf712cd99662330da60cb6ec38ae7e58b50ed1a8392902c551a235ff6b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-27T10:11:13.472Z"
+      },
+      "eventHash": "67b0cb60c9139af6de3c8b374631994acdbb36d14ef6d997349fa8d37a51d758"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-03-27T16:11:17.315Z"
+  }
 }
