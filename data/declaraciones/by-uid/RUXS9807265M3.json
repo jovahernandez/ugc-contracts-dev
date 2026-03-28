@@ -1,19 +1,100 @@
 {
   "uid": "RUXS9807265M3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Sarita Ruiz Xuampil",
     "nombre_representante_legal": "Sarita Ruiz",
     "email": "sariruiz.ugc@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Sarita Ruiz Xuampil",
-    "nombre_representante_legal": "Sarita Ruiz",
-    "email": "sariruiz.ugc@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-27T18:40:37.199Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RUXS9807265M3",
+  "signatureMetadata": {
+    "ip": "201.138.192.23",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-28T00:40:40.527Z",
+    "signedAtLocal": "2026-03-27T18:40:40.527Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "325b959131f058c578e533841d1af8e96e98d6d9d3e5d98f8ceb030598fa9799"
+  "documentHash": "6ed3218c134aa3509f6378e248be2514674c77e3aae25e91396f04f6e480db6a",
+  "auditTrail": [
+    {
+      "eventId": "5d51f951-c120-49c9-963b-ef16201d6f78",
+      "uid": "RUXS9807265M3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-28T00:39:41.026Z",
+      "timestampLocal": "2026-03-28T00:39:41.026Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.138.192.23",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RUXS9807265M3&nombre_proveedor_razon_social=Sarita+Ruiz+Xuampil&nombre_representante_legal=Sarita+Ruiz&email=sariruiz.ugc%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "325b959131f058c578e533841d1af8e96e98d6d9d3e5d98f8ceb030598fa9799",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3f2181c812f1248beee523acb001e8f591385eac97207408742d60fa8b428baf"
+    },
+    {
+      "eventId": "a5ae398e-45b8-4072-aa81-8314318bb372",
+      "uid": "RUXS9807265M3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-28T00:39:41.026Z",
+      "timestampLocal": "2026-03-28T00:39:41.026Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.138.192.23",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RUXS9807265M3&nombre_proveedor_razon_social=Sarita+Ruiz+Xuampil&nombre_representante_legal=Sarita+Ruiz&email=sariruiz.ugc%40gmail.com",
+      "previousEventHash": "3f2181c812f1248beee523acb001e8f591385eac97207408742d60fa8b428baf",
+      "documentHash": "325b959131f058c578e533841d1af8e96e98d6d9d3e5d98f8ceb030598fa9799",
+      "metadata": {
+        "proveedor": "Sarita Ruiz Xuampil",
+        "representante": "Sarita Ruiz"
+      },
+      "eventHash": "ecf162fab4b7a64df1fdc598786be6ccce194fe45baaf32cf39e33acefcd54fc"
+    },
+    {
+      "eventId": "2e997624-4470-42da-8627-5696c1ce0c4a",
+      "uid": "RUXS9807265M3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-28T00:39:41.914Z",
+      "timestampLocal": "2026-03-28T00:39:41.914Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.138.192.23",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RUXS9807265M3&nombre_proveedor_razon_social=Sarita+Ruiz+Xuampil&nombre_representante_legal=Sarita+Ruiz&email=sariruiz.ugc%40gmail.com",
+      "previousEventHash": "ecf162fab4b7a64df1fdc598786be6ccce194fe45baaf32cf39e33acefcd54fc",
+      "documentHash": "325b959131f058c578e533841d1af8e96e98d6d9d3e5d98f8ceb030598fa9799",
+      "eventHash": "a464d954c9b1c7e79b201054bbe5f15a23f156fe11653161eb4e81fee3e8abe4"
+    },
+    {
+      "eventId": "7a3c3939-ebd9-457d-9a5c-df82f80f934b",
+      "uid": "RUXS9807265M3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-28T00:40:40.527Z",
+      "timestampLocal": "2026-03-27T18:40:40.527Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.138.192.23",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/aef1aa85-2eaf-46b9-8bac-7d63462fbe58",
+      "previousEventHash": "a464d954c9b1c7e79b201054bbe5f15a23f156fe11653161eb4e81fee3e8abe4",
+      "documentHash": "6ed3218c134aa3509f6378e248be2514674c77e3aae25e91396f04f6e480db6a",
+      "signatureHash": "eda8f88f312035cab258bb6fa7681e8cfa927f01c1af3e9dcdac30baaba8a7db",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-27T18:40:37.199Z"
+      },
+      "eventHash": "ba0eefef3e40654a65a0b396688b34c4b70faced98445a289043ba834ca507d9"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-28T00:40:40.528Z"
+  }
 }
