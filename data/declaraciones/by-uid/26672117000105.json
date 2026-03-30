@@ -1,19 +1,100 @@
 {
   "uid": "26672117000105",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "CASTRO VIDEO PRODUCOES LTDA",
     "nombre_representante_legal": "Barbara Rodrigues de Castro",
     "email": "barbara@nerdshow.com.br"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CASTRO VIDEO PRODUCOES LTDA",
-    "nombre_representante_legal": "Barbara Rodrigues de Castro",
-    "email": "barbara@nerdshow.com.br"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-30T12:14:20.047Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/26672117000105",
+  "signatureMetadata": {
+    "ip": "179.248.188.146",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+    "signedAtUtc": "2026-03-30T15:14:25.610Z",
+    "signedAtLocal": "2026-03-30T12:14:25.610Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5db44eb38674b0f8bcc92551a448f905a1cb7c9ce596e4e0b521a8651bddc18e"
+  "documentHash": "d9fc5a2151c6b1e2020a4b4bb0e482c4ad504cd06a94bc715c561074ab3ecfcc",
+  "auditTrail": [
+    {
+      "eventId": "ac9655cf-35c7-447b-872e-364d0c6e5222",
+      "uid": "26672117000105",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-30T15:13:48.207Z",
+      "timestampLocal": "2026-03-30T15:13:48.207Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.248.188.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "5db44eb38674b0f8bcc92551a448f905a1cb7c9ce596e4e0b521a8651bddc18e",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "a2113309b792f6c0fe9d97bab3016cd277d9f938bb380b7e1045d539a088562f"
+    },
+    {
+      "eventId": "03cfa26d-4f3f-4216-af6f-4338500c5401",
+      "uid": "26672117000105",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-30T15:13:48.207Z",
+      "timestampLocal": "2026-03-30T15:13:48.207Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.248.188.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a2113309b792f6c0fe9d97bab3016cd277d9f938bb380b7e1045d539a088562f",
+      "documentHash": "5db44eb38674b0f8bcc92551a448f905a1cb7c9ce596e4e0b521a8651bddc18e",
+      "metadata": {
+        "proveedor": "CASTRO VIDEO PRODUCOES LTDA",
+        "representante": "Barbara Rodrigues de Castro"
+      },
+      "eventHash": "4bdab2486c37b1cac32754478aca218694251423dbce71fb56a4ac1130bd4a99"
+    },
+    {
+      "eventId": "255de5f0-e826-4e31-b59d-1c391aebc085",
+      "uid": "26672117000105",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-30T15:13:50.153Z",
+      "timestampLocal": "2026-03-30T15:13:50.153Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.248.188.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4bdab2486c37b1cac32754478aca218694251423dbce71fb56a4ac1130bd4a99",
+      "documentHash": "5db44eb38674b0f8bcc92551a448f905a1cb7c9ce596e4e0b521a8651bddc18e",
+      "eventHash": "ae9d18b2bd032547eadb077707de1ff947100220fed84c9d12db428eb07bba9d"
+    },
+    {
+      "eventId": "80a484c4-e95a-4c58-aa58-b2f447a7603f",
+      "uid": "26672117000105",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-30T15:14:25.610Z",
+      "timestampLocal": "2026-03-30T12:14:25.610Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.248.188.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ae9d18b2bd032547eadb077707de1ff947100220fed84c9d12db428eb07bba9d",
+      "documentHash": "d9fc5a2151c6b1e2020a4b4bb0e482c4ad504cd06a94bc715c561074ab3ecfcc",
+      "signatureHash": "ab93257b3e0e797772fb7533646b90d59c1d09650d4f9924841dc637b076e050",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-30T12:14:20.047Z"
+      },
+      "eventHash": "1dbb30e423082d0fe65fddb1685b581e71215eb2b2333b96f2c8e3b88818a0dd"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-30T15:14:25.610Z"
+  }
 }
