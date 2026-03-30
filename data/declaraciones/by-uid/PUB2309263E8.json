@@ -1,19 +1,100 @@
 {
   "uid": "PUB2309263E8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PUBLICONTABLE",
     "nombre_representante_legal": "Laura Yaquelin Juarez Aranda",
     "email": "facturacion@agencytas.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PUBLICONTABLE",
-    "nombre_representante_legal": "Laura Yaquelin Juarez Aranda",
-    "email": "facturacion@agencytas.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-30T17:49:16.823Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PUB2309263E8",
+  "signatureMetadata": {
+    "ip": "189.203.88.155",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-30T23:49:22.768Z",
+    "signedAtLocal": "2026-03-30T17:49:22.768Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2b15f457d121b365e048ccc5b1e9b1af54bce5fc87652f01902bf5ddb0e27ccc"
+  "documentHash": "68fc3c546da34b6b3d27774d7b9a45b1db177397bc56acda8c4a5a187b42d114",
+  "auditTrail": [
+    {
+      "eventId": "5197dcd0-321f-48fa-8a1c-ded9ed1adc32",
+      "uid": "PUB2309263E8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-30T23:48:04.348Z",
+      "timestampLocal": "2026-03-30T23:48:04.348Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.88.155",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PUB2309263E8&nombre_proveedor_razon_social=PUBLICONTABLE&nombre_representante_legal=Laura+Yaquelin+Juarez+Aranda+&email=facturacion%40agencytas.com",
+      "previousEventHash": null,
+      "documentHash": "2b15f457d121b365e048ccc5b1e9b1af54bce5fc87652f01902bf5ddb0e27ccc",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "67f455d4882dfa0fb71f3620a15f406e3782da6d3eb421f5278c10020a9895b7"
+    },
+    {
+      "eventId": "43b50770-5593-45af-9851-6e525b4930a1",
+      "uid": "PUB2309263E8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-30T23:48:04.348Z",
+      "timestampLocal": "2026-03-30T23:48:04.348Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.88.155",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PUB2309263E8&nombre_proveedor_razon_social=PUBLICONTABLE&nombre_representante_legal=Laura+Yaquelin+Juarez+Aranda+&email=facturacion%40agencytas.com",
+      "previousEventHash": "67f455d4882dfa0fb71f3620a15f406e3782da6d3eb421f5278c10020a9895b7",
+      "documentHash": "2b15f457d121b365e048ccc5b1e9b1af54bce5fc87652f01902bf5ddb0e27ccc",
+      "metadata": {
+        "proveedor": "PUBLICONTABLE",
+        "representante": "Laura Yaquelin Juarez Aranda"
+      },
+      "eventHash": "6e720fa6eb54221dac56a5b2151635232379f8b6fa6772462de60846064fb913"
+    },
+    {
+      "eventId": "dc4ff969-0f45-4f07-b35f-423719736985",
+      "uid": "PUB2309263E8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-30T23:48:05.143Z",
+      "timestampLocal": "2026-03-30T23:48:05.143Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.88.155",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PUB2309263E8&nombre_proveedor_razon_social=PUBLICONTABLE&nombre_representante_legal=Laura+Yaquelin+Juarez+Aranda+&email=facturacion%40agencytas.com",
+      "previousEventHash": "6e720fa6eb54221dac56a5b2151635232379f8b6fa6772462de60846064fb913",
+      "documentHash": "2b15f457d121b365e048ccc5b1e9b1af54bce5fc87652f01902bf5ddb0e27ccc",
+      "eventHash": "9f92897e7c515d5856887c1e3aa746c72a58faaf68b2f6b6e8bf36ea92376361"
+    },
+    {
+      "eventId": "2b1fe63a-cfc9-49b4-b616-53b188fb9309",
+      "uid": "PUB2309263E8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-30T23:49:22.768Z",
+      "timestampLocal": "2026-03-30T17:49:22.768Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.88.155",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/cd01a3be-6e30-4a0c-bf80-4d669506d6a6",
+      "previousEventHash": "9f92897e7c515d5856887c1e3aa746c72a58faaf68b2f6b6e8bf36ea92376361",
+      "documentHash": "68fc3c546da34b6b3d27774d7b9a45b1db177397bc56acda8c4a5a187b42d114",
+      "signatureHash": "e22f9ee7e7d726b0945253aa13129d1139709a7f4efdd1b2ecdd01ba53c8da3e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-30T17:49:16.823Z"
+      },
+      "eventHash": "f64ba029904c5c577f30986f95fc77c63ffd8c5fcec26820094526d49261779c"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-30T23:49:22.769Z"
+  }
 }
