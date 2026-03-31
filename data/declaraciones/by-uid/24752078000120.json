@@ -1,19 +1,100 @@
 {
   "uid": "24752078000120",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "PREMIUM MEDIA LTDA.",
     "nombre_representante_legal": "Carolina Lima Moreira",
     "email": "micaela@nessmgt.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PREMIUM MEDIA LTDA.",
-    "nombre_representante_legal": "Carolina Lima Moreira",
-    "email": "micaela@nessmgt.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-31T15:59:21.813Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/24752078000120",
+  "signatureMetadata": {
+    "ip": "179.209.47.49",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-31T18:59:25.094Z",
+    "signedAtLocal": "2026-03-31T15:59:25.094Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ac780f318a7a6a85994bbf21e7dad2b07a94602f35b339cb0f913bd694c87aa6"
+  "documentHash": "727f0fc8a5737f44ccec1962a2186e1fd37309acfaac26e68b7f349e50d39516",
+  "auditTrail": [
+    {
+      "eventId": "e028368c-bde8-42f7-8bca-17dd2569b0aa",
+      "uid": "24752078000120",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T18:59:12.619Z",
+      "timestampLocal": "2026-03-31T18:59:12.619Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.209.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=24752078000120&nombre_proveedor_razon_social=PREMIUM+MEDIA+LTDA.&nombre_representante_legal=Carolina+Lima+Moreira&email=micaela%40nessmgt.com",
+      "previousEventHash": null,
+      "documentHash": "ac780f318a7a6a85994bbf21e7dad2b07a94602f35b339cb0f913bd694c87aa6",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "35980858ba95322e7024ac27e15a2c2e04e5ae971ca9c9cb3a4447c6fb7cdd90"
+    },
+    {
+      "eventId": "523404e3-8313-4a8d-a780-b7f88452e665",
+      "uid": "24752078000120",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T18:59:12.619Z",
+      "timestampLocal": "2026-03-31T18:59:12.619Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.209.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=24752078000120&nombre_proveedor_razon_social=PREMIUM+MEDIA+LTDA.&nombre_representante_legal=Carolina+Lima+Moreira&email=micaela%40nessmgt.com",
+      "previousEventHash": "35980858ba95322e7024ac27e15a2c2e04e5ae971ca9c9cb3a4447c6fb7cdd90",
+      "documentHash": "ac780f318a7a6a85994bbf21e7dad2b07a94602f35b339cb0f913bd694c87aa6",
+      "metadata": {
+        "proveedor": "PREMIUM MEDIA LTDA.",
+        "representante": "Carolina Lima Moreira"
+      },
+      "eventHash": "84a191263098e18dac5b51cdcb5c6c7fd8378334fb476a8629d5841eba5389da"
+    },
+    {
+      "eventId": "60b3b78b-cd67-4641-882c-c48500aa581d",
+      "uid": "24752078000120",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-31T18:59:14.261Z",
+      "timestampLocal": "2026-03-31T18:59:14.261Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.209.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=24752078000120&nombre_proveedor_razon_social=PREMIUM+MEDIA+LTDA.&nombre_representante_legal=Carolina+Lima+Moreira&email=micaela%40nessmgt.com",
+      "previousEventHash": "84a191263098e18dac5b51cdcb5c6c7fd8378334fb476a8629d5841eba5389da",
+      "documentHash": "ac780f318a7a6a85994bbf21e7dad2b07a94602f35b339cb0f913bd694c87aa6",
+      "eventHash": "67f554419ad377b4969fd8bf079653ae71d8faca3d654fa05bbb43b6d7a0a71e"
+    },
+    {
+      "eventId": "638cc333-6f8d-4c65-a9de-e3fe5625a15b",
+      "uid": "24752078000120",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-31T18:59:25.094Z",
+      "timestampLocal": "2026-03-31T15:59:25.094Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.209.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/3d912e7b-131d-4d9e-a465-7097321f0131",
+      "previousEventHash": "67f554419ad377b4969fd8bf079653ae71d8faca3d654fa05bbb43b6d7a0a71e",
+      "documentHash": "727f0fc8a5737f44ccec1962a2186e1fd37309acfaac26e68b7f349e50d39516",
+      "signatureHash": "263314df701bf726ea9f69a5ae869e22d1dc74903c214898dad1d95015a3dc7c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-31T15:59:21.813Z"
+      },
+      "eventHash": "e1242d45d49e8423d5da79962e30d03778e569212fd7887b55aaadfa3d1d6a0b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-31T18:59:25.095Z"
+  }
 }
