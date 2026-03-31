@@ -1,19 +1,507 @@
 {
   "uid": "41402368000163",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "PRISCILA BRUNO CALIARI 12427533629",
     "nombre_representante_legal": "Priscila Bruno Caliari",
     "email": "pricaliari@changodigital.com.br"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PRISCILA BRUNO CALIARI 12427533629",
-    "nombre_representante_legal": "Priscila Bruno Caliari",
-    "email": "pricaliari@changodigital.com.br"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-31T15:07:37.102Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/41402368000163",
+  "signatureMetadata": {
+    "ip": "201.1.48.133",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-31T18:07:40.676Z",
+    "signedAtLocal": "2026-03-31T15:07:40.676Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7e63067d976b922325a41532dc79b19a3093cc6863da3e99c5a2ae390eb81a27"
+  "documentHash": "3e516daf2ecb08aebc36b4138fd54bc17d0e60553e05414de9ea36d1b29a345b",
+  "auditTrail": [
+    {
+      "eventId": "26e137be-d435-4bdf-b444-d9bb6dd82b3a",
+      "uid": "41402368000163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T18:06:36.014Z",
+      "timestampLocal": "2026-03-31T18:06:36.014Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": null,
+      "documentHash": "cfcf62d921079ddd7918812a6ec05940abd2a12dfdc28e4a62fde29c65d11789",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "dad6aff1a9102a9ae63245dad7b7d18d55cb66b296712aaeb0ced173468d4726"
+    },
+    {
+      "eventId": "001a46db-e293-4268-a39e-d98745994636",
+      "uid": "41402368000163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T18:06:36.014Z",
+      "timestampLocal": "2026-03-31T18:06:36.014Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "dad6aff1a9102a9ae63245dad7b7d18d55cb66b296712aaeb0ced173468d4726",
+      "documentHash": "cfcf62d921079ddd7918812a6ec05940abd2a12dfdc28e4a62fde29c65d11789",
+      "metadata": {
+        "proveedor": "PRISCILA BRUNO CALIARI 12427533629",
+        "representante": "Priscila Bruno Caliari"
+      },
+      "eventHash": "64d66c42be75b836fa16ce437e75f8e5f49e793ae64dff7208333c163c590e7f"
+    },
+    {
+      "eventId": "8f0ef367-c303-4260-b9b7-d34f16168039",
+      "uid": "41402368000163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T18:06:38.182Z",
+      "timestampLocal": "2026-03-31T18:06:38.182Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "64d66c42be75b836fa16ce437e75f8e5f49e793ae64dff7208333c163c590e7f",
+      "documentHash": "cde3f0ac7919cf1771691e48d5007863d28270f8c77c12aadccdf51717deba32",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "0c916edd7a24423899e2a70933830e7df7449ba8515253db17b1e8879984d2b4"
+    },
+    {
+      "eventId": "7946d4cd-5366-4464-b0bb-1a5eba07695f",
+      "uid": "41402368000163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T18:06:38.182Z",
+      "timestampLocal": "2026-03-31T18:06:38.182Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "0c916edd7a24423899e2a70933830e7df7449ba8515253db17b1e8879984d2b4",
+      "documentHash": "cde3f0ac7919cf1771691e48d5007863d28270f8c77c12aadccdf51717deba32",
+      "metadata": {
+        "proveedor": "PRISCILA BRUNO CALIARI 12427533629",
+        "representante": "Priscila Bruno Caliari"
+      },
+      "eventHash": "7cfccefacf24a35453fb90a1381cb9424386c84eb711df0eb3ae821674142eac"
+    },
+    {
+      "eventId": "c11b0ce3-89c3-4f28-8f79-0ae5604aeb29",
+      "uid": "41402368000163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T18:06:39.263Z",
+      "timestampLocal": "2026-03-31T18:06:39.263Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "7cfccefacf24a35453fb90a1381cb9424386c84eb711df0eb3ae821674142eac",
+      "documentHash": "cde3f0ac7919cf1771691e48d5007863d28270f8c77c12aadccdf51717deba32",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "18cd08599f23afe09b4229a45d9e5816735185de3dcec46243ccfd03e4b8eb99"
+    },
+    {
+      "eventId": "e01cab37-c94c-4f38-8425-b69d5244b09e",
+      "uid": "41402368000163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T18:06:39.263Z",
+      "timestampLocal": "2026-03-31T18:06:39.263Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "18cd08599f23afe09b4229a45d9e5816735185de3dcec46243ccfd03e4b8eb99",
+      "documentHash": "cde3f0ac7919cf1771691e48d5007863d28270f8c77c12aadccdf51717deba32",
+      "metadata": {
+        "proveedor": "PRISCILA BRUNO CALIARI 12427533629",
+        "representante": "Priscila Bruno Caliari"
+      },
+      "eventHash": "71adefcca08e56935149dbfcb024eac81865515fe5ba436e035f2ebabe2fbb73"
+    },
+    {
+      "eventId": "c97bb5ae-677c-4056-8c85-afef72fe2d09",
+      "uid": "41402368000163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T18:06:40.297Z",
+      "timestampLocal": "2026-03-31T18:06:40.297Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "71adefcca08e56935149dbfcb024eac81865515fe5ba436e035f2ebabe2fbb73",
+      "documentHash": "70ae12180e377e997c4500f1548b4f1b9958646e3910e53294f21abee5042603",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "bedbb3899b8f897551a55b6bc0a3c149fbab8c82d4305f368a4d3ed86948c86f"
+    },
+    {
+      "eventId": "95b12de5-b60e-42f2-ad9e-15ac25158def",
+      "uid": "41402368000163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T18:06:40.297Z",
+      "timestampLocal": "2026-03-31T18:06:40.297Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "bedbb3899b8f897551a55b6bc0a3c149fbab8c82d4305f368a4d3ed86948c86f",
+      "documentHash": "70ae12180e377e997c4500f1548b4f1b9958646e3910e53294f21abee5042603",
+      "metadata": {
+        "proveedor": "PRISCILA BRUNO CALIARI 12427533629",
+        "representante": "Priscila Bruno Caliari"
+      },
+      "eventHash": "645f0b32741ed0a4497e17c24d5bd0507b85e38d42f813783f3228cebeec8365"
+    },
+    {
+      "eventId": "345d1b98-265d-4d9a-bfea-95e24c3448f0",
+      "uid": "41402368000163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T18:06:40.805Z",
+      "timestampLocal": "2026-03-31T18:06:40.805Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "645f0b32741ed0a4497e17c24d5bd0507b85e38d42f813783f3228cebeec8365",
+      "documentHash": "70ae12180e377e997c4500f1548b4f1b9958646e3910e53294f21abee5042603",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "38f06f6f4a029a566f82668801c22352d6a5fc0ba6933e805374cf757ed6730b"
+    },
+    {
+      "eventId": "2a261d20-3151-432a-a73f-244a656ef29d",
+      "uid": "41402368000163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T18:06:40.805Z",
+      "timestampLocal": "2026-03-31T18:06:40.805Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "38f06f6f4a029a566f82668801c22352d6a5fc0ba6933e805374cf757ed6730b",
+      "documentHash": "70ae12180e377e997c4500f1548b4f1b9958646e3910e53294f21abee5042603",
+      "metadata": {
+        "proveedor": "PRISCILA BRUNO CALIARI 12427533629",
+        "representante": "Priscila Bruno Caliari"
+      },
+      "eventHash": "ea3c8d2890cd781c72e168d2b9d36a8ff090b8c8fde29157c6b5b44f59098f1e"
+    },
+    {
+      "eventId": "e76eae2a-961c-4faa-a3d7-5ec77ca4fb4e",
+      "uid": "41402368000163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T18:06:41.033Z",
+      "timestampLocal": "2026-03-31T18:06:41.033Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "ea3c8d2890cd781c72e168d2b9d36a8ff090b8c8fde29157c6b5b44f59098f1e",
+      "documentHash": "70ae12180e377e997c4500f1548b4f1b9958646e3910e53294f21abee5042603",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "16bbdfc5a09a145eaf8000c20435d0d5193ba98b6c0416833e083db6085c3dfb"
+    },
+    {
+      "eventId": "57488944-58f2-4886-9c71-2dc9d838b584",
+      "uid": "41402368000163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T18:06:41.033Z",
+      "timestampLocal": "2026-03-31T18:06:41.033Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "16bbdfc5a09a145eaf8000c20435d0d5193ba98b6c0416833e083db6085c3dfb",
+      "documentHash": "70ae12180e377e997c4500f1548b4f1b9958646e3910e53294f21abee5042603",
+      "metadata": {
+        "proveedor": "PRISCILA BRUNO CALIARI 12427533629",
+        "representante": "Priscila Bruno Caliari"
+      },
+      "eventHash": "d59cdb71c475164f45e7b6022b5527423c55e146ac227d11b111db516c0d559f"
+    },
+    {
+      "eventId": "976f446a-8e41-4ef3-b5be-5a65c5b4cd86",
+      "uid": "41402368000163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T18:06:42.952Z",
+      "timestampLocal": "2026-03-31T18:06:42.952Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "d59cdb71c475164f45e7b6022b5527423c55e146ac227d11b111db516c0d559f",
+      "documentHash": "8d9593e6834b9cb6b5c753653a5c384f9bcb7611dc2f65e2d27ab8eba996f980",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "91b7b04a8fefb3951796f1ad9ec9ed255ba46022e59d76fec9ff21b3593d3078"
+    },
+    {
+      "eventId": "ca184461-c832-44d2-9498-9431ab29b2d6",
+      "uid": "41402368000163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T18:06:42.952Z",
+      "timestampLocal": "2026-03-31T18:06:42.952Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "91b7b04a8fefb3951796f1ad9ec9ed255ba46022e59d76fec9ff21b3593d3078",
+      "documentHash": "8d9593e6834b9cb6b5c753653a5c384f9bcb7611dc2f65e2d27ab8eba996f980",
+      "metadata": {
+        "proveedor": "PRISCILA BRUNO CALIARI 12427533629",
+        "representante": "Priscila Bruno Caliari"
+      },
+      "eventHash": "8f220db18514d20267a39084ea8bbb76ff6e6b2bf9e44e33450a6c11ec72af64"
+    },
+    {
+      "eventId": "48da37f6-fd69-4ec1-a97a-5d2e26782896",
+      "uid": "41402368000163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T18:06:43.120Z",
+      "timestampLocal": "2026-03-31T18:06:43.120Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "8f220db18514d20267a39084ea8bbb76ff6e6b2bf9e44e33450a6c11ec72af64",
+      "documentHash": "8d9593e6834b9cb6b5c753653a5c384f9bcb7611dc2f65e2d27ab8eba996f980",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "155123126912878a73c5ea7b59cdfeab0b6bc05fc2947d2c678f8e78f9c4d53d"
+    },
+    {
+      "eventId": "aa508f90-cae3-42d2-8c2b-51c73ed1186f",
+      "uid": "41402368000163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T18:06:43.120Z",
+      "timestampLocal": "2026-03-31T18:06:43.120Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "155123126912878a73c5ea7b59cdfeab0b6bc05fc2947d2c678f8e78f9c4d53d",
+      "documentHash": "8d9593e6834b9cb6b5c753653a5c384f9bcb7611dc2f65e2d27ab8eba996f980",
+      "metadata": {
+        "proveedor": "PRISCILA BRUNO CALIARI 12427533629",
+        "representante": "Priscila Bruno Caliari"
+      },
+      "eventHash": "1d090c8e5e6047fe888c1a2df0d63e1448e545d004e86b1f7b1ad7e7e00ad056"
+    },
+    {
+      "eventId": "de4c8cc9-24b1-4c71-900e-81300b43a4db",
+      "uid": "41402368000163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T18:06:43.287Z",
+      "timestampLocal": "2026-03-31T18:06:43.287Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "1d090c8e5e6047fe888c1a2df0d63e1448e545d004e86b1f7b1ad7e7e00ad056",
+      "documentHash": "8d9593e6834b9cb6b5c753653a5c384f9bcb7611dc2f65e2d27ab8eba996f980",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "37c42c09d625cec974c0829e90f2c2561844eca7522a3681bcde56c3ad110eef"
+    },
+    {
+      "eventId": "e30fe82b-fd58-4d80-9f5f-84ad18d1c6d3",
+      "uid": "41402368000163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T18:06:43.287Z",
+      "timestampLocal": "2026-03-31T18:06:43.287Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "37c42c09d625cec974c0829e90f2c2561844eca7522a3681bcde56c3ad110eef",
+      "documentHash": "8d9593e6834b9cb6b5c753653a5c384f9bcb7611dc2f65e2d27ab8eba996f980",
+      "metadata": {
+        "proveedor": "PRISCILA BRUNO CALIARI 12427533629",
+        "representante": "Priscila Bruno Caliari"
+      },
+      "eventHash": "56bd2b033832635d338fd5ba1ab649fa2b7ea5623df646ae3eb644f3ffc27f16"
+    },
+    {
+      "eventId": "ab83c9f3-a297-4767-964a-982253da5935",
+      "uid": "41402368000163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T18:06:43.435Z",
+      "timestampLocal": "2026-03-31T18:06:43.435Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "56bd2b033832635d338fd5ba1ab649fa2b7ea5623df646ae3eb644f3ffc27f16",
+      "documentHash": "8d9593e6834b9cb6b5c753653a5c384f9bcb7611dc2f65e2d27ab8eba996f980",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "76a4ad55475a75c5eb8de41855ec4dccc11d71273fec558c64a19c6ebb7fa4a2"
+    },
+    {
+      "eventId": "a0cbf7b7-bcda-404a-b4fb-b489ccd40f36",
+      "uid": "41402368000163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T18:06:43.436Z",
+      "timestampLocal": "2026-03-31T18:06:43.436Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "76a4ad55475a75c5eb8de41855ec4dccc11d71273fec558c64a19c6ebb7fa4a2",
+      "documentHash": "8d9593e6834b9cb6b5c753653a5c384f9bcb7611dc2f65e2d27ab8eba996f980",
+      "metadata": {
+        "proveedor": "PRISCILA BRUNO CALIARI 12427533629",
+        "representante": "Priscila Bruno Caliari"
+      },
+      "eventHash": "722270493ab6376921bb5eec6eaf4a2169aa922ff721670fb09c0baaa651e4d2"
+    },
+    {
+      "eventId": "58a2f8cf-6c3d-4eb3-bd2f-9813f6491ccd",
+      "uid": "41402368000163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T18:06:43.748Z",
+      "timestampLocal": "2026-03-31T18:06:43.748Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "722270493ab6376921bb5eec6eaf4a2169aa922ff721670fb09c0baaa651e4d2",
+      "documentHash": "8d9593e6834b9cb6b5c753653a5c384f9bcb7611dc2f65e2d27ab8eba996f980",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "6a9ea578aa59556f284b0fd5a7950101196d981d5a78a3ad7d62be122250d934"
+    },
+    {
+      "eventId": "fbe4fd5b-6553-49b2-b9b6-8155e565d616",
+      "uid": "41402368000163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T18:06:43.748Z",
+      "timestampLocal": "2026-03-31T18:06:43.748Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "6a9ea578aa59556f284b0fd5a7950101196d981d5a78a3ad7d62be122250d934",
+      "documentHash": "8d9593e6834b9cb6b5c753653a5c384f9bcb7611dc2f65e2d27ab8eba996f980",
+      "metadata": {
+        "proveedor": "PRISCILA BRUNO CALIARI 12427533629",
+        "representante": "Priscila Bruno Caliari"
+      },
+      "eventHash": "189746778a4b18581d79c99b59d7257df12b7b1583ba5cc69e375115db0ba549"
+    },
+    {
+      "eventId": "f4306b81-d823-4a30-8b9c-770e894988c9",
+      "uid": "41402368000163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T18:06:44.016Z",
+      "timestampLocal": "2026-03-31T18:06:44.016Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "189746778a4b18581d79c99b59d7257df12b7b1583ba5cc69e375115db0ba549",
+      "documentHash": "7e63067d976b922325a41532dc79b19a3093cc6863da3e99c5a2ae390eb81a27",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "08a49d1da917a9fe1bb54aecf847530a9b072ff59ac2cfebbf284928929062a3"
+    },
+    {
+      "eventId": "c516f9a8-b6f5-4bd5-80a3-dc5c3ddbd4e1",
+      "uid": "41402368000163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T18:06:44.016Z",
+      "timestampLocal": "2026-03-31T18:06:44.016Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "08a49d1da917a9fe1bb54aecf847530a9b072ff59ac2cfebbf284928929062a3",
+      "documentHash": "7e63067d976b922325a41532dc79b19a3093cc6863da3e99c5a2ae390eb81a27",
+      "metadata": {
+        "proveedor": "PRISCILA BRUNO CALIARI 12427533629",
+        "representante": "Priscila Bruno Caliari"
+      },
+      "eventHash": "9cd64cfdcf1ff17c41ad8394c98baea29a1860bd38a6086b671019c19f33695e"
+    },
+    {
+      "eventId": "d56eb041-7e00-4a28-b9b3-20490d6819ab",
+      "uid": "41402368000163",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-31T18:06:47.781Z",
+      "timestampLocal": "2026-03-31T18:06:47.781Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=41402368000163&nombre_proveedor_razon_social=PRISCILA+BRUNO+CALIARI+12427533629&nombre_representante_legal=Priscila+Bruno+Caliari&email=pricaliari%40changodigital.com.br",
+      "previousEventHash": "9cd64cfdcf1ff17c41ad8394c98baea29a1860bd38a6086b671019c19f33695e",
+      "documentHash": "7e63067d976b922325a41532dc79b19a3093cc6863da3e99c5a2ae390eb81a27",
+      "eventHash": "34990db9ebbbca64e348e857efdf286d2365fa3d12e0bacc68e5aaf25c8b12fc"
+    },
+    {
+      "eventId": "a3086a69-06c3-48a0-ac9c-a749b737c1cd",
+      "uid": "41402368000163",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-31T18:07:40.676Z",
+      "timestampLocal": "2026-03-31T15:07:40.676Z",
+      "timezone": "UTC-3",
+      "ipAddress": "201.1.48.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/2958a994-43d9-4510-834b-2e1c5ca60f3c",
+      "previousEventHash": "34990db9ebbbca64e348e857efdf286d2365fa3d12e0bacc68e5aaf25c8b12fc",
+      "documentHash": "3e516daf2ecb08aebc36b4138fd54bc17d0e60553e05414de9ea36d1b29a345b",
+      "signatureHash": "7662d07c93aa668c48128f5725526ce09600c98379741f7a72f0727827290883",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-31T15:07:37.102Z"
+      },
+      "eventHash": "b1193a4cb072e6334ddc118b55f8774bb5b2e276cd53bc0c02a2dc94c8ba74b1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 26,
+    "verifiedAt": "2026-03-31T18:07:40.676Z"
+  }
 }
