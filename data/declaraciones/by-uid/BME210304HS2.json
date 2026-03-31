@@ -1,19 +1,100 @@
 {
   "uid": "BME210304HS2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "BELONG MEDIA S DE RL DE CV",
     "nombre_representante_legal": "BRENDA NAVA CORDERO",
     "email": "montse@belong.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "BELONG MEDIA S DE RL DE CV",
-    "nombre_representante_legal": "BRENDA NAVA CORDERO",
-    "email": "montse@belong.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-03-31T11:55:54.410Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BME210304HS2",
+  "signatureMetadata": {
+    "ip": "189.236.28.129",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-03-31T17:55:58.124Z",
+    "signedAtLocal": "2026-03-31T11:55:58.124Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d1d123c4dd4341391fc1c98ea07000511c7819d9cc53aa55e4dd0d88dc593a2b"
+  "documentHash": "289863b1e5f3dd0aec489c03dd3d9eea0d6565e735804c62e1a683b39a6ee303",
+  "auditTrail": [
+    {
+      "eventId": "ddcb3df9-4597-4dd3-9a91-c2676d093c1e",
+      "uid": "BME210304HS2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-31T17:41:58.365Z",
+      "timestampLocal": "2026-03-31T17:41:58.365Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.28.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BME210304HS2&nombre_proveedor_razon_social=BELONG+MEDIA+S+DE+RL+DE+CV&nombre_representante_legal=BRENDA+NAVA+CORDERO&email=montse%40belong.mx",
+      "previousEventHash": null,
+      "documentHash": "d1d123c4dd4341391fc1c98ea07000511c7819d9cc53aa55e4dd0d88dc593a2b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c9714886e920949fa171b9d60b4925c713d8357d510aaf9d0bfdd2e100ec79ed"
+    },
+    {
+      "eventId": "19a15018-0476-4e7c-8ffe-4d6775230619",
+      "uid": "BME210304HS2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-31T17:41:58.365Z",
+      "timestampLocal": "2026-03-31T17:41:58.365Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.28.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BME210304HS2&nombre_proveedor_razon_social=BELONG+MEDIA+S+DE+RL+DE+CV&nombre_representante_legal=BRENDA+NAVA+CORDERO&email=montse%40belong.mx",
+      "previousEventHash": "c9714886e920949fa171b9d60b4925c713d8357d510aaf9d0bfdd2e100ec79ed",
+      "documentHash": "d1d123c4dd4341391fc1c98ea07000511c7819d9cc53aa55e4dd0d88dc593a2b",
+      "metadata": {
+        "proveedor": "BELONG MEDIA S DE RL DE CV",
+        "representante": "BRENDA NAVA CORDERO"
+      },
+      "eventHash": "cce89add301b2c1869889ec10af005a2115cda20f24fa24d6a9f643c14e1b4b1"
+    },
+    {
+      "eventId": "eaea3162-6988-4296-9366-f483ae73aa02",
+      "uid": "BME210304HS2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-31T17:42:01.800Z",
+      "timestampLocal": "2026-03-31T17:42:01.800Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.28.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BME210304HS2&nombre_proveedor_razon_social=BELONG+MEDIA+S+DE+RL+DE+CV&nombre_representante_legal=BRENDA+NAVA+CORDERO&email=montse%40belong.mx",
+      "previousEventHash": "cce89add301b2c1869889ec10af005a2115cda20f24fa24d6a9f643c14e1b4b1",
+      "documentHash": "d1d123c4dd4341391fc1c98ea07000511c7819d9cc53aa55e4dd0d88dc593a2b",
+      "eventHash": "bbb11f0457beb52e92ca12fc57bf5b2646c0e5ceeb62750a61b8da795ee301f4"
+    },
+    {
+      "eventId": "271f9bee-4dbb-47c2-95fa-69a82f383dd5",
+      "uid": "BME210304HS2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-03-31T17:55:58.124Z",
+      "timestampLocal": "2026-03-31T11:55:58.124Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.236.28.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a31f472f-4da9-4884-9ef9-f566e884d50b",
+      "previousEventHash": "bbb11f0457beb52e92ca12fc57bf5b2646c0e5ceeb62750a61b8da795ee301f4",
+      "documentHash": "289863b1e5f3dd0aec489c03dd3d9eea0d6565e735804c62e1a683b39a6ee303",
+      "signatureHash": "f9ab15c4a94d985dfef59a9d045e6c70b16b0141e58d99ebb38beb502d52b2f2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-03-31T11:55:54.410Z"
+      },
+      "eventHash": "294282a6cf8fc3f545ceb4bad12558e902a4e030c99a575dfb83ff9af3ec9608"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-03-31T17:55:58.124Z"
+  }
 }
