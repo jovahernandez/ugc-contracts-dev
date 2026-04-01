@@ -1,19 +1,100 @@
 {
   "uid": "CAZI730513HVA",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ITATI CANTORAL ZUCHI",
     "nombre_representante_legal": "ITATI CANTORAL",
     "email": "jrodriguez@asesneg.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ITATI CANTORAL ZUCHI",
-    "nombre_representante_legal": "ITATI CANTORAL",
-    "email": "jrodriguez@asesneg.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-01T17:18:11.749Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CAZI730513HVA",
+  "signatureMetadata": {
+    "ip": "201.168.154.106",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-01T23:18:15.244Z",
+    "signedAtLocal": "2026-04-01T17:18:15.244Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "de458f99e7ee57653a6679ea37a2ae5009b240f806dfabbebe318f43a7ad5d83"
+  "documentHash": "4eeb4cbf091a4fa633ebe6908b59ac4dc73e67a44ff96ac2f96ef56ef37e5d9e",
+  "auditTrail": [
+    {
+      "eventId": "7ee263e3-8819-4898-ad6e-0b20ce0a0347",
+      "uid": "CAZI730513HVA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-01T23:14:51.350Z",
+      "timestampLocal": "2026-04-01T23:14:51.350Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.168.154.106",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAZI730513HVA&nombre_proveedor_razon_social=ITATI+CANTORAL+ZUCHI&nombre_representante_legal=ITATI+CANTORAL&email=jrodriguez%40asesneg.com.mx",
+      "previousEventHash": null,
+      "documentHash": "de458f99e7ee57653a6679ea37a2ae5009b240f806dfabbebe318f43a7ad5d83",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "16263de3909eba04b185ca0accdb3ecebc1df8550636a0f6ae8bb8b526fe2c66"
+    },
+    {
+      "eventId": "a74de3d6-42be-4724-843d-27b7c9c1d710",
+      "uid": "CAZI730513HVA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-01T23:14:51.350Z",
+      "timestampLocal": "2026-04-01T23:14:51.350Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.168.154.106",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAZI730513HVA&nombre_proveedor_razon_social=ITATI+CANTORAL+ZUCHI&nombre_representante_legal=ITATI+CANTORAL&email=jrodriguez%40asesneg.com.mx",
+      "previousEventHash": "16263de3909eba04b185ca0accdb3ecebc1df8550636a0f6ae8bb8b526fe2c66",
+      "documentHash": "de458f99e7ee57653a6679ea37a2ae5009b240f806dfabbebe318f43a7ad5d83",
+      "metadata": {
+        "proveedor": "ITATI CANTORAL ZUCHI",
+        "representante": "ITATI CANTORAL"
+      },
+      "eventHash": "9ba1120170c308330ef3da315b311ba038cdf69654b0340def13ab778f220048"
+    },
+    {
+      "eventId": "ebc7decd-1428-46a9-bbdd-b4472a11b0a6",
+      "uid": "CAZI730513HVA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-01T23:14:52.302Z",
+      "timestampLocal": "2026-04-01T23:14:52.302Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.168.154.106",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAZI730513HVA&nombre_proveedor_razon_social=ITATI+CANTORAL+ZUCHI&nombre_representante_legal=ITATI+CANTORAL&email=jrodriguez%40asesneg.com.mx",
+      "previousEventHash": "9ba1120170c308330ef3da315b311ba038cdf69654b0340def13ab778f220048",
+      "documentHash": "de458f99e7ee57653a6679ea37a2ae5009b240f806dfabbebe318f43a7ad5d83",
+      "eventHash": "d52e73c86a289afc4d7a54ad2d3f255e9c31cc141b09ae6700bc670e8fcd6227"
+    },
+    {
+      "eventId": "6e603de9-fb4e-4e5d-a709-ffbf21d7787c",
+      "uid": "CAZI730513HVA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-01T23:18:15.244Z",
+      "timestampLocal": "2026-04-01T17:18:15.244Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.168.154.106",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/703b27d5-7f10-46ed-ae7a-d9e191f25544",
+      "previousEventHash": "d52e73c86a289afc4d7a54ad2d3f255e9c31cc141b09ae6700bc670e8fcd6227",
+      "documentHash": "4eeb4cbf091a4fa633ebe6908b59ac4dc73e67a44ff96ac2f96ef56ef37e5d9e",
+      "signatureHash": "c22b383472a17e65eb06c12abf5f873eb126b64de7bcd764480ce4201bd28605",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-01T17:18:11.749Z"
+      },
+      "eventHash": "f0a1eef31ed71d21975cecc8cb220fb1b03035195ee13962012eb50ddcbbe18e"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-01T23:18:15.322Z"
+  }
 }
