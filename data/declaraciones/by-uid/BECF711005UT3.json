@@ -1,19 +1,115 @@
 {
   "uid": "BECF711005UT3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Francisco Jesus Bello Ceballos",
     "nombre_representante_legal": "Francisco Jesus Bello Ceballos",
     "email": "pedidos@imprimo.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Francisco Jesus Bello Ceballos",
-    "nombre_representante_legal": "Francisco Jesus Bello Ceballos",
-    "email": "pedidos@imprimo.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-01T15:21:08.560Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BECF711005UT3",
+  "signatureMetadata": {
+    "ip": "187.189.123.37",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-01T21:21:11.909Z",
+    "signedAtLocal": "2026-04-01T15:21:11.909Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "26b58762432e54f6807352d5007a7067354b82d30ba46d7a58d32064f1aa9a1f"
+  "documentHash": "e5b327849bcb645d0911654e72ae24bf915780d69d3f75cfe8725d35fdc0cb86",
+  "auditTrail": [
+    {
+      "eventId": "d721ebf6-68e3-4f98-b047-985b37ef186d",
+      "uid": "BECF711005UT3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-01T21:19:32.682Z",
+      "timestampLocal": "2026-04-01T21:19:32.682Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.123.37",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BECF711005UT3&nombre_proveedor_razon_social=Francisco+Jesus+Bello+Ceballos+&nombre_representante_legal=Francisco+Jesus+Bello+Ceballos+&email=pedidos%40imprimo.com.mx",
+      "previousEventHash": null,
+      "documentHash": "26b58762432e54f6807352d5007a7067354b82d30ba46d7a58d32064f1aa9a1f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "39d5b537d63e0d946dadf107e9773d9db4d004e49d7efeeb653b7cc38c643e7a"
+    },
+    {
+      "eventId": "183d7371-046c-429a-b7e4-8ed5b4c70af9",
+      "uid": "BECF711005UT3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-01T21:19:32.682Z",
+      "timestampLocal": "2026-04-01T21:19:32.682Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.123.37",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BECF711005UT3&nombre_proveedor_razon_social=Francisco+Jesus+Bello+Ceballos+&nombre_representante_legal=Francisco+Jesus+Bello+Ceballos+&email=pedidos%40imprimo.com.mx",
+      "previousEventHash": "39d5b537d63e0d946dadf107e9773d9db4d004e49d7efeeb653b7cc38c643e7a",
+      "documentHash": "26b58762432e54f6807352d5007a7067354b82d30ba46d7a58d32064f1aa9a1f",
+      "metadata": {
+        "proveedor": "Francisco Jesus Bello Ceballos",
+        "representante": "Francisco Jesus Bello Ceballos"
+      },
+      "eventHash": "069e4d76945f4a5f99ba8476ab30da6e3028161038544e03da11a387566e7458"
+    },
+    {
+      "eventId": "7fd4204e-ace2-4e32-9ba2-a84b975a9a1d",
+      "uid": "BECF711005UT3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-01T21:19:33.678Z",
+      "timestampLocal": "2026-04-01T21:19:33.678Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.123.37",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BECF711005UT3&nombre_proveedor_razon_social=Francisco+Jesus+Bello+Ceballos+&nombre_representante_legal=Francisco+Jesus+Bello+Ceballos+&email=pedidos%40imprimo.com.mx",
+      "previousEventHash": "069e4d76945f4a5f99ba8476ab30da6e3028161038544e03da11a387566e7458",
+      "documentHash": "26b58762432e54f6807352d5007a7067354b82d30ba46d7a58d32064f1aa9a1f",
+      "eventHash": "9005a7d6aa572baaa4ab0a76c0a377c82a95e009d390f92ef0698c77b11871ff"
+    },
+    {
+      "eventId": "c96ed8a4-5ea8-4c03-a15f-0c45fde51508",
+      "uid": "BECF711005UT3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-01T21:20:13.120Z",
+      "timestampLocal": "2026-04-01T21:20:13.120Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.123.37",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "9005a7d6aa572baaa4ab0a76c0a377c82a95e009d390f92ef0698c77b11871ff",
+      "documentHash": "26b58762432e54f6807352d5007a7067354b82d30ba46d7a58d32064f1aa9a1f",
+      "eventHash": "124bad052fad1fcd4435aff404e86aff25fc0f1fa2a7d8fd56d3fdd5e67da20b"
+    },
+    {
+      "eventId": "c2e3bbec-556d-405b-af6d-4d59b84d8183",
+      "uid": "BECF711005UT3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-01T21:21:11.909Z",
+      "timestampLocal": "2026-04-01T15:21:11.909Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.123.37",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1e590d45-e07c-4305-8317-385949f79812",
+      "previousEventHash": "124bad052fad1fcd4435aff404e86aff25fc0f1fa2a7d8fd56d3fdd5e67da20b",
+      "documentHash": "e5b327849bcb645d0911654e72ae24bf915780d69d3f75cfe8725d35fdc0cb86",
+      "signatureHash": "3a01d587649d69ca6921f704d9abe86d0ee61eee02b5e9a7f4a20fd7b8bef534",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-01T15:21:08.560Z"
+      },
+      "eventHash": "74692b2873e82ec02c9953ab3b8a3d1069b64fa41151d1450817553812731a35"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-04-01T21:21:11.912Z"
+  }
 }
