@@ -1,19 +1,152 @@
 {
   "uid": "26686328000105",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "BACOMVI ENTRETENIMENTO LTDA",
     "nombre_representante_legal": "VINICIUS QUINTAL PORTAS DE BARROS",
     "email": "bacomvi@brunch.ag"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "BACOMVI ENTRETENIMENTO LTDA",
-    "nombre_representante_legal": "VINICIUS QUINTAL PORTAS DE BARROS",
-    "email": "bacomvi@brunch.ag"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-01T16:27:40.674Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/26686328000105",
+  "signatureMetadata": {
+    "ip": "181.233.106.223",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-01T19:27:43.990Z",
+    "signedAtLocal": "2026-04-01T16:27:43.990Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3e0f3f67780638ab9fa4fbaaabbc074d9b4f59fcd5cb26be6c3d8af06b421095"
+  "documentHash": "e55fea0d08a32b7602f0c13138aecfb3bc4edd092c8d9604140c4ad4fcd0f18f",
+  "auditTrail": [
+    {
+      "eventId": "bf27f814-5219-46e0-a9c2-f8f6530a607c",
+      "uid": "26686328000105",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-01T19:26:18.871Z",
+      "timestampLocal": "2026-04-01T19:26:18.871Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.233.106.223",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=26686328000105&nombre_proveedor_razon_social=BACOMVI+ENTRETENIMENTO+LTDA&nombre_representante_legal=+VINICIUS+QUINTAL+PORTAS+DE+BARROS&email=bacomvi%40brunch.ag",
+      "previousEventHash": null,
+      "documentHash": "bf91bfd569c85531ace3f47c268c98896d380a11b015f5b11029d50ba776c95b",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "665c22a9546c072a1fb628b2fc353574d88dd9c65b1d98f2f0c16b84e6caedd3"
+    },
+    {
+      "eventId": "2b4eb29f-c3bb-49d0-82f0-c82bdc62cbe9",
+      "uid": "26686328000105",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-01T19:26:18.871Z",
+      "timestampLocal": "2026-04-01T19:26:18.871Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.233.106.223",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=26686328000105&nombre_proveedor_razon_social=BACOMVI+ENTRETENIMENTO+LTDA&nombre_representante_legal=+VINICIUS+QUINTAL+PORTAS+DE+BARROS&email=bacomvi%40brunch.ag",
+      "previousEventHash": "665c22a9546c072a1fb628b2fc353574d88dd9c65b1d98f2f0c16b84e6caedd3",
+      "documentHash": "bf91bfd569c85531ace3f47c268c98896d380a11b015f5b11029d50ba776c95b",
+      "metadata": {
+        "proveedor": "BACOMVI ENTRETENIMENTO LTDA",
+        "representante": "VINICIUS QUINTAL PORTAS DE BARROS"
+      },
+      "eventHash": "d88ad8b53edd94061c9091fdc4ffa47d28a1fb59ca743e58bd299c09defbcdf4"
+    },
+    {
+      "eventId": "4bd2ae5f-26a7-4419-b260-079213c7201b",
+      "uid": "26686328000105",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-01T19:26:19.915Z",
+      "timestampLocal": "2026-04-01T19:26:19.915Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.233.106.223",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=26686328000105&nombre_proveedor_razon_social=BACOMVI+ENTRETENIMENTO+LTDA&nombre_representante_legal=+VINICIUS+QUINTAL+PORTAS+DE+BARROS&email=bacomvi%40brunch.ag",
+      "previousEventHash": "d88ad8b53edd94061c9091fdc4ffa47d28a1fb59ca743e58bd299c09defbcdf4",
+      "documentHash": "bf91bfd569c85531ace3f47c268c98896d380a11b015f5b11029d50ba776c95b",
+      "eventHash": "c615f1d0189fa57382c15e94e74c971d9e22eef9fa7ce3c934ac8c0b943c51cd"
+    },
+    {
+      "eventId": "ab1c6745-9ad4-4a06-8f1b-67064b53621f",
+      "uid": "26686328000105",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-01T19:26:20.093Z",
+      "timestampLocal": "2026-04-01T19:26:20.093Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.233.106.223",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=26686328000105&nombre_proveedor_razon_social=BACOMVI+ENTRETENIMENTO+LTDA&nombre_representante_legal=+VINICIUS+QUINTAL+PORTAS+DE+BARROS&email=bacomvi%40brunch.ag",
+      "previousEventHash": "c615f1d0189fa57382c15e94e74c971d9e22eef9fa7ce3c934ac8c0b943c51cd",
+      "documentHash": "3e0f3f67780638ab9fa4fbaaabbc074d9b4f59fcd5cb26be6c3d8af06b421095",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "8df1fcb538f042f4833c1dc487427bb142c7d82e670f8ddb3b92d4e7d0fa2e76"
+    },
+    {
+      "eventId": "f741941b-1447-4561-a4af-35e15d18396a",
+      "uid": "26686328000105",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-01T19:26:20.093Z",
+      "timestampLocal": "2026-04-01T19:26:20.093Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.233.106.223",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=26686328000105&nombre_proveedor_razon_social=BACOMVI+ENTRETENIMENTO+LTDA&nombre_representante_legal=+VINICIUS+QUINTAL+PORTAS+DE+BARROS&email=bacomvi%40brunch.ag",
+      "previousEventHash": "8df1fcb538f042f4833c1dc487427bb142c7d82e670f8ddb3b92d4e7d0fa2e76",
+      "documentHash": "3e0f3f67780638ab9fa4fbaaabbc074d9b4f59fcd5cb26be6c3d8af06b421095",
+      "metadata": {
+        "proveedor": "BACOMVI ENTRETENIMENTO LTDA",
+        "representante": "VINICIUS QUINTAL PORTAS DE BARROS"
+      },
+      "eventHash": "90baa8e53ed78fb6efd1dce9e373f9b915e131cac226fdc3df6be8d82670a83d"
+    },
+    {
+      "eventId": "c057070a-a99f-4794-85dd-b3546bd51c5e",
+      "uid": "26686328000105",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-01T19:26:21.045Z",
+      "timestampLocal": "2026-04-01T19:26:21.045Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.233.106.223",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=26686328000105&nombre_proveedor_razon_social=BACOMVI+ENTRETENIMENTO+LTDA&nombre_representante_legal=+VINICIUS+QUINTAL+PORTAS+DE+BARROS&email=bacomvi%40brunch.ag",
+      "previousEventHash": "90baa8e53ed78fb6efd1dce9e373f9b915e131cac226fdc3df6be8d82670a83d",
+      "documentHash": "3e0f3f67780638ab9fa4fbaaabbc074d9b4f59fcd5cb26be6c3d8af06b421095",
+      "eventHash": "b01cdc9e4e4ac0c3f04fde99ad65b5bb67380d9ec0d6089a01297123bf28ba6c"
+    },
+    {
+      "eventId": "b785d745-3b13-459c-a228-93c40599eed9",
+      "uid": "26686328000105",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-01T19:27:43.990Z",
+      "timestampLocal": "2026-04-01T16:27:43.990Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.233.106.223",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/884eba0a-3cbd-4ecc-a3d7-670c26cdb009",
+      "previousEventHash": "b01cdc9e4e4ac0c3f04fde99ad65b5bb67380d9ec0d6089a01297123bf28ba6c",
+      "documentHash": "e55fea0d08a32b7602f0c13138aecfb3bc4edd092c8d9604140c4ad4fcd0f18f",
+      "signatureHash": "24374c55ae2c623f207ea7d66d44601e2690bc6c5f9f452723ec4863e8eb673e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-01T16:27:40.674Z"
+      },
+      "eventHash": "5518fdbda5f84beac019e4f7027ac027f6d7b42382f35e0e165ba73b898b7e74"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-04-01T19:27:43.990Z"
+  }
 }
