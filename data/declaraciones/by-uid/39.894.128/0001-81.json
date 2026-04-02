@@ -1,19 +1,100 @@
 {
   "uid": "39.894.128/0001-81",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "MATTONI COMUNICACAO E AGENCIAMENTO LTDA",
     "nombre_representante_legal": "Juliana Mattoni Dern",
     "email": "daniel@mattonicomunicacao.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MATTONI COMUNICACAO E AGENCIAMENTO LTDA",
-    "nombre_representante_legal": "Juliana Mattoni Dern",
-    "email": "daniel@mattonicomunicacao.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-02T11:47:41.857Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/39.894.128%2F0001-81",
+  "signatureMetadata": {
+    "ip": "189.122.40.42",
+    "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-02T14:47:47.606Z",
+    "signedAtLocal": "2026-04-02T11:47:47.606Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9e1b9af895b2eded4f728208f23ee191652e6cf5739819ac91fcab637a825cf0"
+  "documentHash": "73c84c48310879e6020c4048319b0d527c0f1a3c75b5cbc711fa2d278cc58e5d",
+  "auditTrail": [
+    {
+      "eventId": "e8377ed7-a14d-4831-bb46-832f4e2ae00f",
+      "uid": "39.894.128/0001-81",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-02T14:47:24.028Z",
+      "timestampLocal": "2026-04-02T14:47:24.028Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.122.40.42",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=39.894.128%2F0001-81&nombre_proveedor_razon_social=MATTONI+COMUNICACAO+E+AGENCIAMENTO+LTDA&nombre_representante_legal=Juliana+Mattoni+Dern&email=daniel%40mattonicomunicacao.com",
+      "previousEventHash": null,
+      "documentHash": "9e1b9af895b2eded4f728208f23ee191652e6cf5739819ac91fcab637a825cf0",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "27f15af38e5438a56025b4e0d2112aea970c9a61ae98181e7ac886d110ed88b1"
+    },
+    {
+      "eventId": "cb1bab86-d6af-471f-8c94-a1cdc1b72add",
+      "uid": "39.894.128/0001-81",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-02T14:47:24.028Z",
+      "timestampLocal": "2026-04-02T14:47:24.028Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.122.40.42",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=39.894.128%2F0001-81&nombre_proveedor_razon_social=MATTONI+COMUNICACAO+E+AGENCIAMENTO+LTDA&nombre_representante_legal=Juliana+Mattoni+Dern&email=daniel%40mattonicomunicacao.com",
+      "previousEventHash": "27f15af38e5438a56025b4e0d2112aea970c9a61ae98181e7ac886d110ed88b1",
+      "documentHash": "9e1b9af895b2eded4f728208f23ee191652e6cf5739819ac91fcab637a825cf0",
+      "metadata": {
+        "proveedor": "MATTONI COMUNICACAO E AGENCIAMENTO LTDA",
+        "representante": "Juliana Mattoni Dern"
+      },
+      "eventHash": "af8ee81bb0f27de3cd91cbd90663943b2067a67369aeab9d0b8135ac81ab49a1"
+    },
+    {
+      "eventId": "1b83ab04-7f6c-4f73-9b86-411e4edf9151",
+      "uid": "39.894.128/0001-81",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-02T14:47:25.445Z",
+      "timestampLocal": "2026-04-02T14:47:25.445Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.122.40.42",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=39.894.128%2F0001-81&nombre_proveedor_razon_social=MATTONI+COMUNICACAO+E+AGENCIAMENTO+LTDA&nombre_representante_legal=Juliana+Mattoni+Dern&email=daniel%40mattonicomunicacao.com",
+      "previousEventHash": "af8ee81bb0f27de3cd91cbd90663943b2067a67369aeab9d0b8135ac81ab49a1",
+      "documentHash": "9e1b9af895b2eded4f728208f23ee191652e6cf5739819ac91fcab637a825cf0",
+      "eventHash": "15dc8ee13f32270a2a56c190f3cddafb22eb6e21315b3caf0a67da0fc18e6604"
+    },
+    {
+      "eventId": "baa1073b-dce6-4017-a201-f546cec37415",
+      "uid": "39.894.128/0001-81",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-02T14:47:47.606Z",
+      "timestampLocal": "2026-04-02T11:47:47.606Z",
+      "timezone": "UTC-3",
+      "ipAddress": "189.122.40.42",
+      "userAgent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/364be1f4-557e-427c-8c64-815f73641550",
+      "previousEventHash": "15dc8ee13f32270a2a56c190f3cddafb22eb6e21315b3caf0a67da0fc18e6604",
+      "documentHash": "73c84c48310879e6020c4048319b0d527c0f1a3c75b5cbc711fa2d278cc58e5d",
+      "signatureHash": "d7bf4c8bc707e2641783550fe7d3a1f85c307385d877dc5fb8aa36b57672da1d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-02T11:47:41.857Z"
+      },
+      "eventHash": "4130d820c52b20c72ee51b01696d76ea22386d0f137b580a7860f1a77390c9f7"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-02T14:47:47.606Z"
+  }
 }
