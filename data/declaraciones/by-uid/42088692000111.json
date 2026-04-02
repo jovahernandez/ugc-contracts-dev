@@ -1,19 +1,130 @@
 {
   "uid": "42088692000111",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "PRETA DEMAIS LTDA",
     "nombre_representante_legal": "11 93618-2318",
     "email": "contatopretademais@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PRETA DEMAIS LTDA",
-    "nombre_representante_legal": "11 93618-2318",
-    "email": "contatopretademais@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-02T14:49:56.536Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/42088692000111",
+  "signatureMetadata": {
+    "ip": "191.183.43.115",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-02T17:49:59.892Z",
+    "signedAtLocal": "2026-04-02T14:49:59.892Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c54204977223f26cebbdba525e881b37ffedd930db70e8d19955356c7730985a"
+  "documentHash": "55b61973943c536c377c713884be31e14411d3a4497614728f48d3271f3ed563",
+  "auditTrail": [
+    {
+      "eventId": "cdd2d24f-20aa-4d35-bb87-219762b0ef10",
+      "uid": "42088692000111",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-02T17:19:44.200Z",
+      "timestampLocal": "2026-04-02T17:19:44.200Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.95.213.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42088692000111&nombre_proveedor_razon_social=PRETA+DEMAIS+LTDA&nombre_representante_legal=11+93618-2318&email=contatopretademais%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "c54204977223f26cebbdba525e881b37ffedd930db70e8d19955356c7730985a",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "d2a2a85a798effa63bb4f981019937cece72d1dbdaef2c7d4b969e9eb268ddfe"
+    },
+    {
+      "eventId": "e8fe00b2-8cf6-4176-9901-7af34d666adc",
+      "uid": "42088692000111",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-02T17:19:44.200Z",
+      "timestampLocal": "2026-04-02T17:19:44.200Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.95.213.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42088692000111&nombre_proveedor_razon_social=PRETA+DEMAIS+LTDA&nombre_representante_legal=11+93618-2318&email=contatopretademais%40gmail.com",
+      "previousEventHash": "d2a2a85a798effa63bb4f981019937cece72d1dbdaef2c7d4b969e9eb268ddfe",
+      "documentHash": "c54204977223f26cebbdba525e881b37ffedd930db70e8d19955356c7730985a",
+      "metadata": {
+        "proveedor": "PRETA DEMAIS LTDA",
+        "representante": "11 93618-2318"
+      },
+      "eventHash": "112d8a227842528546bd85dd32067a426b84377ed6fa26534567b231acfb34d2"
+    },
+    {
+      "eventId": "5bf22ffa-51f2-40d6-b520-8e3ef14aead9",
+      "uid": "42088692000111",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-02T17:19:45.368Z",
+      "timestampLocal": "2026-04-02T17:19:45.368Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.95.213.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42088692000111&nombre_proveedor_razon_social=PRETA+DEMAIS+LTDA&nombre_representante_legal=11+93618-2318&email=contatopretademais%40gmail.com",
+      "previousEventHash": "112d8a227842528546bd85dd32067a426b84377ed6fa26534567b231acfb34d2",
+      "documentHash": "c54204977223f26cebbdba525e881b37ffedd930db70e8d19955356c7730985a",
+      "eventHash": "62e2c5c365866b264d2f1d6cdf1e4c2b2725c0a29085367c50f5c91e9f631f17"
+    },
+    {
+      "eventId": "16c1e4be-c956-4a51-887d-417b697a2716",
+      "uid": "42088692000111",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-02T17:49:17.808Z",
+      "timestampLocal": "2026-04-02T17:49:17.808Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.183.43.115",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "62e2c5c365866b264d2f1d6cdf1e4c2b2725c0a29085367c50f5c91e9f631f17",
+      "documentHash": "c54204977223f26cebbdba525e881b37ffedd930db70e8d19955356c7730985a",
+      "eventHash": "713ced074303cd52294cb9e5dfccedd967c1d82c2df7e39ad15f76c4f9511e0a"
+    },
+    {
+      "eventId": "9cb7fd4d-ce37-41ec-bce3-7ae41b6b72ce",
+      "uid": "42088692000111",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-02T17:49:29.087Z",
+      "timestampLocal": "2026-04-02T17:49:29.087Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.183.43.115",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "713ced074303cd52294cb9e5dfccedd967c1d82c2df7e39ad15f76c4f9511e0a",
+      "documentHash": "c54204977223f26cebbdba525e881b37ffedd930db70e8d19955356c7730985a",
+      "eventHash": "7d2a826c29e45d06593b37b07b811c934c7c4c42ff8a2e1fac812a9070eaf007"
+    },
+    {
+      "eventId": "dabc4dc0-b6c6-417f-83d0-12f88275bc56",
+      "uid": "42088692000111",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-02T17:49:59.892Z",
+      "timestampLocal": "2026-04-02T14:49:59.892Z",
+      "timezone": "UTC-3",
+      "ipAddress": "191.183.43.115",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8c09030d-1a7a-41a2-82c1-d18ce755bb4e",
+      "previousEventHash": "7d2a826c29e45d06593b37b07b811c934c7c4c42ff8a2e1fac812a9070eaf007",
+      "documentHash": "55b61973943c536c377c713884be31e14411d3a4497614728f48d3271f3ed563",
+      "signatureHash": "abf29ce78166047ea88fbaf08c1acd7ffb92c915d123f3cb23a8a70889662a9e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-02T14:49:56.536Z"
+      },
+      "eventHash": "de05010f2c8461c8f0383eb9190fb99ad229fdc6b6db481f26615bd7f5725926"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-04-02T17:49:59.893Z"
+  }
 }
