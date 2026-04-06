@@ -1,19 +1,100 @@
 {
   "uid": "HVI250414RP7",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "HELLO VIRAL SA DE CV",
     "nombre_representante_legal": "KRIS GISEL ROMERO CROWSON",
     "email": "admin@helloviral.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "HELLO VIRAL SA DE CV",
-    "nombre_representante_legal": "KRIS GISEL ROMERO CROWSON",
-    "email": "admin@helloviral.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-06T17:02:00.983Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/HVI250414RP7",
+  "signatureMetadata": {
+    "ip": "187.189.114.46",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-06T23:02:04.410Z",
+    "signedAtLocal": "2026-04-06T17:02:04.410Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a4396a07d6a4db8f14400a6fa5e1d58584444f5b2b0c2047053129c3971ebe56"
+  "documentHash": "866216ffea89f72c50bcbf82fc4d11f95025aebe59b81c9ade31e098dc1c6d99",
+  "auditTrail": [
+    {
+      "eventId": "adda5b41-19f9-4e25-98c3-eb87142e0777",
+      "uid": "HVI250414RP7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-06T23:01:33.865Z",
+      "timestampLocal": "2026-04-06T23:01:33.865Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.114.46",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HVI250414RP7&nombre_proveedor_razon_social=HELLO+VIRAL+SA+DE+CV&nombre_representante_legal=KRIS+GISEL+ROMERO+CROWSON&email=admin%40helloviral.mx",
+      "previousEventHash": null,
+      "documentHash": "a4396a07d6a4db8f14400a6fa5e1d58584444f5b2b0c2047053129c3971ebe56",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cc930f8149afb8bbecf39ed87cb208ebc3cbc00a023766e9951ca51286f7d342"
+    },
+    {
+      "eventId": "2ffeeb2e-8856-46cf-bb58-01b62302a607",
+      "uid": "HVI250414RP7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-06T23:01:33.865Z",
+      "timestampLocal": "2026-04-06T23:01:33.865Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.114.46",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HVI250414RP7&nombre_proveedor_razon_social=HELLO+VIRAL+SA+DE+CV&nombre_representante_legal=KRIS+GISEL+ROMERO+CROWSON&email=admin%40helloviral.mx",
+      "previousEventHash": "cc930f8149afb8bbecf39ed87cb208ebc3cbc00a023766e9951ca51286f7d342",
+      "documentHash": "a4396a07d6a4db8f14400a6fa5e1d58584444f5b2b0c2047053129c3971ebe56",
+      "metadata": {
+        "proveedor": "HELLO VIRAL SA DE CV",
+        "representante": "KRIS GISEL ROMERO CROWSON"
+      },
+      "eventHash": "27f11c7ebfe25e0fe2c3c9e915ec29fbcdc86af595f9e17c549fdc201b0a805c"
+    },
+    {
+      "eventId": "cc2facd6-a261-495f-b75a-fb06a924a6a2",
+      "uid": "HVI250414RP7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-06T23:01:34.752Z",
+      "timestampLocal": "2026-04-06T23:01:34.752Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.114.46",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HVI250414RP7&nombre_proveedor_razon_social=HELLO+VIRAL+SA+DE+CV&nombre_representante_legal=KRIS+GISEL+ROMERO+CROWSON&email=admin%40helloviral.mx",
+      "previousEventHash": "27f11c7ebfe25e0fe2c3c9e915ec29fbcdc86af595f9e17c549fdc201b0a805c",
+      "documentHash": "a4396a07d6a4db8f14400a6fa5e1d58584444f5b2b0c2047053129c3971ebe56",
+      "eventHash": "9ccb9fd3783e707c509796d06464bde10b4012056ba67e2bbf9ed22d32b878d6"
+    },
+    {
+      "eventId": "3aec6b22-66a9-4cd4-bab5-bc23fd3a01ad",
+      "uid": "HVI250414RP7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-06T23:02:04.410Z",
+      "timestampLocal": "2026-04-06T17:02:04.410Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.114.46",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/9151a92c-671f-46aa-9309-b90876399241",
+      "previousEventHash": "9ccb9fd3783e707c509796d06464bde10b4012056ba67e2bbf9ed22d32b878d6",
+      "documentHash": "866216ffea89f72c50bcbf82fc4d11f95025aebe59b81c9ade31e098dc1c6d99",
+      "signatureHash": "a39d98b5ad179572eaa58581e1d5297b2c084667d41d9185742f5363c46015ec",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-06T17:02:00.983Z"
+      },
+      "eventHash": "c27968289b992a819f158a8b5b50faa48b676bdcf3e6dadae0945d041a7b0f32"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-06T23:02:04.411Z"
+  }
 }
