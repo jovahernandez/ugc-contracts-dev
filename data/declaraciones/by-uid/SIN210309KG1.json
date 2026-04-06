@@ -1,19 +1,100 @@
 {
   "uid": "SIN210309KG1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SUNSET INFLUENCE SA DE CV",
     "nombre_representante_legal": "Nabile Alana Tavira Jaimes",
     "email": "administracion@sunsetsocial.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SUNSET INFLUENCE SA DE CV",
-    "nombre_representante_legal": "Nabile Alana Tavira Jaimes",
-    "email": "administracion@sunsetsocial.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-06T11:36:48.093Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SIN210309KG1",
+  "signatureMetadata": {
+    "ip": "189.142.43.97",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-06T17:36:54.162Z",
+    "signedAtLocal": "2026-04-06T11:36:54.162Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "89e39270cc298f55add74e865697ac049998b3fc08cf8fd12084947f98086d7a"
+  "documentHash": "778b95c7abff673fb1b563826682bc3a94537dd3cba3c810b6c06aaf4b241a26",
+  "auditTrail": [
+    {
+      "eventId": "fc3775e0-93bd-4501-a4ac-ea78cce18687",
+      "uid": "SIN210309KG1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-06T17:35:15.019Z",
+      "timestampLocal": "2026-04-06T17:35:15.019Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.142.43.97",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SIN210309KG1&nombre_proveedor_razon_social=SUNSET+INFLUENCE+SA+DE+CV&nombre_representante_legal=Nabile+Alana+Tavira+Jaimes&email=administracion%40sunsetsocial.mx",
+      "previousEventHash": null,
+      "documentHash": "89e39270cc298f55add74e865697ac049998b3fc08cf8fd12084947f98086d7a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a90c3dbb0f47779a4a5f5cfaeb378e7b0ccb123215ec08456f764f202d6a2476"
+    },
+    {
+      "eventId": "a94f0f6c-14a0-4052-be1c-0b4a31472162",
+      "uid": "SIN210309KG1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-06T17:35:15.019Z",
+      "timestampLocal": "2026-04-06T17:35:15.019Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.142.43.97",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SIN210309KG1&nombre_proveedor_razon_social=SUNSET+INFLUENCE+SA+DE+CV&nombre_representante_legal=Nabile+Alana+Tavira+Jaimes&email=administracion%40sunsetsocial.mx",
+      "previousEventHash": "a90c3dbb0f47779a4a5f5cfaeb378e7b0ccb123215ec08456f764f202d6a2476",
+      "documentHash": "89e39270cc298f55add74e865697ac049998b3fc08cf8fd12084947f98086d7a",
+      "metadata": {
+        "proveedor": "SUNSET INFLUENCE SA DE CV",
+        "representante": "Nabile Alana Tavira Jaimes"
+      },
+      "eventHash": "37a6744d61e15419af90f69f2977f092f2a27d38603f45d1f9120d1f7fc7fc6e"
+    },
+    {
+      "eventId": "8adf11e2-47fd-4742-87a7-eb3cc2dacdeb",
+      "uid": "SIN210309KG1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-06T17:35:16.176Z",
+      "timestampLocal": "2026-04-06T17:35:16.176Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.142.43.97",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SIN210309KG1&nombre_proveedor_razon_social=SUNSET+INFLUENCE+SA+DE+CV&nombre_representante_legal=Nabile+Alana+Tavira+Jaimes&email=administracion%40sunsetsocial.mx",
+      "previousEventHash": "37a6744d61e15419af90f69f2977f092f2a27d38603f45d1f9120d1f7fc7fc6e",
+      "documentHash": "89e39270cc298f55add74e865697ac049998b3fc08cf8fd12084947f98086d7a",
+      "eventHash": "4603ea6dae2bc717d71047b11db09b556b2d6dd8625975c294f8c42bb6d96780"
+    },
+    {
+      "eventId": "da73978f-cc06-4df2-9752-b4995b76ff5d",
+      "uid": "SIN210309KG1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-06T17:36:54.162Z",
+      "timestampLocal": "2026-04-06T11:36:54.162Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.142.43.97",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/95f1cac9-23c9-4667-9596-e8afc7049a5d",
+      "previousEventHash": "4603ea6dae2bc717d71047b11db09b556b2d6dd8625975c294f8c42bb6d96780",
+      "documentHash": "778b95c7abff673fb1b563826682bc3a94537dd3cba3c810b6c06aaf4b241a26",
+      "signatureHash": "fdbfd693bc1dde118a17884b97d6396ae830f3529de6d9cd125a2fa6d9e6d042",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-06T11:36:48.093Z"
+      },
+      "eventHash": "bc51e66bde31b31f66efc90024fd866203ae91c0397802017e90e7b169eacd6d"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-06T17:36:54.163Z"
+  }
 }
