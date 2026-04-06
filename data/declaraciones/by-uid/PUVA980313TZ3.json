@@ -1,19 +1,100 @@
 {
   "uid": "PUVA980313TZ3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Andres Puebla Vazquez",
     "nombre_representante_legal": "Andres Puebla Vazquez",
     "email": "apuebla13@outlook.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Andres Puebla Vazquez",
-    "nombre_representante_legal": "Andres Puebla Vazquez",
-    "email": "apuebla13@outlook.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-06T15:48:47.261Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PUVA980313TZ3",
+  "signatureMetadata": {
+    "ip": "189.217.99.105",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-06T21:48:50.802Z",
+    "signedAtLocal": "2026-04-06T15:48:50.802Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "520d1e793e902b1de7ea3d62a013c0a1cdd431ac77b959d9e4e27b6326e26fbe"
+  "documentHash": "5633b50de0e0f0c1471d0d7e9ac81cf752148b01ba9ce152d1bb1a1ad8c4ae27",
+  "auditTrail": [
+    {
+      "eventId": "d1f7b2e7-1a21-454b-be38-2bab64c8bc08",
+      "uid": "PUVA980313TZ3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-06T21:48:24.103Z",
+      "timestampLocal": "2026-04-06T21:48:24.103Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.99.105",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PUVA980313TZ3&nombre_proveedor_razon_social=Andres+Puebla+Vazquez&nombre_representante_legal=Andres+Puebla+Vazquez&email=apuebla13%40outlook.com",
+      "previousEventHash": null,
+      "documentHash": "520d1e793e902b1de7ea3d62a013c0a1cdd431ac77b959d9e4e27b6326e26fbe",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "616ea3b904d42db61e75606eb3ef9c8a58bc5519fe5bdbd847e7d48bab95e2f2"
+    },
+    {
+      "eventId": "23ff5c17-f135-4c36-903a-c1d1c007a665",
+      "uid": "PUVA980313TZ3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-06T21:48:24.103Z",
+      "timestampLocal": "2026-04-06T21:48:24.103Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.99.105",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PUVA980313TZ3&nombre_proveedor_razon_social=Andres+Puebla+Vazquez&nombre_representante_legal=Andres+Puebla+Vazquez&email=apuebla13%40outlook.com",
+      "previousEventHash": "616ea3b904d42db61e75606eb3ef9c8a58bc5519fe5bdbd847e7d48bab95e2f2",
+      "documentHash": "520d1e793e902b1de7ea3d62a013c0a1cdd431ac77b959d9e4e27b6326e26fbe",
+      "metadata": {
+        "proveedor": "Andres Puebla Vazquez",
+        "representante": "Andres Puebla Vazquez"
+      },
+      "eventHash": "211fabbaa0fcff89fd31d8c34675529d93fd6b3f642d364817142842e01d8686"
+    },
+    {
+      "eventId": "f27a9d77-54b0-4407-9572-9b41d2859bd4",
+      "uid": "PUVA980313TZ3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-06T21:48:25.040Z",
+      "timestampLocal": "2026-04-06T21:48:25.040Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.99.105",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PUVA980313TZ3&nombre_proveedor_razon_social=Andres+Puebla+Vazquez&nombre_representante_legal=Andres+Puebla+Vazquez&email=apuebla13%40outlook.com",
+      "previousEventHash": "211fabbaa0fcff89fd31d8c34675529d93fd6b3f642d364817142842e01d8686",
+      "documentHash": "520d1e793e902b1de7ea3d62a013c0a1cdd431ac77b959d9e4e27b6326e26fbe",
+      "eventHash": "d703e59814ceebe596fdc081ff4e10b4831d57639712007607ec3ff8c02275d9"
+    },
+    {
+      "eventId": "435f89e2-e13f-4bb7-8e59-903f967380e0",
+      "uid": "PUVA980313TZ3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-06T21:48:50.802Z",
+      "timestampLocal": "2026-04-06T15:48:50.802Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.99.105",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5eeef1a5-2cba-48d3-b06b-f3e4dbafbee7",
+      "previousEventHash": "d703e59814ceebe596fdc081ff4e10b4831d57639712007607ec3ff8c02275d9",
+      "documentHash": "5633b50de0e0f0c1471d0d7e9ac81cf752148b01ba9ce152d1bb1a1ad8c4ae27",
+      "signatureHash": "e2e98672db155f9207f44b6df90becf8cdf721a1ec4c08641c8baf5769744f3f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-06T15:48:47.261Z"
+      },
+      "eventHash": "d7f5a785a27610a6357e94cc39762d95a706fb48510ebca077cd8939c9691b42"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-06T21:48:50.828Z"
+  }
 }
