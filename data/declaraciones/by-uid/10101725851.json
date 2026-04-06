@@ -1,19 +1,100 @@
 {
   "uid": "10101725851",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ZULMA KATERIN ALAYON GUEVARA",
     "nombre_representante_legal": "archivo.alayon.alayon ABOGADOS ASOCIADOS",
     "email": "alayon.alayon.archivo@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ZULMA KATERIN ALAYON GUEVARA",
-    "nombre_representante_legal": "archivo.alayon.alayon ABOGADOS ASOCIADOS",
-    "email": "alayon.alayon.archivo@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-06T10:50:45.330Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/10101725851",
+  "signatureMetadata": {
+    "ip": "38.50.38.33",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-06T15:50:48.780Z",
+    "signedAtLocal": "2026-04-06T10:50:48.780Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e310d7baecbe6c6c282f6d261d689bb7797e109e24d67d6d8ec734f297a1b55b"
+  "documentHash": "92071cf27026cecd00a6552fa04fabd51efdc98dae2690f21d1a028827378d52",
+  "auditTrail": [
+    {
+      "eventId": "fa917bf9-ed96-4efa-8d92-9ceed610e5ba",
+      "uid": "10101725851",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-06T15:49:45.897Z",
+      "timestampLocal": "2026-04-06T15:49:45.897Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.50.38.33",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=10101725851&nombre_proveedor_razon_social=ZULMA+KATERIN+ALAYON+GUEVARA&nombre_representante_legal=archivo.alayon.alayon+ABOGADOS+ASOCIADOS&email=alayon.alayon.archivo%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "e310d7baecbe6c6c282f6d261d689bb7797e109e24d67d6d8ec734f297a1b55b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8e4a9730cab8ae00806242e186ecf5f362db65268e262384a123915ed40ec0bc"
+    },
+    {
+      "eventId": "3d605cf2-44bb-447c-a4bc-1963611bcc81",
+      "uid": "10101725851",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-06T15:49:45.898Z",
+      "timestampLocal": "2026-04-06T15:49:45.898Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.50.38.33",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=10101725851&nombre_proveedor_razon_social=ZULMA+KATERIN+ALAYON+GUEVARA&nombre_representante_legal=archivo.alayon.alayon+ABOGADOS+ASOCIADOS&email=alayon.alayon.archivo%40gmail.com",
+      "previousEventHash": "8e4a9730cab8ae00806242e186ecf5f362db65268e262384a123915ed40ec0bc",
+      "documentHash": "e310d7baecbe6c6c282f6d261d689bb7797e109e24d67d6d8ec734f297a1b55b",
+      "metadata": {
+        "proveedor": "ZULMA KATERIN ALAYON GUEVARA",
+        "representante": "archivo.alayon.alayon ABOGADOS ASOCIADOS"
+      },
+      "eventHash": "7be5fd8486f142722a31bb53521d2fcf301238b0df6feb6cbaaa3add4c031227"
+    },
+    {
+      "eventId": "dd21fdb3-6247-4cd1-833b-4bc9912fc683",
+      "uid": "10101725851",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-06T15:49:46.996Z",
+      "timestampLocal": "2026-04-06T15:49:46.996Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.50.38.33",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=10101725851&nombre_proveedor_razon_social=ZULMA+KATERIN+ALAYON+GUEVARA&nombre_representante_legal=archivo.alayon.alayon+ABOGADOS+ASOCIADOS&email=alayon.alayon.archivo%40gmail.com",
+      "previousEventHash": "7be5fd8486f142722a31bb53521d2fcf301238b0df6feb6cbaaa3add4c031227",
+      "documentHash": "e310d7baecbe6c6c282f6d261d689bb7797e109e24d67d6d8ec734f297a1b55b",
+      "eventHash": "e0db96e8960fb6f1e92a3960ed79490652796298458425ca283b8d94ca179702"
+    },
+    {
+      "eventId": "9c2139a4-1364-4e7a-9e1c-ef788e48d632",
+      "uid": "10101725851",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-06T15:50:48.780Z",
+      "timestampLocal": "2026-04-06T10:50:48.780Z",
+      "timezone": "UTC-5",
+      "ipAddress": "38.50.38.33",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/048e80b5-4e93-4538-994e-2058ca1e4230",
+      "previousEventHash": "e0db96e8960fb6f1e92a3960ed79490652796298458425ca283b8d94ca179702",
+      "documentHash": "92071cf27026cecd00a6552fa04fabd51efdc98dae2690f21d1a028827378d52",
+      "signatureHash": "2deacade31b1854fd75eb06e278c73904aa3e4b163e1d49240224b7dd4d01913",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-06T10:50:45.330Z"
+      },
+      "eventHash": "4437e5f2a87a2b51eb7093dd7be8da2bebc6ae7761b30cf3be21d8169539b9db"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-06T15:50:48.780Z"
+  }
 }
