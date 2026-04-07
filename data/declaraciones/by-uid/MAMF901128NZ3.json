@@ -1,19 +1,160 @@
 {
   "uid": "MAMF901128NZ3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "FERNANDA MARTIN MENDEZ",
     "nombre_representante_legal": "FERNANDA MARTIN",
     "email": "contacto@fernandamartin.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "FERNANDA MARTIN MENDEZ",
-    "nombre_representante_legal": "FERNANDA MARTIN",
-    "email": "contacto@fernandamartin.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-07T17:43:29.519Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MAMF901128NZ3",
+  "signatureMetadata": {
+    "ip": "189.128.78.119",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-07T23:43:35.189Z",
+    "signedAtLocal": "2026-04-07T17:43:35.189Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9a7b6add329efaa8f084973b941769cf9ff17561225cf764b08288118630ae86"
+  "documentHash": "28cb8d943bc8cba926956fe828e3724d1fbda7343c038b0ec0a51b748c05d398",
+  "auditTrail": [
+    {
+      "eventId": "01f4d929-9b87-4e56-afc8-9f3e52994018",
+      "uid": "MAMF901128NZ3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-03-26T18:45:38.716Z",
+      "timestampLocal": "2026-03-26T18:45:38.716Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.241.61",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAMF901128NZ3&nombre_proveedor_razon_social=FERNANDA+MARTIN+MENDEZ&nombre_representante_legal=FERNANDA+MARTIN&email=contacto%40fernandamartin.mx",
+      "previousEventHash": null,
+      "documentHash": "9a7b6add329efaa8f084973b941769cf9ff17561225cf764b08288118630ae86",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "834f4632317d0048d137bc3c8ae3dda89e28ac20e049461456f9dfc0e3a531d2"
+    },
+    {
+      "eventId": "e8f41395-6c74-4f58-8417-87549c0ab4a2",
+      "uid": "MAMF901128NZ3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-03-26T18:45:38.716Z",
+      "timestampLocal": "2026-03-26T18:45:38.716Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.241.61",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAMF901128NZ3&nombre_proveedor_razon_social=FERNANDA+MARTIN+MENDEZ&nombre_representante_legal=FERNANDA+MARTIN&email=contacto%40fernandamartin.mx",
+      "previousEventHash": "834f4632317d0048d137bc3c8ae3dda89e28ac20e049461456f9dfc0e3a531d2",
+      "documentHash": "9a7b6add329efaa8f084973b941769cf9ff17561225cf764b08288118630ae86",
+      "metadata": {
+        "proveedor": "FERNANDA MARTIN MENDEZ",
+        "representante": "FERNANDA MARTIN"
+      },
+      "eventHash": "da143f10609a4c8615f919de4caec82dfe60ad7bafc6e8b0265ff678f4513c1b"
+    },
+    {
+      "eventId": "d20c46ea-5235-4333-b94a-b1090787a9ea",
+      "uid": "MAMF901128NZ3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-03-26T18:45:39.775Z",
+      "timestampLocal": "2026-03-26T18:45:39.775Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.241.61",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAMF901128NZ3&nombre_proveedor_razon_social=FERNANDA+MARTIN+MENDEZ&nombre_representante_legal=FERNANDA+MARTIN&email=contacto%40fernandamartin.mx",
+      "previousEventHash": "da143f10609a4c8615f919de4caec82dfe60ad7bafc6e8b0265ff678f4513c1b",
+      "documentHash": "9a7b6add329efaa8f084973b941769cf9ff17561225cf764b08288118630ae86",
+      "eventHash": "8bf20a035aa4378f79dbf899955c9cd109640e730bb4d01c8d219ccaa9c5cdba"
+    },
+    {
+      "eventId": "ae41d9ce-8720-4722-9b1a-141e966955de",
+      "uid": "MAMF901128NZ3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-07T18:02:05.892Z",
+      "timestampLocal": "2026-04-07T18:02:05.892Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.128.78.119",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "8bf20a035aa4378f79dbf899955c9cd109640e730bb4d01c8d219ccaa9c5cdba",
+      "documentHash": "9a7b6add329efaa8f084973b941769cf9ff17561225cf764b08288118630ae86",
+      "eventHash": "a3a169f9e9c07435bd0c06b5d222116124475ece7dbf65c738b8aa6384760841"
+    },
+    {
+      "eventId": "3a751534-d7f2-48c1-815a-b63274ebde6f",
+      "uid": "MAMF901128NZ3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-07T18:58:20.172Z",
+      "timestampLocal": "2026-04-07T18:58:20.172Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.128.78.119",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "a3a169f9e9c07435bd0c06b5d222116124475ece7dbf65c738b8aa6384760841",
+      "documentHash": "9a7b6add329efaa8f084973b941769cf9ff17561225cf764b08288118630ae86",
+      "eventHash": "d9aafc67ee15049aaa15c4827a1cf3ff94702ab5ad4890361d9fff93515f0865"
+    },
+    {
+      "eventId": "d30c4c15-2134-45fa-b2e5-1059d5a38a35",
+      "uid": "MAMF901128NZ3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-07T21:26:02.017Z",
+      "timestampLocal": "2026-04-07T21:26:02.017Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.128.78.119",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "d9aafc67ee15049aaa15c4827a1cf3ff94702ab5ad4890361d9fff93515f0865",
+      "documentHash": "9a7b6add329efaa8f084973b941769cf9ff17561225cf764b08288118630ae86",
+      "eventHash": "94c0264b5f0aa67ee3729672368932c62774ea88ac63eb5adfca4ffa013c89c8"
+    },
+    {
+      "eventId": "7e5a9cd3-e9c8-43c3-a73f-5be31ae26240",
+      "uid": "MAMF901128NZ3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-07T22:16:16.211Z",
+      "timestampLocal": "2026-04-07T22:16:16.211Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.128.78.119",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "94c0264b5f0aa67ee3729672368932c62774ea88ac63eb5adfca4ffa013c89c8",
+      "documentHash": "9a7b6add329efaa8f084973b941769cf9ff17561225cf764b08288118630ae86",
+      "eventHash": "d81e9afcf91de5545eae307f128522dbd194c5e7db38f17b24de5986bba7fa2f"
+    },
+    {
+      "eventId": "eb30e507-9c89-4250-b5d2-612063fba9b8",
+      "uid": "MAMF901128NZ3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-07T23:43:35.189Z",
+      "timestampLocal": "2026-04-07T17:43:35.189Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.128.78.119",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1384b21c-18a9-40b6-8a5d-ccbbdc3c0f6b",
+      "previousEventHash": "d81e9afcf91de5545eae307f128522dbd194c5e7db38f17b24de5986bba7fa2f",
+      "documentHash": "28cb8d943bc8cba926956fe828e3724d1fbda7343c038b0ec0a51b748c05d398",
+      "signatureHash": "045745a4e88abc2676a2a568b2a060436d7365ad61da33d74da7f1ebf00616f9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-07T17:43:29.519Z"
+      },
+      "eventHash": "4b07cbf3ffa01ceec2954dbe698e3f331b76faa5beda2e5e89b401d8dc2ac19f"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-04-07T23:43:35.189Z"
+  }
 }
