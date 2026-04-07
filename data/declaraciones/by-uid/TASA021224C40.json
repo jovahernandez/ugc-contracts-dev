@@ -1,19 +1,100 @@
 {
   "uid": "TASA021224C40",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ALEJANDRO TACHER SILBERSTEIN",
     "nombre_representante_legal": "ALEJANDRO TACHER SILBERSTEIN",
     "email": "facturacion@dreamlabagency.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ALEJANDRO TACHER SILBERSTEIN",
-    "nombre_representante_legal": "ALEJANDRO TACHER SILBERSTEIN",
-    "email": "facturacion@dreamlabagency.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-07T14:00:30.621Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TASA021224C40",
+  "signatureMetadata": {
+    "ip": "201.149.32.106",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-07T20:00:33.945Z",
+    "signedAtLocal": "2026-04-07T14:00:33.945Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5c3ee69dd569e840a1021c93d2984a150469570103b9c9c226ea734f25653b64"
+  "documentHash": "77d16af832cd2afb6a418415485920a4b4257a2d4a94a78bf32e0f7f284aaf2d",
+  "auditTrail": [
+    {
+      "eventId": "fddc5d04-718c-4706-af48-bfb7044c19f0",
+      "uid": "TASA021224C40",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-07T19:57:44.389Z",
+      "timestampLocal": "2026-04-07T19:57:44.389Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.32.106",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TASA021224C40&nombre_proveedor_razon_social=ALEJANDRO+TACHER+SILBERSTEIN&nombre_representante_legal=ALEJANDRO+TACHER+SILBERSTEIN&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": null,
+      "documentHash": "5c3ee69dd569e840a1021c93d2984a150469570103b9c9c226ea734f25653b64",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5b5ebadb1da3aea2e001dfc23c65aab35064993a9aec20f4355e752f088d9915"
+    },
+    {
+      "eventId": "51bc5ee5-df9f-4816-99fd-9fe299632cc6",
+      "uid": "TASA021224C40",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-07T19:57:44.389Z",
+      "timestampLocal": "2026-04-07T19:57:44.389Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.32.106",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TASA021224C40&nombre_proveedor_razon_social=ALEJANDRO+TACHER+SILBERSTEIN&nombre_representante_legal=ALEJANDRO+TACHER+SILBERSTEIN&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "5b5ebadb1da3aea2e001dfc23c65aab35064993a9aec20f4355e752f088d9915",
+      "documentHash": "5c3ee69dd569e840a1021c93d2984a150469570103b9c9c226ea734f25653b64",
+      "metadata": {
+        "proveedor": "ALEJANDRO TACHER SILBERSTEIN",
+        "representante": "ALEJANDRO TACHER SILBERSTEIN"
+      },
+      "eventHash": "59ce214679b6dc22bc468be78d939a1cf8057d529725d096f101db1908449133"
+    },
+    {
+      "eventId": "d0e3d838-5188-4c90-b392-f2ad5e87d453",
+      "uid": "TASA021224C40",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-07T19:57:45.420Z",
+      "timestampLocal": "2026-04-07T19:57:45.420Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.32.106",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TASA021224C40&nombre_proveedor_razon_social=ALEJANDRO+TACHER+SILBERSTEIN&nombre_representante_legal=ALEJANDRO+TACHER+SILBERSTEIN&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "59ce214679b6dc22bc468be78d939a1cf8057d529725d096f101db1908449133",
+      "documentHash": "5c3ee69dd569e840a1021c93d2984a150469570103b9c9c226ea734f25653b64",
+      "eventHash": "a55f2d8b38cb5b8711d3485d46d4befdf30917070650362ea3e79c34c0838f3c"
+    },
+    {
+      "eventId": "5267c39a-9efe-400d-990c-e4f61ba1544b",
+      "uid": "TASA021224C40",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-07T20:00:33.946Z",
+      "timestampLocal": "2026-04-07T14:00:33.946Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.149.32.106",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c53228c9-3043-422d-a93d-61f2ae698087",
+      "previousEventHash": "a55f2d8b38cb5b8711d3485d46d4befdf30917070650362ea3e79c34c0838f3c",
+      "documentHash": "77d16af832cd2afb6a418415485920a4b4257a2d4a94a78bf32e0f7f284aaf2d",
+      "signatureHash": "298762302f42e1f1ebd270b4671bfc0a7ada6d2ba5847d1872993c063587550c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-07T14:00:30.621Z"
+      },
+      "eventHash": "b752f3fe55ee596c63d462182ef20089b537cae2948a2b51ad42fae16805a5b7"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-07T20:00:33.946Z"
+  }
 }
