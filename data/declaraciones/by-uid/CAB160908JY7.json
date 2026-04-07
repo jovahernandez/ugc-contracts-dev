@@ -1,19 +1,115 @@
 {
   "uid": "CAB160908JY7",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CRG ABOGADOS",
     "nombre_representante_legal": "MARIA DEL CARMEN RIVERA GARCIA",
     "email": "recepcion@cr-abogados.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CRG ABOGADOS",
-    "nombre_representante_legal": "MARIA DEL CARMEN RIVERA GARCIA",
-    "email": "recepcion@cr-abogados.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-07T17:02:55.658Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CAB160908JY7",
+  "signatureMetadata": {
+    "ip": "187.168.141.109",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+    "signedAtUtc": "2026-04-07T23:03:01.293Z",
+    "signedAtLocal": "2026-04-07T17:03:01.293Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b286318530af517ceda1d0c84cbe1be173ce287530f027a567da9bc17409378c"
+  "documentHash": "102266d8008aec5c4ae12427e5af9304e1bdc4b3b0d7ada0c4edd2d2ad460f93",
+  "auditTrail": [
+    {
+      "eventId": "993fc037-fe6c-47d0-88d1-4efb7010dbb2",
+      "uid": "CAB160908JY7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-07T22:57:16.781Z",
+      "timestampLocal": "2026-04-07T22:57:16.781Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.141.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAB160908JY7&nombre_proveedor_razon_social=CRG+ABOGADOS&nombre_representante_legal=MARIA+DEL+CARMEN+RIVERA+GARCIA&email=recepcion%40cr-abogados.com.mx",
+      "previousEventHash": null,
+      "documentHash": "b286318530af517ceda1d0c84cbe1be173ce287530f027a567da9bc17409378c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2563ce60607ec7b397a2bdeb5d8e2e75411fb6e05f5db0e8fe9cae5756e15501"
+    },
+    {
+      "eventId": "251b86a5-b19b-4819-91a3-4ba8e245ac01",
+      "uid": "CAB160908JY7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-07T22:57:16.781Z",
+      "timestampLocal": "2026-04-07T22:57:16.781Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.141.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAB160908JY7&nombre_proveedor_razon_social=CRG+ABOGADOS&nombre_representante_legal=MARIA+DEL+CARMEN+RIVERA+GARCIA&email=recepcion%40cr-abogados.com.mx",
+      "previousEventHash": "2563ce60607ec7b397a2bdeb5d8e2e75411fb6e05f5db0e8fe9cae5756e15501",
+      "documentHash": "b286318530af517ceda1d0c84cbe1be173ce287530f027a567da9bc17409378c",
+      "metadata": {
+        "proveedor": "CRG ABOGADOS",
+        "representante": "MARIA DEL CARMEN RIVERA GARCIA"
+      },
+      "eventHash": "e7ada93af30d0142f36d7d8a6afeba2b74d40098da6e5fb51878c86df89bc697"
+    },
+    {
+      "eventId": "ecef4e09-829f-468e-92e9-d55a3643e3b8",
+      "uid": "CAB160908JY7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-07T22:57:17.704Z",
+      "timestampLocal": "2026-04-07T22:57:17.704Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.141.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAB160908JY7&nombre_proveedor_razon_social=CRG+ABOGADOS&nombre_representante_legal=MARIA+DEL+CARMEN+RIVERA+GARCIA&email=recepcion%40cr-abogados.com.mx",
+      "previousEventHash": "e7ada93af30d0142f36d7d8a6afeba2b74d40098da6e5fb51878c86df89bc697",
+      "documentHash": "b286318530af517ceda1d0c84cbe1be173ce287530f027a567da9bc17409378c",
+      "eventHash": "f11a796933b10f677bccfeb8c46dc554d01006150849e33171197101057ee53f"
+    },
+    {
+      "eventId": "390a8eea-5703-4e5d-9560-2d54cab8bf67",
+      "uid": "CAB160908JY7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-07T23:00:33.934Z",
+      "timestampLocal": "2026-04-07T23:00:33.934Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.141.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "f11a796933b10f677bccfeb8c46dc554d01006150849e33171197101057ee53f",
+      "documentHash": "b286318530af517ceda1d0c84cbe1be173ce287530f027a567da9bc17409378c",
+      "eventHash": "008119ca3b37df4885e2efec346d73379eb978ee2fec7c7a1fef60dc446f9e19"
+    },
+    {
+      "eventId": "eb42569e-e7ed-4216-85b4-e2e54818209e",
+      "uid": "CAB160908JY7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-07T23:03:01.293Z",
+      "timestampLocal": "2026-04-07T17:03:01.293Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.168.141.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/906f8688-4244-4dfd-b528-e162e7a41157",
+      "previousEventHash": "008119ca3b37df4885e2efec346d73379eb978ee2fec7c7a1fef60dc446f9e19",
+      "documentHash": "102266d8008aec5c4ae12427e5af9304e1bdc4b3b0d7ada0c4edd2d2ad460f93",
+      "signatureHash": "2926ab5f6561995d801bfc1cc45aa5baab51bf53c56cd707e936587bd45ca9f4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-07T17:02:55.658Z"
+      },
+      "eventHash": "ab3b1061733d7bf1e1e961f8cc6f398dab45d9e1f0b1dbb9dd9725c363b91139"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-04-07T23:03:01.294Z"
+  }
 }
