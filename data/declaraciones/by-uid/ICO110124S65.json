@@ -1,19 +1,100 @@
 {
   "uid": "ICO110124S65",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IWS CONSULTING",
     "nombre_representante_legal": "IWS CONSULTING",
     "email": "backoffice@redinet.us"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "IWS CONSULTING",
-    "nombre_representante_legal": "IWS CONSULTING",
-    "email": "backoffice@redinet.us"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-08T10:18:10.603Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ICO110124S65",
+  "signatureMetadata": {
+    "ip": "38.25.80.83",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-08T15:18:13.957Z",
+    "signedAtLocal": "2026-04-08T10:18:13.957Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a477a1e379569088c9a6c0bb27ca2ada1662fd1deb143a33d3259cbf18681300"
+  "documentHash": "f26381ffc208da6465d6efc8e2d2843f8f8c6318a219831bed88e62c853208f1",
+  "auditTrail": [
+    {
+      "eventId": "1e8a1fcf-40a4-4008-8229-bf80078cc6f1",
+      "uid": "ICO110124S65",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-08T15:17:51.026Z",
+      "timestampLocal": "2026-04-08T15:17:51.026Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.25.80.83",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ICO110124S65&nombre_proveedor_razon_social=IWS+CONSULTING&nombre_representante_legal=IWS+CONSULTING&email=backoffice%40redinet.us",
+      "previousEventHash": null,
+      "documentHash": "a477a1e379569088c9a6c0bb27ca2ada1662fd1deb143a33d3259cbf18681300",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "02d34a1cb4563e1ad91621d30bdec74babf3e9ceebbe37af2a6c1874c73d0bd7"
+    },
+    {
+      "eventId": "127af55a-ddf4-4bad-ac9b-a96b3047badd",
+      "uid": "ICO110124S65",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-08T15:17:51.027Z",
+      "timestampLocal": "2026-04-08T15:17:51.027Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.25.80.83",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ICO110124S65&nombre_proveedor_razon_social=IWS+CONSULTING&nombre_representante_legal=IWS+CONSULTING&email=backoffice%40redinet.us",
+      "previousEventHash": "02d34a1cb4563e1ad91621d30bdec74babf3e9ceebbe37af2a6c1874c73d0bd7",
+      "documentHash": "a477a1e379569088c9a6c0bb27ca2ada1662fd1deb143a33d3259cbf18681300",
+      "metadata": {
+        "proveedor": "IWS CONSULTING",
+        "representante": "IWS CONSULTING"
+      },
+      "eventHash": "fec39a832b271db3faff820337c8dce0fb3c98905f9120a09bfc670517016faa"
+    },
+    {
+      "eventId": "941c97e0-b087-4961-a484-ca4f72428204",
+      "uid": "ICO110124S65",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-08T15:17:52.088Z",
+      "timestampLocal": "2026-04-08T15:17:52.088Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.25.80.83",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ICO110124S65&nombre_proveedor_razon_social=IWS+CONSULTING&nombre_representante_legal=IWS+CONSULTING&email=backoffice%40redinet.us",
+      "previousEventHash": "fec39a832b271db3faff820337c8dce0fb3c98905f9120a09bfc670517016faa",
+      "documentHash": "a477a1e379569088c9a6c0bb27ca2ada1662fd1deb143a33d3259cbf18681300",
+      "eventHash": "a7c169d7d190ff896a2cce6bac7ec651d944632097d892881e8a6cac379c6202"
+    },
+    {
+      "eventId": "00259bd0-05a7-4d31-97b3-e35c49e93325",
+      "uid": "ICO110124S65",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-08T15:18:13.957Z",
+      "timestampLocal": "2026-04-08T10:18:13.957Z",
+      "timezone": "UTC-5",
+      "ipAddress": "38.25.80.83",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/9d8eb4a8-82eb-4003-a2b1-5692e2639567",
+      "previousEventHash": "a7c169d7d190ff896a2cce6bac7ec651d944632097d892881e8a6cac379c6202",
+      "documentHash": "f26381ffc208da6465d6efc8e2d2843f8f8c6318a219831bed88e62c853208f1",
+      "signatureHash": "07f3ea5d44abbe4d6cf5e84508adf99a63a2ac10ceb094954f4f76a577a6e4a9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-08T10:18:10.603Z"
+      },
+      "eventHash": "4435b941a40212fdfc4d00fb34c9c7a2a7a31199b0d360ed1dcb1bf2a95d20fd"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-08T15:18:13.957Z"
+  }
 }
