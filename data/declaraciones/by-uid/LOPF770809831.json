@@ -1,19 +1,100 @@
 {
   "uid": "LOPF770809831",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Fabiola López Prado",
     "nombre_representante_legal": "Fabiola López Prado",
     "email": "fabs@ivaryfabs.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Fabiola López Prado",
-    "nombre_representante_legal": "Fabiola López Prado",
-    "email": "fabs@ivaryfabs.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-09T16:49:16.432Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LOPF770809831",
+  "signatureMetadata": {
+    "ip": "189.203.105.48",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-09T22:49:19.701Z",
+    "signedAtLocal": "2026-04-09T16:49:19.701Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "cfc55ce27dd6fac539422447aa034b058b64d7c7096aec77c29d35e398daa367"
+  "documentHash": "233ce182bb2b1bc3330b1a8bea520bd731f105843dcbda24bf6585e6c742361b",
+  "auditTrail": [
+    {
+      "eventId": "ddd7e0ba-9e0c-41e2-8b0e-4e5164114765",
+      "uid": "LOPF770809831",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-09T22:48:30.005Z",
+      "timestampLocal": "2026-04-09T22:48:30.005Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.105.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LOPF770809831&nombre_proveedor_razon_social=Fabiola+L%C3%B3pez+Prado&nombre_representante_legal=Fabiola+L%C3%B3pez+Prado&email=fabs%40ivaryfabs.com",
+      "previousEventHash": null,
+      "documentHash": "cfc55ce27dd6fac539422447aa034b058b64d7c7096aec77c29d35e398daa367",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "dd2df2461674489978f2abf15d2e604a93e3cc892197d6b32931a886c481cf46"
+    },
+    {
+      "eventId": "0c99554a-8aa2-4359-8dd4-8efe0ba76246",
+      "uid": "LOPF770809831",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-09T22:48:30.005Z",
+      "timestampLocal": "2026-04-09T22:48:30.005Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.105.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LOPF770809831&nombre_proveedor_razon_social=Fabiola+L%C3%B3pez+Prado&nombre_representante_legal=Fabiola+L%C3%B3pez+Prado&email=fabs%40ivaryfabs.com",
+      "previousEventHash": "dd2df2461674489978f2abf15d2e604a93e3cc892197d6b32931a886c481cf46",
+      "documentHash": "cfc55ce27dd6fac539422447aa034b058b64d7c7096aec77c29d35e398daa367",
+      "metadata": {
+        "proveedor": "Fabiola López Prado",
+        "representante": "Fabiola López Prado"
+      },
+      "eventHash": "6022490d623cfc4feeed6cee41344b02684455ae5e5ba9d04e6a3dc484c73e8a"
+    },
+    {
+      "eventId": "d3354606-aaa9-4de7-aa2f-1e8ce98ebd77",
+      "uid": "LOPF770809831",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-09T22:48:31.153Z",
+      "timestampLocal": "2026-04-09T22:48:31.153Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.105.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LOPF770809831&nombre_proveedor_razon_social=Fabiola+L%C3%B3pez+Prado&nombre_representante_legal=Fabiola+L%C3%B3pez+Prado&email=fabs%40ivaryfabs.com",
+      "previousEventHash": "6022490d623cfc4feeed6cee41344b02684455ae5e5ba9d04e6a3dc484c73e8a",
+      "documentHash": "cfc55ce27dd6fac539422447aa034b058b64d7c7096aec77c29d35e398daa367",
+      "eventHash": "97c1ca23e6ccc309457d3b760c6c2a1a9d7a6305305fbe92492f7082092da50d"
+    },
+    {
+      "eventId": "870124e8-4ec2-413a-bda5-15a89c328ff9",
+      "uid": "LOPF770809831",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-09T22:49:19.701Z",
+      "timestampLocal": "2026-04-09T16:49:19.701Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.105.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/766cedeb-70f4-459f-85ea-ef7b78deb9ce",
+      "previousEventHash": "97c1ca23e6ccc309457d3b760c6c2a1a9d7a6305305fbe92492f7082092da50d",
+      "documentHash": "233ce182bb2b1bc3330b1a8bea520bd731f105843dcbda24bf6585e6c742361b",
+      "signatureHash": "46cb38ddc94e49e33b93819e8820baa9a38d8dd38600293143cf8dcc6e920854",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-09T16:49:16.432Z"
+      },
+      "eventHash": "2a8817a8f4db9a6208317ef5cab9b8bada92df6d8ae599c6c24c24163ccc0ade"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-09T22:49:19.701Z"
+  }
 }
