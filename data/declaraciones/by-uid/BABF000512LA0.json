@@ -1,19 +1,100 @@
 {
   "uid": "BABF000512LA0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Fátima Elizabeth Bastida Brewer",
     "nombre_representante_legal": "Fátima Elizabeth Bastida Brewer",
     "email": "fatybastida@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Fátima Elizabeth Bastida Brewer",
-    "nombre_representante_legal": "Fátima Elizabeth Bastida Brewer",
-    "email": "fatybastida@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-09T17:18:41.256Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BABF000512LA0",
+  "signatureMetadata": {
+    "ip": "187.190.144.150",
+    "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/146.0.7680.151 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-04-09T23:18:44.588Z",
+    "signedAtLocal": "2026-04-09T17:18:44.588Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "99b8ac84bcc47f734800210be3257681bcad5a1f2fb72195f6dc38c495af928e"
+  "documentHash": "0783dd25bb13046300e62f031bee95d599303df6e7a9d746bfbf223e2e6667ef",
+  "auditTrail": [
+    {
+      "eventId": "dbafb350-5908-42dd-857b-541ea91d5a66",
+      "uid": "BABF000512LA0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-09T23:17:32.741Z",
+      "timestampLocal": "2026-04-09T23:17:32.741Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.144.150",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/146.0.7680.151 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "99b8ac84bcc47f734800210be3257681bcad5a1f2fb72195f6dc38c495af928e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "95cf7bbd8a77dbc467fe8b63c390601ca8a6d2a70c3e6dce3a85811a4c5e4901"
+    },
+    {
+      "eventId": "5bd54394-26a9-433d-a2b0-da1503839160",
+      "uid": "BABF000512LA0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-09T23:17:32.741Z",
+      "timestampLocal": "2026-04-09T23:17:32.741Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.144.150",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/146.0.7680.151 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "95cf7bbd8a77dbc467fe8b63c390601ca8a6d2a70c3e6dce3a85811a4c5e4901",
+      "documentHash": "99b8ac84bcc47f734800210be3257681bcad5a1f2fb72195f6dc38c495af928e",
+      "metadata": {
+        "proveedor": "Fátima Elizabeth Bastida Brewer",
+        "representante": "Fátima Elizabeth Bastida Brewer"
+      },
+      "eventHash": "e9dcb29e97b5331c274bc785d0c2e933ffc69b126b152e176cd32c7bb6114e26"
+    },
+    {
+      "eventId": "70021e86-6fdc-4680-835c-ecd977e0733c",
+      "uid": "BABF000512LA0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-09T23:17:33.689Z",
+      "timestampLocal": "2026-04-09T23:17:33.689Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.144.150",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/146.0.7680.151 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "e9dcb29e97b5331c274bc785d0c2e933ffc69b126b152e176cd32c7bb6114e26",
+      "documentHash": "99b8ac84bcc47f734800210be3257681bcad5a1f2fb72195f6dc38c495af928e",
+      "eventHash": "0b281fd99562aed472d099de37b63e54fe1dbbd5dde440203c13793e0b863c25"
+    },
+    {
+      "eventId": "ca9c95eb-9a72-4eb3-ab29-09fa10298e55",
+      "uid": "BABF000512LA0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-09T23:18:44.588Z",
+      "timestampLocal": "2026-04-09T17:18:44.588Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.144.150",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/146.0.7680.151 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "0b281fd99562aed472d099de37b63e54fe1dbbd5dde440203c13793e0b863c25",
+      "documentHash": "0783dd25bb13046300e62f031bee95d599303df6e7a9d746bfbf223e2e6667ef",
+      "signatureHash": "7243361548b6703f425cbe69b6297857bd363d1fa5c7629cdfd14735378fec90",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-09T17:18:41.256Z"
+      },
+      "eventHash": "cc1472f62b1add0a3995921f44108d48a923b55284ac6203c0e10daf32ab58a0"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-09T23:18:44.588Z"
+  }
 }
