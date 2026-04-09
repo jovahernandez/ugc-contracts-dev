@@ -1,19 +1,100 @@
 {
   "uid": "SPM240422BH2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SERVICIO DE PUBLICIDAD Y MK DIGITAL",
     "nombre_representante_legal": "MARIA EUGENIA SELVAS OCHOA",
     "email": "finanzas@ratemx.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SERVICIO DE PUBLICIDAD Y MK DIGITAL",
-    "nombre_representante_legal": "MARIA EUGENIA SELVAS OCHOA",
-    "email": "finanzas@ratemx.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-09T12:04:22.989Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SPM240422BH2",
+  "signatureMetadata": {
+    "ip": "189.203.205.207",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-09T18:04:28.508Z",
+    "signedAtLocal": "2026-04-09T12:04:28.508Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fdf7ebff8f60a1455edcb662656697dba0428ba93e8a1fa7a6dfc2e85966ddd1"
+  "documentHash": "7de703bc0d979c603e6fda06d7077941e35745120fb3ec63d1f9d3c86e6d45ec",
+  "auditTrail": [
+    {
+      "eventId": "3c0c23a6-fc05-43f7-acb7-c0651f9d03db",
+      "uid": "SPM240422BH2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-09T18:02:51.385Z",
+      "timestampLocal": "2026-04-09T18:02:51.385Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.205.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SPM240422BH2&nombre_proveedor_razon_social=SERVICIO+DE+PUBLICIDAD+Y+MK+DIGITAL&nombre_representante_legal=MARIA+EUGENIA+SELVAS+OCHOA&email=finanzas%40ratemx.com",
+      "previousEventHash": null,
+      "documentHash": "fdf7ebff8f60a1455edcb662656697dba0428ba93e8a1fa7a6dfc2e85966ddd1",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2dc3149e209fa28fa5cc3e14bf7d661b46d9f572bf88c8aaaebc81e57f33b696"
+    },
+    {
+      "eventId": "b9d4917a-d386-474e-8a8a-d7d8c1e0b4dd",
+      "uid": "SPM240422BH2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-09T18:02:51.385Z",
+      "timestampLocal": "2026-04-09T18:02:51.385Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.205.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SPM240422BH2&nombre_proveedor_razon_social=SERVICIO+DE+PUBLICIDAD+Y+MK+DIGITAL&nombre_representante_legal=MARIA+EUGENIA+SELVAS+OCHOA&email=finanzas%40ratemx.com",
+      "previousEventHash": "2dc3149e209fa28fa5cc3e14bf7d661b46d9f572bf88c8aaaebc81e57f33b696",
+      "documentHash": "fdf7ebff8f60a1455edcb662656697dba0428ba93e8a1fa7a6dfc2e85966ddd1",
+      "metadata": {
+        "proveedor": "SERVICIO DE PUBLICIDAD Y MK DIGITAL",
+        "representante": "MARIA EUGENIA SELVAS OCHOA"
+      },
+      "eventHash": "c1bb0da88e0d199872df5d6f199b4729b1bdb36a14b43a53587ce13f789c61b0"
+    },
+    {
+      "eventId": "61311b32-ed85-47f3-9a9e-e9fcefc17a10",
+      "uid": "SPM240422BH2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-09T18:02:52.358Z",
+      "timestampLocal": "2026-04-09T18:02:52.358Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.205.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SPM240422BH2&nombre_proveedor_razon_social=SERVICIO+DE+PUBLICIDAD+Y+MK+DIGITAL&nombre_representante_legal=MARIA+EUGENIA+SELVAS+OCHOA&email=finanzas%40ratemx.com",
+      "previousEventHash": "c1bb0da88e0d199872df5d6f199b4729b1bdb36a14b43a53587ce13f789c61b0",
+      "documentHash": "fdf7ebff8f60a1455edcb662656697dba0428ba93e8a1fa7a6dfc2e85966ddd1",
+      "eventHash": "548826eac8ba8a69a909d18139e6c7b31ce36ef3dfac013d306d264e52a608c3"
+    },
+    {
+      "eventId": "1c5ae940-ede7-4812-a073-88373d22dcb5",
+      "uid": "SPM240422BH2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-09T18:04:28.508Z",
+      "timestampLocal": "2026-04-09T12:04:28.508Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.205.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/76ad24ab-fae8-48de-b9a6-7bd657ad3dd8",
+      "previousEventHash": "548826eac8ba8a69a909d18139e6c7b31ce36ef3dfac013d306d264e52a608c3",
+      "documentHash": "7de703bc0d979c603e6fda06d7077941e35745120fb3ec63d1f9d3c86e6d45ec",
+      "signatureHash": "7a42d3e4157e82513afedba922b3b25d24c021d06b825d9cef19c1d6602d1b21",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-09T12:04:22.989Z"
+      },
+      "eventHash": "56a315034f0dfcd61add1c09bc08eceef99e91891cd65771ef3b6cca1a89f247"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-09T18:04:28.508Z"
+  }
 }
