@@ -1,19 +1,100 @@
 {
   "uid": "MMM240224KZ3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "LA MAESTRA MIEL DE MAPLE",
     "nombre_representante_legal": "ANA KAREN CONTRERAS DIAZ",
     "email": "karen@maestramieldemaple.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "LA MAESTRA MIEL DE MAPLE",
-    "nombre_representante_legal": "ANA KAREN CONTRERAS DIAZ",
-    "email": "karen@maestramieldemaple.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-08T21:30:51.715Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MMM240224KZ3",
+  "signatureMetadata": {
+    "ip": "189.203.101.218",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-09T03:30:55.011Z",
+    "signedAtLocal": "2026-04-08T21:30:55.011Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "38118a82f988693248fbd2442d159819390c8ba04963242186074a849d6ef2a4"
+  "documentHash": "5a11c7de4dec1188d842f936ceda15a2beaf3d942c3765ade10db58cd1defeb1",
+  "auditTrail": [
+    {
+      "eventId": "64bd6f58-9c99-48e8-9144-752c57e36763",
+      "uid": "MMM240224KZ3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-09T03:29:20.917Z",
+      "timestampLocal": "2026-04-09T03:29:20.917Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.101.218",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MMM240224KZ3&nombre_proveedor_razon_social=LA+MAESTRA+MIEL+DE+MAPLE&nombre_representante_legal=ANA+KAREN+CONTRERAS+DIAZ&email=karen%40maestramieldemaple.com.mx",
+      "previousEventHash": null,
+      "documentHash": "38118a82f988693248fbd2442d159819390c8ba04963242186074a849d6ef2a4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a87a9de450d065f24d1a01791d84402bab9e87d41aaa828f402c1e4481d8eaa0"
+    },
+    {
+      "eventId": "184a2df6-18fa-4707-b139-a253ed64bc53",
+      "uid": "MMM240224KZ3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-09T03:29:20.917Z",
+      "timestampLocal": "2026-04-09T03:29:20.917Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.101.218",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MMM240224KZ3&nombre_proveedor_razon_social=LA+MAESTRA+MIEL+DE+MAPLE&nombre_representante_legal=ANA+KAREN+CONTRERAS+DIAZ&email=karen%40maestramieldemaple.com.mx",
+      "previousEventHash": "a87a9de450d065f24d1a01791d84402bab9e87d41aaa828f402c1e4481d8eaa0",
+      "documentHash": "38118a82f988693248fbd2442d159819390c8ba04963242186074a849d6ef2a4",
+      "metadata": {
+        "proveedor": "LA MAESTRA MIEL DE MAPLE",
+        "representante": "ANA KAREN CONTRERAS DIAZ"
+      },
+      "eventHash": "1f07cf8d52b3c45c116443b3bc9f91e36d8c292829315d6cf8095d333c88be73"
+    },
+    {
+      "eventId": "fe026221-7c40-43a8-a9ca-6cc9d2803400",
+      "uid": "MMM240224KZ3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-09T03:29:21.830Z",
+      "timestampLocal": "2026-04-09T03:29:21.830Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.101.218",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MMM240224KZ3&nombre_proveedor_razon_social=LA+MAESTRA+MIEL+DE+MAPLE&nombre_representante_legal=ANA+KAREN+CONTRERAS+DIAZ&email=karen%40maestramieldemaple.com.mx",
+      "previousEventHash": "1f07cf8d52b3c45c116443b3bc9f91e36d8c292829315d6cf8095d333c88be73",
+      "documentHash": "38118a82f988693248fbd2442d159819390c8ba04963242186074a849d6ef2a4",
+      "eventHash": "c6c4bc85f144d792da9a0afcc31ae78234c447ac08faff1257168dfa357270cd"
+    },
+    {
+      "eventId": "3a531130-dc52-4271-ac4f-48e6913dd8ff",
+      "uid": "MMM240224KZ3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-09T03:30:55.012Z",
+      "timestampLocal": "2026-04-08T21:30:55.012Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.101.218",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/23a3ab5c-3c02-4a69-91a6-7a1e35a45da8",
+      "previousEventHash": "c6c4bc85f144d792da9a0afcc31ae78234c447ac08faff1257168dfa357270cd",
+      "documentHash": "5a11c7de4dec1188d842f936ceda15a2beaf3d942c3765ade10db58cd1defeb1",
+      "signatureHash": "fc48513dc386710c01e9ab3ac9fac4906a083328fb1813ac2b8edff59a87b3d5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-08T21:30:51.715Z"
+      },
+      "eventHash": "a5dd57cc334870bd268f807e34d9d88a4f99164a5136e276f7cba68ba1ff3e54"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-09T03:30:55.012Z"
+  }
 }
