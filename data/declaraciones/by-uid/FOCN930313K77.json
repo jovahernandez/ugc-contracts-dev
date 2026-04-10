@@ -1,19 +1,115 @@
 {
   "uid": "FOCN930313K77",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "NORBERTO EDUARDO FLORES CAZARES",
     "nombre_representante_legal": "NORBERTO EDUARDO FLORES CAZARES",
     "email": "norberto@nonagency.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "NORBERTO EDUARDO FLORES CAZARES",
-    "nombre_representante_legal": "NORBERTO EDUARDO FLORES CAZARES",
-    "email": "norberto@nonagency.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-10T13:11:22.980Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/FOCN930313K77",
+  "signatureMetadata": {
+    "ip": "189.167.47.92",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-10T19:11:26.374Z",
+    "signedAtLocal": "2026-04-10T13:11:26.374Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "41531bb96cea465025b8c7ef3ef29b14379db9a3256acc1b75e6b3e7c19491ac"
+  "documentHash": "256af556f5cef9eefb2196bc47dabf1ac06581cb1881e3227f9dc9f48864d912",
+  "auditTrail": [
+    {
+      "eventId": "edb5c9bb-bf46-43a4-9547-f6949430cd34",
+      "uid": "FOCN930313K77",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-10T19:06:23.605Z",
+      "timestampLocal": "2026-04-10T19:06:23.605Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.167.47.92",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FOCN930313K77&nombre_proveedor_razon_social=NORBERTO+EDUARDO+FLORES+CAZARES&nombre_representante_legal=JIRAM+GUZMAN&email=norberto%40nonagency.com.mx",
+      "previousEventHash": null,
+      "documentHash": "41531bb96cea465025b8c7ef3ef29b14379db9a3256acc1b75e6b3e7c19491ac",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f065015aeaa68e1bc9224441f419d2d2fd170ab11644ec7852532fcb6aa29abf"
+    },
+    {
+      "eventId": "15e5e505-4f89-4675-bfc0-0ebaf9e2715c",
+      "uid": "FOCN930313K77",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-10T19:06:23.605Z",
+      "timestampLocal": "2026-04-10T19:06:23.605Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.167.47.92",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FOCN930313K77&nombre_proveedor_razon_social=NORBERTO+EDUARDO+FLORES+CAZARES&nombre_representante_legal=JIRAM+GUZMAN&email=norberto%40nonagency.com.mx",
+      "previousEventHash": "f065015aeaa68e1bc9224441f419d2d2fd170ab11644ec7852532fcb6aa29abf",
+      "documentHash": "41531bb96cea465025b8c7ef3ef29b14379db9a3256acc1b75e6b3e7c19491ac",
+      "metadata": {
+        "proveedor": "NORBERTO EDUARDO FLORES CAZARES",
+        "representante": "NORBERTO EDUARDO FLORES CAZARES"
+      },
+      "eventHash": "9f4d256f271dc1284a227126891fc54868e9a98e698e7d928b4b8e8b880e6356"
+    },
+    {
+      "eventId": "05b77648-a24b-41a7-80a3-4ba6b1b41017",
+      "uid": "FOCN930313K77",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-10T19:06:24.767Z",
+      "timestampLocal": "2026-04-10T19:06:24.767Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.167.47.92",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FOCN930313K77&nombre_proveedor_razon_social=NORBERTO+EDUARDO+FLORES+CAZARES&nombre_representante_legal=JIRAM+GUZMAN&email=norberto%40nonagency.com.mx",
+      "previousEventHash": "9f4d256f271dc1284a227126891fc54868e9a98e698e7d928b4b8e8b880e6356",
+      "documentHash": "41531bb96cea465025b8c7ef3ef29b14379db9a3256acc1b75e6b3e7c19491ac",
+      "eventHash": "6379a8abaa22b27787fd42eb41280de1cf6f27b8115d26c7370a9a3dd1ed3831"
+    },
+    {
+      "eventId": "6b276be6-7860-4135-b20a-2e7f27582283",
+      "uid": "FOCN930313K77",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-10T19:10:26.840Z",
+      "timestampLocal": "2026-04-10T19:10:26.840Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.167.47.92",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "6379a8abaa22b27787fd42eb41280de1cf6f27b8115d26c7370a9a3dd1ed3831",
+      "documentHash": "41531bb96cea465025b8c7ef3ef29b14379db9a3256acc1b75e6b3e7c19491ac",
+      "eventHash": "48b6ad795a15751efcdfc756a28da19bb61b2a458f70739390a9af1ddea36e3e"
+    },
+    {
+      "eventId": "ec102fd0-4213-40d8-afc2-938e2ff7d3bf",
+      "uid": "FOCN930313K77",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-10T19:11:26.374Z",
+      "timestampLocal": "2026-04-10T13:11:26.374Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.167.47.92",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/793ad915-efe5-4973-9ccc-96ff736ae042",
+      "previousEventHash": "48b6ad795a15751efcdfc756a28da19bb61b2a458f70739390a9af1ddea36e3e",
+      "documentHash": "256af556f5cef9eefb2196bc47dabf1ac06581cb1881e3227f9dc9f48864d912",
+      "signatureHash": "153ee8e4ce52337c5c5a51aaac308ba9e1fe8498e3615fdc0859353a3af14e9d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-10T13:11:22.980Z"
+      },
+      "eventHash": "1b38fb0d815a0dc196ed9db107a23890c28ea398a088680d505595c743ecfd58"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-04-10T19:11:26.375Z"
+  }
 }
