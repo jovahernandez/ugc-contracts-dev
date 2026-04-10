@@ -1,19 +1,100 @@
 {
   "uid": "42865041000190",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "YGOR DE OLIVEIRA PALOPOLI 15914474701",
     "nombre_representante_legal": "Ygor de Oliveira Palopoli",
     "email": "ygorpalopoli@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "YGOR DE OLIVEIRA PALOPOLI 15914474701",
-    "nombre_representante_legal": "Ygor de Oliveira Palopoli",
-    "email": "ygorpalopoli@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-10T17:52:19.182Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/42865041000190",
+  "signatureMetadata": {
+    "ip": "189.120.73.46",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-10T20:52:24.695Z",
+    "signedAtLocal": "2026-04-10T17:52:24.695Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e3c24f2c1aa43715f95754fb5aca5a58682e3911a25c438e685b6c21da9d71c9"
+  "documentHash": "2a8e6fbdf25ef0d9ec5c588bc1771bcf5e919436ce22cb13bcc564da1df2c0b8",
+  "auditTrail": [
+    {
+      "eventId": "d5cc73b0-038a-4ffa-9179-d749d7d2daea",
+      "uid": "42865041000190",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-10T20:51:30.058Z",
+      "timestampLocal": "2026-04-10T20:51:30.058Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.120.73.46",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42865041000190&nombre_proveedor_razon_social=YGOR+DE+OLIVEIRA+PALOPOLI+15914474701&nombre_representante_legal=Ygor+de+Oliveira+Palopoli&email=ygorpalopoli%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "e3c24f2c1aa43715f95754fb5aca5a58682e3911a25c438e685b6c21da9d71c9",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "1d9914cf2d18ba5cf5bb18d7419646dc4630463ca28790fd0fe543f57530a390"
+    },
+    {
+      "eventId": "ed965e47-284b-42a9-994c-5b0dac731cbb",
+      "uid": "42865041000190",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-10T20:51:30.058Z",
+      "timestampLocal": "2026-04-10T20:51:30.058Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.120.73.46",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42865041000190&nombre_proveedor_razon_social=YGOR+DE+OLIVEIRA+PALOPOLI+15914474701&nombre_representante_legal=Ygor+de+Oliveira+Palopoli&email=ygorpalopoli%40gmail.com",
+      "previousEventHash": "1d9914cf2d18ba5cf5bb18d7419646dc4630463ca28790fd0fe543f57530a390",
+      "documentHash": "e3c24f2c1aa43715f95754fb5aca5a58682e3911a25c438e685b6c21da9d71c9",
+      "metadata": {
+        "proveedor": "YGOR DE OLIVEIRA PALOPOLI 15914474701",
+        "representante": "Ygor de Oliveira Palopoli"
+      },
+      "eventHash": "c65969dde4932a2238359bcab862eb7bcc66aef82b173470cc1dfdf76e38f6db"
+    },
+    {
+      "eventId": "7313a8dd-9475-4d78-9d89-1b32b6db5efc",
+      "uid": "42865041000190",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-10T20:51:31.269Z",
+      "timestampLocal": "2026-04-10T20:51:31.269Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.120.73.46",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42865041000190&nombre_proveedor_razon_social=YGOR+DE+OLIVEIRA+PALOPOLI+15914474701&nombre_representante_legal=Ygor+de+Oliveira+Palopoli&email=ygorpalopoli%40gmail.com",
+      "previousEventHash": "c65969dde4932a2238359bcab862eb7bcc66aef82b173470cc1dfdf76e38f6db",
+      "documentHash": "e3c24f2c1aa43715f95754fb5aca5a58682e3911a25c438e685b6c21da9d71c9",
+      "eventHash": "f78c8d5e37d229e669f1efd362997c56fac213358e38bedc9ff07a34760c1d73"
+    },
+    {
+      "eventId": "3ab53e73-c827-4df4-b20f-0c1554b6ea0a",
+      "uid": "42865041000190",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-10T20:52:24.695Z",
+      "timestampLocal": "2026-04-10T17:52:24.695Z",
+      "timezone": "UTC-3",
+      "ipAddress": "189.120.73.46",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ad88a9b1-9968-4e98-8506-78856b89780b",
+      "previousEventHash": "f78c8d5e37d229e669f1efd362997c56fac213358e38bedc9ff07a34760c1d73",
+      "documentHash": "2a8e6fbdf25ef0d9ec5c588bc1771bcf5e919436ce22cb13bcc564da1df2c0b8",
+      "signatureHash": "ee9a8a1c7e9c787ca61ff8c6e1fc47bec8bbffe2cc29d6965d1a72f38642ea6e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-10T17:52:19.182Z"
+      },
+      "eventHash": "15a066525ff8badf007e27629896d55d40f0f682109c9ccb10cc8810c18403e7"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-10T20:52:24.695Z"
+  }
 }
