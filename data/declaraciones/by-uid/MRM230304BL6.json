@@ -1,19 +1,100 @@
 {
   "uid": "MRM230304BL6",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MRMULTIMEDIA",
     "nombre_representante_legal": "JOSE EMILIANO TRUJILLO ANGULO",
     "email": "admin@katanatalent.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MRMULTIMEDIA",
-    "nombre_representante_legal": "JOSE EMILIANO TRUJILLO ANGULO",
-    "email": "admin@katanatalent.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-10T10:36:22.246Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MRM230304BL6",
+  "signatureMetadata": {
+    "ip": "177.228.102.71",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-10T17:36:25.579Z",
+    "signedAtLocal": "2026-04-10T10:36:25.579Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "28a0b84e6b6cc90fdb77f87302bbfb53f3660e3be5c567b63ee457fcb808af29"
+  "documentHash": "f14085945debbe393af928c1653f07a06feb51872e08842ba75859431a4fec88",
+  "auditTrail": [
+    {
+      "eventId": "f657a2a1-00a2-43ea-b354-f531356eaff4",
+      "uid": "MRM230304BL6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-10T17:33:30.650Z",
+      "timestampLocal": "2026-04-10T17:33:30.650Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.228.102.71",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MRM230304BL6&nombre_proveedor_razon_social=MRMULTIMEDIA&nombre_representante_legal=JOSE+EMILIANO+TRUJILLO+ANGULO&email=admin%40katanatalent.com",
+      "previousEventHash": null,
+      "documentHash": "28a0b84e6b6cc90fdb77f87302bbfb53f3660e3be5c567b63ee457fcb808af29",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "775fde6996ea0e84b39131aa24bdd38e4f2c6735f790e717f17ce37c9f94a46b"
+    },
+    {
+      "eventId": "e6b7be55-d2a8-4711-9c05-12192a765e35",
+      "uid": "MRM230304BL6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-10T17:33:30.650Z",
+      "timestampLocal": "2026-04-10T17:33:30.650Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.228.102.71",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MRM230304BL6&nombre_proveedor_razon_social=MRMULTIMEDIA&nombre_representante_legal=JOSE+EMILIANO+TRUJILLO+ANGULO&email=admin%40katanatalent.com",
+      "previousEventHash": "775fde6996ea0e84b39131aa24bdd38e4f2c6735f790e717f17ce37c9f94a46b",
+      "documentHash": "28a0b84e6b6cc90fdb77f87302bbfb53f3660e3be5c567b63ee457fcb808af29",
+      "metadata": {
+        "proveedor": "MRMULTIMEDIA",
+        "representante": "JOSE EMILIANO TRUJILLO ANGULO"
+      },
+      "eventHash": "9f09506f7b66ca83661e492a7d1ef4eb84ffc1dd4f17f1165655eaf9258066ab"
+    },
+    {
+      "eventId": "c743a8b5-3fe5-4ab8-9cf4-efab44e50df9",
+      "uid": "MRM230304BL6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-10T17:33:31.738Z",
+      "timestampLocal": "2026-04-10T17:33:31.738Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.228.102.71",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MRM230304BL6&nombre_proveedor_razon_social=MRMULTIMEDIA&nombre_representante_legal=JOSE+EMILIANO+TRUJILLO+ANGULO&email=admin%40katanatalent.com",
+      "previousEventHash": "9f09506f7b66ca83661e492a7d1ef4eb84ffc1dd4f17f1165655eaf9258066ab",
+      "documentHash": "28a0b84e6b6cc90fdb77f87302bbfb53f3660e3be5c567b63ee457fcb808af29",
+      "eventHash": "c413217159a7770a439c1297c36fe1b4a069c72e2de9ac5c020959d7deeab3c9"
+    },
+    {
+      "eventId": "071968eb-75eb-40c1-aeba-ebbedecaa954",
+      "uid": "MRM230304BL6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-10T17:36:25.579Z",
+      "timestampLocal": "2026-04-10T10:36:25.579Z",
+      "timezone": "UTC-7",
+      "ipAddress": "177.228.102.71",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/428923a9-b800-429a-9993-e4383f1fc44e",
+      "previousEventHash": "c413217159a7770a439c1297c36fe1b4a069c72e2de9ac5c020959d7deeab3c9",
+      "documentHash": "f14085945debbe393af928c1653f07a06feb51872e08842ba75859431a4fec88",
+      "signatureHash": "37dfdbd5191433e3f00357943c33ef579cebf790af007fda1ffec7b77b6e4dbf",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-10T10:36:22.246Z"
+      },
+      "eventHash": "687bfe6842737a66b637d92eefc8930da53c95cf3bb01e5288169fdd0c767358"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-10T17:36:25.580Z"
+  }
 }
