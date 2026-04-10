@@ -1,19 +1,100 @@
 {
   "uid": "60602119000166",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "TAMBOR AGENCIAMENTOS LTDA",
     "nombre_representante_legal": "Vitor Bastos",
     "email": "vitor@tambor.biz"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "TAMBOR AGENCIAMENTOS LTDA",
-    "nombre_representante_legal": "Vitor Bastos",
-    "email": "vitor@tambor.biz"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-10T17:15:52.978Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/60602119000166",
+  "signatureMetadata": {
+    "ip": "45.163.117.150",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-10T20:15:56.525Z",
+    "signedAtLocal": "2026-04-10T17:15:56.525Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "28b0b4807a278661fc7ae38d0b7b8b68701af825657daf1c33d739f4d3081c92"
+  "documentHash": "156a06ac0cd2fd1eebe3ee7d6106334ea1ec860439e23aa69311c656f471eed3",
+  "auditTrail": [
+    {
+      "eventId": "94b6e9b8-6722-49f7-be5c-c2fcff47b68b",
+      "uid": "60602119000166",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-10T20:15:14.840Z",
+      "timestampLocal": "2026-04-10T20:15:14.840Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.163.117.150",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=60602119000166&nombre_proveedor_razon_social=TAMBOR+AGENCIAMENTOS+LTDA&nombre_representante_legal=Vitor+Bastos+&email=vitor%40tambor.biz",
+      "previousEventHash": null,
+      "documentHash": "28b0b4807a278661fc7ae38d0b7b8b68701af825657daf1c33d739f4d3081c92",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "d73955d90a9433f7aecb6bbd5551a9a1e25f8f071fde55afb821e384741e57db"
+    },
+    {
+      "eventId": "504e9ae5-7d0b-4592-9d27-04d32a037f22",
+      "uid": "60602119000166",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-10T20:15:14.840Z",
+      "timestampLocal": "2026-04-10T20:15:14.840Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.163.117.150",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=60602119000166&nombre_proveedor_razon_social=TAMBOR+AGENCIAMENTOS+LTDA&nombre_representante_legal=Vitor+Bastos+&email=vitor%40tambor.biz",
+      "previousEventHash": "d73955d90a9433f7aecb6bbd5551a9a1e25f8f071fde55afb821e384741e57db",
+      "documentHash": "28b0b4807a278661fc7ae38d0b7b8b68701af825657daf1c33d739f4d3081c92",
+      "metadata": {
+        "proveedor": "TAMBOR AGENCIAMENTOS LTDA",
+        "representante": "Vitor Bastos"
+      },
+      "eventHash": "78fc5c7220964f361ace7062e4c78b6336d1abe16b3fb502132078449960a0d0"
+    },
+    {
+      "eventId": "aefe2e4b-80f3-49fd-8583-36ae53437792",
+      "uid": "60602119000166",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-10T20:15:15.983Z",
+      "timestampLocal": "2026-04-10T20:15:15.983Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.163.117.150",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=60602119000166&nombre_proveedor_razon_social=TAMBOR+AGENCIAMENTOS+LTDA&nombre_representante_legal=Vitor+Bastos+&email=vitor%40tambor.biz",
+      "previousEventHash": "78fc5c7220964f361ace7062e4c78b6336d1abe16b3fb502132078449960a0d0",
+      "documentHash": "28b0b4807a278661fc7ae38d0b7b8b68701af825657daf1c33d739f4d3081c92",
+      "eventHash": "265756085b4d0fea0c2acfcbb69eaeda50a9f4ade4156b3428c51ff70bf3c468"
+    },
+    {
+      "eventId": "29529900-3874-4efe-8719-d251dd4e911d",
+      "uid": "60602119000166",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-10T20:15:56.525Z",
+      "timestampLocal": "2026-04-10T17:15:56.525Z",
+      "timezone": "UTC-3",
+      "ipAddress": "45.163.117.150",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b311b480-f91e-475a-8c23-d83f554fa0c7",
+      "previousEventHash": "265756085b4d0fea0c2acfcbb69eaeda50a9f4ade4156b3428c51ff70bf3c468",
+      "documentHash": "156a06ac0cd2fd1eebe3ee7d6106334ea1ec860439e23aa69311c656f471eed3",
+      "signatureHash": "4c0fcbb7637e84b907d1d848d9ef316b6e456014b1b0ee761facc705f0b23859",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-10T17:15:52.978Z"
+      },
+      "eventHash": "c092551b23618edbf2bcf7722b521be6921d38edf56a78ccf48db6080eb38fa0"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-10T20:15:56.525Z"
+  }
 }
