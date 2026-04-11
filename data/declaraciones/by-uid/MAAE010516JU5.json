@@ -1,19 +1,100 @@
 {
   "uid": "MAAE010516JU5",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Emilia Martínez Altamirano",
     "nombre_representante_legal": "Emilia Martinez Altamirano",
     "email": "emyaltamiranocollabs@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Emilia Martínez Altamirano",
-    "nombre_representante_legal": "Emilia Martinez Altamirano",
-    "email": "emyaltamiranocollabs@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-11T09:33:18.812Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MAAE010516JU5",
+  "signatureMetadata": {
+    "ip": "104.28.50.11",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-04-11T15:33:24.406Z",
+    "signedAtLocal": "2026-04-11T09:33:24.406Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "330ef52306768fc8fefe05856898c63f74edb4f9f4abb4831528156b4ec89801"
+  "documentHash": "733581788c5633d5568760e24cb330772440b171b33fc5991627e8cf82edfe51",
+  "auditTrail": [
+    {
+      "eventId": "4ca13217-d284-4b59-92ad-3100f11a1e5c",
+      "uid": "MAAE010516JU5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-11T15:31:46.936Z",
+      "timestampLocal": "2026-04-11T15:31:46.936Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.50.11",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "330ef52306768fc8fefe05856898c63f74edb4f9f4abb4831528156b4ec89801",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "daf85c125ffc4080485582ba1fcc370f8fa2e91b440d422ef15df0b9adeadbaf"
+    },
+    {
+      "eventId": "73ab77d0-10e3-48e8-8087-bacff5973f2b",
+      "uid": "MAAE010516JU5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-11T15:31:46.936Z",
+      "timestampLocal": "2026-04-11T15:31:46.936Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.50.11",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "daf85c125ffc4080485582ba1fcc370f8fa2e91b440d422ef15df0b9adeadbaf",
+      "documentHash": "330ef52306768fc8fefe05856898c63f74edb4f9f4abb4831528156b4ec89801",
+      "metadata": {
+        "proveedor": "Emilia Martínez Altamirano",
+        "representante": "Emilia Martinez Altamirano"
+      },
+      "eventHash": "f489c22c1c789990264e3f52c07647c41d11013c3eac5294bb143e6645c4bcb5"
+    },
+    {
+      "eventId": "0107bfb0-fbac-4f42-90ad-357c7fd05eaa",
+      "uid": "MAAE010516JU5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-11T15:31:48.100Z",
+      "timestampLocal": "2026-04-11T15:31:48.100Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.50.11",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f489c22c1c789990264e3f52c07647c41d11013c3eac5294bb143e6645c4bcb5",
+      "documentHash": "330ef52306768fc8fefe05856898c63f74edb4f9f4abb4831528156b4ec89801",
+      "eventHash": "f8152867dc4fb5e415795f352583e171fc3f72af83024230f7134d72beaf5479"
+    },
+    {
+      "eventId": "3833f2ca-a423-4197-943c-2c633d4ef814",
+      "uid": "MAAE010516JU5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-11T15:33:24.406Z",
+      "timestampLocal": "2026-04-11T09:33:24.406Z",
+      "timezone": "UTC-6",
+      "ipAddress": "104.28.50.11",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f8152867dc4fb5e415795f352583e171fc3f72af83024230f7134d72beaf5479",
+      "documentHash": "733581788c5633d5568760e24cb330772440b171b33fc5991627e8cf82edfe51",
+      "signatureHash": "92d26b3102b998787566a1b3728ff5d7e7ba95220ec7fd734ed3402eb7636604",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-11T09:33:18.812Z"
+      },
+      "eventHash": "f424c5062460a0fd877946f967dd366878d2b1208252b53cef384f5105a0b5a0"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-11T15:33:24.406Z"
+  }
 }
