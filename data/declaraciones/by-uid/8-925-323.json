@@ -1,19 +1,100 @@
 {
   "uid": "8-925-323",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Carlo Jesus Huang Wong",
     "nombre_representante_legal": "Carlo Jesus Huang Wong",
     "email": "carlohuang.inq@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Carlo Jesus Huang Wong",
-    "nombre_representante_legal": "Carlo Jesus Huang Wong",
-    "email": "carlohuang.inq@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-13T12:58:46.245Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/8-925-323",
+  "signatureMetadata": {
+    "ip": "190.141.255.33",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-13T17:58:49.560Z",
+    "signedAtLocal": "2026-04-13T12:58:49.560Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "236d382e37368feadbee9ec2f00a22acd0f15c83ed833de394bfc907d3eb1c19"
+  "documentHash": "2ff7c72a5ba4d3355e93d6610ad84154deaa662d94d3fad9ee5b7a0cd41f3165",
+  "auditTrail": [
+    {
+      "eventId": "5f825f54-d302-4d34-972d-9d93591cca2a",
+      "uid": "8-925-323",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-13T17:58:24.792Z",
+      "timestampLocal": "2026-04-13T17:58:24.792Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.141.255.33",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=8-925-323&nombre_proveedor_razon_social=Carlo+Jesus+Huang+Wong&nombre_representante_legal=Carlo+Jesus+Huang+Wong&email=carlohuang.inq%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "236d382e37368feadbee9ec2f00a22acd0f15c83ed833de394bfc907d3eb1c19",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0934902adbffeac75caa45d3dc4da59778e91a41f9adcc679f67a6afaf869960"
+    },
+    {
+      "eventId": "0360f80d-92ee-47ec-807a-4e650f361d3b",
+      "uid": "8-925-323",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-13T17:58:24.792Z",
+      "timestampLocal": "2026-04-13T17:58:24.792Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.141.255.33",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=8-925-323&nombre_proveedor_razon_social=Carlo+Jesus+Huang+Wong&nombre_representante_legal=Carlo+Jesus+Huang+Wong&email=carlohuang.inq%40gmail.com",
+      "previousEventHash": "0934902adbffeac75caa45d3dc4da59778e91a41f9adcc679f67a6afaf869960",
+      "documentHash": "236d382e37368feadbee9ec2f00a22acd0f15c83ed833de394bfc907d3eb1c19",
+      "metadata": {
+        "proveedor": "Carlo Jesus Huang Wong",
+        "representante": "Carlo Jesus Huang Wong"
+      },
+      "eventHash": "273143aae6b15bcda18f61db8f12469dabcece4f9b87595d40a0d6a860027891"
+    },
+    {
+      "eventId": "4dd625fb-e0cd-4fdd-9d8b-6e0e01840866",
+      "uid": "8-925-323",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-13T17:58:25.950Z",
+      "timestampLocal": "2026-04-13T17:58:25.950Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.141.255.33",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=8-925-323&nombre_proveedor_razon_social=Carlo+Jesus+Huang+Wong&nombre_representante_legal=Carlo+Jesus+Huang+Wong&email=carlohuang.inq%40gmail.com",
+      "previousEventHash": "273143aae6b15bcda18f61db8f12469dabcece4f9b87595d40a0d6a860027891",
+      "documentHash": "236d382e37368feadbee9ec2f00a22acd0f15c83ed833de394bfc907d3eb1c19",
+      "eventHash": "7c0462f37111130588695f6f9ac54da139e90858774e1587715b5b7839558824"
+    },
+    {
+      "eventId": "be8e915e-6d86-4c83-bb69-c8a6714a5de5",
+      "uid": "8-925-323",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-13T17:58:49.560Z",
+      "timestampLocal": "2026-04-13T12:58:49.560Z",
+      "timezone": "UTC-5",
+      "ipAddress": "190.141.255.33",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1c62bed3-4ee9-4920-8eb3-2b8364679025",
+      "previousEventHash": "7c0462f37111130588695f6f9ac54da139e90858774e1587715b5b7839558824",
+      "documentHash": "2ff7c72a5ba4d3355e93d6610ad84154deaa662d94d3fad9ee5b7a0cd41f3165",
+      "signatureHash": "3baa7e1c419e6722ec7fc8b6ba1c4d03c87bb7f4c540b4d7e9afade175cb4a7c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-13T12:58:46.245Z"
+      },
+      "eventHash": "0497219b7c026a105151d68668b65f28ed294e9ff8130608e2c80169e9064e30"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-13T17:58:49.560Z"
+  }
 }
