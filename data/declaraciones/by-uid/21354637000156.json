@@ -1,19 +1,100 @@
 {
   "uid": "21354637000156",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "LUPI AGENCIAMENTO DE PROFISSIONAIS LTDA",
     "nombre_representante_legal": "LUCIANA PIMENTEL DE SOUSA COSTA",
     "email": "financeiro@oilupi.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "LUPI AGENCIAMENTO DE PROFISSIONAIS LTDA",
-    "nombre_representante_legal": "LUCIANA PIMENTEL DE SOUSA COSTA",
-    "email": "financeiro@oilupi.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-13T19:57:49.602Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/21354637000156",
+  "signatureMetadata": {
+    "ip": "201.1.83.250",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-13T22:57:52.937Z",
+    "signedAtLocal": "2026-04-13T19:57:52.937Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2d4886ebce162c9fd78364c464f5981979e43bed9690da4d09d4f5b5876bf41e"
+  "documentHash": "d0d391cf65bce0e7b3ee422865c0df9eb811cb53f21b3ef1e64a1603a04bcfd6",
+  "auditTrail": [
+    {
+      "eventId": "847eff40-b858-4655-88f0-a66c42120d25",
+      "uid": "21354637000156",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-13T22:56:56.368Z",
+      "timestampLocal": "2026-04-13T22:56:56.368Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.83.250",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=21354637000156&nombre_proveedor_razon_social=LUPI+AGENCIAMENTO+DE+PROFISSIONAIS+LTDA&nombre_representante_legal=LUCIANA+PIMENTEL+DE+SOUSA+COSTA&email=financeiro%40oilupi.com",
+      "previousEventHash": null,
+      "documentHash": "2d4886ebce162c9fd78364c464f5981979e43bed9690da4d09d4f5b5876bf41e",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "d33acb62d800f04d9a262e12fb298633af1073aec2f5e8ab488f1cb71735094d"
+    },
+    {
+      "eventId": "6bbdf190-dc64-478a-9a6c-736547b43c34",
+      "uid": "21354637000156",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-13T22:56:56.368Z",
+      "timestampLocal": "2026-04-13T22:56:56.368Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.83.250",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=21354637000156&nombre_proveedor_razon_social=LUPI+AGENCIAMENTO+DE+PROFISSIONAIS+LTDA&nombre_representante_legal=LUCIANA+PIMENTEL+DE+SOUSA+COSTA&email=financeiro%40oilupi.com",
+      "previousEventHash": "d33acb62d800f04d9a262e12fb298633af1073aec2f5e8ab488f1cb71735094d",
+      "documentHash": "2d4886ebce162c9fd78364c464f5981979e43bed9690da4d09d4f5b5876bf41e",
+      "metadata": {
+        "proveedor": "LUPI AGENCIAMENTO DE PROFISSIONAIS LTDA",
+        "representante": "LUCIANA PIMENTEL DE SOUSA COSTA"
+      },
+      "eventHash": "cc2e4e3cb3113ac411b2b413f4add16aa4af7a084d7cf491349fc66c203a4947"
+    },
+    {
+      "eventId": "d26bb1db-5145-4e8b-95a0-82dcc5a985c6",
+      "uid": "21354637000156",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-13T22:56:57.402Z",
+      "timestampLocal": "2026-04-13T22:56:57.402Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.1.83.250",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=21354637000156&nombre_proveedor_razon_social=LUPI+AGENCIAMENTO+DE+PROFISSIONAIS+LTDA&nombre_representante_legal=LUCIANA+PIMENTEL+DE+SOUSA+COSTA&email=financeiro%40oilupi.com",
+      "previousEventHash": "cc2e4e3cb3113ac411b2b413f4add16aa4af7a084d7cf491349fc66c203a4947",
+      "documentHash": "2d4886ebce162c9fd78364c464f5981979e43bed9690da4d09d4f5b5876bf41e",
+      "eventHash": "f795b9e24b199313b3548d2a8458918c44df07d54ec430d25f6ac1e3f666e026"
+    },
+    {
+      "eventId": "1f763965-59e6-4a2f-a01f-8e31065a436b",
+      "uid": "21354637000156",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-13T22:57:52.938Z",
+      "timestampLocal": "2026-04-13T19:57:52.938Z",
+      "timezone": "UTC-3",
+      "ipAddress": "201.1.83.250",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ce58d142-139f-4c5d-ba1e-dae1508a365e",
+      "previousEventHash": "f795b9e24b199313b3548d2a8458918c44df07d54ec430d25f6ac1e3f666e026",
+      "documentHash": "d0d391cf65bce0e7b3ee422865c0df9eb811cb53f21b3ef1e64a1603a04bcfd6",
+      "signatureHash": "8d72ceb0d1af2fad183335d207a44ed888bd13140ae85ba4ae52923dd9f61221",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-13T19:57:49.602Z"
+      },
+      "eventHash": "1e5a88cd8c6ca6fd53d66ff8a9860f6446f28349e848c0a0e1229680120203fb"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-13T22:57:52.938Z"
+  }
 }
