@@ -1,19 +1,100 @@
 {
   "uid": "AABM890602US5",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Mariana Andrade Beltran",
     "nombre_representante_legal": "Mariana Andrade Beltran",
     "email": "marianaabcontacto@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Mariana Andrade Beltran",
-    "nombre_representante_legal": "Mariana Andrade Beltran",
-    "email": "marianaabcontacto@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-13T09:28:19.502Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AABM890602US5",
+  "signatureMetadata": {
+    "ip": "187.145.148.7",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-13T15:28:22.811Z",
+    "signedAtLocal": "2026-04-13T09:28:22.811Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "abaa5fb7518a52564e805098f53567c0fd53f45f2c29b24a8237210c4b3fe933"
+  "documentHash": "4fdcc18abf77efdb3b2b72ad6e3753cc0dbead7d09f3c1cd3ae378c683b0b3cc",
+  "auditTrail": [
+    {
+      "eventId": "f3c8d275-7127-40cd-b678-27dfbd51f237",
+      "uid": "AABM890602US5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-13T15:28:00.240Z",
+      "timestampLocal": "2026-04-13T15:28:00.240Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.145.148.7",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AABM890602US5&nombre_proveedor_razon_social=Mariana+Andrade+Beltran&nombre_representante_legal=Mariana+Andrade+Beltran&email=marianaabcontacto%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "abaa5fb7518a52564e805098f53567c0fd53f45f2c29b24a8237210c4b3fe933",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "31a50c6cf706d183e1d66188c9bbb4ae62c58354b11bc1a9de8113d6a91b0a53"
+    },
+    {
+      "eventId": "034ac443-a098-4c19-a58f-319dc02f7071",
+      "uid": "AABM890602US5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-13T15:28:00.240Z",
+      "timestampLocal": "2026-04-13T15:28:00.240Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.145.148.7",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AABM890602US5&nombre_proveedor_razon_social=Mariana+Andrade+Beltran&nombre_representante_legal=Mariana+Andrade+Beltran&email=marianaabcontacto%40gmail.com",
+      "previousEventHash": "31a50c6cf706d183e1d66188c9bbb4ae62c58354b11bc1a9de8113d6a91b0a53",
+      "documentHash": "abaa5fb7518a52564e805098f53567c0fd53f45f2c29b24a8237210c4b3fe933",
+      "metadata": {
+        "proveedor": "Mariana Andrade Beltran",
+        "representante": "Mariana Andrade Beltran"
+      },
+      "eventHash": "b0a001d2c0906d65cf41ed3a949afd4920b7d1a6ca02dd7cf56d2329260c1db8"
+    },
+    {
+      "eventId": "49561927-e8be-4950-9a1e-8dfd4835d1c7",
+      "uid": "AABM890602US5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-13T15:28:01.911Z",
+      "timestampLocal": "2026-04-13T15:28:01.911Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.145.148.7",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AABM890602US5&nombre_proveedor_razon_social=Mariana+Andrade+Beltran&nombre_representante_legal=Mariana+Andrade+Beltran&email=marianaabcontacto%40gmail.com",
+      "previousEventHash": "b0a001d2c0906d65cf41ed3a949afd4920b7d1a6ca02dd7cf56d2329260c1db8",
+      "documentHash": "abaa5fb7518a52564e805098f53567c0fd53f45f2c29b24a8237210c4b3fe933",
+      "eventHash": "876bade9a0cc46fbc627c2349d8631e30b9adeb69d49366a1e172424dda626ea"
+    },
+    {
+      "eventId": "b330987a-5708-4c68-9a54-148274494fef",
+      "uid": "AABM890602US5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-13T15:28:22.811Z",
+      "timestampLocal": "2026-04-13T09:28:22.811Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.145.148.7",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/02c6b89f-9dde-4517-8412-11cbf64219b1",
+      "previousEventHash": "876bade9a0cc46fbc627c2349d8631e30b9adeb69d49366a1e172424dda626ea",
+      "documentHash": "4fdcc18abf77efdb3b2b72ad6e3753cc0dbead7d09f3c1cd3ae378c683b0b3cc",
+      "signatureHash": "b23db5e73126e3955685e671d3f469b13f2d9070bba958c5c437f1c63dd17383",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-13T09:28:19.502Z"
+      },
+      "eventHash": "bf510e688c026696f1cfc6fa3f49143745450963f0c1d3ba51642c88dbce0ba5"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-13T15:28:22.811Z"
+  }
 }
