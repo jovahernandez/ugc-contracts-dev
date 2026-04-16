@@ -1,19 +1,100 @@
 {
   "uid": "CCR260123IQ4",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CARAMBOLA CREATIVE SA DE CV",
     "nombre_representante_legal": "María José Farias Hernández",
     "email": "info@carambolamgmt.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CARAMBOLA CREATIVE SA DE CV",
-    "nombre_representante_legal": "María José Farias Hernández",
-    "email": "info@carambolamgmt.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-16T12:56:14.274Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CCR260123IQ4",
+  "signatureMetadata": {
+    "ip": "187.202.129.167",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-16T18:56:17.551Z",
+    "signedAtLocal": "2026-04-16T12:56:17.551Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0700595684a869e8375eb1a246b904e30e2ae8b47c28787b1d7876bb6bcdd4cb"
+  "documentHash": "fb9ed020d4b06f672a893e721ed75d995d5f777856e86e6d6512683dd444e72f",
+  "auditTrail": [
+    {
+      "eventId": "70f3da51-2831-4967-94d9-6ababd9e2fd6",
+      "uid": "CCR260123IQ4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-16T18:55:49.773Z",
+      "timestampLocal": "2026-04-16T18:55:49.773Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.129.167",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CCR260123IQ4&nombre_proveedor_razon_social=CARAMBOLA+CREATIVE+SA+DE+CV&nombre_representante_legal=Mar%C3%ADa+Jos%C3%A9+Farias+Hern%C3%A1ndez&email=info%40carambolamgmt.com",
+      "previousEventHash": null,
+      "documentHash": "0700595684a869e8375eb1a246b904e30e2ae8b47c28787b1d7876bb6bcdd4cb",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8d1f6fe11bc3363a294c7a2b8f4333a838a80ce87812b8600721c89e3dea020e"
+    },
+    {
+      "eventId": "06443ff5-48dc-4f32-8f8d-554124b4e635",
+      "uid": "CCR260123IQ4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-16T18:55:49.773Z",
+      "timestampLocal": "2026-04-16T18:55:49.773Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.129.167",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CCR260123IQ4&nombre_proveedor_razon_social=CARAMBOLA+CREATIVE+SA+DE+CV&nombre_representante_legal=Mar%C3%ADa+Jos%C3%A9+Farias+Hern%C3%A1ndez&email=info%40carambolamgmt.com",
+      "previousEventHash": "8d1f6fe11bc3363a294c7a2b8f4333a838a80ce87812b8600721c89e3dea020e",
+      "documentHash": "0700595684a869e8375eb1a246b904e30e2ae8b47c28787b1d7876bb6bcdd4cb",
+      "metadata": {
+        "proveedor": "CARAMBOLA CREATIVE SA DE CV",
+        "representante": "María José Farias Hernández"
+      },
+      "eventHash": "56649d5f4d09339fc45281e1f55161a978b57571374bbed757ffcadbe3765a2e"
+    },
+    {
+      "eventId": "cd47878a-f69a-44c5-8681-cb9153984b16",
+      "uid": "CCR260123IQ4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-16T18:55:50.698Z",
+      "timestampLocal": "2026-04-16T18:55:50.698Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.129.167",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CCR260123IQ4&nombre_proveedor_razon_social=CARAMBOLA+CREATIVE+SA+DE+CV&nombre_representante_legal=Mar%C3%ADa+Jos%C3%A9+Farias+Hern%C3%A1ndez&email=info%40carambolamgmt.com",
+      "previousEventHash": "56649d5f4d09339fc45281e1f55161a978b57571374bbed757ffcadbe3765a2e",
+      "documentHash": "0700595684a869e8375eb1a246b904e30e2ae8b47c28787b1d7876bb6bcdd4cb",
+      "eventHash": "55febc2470074579ca03d591d6900f89becaea251855bedfa64cfec63fa3b4d4"
+    },
+    {
+      "eventId": "7bef6f7b-b535-41c1-8334-ff887cffe56c",
+      "uid": "CCR260123IQ4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-16T18:56:17.551Z",
+      "timestampLocal": "2026-04-16T12:56:17.551Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.202.129.167",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/72d3b9ac-d854-469d-b8b4-1cc3ba8beff3",
+      "previousEventHash": "55febc2470074579ca03d591d6900f89becaea251855bedfa64cfec63fa3b4d4",
+      "documentHash": "fb9ed020d4b06f672a893e721ed75d995d5f777856e86e6d6512683dd444e72f",
+      "signatureHash": "d48659e213cb2b484a04f69d5c4dbba2628e8f19720fb7c37d27a90f100bb44d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-16T12:56:14.274Z"
+      },
+      "eventHash": "9bf50278767a0b244f0c876c93f5c51fa0d2014608bd36410e5c67ce094c0be6"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-16T18:56:17.551Z"
+  }
 }
