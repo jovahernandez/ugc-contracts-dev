@@ -1,19 +1,100 @@
 {
   "uid": "UASE900906PJ8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Sebastian Javier Urban",
     "nombre_representante_legal": "-",
     "email": "contacto@sebajurban.com.ar"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Sebastian Javier Urban",
-    "nombre_representante_legal": "-",
-    "email": "contacto@sebajurban.com.ar"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-16T15:42:28.931Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/UASE900906PJ8",
+  "signatureMetadata": {
+    "ip": "189.216.170.19",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-16T21:42:32.349Z",
+    "signedAtLocal": "2026-04-16T15:42:32.349Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7b35a50f801487c72c347585b356f3685674b58662a9a0e6f37774eb8c5dad90"
+  "documentHash": "fee1803525d4244b4d866915c40cb6cb492c6a9f0fead0032b77064f845254f1",
+  "auditTrail": [
+    {
+      "eventId": "fd4b63c8-aae8-4435-b5d2-9c4302e840bc",
+      "uid": "UASE900906PJ8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-16T21:41:52.887Z",
+      "timestampLocal": "2026-04-16T21:41:52.887Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.170.19",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=UASE900906PJ8&nombre_proveedor_razon_social=Sebastian+Javier+Urban&nombre_representante_legal=-&email=contacto%40sebajurban.com.ar",
+      "previousEventHash": null,
+      "documentHash": "7b35a50f801487c72c347585b356f3685674b58662a9a0e6f37774eb8c5dad90",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a659fd146fe04fac1a13aca47b48b2a80a5414d34622fe4bf2155154ac0ff5a7"
+    },
+    {
+      "eventId": "d10f0388-165f-4caa-960b-7d836ab6908a",
+      "uid": "UASE900906PJ8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-16T21:41:52.887Z",
+      "timestampLocal": "2026-04-16T21:41:52.887Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.170.19",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=UASE900906PJ8&nombre_proveedor_razon_social=Sebastian+Javier+Urban&nombre_representante_legal=-&email=contacto%40sebajurban.com.ar",
+      "previousEventHash": "a659fd146fe04fac1a13aca47b48b2a80a5414d34622fe4bf2155154ac0ff5a7",
+      "documentHash": "7b35a50f801487c72c347585b356f3685674b58662a9a0e6f37774eb8c5dad90",
+      "metadata": {
+        "proveedor": "Sebastian Javier Urban",
+        "representante": "-"
+      },
+      "eventHash": "c0ada858747f1f33fafa552eff871e097da38acda3bceea083e12a3de0743d03"
+    },
+    {
+      "eventId": "aee48c98-ae04-4a14-bb45-862f0486f99d",
+      "uid": "UASE900906PJ8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-16T21:41:54.014Z",
+      "timestampLocal": "2026-04-16T21:41:54.014Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.170.19",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=UASE900906PJ8&nombre_proveedor_razon_social=Sebastian+Javier+Urban&nombre_representante_legal=-&email=contacto%40sebajurban.com.ar",
+      "previousEventHash": "c0ada858747f1f33fafa552eff871e097da38acda3bceea083e12a3de0743d03",
+      "documentHash": "7b35a50f801487c72c347585b356f3685674b58662a9a0e6f37774eb8c5dad90",
+      "eventHash": "0cdaa146c3924d0f91b4a8ebce4a1d43a4064922ca6f644559f6a8339aaf7881"
+    },
+    {
+      "eventId": "6954a13d-0354-4419-afbe-3281b64f5c4d",
+      "uid": "UASE900906PJ8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-16T21:42:32.349Z",
+      "timestampLocal": "2026-04-16T15:42:32.349Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.216.170.19",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/bd1fd43b-584c-4380-8138-82d0d11f53c0",
+      "previousEventHash": "0cdaa146c3924d0f91b4a8ebce4a1d43a4064922ca6f644559f6a8339aaf7881",
+      "documentHash": "fee1803525d4244b4d866915c40cb6cb492c6a9f0fead0032b77064f845254f1",
+      "signatureHash": "3aba1cf6680fcea3717982907222f005746e5f5494975465ba2c5615b411b292",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-16T15:42:28.931Z"
+      },
+      "eventHash": "10cfd156e1d8c9e5f9224706bc82b6807eb3ebfaa99a6d84517e702fab3e7507"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-16T21:42:32.349Z"
+  }
 }
