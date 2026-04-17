@@ -1,19 +1,100 @@
 {
   "uid": "43102351000116",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "FAROL INFLUENCIADORES LTDA",
     "nombre_representante_legal": "DANIEL ULIAN",
     "email": "FINANCEIRO@GRUPOFAROL.COM"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "FAROL INFLUENCIADORES LTDA",
-    "nombre_representante_legal": "DANIEL ULIAN",
-    "email": "FINANCEIRO@GRUPOFAROL.COM"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-17T13:43:12.070Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/43102351000116",
+  "signatureMetadata": {
+    "ip": "191.255.169.57",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-17T16:43:15.418Z",
+    "signedAtLocal": "2026-04-17T13:43:15.418Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "67498c357227b08bf02dfee475db2ed37aed2073604ed97ed4e21317eace4876"
+  "documentHash": "a258c1dd9915d0768ca00579e84e03465929410a931106643801db35a3d4a372",
+  "auditTrail": [
+    {
+      "eventId": "400daf16-34c0-41a5-b614-1859afe0aa63",
+      "uid": "43102351000116",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-17T16:42:38.633Z",
+      "timestampLocal": "2026-04-17T16:42:38.633Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.255.169.57",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=43102351000116&nombre_proveedor_razon_social=FAROL+INFLUENCIADORES+LTDA&nombre_representante_legal=DANIEL+ULIAN&email=FINANCEIRO%40GRUPOFAROL.COM",
+      "previousEventHash": null,
+      "documentHash": "67498c357227b08bf02dfee475db2ed37aed2073604ed97ed4e21317eace4876",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "e8d4cce667c68005c5ac6ee3f8dc5e7265a250d094575f703ee259dac8fb6721"
+    },
+    {
+      "eventId": "7f7dfbf7-6334-4033-97d7-937900244c0f",
+      "uid": "43102351000116",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-17T16:42:38.633Z",
+      "timestampLocal": "2026-04-17T16:42:38.633Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.255.169.57",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=43102351000116&nombre_proveedor_razon_social=FAROL+INFLUENCIADORES+LTDA&nombre_representante_legal=DANIEL+ULIAN&email=FINANCEIRO%40GRUPOFAROL.COM",
+      "previousEventHash": "e8d4cce667c68005c5ac6ee3f8dc5e7265a250d094575f703ee259dac8fb6721",
+      "documentHash": "67498c357227b08bf02dfee475db2ed37aed2073604ed97ed4e21317eace4876",
+      "metadata": {
+        "proveedor": "FAROL INFLUENCIADORES LTDA",
+        "representante": "DANIEL ULIAN"
+      },
+      "eventHash": "49285b21e3fc2342eff764a1512791d159c76463f87b0e47d51a45a97d2f8143"
+    },
+    {
+      "eventId": "80adbdb8-c861-44ba-84d8-d1303e62423a",
+      "uid": "43102351000116",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-17T16:42:39.578Z",
+      "timestampLocal": "2026-04-17T16:42:39.578Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.255.169.57",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=43102351000116&nombre_proveedor_razon_social=FAROL+INFLUENCIADORES+LTDA&nombre_representante_legal=DANIEL+ULIAN&email=FINANCEIRO%40GRUPOFAROL.COM",
+      "previousEventHash": "49285b21e3fc2342eff764a1512791d159c76463f87b0e47d51a45a97d2f8143",
+      "documentHash": "67498c357227b08bf02dfee475db2ed37aed2073604ed97ed4e21317eace4876",
+      "eventHash": "a6c0e3ad0ca7d2e98ad33dd2b2e20eb794b92c7e6e1462903ad2a31cb975b18c"
+    },
+    {
+      "eventId": "5d4ade88-02e8-4fd7-b608-2efe675e8f28",
+      "uid": "43102351000116",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-17T16:43:15.419Z",
+      "timestampLocal": "2026-04-17T13:43:15.419Z",
+      "timezone": "UTC-3",
+      "ipAddress": "191.255.169.57",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/0bfca050-9213-4a23-8149-aac657d5204e",
+      "previousEventHash": "a6c0e3ad0ca7d2e98ad33dd2b2e20eb794b92c7e6e1462903ad2a31cb975b18c",
+      "documentHash": "a258c1dd9915d0768ca00579e84e03465929410a931106643801db35a3d4a372",
+      "signatureHash": "dfe286d7a3cc96e2617a06c02a8e0180b778493d5994b7a252675f9e0538cf75",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-17T13:43:12.070Z"
+      },
+      "eventHash": "e4a1e724a4b15c798db6a035e386686059068010ffaec6373b0deeeeff6a7650"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-17T16:43:15.419Z"
+  }
 }
