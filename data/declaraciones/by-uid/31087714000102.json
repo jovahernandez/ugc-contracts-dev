@@ -1,19 +1,100 @@
 {
   "uid": "31087714000102",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "SIDE CO MARKETING DE INFLUENCIA LTDA",
     "nombre_representante_legal": "TATIANE MEDEIROS RODRIGUES",
     "email": "contasareceber@sideco.com.br"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SIDE CO MARKETING DE INFLUENCIA LTDA",
-    "nombre_representante_legal": "TATIANE MEDEIROS RODRIGUES",
-    "email": "contasareceber@sideco.com.br"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-17T15:58:02.635Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/31087714000102",
+  "signatureMetadata": {
+    "ip": "177.81.72.109",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-17T18:58:06.172Z",
+    "signedAtLocal": "2026-04-17T15:58:06.172Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a9b54f968a8e2891b3e26dbbad4993f66e810816d969aabda1034237da08849c"
+  "documentHash": "3894cc68329cac913e26f54b5a8134954196e9ec1f2f6489cc912e51b7003809",
+  "auditTrail": [
+    {
+      "eventId": "a1e3a8ef-95db-40e8-b953-39b3e627f5f8",
+      "uid": "31087714000102",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-17T18:57:34.782Z",
+      "timestampLocal": "2026-04-17T18:57:34.782Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.81.72.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31087714000102&nombre_proveedor_razon_social=SIDE+CO+MARKETING+DE+INFLUENCIA+LTDA&nombre_representante_legal=TATIANE+MEDEIROS+RODRIGUES&email=contasareceber%40sideco.com.br",
+      "previousEventHash": null,
+      "documentHash": "a9b54f968a8e2891b3e26dbbad4993f66e810816d969aabda1034237da08849c",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "862a2c54bd74d4593ce8f5340041767415da1b546d243b4414caf04d27d6bb49"
+    },
+    {
+      "eventId": "0d75f556-919b-47dd-8a34-e6f501cdad99",
+      "uid": "31087714000102",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-17T18:57:34.782Z",
+      "timestampLocal": "2026-04-17T18:57:34.782Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.81.72.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31087714000102&nombre_proveedor_razon_social=SIDE+CO+MARKETING+DE+INFLUENCIA+LTDA&nombre_representante_legal=TATIANE+MEDEIROS+RODRIGUES&email=contasareceber%40sideco.com.br",
+      "previousEventHash": "862a2c54bd74d4593ce8f5340041767415da1b546d243b4414caf04d27d6bb49",
+      "documentHash": "a9b54f968a8e2891b3e26dbbad4993f66e810816d969aabda1034237da08849c",
+      "metadata": {
+        "proveedor": "SIDE CO MARKETING DE INFLUENCIA LTDA",
+        "representante": "TATIANE MEDEIROS RODRIGUES"
+      },
+      "eventHash": "8b40d01344da883b21ad1cd7df70c65b38847ad98dcd079e32f8eb2b81760fb7"
+    },
+    {
+      "eventId": "ed71ffda-0b62-4676-b831-4e416b4aa19e",
+      "uid": "31087714000102",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-17T18:57:35.995Z",
+      "timestampLocal": "2026-04-17T18:57:35.995Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.81.72.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31087714000102&nombre_proveedor_razon_social=SIDE+CO+MARKETING+DE+INFLUENCIA+LTDA&nombre_representante_legal=TATIANE+MEDEIROS+RODRIGUES&email=contasareceber%40sideco.com.br",
+      "previousEventHash": "8b40d01344da883b21ad1cd7df70c65b38847ad98dcd079e32f8eb2b81760fb7",
+      "documentHash": "a9b54f968a8e2891b3e26dbbad4993f66e810816d969aabda1034237da08849c",
+      "eventHash": "4096184c4684c66cff1d7cfde3c07c8cd8b64d15bf8d4e716aa67411e739e700"
+    },
+    {
+      "eventId": "b4db9899-f8d1-457b-9cb4-3986e3243bf6",
+      "uid": "31087714000102",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-17T18:58:06.172Z",
+      "timestampLocal": "2026-04-17T15:58:06.172Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.81.72.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/98144ffe-35fc-480d-8c2f-c772ba7b552d",
+      "previousEventHash": "4096184c4684c66cff1d7cfde3c07c8cd8b64d15bf8d4e716aa67411e739e700",
+      "documentHash": "3894cc68329cac913e26f54b5a8134954196e9ec1f2f6489cc912e51b7003809",
+      "signatureHash": "ceac38810e3e61a6e1be6608d02468e78767a12311842fb53be8114c6ed019b0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-17T15:58:02.635Z"
+      },
+      "eventHash": "ce3bb58e51da07dd7435b9d12cf77b2defc32894864ffebe7065558121803cd6"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-17T18:58:06.173Z"
+  }
 }
