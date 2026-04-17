@@ -1,19 +1,100 @@
 {
   "uid": "RATR921125EHA",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "RICARDO RAFAEL TREVES",
     "nombre_representante_legal": "RICARDO RAFEL TREVES",
     "email": "info.platos23@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "RICARDO RAFAEL TREVES",
-    "nombre_representante_legal": "RICARDO RAFEL TREVES",
-    "email": "info.platos23@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-16T19:14:03.866Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RATR921125EHA",
+  "signatureMetadata": {
+    "ip": "189.131.131.41",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-17T01:14:07.223Z",
+    "signedAtLocal": "2026-04-16T19:14:07.223Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1983845c8865eab240445a86e4d413fd44b9cf586b7daf17b4f6d04e248a5b1c"
+  "documentHash": "313ad759e7ba96b44d7414b9b7ced6280d172ddbd58252c39e25546911943727",
+  "auditTrail": [
+    {
+      "eventId": "996f7e6a-dee1-46e9-8c57-361f11247efc",
+      "uid": "RATR921125EHA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-17T01:13:35.071Z",
+      "timestampLocal": "2026-04-17T01:13:35.071Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.131.41",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RATR921125EHA&nombre_proveedor_razon_social=RICARDO+RAFAEL+TREVES&nombre_representante_legal=RICARDO+RAFEL+TREVES&email=info.platos23%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "1983845c8865eab240445a86e4d413fd44b9cf586b7daf17b4f6d04e248a5b1c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3936e155ba110f607a2459b425546272deeb89edc12ad5b73214be141ebe014d"
+    },
+    {
+      "eventId": "ccef7f52-d8c8-474b-bc82-ef7ad398b5fe",
+      "uid": "RATR921125EHA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-17T01:13:35.071Z",
+      "timestampLocal": "2026-04-17T01:13:35.071Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.131.41",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RATR921125EHA&nombre_proveedor_razon_social=RICARDO+RAFAEL+TREVES&nombre_representante_legal=RICARDO+RAFEL+TREVES&email=info.platos23%40gmail.com",
+      "previousEventHash": "3936e155ba110f607a2459b425546272deeb89edc12ad5b73214be141ebe014d",
+      "documentHash": "1983845c8865eab240445a86e4d413fd44b9cf586b7daf17b4f6d04e248a5b1c",
+      "metadata": {
+        "proveedor": "RICARDO RAFAEL TREVES",
+        "representante": "RICARDO RAFEL TREVES"
+      },
+      "eventHash": "cb7bc5768ead0681110413423d199c8d567a82668770f2f87296aabdb019bf81"
+    },
+    {
+      "eventId": "12a4ce5d-b289-4a18-996c-0afbc1d5785b",
+      "uid": "RATR921125EHA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-17T01:13:36.195Z",
+      "timestampLocal": "2026-04-17T01:13:36.195Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.131.41",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RATR921125EHA&nombre_proveedor_razon_social=RICARDO+RAFAEL+TREVES&nombre_representante_legal=RICARDO+RAFEL+TREVES&email=info.platos23%40gmail.com",
+      "previousEventHash": "cb7bc5768ead0681110413423d199c8d567a82668770f2f87296aabdb019bf81",
+      "documentHash": "1983845c8865eab240445a86e4d413fd44b9cf586b7daf17b4f6d04e248a5b1c",
+      "eventHash": "fda963ca692adc2b1ce6c1b6175f406c8e997c17567120b18500cbb07a6bceb5"
+    },
+    {
+      "eventId": "ad27f7bd-2dfa-4bb5-aa45-19e4a5ee7e5b",
+      "uid": "RATR921125EHA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-17T01:14:07.224Z",
+      "timestampLocal": "2026-04-16T19:14:07.224Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.131.131.41",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5245399e-5390-4a38-ae7a-2085f7f9e9cd",
+      "previousEventHash": "fda963ca692adc2b1ce6c1b6175f406c8e997c17567120b18500cbb07a6bceb5",
+      "documentHash": "313ad759e7ba96b44d7414b9b7ced6280d172ddbd58252c39e25546911943727",
+      "signatureHash": "6e68fc23e52b1569d27000a891d31b16f2e40dd1b1fef97b2231ec10e5cd8ff6",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-16T19:14:03.866Z"
+      },
+      "eventHash": "375d72b4faa3fd9c1aae38f164a60689841726ed5031e795bacb3ff5b5cb392a"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-17T01:14:07.224Z"
+  }
 }
