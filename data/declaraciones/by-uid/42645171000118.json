@@ -1,19 +1,100 @@
 {
   "uid": "42645171000118",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ORBITA DGT LTDA",
     "nombre_representante_legal": "ORBITA DGT LTDA",
     "email": "contasareceber@mynd8.com.br"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ORBITA DGT LTDA",
-    "nombre_representante_legal": "ORBITA DGT LTDA",
-    "email": "contasareceber@mynd8.com.br"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-20T10:58:23.591Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/42645171000118",
+  "signatureMetadata": {
+    "ip": "45.226.118.203",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-20T13:58:30.363Z",
+    "signedAtLocal": "2026-04-20T10:58:30.363Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fef74f393f1b5be6859bc4b92e304611488511daccd3ef2d5e8d7617689fe8c8"
+  "documentHash": "a3fe1484611ae05d29689e062b3e581508e460fb6b25f5431bf43b06030eed49",
+  "auditTrail": [
+    {
+      "eventId": "a6e60a3c-f19d-441c-a2d4-33394c7f28ef",
+      "uid": "42645171000118",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-20T13:58:05.446Z",
+      "timestampLocal": "2026-04-20T13:58:05.446Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.226.118.203",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42645171000118&nombre_proveedor_razon_social=ORBITA+DGT+LTDA&nombre_representante_legal=ORBITA+DGT+LTDA&email=contasareceber%40mynd8.com.br",
+      "previousEventHash": null,
+      "documentHash": "fef74f393f1b5be6859bc4b92e304611488511daccd3ef2d5e8d7617689fe8c8",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "7a936dc62c2137277fb8c28141960e55d049026d7fdfbac81edc2cc24dd179d6"
+    },
+    {
+      "eventId": "d34381e7-41c9-41ab-a562-b84e45aa888e",
+      "uid": "42645171000118",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-20T13:58:05.446Z",
+      "timestampLocal": "2026-04-20T13:58:05.446Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.226.118.203",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42645171000118&nombre_proveedor_razon_social=ORBITA+DGT+LTDA&nombre_representante_legal=ORBITA+DGT+LTDA&email=contasareceber%40mynd8.com.br",
+      "previousEventHash": "7a936dc62c2137277fb8c28141960e55d049026d7fdfbac81edc2cc24dd179d6",
+      "documentHash": "fef74f393f1b5be6859bc4b92e304611488511daccd3ef2d5e8d7617689fe8c8",
+      "metadata": {
+        "proveedor": "ORBITA DGT LTDA",
+        "representante": "ORBITA DGT LTDA"
+      },
+      "eventHash": "4dfde586acbe014ac994a2bb46fd74d76e908e48ee52a78ddb984e0cb4ba4f3d"
+    },
+    {
+      "eventId": "ca16b6a1-1903-4e00-8e21-c69deb71d9fb",
+      "uid": "42645171000118",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-20T13:58:06.481Z",
+      "timestampLocal": "2026-04-20T13:58:06.481Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.226.118.203",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42645171000118&nombre_proveedor_razon_social=ORBITA+DGT+LTDA&nombre_representante_legal=ORBITA+DGT+LTDA&email=contasareceber%40mynd8.com.br",
+      "previousEventHash": "4dfde586acbe014ac994a2bb46fd74d76e908e48ee52a78ddb984e0cb4ba4f3d",
+      "documentHash": "fef74f393f1b5be6859bc4b92e304611488511daccd3ef2d5e8d7617689fe8c8",
+      "eventHash": "53e535226c3edaa74aa3db124ca7f09584ebebcc4aab1012b4250682aa062964"
+    },
+    {
+      "eventId": "d3b1d446-4bd3-40a5-9033-56f651bea77b",
+      "uid": "42645171000118",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-20T13:58:30.363Z",
+      "timestampLocal": "2026-04-20T10:58:30.363Z",
+      "timezone": "UTC-3",
+      "ipAddress": "45.226.118.203",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/2be030a6-478e-461f-92fb-b49cd9dde774",
+      "previousEventHash": "53e535226c3edaa74aa3db124ca7f09584ebebcc4aab1012b4250682aa062964",
+      "documentHash": "a3fe1484611ae05d29689e062b3e581508e460fb6b25f5431bf43b06030eed49",
+      "signatureHash": "20cbade394a40c437d6de9b2fae60863cb0e753cd753619c7ea67a859b07ee8d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-20T10:58:23.591Z"
+      },
+      "eventHash": "e479d640d935f905bddc19a0257108f7d66f22d0853fe11952c7e2b0d5a8b1b1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-20T13:58:30.363Z"
+  }
 }
