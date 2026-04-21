@@ -1,19 +1,115 @@
 {
   "uid": "27234706840",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Maria Freytes",
     "nombre_representante_legal": "MARIA FREYTES",
     "email": "mfreytes.arg@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Maria Freytes",
-    "nombre_representante_legal": "MARIA FREYTES",
-    "email": "mfreytes.arg@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-20T22:46:27.523Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/27234706840",
+  "signatureMetadata": {
+    "ip": "181.81.193.227",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_2_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/147.0.7727.99 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-04-21T01:46:33.219Z",
+    "signedAtLocal": "2026-04-20T22:46:33.219Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a56ee19ad80894ae08945b2ea520269a8f041eee63cf754a9bbc6f6c8fb036cb"
+  "documentHash": "8addbeac4b07429fb67acda541d65d71cd6eb95df680117c7f492da524d6f8cc",
+  "auditTrail": [
+    {
+      "eventId": "c7263b6d-1205-480e-bdf6-964368bb5527",
+      "uid": "27234706840",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-21T00:16:37.732Z",
+      "timestampLocal": "2026-04-21T00:16:37.732Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.190.43.5",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27234706840&nombre_proveedor_razon_social=Maria+Freytes&nombre_representante_legal=MARIA+FREYTES&email=mfreytes.arg%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "a56ee19ad80894ae08945b2ea520269a8f041eee63cf754a9bbc6f6c8fb036cb",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f362623c37a7acb365724b7051a97f4a02679c6cab0d9a515ab068d3dc084653"
+    },
+    {
+      "eventId": "b5dfbf70-7d09-44d1-a952-c1eec989a772",
+      "uid": "27234706840",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-21T00:16:37.733Z",
+      "timestampLocal": "2026-04-21T00:16:37.733Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.190.43.5",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27234706840&nombre_proveedor_razon_social=Maria+Freytes&nombre_representante_legal=MARIA+FREYTES&email=mfreytes.arg%40gmail.com",
+      "previousEventHash": "f362623c37a7acb365724b7051a97f4a02679c6cab0d9a515ab068d3dc084653",
+      "documentHash": "a56ee19ad80894ae08945b2ea520269a8f041eee63cf754a9bbc6f6c8fb036cb",
+      "metadata": {
+        "proveedor": "Maria Freytes",
+        "representante": "MARIA FREYTES"
+      },
+      "eventHash": "3de126a8ffee270c8351de55adedc4e6d9150c512969f842c2342d5d243e8d49"
+    },
+    {
+      "eventId": "135726b2-7c82-46e4-809f-0343b4691e14",
+      "uid": "27234706840",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-21T00:16:38.906Z",
+      "timestampLocal": "2026-04-21T00:16:38.906Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.190.43.5",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27234706840&nombre_proveedor_razon_social=Maria+Freytes&nombre_representante_legal=MARIA+FREYTES&email=mfreytes.arg%40gmail.com",
+      "previousEventHash": "3de126a8ffee270c8351de55adedc4e6d9150c512969f842c2342d5d243e8d49",
+      "documentHash": "a56ee19ad80894ae08945b2ea520269a8f041eee63cf754a9bbc6f6c8fb036cb",
+      "eventHash": "bbd63c48235266c6c79c14daf58b9bc3981960368691f8645984c63c7e650989"
+    },
+    {
+      "eventId": "2304f401-fa25-4553-8fea-d75db4b5564a",
+      "uid": "27234706840",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-21T01:45:52.043Z",
+      "timestampLocal": "2026-04-21T01:45:52.043Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.81.193.227",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_2_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/147.0.7727.99 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "bbd63c48235266c6c79c14daf58b9bc3981960368691f8645984c63c7e650989",
+      "documentHash": "a56ee19ad80894ae08945b2ea520269a8f041eee63cf754a9bbc6f6c8fb036cb",
+      "eventHash": "ae1127e41ec1543a3002b84c0170020261203ba5f9cb06bdb463355b094fba98"
+    },
+    {
+      "eventId": "fb2ee52e-b43b-4def-bdf7-226d73ba77cb",
+      "uid": "27234706840",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-21T01:46:33.219Z",
+      "timestampLocal": "2026-04-20T22:46:33.219Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.81.193.227",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_2_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/147.0.7727.99 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ae1127e41ec1543a3002b84c0170020261203ba5f9cb06bdb463355b094fba98",
+      "documentHash": "8addbeac4b07429fb67acda541d65d71cd6eb95df680117c7f492da524d6f8cc",
+      "signatureHash": "acc84513c2c529e2ce434682c816384bce75ee898d402e3d0b24f1585859014f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-20T22:46:27.523Z"
+      },
+      "eventHash": "0e177ee75013a4efce9a3b320f8c912ead4c6fe558b853f016b690486e4b25db"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-04-21T01:46:33.219Z"
+  }
 }
