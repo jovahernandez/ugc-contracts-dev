@@ -1,19 +1,100 @@
 {
   "uid": "MOPX920428PWA",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "XAVIER DE LA MORA PEREZ",
     "nombre_representante_legal": "Xavier de la mora",
     "email": "xavidelam@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "XAVIER DE LA MORA PEREZ",
-    "nombre_representante_legal": "Xavier de la mora",
-    "email": "xavidelam@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-21T15:33:38.081Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MOPX920428PWA",
+  "signatureMetadata": {
+    "ip": "187.190.144.100",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+    "signedAtUtc": "2026-04-21T21:33:41.345Z",
+    "signedAtLocal": "2026-04-21T15:33:41.345Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6af20bbdfcf773c0d6ce0c68a4cdee31bb1eb1b8fe63537a387abee300604f22"
+  "documentHash": "7ae9a68d6e253061a21ee81b5118aeab6b04847b03895392036e53f52b337a57",
+  "auditTrail": [
+    {
+      "eventId": "83616f65-9eeb-470a-b5c3-1003e14dd6c1",
+      "uid": "MOPX920428PWA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-21T21:33:26.480Z",
+      "timestampLocal": "2026-04-21T21:33:26.480Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.144.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "6af20bbdfcf773c0d6ce0c68a4cdee31bb1eb1b8fe63537a387abee300604f22",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "11a5b9dcd47ef9cf45a2e81a9243179c6a1efeb703b21e187cced3b740a7e7dc"
+    },
+    {
+      "eventId": "8506735e-ccbb-4556-8704-abf97aba1711",
+      "uid": "MOPX920428PWA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-21T21:33:26.480Z",
+      "timestampLocal": "2026-04-21T21:33:26.480Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.144.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "11a5b9dcd47ef9cf45a2e81a9243179c6a1efeb703b21e187cced3b740a7e7dc",
+      "documentHash": "6af20bbdfcf773c0d6ce0c68a4cdee31bb1eb1b8fe63537a387abee300604f22",
+      "metadata": {
+        "proveedor": "XAVIER DE LA MORA PEREZ",
+        "representante": "Xavier de la mora"
+      },
+      "eventHash": "5da851177d666a40eca7a362e934e4e21883a5a3938f38f72fa580b29f739e7a"
+    },
+    {
+      "eventId": "17e5d5d6-f815-440c-9180-02b10f70b88e",
+      "uid": "MOPX920428PWA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-21T21:33:27.538Z",
+      "timestampLocal": "2026-04-21T21:33:27.538Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.144.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "5da851177d666a40eca7a362e934e4e21883a5a3938f38f72fa580b29f739e7a",
+      "documentHash": "6af20bbdfcf773c0d6ce0c68a4cdee31bb1eb1b8fe63537a387abee300604f22",
+      "eventHash": "0559fa3e077dcdbb7b66115bb5665f28bdb3c91c7ba1380520c5c371f5d4e876"
+    },
+    {
+      "eventId": "86bdc0fd-ba13-4b5b-b7b3-8c8804370293",
+      "uid": "MOPX920428PWA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-21T21:33:41.345Z",
+      "timestampLocal": "2026-04-21T15:33:41.345Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.144.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "0559fa3e077dcdbb7b66115bb5665f28bdb3c91c7ba1380520c5c371f5d4e876",
+      "documentHash": "7ae9a68d6e253061a21ee81b5118aeab6b04847b03895392036e53f52b337a57",
+      "signatureHash": "d1dee405c00272d8bebcd8d72e4df2d6b9cf58cdf4fe663ddeba38cb8a2931bd",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-21T15:33:38.081Z"
+      },
+      "eventHash": "3f3edcc0c41710b1cd52a71f6293a72816ea305fa361db0f23add053c6fd3e15"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-21T21:33:41.345Z"
+  }
 }
