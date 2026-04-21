@@ -1,19 +1,100 @@
 {
   "uid": "TECD960224SL6",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DANIELA TREVIÑO CORTES",
     "nombre_representante_legal": "No aplica",
     "email": "rosapastelagency@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "DANIELA TREVIÑO CORTES",
-    "nombre_representante_legal": "No aplica",
-    "email": "rosapastelagency@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-21T14:29:46.222Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TECD960224SL6",
+  "signatureMetadata": {
+    "ip": "187.188.73.29",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-04-21T20:29:49.488Z",
+    "signedAtLocal": "2026-04-21T14:29:49.488Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e6f6a18c87e2933a032c7892eb94f06bb4de8e075e65b42e3e6bdc40756374f6"
+  "documentHash": "05eba1b90a31ca46e26f46085eb067060a77a9cd3c700c906580edd556c38e05",
+  "auditTrail": [
+    {
+      "eventId": "d3461278-0a29-4ab2-ab3d-457df70ee753",
+      "uid": "TECD960224SL6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-21T20:28:26.417Z",
+      "timestampLocal": "2026-04-21T20:28:26.417Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.73.29",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "e6f6a18c87e2933a032c7892eb94f06bb4de8e075e65b42e3e6bdc40756374f6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "041d2c82f14bcb4364593efde3a9cffac53a4c9912f3bc74f5bbd6fbe49456c4"
+    },
+    {
+      "eventId": "cf8a5a13-abe1-42b8-830b-ba0831628cdc",
+      "uid": "TECD960224SL6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-21T20:28:26.417Z",
+      "timestampLocal": "2026-04-21T20:28:26.417Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.73.29",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "041d2c82f14bcb4364593efde3a9cffac53a4c9912f3bc74f5bbd6fbe49456c4",
+      "documentHash": "e6f6a18c87e2933a032c7892eb94f06bb4de8e075e65b42e3e6bdc40756374f6",
+      "metadata": {
+        "proveedor": "DANIELA TREVIÑO CORTES",
+        "representante": "No aplica"
+      },
+      "eventHash": "a2433fca791be7d14b8e9e21d8679a3043ddcebdd0f3b1bacb39a042241c528b"
+    },
+    {
+      "eventId": "ca7ca46a-7d6e-4d43-a60e-f72b4c34c6a0",
+      "uid": "TECD960224SL6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-21T20:28:27.568Z",
+      "timestampLocal": "2026-04-21T20:28:27.568Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.73.29",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a2433fca791be7d14b8e9e21d8679a3043ddcebdd0f3b1bacb39a042241c528b",
+      "documentHash": "e6f6a18c87e2933a032c7892eb94f06bb4de8e075e65b42e3e6bdc40756374f6",
+      "eventHash": "cb2c7938ee4065974255caa57e65d88837282e15078dc13af7decbdab6865984"
+    },
+    {
+      "eventId": "0876ab50-0c19-4e37-b167-7682596b3768",
+      "uid": "TECD960224SL6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-21T20:29:49.488Z",
+      "timestampLocal": "2026-04-21T14:29:49.488Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.73.29",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "cb2c7938ee4065974255caa57e65d88837282e15078dc13af7decbdab6865984",
+      "documentHash": "05eba1b90a31ca46e26f46085eb067060a77a9cd3c700c906580edd556c38e05",
+      "signatureHash": "596a684664820ffd090292f28516d991cdadcf8de18e211c0c4911dc149a610d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-21T14:29:46.222Z"
+      },
+      "eventHash": "e436474340f901738a6a64d7dc913a3772323362a725c040fc88857eed53dac9"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-21T20:29:49.488Z"
+  }
 }
