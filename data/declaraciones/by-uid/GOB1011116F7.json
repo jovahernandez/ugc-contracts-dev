@@ -1,19 +1,115 @@
 {
   "uid": "GOB1011116F7",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CAPITAL DIGITAL SAPI DE CV",
     "nombre_representante_legal": "GUILLERMO ADRIAN GONZALEZ CHIMAL",
     "email": "amontes@capitaldigital.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CAPITAL DIGITAL SAPI DE CV",
-    "nombre_representante_legal": "GUILLERMO ADRIAN GONZALEZ CHIMAL",
-    "email": "amontes@capitaldigital.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-22T15:45:41.271Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GOB1011116F7",
+  "signatureMetadata": {
+    "ip": "201.150.38.50",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-22T21:45:46.844Z",
+    "signedAtLocal": "2026-04-22T15:45:46.844Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2a79db5cfedeffe36723e0180e2f29a03d3b67bd799b6f483383e5b7d6862dc0"
+  "documentHash": "c7d2a97f6aa35785ccb90c0f07ecb6912e1d0323ccad861cf1af0992ac85135d",
+  "auditTrail": [
+    {
+      "eventId": "989bf5b4-c7d0-4792-8a8c-20df9020dbf9",
+      "uid": "GOB1011116F7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-22T20:58:22.676Z",
+      "timestampLocal": "2026-04-22T20:58:22.676Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.226.173.253",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOB1011116F7&nombre_proveedor_razon_social=CAPITAL+DIGITAL+SAPI+DE+CV&nombre_representante_legal=GUILLERMO+ADRIAN+GONZALEZ+CHIMAL+&email=amontes%40capitaldigital.com.mx",
+      "previousEventHash": null,
+      "documentHash": "2a79db5cfedeffe36723e0180e2f29a03d3b67bd799b6f483383e5b7d6862dc0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9649dea484e795417a0cd35841628d28f94803f8f9745538d8b0456e65329258"
+    },
+    {
+      "eventId": "03a3deb8-af7c-4e76-9b64-ace707f43a4f",
+      "uid": "GOB1011116F7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-22T20:58:22.676Z",
+      "timestampLocal": "2026-04-22T20:58:22.676Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.226.173.253",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOB1011116F7&nombre_proveedor_razon_social=CAPITAL+DIGITAL+SAPI+DE+CV&nombre_representante_legal=GUILLERMO+ADRIAN+GONZALEZ+CHIMAL+&email=amontes%40capitaldigital.com.mx",
+      "previousEventHash": "9649dea484e795417a0cd35841628d28f94803f8f9745538d8b0456e65329258",
+      "documentHash": "2a79db5cfedeffe36723e0180e2f29a03d3b67bd799b6f483383e5b7d6862dc0",
+      "metadata": {
+        "proveedor": "CAPITAL DIGITAL SAPI DE CV",
+        "representante": "GUILLERMO ADRIAN GONZALEZ CHIMAL"
+      },
+      "eventHash": "dbdc9c47f448c209af8e3d2fc56c98c00addff9fc5f01840bc722667c5e5b8e7"
+    },
+    {
+      "eventId": "c5cbc6f2-4afc-4fca-a3e5-6af55087ac04",
+      "uid": "GOB1011116F7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-22T20:58:24.040Z",
+      "timestampLocal": "2026-04-22T20:58:24.040Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.226.173.253",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOB1011116F7&nombre_proveedor_razon_social=CAPITAL+DIGITAL+SAPI+DE+CV&nombre_representante_legal=GUILLERMO+ADRIAN+GONZALEZ+CHIMAL+&email=amontes%40capitaldigital.com.mx",
+      "previousEventHash": "dbdc9c47f448c209af8e3d2fc56c98c00addff9fc5f01840bc722667c5e5b8e7",
+      "documentHash": "2a79db5cfedeffe36723e0180e2f29a03d3b67bd799b6f483383e5b7d6862dc0",
+      "eventHash": "5a00e9f1aa0efbaa5f325f4bc7165261a236e7d30f710eac9134391f5991e948"
+    },
+    {
+      "eventId": "c41f5aa4-149d-4f06-b473-732552376eaa",
+      "uid": "GOB1011116F7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-22T21:44:39.432Z",
+      "timestampLocal": "2026-04-22T21:44:39.432Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.150.38.50",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "5a00e9f1aa0efbaa5f325f4bc7165261a236e7d30f710eac9134391f5991e948",
+      "documentHash": "2a79db5cfedeffe36723e0180e2f29a03d3b67bd799b6f483383e5b7d6862dc0",
+      "eventHash": "bad0ebdd6fcce07bb2d98bf9316ad9dcc71c0aa7dd508b13fa7cfbc0ec2fbe0e"
+    },
+    {
+      "eventId": "c3e9ac84-4d17-41f3-86db-7dd9616d7480",
+      "uid": "GOB1011116F7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-22T21:45:46.845Z",
+      "timestampLocal": "2026-04-22T15:45:46.845Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.150.38.50",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/833d96a3-e0ab-4b11-b1c9-5016362f8d57",
+      "previousEventHash": "bad0ebdd6fcce07bb2d98bf9316ad9dcc71c0aa7dd508b13fa7cfbc0ec2fbe0e",
+      "documentHash": "c7d2a97f6aa35785ccb90c0f07ecb6912e1d0323ccad861cf1af0992ac85135d",
+      "signatureHash": "ccb054d5a0f420612dc2d0b3a91087e72833d91334044a9eef5bea8243ccbaf0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-22T15:45:41.271Z"
+      },
+      "eventHash": "f7e7ee1a5ed1d3dd57c59d2473cfd67caf3dfadc1fb39a7f7005b4c54904d3f6"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-04-22T21:45:46.845Z"
+  }
 }
