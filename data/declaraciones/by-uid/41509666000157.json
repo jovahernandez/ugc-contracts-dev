@@ -1,19 +1,100 @@
 {
   "uid": "41509666000157",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "F S DA SILVA PRODUCTIONS",
     "nombre_representante_legal": "Fellipe Sena da Silva",
     "email": "contato@pkllipe.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "F S DA SILVA PRODUCTIONS",
-    "nombre_representante_legal": "Fellipe Sena da Silva",
-    "email": "contato@pkllipe.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-22T16:25:41.000Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/41509666000157",
+  "signatureMetadata": {
+    "ip": "152.255.99.106",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-04-22T19:25:44.417Z",
+    "signedAtLocal": "2026-04-22T16:25:44.417Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2991c5ac7f66e4c40730206ec9b2cf5edb9489641213dfcf228354e535279f88"
+  "documentHash": "e9c554c1c6e03a5b79320308688b0c71fdc315d7c79cc6a1559263482e9d5840",
+  "auditTrail": [
+    {
+      "eventId": "46f2befd-41fc-4fbc-8918-857dcae41c38",
+      "uid": "41509666000157",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-22T19:24:44.545Z",
+      "timestampLocal": "2026-04-22T19:24:44.545Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.255.99.106",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "2991c5ac7f66e4c40730206ec9b2cf5edb9489641213dfcf228354e535279f88",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "1a823317196e556d55f8cacab7fcaa9391eeb0be467e85c388e079be5f6487bb"
+    },
+    {
+      "eventId": "13cec845-59ed-4c01-8af3-48a2fd8973fd",
+      "uid": "41509666000157",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-22T19:24:44.545Z",
+      "timestampLocal": "2026-04-22T19:24:44.545Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.255.99.106",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "1a823317196e556d55f8cacab7fcaa9391eeb0be467e85c388e079be5f6487bb",
+      "documentHash": "2991c5ac7f66e4c40730206ec9b2cf5edb9489641213dfcf228354e535279f88",
+      "metadata": {
+        "proveedor": "F S DA SILVA PRODUCTIONS",
+        "representante": "Fellipe Sena da Silva"
+      },
+      "eventHash": "082597e525c935d5dc9edd8a008d27d697632cda834360a0c2a82720aaaf34f4"
+    },
+    {
+      "eventId": "c311a2cd-9f79-46e5-9387-d5848dab7185",
+      "uid": "41509666000157",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-22T19:24:45.788Z",
+      "timestampLocal": "2026-04-22T19:24:45.788Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.255.99.106",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "082597e525c935d5dc9edd8a008d27d697632cda834360a0c2a82720aaaf34f4",
+      "documentHash": "2991c5ac7f66e4c40730206ec9b2cf5edb9489641213dfcf228354e535279f88",
+      "eventHash": "0183c0712cb9c256cd995e163a4313457395e27cded3b686b45f1fe7d37eb390"
+    },
+    {
+      "eventId": "01744e59-6981-4ac1-a269-576794f2edbf",
+      "uid": "41509666000157",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-22T19:25:44.417Z",
+      "timestampLocal": "2026-04-22T16:25:44.417Z",
+      "timezone": "UTC-3",
+      "ipAddress": "152.255.99.106",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "0183c0712cb9c256cd995e163a4313457395e27cded3b686b45f1fe7d37eb390",
+      "documentHash": "e9c554c1c6e03a5b79320308688b0c71fdc315d7c79cc6a1559263482e9d5840",
+      "signatureHash": "3c546b7a3115b7867defc4254765258c81cf5451e47625677a2c7a2b08d230cc",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-22T16:25:41.000Z"
+      },
+      "eventHash": "f33105f7a3529ce780e959e0e9803016f8f2bf76dd772db61c8d56c2aeabceac"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-22T19:25:44.417Z"
+  }
 }
