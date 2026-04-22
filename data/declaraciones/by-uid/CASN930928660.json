@@ -1,19 +1,100 @@
 {
   "uid": "CASN930928660",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Natalia Castillo Saldaña",
     "nombre_representante_legal": "Natalia Castillo",
     "email": "natalia.acs93@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Natalia Castillo Saldaña",
-    "nombre_representante_legal": "Natalia Castillo",
-    "email": "natalia.acs93@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-22T15:32:02.104Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CASN930928660",
+  "signatureMetadata": {
+    "ip": "187.190.24.236",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-22T21:32:05.396Z",
+    "signedAtLocal": "2026-04-22T15:32:05.396Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b3b591285d712aa74939e6a7b4b233a873723e31c4a47672299612d17e165d04"
+  "documentHash": "6ece7451f822b2c9572348bfeeaaffc9fccd24a006b2499496277da97281714d",
+  "auditTrail": [
+    {
+      "eventId": "ce28903e-e8b1-4a24-b565-ddca62663707",
+      "uid": "CASN930928660",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-22T21:31:25.174Z",
+      "timestampLocal": "2026-04-22T21:31:25.174Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.24.236",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CASN930928660&nombre_proveedor_razon_social=Natalia+Castillo+Salda%C3%B1a&nombre_representante_legal=Natalia+Castillo&email=natalia.acs93%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "b3b591285d712aa74939e6a7b4b233a873723e31c4a47672299612d17e165d04",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4fad4682d6974826cb82520423e47d5fa344502d43f9d6baee6c09a2bb3db5bf"
+    },
+    {
+      "eventId": "78ef18e3-8382-4d79-9dec-a557ff58a0e1",
+      "uid": "CASN930928660",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-22T21:31:25.174Z",
+      "timestampLocal": "2026-04-22T21:31:25.174Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.24.236",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CASN930928660&nombre_proveedor_razon_social=Natalia+Castillo+Salda%C3%B1a&nombre_representante_legal=Natalia+Castillo&email=natalia.acs93%40gmail.com",
+      "previousEventHash": "4fad4682d6974826cb82520423e47d5fa344502d43f9d6baee6c09a2bb3db5bf",
+      "documentHash": "b3b591285d712aa74939e6a7b4b233a873723e31c4a47672299612d17e165d04",
+      "metadata": {
+        "proveedor": "Natalia Castillo Saldaña",
+        "representante": "Natalia Castillo"
+      },
+      "eventHash": "8be58f9e09fef258cd676d32435c2322119f9a6373941234f3c9a6d61bf0c650"
+    },
+    {
+      "eventId": "8d1a894f-b131-4bd8-8424-c5808ecb0ced",
+      "uid": "CASN930928660",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-22T21:31:26.311Z",
+      "timestampLocal": "2026-04-22T21:31:26.311Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.24.236",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CASN930928660&nombre_proveedor_razon_social=Natalia+Castillo+Salda%C3%B1a&nombre_representante_legal=Natalia+Castillo&email=natalia.acs93%40gmail.com",
+      "previousEventHash": "8be58f9e09fef258cd676d32435c2322119f9a6373941234f3c9a6d61bf0c650",
+      "documentHash": "b3b591285d712aa74939e6a7b4b233a873723e31c4a47672299612d17e165d04",
+      "eventHash": "ccf30a5c3dc26b51347d5d89e34bfc9ee8751ad69345a4807b9f1ce1fe00a960"
+    },
+    {
+      "eventId": "341b5d4e-5204-44c0-ae41-2a14f0797024",
+      "uid": "CASN930928660",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-22T21:32:05.396Z",
+      "timestampLocal": "2026-04-22T15:32:05.396Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.24.236",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/768c2fa5-59b2-4064-95d4-13de305be08d",
+      "previousEventHash": "ccf30a5c3dc26b51347d5d89e34bfc9ee8751ad69345a4807b9f1ce1fe00a960",
+      "documentHash": "6ece7451f822b2c9572348bfeeaaffc9fccd24a006b2499496277da97281714d",
+      "signatureHash": "e11ef4c19fae21aa78c20782b3e01c6893085233e43a59ffb77425c9cd37e5ee",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-22T15:32:02.104Z"
+      },
+      "eventHash": "bc1ae5be019c9d9e647c01c3a36cfee8d5191aedc1cd1c85deac4b915ff75ad1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-22T21:32:05.397Z"
+  }
 }
