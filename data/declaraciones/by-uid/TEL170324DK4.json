@@ -1,19 +1,100 @@
 {
   "uid": "TEL170324DK4",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "TELEVIT SA DE CV",
     "nombre_representante_legal": "JATZIRI VALERIA ESCOBAR OSNAYA",
     "email": "corporativoshp@yahoo.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "TELEVIT SA DE CV",
-    "nombre_representante_legal": "JATZIRI VALERIA ESCOBAR OSNAYA",
-    "email": "corporativoshp@yahoo.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-22T18:52:35.295Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TEL170324DK4",
+  "signatureMetadata": {
+    "ip": "187.152.211.154",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+    "signedAtUtc": "2026-04-23T00:52:38.653Z",
+    "signedAtLocal": "2026-04-22T18:52:38.653Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e121d90b7047dc110f302a1a2d8f1d01e3e65bf94ed028020528e0b94b308b19"
+  "documentHash": "51cc842e85c6f496e8fa8c0360ed1d9e89cdd8bd5c77f140480546e4c74fcd99",
+  "auditTrail": [
+    {
+      "eventId": "f9301ae0-f3cc-47e1-8c0e-e4f4f219e827",
+      "uid": "TEL170324DK4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-23T00:51:41.893Z",
+      "timestampLocal": "2026-04-23T00:51:41.893Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.152.211.154",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TEL170324DK4&nombre_proveedor_razon_social=TELEVIT+SA+DE+CV&nombre_representante_legal=JATZIRI+VALERIA+ESCOBAR+OSNAYA&email=corporativoshp%40yahoo.com.mx",
+      "previousEventHash": null,
+      "documentHash": "e121d90b7047dc110f302a1a2d8f1d01e3e65bf94ed028020528e0b94b308b19",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8992d669f149d1a2128224802a0a31ffff69cb07ff6701ddebaf2bca07ee10d2"
+    },
+    {
+      "eventId": "6e3f52c6-3823-4393-af17-201f99395e39",
+      "uid": "TEL170324DK4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-23T00:51:41.893Z",
+      "timestampLocal": "2026-04-23T00:51:41.893Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.152.211.154",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TEL170324DK4&nombre_proveedor_razon_social=TELEVIT+SA+DE+CV&nombre_representante_legal=JATZIRI+VALERIA+ESCOBAR+OSNAYA&email=corporativoshp%40yahoo.com.mx",
+      "previousEventHash": "8992d669f149d1a2128224802a0a31ffff69cb07ff6701ddebaf2bca07ee10d2",
+      "documentHash": "e121d90b7047dc110f302a1a2d8f1d01e3e65bf94ed028020528e0b94b308b19",
+      "metadata": {
+        "proveedor": "TELEVIT SA DE CV",
+        "representante": "JATZIRI VALERIA ESCOBAR OSNAYA"
+      },
+      "eventHash": "5ae15155a62e44ccf6dd2a3c64c1a71d42a6163e6ba21da640dd0d385cd598d7"
+    },
+    {
+      "eventId": "16f4f37d-b83a-46ab-9435-1e0a613af170",
+      "uid": "TEL170324DK4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-23T00:51:42.996Z",
+      "timestampLocal": "2026-04-23T00:51:42.996Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.152.211.154",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TEL170324DK4&nombre_proveedor_razon_social=TELEVIT+SA+DE+CV&nombre_representante_legal=JATZIRI+VALERIA+ESCOBAR+OSNAYA&email=corporativoshp%40yahoo.com.mx",
+      "previousEventHash": "5ae15155a62e44ccf6dd2a3c64c1a71d42a6163e6ba21da640dd0d385cd598d7",
+      "documentHash": "e121d90b7047dc110f302a1a2d8f1d01e3e65bf94ed028020528e0b94b308b19",
+      "eventHash": "9977329dd7bce674696b77f5876164865c1533f906d47d1a8f18c340a0f05562"
+    },
+    {
+      "eventId": "9aa19909-af84-4a0e-bc44-893b7841de03",
+      "uid": "TEL170324DK4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-23T00:52:38.654Z",
+      "timestampLocal": "2026-04-22T18:52:38.654Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.152.211.154",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/4a3bf22a-88d8-40ae-856b-3a64c38b7776",
+      "previousEventHash": "9977329dd7bce674696b77f5876164865c1533f906d47d1a8f18c340a0f05562",
+      "documentHash": "51cc842e85c6f496e8fa8c0360ed1d9e89cdd8bd5c77f140480546e4c74fcd99",
+      "signatureHash": "ac2dea2d88dc7f0a5c8dea89e39bbc7d3472c98b76ac8859510c1d41f06ec0cf",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-22T18:52:35.295Z"
+      },
+      "eventHash": "1a183eca4e9ddd16bfde8346dc728ee55293b0d0c12d912db5d1a37a13fbb6dc"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-23T00:52:38.654Z"
+  }
 }
