@@ -1,19 +1,137 @@
 {
   "uid": "AUNA0205254P6",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Alejandro Aguilar Navarro",
     "nombre_representante_legal": "Jesus Martz",
     "email": "alexaguilarnavarro1@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Alejandro Aguilar Navarro",
-    "nombre_representante_legal": "Jesus Martz",
-    "email": "alexaguilarnavarro1@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-23T15:59:03.683Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AUNA0205254P6",
+  "signatureMetadata": {
+    "ip": "189.152.136.83",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-23T21:59:07.014Z",
+    "signedAtLocal": "2026-04-23T15:59:07.014Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fc398629a815356a00e61e1f47a81ec52ff1a5a55ee5e7d49c03bf40e298acb9"
+  "documentHash": "408331c2c8856dff4319f24522e2dfdcc9f426fdcd1d5ec99b76d891796ab658",
+  "auditTrail": [
+    {
+      "eventId": "581a701b-6b5f-4c82-9b5c-9042839a2e48",
+      "uid": "AUNA0205254P6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-23T21:58:48.402Z",
+      "timestampLocal": "2026-04-23T21:58:48.402Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.152.136.83",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AUNA0205254P6&nombre_proveedor_razon_social=Alejandro+Aguilar+Navarro&nombre_representante_legal=Jesus+Martz&email=alexaguilarnavarro1%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "fc398629a815356a00e61e1f47a81ec52ff1a5a55ee5e7d49c03bf40e298acb9",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9e9824a6e6aed5fd216d8291f8b33ade3f94ac6a56dc22407458ca3347e7a5f0"
+    },
+    {
+      "eventId": "fb344a90-d12d-40ff-9879-e582dedc01a9",
+      "uid": "AUNA0205254P6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-23T21:58:48.402Z",
+      "timestampLocal": "2026-04-23T21:58:48.402Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.152.136.83",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AUNA0205254P6&nombre_proveedor_razon_social=Alejandro+Aguilar+Navarro&nombre_representante_legal=Jesus+Martz&email=alexaguilarnavarro1%40gmail.com",
+      "previousEventHash": "9e9824a6e6aed5fd216d8291f8b33ade3f94ac6a56dc22407458ca3347e7a5f0",
+      "documentHash": "fc398629a815356a00e61e1f47a81ec52ff1a5a55ee5e7d49c03bf40e298acb9",
+      "metadata": {
+        "proveedor": "Alejandro Aguilar Navarro",
+        "representante": "Jesus Martz"
+      },
+      "eventHash": "5a1eb597f0aa0dc5b8904c04efbbacde548f5f23fc1e995a44f551aa90772272"
+    },
+    {
+      "eventId": "da4d3e8a-5425-4a95-911d-c8d6d5601a6c",
+      "uid": "AUNA0205254P6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-23T21:58:49.380Z",
+      "timestampLocal": "2026-04-23T21:58:49.380Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.152.136.83",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AUNA0205254P6&nombre_proveedor_razon_social=Alejandro+Aguilar+Navarro&nombre_representante_legal=Jesus+Martz&email=alexaguilarnavarro1%40gmail.com",
+      "previousEventHash": "5a1eb597f0aa0dc5b8904c04efbbacde548f5f23fc1e995a44f551aa90772272",
+      "documentHash": "fc398629a815356a00e61e1f47a81ec52ff1a5a55ee5e7d49c03bf40e298acb9",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9eee2b5dd65d06f945e1a5c9b4571239588096ab3f4967617c4cecb73ded2b16"
+    },
+    {
+      "eventId": "6d172e10-d0ee-45da-a337-8c5832671072",
+      "uid": "AUNA0205254P6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-23T21:58:49.380Z",
+      "timestampLocal": "2026-04-23T21:58:49.380Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.152.136.83",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AUNA0205254P6&nombre_proveedor_razon_social=Alejandro+Aguilar+Navarro&nombre_representante_legal=Jesus+Martz&email=alexaguilarnavarro1%40gmail.com",
+      "previousEventHash": "9eee2b5dd65d06f945e1a5c9b4571239588096ab3f4967617c4cecb73ded2b16",
+      "documentHash": "fc398629a815356a00e61e1f47a81ec52ff1a5a55ee5e7d49c03bf40e298acb9",
+      "metadata": {
+        "proveedor": "Alejandro Aguilar Navarro",
+        "representante": "Jesus Martz"
+      },
+      "eventHash": "eb96fae8e55b91641540a6abbdd76ff5ead24fab226bf082d26eefa9b024bcc2"
+    },
+    {
+      "eventId": "9bce364b-7e1e-4883-820e-3dac5395bc58",
+      "uid": "AUNA0205254P6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-23T21:58:50.427Z",
+      "timestampLocal": "2026-04-23T21:58:50.427Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.152.136.83",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AUNA0205254P6&nombre_proveedor_razon_social=Alejandro+Aguilar+Navarro&nombre_representante_legal=Jesus+Martz&email=alexaguilarnavarro1%40gmail.com",
+      "previousEventHash": "eb96fae8e55b91641540a6abbdd76ff5ead24fab226bf082d26eefa9b024bcc2",
+      "documentHash": "fc398629a815356a00e61e1f47a81ec52ff1a5a55ee5e7d49c03bf40e298acb9",
+      "eventHash": "cac054b6796b93ea37c7d99aebc1f8b584d0acb388937638d8a3b33547d003e0"
+    },
+    {
+      "eventId": "88751d8d-9cdc-4d40-8b30-c29f9a6043d5",
+      "uid": "AUNA0205254P6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-23T21:59:07.014Z",
+      "timestampLocal": "2026-04-23T15:59:07.014Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.152.136.83",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e5ee7ced-9e60-431d-a0bd-8f0730a98753",
+      "previousEventHash": "cac054b6796b93ea37c7d99aebc1f8b584d0acb388937638d8a3b33547d003e0",
+      "documentHash": "408331c2c8856dff4319f24522e2dfdcc9f426fdcd1d5ec99b76d891796ab658",
+      "signatureHash": "0947eedcbb66de13fff69d1dcb1e26794d4aaf6b23b40dbf90270eb07023ba8a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-23T15:59:03.683Z"
+      },
+      "eventHash": "156a2f4157207e03c13be0c1154b753ead62993581533007776e99cda3297459"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-04-23T21:59:07.014Z"
+  }
 }
