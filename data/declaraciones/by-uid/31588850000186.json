@@ -1,19 +1,100 @@
 {
   "uid": "31588850000186",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "COOLAB AGENCIA DE MARKETING LTDA",
     "nombre_representante_legal": "Claudia Amarante",
     "email": "FINANCEIRO@COOLABDIGITAL.COM"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "COOLAB AGENCIA DE MARKETING LTDA",
-    "nombre_representante_legal": "Claudia Amarante",
-    "email": "FINANCEIRO@COOLABDIGITAL.COM"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-23T12:45:28.252Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/31588850000186",
+  "signatureMetadata": {
+    "ip": "186.204.55.123",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-23T15:45:33.818Z",
+    "signedAtLocal": "2026-04-23T12:45:33.818Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b660ecbc90311b27bac8e984835ded75abb9c5f9c84f83cb76ca5bc5fd771337"
+  "documentHash": "ccc927a13dec528add99627a14f69aa6007a26e392cedf352a93a4fe3e9d5d30",
+  "auditTrail": [
+    {
+      "eventId": "973f038e-e3be-4ec2-ab62-0a0147b32e8b",
+      "uid": "31588850000186",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-23T15:45:08.112Z",
+      "timestampLocal": "2026-04-23T15:45:08.112Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.55.123",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31588850000186&nombre_proveedor_razon_social=COOLAB+AGENCIA+DE+MARKETING+LTDA&nombre_representante_legal=Claudia+Amarante&email=FINANCEIRO%40COOLABDIGITAL.COM",
+      "previousEventHash": null,
+      "documentHash": "b660ecbc90311b27bac8e984835ded75abb9c5f9c84f83cb76ca5bc5fd771337",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "cc888851abf32805d7bb5747a284dbc93785b74a9abb77d8687c5b40956cb3c5"
+    },
+    {
+      "eventId": "877cad12-59b1-4d92-8408-6c339e8aa981",
+      "uid": "31588850000186",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-23T15:45:08.113Z",
+      "timestampLocal": "2026-04-23T15:45:08.113Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.55.123",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31588850000186&nombre_proveedor_razon_social=COOLAB+AGENCIA+DE+MARKETING+LTDA&nombre_representante_legal=Claudia+Amarante&email=FINANCEIRO%40COOLABDIGITAL.COM",
+      "previousEventHash": "cc888851abf32805d7bb5747a284dbc93785b74a9abb77d8687c5b40956cb3c5",
+      "documentHash": "b660ecbc90311b27bac8e984835ded75abb9c5f9c84f83cb76ca5bc5fd771337",
+      "metadata": {
+        "proveedor": "COOLAB AGENCIA DE MARKETING LTDA",
+        "representante": "Claudia Amarante"
+      },
+      "eventHash": "503b59977ab6dc5acb5f25401e20a64e4eb510bb993869904409978682badb83"
+    },
+    {
+      "eventId": "a1e13d89-81ef-4a74-9693-76d3f39471d6",
+      "uid": "31588850000186",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-23T15:45:09.586Z",
+      "timestampLocal": "2026-04-23T15:45:09.586Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.55.123",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31588850000186&nombre_proveedor_razon_social=COOLAB+AGENCIA+DE+MARKETING+LTDA&nombre_representante_legal=Claudia+Amarante&email=FINANCEIRO%40COOLABDIGITAL.COM",
+      "previousEventHash": "503b59977ab6dc5acb5f25401e20a64e4eb510bb993869904409978682badb83",
+      "documentHash": "b660ecbc90311b27bac8e984835ded75abb9c5f9c84f83cb76ca5bc5fd771337",
+      "eventHash": "f94241c006fe12eb2fcced776a630294531f01d3cb94926e3e3ba4ac7f371b08"
+    },
+    {
+      "eventId": "28437917-85b6-47aa-a288-f47524bc6a21",
+      "uid": "31588850000186",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-23T15:45:33.818Z",
+      "timestampLocal": "2026-04-23T12:45:33.818Z",
+      "timezone": "UTC-3",
+      "ipAddress": "186.204.55.123",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7771b76f-e9f4-47fd-b61d-0b019b761d0b",
+      "previousEventHash": "f94241c006fe12eb2fcced776a630294531f01d3cb94926e3e3ba4ac7f371b08",
+      "documentHash": "ccc927a13dec528add99627a14f69aa6007a26e392cedf352a93a4fe3e9d5d30",
+      "signatureHash": "f3b57bede039ddc594b409506cf9bd8590cde67ca14a6fd4621e0f09c42a7a16",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-23T12:45:28.252Z"
+      },
+      "eventHash": "536fb85b4fd44d0d2bc0fdd57a6616f5140efad40b6e0c1119446f0f3516e0eb"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-23T15:45:33.819Z"
+  }
 }
