@@ -1,19 +1,100 @@
 {
   "uid": "MACM021109142",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MARLENE MARQUEZ CAMARENA",
     "nombre_representante_legal": "MARLENE MARQUEZ CAMARENA",
     "email": "facturacion@dreamlabagency.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MARLENE MARQUEZ CAMARENA",
-    "nombre_representante_legal": "MARLENE MARQUEZ CAMARENA",
-    "email": "facturacion@dreamlabagency.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-23T14:09:31.857Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MACM021109142",
+  "signatureMetadata": {
+    "ip": "201.149.32.106",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-23T20:09:35.258Z",
+    "signedAtLocal": "2026-04-23T14:09:35.258Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c494e8e4be9a49fe8937230a4411b7808f794994c1e84142889bc3346919b219"
+  "documentHash": "ffdfab3b9ff703c8a47cd76004acb7f6db9bf282324e47315671d9e53ee38e40",
+  "auditTrail": [
+    {
+      "eventId": "be16f254-2e2d-4677-87f4-f44b2203ec1a",
+      "uid": "MACM021109142",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-23T20:05:24.387Z",
+      "timestampLocal": "2026-04-23T20:05:24.387Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.32.106",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MACM021109142&nombre_proveedor_razon_social=MARLENE+MARQUEZ+CAMARENA&nombre_representante_legal=MARLENE+MARQUEZ+CAMARENA&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": null,
+      "documentHash": "c494e8e4be9a49fe8937230a4411b7808f794994c1e84142889bc3346919b219",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cf2ecbd5dfb05eb9d228288f2e4e9287ad8925ccb011c457d4e4f271aff9b823"
+    },
+    {
+      "eventId": "7614cd21-0d24-4d57-a168-b8f9503a866c",
+      "uid": "MACM021109142",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-23T20:05:24.387Z",
+      "timestampLocal": "2026-04-23T20:05:24.387Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.32.106",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MACM021109142&nombre_proveedor_razon_social=MARLENE+MARQUEZ+CAMARENA&nombre_representante_legal=MARLENE+MARQUEZ+CAMARENA&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "cf2ecbd5dfb05eb9d228288f2e4e9287ad8925ccb011c457d4e4f271aff9b823",
+      "documentHash": "c494e8e4be9a49fe8937230a4411b7808f794994c1e84142889bc3346919b219",
+      "metadata": {
+        "proveedor": "MARLENE MARQUEZ CAMARENA",
+        "representante": "MARLENE MARQUEZ CAMARENA"
+      },
+      "eventHash": "969f136d302d14d70689c4ef9c1c55a35bb1a6ec63e434241598fe9d474b5d83"
+    },
+    {
+      "eventId": "83f94b91-aa4d-422d-8db9-4fd8baa5ac85",
+      "uid": "MACM021109142",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-23T20:05:25.633Z",
+      "timestampLocal": "2026-04-23T20:05:25.633Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.32.106",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MACM021109142&nombre_proveedor_razon_social=MARLENE+MARQUEZ+CAMARENA&nombre_representante_legal=MARLENE+MARQUEZ+CAMARENA&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "969f136d302d14d70689c4ef9c1c55a35bb1a6ec63e434241598fe9d474b5d83",
+      "documentHash": "c494e8e4be9a49fe8937230a4411b7808f794994c1e84142889bc3346919b219",
+      "eventHash": "f53749882f1e8ab70085cd160354dec4ef493b81867bf3c18e8b18994e138853"
+    },
+    {
+      "eventId": "8c5e31ea-5482-49fc-ada7-2a01ca482b76",
+      "uid": "MACM021109142",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-23T20:09:35.258Z",
+      "timestampLocal": "2026-04-23T14:09:35.258Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.149.32.106",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7c74f60d-9426-49d7-a738-abf4112ca729",
+      "previousEventHash": "f53749882f1e8ab70085cd160354dec4ef493b81867bf3c18e8b18994e138853",
+      "documentHash": "ffdfab3b9ff703c8a47cd76004acb7f6db9bf282324e47315671d9e53ee38e40",
+      "signatureHash": "212b9fad40643bbc80832edbf770017ea633006f5d3e8a926d6e828a113cfebe",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-23T14:09:31.857Z"
+      },
+      "eventHash": "2403c9dbd84cef9ba6ac3ea9e98dda889a59f6c3cd26cf79fb4899add1025b14"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-23T20:09:35.258Z"
+  }
 }
