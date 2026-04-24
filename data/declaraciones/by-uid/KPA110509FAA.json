@@ -1,19 +1,115 @@
 {
   "uid": "KPA110509FAA",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "KINESIS PR & EVENTS",
     "nombre_representante_legal": "Isidra Ibarra Aguilar",
     "email": "hello@beloud.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "KINESIS PR & EVENTS",
-    "nombre_representante_legal": "Isidra Ibarra Aguilar",
-    "email": "hello@beloud.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-24T11:22:24.535Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/KPA110509FAA",
+  "signatureMetadata": {
+    "ip": "187.190.193.97",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-24T17:22:27.903Z",
+    "signedAtLocal": "2026-04-24T11:22:27.903Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5f9cd1b99e4114e1a82a90ed635e085bd58274e1c6a2ac2136e8be324b97bcdf"
+  "documentHash": "63acd9a00447c7eebfdaffebd841408a4e62ba43389eb61117f925dd5e739362",
+  "auditTrail": [
+    {
+      "eventId": "1cf5f453-ed6b-48fd-b59d-992391562ae2",
+      "uid": "KPA110509FAA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-24T17:20:14.006Z",
+      "timestampLocal": "2026-04-24T17:20:14.006Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.193.97",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=KPA110509FAA&nombre_proveedor_razon_social=KINESIS+PR+%26+EVENTS&nombre_representante_legal=Isidra+Ibarra+Aguilar+&email=hello%40beloud.mx",
+      "previousEventHash": null,
+      "documentHash": "5f9cd1b99e4114e1a82a90ed635e085bd58274e1c6a2ac2136e8be324b97bcdf",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6f28e91c1e8f1ce41040330ba6d127ff924e284950c10d458c1a0791055c282a"
+    },
+    {
+      "eventId": "a0a20a8e-3838-492d-ba2c-17588046e7e0",
+      "uid": "KPA110509FAA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-24T17:20:14.006Z",
+      "timestampLocal": "2026-04-24T17:20:14.006Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.193.97",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=KPA110509FAA&nombre_proveedor_razon_social=KINESIS+PR+%26+EVENTS&nombre_representante_legal=Isidra+Ibarra+Aguilar+&email=hello%40beloud.mx",
+      "previousEventHash": "6f28e91c1e8f1ce41040330ba6d127ff924e284950c10d458c1a0791055c282a",
+      "documentHash": "5f9cd1b99e4114e1a82a90ed635e085bd58274e1c6a2ac2136e8be324b97bcdf",
+      "metadata": {
+        "proveedor": "KINESIS PR & EVENTS",
+        "representante": "Isidra Ibarra Aguilar"
+      },
+      "eventHash": "2f07a972f1338a6fdc5b482e42db59a614ab34a5041e515edb80dcfcdac08b9e"
+    },
+    {
+      "eventId": "f8d44603-4829-494a-9ac4-910cf358a60b",
+      "uid": "KPA110509FAA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-24T17:20:15.096Z",
+      "timestampLocal": "2026-04-24T17:20:15.096Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.193.97",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=KPA110509FAA&nombre_proveedor_razon_social=KINESIS+PR+%26+EVENTS&nombre_representante_legal=Isidra+Ibarra+Aguilar+&email=hello%40beloud.mx",
+      "previousEventHash": "2f07a972f1338a6fdc5b482e42db59a614ab34a5041e515edb80dcfcdac08b9e",
+      "documentHash": "5f9cd1b99e4114e1a82a90ed635e085bd58274e1c6a2ac2136e8be324b97bcdf",
+      "eventHash": "393b1a089328249ff1c7a6554da8b8cb91661cf16b414560ecd97b9bbb1f7b7c"
+    },
+    {
+      "eventId": "2266e052-7ea6-4669-9224-f41b9c88ca8d",
+      "uid": "KPA110509FAA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-24T17:22:11.765Z",
+      "timestampLocal": "2026-04-24T17:22:11.765Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.193.97",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "393b1a089328249ff1c7a6554da8b8cb91661cf16b414560ecd97b9bbb1f7b7c",
+      "documentHash": "5f9cd1b99e4114e1a82a90ed635e085bd58274e1c6a2ac2136e8be324b97bcdf",
+      "eventHash": "57fb27bf71e9743f41f684b0cd099e312dbdfcf2edc4fed15374bfe06cc4f201"
+    },
+    {
+      "eventId": "58956a34-64fa-4a60-8eec-647ebdeed570",
+      "uid": "KPA110509FAA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-24T17:22:27.903Z",
+      "timestampLocal": "2026-04-24T11:22:27.903Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.193.97",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d30cacd1-0c15-433e-9f97-dad8ee1f4e19",
+      "previousEventHash": "57fb27bf71e9743f41f684b0cd099e312dbdfcf2edc4fed15374bfe06cc4f201",
+      "documentHash": "63acd9a00447c7eebfdaffebd841408a4e62ba43389eb61117f925dd5e739362",
+      "signatureHash": "55ee5b4b6cfd5e7cc37fdcb27dd7d1a45b75869e544e78efa48de36b208215f2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-24T11:22:24.535Z"
+      },
+      "eventHash": "995c25486e4e54141c4f5aa55dee784c271ff9c9f863ecdd7f19d1d1a1d27651"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-04-24T17:22:27.903Z"
+  }
 }
