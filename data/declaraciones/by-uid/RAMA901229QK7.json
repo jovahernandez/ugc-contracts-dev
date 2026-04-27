@@ -1,19 +1,100 @@
 {
   "uid": "RAMA901229QK7",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ADRIANA RAMOS MARQUEZ",
     "nombre_representante_legal": "Adriana Ramos Márquez",
     "email": "adriramarp@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ADRIANA RAMOS MARQUEZ",
-    "nombre_representante_legal": "Adriana Ramos Márquez",
-    "email": "adriramarp@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-27T15:15:38.098Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RAMA901229QK7",
+  "signatureMetadata": {
+    "ip": "189.147.119.213",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-27T21:15:41.376Z",
+    "signedAtLocal": "2026-04-27T15:15:41.376Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6ed270e987e53ba9d13254a0174c9201c38f6590eb8f17af193f1375eeeeae15"
+  "documentHash": "c1c781b5058115e13834b9f6cad6e561e320b3d84e3b1173ccc9d89ffafcd31f",
+  "auditTrail": [
+    {
+      "eventId": "6d53c19a-1220-48c8-90cd-c6800f4a5f9e",
+      "uid": "RAMA901229QK7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-27T21:12:55.749Z",
+      "timestampLocal": "2026-04-27T21:12:55.749Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.119.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RAMA901229QK7&nombre_proveedor_razon_social=ADRIANA+RAMOS+MARQUEZ&nombre_representante_legal=Adriana+Ramos+M%C3%A1rquez&email=adriramarp%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "6ed270e987e53ba9d13254a0174c9201c38f6590eb8f17af193f1375eeeeae15",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "7c060eff213f1b972177564ea6da8b74e6e1612b3708dd4cb30755ddf4a38e5e"
+    },
+    {
+      "eventId": "f2237bc2-5d1e-446b-bbb5-6b7de542e2d5",
+      "uid": "RAMA901229QK7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-27T21:12:55.749Z",
+      "timestampLocal": "2026-04-27T21:12:55.749Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.119.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RAMA901229QK7&nombre_proveedor_razon_social=ADRIANA+RAMOS+MARQUEZ&nombre_representante_legal=Adriana+Ramos+M%C3%A1rquez&email=adriramarp%40gmail.com",
+      "previousEventHash": "7c060eff213f1b972177564ea6da8b74e6e1612b3708dd4cb30755ddf4a38e5e",
+      "documentHash": "6ed270e987e53ba9d13254a0174c9201c38f6590eb8f17af193f1375eeeeae15",
+      "metadata": {
+        "proveedor": "ADRIANA RAMOS MARQUEZ",
+        "representante": "Adriana Ramos Márquez"
+      },
+      "eventHash": "101587879e22659ca32464bebfd697a19d721005decb911d5e0cf06595239106"
+    },
+    {
+      "eventId": "e9b09c0d-623e-43d5-b6ff-7a124e5797be",
+      "uid": "RAMA901229QK7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-27T21:12:57.010Z",
+      "timestampLocal": "2026-04-27T21:12:57.010Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.119.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RAMA901229QK7&nombre_proveedor_razon_social=ADRIANA+RAMOS+MARQUEZ&nombre_representante_legal=Adriana+Ramos+M%C3%A1rquez&email=adriramarp%40gmail.com",
+      "previousEventHash": "101587879e22659ca32464bebfd697a19d721005decb911d5e0cf06595239106",
+      "documentHash": "6ed270e987e53ba9d13254a0174c9201c38f6590eb8f17af193f1375eeeeae15",
+      "eventHash": "5b85420b0984520786526404f93004e25c328ef094f570ce815ff9c9032702aa"
+    },
+    {
+      "eventId": "82e1862a-c221-4aff-905e-f0e818905fa5",
+      "uid": "RAMA901229QK7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-27T21:15:41.376Z",
+      "timestampLocal": "2026-04-27T15:15:41.376Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.147.119.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/afd3333a-80c4-4cc6-a2b8-a3e87b38114b",
+      "previousEventHash": "5b85420b0984520786526404f93004e25c328ef094f570ce815ff9c9032702aa",
+      "documentHash": "c1c781b5058115e13834b9f6cad6e561e320b3d84e3b1173ccc9d89ffafcd31f",
+      "signatureHash": "6d0cbe6343ec0119827b8fb394595099fd8ba5458e3356ac33f374114bf26741",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-27T15:15:38.098Z"
+      },
+      "eventHash": "7c21b5c35f5d29c5a09644417882d7a91958dc9280e51b8aaae41caa4d7067eb"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-27T21:15:41.377Z"
+  }
 }
