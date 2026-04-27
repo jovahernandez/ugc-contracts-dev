@@ -1,19 +1,100 @@
 {
   "uid": "56430323000170",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "XAVIER LTDA",
     "nombre_representante_legal": "Cristiane Silva",
     "email": "cristiane.silva@coolabdigital.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "XAVIER LTDA",
-    "nombre_representante_legal": "Cristiane Silva",
-    "email": "cristiane.silva@coolabdigital.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-27T18:17:43.008Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/56430323000170",
+  "signatureMetadata": {
+    "ip": "186.204.55.123",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-27T21:17:46.401Z",
+    "signedAtLocal": "2026-04-27T18:17:46.401Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6c65bfdd9b0757115f1d7fd21dfdabdb0f34fcee304f98f2c023722a5f6e07a8"
+  "documentHash": "36b4ed34788e5e47f9d9511831a20368d5f4797d806ce93c64cbf83e079e0287",
+  "auditTrail": [
+    {
+      "eventId": "cc85de6c-ed31-4c13-a510-375b9f929d6a",
+      "uid": "56430323000170",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-27T21:16:45.669Z",
+      "timestampLocal": "2026-04-27T21:16:45.669Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.55.123",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=56430323000170&nombre_proveedor_razon_social=XAVIER+LTDA&nombre_representante_legal=Cristiane+Silva&email=cristiane.silva%40coolabdigital.com",
+      "previousEventHash": null,
+      "documentHash": "6c65bfdd9b0757115f1d7fd21dfdabdb0f34fcee304f98f2c023722a5f6e07a8",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "d4c593fccdbe869448a4f8a25f3c351959491022c6180ea3b370c03a2b7938ec"
+    },
+    {
+      "eventId": "7d5005ac-db16-43ad-b1a9-68a8d0cab971",
+      "uid": "56430323000170",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-27T21:16:45.669Z",
+      "timestampLocal": "2026-04-27T21:16:45.669Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.55.123",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=56430323000170&nombre_proveedor_razon_social=XAVIER+LTDA&nombre_representante_legal=Cristiane+Silva&email=cristiane.silva%40coolabdigital.com",
+      "previousEventHash": "d4c593fccdbe869448a4f8a25f3c351959491022c6180ea3b370c03a2b7938ec",
+      "documentHash": "6c65bfdd9b0757115f1d7fd21dfdabdb0f34fcee304f98f2c023722a5f6e07a8",
+      "metadata": {
+        "proveedor": "XAVIER LTDA",
+        "representante": "Cristiane Silva"
+      },
+      "eventHash": "e5289acb8e66007857c550dffc0f38c10106be630abe18187c49c36c25be09cf"
+    },
+    {
+      "eventId": "c0c0fa52-987c-4138-85eb-7c7f65cae411",
+      "uid": "56430323000170",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-27T21:16:46.991Z",
+      "timestampLocal": "2026-04-27T21:16:46.991Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.55.123",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=56430323000170&nombre_proveedor_razon_social=XAVIER+LTDA&nombre_representante_legal=Cristiane+Silva&email=cristiane.silva%40coolabdigital.com",
+      "previousEventHash": "e5289acb8e66007857c550dffc0f38c10106be630abe18187c49c36c25be09cf",
+      "documentHash": "6c65bfdd9b0757115f1d7fd21dfdabdb0f34fcee304f98f2c023722a5f6e07a8",
+      "eventHash": "72f56eb31d9e8c645f8fc0e88ff94d593b08c0dc42d3d5b653c2823d67a6ed3a"
+    },
+    {
+      "eventId": "b2d0093f-53a2-46a2-890a-bbb1439bb745",
+      "uid": "56430323000170",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-27T21:17:46.401Z",
+      "timestampLocal": "2026-04-27T18:17:46.401Z",
+      "timezone": "UTC-3",
+      "ipAddress": "186.204.55.123",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/bd667a6b-9263-4cd6-83c5-dedf20989f00",
+      "previousEventHash": "72f56eb31d9e8c645f8fc0e88ff94d593b08c0dc42d3d5b653c2823d67a6ed3a",
+      "documentHash": "36b4ed34788e5e47f9d9511831a20368d5f4797d806ce93c64cbf83e079e0287",
+      "signatureHash": "b59077b0439682eceb96a3666ec5c6c5dbb4c933e70b732af6115310e15d0ed8",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-27T18:17:43.008Z"
+      },
+      "eventHash": "d06531db90c18e3dbaa51c97f52f781c39cdf70fa441c547527f54353a5e9e99"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-27T21:17:46.401Z"
+  }
 }
