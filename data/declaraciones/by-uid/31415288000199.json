@@ -1,19 +1,263 @@
 {
   "uid": "31415288000199",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "MORIMURA PRODUCOES ARTISTICAS LTDA",
     "nombre_representante_legal": "MATHEUS MORIMURA JORDÃO",
     "email": "mori@likey.com.br"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MORIMURA PRODUCOES ARTISTICAS LTDA",
-    "nombre_representante_legal": "MATHEUS MORIMURA JORDÃO",
-    "email": "mori@likey.com.br"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-27T18:12:21.546Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/31415288000199",
+  "signatureMetadata": {
+    "ip": "186.204.62.186",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-27T21:12:24.996Z",
+    "signedAtLocal": "2026-04-27T18:12:24.996Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0f50a42cdc98a921adcca65a4f896cce31422bfe25715071d9471989d68ccebc"
+  "documentHash": "0f7247afd549fcc5662c6c9c97b63d926d066addf71b9d27afeaf25cb872d2d8",
+  "auditTrail": [
+    {
+      "eventId": "c4eb0de6-c7b2-4979-a5b4-5380e4ce7b23",
+      "uid": "31415288000199",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-27T21:12:04.624Z",
+      "timestampLocal": "2026-04-27T21:12:04.624Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31415288000199&nombre_proveedor_razon_social=MORIMURA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=MATHEUS+MORIMURA+JORD%C3%83O&email=mori%40likey.com.br",
+      "previousEventHash": null,
+      "documentHash": "4b2fb54acc12e115eb2cf9890934e20f8634ed3550153b55e737a9baec9eab53",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "07c87adfa05077380d5946a940aa5e9791c2eda71aa3b4f6872e65aeca1aef43"
+    },
+    {
+      "eventId": "61e9d8ea-a277-403f-a135-2755ff530e3f",
+      "uid": "31415288000199",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-27T21:12:04.624Z",
+      "timestampLocal": "2026-04-27T21:12:04.624Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31415288000199&nombre_proveedor_razon_social=MORIMURA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=MATHEUS+MORIMURA+JORD%C3%83O&email=mori%40likey.com.br",
+      "previousEventHash": "07c87adfa05077380d5946a940aa5e9791c2eda71aa3b4f6872e65aeca1aef43",
+      "documentHash": "4b2fb54acc12e115eb2cf9890934e20f8634ed3550153b55e737a9baec9eab53",
+      "metadata": {
+        "proveedor": "MORIMURA PRODUCOES ARTISTICAS LTDA",
+        "representante": "MATHEUS MORIMURA JORDÃO"
+      },
+      "eventHash": "bafbec8139f8be160e693986c1a8441c603f53cd1014d02eb6b84569c092aa96"
+    },
+    {
+      "eventId": "8be5cacb-4eb0-4e05-bef2-33313de9316e",
+      "uid": "31415288000199",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-27T21:12:06.443Z",
+      "timestampLocal": "2026-04-27T21:12:06.443Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31415288000199&nombre_proveedor_razon_social=MORIMURA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=MATHEUS+MORIMURA+JORD%C3%83O&email=mori%40likey.com.br",
+      "previousEventHash": "bafbec8139f8be160e693986c1a8441c603f53cd1014d02eb6b84569c092aa96",
+      "documentHash": "16f95c642cb458ec3f4f02f272cc5c779caebaa12341b8cec0734f3ab5aea389",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "6dfffb177c6d17c43ce6706ea8be74044c99ee03f8ed41f739ea1718d3a2829a"
+    },
+    {
+      "eventId": "24f6a8f6-d5e3-418f-a697-22caca9850d9",
+      "uid": "31415288000199",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-27T21:12:06.443Z",
+      "timestampLocal": "2026-04-27T21:12:06.443Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31415288000199&nombre_proveedor_razon_social=MORIMURA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=MATHEUS+MORIMURA+JORD%C3%83O&email=mori%40likey.com.br",
+      "previousEventHash": "6dfffb177c6d17c43ce6706ea8be74044c99ee03f8ed41f739ea1718d3a2829a",
+      "documentHash": "16f95c642cb458ec3f4f02f272cc5c779caebaa12341b8cec0734f3ab5aea389",
+      "metadata": {
+        "proveedor": "MORIMURA PRODUCOES ARTISTICAS LTDA",
+        "representante": "MATHEUS MORIMURA JORDÃO"
+      },
+      "eventHash": "5a42dfd1b4d6b62d62b102f3df55ce33e5bf96761fd51c0e701f7a8868e0a151"
+    },
+    {
+      "eventId": "93948d3a-1e7c-4143-86b6-95d638331614",
+      "uid": "31415288000199",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-27T21:12:07.572Z",
+      "timestampLocal": "2026-04-27T21:12:07.572Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31415288000199&nombre_proveedor_razon_social=MORIMURA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=MATHEUS+MORIMURA+JORD%C3%83O&email=mori%40likey.com.br",
+      "previousEventHash": "5a42dfd1b4d6b62d62b102f3df55ce33e5bf96761fd51c0e701f7a8868e0a151",
+      "documentHash": "16f95c642cb458ec3f4f02f272cc5c779caebaa12341b8cec0734f3ab5aea389",
+      "eventHash": "c0cc62f58bdb6408e9ffeae37f281bd6cf405da12e22d759d447a00f88c2a64f"
+    },
+    {
+      "eventId": "71b6ef69-6687-46df-b6e6-50b5486aea52",
+      "uid": "31415288000199",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-27T21:12:08.223Z",
+      "timestampLocal": "2026-04-27T21:12:08.223Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31415288000199&nombre_proveedor_razon_social=MORIMURA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=MATHEUS+MORIMURA+JORD%C3%83O&email=mori%40likey.com.br",
+      "previousEventHash": "c0cc62f58bdb6408e9ffeae37f281bd6cf405da12e22d759d447a00f88c2a64f",
+      "documentHash": "0f50a42cdc98a921adcca65a4f896cce31422bfe25715071d9471989d68ccebc",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "2111f9e0273239866f713e411a9073e4dee6050334b360e60b0e311e9462b32a"
+    },
+    {
+      "eventId": "5d80ab6e-eb32-44d3-b05f-d0c8748808d3",
+      "uid": "31415288000199",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-27T21:12:08.223Z",
+      "timestampLocal": "2026-04-27T21:12:08.223Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31415288000199&nombre_proveedor_razon_social=MORIMURA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=MATHEUS+MORIMURA+JORD%C3%83O&email=mori%40likey.com.br",
+      "previousEventHash": "2111f9e0273239866f713e411a9073e4dee6050334b360e60b0e311e9462b32a",
+      "documentHash": "0f50a42cdc98a921adcca65a4f896cce31422bfe25715071d9471989d68ccebc",
+      "metadata": {
+        "proveedor": "MORIMURA PRODUCOES ARTISTICAS LTDA",
+        "representante": "MATHEUS MORIMURA JORDÃO"
+      },
+      "eventHash": "041a1280d757c9feeac1d72bfbfc6b9e86ef85e2c242459379e8826f6c34459f"
+    },
+    {
+      "eventId": "0ec086e4-fffc-4f89-8d8d-9e0ae1932c09",
+      "uid": "31415288000199",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-27T21:12:08.638Z",
+      "timestampLocal": "2026-04-27T21:12:08.638Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31415288000199&nombre_proveedor_razon_social=MORIMURA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=MATHEUS+MORIMURA+JORD%C3%83O&email=mori%40likey.com.br",
+      "previousEventHash": "041a1280d757c9feeac1d72bfbfc6b9e86ef85e2c242459379e8826f6c34459f",
+      "documentHash": "0f50a42cdc98a921adcca65a4f896cce31422bfe25715071d9471989d68ccebc",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "f307659a9fc881e534da42827cd7ce5ee55af28840272170fc544e81d96c3b8b"
+    },
+    {
+      "eventId": "53a6e57c-a795-4f01-83b1-b57000bd9652",
+      "uid": "31415288000199",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-27T21:12:08.638Z",
+      "timestampLocal": "2026-04-27T21:12:08.638Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31415288000199&nombre_proveedor_razon_social=MORIMURA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=MATHEUS+MORIMURA+JORD%C3%83O&email=mori%40likey.com.br",
+      "previousEventHash": "f307659a9fc881e534da42827cd7ce5ee55af28840272170fc544e81d96c3b8b",
+      "documentHash": "0f50a42cdc98a921adcca65a4f896cce31422bfe25715071d9471989d68ccebc",
+      "metadata": {
+        "proveedor": "MORIMURA PRODUCOES ARTISTICAS LTDA",
+        "representante": "MATHEUS MORIMURA JORDÃO"
+      },
+      "eventHash": "face58c1b6c6b5ad12c1e6870d6ca9e8e0602b34716ce657143c062e6b6d536e"
+    },
+    {
+      "eventId": "92820073-3718-43d8-aaaf-f26eac2507d4",
+      "uid": "31415288000199",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-27T21:12:09.183Z",
+      "timestampLocal": "2026-04-27T21:12:09.183Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31415288000199&nombre_proveedor_razon_social=MORIMURA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=MATHEUS+MORIMURA+JORD%C3%83O&email=mori%40likey.com.br",
+      "previousEventHash": "face58c1b6c6b5ad12c1e6870d6ca9e8e0602b34716ce657143c062e6b6d536e",
+      "documentHash": "0f50a42cdc98a921adcca65a4f896cce31422bfe25715071d9471989d68ccebc",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "8c288273b14fff083d7ffc35d75d67204534d3b831f03c678dfae369225c47a4"
+    },
+    {
+      "eventId": "791aa2ca-2cb0-4047-ae35-5828001beb59",
+      "uid": "31415288000199",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-27T21:12:09.183Z",
+      "timestampLocal": "2026-04-27T21:12:09.183Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31415288000199&nombre_proveedor_razon_social=MORIMURA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=MATHEUS+MORIMURA+JORD%C3%83O&email=mori%40likey.com.br",
+      "previousEventHash": "8c288273b14fff083d7ffc35d75d67204534d3b831f03c678dfae369225c47a4",
+      "documentHash": "0f50a42cdc98a921adcca65a4f896cce31422bfe25715071d9471989d68ccebc",
+      "metadata": {
+        "proveedor": "MORIMURA PRODUCOES ARTISTICAS LTDA",
+        "representante": "MATHEUS MORIMURA JORDÃO"
+      },
+      "eventHash": "0b7ace33a7ac7520a3f171013669ba713ceb3f780fcc3e67ef547ff27c23fa31"
+    },
+    {
+      "eventId": "363d8ae4-a314-4e78-9f23-6f37fc29bed6",
+      "uid": "31415288000199",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-27T21:12:10.611Z",
+      "timestampLocal": "2026-04-27T21:12:10.611Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31415288000199&nombre_proveedor_razon_social=MORIMURA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=MATHEUS+MORIMURA+JORD%C3%83O&email=mori%40likey.com.br",
+      "previousEventHash": "0b7ace33a7ac7520a3f171013669ba713ceb3f780fcc3e67ef547ff27c23fa31",
+      "documentHash": "0f50a42cdc98a921adcca65a4f896cce31422bfe25715071d9471989d68ccebc",
+      "eventHash": "c30749c53c173a544703146e1e9a5a0d3821d66293d827e693aad3d5c45a7182"
+    },
+    {
+      "eventId": "57d1fdfe-084f-4976-ac27-26e9219845c9",
+      "uid": "31415288000199",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-27T21:12:24.996Z",
+      "timestampLocal": "2026-04-27T18:12:24.996Z",
+      "timezone": "UTC-3",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1c65b25b-fd99-41cb-a755-ace280ed95fc",
+      "previousEventHash": "c30749c53c173a544703146e1e9a5a0d3821d66293d827e693aad3d5c45a7182",
+      "documentHash": "0f7247afd549fcc5662c6c9c97b63d926d066addf71b9d27afeaf25cb872d2d8",
+      "signatureHash": "daf6a78a9e541784a0ca76a01983d147bfc5a459d545836af34d41b6e015b7a9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-27T18:12:21.546Z"
+      },
+      "eventHash": "2ee3db9087c9a656717a78460eb0dd22385c37f529db56380bf2ed9525cfc81f"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 13,
+    "verifiedAt": "2026-04-27T21:12:24.996Z"
+  }
 }
