@@ -1,19 +1,100 @@
 {
   "uid": "901750249-2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Valere Veritas Influence",
     "nombre_representante_legal": "valere veritas influence sas",
     "email": "carolina@managementcm.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Valere Veritas Influence",
-    "nombre_representante_legal": "valere veritas influence sas",
-    "email": "carolina@managementcm.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-27T14:26:31.860Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/901750249-2",
+  "signatureMetadata": {
+    "ip": "179.15.129.31",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-27T19:26:35.334Z",
+    "signedAtLocal": "2026-04-27T14:26:35.334Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "836520cdbd20c3c026aeeac287622e4ad293f315452e37e77e416dda54773ce4"
+  "documentHash": "3fad00dbd72dc9898c318038b6e3d086ba126b9c88232d9653c37af7ff04c3f4",
+  "auditTrail": [
+    {
+      "eventId": "c7d94e88-9ad5-4c0c-a6e4-f3b638b7f413",
+      "uid": "901750249-2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-27T19:26:12.643Z",
+      "timestampLocal": "2026-04-27T19:26:12.643Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.15.129.31",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901750249-2&nombre_proveedor_razon_social=Valere+Veritas+Influence&nombre_representante_legal=valere+veritas+influence+sas&email=carolina%40managementcm.com",
+      "previousEventHash": null,
+      "documentHash": "836520cdbd20c3c026aeeac287622e4ad293f315452e37e77e416dda54773ce4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6cebdfa55ea1516c744004477f610a836bfc69ef7862992d57fb2c796c5992ae"
+    },
+    {
+      "eventId": "92f8da88-2717-475c-888a-38fdc8cf89f8",
+      "uid": "901750249-2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-27T19:26:12.643Z",
+      "timestampLocal": "2026-04-27T19:26:12.643Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.15.129.31",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901750249-2&nombre_proveedor_razon_social=Valere+Veritas+Influence&nombre_representante_legal=valere+veritas+influence+sas&email=carolina%40managementcm.com",
+      "previousEventHash": "6cebdfa55ea1516c744004477f610a836bfc69ef7862992d57fb2c796c5992ae",
+      "documentHash": "836520cdbd20c3c026aeeac287622e4ad293f315452e37e77e416dda54773ce4",
+      "metadata": {
+        "proveedor": "Valere Veritas Influence",
+        "representante": "valere veritas influence sas"
+      },
+      "eventHash": "80159cfaeca906085744dc19d133bb16b1df2e2e40c170158967cfb0e17f6e2f"
+    },
+    {
+      "eventId": "ff10b76c-2e57-4c84-932c-1184bca0e3a9",
+      "uid": "901750249-2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-27T19:26:13.771Z",
+      "timestampLocal": "2026-04-27T19:26:13.771Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.15.129.31",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901750249-2&nombre_proveedor_razon_social=Valere+Veritas+Influence&nombre_representante_legal=valere+veritas+influence+sas&email=carolina%40managementcm.com",
+      "previousEventHash": "80159cfaeca906085744dc19d133bb16b1df2e2e40c170158967cfb0e17f6e2f",
+      "documentHash": "836520cdbd20c3c026aeeac287622e4ad293f315452e37e77e416dda54773ce4",
+      "eventHash": "0310c50bbe05171ef8f504dab01ccc421cff85ac6d3e087217472d7eace64596"
+    },
+    {
+      "eventId": "2ece19bc-a13a-44a2-b3fe-7b053160bcac",
+      "uid": "901750249-2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-27T19:26:35.334Z",
+      "timestampLocal": "2026-04-27T14:26:35.334Z",
+      "timezone": "UTC-5",
+      "ipAddress": "179.15.129.31",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b1c812e4-18f8-4645-b171-8af0cce0ee6e",
+      "previousEventHash": "0310c50bbe05171ef8f504dab01ccc421cff85ac6d3e087217472d7eace64596",
+      "documentHash": "3fad00dbd72dc9898c318038b6e3d086ba126b9c88232d9653c37af7ff04c3f4",
+      "signatureHash": "faba2a87e6d286a3d55bc3e4232ea80255cb8f7456c30a1f06bf867ec05f53a8",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-27T14:26:31.860Z"
+      },
+      "eventHash": "3e7c324570e1ce70204058e39360cf9cbf4f0478664698292f6c50b361e07076"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-27T19:26:35.335Z"
+  }
 }
