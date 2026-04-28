@@ -1,19 +1,100 @@
 {
   "uid": "AMR251016RZ2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "AGENCIA DE MARKETING RATE MX",
     "nombre_representante_legal": "PAULINA YAZMIN CAMACHO HERNANDEZ",
     "email": "finanzas@ratemx.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "AGENCIA DE MARKETING RATE MX",
-    "nombre_representante_legal": "PAULINA YAZMIN CAMACHO HERNANDEZ",
-    "email": "finanzas@ratemx.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-28T09:10:48.257Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AMR251016RZ2",
+  "signatureMetadata": {
+    "ip": "187.189.208.115",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-28T15:10:51.460Z",
+    "signedAtLocal": "2026-04-28T09:10:51.460Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "385198ccf0f55938e0e15f7a45d7e56b05c3d749722abdf481235f9bfdf2edc2"
+  "documentHash": "70b748be329ff67dcb1751de2cff9b0b230ebfcb6a809136f5128a6f682f152c",
+  "auditTrail": [
+    {
+      "eventId": "8da6a2d3-09f1-459a-bf6e-687e8e275b50",
+      "uid": "AMR251016RZ2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-28T15:10:24.826Z",
+      "timestampLocal": "2026-04-28T15:10:24.826Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.208.115",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AMR251016RZ2&nombre_proveedor_razon_social=AGENCIA+DE+MARKETING+RATE+MX+&nombre_representante_legal=PAULINA+YAZMIN+CAMACHO+HERNANDEZ&email=finanzas%40ratemx.com",
+      "previousEventHash": null,
+      "documentHash": "385198ccf0f55938e0e15f7a45d7e56b05c3d749722abdf481235f9bfdf2edc2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "927f0eb6debcdabca14c9535209d885f52b303d760bd5d9c2d4ebaadc31bf368"
+    },
+    {
+      "eventId": "4aa36baa-1f42-4a12-90ae-c56faf1de841",
+      "uid": "AMR251016RZ2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-28T15:10:24.826Z",
+      "timestampLocal": "2026-04-28T15:10:24.826Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.208.115",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AMR251016RZ2&nombre_proveedor_razon_social=AGENCIA+DE+MARKETING+RATE+MX+&nombre_representante_legal=PAULINA+YAZMIN+CAMACHO+HERNANDEZ&email=finanzas%40ratemx.com",
+      "previousEventHash": "927f0eb6debcdabca14c9535209d885f52b303d760bd5d9c2d4ebaadc31bf368",
+      "documentHash": "385198ccf0f55938e0e15f7a45d7e56b05c3d749722abdf481235f9bfdf2edc2",
+      "metadata": {
+        "proveedor": "AGENCIA DE MARKETING RATE MX",
+        "representante": "PAULINA YAZMIN CAMACHO HERNANDEZ"
+      },
+      "eventHash": "5629082f6e4b901425817747bb2621913934e337bca5614a51b66e9caf483bb2"
+    },
+    {
+      "eventId": "eb1ab7ba-ca0d-4fa5-8907-a37e7ac53732",
+      "uid": "AMR251016RZ2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-28T15:10:26.218Z",
+      "timestampLocal": "2026-04-28T15:10:26.218Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.208.115",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AMR251016RZ2&nombre_proveedor_razon_social=AGENCIA+DE+MARKETING+RATE+MX+&nombre_representante_legal=PAULINA+YAZMIN+CAMACHO+HERNANDEZ&email=finanzas%40ratemx.com",
+      "previousEventHash": "5629082f6e4b901425817747bb2621913934e337bca5614a51b66e9caf483bb2",
+      "documentHash": "385198ccf0f55938e0e15f7a45d7e56b05c3d749722abdf481235f9bfdf2edc2",
+      "eventHash": "fc3e3a1a848a02fa1f5e439b6e41b6411eb220eb0465903013017569f0d40d9a"
+    },
+    {
+      "eventId": "83e03e29-a998-4df7-9425-ddbb28ea7196",
+      "uid": "AMR251016RZ2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-28T15:10:51.460Z",
+      "timestampLocal": "2026-04-28T09:10:51.460Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.208.115",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8235e417-4d71-449d-a940-82f438122aef",
+      "previousEventHash": "fc3e3a1a848a02fa1f5e439b6e41b6411eb220eb0465903013017569f0d40d9a",
+      "documentHash": "70b748be329ff67dcb1751de2cff9b0b230ebfcb6a809136f5128a6f682f152c",
+      "signatureHash": "ed0153e3267e253de603aae96a0bf9090aa95e0e1f6d7bd9bf580b8a0a1e3759",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-28T09:10:48.257Z"
+      },
+      "eventHash": "8903d326d343825d898007c136d632138f2709b77eb0e5e7cc7f740500b2a011"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-28T15:10:51.460Z"
+  }
 }
