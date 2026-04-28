@@ -1,19 +1,100 @@
 {
   "uid": "EIN210325EZ0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "AGENCIA PUBLICITARIA WAO",
     "nombre_representante_legal": "Gualberto Alhí Cárdenas García",
     "email": "paco.parra@waoagency.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "AGENCIA PUBLICITARIA WAO",
-    "nombre_representante_legal": "Gualberto Alhí Cárdenas García",
-    "email": "paco.parra@waoagency.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-27T18:31:59.895Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/EIN210325EZ0",
+  "signatureMetadata": {
+    "ip": "189.203.45.86",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-28T00:32:05.596Z",
+    "signedAtLocal": "2026-04-27T18:32:05.596Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5efa137ac7e0448e9e4fa1873142f67a221245dcc1e5d94dc2ae9ce22fcbcdbe"
+  "documentHash": "d60553f596ab969d3fcde05f455de83e69e2d59c18c7cb9edde1d8ee0dc9d2fa",
+  "auditTrail": [
+    {
+      "eventId": "02ed1fba-1ef3-4d00-b00f-5f57be21f6bd",
+      "uid": "EIN210325EZ0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-28T00:31:41.233Z",
+      "timestampLocal": "2026-04-28T00:31:41.233Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.45.86",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIN210325EZ0&nombre_proveedor_razon_social=AGENCIA+PUBLICITARIA+WAO&nombre_representante_legal=Gualberto+Alh%C3%AD+C%C3%A1rdenas+Garc%C3%ADa&email=paco.parra%40waoagency.com.mx",
+      "previousEventHash": null,
+      "documentHash": "5efa137ac7e0448e9e4fa1873142f67a221245dcc1e5d94dc2ae9ce22fcbcdbe",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9af8c7bb23f0d29d780908eb5bd58520f7e2353d109134ce748b869136e6e316"
+    },
+    {
+      "eventId": "5802fcfa-cd43-41ba-92b9-f6119aae01b3",
+      "uid": "EIN210325EZ0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-28T00:31:41.233Z",
+      "timestampLocal": "2026-04-28T00:31:41.233Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.45.86",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIN210325EZ0&nombre_proveedor_razon_social=AGENCIA+PUBLICITARIA+WAO&nombre_representante_legal=Gualberto+Alh%C3%AD+C%C3%A1rdenas+Garc%C3%ADa&email=paco.parra%40waoagency.com.mx",
+      "previousEventHash": "9af8c7bb23f0d29d780908eb5bd58520f7e2353d109134ce748b869136e6e316",
+      "documentHash": "5efa137ac7e0448e9e4fa1873142f67a221245dcc1e5d94dc2ae9ce22fcbcdbe",
+      "metadata": {
+        "proveedor": "AGENCIA PUBLICITARIA WAO",
+        "representante": "Gualberto Alhí Cárdenas García"
+      },
+      "eventHash": "f509349594fa35e5c9e3f80a8ea438a8ac709a662dc437b0349655264b411bc3"
+    },
+    {
+      "eventId": "b7cdd36b-b3b8-4f42-a621-954b67b0f747",
+      "uid": "EIN210325EZ0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-28T00:31:42.236Z",
+      "timestampLocal": "2026-04-28T00:31:42.236Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.45.86",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIN210325EZ0&nombre_proveedor_razon_social=AGENCIA+PUBLICITARIA+WAO&nombre_representante_legal=Gualberto+Alh%C3%AD+C%C3%A1rdenas+Garc%C3%ADa&email=paco.parra%40waoagency.com.mx",
+      "previousEventHash": "f509349594fa35e5c9e3f80a8ea438a8ac709a662dc437b0349655264b411bc3",
+      "documentHash": "5efa137ac7e0448e9e4fa1873142f67a221245dcc1e5d94dc2ae9ce22fcbcdbe",
+      "eventHash": "5ae9ecf595e299ddfc9641b2dbbfb0ca805b20f7a73e2a1e73acadc046f6b58b"
+    },
+    {
+      "eventId": "4496f56a-7eea-41d9-bff4-c7ed6b971b2c",
+      "uid": "EIN210325EZ0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-28T00:32:05.596Z",
+      "timestampLocal": "2026-04-27T18:32:05.596Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.45.86",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e050d232-a098-4c5b-b069-a2746cf9b3c1",
+      "previousEventHash": "5ae9ecf595e299ddfc9641b2dbbfb0ca805b20f7a73e2a1e73acadc046f6b58b",
+      "documentHash": "d60553f596ab969d3fcde05f455de83e69e2d59c18c7cb9edde1d8ee0dc9d2fa",
+      "signatureHash": "13535d389b046301858e4eb3fc5bb9b5ec473b8e4c2a36d144a2c7b8cd9e7da2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-27T18:31:59.895Z"
+      },
+      "eventHash": "85bddb5f7c4fb726cf81e805f57110e48c32daa1aff130682c954604fe5e155e"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-28T00:32:05.597Z"
+  }
 }
