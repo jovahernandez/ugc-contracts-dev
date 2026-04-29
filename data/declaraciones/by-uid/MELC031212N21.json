@@ -1,19 +1,100 @@
 {
   "uid": "MELC031212N21",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JOSE CARLOS MERLO LIEVANA",
     "nombre_representante_legal": "Jose Carlos Merlo Lievana",
     "email": "merarycastilloteam@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "JOSE CARLOS MERLO LIEVANA",
-    "nombre_representante_legal": "Jose Carlos Merlo Lievana",
-    "email": "merarycastilloteam@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-29T13:27:38.905Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MELC031212N21",
+  "signatureMetadata": {
+    "ip": "187.145.34.59",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-29T19:27:42.387Z",
+    "signedAtLocal": "2026-04-29T13:27:42.387Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4bdf33f44d961ed26b73881c27f7e1b540277f871a0c4da046cbabf1545ad6ae"
+  "documentHash": "bbce55574d580091830eab1835fc29c959aecc5ce335cf686fbe1f3a816da166",
+  "auditTrail": [
+    {
+      "eventId": "1eb11097-8918-4b3d-8001-436d94a959a1",
+      "uid": "MELC031212N21",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-29T19:27:21.453Z",
+      "timestampLocal": "2026-04-29T19:27:21.453Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.145.34.59",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MELC031212N21&nombre_proveedor_razon_social=JOSE+CARLOS+MERLO+LIEVANA&nombre_representante_legal=Jose+Carlos+Merlo+Lievana&email=merarycastilloteam%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "4bdf33f44d961ed26b73881c27f7e1b540277f871a0c4da046cbabf1545ad6ae",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "821c8ee611e2f7f159f6fae4f8a0e6c63b4fdf3a381128547a181c0d6cc7a01a"
+    },
+    {
+      "eventId": "eac61ecb-a499-47cb-929c-306ca994e279",
+      "uid": "MELC031212N21",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-29T19:27:21.453Z",
+      "timestampLocal": "2026-04-29T19:27:21.453Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.145.34.59",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MELC031212N21&nombre_proveedor_razon_social=JOSE+CARLOS+MERLO+LIEVANA&nombre_representante_legal=Jose+Carlos+Merlo+Lievana&email=merarycastilloteam%40gmail.com",
+      "previousEventHash": "821c8ee611e2f7f159f6fae4f8a0e6c63b4fdf3a381128547a181c0d6cc7a01a",
+      "documentHash": "4bdf33f44d961ed26b73881c27f7e1b540277f871a0c4da046cbabf1545ad6ae",
+      "metadata": {
+        "proveedor": "JOSE CARLOS MERLO LIEVANA",
+        "representante": "Jose Carlos Merlo Lievana"
+      },
+      "eventHash": "0818c434517d8e40a3bb9862c0c05a7fbb29f72f569316ea5363e51ec0626f49"
+    },
+    {
+      "eventId": "9ba0f99f-998a-492d-a746-431bd50db8b5",
+      "uid": "MELC031212N21",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-29T19:27:22.904Z",
+      "timestampLocal": "2026-04-29T19:27:22.904Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.145.34.59",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MELC031212N21&nombre_proveedor_razon_social=JOSE+CARLOS+MERLO+LIEVANA&nombre_representante_legal=Jose+Carlos+Merlo+Lievana&email=merarycastilloteam%40gmail.com",
+      "previousEventHash": "0818c434517d8e40a3bb9862c0c05a7fbb29f72f569316ea5363e51ec0626f49",
+      "documentHash": "4bdf33f44d961ed26b73881c27f7e1b540277f871a0c4da046cbabf1545ad6ae",
+      "eventHash": "2cf869ee35ce93c83e02f13c4728ffbe8301a2155a1dd7ff9090d4d979bc69f1"
+    },
+    {
+      "eventId": "2cbd5a73-8140-4c58-9b5e-4883634b4b5b",
+      "uid": "MELC031212N21",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-29T19:27:42.387Z",
+      "timestampLocal": "2026-04-29T13:27:42.387Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.145.34.59",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e71573a5-f0d0-4372-a351-9c8c61c968d5",
+      "previousEventHash": "2cf869ee35ce93c83e02f13c4728ffbe8301a2155a1dd7ff9090d4d979bc69f1",
+      "documentHash": "bbce55574d580091830eab1835fc29c959aecc5ce335cf686fbe1f3a816da166",
+      "signatureHash": "233ecefd73cc6c113ee8b6bfc0a89169f799bee87928f87ff0747ad4fadf0d04",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-29T13:27:38.905Z"
+      },
+      "eventHash": "42597a7f07c8567ee9e173abedae13ff114863d82c6a097d35801d2ed29eae71"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-29T19:27:42.387Z"
+  }
 }
