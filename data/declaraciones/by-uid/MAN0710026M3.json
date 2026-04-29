@@ -1,19 +1,100 @@
 {
   "uid": "MAN0710026M3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "5M2 ANDENES SAPI DE CV",
     "nombre_representante_legal": "EKATERINA COLIN MONEDA",
     "email": "facturacion@grupoexpansion.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "5M2 ANDENES SAPI DE CV",
-    "nombre_representante_legal": "EKATERINA COLIN MONEDA",
-    "email": "facturacion@grupoexpansion.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-29T00:07:47.107Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MAN0710026M3",
+  "signatureMetadata": {
+    "ip": "189.133.198.104",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-29T06:07:50.553Z",
+    "signedAtLocal": "2026-04-29T00:07:50.553Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1aca38f5d38732c92e450f63fc4c2a78695dbfe4649d308b87d1d57c6db4bb4c"
+  "documentHash": "0e6256cbf736ab48d2a09102490ae8dcdb213e17fcb8610d687c351fcb9e6f3b",
+  "auditTrail": [
+    {
+      "eventId": "9f64afc6-7b17-47ba-acf2-70fa9ec36c27",
+      "uid": "MAN0710026M3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-29T06:06:07.874Z",
+      "timestampLocal": "2026-04-29T06:06:07.874Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.133.198.104",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAN0710026M3&nombre_proveedor_razon_social=5M2+ANDENES+SAPI+DE+CV&nombre_representante_legal=EKATERINA+COLIN+MONEDA&email=facturacion%40grupoexpansion.com",
+      "previousEventHash": null,
+      "documentHash": "1aca38f5d38732c92e450f63fc4c2a78695dbfe4649d308b87d1d57c6db4bb4c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "46d3cfc748e2ee69da6925334bebef3d4e35e479b1b91b853d544a4b13a5eb59"
+    },
+    {
+      "eventId": "1b74e20c-401d-4b28-af1c-5c4dcf31049d",
+      "uid": "MAN0710026M3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-29T06:06:07.874Z",
+      "timestampLocal": "2026-04-29T06:06:07.874Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.133.198.104",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAN0710026M3&nombre_proveedor_razon_social=5M2+ANDENES+SAPI+DE+CV&nombre_representante_legal=EKATERINA+COLIN+MONEDA&email=facturacion%40grupoexpansion.com",
+      "previousEventHash": "46d3cfc748e2ee69da6925334bebef3d4e35e479b1b91b853d544a4b13a5eb59",
+      "documentHash": "1aca38f5d38732c92e450f63fc4c2a78695dbfe4649d308b87d1d57c6db4bb4c",
+      "metadata": {
+        "proveedor": "5M2 ANDENES SAPI DE CV",
+        "representante": "EKATERINA COLIN MONEDA"
+      },
+      "eventHash": "dc6f004ad201e074a01c41920207dc65d30187af7244ac287e41ffdf54b04b95"
+    },
+    {
+      "eventId": "b0afa28f-4625-47b0-9e0b-04366bad479e",
+      "uid": "MAN0710026M3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-29T06:06:09.019Z",
+      "timestampLocal": "2026-04-29T06:06:09.019Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.133.198.104",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAN0710026M3&nombre_proveedor_razon_social=5M2+ANDENES+SAPI+DE+CV&nombre_representante_legal=EKATERINA+COLIN+MONEDA&email=facturacion%40grupoexpansion.com",
+      "previousEventHash": "dc6f004ad201e074a01c41920207dc65d30187af7244ac287e41ffdf54b04b95",
+      "documentHash": "1aca38f5d38732c92e450f63fc4c2a78695dbfe4649d308b87d1d57c6db4bb4c",
+      "eventHash": "23897273c8c1ab8757111c5835f2146e61c2b3683b79b08226653f703e7f32b9"
+    },
+    {
+      "eventId": "3274ab7d-522a-41f3-ac00-3fdb6b4486bf",
+      "uid": "MAN0710026M3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-29T06:07:50.553Z",
+      "timestampLocal": "2026-04-29T00:07:50.553Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.133.198.104",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b6413536-4920-4cf8-99f2-aae932855a1f",
+      "previousEventHash": "23897273c8c1ab8757111c5835f2146e61c2b3683b79b08226653f703e7f32b9",
+      "documentHash": "0e6256cbf736ab48d2a09102490ae8dcdb213e17fcb8610d687c351fcb9e6f3b",
+      "signatureHash": "400d55c4937741b0c8d82b149ee8422592a33e8969b03a521504ccdacd9ea647",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-29T00:07:47.107Z"
+      },
+      "eventHash": "0fa60f32c8996a3a10d7ea1ea6499883b598e7c90bbd569f160fbc472a71ebe5"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-29T06:07:50.553Z"
+  }
 }
