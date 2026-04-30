@@ -1,19 +1,100 @@
 {
   "uid": "CGM210914M78",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CONTENT GM SA DE CV",
     "nombre_representante_legal": "Ricardo Fernandez Garcia",
     "email": "israel.flores@grupomedios.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CONTENT GM SA DE CV",
-    "nombre_representante_legal": "Ricardo Fernandez Garcia",
-    "email": "israel.flores@grupomedios.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-30T11:13:15.552Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CGM210914M78",
+  "signatureMetadata": {
+    "ip": "189.130.54.36",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-30T17:13:18.956Z",
+    "signedAtLocal": "2026-04-30T11:13:18.956Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "58faefde9b61836740da39ac289e1400f08a34d2980fd2fbf8f00b3c384bc078"
+  "documentHash": "a9af24d7f5253d999f5a703a592be9ca53a1e131c744a9e87c9aeed79ba8bdfa",
+  "auditTrail": [
+    {
+      "eventId": "1a76a8d4-6bf0-4665-9024-4e6204cc0c02",
+      "uid": "CGM210914M78",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-30T17:12:09.460Z",
+      "timestampLocal": "2026-04-30T17:12:09.460Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.130.54.36",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CGM210914M78&nombre_proveedor_razon_social=CONTENT+GM+SA+DE+CV&nombre_representante_legal=Ricardo+Fernandez+Garcia+&email=israel.flores%40grupomedios.com",
+      "previousEventHash": null,
+      "documentHash": "58faefde9b61836740da39ac289e1400f08a34d2980fd2fbf8f00b3c384bc078",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "832735640dee3d7381867aca1a64a29cbc3ea5d3bf35c9fc2f2c9ecfdf8cd0ce"
+    },
+    {
+      "eventId": "d6a0d2c6-89f6-414e-a909-50e2bcc36dac",
+      "uid": "CGM210914M78",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-30T17:12:09.460Z",
+      "timestampLocal": "2026-04-30T17:12:09.460Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.130.54.36",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CGM210914M78&nombre_proveedor_razon_social=CONTENT+GM+SA+DE+CV&nombre_representante_legal=Ricardo+Fernandez+Garcia+&email=israel.flores%40grupomedios.com",
+      "previousEventHash": "832735640dee3d7381867aca1a64a29cbc3ea5d3bf35c9fc2f2c9ecfdf8cd0ce",
+      "documentHash": "58faefde9b61836740da39ac289e1400f08a34d2980fd2fbf8f00b3c384bc078",
+      "metadata": {
+        "proveedor": "CONTENT GM SA DE CV",
+        "representante": "Ricardo Fernandez Garcia"
+      },
+      "eventHash": "3695c1035c2bdbf92c32935ab9f44091542c6179851ca21501b3c35bddde4bbb"
+    },
+    {
+      "eventId": "509071e1-f9db-44b1-8afb-4cd1304bf392",
+      "uid": "CGM210914M78",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-30T17:12:10.513Z",
+      "timestampLocal": "2026-04-30T17:12:10.513Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.130.54.36",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CGM210914M78&nombre_proveedor_razon_social=CONTENT+GM+SA+DE+CV&nombre_representante_legal=Ricardo+Fernandez+Garcia+&email=israel.flores%40grupomedios.com",
+      "previousEventHash": "3695c1035c2bdbf92c32935ab9f44091542c6179851ca21501b3c35bddde4bbb",
+      "documentHash": "58faefde9b61836740da39ac289e1400f08a34d2980fd2fbf8f00b3c384bc078",
+      "eventHash": "4488b2bd988861172b5694cb35905af7c34588f2542d858e8efb6ef48097edb9"
+    },
+    {
+      "eventId": "63fab8f0-af13-42d7-a129-a0899d710253",
+      "uid": "CGM210914M78",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-30T17:13:18.956Z",
+      "timestampLocal": "2026-04-30T11:13:18.956Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.130.54.36",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b0b1df95-ad9d-4454-980f-1a801cdfdeb0",
+      "previousEventHash": "4488b2bd988861172b5694cb35905af7c34588f2542d858e8efb6ef48097edb9",
+      "documentHash": "a9af24d7f5253d999f5a703a592be9ca53a1e131c744a9e87c9aeed79ba8bdfa",
+      "signatureHash": "97d0b31851ac7ebe5fa47b13ece348c2bcc2e9d44486b3c44a5d5ed7c33402d7",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-30T11:13:15.552Z"
+      },
+      "eventHash": "0028df3246d23545f894d700a32462179a0bd2ebf4b81bdb702a7eef251e923b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-30T17:13:18.957Z"
+  }
 }
