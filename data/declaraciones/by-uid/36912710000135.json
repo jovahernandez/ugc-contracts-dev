@@ -1,19 +1,100 @@
 {
   "uid": "36912710000135",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "LIKEY INFLUENCIA LTDA",
     "nombre_representante_legal": "HENRIQUE NEVES PETRICA",
     "email": "contato@likey.com.br"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "LIKEY INFLUENCIA LTDA",
-    "nombre_representante_legal": "HENRIQUE NEVES PETRICA",
-    "email": "contato@likey.com.br"
+  "personaAutorizada": null,
+  "signedAt": "2026-04-30T14:17:02.769Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/36912710000135",
+  "signatureMetadata": {
+    "ip": "186.204.62.186",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-04-30T17:17:06.223Z",
+    "signedAtLocal": "2026-04-30T14:17:06.223Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "49109661d0388e6c62dbc8d20901b37b563efe91b653088a7e05cb9020e5b106"
+  "documentHash": "c5e9d556dbd792969f52dfca57f051ab206004d6bef6d16152ad669e6cda8968",
+  "auditTrail": [
+    {
+      "eventId": "ab16714e-cb06-4716-a66e-0f18726b808d",
+      "uid": "36912710000135",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-04-30T17:16:49.471Z",
+      "timestampLocal": "2026-04-30T17:16:49.471Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=36912710000135&nombre_proveedor_razon_social=LIKEY+INFLUENCIA+LTDA&nombre_representante_legal=HENRIQUE+NEVES+PETRICA&email=contato%40likey.com.br",
+      "previousEventHash": null,
+      "documentHash": "49109661d0388e6c62dbc8d20901b37b563efe91b653088a7e05cb9020e5b106",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "8ed05c2c75428186b42fcb55c6279693d35ab8bbeb2db79439d11ac2464fe5c3"
+    },
+    {
+      "eventId": "9763661e-68cd-4a11-b72e-6042af23ff1c",
+      "uid": "36912710000135",
+      "eventType": "document_created",
+      "timestampUtc": "2026-04-30T17:16:49.471Z",
+      "timestampLocal": "2026-04-30T17:16:49.471Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=36912710000135&nombre_proveedor_razon_social=LIKEY+INFLUENCIA+LTDA&nombre_representante_legal=HENRIQUE+NEVES+PETRICA&email=contato%40likey.com.br",
+      "previousEventHash": "8ed05c2c75428186b42fcb55c6279693d35ab8bbeb2db79439d11ac2464fe5c3",
+      "documentHash": "49109661d0388e6c62dbc8d20901b37b563efe91b653088a7e05cb9020e5b106",
+      "metadata": {
+        "proveedor": "LIKEY INFLUENCIA LTDA",
+        "representante": "HENRIQUE NEVES PETRICA"
+      },
+      "eventHash": "1ae8d59b0e7ddd580216fc38a6ffe944aadcdbee059d965f10c0e2f9a4dfa1a6"
+    },
+    {
+      "eventId": "3b1d6d7c-c4cb-43aa-b41f-e2e8d5f77f03",
+      "uid": "36912710000135",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-04-30T17:16:51.452Z",
+      "timestampLocal": "2026-04-30T17:16:51.452Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=36912710000135&nombre_proveedor_razon_social=LIKEY+INFLUENCIA+LTDA&nombre_representante_legal=HENRIQUE+NEVES+PETRICA&email=contato%40likey.com.br",
+      "previousEventHash": "1ae8d59b0e7ddd580216fc38a6ffe944aadcdbee059d965f10c0e2f9a4dfa1a6",
+      "documentHash": "49109661d0388e6c62dbc8d20901b37b563efe91b653088a7e05cb9020e5b106",
+      "eventHash": "bf848f2e1e77916817af60f47523b1bb327540593af2c1a539642a5a38feec99"
+    },
+    {
+      "eventId": "df7c9c70-f2e6-4001-b303-71aafeffeb8d",
+      "uid": "36912710000135",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-04-30T17:17:06.223Z",
+      "timestampLocal": "2026-04-30T14:17:06.223Z",
+      "timezone": "UTC-3",
+      "ipAddress": "186.204.62.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f3a76da7-ed18-45f7-9dff-93b6058c80b2",
+      "previousEventHash": "bf848f2e1e77916817af60f47523b1bb327540593af2c1a539642a5a38feec99",
+      "documentHash": "c5e9d556dbd792969f52dfca57f051ab206004d6bef6d16152ad669e6cda8968",
+      "signatureHash": "38e8c6bbce1e6b3d3510a9aee96a0cffc16cfb6445417b87e4c73ec964d52dc9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-04-30T14:17:02.769Z"
+      },
+      "eventHash": "899a857a8a5eae70466525300bbc627301076e71ac3aefdd7e97b8196853c5bb"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-04-30T17:17:06.224Z"
+  }
 }
