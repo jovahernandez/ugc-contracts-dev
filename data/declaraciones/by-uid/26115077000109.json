@@ -1,19 +1,100 @@
 {
   "uid": "26115077000109",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "JUVI DE OLIVEIRA CHAGAS",
     "nombre_representante_legal": "Juvi de Oliveira Chagas",
     "email": "financeiro@nessmgt.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "JUVI DE OLIVEIRA CHAGAS",
-    "nombre_representante_legal": "Juvi de Oliveira Chagas",
-    "email": "financeiro@nessmgt.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-05T13:48:54.194Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/26115077000109",
+  "signatureMetadata": {
+    "ip": "179.209.47.49",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-05T16:48:57.664Z",
+    "signedAtLocal": "2026-05-05T13:48:57.664Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d059f7f6db549a9ba0c00bc662b04c018e7688af338c38554ff67257cfad4f3d"
+  "documentHash": "086330c6cddb109811f2dee8dbeed5e80d7bb87128a1b1078d99b7c71462e341",
+  "auditTrail": [
+    {
+      "eventId": "862016fc-d917-4792-94a4-67cb419a3f83",
+      "uid": "26115077000109",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-05T16:48:44.134Z",
+      "timestampLocal": "2026-05-05T16:48:44.134Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.209.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=26115077000109&nombre_proveedor_razon_social=JUVI+DE+OLIVEIRA+CHAGAS&nombre_representante_legal=Juvi+de+Oliveira+Chagas&email=financeiro%40nessmgt.com",
+      "previousEventHash": null,
+      "documentHash": "d059f7f6db549a9ba0c00bc662b04c018e7688af338c38554ff67257cfad4f3d",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "f7e5d5cdd893cd4eb95bc21e295621c60804db7bc398e932c24d27fe875bbce1"
+    },
+    {
+      "eventId": "6ec42a8d-8e5e-49da-a32e-cc0f42adb199",
+      "uid": "26115077000109",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-05T16:48:44.134Z",
+      "timestampLocal": "2026-05-05T16:48:44.134Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.209.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=26115077000109&nombre_proveedor_razon_social=JUVI+DE+OLIVEIRA+CHAGAS&nombre_representante_legal=Juvi+de+Oliveira+Chagas&email=financeiro%40nessmgt.com",
+      "previousEventHash": "f7e5d5cdd893cd4eb95bc21e295621c60804db7bc398e932c24d27fe875bbce1",
+      "documentHash": "d059f7f6db549a9ba0c00bc662b04c018e7688af338c38554ff67257cfad4f3d",
+      "metadata": {
+        "proveedor": "JUVI DE OLIVEIRA CHAGAS",
+        "representante": "Juvi de Oliveira Chagas"
+      },
+      "eventHash": "50a22a73968071dac6c1142427867dba31211ab572e12efa2a6e2c6af69b3874"
+    },
+    {
+      "eventId": "60d7bdad-c3d1-4216-b6e0-1fcbb63b93a9",
+      "uid": "26115077000109",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-05T16:48:45.460Z",
+      "timestampLocal": "2026-05-05T16:48:45.460Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.209.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=26115077000109&nombre_proveedor_razon_social=JUVI+DE+OLIVEIRA+CHAGAS&nombre_representante_legal=Juvi+de+Oliveira+Chagas&email=financeiro%40nessmgt.com",
+      "previousEventHash": "50a22a73968071dac6c1142427867dba31211ab572e12efa2a6e2c6af69b3874",
+      "documentHash": "d059f7f6db549a9ba0c00bc662b04c018e7688af338c38554ff67257cfad4f3d",
+      "eventHash": "2459db83470d1d7d519a3a3c09f75ab98217c0f3c0eb82b32bb5afb7a0255edf"
+    },
+    {
+      "eventId": "97e4eb06-72f3-4a78-a5c5-a3aa6f090ee1",
+      "uid": "26115077000109",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-05T16:48:57.664Z",
+      "timestampLocal": "2026-05-05T13:48:57.664Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.209.47.49",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/29f89a12-353e-4b6d-8a1e-88e59a149aaf",
+      "previousEventHash": "2459db83470d1d7d519a3a3c09f75ab98217c0f3c0eb82b32bb5afb7a0255edf",
+      "documentHash": "086330c6cddb109811f2dee8dbeed5e80d7bb87128a1b1078d99b7c71462e341",
+      "signatureHash": "1aefd067f74cc97e405f56cc9b8661d80dd5eeaf52e5721b2d2946c5deb9ce32",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-05T13:48:54.194Z"
+      },
+      "eventHash": "688386b6f6e089bbbc486c40f18a5e775a949105195ee0e538ac52396aaa881a"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-05T16:48:57.666Z"
+  }
 }
