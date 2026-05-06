@@ -1,19 +1,100 @@
 {
   "uid": "FATB930915G11",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "BENJAMIN ISACC FALCON TREJO",
     "nombre_representante_legal": "BENJAMIN FALCON",
     "email": "ibenfalcon@outlook.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "BENJAMIN ISACC FALCON TREJO",
-    "nombre_representante_legal": "BENJAMIN FALCON",
-    "email": "ibenfalcon@outlook.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-06T08:32:11.919Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/FATB930915G11",
+  "signatureMetadata": {
+    "ip": "189.203.252.148",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-06T14:32:15.289Z",
+    "signedAtLocal": "2026-05-06T08:32:15.289Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0514ec06e157fb96021a25b2455815ca949258c7e7e22e927650fb079e87fcae"
+  "documentHash": "56b0fcd2d39b2ac8f81f1960b1eb800b8a58b2f98213af98fbce29e66cd8413f",
+  "auditTrail": [
+    {
+      "eventId": "70024199-4ebd-4c3f-9732-087333bbb900",
+      "uid": "FATB930915G11",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-06T00:35:27.138Z",
+      "timestampLocal": "2026-05-06T00:35:27.138Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.252.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FATB930915G11&nombre_proveedor_razon_social=BENJAMIN+ISACC+FALCON+TREJO&nombre_representante_legal=BENJAMIN+FALCON&email=ibenfalcon%40outlook.com",
+      "previousEventHash": null,
+      "documentHash": "0514ec06e157fb96021a25b2455815ca949258c7e7e22e927650fb079e87fcae",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a0eb43690a364ee46dacf365a02d68438accc17d547ef0cf29299da118dfcc1b"
+    },
+    {
+      "eventId": "d12bba85-9631-488f-be0f-77308e172eef",
+      "uid": "FATB930915G11",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-06T00:35:27.138Z",
+      "timestampLocal": "2026-05-06T00:35:27.138Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.252.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FATB930915G11&nombre_proveedor_razon_social=BENJAMIN+ISACC+FALCON+TREJO&nombre_representante_legal=BENJAMIN+FALCON&email=ibenfalcon%40outlook.com",
+      "previousEventHash": "a0eb43690a364ee46dacf365a02d68438accc17d547ef0cf29299da118dfcc1b",
+      "documentHash": "0514ec06e157fb96021a25b2455815ca949258c7e7e22e927650fb079e87fcae",
+      "metadata": {
+        "proveedor": "BENJAMIN ISACC FALCON TREJO",
+        "representante": "BENJAMIN FALCON"
+      },
+      "eventHash": "c124b1cffdccc98ce7cdf321f1f5b3fc7b01f2ac49ac0f0df927b9e64a6cabc3"
+    },
+    {
+      "eventId": "ba066f60-2a65-4aa0-95e3-73435ade22ce",
+      "uid": "FATB930915G11",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-06T14:31:51.990Z",
+      "timestampLocal": "2026-05-06T14:31:51.990Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.252.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c124b1cffdccc98ce7cdf321f1f5b3fc7b01f2ac49ac0f0df927b9e64a6cabc3",
+      "documentHash": "0514ec06e157fb96021a25b2455815ca949258c7e7e22e927650fb079e87fcae",
+      "eventHash": "6dcfc8f2e8b5bc02f5599d9a79338a41c78e45581453463b38d80a1faccc1d6e"
+    },
+    {
+      "eventId": "6d47f3c7-0aaa-4829-a725-365dc9b33b7e",
+      "uid": "FATB930915G11",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-06T14:32:15.289Z",
+      "timestampLocal": "2026-05-06T08:32:15.289Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.252.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/9d4df1c6-1151-4c83-801e-d6398ab2f812",
+      "previousEventHash": "6dcfc8f2e8b5bc02f5599d9a79338a41c78e45581453463b38d80a1faccc1d6e",
+      "documentHash": "56b0fcd2d39b2ac8f81f1960b1eb800b8a58b2f98213af98fbce29e66cd8413f",
+      "signatureHash": "66b533050cd54b771b6ec422a10d3226f4778ad7c5c7a5a3c59987f8761c1057",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-06T08:32:11.919Z"
+      },
+      "eventHash": "118cb28536ad5e2d0e73a5552c5be826b6ebf8b1c2d09a60eded36be556c2674"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-06T14:32:15.290Z"
+  }
 }
