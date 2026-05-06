@@ -1,19 +1,145 @@
 {
   "uid": "42088692000111",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "PRETA DEMAIS LTDA",
     "nombre_representante_legal": "DELANI FERREIRA DOS SANTOS",
     "email": "contatopretademais@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PRETA DEMAIS LTDA",
-    "nombre_representante_legal": "DELANI FERREIRA DOS SANTOS",
-    "email": "contatopretademais@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-06T17:53:12.930Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/42088692000111",
+  "signatureMetadata": {
+    "ip": "191.183.43.115",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-05-06T20:53:16.224Z",
+    "signedAtLocal": "2026-05-06T17:53:16.224Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "410694aad5ab374cc770132bd780f87c7cfd8469aeb23c744238adb602c68ae4"
+  "documentHash": "e22dcdbb44130f6566cd6a6a86ff0ff74923ff80a947779c035a40fe2b549316",
+  "auditTrail": [
+    {
+      "eventId": "4572faf6-0dd6-4abe-9a16-f574e390a992",
+      "uid": "42088692000111",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-06T20:36:23.289Z",
+      "timestampLocal": "2026-05-06T20:36:23.289Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.182.15.55",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42088692000111&nombre_proveedor_razon_social=PRETA+DEMAIS+LTDA&nombre_representante_legal=+DELANI+FERREIRA+DOS+SANTOS&email=contatopretademais%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "410694aad5ab374cc770132bd780f87c7cfd8469aeb23c744238adb602c68ae4",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "a849736c2327d0f5e9301c6575fbed878136508414574521c13676459ea24367"
+    },
+    {
+      "eventId": "8a1e25c4-7cf8-4d6a-afc8-12a881273b16",
+      "uid": "42088692000111",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-06T20:36:23.290Z",
+      "timestampLocal": "2026-05-06T20:36:23.290Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.182.15.55",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42088692000111&nombre_proveedor_razon_social=PRETA+DEMAIS+LTDA&nombre_representante_legal=+DELANI+FERREIRA+DOS+SANTOS&email=contatopretademais%40gmail.com",
+      "previousEventHash": "a849736c2327d0f5e9301c6575fbed878136508414574521c13676459ea24367",
+      "documentHash": "410694aad5ab374cc770132bd780f87c7cfd8469aeb23c744238adb602c68ae4",
+      "metadata": {
+        "proveedor": "PRETA DEMAIS LTDA",
+        "representante": "DELANI FERREIRA DOS SANTOS"
+      },
+      "eventHash": "2dca9af573c5a859e6b3e26a2a6da2407f1c04692f7330bdba082818e6f11c2e"
+    },
+    {
+      "eventId": "9feecf3b-300e-4587-8161-791dfc0141f1",
+      "uid": "42088692000111",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-06T20:36:24.889Z",
+      "timestampLocal": "2026-05-06T20:36:24.889Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.182.15.55",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=42088692000111&nombre_proveedor_razon_social=PRETA+DEMAIS+LTDA&nombre_representante_legal=+DELANI+FERREIRA+DOS+SANTOS&email=contatopretademais%40gmail.com",
+      "previousEventHash": "2dca9af573c5a859e6b3e26a2a6da2407f1c04692f7330bdba082818e6f11c2e",
+      "documentHash": "410694aad5ab374cc770132bd780f87c7cfd8469aeb23c744238adb602c68ae4",
+      "eventHash": "14411ba25fff1026a08b3f31d75909a7cecb28e9f0159dd2eb3c1f45113410eb"
+    },
+    {
+      "eventId": "1bc3789b-9dc6-43d1-9891-fbee1b2d7009",
+      "uid": "42088692000111",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-06T20:51:23.280Z",
+      "timestampLocal": "2026-05-06T20:51:23.280Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.183.43.115",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "14411ba25fff1026a08b3f31d75909a7cecb28e9f0159dd2eb3c1f45113410eb",
+      "documentHash": "410694aad5ab374cc770132bd780f87c7cfd8469aeb23c744238adb602c68ae4",
+      "eventHash": "a00fc932a5f8fcb29999e63a200e53d3344fe4f104a18b1b41c6420bb090a29c"
+    },
+    {
+      "eventId": "bef67fcd-cf19-4265-b176-4f9215415807",
+      "uid": "42088692000111",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-06T20:52:04.229Z",
+      "timestampLocal": "2026-05-06T20:52:04.229Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.183.43.115",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "a00fc932a5f8fcb29999e63a200e53d3344fe4f104a18b1b41c6420bb090a29c",
+      "documentHash": "410694aad5ab374cc770132bd780f87c7cfd8469aeb23c744238adb602c68ae4",
+      "eventHash": "c7736f2dddcc1604c2801af69feba7869e07b613c203774919822f29bcbf8dc8"
+    },
+    {
+      "eventId": "eb390f7a-be48-4f8e-9f88-35c8999720b9",
+      "uid": "42088692000111",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-06T20:52:20.923Z",
+      "timestampLocal": "2026-05-06T20:52:20.923Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.183.43.115",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c7736f2dddcc1604c2801af69feba7869e07b613c203774919822f29bcbf8dc8",
+      "documentHash": "410694aad5ab374cc770132bd780f87c7cfd8469aeb23c744238adb602c68ae4",
+      "eventHash": "bc791c7db7cd752383bb4b638a00d6cdcca7231accb88e0e8ea7a03923148f95"
+    },
+    {
+      "eventId": "e3f68540-cb24-4a72-9d48-e1ac8d973782",
+      "uid": "42088692000111",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-06T20:53:16.224Z",
+      "timestampLocal": "2026-05-06T17:53:16.224Z",
+      "timezone": "UTC-3",
+      "ipAddress": "191.183.43.115",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "bc791c7db7cd752383bb4b638a00d6cdcca7231accb88e0e8ea7a03923148f95",
+      "documentHash": "e22dcdbb44130f6566cd6a6a86ff0ff74923ff80a947779c035a40fe2b549316",
+      "signatureHash": "a2292b48de98c6ca640a3d9cbd828e59ee642acf931894b50b6926bd21775898",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-06T17:53:12.930Z"
+      },
+      "eventHash": "e98f1169ead5d3db561801483a9296424bb1844b8902b913377ea28a6770904d"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-05-06T20:53:16.225Z"
+  }
 }
