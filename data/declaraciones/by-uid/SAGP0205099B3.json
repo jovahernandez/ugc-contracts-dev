@@ -1,19 +1,100 @@
 {
   "uid": "SAGP0205099B3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PAULINA SANCHEZ GARCIA",
     "nombre_representante_legal": "PAULINA SANCHEZ GARCIA",
     "email": "facturacion@dreamlabagency.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PAULINA SANCHEZ GARCIA",
-    "nombre_representante_legal": "PAULINA SANCHEZ GARCIA",
-    "email": "facturacion@dreamlabagency.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-07T12:06:55.224Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SAGP0205099B3",
+  "signatureMetadata": {
+    "ip": "201.119.37.129",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-07T18:06:58.500Z",
+    "signedAtLocal": "2026-05-07T12:06:58.500Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "08a0687212c21df371c52eb8dbd7c43fb3395454aa6ce7bc5c5ccdc853f4211c"
+  "documentHash": "8b3a0489ead3e957b0ae25bf4116fb4d29d29bdaf551661139f393b1459a3263",
+  "auditTrail": [
+    {
+      "eventId": "b9d49192-c25e-465c-b651-c5bd83723156",
+      "uid": "SAGP0205099B3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-07T18:02:54.342Z",
+      "timestampLocal": "2026-05-07T18:02:54.342Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.37.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAGP0205099B3&nombre_proveedor_razon_social=PAULINA+SANCHEZ+GARCIA&nombre_representante_legal=PAULINA+SANCHEZ+GARCIA&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": null,
+      "documentHash": "08a0687212c21df371c52eb8dbd7c43fb3395454aa6ce7bc5c5ccdc853f4211c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b7faceab4fe4f57e3611784583f1c8cd228de0b8cb03d41184b7aac97041e8d3"
+    },
+    {
+      "eventId": "983a2a16-ccfa-437b-b106-989b7c4c47ac",
+      "uid": "SAGP0205099B3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-07T18:02:54.342Z",
+      "timestampLocal": "2026-05-07T18:02:54.342Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.37.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAGP0205099B3&nombre_proveedor_razon_social=PAULINA+SANCHEZ+GARCIA&nombre_representante_legal=PAULINA+SANCHEZ+GARCIA&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "b7faceab4fe4f57e3611784583f1c8cd228de0b8cb03d41184b7aac97041e8d3",
+      "documentHash": "08a0687212c21df371c52eb8dbd7c43fb3395454aa6ce7bc5c5ccdc853f4211c",
+      "metadata": {
+        "proveedor": "PAULINA SANCHEZ GARCIA",
+        "representante": "PAULINA SANCHEZ GARCIA"
+      },
+      "eventHash": "ce7d781423299ec2854b1fc9d6efe0850e60b28e07c3e744198178d6c6a78cc6"
+    },
+    {
+      "eventId": "7d0251a0-d871-4cc3-801e-5802d98af1cf",
+      "uid": "SAGP0205099B3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-07T18:02:55.805Z",
+      "timestampLocal": "2026-05-07T18:02:55.805Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.37.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAGP0205099B3&nombre_proveedor_razon_social=PAULINA+SANCHEZ+GARCIA&nombre_representante_legal=PAULINA+SANCHEZ+GARCIA&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "ce7d781423299ec2854b1fc9d6efe0850e60b28e07c3e744198178d6c6a78cc6",
+      "documentHash": "08a0687212c21df371c52eb8dbd7c43fb3395454aa6ce7bc5c5ccdc853f4211c",
+      "eventHash": "7c751764e7c0fd2a83b2b7256c0a90e1c5d4d1991c1bd36de4fc8b619653d1dc"
+    },
+    {
+      "eventId": "ea6d6a21-0b72-45b3-ba1f-45d8e1bf60c4",
+      "uid": "SAGP0205099B3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-07T18:06:58.500Z",
+      "timestampLocal": "2026-05-07T12:06:58.500Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.119.37.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/de080e82-2f38-4031-978b-72107bff6e76",
+      "previousEventHash": "7c751764e7c0fd2a83b2b7256c0a90e1c5d4d1991c1bd36de4fc8b619653d1dc",
+      "documentHash": "8b3a0489ead3e957b0ae25bf4116fb4d29d29bdaf551661139f393b1459a3263",
+      "signatureHash": "a5f33ea61b5b2458d3ff70896047f4e3801cc2871a9561a867717d967f6c478e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-07T12:06:55.224Z"
+      },
+      "eventHash": "177fb0f5f0aee2fdf13bd9a5856a0f5f8d9941247c28245567f5b7485278d9a1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-07T18:06:58.500Z"
+  }
 }
