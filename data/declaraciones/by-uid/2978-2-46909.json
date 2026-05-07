@@ -1,19 +1,100 @@
 {
   "uid": "2978-2-46909",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Corporación La Prensa S.A.",
     "nombre_representante_legal": "Jorge Molina",
     "email": "cobros@prensa.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Corporación La Prensa S.A.",
-    "nombre_representante_legal": "Jorge Molina",
-    "email": "cobros@prensa.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-07T15:27:41.010Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/2978-2-46909",
+  "signatureMetadata": {
+    "ip": "200.6.79.251",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-07T20:27:46.956Z",
+    "signedAtLocal": "2026-05-07T15:27:46.956Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f8c7bc3e2482ac176eaabcb8b8c4a4b8f0bb2161dafd8d3028006a4abdabc88a"
+  "documentHash": "f66547dd5f23716b519249d2dfef8de3203872ae8ba9c867181b2568ef7bb73d",
+  "auditTrail": [
+    {
+      "eventId": "61fa0838-3639-40a5-9fbc-01896cebdd7c",
+      "uid": "2978-2-46909",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-07T20:27:21.754Z",
+      "timestampLocal": "2026-05-07T20:27:21.754Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.6.79.251",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=2978-2-46909&nombre_proveedor_razon_social=Corporaci%C3%B3n+La+Prensa+S.A.&nombre_representante_legal=Jorge+Molina&email=cobros%40prensa.com",
+      "previousEventHash": null,
+      "documentHash": "f8c7bc3e2482ac176eaabcb8b8c4a4b8f0bb2161dafd8d3028006a4abdabc88a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "65f1e96eb351902ad0d292b6a4e7a7391e2d1a79b239d94db608e0222ae8e59a"
+    },
+    {
+      "eventId": "85dc7900-de40-47ae-9696-ca61bb594565",
+      "uid": "2978-2-46909",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-07T20:27:21.754Z",
+      "timestampLocal": "2026-05-07T20:27:21.754Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.6.79.251",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=2978-2-46909&nombre_proveedor_razon_social=Corporaci%C3%B3n+La+Prensa+S.A.&nombre_representante_legal=Jorge+Molina&email=cobros%40prensa.com",
+      "previousEventHash": "65f1e96eb351902ad0d292b6a4e7a7391e2d1a79b239d94db608e0222ae8e59a",
+      "documentHash": "f8c7bc3e2482ac176eaabcb8b8c4a4b8f0bb2161dafd8d3028006a4abdabc88a",
+      "metadata": {
+        "proveedor": "Corporación La Prensa S.A.",
+        "representante": "Jorge Molina"
+      },
+      "eventHash": "5045cb657ee4f4da9d5dc0afb244f68f273e3061ba987951a9a832ae950493bd"
+    },
+    {
+      "eventId": "b46f5f1c-77b9-4481-b3bc-da3036aee470",
+      "uid": "2978-2-46909",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-07T20:27:22.933Z",
+      "timestampLocal": "2026-05-07T20:27:22.933Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.6.79.251",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=2978-2-46909&nombre_proveedor_razon_social=Corporaci%C3%B3n+La+Prensa+S.A.&nombre_representante_legal=Jorge+Molina&email=cobros%40prensa.com",
+      "previousEventHash": "5045cb657ee4f4da9d5dc0afb244f68f273e3061ba987951a9a832ae950493bd",
+      "documentHash": "f8c7bc3e2482ac176eaabcb8b8c4a4b8f0bb2161dafd8d3028006a4abdabc88a",
+      "eventHash": "7f9bf23c2a3671898e86b4fe349b634312df7b723a9d9a7329f5516a0cf21fbd"
+    },
+    {
+      "eventId": "3d457305-1f19-4ca8-bcef-d824978e1966",
+      "uid": "2978-2-46909",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-07T20:27:46.956Z",
+      "timestampLocal": "2026-05-07T15:27:46.956Z",
+      "timezone": "UTC-5",
+      "ipAddress": "200.6.79.251",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7c8561f5-4ad7-461b-a543-e19dcfb29ac2",
+      "previousEventHash": "7f9bf23c2a3671898e86b4fe349b634312df7b723a9d9a7329f5516a0cf21fbd",
+      "documentHash": "f66547dd5f23716b519249d2dfef8de3203872ae8ba9c867181b2568ef7bb73d",
+      "signatureHash": "166aabacf050f45edd1533273dd75226925dd37f2d30dee33ef527b8cd08aafd",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-07T15:27:41.010Z"
+      },
+      "eventHash": "590cec9cb18e0aa2d0fc658756409da70619a08d85e58721119b6d03a1ff947b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-07T20:27:46.956Z"
+  }
 }
