@@ -1,19 +1,100 @@
 {
   "uid": "43314748000171",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "MATHEUS ESPERON DA COSTA 12859404740",
     "nombre_representante_legal": "Tamires de Souza da Cunha",
     "email": "contato@esperon.com.br"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MATHEUS ESPERON DA COSTA 12859404740",
-    "nombre_representante_legal": "Tamires de Souza da Cunha",
-    "email": "contato@esperon.com.br"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-07T13:52:41.944Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/43314748000171",
+  "signatureMetadata": {
+    "ip": "186.204.59.8",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-07T16:52:45.294Z",
+    "signedAtLocal": "2026-05-07T13:52:45.294Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d0c4d02887a5406d069a9f4a376f095e53e856c2fdf5d2a3d9e888d3df3d6ad3"
+  "documentHash": "f218275ef4b8399af517e91591d0a4468786a636baf26f8fd6a2422f87f35ae4",
+  "auditTrail": [
+    {
+      "eventId": "8c202fbd-5f9c-4163-95ed-ecfbb491ed92",
+      "uid": "43314748000171",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-07T16:50:52.825Z",
+      "timestampLocal": "2026-05-07T16:50:52.825Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.59.8",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=43314748000171&nombre_proveedor_razon_social=MATHEUS+ESPERON+DA+COSTA+12859404740&nombre_representante_legal=Tamires+de+Souza+da+Cunha&email=contato%40esperon.com.br",
+      "previousEventHash": null,
+      "documentHash": "d0c4d02887a5406d069a9f4a376f095e53e856c2fdf5d2a3d9e888d3df3d6ad3",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "c20a9623205e77471a9c428bc624e7c279c3d2e3392ea479d16d9d129d184d70"
+    },
+    {
+      "eventId": "9aef6595-f8f9-4c48-939c-fd98a981bb73",
+      "uid": "43314748000171",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-07T16:50:52.826Z",
+      "timestampLocal": "2026-05-07T16:50:52.826Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.59.8",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=43314748000171&nombre_proveedor_razon_social=MATHEUS+ESPERON+DA+COSTA+12859404740&nombre_representante_legal=Tamires+de+Souza+da+Cunha&email=contato%40esperon.com.br",
+      "previousEventHash": "c20a9623205e77471a9c428bc624e7c279c3d2e3392ea479d16d9d129d184d70",
+      "documentHash": "d0c4d02887a5406d069a9f4a376f095e53e856c2fdf5d2a3d9e888d3df3d6ad3",
+      "metadata": {
+        "proveedor": "MATHEUS ESPERON DA COSTA 12859404740",
+        "representante": "Tamires de Souza da Cunha"
+      },
+      "eventHash": "9c9be200480bd578186510b0349890c20a09014f574e22b1bae02e36c4aead0d"
+    },
+    {
+      "eventId": "4bf51dc4-c651-441a-a532-7504d95daccf",
+      "uid": "43314748000171",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-07T16:50:54.310Z",
+      "timestampLocal": "2026-05-07T16:50:54.310Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.59.8",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=43314748000171&nombre_proveedor_razon_social=MATHEUS+ESPERON+DA+COSTA+12859404740&nombre_representante_legal=Tamires+de+Souza+da+Cunha&email=contato%40esperon.com.br",
+      "previousEventHash": "9c9be200480bd578186510b0349890c20a09014f574e22b1bae02e36c4aead0d",
+      "documentHash": "d0c4d02887a5406d069a9f4a376f095e53e856c2fdf5d2a3d9e888d3df3d6ad3",
+      "eventHash": "6686a01aa9e3b2d5f2a84717bb8314c4f8761f6f27f052d2d0fbfb78b4f044ed"
+    },
+    {
+      "eventId": "1519b00e-c9fd-4292-811d-145baac76724",
+      "uid": "43314748000171",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-07T16:52:45.294Z",
+      "timestampLocal": "2026-05-07T13:52:45.294Z",
+      "timezone": "UTC-3",
+      "ipAddress": "186.204.59.8",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7e014f62-e328-4969-9bb2-8f4334a26c2c",
+      "previousEventHash": "6686a01aa9e3b2d5f2a84717bb8314c4f8761f6f27f052d2d0fbfb78b4f044ed",
+      "documentHash": "f218275ef4b8399af517e91591d0a4468786a636baf26f8fd6a2422f87f35ae4",
+      "signatureHash": "2cee4f1efde88702a985b9495a0aaf32e462c026edbd91ed095548a1711722ba",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-07T13:52:41.944Z"
+      },
+      "eventHash": "555c2770f643d369081747776b9f6cef7f342154dd400651bb50051ecdbded5d"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-07T16:52:45.294Z"
+  }
 }
