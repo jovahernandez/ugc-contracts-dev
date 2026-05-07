@@ -1,19 +1,100 @@
 {
   "uid": "CABP891008ED5",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Pedro Arturo Calleja Baltazar",
     "nombre_representante_legal": "YCONIK",
     "email": "arturo@yconik.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Pedro Arturo Calleja Baltazar",
-    "nombre_representante_legal": "YCONIK",
-    "email": "arturo@yconik.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-07T14:09:32.638Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CABP891008ED5",
+  "signatureMetadata": {
+    "ip": "187.168.18.206",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-07T20:09:35.953Z",
+    "signedAtLocal": "2026-05-07T14:09:35.953Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0c26ea8009e75e29710104fee75dc7b36f32595079c57a430246dc4b4371f413"
+  "documentHash": "6b4429c38bd3551a5131b34f5173d925e74b7d609c2577084f4ee6dcc1bbce52",
+  "auditTrail": [
+    {
+      "eventId": "5614b7ab-f68a-4c14-ae48-b2034de5fcb7",
+      "uid": "CABP891008ED5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-07T20:08:43.114Z",
+      "timestampLocal": "2026-05-07T20:08:43.114Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.18.206",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CABP891008ED5&nombre_proveedor_razon_social=Pedro+Arturo+Calleja+Baltazar&nombre_representante_legal=YCONIK&email=arturo%40yconik.com.mx",
+      "previousEventHash": null,
+      "documentHash": "0c26ea8009e75e29710104fee75dc7b36f32595079c57a430246dc4b4371f413",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "36f89c0f0c3344813945c70865132424215ec165e161b083043e000714a0c30a"
+    },
+    {
+      "eventId": "1ff7c5c7-dbb1-482c-8367-6f973cf3921e",
+      "uid": "CABP891008ED5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-07T20:08:43.114Z",
+      "timestampLocal": "2026-05-07T20:08:43.114Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.18.206",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CABP891008ED5&nombre_proveedor_razon_social=Pedro+Arturo+Calleja+Baltazar&nombre_representante_legal=YCONIK&email=arturo%40yconik.com.mx",
+      "previousEventHash": "36f89c0f0c3344813945c70865132424215ec165e161b083043e000714a0c30a",
+      "documentHash": "0c26ea8009e75e29710104fee75dc7b36f32595079c57a430246dc4b4371f413",
+      "metadata": {
+        "proveedor": "Pedro Arturo Calleja Baltazar",
+        "representante": "YCONIK"
+      },
+      "eventHash": "05481d74bc01a706281693e1958ac0eb60e5024f6acd237aad31516ec4bb5b10"
+    },
+    {
+      "eventId": "35fb5af3-b4a8-4cf4-9c1e-cf28ddff0ec3",
+      "uid": "CABP891008ED5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-07T20:08:44.265Z",
+      "timestampLocal": "2026-05-07T20:08:44.265Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.18.206",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CABP891008ED5&nombre_proveedor_razon_social=Pedro+Arturo+Calleja+Baltazar&nombre_representante_legal=YCONIK&email=arturo%40yconik.com.mx",
+      "previousEventHash": "05481d74bc01a706281693e1958ac0eb60e5024f6acd237aad31516ec4bb5b10",
+      "documentHash": "0c26ea8009e75e29710104fee75dc7b36f32595079c57a430246dc4b4371f413",
+      "eventHash": "0d538c137347423f34f83484a14b39724326580fb46a0e86a02415b16c3dcf4d"
+    },
+    {
+      "eventId": "e22c11e2-5d36-4c0e-b997-0f2ce738869d",
+      "uid": "CABP891008ED5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-07T20:09:35.953Z",
+      "timestampLocal": "2026-05-07T14:09:35.953Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.168.18.206",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/52e1f241-741c-41be-863c-defdc7edd2fc",
+      "previousEventHash": "0d538c137347423f34f83484a14b39724326580fb46a0e86a02415b16c3dcf4d",
+      "documentHash": "6b4429c38bd3551a5131b34f5173d925e74b7d609c2577084f4ee6dcc1bbce52",
+      "signatureHash": "416d1a3155fc496641c7017908783cebbe8ff5a08c3c5f6e4e498fc4dde668ff",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-07T14:09:32.638Z"
+      },
+      "eventHash": "bb3058cf562ee539f5a0ede05e0e011c80f57b1e8fd9b79d6502e65a64cfcca8"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-07T20:09:35.954Z"
+  }
 }
