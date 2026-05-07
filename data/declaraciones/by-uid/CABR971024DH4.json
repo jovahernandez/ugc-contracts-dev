@@ -1,19 +1,100 @@
 {
   "uid": "CABR971024DH4",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "RAQUEL CHAVES BETANCOR",
     "nombre_representante_legal": "DANTE ALBERTTI BANDA SALAZAR",
     "email": "raquelchavesb@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "RAQUEL CHAVES BETANCOR",
-    "nombre_representante_legal": "DANTE ALBERTTI BANDA SALAZAR",
-    "email": "raquelchavesb@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-07T10:47:51.185Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CABR971024DH4",
+  "signatureMetadata": {
+    "ip": "189.209.203.130",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-07T16:47:54.517Z",
+    "signedAtLocal": "2026-05-07T10:47:54.517Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7848c6c51a2a72ae3dac7d822dbe2b57b137c599b21fe6f09231aa993a839297"
+  "documentHash": "9e3413efdecdcafacc500a45534a2ecb39635039672a34430291646050dfaa39",
+  "auditTrail": [
+    {
+      "eventId": "12d519bf-d292-4c9d-be23-5e9e2a810c77",
+      "uid": "CABR971024DH4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-07T16:42:29.127Z",
+      "timestampLocal": "2026-05-07T16:42:29.127Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.209.203.130",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CABR971024DH4&nombre_proveedor_razon_social=RAQUEL+CHAVES+BETANCOR&nombre_representante_legal=DANTE+ALBERTTI+BANDA+SALAZAR+&email=raquelchavesb%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "7848c6c51a2a72ae3dac7d822dbe2b57b137c599b21fe6f09231aa993a839297",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b47b3497791e92d4a50ddbf26507c6112b981c8e72a8839bef7ef37cbff13d78"
+    },
+    {
+      "eventId": "95cda267-56e3-4dba-9ac7-392e823c0026",
+      "uid": "CABR971024DH4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-07T16:42:29.128Z",
+      "timestampLocal": "2026-05-07T16:42:29.128Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.209.203.130",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CABR971024DH4&nombre_proveedor_razon_social=RAQUEL+CHAVES+BETANCOR&nombre_representante_legal=DANTE+ALBERTTI+BANDA+SALAZAR+&email=raquelchavesb%40gmail.com",
+      "previousEventHash": "b47b3497791e92d4a50ddbf26507c6112b981c8e72a8839bef7ef37cbff13d78",
+      "documentHash": "7848c6c51a2a72ae3dac7d822dbe2b57b137c599b21fe6f09231aa993a839297",
+      "metadata": {
+        "proveedor": "RAQUEL CHAVES BETANCOR",
+        "representante": "DANTE ALBERTTI BANDA SALAZAR"
+      },
+      "eventHash": "5a55e53609318f635d9c2dedfb869aab0e19e77c1e252b507aba5f2a1306dd05"
+    },
+    {
+      "eventId": "3c84089c-89ed-4244-93bf-4cf77bd83674",
+      "uid": "CABR971024DH4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-07T16:42:30.336Z",
+      "timestampLocal": "2026-05-07T16:42:30.336Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.209.203.130",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CABR971024DH4&nombre_proveedor_razon_social=RAQUEL+CHAVES+BETANCOR&nombre_representante_legal=DANTE+ALBERTTI+BANDA+SALAZAR+&email=raquelchavesb%40gmail.com",
+      "previousEventHash": "5a55e53609318f635d9c2dedfb869aab0e19e77c1e252b507aba5f2a1306dd05",
+      "documentHash": "7848c6c51a2a72ae3dac7d822dbe2b57b137c599b21fe6f09231aa993a839297",
+      "eventHash": "4494fbdb8e96a981e274d06f3ce2ebbccaf3a5203191b1940498ea5fbaa2a946"
+    },
+    {
+      "eventId": "7c636b51-04eb-4bf9-81b2-2137c5a718a3",
+      "uid": "CABR971024DH4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-07T16:47:54.518Z",
+      "timestampLocal": "2026-05-07T10:47:54.518Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.209.203.130",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/3dd07cf1-fa9e-448f-b2c6-34fb3ae67984",
+      "previousEventHash": "4494fbdb8e96a981e274d06f3ce2ebbccaf3a5203191b1940498ea5fbaa2a946",
+      "documentHash": "9e3413efdecdcafacc500a45534a2ecb39635039672a34430291646050dfaa39",
+      "signatureHash": "74fc3194e48e96950010a12d05082db1fafb4cb34798dd5c6e5bc51e88aa7e2e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-07T10:47:51.185Z"
+      },
+      "eventHash": "f2da0b9dcdb8587a6dfa5a38b18a900ac755ac3b072844148c6cb34cb5e7fb3c"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-07T16:47:54.518Z"
+  }
 }
