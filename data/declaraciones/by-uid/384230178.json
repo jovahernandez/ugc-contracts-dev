@@ -1,19 +1,100 @@
 {
   "uid": "384230178",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ZAS NEXT STEP LLC",
     "nombre_representante_legal": "Patricio Arnedo",
     "email": "josefina.scalella@zastalents.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ZAS NEXT STEP LLC",
-    "nombre_representante_legal": "Patricio Arnedo",
-    "email": "josefina.scalella@zastalents.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-07T17:10:10.449Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/384230178",
+  "signatureMetadata": {
+    "ip": "181.228.147.56",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-07T20:10:13.801Z",
+    "signedAtLocal": "2026-05-07T17:10:13.801Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3c14bdeb795da8589c090367b2bf98021767f90fead9e47001b15de8068f1242"
+  "documentHash": "9eee6589e293096cf168356659d134f8ee5d0f910a1fd2403fc594652ccc202f",
+  "auditTrail": [
+    {
+      "eventId": "f90d81b7-e044-4761-85e3-d777e42d79b8",
+      "uid": "384230178",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-07T20:09:59.949Z",
+      "timestampLocal": "2026-05-07T20:09:59.949Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.228.147.56",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=384230178&nombre_proveedor_razon_social=ZAS+NEXT+STEP+LLC&nombre_representante_legal=Patricio+Arnedo&email=josefina.scalella%40zastalents.com",
+      "previousEventHash": null,
+      "documentHash": "3c14bdeb795da8589c090367b2bf98021767f90fead9e47001b15de8068f1242",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3d294c7d61efc5f848f3e689f6a47287f0fa7cf48249ea4d38acb31d807e5222"
+    },
+    {
+      "eventId": "70bc602d-bbc7-4d33-ae62-632bd4efd1b3",
+      "uid": "384230178",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-07T20:09:59.949Z",
+      "timestampLocal": "2026-05-07T20:09:59.949Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.228.147.56",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=384230178&nombre_proveedor_razon_social=ZAS+NEXT+STEP+LLC&nombre_representante_legal=Patricio+Arnedo&email=josefina.scalella%40zastalents.com",
+      "previousEventHash": "3d294c7d61efc5f848f3e689f6a47287f0fa7cf48249ea4d38acb31d807e5222",
+      "documentHash": "3c14bdeb795da8589c090367b2bf98021767f90fead9e47001b15de8068f1242",
+      "metadata": {
+        "proveedor": "ZAS NEXT STEP LLC",
+        "representante": "Patricio Arnedo"
+      },
+      "eventHash": "28bce611f9e078d280184e79e16f9d265bb6c85e1dcd05d62f8e89a09d5df2ed"
+    },
+    {
+      "eventId": "10fc19d6-f3c2-473a-a845-4b78b9416ba6",
+      "uid": "384230178",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-07T20:10:01.513Z",
+      "timestampLocal": "2026-05-07T20:10:01.513Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.228.147.56",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=384230178&nombre_proveedor_razon_social=ZAS+NEXT+STEP+LLC&nombre_representante_legal=Patricio+Arnedo&email=josefina.scalella%40zastalents.com",
+      "previousEventHash": "28bce611f9e078d280184e79e16f9d265bb6c85e1dcd05d62f8e89a09d5df2ed",
+      "documentHash": "3c14bdeb795da8589c090367b2bf98021767f90fead9e47001b15de8068f1242",
+      "eventHash": "466efdf41cfeb6667d7cd471e18ead55180f71ca54ec1ca1fa20d2bc6932e4a5"
+    },
+    {
+      "eventId": "6b190a5a-3e9b-4f1b-bd4f-c0f088bf6615",
+      "uid": "384230178",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-07T20:10:13.801Z",
+      "timestampLocal": "2026-05-07T17:10:13.801Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.228.147.56",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b42bfdf6-2ea6-4cbb-a735-2e7b1a2b278c",
+      "previousEventHash": "466efdf41cfeb6667d7cd471e18ead55180f71ca54ec1ca1fa20d2bc6932e4a5",
+      "documentHash": "9eee6589e293096cf168356659d134f8ee5d0f910a1fd2403fc594652ccc202f",
+      "signatureHash": "52f5db09642d1daa3464a1b7a0997a2b3ca538f7f8490c03b408b13910cad7bd",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-07T17:10:10.449Z"
+      },
+      "eventHash": "b19bb54a61044c146d6399729342aa4329efecaede80b8bc9223292229eb47b3"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-07T20:10:13.802Z"
+  }
 }
