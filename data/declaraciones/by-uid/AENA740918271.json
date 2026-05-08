@@ -1,19 +1,137 @@
 {
   "uid": "AENA740918271",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ALEJANDRO ALEGRE NAJERA",
     "nombre_representante_legal": "Alejandro Alegre Najera",
     "email": "alegre20@hotmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ALEJANDRO ALEGRE NAJERA",
-    "nombre_representante_legal": "Alejandro Alegre Najera",
-    "email": "alegre20@hotmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-08T15:00:47.591Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AENA740918271",
+  "signatureMetadata": {
+    "ip": "187.170.159.227",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-08T21:00:51.087Z",
+    "signedAtLocal": "2026-05-08T15:00:51.087Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3454b0fa58bdb5edf03d58e2cbfd60bcefefd15377dfa6fcf1013e0f191bfe70"
+  "documentHash": "ec8de7d7c86417010b5bea805a30eb503ab93705d222b3dcd567e74693f31a58",
+  "auditTrail": [
+    {
+      "eventId": "7e6dd871-8a61-4ce0-b502-a5c43a30ab97",
+      "uid": "AENA740918271",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-08T21:00:25.286Z",
+      "timestampLocal": "2026-05-08T21:00:25.286Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.159.227",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AENA740918271&nombre_proveedor_razon_social=ALEJANDRO+ALEGRE+NAJERA&nombre_representante_legal=Alejandro+Alegre+Najera&email=alegre20%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "3454b0fa58bdb5edf03d58e2cbfd60bcefefd15377dfa6fcf1013e0f191bfe70",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1945353b860ed00a4ad5a7d1a85d68f8d11a63d528e192c80f711cc25d682c0d"
+    },
+    {
+      "eventId": "6a0b3084-488b-4762-ba33-6418d930f68a",
+      "uid": "AENA740918271",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-08T21:00:25.286Z",
+      "timestampLocal": "2026-05-08T21:00:25.286Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.159.227",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AENA740918271&nombre_proveedor_razon_social=ALEJANDRO+ALEGRE+NAJERA&nombre_representante_legal=Alejandro+Alegre+Najera&email=alegre20%40hotmail.com",
+      "previousEventHash": "1945353b860ed00a4ad5a7d1a85d68f8d11a63d528e192c80f711cc25d682c0d",
+      "documentHash": "3454b0fa58bdb5edf03d58e2cbfd60bcefefd15377dfa6fcf1013e0f191bfe70",
+      "metadata": {
+        "proveedor": "ALEJANDRO ALEGRE NAJERA",
+        "representante": "Alejandro Alegre Najera"
+      },
+      "eventHash": "f27084f16f3f0d34825929d9ce818cae7dc52be2486ced687ba55809c0050573"
+    },
+    {
+      "eventId": "82a4e5d4-051d-4f32-b1d5-1ffcb56def33",
+      "uid": "AENA740918271",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-08T21:00:25.387Z",
+      "timestampLocal": "2026-05-08T21:00:25.387Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.159.227",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AENA740918271&nombre_proveedor_razon_social=ALEJANDRO+ALEGRE+NAJERA&nombre_representante_legal=Alejandro+Alegre+Najera&email=alegre20%40hotmail.com",
+      "previousEventHash": "f27084f16f3f0d34825929d9ce818cae7dc52be2486ced687ba55809c0050573",
+      "documentHash": "3454b0fa58bdb5edf03d58e2cbfd60bcefefd15377dfa6fcf1013e0f191bfe70",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0ced8bb00aa97ae62ee82692026b039d70f16d20d699c9d1a604332f5873471f"
+    },
+    {
+      "eventId": "64824217-b517-4217-bed9-0ed8eb3b654d",
+      "uid": "AENA740918271",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-08T21:00:25.387Z",
+      "timestampLocal": "2026-05-08T21:00:25.387Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.159.227",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AENA740918271&nombre_proveedor_razon_social=ALEJANDRO+ALEGRE+NAJERA&nombre_representante_legal=Alejandro+Alegre+Najera&email=alegre20%40hotmail.com",
+      "previousEventHash": "0ced8bb00aa97ae62ee82692026b039d70f16d20d699c9d1a604332f5873471f",
+      "documentHash": "3454b0fa58bdb5edf03d58e2cbfd60bcefefd15377dfa6fcf1013e0f191bfe70",
+      "metadata": {
+        "proveedor": "ALEJANDRO ALEGRE NAJERA",
+        "representante": "Alejandro Alegre Najera"
+      },
+      "eventHash": "5a4dc2736fb7d7cb44e79c4d29a76b9383b98386edc947b0dd7358a0482641f3"
+    },
+    {
+      "eventId": "8125c01a-eae2-4ca5-b277-8505b806c5fc",
+      "uid": "AENA740918271",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-08T21:00:26.409Z",
+      "timestampLocal": "2026-05-08T21:00:26.409Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.159.227",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AENA740918271&nombre_proveedor_razon_social=ALEJANDRO+ALEGRE+NAJERA&nombre_representante_legal=Alejandro+Alegre+Najera&email=alegre20%40hotmail.com",
+      "previousEventHash": "5a4dc2736fb7d7cb44e79c4d29a76b9383b98386edc947b0dd7358a0482641f3",
+      "documentHash": "3454b0fa58bdb5edf03d58e2cbfd60bcefefd15377dfa6fcf1013e0f191bfe70",
+      "eventHash": "8a34cb867628321325a5bb8b2c2c8cb8ceff8370e9254df880620f6dfac7430f"
+    },
+    {
+      "eventId": "9cbacf35-ccb7-4de9-998c-1b6bac540648",
+      "uid": "AENA740918271",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-08T21:00:51.087Z",
+      "timestampLocal": "2026-05-08T15:00:51.087Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.170.159.227",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/44b46f74-783b-4eb3-9164-a9e474fd6bf3",
+      "previousEventHash": "8a34cb867628321325a5bb8b2c2c8cb8ceff8370e9254df880620f6dfac7430f",
+      "documentHash": "ec8de7d7c86417010b5bea805a30eb503ab93705d222b3dcd567e74693f31a58",
+      "signatureHash": "cbdee6408e2a666a4b5aaae0ad32f3df3b890025f4c2958e9895351b0d5a0e32",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-08T15:00:47.591Z"
+      },
+      "eventHash": "7a449742ad5adb35566ba6bb78a959ea3aff3611ab35668d45f51f0bb2e952f4"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-05-08T21:00:51.087Z"
+  }
 }
