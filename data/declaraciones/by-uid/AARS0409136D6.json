@@ -1,19 +1,100 @@
 {
   "uid": "AARS0409136D6",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Sebastián Abarca Romero",
     "nombre_representante_legal": "Alfredo Isaac Villa Vázquez",
     "email": "sebastian_nstars@neomenmx.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Sebastián Abarca Romero",
-    "nombre_representante_legal": "Alfredo Isaac Villa Vázquez",
-    "email": "sebastian_nstars@neomenmx.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-11T15:22:45.999Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AARS0409136D6",
+  "signatureMetadata": {
+    "ip": "189.245.193.228",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-11T21:22:49.339Z",
+    "signedAtLocal": "2026-05-11T15:22:49.339Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ad663f8b2262234edd12a466a35620ca6d2334a5726c1621457462254d1a0148"
+  "documentHash": "861a0b35b916697f192de6b911a10a34f45a5ad7e2768921fd7ef7639f789af2",
+  "auditTrail": [
+    {
+      "eventId": "8f7de0c0-3316-4a1e-809c-09f1dc3a0808",
+      "uid": "AARS0409136D6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-11T21:22:27.381Z",
+      "timestampLocal": "2026-05-11T21:22:27.381Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.193.228",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AARS0409136D6&nombre_proveedor_razon_social=Sebasti%C3%A1n+Abarca+Romero&nombre_representante_legal=Alfredo+Isaac+Villa+V%C3%A1zquez&email=sebastian_nstars%40neomenmx.com",
+      "previousEventHash": null,
+      "documentHash": "ad663f8b2262234edd12a466a35620ca6d2334a5726c1621457462254d1a0148",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e32fa279bd81fc79feaf116b9398847dc2fc32d67176925664f75f36bae202e6"
+    },
+    {
+      "eventId": "27138847-6ad3-4e96-ba6b-3337fb4ecab8",
+      "uid": "AARS0409136D6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-11T21:22:27.381Z",
+      "timestampLocal": "2026-05-11T21:22:27.381Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.193.228",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AARS0409136D6&nombre_proveedor_razon_social=Sebasti%C3%A1n+Abarca+Romero&nombre_representante_legal=Alfredo+Isaac+Villa+V%C3%A1zquez&email=sebastian_nstars%40neomenmx.com",
+      "previousEventHash": "e32fa279bd81fc79feaf116b9398847dc2fc32d67176925664f75f36bae202e6",
+      "documentHash": "ad663f8b2262234edd12a466a35620ca6d2334a5726c1621457462254d1a0148",
+      "metadata": {
+        "proveedor": "Sebastián Abarca Romero",
+        "representante": "Alfredo Isaac Villa Vázquez"
+      },
+      "eventHash": "87d5b550d7a070525f29015f113b6f7fa1f93b09b0c1705f9811ce4891347ba8"
+    },
+    {
+      "eventId": "2dd5ce7f-5bc3-4368-8a4c-455d50a3b63b",
+      "uid": "AARS0409136D6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-11T21:22:28.755Z",
+      "timestampLocal": "2026-05-11T21:22:28.755Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.193.228",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AARS0409136D6&nombre_proveedor_razon_social=Sebasti%C3%A1n+Abarca+Romero&nombre_representante_legal=Alfredo+Isaac+Villa+V%C3%A1zquez&email=sebastian_nstars%40neomenmx.com",
+      "previousEventHash": "87d5b550d7a070525f29015f113b6f7fa1f93b09b0c1705f9811ce4891347ba8",
+      "documentHash": "ad663f8b2262234edd12a466a35620ca6d2334a5726c1621457462254d1a0148",
+      "eventHash": "c2679c5aadf2089314d7e1a8ee2c178cf96e96efbdfe849333098163526967cd"
+    },
+    {
+      "eventId": "d27cc97c-1da8-41ab-a497-bf3c63f69b03",
+      "uid": "AARS0409136D6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-11T21:22:49.339Z",
+      "timestampLocal": "2026-05-11T15:22:49.339Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.245.193.228",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1e9b86cf-160f-456b-9818-cad2c5ac2ad3",
+      "previousEventHash": "c2679c5aadf2089314d7e1a8ee2c178cf96e96efbdfe849333098163526967cd",
+      "documentHash": "861a0b35b916697f192de6b911a10a34f45a5ad7e2768921fd7ef7639f789af2",
+      "signatureHash": "93f95a1be27375f2d7b60b183a783f5e1d603017430fb1dad93c61d39f4bfc03",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-11T15:22:45.999Z"
+      },
+      "eventHash": "8bb3a3a6d376283ce9893efdc1fb3b4b22f2a6885d84185fb8f4dcd7c233f74b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-11T21:22:49.340Z"
+  }
 }
