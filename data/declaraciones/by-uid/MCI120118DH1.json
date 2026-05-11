@@ -1,19 +1,100 @@
 {
   "uid": "MCI120118DH1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MUSEO CITADINO S.A. DE C.V.",
     "nombre_representante_legal": "Carlos Alberto Miguel Hernandez Verastegui",
     "email": "dan.avila@ache.ooo"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MUSEO CITADINO S.A. DE C.V.",
-    "nombre_representante_legal": "Carlos Alberto Miguel Hernandez Verastegui",
-    "email": "dan.avila@ache.ooo"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-11T11:35:37.417Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MCI120118DH1",
+  "signatureMetadata": {
+    "ip": "201.103.231.233",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-11T17:35:43.033Z",
+    "signedAtLocal": "2026-05-11T11:35:43.033Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e6e84d06f158748f3b1103dab484659d4e59a3ff58e5feabd6d932f328c03996"
+  "documentHash": "e2d989351c8def698cad1881fb801fa0a07a228620743941574e05584c0463f4",
+  "auditTrail": [
+    {
+      "eventId": "f523255a-c1d8-4063-8316-e934f72a731b",
+      "uid": "MCI120118DH1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-11T17:34:44.216Z",
+      "timestampLocal": "2026-05-11T17:34:44.216Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.231.233",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MCI120118DH1&nombre_proveedor_razon_social=MUSEO+CITADINO+S.A.+DE+C.V.&nombre_representante_legal=Carlos+Alberto+Miguel+Hernandez+Verastegui&email=dan.avila%40ache.ooo",
+      "previousEventHash": null,
+      "documentHash": "e6e84d06f158748f3b1103dab484659d4e59a3ff58e5feabd6d932f328c03996",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3ea58e5313a2350d173ea31529e4f379469966a396e6f84bdae3d9f71a821a5e"
+    },
+    {
+      "eventId": "5e317458-76e0-48c0-9ae0-7bd793feced9",
+      "uid": "MCI120118DH1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-11T17:34:44.216Z",
+      "timestampLocal": "2026-05-11T17:34:44.216Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.231.233",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MCI120118DH1&nombre_proveedor_razon_social=MUSEO+CITADINO+S.A.+DE+C.V.&nombre_representante_legal=Carlos+Alberto+Miguel+Hernandez+Verastegui&email=dan.avila%40ache.ooo",
+      "previousEventHash": "3ea58e5313a2350d173ea31529e4f379469966a396e6f84bdae3d9f71a821a5e",
+      "documentHash": "e6e84d06f158748f3b1103dab484659d4e59a3ff58e5feabd6d932f328c03996",
+      "metadata": {
+        "proveedor": "MUSEO CITADINO S.A. DE C.V.",
+        "representante": "Carlos Alberto Miguel Hernandez Verastegui"
+      },
+      "eventHash": "60ce165154a9e6b28544570cb49e180f1ea876a4234a8065f888045d6c59ee37"
+    },
+    {
+      "eventId": "9e7362ff-0c3b-48a3-83e6-c93450a80f0a",
+      "uid": "MCI120118DH1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-11T17:34:45.433Z",
+      "timestampLocal": "2026-05-11T17:34:45.433Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.231.233",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MCI120118DH1&nombre_proveedor_razon_social=MUSEO+CITADINO+S.A.+DE+C.V.&nombre_representante_legal=Carlos+Alberto+Miguel+Hernandez+Verastegui&email=dan.avila%40ache.ooo",
+      "previousEventHash": "60ce165154a9e6b28544570cb49e180f1ea876a4234a8065f888045d6c59ee37",
+      "documentHash": "e6e84d06f158748f3b1103dab484659d4e59a3ff58e5feabd6d932f328c03996",
+      "eventHash": "2f23357caad4e73e5fc61dbf0f110534a348ad555d8c0820643fc99e0df16642"
+    },
+    {
+      "eventId": "162d2f32-ce5a-4819-ae39-542035209d90",
+      "uid": "MCI120118DH1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-11T17:35:43.033Z",
+      "timestampLocal": "2026-05-11T11:35:43.033Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.103.231.233",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d091d146-b559-446e-aa40-adc2cb215e56",
+      "previousEventHash": "2f23357caad4e73e5fc61dbf0f110534a348ad555d8c0820643fc99e0df16642",
+      "documentHash": "e2d989351c8def698cad1881fb801fa0a07a228620743941574e05584c0463f4",
+      "signatureHash": "5806af6fd6ec72b856b72b686df767a1c6aaee37c88ed4527f6237c741504d7f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-11T11:35:37.417Z"
+      },
+      "eventHash": "fde80a641f531557097deecab9f955733952a0b8895ae766420d44fc6ca0cbda"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-11T17:35:43.033Z"
+  }
 }
