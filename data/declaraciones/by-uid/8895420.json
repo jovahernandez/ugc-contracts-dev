@@ -1,19 +1,100 @@
 {
   "uid": "8895420",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "José Alfredo Pelaez Quintana",
     "nombre_representante_legal": "José Alfredo Peláez Quintana",
     "email": "josepelaezbrand@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "José Alfredo Pelaez Quintana",
-    "nombre_representante_legal": "José Alfredo Peláez Quintana",
-    "email": "josepelaezbrand@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-12T17:29:57.005Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/8895420",
+  "signatureMetadata": {
+    "ip": "186.188.186.233",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/148.0.7778.100 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-05-12T22:30:00.391Z",
+    "signedAtLocal": "2026-05-12T17:30:00.391Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "934ec746ca2b0f1b77a69b365c3625f783fc2807628734976e674546659a4f80"
+  "documentHash": "85461ea1c6ba0b84fa57869156a077d3245c42702618e1dc16f0ce099dcdee88",
+  "auditTrail": [
+    {
+      "eventId": "e4e8c171-3507-43e3-8786-b7be3b4d4862",
+      "uid": "8895420",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-12T22:29:30.310Z",
+      "timestampLocal": "2026-05-12T22:29:30.310Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.188.186.233",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/148.0.7778.100 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "934ec746ca2b0f1b77a69b365c3625f783fc2807628734976e674546659a4f80",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e10839a8762522dd6080b68757b3fdb9fea0c9a05756e2a16c4795b0c76f7254"
+    },
+    {
+      "eventId": "32d8b096-a516-4043-9574-ffc954cf2f6d",
+      "uid": "8895420",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-12T22:29:30.310Z",
+      "timestampLocal": "2026-05-12T22:29:30.310Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.188.186.233",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/148.0.7778.100 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "e10839a8762522dd6080b68757b3fdb9fea0c9a05756e2a16c4795b0c76f7254",
+      "documentHash": "934ec746ca2b0f1b77a69b365c3625f783fc2807628734976e674546659a4f80",
+      "metadata": {
+        "proveedor": "José Alfredo Pelaez Quintana",
+        "representante": "José Alfredo Peláez Quintana"
+      },
+      "eventHash": "f0c0f4e49a8c7894a64360d32243197d57f5cbda2656634c976af07010db4a32"
+    },
+    {
+      "eventId": "25535486-22b5-470a-afc3-ba81e486aa69",
+      "uid": "8895420",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-12T22:29:31.571Z",
+      "timestampLocal": "2026-05-12T22:29:31.571Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.188.186.233",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/148.0.7778.100 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f0c0f4e49a8c7894a64360d32243197d57f5cbda2656634c976af07010db4a32",
+      "documentHash": "934ec746ca2b0f1b77a69b365c3625f783fc2807628734976e674546659a4f80",
+      "eventHash": "8110ccee9eb489bd923a26a005a8dfa9f130d1bbb653efb94a99213d145a0d19"
+    },
+    {
+      "eventId": "6e19f5f8-56f1-42ce-b79e-e038fc1d0fec",
+      "uid": "8895420",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-12T22:30:00.391Z",
+      "timestampLocal": "2026-05-12T17:30:00.391Z",
+      "timezone": "UTC-5",
+      "ipAddress": "186.188.186.233",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/148.0.7778.100 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8110ccee9eb489bd923a26a005a8dfa9f130d1bbb653efb94a99213d145a0d19",
+      "documentHash": "85461ea1c6ba0b84fa57869156a077d3245c42702618e1dc16f0ce099dcdee88",
+      "signatureHash": "5aa55f3bce17c6a848081b56bd8f673eb1f719a124da188b45e8ef93767c1b14",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-12T17:29:57.005Z"
+      },
+      "eventHash": "2458a2722433fed323efe2c8ec02f3f8866cf6e97eea33bbb3455851c9033882"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-12T22:30:00.392Z"
+  }
 }
