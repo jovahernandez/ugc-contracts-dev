@@ -1,19 +1,100 @@
 {
   "uid": "AGE241126UQ5",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "AXT GRUPO EDITORIAL S DE RL DE CV",
     "nombre_representante_legal": "SANTOS BENITEZ RUIZ",
     "email": "facturacion@dreamlabagency.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "AXT GRUPO EDITORIAL S DE RL DE CV",
-    "nombre_representante_legal": "SANTOS BENITEZ RUIZ",
-    "email": "facturacion@dreamlabagency.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-12T13:08:21.620Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AGE241126UQ5",
+  "signatureMetadata": {
+    "ip": "201.119.37.129",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-12T19:08:27.357Z",
+    "signedAtLocal": "2026-05-12T13:08:27.357Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4b57d42d793b107dc4142fb93135dce87c9f91fd1c9fe6cbadd722af39f8fde2"
+  "documentHash": "d0a7d5770720342e9f5cb0256600ac29a625d4cb52da1143d40dfbe74b16d49e",
+  "auditTrail": [
+    {
+      "eventId": "b689e6b2-c6ee-4cc8-a870-567477d6d747",
+      "uid": "AGE241126UQ5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-12T19:05:18.291Z",
+      "timestampLocal": "2026-05-12T19:05:18.291Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.37.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AGE241126UQ5&nombre_proveedor_razon_social=AXT+GRUPO+EDITORIAL+S+DE+RL+DE+CV&nombre_representante_legal=SANTOS+BENITEZ+RUIZ&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": null,
+      "documentHash": "4b57d42d793b107dc4142fb93135dce87c9f91fd1c9fe6cbadd722af39f8fde2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "aab7889567032243b70131be877039c02a879b0ada01cfa62ab9b72d44d6649d"
+    },
+    {
+      "eventId": "de71440e-e557-4e9b-aeb2-7a7cba4ed8fc",
+      "uid": "AGE241126UQ5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-12T19:05:18.291Z",
+      "timestampLocal": "2026-05-12T19:05:18.291Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.37.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AGE241126UQ5&nombre_proveedor_razon_social=AXT+GRUPO+EDITORIAL+S+DE+RL+DE+CV&nombre_representante_legal=SANTOS+BENITEZ+RUIZ&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "aab7889567032243b70131be877039c02a879b0ada01cfa62ab9b72d44d6649d",
+      "documentHash": "4b57d42d793b107dc4142fb93135dce87c9f91fd1c9fe6cbadd722af39f8fde2",
+      "metadata": {
+        "proveedor": "AXT GRUPO EDITORIAL S DE RL DE CV",
+        "representante": "SANTOS BENITEZ RUIZ"
+      },
+      "eventHash": "8a22aeaf28e3d3b78bef2956a16ebd338ea450df9771c9a7d258aa492c552f06"
+    },
+    {
+      "eventId": "f801acd9-db39-4672-99ef-a2e63595e574",
+      "uid": "AGE241126UQ5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-12T19:05:20.316Z",
+      "timestampLocal": "2026-05-12T19:05:20.316Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.37.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AGE241126UQ5&nombre_proveedor_razon_social=AXT+GRUPO+EDITORIAL+S+DE+RL+DE+CV&nombre_representante_legal=SANTOS+BENITEZ+RUIZ&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "8a22aeaf28e3d3b78bef2956a16ebd338ea450df9771c9a7d258aa492c552f06",
+      "documentHash": "4b57d42d793b107dc4142fb93135dce87c9f91fd1c9fe6cbadd722af39f8fde2",
+      "eventHash": "c32ab5d088a63ecca554adb39d6e490d5b0cfe7672f5653ba2f552e0bad85e03"
+    },
+    {
+      "eventId": "d3021782-d484-4195-97f8-8d2551925de8",
+      "uid": "AGE241126UQ5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-12T19:08:27.357Z",
+      "timestampLocal": "2026-05-12T13:08:27.357Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.119.37.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/4d621822-5930-46cf-ba4c-411b40444ca0",
+      "previousEventHash": "c32ab5d088a63ecca554adb39d6e490d5b0cfe7672f5653ba2f552e0bad85e03",
+      "documentHash": "d0a7d5770720342e9f5cb0256600ac29a625d4cb52da1143d40dfbe74b16d49e",
+      "signatureHash": "a21ee37ef106630f39f4afada48456328a528537b22da5f144483c25576115a7",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-12T13:08:21.620Z"
+      },
+      "eventHash": "eb82bf25a17b2d5e4aa24e43236697f4456fae6d5489a2c590f99b8aa3263228"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-12T19:08:27.357Z"
+  }
 }
