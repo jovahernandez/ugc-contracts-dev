@@ -1,19 +1,152 @@
 {
   "uid": "37322113000113",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "AGENCIA HOLOFOTTE LTDA",
     "nombre_representante_legal": "Yuri Tanaka",
     "email": "financeiro@holofotte.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "AGENCIA HOLOFOTTE LTDA",
-    "nombre_representante_legal": "Yuri Tanaka",
-    "email": "financeiro@holofotte.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-13T16:12:36.521Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/37322113000113",
+  "signatureMetadata": {
+    "ip": "191.53.28.13",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-13T19:12:40.076Z",
+    "signedAtLocal": "2026-05-13T16:12:40.076Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d44b02a3f8595f2a1a60a44771da07b838facaf4fcd2bb99fd123b80b40b18a7"
+  "documentHash": "9db0a47e537481dc69ab63a7e4442ff88f4dee182160af7936d78b5a1cc37fa0",
+  "auditTrail": [
+    {
+      "eventId": "0e12734a-46f5-4517-ae97-c8ddfce0de2b",
+      "uid": "37322113000113",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-05T21:52:05.716Z",
+      "timestampLocal": "2026-05-05T21:52:05.716Z",
+      "timezone": "UTC+0",
+      "ipAddress": "170.231.235.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=37322113000113&nombre_proveedor_razon_social=AGENCIA+HOLOFOTTE+LTDA&nombre_representante_legal=Yuri+Tanaka&email=financeiro%40holofotte.com",
+      "previousEventHash": null,
+      "documentHash": "d44b02a3f8595f2a1a60a44771da07b838facaf4fcd2bb99fd123b80b40b18a7",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "490be5ad1e1fa8dc3ff7a27336d05da79da783d24b49b916b1555876e62deb71"
+    },
+    {
+      "eventId": "aa80f052-1b0e-4832-bf57-83ced87413f9",
+      "uid": "37322113000113",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-05T21:52:05.716Z",
+      "timestampLocal": "2026-05-05T21:52:05.716Z",
+      "timezone": "UTC+0",
+      "ipAddress": "170.231.235.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=37322113000113&nombre_proveedor_razon_social=AGENCIA+HOLOFOTTE+LTDA&nombre_representante_legal=Yuri+Tanaka&email=financeiro%40holofotte.com",
+      "previousEventHash": "490be5ad1e1fa8dc3ff7a27336d05da79da783d24b49b916b1555876e62deb71",
+      "documentHash": "d44b02a3f8595f2a1a60a44771da07b838facaf4fcd2bb99fd123b80b40b18a7",
+      "metadata": {
+        "proveedor": "AGENCIA HOLOFOTTE LTDA",
+        "representante": "Yuri Tanaka"
+      },
+      "eventHash": "6ceecdcda0d01ef68bfe89f30a2ccc56045b6b9b2b7e754269852242530a32b8"
+    },
+    {
+      "eventId": "e028cb14-2e6d-4f52-b7a2-31405f62764a",
+      "uid": "37322113000113",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-05T21:52:05.819Z",
+      "timestampLocal": "2026-05-05T21:52:05.819Z",
+      "timezone": "UTC+0",
+      "ipAddress": "170.231.235.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=37322113000113&nombre_proveedor_razon_social=AGENCIA+HOLOFOTTE+LTDA&nombre_representante_legal=Yuri+Tanaka&email=financeiro%40holofotte.com",
+      "previousEventHash": "6ceecdcda0d01ef68bfe89f30a2ccc56045b6b9b2b7e754269852242530a32b8",
+      "documentHash": "d44b02a3f8595f2a1a60a44771da07b838facaf4fcd2bb99fd123b80b40b18a7",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "40909bb02ed61e319ea8c86864d118248968eae0465e029f6f42297430a3b9ef"
+    },
+    {
+      "eventId": "9fa02683-27e2-46d2-910a-60d9098e8426",
+      "uid": "37322113000113",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-05T21:52:05.820Z",
+      "timestampLocal": "2026-05-05T21:52:05.820Z",
+      "timezone": "UTC+0",
+      "ipAddress": "170.231.235.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=37322113000113&nombre_proveedor_razon_social=AGENCIA+HOLOFOTTE+LTDA&nombre_representante_legal=Yuri+Tanaka&email=financeiro%40holofotte.com",
+      "previousEventHash": "40909bb02ed61e319ea8c86864d118248968eae0465e029f6f42297430a3b9ef",
+      "documentHash": "d44b02a3f8595f2a1a60a44771da07b838facaf4fcd2bb99fd123b80b40b18a7",
+      "metadata": {
+        "proveedor": "AGENCIA HOLOFOTTE LTDA",
+        "representante": "Yuri Tanaka"
+      },
+      "eventHash": "b4a0685bc14d6a88704823e0307550589ccd0b57575f72c4c4a849aa7cd7624e"
+    },
+    {
+      "eventId": "0aef6484-bfd8-438a-a789-7f1b2391b360",
+      "uid": "37322113000113",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-05T21:52:06.825Z",
+      "timestampLocal": "2026-05-05T21:52:06.825Z",
+      "timezone": "UTC+0",
+      "ipAddress": "170.231.235.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=37322113000113&nombre_proveedor_razon_social=AGENCIA+HOLOFOTTE+LTDA&nombre_representante_legal=Yuri+Tanaka&email=financeiro%40holofotte.com",
+      "previousEventHash": "b4a0685bc14d6a88704823e0307550589ccd0b57575f72c4c4a849aa7cd7624e",
+      "documentHash": "d44b02a3f8595f2a1a60a44771da07b838facaf4fcd2bb99fd123b80b40b18a7",
+      "eventHash": "c0d22cc55e726dd7626eb41b32c755a32e54ce0cadf3fc0b9a910e7575ed4b16"
+    },
+    {
+      "eventId": "86054e94-e9a5-4bda-860c-22668d070532",
+      "uid": "37322113000113",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-13T19:12:16.958Z",
+      "timestampLocal": "2026-05-13T19:12:16.958Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.53.28.13",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c0d22cc55e726dd7626eb41b32c755a32e54ce0cadf3fc0b9a910e7575ed4b16",
+      "documentHash": "d44b02a3f8595f2a1a60a44771da07b838facaf4fcd2bb99fd123b80b40b18a7",
+      "eventHash": "481ab1af2bfb7c59e8ae0e4699c25ed649a756fc5035564d3498300335216fc9"
+    },
+    {
+      "eventId": "31b3993f-aaf4-4853-88c7-ab689dcd0890",
+      "uid": "37322113000113",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-13T19:12:40.076Z",
+      "timestampLocal": "2026-05-13T16:12:40.076Z",
+      "timezone": "UTC-3",
+      "ipAddress": "191.53.28.13",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/dcc77384-c825-47b5-9d25-d5c1c81ef41a",
+      "previousEventHash": "481ab1af2bfb7c59e8ae0e4699c25ed649a756fc5035564d3498300335216fc9",
+      "documentHash": "9db0a47e537481dc69ab63a7e4442ff88f4dee182160af7936d78b5a1cc37fa0",
+      "signatureHash": "2a3ec218e852a4e48bc7cfbc0ee25677d7fbc7dcc3a3e5f6d963afb3863fc4da",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-13T16:12:36.521Z"
+      },
+      "eventHash": "f9980e22651f48798609af7ab5371b5b2ca7f38eeab326c11d5d9f35caf7f520"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-05-13T19:12:40.077Z"
+  }
 }
