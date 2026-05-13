@@ -1,19 +1,100 @@
 {
   "uid": "BACA860324MT7",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ANILU DE LA BARREDA CUERVO",
     "nombre_representante_legal": "Anilu De la Barreda Cuervo",
     "email": "anilu.dbc@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ANILU DE LA BARREDA CUERVO",
-    "nombre_representante_legal": "Anilu De la Barreda Cuervo",
-    "email": "anilu.dbc@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-13T11:16:37.321Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BACA860324MT7",
+  "signatureMetadata": {
+    "ip": "201.137.10.139",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-13T17:16:40.600Z",
+    "signedAtLocal": "2026-05-13T11:16:40.600Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4018a27c6fb309164123a966c1eb79e03dfad32bb6c59c6dde94b89c62d6081d"
+  "documentHash": "3f848f60919fb43e3ea8bb5daafa268a8e885ec109375bd2335a825f0bb785f7",
+  "auditTrail": [
+    {
+      "eventId": "7392100f-911b-4c92-82c1-7e774bb79bf7",
+      "uid": "BACA860324MT7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-13T17:15:52.332Z",
+      "timestampLocal": "2026-05-13T17:15:52.332Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.10.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BACA860324MT7&nombre_proveedor_razon_social=ANILU+DE+LA+BARREDA+CUERVO&nombre_representante_legal=Anilu+De+la+Barreda+Cuervo&email=anilu.dbc%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "4018a27c6fb309164123a966c1eb79e03dfad32bb6c59c6dde94b89c62d6081d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8560576eadff01aad74ab15435d2eb5f87919f2086c0535256bfef9e627ad1c0"
+    },
+    {
+      "eventId": "9bccdb7d-895b-48f6-976f-0e67f3e32f16",
+      "uid": "BACA860324MT7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-13T17:15:52.332Z",
+      "timestampLocal": "2026-05-13T17:15:52.332Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.10.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BACA860324MT7&nombre_proveedor_razon_social=ANILU+DE+LA+BARREDA+CUERVO&nombre_representante_legal=Anilu+De+la+Barreda+Cuervo&email=anilu.dbc%40gmail.com",
+      "previousEventHash": "8560576eadff01aad74ab15435d2eb5f87919f2086c0535256bfef9e627ad1c0",
+      "documentHash": "4018a27c6fb309164123a966c1eb79e03dfad32bb6c59c6dde94b89c62d6081d",
+      "metadata": {
+        "proveedor": "ANILU DE LA BARREDA CUERVO",
+        "representante": "Anilu De la Barreda Cuervo"
+      },
+      "eventHash": "a2a5d9c23377eb0fed8d85c08d97a67fbb3b6b2f24a8fa8147c9c56110606681"
+    },
+    {
+      "eventId": "a01e4f82-5788-499c-824c-c712d0a80c1a",
+      "uid": "BACA860324MT7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-13T17:15:53.618Z",
+      "timestampLocal": "2026-05-13T17:15:53.618Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.10.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BACA860324MT7&nombre_proveedor_razon_social=ANILU+DE+LA+BARREDA+CUERVO&nombre_representante_legal=Anilu+De+la+Barreda+Cuervo&email=anilu.dbc%40gmail.com",
+      "previousEventHash": "a2a5d9c23377eb0fed8d85c08d97a67fbb3b6b2f24a8fa8147c9c56110606681",
+      "documentHash": "4018a27c6fb309164123a966c1eb79e03dfad32bb6c59c6dde94b89c62d6081d",
+      "eventHash": "725a029691f355590825a1eea91d7829d3a582055bcdb29ccc509097fe0d5d5d"
+    },
+    {
+      "eventId": "a3f2d808-bcd5-4c38-af35-2660d4af0770",
+      "uid": "BACA860324MT7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-13T17:16:40.600Z",
+      "timestampLocal": "2026-05-13T11:16:40.600Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.137.10.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c50b05d1-c49a-4e07-96e1-4b761e94531b",
+      "previousEventHash": "725a029691f355590825a1eea91d7829d3a582055bcdb29ccc509097fe0d5d5d",
+      "documentHash": "3f848f60919fb43e3ea8bb5daafa268a8e885ec109375bd2335a825f0bb785f7",
+      "signatureHash": "a028ee233bba52a542d1b875a7770a36defc8bce49022d9e72a3cda0b7ac96ab",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-13T11:16:37.321Z"
+      },
+      "eventHash": "4c84198ea18bebb3cae47e7020bb6bae5a796bb10cf65347d11cb0b2fa9eee9f"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-13T17:16:40.600Z"
+  }
 }
