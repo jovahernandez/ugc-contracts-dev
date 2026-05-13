@@ -1,19 +1,100 @@
 {
   "uid": "PAO250313QG5",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PAOCME",
     "nombre_representante_legal": "Paola Fernanda Calderón Mendiola",
     "email": "asantander@paocme.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PAOCME",
-    "nombre_representante_legal": "Paola Fernanda Calderón Mendiola",
-    "email": "asantander@paocme.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-13T14:26:29.663Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PAO250313QG5",
+  "signatureMetadata": {
+    "ip": "201.141.24.162",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-13T20:26:33.014Z",
+    "signedAtLocal": "2026-05-13T14:26:33.014Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4f18c2ec72ba365f9ec7b93dfbc4b320d3d473c6180c87aff3a6ac1cba1a4a5f"
+  "documentHash": "7ea8b8ca9457509bb805d174273680610d25b1e919065cf8973b50af14ddec47",
+  "auditTrail": [
+    {
+      "eventId": "73ef80c6-36e6-4dac-9836-56a6efb26ba2",
+      "uid": "PAO250313QG5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-13T20:26:08.018Z",
+      "timestampLocal": "2026-05-13T20:26:08.018Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.24.162",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PAO250313QG5&nombre_proveedor_razon_social=PAOCME&nombre_representante_legal=Paola+Fernanda+Calder%C3%B3n+Mendiola&email=asantander%40paocme.com",
+      "previousEventHash": null,
+      "documentHash": "4f18c2ec72ba365f9ec7b93dfbc4b320d3d473c6180c87aff3a6ac1cba1a4a5f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "932b3fb4bbf4ad4dab9f0b722ea6cfbf5b01d00f2d554cef180743989f723fff"
+    },
+    {
+      "eventId": "43187e2f-85d2-48a2-8a7d-ca3a8a28de92",
+      "uid": "PAO250313QG5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-13T20:26:08.018Z",
+      "timestampLocal": "2026-05-13T20:26:08.018Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.24.162",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PAO250313QG5&nombre_proveedor_razon_social=PAOCME&nombre_representante_legal=Paola+Fernanda+Calder%C3%B3n+Mendiola&email=asantander%40paocme.com",
+      "previousEventHash": "932b3fb4bbf4ad4dab9f0b722ea6cfbf5b01d00f2d554cef180743989f723fff",
+      "documentHash": "4f18c2ec72ba365f9ec7b93dfbc4b320d3d473c6180c87aff3a6ac1cba1a4a5f",
+      "metadata": {
+        "proveedor": "PAOCME",
+        "representante": "Paola Fernanda Calderón Mendiola"
+      },
+      "eventHash": "727680589de86543f3407c1763e7a7ad642f054b27436eb3366e3b19a3041898"
+    },
+    {
+      "eventId": "f66aa66d-9f14-439e-a530-0f6fa4b3673d",
+      "uid": "PAO250313QG5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-13T20:26:09.477Z",
+      "timestampLocal": "2026-05-13T20:26:09.477Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.24.162",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PAO250313QG5&nombre_proveedor_razon_social=PAOCME&nombre_representante_legal=Paola+Fernanda+Calder%C3%B3n+Mendiola&email=asantander%40paocme.com",
+      "previousEventHash": "727680589de86543f3407c1763e7a7ad642f054b27436eb3366e3b19a3041898",
+      "documentHash": "4f18c2ec72ba365f9ec7b93dfbc4b320d3d473c6180c87aff3a6ac1cba1a4a5f",
+      "eventHash": "e8192c485c2f1a381cb01b9d7f02c2bc171870d41a870a97d44ee593edb081d5"
+    },
+    {
+      "eventId": "299d619e-4235-4057-a757-394d38f104b4",
+      "uid": "PAO250313QG5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-13T20:26:33.015Z",
+      "timestampLocal": "2026-05-13T14:26:33.015Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.24.162",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/47042098-989a-4a03-8433-4d75bf6a3b9a",
+      "previousEventHash": "e8192c485c2f1a381cb01b9d7f02c2bc171870d41a870a97d44ee593edb081d5",
+      "documentHash": "7ea8b8ca9457509bb805d174273680610d25b1e919065cf8973b50af14ddec47",
+      "signatureHash": "0a84b9001e5901649c946f7efd49d968ec56efe0e23d71c183870f2698b0719d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-13T14:26:29.663Z"
+      },
+      "eventHash": "2fa382d59961d1dd27def0fe4f8fd5195bb3961631a47f7b5c03df10cd10460e"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-13T20:26:33.015Z"
+  }
 }
