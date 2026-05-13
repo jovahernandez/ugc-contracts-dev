@@ -1,19 +1,100 @@
 {
   "uid": "BETK940829UJ9",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "KASSANDRA ZOY BEKRIS TORRES",
     "nombre_representante_legal": "KASSANDRA BEKRIS",
     "email": "Kassandrabt29@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "KASSANDRA ZOY BEKRIS TORRES",
-    "nombre_representante_legal": "KASSANDRA BEKRIS",
-    "email": "Kassandrabt29@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-12T18:37:14.465Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BETK940829UJ9",
+  "signatureMetadata": {
+    "ip": "189.241.133.104",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-13T00:37:17.950Z",
+    "signedAtLocal": "2026-05-12T18:37:17.950Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "949d156932bd707ccfaa0d6cb0498c19b4db860e66462a8b8ec2763dde7dd04a"
+  "documentHash": "418606e2b5b20c91abf3736eb185968b908ad79cb8181fbfba81156530cef732",
+  "auditTrail": [
+    {
+      "eventId": "8503c63d-eab5-4f05-8d76-8491e696a105",
+      "uid": "BETK940829UJ9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-13T00:36:53.904Z",
+      "timestampLocal": "2026-05-13T00:36:53.904Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.241.133.104",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BETK940829UJ9&nombre_proveedor_razon_social=KASSANDRA+ZOY+BEKRIS+TORRES&nombre_representante_legal=KASSANDRA+BEKRIS&email=Kassandrabt29%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "949d156932bd707ccfaa0d6cb0498c19b4db860e66462a8b8ec2763dde7dd04a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "936c501710fcd9fb374d267486ea59b38871081cc3d59d693a4c10449883cf46"
+    },
+    {
+      "eventId": "f8ae7df6-c307-4860-b55e-de21e9654324",
+      "uid": "BETK940829UJ9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-13T00:36:53.904Z",
+      "timestampLocal": "2026-05-13T00:36:53.904Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.241.133.104",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BETK940829UJ9&nombre_proveedor_razon_social=KASSANDRA+ZOY+BEKRIS+TORRES&nombre_representante_legal=KASSANDRA+BEKRIS&email=Kassandrabt29%40gmail.com",
+      "previousEventHash": "936c501710fcd9fb374d267486ea59b38871081cc3d59d693a4c10449883cf46",
+      "documentHash": "949d156932bd707ccfaa0d6cb0498c19b4db860e66462a8b8ec2763dde7dd04a",
+      "metadata": {
+        "proveedor": "KASSANDRA ZOY BEKRIS TORRES",
+        "representante": "KASSANDRA BEKRIS"
+      },
+      "eventHash": "f0424e907b5211bb8cfa4aa625847f4163d3500b4b4fa02cb3e2548e350f5980"
+    },
+    {
+      "eventId": "07ef493e-c055-4d1a-80bc-fe821c9c6971",
+      "uid": "BETK940829UJ9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-13T00:36:54.914Z",
+      "timestampLocal": "2026-05-13T00:36:54.914Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.241.133.104",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BETK940829UJ9&nombre_proveedor_razon_social=KASSANDRA+ZOY+BEKRIS+TORRES&nombre_representante_legal=KASSANDRA+BEKRIS&email=Kassandrabt29%40gmail.com",
+      "previousEventHash": "f0424e907b5211bb8cfa4aa625847f4163d3500b4b4fa02cb3e2548e350f5980",
+      "documentHash": "949d156932bd707ccfaa0d6cb0498c19b4db860e66462a8b8ec2763dde7dd04a",
+      "eventHash": "826860f0d53a36b42e1a63205fcbff505a06ea9e403b6c32511b3fc608ec0036"
+    },
+    {
+      "eventId": "3289415f-629c-4d9b-aba6-8c89026829fb",
+      "uid": "BETK940829UJ9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-13T00:37:17.950Z",
+      "timestampLocal": "2026-05-12T18:37:17.950Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.241.133.104",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c4156ac8-619b-4ba8-b7a6-87175e3d68f4",
+      "previousEventHash": "826860f0d53a36b42e1a63205fcbff505a06ea9e403b6c32511b3fc608ec0036",
+      "documentHash": "418606e2b5b20c91abf3736eb185968b908ad79cb8181fbfba81156530cef732",
+      "signatureHash": "3cb986e34ea24a036cd47327c6feda6a7610ba5563cbdcca122552e9ab858ce9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-12T18:37:14.465Z"
+      },
+      "eventHash": "745bf1dfc9182f3a6cd322ec76ecf6313eac563102aa95730997b428b9ff3cf6"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-13T00:37:17.950Z"
+  }
 }
