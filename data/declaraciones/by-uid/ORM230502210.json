@@ -1,19 +1,100 @@
 {
   "uid": "ORM230502210",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ON THE ROAD MANAGEMENT",
     "nombre_representante_legal": "RUBELIA CASTILLO BARBA",
     "email": "info@talentontheroad.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ON THE ROAD MANAGEMENT",
-    "nombre_representante_legal": "RUBELIA CASTILLO BARBA",
-    "email": "info@talentontheroad.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-13T13:51:39.271Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ORM230502210",
+  "signatureMetadata": {
+    "ip": "189.147.229.148",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-13T19:51:42.648Z",
+    "signedAtLocal": "2026-05-13T13:51:42.648Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6e7b75fbfdf691074537072389b9a38a6f1c78de344fda154dacb2677642bc73"
+  "documentHash": "c31ca8d0d841e32925a62e94bb8feff5f05861d7d0ed1eae3bd7899b1df7a69f",
+  "auditTrail": [
+    {
+      "eventId": "064e9187-c47b-4e0f-b69e-87828cc1ceed",
+      "uid": "ORM230502210",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-13T19:46:54.814Z",
+      "timestampLocal": "2026-05-13T19:46:54.814Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.229.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ORM230502210&nombre_proveedor_razon_social=ON+THE+ROAD+MANAGEMENT&nombre_representante_legal=RUBELIA+CASTILLO+BARBA&email=info%40talentontheroad.com",
+      "previousEventHash": null,
+      "documentHash": "6e7b75fbfdf691074537072389b9a38a6f1c78de344fda154dacb2677642bc73",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b102b20009215067c7397cbc257348180fb9c5fcbc97a03211ed24b65d223ff4"
+    },
+    {
+      "eventId": "f27b302a-f5da-48ed-a452-26f2c9c679bb",
+      "uid": "ORM230502210",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-13T19:46:54.814Z",
+      "timestampLocal": "2026-05-13T19:46:54.814Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.229.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ORM230502210&nombre_proveedor_razon_social=ON+THE+ROAD+MANAGEMENT&nombre_representante_legal=RUBELIA+CASTILLO+BARBA&email=info%40talentontheroad.com",
+      "previousEventHash": "b102b20009215067c7397cbc257348180fb9c5fcbc97a03211ed24b65d223ff4",
+      "documentHash": "6e7b75fbfdf691074537072389b9a38a6f1c78de344fda154dacb2677642bc73",
+      "metadata": {
+        "proveedor": "ON THE ROAD MANAGEMENT",
+        "representante": "RUBELIA CASTILLO BARBA"
+      },
+      "eventHash": "5fcab2ffc72bd459f87c692f07ad4b7c7288cfb7eaef3f68daba523adf827389"
+    },
+    {
+      "eventId": "78ef3072-81f6-4328-b2a0-cedace16f7f3",
+      "uid": "ORM230502210",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-13T19:46:56.001Z",
+      "timestampLocal": "2026-05-13T19:46:56.001Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.229.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ORM230502210&nombre_proveedor_razon_social=ON+THE+ROAD+MANAGEMENT&nombre_representante_legal=RUBELIA+CASTILLO+BARBA&email=info%40talentontheroad.com",
+      "previousEventHash": "5fcab2ffc72bd459f87c692f07ad4b7c7288cfb7eaef3f68daba523adf827389",
+      "documentHash": "6e7b75fbfdf691074537072389b9a38a6f1c78de344fda154dacb2677642bc73",
+      "eventHash": "529ccc294793028094b832fb03aef7961c4d1c4a0adb889a771cde7a966e0c1f"
+    },
+    {
+      "eventId": "0ae132e0-ddae-4530-9a7b-a5b4469cafda",
+      "uid": "ORM230502210",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-13T19:51:42.648Z",
+      "timestampLocal": "2026-05-13T13:51:42.648Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.147.229.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d71b71e8-6a05-4d85-9651-ca85a79061c8",
+      "previousEventHash": "529ccc294793028094b832fb03aef7961c4d1c4a0adb889a771cde7a966e0c1f",
+      "documentHash": "c31ca8d0d841e32925a62e94bb8feff5f05861d7d0ed1eae3bd7899b1df7a69f",
+      "signatureHash": "70af310af1ed25626465c3e1a4ac06d6ba9a78773662ad85f3ebe3fa383afc89",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-13T13:51:39.271Z"
+      },
+      "eventHash": "4032a992a8224f5fa5ec1d6df5417512587ca30d3b2e8f14ec853c271af85d9a"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-13T19:51:42.649Z"
+  }
 }
