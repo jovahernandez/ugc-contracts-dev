@@ -1,19 +1,100 @@
 {
   "uid": "37768198000168",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "ABEL MARCELINO PIMENTEL RIBEIRO",
     "nombre_representante_legal": "Agencia Holofotte Ltda",
     "email": "contatopetitabel@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ABEL MARCELINO PIMENTEL RIBEIRO",
-    "nombre_representante_legal": "Agencia Holofotte Ltda",
-    "email": "contatopetitabel@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-14T14:33:05.467Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/37768198000168",
+  "signatureMetadata": {
+    "ip": "170.231.235.53",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-14T17:33:08.759Z",
+    "signedAtLocal": "2026-05-14T14:33:08.759Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ba52c911d367bf590144a2dbe5460710e1d9128f95421191a6cec5d378956437"
+  "documentHash": "d3f3ac030231ac970d25cecb64d6956f353a63e563b366ddf3df36d4cddcd503",
+  "auditTrail": [
+    {
+      "eventId": "cc861652-5b6d-42b7-ac70-6c887f757ae6",
+      "uid": "37768198000168",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-14T17:32:48.458Z",
+      "timestampLocal": "2026-05-14T17:32:48.458Z",
+      "timezone": "UTC+0",
+      "ipAddress": "170.231.235.53",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=37768198000168&nombre_proveedor_razon_social=ABEL+MARCELINO+PIMENTEL+RIBEIRO&nombre_representante_legal=Agencia+Holofotte+Ltda&email=contatopetitabel%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "ba52c911d367bf590144a2dbe5460710e1d9128f95421191a6cec5d378956437",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "80841859678cbe7d101a11aad535503c6e259eff1fbbc324982919f0ff62004e"
+    },
+    {
+      "eventId": "5ca0f065-8759-42ea-9a7a-651841243d48",
+      "uid": "37768198000168",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-14T17:32:48.458Z",
+      "timestampLocal": "2026-05-14T17:32:48.458Z",
+      "timezone": "UTC+0",
+      "ipAddress": "170.231.235.53",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=37768198000168&nombre_proveedor_razon_social=ABEL+MARCELINO+PIMENTEL+RIBEIRO&nombre_representante_legal=Agencia+Holofotte+Ltda&email=contatopetitabel%40gmail.com",
+      "previousEventHash": "80841859678cbe7d101a11aad535503c6e259eff1fbbc324982919f0ff62004e",
+      "documentHash": "ba52c911d367bf590144a2dbe5460710e1d9128f95421191a6cec5d378956437",
+      "metadata": {
+        "proveedor": "ABEL MARCELINO PIMENTEL RIBEIRO",
+        "representante": "Agencia Holofotte Ltda"
+      },
+      "eventHash": "38f99aebd3cc0a09a50b8d25a1cbafd913157620cbfade5f06ba848b33949906"
+    },
+    {
+      "eventId": "4031d366-ab90-4ce1-8fc5-4d95ab473af9",
+      "uid": "37768198000168",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-14T17:32:49.845Z",
+      "timestampLocal": "2026-05-14T17:32:49.845Z",
+      "timezone": "UTC+0",
+      "ipAddress": "170.231.235.53",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=37768198000168&nombre_proveedor_razon_social=ABEL+MARCELINO+PIMENTEL+RIBEIRO&nombre_representante_legal=Agencia+Holofotte+Ltda&email=contatopetitabel%40gmail.com",
+      "previousEventHash": "38f99aebd3cc0a09a50b8d25a1cbafd913157620cbfade5f06ba848b33949906",
+      "documentHash": "ba52c911d367bf590144a2dbe5460710e1d9128f95421191a6cec5d378956437",
+      "eventHash": "e4a60e2b88c9374c639cd717808004cae1a56200d4f02e4432aec05a8a9ed40e"
+    },
+    {
+      "eventId": "db757bcd-d1e5-463e-a31e-e740398f86b1",
+      "uid": "37768198000168",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-14T17:33:08.759Z",
+      "timestampLocal": "2026-05-14T14:33:08.759Z",
+      "timezone": "UTC-3",
+      "ipAddress": "170.231.235.53",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e338ca70-156b-4fbf-9c47-88dc66536ffe",
+      "previousEventHash": "e4a60e2b88c9374c639cd717808004cae1a56200d4f02e4432aec05a8a9ed40e",
+      "documentHash": "d3f3ac030231ac970d25cecb64d6956f353a63e563b366ddf3df36d4cddcd503",
+      "signatureHash": "610e3a571d569ec44b4c4db2885800ac19ab8e94cea06378acf44f8f80728470",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-14T14:33:05.467Z"
+      },
+      "eventHash": "eaf9a5d60704d0722043590a4ea37083b535f7bde77a0696ac8e356aa997958a"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-14T17:33:08.760Z"
+  }
 }
