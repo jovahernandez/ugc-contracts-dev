@@ -1,19 +1,100 @@
 {
   "uid": "17201891690188",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ROGAS INTERNACIONAL SA",
     "nombre_representante_legal": "Rafael Paez",
     "email": "rafapaez@paezagency.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ROGAS INTERNACIONAL SA",
-    "nombre_representante_legal": "Rafael Paez",
-    "email": "rafapaez@paezagency.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-14T15:24:22.560Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/17201891690188",
+  "signatureMetadata": {
+    "ip": "186.74.226.234",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+    "signedAtUtc": "2026-05-14T20:24:25.899Z",
+    "signedAtLocal": "2026-05-14T15:24:25.899Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3ee8f8f6177d031b708a8bc4b35f7708ac468d9bfde4468fb62488b32c8f359a"
+  "documentHash": "8d11541e7611f4d60b29de03d76a54d313b138f56871c71e0929743c1e16ab0b",
+  "auditTrail": [
+    {
+      "eventId": "8ec8489c-8bc8-406f-a849-a2ca730a1848",
+      "uid": "17201891690188",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-14T20:23:54.714Z",
+      "timestampLocal": "2026-05-14T20:23:54.714Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.74.226.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "3ee8f8f6177d031b708a8bc4b35f7708ac468d9bfde4468fb62488b32c8f359a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ad2da51f7f5cc52ea4f1039d580b1f460b84391e56e4c71e57af1edbb0541f5c"
+    },
+    {
+      "eventId": "437e074d-c34e-4a7d-aa9d-231dc523c060",
+      "uid": "17201891690188",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-14T20:23:54.714Z",
+      "timestampLocal": "2026-05-14T20:23:54.714Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.74.226.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ad2da51f7f5cc52ea4f1039d580b1f460b84391e56e4c71e57af1edbb0541f5c",
+      "documentHash": "3ee8f8f6177d031b708a8bc4b35f7708ac468d9bfde4468fb62488b32c8f359a",
+      "metadata": {
+        "proveedor": "ROGAS INTERNACIONAL SA",
+        "representante": "Rafael Paez"
+      },
+      "eventHash": "25356a819013deab8e996131e89278a5701dff325c1dbc069ad27b106d7442dc"
+    },
+    {
+      "eventId": "3cdac5ec-5b08-4c12-aceb-3fb1d4f976c2",
+      "uid": "17201891690188",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-14T20:23:55.981Z",
+      "timestampLocal": "2026-05-14T20:23:55.981Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.74.226.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "25356a819013deab8e996131e89278a5701dff325c1dbc069ad27b106d7442dc",
+      "documentHash": "3ee8f8f6177d031b708a8bc4b35f7708ac468d9bfde4468fb62488b32c8f359a",
+      "eventHash": "0d96c35b2b52ab4a56ee7098ae22bb9b4f1f057768806d819931f75203a4e9e7"
+    },
+    {
+      "eventId": "a279f8d8-13e9-4b14-85c9-af9b25c6cd8a",
+      "uid": "17201891690188",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-14T20:24:25.899Z",
+      "timestampLocal": "2026-05-14T15:24:25.899Z",
+      "timezone": "UTC-5",
+      "ipAddress": "186.74.226.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "0d96c35b2b52ab4a56ee7098ae22bb9b4f1f057768806d819931f75203a4e9e7",
+      "documentHash": "8d11541e7611f4d60b29de03d76a54d313b138f56871c71e0929743c1e16ab0b",
+      "signatureHash": "9cbb478b25b9e1d25189b89fe2ade3cf98124e13a71fc3c284310df5154ae6bd",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-14T15:24:22.560Z"
+      },
+      "eventHash": "9b8ebd0e8bbcec1a34ea402757c029e3c47f1071d98c4fb2cc1a093ec783ce72"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-14T20:24:25.899Z"
+  }
 }
