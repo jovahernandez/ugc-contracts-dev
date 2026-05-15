@@ -1,19 +1,100 @@
 {
   "uid": "MMA2210111L6",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MGT MANAGEMENT",
     "nombre_representante_legal": "BRENDA TUBILLA",
     "email": "FINANCE@WEAREDW.COM"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MGT MANAGEMENT",
-    "nombre_representante_legal": "BRENDA TUBILLA",
-    "email": "FINANCE@WEAREDW.COM"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-15T12:25:44.972Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MMA2210111L6",
+  "signatureMetadata": {
+    "ip": "187.190.192.111",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-15T18:25:48.666Z",
+    "signedAtLocal": "2026-05-15T12:25:48.666Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "423872b5450bbb2f225a1dae4ee7e512a41847506c8aa9c24ed0a35d20a9188d"
+  "documentHash": "24de182f2648da34d69cf9a2cb6ac9824a6438e197b2dc2618154a3726bb6a21",
+  "auditTrail": [
+    {
+      "eventId": "bc6f4167-d740-4c2f-b115-1355468d38b6",
+      "uid": "MMA2210111L6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-15T18:24:56.341Z",
+      "timestampLocal": "2026-05-15T18:24:56.341Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.192.111",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MMA2210111L6&nombre_proveedor_razon_social=MGT+MANAGEMENT&nombre_representante_legal=BRENDA+TUBILLA+&email=FINANCE%40WEAREDW.COM",
+      "previousEventHash": null,
+      "documentHash": "423872b5450bbb2f225a1dae4ee7e512a41847506c8aa9c24ed0a35d20a9188d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c135f66fe0eaafd62e1d13a627ca612643af791fdabd9682c8ce080fe57db3a9"
+    },
+    {
+      "eventId": "1cbf6c08-f666-40ec-b1a2-811b1521e73c",
+      "uid": "MMA2210111L6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-15T18:24:56.341Z",
+      "timestampLocal": "2026-05-15T18:24:56.341Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.192.111",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MMA2210111L6&nombre_proveedor_razon_social=MGT+MANAGEMENT&nombre_representante_legal=BRENDA+TUBILLA+&email=FINANCE%40WEAREDW.COM",
+      "previousEventHash": "c135f66fe0eaafd62e1d13a627ca612643af791fdabd9682c8ce080fe57db3a9",
+      "documentHash": "423872b5450bbb2f225a1dae4ee7e512a41847506c8aa9c24ed0a35d20a9188d",
+      "metadata": {
+        "proveedor": "MGT MANAGEMENT",
+        "representante": "BRENDA TUBILLA"
+      },
+      "eventHash": "a62039b65a0ee5950f4500893691902e8b519e30026cac4e7c11bbfcc06378f0"
+    },
+    {
+      "eventId": "834f5540-631e-490a-a25f-7e1e375336b9",
+      "uid": "MMA2210111L6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-15T18:24:57.463Z",
+      "timestampLocal": "2026-05-15T18:24:57.463Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.192.111",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MMA2210111L6&nombre_proveedor_razon_social=MGT+MANAGEMENT&nombre_representante_legal=BRENDA+TUBILLA+&email=FINANCE%40WEAREDW.COM",
+      "previousEventHash": "a62039b65a0ee5950f4500893691902e8b519e30026cac4e7c11bbfcc06378f0",
+      "documentHash": "423872b5450bbb2f225a1dae4ee7e512a41847506c8aa9c24ed0a35d20a9188d",
+      "eventHash": "cf536cb96d97a32567a17a29348d093b353a222cecb7b806aafcf546eb80562a"
+    },
+    {
+      "eventId": "84c0334e-437f-4397-89fe-32738e503b38",
+      "uid": "MMA2210111L6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-15T18:25:48.666Z",
+      "timestampLocal": "2026-05-15T12:25:48.666Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.192.111",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/6b30b631-0175-4360-aa22-f9700d169b4a",
+      "previousEventHash": "cf536cb96d97a32567a17a29348d093b353a222cecb7b806aafcf546eb80562a",
+      "documentHash": "24de182f2648da34d69cf9a2cb6ac9824a6438e197b2dc2618154a3726bb6a21",
+      "signatureHash": "27ecd5114078dbfd2396e944378d2b58f7ceb1b1de0a7cc7c4e904a66cbd243a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-15T12:25:44.972Z"
+      },
+      "eventHash": "605dca7ba91a1ee3db6c0743384cbcf876f0cb134ea3b5f51ce3715aec902842"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-15T18:25:48.666Z"
+  }
 }
