@@ -1,19 +1,100 @@
 {
   "uid": "LEBP960701KC8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PAULINA VERONICA LEAL BARBA",
     "nombre_representante_legal": "NA",
     "email": "paulealb.co@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PAULINA VERONICA LEAL BARBA",
-    "nombre_representante_legal": "NA",
-    "email": "paulealb.co@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-15T16:45:13.276Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LEBP960701KC8",
+  "signatureMetadata": {
+    "ip": "189.203.100.84",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-15T22:45:16.570Z",
+    "signedAtLocal": "2026-05-15T16:45:16.570Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c619fb0caf206f3279889ba28ba789403990a04dc58f7b66506000591fd612db"
+  "documentHash": "ca0f2dda7ffb57acbf1105bc6259cee31df90dcafdab7265aa0fc34a00931f58",
+  "auditTrail": [
+    {
+      "eventId": "827e5de8-9313-4d3b-b35a-86509a700b8d",
+      "uid": "LEBP960701KC8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-15T22:44:02.133Z",
+      "timestampLocal": "2026-05-15T22:44:02.133Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.100.84",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LEBP960701KC8&nombre_proveedor_razon_social=PAULINA+VERONICA+LEAL+BARBA&nombre_representante_legal=NA&email=paulealb.co%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "c619fb0caf206f3279889ba28ba789403990a04dc58f7b66506000591fd612db",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5886f096e651209fb243893d65362a886e5e9550df7f5e5f2302fbb7b073afd1"
+    },
+    {
+      "eventId": "b968e9ce-1f45-48ba-a23f-edccea6e9243",
+      "uid": "LEBP960701KC8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-15T22:44:02.133Z",
+      "timestampLocal": "2026-05-15T22:44:02.133Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.100.84",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LEBP960701KC8&nombre_proveedor_razon_social=PAULINA+VERONICA+LEAL+BARBA&nombre_representante_legal=NA&email=paulealb.co%40gmail.com",
+      "previousEventHash": "5886f096e651209fb243893d65362a886e5e9550df7f5e5f2302fbb7b073afd1",
+      "documentHash": "c619fb0caf206f3279889ba28ba789403990a04dc58f7b66506000591fd612db",
+      "metadata": {
+        "proveedor": "PAULINA VERONICA LEAL BARBA",
+        "representante": "NA"
+      },
+      "eventHash": "e56c7c83a1c3fd8e526c82324ff170d4b60b0aec8797aacf49902eb02c1325fa"
+    },
+    {
+      "eventId": "02eae254-8602-4b06-993e-1290f0bbc232",
+      "uid": "LEBP960701KC8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-15T22:44:03.155Z",
+      "timestampLocal": "2026-05-15T22:44:03.155Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.100.84",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LEBP960701KC8&nombre_proveedor_razon_social=PAULINA+VERONICA+LEAL+BARBA&nombre_representante_legal=NA&email=paulealb.co%40gmail.com",
+      "previousEventHash": "e56c7c83a1c3fd8e526c82324ff170d4b60b0aec8797aacf49902eb02c1325fa",
+      "documentHash": "c619fb0caf206f3279889ba28ba789403990a04dc58f7b66506000591fd612db",
+      "eventHash": "c684c535542ca9f4e413ebda2b8c6a73b883478dce2e5b03af34e5634b4cc92b"
+    },
+    {
+      "eventId": "a26c9fe5-7185-43fe-956f-1a6d7fa56d0a",
+      "uid": "LEBP960701KC8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-15T22:45:16.571Z",
+      "timestampLocal": "2026-05-15T16:45:16.571Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.100.84",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/2f7915f9-363f-4e1e-9a60-d8f26f0872a2",
+      "previousEventHash": "c684c535542ca9f4e413ebda2b8c6a73b883478dce2e5b03af34e5634b4cc92b",
+      "documentHash": "ca0f2dda7ffb57acbf1105bc6259cee31df90dcafdab7265aa0fc34a00931f58",
+      "signatureHash": "2390e105ffdf0decbcd49938ac92b301b43cbae7f2b9528a443b9d8fdcb12df4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-15T16:45:13.276Z"
+      },
+      "eventHash": "c20e3cafce2d2c83fbad637e5d747a873322118014e21e6538e4a0f51bf09a71"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-15T22:45:16.575Z"
+  }
 }
