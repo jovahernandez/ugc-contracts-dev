@@ -1,19 +1,100 @@
 {
   "uid": "CELL880822SJ8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Luis Mauricio Cedeño León",
     "nombre_representante_legal": "Luis Mauricio Cedeño León",
     "email": "hello@ttrelations.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Luis Mauricio Cedeño León",
-    "nombre_representante_legal": "Luis Mauricio Cedeño León",
-    "email": "hello@ttrelations.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-18T20:05:24.759Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CELL880822SJ8",
+  "signatureMetadata": {
+    "ip": "86.238.70.56",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-18T18:05:28.087Z",
+    "signedAtLocal": "2026-05-18T20:05:28.087Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "604fa0e91323025b502a41150e9168ae964dee4ec1374907536284448e42095a"
+  "documentHash": "84b9b412565d54808f41d1ebceb1ba7cb56e0df64a15c5285b2cfa8f85d5d131",
+  "auditTrail": [
+    {
+      "eventId": "e4e43bcd-eef2-42f4-b7b9-1bac0eddbbf0",
+      "uid": "CELL880822SJ8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-18T18:04:27.174Z",
+      "timestampLocal": "2026-05-18T18:04:27.174Z",
+      "timezone": "UTC+0",
+      "ipAddress": "86.238.70.56",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CELL880822SJ8&nombre_proveedor_razon_social=Luis+Mauricio+Cede%C3%B1o+Le%C3%B3n&nombre_representante_legal=Luis+Mauricio+Cede%C3%B1o+Le%C3%B3n&email=hello%40ttrelations.com",
+      "previousEventHash": null,
+      "documentHash": "604fa0e91323025b502a41150e9168ae964dee4ec1374907536284448e42095a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "95734ce393cc255535c5bf21ecdf6303340ecebad4436f69a06655151d0c1563"
+    },
+    {
+      "eventId": "9a792e0f-f345-4721-9f47-835179c5aa06",
+      "uid": "CELL880822SJ8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-18T18:04:27.174Z",
+      "timestampLocal": "2026-05-18T18:04:27.174Z",
+      "timezone": "UTC+0",
+      "ipAddress": "86.238.70.56",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CELL880822SJ8&nombre_proveedor_razon_social=Luis+Mauricio+Cede%C3%B1o+Le%C3%B3n&nombre_representante_legal=Luis+Mauricio+Cede%C3%B1o+Le%C3%B3n&email=hello%40ttrelations.com",
+      "previousEventHash": "95734ce393cc255535c5bf21ecdf6303340ecebad4436f69a06655151d0c1563",
+      "documentHash": "604fa0e91323025b502a41150e9168ae964dee4ec1374907536284448e42095a",
+      "metadata": {
+        "proveedor": "Luis Mauricio Cedeño León",
+        "representante": "Luis Mauricio Cedeño León"
+      },
+      "eventHash": "05af27df89abf58e186205656206719720fdf319b2d835d9fbb61fdfa47d8315"
+    },
+    {
+      "eventId": "4663823d-eaf1-455e-9434-c981f6aa08dd",
+      "uid": "CELL880822SJ8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-18T18:04:28.414Z",
+      "timestampLocal": "2026-05-18T18:04:28.414Z",
+      "timezone": "UTC+0",
+      "ipAddress": "86.238.70.56",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CELL880822SJ8&nombre_proveedor_razon_social=Luis+Mauricio+Cede%C3%B1o+Le%C3%B3n&nombre_representante_legal=Luis+Mauricio+Cede%C3%B1o+Le%C3%B3n&email=hello%40ttrelations.com",
+      "previousEventHash": "05af27df89abf58e186205656206719720fdf319b2d835d9fbb61fdfa47d8315",
+      "documentHash": "604fa0e91323025b502a41150e9168ae964dee4ec1374907536284448e42095a",
+      "eventHash": "13c4d4d635d2b9a60d464cd9455e37d28194cf53c844d2cd17c062abb9787999"
+    },
+    {
+      "eventId": "d511b16a-df1b-4378-b9bf-cbeb9745a069",
+      "uid": "CELL880822SJ8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-18T18:05:28.088Z",
+      "timestampLocal": "2026-05-18T20:05:28.088Z",
+      "timezone": "UTC+2",
+      "ipAddress": "86.238.70.56",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/9deb3274-4f71-4a4a-82ec-09e98232431d",
+      "previousEventHash": "13c4d4d635d2b9a60d464cd9455e37d28194cf53c844d2cd17c062abb9787999",
+      "documentHash": "84b9b412565d54808f41d1ebceb1ba7cb56e0df64a15c5285b2cfa8f85d5d131",
+      "signatureHash": "a6e09044de631cbdab629a267c388acd21681caf0db66cc1357a4223af0838fe",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-18T20:05:24.759Z"
+      },
+      "eventHash": "5d921eb7aec92e1ccaa72ed1b29bd71b75b6889fda950b202131687f87252cf1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-18T18:05:28.088Z"
+  }
 }
