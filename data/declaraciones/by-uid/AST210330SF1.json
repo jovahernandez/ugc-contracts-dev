@@ -1,19 +1,100 @@
 {
   "uid": "AST210330SF1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "APO SERVICIOS DE TRANSPORTE EJECUTIVO SA DE CV",
     "nombre_representante_legal": "Nallely Rodriguez",
     "email": "contacto@apotransporte.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "APO SERVICIOS DE TRANSPORTE EJECUTIVO SA DE CV",
-    "nombre_representante_legal": "Nallely Rodriguez",
-    "email": "contacto@apotransporte.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-18T15:57:30.637Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AST210330SF1",
+  "signatureMetadata": {
+    "ip": "201.141.102.186",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15",
+    "signedAtUtc": "2026-05-18T21:57:34.062Z",
+    "signedAtLocal": "2026-05-18T15:57:34.062Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1a8ca973ca829bf7c4b5410ca4c0702bd7e2feefea22a184bdfa5e8ac9774a70"
+  "documentHash": "33beb4ba351d68bec46f78f0afee12cbf740c760530226668ef1013afc9aef2a",
+  "auditTrail": [
+    {
+      "eventId": "2dca583b-5fc0-4b73-aa73-ced2bce45449",
+      "uid": "AST210330SF1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-18T21:56:42.662Z",
+      "timestampLocal": "2026-05-18T21:56:42.662Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.102.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "1a8ca973ca829bf7c4b5410ca4c0702bd7e2feefea22a184bdfa5e8ac9774a70",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ce185806d8fa9f00e4e34a122b0f395769401ed485a79f34a70a4d15aa70b2e6"
+    },
+    {
+      "eventId": "4deda627-e74b-4cc1-b7bf-4b93d69b1a43",
+      "uid": "AST210330SF1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-18T21:56:42.662Z",
+      "timestampLocal": "2026-05-18T21:56:42.662Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.102.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ce185806d8fa9f00e4e34a122b0f395769401ed485a79f34a70a4d15aa70b2e6",
+      "documentHash": "1a8ca973ca829bf7c4b5410ca4c0702bd7e2feefea22a184bdfa5e8ac9774a70",
+      "metadata": {
+        "proveedor": "APO SERVICIOS DE TRANSPORTE EJECUTIVO SA DE CV",
+        "representante": "Nallely Rodriguez"
+      },
+      "eventHash": "64481d6b6ed62a938353000b51e03c84d569a51a9841083df0f41b07c373fca5"
+    },
+    {
+      "eventId": "b8c15882-f2e3-499e-b2a9-3d0be32ad321",
+      "uid": "AST210330SF1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-18T21:56:43.883Z",
+      "timestampLocal": "2026-05-18T21:56:43.883Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.102.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "64481d6b6ed62a938353000b51e03c84d569a51a9841083df0f41b07c373fca5",
+      "documentHash": "1a8ca973ca829bf7c4b5410ca4c0702bd7e2feefea22a184bdfa5e8ac9774a70",
+      "eventHash": "b8f77db05436f3ac139b31bf8d55b28548de36e946cb709cb84c972e4e17225c"
+    },
+    {
+      "eventId": "9d4bb94f-de59-48cc-9702-0b6c8b0a4e87",
+      "uid": "AST210330SF1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-18T21:57:34.062Z",
+      "timestampLocal": "2026-05-18T15:57:34.062Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.102.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "b8f77db05436f3ac139b31bf8d55b28548de36e946cb709cb84c972e4e17225c",
+      "documentHash": "33beb4ba351d68bec46f78f0afee12cbf740c760530226668ef1013afc9aef2a",
+      "signatureHash": "bdfcacb6484c315a9ecf25aae4fe60e88f7b4fec371680fab4e15b47e3049f15",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-18T15:57:30.637Z"
+      },
+      "eventHash": "f6b79032f4af040c8bdd5877aa8fa202d006053ada2aa0637365981f615760bc"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-18T21:57:34.062Z"
+  }
 }
