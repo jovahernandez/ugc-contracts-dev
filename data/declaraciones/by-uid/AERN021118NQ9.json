@@ -1,19 +1,100 @@
 {
   "uid": "AERN021118NQ9",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "NICOLE AGNESI RAMIREZ",
     "nombre_representante_legal": "Nicole Agnesi",
     "email": "malu.reinosa@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "NICOLE AGNESI RAMIREZ",
-    "nombre_representante_legal": "Nicole Agnesi",
-    "email": "malu.reinosa@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-18T16:48:32.085Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AERN021118NQ9",
+  "signatureMetadata": {
+    "ip": "187.190.197.69",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-18T22:48:35.428Z",
+    "signedAtLocal": "2026-05-18T16:48:35.428Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "557cd7ff686a7a6977fefdc00bd48b5d0db4f579c892d5e12a36f53ba696a61f"
+  "documentHash": "0981f8fff3b116a86b5fa87e3235984510afa0616277565f71f97c80c25c09e4",
+  "auditTrail": [
+    {
+      "eventId": "cdc2319f-38f9-4858-96eb-548de00403e6",
+      "uid": "AERN021118NQ9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-18T22:47:49.069Z",
+      "timestampLocal": "2026-05-18T22:47:49.069Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.197.69",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AERN021118NQ9&nombre_proveedor_razon_social=NICOLE+AGNESI+RAMIREZ&nombre_representante_legal=Nicole+Agnesi+&email=malu.reinosa%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "557cd7ff686a7a6977fefdc00bd48b5d0db4f579c892d5e12a36f53ba696a61f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "424bd650dae51516f6fc00e5e59a72ef10101533c03208e9655d9612aee94c62"
+    },
+    {
+      "eventId": "99e058aa-0fb5-4aa1-b0e1-614be7b989ce",
+      "uid": "AERN021118NQ9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-18T22:47:49.069Z",
+      "timestampLocal": "2026-05-18T22:47:49.069Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.197.69",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AERN021118NQ9&nombre_proveedor_razon_social=NICOLE+AGNESI+RAMIREZ&nombre_representante_legal=Nicole+Agnesi+&email=malu.reinosa%40gmail.com",
+      "previousEventHash": "424bd650dae51516f6fc00e5e59a72ef10101533c03208e9655d9612aee94c62",
+      "documentHash": "557cd7ff686a7a6977fefdc00bd48b5d0db4f579c892d5e12a36f53ba696a61f",
+      "metadata": {
+        "proveedor": "NICOLE AGNESI RAMIREZ",
+        "representante": "Nicole Agnesi"
+      },
+      "eventHash": "977ce1b1289940e90f6b78a2f51d5f26c9fc16f7008e1c11e274f63220008c4c"
+    },
+    {
+      "eventId": "f6506cbd-3776-4ab1-bfee-4f131a7a96b3",
+      "uid": "AERN021118NQ9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-18T22:47:50.144Z",
+      "timestampLocal": "2026-05-18T22:47:50.144Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.197.69",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AERN021118NQ9&nombre_proveedor_razon_social=NICOLE+AGNESI+RAMIREZ&nombre_representante_legal=Nicole+Agnesi+&email=malu.reinosa%40gmail.com",
+      "previousEventHash": "977ce1b1289940e90f6b78a2f51d5f26c9fc16f7008e1c11e274f63220008c4c",
+      "documentHash": "557cd7ff686a7a6977fefdc00bd48b5d0db4f579c892d5e12a36f53ba696a61f",
+      "eventHash": "e0660c2f01d7d1685716e53181304c814df44ba8a8f4ec7c1689d848ab7dcefe"
+    },
+    {
+      "eventId": "65b5d548-665b-4d32-a284-4603768e81ee",
+      "uid": "AERN021118NQ9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-18T22:48:35.428Z",
+      "timestampLocal": "2026-05-18T16:48:35.428Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.197.69",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c5567d61-85e9-4982-b876-c672d934d8e0",
+      "previousEventHash": "e0660c2f01d7d1685716e53181304c814df44ba8a8f4ec7c1689d848ab7dcefe",
+      "documentHash": "0981f8fff3b116a86b5fa87e3235984510afa0616277565f71f97c80c25c09e4",
+      "signatureHash": "705e6c3a904c99e16d69a83d678a9dfa6ea1ea49fb93918885c7488efcc17d81",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-18T16:48:32.085Z"
+      },
+      "eventHash": "69d44dcce0d5739b73a823013530a64a45e694fc11cb61895221ec1951be7886"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-18T22:48:35.429Z"
+  }
 }
