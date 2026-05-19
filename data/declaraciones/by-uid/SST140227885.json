@@ -1,19 +1,100 @@
 {
   "uid": "SST140227885",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SERSANA STUDIO SAPI DE CV",
     "nombre_representante_legal": "ANA JIMENA RAMIREZ ESPAÑA BEGUERISSE",
     "email": "gerardapi@sersana.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SERSANA STUDIO SAPI DE CV",
-    "nombre_representante_legal": "ANA JIMENA RAMIREZ ESPAÑA BEGUERISSE",
-    "email": "gerardapi@sersana.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-18T18:15:44.978Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SST140227885",
+  "signatureMetadata": {
+    "ip": "189.203.145.48",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:109.0) Gecko/20100101 Firefox/115.0",
+    "signedAtUtc": "2026-05-19T00:15:48.363Z",
+    "signedAtLocal": "2026-05-18T18:15:48.363Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a0596dbf9a285e07b16336ddc95a8cf4d5fe76f8b25fdb4da4e8f28ece5a2d75"
+  "documentHash": "e203a5e22328328b8aadbfe5851a5c39c4b0bccca131492ef172656dd9a78a26",
+  "auditTrail": [
+    {
+      "eventId": "aa8a3e03-6769-4108-8699-74ebd5ad82c0",
+      "uid": "SST140227885",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-19T00:08:16.962Z",
+      "timestampLocal": "2026-05-19T00:08:16.962Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.145.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:109.0) Gecko/20100101 Firefox/115.0",
+      "acceptLanguage": "en-US,en;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SST140227885&nombre_proveedor_razon_social=SERSANA+STUDIO+SAPI+DE+CV&nombre_representante_legal=ANA+JIMENA+RAMIREZ+ESPA%C3%91A+BEGUERISSE&email=gerardapi%40sersana.com",
+      "previousEventHash": null,
+      "documentHash": "a0596dbf9a285e07b16336ddc95a8cf4d5fe76f8b25fdb4da4e8f28ece5a2d75",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0a2e6135bbe00c1ae1049e963d28aca557ff626ffc527e08798ae9afbc1f7c86"
+    },
+    {
+      "eventId": "8985c03a-c5fc-4482-ba30-2107db67c64f",
+      "uid": "SST140227885",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-19T00:08:16.962Z",
+      "timestampLocal": "2026-05-19T00:08:16.962Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.145.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:109.0) Gecko/20100101 Firefox/115.0",
+      "acceptLanguage": "en-US,en;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SST140227885&nombre_proveedor_razon_social=SERSANA+STUDIO+SAPI+DE+CV&nombre_representante_legal=ANA+JIMENA+RAMIREZ+ESPA%C3%91A+BEGUERISSE&email=gerardapi%40sersana.com",
+      "previousEventHash": "0a2e6135bbe00c1ae1049e963d28aca557ff626ffc527e08798ae9afbc1f7c86",
+      "documentHash": "a0596dbf9a285e07b16336ddc95a8cf4d5fe76f8b25fdb4da4e8f28ece5a2d75",
+      "metadata": {
+        "proveedor": "SERSANA STUDIO SAPI DE CV",
+        "representante": "ANA JIMENA RAMIREZ ESPAÑA BEGUERISSE"
+      },
+      "eventHash": "753261db968e4feead959ff23fe499460d775994009cc174fe6f70628456341d"
+    },
+    {
+      "eventId": "a269d096-4b3a-430c-af94-e54a122eb1c3",
+      "uid": "SST140227885",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-19T00:08:18.261Z",
+      "timestampLocal": "2026-05-19T00:08:18.261Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.145.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:109.0) Gecko/20100101 Firefox/115.0",
+      "acceptLanguage": "en-US,en;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SST140227885&nombre_proveedor_razon_social=SERSANA+STUDIO+SAPI+DE+CV&nombre_representante_legal=ANA+JIMENA+RAMIREZ+ESPA%C3%91A+BEGUERISSE&email=gerardapi%40sersana.com",
+      "previousEventHash": "753261db968e4feead959ff23fe499460d775994009cc174fe6f70628456341d",
+      "documentHash": "a0596dbf9a285e07b16336ddc95a8cf4d5fe76f8b25fdb4da4e8f28ece5a2d75",
+      "eventHash": "08c4f0157213767f1f1fa316bf6b755f60e954e5ec1bcf6e79d64b551f982208"
+    },
+    {
+      "eventId": "52ebb543-ba01-4775-bfd6-0fac73b31a9d",
+      "uid": "SST140227885",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-19T00:15:48.363Z",
+      "timestampLocal": "2026-05-18T18:15:48.363Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.145.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:109.0) Gecko/20100101 Firefox/115.0",
+      "acceptLanguage": "en-US,en;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/03991e50-8c03-4ce1-a564-0839297f6647",
+      "previousEventHash": "08c4f0157213767f1f1fa316bf6b755f60e954e5ec1bcf6e79d64b551f982208",
+      "documentHash": "e203a5e22328328b8aadbfe5851a5c39c4b0bccca131492ef172656dd9a78a26",
+      "signatureHash": "3fe0e6e39eaaac9d1f991ad9b8c15cee9ad44a3f122ff2cbce96afb793d60e0a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-18T18:15:44.978Z"
+      },
+      "eventHash": "f54dc7102cd297e725be23a422ba927bd3ec95c96c4431e4ad58c4904c7f8e30"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-19T00:15:48.364Z"
+  }
 }
