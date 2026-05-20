@@ -1,19 +1,189 @@
 {
   "uid": "PSM7911223G1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CIA PERIODISTICA DEL SOL DE MEXICO SA DE CV",
     "nombre_representante_legal": "CARLOS SALVADOR HUERTA LARA",
     "email": "sonia.lopez@oem.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CIA PERIODISTICA DEL SOL DE MEXICO SA DE CV",
-    "nombre_representante_legal": "CARLOS SALVADOR HUERTA LARA",
-    "email": "sonia.lopez@oem.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-20T13:10:28.294Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PSM7911223G1",
+  "signatureMetadata": {
+    "ip": "187.237.24.212",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-20T19:10:31.745Z",
+    "signedAtLocal": "2026-05-20T13:10:31.745Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d414451db6bf42e6f3647050645e3f9390c5d14f670514180c5be71f598c283b"
+  "documentHash": "e05c2595c73551534b3f789a90b0498010f53ae355c6d82a1e82f6050185bc83",
+  "auditTrail": [
+    {
+      "eventId": "6fd437de-3103-47f3-a3f9-121438eee3a1",
+      "uid": "PSM7911223G1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-20T19:09:11.966Z",
+      "timestampLocal": "2026-05-20T19:09:11.966Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.237.24.212",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PSM7911223G1&nombre_proveedor_razon_social=CIA+PERIODISTICA+DEL+SOL+DE+MEXICO+SA+DE+CV&nombre_representante_legal=CARLOS+SALVADOR+HUERTA+LARA&email=sonia.lopez%40oem.com.mx",
+      "previousEventHash": null,
+      "documentHash": "27a05a3580bac37a04153992f046a413959d38c5141cb3b5e9f065df483cf084",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "24955d11da555a0ab27368a047d7fd61b2b87f44a3445c6dc2ca75afe88d62c5"
+    },
+    {
+      "eventId": "fde708fb-d85b-41cb-9cf5-02925dedbe10",
+      "uid": "PSM7911223G1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-20T19:09:11.966Z",
+      "timestampLocal": "2026-05-20T19:09:11.966Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.237.24.212",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PSM7911223G1&nombre_proveedor_razon_social=CIA+PERIODISTICA+DEL+SOL+DE+MEXICO+SA+DE+CV&nombre_representante_legal=CARLOS+SALVADOR+HUERTA+LARA&email=sonia.lopez%40oem.com.mx",
+      "previousEventHash": "24955d11da555a0ab27368a047d7fd61b2b87f44a3445c6dc2ca75afe88d62c5",
+      "documentHash": "27a05a3580bac37a04153992f046a413959d38c5141cb3b5e9f065df483cf084",
+      "metadata": {
+        "proveedor": "CIA PERIODISTICA DEL SOL DE MEXICO SA DE CV",
+        "representante": "CARLOS SALVADOR HUERTA LARA"
+      },
+      "eventHash": "80891220609ab33de8a59fb1561b8985effac390a760ed797d44b0a864bf84a4"
+    },
+    {
+      "eventId": "52c719c5-52f4-4dfa-b33f-14e7322f9c15",
+      "uid": "PSM7911223G1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-20T19:09:13.084Z",
+      "timestampLocal": "2026-05-20T19:09:13.084Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.237.24.212",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PSM7911223G1&nombre_proveedor_razon_social=CIA+PERIODISTICA+DEL+SOL+DE+MEXICO+SA+DE+CV&nombre_representante_legal=CARLOS+SALVADOR+HUERTA+LARA&email=sonia.lopez%40oem.com.mx",
+      "previousEventHash": "80891220609ab33de8a59fb1561b8985effac390a760ed797d44b0a864bf84a4",
+      "documentHash": "e712d0f2205c5b8242c8dd512cd6f11de9c2a74f3ef43bfed26056b2aaadf61e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b283715b5c9de8a06122a90330ded00096871efc9700228d25fa705f60938ec1"
+    },
+    {
+      "eventId": "761a3f1e-ee0c-4c50-a220-8016fe2c313d",
+      "uid": "PSM7911223G1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-20T19:09:13.084Z",
+      "timestampLocal": "2026-05-20T19:09:13.084Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.237.24.212",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PSM7911223G1&nombre_proveedor_razon_social=CIA+PERIODISTICA+DEL+SOL+DE+MEXICO+SA+DE+CV&nombre_representante_legal=CARLOS+SALVADOR+HUERTA+LARA&email=sonia.lopez%40oem.com.mx",
+      "previousEventHash": "b283715b5c9de8a06122a90330ded00096871efc9700228d25fa705f60938ec1",
+      "documentHash": "e712d0f2205c5b8242c8dd512cd6f11de9c2a74f3ef43bfed26056b2aaadf61e",
+      "metadata": {
+        "proveedor": "CIA PERIODISTICA DEL SOL DE MEXICO SA DE CV",
+        "representante": "CARLOS SALVADOR HUERTA LARA"
+      },
+      "eventHash": "828e9eb88e5e81468757b279dfd8b540fa9762b04e206bbcc22119e21bb7a867"
+    },
+    {
+      "eventId": "4817e89a-93d0-45f0-bfa4-77b0fb6198db",
+      "uid": "PSM7911223G1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-20T19:09:14.374Z",
+      "timestampLocal": "2026-05-20T19:09:14.374Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.237.24.212",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PSM7911223G1&nombre_proveedor_razon_social=CIA+PERIODISTICA+DEL+SOL+DE+MEXICO+SA+DE+CV&nombre_representante_legal=CARLOS+SALVADOR+HUERTA+LARA&email=sonia.lopez%40oem.com.mx",
+      "previousEventHash": "828e9eb88e5e81468757b279dfd8b540fa9762b04e206bbcc22119e21bb7a867",
+      "documentHash": "e712d0f2205c5b8242c8dd512cd6f11de9c2a74f3ef43bfed26056b2aaadf61e",
+      "eventHash": "297fd7a9d41dcd0cf5604e29d730cede0afd97aaa5696557f0ea1aae34174e6e"
+    },
+    {
+      "eventId": "36d08d65-e4b7-4401-99af-4e8b9d522f2a",
+      "uid": "PSM7911223G1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-20T19:09:14.400Z",
+      "timestampLocal": "2026-05-20T19:09:14.400Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.237.24.212",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PSM7911223G1&nombre_proveedor_razon_social=CIA+PERIODISTICA+DEL+SOL+DE+MEXICO+SA+DE+CV&nombre_representante_legal=CARLOS+SALVADOR+HUERTA+LARA&email=sonia.lopez%40oem.com.mx",
+      "previousEventHash": "297fd7a9d41dcd0cf5604e29d730cede0afd97aaa5696557f0ea1aae34174e6e",
+      "documentHash": "d414451db6bf42e6f3647050645e3f9390c5d14f670514180c5be71f598c283b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6578231f298f6b2c933fac359781c4908a9ee70016038215e11309dab33130d7"
+    },
+    {
+      "eventId": "a4b5a333-89cb-4fda-bb9e-4e444c4394fb",
+      "uid": "PSM7911223G1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-20T19:09:14.400Z",
+      "timestampLocal": "2026-05-20T19:09:14.400Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.237.24.212",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PSM7911223G1&nombre_proveedor_razon_social=CIA+PERIODISTICA+DEL+SOL+DE+MEXICO+SA+DE+CV&nombre_representante_legal=CARLOS+SALVADOR+HUERTA+LARA&email=sonia.lopez%40oem.com.mx",
+      "previousEventHash": "6578231f298f6b2c933fac359781c4908a9ee70016038215e11309dab33130d7",
+      "documentHash": "d414451db6bf42e6f3647050645e3f9390c5d14f670514180c5be71f598c283b",
+      "metadata": {
+        "proveedor": "CIA PERIODISTICA DEL SOL DE MEXICO SA DE CV",
+        "representante": "CARLOS SALVADOR HUERTA LARA"
+      },
+      "eventHash": "29a7de64dffcd71237b9ca79b912aa69ded2711b6e4996d7a3ef10822d8bb186"
+    },
+    {
+      "eventId": "1618a36e-32d1-4ad0-9c63-c3bed57a3245",
+      "uid": "PSM7911223G1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-20T19:09:15.597Z",
+      "timestampLocal": "2026-05-20T19:09:15.597Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.237.24.212",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PSM7911223G1&nombre_proveedor_razon_social=CIA+PERIODISTICA+DEL+SOL+DE+MEXICO+SA+DE+CV&nombre_representante_legal=CARLOS+SALVADOR+HUERTA+LARA&email=sonia.lopez%40oem.com.mx",
+      "previousEventHash": "29a7de64dffcd71237b9ca79b912aa69ded2711b6e4996d7a3ef10822d8bb186",
+      "documentHash": "d414451db6bf42e6f3647050645e3f9390c5d14f670514180c5be71f598c283b",
+      "eventHash": "ca1d55ab7359c8b911c75052b00106a4691b51a08059bd22db2898e74cb70f82"
+    },
+    {
+      "eventId": "2db1cb24-6272-4ed1-b993-b6f1614f45f6",
+      "uid": "PSM7911223G1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-20T19:10:31.745Z",
+      "timestampLocal": "2026-05-20T13:10:31.745Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.237.24.212",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/256febd2-d056-47e9-b40d-a84777c36c28",
+      "previousEventHash": "ca1d55ab7359c8b911c75052b00106a4691b51a08059bd22db2898e74cb70f82",
+      "documentHash": "e05c2595c73551534b3f789a90b0498010f53ae355c6d82a1e82f6050185bc83",
+      "signatureHash": "450c156beb92a318b98986d177269f25ac70a17126f0f44f75eafa60499cd78c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-20T13:10:28.294Z"
+      },
+      "eventHash": "b2caeedfe7e2f776a2fc46c4584ae1ea5815ef397c4d5ac1add995d46a2f88b2"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 9,
+    "verifiedAt": "2026-05-20T19:10:31.745Z"
+  }
 }
