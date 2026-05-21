@@ -1,19 +1,100 @@
 {
   "uid": "15574901122024DV66",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SINERGICO S.A.",
     "nombre_representante_legal": "Rodrigo Gambetta",
     "email": "ginasagal@somossinergico.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SINERGICO S.A.",
-    "nombre_representante_legal": "Rodrigo Gambetta",
-    "email": "ginasagal@somossinergico.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-21T17:29:04.318Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/15574901122024DV66",
+  "signatureMetadata": {
+    "ip": "38.248.28.246",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+    "signedAtUtc": "2026-05-21T22:29:07.619Z",
+    "signedAtLocal": "2026-05-21T17:29:07.619Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7d21b53376b99194d3ff5f93d126431af3e5b2a5f64cbc3143d16a46e9998186"
+  "documentHash": "0d4ac14e70e3791b93c14bfb63aa5127f2a5896b0d9581882cd909142b02ec01",
+  "auditTrail": [
+    {
+      "eventId": "aa054898-ac3a-420c-bfb2-d14d6ee5a498",
+      "uid": "15574901122024DV66",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-21T22:28:36.692Z",
+      "timestampLocal": "2026-05-21T22:28:36.692Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.248.28.246",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "7d21b53376b99194d3ff5f93d126431af3e5b2a5f64cbc3143d16a46e9998186",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "92bd7e81835ffd2498e73363fa0f2d78e7787f46dacfde6b5596fb1e60afedae"
+    },
+    {
+      "eventId": "1af929b2-0fcc-4243-b768-b0f390ca267e",
+      "uid": "15574901122024DV66",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-21T22:28:36.692Z",
+      "timestampLocal": "2026-05-21T22:28:36.692Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.248.28.246",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "92bd7e81835ffd2498e73363fa0f2d78e7787f46dacfde6b5596fb1e60afedae",
+      "documentHash": "7d21b53376b99194d3ff5f93d126431af3e5b2a5f64cbc3143d16a46e9998186",
+      "metadata": {
+        "proveedor": "SINERGICO S.A.",
+        "representante": "Rodrigo Gambetta"
+      },
+      "eventHash": "7d276fa50599aad44b024ef9b16eee97dbc8100a20167979520a00319bf2ed45"
+    },
+    {
+      "eventId": "e16ef8d6-4e8f-4465-b91a-eb1db20890f6",
+      "uid": "15574901122024DV66",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-21T22:28:37.948Z",
+      "timestampLocal": "2026-05-21T22:28:37.948Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.248.28.246",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "7d276fa50599aad44b024ef9b16eee97dbc8100a20167979520a00319bf2ed45",
+      "documentHash": "7d21b53376b99194d3ff5f93d126431af3e5b2a5f64cbc3143d16a46e9998186",
+      "eventHash": "66e9cada51e2c3d0901a4bf4be3b5d2224818b739dc457974fd2a8dd6eee592b"
+    },
+    {
+      "eventId": "f07c9722-c1a8-481c-9b2e-5548b183ee4a",
+      "uid": "15574901122024DV66",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-21T22:29:07.619Z",
+      "timestampLocal": "2026-05-21T17:29:07.619Z",
+      "timezone": "UTC-5",
+      "ipAddress": "38.248.28.246",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "66e9cada51e2c3d0901a4bf4be3b5d2224818b739dc457974fd2a8dd6eee592b",
+      "documentHash": "0d4ac14e70e3791b93c14bfb63aa5127f2a5896b0d9581882cd909142b02ec01",
+      "signatureHash": "49d4227d91562ec3e90228aefc0a27f9019e34626c4daaeea17a81db32b572be",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-21T17:29:04.318Z"
+      },
+      "eventHash": "16cbbe7a8c3e3389799ea23248476e97cf5fa37c6625192631de01f8e657a421"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-21T22:29:07.619Z"
+  }
 }
