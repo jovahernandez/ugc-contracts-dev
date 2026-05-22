@@ -1,19 +1,130 @@
 {
   "uid": "1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Santiago Gonzalez",
     "nombre_representante_legal": "SPLENDA",
     "email": "sanlez.uy@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Santiago Gonzalez",
-    "nombre_representante_legal": "SPLENDA",
-    "email": "sanlez.uy@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-22T11:33:28.364Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/1",
+  "signatureMetadata": {
+    "ip": "186.191.232.61",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+    "signedAtUtc": "2026-05-22T14:33:33.951Z",
+    "signedAtLocal": "2026-05-22T11:33:33.951Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "78208256f77f847df5d05a01e17c6a0939f0697131bbe6e25cc86f006396cc4a"
+  "documentHash": "c7e7ba1adb2bc390583cfad033126a1118be966b54a79f53a61ae31cfe1cfbff",
+  "auditTrail": [
+    {
+      "eventId": "c1cd126b-cf34-4e9f-b683-0185dec7ebc6",
+      "uid": "1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-22T01:55:35.241Z",
+      "timestampLocal": "2026-05-22T01:55:35.241Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.229.251.166",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1&nombre_proveedor_razon_social=Santiago+Gonzalez&nombre_representante_legal=SPLENDA&email=sanlez.uy%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "78208256f77f847df5d05a01e17c6a0939f0697131bbe6e25cc86f006396cc4a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "282471d07f39d7fac6c7b01a81673c1d8a913d85015589686ef85c538fa249f9"
+    },
+    {
+      "eventId": "1cb3b39d-784f-49b8-a21d-43baf8c88415",
+      "uid": "1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-22T01:55:35.241Z",
+      "timestampLocal": "2026-05-22T01:55:35.241Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.229.251.166",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1&nombre_proveedor_razon_social=Santiago+Gonzalez&nombre_representante_legal=SPLENDA&email=sanlez.uy%40gmail.com",
+      "previousEventHash": "282471d07f39d7fac6c7b01a81673c1d8a913d85015589686ef85c538fa249f9",
+      "documentHash": "78208256f77f847df5d05a01e17c6a0939f0697131bbe6e25cc86f006396cc4a",
+      "metadata": {
+        "proveedor": "Santiago Gonzalez",
+        "representante": "SPLENDA"
+      },
+      "eventHash": "74732c7763a6745293eec76d69ad1f3cfa6cf31e022f8a5e2d9c4a59522e7d78"
+    },
+    {
+      "eventId": "03e6face-936a-44e4-a500-e84421ecf10c",
+      "uid": "1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-22T01:55:36.725Z",
+      "timestampLocal": "2026-05-22T01:55:36.725Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.229.251.166",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1&nombre_proveedor_razon_social=Santiago+Gonzalez&nombre_representante_legal=SPLENDA&email=sanlez.uy%40gmail.com",
+      "previousEventHash": "74732c7763a6745293eec76d69ad1f3cfa6cf31e022f8a5e2d9c4a59522e7d78",
+      "documentHash": "78208256f77f847df5d05a01e17c6a0939f0697131bbe6e25cc86f006396cc4a",
+      "eventHash": "983649c077bad9b295b3cac045ba05dad2045fe22011b8b31d1b2aa844647f41"
+    },
+    {
+      "eventId": "1281d632-59b2-4280-9bd3-6c6f431abc1f",
+      "uid": "1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-22T01:59:14.944Z",
+      "timestampLocal": "2026-05-22T01:59:14.944Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.229.251.166",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "983649c077bad9b295b3cac045ba05dad2045fe22011b8b31d1b2aa844647f41",
+      "documentHash": "78208256f77f847df5d05a01e17c6a0939f0697131bbe6e25cc86f006396cc4a",
+      "eventHash": "2a8646344457d3e5435236543a1d9c594189136c8a092d831c477d94300692a9"
+    },
+    {
+      "eventId": "46671932-32f7-47cc-9007-7c385522dc0e",
+      "uid": "1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-22T14:33:20.926Z",
+      "timestampLocal": "2026-05-22T14:33:20.926Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.191.232.61",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "2a8646344457d3e5435236543a1d9c594189136c8a092d831c477d94300692a9",
+      "documentHash": "78208256f77f847df5d05a01e17c6a0939f0697131bbe6e25cc86f006396cc4a",
+      "eventHash": "8f0e752b298b901e73f619070d65de5e0fcc602bda06f552d53f845f418407ea"
+    },
+    {
+      "eventId": "2eeaa393-b13a-480c-8b36-e8f868343130",
+      "uid": "1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-22T14:33:33.951Z",
+      "timestampLocal": "2026-05-22T11:33:33.951Z",
+      "timezone": "UTC-3",
+      "ipAddress": "186.191.232.61",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8f0e752b298b901e73f619070d65de5e0fcc602bda06f552d53f845f418407ea",
+      "documentHash": "c7e7ba1adb2bc390583cfad033126a1118be966b54a79f53a61ae31cfe1cfbff",
+      "signatureHash": "fc4835c6f780f85bb5fcc7b7021d06295ac4cafa80c3251d9e10a239f5eec563",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-22T11:33:28.364Z"
+      },
+      "eventHash": "3b9b1e20837ca153843f443bf1f5853d94c5fcc8308a0b889ea9f288bd0dd68b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-05-22T14:33:33.952Z"
+  }
 }
