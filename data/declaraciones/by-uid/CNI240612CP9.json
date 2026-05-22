@@ -1,19 +1,115 @@
 {
   "uid": "CNI240612CP9",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CANTINA NIPONA",
     "nombre_representante_legal": "JORGE LUIS UREÑA GARCIA",
     "email": "asistentesrtanaka@grupokampai.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CANTINA NIPONA",
-    "nombre_representante_legal": "JORGE LUIS UREÑA GARCIA",
-    "email": "asistentesrtanaka@grupokampai.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-21T18:20:08.465Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CNI240612CP9",
+  "signatureMetadata": {
+    "ip": "200.68.164.41",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-05-22T00:20:14.121Z",
+    "signedAtLocal": "2026-05-21T18:20:14.121Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e44e942c4e29e17d8000e6cb4565bcadc163201c96d1e6e947bd9bec46799165"
+  "documentHash": "c2e6e82714646ef3c1762056f4a902f57521eb319ed12ccafbee83f6b0e4060b",
+  "auditTrail": [
+    {
+      "eventId": "8eb8436f-7836-4cd2-946e-6d4af78cbd84",
+      "uid": "CNI240612CP9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-22T00:18:32.778Z",
+      "timestampLocal": "2026-05-22T00:18:32.778Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.161.117.25",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "e44e942c4e29e17d8000e6cb4565bcadc163201c96d1e6e947bd9bec46799165",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2b426e2a893a59601d35caf42bf4abebbe88d0f9e8db7e652beebc1e72a202d6"
+    },
+    {
+      "eventId": "e8e01481-9bb1-4503-9bec-3ff3d5b5ea9c",
+      "uid": "CNI240612CP9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-22T00:18:32.778Z",
+      "timestampLocal": "2026-05-22T00:18:32.778Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.161.117.25",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "2b426e2a893a59601d35caf42bf4abebbe88d0f9e8db7e652beebc1e72a202d6",
+      "documentHash": "e44e942c4e29e17d8000e6cb4565bcadc163201c96d1e6e947bd9bec46799165",
+      "metadata": {
+        "proveedor": "CANTINA NIPONA",
+        "representante": "JORGE LUIS UREÑA GARCIA"
+      },
+      "eventHash": "de606aba840f18b50b06fbd506262be44f7f36af1a6b550669314f55a0145925"
+    },
+    {
+      "eventId": "faef5880-ebcf-4f59-8de2-81f8d8ad4fcc",
+      "uid": "CNI240612CP9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-22T00:18:33.968Z",
+      "timestampLocal": "2026-05-22T00:18:33.968Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.161.117.25",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "de606aba840f18b50b06fbd506262be44f7f36af1a6b550669314f55a0145925",
+      "documentHash": "e44e942c4e29e17d8000e6cb4565bcadc163201c96d1e6e947bd9bec46799165",
+      "eventHash": "c603eee1f0a426c0eab87630270b9c7e704f66028b69ca68050a1265183caab1"
+    },
+    {
+      "eventId": "ad7d81aa-0067-4873-8e92-be053314bc0c",
+      "uid": "CNI240612CP9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-22T00:19:46.381Z",
+      "timestampLocal": "2026-05-22T00:19:46.381Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.164.41",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c603eee1f0a426c0eab87630270b9c7e704f66028b69ca68050a1265183caab1",
+      "documentHash": "e44e942c4e29e17d8000e6cb4565bcadc163201c96d1e6e947bd9bec46799165",
+      "eventHash": "c58c2d291d041d476e0da1bc5d94fcc7c8d481b610a9b4233bfd4ad304247041"
+    },
+    {
+      "eventId": "900e8052-42fa-40fa-b69b-dec7c98feda2",
+      "uid": "CNI240612CP9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-22T00:20:14.121Z",
+      "timestampLocal": "2026-05-21T18:20:14.121Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.68.164.41",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "c58c2d291d041d476e0da1bc5d94fcc7c8d481b610a9b4233bfd4ad304247041",
+      "documentHash": "c2e6e82714646ef3c1762056f4a902f57521eb319ed12ccafbee83f6b0e4060b",
+      "signatureHash": "684596003dece40297b4847a1a00b77ff4358eb97cce89c03c39f54fae4cc91e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-21T18:20:08.465Z"
+      },
+      "eventHash": "d243c387f3936377ff5a784e746674b23684826b06a232f5aa7bce40221c39dd"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-05-22T00:20:14.122Z"
+  }
 }
