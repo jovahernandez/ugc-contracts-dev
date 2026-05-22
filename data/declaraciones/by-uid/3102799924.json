@@ -1,19 +1,115 @@
 {
   "uid": "3102799924",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Vivir Amar Reír",
     "nombre_representante_legal": "Eliana Raminfar Marton",
     "email": "eli.raminfar@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Vivir Amar Reír",
-    "nombre_representante_legal": "Eliana Raminfar Marton",
-    "email": "eli.raminfar@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-22T14:48:14.339Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/3102799924",
+  "signatureMetadata": {
+    "ip": "186.151.109.91",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-05-22T20:48:20.241Z",
+    "signedAtLocal": "2026-05-22T14:48:20.241Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a2e3dec452187348bfb005fe5673f0cbcb42b9f4f3c2aad046854770c74c9f4c"
+  "documentHash": "949805e3d6bd44ad0226339ddcb76fef54652f543c9138dcd2ed0ffe262cef1c",
+  "auditTrail": [
+    {
+      "eventId": "0b925c88-81bc-4af4-8db9-31ee6831af6d",
+      "uid": "3102799924",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-22T20:40:53.939Z",
+      "timestampLocal": "2026-05-22T20:40:53.939Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.194.117",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=3102799924&nombre_proveedor_razon_social=Vivir+Amar+Re%C3%ADr&nombre_representante_legal=Eliana+Raminfar+Marton&email=eli.raminfar%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "a2e3dec452187348bfb005fe5673f0cbcb42b9f4f3c2aad046854770c74c9f4c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2085f89e82746ada93abae8cafca4194f748ce0d587e9923bc1fb4913c6bfefb"
+    },
+    {
+      "eventId": "1399267f-ddfd-4ee4-a4f4-bcc28f8fa037",
+      "uid": "3102799924",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-22T20:40:53.939Z",
+      "timestampLocal": "2026-05-22T20:40:53.939Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.194.117",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=3102799924&nombre_proveedor_razon_social=Vivir+Amar+Re%C3%ADr&nombre_representante_legal=Eliana+Raminfar+Marton&email=eli.raminfar%40gmail.com",
+      "previousEventHash": "2085f89e82746ada93abae8cafca4194f748ce0d587e9923bc1fb4913c6bfefb",
+      "documentHash": "a2e3dec452187348bfb005fe5673f0cbcb42b9f4f3c2aad046854770c74c9f4c",
+      "metadata": {
+        "proveedor": "Vivir Amar Reír",
+        "representante": "Eliana Raminfar Marton"
+      },
+      "eventHash": "97c29626e3433f523ef3f2966a2f51d070dc06c9953716fcd4f5d1a0db468dfb"
+    },
+    {
+      "eventId": "f7a84423-b7ce-418a-90ca-78312c3dbe8c",
+      "uid": "3102799924",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-22T20:40:55.302Z",
+      "timestampLocal": "2026-05-22T20:40:55.302Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.194.117",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=3102799924&nombre_proveedor_razon_social=Vivir+Amar+Re%C3%ADr&nombre_representante_legal=Eliana+Raminfar+Marton&email=eli.raminfar%40gmail.com",
+      "previousEventHash": "97c29626e3433f523ef3f2966a2f51d070dc06c9953716fcd4f5d1a0db468dfb",
+      "documentHash": "a2e3dec452187348bfb005fe5673f0cbcb42b9f4f3c2aad046854770c74c9f4c",
+      "eventHash": "ac5ec7fccbf7121b17e3923f1a1a987e5ed2e9b741a9e3c4c1b77bc3245815b4"
+    },
+    {
+      "eventId": "b8ba1c3b-8a26-4c75-8302-4e3218d21072",
+      "uid": "3102799924",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-22T20:46:30.851Z",
+      "timestampLocal": "2026-05-22T20:46:30.851Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.151.109.91",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "ac5ec7fccbf7121b17e3923f1a1a987e5ed2e9b741a9e3c4c1b77bc3245815b4",
+      "documentHash": "a2e3dec452187348bfb005fe5673f0cbcb42b9f4f3c2aad046854770c74c9f4c",
+      "eventHash": "89896e489781e0f830aa38f72bca71269a8de390f967389b9ca6798894b25e29"
+    },
+    {
+      "eventId": "f62cf6d4-29b1-49f5-8f4e-594630f2e363",
+      "uid": "3102799924",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-22T20:48:20.241Z",
+      "timestampLocal": "2026-05-22T14:48:20.241Z",
+      "timezone": "UTC-6",
+      "ipAddress": "186.151.109.91",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "89896e489781e0f830aa38f72bca71269a8de390f967389b9ca6798894b25e29",
+      "documentHash": "949805e3d6bd44ad0226339ddcb76fef54652f543c9138dcd2ed0ffe262cef1c",
+      "signatureHash": "209572f15b5bccbdb83382c51f5d3180f3f969eb11d1267e3e56c2066fb147de",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-22T14:48:14.339Z"
+      },
+      "eventHash": "78a7df3e4de1840b19069e533b0c7a583e2608cb5746c22298eb931ba4490bbe"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-05-22T20:48:20.242Z"
+  }
 }
