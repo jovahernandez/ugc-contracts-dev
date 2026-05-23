@@ -1,19 +1,115 @@
 {
   "uid": "EFA041005BM6",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EDICION Y FARMACIA SA DE CV",
     "nombre_representante_legal": "ENRIQUE NIETO RAMIREZ",
     "email": "marianoe37@hotmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "EDICION Y FARMACIA SA DE CV",
-    "nombre_representante_legal": "ENRIQUE NIETO RAMIREZ",
-    "email": "marianoe37@hotmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-23T16:26:57.053Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/EFA041005BM6",
+  "signatureMetadata": {
+    "ip": "200.68.173.225",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-05-23T22:27:02.593Z",
+    "signedAtLocal": "2026-05-23T16:27:02.593Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "07d75b78332a36acbe0efdd6b3567d02146715dcb0fffc2c472a8b801d1f4edb"
+  "documentHash": "67784b6a7682d091dfe80d59837acc34d5246a55e6b8f49871aac0cff25aca6a",
+  "auditTrail": [
+    {
+      "eventId": "a3b154c2-9459-4b96-bc2f-9e1d84ee1c5b",
+      "uid": "EFA041005BM6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-21T23:10:04.591Z",
+      "timestampLocal": "2026-05-21T23:10:04.591Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.87.245",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EFA041005BM6&nombre_proveedor_razon_social=EDICION+Y+FARMACIA+SA+DE+CV&nombre_representante_legal=ENRIQUE+NIETO+RAMIREZ&email=marianoe37%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "07d75b78332a36acbe0efdd6b3567d02146715dcb0fffc2c472a8b801d1f4edb",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d17e4873e131700b3e675ec44659948a3c118c4e4ed27813dded1cf2a5afb958"
+    },
+    {
+      "eventId": "720171b7-dc66-4515-89c2-dbf7c9b1873e",
+      "uid": "EFA041005BM6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-21T23:10:04.591Z",
+      "timestampLocal": "2026-05-21T23:10:04.591Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.87.245",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EFA041005BM6&nombre_proveedor_razon_social=EDICION+Y+FARMACIA+SA+DE+CV&nombre_representante_legal=ENRIQUE+NIETO+RAMIREZ&email=marianoe37%40hotmail.com",
+      "previousEventHash": "d17e4873e131700b3e675ec44659948a3c118c4e4ed27813dded1cf2a5afb958",
+      "documentHash": "07d75b78332a36acbe0efdd6b3567d02146715dcb0fffc2c472a8b801d1f4edb",
+      "metadata": {
+        "proveedor": "EDICION Y FARMACIA SA DE CV",
+        "representante": "ENRIQUE NIETO RAMIREZ"
+      },
+      "eventHash": "3ea267960733cf62aa616d5a68c11d7cb6be3d90beb31577c592caa72d5abdea"
+    },
+    {
+      "eventId": "17a6fc6b-1ba9-44f6-b31b-d1547a67a197",
+      "uid": "EFA041005BM6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-21T23:10:05.960Z",
+      "timestampLocal": "2026-05-21T23:10:05.960Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.87.245",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EFA041005BM6&nombre_proveedor_razon_social=EDICION+Y+FARMACIA+SA+DE+CV&nombre_representante_legal=ENRIQUE+NIETO+RAMIREZ&email=marianoe37%40hotmail.com",
+      "previousEventHash": "3ea267960733cf62aa616d5a68c11d7cb6be3d90beb31577c592caa72d5abdea",
+      "documentHash": "07d75b78332a36acbe0efdd6b3567d02146715dcb0fffc2c472a8b801d1f4edb",
+      "eventHash": "57d86474c95cb04bfb137de8976b4b85b812f95439a1403731fdb1c533ea233b"
+    },
+    {
+      "eventId": "d5af4e6e-ea4b-460d-bea0-d2887d5fff72",
+      "uid": "EFA041005BM6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-23T22:26:06.835Z",
+      "timestampLocal": "2026-05-23T22:26:06.835Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.225",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "57d86474c95cb04bfb137de8976b4b85b812f95439a1403731fdb1c533ea233b",
+      "documentHash": "07d75b78332a36acbe0efdd6b3567d02146715dcb0fffc2c472a8b801d1f4edb",
+      "eventHash": "0757869880eac97b8806234f9bbb0de7c247ca286a538dbbcba65439131e0d54"
+    },
+    {
+      "eventId": "ad90cfab-7b8d-4c62-ac12-95b0153047c0",
+      "uid": "EFA041005BM6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-23T22:27:02.593Z",
+      "timestampLocal": "2026-05-23T16:27:02.593Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.68.173.225",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "0757869880eac97b8806234f9bbb0de7c247ca286a538dbbcba65439131e0d54",
+      "documentHash": "67784b6a7682d091dfe80d59837acc34d5246a55e6b8f49871aac0cff25aca6a",
+      "signatureHash": "03b3bd6e387c6dde22d2814a14953ba1829b7b55193abb1a6501ffab5cf6351d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-23T16:26:57.053Z"
+      },
+      "eventHash": "82022c80f857eced16d6a7c1414e3053f7eb2ed4d636bc404fb827505bbbaec8"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-05-23T22:27:02.594Z"
+  }
 }
