@@ -1,19 +1,100 @@
 {
   "uid": "GOFP991118RT7",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Persona fisica",
     "nombre_representante_legal": "Paul Gonzalez",
     "email": "18paugonzalez@asfg.edu.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Persona fisica",
-    "nombre_representante_legal": "Paul Gonzalez",
-    "email": "18paugonzalez@asfg.edu.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-25T12:17:51.322Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GOFP991118RT7",
+  "signatureMetadata": {
+    "ip": "177.248.39.196",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-25T18:17:54.636Z",
+    "signedAtLocal": "2026-05-25T12:17:54.636Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f9f056a5d0237c062d16160eacf600a69381accb062bf5a4b4f3f914f88eb431"
+  "documentHash": "e3c535cc4fa276a84905f8fec4e7549ba812ca631743e01d3d785885ba83ec24",
+  "auditTrail": [
+    {
+      "eventId": "8addd2e6-36ba-479b-8f8a-a62df88ddc84",
+      "uid": "GOFP991118RT7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-25T18:17:08.712Z",
+      "timestampLocal": "2026-05-25T18:17:08.712Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.248.39.196",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOFP991118RT7&nombre_proveedor_razon_social=Persona+fisica&nombre_representante_legal=Paul+Gonzalez&email=18paugonzalez%40asfg.edu.mx",
+      "previousEventHash": null,
+      "documentHash": "f9f056a5d0237c062d16160eacf600a69381accb062bf5a4b4f3f914f88eb431",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c5e2bc84278532bd55733824c40a93eee6ec7d0cb47a1b7a21816774a9f434a9"
+    },
+    {
+      "eventId": "b172f19d-ed8a-4adb-9bb1-abaec19e1b0c",
+      "uid": "GOFP991118RT7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-25T18:17:08.712Z",
+      "timestampLocal": "2026-05-25T18:17:08.712Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.248.39.196",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOFP991118RT7&nombre_proveedor_razon_social=Persona+fisica&nombre_representante_legal=Paul+Gonzalez&email=18paugonzalez%40asfg.edu.mx",
+      "previousEventHash": "c5e2bc84278532bd55733824c40a93eee6ec7d0cb47a1b7a21816774a9f434a9",
+      "documentHash": "f9f056a5d0237c062d16160eacf600a69381accb062bf5a4b4f3f914f88eb431",
+      "metadata": {
+        "proveedor": "Persona fisica",
+        "representante": "Paul Gonzalez"
+      },
+      "eventHash": "cb4b3556dbe905d8849e6d1f9bf8600b4997d52ca73777d0f954cb3973e5704b"
+    },
+    {
+      "eventId": "b26db7cd-bca5-4ba9-8e77-b47898ff8565",
+      "uid": "GOFP991118RT7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-25T18:17:09.874Z",
+      "timestampLocal": "2026-05-25T18:17:09.874Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.248.39.196",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOFP991118RT7&nombre_proveedor_razon_social=Persona+fisica&nombre_representante_legal=Paul+Gonzalez&email=18paugonzalez%40asfg.edu.mx",
+      "previousEventHash": "cb4b3556dbe905d8849e6d1f9bf8600b4997d52ca73777d0f954cb3973e5704b",
+      "documentHash": "f9f056a5d0237c062d16160eacf600a69381accb062bf5a4b4f3f914f88eb431",
+      "eventHash": "77792a0456cd287913c52fbcf4ce2daf3288f63c75a1cf407a7e1d88d83531d9"
+    },
+    {
+      "eventId": "e32c15db-b0fc-422c-a06d-d41ad219e576",
+      "uid": "GOFP991118RT7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-25T18:17:54.636Z",
+      "timestampLocal": "2026-05-25T12:17:54.636Z",
+      "timezone": "UTC-6",
+      "ipAddress": "177.248.39.196",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/9125e4ec-8b19-4293-863e-ad07eb9ae9a0",
+      "previousEventHash": "77792a0456cd287913c52fbcf4ce2daf3288f63c75a1cf407a7e1d88d83531d9",
+      "documentHash": "e3c535cc4fa276a84905f8fec4e7549ba812ca631743e01d3d785885ba83ec24",
+      "signatureHash": "ad04708e51b6d3e2c4108ca4ed6db214f02d877ec691a00f4ea9567de293bf4b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-25T12:17:51.322Z"
+      },
+      "eventHash": "1a13be2a100b4b1de7f00532433953d3996dff4bfceb7d421c3923af8737a184"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-25T18:17:54.636Z"
+  }
 }
