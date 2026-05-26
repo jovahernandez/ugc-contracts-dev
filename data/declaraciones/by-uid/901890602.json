@@ -1,19 +1,100 @@
 {
   "uid": "901890602",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GONITICO SAS",
     "nombre_representante_legal": "JULIAN PINILLA",
     "email": "asesoriasjspinzon@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "GONITICO SAS",
-    "nombre_representante_legal": "JULIAN PINILLA",
-    "email": "asesoriasjspinzon@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-26T12:06:55.319Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/901890602",
+  "signatureMetadata": {
+    "ip": "186.29.180.207",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-26T17:06:58.637Z",
+    "signedAtLocal": "2026-05-26T12:06:58.637Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7f85d6855cf585dfcc198c3375f66e3f2e6cc1a3c34bdfb0743b210e96add689"
+  "documentHash": "ae02a9d94b70652fc38dbcb6b0de9d5e1e29c0cf1ea0a2c73f8a7f117f6b67f1",
+  "auditTrail": [
+    {
+      "eventId": "7242a8e1-3677-4ee5-8080-e662d68320f0",
+      "uid": "901890602",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-26T17:06:20.727Z",
+      "timestampLocal": "2026-05-26T17:06:20.727Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.29.180.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901890602&nombre_proveedor_razon_social=GONITICO+SAS&nombre_representante_legal=JULIAN+PINILLA&email=asesoriasjspinzon%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "7f85d6855cf585dfcc198c3375f66e3f2e6cc1a3c34bdfb0743b210e96add689",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d2d1591ec0e94b9c25b3cb34dfb1fb92d4f67c99dc6c207484ec02199f37e687"
+    },
+    {
+      "eventId": "c1c5e1d3-3626-4074-b05e-bfc6ffc0ba3c",
+      "uid": "901890602",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-26T17:06:20.727Z",
+      "timestampLocal": "2026-05-26T17:06:20.727Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.29.180.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901890602&nombre_proveedor_razon_social=GONITICO+SAS&nombre_representante_legal=JULIAN+PINILLA&email=asesoriasjspinzon%40gmail.com",
+      "previousEventHash": "d2d1591ec0e94b9c25b3cb34dfb1fb92d4f67c99dc6c207484ec02199f37e687",
+      "documentHash": "7f85d6855cf585dfcc198c3375f66e3f2e6cc1a3c34bdfb0743b210e96add689",
+      "metadata": {
+        "proveedor": "GONITICO SAS",
+        "representante": "JULIAN PINILLA"
+      },
+      "eventHash": "b1929fce62a845b290a04a874f42beb4de7c1ff82df986961eef275acd66d3d1"
+    },
+    {
+      "eventId": "bdcff9a1-c655-435b-af70-64fbc8bc7b5a",
+      "uid": "901890602",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-26T17:06:21.983Z",
+      "timestampLocal": "2026-05-26T17:06:21.983Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.29.180.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901890602&nombre_proveedor_razon_social=GONITICO+SAS&nombre_representante_legal=JULIAN+PINILLA&email=asesoriasjspinzon%40gmail.com",
+      "previousEventHash": "b1929fce62a845b290a04a874f42beb4de7c1ff82df986961eef275acd66d3d1",
+      "documentHash": "7f85d6855cf585dfcc198c3375f66e3f2e6cc1a3c34bdfb0743b210e96add689",
+      "eventHash": "79eea531c2f6b659eca64f442c83e6228550517a4b242e98315a7ec4066f9b12"
+    },
+    {
+      "eventId": "d96261c6-6ef7-4663-a9a2-29ec77aacf38",
+      "uid": "901890602",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-26T17:06:58.637Z",
+      "timestampLocal": "2026-05-26T12:06:58.637Z",
+      "timezone": "UTC-5",
+      "ipAddress": "186.29.180.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ea06130a-c93c-4588-82bb-767e629e8de5",
+      "previousEventHash": "79eea531c2f6b659eca64f442c83e6228550517a4b242e98315a7ec4066f9b12",
+      "documentHash": "ae02a9d94b70652fc38dbcb6b0de9d5e1e29c0cf1ea0a2c73f8a7f117f6b67f1",
+      "signatureHash": "7a6ef43119fdc9fc48b953785246673f538e4be6287cd328bb7b8dcbe9d9a44b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-26T12:06:55.319Z"
+      },
+      "eventHash": "4b6434d3bd57b7f3d6600af50919a15d636f465d732065e26714243fa7f5ba32"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-26T17:06:58.637Z"
+  }
 }
