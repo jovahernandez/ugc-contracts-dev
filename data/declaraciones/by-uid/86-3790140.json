@@ -1,19 +1,100 @@
 {
   "uid": "86-3790140",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Novaztars LLC",
     "nombre_representante_legal": "Ivan Gabriel Novales",
     "email": "ivan.novales@yahoo.com.ar"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Novaztars LLC",
-    "nombre_representante_legal": "Ivan Gabriel Novales",
-    "email": "ivan.novales@yahoo.com.ar"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-26T18:10:01.718Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/86-3790140",
+  "signatureMetadata": {
+    "ip": "181.86.109.130",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36",
+    "signedAtUtc": "2026-05-26T21:10:05.071Z",
+    "signedAtLocal": "2026-05-26T18:10:05.071Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b7511ebdf6625a7dc1715ef0bdf5c98f75a9078070d4c460b18453aefa714f9b"
+  "documentHash": "16fcd7d179abd0b11aa0e012368cb66ed5fa5d81006feec71dbc7b608ac52d50",
+  "auditTrail": [
+    {
+      "eventId": "84002652-aeba-45b7-a7fc-ee0add838e43",
+      "uid": "86-3790140",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-26T21:09:25.506Z",
+      "timestampLocal": "2026-05-26T21:09:25.506Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.86.109.130",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=86-3790140&nombre_proveedor_razon_social=Novaztars+LLC&nombre_representante_legal=Ivan+Gabriel+Novales&email=ivan.novales%40yahoo.com.ar",
+      "previousEventHash": null,
+      "documentHash": "b7511ebdf6625a7dc1715ef0bdf5c98f75a9078070d4c460b18453aefa714f9b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6909fb3402a38d971cf3dbbf78ef87b3e7168ecd4c74e7f8e4dc9686ab07ffb4"
+    },
+    {
+      "eventId": "8ccc1e7a-7ce8-4c76-b6fb-f425eaf57f67",
+      "uid": "86-3790140",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-26T21:09:25.506Z",
+      "timestampLocal": "2026-05-26T21:09:25.506Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.86.109.130",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=86-3790140&nombre_proveedor_razon_social=Novaztars+LLC&nombre_representante_legal=Ivan+Gabriel+Novales&email=ivan.novales%40yahoo.com.ar",
+      "previousEventHash": "6909fb3402a38d971cf3dbbf78ef87b3e7168ecd4c74e7f8e4dc9686ab07ffb4",
+      "documentHash": "b7511ebdf6625a7dc1715ef0bdf5c98f75a9078070d4c460b18453aefa714f9b",
+      "metadata": {
+        "proveedor": "Novaztars LLC",
+        "representante": "Ivan Gabriel Novales"
+      },
+      "eventHash": "3c4938b11aab3b96979bfd768c222ce4814d0d18bfa8c777a35fb01fb228398d"
+    },
+    {
+      "eventId": "1021e72a-8125-4993-b56a-b39937ec862e",
+      "uid": "86-3790140",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-26T21:09:26.918Z",
+      "timestampLocal": "2026-05-26T21:09:26.918Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.86.109.130",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=86-3790140&nombre_proveedor_razon_social=Novaztars+LLC&nombre_representante_legal=Ivan+Gabriel+Novales&email=ivan.novales%40yahoo.com.ar",
+      "previousEventHash": "3c4938b11aab3b96979bfd768c222ce4814d0d18bfa8c777a35fb01fb228398d",
+      "documentHash": "b7511ebdf6625a7dc1715ef0bdf5c98f75a9078070d4c460b18453aefa714f9b",
+      "eventHash": "f271ab7507c2c039df1fdf3bda461355ce98bcd5607985b88e9c5c576b32a4c3"
+    },
+    {
+      "eventId": "e891f5af-0d70-4f8c-8987-4c620902f1e4",
+      "uid": "86-3790140",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-26T21:10:05.071Z",
+      "timestampLocal": "2026-05-26T18:10:05.071Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.86.109.130",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/2c5682ac-868d-4dc5-851d-7ef6b2ecd6e0",
+      "previousEventHash": "f271ab7507c2c039df1fdf3bda461355ce98bcd5607985b88e9c5c576b32a4c3",
+      "documentHash": "16fcd7d179abd0b11aa0e012368cb66ed5fa5d81006feec71dbc7b608ac52d50",
+      "signatureHash": "e2c1930b2025af2fe20ed60d79f25c0782e9667a5efa68abb26ee5f8a360e958",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-26T18:10:01.718Z"
+      },
+      "eventHash": "a9c3c2b0d1aee90d2449dbfd34f3d425e593d76537e4fc00d392620b03628e48"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-26T21:10:05.071Z"
+  }
 }
