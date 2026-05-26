@@ -1,19 +1,100 @@
 {
   "uid": "100307918100003",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "The Business Year FZ - LLC",
     "nombre_representante_legal": "Fernando Amezcua",
     "email": "financelatam@thebusinessyear.org"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "The Business Year FZ - LLC",
-    "nombre_representante_legal": "Fernando Amezcua",
-    "email": "financelatam@thebusinessyear.org"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-26T13:42:39.821Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/100307918100003",
+  "signatureMetadata": {
+    "ip": "187.190.190.146",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-26T19:42:43.261Z",
+    "signedAtLocal": "2026-05-26T13:42:43.261Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "30b99ca83f9cab8eb5c83270da1dfad7c6f2bad912af3158b1ba62a6e320401f"
+  "documentHash": "aa516d1d675d3de449fde7fe8a4688489a926f17058939abfea376e492289bd3",
+  "auditTrail": [
+    {
+      "eventId": "9be98516-ac09-4c5a-8779-5a573c41cec1",
+      "uid": "100307918100003",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-26T19:42:22.199Z",
+      "timestampLocal": "2026-05-26T19:42:22.199Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.190.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=100307918100003&nombre_proveedor_razon_social=The+Business+Year+FZ+-+LLC&nombre_representante_legal=Fernando+Amezcua&email=financelatam%40thebusinessyear.org",
+      "previousEventHash": null,
+      "documentHash": "30b99ca83f9cab8eb5c83270da1dfad7c6f2bad912af3158b1ba62a6e320401f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "08628b0e986466730ca3e0709e09689928372556bcb931c5dea541a9b86e4de0"
+    },
+    {
+      "eventId": "b0395024-483b-48a6-8621-fce5d749d065",
+      "uid": "100307918100003",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-26T19:42:22.199Z",
+      "timestampLocal": "2026-05-26T19:42:22.199Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.190.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=100307918100003&nombre_proveedor_razon_social=The+Business+Year+FZ+-+LLC&nombre_representante_legal=Fernando+Amezcua&email=financelatam%40thebusinessyear.org",
+      "previousEventHash": "08628b0e986466730ca3e0709e09689928372556bcb931c5dea541a9b86e4de0",
+      "documentHash": "30b99ca83f9cab8eb5c83270da1dfad7c6f2bad912af3158b1ba62a6e320401f",
+      "metadata": {
+        "proveedor": "The Business Year FZ - LLC",
+        "representante": "Fernando Amezcua"
+      },
+      "eventHash": "a25f7b37e2a105469b26f3167c10ffc91e6d43fec1f7a90c4ee9b79b6685edab"
+    },
+    {
+      "eventId": "feeb3170-9f9b-4b2c-a6cb-ed91355ccee4",
+      "uid": "100307918100003",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-26T19:42:24.038Z",
+      "timestampLocal": "2026-05-26T19:42:24.038Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.190.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=100307918100003&nombre_proveedor_razon_social=The+Business+Year+FZ+-+LLC&nombre_representante_legal=Fernando+Amezcua&email=financelatam%40thebusinessyear.org",
+      "previousEventHash": "a25f7b37e2a105469b26f3167c10ffc91e6d43fec1f7a90c4ee9b79b6685edab",
+      "documentHash": "30b99ca83f9cab8eb5c83270da1dfad7c6f2bad912af3158b1ba62a6e320401f",
+      "eventHash": "49aecca46866018d85e740683b53e99cdff7278af9c2c67c68405f84a29a8be6"
+    },
+    {
+      "eventId": "38fbd1f9-d3e3-4fd4-ba9f-1633c4389c88",
+      "uid": "100307918100003",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-26T19:42:43.261Z",
+      "timestampLocal": "2026-05-26T13:42:43.261Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.190.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/dfc44b94-adb1-4852-875f-10cc9187d489",
+      "previousEventHash": "49aecca46866018d85e740683b53e99cdff7278af9c2c67c68405f84a29a8be6",
+      "documentHash": "aa516d1d675d3de449fde7fe8a4688489a926f17058939abfea376e492289bd3",
+      "signatureHash": "ffe02573233f95b9927990c8946a4d233c0649da879baf81ff9b08f0fa451031",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-26T13:42:39.821Z"
+      },
+      "eventHash": "f549d0e280c0f03216c2898f2519e9e2b3c8df8387220a900de038b1af7eb1e2"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-26T19:42:43.262Z"
+  }
 }
