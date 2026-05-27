@@ -1,19 +1,100 @@
 {
   "uid": "COO180724SG9",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "COOLHUNTERMX, S.A. DE C.V.",
     "nombre_representante_legal": "Cecilia Palacios Balcazar",
     "email": "admin@coolhuntermx.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "COOLHUNTERMX, S.A. DE C.V.",
-    "nombre_representante_legal": "Cecilia Palacios Balcazar",
-    "email": "admin@coolhuntermx.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-05-27T14:59:53.258Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/COO180724SG9",
+  "signatureMetadata": {
+    "ip": "189.217.205.139",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-05-27T20:59:56.565Z",
+    "signedAtLocal": "2026-05-27T14:59:56.565Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3b33bb08ccb27c04e8df3626b4e07757c0b06564982530228fd575e121fce6f5"
+  "documentHash": "0c16e0f157cf0d813884f22fafc810ecaa5d2ed3a916c1c77705e23f9165baef",
+  "auditTrail": [
+    {
+      "eventId": "e9220db2-540b-4410-97bd-3871b10fa39f",
+      "uid": "COO180724SG9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-05-27T20:56:19.152Z",
+      "timestampLocal": "2026-05-27T20:56:19.152Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.205.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=COO180724SG9&nombre_proveedor_razon_social=COOLHUNTERMX%2C+S.A.+DE+C.V.&nombre_representante_legal=Cecilia+Palacios+Balcazar&email=admin%40coolhuntermx.com",
+      "previousEventHash": null,
+      "documentHash": "3b33bb08ccb27c04e8df3626b4e07757c0b06564982530228fd575e121fce6f5",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "dcfc60d003e75cb13ae00fb7001ff120e7dc60fe53b440f67bf1e2036f217d87"
+    },
+    {
+      "eventId": "c532ce4f-a1c8-4da2-82f1-cbd7ac1991a5",
+      "uid": "COO180724SG9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-05-27T20:56:19.152Z",
+      "timestampLocal": "2026-05-27T20:56:19.152Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.205.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=COO180724SG9&nombre_proveedor_razon_social=COOLHUNTERMX%2C+S.A.+DE+C.V.&nombre_representante_legal=Cecilia+Palacios+Balcazar&email=admin%40coolhuntermx.com",
+      "previousEventHash": "dcfc60d003e75cb13ae00fb7001ff120e7dc60fe53b440f67bf1e2036f217d87",
+      "documentHash": "3b33bb08ccb27c04e8df3626b4e07757c0b06564982530228fd575e121fce6f5",
+      "metadata": {
+        "proveedor": "COOLHUNTERMX, S.A. DE C.V.",
+        "representante": "Cecilia Palacios Balcazar"
+      },
+      "eventHash": "9444102c0b3693b087a385b4855002861bf72d253a32cec9b73fd342c3b1d768"
+    },
+    {
+      "eventId": "c15ab01a-d3c6-4425-b9cd-c2ecdd53c5b2",
+      "uid": "COO180724SG9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-05-27T20:56:20.455Z",
+      "timestampLocal": "2026-05-27T20:56:20.455Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.205.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=COO180724SG9&nombre_proveedor_razon_social=COOLHUNTERMX%2C+S.A.+DE+C.V.&nombre_representante_legal=Cecilia+Palacios+Balcazar&email=admin%40coolhuntermx.com",
+      "previousEventHash": "9444102c0b3693b087a385b4855002861bf72d253a32cec9b73fd342c3b1d768",
+      "documentHash": "3b33bb08ccb27c04e8df3626b4e07757c0b06564982530228fd575e121fce6f5",
+      "eventHash": "b643935428ad8ccdb1ec091eb8749c34c471c90dc61bdc47210f9df22109b9fe"
+    },
+    {
+      "eventId": "ae3cb66b-ba3d-4009-bf86-e477c84fff0f",
+      "uid": "COO180724SG9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-05-27T20:59:56.565Z",
+      "timestampLocal": "2026-05-27T14:59:56.565Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.205.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5fb9a63e-c36d-410c-b2d8-3d0b789b4bcb",
+      "previousEventHash": "b643935428ad8ccdb1ec091eb8749c34c471c90dc61bdc47210f9df22109b9fe",
+      "documentHash": "0c16e0f157cf0d813884f22fafc810ecaa5d2ed3a916c1c77705e23f9165baef",
+      "signatureHash": "dc1bc739a408c8a6f3808d9df0148a622c8464dda9c1a4eb2b4eef7584466773",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-05-27T14:59:53.258Z"
+      },
+      "eventHash": "a39757869fa8c9efce289877fd1bc09dc763e3f617faaf7872ebf5820e9dbc3f"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-05-27T20:59:56.565Z"
+  }
 }
