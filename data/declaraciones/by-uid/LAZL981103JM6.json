@@ -1,19 +1,100 @@
 {
   "uid": "LAZL981103JM6",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Lucia Laspriella Zamora",
     "nombre_representante_legal": "Lucia Laspriella",
     "email": "lucia.laspriella@another.co"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Lucia Laspriella Zamora",
-    "nombre_representante_legal": "Lucia Laspriella",
-    "email": "lucia.laspriella@another.co"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-02T15:21:02.066Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LAZL981103JM6",
+  "signatureMetadata": {
+    "ip": "187.188.53.147",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-02T21:21:05.436Z",
+    "signedAtLocal": "2026-06-02T15:21:05.436Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a0a7fad7404660668efa1483a9b777bd2abedbe90176b047b48d0f062f16da33"
+  "documentHash": "be9e80dd506a1c661cc640929e01e19e32fd177628f659a72adeed19fa6161db",
+  "auditTrail": [
+    {
+      "eventId": "4dcc4233-c9e4-4925-a7f0-c74fa7486d23",
+      "uid": "LAZL981103JM6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-02T21:20:40.744Z",
+      "timestampLocal": "2026-06-02T21:20:40.744Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.53.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LAZL981103JM6&nombre_proveedor_razon_social=Lucia+Laspriella+Zamora&nombre_representante_legal=Lucia+Laspriella&email=lucia.laspriella%40another.co",
+      "previousEventHash": null,
+      "documentHash": "a0a7fad7404660668efa1483a9b777bd2abedbe90176b047b48d0f062f16da33",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "73f7bbad0f9924ec7e06959cb2f555f7eeaccff22ffcedcfe044d38d92516e0e"
+    },
+    {
+      "eventId": "749e1ee9-695f-47ee-8e2f-d7ecd7e493d5",
+      "uid": "LAZL981103JM6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-02T21:20:40.744Z",
+      "timestampLocal": "2026-06-02T21:20:40.744Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.53.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LAZL981103JM6&nombre_proveedor_razon_social=Lucia+Laspriella+Zamora&nombre_representante_legal=Lucia+Laspriella&email=lucia.laspriella%40another.co",
+      "previousEventHash": "73f7bbad0f9924ec7e06959cb2f555f7eeaccff22ffcedcfe044d38d92516e0e",
+      "documentHash": "a0a7fad7404660668efa1483a9b777bd2abedbe90176b047b48d0f062f16da33",
+      "metadata": {
+        "proveedor": "Lucia Laspriella Zamora",
+        "representante": "Lucia Laspriella"
+      },
+      "eventHash": "eff8522185c645f1246c57135f3085ccab443395cb2940dd72d77d62c465a19f"
+    },
+    {
+      "eventId": "c30c09d6-35d2-43d5-9044-e1dacb022a97",
+      "uid": "LAZL981103JM6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-02T21:20:42.073Z",
+      "timestampLocal": "2026-06-02T21:20:42.073Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.53.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LAZL981103JM6&nombre_proveedor_razon_social=Lucia+Laspriella+Zamora&nombre_representante_legal=Lucia+Laspriella&email=lucia.laspriella%40another.co",
+      "previousEventHash": "eff8522185c645f1246c57135f3085ccab443395cb2940dd72d77d62c465a19f",
+      "documentHash": "a0a7fad7404660668efa1483a9b777bd2abedbe90176b047b48d0f062f16da33",
+      "eventHash": "32b8df4ffbbb909e71b59af7703a9e5044025956ce028f7783bfde6db511c4d6"
+    },
+    {
+      "eventId": "3c545596-976c-48f0-8bea-9fb83be666d8",
+      "uid": "LAZL981103JM6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-02T21:21:05.436Z",
+      "timestampLocal": "2026-06-02T15:21:05.436Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.53.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/90fea520-5933-4714-ba59-59841f410fb0",
+      "previousEventHash": "32b8df4ffbbb909e71b59af7703a9e5044025956ce028f7783bfde6db511c4d6",
+      "documentHash": "be9e80dd506a1c661cc640929e01e19e32fd177628f659a72adeed19fa6161db",
+      "signatureHash": "66356dd1c4f8b1f57306313e31d5f7775b4b24498a39c63ccf5f9da8d0da17a2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-02T15:21:02.066Z"
+      },
+      "eventHash": "32e2fbbd0aa24676daf288ede18f4922363810e40706334fa16e257e4b36d70d"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-02T21:21:05.436Z"
+  }
 }
