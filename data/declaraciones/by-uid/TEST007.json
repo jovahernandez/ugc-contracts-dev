@@ -1,20 +1,101 @@
 {
   "uid": "TEST007",
   "createdAt": "2026-06-02T06:48:36.979Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Razon social",
     "nombre_representante_legal": "Representante legal",
     "email": "admin@another.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Razon social",
-    "nombre_representante_legal": "Representante legal",
-    "email": "admin@another.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-02T06:49:41.717Z",
+  "signedPdfUrl": "http://localhost:3000/declaracion/download/TEST007",
+  "signatureMetadata": {
+    "ip": "127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-02T06:49:46.094Z",
+    "signedAtLocal": "2026-06-02T00:49:46.094Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "11dd923a5cbef39b6915de14a6e13d17fa39abd5c2beb57f2d75a25b33620a76"
+  "documentHash": "6a9e399ce11a2e28377504a3cce675c1a45135edc8130caf2b7330589edce824",
+  "auditTrail": [
+    {
+      "eventId": "01f6cb1a-94fb-4098-bc4d-05744dc81833",
+      "uid": "TEST007",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-02T06:49:13.226Z",
+      "timestampLocal": "2026-06-02T06:49:13.226Z",
+      "timezone": "UTC+0",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "http://localhost:3000/declaracion?uid=TEST007",
+      "previousEventHash": null,
+      "documentHash": "11dd923a5cbef39b6915de14a6e13d17fa39abd5c2beb57f2d75a25b33620a76",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e727b2bf21600987f6800f12d3146df6a033a1e6897ec9b5dd9cfbbd3049905d"
+    },
+    {
+      "eventId": "b33fe340-19df-4df5-b74c-8b35d0d58934",
+      "uid": "TEST007",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-02T06:49:13.226Z",
+      "timestampLocal": "2026-06-02T06:49:13.226Z",
+      "timezone": "UTC+0",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "http://localhost:3000/declaracion?uid=TEST007",
+      "previousEventHash": "e727b2bf21600987f6800f12d3146df6a033a1e6897ec9b5dd9cfbbd3049905d",
+      "documentHash": "11dd923a5cbef39b6915de14a6e13d17fa39abd5c2beb57f2d75a25b33620a76",
+      "metadata": {
+        "proveedor": "Razon social",
+        "representante": "Representante legal"
+      },
+      "eventHash": "f1dd5ab4a2f3c0d3b447526ff23eab35dbd38ea62b589e469526b3b8eaa55d62"
+    },
+    {
+      "eventId": "6b248b39-ea13-46e3-a12f-9b7fb8e7cf8c",
+      "uid": "TEST007",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-02T06:49:14.618Z",
+      "timestampLocal": "2026-06-02T06:49:14.618Z",
+      "timezone": "UTC+0",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "http://localhost:3000/declaracion?uid=TEST007",
+      "previousEventHash": "f1dd5ab4a2f3c0d3b447526ff23eab35dbd38ea62b589e469526b3b8eaa55d62",
+      "documentHash": "11dd923a5cbef39b6915de14a6e13d17fa39abd5c2beb57f2d75a25b33620a76",
+      "eventHash": "860a868da32f7576a377d08d6f474d7c328fcd274dbd3dcd19bf0daf6d7a5045"
+    },
+    {
+      "eventId": "45d542fa-769e-436f-b99b-fab0d48430da",
+      "uid": "TEST007",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-02T06:49:46.094Z",
+      "timestampLocal": "2026-06-02T00:49:46.094Z",
+      "timezone": "UTC-6",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "http://localhost:3000/declaracion/firmar/c75f281d-0bab-4cfe-9e8a-fdf0fcb324e3",
+      "previousEventHash": "860a868da32f7576a377d08d6f474d7c328fcd274dbd3dcd19bf0daf6d7a5045",
+      "documentHash": "6a9e399ce11a2e28377504a3cce675c1a45135edc8130caf2b7330589edce824",
+      "signatureHash": "5bff34aec068c430d13e98e3960de09ec92efcaec8fe97462c215f8329f64bfa",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-02T06:49:41.717Z"
+      },
+      "eventHash": "b5056d10034b01e1ac670f0f3b5d68f1f0fa8fb0669f2eef2572ec6ce059277e"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-02T06:49:46.095Z"
+  }
 }
