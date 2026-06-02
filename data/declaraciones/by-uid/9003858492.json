@@ -1,19 +1,100 @@
 {
   "uid": "9003858492",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MOYA PRODUCCIONES S.A.S",
     "nombre_representante_legal": "Diego Hernan Chica Moya",
     "email": "tesoreria@moyaproducciones.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MOYA PRODUCCIONES S.A.S",
-    "nombre_representante_legal": "Diego Hernan Chica Moya",
-    "email": "tesoreria@moyaproducciones.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-02T08:56:37.744Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/9003858492",
+  "signatureMetadata": {
+    "ip": "186.154.144.10",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-02T13:56:41.467Z",
+    "signedAtLocal": "2026-06-02T08:56:41.467Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "63212b8d988404c3db960d600a557d25c5c08895d71f2492e01b069fcf436e79"
+  "documentHash": "f107ceb6797dd42818c9ff0685cb60dad51ec00bfac530eef07df6aea0a6372c",
+  "auditTrail": [
+    {
+      "eventId": "9e352cc5-6051-414f-a666-c5d9230d5a92",
+      "uid": "9003858492",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-02T13:55:19.571Z",
+      "timestampLocal": "2026-06-02T13:55:19.571Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.154.144.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=9003858492&nombre_proveedor_razon_social=MOYA+PRODUCCIONES+S.A.S&nombre_representante_legal=Diego+Hernan+Chica+Moya&email=tesoreria%40moyaproducciones.com",
+      "previousEventHash": null,
+      "documentHash": "63212b8d988404c3db960d600a557d25c5c08895d71f2492e01b069fcf436e79",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5c0667d7f9aad79e270f616845a2b18b443bd075d53577039526f263e7224ee0"
+    },
+    {
+      "eventId": "0a1e015a-5efd-4303-a31c-7ec6eec90c9b",
+      "uid": "9003858492",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-02T13:55:19.571Z",
+      "timestampLocal": "2026-06-02T13:55:19.571Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.154.144.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=9003858492&nombre_proveedor_razon_social=MOYA+PRODUCCIONES+S.A.S&nombre_representante_legal=Diego+Hernan+Chica+Moya&email=tesoreria%40moyaproducciones.com",
+      "previousEventHash": "5c0667d7f9aad79e270f616845a2b18b443bd075d53577039526f263e7224ee0",
+      "documentHash": "63212b8d988404c3db960d600a557d25c5c08895d71f2492e01b069fcf436e79",
+      "metadata": {
+        "proveedor": "MOYA PRODUCCIONES S.A.S",
+        "representante": "Diego Hernan Chica Moya"
+      },
+      "eventHash": "2365f28c21e057b7cf956b41f90f7db685a6d2aa33af1e44f4c91ee34024f720"
+    },
+    {
+      "eventId": "19c67954-863c-4415-b22f-7e4974108986",
+      "uid": "9003858492",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-02T13:55:21.007Z",
+      "timestampLocal": "2026-06-02T13:55:21.007Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.154.144.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=9003858492&nombre_proveedor_razon_social=MOYA+PRODUCCIONES+S.A.S&nombre_representante_legal=Diego+Hernan+Chica+Moya&email=tesoreria%40moyaproducciones.com",
+      "previousEventHash": "2365f28c21e057b7cf956b41f90f7db685a6d2aa33af1e44f4c91ee34024f720",
+      "documentHash": "63212b8d988404c3db960d600a557d25c5c08895d71f2492e01b069fcf436e79",
+      "eventHash": "03e81a6c41a9f5b4d077d23b7af9154689041ee4048dafc6136f11bf47738a8d"
+    },
+    {
+      "eventId": "6caabc05-3af2-43f6-8695-3ae209ced817",
+      "uid": "9003858492",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-02T13:56:41.467Z",
+      "timestampLocal": "2026-06-02T08:56:41.467Z",
+      "timezone": "UTC-5",
+      "ipAddress": "186.154.144.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f1b24759-4909-472a-ac63-52c96f5ab387",
+      "previousEventHash": "03e81a6c41a9f5b4d077d23b7af9154689041ee4048dafc6136f11bf47738a8d",
+      "documentHash": "f107ceb6797dd42818c9ff0685cb60dad51ec00bfac530eef07df6aea0a6372c",
+      "signatureHash": "050a030650f02a0d11da25d1bfd14197c52367652268cfec38249751d74303aa",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-02T08:56:37.744Z"
+      },
+      "eventHash": "7ffd52ad170194c2c2c7a622867621e19ccc1db08ccaa6375ca85ce1d0f1d9fa"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-02T13:56:41.468Z"
+  }
 }
