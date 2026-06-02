@@ -1,19 +1,100 @@
 {
   "uid": "HUMA990607AM6",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ANDREA HURTADO MACHUCA",
     "nombre_representante_legal": "ANDREA HURTADO MACHUCA",
     "email": "andreafortanell@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ANDREA HURTADO MACHUCA",
-    "nombre_representante_legal": "ANDREA HURTADO MACHUCA",
-    "email": "andreafortanell@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-02T14:35:10.833Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/HUMA990607AM6",
+  "signatureMetadata": {
+    "ip": "187.188.140.147",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-02T20:35:14.216Z",
+    "signedAtLocal": "2026-06-02T14:35:14.216Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "79529db0ff640dd6bc00cedf23495c501b7dd8d0780189fee9c7441abd94d737"
+  "documentHash": "8169e8abb7f33acc520e01b5c7960f6e6c2cd7870d1aa344c0b26b89535a34b1",
+  "auditTrail": [
+    {
+      "eventId": "43b7399d-d27b-406a-8fb2-38cc2b7a7221",
+      "uid": "HUMA990607AM6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-02T20:34:41.533Z",
+      "timestampLocal": "2026-06-02T20:34:41.533Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.140.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HUMA990607AM6&nombre_proveedor_razon_social=ANDREA+HURTADO+MACHUCA&nombre_representante_legal=ANDREA+HURTADO+MACHUCA&email=andreafortanell%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "79529db0ff640dd6bc00cedf23495c501b7dd8d0780189fee9c7441abd94d737",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ebbd1aeaee2ed15a3ced5ada700fa0a7c316c531559490b8fefb4189f1a52d56"
+    },
+    {
+      "eventId": "08f45bf8-723f-4b3c-b3de-08e4a2ae6a7a",
+      "uid": "HUMA990607AM6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-02T20:34:41.533Z",
+      "timestampLocal": "2026-06-02T20:34:41.533Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.140.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HUMA990607AM6&nombre_proveedor_razon_social=ANDREA+HURTADO+MACHUCA&nombre_representante_legal=ANDREA+HURTADO+MACHUCA&email=andreafortanell%40gmail.com",
+      "previousEventHash": "ebbd1aeaee2ed15a3ced5ada700fa0a7c316c531559490b8fefb4189f1a52d56",
+      "documentHash": "79529db0ff640dd6bc00cedf23495c501b7dd8d0780189fee9c7441abd94d737",
+      "metadata": {
+        "proveedor": "ANDREA HURTADO MACHUCA",
+        "representante": "ANDREA HURTADO MACHUCA"
+      },
+      "eventHash": "9429eaac08b1d3fe95183cd23965eddd5cc468bf7d589c3416e73ede6a1d5a44"
+    },
+    {
+      "eventId": "55f94d69-a97b-4d74-b866-b4f1d3ea9827",
+      "uid": "HUMA990607AM6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-02T20:34:42.710Z",
+      "timestampLocal": "2026-06-02T20:34:42.710Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.140.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HUMA990607AM6&nombre_proveedor_razon_social=ANDREA+HURTADO+MACHUCA&nombre_representante_legal=ANDREA+HURTADO+MACHUCA&email=andreafortanell%40gmail.com",
+      "previousEventHash": "9429eaac08b1d3fe95183cd23965eddd5cc468bf7d589c3416e73ede6a1d5a44",
+      "documentHash": "79529db0ff640dd6bc00cedf23495c501b7dd8d0780189fee9c7441abd94d737",
+      "eventHash": "6316ce13f98f7168ea185566a42d81bde742f9653b3df9817de99ec1f3da7c17"
+    },
+    {
+      "eventId": "22edb788-c15a-4c5c-bdf3-ba1b9353c391",
+      "uid": "HUMA990607AM6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-02T20:35:14.216Z",
+      "timestampLocal": "2026-06-02T14:35:14.216Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.140.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/3d31e787-6431-4760-af27-534af6463622",
+      "previousEventHash": "6316ce13f98f7168ea185566a42d81bde742f9653b3df9817de99ec1f3da7c17",
+      "documentHash": "8169e8abb7f33acc520e01b5c7960f6e6c2cd7870d1aa344c0b26b89535a34b1",
+      "signatureHash": "1c83f87371e685e9cee46e72f5df608b074ae85f8f80ec44895ceee4b0ce077a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-02T14:35:10.833Z"
+      },
+      "eventHash": "9622e3f6807ba51e6de1251582c8668e748e2dcb2ad582b77687ca67599dfdd2"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-02T20:35:14.217Z"
+  }
 }
