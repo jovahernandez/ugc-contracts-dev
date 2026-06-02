@@ -1,19 +1,100 @@
 {
   "uid": "MUMS920626CF7",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SANTIAGO MUÑOZ MOCTEZUMA",
     "nombre_representante_legal": "Santiago Muñoz Moctezuma",
     "email": "mayela@maizajo.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SANTIAGO MUÑOZ MOCTEZUMA",
-    "nombre_representante_legal": "Santiago Muñoz Moctezuma",
-    "email": "mayela@maizajo.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-01T23:40:00.834Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MUMS920626CF7",
+  "signatureMetadata": {
+    "ip": "187.246.17.215",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-02T05:40:06.822Z",
+    "signedAtLocal": "2026-06-01T23:40:06.822Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "dc8878b93f74d314fac32fdefd0eb43eca7c01d750f33ed148461867c5815369"
+  "documentHash": "8c7cbcb8af1712715890dd85f5a5e14721c54a47b9db117e573d429182e34c5a",
+  "auditTrail": [
+    {
+      "eventId": "6a84c7c3-c8cb-41b4-bca6-15aa5baee8ca",
+      "uid": "MUMS920626CF7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-02T05:37:45.691Z",
+      "timestampLocal": "2026-06-02T05:37:45.691Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.246.17.215",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MUMS920626CF7&nombre_proveedor_razon_social=SANTIAGO+MU%C3%91OZ+MOCTEZUMA&nombre_representante_legal=Santiago+Mu%C3%B1oz+Moctezuma&email=mayela%40maizajo.com",
+      "previousEventHash": null,
+      "documentHash": "dc8878b93f74d314fac32fdefd0eb43eca7c01d750f33ed148461867c5815369",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "efb88aae89bb78fa55d19f8232ae34c711d821e4b3d5616f466e4df567f09007"
+    },
+    {
+      "eventId": "0acc0239-e24d-4efe-9b92-963532715b5e",
+      "uid": "MUMS920626CF7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-02T05:37:45.691Z",
+      "timestampLocal": "2026-06-02T05:37:45.691Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.246.17.215",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MUMS920626CF7&nombre_proveedor_razon_social=SANTIAGO+MU%C3%91OZ+MOCTEZUMA&nombre_representante_legal=Santiago+Mu%C3%B1oz+Moctezuma&email=mayela%40maizajo.com",
+      "previousEventHash": "efb88aae89bb78fa55d19f8232ae34c711d821e4b3d5616f466e4df567f09007",
+      "documentHash": "dc8878b93f74d314fac32fdefd0eb43eca7c01d750f33ed148461867c5815369",
+      "metadata": {
+        "proveedor": "SANTIAGO MUÑOZ MOCTEZUMA",
+        "representante": "Santiago Muñoz Moctezuma"
+      },
+      "eventHash": "5503636ce184a70f395321a13ab92b2a03dcee471d390abad7da4c4187a02b0f"
+    },
+    {
+      "eventId": "fa5d64de-4077-4ac7-9cd9-3095a9777115",
+      "uid": "MUMS920626CF7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-02T05:37:46.796Z",
+      "timestampLocal": "2026-06-02T05:37:46.796Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.246.17.215",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MUMS920626CF7&nombre_proveedor_razon_social=SANTIAGO+MU%C3%91OZ+MOCTEZUMA&nombre_representante_legal=Santiago+Mu%C3%B1oz+Moctezuma&email=mayela%40maizajo.com",
+      "previousEventHash": "5503636ce184a70f395321a13ab92b2a03dcee471d390abad7da4c4187a02b0f",
+      "documentHash": "dc8878b93f74d314fac32fdefd0eb43eca7c01d750f33ed148461867c5815369",
+      "eventHash": "965d957131688aa092920c2e17f7649f044604d64fcd837fa316452b3cebaba3"
+    },
+    {
+      "eventId": "bdf5fe4f-06f6-486b-9b13-c264eaacc703",
+      "uid": "MUMS920626CF7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-02T05:40:06.822Z",
+      "timestampLocal": "2026-06-01T23:40:06.822Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.246.17.215",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d4caa92d-52dc-4671-a0be-10032d2c8434",
+      "previousEventHash": "965d957131688aa092920c2e17f7649f044604d64fcd837fa316452b3cebaba3",
+      "documentHash": "8c7cbcb8af1712715890dd85f5a5e14721c54a47b9db117e573d429182e34c5a",
+      "signatureHash": "856ac1a3ad69cd24e9b9f098e513ab588d9a0efcb6374662cc8b990294197626",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-01T23:40:00.834Z"
+      },
+      "eventHash": "9fe4706b3e16f5ee1a5a28be1f2f851baf1399fc1d44a0982d7da3648ad9301c"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-02T05:40:06.823Z"
+  }
 }
