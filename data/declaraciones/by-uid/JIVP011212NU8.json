@@ -1,19 +1,100 @@
 {
   "uid": "JIVP011212NU8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Maria Patricia Jiménez",
     "nombre_representante_legal": "Maria Patricia Jiménez",
     "email": "confinanzasfaciles@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Maria Patricia Jiménez",
-    "nombre_representante_legal": "Maria Patricia Jiménez",
-    "email": "confinanzasfaciles@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-03T16:43:26.612Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/JIVP011212NU8",
+  "signatureMetadata": {
+    "ip": "187.190.79.69",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-03T22:43:30.088Z",
+    "signedAtLocal": "2026-06-03T16:43:30.088Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "eae7823afb0da742a48eae72a428cb8930c40d5d3fd1a13425c550189be83d24"
+  "documentHash": "42209fb9670af253f63d68e6f3bc71b4cf4479065a5c8d38095ebae23930a6da",
+  "auditTrail": [
+    {
+      "eventId": "f68c2394-79c2-4c22-8572-56b0b088d67d",
+      "uid": "JIVP011212NU8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-03T22:42:07.589Z",
+      "timestampLocal": "2026-06-03T22:42:07.589Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.79.69",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=JIVP011212NU8&nombre_proveedor_razon_social=Maria+Patricia+Jim%C3%A9nez&nombre_representante_legal=Maria+Patricia+Jim%C3%A9nez&email=confinanzasfaciles%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "eae7823afb0da742a48eae72a428cb8930c40d5d3fd1a13425c550189be83d24",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "21ff8a0315569fcdb33ce5556107db9aea1b4c867252028ea156bf4cfa7c62ca"
+    },
+    {
+      "eventId": "b2acf7e8-b18d-42fe-95b1-6a5f86819e5c",
+      "uid": "JIVP011212NU8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-03T22:42:07.589Z",
+      "timestampLocal": "2026-06-03T22:42:07.589Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.79.69",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=JIVP011212NU8&nombre_proveedor_razon_social=Maria+Patricia+Jim%C3%A9nez&nombre_representante_legal=Maria+Patricia+Jim%C3%A9nez&email=confinanzasfaciles%40gmail.com",
+      "previousEventHash": "21ff8a0315569fcdb33ce5556107db9aea1b4c867252028ea156bf4cfa7c62ca",
+      "documentHash": "eae7823afb0da742a48eae72a428cb8930c40d5d3fd1a13425c550189be83d24",
+      "metadata": {
+        "proveedor": "Maria Patricia Jiménez",
+        "representante": "Maria Patricia Jiménez"
+      },
+      "eventHash": "5d9fe3745713f55500cf83d640aa8d5310b1eff90d1aa603d4a8398075ba3862"
+    },
+    {
+      "eventId": "4fbe0582-a32a-4995-95f5-c1c90016ce20",
+      "uid": "JIVP011212NU8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-03T22:42:08.726Z",
+      "timestampLocal": "2026-06-03T22:42:08.726Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.79.69",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=JIVP011212NU8&nombre_proveedor_razon_social=Maria+Patricia+Jim%C3%A9nez&nombre_representante_legal=Maria+Patricia+Jim%C3%A9nez&email=confinanzasfaciles%40gmail.com",
+      "previousEventHash": "5d9fe3745713f55500cf83d640aa8d5310b1eff90d1aa603d4a8398075ba3862",
+      "documentHash": "eae7823afb0da742a48eae72a428cb8930c40d5d3fd1a13425c550189be83d24",
+      "eventHash": "ea9e66bd72f1d05470a1b057991827188fa4355860aa65de343092641b7b46b3"
+    },
+    {
+      "eventId": "c5ba7683-e3f1-47ad-b00f-b09b4c1f2d5d",
+      "uid": "JIVP011212NU8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-03T22:43:30.088Z",
+      "timestampLocal": "2026-06-03T16:43:30.088Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.79.69",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c7f7f1b1-5dbc-4d1d-8f26-e9242926de3c",
+      "previousEventHash": "ea9e66bd72f1d05470a1b057991827188fa4355860aa65de343092641b7b46b3",
+      "documentHash": "42209fb9670af253f63d68e6f3bc71b4cf4479065a5c8d38095ebae23930a6da",
+      "signatureHash": "752e7d6820cd7646d163e226bd0ad67df86d2c8660a618bb33e4da78484b540a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-03T16:43:26.612Z"
+      },
+      "eventHash": "11b1f2f015fb91755e5fd48274f83d74d88c725aef3bd75e2257ace8072cfa32"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-03T22:43:30.089Z"
+  }
 }
