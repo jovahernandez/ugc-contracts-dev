@@ -1,19 +1,100 @@
 {
   "uid": "SAV240404TL4",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SERVICIOS ADMINISTRATIVOS VISSMEX SA DE CV",
     "nombre_representante_legal": "DAGOBERTO ALEJANDRO CUMPLIDO LOPEZ",
     "email": "gabriela.ovva@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SERVICIOS ADMINISTRATIVOS VISSMEX SA DE CV",
-    "nombre_representante_legal": "DAGOBERTO ALEJANDRO CUMPLIDO LOPEZ",
-    "email": "gabriela.ovva@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-02T18:38:48.929Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SAV240404TL4",
+  "signatureMetadata": {
+    "ip": "104.28.50.25",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-06-03T00:38:52.269Z",
+    "signedAtLocal": "2026-06-02T18:38:52.269Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "25eb12226e43b6f9abab6886521f4d01713fc486ee9c734c6a1a12d23f991dce"
+  "documentHash": "f288b67d6e03f24b0d93521ec75dca4d86b269660970aedd2c0e8b56e63e64ce",
+  "auditTrail": [
+    {
+      "eventId": "43218928-07fa-4aee-b9d3-0d4dfd217684",
+      "uid": "SAV240404TL4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-03T00:37:59.683Z",
+      "timestampLocal": "2026-06-03T00:37:59.683Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.50.25",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "25eb12226e43b6f9abab6886521f4d01713fc486ee9c734c6a1a12d23f991dce",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0dd90cfd7fed1a2abd4cb3687dce4f175b4ac8539ab245c5227d2857af99c0f3"
+    },
+    {
+      "eventId": "47af7630-ac5a-4a88-8431-378bcef20767",
+      "uid": "SAV240404TL4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-03T00:37:59.683Z",
+      "timestampLocal": "2026-06-03T00:37:59.683Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.50.25",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "0dd90cfd7fed1a2abd4cb3687dce4f175b4ac8539ab245c5227d2857af99c0f3",
+      "documentHash": "25eb12226e43b6f9abab6886521f4d01713fc486ee9c734c6a1a12d23f991dce",
+      "metadata": {
+        "proveedor": "SERVICIOS ADMINISTRATIVOS VISSMEX SA DE CV",
+        "representante": "DAGOBERTO ALEJANDRO CUMPLIDO LOPEZ"
+      },
+      "eventHash": "4c1aba91dfc71156439f1f5a0b1bb90726eab16c65816eb9ebe14ff8116cc7c9"
+    },
+    {
+      "eventId": "a06c5fac-fe05-4852-9336-948aed76c249",
+      "uid": "SAV240404TL4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-03T00:38:00.664Z",
+      "timestampLocal": "2026-06-03T00:38:00.664Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.50.25",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4c1aba91dfc71156439f1f5a0b1bb90726eab16c65816eb9ebe14ff8116cc7c9",
+      "documentHash": "25eb12226e43b6f9abab6886521f4d01713fc486ee9c734c6a1a12d23f991dce",
+      "eventHash": "5c666650dec3574ed1c801add39d06389f54cf8ccd3bccdf799b25d5c08a013c"
+    },
+    {
+      "eventId": "beef6c5d-7939-4d0a-ade8-561530638c24",
+      "uid": "SAV240404TL4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-03T00:38:52.269Z",
+      "timestampLocal": "2026-06-02T18:38:52.269Z",
+      "timezone": "UTC-6",
+      "ipAddress": "104.28.50.25",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "5c666650dec3574ed1c801add39d06389f54cf8ccd3bccdf799b25d5c08a013c",
+      "documentHash": "f288b67d6e03f24b0d93521ec75dca4d86b269660970aedd2c0e8b56e63e64ce",
+      "signatureHash": "6d86af23473c958de35c88e1cfffb6bb95c1838d2c2f35795b29e58b671ad77b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-02T18:38:48.929Z"
+      },
+      "eventHash": "25e9b97c3b3159ae6cafd99a0cd9806b4f620ed2ded93b89cdd5a74b1ab009f2"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-03T00:38:52.269Z"
+  }
 }
