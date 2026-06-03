@@ -1,19 +1,100 @@
 {
   "uid": "DCM200511J16",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DIABLO CREATIVO MEXICO",
     "nombre_representante_legal": "Rodolfo Garcia Perez",
     "email": "oscar@diabloec.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "DIABLO CREATIVO MEXICO",
-    "nombre_representante_legal": "Rodolfo Garcia Perez",
-    "email": "oscar@diabloec.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-02T19:23:32.170Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DCM200511J16",
+  "signatureMetadata": {
+    "ip": "187.189.146.139",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+    "signedAtUtc": "2026-06-03T01:23:35.477Z",
+    "signedAtLocal": "2026-06-02T19:23:35.477Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "43e67478b8ae6e944813164d0d83edbf1bc8be39f547f5c65f019323d00f3470"
+  "documentHash": "7dd5214f87350b892bdeadc464cb88623bc283064a82a73e098f92b258eddc62",
+  "auditTrail": [
+    {
+      "eventId": "ae72699e-26a7-4ef3-b13c-721836666c98",
+      "uid": "DCM200511J16",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-03T01:19:28.044Z",
+      "timestampLocal": "2026-06-03T01:19:28.044Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "43e67478b8ae6e944813164d0d83edbf1bc8be39f547f5c65f019323d00f3470",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "64944836682664f9bf986523d45db9b0d91fb70882baa2cb82ebbdaa72fbef66"
+    },
+    {
+      "eventId": "869636d2-fdab-44cc-a628-31d7d2173ae3",
+      "uid": "DCM200511J16",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-03T01:19:28.044Z",
+      "timestampLocal": "2026-06-03T01:19:28.044Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "64944836682664f9bf986523d45db9b0d91fb70882baa2cb82ebbdaa72fbef66",
+      "documentHash": "43e67478b8ae6e944813164d0d83edbf1bc8be39f547f5c65f019323d00f3470",
+      "metadata": {
+        "proveedor": "DIABLO CREATIVO MEXICO",
+        "representante": "Rodolfo Garcia Perez"
+      },
+      "eventHash": "59d9c39f39b7dc3c00d04eb08a732129e2ced8bb54996d276db64c6bb441b012"
+    },
+    {
+      "eventId": "0972bdd6-521f-486f-9496-5a13b27929e5",
+      "uid": "DCM200511J16",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-03T01:19:29.191Z",
+      "timestampLocal": "2026-06-03T01:19:29.191Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "59d9c39f39b7dc3c00d04eb08a732129e2ced8bb54996d276db64c6bb441b012",
+      "documentHash": "43e67478b8ae6e944813164d0d83edbf1bc8be39f547f5c65f019323d00f3470",
+      "eventHash": "84752a05d5b7fb939a172231be9c1c5d295bdd56c01802407d611b1a4df00be3"
+    },
+    {
+      "eventId": "c5c51968-48b1-4197-952a-334790495f23",
+      "uid": "DCM200511J16",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-03T01:23:35.477Z",
+      "timestampLocal": "2026-06-02T19:23:35.477Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.146.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "84752a05d5b7fb939a172231be9c1c5d295bdd56c01802407d611b1a4df00be3",
+      "documentHash": "7dd5214f87350b892bdeadc464cb88623bc283064a82a73e098f92b258eddc62",
+      "signatureHash": "f7e02bdb168f6287ea304508464e7b0dc7b430524cd2e9443904e93d8af5af92",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-02T19:23:32.170Z"
+      },
+      "eventHash": "6be5e34a992427ab1891a3b4e8bec2d5854dcee5d9e02790dec049426cf6b05f"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-03T01:23:35.477Z"
+  }
 }
