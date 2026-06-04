@@ -1,19 +1,100 @@
 {
   "uid": "1026306163",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JUANDY SALAZAR GARCIA",
     "nombre_representante_legal": "n/A",
     "email": "operaciones@factcil.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "JUANDY SALAZAR GARCIA",
-    "nombre_representante_legal": "n/A",
-    "email": "operaciones@factcil.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-04T15:06:54.615Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/1026306163",
+  "signatureMetadata": {
+    "ip": "190.158.204.28",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-04T20:06:57.952Z",
+    "signedAtLocal": "2026-06-04T15:06:57.952Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b1302de9b9cfb340e56c43a76ab3fa0e167c0159c64b70ced33f9c87a723a16d"
+  "documentHash": "905e9201b66a4fc3746a7e8615812dc75351f1857ecf2646ce539667bc190de8",
+  "auditTrail": [
+    {
+      "eventId": "d9107091-cf36-4c70-a716-93e4aaedd91a",
+      "uid": "1026306163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-04T20:06:37.637Z",
+      "timestampLocal": "2026-06-04T20:06:37.637Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.158.204.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1026306163&nombre_proveedor_razon_social=JUANDY+SALAZAR+GARCIA&nombre_representante_legal=n%2FA&email=operaciones%40factcil.com",
+      "previousEventHash": null,
+      "documentHash": "b1302de9b9cfb340e56c43a76ab3fa0e167c0159c64b70ced33f9c87a723a16d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "88dc4569b4e5760532848b9298aa6adaf13b695ea6ccc4cdce640720c8f60637"
+    },
+    {
+      "eventId": "8f435376-e152-418b-bfb6-f65eed5ac715",
+      "uid": "1026306163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-04T20:06:37.637Z",
+      "timestampLocal": "2026-06-04T20:06:37.637Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.158.204.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1026306163&nombre_proveedor_razon_social=JUANDY+SALAZAR+GARCIA&nombre_representante_legal=n%2FA&email=operaciones%40factcil.com",
+      "previousEventHash": "88dc4569b4e5760532848b9298aa6adaf13b695ea6ccc4cdce640720c8f60637",
+      "documentHash": "b1302de9b9cfb340e56c43a76ab3fa0e167c0159c64b70ced33f9c87a723a16d",
+      "metadata": {
+        "proveedor": "JUANDY SALAZAR GARCIA",
+        "representante": "n/A"
+      },
+      "eventHash": "26f731776756b40ae28c9fa95702a75b3437594b279ff9c6aeb355b0134ea52a"
+    },
+    {
+      "eventId": "e580c93f-57cb-4ea9-8c42-ca32ab7cef4d",
+      "uid": "1026306163",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-04T20:06:38.835Z",
+      "timestampLocal": "2026-06-04T20:06:38.835Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.158.204.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1026306163&nombre_proveedor_razon_social=JUANDY+SALAZAR+GARCIA&nombre_representante_legal=n%2FA&email=operaciones%40factcil.com",
+      "previousEventHash": "26f731776756b40ae28c9fa95702a75b3437594b279ff9c6aeb355b0134ea52a",
+      "documentHash": "b1302de9b9cfb340e56c43a76ab3fa0e167c0159c64b70ced33f9c87a723a16d",
+      "eventHash": "a615469f389b4ec8bf4646625df5cf64f6bdc095097f066d3801f0dcbf896c23"
+    },
+    {
+      "eventId": "e7b1135a-e972-46f4-a4fc-0929aeaa7a61",
+      "uid": "1026306163",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-04T20:06:57.952Z",
+      "timestampLocal": "2026-06-04T15:06:57.952Z",
+      "timezone": "UTC-5",
+      "ipAddress": "190.158.204.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a723e3d9-12c3-4e40-ba3b-2973a6df6017",
+      "previousEventHash": "a615469f389b4ec8bf4646625df5cf64f6bdc095097f066d3801f0dcbf896c23",
+      "documentHash": "905e9201b66a4fc3746a7e8615812dc75351f1857ecf2646ce539667bc190de8",
+      "signatureHash": "6dcb3cbbba384a82eeb7a04e236e0ff2179798b335347f6bb6dcaa92d21710c8",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-04T15:06:54.615Z"
+      },
+      "eventHash": "bc29f57e07ea6489623201fa75759431a86f6d41793055544617ddbf92280506"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-04T20:06:57.952Z"
+  }
 }
