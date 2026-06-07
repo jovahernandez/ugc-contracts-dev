@@ -1,19 +1,100 @@
 {
   "uid": "COMC9902205N2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Carlos Eduardo Contreras Montelongo",
     "nombre_representante_legal": "Carlos Contreras Montelongo",
     "email": "carlos.ecm0299@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Carlos Eduardo Contreras Montelongo",
-    "nombre_representante_legal": "Carlos Contreras Montelongo",
-    "email": "carlos.ecm0299@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-06T20:45:01.852Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/COMC9902205N2",
+  "signatureMetadata": {
+    "ip": "187.189.149.30",
+    "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_0_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.45 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-06-07T02:45:05.215Z",
+    "signedAtLocal": "2026-06-06T20:45:05.215Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "750e641d51d92c0234d860fee58472c1a2666982be122a3c79650530c474f0b4"
+  "documentHash": "933d2528abffd211d565fb75d57dc87a638cac27109fd74c08dc05fe07104c88",
+  "auditTrail": [
+    {
+      "eventId": "e772d62d-d2cc-4bf5-a241-a9af17257be1",
+      "uid": "COMC9902205N2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-07T02:44:09.326Z",
+      "timestampLocal": "2026-06-07T02:44:09.326Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.149.30",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_0_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.45 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "750e641d51d92c0234d860fee58472c1a2666982be122a3c79650530c474f0b4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "61cbee279e16d654f199096401e402881f918ffb084a9e432e2fe9b38d1f7b50"
+    },
+    {
+      "eventId": "05750d4c-c770-40b4-aef5-7534e9a438d5",
+      "uid": "COMC9902205N2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-07T02:44:09.326Z",
+      "timestampLocal": "2026-06-07T02:44:09.326Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.149.30",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_0_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.45 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "61cbee279e16d654f199096401e402881f918ffb084a9e432e2fe9b38d1f7b50",
+      "documentHash": "750e641d51d92c0234d860fee58472c1a2666982be122a3c79650530c474f0b4",
+      "metadata": {
+        "proveedor": "Carlos Eduardo Contreras Montelongo",
+        "representante": "Carlos Contreras Montelongo"
+      },
+      "eventHash": "2c560106b7dfaab171c21362b7e15b14aba40594c66168478d7cdf7a0e55ff68"
+    },
+    {
+      "eventId": "dc63dfdd-a01a-4179-8192-87a0441f76fe",
+      "uid": "COMC9902205N2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-07T02:44:10.405Z",
+      "timestampLocal": "2026-06-07T02:44:10.405Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.149.30",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_0_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.45 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "2c560106b7dfaab171c21362b7e15b14aba40594c66168478d7cdf7a0e55ff68",
+      "documentHash": "750e641d51d92c0234d860fee58472c1a2666982be122a3c79650530c474f0b4",
+      "eventHash": "77c68890c4fb7357a907ea3f2458d54b62c9ce847258036e797ef3db9cce6348"
+    },
+    {
+      "eventId": "fcc0e328-2471-4392-8bc6-e8213ad65d62",
+      "uid": "COMC9902205N2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-07T02:45:05.215Z",
+      "timestampLocal": "2026-06-06T20:45:05.215Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.149.30",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_0_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.45 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "77c68890c4fb7357a907ea3f2458d54b62c9ce847258036e797ef3db9cce6348",
+      "documentHash": "933d2528abffd211d565fb75d57dc87a638cac27109fd74c08dc05fe07104c88",
+      "signatureHash": "509498e57ced0d05fcb5d5c7d403c1a0befb9e6dd4a3cc1e364bc9bd39712564",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-06T20:45:01.852Z"
+      },
+      "eventHash": "263df227ee09c788476366c649c06d3026476c26cb16c1b0b3b82c88b975da14"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-07T02:45:05.216Z"
+  }
 }
