@@ -1,19 +1,100 @@
 {
   "uid": "772489870",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Zas Talents SpA",
     "nombre_representante_legal": "Mishell Perez Villoslada",
     "email": "martina.boazzo@zastalents.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Zas Talents SpA",
-    "nombre_representante_legal": "Mishell Perez Villoslada",
-    "email": "martina.boazzo@zastalents.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-08T17:35:31.249Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/772489870",
+  "signatureMetadata": {
+    "ip": "186.122.141.32",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-08T20:35:34.956Z",
+    "signedAtLocal": "2026-06-08T17:35:34.956Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f3549f1d18652ec21e54170c52c1cf3c597b4453c3ee928dd1fc39c00825888a"
+  "documentHash": "a1951305b8ad166e542821daa520c8b9cca8dca5f68b600409a738061dab5f20",
+  "auditTrail": [
+    {
+      "eventId": "552cd3c4-4827-4f74-81ea-5cdab9054fe7",
+      "uid": "772489870",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-08T20:35:17.544Z",
+      "timestampLocal": "2026-06-08T20:35:17.544Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.122.141.32",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=772489870&nombre_proveedor_razon_social=Zas+Talents+SpA&nombre_representante_legal=Mishell+Perez+Villoslada&email=martina.boazzo%40zastalents.com",
+      "previousEventHash": null,
+      "documentHash": "f3549f1d18652ec21e54170c52c1cf3c597b4453c3ee928dd1fc39c00825888a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a0bcb483662b36f9495a8b716bc59f29aa5ac4a8e1ef1653d4e805ab451428c9"
+    },
+    {
+      "eventId": "69b0a972-5aac-4b3f-80a7-46a376c05737",
+      "uid": "772489870",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-08T20:35:17.544Z",
+      "timestampLocal": "2026-06-08T20:35:17.544Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.122.141.32",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=772489870&nombre_proveedor_razon_social=Zas+Talents+SpA&nombre_representante_legal=Mishell+Perez+Villoslada&email=martina.boazzo%40zastalents.com",
+      "previousEventHash": "a0bcb483662b36f9495a8b716bc59f29aa5ac4a8e1ef1653d4e805ab451428c9",
+      "documentHash": "f3549f1d18652ec21e54170c52c1cf3c597b4453c3ee928dd1fc39c00825888a",
+      "metadata": {
+        "proveedor": "Zas Talents SpA",
+        "representante": "Mishell Perez Villoslada"
+      },
+      "eventHash": "75da73ac3ae2ee45cc4ea0d5fd97f5a968b3621f4d1c2c9b985dbc8788964e5f"
+    },
+    {
+      "eventId": "1e9c9d5b-b009-4e0a-a5b7-e19fd9437f41",
+      "uid": "772489870",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-08T20:35:19.386Z",
+      "timestampLocal": "2026-06-08T20:35:19.386Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.122.141.32",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=772489870&nombre_proveedor_razon_social=Zas+Talents+SpA&nombre_representante_legal=Mishell+Perez+Villoslada&email=martina.boazzo%40zastalents.com",
+      "previousEventHash": "75da73ac3ae2ee45cc4ea0d5fd97f5a968b3621f4d1c2c9b985dbc8788964e5f",
+      "documentHash": "f3549f1d18652ec21e54170c52c1cf3c597b4453c3ee928dd1fc39c00825888a",
+      "eventHash": "4cad2851f35c1ac5d4db758350ca2d5d2be6e464a248585d1e39443ef75537b8"
+    },
+    {
+      "eventId": "979f383c-4654-427b-a544-282d15b195c4",
+      "uid": "772489870",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-08T20:35:34.956Z",
+      "timestampLocal": "2026-06-08T17:35:34.956Z",
+      "timezone": "UTC-3",
+      "ipAddress": "186.122.141.32",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/73b5acab-7d8a-4571-8943-5695094635a0",
+      "previousEventHash": "4cad2851f35c1ac5d4db758350ca2d5d2be6e464a248585d1e39443ef75537b8",
+      "documentHash": "a1951305b8ad166e542821daa520c8b9cca8dca5f68b600409a738061dab5f20",
+      "signatureHash": "ebfde3c3018473c9a797d512e09abe581cfcea8b8b57c29905fe61a6f8b91d48",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-08T17:35:31.249Z"
+      },
+      "eventHash": "eff773cf96932676aee811e279812bc1ce55ca3df959b4406d5feef3eabd4f42"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-08T20:35:34.956Z"
+  }
 }
