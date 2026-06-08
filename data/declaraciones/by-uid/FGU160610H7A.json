@@ -1,19 +1,100 @@
 {
   "uid": "FGU160610H7A",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Felices guisos",
     "nombre_representante_legal": "Mariano Sandoval García",
     "email": "fernanda@marianosandoval.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Felices guisos",
-    "nombre_representante_legal": "Mariano Sandoval García",
-    "email": "fernanda@marianosandoval.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-08T15:38:19.855Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/FGU160610H7A",
+  "signatureMetadata": {
+    "ip": "187.190.206.217",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-08T21:38:23.139Z",
+    "signedAtLocal": "2026-06-08T15:38:23.139Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d5169c1ab6e27755f1ad4b60fba434286ab5fcca88de75bedb69744c6044ba4a"
+  "documentHash": "57960645bd869a6cc168070a6e715ed2b7b1d83e1ce0edc2e7e3756a06b06e3c",
+  "auditTrail": [
+    {
+      "eventId": "299dc7ed-2245-422a-b9fd-9c38b06f166b",
+      "uid": "FGU160610H7A",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-08T21:37:54.793Z",
+      "timestampLocal": "2026-06-08T21:37:54.793Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.206.217",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FGU160610H7A&nombre_proveedor_razon_social=Felices+guisos&nombre_representante_legal=Mariano+Sandoval+Garc%C3%ADa+&email=fernanda%40marianosandoval.com",
+      "previousEventHash": null,
+      "documentHash": "d5169c1ab6e27755f1ad4b60fba434286ab5fcca88de75bedb69744c6044ba4a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2152fe645da07ae48e990ddae25073ab0288fbee61e37467336699a29addc043"
+    },
+    {
+      "eventId": "18f3d36e-12ef-40b0-b19f-fccbea644809",
+      "uid": "FGU160610H7A",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-08T21:37:54.793Z",
+      "timestampLocal": "2026-06-08T21:37:54.793Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.206.217",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FGU160610H7A&nombre_proveedor_razon_social=Felices+guisos&nombre_representante_legal=Mariano+Sandoval+Garc%C3%ADa+&email=fernanda%40marianosandoval.com",
+      "previousEventHash": "2152fe645da07ae48e990ddae25073ab0288fbee61e37467336699a29addc043",
+      "documentHash": "d5169c1ab6e27755f1ad4b60fba434286ab5fcca88de75bedb69744c6044ba4a",
+      "metadata": {
+        "proveedor": "Felices guisos",
+        "representante": "Mariano Sandoval García"
+      },
+      "eventHash": "1cb2c7228425ea14f2ddfba89a034e080d04b152951f9e57d18bae4c7a6d6915"
+    },
+    {
+      "eventId": "967df7f8-7a13-474b-9e29-04429b11b56f",
+      "uid": "FGU160610H7A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-08T21:37:56.624Z",
+      "timestampLocal": "2026-06-08T21:37:56.624Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.206.217",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FGU160610H7A&nombre_proveedor_razon_social=Felices+guisos&nombre_representante_legal=Mariano+Sandoval+Garc%C3%ADa+&email=fernanda%40marianosandoval.com",
+      "previousEventHash": "1cb2c7228425ea14f2ddfba89a034e080d04b152951f9e57d18bae4c7a6d6915",
+      "documentHash": "d5169c1ab6e27755f1ad4b60fba434286ab5fcca88de75bedb69744c6044ba4a",
+      "eventHash": "bebf24b9bcd4695475e472184db2e2028a25a123a2962fc6364d996d0c258562"
+    },
+    {
+      "eventId": "2d4112af-1f2e-4be1-b008-b5d5380f14ee",
+      "uid": "FGU160610H7A",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-08T21:38:23.139Z",
+      "timestampLocal": "2026-06-08T15:38:23.139Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.206.217",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/45ea28e3-c8c6-488a-8627-ddeb50aab48d",
+      "previousEventHash": "bebf24b9bcd4695475e472184db2e2028a25a123a2962fc6364d996d0c258562",
+      "documentHash": "57960645bd869a6cc168070a6e715ed2b7b1d83e1ce0edc2e7e3756a06b06e3c",
+      "signatureHash": "b97dba74232b3991be600fc2e534e6a2c08d42423f41d691cebfa1aa7a2b2ca2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-08T15:38:19.855Z"
+      },
+      "eventHash": "1813b465502fbc23e658cfda2306d33aa8e571c6c16d9db4f84d0b652dc256db"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-08T21:38:23.141Z"
+  }
 }
