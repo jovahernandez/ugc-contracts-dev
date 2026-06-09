@@ -1,19 +1,100 @@
 {
   "uid": "OETI0606148I9",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Isabella Oseguera de la Torre",
     "nombre_representante_legal": "Isabella Oseguera",
     "email": "isabella.oseguera06@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Isabella Oseguera de la Torre",
-    "nombre_representante_legal": "Isabella Oseguera",
-    "email": "isabella.oseguera06@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-09T13:38:27.132Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/OETI0606148I9",
+  "signatureMetadata": {
+    "ip": "201.141.16.4",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+    "signedAtUtc": "2026-06-09T19:38:33.073Z",
+    "signedAtLocal": "2026-06-09T13:38:33.073Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5ac7fe68348503c515c2163ec8e06c16abbb76b80c6ef3a6cd12edb8504337a1"
+  "documentHash": "0cd209dbe6a0173d7843d321435c968bc27d2b266c494e9db909832b42a62786",
+  "auditTrail": [
+    {
+      "eventId": "5523d2d5-e23a-420a-a047-b695e13852f1",
+      "uid": "OETI0606148I9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-09T19:33:01.218Z",
+      "timestampLocal": "2026-06-09T19:33:01.218Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.16.4",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "5ac7fe68348503c515c2163ec8e06c16abbb76b80c6ef3a6cd12edb8504337a1",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4c5ce2d9972852cf0bc6499670bad2b5e05fde97b2bd4a97d56970ddf9f2f148"
+    },
+    {
+      "eventId": "3d2e3605-dadb-468d-b808-4dedb76c9046",
+      "uid": "OETI0606148I9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-09T19:33:01.218Z",
+      "timestampLocal": "2026-06-09T19:33:01.218Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.16.4",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4c5ce2d9972852cf0bc6499670bad2b5e05fde97b2bd4a97d56970ddf9f2f148",
+      "documentHash": "5ac7fe68348503c515c2163ec8e06c16abbb76b80c6ef3a6cd12edb8504337a1",
+      "metadata": {
+        "proveedor": "Isabella Oseguera de la Torre",
+        "representante": "Isabella Oseguera"
+      },
+      "eventHash": "8c96b5ecc9d56ef588195cbdba95a7b8489d1f9d0d07e99881f038d15f2a55d5"
+    },
+    {
+      "eventId": "1e915bbc-a073-44f3-8ac7-0f047d2739d6",
+      "uid": "OETI0606148I9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-09T19:33:02.885Z",
+      "timestampLocal": "2026-06-09T19:33:02.885Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.16.4",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8c96b5ecc9d56ef588195cbdba95a7b8489d1f9d0d07e99881f038d15f2a55d5",
+      "documentHash": "5ac7fe68348503c515c2163ec8e06c16abbb76b80c6ef3a6cd12edb8504337a1",
+      "eventHash": "fd3c6f9a162ae9a3ccfcc0782d07cb27a5f351312f2bb0cce0b3c535c32cbd20"
+    },
+    {
+      "eventId": "3ab65ae8-c9c5-424c-897e-bc2766237daf",
+      "uid": "OETI0606148I9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-09T19:38:33.073Z",
+      "timestampLocal": "2026-06-09T13:38:33.073Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.16.4",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "fd3c6f9a162ae9a3ccfcc0782d07cb27a5f351312f2bb0cce0b3c535c32cbd20",
+      "documentHash": "0cd209dbe6a0173d7843d321435c968bc27d2b266c494e9db909832b42a62786",
+      "signatureHash": "ecfe59df1d211058331c25c4a47dbb3731cd07452adb27d85ff70e786b3c5ee5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-09T13:38:27.132Z"
+      },
+      "eventHash": "812a476c9d6d064a5fb00e93e5604b8e35d038c32f8b7b6dbc1482b680089ff8"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-09T19:38:33.074Z"
+  }
 }
