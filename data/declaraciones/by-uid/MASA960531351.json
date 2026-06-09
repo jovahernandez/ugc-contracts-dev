@@ -1,19 +1,100 @@
 {
   "uid": "MASA960531351",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ARMANDO MARTINEZ SANTOS",
     "nombre_representante_legal": "Armando Martínez Santos",
     "email": "armand@bandoleroagency.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ARMANDO MARTINEZ SANTOS",
-    "nombre_representante_legal": "Armando Martínez Santos",
-    "email": "armand@bandoleroagency.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-09T07:16:41.350Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MASA960531351",
+  "signatureMetadata": {
+    "ip": "189.156.190.155",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+    "signedAtUtc": "2026-06-09T13:16:44.617Z",
+    "signedAtLocal": "2026-06-09T07:16:44.617Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "388a7ddb86aa23d9db3d7f505a0a809d30f78124ce2d4ee5cee1ab038f205e5b"
+  "documentHash": "e8c55c314a4640f42f1d72174db27b6e644035ed9cada3dbbe39475f64e35d7e",
+  "auditTrail": [
+    {
+      "eventId": "eb4122ca-e682-4ad5-9162-d4ef1262e520",
+      "uid": "MASA960531351",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-09T13:16:17.408Z",
+      "timestampLocal": "2026-06-09T13:16:17.408Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.156.190.155",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MASA960531351&nombre_proveedor_razon_social=ARMANDO+MARTINEZ+SANTOS&nombre_representante_legal=Armando+Mart%C3%ADnez+Santos&email=armand%40bandoleroagency.com",
+      "previousEventHash": null,
+      "documentHash": "388a7ddb86aa23d9db3d7f505a0a809d30f78124ce2d4ee5cee1ab038f205e5b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b443d0d970b09e41dec0fb7c50564a09c0f52471d7031b942b1c74e027e66c40"
+    },
+    {
+      "eventId": "d0b4f0df-f19e-4dc2-885d-049b90732d04",
+      "uid": "MASA960531351",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-09T13:16:17.408Z",
+      "timestampLocal": "2026-06-09T13:16:17.408Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.156.190.155",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MASA960531351&nombre_proveedor_razon_social=ARMANDO+MARTINEZ+SANTOS&nombre_representante_legal=Armando+Mart%C3%ADnez+Santos&email=armand%40bandoleroagency.com",
+      "previousEventHash": "b443d0d970b09e41dec0fb7c50564a09c0f52471d7031b942b1c74e027e66c40",
+      "documentHash": "388a7ddb86aa23d9db3d7f505a0a809d30f78124ce2d4ee5cee1ab038f205e5b",
+      "metadata": {
+        "proveedor": "ARMANDO MARTINEZ SANTOS",
+        "representante": "Armando Martínez Santos"
+      },
+      "eventHash": "10d13aac7c7e1976e8dde47b11c812ae7bdd50c8e2566284ef216173179faa9c"
+    },
+    {
+      "eventId": "76aa14df-20b0-499d-95a8-f7c072b2ceb9",
+      "uid": "MASA960531351",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-09T13:16:18.922Z",
+      "timestampLocal": "2026-06-09T13:16:18.922Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.156.190.155",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MASA960531351&nombre_proveedor_razon_social=ARMANDO+MARTINEZ+SANTOS&nombre_representante_legal=Armando+Mart%C3%ADnez+Santos&email=armand%40bandoleroagency.com",
+      "previousEventHash": "10d13aac7c7e1976e8dde47b11c812ae7bdd50c8e2566284ef216173179faa9c",
+      "documentHash": "388a7ddb86aa23d9db3d7f505a0a809d30f78124ce2d4ee5cee1ab038f205e5b",
+      "eventHash": "685906bbe419162079d6b4b49f606e941992053a51f46665a72161354b872bb2"
+    },
+    {
+      "eventId": "bbcb96df-0e97-4aab-8e82-46c3192b54c0",
+      "uid": "MASA960531351",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-09T13:16:44.617Z",
+      "timestampLocal": "2026-06-09T07:16:44.617Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.156.190.155",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/76300d1b-8391-4692-a1bd-800255312fed",
+      "previousEventHash": "685906bbe419162079d6b4b49f606e941992053a51f46665a72161354b872bb2",
+      "documentHash": "e8c55c314a4640f42f1d72174db27b6e644035ed9cada3dbbe39475f64e35d7e",
+      "signatureHash": "daaa45082618f87dbce7f36ff43daa0cdc649961d60d056f58ac8fc7738fbbb4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-09T07:16:41.350Z"
+      },
+      "eventHash": "368a808813d0dda13aab65c8b2ae986491aa2b0cac24dab62ac02d1a460f1272"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-09T13:16:44.617Z"
+  }
 }
