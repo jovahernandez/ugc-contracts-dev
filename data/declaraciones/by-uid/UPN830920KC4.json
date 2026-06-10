@@ -1,19 +1,115 @@
 {
   "uid": "UPN830920KC4",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EL UNIVERSAL COMPAÑIA PERIODISTICA NACIONAL",
     "nombre_representante_legal": "ILDEFONSO FERNANDEZ",
     "email": "maria.vazquez@clabsa.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "EL UNIVERSAL COMPAÑIA PERIODISTICA NACIONAL",
-    "nombre_representante_legal": "ILDEFONSO FERNANDEZ",
-    "email": "maria.vazquez@clabsa.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-10T11:01:38.370Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/UPN830920KC4",
+  "signatureMetadata": {
+    "ip": "201.149.4.28",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "signedAtUtc": "2026-06-10T17:01:41.759Z",
+    "signedAtLocal": "2026-06-10T11:01:41.759Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "cda7324652fe159d941f42016723402f3d67473bfe543f307579aae533c62383"
+  "documentHash": "d66e1472dd22a093ca7dccef6fdfbc635d254bb087dba7c1a7ff034178ef5df7",
+  "auditTrail": [
+    {
+      "eventId": "dbf444d8-6374-42c0-ba76-7acfa5174920",
+      "uid": "UPN830920KC4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-09T21:52:49.154Z",
+      "timestampLocal": "2026-06-09T21:52:49.154Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.194.117",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=UPN830920KC4&nombre_proveedor_razon_social=EL+UNIVERSAL+COMPA%C3%91IA+PERIODISTICA+NACIONAL&nombre_representante_legal=ILDEFONSO+FERNANDEZ&email=maria.vazquez%40clabsa.com.mx",
+      "previousEventHash": null,
+      "documentHash": "cda7324652fe159d941f42016723402f3d67473bfe543f307579aae533c62383",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2c9131400d653cbf13f98ab34200f63456ef938d47454a89bc6e4a06efd8d4b2"
+    },
+    {
+      "eventId": "6c86cf39-b1af-49dd-a10f-f75de2d3e3a2",
+      "uid": "UPN830920KC4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-09T21:52:49.155Z",
+      "timestampLocal": "2026-06-09T21:52:49.155Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.194.117",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=UPN830920KC4&nombre_proveedor_razon_social=EL+UNIVERSAL+COMPA%C3%91IA+PERIODISTICA+NACIONAL&nombre_representante_legal=ILDEFONSO+FERNANDEZ&email=maria.vazquez%40clabsa.com.mx",
+      "previousEventHash": "2c9131400d653cbf13f98ab34200f63456ef938d47454a89bc6e4a06efd8d4b2",
+      "documentHash": "cda7324652fe159d941f42016723402f3d67473bfe543f307579aae533c62383",
+      "metadata": {
+        "proveedor": "EL UNIVERSAL COMPAÑIA PERIODISTICA NACIONAL",
+        "representante": "ILDEFONSO FERNANDEZ"
+      },
+      "eventHash": "4aaab8a6dee4e2195b74f3da61589c119a83e62c9b2afa759f3fb0850c8e2c7c"
+    },
+    {
+      "eventId": "b6680b3f-73ac-49c7-8d00-ad64086bb3c4",
+      "uid": "UPN830920KC4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-09T21:52:50.416Z",
+      "timestampLocal": "2026-06-09T21:52:50.416Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.194.117",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=UPN830920KC4&nombre_proveedor_razon_social=EL+UNIVERSAL+COMPA%C3%91IA+PERIODISTICA+NACIONAL&nombre_representante_legal=ILDEFONSO+FERNANDEZ&email=maria.vazquez%40clabsa.com.mx",
+      "previousEventHash": "4aaab8a6dee4e2195b74f3da61589c119a83e62c9b2afa759f3fb0850c8e2c7c",
+      "documentHash": "cda7324652fe159d941f42016723402f3d67473bfe543f307579aae533c62383",
+      "eventHash": "e60588f6bc916da9333d68248f5c18dd13d787fb6e8e5ed797a06d5134a29aca"
+    },
+    {
+      "eventId": "b7b0a17c-8ca6-4fa2-8d11-b922a53c8b2f",
+      "uid": "UPN830920KC4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-10T17:01:01.125Z",
+      "timestampLocal": "2026-06-10T17:01:01.125Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.4.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "e60588f6bc916da9333d68248f5c18dd13d787fb6e8e5ed797a06d5134a29aca",
+      "documentHash": "cda7324652fe159d941f42016723402f3d67473bfe543f307579aae533c62383",
+      "eventHash": "70f3d11d6b8031e78f8e1c66bede7175141e8c136eeba20ef15e3526811cadec"
+    },
+    {
+      "eventId": "cee283e2-4783-4ec2-8fe9-9c697aff25bd",
+      "uid": "UPN830920KC4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-10T17:01:41.759Z",
+      "timestampLocal": "2026-06-10T11:01:41.759Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.149.4.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d05a9b2d-7099-413c-acab-8c55ac42fb7b",
+      "previousEventHash": "70f3d11d6b8031e78f8e1c66bede7175141e8c136eeba20ef15e3526811cadec",
+      "documentHash": "d66e1472dd22a093ca7dccef6fdfbc635d254bb087dba7c1a7ff034178ef5df7",
+      "signatureHash": "79089918ee11ca5b0ae1ca5091c08faf478dc7541290bd96c13eb7fd5ea382b2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-10T11:01:38.370Z"
+      },
+      "eventHash": "3037216f6401091e34d98c14cbfa3943aa58677a92576daa91ffa22875ea9d6f"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-06-10T17:01:41.759Z"
+  }
 }
