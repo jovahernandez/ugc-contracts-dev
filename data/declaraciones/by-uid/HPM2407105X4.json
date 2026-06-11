@@ -1,19 +1,100 @@
 {
   "uid": "HPM2407105X4",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "HAPPY PROBLEMS MEXICO",
     "nombre_representante_legal": "Luis Eben Ezer Sanchez Medrano",
     "email": "finanzas@champan.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "HAPPY PROBLEMS MEXICO",
-    "nombre_representante_legal": "Luis Eben Ezer Sanchez Medrano",
-    "email": "finanzas@champan.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-11T16:52:03.735Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/HPM2407105X4",
+  "signatureMetadata": {
+    "ip": "189.216.165.118",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.45 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-06-11T22:52:07.024Z",
+    "signedAtLocal": "2026-06-11T16:52:07.024Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7e338d09d5ac62f926420d4c543c47e2de28498a98fd44b9eefe6d945a258cee"
+  "documentHash": "899ba527349333596f4f001ea30fae06e5de234e09b9602807035af269e1e874",
+  "auditTrail": [
+    {
+      "eventId": "d2f5da69-3c20-44b9-be3a-c1cc8d62c57e",
+      "uid": "HPM2407105X4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-11T22:49:30.487Z",
+      "timestampLocal": "2026-06-11T22:49:30.487Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.165.118",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.45 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "7e338d09d5ac62f926420d4c543c47e2de28498a98fd44b9eefe6d945a258cee",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cdd5a131ee58f094db2408d30907c649f2995593af39898bccc6ee2fa68717e4"
+    },
+    {
+      "eventId": "75498a65-e434-48ec-8a48-1802e802f75d",
+      "uid": "HPM2407105X4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-11T22:49:30.487Z",
+      "timestampLocal": "2026-06-11T22:49:30.487Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.165.118",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.45 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "cdd5a131ee58f094db2408d30907c649f2995593af39898bccc6ee2fa68717e4",
+      "documentHash": "7e338d09d5ac62f926420d4c543c47e2de28498a98fd44b9eefe6d945a258cee",
+      "metadata": {
+        "proveedor": "HAPPY PROBLEMS MEXICO",
+        "representante": "Luis Eben Ezer Sanchez Medrano"
+      },
+      "eventHash": "a5b810fc00e67fa7a4906b15de44bd589be7fa6fab712cb30cf5ad92b7b80095"
+    },
+    {
+      "eventId": "18d729d7-b3f9-4bea-a2c1-08f7df572d11",
+      "uid": "HPM2407105X4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-11T22:49:31.697Z",
+      "timestampLocal": "2026-06-11T22:49:31.697Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.165.118",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.45 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a5b810fc00e67fa7a4906b15de44bd589be7fa6fab712cb30cf5ad92b7b80095",
+      "documentHash": "7e338d09d5ac62f926420d4c543c47e2de28498a98fd44b9eefe6d945a258cee",
+      "eventHash": "8ac15420ed43acddefd846570c3d53b5a5a34d6ba7bbfc06507083be960102c9"
+    },
+    {
+      "eventId": "1c56e6ed-b7ea-4a26-96c8-406fa8a94192",
+      "uid": "HPM2407105X4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-11T22:52:07.024Z",
+      "timestampLocal": "2026-06-11T16:52:07.024Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.216.165.118",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.45 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8ac15420ed43acddefd846570c3d53b5a5a34d6ba7bbfc06507083be960102c9",
+      "documentHash": "899ba527349333596f4f001ea30fae06e5de234e09b9602807035af269e1e874",
+      "signatureHash": "06cb4e4b14045f76fafd2166031a89f89fdf90e09cfdd3e12fce665ed3dac208",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-11T16:52:03.735Z"
+      },
+      "eventHash": "3bb68e237cc2ccb495073d5c47badccce626eca293e77e3876428a54eb74b852"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-11T22:52:07.025Z"
+  }
 }
