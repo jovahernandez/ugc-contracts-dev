@@ -1,19 +1,100 @@
 {
   "uid": "CAJP701124EM2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PERLA CAMARENA JIMENEZ",
     "nombre_representante_legal": "PERLA CAMARENA JIMENEZ",
     "email": "facturacion@dreamlabagency.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PERLA CAMARENA JIMENEZ",
-    "nombre_representante_legal": "PERLA CAMARENA JIMENEZ",
-    "email": "facturacion@dreamlabagency.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-12T13:47:10.716Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CAJP701124EM2",
+  "signatureMetadata": {
+    "ip": "201.119.55.249",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-12T19:47:14.068Z",
+    "signedAtLocal": "2026-06-12T13:47:14.068Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e69b84f81a18bc191fbc634c67ce7a8d522de719a7325092b8ce6a8fabd1aeb5"
+  "documentHash": "6753822f8791b2bdcda1cce0bfff7331b41ac67f5329a931fe09137750fab188",
+  "auditTrail": [
+    {
+      "eventId": "f1745b50-868a-4ef2-99c7-c004f7f1092d",
+      "uid": "CAJP701124EM2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-12T19:46:16.037Z",
+      "timestampLocal": "2026-06-12T19:46:16.037Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.55.249",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAJP701124EM2&nombre_proveedor_razon_social=PERLA+CAMARENA+JIMENEZ&nombre_representante_legal=PERLA+CAMARENA+JIMENEZ&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": null,
+      "documentHash": "e69b84f81a18bc191fbc634c67ce7a8d522de719a7325092b8ce6a8fabd1aeb5",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0f2f9a63e0094f598f8cf2c1c0ab4d72e7da0896eaf31fa56302bdf3e1a02150"
+    },
+    {
+      "eventId": "be002056-7db0-4f6c-917d-08ff34ac6f56",
+      "uid": "CAJP701124EM2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-12T19:46:16.037Z",
+      "timestampLocal": "2026-06-12T19:46:16.037Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.55.249",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAJP701124EM2&nombre_proveedor_razon_social=PERLA+CAMARENA+JIMENEZ&nombre_representante_legal=PERLA+CAMARENA+JIMENEZ&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "0f2f9a63e0094f598f8cf2c1c0ab4d72e7da0896eaf31fa56302bdf3e1a02150",
+      "documentHash": "e69b84f81a18bc191fbc634c67ce7a8d522de719a7325092b8ce6a8fabd1aeb5",
+      "metadata": {
+        "proveedor": "PERLA CAMARENA JIMENEZ",
+        "representante": "PERLA CAMARENA JIMENEZ"
+      },
+      "eventHash": "7438503611498ad2c1d6bf8b39963d2780851968612cf7b3aa6dc8ae21b31522"
+    },
+    {
+      "eventId": "668c7d94-04d3-41f0-b5a2-e01fbaa8cc33",
+      "uid": "CAJP701124EM2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-12T19:46:17.340Z",
+      "timestampLocal": "2026-06-12T19:46:17.340Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.55.249",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAJP701124EM2&nombre_proveedor_razon_social=PERLA+CAMARENA+JIMENEZ&nombre_representante_legal=PERLA+CAMARENA+JIMENEZ&email=facturacion%40dreamlabagency.com",
+      "previousEventHash": "7438503611498ad2c1d6bf8b39963d2780851968612cf7b3aa6dc8ae21b31522",
+      "documentHash": "e69b84f81a18bc191fbc634c67ce7a8d522de719a7325092b8ce6a8fabd1aeb5",
+      "eventHash": "ff815c710c7857d0c0308af0b4194ac0671823381939688d41a9575086481b56"
+    },
+    {
+      "eventId": "f54920d0-14e8-4cc8-877b-40e8367376f7",
+      "uid": "CAJP701124EM2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-12T19:47:14.068Z",
+      "timestampLocal": "2026-06-12T13:47:14.068Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.119.55.249",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/bffa531f-18b3-4e59-8612-a7f7b3f1da58",
+      "previousEventHash": "ff815c710c7857d0c0308af0b4194ac0671823381939688d41a9575086481b56",
+      "documentHash": "6753822f8791b2bdcda1cce0bfff7331b41ac67f5329a931fe09137750fab188",
+      "signatureHash": "86eee812055dc51901b13135c40d10bb8b4d009e9c6e997840b730a264dc7af8",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-12T13:47:10.716Z"
+      },
+      "eventHash": "4c35c1aa0a4248640a8defd93b79348afe0e11b7cf055ae78d06c798135e8bac"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-12T19:47:14.068Z"
+  }
 }
