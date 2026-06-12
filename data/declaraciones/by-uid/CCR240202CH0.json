@@ -1,19 +1,100 @@
 {
   "uid": "CCR240202CH0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CREATORS CRATE SAPIDE CV",
     "nombre_representante_legal": "Emilio Covarrubias Villarreal",
     "email": "facturacion@creatorscrate.cc"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CREATORS CRATE SAPIDE CV",
-    "nombre_representante_legal": "Emilio Covarrubias Villarreal",
-    "email": "facturacion@creatorscrate.cc"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-12T11:31:10.472Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CCR240202CH0",
+  "signatureMetadata": {
+    "ip": "187.159.248.198",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-12T17:31:13.770Z",
+    "signedAtLocal": "2026-06-12T11:31:13.770Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0afc49f5e758b36a0c1db27a902bb39dfc83d89580b0b5c0872f82b80e209e9a"
+  "documentHash": "fb2097f7a985213a46dcfb6b3e3ae085c4693ec74d5ff6831958df7a88028b3f",
+  "auditTrail": [
+    {
+      "eventId": "629d4b5f-e46e-4228-bfd6-af6286d67d35",
+      "uid": "CCR240202CH0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-12T17:30:46.515Z",
+      "timestampLocal": "2026-06-12T17:30:46.515Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.159.248.198",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CCR240202CH0&nombre_proveedor_razon_social=CREATORS+CRATE+SAPIDE+CV&nombre_representante_legal=Emilio+Covarrubias+Villarreal&email=facturacion%40creatorscrate.cc",
+      "previousEventHash": null,
+      "documentHash": "0afc49f5e758b36a0c1db27a902bb39dfc83d89580b0b5c0872f82b80e209e9a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c3f4bf2e3a2628b6af2b10063eefc8918fbc6298f55e64162ed5aa2e9669c52d"
+    },
+    {
+      "eventId": "bd6d93ec-8b84-4de0-bbe7-481d2c339fa5",
+      "uid": "CCR240202CH0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-12T17:30:46.515Z",
+      "timestampLocal": "2026-06-12T17:30:46.515Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.159.248.198",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CCR240202CH0&nombre_proveedor_razon_social=CREATORS+CRATE+SAPIDE+CV&nombre_representante_legal=Emilio+Covarrubias+Villarreal&email=facturacion%40creatorscrate.cc",
+      "previousEventHash": "c3f4bf2e3a2628b6af2b10063eefc8918fbc6298f55e64162ed5aa2e9669c52d",
+      "documentHash": "0afc49f5e758b36a0c1db27a902bb39dfc83d89580b0b5c0872f82b80e209e9a",
+      "metadata": {
+        "proveedor": "CREATORS CRATE SAPIDE CV",
+        "representante": "Emilio Covarrubias Villarreal"
+      },
+      "eventHash": "2bafa0a58c6cbea1fdba5d47a2c08a323782dd401e48e1710c3c237b0f325140"
+    },
+    {
+      "eventId": "5316b525-34c4-40cc-8976-b8a3ce68bd5b",
+      "uid": "CCR240202CH0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-12T17:30:47.752Z",
+      "timestampLocal": "2026-06-12T17:30:47.752Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.159.248.198",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CCR240202CH0&nombre_proveedor_razon_social=CREATORS+CRATE+SAPIDE+CV&nombre_representante_legal=Emilio+Covarrubias+Villarreal&email=facturacion%40creatorscrate.cc",
+      "previousEventHash": "2bafa0a58c6cbea1fdba5d47a2c08a323782dd401e48e1710c3c237b0f325140",
+      "documentHash": "0afc49f5e758b36a0c1db27a902bb39dfc83d89580b0b5c0872f82b80e209e9a",
+      "eventHash": "4667fff0a647cc0ef6975748dd2c81fe4b0ecfc9f12c642b3c71f2258724654f"
+    },
+    {
+      "eventId": "175a0b0c-839f-4fd3-9916-e913b15ff3a2",
+      "uid": "CCR240202CH0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-12T17:31:13.770Z",
+      "timestampLocal": "2026-06-12T11:31:13.770Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.159.248.198",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/6ec2ca77-a6a3-4a31-98d3-2ad828dd6915",
+      "previousEventHash": "4667fff0a647cc0ef6975748dd2c81fe4b0ecfc9f12c642b3c71f2258724654f",
+      "documentHash": "fb2097f7a985213a46dcfb6b3e3ae085c4693ec74d5ff6831958df7a88028b3f",
+      "signatureHash": "aafcfc94fae87d3964bed0ca3cf4255d2a63abf773cbb23714d42a5cf94905a0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-12T11:31:10.472Z"
+      },
+      "eventHash": "844f66c12be962bd7ef238226333941deddfe852c3398760a575372fc589d618"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-12T17:31:13.770Z"
+  }
 }
