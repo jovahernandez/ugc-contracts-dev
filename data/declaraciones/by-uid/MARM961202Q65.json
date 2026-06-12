@@ -1,19 +1,100 @@
 {
   "uid": "MARM961202Q65",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MARIA MALO JUVERA RAIMOND KEDILHAC",
     "nombre_representante_legal": "N/A",
     "email": "contactomariamalo@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MARIA MALO JUVERA RAIMOND KEDILHAC",
-    "nombre_representante_legal": "N/A",
-    "email": "contactomariamalo@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-12T15:12:58.261Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MARM961202Q65",
+  "signatureMetadata": {
+    "ip": "187.168.162.139",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-12T21:13:01.570Z",
+    "signedAtLocal": "2026-06-12T15:13:01.570Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "845651646026d5e9a74b63f3437398a29418c6f4109e9a5fabe766b85a4a1741"
+  "documentHash": "27ab5c0215e0107820e12d42f0c40f8c293e0f513722cb324b22a4ddde959c17",
+  "auditTrail": [
+    {
+      "eventId": "edd7f9d7-0ade-4096-b964-1ae0f56d326b",
+      "uid": "MARM961202Q65",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-12T21:08:39.313Z",
+      "timestampLocal": "2026-06-12T21:08:39.313Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.162.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MARM961202Q65&nombre_proveedor_razon_social=MARIA+MALO+JUVERA+RAIMOND+KEDILHAC&nombre_representante_legal=N%2FA&email=contactomariamalo%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "845651646026d5e9a74b63f3437398a29418c6f4109e9a5fabe766b85a4a1741",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a1af8cf450e20e416327bcaa70daffbd973a8808c8da933808fc883597cddf69"
+    },
+    {
+      "eventId": "2dd877d8-37af-4fca-874e-0372ff04461d",
+      "uid": "MARM961202Q65",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-12T21:08:39.313Z",
+      "timestampLocal": "2026-06-12T21:08:39.313Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.162.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MARM961202Q65&nombre_proveedor_razon_social=MARIA+MALO+JUVERA+RAIMOND+KEDILHAC&nombre_representante_legal=N%2FA&email=contactomariamalo%40gmail.com",
+      "previousEventHash": "a1af8cf450e20e416327bcaa70daffbd973a8808c8da933808fc883597cddf69",
+      "documentHash": "845651646026d5e9a74b63f3437398a29418c6f4109e9a5fabe766b85a4a1741",
+      "metadata": {
+        "proveedor": "MARIA MALO JUVERA RAIMOND KEDILHAC",
+        "representante": "N/A"
+      },
+      "eventHash": "15d23548b676903a55fc4d8b4530518ee312ee8ff6504581c81ac304e28043a6"
+    },
+    {
+      "eventId": "78b9ba83-bfe3-43f3-bb88-e8096be24fc6",
+      "uid": "MARM961202Q65",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-12T21:08:40.473Z",
+      "timestampLocal": "2026-06-12T21:08:40.473Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.162.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MARM961202Q65&nombre_proveedor_razon_social=MARIA+MALO+JUVERA+RAIMOND+KEDILHAC&nombre_representante_legal=N%2FA&email=contactomariamalo%40gmail.com",
+      "previousEventHash": "15d23548b676903a55fc4d8b4530518ee312ee8ff6504581c81ac304e28043a6",
+      "documentHash": "845651646026d5e9a74b63f3437398a29418c6f4109e9a5fabe766b85a4a1741",
+      "eventHash": "f91eff437f752b8f83260cae363ec5f9f24e62aa3cd6a15c5585050801701247"
+    },
+    {
+      "eventId": "0f48d584-4812-48e3-9ae8-d84072bb3d3b",
+      "uid": "MARM961202Q65",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-12T21:13:01.570Z",
+      "timestampLocal": "2026-06-12T15:13:01.570Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.168.162.139",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/3de6ccf4-25ab-4066-ad8f-d3864b1ccd64",
+      "previousEventHash": "f91eff437f752b8f83260cae363ec5f9f24e62aa3cd6a15c5585050801701247",
+      "documentHash": "27ab5c0215e0107820e12d42f0c40f8c293e0f513722cb324b22a4ddde959c17",
+      "signatureHash": "00475401393a3b1a8755ee58a29c8d75e14528df20487e93085be7a894cdff53",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-12T15:12:58.261Z"
+      },
+      "eventHash": "bd6e3ae60b5bec2a03dc20325d6cd2fcd691f460df21c1006d864f4f1e949073"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-12T21:13:01.570Z"
+  }
 }
