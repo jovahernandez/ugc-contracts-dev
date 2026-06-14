@@ -1,19 +1,100 @@
 {
   "uid": "AISA920421DA9",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ALEJADRO ARIZMENDI SANTOS",
     "nombre_representante_legal": "ALEJANDRO ARIZMENDI SANTOS",
     "email": "alexbridalhairdesigner@outlook.es"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ALEJADRO ARIZMENDI SANTOS",
-    "nombre_representante_legal": "ALEJANDRO ARIZMENDI SANTOS",
-    "email": "alexbridalhairdesigner@outlook.es"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-13T18:26:45.178Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AISA920421DA9",
+  "signatureMetadata": {
+    "ip": "189.203.132.23",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-14T00:26:48.426Z",
+    "signedAtLocal": "2026-06-13T18:26:48.426Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e432b73ea9520e98f6253947230bb4e4af7524b40b66b486c52fb593be80a056"
+  "documentHash": "107aaed50cd4b7ec8d34d157a218e82fb3ec42b00129acc4440b499a34532113",
+  "auditTrail": [
+    {
+      "eventId": "536a5598-27e4-4aa7-8553-62bbde6d394a",
+      "uid": "AISA920421DA9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-14T00:24:37.534Z",
+      "timestampLocal": "2026-06-14T00:24:37.534Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.132.23",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AISA920421DA9&nombre_proveedor_razon_social=ALEJADRO+ARIZMENDI+SANTOS&nombre_representante_legal=ALEJANDRO+ARIZMENDI+SANTOS&email=alexbridalhairdesigner%40outlook.es",
+      "previousEventHash": null,
+      "documentHash": "e432b73ea9520e98f6253947230bb4e4af7524b40b66b486c52fb593be80a056",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9e9d27ce8341a4ba26f179c9aa33445ae4ae310f8d0609048494e6250f5c9ea3"
+    },
+    {
+      "eventId": "dc618fe1-c306-4b91-97a6-27bc85a43bc0",
+      "uid": "AISA920421DA9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-14T00:24:37.534Z",
+      "timestampLocal": "2026-06-14T00:24:37.534Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.132.23",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AISA920421DA9&nombre_proveedor_razon_social=ALEJADRO+ARIZMENDI+SANTOS&nombre_representante_legal=ALEJANDRO+ARIZMENDI+SANTOS&email=alexbridalhairdesigner%40outlook.es",
+      "previousEventHash": "9e9d27ce8341a4ba26f179c9aa33445ae4ae310f8d0609048494e6250f5c9ea3",
+      "documentHash": "e432b73ea9520e98f6253947230bb4e4af7524b40b66b486c52fb593be80a056",
+      "metadata": {
+        "proveedor": "ALEJADRO ARIZMENDI SANTOS",
+        "representante": "ALEJANDRO ARIZMENDI SANTOS"
+      },
+      "eventHash": "d98bc54484967b5e47e0d6921af2d789c909d2873858d176e0e7e482a200f7d7"
+    },
+    {
+      "eventId": "681f437d-f697-4fac-96b4-56a31bf6b4a0",
+      "uid": "AISA920421DA9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-14T00:24:38.725Z",
+      "timestampLocal": "2026-06-14T00:24:38.725Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.132.23",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AISA920421DA9&nombre_proveedor_razon_social=ALEJADRO+ARIZMENDI+SANTOS&nombre_representante_legal=ALEJANDRO+ARIZMENDI+SANTOS&email=alexbridalhairdesigner%40outlook.es",
+      "previousEventHash": "d98bc54484967b5e47e0d6921af2d789c909d2873858d176e0e7e482a200f7d7",
+      "documentHash": "e432b73ea9520e98f6253947230bb4e4af7524b40b66b486c52fb593be80a056",
+      "eventHash": "8abe0bdfa195ebcdcbd0d5541d9fac7641740f85f5df5d5addfd3be1e5f24df7"
+    },
+    {
+      "eventId": "a0334917-f12f-47b7-86d5-329b38cafaac",
+      "uid": "AISA920421DA9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-14T00:26:48.426Z",
+      "timestampLocal": "2026-06-13T18:26:48.426Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.132.23",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b5515e2c-e00d-4973-b930-0e3638b7fcc2",
+      "previousEventHash": "8abe0bdfa195ebcdcbd0d5541d9fac7641740f85f5df5d5addfd3be1e5f24df7",
+      "documentHash": "107aaed50cd4b7ec8d34d157a218e82fb3ec42b00129acc4440b499a34532113",
+      "signatureHash": "c7abc253717056e06d8b2265d69588eeb7f9e02b163c0b80628d60784bf0e4de",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-13T18:26:45.178Z"
+      },
+      "eventHash": "2fe761cbf86dc9f1384af97112f275dd3c552adadd3409e6b2216193dcbf2bbd"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-14T00:26:48.426Z"
+  }
 }
