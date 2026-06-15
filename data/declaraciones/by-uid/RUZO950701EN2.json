@@ -1,19 +1,100 @@
 {
   "uid": "RUZO950701EN2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Olympia Ruiz Zamora",
     "nombre_representante_legal": "Olympia Ruiz Zamora",
     "email": "contacto@olympiatalento.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Olympia Ruiz Zamora",
-    "nombre_representante_legal": "Olympia Ruiz Zamora",
-    "email": "contacto@olympiatalento.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-15T16:57:04.293Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RUZO950701EN2",
+  "signatureMetadata": {
+    "ip": "189.176.30.211",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-15T21:57:07.569Z",
+    "signedAtLocal": "2026-06-15T16:57:07.569Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2fea0aeb4d996070237aa33b628d9698027732e277b5f03ad06b533019eb0fdb"
+  "documentHash": "476350c37d6b3789718f680529cfb340a5336b1f9165cbdfbea751ef1711bd6b",
+  "auditTrail": [
+    {
+      "eventId": "a73b8e27-5930-4196-93b3-f574ce063cd9",
+      "uid": "RUZO950701EN2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-15T21:56:09.097Z",
+      "timestampLocal": "2026-06-15T21:56:09.097Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.176.30.211",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RUZO950701EN2&nombre_proveedor_razon_social=Olympia+Ruiz+Zamora&nombre_representante_legal=Olympia+Ruiz+Zamora&email=contacto%40olympiatalento.com",
+      "previousEventHash": null,
+      "documentHash": "2fea0aeb4d996070237aa33b628d9698027732e277b5f03ad06b533019eb0fdb",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e86d1a1e42c62a32f173891a89cc386fa9ce93879a6f55f5299d28ad19b1ae5b"
+    },
+    {
+      "eventId": "94180208-5227-4345-a3e6-133b9decaf91",
+      "uid": "RUZO950701EN2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-15T21:56:09.097Z",
+      "timestampLocal": "2026-06-15T21:56:09.097Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.176.30.211",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RUZO950701EN2&nombre_proveedor_razon_social=Olympia+Ruiz+Zamora&nombre_representante_legal=Olympia+Ruiz+Zamora&email=contacto%40olympiatalento.com",
+      "previousEventHash": "e86d1a1e42c62a32f173891a89cc386fa9ce93879a6f55f5299d28ad19b1ae5b",
+      "documentHash": "2fea0aeb4d996070237aa33b628d9698027732e277b5f03ad06b533019eb0fdb",
+      "metadata": {
+        "proveedor": "Olympia Ruiz Zamora",
+        "representante": "Olympia Ruiz Zamora"
+      },
+      "eventHash": "29ae1cfb9339f8b0f68d048479bfc0140734bfaf826654072d3a3e01e0f90327"
+    },
+    {
+      "eventId": "e043827b-6564-4a70-b372-a6b6c9ff729f",
+      "uid": "RUZO950701EN2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-15T21:56:10.191Z",
+      "timestampLocal": "2026-06-15T21:56:10.191Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.176.30.211",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RUZO950701EN2&nombre_proveedor_razon_social=Olympia+Ruiz+Zamora&nombre_representante_legal=Olympia+Ruiz+Zamora&email=contacto%40olympiatalento.com",
+      "previousEventHash": "29ae1cfb9339f8b0f68d048479bfc0140734bfaf826654072d3a3e01e0f90327",
+      "documentHash": "2fea0aeb4d996070237aa33b628d9698027732e277b5f03ad06b533019eb0fdb",
+      "eventHash": "4bb48ead51dfdcc4741a68535bfa71fdb50f56dad40464c19066ba8a90569f25"
+    },
+    {
+      "eventId": "c16b965a-b139-4cc6-8c0d-6f059edbe579",
+      "uid": "RUZO950701EN2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-15T21:57:07.569Z",
+      "timestampLocal": "2026-06-15T16:57:07.569Z",
+      "timezone": "UTC-5",
+      "ipAddress": "189.176.30.211",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/725b699a-993d-418a-adff-4daf3e79c0d3",
+      "previousEventHash": "4bb48ead51dfdcc4741a68535bfa71fdb50f56dad40464c19066ba8a90569f25",
+      "documentHash": "476350c37d6b3789718f680529cfb340a5336b1f9165cbdfbea751ef1711bd6b",
+      "signatureHash": "fe260f9c5f32229aa357d04e3fde8a10f28261460780d7f7e91a207ca1872eac",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-15T16:57:04.293Z"
+      },
+      "eventHash": "f4aff06e44218197b5e8e51cefc5777dffe8c7d76250a41f214ce5e26aaee102"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-15T21:57:07.570Z"
+  }
 }
