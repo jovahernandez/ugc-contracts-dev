@@ -1,19 +1,100 @@
 {
   "uid": "SABN850826H15",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Nayeli Salvatori Bojalil",
     "nombre_representante_legal": "Nayeli Salvatori Bojalil",
     "email": "gaboromeo_93@hotmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Nayeli Salvatori Bojalil",
-    "nombre_representante_legal": "Nayeli Salvatori Bojalil",
-    "email": "gaboromeo_93@hotmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-15T14:37:30.402Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SABN850826H15",
+  "signatureMetadata": {
+    "ip": "177.240.109.214",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-15T20:37:33.746Z",
+    "signedAtLocal": "2026-06-15T14:37:33.746Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "bf571607fbd8d4ad5072e3e02ef7e996aebb62830dda8b8f02169c42c5e0d949"
+  "documentHash": "259119e99c49855361d0925f33c9028004d92d73ccc58c641f3c4cd5bfeba54e",
+  "auditTrail": [
+    {
+      "eventId": "02b48392-853f-4759-94a0-050cb98d4714",
+      "uid": "SABN850826H15",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-15T20:35:10.471Z",
+      "timestampLocal": "2026-06-15T20:35:10.471Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.240.109.214",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SABN850826H15&nombre_proveedor_razon_social=Nayeli+Salvatori+Bojalil+&nombre_representante_legal=Nayeli+Salvatori+Bojalil&email=gaboromeo_93%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "bf571607fbd8d4ad5072e3e02ef7e996aebb62830dda8b8f02169c42c5e0d949",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "68862e765b6d9c0937059403d0a7e8bdf4bb9fd2e43d6b78c2218f28839bdb6d"
+    },
+    {
+      "eventId": "60031e6e-f56a-40fd-9e11-9c258966d93c",
+      "uid": "SABN850826H15",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-15T20:35:10.471Z",
+      "timestampLocal": "2026-06-15T20:35:10.471Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.240.109.214",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SABN850826H15&nombre_proveedor_razon_social=Nayeli+Salvatori+Bojalil+&nombre_representante_legal=Nayeli+Salvatori+Bojalil&email=gaboromeo_93%40hotmail.com",
+      "previousEventHash": "68862e765b6d9c0937059403d0a7e8bdf4bb9fd2e43d6b78c2218f28839bdb6d",
+      "documentHash": "bf571607fbd8d4ad5072e3e02ef7e996aebb62830dda8b8f02169c42c5e0d949",
+      "metadata": {
+        "proveedor": "Nayeli Salvatori Bojalil",
+        "representante": "Nayeli Salvatori Bojalil"
+      },
+      "eventHash": "b7a1d4471eb1351946a77ca7024e920d11ec5be3c531beda65697a9e199a1bf2"
+    },
+    {
+      "eventId": "c6948d23-5d79-4ce4-a0a4-6900d5728d59",
+      "uid": "SABN850826H15",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-15T20:35:12.339Z",
+      "timestampLocal": "2026-06-15T20:35:12.339Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.240.109.214",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SABN850826H15&nombre_proveedor_razon_social=Nayeli+Salvatori+Bojalil+&nombre_representante_legal=Nayeli+Salvatori+Bojalil&email=gaboromeo_93%40hotmail.com",
+      "previousEventHash": "b7a1d4471eb1351946a77ca7024e920d11ec5be3c531beda65697a9e199a1bf2",
+      "documentHash": "bf571607fbd8d4ad5072e3e02ef7e996aebb62830dda8b8f02169c42c5e0d949",
+      "eventHash": "8bf19cfb0b9da3cc84a0789564c419126382b9ee682df64e3cf44ee4f0a2c3de"
+    },
+    {
+      "eventId": "7e44477f-7f88-48fd-8d9d-1e542831a8e8",
+      "uid": "SABN850826H15",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-15T20:37:33.746Z",
+      "timestampLocal": "2026-06-15T14:37:33.746Z",
+      "timezone": "UTC-6",
+      "ipAddress": "177.240.109.214",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/91bad8e8-a765-4410-8bf6-ef1773d86732",
+      "previousEventHash": "8bf19cfb0b9da3cc84a0789564c419126382b9ee682df64e3cf44ee4f0a2c3de",
+      "documentHash": "259119e99c49855361d0925f33c9028004d92d73ccc58c641f3c4cd5bfeba54e",
+      "signatureHash": "31a0ead548c1bac761b1e5747df72e3d0d23bdd4259e6cbf5c376f97b295a171",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-15T14:37:30.402Z"
+      },
+      "eventHash": "77354f2fa9a4081669fec8bdbd113148fd55aed8bf71b77bf7a295681cafbe9d"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-15T20:37:33.746Z"
+  }
 }
