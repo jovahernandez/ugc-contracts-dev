@@ -1,19 +1,100 @@
 {
   "uid": "IZO181128712",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IZOZKIA",
     "nombre_representante_legal": "Amaya Iriarte",
     "email": "amaya@heladoscarmela.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "IZOZKIA",
-    "nombre_representante_legal": "Amaya Iriarte",
-    "email": "amaya@heladoscarmela.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-16T11:33:34.190Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/IZO181128712",
+  "signatureMetadata": {
+    "ip": "189.216.169.24",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36",
+    "signedAtUtc": "2026-06-16T17:33:37.536Z",
+    "signedAtLocal": "2026-06-16T11:33:37.536Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9ccaa63242555342fd01d19f81922c4715cc5312a23055e48dbdbaaad4ff31fc"
+  "documentHash": "0d37341e7f910f204d445f63ed93b9e5160e2c7b80af8de96c5f327e06d69cb1",
+  "auditTrail": [
+    {
+      "eventId": "3e19c75f-9ffb-443d-8275-118e398359be",
+      "uid": "IZO181128712",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-16T17:33:01.682Z",
+      "timestampLocal": "2026-06-16T17:33:01.682Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.169.24",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "en-MX,en-GB;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IZO181128712&nombre_proveedor_razon_social=IZOZKIA&nombre_representante_legal=Amaya+Iriarte&email=amaya%40heladoscarmela.com",
+      "previousEventHash": null,
+      "documentHash": "9ccaa63242555342fd01d19f81922c4715cc5312a23055e48dbdbaaad4ff31fc",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5944239c75c29ba18219e25a7f2d442e7d4c6390ef2da6d29c42c2beba3716a8"
+    },
+    {
+      "eventId": "e29ef83b-e3d6-4101-b89a-2c57a6cff6ed",
+      "uid": "IZO181128712",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-16T17:33:01.682Z",
+      "timestampLocal": "2026-06-16T17:33:01.682Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.169.24",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "en-MX,en-GB;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IZO181128712&nombre_proveedor_razon_social=IZOZKIA&nombre_representante_legal=Amaya+Iriarte&email=amaya%40heladoscarmela.com",
+      "previousEventHash": "5944239c75c29ba18219e25a7f2d442e7d4c6390ef2da6d29c42c2beba3716a8",
+      "documentHash": "9ccaa63242555342fd01d19f81922c4715cc5312a23055e48dbdbaaad4ff31fc",
+      "metadata": {
+        "proveedor": "IZOZKIA",
+        "representante": "Amaya Iriarte"
+      },
+      "eventHash": "8ad931da47bd14f37481f1e6cbd9de39c29deb71e33fffe39311cf2d8742e5b8"
+    },
+    {
+      "eventId": "9996e82e-4895-445d-bcc2-4d8862da44eb",
+      "uid": "IZO181128712",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-16T17:33:02.957Z",
+      "timestampLocal": "2026-06-16T17:33:02.957Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.169.24",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "en-MX,en-GB;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IZO181128712&nombre_proveedor_razon_social=IZOZKIA&nombre_representante_legal=Amaya+Iriarte&email=amaya%40heladoscarmela.com",
+      "previousEventHash": "8ad931da47bd14f37481f1e6cbd9de39c29deb71e33fffe39311cf2d8742e5b8",
+      "documentHash": "9ccaa63242555342fd01d19f81922c4715cc5312a23055e48dbdbaaad4ff31fc",
+      "eventHash": "387d8dc691db3d1525449508094d65b563f88d22b0d4f5984438435cfe6756a3"
+    },
+    {
+      "eventId": "405b5f3a-2589-4391-841f-20de8054e0d6",
+      "uid": "IZO181128712",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-16T17:33:37.536Z",
+      "timestampLocal": "2026-06-16T11:33:37.536Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.216.169.24",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "en-MX,en-GB;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/afbb0b74-d108-4362-95de-7fb4370a937c",
+      "previousEventHash": "387d8dc691db3d1525449508094d65b563f88d22b0d4f5984438435cfe6756a3",
+      "documentHash": "0d37341e7f910f204d445f63ed93b9e5160e2c7b80af8de96c5f327e06d69cb1",
+      "signatureHash": "27482ab34edc324a1a681ff29f23cbf2c939ba1ffa946bb9005b4c279c165b5c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-16T11:33:34.190Z"
+      },
+      "eventHash": "9b70056b88cd08c9f683a4faa3ce3518e938e314914f640c3db8411b3fa70d57"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-16T17:33:37.537Z"
+  }
 }
