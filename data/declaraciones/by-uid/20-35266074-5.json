@@ -1,19 +1,100 @@
 {
   "uid": "20-35266074-5",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Luciano Federico Guarnerio",
     "nombre_representante_legal": "Pablo Barrios",
     "email": "guarnercontact@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Luciano Federico Guarnerio",
-    "nombre_representante_legal": "Pablo Barrios",
-    "email": "guarnercontact@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-16T21:33:20.471Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20-35266074-5",
+  "signatureMetadata": {
+    "ip": "181.230.225.68",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-17T00:33:23.713Z",
+    "signedAtLocal": "2026-06-16T21:33:23.713Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "074fc7759f5088d9133b76c9a548ffc103fe6e0e7f3c929a9770079adca14329"
+  "documentHash": "9df952cb154698372020773d86d7dae1e6ca09bc465044bbf8685740050b534e",
+  "auditTrail": [
+    {
+      "eventId": "dfe9a958-b2a8-4911-a2bc-b8466b165c89",
+      "uid": "20-35266074-5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-17T00:31:35.327Z",
+      "timestampLocal": "2026-06-17T00:31:35.327Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.230.225.68",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-AR,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20-35266074-5&nombre_proveedor_razon_social=Luciano+Federico+Guarnerio&nombre_representante_legal=Pablo+Barrios&email=guarnercontact%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "074fc7759f5088d9133b76c9a548ffc103fe6e0e7f3c929a9770079adca14329",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "05446c7e12ff9f1cde310fa355c2adb26581e3ebea15f8249104e82c60ae8eb4"
+    },
+    {
+      "eventId": "61b29713-5899-4103-9a99-2421d9b74d9a",
+      "uid": "20-35266074-5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-17T00:31:35.327Z",
+      "timestampLocal": "2026-06-17T00:31:35.327Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.230.225.68",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-AR,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20-35266074-5&nombre_proveedor_razon_social=Luciano+Federico+Guarnerio&nombre_representante_legal=Pablo+Barrios&email=guarnercontact%40gmail.com",
+      "previousEventHash": "05446c7e12ff9f1cde310fa355c2adb26581e3ebea15f8249104e82c60ae8eb4",
+      "documentHash": "074fc7759f5088d9133b76c9a548ffc103fe6e0e7f3c929a9770079adca14329",
+      "metadata": {
+        "proveedor": "Luciano Federico Guarnerio",
+        "representante": "Pablo Barrios"
+      },
+      "eventHash": "eabfc8f721c59969ac64659f4120600967bed513b5de0203caa13e288628edb7"
+    },
+    {
+      "eventId": "96fde15f-90b4-4b35-9c24-7618eda712d8",
+      "uid": "20-35266074-5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-17T00:31:36.952Z",
+      "timestampLocal": "2026-06-17T00:31:36.952Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.230.225.68",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-AR,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20-35266074-5&nombre_proveedor_razon_social=Luciano+Federico+Guarnerio&nombre_representante_legal=Pablo+Barrios&email=guarnercontact%40gmail.com",
+      "previousEventHash": "eabfc8f721c59969ac64659f4120600967bed513b5de0203caa13e288628edb7",
+      "documentHash": "074fc7759f5088d9133b76c9a548ffc103fe6e0e7f3c929a9770079adca14329",
+      "eventHash": "1e15e7635937c18d140b534476527259fa07551684c7db6b8c1c4f8e5dde26dc"
+    },
+    {
+      "eventId": "524ebd8b-c5f4-498d-914f-cd59a37ee49b",
+      "uid": "20-35266074-5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-17T00:33:23.713Z",
+      "timestampLocal": "2026-06-16T21:33:23.713Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.230.225.68",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-AR,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/cd1c61e4-c187-4605-8a46-fe072b0ee66b",
+      "previousEventHash": "1e15e7635937c18d140b534476527259fa07551684c7db6b8c1c4f8e5dde26dc",
+      "documentHash": "9df952cb154698372020773d86d7dae1e6ca09bc465044bbf8685740050b534e",
+      "signatureHash": "60c89487480a47d1c2e13a357577ef5e1d9542b2a66b29f3043b3007b3ce63fb",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-16T21:33:20.471Z"
+      },
+      "eventHash": "70dde6cfe051e2315ae807328e6fbdb88b92e6cd01182e2f8b5fe511cf703643"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-17T00:33:23.714Z"
+  }
 }
