@@ -1,19 +1,100 @@
 {
   "uid": "BATM8805208L1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MARIA DEL MAR BARRIENTOS TAMARIZ",
     "nombre_representante_legal": "MARIA DEL MAR BARRIENTOS TAMARIZ",
     "email": "cpatinoh@hotmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "MARIA DEL MAR BARRIENTOS TAMARIZ",
-    "nombre_representante_legal": "MARIA DEL MAR BARRIENTOS TAMARIZ",
-    "email": "cpatinoh@hotmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-18T14:51:59.115Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BATM8805208L1",
+  "signatureMetadata": {
+    "ip": "189.217.43.253",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-18T20:52:02.515Z",
+    "signedAtLocal": "2026-06-18T14:52:02.515Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fb5ed2677b7c0c94f93b1205852e762f9a7ab56b5d53987cf4953f5bd8908dc2"
+  "documentHash": "031919a9f862e6b30d231b31f3dc7a34085055d6673fec8fa6eafcb7ac4bbe98",
+  "auditTrail": [
+    {
+      "eventId": "8861b5d7-0b01-4aec-bca8-264b51bc5a0f",
+      "uid": "BATM8805208L1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-18T20:40:40.037Z",
+      "timestampLocal": "2026-06-18T20:40:40.037Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.43.253",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BATM8805208L1&nombre_proveedor_razon_social=MARIA+DEL+MAR+BARRIENTOS+TAMARIZ&nombre_representante_legal=MARIA+DEL+MAR+BARRIENTOS+TAMARIZ&email=cpatinoh%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "fb5ed2677b7c0c94f93b1205852e762f9a7ab56b5d53987cf4953f5bd8908dc2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "46bc8de53de4471f8eed4481a8ce5aa14f396b358705294f4a8dbd28bf5d475b"
+    },
+    {
+      "eventId": "d01b0710-1729-4a6f-bd15-f0301c0bbb40",
+      "uid": "BATM8805208L1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-18T20:40:40.037Z",
+      "timestampLocal": "2026-06-18T20:40:40.037Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.43.253",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BATM8805208L1&nombre_proveedor_razon_social=MARIA+DEL+MAR+BARRIENTOS+TAMARIZ&nombre_representante_legal=MARIA+DEL+MAR+BARRIENTOS+TAMARIZ&email=cpatinoh%40hotmail.com",
+      "previousEventHash": "46bc8de53de4471f8eed4481a8ce5aa14f396b358705294f4a8dbd28bf5d475b",
+      "documentHash": "fb5ed2677b7c0c94f93b1205852e762f9a7ab56b5d53987cf4953f5bd8908dc2",
+      "metadata": {
+        "proveedor": "MARIA DEL MAR BARRIENTOS TAMARIZ",
+        "representante": "MARIA DEL MAR BARRIENTOS TAMARIZ"
+      },
+      "eventHash": "b6d422b53b64cc377d0c9cebb7a32c89bc178b06cb92b71537c28d34f6d81af5"
+    },
+    {
+      "eventId": "a1efbe90-f0b0-4fe3-bd8f-2ddf3f5afa7f",
+      "uid": "BATM8805208L1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-18T20:40:41.257Z",
+      "timestampLocal": "2026-06-18T20:40:41.257Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.43.253",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BATM8805208L1&nombre_proveedor_razon_social=MARIA+DEL+MAR+BARRIENTOS+TAMARIZ&nombre_representante_legal=MARIA+DEL+MAR+BARRIENTOS+TAMARIZ&email=cpatinoh%40hotmail.com",
+      "previousEventHash": "b6d422b53b64cc377d0c9cebb7a32c89bc178b06cb92b71537c28d34f6d81af5",
+      "documentHash": "fb5ed2677b7c0c94f93b1205852e762f9a7ab56b5d53987cf4953f5bd8908dc2",
+      "eventHash": "837637c8fe0cde458e7234d5d9852964163dd8b5258b2bfed7327a57d0a2bb78"
+    },
+    {
+      "eventId": "7a3dfad5-34c7-4410-90ca-57b5326bf372",
+      "uid": "BATM8805208L1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-18T20:52:02.515Z",
+      "timestampLocal": "2026-06-18T14:52:02.515Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.43.253",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1d6712a2-2221-4c51-90d8-60394e5612d9",
+      "previousEventHash": "837637c8fe0cde458e7234d5d9852964163dd8b5258b2bfed7327a57d0a2bb78",
+      "documentHash": "031919a9f862e6b30d231b31f3dc7a34085055d6673fec8fa6eafcb7ac4bbe98",
+      "signatureHash": "0a6f632b3038751d36835688b53786989c1d8fe2c15122c5b2f6de09dc41608e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-18T14:51:59.115Z"
+      },
+      "eventHash": "74dbadca6923b459e5e41dd8b6f393be9cc2736fae769be7423eeb8084dd14b0"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-18T20:52:02.515Z"
+  }
 }
