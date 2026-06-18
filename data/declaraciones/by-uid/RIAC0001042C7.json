@@ -1,19 +1,115 @@
 {
   "uid": "RIAC0001042C7",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CLAUDIA MICHELLE DE LOS RIOS ARELLANO",
     "nombre_representante_legal": "CLAUDIA ARELLANO",
     "email": "michelle_dlra@hotmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CLAUDIA MICHELLE DE LOS RIOS ARELLANO",
-    "nombre_representante_legal": "CLAUDIA ARELLANO",
-    "email": "michelle_dlra@hotmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-18T12:06:30.972Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RIAC0001042C7",
+  "signatureMetadata": {
+    "ip": "201.172.175.99",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-18T18:06:34.354Z",
+    "signedAtLocal": "2026-06-18T12:06:34.354Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b08a924ef5cc09660cfb0622d532004ad35e11732efa66292277c658989f95fd"
+  "documentHash": "f30b8e6204e9efb2cadac1b02cdaa504fd8562cb6d1432d6eb306cbe44c8969d",
+  "auditTrail": [
+    {
+      "eventId": "811c3abc-29b0-40a0-a2e3-3ad757481d0a",
+      "uid": "RIAC0001042C7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-18T18:05:06.592Z",
+      "timestampLocal": "2026-06-18T18:05:06.592Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.172.175.99",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RIAC0001042C7&nombre_proveedor_razon_social=CLAUDIA+MICHELLE+DE+LOS+RIOS+ARELLANO&nombre_representante_legal=CLAUDIA+ARELLANO&email=michelle_dlra%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "b08a924ef5cc09660cfb0622d532004ad35e11732efa66292277c658989f95fd",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "fefee4a9dc1833473e9ca36072b708d2664ea850ee16b76c81f69c24c8c541a1"
+    },
+    {
+      "eventId": "b9369ebd-5157-4f33-afe4-ff454d3e0399",
+      "uid": "RIAC0001042C7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-18T18:05:06.592Z",
+      "timestampLocal": "2026-06-18T18:05:06.592Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.172.175.99",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RIAC0001042C7&nombre_proveedor_razon_social=CLAUDIA+MICHELLE+DE+LOS+RIOS+ARELLANO&nombre_representante_legal=CLAUDIA+ARELLANO&email=michelle_dlra%40hotmail.com",
+      "previousEventHash": "fefee4a9dc1833473e9ca36072b708d2664ea850ee16b76c81f69c24c8c541a1",
+      "documentHash": "b08a924ef5cc09660cfb0622d532004ad35e11732efa66292277c658989f95fd",
+      "metadata": {
+        "proveedor": "CLAUDIA MICHELLE DE LOS RIOS ARELLANO",
+        "representante": "CLAUDIA ARELLANO"
+      },
+      "eventHash": "569624bea3b8d4b573a16132dce518c657f45011de8fae9df6bb4ab73c3b95d0"
+    },
+    {
+      "eventId": "45b02c2a-b782-4552-8490-cfdaaa0b2cfc",
+      "uid": "RIAC0001042C7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-18T18:05:07.992Z",
+      "timestampLocal": "2026-06-18T18:05:07.992Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.172.175.99",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RIAC0001042C7&nombre_proveedor_razon_social=CLAUDIA+MICHELLE+DE+LOS+RIOS+ARELLANO&nombre_representante_legal=CLAUDIA+ARELLANO&email=michelle_dlra%40hotmail.com",
+      "previousEventHash": "569624bea3b8d4b573a16132dce518c657f45011de8fae9df6bb4ab73c3b95d0",
+      "documentHash": "b08a924ef5cc09660cfb0622d532004ad35e11732efa66292277c658989f95fd",
+      "eventHash": "f41e2735fc7d0a50a1cd033e12427dd181b3ffeea635b053cd55a3292dd2a1df"
+    },
+    {
+      "eventId": "25b9becf-2c62-46e5-8e6f-f34612bd3fb5",
+      "uid": "RIAC0001042C7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-18T18:05:58.776Z",
+      "timestampLocal": "2026-06-18T18:05:58.776Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.172.175.99",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "f41e2735fc7d0a50a1cd033e12427dd181b3ffeea635b053cd55a3292dd2a1df",
+      "documentHash": "b08a924ef5cc09660cfb0622d532004ad35e11732efa66292277c658989f95fd",
+      "eventHash": "fc297aa4b7573eaf55d2ecb26cb9ebca72537dbb5d61ac747a8dc3d21b59aec0"
+    },
+    {
+      "eventId": "7a13d529-d9c8-4b91-aa28-deba00701403",
+      "uid": "RIAC0001042C7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-18T18:06:34.354Z",
+      "timestampLocal": "2026-06-18T12:06:34.354Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.172.175.99",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a0dc8532-5bc2-4c81-91cc-6240861ac128",
+      "previousEventHash": "fc297aa4b7573eaf55d2ecb26cb9ebca72537dbb5d61ac747a8dc3d21b59aec0",
+      "documentHash": "f30b8e6204e9efb2cadac1b02cdaa504fd8562cb6d1432d6eb306cbe44c8969d",
+      "signatureHash": "5d6a50c3c54dae960312d0c6dd878065645420cde88c29b5b1a6869fb52552f4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-18T12:06:30.972Z"
+      },
+      "eventHash": "d10de340e1baa3f321041dfd58f75a3d113abb996b7f4773be8d40f6e6be00b0"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-06-18T18:06:34.355Z"
+  }
 }
