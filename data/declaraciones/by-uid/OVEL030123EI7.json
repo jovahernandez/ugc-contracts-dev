@@ -1,19 +1,100 @@
 {
   "uid": "OVEL030123EI7",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "OVEL030123EI7",
     "nombre_representante_legal": "Elke Orth",
     "email": "elkeorthv@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "OVEL030123EI7",
-    "nombre_representante_legal": "Elke Orth",
-    "email": "elkeorthv@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-18T14:54:36.674Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/OVEL030123EI7",
+  "signatureMetadata": {
+    "ip": "187.190.189.177",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-18T20:54:39.972Z",
+    "signedAtLocal": "2026-06-18T14:54:39.972Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4c7db9708d699d80fc4422ee01aed1ae97fb96c5b213bde9b2b6e67f70691908"
+  "documentHash": "905d743f4988cb83ee567fdee7717f32f2dfae59d3807118ed42cd14b72b97b2",
+  "auditTrail": [
+    {
+      "eventId": "fe28356b-71cf-4ec9-87a3-9ed580956b49",
+      "uid": "OVEL030123EI7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-18T20:54:24.854Z",
+      "timestampLocal": "2026-06-18T20:54:24.854Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.189.177",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OVEL030123EI7&nombre_proveedor_razon_social=OVEL030123EI7&nombre_representante_legal=Elke+Orth&email=elkeorthv%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "4c7db9708d699d80fc4422ee01aed1ae97fb96c5b213bde9b2b6e67f70691908",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9139a3d419afc418ab61428dea5cc1b03878a4734be612c96c7ab929433c3e7b"
+    },
+    {
+      "eventId": "44142c07-9ca4-457c-9c40-e4af40a007b3",
+      "uid": "OVEL030123EI7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-18T20:54:24.854Z",
+      "timestampLocal": "2026-06-18T20:54:24.854Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.189.177",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OVEL030123EI7&nombre_proveedor_razon_social=OVEL030123EI7&nombre_representante_legal=Elke+Orth&email=elkeorthv%40gmail.com",
+      "previousEventHash": "9139a3d419afc418ab61428dea5cc1b03878a4734be612c96c7ab929433c3e7b",
+      "documentHash": "4c7db9708d699d80fc4422ee01aed1ae97fb96c5b213bde9b2b6e67f70691908",
+      "metadata": {
+        "proveedor": "OVEL030123EI7",
+        "representante": "Elke Orth"
+      },
+      "eventHash": "aede7d9ebbd7565ad96f41fa94861ce7af38869dd02914205ea831cc596de1ec"
+    },
+    {
+      "eventId": "f68fb1b4-a77c-4e82-9121-9bfac78f3b8c",
+      "uid": "OVEL030123EI7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-18T20:54:25.915Z",
+      "timestampLocal": "2026-06-18T20:54:25.915Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.189.177",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OVEL030123EI7&nombre_proveedor_razon_social=OVEL030123EI7&nombre_representante_legal=Elke+Orth&email=elkeorthv%40gmail.com",
+      "previousEventHash": "aede7d9ebbd7565ad96f41fa94861ce7af38869dd02914205ea831cc596de1ec",
+      "documentHash": "4c7db9708d699d80fc4422ee01aed1ae97fb96c5b213bde9b2b6e67f70691908",
+      "eventHash": "0bd8c5bc9dbf186a55fbd0b1aec72994aad692637a5771a23f6ccc04fb6735b4"
+    },
+    {
+      "eventId": "ca3fe626-52ce-40cb-b35e-8d98b458f39d",
+      "uid": "OVEL030123EI7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-18T20:54:39.972Z",
+      "timestampLocal": "2026-06-18T14:54:39.972Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.189.177",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/306e1083-69a5-4e68-9926-40514396b094",
+      "previousEventHash": "0bd8c5bc9dbf186a55fbd0b1aec72994aad692637a5771a23f6ccc04fb6735b4",
+      "documentHash": "905d743f4988cb83ee567fdee7717f32f2dfae59d3807118ed42cd14b72b97b2",
+      "signatureHash": "36b22423805061b6c378a41d728246d70d87176affc211b9f4355c6d929444c6",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-18T14:54:36.674Z"
+      },
+      "eventHash": "ca72410e003318fb33f8ce67a1c00c096a489ba2fcd543232790ac0875c5ad66"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-18T20:54:39.973Z"
+  }
 }
