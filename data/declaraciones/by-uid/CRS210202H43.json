@@ -1,19 +1,100 @@
 {
   "uid": "CRS210202H43",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "COMERCIALIZADORA RED SOLAR",
     "nombre_representante_legal": "ADAN CISNEROS SANTAMARIA",
     "email": "altadefacs@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "COMERCIALIZADORA RED SOLAR",
-    "nombre_representante_legal": "ADAN CISNEROS SANTAMARIA",
-    "email": "altadefacs@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-19T14:43:31.128Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CRS210202H43",
+  "signatureMetadata": {
+    "ip": "189.165.52.112",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-19T20:43:34.510Z",
+    "signedAtLocal": "2026-06-19T14:43:34.510Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "45be70831d4caefe0c263e17cb2a1cdf6e5cacb4aa0c089be5d069092c8b1870"
+  "documentHash": "ea62e8273413c385cb80387780ce5a2ac3cc7fa76447b6d306268799092e6a3d",
+  "auditTrail": [
+    {
+      "eventId": "272c1155-4e56-4151-bf05-f2da00ad6c7c",
+      "uid": "CRS210202H43",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-19T20:39:25.099Z",
+      "timestampLocal": "2026-06-19T20:39:25.099Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.165.52.112",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CRS210202H43&nombre_proveedor_razon_social=COMERCIALIZADORA+RED+SOLAR&nombre_representante_legal=ADAN+CISNEROS+SANTAMARIA&email=altadefacs%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "45be70831d4caefe0c263e17cb2a1cdf6e5cacb4aa0c089be5d069092c8b1870",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "69f0bef1cea2f34eaae4ff55751b3a61beb43e24002d80f4fe839b57b7586596"
+    },
+    {
+      "eventId": "4b4fe2ac-06a6-4e92-9397-b0ded7268d56",
+      "uid": "CRS210202H43",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-19T20:39:25.099Z",
+      "timestampLocal": "2026-06-19T20:39:25.099Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.165.52.112",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CRS210202H43&nombre_proveedor_razon_social=COMERCIALIZADORA+RED+SOLAR&nombre_representante_legal=ADAN+CISNEROS+SANTAMARIA&email=altadefacs%40gmail.com",
+      "previousEventHash": "69f0bef1cea2f34eaae4ff55751b3a61beb43e24002d80f4fe839b57b7586596",
+      "documentHash": "45be70831d4caefe0c263e17cb2a1cdf6e5cacb4aa0c089be5d069092c8b1870",
+      "metadata": {
+        "proveedor": "COMERCIALIZADORA RED SOLAR",
+        "representante": "ADAN CISNEROS SANTAMARIA"
+      },
+      "eventHash": "6d409968cd78879dccd2ff4708aa81121d14248728917c180c118b5b84342f96"
+    },
+    {
+      "eventId": "792b0545-c02e-43e9-a9ab-8ecb2c9f688d",
+      "uid": "CRS210202H43",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-19T20:39:26.286Z",
+      "timestampLocal": "2026-06-19T20:39:26.286Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.165.52.112",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CRS210202H43&nombre_proveedor_razon_social=COMERCIALIZADORA+RED+SOLAR&nombre_representante_legal=ADAN+CISNEROS+SANTAMARIA&email=altadefacs%40gmail.com",
+      "previousEventHash": "6d409968cd78879dccd2ff4708aa81121d14248728917c180c118b5b84342f96",
+      "documentHash": "45be70831d4caefe0c263e17cb2a1cdf6e5cacb4aa0c089be5d069092c8b1870",
+      "eventHash": "2fe612c7d9b0409104a18e6426c03ef8be778a8619420df757e61d421bfcf0bb"
+    },
+    {
+      "eventId": "6d2d47f3-4d36-4db2-841e-e39d981f44fd",
+      "uid": "CRS210202H43",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-19T20:43:34.510Z",
+      "timestampLocal": "2026-06-19T14:43:34.510Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.165.52.112",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/4a2ff55b-c03e-4d84-9f9f-a471cd53a468",
+      "previousEventHash": "2fe612c7d9b0409104a18e6426c03ef8be778a8619420df757e61d421bfcf0bb",
+      "documentHash": "ea62e8273413c385cb80387780ce5a2ac3cc7fa76447b6d306268799092e6a3d",
+      "signatureHash": "08fb49549d236cb46ec3534324ba30db34f78bbeeda76028822f8726937e40a2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-19T14:43:31.128Z"
+      },
+      "eventHash": "a143af2292553714d306c8ea1739278c4e2f7ca94c6c199d036e7f32fea6faba"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-19T20:43:34.510Z"
+  }
 }
