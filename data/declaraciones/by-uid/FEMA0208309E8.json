@@ -1,19 +1,100 @@
 {
   "uid": "FEMA0208309E8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Alea Leilani Fletes Martinez",
     "nombre_representante_legal": "Alea Leilani Fletes Martinez",
     "email": "leilanifletes@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Alea Leilani Fletes Martinez",
-    "nombre_representante_legal": "Alea Leilani Fletes Martinez",
-    "email": "leilanifletes@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-19T17:18:30.471Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/FEMA0208309E8",
+  "signatureMetadata": {
+    "ip": "187.199.19.90",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-06-20T00:18:33.868Z",
+    "signedAtLocal": "2026-06-19T17:18:33.868Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "76e7679a9f7cc66fc5523520b32b1eca348007ba6543bce8a0125d8ee1682ef5"
+  "documentHash": "6ae914bb7956122dbd972d323074247b1061a5a504d33842d9729b7feddcc610",
+  "auditTrail": [
+    {
+      "eventId": "c8d9c633-08fa-4230-a372-99c7a096caff",
+      "uid": "FEMA0208309E8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-20T00:12:58.723Z",
+      "timestampLocal": "2026-06-20T00:12:58.723Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.199.19.90",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "76e7679a9f7cc66fc5523520b32b1eca348007ba6543bce8a0125d8ee1682ef5",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "218881557dea64498648ed883381f5a741713636291be28f875b073ec82daa45"
+    },
+    {
+      "eventId": "8320891f-25d2-4392-b5a7-16d3cdcc9a32",
+      "uid": "FEMA0208309E8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-20T00:12:58.723Z",
+      "timestampLocal": "2026-06-20T00:12:58.723Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.199.19.90",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "218881557dea64498648ed883381f5a741713636291be28f875b073ec82daa45",
+      "documentHash": "76e7679a9f7cc66fc5523520b32b1eca348007ba6543bce8a0125d8ee1682ef5",
+      "metadata": {
+        "proveedor": "Alea Leilani Fletes Martinez",
+        "representante": "Alea Leilani Fletes Martinez"
+      },
+      "eventHash": "f88415cb6d4ae547a562ab805922345a5b92d0fc7a57aeefab651f7f01936004"
+    },
+    {
+      "eventId": "578759b9-af2f-48e5-adfb-a4c1fc733b66",
+      "uid": "FEMA0208309E8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-20T00:12:59.779Z",
+      "timestampLocal": "2026-06-20T00:12:59.779Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.199.19.90",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f88415cb6d4ae547a562ab805922345a5b92d0fc7a57aeefab651f7f01936004",
+      "documentHash": "76e7679a9f7cc66fc5523520b32b1eca348007ba6543bce8a0125d8ee1682ef5",
+      "eventHash": "4778d669c2590c1db12ec446448657c979db5b983b374ba1f861ee3122494994"
+    },
+    {
+      "eventId": "240e1e7d-49ee-402c-96b8-00508c631389",
+      "uid": "FEMA0208309E8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-20T00:18:33.869Z",
+      "timestampLocal": "2026-06-19T17:18:33.869Z",
+      "timezone": "UTC-7",
+      "ipAddress": "187.199.19.90",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4778d669c2590c1db12ec446448657c979db5b983b374ba1f861ee3122494994",
+      "documentHash": "6ae914bb7956122dbd972d323074247b1061a5a504d33842d9729b7feddcc610",
+      "signatureHash": "be00adf0f7d25decaf85033adda10b0b41975adb5d79f3d6c6009ca80b0d5213",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-19T17:18:30.471Z"
+      },
+      "eventHash": "49c9ad650d4b8c74488777dbea0206634dca1e3619cbd2e18ec244d0b922bc25"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-20T00:18:33.869Z"
+  }
 }
