@@ -1,19 +1,100 @@
 {
   "uid": "UMP920703CV6",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "UNIVERSAL MUSIC PUBLISHING MGB",
     "nombre_representante_legal": "Barbara Andrea Ruelas",
     "email": "anapaola.hernandez@umusic.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "UNIVERSAL MUSIC PUBLISHING MGB",
-    "nombre_representante_legal": "Barbara Andrea Ruelas",
-    "email": "anapaola.hernandez@umusic.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-22T17:40:44.615Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/UMP920703CV6",
+  "signatureMetadata": {
+    "ip": "200.94.122.220",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-22T23:40:47.986Z",
+    "signedAtLocal": "2026-06-22T17:40:47.986Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f831ebfe1e6bdd10854a31c6f27a1dedca14752bcd73adfbe010ce1b07ceda53"
+  "documentHash": "efe1f690d97d941cf3fa6ebf8e075a3e167a1d7c2fb2341346be8c885070c50c",
+  "auditTrail": [
+    {
+      "eventId": "91771e5b-2dc7-4cac-9007-6f5db15cc31f",
+      "uid": "UMP920703CV6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-22T23:40:32.698Z",
+      "timestampLocal": "2026-06-22T23:40:32.698Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.94.122.220",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=UMP920703CV6&nombre_proveedor_razon_social=UNIVERSAL+MUSIC+PUBLISHING+MGB&nombre_representante_legal=Barbara+Andrea+Ruelas+&email=anapaola.hernandez%40umusic.com",
+      "previousEventHash": null,
+      "documentHash": "f831ebfe1e6bdd10854a31c6f27a1dedca14752bcd73adfbe010ce1b07ceda53",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a1b3943834236796ca30f06e7a39b8137105703a1f2f7e9a58da38c0874ad470"
+    },
+    {
+      "eventId": "5e05c6d5-de56-4950-a50c-9a4c8b2deedc",
+      "uid": "UMP920703CV6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-22T23:40:32.698Z",
+      "timestampLocal": "2026-06-22T23:40:32.698Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.94.122.220",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=UMP920703CV6&nombre_proveedor_razon_social=UNIVERSAL+MUSIC+PUBLISHING+MGB&nombre_representante_legal=Barbara+Andrea+Ruelas+&email=anapaola.hernandez%40umusic.com",
+      "previousEventHash": "a1b3943834236796ca30f06e7a39b8137105703a1f2f7e9a58da38c0874ad470",
+      "documentHash": "f831ebfe1e6bdd10854a31c6f27a1dedca14752bcd73adfbe010ce1b07ceda53",
+      "metadata": {
+        "proveedor": "UNIVERSAL MUSIC PUBLISHING MGB",
+        "representante": "Barbara Andrea Ruelas"
+      },
+      "eventHash": "2599728b11b9204ea45909f8fb6fb7b6e27224f7648456408500b5f9f45d6578"
+    },
+    {
+      "eventId": "55b4f2ff-1dee-4840-8812-a90f85cf25d5",
+      "uid": "UMP920703CV6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-22T23:40:34.046Z",
+      "timestampLocal": "2026-06-22T23:40:34.046Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.94.122.220",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=UMP920703CV6&nombre_proveedor_razon_social=UNIVERSAL+MUSIC+PUBLISHING+MGB&nombre_representante_legal=Barbara+Andrea+Ruelas+&email=anapaola.hernandez%40umusic.com",
+      "previousEventHash": "2599728b11b9204ea45909f8fb6fb7b6e27224f7648456408500b5f9f45d6578",
+      "documentHash": "f831ebfe1e6bdd10854a31c6f27a1dedca14752bcd73adfbe010ce1b07ceda53",
+      "eventHash": "20e6dfd3b84ce490781894db4cb04dd2b1b788d01633940266afa3d0c6a8647c"
+    },
+    {
+      "eventId": "517dfda9-b2ca-49af-928b-e2f0f26711d2",
+      "uid": "UMP920703CV6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-22T23:40:47.986Z",
+      "timestampLocal": "2026-06-22T17:40:47.986Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.94.122.220",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/63e39e47-66b9-472f-801f-220b471d63cf",
+      "previousEventHash": "20e6dfd3b84ce490781894db4cb04dd2b1b788d01633940266afa3d0c6a8647c",
+      "documentHash": "efe1f690d97d941cf3fa6ebf8e075a3e167a1d7c2fb2341346be8c885070c50c",
+      "signatureHash": "f9af5c29e27066ec7a1fefbf8ff7264e9a45da0fdcf1148e3db3f4df37e3224b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-22T17:40:44.615Z"
+      },
+      "eventHash": "9d919fbc6fd401ee38d553e8adfee2d8ba9396ddaecc5615346d29606db942c1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-22T23:40:47.986Z"
+  }
 }
