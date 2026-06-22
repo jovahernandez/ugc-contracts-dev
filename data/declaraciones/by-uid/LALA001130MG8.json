@@ -1,19 +1,100 @@
 {
   "uid": "LALA001130MG8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ANA PAULA LARRAZABAL LOPEZ",
     "nombre_representante_legal": "Ana Paula",
     "email": "anapaularrazabal@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ANA PAULA LARRAZABAL LOPEZ",
-    "nombre_representante_legal": "Ana Paula",
-    "email": "anapaularrazabal@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-22T12:13:14.570Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LALA001130MG8",
+  "signatureMetadata": {
+    "ip": "187.190.30.105",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-22T18:13:17.984Z",
+    "signedAtLocal": "2026-06-22T12:13:17.984Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d78d9dc5b45aa37aab7d4ebdf1a5d4ccdd828bfea095a9b7f38431f33a7f9b6d"
+  "documentHash": "21831d7102b1d7ab9d847eed63630d3c2452958290c57e576bd68c6c61307a35",
+  "auditTrail": [
+    {
+      "eventId": "5e50bfe0-fce3-43d8-83c2-48d6aa111e3e",
+      "uid": "LALA001130MG8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-22T18:13:00.701Z",
+      "timestampLocal": "2026-06-22T18:13:00.701Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.30.105",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LALA001130MG8&nombre_proveedor_razon_social=+ANA+PAULA+LARRAZABAL+LOPEZ&nombre_representante_legal=Ana+Paula&email=anapaularrazabal%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "d78d9dc5b45aa37aab7d4ebdf1a5d4ccdd828bfea095a9b7f38431f33a7f9b6d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0fc2e6f2ebe41c5439f897d4c1c93752b42e970e8ce11b2371e8ec5316b22a06"
+    },
+    {
+      "eventId": "9aa6e930-2302-4cd8-8888-3e417396126e",
+      "uid": "LALA001130MG8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-22T18:13:00.701Z",
+      "timestampLocal": "2026-06-22T18:13:00.701Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.30.105",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LALA001130MG8&nombre_proveedor_razon_social=+ANA+PAULA+LARRAZABAL+LOPEZ&nombre_representante_legal=Ana+Paula&email=anapaularrazabal%40gmail.com",
+      "previousEventHash": "0fc2e6f2ebe41c5439f897d4c1c93752b42e970e8ce11b2371e8ec5316b22a06",
+      "documentHash": "d78d9dc5b45aa37aab7d4ebdf1a5d4ccdd828bfea095a9b7f38431f33a7f9b6d",
+      "metadata": {
+        "proveedor": "ANA PAULA LARRAZABAL LOPEZ",
+        "representante": "Ana Paula"
+      },
+      "eventHash": "30055dc060099937877c12fdf7fade0fff969df372a0bf901a374353c815a8f5"
+    },
+    {
+      "eventId": "15bf2e22-7cf5-4e8b-bd93-7e61a60f0854",
+      "uid": "LALA001130MG8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-22T18:13:02.333Z",
+      "timestampLocal": "2026-06-22T18:13:02.333Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.30.105",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LALA001130MG8&nombre_proveedor_razon_social=+ANA+PAULA+LARRAZABAL+LOPEZ&nombre_representante_legal=Ana+Paula&email=anapaularrazabal%40gmail.com",
+      "previousEventHash": "30055dc060099937877c12fdf7fade0fff969df372a0bf901a374353c815a8f5",
+      "documentHash": "d78d9dc5b45aa37aab7d4ebdf1a5d4ccdd828bfea095a9b7f38431f33a7f9b6d",
+      "eventHash": "66735ed5185a1b7e2e744af05d3021d5c60f656ce2dfeacf8eac23a6ff827f11"
+    },
+    {
+      "eventId": "1cd21c6c-1f46-48b3-9992-9030f1525d73",
+      "uid": "LALA001130MG8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-22T18:13:17.984Z",
+      "timestampLocal": "2026-06-22T12:13:17.984Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.30.105",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/dc2550ba-15ee-4c43-a559-2d61ae882bf0",
+      "previousEventHash": "66735ed5185a1b7e2e744af05d3021d5c60f656ce2dfeacf8eac23a6ff827f11",
+      "documentHash": "21831d7102b1d7ab9d847eed63630d3c2452958290c57e576bd68c6c61307a35",
+      "signatureHash": "49d1d32245410948f289208fdd2ec209efb569d2faf06996312f7d0b7fe82b88",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-22T12:13:14.570Z"
+      },
+      "eventHash": "a06eda828a18477270aa8bb63439c82bac22da2437a933d77dfec4559c3e36cb"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-22T18:13:17.985Z"
+  }
 }
