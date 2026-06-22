@@ -1,19 +1,100 @@
 {
   "uid": "PETV0108246H8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "VALENTINA PEREZ TRILLO",
     "nombre_representante_legal": "max Saravia",
     "email": "valept24@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "VALENTINA PEREZ TRILLO",
-    "nombre_representante_legal": "max Saravia",
-    "email": "valept24@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-22T12:23:59.867Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PETV0108246H8",
+  "signatureMetadata": {
+    "ip": "187.191.38.72",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-06-22T18:24:03.167Z",
+    "signedAtLocal": "2026-06-22T12:24:03.167Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2b2b05d33bd6425921874e263f9f7e5317d06a358f9d9a76e4888b375aef8bf1"
+  "documentHash": "3c36d583d4e79389aa87be2bcbc4d705eddbd4629bfc0ce370936a484fc75122",
+  "auditTrail": [
+    {
+      "eventId": "28d03a76-6b5b-45b8-9d62-e5133b85ae83",
+      "uid": "PETV0108246H8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-22T18:22:11.446Z",
+      "timestampLocal": "2026-06-22T18:22:11.446Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.38.72",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "2b2b05d33bd6425921874e263f9f7e5317d06a358f9d9a76e4888b375aef8bf1",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "7acf6d0d4477e2f3fee772903870c8a5d9d41b5d0c405593ff806dafe86998bb"
+    },
+    {
+      "eventId": "1872c9c8-9819-4442-8cd0-0db6754975aa",
+      "uid": "PETV0108246H8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-22T18:22:11.446Z",
+      "timestampLocal": "2026-06-22T18:22:11.446Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.38.72",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "7acf6d0d4477e2f3fee772903870c8a5d9d41b5d0c405593ff806dafe86998bb",
+      "documentHash": "2b2b05d33bd6425921874e263f9f7e5317d06a358f9d9a76e4888b375aef8bf1",
+      "metadata": {
+        "proveedor": "VALENTINA PEREZ TRILLO",
+        "representante": "max Saravia"
+      },
+      "eventHash": "36d4fa58c9bc6148dfe72a777f50974f2e83fb02037ba4d19daf058b71aeacaf"
+    },
+    {
+      "eventId": "5b96aaf5-1796-4706-ae07-b12f689542be",
+      "uid": "PETV0108246H8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-22T18:22:12.746Z",
+      "timestampLocal": "2026-06-22T18:22:12.746Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.38.72",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "36d4fa58c9bc6148dfe72a777f50974f2e83fb02037ba4d19daf058b71aeacaf",
+      "documentHash": "2b2b05d33bd6425921874e263f9f7e5317d06a358f9d9a76e4888b375aef8bf1",
+      "eventHash": "3f01a571186f716385197005c42aabd64c09784fbfe5631dd681fab644034ea7"
+    },
+    {
+      "eventId": "ae4a75f7-454c-4f51-9148-1d0b345c9985",
+      "uid": "PETV0108246H8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-22T18:24:03.167Z",
+      "timestampLocal": "2026-06-22T12:24:03.167Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.191.38.72",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "3f01a571186f716385197005c42aabd64c09784fbfe5631dd681fab644034ea7",
+      "documentHash": "3c36d583d4e79389aa87be2bcbc4d705eddbd4629bfc0ce370936a484fc75122",
+      "signatureHash": "7f899a139d2317acb8c13adee571b4da8601927169a09f9f1a5873cbd75150e3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-22T12:23:59.867Z"
+      },
+      "eventHash": "b59da01d6613a61744c3a8ee313bc40bb948e89a536dc3f8a4c935579f792a92"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-22T18:24:03.167Z"
+  }
 }
