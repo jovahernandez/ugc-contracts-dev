@@ -1,19 +1,100 @@
 {
   "uid": "CAPL930702EK3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "María Luisa Camacho Pacheco",
     "nombre_representante_legal": "NA",
     "email": "marilucam93@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "María Luisa Camacho Pacheco",
-    "nombre_representante_legal": "NA",
-    "email": "marilucam93@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-22T12:58:32.730Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CAPL930702EK3",
+  "signatureMetadata": {
+    "ip": "201.137.109.64",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-22T18:58:36.064Z",
+    "signedAtLocal": "2026-06-22T12:58:36.064Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e933f70b2a850824efdf1c6481c33b71ae2e0b292e1643c540562ec550b7b129"
+  "documentHash": "13eaea17a4fa82ca3ee00d459a36806ed6e8ff669f3889b02359d2adfa61095e",
+  "auditTrail": [
+    {
+      "eventId": "a46d6a25-794e-408f-86c7-a4c0ff000876",
+      "uid": "CAPL930702EK3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-22T18:49:24.200Z",
+      "timestampLocal": "2026-06-22T18:49:24.200Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.109.64",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAPL930702EK3&nombre_proveedor_razon_social=Mar%C3%ADa+Luisa+Camacho+Pacheco&nombre_representante_legal=NA&email=marilucam93%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "e933f70b2a850824efdf1c6481c33b71ae2e0b292e1643c540562ec550b7b129",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "34f792a374469e19c16d0ca79bbd3424770a8c4334ed5db1774b650b23af1780"
+    },
+    {
+      "eventId": "deaa11d9-e226-4e30-8b4b-175d34ade6e0",
+      "uid": "CAPL930702EK3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-22T18:49:24.200Z",
+      "timestampLocal": "2026-06-22T18:49:24.200Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.109.64",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAPL930702EK3&nombre_proveedor_razon_social=Mar%C3%ADa+Luisa+Camacho+Pacheco&nombre_representante_legal=NA&email=marilucam93%40gmail.com",
+      "previousEventHash": "34f792a374469e19c16d0ca79bbd3424770a8c4334ed5db1774b650b23af1780",
+      "documentHash": "e933f70b2a850824efdf1c6481c33b71ae2e0b292e1643c540562ec550b7b129",
+      "metadata": {
+        "proveedor": "María Luisa Camacho Pacheco",
+        "representante": "NA"
+      },
+      "eventHash": "d7c85b1764a15cd73837b29594a564be0dd103acd1a2c73fc8b56abe5534dbcf"
+    },
+    {
+      "eventId": "21351473-4c2e-40ea-b115-87b0b54dc5a8",
+      "uid": "CAPL930702EK3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-22T18:49:25.354Z",
+      "timestampLocal": "2026-06-22T18:49:25.354Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.109.64",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAPL930702EK3&nombre_proveedor_razon_social=Mar%C3%ADa+Luisa+Camacho+Pacheco&nombre_representante_legal=NA&email=marilucam93%40gmail.com",
+      "previousEventHash": "d7c85b1764a15cd73837b29594a564be0dd103acd1a2c73fc8b56abe5534dbcf",
+      "documentHash": "e933f70b2a850824efdf1c6481c33b71ae2e0b292e1643c540562ec550b7b129",
+      "eventHash": "a55013b3bab6a875f0b05fc9ef1d9bf6cfc67586bec3f9ca2c5f58d953ecca2c"
+    },
+    {
+      "eventId": "57fa54cb-a541-45b0-8cc4-524a9edabdf8",
+      "uid": "CAPL930702EK3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-22T18:58:36.064Z",
+      "timestampLocal": "2026-06-22T12:58:36.064Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.137.109.64",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/84c1b976-83f5-47fe-aaa7-b744ef7cba7c",
+      "previousEventHash": "a55013b3bab6a875f0b05fc9ef1d9bf6cfc67586bec3f9ca2c5f58d953ecca2c",
+      "documentHash": "13eaea17a4fa82ca3ee00d459a36806ed6e8ff669f3889b02359d2adfa61095e",
+      "signatureHash": "0c06778fc81be27b72f2359e58d69dd5ea3cf93623c2ed40eb81f2a61127ed1e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-22T12:58:32.730Z"
+      },
+      "eventHash": "46f3e3dfef8e661b54eeebf12a7bb7d2a1ecc8abf84a08838bd75a365f8d9e3a"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-22T18:58:36.065Z"
+  }
 }
