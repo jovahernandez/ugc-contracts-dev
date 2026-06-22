@@ -1,19 +1,100 @@
 {
   "uid": "PSP220308IJ3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PLUSERVICIOS SPV",
     "nombre_representante_legal": "Ricardo Muñoz Aparicio",
     "email": "paulajdes@hotmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PLUSERVICIOS SPV",
-    "nombre_representante_legal": "Ricardo Muñoz Aparicio",
-    "email": "paulajdes@hotmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-22T13:11:02.994Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PSP220308IJ3",
+  "signatureMetadata": {
+    "ip": "189.193.238.238",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-22T19:11:06.290Z",
+    "signedAtLocal": "2026-06-22T13:11:06.290Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "03de451250f530a77caf7ca478cdb68a10581943245c29958287bbe71080c6bc"
+  "documentHash": "29c6c7831b1293f090fb81a6fb04d96b3f0aadd3288244b0ebc140f3ffd16afb",
+  "auditTrail": [
+    {
+      "eventId": "128d25fd-65d0-4936-b1cf-321cd12290cb",
+      "uid": "PSP220308IJ3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-22T19:10:52.916Z",
+      "timestampLocal": "2026-06-22T19:10:52.916Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.193.238.238",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PSP220308IJ3&nombre_proveedor_razon_social=PLUSERVICIOS+SPV&nombre_representante_legal=Ricardo+Mu%C3%B1oz+Aparicio&email=paulajdes%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "03de451250f530a77caf7ca478cdb68a10581943245c29958287bbe71080c6bc",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b5499b14ffdc995d121bbd7436be319872c5ad63c6e12e06bab25672bb985340"
+    },
+    {
+      "eventId": "caf368a0-04d3-40e4-b2e5-0cc7ac1dfd26",
+      "uid": "PSP220308IJ3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-22T19:10:52.916Z",
+      "timestampLocal": "2026-06-22T19:10:52.916Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.193.238.238",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PSP220308IJ3&nombre_proveedor_razon_social=PLUSERVICIOS+SPV&nombre_representante_legal=Ricardo+Mu%C3%B1oz+Aparicio&email=paulajdes%40hotmail.com",
+      "previousEventHash": "b5499b14ffdc995d121bbd7436be319872c5ad63c6e12e06bab25672bb985340",
+      "documentHash": "03de451250f530a77caf7ca478cdb68a10581943245c29958287bbe71080c6bc",
+      "metadata": {
+        "proveedor": "PLUSERVICIOS SPV",
+        "representante": "Ricardo Muñoz Aparicio"
+      },
+      "eventHash": "dc35590d6be059e5c4fb74b2c8110f6e8765a8875cb42afa024ec7f899267c0b"
+    },
+    {
+      "eventId": "5ea55f2b-7009-40e3-aadf-41371f320133",
+      "uid": "PSP220308IJ3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-22T19:10:54.172Z",
+      "timestampLocal": "2026-06-22T19:10:54.172Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.193.238.238",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PSP220308IJ3&nombre_proveedor_razon_social=PLUSERVICIOS+SPV&nombre_representante_legal=Ricardo+Mu%C3%B1oz+Aparicio&email=paulajdes%40hotmail.com",
+      "previousEventHash": "dc35590d6be059e5c4fb74b2c8110f6e8765a8875cb42afa024ec7f899267c0b",
+      "documentHash": "03de451250f530a77caf7ca478cdb68a10581943245c29958287bbe71080c6bc",
+      "eventHash": "bbd82f99449f00570137721dcdbc7bc0e894d90ee6107f7a92dc364fe0a7fadf"
+    },
+    {
+      "eventId": "d5a665ac-76ca-4f5b-8800-97ff43b3919b",
+      "uid": "PSP220308IJ3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-22T19:11:06.290Z",
+      "timestampLocal": "2026-06-22T13:11:06.290Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.193.238.238",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ecdca276-9966-4c0b-92e8-8c40212b673e",
+      "previousEventHash": "bbd82f99449f00570137721dcdbc7bc0e894d90ee6107f7a92dc364fe0a7fadf",
+      "documentHash": "29c6c7831b1293f090fb81a6fb04d96b3f0aadd3288244b0ebc140f3ffd16afb",
+      "signatureHash": "9f5b836ec514129e44b5ae578e78b5e3abb8e2b03095fe95230b1d7c999d1e70",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-22T13:11:02.994Z"
+      },
+      "eventHash": "9fab5340e0d73774ea00d65c4e6e3862ec482f7cfc3eccf2016566072dae12f8"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-22T19:11:06.290Z"
+  }
 }
