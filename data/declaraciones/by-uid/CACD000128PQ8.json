@@ -1,19 +1,100 @@
 {
   "uid": "CACD000128PQ8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Diego Carrera Carreto",
     "nombre_representante_legal": "Diego Carrera Carreto",
     "email": "oyediegocarreto@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Diego Carrera Carreto",
-    "nombre_representante_legal": "Diego Carrera Carreto",
-    "email": "oyediegocarreto@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-22T23:39:44.565Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CACD000128PQ8",
+  "signatureMetadata": {
+    "ip": "189.253.121.148",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-23T05:39:47.833Z",
+    "signedAtLocal": "2026-06-22T23:39:47.833Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1d8fa645e509f07f20c486639d2283b26eed7a6884e2bb48ac3d251f38261698"
+  "documentHash": "09370595b4fce6ee2f6b4d3c5da5ffd32e926c848f151f250a4713ef5f5dfaec",
+  "auditTrail": [
+    {
+      "eventId": "ae11fa57-9e9e-4800-9034-ffb18c45b3ed",
+      "uid": "CACD000128PQ8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-23T05:39:15.646Z",
+      "timestampLocal": "2026-06-23T05:39:15.646Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.121.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CACD000128PQ8&nombre_proveedor_razon_social=Diego+Carrera+Carreto&nombre_representante_legal=Diego+Carrera+Carreto&email=oyediegocarreto%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "1d8fa645e509f07f20c486639d2283b26eed7a6884e2bb48ac3d251f38261698",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5345ac2ba2289f315a7b4ffb0d16207a0303e9b6466baa24017440eefbaba775"
+    },
+    {
+      "eventId": "4c81fa5f-c347-480c-a86f-feca4ee9a454",
+      "uid": "CACD000128PQ8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-23T05:39:15.646Z",
+      "timestampLocal": "2026-06-23T05:39:15.646Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.121.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CACD000128PQ8&nombre_proveedor_razon_social=Diego+Carrera+Carreto&nombre_representante_legal=Diego+Carrera+Carreto&email=oyediegocarreto%40gmail.com",
+      "previousEventHash": "5345ac2ba2289f315a7b4ffb0d16207a0303e9b6466baa24017440eefbaba775",
+      "documentHash": "1d8fa645e509f07f20c486639d2283b26eed7a6884e2bb48ac3d251f38261698",
+      "metadata": {
+        "proveedor": "Diego Carrera Carreto",
+        "representante": "Diego Carrera Carreto"
+      },
+      "eventHash": "e0ff6141d901eee83e3e58e8abbff2e5988256f4620a305ff91ae6aac06b7d78"
+    },
+    {
+      "eventId": "12a5c7d5-eb33-43e7-b3bd-83f95dd61a7f",
+      "uid": "CACD000128PQ8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-23T05:39:16.699Z",
+      "timestampLocal": "2026-06-23T05:39:16.699Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.121.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CACD000128PQ8&nombre_proveedor_razon_social=Diego+Carrera+Carreto&nombre_representante_legal=Diego+Carrera+Carreto&email=oyediegocarreto%40gmail.com",
+      "previousEventHash": "e0ff6141d901eee83e3e58e8abbff2e5988256f4620a305ff91ae6aac06b7d78",
+      "documentHash": "1d8fa645e509f07f20c486639d2283b26eed7a6884e2bb48ac3d251f38261698",
+      "eventHash": "7d38fbb1bbd1f6383e7f7d799ed885b905041ca0050ff545c8e4cea61bda69ec"
+    },
+    {
+      "eventId": "170fe867-10ac-4523-8281-634a3ecd1038",
+      "uid": "CACD000128PQ8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-23T05:39:47.833Z",
+      "timestampLocal": "2026-06-22T23:39:47.833Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.253.121.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/cbf7a89e-a4ff-4cd5-b8e3-6a5e6a0df4a6",
+      "previousEventHash": "7d38fbb1bbd1f6383e7f7d799ed885b905041ca0050ff545c8e4cea61bda69ec",
+      "documentHash": "09370595b4fce6ee2f6b4d3c5da5ffd32e926c848f151f250a4713ef5f5dfaec",
+      "signatureHash": "f499833447729eda66990b169f8aa76e7f662493f8d2b57edede6e44fc789295",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-22T23:39:44.565Z"
+      },
+      "eventHash": "07ecf409a20771902248d9ae95c28b792f81fe06a446cc9249f35191e5c70f83"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-23T05:39:47.833Z"
+  }
 }
