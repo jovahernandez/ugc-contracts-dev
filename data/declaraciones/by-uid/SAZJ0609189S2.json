@@ -1,19 +1,100 @@
 {
   "uid": "SAZJ0609189S2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Jarek Salas Zamora",
     "nombre_representante_legal": "Jarek Salas Zamora",
     "email": "jareksalaszamora@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Jarek Salas Zamora",
-    "nombre_representante_legal": "Jarek Salas Zamora",
-    "email": "jareksalaszamora@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-23T11:48:21.020Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SAZJ0609189S2",
+  "signatureMetadata": {
+    "ip": "189.245.154.61",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.34 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-06-23T17:48:24.368Z",
+    "signedAtLocal": "2026-06-23T11:48:24.368Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "230b825cae7b5bf0f45070e8fccf9b5160441e79b1da18829486d7d5a24afa75"
+  "documentHash": "0738a4e3429f95469c4e05e05fd9948b57ed01cc723ff7ac00d424da8085fd06",
+  "auditTrail": [
+    {
+      "eventId": "9dfbfd2a-513b-4630-bcfd-47e8143e602d",
+      "uid": "SAZJ0609189S2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-23T17:46:09.480Z",
+      "timestampLocal": "2026-06-23T17:46:09.480Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.154.61",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.34 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "230b825cae7b5bf0f45070e8fccf9b5160441e79b1da18829486d7d5a24afa75",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5245a3871785b61dc8d61f292d9b2cb970f0e8aa8d4ea760bcf88af2b17714f5"
+    },
+    {
+      "eventId": "64409994-d1dd-460a-8668-46a5f5c21021",
+      "uid": "SAZJ0609189S2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-23T17:46:09.480Z",
+      "timestampLocal": "2026-06-23T17:46:09.480Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.154.61",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.34 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "5245a3871785b61dc8d61f292d9b2cb970f0e8aa8d4ea760bcf88af2b17714f5",
+      "documentHash": "230b825cae7b5bf0f45070e8fccf9b5160441e79b1da18829486d7d5a24afa75",
+      "metadata": {
+        "proveedor": "Jarek Salas Zamora",
+        "representante": "Jarek Salas Zamora"
+      },
+      "eventHash": "8e7992a9bb6233a759d248480f1bec78d8b01ea6418526ec4095d665e4ac427b"
+    },
+    {
+      "eventId": "fc924a10-53b6-4b0a-9337-bce7b4b55911",
+      "uid": "SAZJ0609189S2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-23T17:46:10.721Z",
+      "timestampLocal": "2026-06-23T17:46:10.721Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.154.61",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.34 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8e7992a9bb6233a759d248480f1bec78d8b01ea6418526ec4095d665e4ac427b",
+      "documentHash": "230b825cae7b5bf0f45070e8fccf9b5160441e79b1da18829486d7d5a24afa75",
+      "eventHash": "97f52f6bb389b2fad7d9f935328244b895d68bf3c15899dc6662acbaac1fa7a7"
+    },
+    {
+      "eventId": "d336f5b4-671c-4700-a863-a7777c84d4eb",
+      "uid": "SAZJ0609189S2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-23T17:48:24.368Z",
+      "timestampLocal": "2026-06-23T11:48:24.368Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.245.154.61",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.34 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "97f52f6bb389b2fad7d9f935328244b895d68bf3c15899dc6662acbaac1fa7a7",
+      "documentHash": "0738a4e3429f95469c4e05e05fd9948b57ed01cc723ff7ac00d424da8085fd06",
+      "signatureHash": "492085f8423cdbdd3fadc958885b1cc6bbf4bff299453469dd5bb415c4068d4c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-23T11:48:21.020Z"
+      },
+      "eventHash": "9274f3a65e9094900bbfd28cbe8317cc4a87cd3c759a6a63d48a381a7a319c62"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-23T17:48:24.368Z"
+  }
 }
