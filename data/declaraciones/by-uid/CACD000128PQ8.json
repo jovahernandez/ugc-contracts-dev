@@ -1,19 +1,115 @@
 {
   "uid": "CACD000128PQ8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Diego Carrera Carreto",
     "nombre_representante_legal": "Diego Carrera Carreto",
     "email": "oyediegocarreto@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Diego Carrera Carreto",
-    "nombre_representante_legal": "Diego Carrera Carreto",
-    "email": "oyediegocarreto@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-23T17:32:19.299Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CACD000128PQ8",
+  "signatureMetadata": {
+    "ip": "189.253.121.148",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-06-23T23:32:22.620Z",
+    "signedAtLocal": "2026-06-23T17:32:22.620Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "cd20a99126bccf1dffdfc30fec98d101e05ef75f05bd4ca683ecd58105bf03df"
+  "documentHash": "ae03e39728b8473eb4a1b751ae202036ff0759e4640dc74f6ed6145a2a51495b",
+  "auditTrail": [
+    {
+      "eventId": "42067d5b-1318-4f6e-8fd0-00137c073694",
+      "uid": "CACD000128PQ8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-23T23:31:45.127Z",
+      "timestampLocal": "2026-06-23T23:31:45.127Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.121.148",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "cd20a99126bccf1dffdfc30fec98d101e05ef75f05bd4ca683ecd58105bf03df",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3299836dd5f4610c039ee324bca88ed69a4f19409af969e4a74958a0446f3480"
+    },
+    {
+      "eventId": "5726a3bf-c0b1-40a2-b1d9-7ac8cf3cb4ee",
+      "uid": "CACD000128PQ8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-23T23:31:45.127Z",
+      "timestampLocal": "2026-06-23T23:31:45.127Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.121.148",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "3299836dd5f4610c039ee324bca88ed69a4f19409af969e4a74958a0446f3480",
+      "documentHash": "cd20a99126bccf1dffdfc30fec98d101e05ef75f05bd4ca683ecd58105bf03df",
+      "metadata": {
+        "proveedor": "Diego Carrera Carreto",
+        "representante": "Diego Carrera Carreto"
+      },
+      "eventHash": "a00c299cecb2f9914a39bcd5e7ca846262aedd8e34407e59b23455dd88ab5c85"
+    },
+    {
+      "eventId": "002ce6bb-b018-4607-8ea5-9a30e16588a5",
+      "uid": "CACD000128PQ8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-23T23:31:46.184Z",
+      "timestampLocal": "2026-06-23T23:31:46.184Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.121.148",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a00c299cecb2f9914a39bcd5e7ca846262aedd8e34407e59b23455dd88ab5c85",
+      "documentHash": "cd20a99126bccf1dffdfc30fec98d101e05ef75f05bd4ca683ecd58105bf03df",
+      "eventHash": "d55a10c1c0bc2d2710591dc3cb5f6e9b5cf88f7237bb9b9754b466481702156f"
+    },
+    {
+      "eventId": "5cf98914-e38d-4e8c-af14-2f12e38291d4",
+      "uid": "CACD000128PQ8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-23T23:31:57.717Z",
+      "timestampLocal": "2026-06-23T23:31:57.717Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.121.148",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "d55a10c1c0bc2d2710591dc3cb5f6e9b5cf88f7237bb9b9754b466481702156f",
+      "documentHash": "cd20a99126bccf1dffdfc30fec98d101e05ef75f05bd4ca683ecd58105bf03df",
+      "eventHash": "1d0cb29a31cc5ddb39999d574acdc4c1317f4b0f76b6afc871ef8750a8629d95"
+    },
+    {
+      "eventId": "951bcda0-e74c-4586-9363-93fef2921ce7",
+      "uid": "CACD000128PQ8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-23T23:32:22.620Z",
+      "timestampLocal": "2026-06-23T17:32:22.620Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.253.121.148",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "1d0cb29a31cc5ddb39999d574acdc4c1317f4b0f76b6afc871ef8750a8629d95",
+      "documentHash": "ae03e39728b8473eb4a1b751ae202036ff0759e4640dc74f6ed6145a2a51495b",
+      "signatureHash": "a60afc77308b4c0b724bf4beb0d7991c8e3e78b0f1a8ca52427fd8901a71e1e0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-23T17:32:19.299Z"
+      },
+      "eventHash": "3e6a5d7f037fdbe70bb8912c593e3aceb3188cc5b786f0ab2f0944aa50194b64"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-06-23T23:32:22.620Z"
+  }
 }
