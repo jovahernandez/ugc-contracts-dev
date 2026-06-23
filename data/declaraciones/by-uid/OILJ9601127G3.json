@@ -1,19 +1,100 @@
 {
   "uid": "OILJ9601127G3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "OILJ9601127G3",
     "nombre_representante_legal": "Lorna Perez",
     "email": "usernamedarlink@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "OILJ9601127G3",
-    "nombre_representante_legal": "Lorna Perez",
-    "email": "usernamedarlink@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-23T10:10:14.353Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/OILJ9601127G3",
+  "signatureMetadata": {
+    "ip": "189.190.229.254",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-23T16:10:17.945Z",
+    "signedAtLocal": "2026-06-23T10:10:17.945Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "86c6784f767e28589551290c6cc2a823d8cae7403a4af37f77945c85c000b62a"
+  "documentHash": "e3a56f5c6e166ce49ce4b8c4c7773cedf8a64d702724f77a459399aafeab0f0d",
+  "auditTrail": [
+    {
+      "eventId": "07968179-96ce-4496-8f84-abf657c0e32b",
+      "uid": "OILJ9601127G3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-23T16:10:05.711Z",
+      "timestampLocal": "2026-06-23T16:10:05.711Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.190.229.254",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,fr;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OILJ9601127G3&nombre_proveedor_razon_social=OILJ9601127G3&nombre_representante_legal=Lorna+Perez&email=usernamedarlink%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "86c6784f767e28589551290c6cc2a823d8cae7403a4af37f77945c85c000b62a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a221ba51c85c5a17145f015a498215bd22d91e4c6bbbea2ba6064619a41c0b81"
+    },
+    {
+      "eventId": "d0c6b0bf-aa88-4b18-ac85-c52061f99ef7",
+      "uid": "OILJ9601127G3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-23T16:10:05.711Z",
+      "timestampLocal": "2026-06-23T16:10:05.711Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.190.229.254",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,fr;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OILJ9601127G3&nombre_proveedor_razon_social=OILJ9601127G3&nombre_representante_legal=Lorna+Perez&email=usernamedarlink%40gmail.com",
+      "previousEventHash": "a221ba51c85c5a17145f015a498215bd22d91e4c6bbbea2ba6064619a41c0b81",
+      "documentHash": "86c6784f767e28589551290c6cc2a823d8cae7403a4af37f77945c85c000b62a",
+      "metadata": {
+        "proveedor": "OILJ9601127G3",
+        "representante": "Lorna Perez"
+      },
+      "eventHash": "f3e872511b6722175aa04b0d2055e89a42faeacfab25b968b3b1a2534a8617cf"
+    },
+    {
+      "eventId": "555ba97e-e575-477c-86db-129980a79981",
+      "uid": "OILJ9601127G3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-23T16:10:07.070Z",
+      "timestampLocal": "2026-06-23T16:10:07.070Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.190.229.254",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,fr;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OILJ9601127G3&nombre_proveedor_razon_social=OILJ9601127G3&nombre_representante_legal=Lorna+Perez&email=usernamedarlink%40gmail.com",
+      "previousEventHash": "f3e872511b6722175aa04b0d2055e89a42faeacfab25b968b3b1a2534a8617cf",
+      "documentHash": "86c6784f767e28589551290c6cc2a823d8cae7403a4af37f77945c85c000b62a",
+      "eventHash": "8d6aeef01500e65de54b23e5eb222c26166660f96276b19b39ac624aabab4875"
+    },
+    {
+      "eventId": "26621e6a-7913-4cc4-b7f5-fe6bad971bc2",
+      "uid": "OILJ9601127G3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-23T16:10:17.945Z",
+      "timestampLocal": "2026-06-23T10:10:17.945Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.190.229.254",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,fr;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/055fbefb-9bab-404e-a1ff-456203c7e878",
+      "previousEventHash": "8d6aeef01500e65de54b23e5eb222c26166660f96276b19b39ac624aabab4875",
+      "documentHash": "e3a56f5c6e166ce49ce4b8c4c7773cedf8a64d702724f77a459399aafeab0f0d",
+      "signatureHash": "e2829e4518c3950e35db4c26bc4237de0e8a1ccbd3d6a91dd7ea9f66270a3f3c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-23T10:10:14.353Z"
+      },
+      "eventHash": "66007045fca1c1766c052651217369b97f1f3859f1421b519a4f9094ede95b52"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-23T16:10:17.946Z"
+  }
 }
