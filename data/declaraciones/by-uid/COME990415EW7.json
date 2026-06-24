@@ -1,19 +1,100 @@
 {
   "uid": "COME990415EW7",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Estefania Coppola Malacara",
     "nombre_representante_legal": "N/A",
     "email": "api_coppola@hotmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Estefania Coppola Malacara",
-    "nombre_representante_legal": "N/A",
-    "email": "api_coppola@hotmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-24T17:17:18.798Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/COME990415EW7",
+  "signatureMetadata": {
+    "ip": "189.236.19.55",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-06-24T23:17:22.015Z",
+    "signedAtLocal": "2026-06-24T17:17:22.015Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7d183ee7ef3bd3d27b6092d9a81cde6c903f523f6ce8bebedc6fe8cbffa82103"
+  "documentHash": "0243e6bf03bed380e7d4e3ba593d17f0c1b32681ee861ccb52ce29f33beb334b",
+  "auditTrail": [
+    {
+      "eventId": "7bcd7c5b-5b63-48e2-bcf6-7dd20d346d2c",
+      "uid": "COME990415EW7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-24T23:16:58.083Z",
+      "timestampLocal": "2026-06-24T23:16:58.083Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.19.55",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "7d183ee7ef3bd3d27b6092d9a81cde6c903f523f6ce8bebedc6fe8cbffa82103",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4ffd0257398d5413c54592990584d5e24ec5f787013be238af4a1e9c1e167b05"
+    },
+    {
+      "eventId": "897d6087-434e-49af-bbd3-9bcb68c980a3",
+      "uid": "COME990415EW7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-24T23:16:58.083Z",
+      "timestampLocal": "2026-06-24T23:16:58.083Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.19.55",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4ffd0257398d5413c54592990584d5e24ec5f787013be238af4a1e9c1e167b05",
+      "documentHash": "7d183ee7ef3bd3d27b6092d9a81cde6c903f523f6ce8bebedc6fe8cbffa82103",
+      "metadata": {
+        "proveedor": "Estefania Coppola Malacara",
+        "representante": "N/A"
+      },
+      "eventHash": "36b84fd53f63dbe7efd95ddde3be92e49cfa5623ba6f6ff72cb64b3a6e9bf803"
+    },
+    {
+      "eventId": "1593a129-31db-4dfa-a9cb-51d318e1bf36",
+      "uid": "COME990415EW7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-24T23:16:59.326Z",
+      "timestampLocal": "2026-06-24T23:16:59.326Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.19.55",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "36b84fd53f63dbe7efd95ddde3be92e49cfa5623ba6f6ff72cb64b3a6e9bf803",
+      "documentHash": "7d183ee7ef3bd3d27b6092d9a81cde6c903f523f6ce8bebedc6fe8cbffa82103",
+      "eventHash": "f92d2009eb9fa7b9d5d5d1d00b9b4a3c2bde6185e97ad9fa9a993a2e34abd1c0"
+    },
+    {
+      "eventId": "021711aa-4004-46bb-982a-90979d48d4ea",
+      "uid": "COME990415EW7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-24T23:17:22.015Z",
+      "timestampLocal": "2026-06-24T17:17:22.015Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.236.19.55",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f92d2009eb9fa7b9d5d5d1d00b9b4a3c2bde6185e97ad9fa9a993a2e34abd1c0",
+      "documentHash": "0243e6bf03bed380e7d4e3ba593d17f0c1b32681ee861ccb52ce29f33beb334b",
+      "signatureHash": "f98d46f1065ca7fdc195a84ea17107bfe2fdb210d60112ae68f58361af66124a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-24T17:17:18.798Z"
+      },
+      "eventHash": "131b922fee2ce36c4873a55530ec1a0e582fa898878f7f0e415c03373b209a4b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-24T23:17:22.015Z"
+  }
 }
