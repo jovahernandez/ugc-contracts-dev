@@ -1,19 +1,100 @@
 {
   "uid": "CAEE930902M27",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Eric Alonso Canseco Escalona",
     "nombre_representante_legal": "Eric Alonso Canseco Escalona",
     "email": "alonsocansmx@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Eric Alonso Canseco Escalona",
-    "nombre_representante_legal": "Eric Alonso Canseco Escalona",
-    "email": "alonsocansmx@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-24T17:16:28.767Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CAEE930902M27",
+  "signatureMetadata": {
+    "ip": "187.190.39.174",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-24T23:16:32.073Z",
+    "signedAtLocal": "2026-06-24T17:16:32.073Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "998830efa8494df6df13c3011277f757ef639c73f0e55268ad249242495713b0"
+  "documentHash": "cb7da69e73e298dc896874440fb103c573ef3954675fe9fc6ff9574d9bc18ccd",
+  "auditTrail": [
+    {
+      "eventId": "1d0eca70-1081-4123-989f-cb9facc90f88",
+      "uid": "CAEE930902M27",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-24T23:14:31.805Z",
+      "timestampLocal": "2026-06-24T23:14:31.805Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.39.174",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAEE930902M27&nombre_proveedor_razon_social=Eric+Alonso+Canseco+Escalona&nombre_representante_legal=Eric+Alonso+Canseco+Escalona&email=alonsocansmx%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "998830efa8494df6df13c3011277f757ef639c73f0e55268ad249242495713b0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "841f05b4c0e58eb348cb48d7163b4a348eca7a83917cdb054d19cea7fe1620dc"
+    },
+    {
+      "eventId": "043714fc-3dae-44cd-96a6-bfcf75ceeba1",
+      "uid": "CAEE930902M27",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-24T23:14:31.805Z",
+      "timestampLocal": "2026-06-24T23:14:31.805Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.39.174",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAEE930902M27&nombre_proveedor_razon_social=Eric+Alonso+Canseco+Escalona&nombre_representante_legal=Eric+Alonso+Canseco+Escalona&email=alonsocansmx%40gmail.com",
+      "previousEventHash": "841f05b4c0e58eb348cb48d7163b4a348eca7a83917cdb054d19cea7fe1620dc",
+      "documentHash": "998830efa8494df6df13c3011277f757ef639c73f0e55268ad249242495713b0",
+      "metadata": {
+        "proveedor": "Eric Alonso Canseco Escalona",
+        "representante": "Eric Alonso Canseco Escalona"
+      },
+      "eventHash": "59d078fb988c775e01f48811f930dd5603c63f3a6a5b1d120bd43b422d1f2a43"
+    },
+    {
+      "eventId": "24ca7c0f-614a-47d7-8485-ac0dba34132c",
+      "uid": "CAEE930902M27",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-24T23:14:32.974Z",
+      "timestampLocal": "2026-06-24T23:14:32.974Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.39.174",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAEE930902M27&nombre_proveedor_razon_social=Eric+Alonso+Canseco+Escalona&nombre_representante_legal=Eric+Alonso+Canseco+Escalona&email=alonsocansmx%40gmail.com",
+      "previousEventHash": "59d078fb988c775e01f48811f930dd5603c63f3a6a5b1d120bd43b422d1f2a43",
+      "documentHash": "998830efa8494df6df13c3011277f757ef639c73f0e55268ad249242495713b0",
+      "eventHash": "ad6b6c723b3f6d9a294dc18e59e3fb43aeb622830646431c4036c46f724a3c06"
+    },
+    {
+      "eventId": "a5f41e8a-118d-4821-bae3-4ffe932c0ce2",
+      "uid": "CAEE930902M27",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-24T23:16:32.073Z",
+      "timestampLocal": "2026-06-24T17:16:32.073Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.39.174",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/76e19594-1ee0-4113-8955-8223b20302b4",
+      "previousEventHash": "ad6b6c723b3f6d9a294dc18e59e3fb43aeb622830646431c4036c46f724a3c06",
+      "documentHash": "cb7da69e73e298dc896874440fb103c573ef3954675fe9fc6ff9574d9bc18ccd",
+      "signatureHash": "0e1b9625f8ccf6daa9bfb8f046bdfe40650eb17450be77e7db43fb4903840f36",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-24T17:16:28.767Z"
+      },
+      "eventHash": "19fb63bcbc4ee83063fc070e4532756ea23b02ca323176ee798b95d5fd5ed0a1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-24T23:16:32.073Z"
+  }
 }
