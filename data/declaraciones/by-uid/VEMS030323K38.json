@@ -1,19 +1,100 @@
 {
   "uid": "VEMS030323K38",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Sofia Velasco Morán",
     "nombre_representante_legal": "Sofia Velasco Morán",
     "email": "sofia.velmor@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Sofia Velasco Morán",
-    "nombre_representante_legal": "Sofia Velasco Morán",
-    "email": "sofia.velmor@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-24T13:55:07.457Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/VEMS030323K38",
+  "signatureMetadata": {
+    "ip": "45.167.95.126",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "signedAtUtc": "2026-06-24T19:55:10.746Z",
+    "signedAtLocal": "2026-06-24T13:55:10.746Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "17f615c7b2e571173f231a42bff1af0312c1f2539cbb9f73f592f44f1b77f301"
+  "documentHash": "ac559a8101ecf5ec009c7924558d7459e83531f5aad31abbfc90accea875421f",
+  "auditTrail": [
+    {
+      "eventId": "21e7e9c2-54d8-45b7-858d-1c60d87f1d70",
+      "uid": "VEMS030323K38",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-24T19:54:43.680Z",
+      "timestampLocal": "2026-06-24T19:54:43.680Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.167.95.126",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VEMS030323K38&nombre_proveedor_razon_social=Sofia+Velasco+Mor%C3%A1n&nombre_representante_legal=Sofia+Velasco+Mor%C3%A1n&email=sofia.velmor%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "17f615c7b2e571173f231a42bff1af0312c1f2539cbb9f73f592f44f1b77f301",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f326be6f02b229e1090898137a781a1274dffadbb2e4ab691d7ef80674c93b4b"
+    },
+    {
+      "eventId": "6d988f9e-ea73-4395-b086-7438fc754521",
+      "uid": "VEMS030323K38",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-24T19:54:43.680Z",
+      "timestampLocal": "2026-06-24T19:54:43.680Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.167.95.126",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VEMS030323K38&nombre_proveedor_razon_social=Sofia+Velasco+Mor%C3%A1n&nombre_representante_legal=Sofia+Velasco+Mor%C3%A1n&email=sofia.velmor%40gmail.com",
+      "previousEventHash": "f326be6f02b229e1090898137a781a1274dffadbb2e4ab691d7ef80674c93b4b",
+      "documentHash": "17f615c7b2e571173f231a42bff1af0312c1f2539cbb9f73f592f44f1b77f301",
+      "metadata": {
+        "proveedor": "Sofia Velasco Morán",
+        "representante": "Sofia Velasco Morán"
+      },
+      "eventHash": "9694d62db45c0f30d711a16b6bd97dd5e6f69a1eb27ca4bf1d9b8d15b6a445a7"
+    },
+    {
+      "eventId": "ff93013e-494e-4f80-93d7-85aae00dad1f",
+      "uid": "VEMS030323K38",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-24T19:54:44.919Z",
+      "timestampLocal": "2026-06-24T19:54:44.919Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.167.95.126",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VEMS030323K38&nombre_proveedor_razon_social=Sofia+Velasco+Mor%C3%A1n&nombre_representante_legal=Sofia+Velasco+Mor%C3%A1n&email=sofia.velmor%40gmail.com",
+      "previousEventHash": "9694d62db45c0f30d711a16b6bd97dd5e6f69a1eb27ca4bf1d9b8d15b6a445a7",
+      "documentHash": "17f615c7b2e571173f231a42bff1af0312c1f2539cbb9f73f592f44f1b77f301",
+      "eventHash": "ab6422b76b88d9805fbf39c791a9db43851ea7429ef52b5dfca8629aedd26244"
+    },
+    {
+      "eventId": "2582bed4-e93a-46a3-b12a-9476c8710bb2",
+      "uid": "VEMS030323K38",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-24T19:55:10.746Z",
+      "timestampLocal": "2026-06-24T13:55:10.746Z",
+      "timezone": "UTC-6",
+      "ipAddress": "45.167.95.126",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/dc01cf22-f692-461f-9452-0656669fb448",
+      "previousEventHash": "ab6422b76b88d9805fbf39c791a9db43851ea7429ef52b5dfca8629aedd26244",
+      "documentHash": "ac559a8101ecf5ec009c7924558d7459e83531f5aad31abbfc90accea875421f",
+      "signatureHash": "a1c9d7f50d44015b550265fc208fc0d7bd79b228878e226acbbae7e12045d3aa",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-24T13:55:07.457Z"
+      },
+      "eventHash": "f0171510781090e9c9c6389452e569231c87601c01866611a51f56b7aa6b6466"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-24T19:55:10.746Z"
+  }
 }
