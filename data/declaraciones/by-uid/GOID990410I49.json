@@ -1,19 +1,100 @@
 {
   "uid": "GOID990410I49",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Dannia Axel Gonzalez Ibarra",
     "nombre_representante_legal": "-",
     "email": "danniaglezi@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Dannia Axel Gonzalez Ibarra",
-    "nombre_representante_legal": "-",
-    "email": "danniaglezi@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-25T11:16:14.040Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GOID990410I49",
+  "signatureMetadata": {
+    "ip": "187.188.59.12",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+    "signedAtUtc": "2026-06-25T18:16:17.431Z",
+    "signedAtLocal": "2026-06-25T11:16:17.431Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "dd670deadd0d1768e43e608e8af6b8788258dda46fc4ba30f8f8d1131d1ba724"
+  "documentHash": "ce02b555ca5877a5d7d88eced57d22fa86268be3b409083b924f12a36214c206",
+  "auditTrail": [
+    {
+      "eventId": "638a2b63-4930-41b2-b6c1-df220449d912",
+      "uid": "GOID990410I49",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-25T18:14:50.840Z",
+      "timestampLocal": "2026-06-25T18:14:50.840Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.59.12",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "dd670deadd0d1768e43e608e8af6b8788258dda46fc4ba30f8f8d1131d1ba724",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c695c8221d830223f0176b9038d8389b83002cbb0d6f84792e99591ca106e580"
+    },
+    {
+      "eventId": "a88b4ec3-b54d-44e1-a2d0-80a2f018b9c4",
+      "uid": "GOID990410I49",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-25T18:14:50.840Z",
+      "timestampLocal": "2026-06-25T18:14:50.840Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.59.12",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "c695c8221d830223f0176b9038d8389b83002cbb0d6f84792e99591ca106e580",
+      "documentHash": "dd670deadd0d1768e43e608e8af6b8788258dda46fc4ba30f8f8d1131d1ba724",
+      "metadata": {
+        "proveedor": "Dannia Axel Gonzalez Ibarra",
+        "representante": "-"
+      },
+      "eventHash": "cd1834a666ac3e248cb498882e91b91db7a89efbcdf1f734b4c22bc0479c0e70"
+    },
+    {
+      "eventId": "a51c653b-459d-4d9d-9faa-aa97e35decbd",
+      "uid": "GOID990410I49",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-25T18:14:52.463Z",
+      "timestampLocal": "2026-06-25T18:14:52.463Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.59.12",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "cd1834a666ac3e248cb498882e91b91db7a89efbcdf1f734b4c22bc0479c0e70",
+      "documentHash": "dd670deadd0d1768e43e608e8af6b8788258dda46fc4ba30f8f8d1131d1ba724",
+      "eventHash": "ce4a9ad52105cefee7deb975b1a473871404888794cc75747276e953f3e7a51e"
+    },
+    {
+      "eventId": "61b83794-9d96-4919-81e2-f7dc3789dd3c",
+      "uid": "GOID990410I49",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-25T18:16:17.431Z",
+      "timestampLocal": "2026-06-25T11:16:17.431Z",
+      "timezone": "UTC-7",
+      "ipAddress": "187.188.59.12",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ce4a9ad52105cefee7deb975b1a473871404888794cc75747276e953f3e7a51e",
+      "documentHash": "ce02b555ca5877a5d7d88eced57d22fa86268be3b409083b924f12a36214c206",
+      "signatureHash": "fe037cea09c89ed477c99b5e7f39e24733c51886c998d0fe60d5952b09e6e1fa",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-25T11:16:14.040Z"
+      },
+      "eventHash": "86cec2abd85249fa2e13dc35940e9abd3fe6e0bb833ff3e12ec2c7654f75a312"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-25T18:16:17.432Z"
+  }
 }
