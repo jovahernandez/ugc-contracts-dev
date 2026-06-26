@@ -1,19 +1,100 @@
 {
   "uid": "RECN941031EZ8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Natalia Reyes Clavellina",
     "nombre_representante_legal": "Natalia Reyes Clavellina",
     "email": "nataliareyes@estudiokonto.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Natalia Reyes Clavellina",
-    "nombre_representante_legal": "Natalia Reyes Clavellina",
-    "email": "nataliareyes@estudiokonto.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-26T11:15:11.373Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RECN941031EZ8",
+  "signatureMetadata": {
+    "ip": "187.191.37.70",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-26T17:15:14.482Z",
+    "signedAtLocal": "2026-06-26T11:15:14.482Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3d4d751b704a44af6d547008616c88e07d1ba49d918ae87bdb59421803fcb8fe"
+  "documentHash": "ab25e55f57cdc0f382306c2a5dec5644787d3d0ea243edba6b3abb5a5477ba9b",
+  "auditTrail": [
+    {
+      "eventId": "216aed68-8fac-4983-821e-b328c27d1faa",
+      "uid": "RECN941031EZ8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-26T17:14:47.103Z",
+      "timestampLocal": "2026-06-26T17:14:47.103Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.37.70",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-MX,en;q=0.9,es-MX;q=0.8,es;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RECN941031EZ8&nombre_proveedor_razon_social=Natalia+Reyes+Clavellina&nombre_representante_legal=Natalia+Reyes+Clavellina&email=nataliareyes%40estudiokonto.com",
+      "previousEventHash": null,
+      "documentHash": "3d4d751b704a44af6d547008616c88e07d1ba49d918ae87bdb59421803fcb8fe",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2edce80d5a64c0c3db25ccfd9acc16165aff5a128553a735d51b09f47b20fc53"
+    },
+    {
+      "eventId": "b63002b2-160b-4a3b-93f5-0c9a584f5941",
+      "uid": "RECN941031EZ8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-26T17:14:47.103Z",
+      "timestampLocal": "2026-06-26T17:14:47.103Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.37.70",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-MX,en;q=0.9,es-MX;q=0.8,es;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RECN941031EZ8&nombre_proveedor_razon_social=Natalia+Reyes+Clavellina&nombre_representante_legal=Natalia+Reyes+Clavellina&email=nataliareyes%40estudiokonto.com",
+      "previousEventHash": "2edce80d5a64c0c3db25ccfd9acc16165aff5a128553a735d51b09f47b20fc53",
+      "documentHash": "3d4d751b704a44af6d547008616c88e07d1ba49d918ae87bdb59421803fcb8fe",
+      "metadata": {
+        "proveedor": "Natalia Reyes Clavellina",
+        "representante": "Natalia Reyes Clavellina"
+      },
+      "eventHash": "b542eb845992515b15415aa06aaeeb986940a33add362e886644496ba4d2cf3e"
+    },
+    {
+      "eventId": "b6fc493f-ac47-4b98-a091-e153bc35b222",
+      "uid": "RECN941031EZ8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-26T17:14:48.419Z",
+      "timestampLocal": "2026-06-26T17:14:48.419Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.37.70",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-MX,en;q=0.9,es-MX;q=0.8,es;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RECN941031EZ8&nombre_proveedor_razon_social=Natalia+Reyes+Clavellina&nombre_representante_legal=Natalia+Reyes+Clavellina&email=nataliareyes%40estudiokonto.com",
+      "previousEventHash": "b542eb845992515b15415aa06aaeeb986940a33add362e886644496ba4d2cf3e",
+      "documentHash": "3d4d751b704a44af6d547008616c88e07d1ba49d918ae87bdb59421803fcb8fe",
+      "eventHash": "d63fce4f477b8480650ba806e8a8f3e0a10678421ac2ec58a8c68bce4c5ce577"
+    },
+    {
+      "eventId": "8436e311-f6a2-466f-9c6d-cfaf08c0cf24",
+      "uid": "RECN941031EZ8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-26T17:15:14.482Z",
+      "timestampLocal": "2026-06-26T11:15:14.482Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.191.37.70",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-MX,en;q=0.9,es-MX;q=0.8,es;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/481e3d83-131f-4015-9487-66274badf926",
+      "previousEventHash": "d63fce4f477b8480650ba806e8a8f3e0a10678421ac2ec58a8c68bce4c5ce577",
+      "documentHash": "ab25e55f57cdc0f382306c2a5dec5644787d3d0ea243edba6b3abb5a5477ba9b",
+      "signatureHash": "cb47cfc11d735c2d4e57f319213555dfe322264113308e6b20c6bf09f99d533a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-26T11:15:11.373Z"
+      },
+      "eventHash": "f5aa0ffb6650240cbe14bfc0726e1fe3377d8575578babd67e7ad636f1a525b1"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-26T17:15:14.482Z"
+  }
 }
