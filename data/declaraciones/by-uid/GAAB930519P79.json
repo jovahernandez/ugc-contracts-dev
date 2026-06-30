@@ -1,19 +1,100 @@
 {
   "uid": "GAAB930519P79",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Bárbara Mariana Garcia Angeles",
     "nombre_representante_legal": "BARBARA MARIANA GARCIA ANGELES",
     "email": "contacto@damitashisteria.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Bárbara Mariana Garcia Angeles",
-    "nombre_representante_legal": "BARBARA MARIANA GARCIA ANGELES",
-    "email": "contacto@damitashisteria.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-30T16:34:46.677Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GAAB930519P79",
+  "signatureMetadata": {
+    "ip": "189.203.51.193",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-06-30T22:34:49.976Z",
+    "signedAtLocal": "2026-06-30T16:34:49.976Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9bc75e82e353168985b5735f8fc0dae1cf7bedfa0d8bd1ca39ea64eee0e38d58"
+  "documentHash": "85971def708fe7f2f3239b11d83704b21a115924b63992a43607aaddc151b053",
+  "auditTrail": [
+    {
+      "eventId": "1b23ddb6-2d38-46bf-8613-fbd69f151909",
+      "uid": "GAAB930519P79",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-30T22:34:33.053Z",
+      "timestampLocal": "2026-06-30T22:34:33.053Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.51.193",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "9bc75e82e353168985b5735f8fc0dae1cf7bedfa0d8bd1ca39ea64eee0e38d58",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9fbf2e4a706a44b2466451359d2f70cfc4498ce60c33cf6dd613abdb72ad21df"
+    },
+    {
+      "eventId": "ea647c64-e1d8-4a45-9c70-b99f79ddec03",
+      "uid": "GAAB930519P79",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-30T22:34:33.053Z",
+      "timestampLocal": "2026-06-30T22:34:33.053Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.51.193",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "9fbf2e4a706a44b2466451359d2f70cfc4498ce60c33cf6dd613abdb72ad21df",
+      "documentHash": "9bc75e82e353168985b5735f8fc0dae1cf7bedfa0d8bd1ca39ea64eee0e38d58",
+      "metadata": {
+        "proveedor": "Bárbara Mariana Garcia Angeles",
+        "representante": "BARBARA MARIANA GARCIA ANGELES"
+      },
+      "eventHash": "f4407cd20a4a4304ed3883441d71ddcbd071bf043f63e59df2a20da16885a68b"
+    },
+    {
+      "eventId": "6e31e34c-ba7a-4b82-9dac-dc2786e95d52",
+      "uid": "GAAB930519P79",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-30T22:34:34.312Z",
+      "timestampLocal": "2026-06-30T22:34:34.312Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.51.193",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f4407cd20a4a4304ed3883441d71ddcbd071bf043f63e59df2a20da16885a68b",
+      "documentHash": "9bc75e82e353168985b5735f8fc0dae1cf7bedfa0d8bd1ca39ea64eee0e38d58",
+      "eventHash": "cb5f1e0f6691bf42afdbd8843f788d8cfe26175677db40db5761370753b1c32c"
+    },
+    {
+      "eventId": "06b9c69d-afb2-4349-a684-d946d21db089",
+      "uid": "GAAB930519P79",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-30T22:34:49.976Z",
+      "timestampLocal": "2026-06-30T16:34:49.976Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.51.193",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "cb5f1e0f6691bf42afdbd8843f788d8cfe26175677db40db5761370753b1c32c",
+      "documentHash": "85971def708fe7f2f3239b11d83704b21a115924b63992a43607aaddc151b053",
+      "signatureHash": "1184e4328356402d113332c469a4eda3853b4c3d5dc904fa3ca67eeccc706d6b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-30T16:34:46.677Z"
+      },
+      "eventHash": "f5f6718e27fa8930216800138fb6a028611e98e6679bff91fb8e3ff949770222"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-30T22:34:49.976Z"
+  }
 }
