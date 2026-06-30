@@ -1,19 +1,100 @@
 {
   "uid": "BOZC5110142E4",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Carlos Bonavides Zamudio",
     "nombre_representante_legal": "Carlos Bonavides Zamudio",
     "email": "redes@neomenmx.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Carlos Bonavides Zamudio",
-    "nombre_representante_legal": "Carlos Bonavides Zamudio",
-    "email": "redes@neomenmx.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-30T11:49:43.536Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BOZC5110142E4",
+  "signatureMetadata": {
+    "ip": "187.193.201.54",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-30T17:49:46.795Z",
+    "signedAtLocal": "2026-06-30T11:49:46.795Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "38b881b162d3a4ae3fd8c4aa23b2dce19ee62960301e52170b0adf8ade3856f0"
+  "documentHash": "6b82dc7b8fb2c1f261c59d5121ba4a77ea1c1fd895574babed56c4be8afe4161",
+  "auditTrail": [
+    {
+      "eventId": "284b80e3-c674-4c02-8932-15b486e64bcc",
+      "uid": "BOZC5110142E4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-30T17:49:27.703Z",
+      "timestampLocal": "2026-06-30T17:49:27.703Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.193.201.54",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOZC5110142E4&nombre_proveedor_razon_social=+Carlos+Bonavides+Zamudio&nombre_representante_legal=+Carlos+Bonavides+Zamudio&email=redes%40neomenmx.com",
+      "previousEventHash": null,
+      "documentHash": "38b881b162d3a4ae3fd8c4aa23b2dce19ee62960301e52170b0adf8ade3856f0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f907267995eff2005cbd871fbbc1530dd752e45f4ca7fed52538a24d5eb64b31"
+    },
+    {
+      "eventId": "6d4e465e-56d2-468c-ba40-69fe951876d3",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-30T17:49:27.703Z",
+      "timestampLocal": "2026-06-30T17:49:27.703Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.193.201.54",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOZC5110142E4&nombre_proveedor_razon_social=+Carlos+Bonavides+Zamudio&nombre_representante_legal=+Carlos+Bonavides+Zamudio&email=redes%40neomenmx.com",
+      "previousEventHash": "f907267995eff2005cbd871fbbc1530dd752e45f4ca7fed52538a24d5eb64b31",
+      "documentHash": "38b881b162d3a4ae3fd8c4aa23b2dce19ee62960301e52170b0adf8ade3856f0",
+      "metadata": {
+        "proveedor": "Carlos Bonavides Zamudio",
+        "representante": "Carlos Bonavides Zamudio"
+      },
+      "eventHash": "e228e6c1c3adf0e5f0fdac87e9e1b8721498d7fdb59a2be99b777881e9eab121"
+    },
+    {
+      "eventId": "25727fad-0454-46fe-aa43-26289631c96d",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-30T17:49:28.932Z",
+      "timestampLocal": "2026-06-30T17:49:28.932Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.193.201.54",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOZC5110142E4&nombre_proveedor_razon_social=+Carlos+Bonavides+Zamudio&nombre_representante_legal=+Carlos+Bonavides+Zamudio&email=redes%40neomenmx.com",
+      "previousEventHash": "e228e6c1c3adf0e5f0fdac87e9e1b8721498d7fdb59a2be99b777881e9eab121",
+      "documentHash": "38b881b162d3a4ae3fd8c4aa23b2dce19ee62960301e52170b0adf8ade3856f0",
+      "eventHash": "50f0658d512b533c2d8dfae07c7a9309d259fb5b4f2c2206f17628b356dd60c6"
+    },
+    {
+      "eventId": "f2fceba0-f3a5-4dd4-ac1b-bafe2341654d",
+      "uid": "BOZC5110142E4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-30T17:49:46.795Z",
+      "timestampLocal": "2026-06-30T11:49:46.795Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.193.201.54",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/51713792-d72e-4da5-b0f4-acb588fc9eb4",
+      "previousEventHash": "50f0658d512b533c2d8dfae07c7a9309d259fb5b4f2c2206f17628b356dd60c6",
+      "documentHash": "6b82dc7b8fb2c1f261c59d5121ba4a77ea1c1fd895574babed56c4be8afe4161",
+      "signatureHash": "a9d0fa770b5e453e65d24e1726f442681266036241915c862c8255b1f8e6ef67",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-30T11:49:43.536Z"
+      },
+      "eventHash": "e37f94c190fadf44c2ef67bfb242a476a907a95adc1782d6d00c13023fc784b9"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-30T17:49:46.795Z"
+  }
 }
