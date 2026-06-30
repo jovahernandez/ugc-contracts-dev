@@ -1,19 +1,130 @@
 {
   "uid": "GLO131203R23",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GRUPO LORSAR",
     "nombre_representante_legal": "LORENA SARAVIA",
     "email": "rosalba@lorenasaravia.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "GRUPO LORSAR",
-    "nombre_representante_legal": "LORENA SARAVIA",
-    "email": "rosalba@lorenasaravia.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-29T19:01:01.369Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GLO131203R23",
+  "signatureMetadata": {
+    "ip": "187.251.245.197",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+    "signedAtUtc": "2026-06-30T01:01:04.688Z",
+    "signedAtLocal": "2026-06-29T19:01:04.688Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f297f5db1cea6630dbc9c46f9ab071e7cb1cd61e9a62cf9ebf8bdaebd23ed99f"
+  "documentHash": "14be6d4c02a7db3f1924eea559e12168e872afe0c021ffce95ee933893169833",
+  "auditTrail": [
+    {
+      "eventId": "33bc0aa8-faab-4fc8-a42f-4f2c4445197d",
+      "uid": "GLO131203R23",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-30T00:38:06.539Z",
+      "timestampLocal": "2026-06-30T00:38:06.539Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.245.197",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GLO131203R23&nombre_proveedor_razon_social=GRUPO+LORSAR&nombre_representante_legal=LORENA+SARAVIA&email=rosalba%40lorenasaravia.com",
+      "previousEventHash": null,
+      "documentHash": "f297f5db1cea6630dbc9c46f9ab071e7cb1cd61e9a62cf9ebf8bdaebd23ed99f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4eff3a2cf419e417d75ed3043416ca548085440ebdbe989f6d5ef058e54deb7c"
+    },
+    {
+      "eventId": "41c9dbb7-61b4-445d-9061-1bff3b299a29",
+      "uid": "GLO131203R23",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-30T00:38:06.540Z",
+      "timestampLocal": "2026-06-30T00:38:06.540Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.245.197",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GLO131203R23&nombre_proveedor_razon_social=GRUPO+LORSAR&nombre_representante_legal=LORENA+SARAVIA&email=rosalba%40lorenasaravia.com",
+      "previousEventHash": "4eff3a2cf419e417d75ed3043416ca548085440ebdbe989f6d5ef058e54deb7c",
+      "documentHash": "f297f5db1cea6630dbc9c46f9ab071e7cb1cd61e9a62cf9ebf8bdaebd23ed99f",
+      "metadata": {
+        "proveedor": "GRUPO LORSAR",
+        "representante": "LORENA SARAVIA"
+      },
+      "eventHash": "8b2cac254ed91e8764655e5a8b548d4ef1135bf2a070be9846963b2fc8f9e44a"
+    },
+    {
+      "eventId": "7e9db978-6390-485e-a85c-d9b1c8c16d6f",
+      "uid": "GLO131203R23",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-30T00:38:07.734Z",
+      "timestampLocal": "2026-06-30T00:38:07.734Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.245.197",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GLO131203R23&nombre_proveedor_razon_social=GRUPO+LORSAR&nombre_representante_legal=LORENA+SARAVIA&email=rosalba%40lorenasaravia.com",
+      "previousEventHash": "8b2cac254ed91e8764655e5a8b548d4ef1135bf2a070be9846963b2fc8f9e44a",
+      "documentHash": "f297f5db1cea6630dbc9c46f9ab071e7cb1cd61e9a62cf9ebf8bdaebd23ed99f",
+      "eventHash": "793e7ce429dba323e3c55b96cfd5b40e6de220f2a3ec0593fc657d6805fad2e2"
+    },
+    {
+      "eventId": "2dac84ea-cffb-4237-b3b9-b5a7f1a26569",
+      "uid": "GLO131203R23",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-30T00:41:55.127Z",
+      "timestampLocal": "2026-06-30T00:41:55.127Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.245.197",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "793e7ce429dba323e3c55b96cfd5b40e6de220f2a3ec0593fc657d6805fad2e2",
+      "documentHash": "f297f5db1cea6630dbc9c46f9ab071e7cb1cd61e9a62cf9ebf8bdaebd23ed99f",
+      "eventHash": "a7c23b090b70d4006bc297e20cbef756ba88a04a79bff8056a9bae9320dc4519"
+    },
+    {
+      "eventId": "0396f677-2ab0-4400-87fa-5204fb1a569c",
+      "uid": "GLO131203R23",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-30T00:54:40.798Z",
+      "timestampLocal": "2026-06-30T00:54:40.798Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.245.197",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "a7c23b090b70d4006bc297e20cbef756ba88a04a79bff8056a9bae9320dc4519",
+      "documentHash": "f297f5db1cea6630dbc9c46f9ab071e7cb1cd61e9a62cf9ebf8bdaebd23ed99f",
+      "eventHash": "0cfbc1819e7575eca241d6f79dc3ced7eae48f9094beb943ffd153ef86d67bf5"
+    },
+    {
+      "eventId": "1455035f-ee1b-49df-b814-7c9af46989e9",
+      "uid": "GLO131203R23",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-30T01:01:04.688Z",
+      "timestampLocal": "2026-06-29T19:01:04.688Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.251.245.197",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f1a3a985-f790-4538-8438-4afb9eb971e6",
+      "previousEventHash": "0cfbc1819e7575eca241d6f79dc3ced7eae48f9094beb943ffd153ef86d67bf5",
+      "documentHash": "14be6d4c02a7db3f1924eea559e12168e872afe0c021ffce95ee933893169833",
+      "signatureHash": "ea1c67cfffe0a046aef799636e27469239e741b88f9fb68c10ac36e57981f57d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-29T19:01:01.369Z"
+      },
+      "eventHash": "33b3ee1c32102e637dbcca496123757b92de7da86dacb74ae000e2033a9bd951"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-06-30T01:01:04.688Z"
+  }
 }
