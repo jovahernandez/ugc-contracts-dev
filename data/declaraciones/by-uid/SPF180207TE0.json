@@ -1,19 +1,130 @@
 {
   "uid": "SPF180207TE0",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Sopa de Piedra Films S de RL de CV",
     "nombre_representante_legal": "GONZALO ROMERO HOLGUIN",
     "email": "gonzalo@triste.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Sopa de Piedra Films S de RL de CV",
-    "nombre_representante_legal": "GONZALO ROMERO HOLGUIN",
-    "email": "gonzalo@triste.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-30T13:45:36.207Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SPF180207TE0",
+  "signatureMetadata": {
+    "ip": "187.168.143.154",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-06-30T19:45:39.461Z",
+    "signedAtLocal": "2026-06-30T13:45:39.461Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c4b7a5594d989ad1d50a95d0aca8242ca3536ad6d53e4d06d607cea49f82957d"
+  "documentHash": "c80933b86b1c0543f582d8f7122ce212b7a00db9e10d7603403926c83b001a93",
+  "auditTrail": [
+    {
+      "eventId": "f0e7c754-653a-4d6a-adbc-62b49a66b784",
+      "uid": "SPF180207TE0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-30T19:40:40.704Z",
+      "timestampLocal": "2026-06-30T19:40:40.704Z",
+      "timezone": "UTC+0",
+      "ipAddress": "138.186.29.215",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SPF180207TE0&nombre_proveedor_razon_social=Sopa+de+Piedra+Films+S+de+RL+de+CV&nombre_representante_legal=GONZALO+ROMERO+HOLGUIN&email=gonzalo%40triste.mx",
+      "previousEventHash": null,
+      "documentHash": "c4b7a5594d989ad1d50a95d0aca8242ca3536ad6d53e4d06d607cea49f82957d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a21dbd070bf14edad74f13b89783fee0d0ae71c7893988654924ac4aec17192c"
+    },
+    {
+      "eventId": "e4fa7e62-4ffd-4103-b32b-1951a1a11622",
+      "uid": "SPF180207TE0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-30T19:40:40.704Z",
+      "timestampLocal": "2026-06-30T19:40:40.704Z",
+      "timezone": "UTC+0",
+      "ipAddress": "138.186.29.215",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SPF180207TE0&nombre_proveedor_razon_social=Sopa+de+Piedra+Films+S+de+RL+de+CV&nombre_representante_legal=GONZALO+ROMERO+HOLGUIN&email=gonzalo%40triste.mx",
+      "previousEventHash": "a21dbd070bf14edad74f13b89783fee0d0ae71c7893988654924ac4aec17192c",
+      "documentHash": "c4b7a5594d989ad1d50a95d0aca8242ca3536ad6d53e4d06d607cea49f82957d",
+      "metadata": {
+        "proveedor": "Sopa de Piedra Films S de RL de CV",
+        "representante": "GONZALO ROMERO HOLGUIN"
+      },
+      "eventHash": "7084cf6cb2a607562a8e51ccdee13e0b859665d29eb7f3a1c31399cd0258ea93"
+    },
+    {
+      "eventId": "4b68bdc5-1659-43bf-abdd-5473c7698bdc",
+      "uid": "SPF180207TE0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-30T19:40:41.929Z",
+      "timestampLocal": "2026-06-30T19:40:41.929Z",
+      "timezone": "UTC+0",
+      "ipAddress": "138.186.29.215",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SPF180207TE0&nombre_proveedor_razon_social=Sopa+de+Piedra+Films+S+de+RL+de+CV&nombre_representante_legal=GONZALO+ROMERO+HOLGUIN&email=gonzalo%40triste.mx",
+      "previousEventHash": "7084cf6cb2a607562a8e51ccdee13e0b859665d29eb7f3a1c31399cd0258ea93",
+      "documentHash": "c4b7a5594d989ad1d50a95d0aca8242ca3536ad6d53e4d06d607cea49f82957d",
+      "eventHash": "ab5ca72981af78fa32738e886de9ebbd02f4d552f9b14c14490cecf36f6cde67"
+    },
+    {
+      "eventId": "e6d498fc-d2ea-4d0b-864d-d2258065e2f2",
+      "uid": "SPF180207TE0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-30T19:42:17.999Z",
+      "timestampLocal": "2026-06-30T19:42:17.999Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.143.154",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,fr-FR;q=0.8,fr;q=0.7,es-419;q=0.6",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "ab5ca72981af78fa32738e886de9ebbd02f4d552f9b14c14490cecf36f6cde67",
+      "documentHash": "c4b7a5594d989ad1d50a95d0aca8242ca3536ad6d53e4d06d607cea49f82957d",
+      "eventHash": "7ac0754714da8530c7a2ba472d5e1a41b97f606779cb7bfa5ab0f97bb0cda5d9"
+    },
+    {
+      "eventId": "f453f650-a20b-4409-a851-0970311b1200",
+      "uid": "SPF180207TE0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-30T19:45:25.738Z",
+      "timestampLocal": "2026-06-30T19:45:25.738Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.143.154",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,fr-FR;q=0.8,fr;q=0.7,es-419;q=0.6",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "7ac0754714da8530c7a2ba472d5e1a41b97f606779cb7bfa5ab0f97bb0cda5d9",
+      "documentHash": "c4b7a5594d989ad1d50a95d0aca8242ca3536ad6d53e4d06d607cea49f82957d",
+      "eventHash": "be76b1cfbc47de279ca76b78d0257f7d3ae80b787539151a5db7b16e9c673cfe"
+    },
+    {
+      "eventId": "7d17ffaf-d4d5-4b74-a89b-a50dfd9beaf3",
+      "uid": "SPF180207TE0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-30T19:45:39.461Z",
+      "timestampLocal": "2026-06-30T13:45:39.461Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.168.143.154",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,fr-FR;q=0.8,fr;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/106fbcd1-154b-4e9f-bc9b-66b9ac584e51",
+      "previousEventHash": "be76b1cfbc47de279ca76b78d0257f7d3ae80b787539151a5db7b16e9c673cfe",
+      "documentHash": "c80933b86b1c0543f582d8f7122ce212b7a00db9e10d7603403926c83b001a93",
+      "signatureHash": "b053d98d00b5b5df7b50338a42160f5d444ff60d0194715dbff04ae1c057e195",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-30T13:45:36.207Z"
+      },
+      "eventHash": "08ba4b5d0b50193705d36836efa51044d0bc017445c950486ea5a25d5651db2e"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-06-30T19:45:39.462Z"
+  }
 }
