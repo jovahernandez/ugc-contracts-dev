@@ -1,19 +1,100 @@
 {
   "uid": "CAPM991009BJ7",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Monica Jannet Caballero Perez",
     "nombre_representante_legal": "Monica Jannet Caballero Perez",
     "email": "itsme.monicaballero@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Monica Jannet Caballero Perez",
-    "nombre_representante_legal": "Monica Jannet Caballero Perez",
-    "email": "itsme.monicaballero@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-30T18:33:51.492Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CAPM991009BJ7",
+  "signatureMetadata": {
+    "ip": "189.201.23.183",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-06-30T22:33:57.090Z",
+    "signedAtLocal": "2026-06-30T18:33:57.090Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e7451de500601502e8c2a7c7282415d8f3fecf5d7bfb14b1a7efdcc8513851e8"
+  "documentHash": "dc6085d74f3b91313d089f5de725d6063c722a62fb3d02ea9dfebfbd6dea9378",
+  "auditTrail": [
+    {
+      "eventId": "67267e00-3853-466c-b6bb-9bcf262b2e8b",
+      "uid": "CAPM991009BJ7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-30T22:32:27.589Z",
+      "timestampLocal": "2026-06-30T22:32:27.589Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.201.23.183",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "e7451de500601502e8c2a7c7282415d8f3fecf5d7bfb14b1a7efdcc8513851e8",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f2165ee4526219f32399a443ab251e3235527b6efaba1533285e84e5ad68c20a"
+    },
+    {
+      "eventId": "6796a6a6-b5a7-46dd-b08e-3d5347177a26",
+      "uid": "CAPM991009BJ7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-30T22:32:27.589Z",
+      "timestampLocal": "2026-06-30T22:32:27.589Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.201.23.183",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f2165ee4526219f32399a443ab251e3235527b6efaba1533285e84e5ad68c20a",
+      "documentHash": "e7451de500601502e8c2a7c7282415d8f3fecf5d7bfb14b1a7efdcc8513851e8",
+      "metadata": {
+        "proveedor": "Monica Jannet Caballero Perez",
+        "representante": "Monica Jannet Caballero Perez"
+      },
+      "eventHash": "bbbef5fb039e3d3cde5d9dd7bab9d60bedfa64380d6049c3b68a1450d8ba2623"
+    },
+    {
+      "eventId": "358441bb-1f4e-4ec1-a482-1bfefc49d00b",
+      "uid": "CAPM991009BJ7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-30T22:32:29.026Z",
+      "timestampLocal": "2026-06-30T22:32:29.026Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.201.23.183",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "bbbef5fb039e3d3cde5d9dd7bab9d60bedfa64380d6049c3b68a1450d8ba2623",
+      "documentHash": "e7451de500601502e8c2a7c7282415d8f3fecf5d7bfb14b1a7efdcc8513851e8",
+      "eventHash": "7f36e2b8fe063ac16345b62deb9d92a6b897b819dc276d52966c62860fbdb1a5"
+    },
+    {
+      "eventId": "3d31560d-c53d-4c78-84dc-eb3d4f7f8a91",
+      "uid": "CAPM991009BJ7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-06-30T22:33:57.090Z",
+      "timestampLocal": "2026-06-30T18:33:57.090Z",
+      "timezone": "UTC-4",
+      "ipAddress": "189.201.23.183",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "7f36e2b8fe063ac16345b62deb9d92a6b897b819dc276d52966c62860fbdb1a5",
+      "documentHash": "dc6085d74f3b91313d089f5de725d6063c722a62fb3d02ea9dfebfbd6dea9378",
+      "signatureHash": "96c02776de03fbdc32368915a109d48efa316d35560ce08ac26a80ce3b9e5e20",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-30T18:33:51.492Z"
+      },
+      "eventHash": "d8781b622be0e4ea88caeacc1c26ef01a89a80d3cc2900443da29a225be9d6ad"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-06-30T22:33:57.091Z"
+  }
 }
