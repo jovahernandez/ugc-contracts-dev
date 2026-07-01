@@ -1,19 +1,115 @@
 {
   "uid": "VAGG920225KPA",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Gloria Estefania Vallejo Garza",
     "nombre_representante_legal": "Gloria Estefanía Vallejo Garza",
     "email": "hola@estefaniavallejo.net"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Gloria Estefania Vallejo Garza",
-    "nombre_representante_legal": "Gloria Estefanía Vallejo Garza",
-    "email": "hola@estefaniavallejo.net"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-01T00:04:50.100Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/VAGG920225KPA",
+  "signatureMetadata": {
+    "ip": "189.158.163.244",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-07-01T06:04:55.760Z",
+    "signedAtLocal": "2026-07-01T00:04:55.760Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8e6121db213a3a073f47e1637c23fb33b6e1c0ce1f55c31f28d0069f89d914bb"
+  "documentHash": "048f294219e8f95de80a8c909567cb7414c31ecc6db7468339c92c3c7fae7c86",
+  "auditTrail": [
+    {
+      "eventId": "184d5111-af15-42c4-8fb2-79ae754de01d",
+      "uid": "VAGG920225KPA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-01T06:03:45.419Z",
+      "timestampLocal": "2026-07-01T06:03:45.419Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.158.163.244",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "8e6121db213a3a073f47e1637c23fb33b6e1c0ce1f55c31f28d0069f89d914bb",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b150c1fd15a51c632acc5d500140467beeb283666f5623ea4f698853ee0f0da3"
+    },
+    {
+      "eventId": "0c7aab83-ce6f-4f43-bf3b-ffb3028de6eb",
+      "uid": "VAGG920225KPA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-01T06:03:45.420Z",
+      "timestampLocal": "2026-07-01T06:03:45.420Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.158.163.244",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "b150c1fd15a51c632acc5d500140467beeb283666f5623ea4f698853ee0f0da3",
+      "documentHash": "8e6121db213a3a073f47e1637c23fb33b6e1c0ce1f55c31f28d0069f89d914bb",
+      "metadata": {
+        "proveedor": "Gloria Estefania Vallejo Garza",
+        "representante": "Gloria Estefanía Vallejo Garza"
+      },
+      "eventHash": "f40a1d9233d0e040df595ca3b9b432cd712ba18c9c7ccdf1578dfad70b39c5c5"
+    },
+    {
+      "eventId": "c9d824d7-65c4-4a53-8d89-78b9c8fc96d8",
+      "uid": "VAGG920225KPA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-01T06:03:46.477Z",
+      "timestampLocal": "2026-07-01T06:03:46.477Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.158.163.244",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f40a1d9233d0e040df595ca3b9b432cd712ba18c9c7ccdf1578dfad70b39c5c5",
+      "documentHash": "8e6121db213a3a073f47e1637c23fb33b6e1c0ce1f55c31f28d0069f89d914bb",
+      "eventHash": "65b74c3e3f9ab874afe671892fcea2f94f92c32e19bdc3660ce9f5721ebe6ecf"
+    },
+    {
+      "eventId": "152ddb58-1fee-4de3-b397-c86f0a97f574",
+      "uid": "VAGG920225KPA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-01T06:04:11.260Z",
+      "timestampLocal": "2026-07-01T06:04:11.260Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.158.163.244",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "65b74c3e3f9ab874afe671892fcea2f94f92c32e19bdc3660ce9f5721ebe6ecf",
+      "documentHash": "8e6121db213a3a073f47e1637c23fb33b6e1c0ce1f55c31f28d0069f89d914bb",
+      "eventHash": "c345bcd31f9513de0c3ebc8dd37da637368eea89beaa81ae42d4fd4b1f7c80bb"
+    },
+    {
+      "eventId": "19d971d0-df79-4775-a2b2-ec8a19c1e847",
+      "uid": "VAGG920225KPA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-01T06:04:55.760Z",
+      "timestampLocal": "2026-07-01T00:04:55.760Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.158.163.244",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "c345bcd31f9513de0c3ebc8dd37da637368eea89beaa81ae42d4fd4b1f7c80bb",
+      "documentHash": "048f294219e8f95de80a8c909567cb7414c31ecc6db7468339c92c3c7fae7c86",
+      "signatureHash": "78184e29011e26a2d51bf1e2a33802378c6d10c23f37346b8a7109d24d19fd4e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-01T00:04:50.100Z"
+      },
+      "eventHash": "886d3099a9690a8b5e71848bf2332d40fdb41ca7698c521cc9cdb15259c9ba31"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-07-01T06:04:55.761Z"
+  }
 }
