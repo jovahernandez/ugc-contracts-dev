@@ -1,19 +1,130 @@
 {
   "uid": "CACD001006BJ9",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Daniel Cavazos Carmona",
     "nombre_representante_legal": "Alejandra Hernandez",
     "email": "holadanielcvz@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Daniel Cavazos Carmona",
-    "nombre_representante_legal": "Alejandra Hernandez",
-    "email": "holadanielcvz@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-06-30T19:58:05.515Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CACD001006BJ9",
+  "signatureMetadata": {
+    "ip": "200.68.181.116",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-07-01T01:58:08.808Z",
+    "signedAtLocal": "2026-06-30T19:58:08.808Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "50c0b88cb243e001b720f7224a65bdbc6acf6851c37d62bc2194230d904caf3f"
+  "documentHash": "49bf5bfdd89098cc60559a28e4e078769551189c3331e0ba83168cba2c692a81",
+  "auditTrail": [
+    {
+      "eventId": "ecae0fb7-f7a0-4cdd-9b3a-1e86e3683ba6",
+      "uid": "CACD001006BJ9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-06-30T23:53:42.817Z",
+      "timestampLocal": "2026-06-30T23:53:42.817Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.193.126",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CACD001006BJ9&nombre_proveedor_razon_social=Daniel+Cavazos+Carmona&nombre_representante_legal=Alejandra+Hernandez&email=holadanielcvz%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "50c0b88cb243e001b720f7224a65bdbc6acf6851c37d62bc2194230d904caf3f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3f1cacea7edff362eafc13041a7883c089d2e7fe88499d24825a4f9e8d4c54e8"
+    },
+    {
+      "eventId": "e1c4284b-b998-4719-853f-e71f298c858b",
+      "uid": "CACD001006BJ9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-06-30T23:53:42.817Z",
+      "timestampLocal": "2026-06-30T23:53:42.817Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.193.126",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CACD001006BJ9&nombre_proveedor_razon_social=Daniel+Cavazos+Carmona&nombre_representante_legal=Alejandra+Hernandez&email=holadanielcvz%40gmail.com",
+      "previousEventHash": "3f1cacea7edff362eafc13041a7883c089d2e7fe88499d24825a4f9e8d4c54e8",
+      "documentHash": "50c0b88cb243e001b720f7224a65bdbc6acf6851c37d62bc2194230d904caf3f",
+      "metadata": {
+        "proveedor": "Daniel Cavazos Carmona",
+        "representante": "Alejandra Hernandez"
+      },
+      "eventHash": "b1462fbd1165928efced4a2fa743d1a5ecef629dbac335b5ca47275ee341ec8e"
+    },
+    {
+      "eventId": "b00ddc39-a905-450c-9b11-c49134689201",
+      "uid": "CACD001006BJ9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-06-30T23:53:44.138Z",
+      "timestampLocal": "2026-06-30T23:53:44.138Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.193.126",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CACD001006BJ9&nombre_proveedor_razon_social=Daniel+Cavazos+Carmona&nombre_representante_legal=Alejandra+Hernandez&email=holadanielcvz%40gmail.com",
+      "previousEventHash": "b1462fbd1165928efced4a2fa743d1a5ecef629dbac335b5ca47275ee341ec8e",
+      "documentHash": "50c0b88cb243e001b720f7224a65bdbc6acf6851c37d62bc2194230d904caf3f",
+      "eventHash": "e6fd1569a010035a9e6c07ea20d5f858696b2c01f29e44f3364ed868b3f25685"
+    },
+    {
+      "eventId": "eb996fc6-07ed-4354-aa04-b347f8bd52fb",
+      "uid": "CACD001006BJ9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-01T00:06:06.164Z",
+      "timestampLocal": "2026-07-01T00:06:06.164Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.91.122",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "e6fd1569a010035a9e6c07ea20d5f858696b2c01f29e44f3364ed868b3f25685",
+      "documentHash": "50c0b88cb243e001b720f7224a65bdbc6acf6851c37d62bc2194230d904caf3f",
+      "eventHash": "6bb599ac411dea3306946d569fed9252f0705b0fff3770cdd05ff9c0af31c69c"
+    },
+    {
+      "eventId": "bffd19d7-1e1c-4eac-8ec7-9e351c6b45df",
+      "uid": "CACD001006BJ9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-01T01:57:50.731Z",
+      "timestampLocal": "2026-07-01T01:57:50.731Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.181.116",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "6bb599ac411dea3306946d569fed9252f0705b0fff3770cdd05ff9c0af31c69c",
+      "documentHash": "50c0b88cb243e001b720f7224a65bdbc6acf6851c37d62bc2194230d904caf3f",
+      "eventHash": "2bd2e2cdbacdc4be9513838ef31aee1d97b4cef470f30416f725af1a17590543"
+    },
+    {
+      "eventId": "8ad6f570-9c49-4e4e-8cd3-c119cdeb2fbe",
+      "uid": "CACD001006BJ9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-01T01:58:08.808Z",
+      "timestampLocal": "2026-06-30T19:58:08.808Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.68.181.116",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "2bd2e2cdbacdc4be9513838ef31aee1d97b4cef470f30416f725af1a17590543",
+      "documentHash": "49bf5bfdd89098cc60559a28e4e078769551189c3331e0ba83168cba2c692a81",
+      "signatureHash": "3fb49483f034ebe4f99123a9942552e3ac52921b19728ed1439e1b3d88116e11",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-06-30T19:58:05.515Z"
+      },
+      "eventHash": "fef3ff5a6208cb9ce7fec34d412ff733d4152d5128dc55186b9d1227526349fa"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-07-01T01:58:08.808Z"
+  }
 }
