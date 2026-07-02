@@ -1,19 +1,115 @@
 {
   "uid": "GOJA920913EZ1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ANDRES GOYA JIMENEZ",
     "nombre_representante_legal": "ANDRES GOYA JIMENEZ",
     "email": "andresgoya@bleat.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ANDRES GOYA JIMENEZ",
-    "nombre_representante_legal": "ANDRES GOYA JIMENEZ",
-    "email": "andresgoya@bleat.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-02T15:47:12.802Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GOJA920913EZ1",
+  "signatureMetadata": {
+    "ip": "187.209.44.213",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-02T21:47:16.106Z",
+    "signedAtLocal": "2026-07-02T15:47:16.106Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "21a1e7b69501ef7bf37f0ce62dd7c0797301b52748dc8f8dd24a97a18fce888e"
+  "documentHash": "7da9aefc91253a3d567fe8f1056934850c36b83db0ac493f9c5aba3bcd1a2229",
+  "auditTrail": [
+    {
+      "eventId": "e7feae25-f5a2-4c14-8d55-4bf140c6f18f",
+      "uid": "GOJA920913EZ1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-02T00:08:54.975Z",
+      "timestampLocal": "2026-07-02T00:08:54.975Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.145.235",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOJA920913EZ1&nombre_proveedor_razon_social=ANDRES+GOYA+JIMENEZ&nombre_representante_legal=ANDRES+GOYA+JIMENEZ&email=andresgoya%40bleat.mx",
+      "previousEventHash": null,
+      "documentHash": "21a1e7b69501ef7bf37f0ce62dd7c0797301b52748dc8f8dd24a97a18fce888e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "21cabc9dd7677475b4ec18dff42059f086d800a82a22382d05e7f7ec4d3ff0ed"
+    },
+    {
+      "eventId": "60156461-8853-48d1-b0f1-629be8cd0616",
+      "uid": "GOJA920913EZ1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-02T00:08:54.975Z",
+      "timestampLocal": "2026-07-02T00:08:54.975Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.145.235",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOJA920913EZ1&nombre_proveedor_razon_social=ANDRES+GOYA+JIMENEZ&nombre_representante_legal=ANDRES+GOYA+JIMENEZ&email=andresgoya%40bleat.mx",
+      "previousEventHash": "21cabc9dd7677475b4ec18dff42059f086d800a82a22382d05e7f7ec4d3ff0ed",
+      "documentHash": "21a1e7b69501ef7bf37f0ce62dd7c0797301b52748dc8f8dd24a97a18fce888e",
+      "metadata": {
+        "proveedor": "ANDRES GOYA JIMENEZ",
+        "representante": "ANDRES GOYA JIMENEZ"
+      },
+      "eventHash": "3d43c4b7c06bac7eafb2ff1b9dbec56ebba8d1b2db892c709e513e952cdddf91"
+    },
+    {
+      "eventId": "9bb5b0f3-afe2-47ad-8fd5-85771a1a58c9",
+      "uid": "GOJA920913EZ1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-02T00:08:56.259Z",
+      "timestampLocal": "2026-07-02T00:08:56.259Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.145.235",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOJA920913EZ1&nombre_proveedor_razon_social=ANDRES+GOYA+JIMENEZ&nombre_representante_legal=ANDRES+GOYA+JIMENEZ&email=andresgoya%40bleat.mx",
+      "previousEventHash": "3d43c4b7c06bac7eafb2ff1b9dbec56ebba8d1b2db892c709e513e952cdddf91",
+      "documentHash": "21a1e7b69501ef7bf37f0ce62dd7c0797301b52748dc8f8dd24a97a18fce888e",
+      "eventHash": "825beccc82eb1f911b7f451472bdebc49790ca8fa0c5b786cdb642327036e30a"
+    },
+    {
+      "eventId": "8b7fe37d-d2e8-4dff-ab3c-f965e2b17e16",
+      "uid": "GOJA920913EZ1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-02T21:46:20.594Z",
+      "timestampLocal": "2026-07-02T21:46:20.594Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.209.44.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "825beccc82eb1f911b7f451472bdebc49790ca8fa0c5b786cdb642327036e30a",
+      "documentHash": "21a1e7b69501ef7bf37f0ce62dd7c0797301b52748dc8f8dd24a97a18fce888e",
+      "eventHash": "8420c6985a3174a4e5273b5d5fe8b235978c4f372365f3b79df55141dc6c76dd"
+    },
+    {
+      "eventId": "2a18c9f6-b6a5-4d73-8b2a-a9c7126e21c5",
+      "uid": "GOJA920913EZ1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-02T21:47:16.106Z",
+      "timestampLocal": "2026-07-02T15:47:16.106Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.209.44.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e3bc4e29-2e7c-4a3e-9340-364fc5659470",
+      "previousEventHash": "8420c6985a3174a4e5273b5d5fe8b235978c4f372365f3b79df55141dc6c76dd",
+      "documentHash": "7da9aefc91253a3d567fe8f1056934850c36b83db0ac493f9c5aba3bcd1a2229",
+      "signatureHash": "29661c8e4f84d9feaff721e73366b0201ec9c2b4f8c94ebab9ef944ac8199061",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-02T15:47:12.802Z"
+      },
+      "eventHash": "e9763632027db4eb9f9bb05c07da0ddf2b31c28e368b522155271ed145b8d759"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-07-02T21:47:16.106Z"
+  }
 }
