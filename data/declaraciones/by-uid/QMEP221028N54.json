@@ -1,19 +1,100 @@
 {
   "uid": "QMEP221028N54",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "QUE MAS ES POSIBLE MD SAS DE CV",
     "nombre_representante_legal": "PAOLA VILLASEÑOR SÁNCHEZ",
     "email": "paola@villasenorgroup.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "QUE MAS ES POSIBLE MD SAS DE CV",
-    "nombre_representante_legal": "PAOLA VILLASEÑOR SÁNCHEZ",
-    "email": "paola@villasenorgroup.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-02T14:04:53.494Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/QMEP221028N54",
+  "signatureMetadata": {
+    "ip": "187.188.14.72",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+    "signedAtUtc": "2026-07-02T20:04:56.758Z",
+    "signedAtLocal": "2026-07-02T14:04:56.758Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f9f8bab1a71e307af83cf39893596a2d289c59efcb7580a9da6b6da2d6fe8170"
+  "documentHash": "9fd580247f0d780937f35d884530fc1c3e6b9c6a4c8e635835e661fdd5af5e68",
+  "auditTrail": [
+    {
+      "eventId": "51e8989b-9125-4c45-8ecd-1600bde61b0e",
+      "uid": "QMEP221028N54",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-02T20:04:22.155Z",
+      "timestampLocal": "2026-07-02T20:04:22.155Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.14.72",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "f9f8bab1a71e307af83cf39893596a2d289c59efcb7580a9da6b6da2d6fe8170",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6e83d75300398cba29c42bc25c754bfb23cf86d83f7301781cca7a64f54e3c2b"
+    },
+    {
+      "eventId": "29498c74-b471-4d38-8425-881a76661f77",
+      "uid": "QMEP221028N54",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-02T20:04:22.155Z",
+      "timestampLocal": "2026-07-02T20:04:22.155Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.14.72",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "6e83d75300398cba29c42bc25c754bfb23cf86d83f7301781cca7a64f54e3c2b",
+      "documentHash": "f9f8bab1a71e307af83cf39893596a2d289c59efcb7580a9da6b6da2d6fe8170",
+      "metadata": {
+        "proveedor": "QUE MAS ES POSIBLE MD SAS DE CV",
+        "representante": "PAOLA VILLASEÑOR SÁNCHEZ"
+      },
+      "eventHash": "e01d743d06f9abee484ef0a248de1f384e144c243310692af0e8660e1935f1a6"
+    },
+    {
+      "eventId": "5491880b-c45a-4be8-9a42-852b09ff7882",
+      "uid": "QMEP221028N54",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-02T20:04:23.640Z",
+      "timestampLocal": "2026-07-02T20:04:23.640Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.14.72",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "e01d743d06f9abee484ef0a248de1f384e144c243310692af0e8660e1935f1a6",
+      "documentHash": "f9f8bab1a71e307af83cf39893596a2d289c59efcb7580a9da6b6da2d6fe8170",
+      "eventHash": "634799faa37defa31da91e2146d41900b22ee86f98a28c512e29e892e26e4479"
+    },
+    {
+      "eventId": "91067045-3921-4d3a-9232-19fd41f854ba",
+      "uid": "QMEP221028N54",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-02T20:04:56.758Z",
+      "timestampLocal": "2026-07-02T14:04:56.758Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.14.72",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "634799faa37defa31da91e2146d41900b22ee86f98a28c512e29e892e26e4479",
+      "documentHash": "9fd580247f0d780937f35d884530fc1c3e6b9c6a4c8e635835e661fdd5af5e68",
+      "signatureHash": "c4b0ecc063d331e1685d9ec19581de4ef8ece5c8d17861926a36ac17a78c6766",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-02T14:04:53.494Z"
+      },
+      "eventHash": "2b56a58fcb76b303193955048c6934280d934a9a461e0d953aa1449ea9ecdbf7"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-02T20:04:56.759Z"
+  }
 }
