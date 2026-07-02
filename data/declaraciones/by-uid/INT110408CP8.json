@@ -1,19 +1,100 @@
 {
   "uid": "INT110408CP8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "INTELLISTOP",
     "nombre_representante_legal": "JUAN CARLOS BASCOPE HOLZAPFEL",
     "email": "JBASCOPE@INFLUENCERMANAGER.MX"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "INTELLISTOP",
-    "nombre_representante_legal": "JUAN CARLOS BASCOPE HOLZAPFEL",
-    "email": "JBASCOPE@INFLUENCERMANAGER.MX"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-02T11:36:06.523Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/INT110408CP8",
+  "signatureMetadata": {
+    "ip": "187.202.239.148",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-02T17:36:09.819Z",
+    "signedAtLocal": "2026-07-02T11:36:09.819Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "42e759f6845ef3aa402dd05400cd2f0a6d7e814c5b38aaecbd642d36e5a63a1e"
+  "documentHash": "2a7cc85f23ee4737269c3c6a963938340f6c5ee77a69d710285b79b3e672fd6c",
+  "auditTrail": [
+    {
+      "eventId": "02a59559-7219-4e91-b06b-5ab7cbe8c2f5",
+      "uid": "INT110408CP8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-02T17:35:36.336Z",
+      "timestampLocal": "2026-07-02T17:35:36.336Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.239.148",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=INT110408CP8&nombre_proveedor_razon_social=INTELLISTOP&nombre_representante_legal=JUAN+CARLOS+BASCOPE+HOLZAPFEL&email=JBASCOPE%40INFLUENCERMANAGER.MX",
+      "previousEventHash": null,
+      "documentHash": "42e759f6845ef3aa402dd05400cd2f0a6d7e814c5b38aaecbd642d36e5a63a1e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4675b74dc738225efdf2ca68b5a2200ed9465d23c36f846cbf2893bba5f47e16"
+    },
+    {
+      "eventId": "78d3cf25-a84d-4b0d-922e-b7ad7de2d882",
+      "uid": "INT110408CP8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-02T17:35:36.336Z",
+      "timestampLocal": "2026-07-02T17:35:36.336Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.239.148",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=INT110408CP8&nombre_proveedor_razon_social=INTELLISTOP&nombre_representante_legal=JUAN+CARLOS+BASCOPE+HOLZAPFEL&email=JBASCOPE%40INFLUENCERMANAGER.MX",
+      "previousEventHash": "4675b74dc738225efdf2ca68b5a2200ed9465d23c36f846cbf2893bba5f47e16",
+      "documentHash": "42e759f6845ef3aa402dd05400cd2f0a6d7e814c5b38aaecbd642d36e5a63a1e",
+      "metadata": {
+        "proveedor": "INTELLISTOP",
+        "representante": "JUAN CARLOS BASCOPE HOLZAPFEL"
+      },
+      "eventHash": "bf00bfd339e233921474b1e7a00686e2942214b3d47bae55d357201873201d01"
+    },
+    {
+      "eventId": "66228614-733e-4c1c-82f8-b16a30e81073",
+      "uid": "INT110408CP8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-02T17:35:37.953Z",
+      "timestampLocal": "2026-07-02T17:35:37.953Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.239.148",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=INT110408CP8&nombre_proveedor_razon_social=INTELLISTOP&nombre_representante_legal=JUAN+CARLOS+BASCOPE+HOLZAPFEL&email=JBASCOPE%40INFLUENCERMANAGER.MX",
+      "previousEventHash": "bf00bfd339e233921474b1e7a00686e2942214b3d47bae55d357201873201d01",
+      "documentHash": "42e759f6845ef3aa402dd05400cd2f0a6d7e814c5b38aaecbd642d36e5a63a1e",
+      "eventHash": "802c93341c9343416d59b0fecb8023bb4a0e3948bd4af37ef4e5ab51f1f3eab3"
+    },
+    {
+      "eventId": "b5dd2d67-c783-411c-9da3-3ad220b85762",
+      "uid": "INT110408CP8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-02T17:36:09.819Z",
+      "timestampLocal": "2026-07-02T11:36:09.819Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.202.239.148",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/6fcdb029-7d29-4a96-9f9b-c470deacdf63",
+      "previousEventHash": "802c93341c9343416d59b0fecb8023bb4a0e3948bd4af37ef4e5ab51f1f3eab3",
+      "documentHash": "2a7cc85f23ee4737269c3c6a963938340f6c5ee77a69d710285b79b3e672fd6c",
+      "signatureHash": "6d00bd99c0ad57ca42ef1e8118ed217713b8f5c846c8b53bd907cc372dfb5a98",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-02T11:36:06.523Z"
+      },
+      "eventHash": "d94a3dc1d35bbd129dc0816097c976778b0fb17e7aa613c7f45b5120f74cc1d7"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-02T17:36:09.819Z"
+  }
 }
