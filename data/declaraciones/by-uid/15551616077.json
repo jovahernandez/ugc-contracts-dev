@@ -1,19 +1,100 @@
 {
   "uid": "15551616077",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IGNACIO SEBASTIAN BALADAN FULGUERAL",
     "nombre_representante_legal": "IGNACIO SEBASTIAN BALADAN FULGUERAL",
     "email": "managementalentperu@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "IGNACIO SEBASTIAN BALADAN FULGUERAL",
-    "nombre_representante_legal": "IGNACIO SEBASTIAN BALADAN FULGUERAL",
-    "email": "managementalentperu@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-03T15:05:10.004Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/15551616077",
+  "signatureMetadata": {
+    "ip": "181.65.25.170",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+    "signedAtUtc": "2026-07-03T20:05:13.288Z",
+    "signedAtLocal": "2026-07-03T15:05:13.288Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2d5907e07c4538e15491839b38a80fc53cfd31de6647a7ef6a59bf69df893139"
+  "documentHash": "93dc4fbf9c80448f101bb53744c1b93e059e5e22a9b11f7427f55c69abdf042c",
+  "auditTrail": [
+    {
+      "eventId": "378aa522-6a0e-4ad6-87b6-e9f56207c8f9",
+      "uid": "15551616077",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-03T20:01:59.105Z",
+      "timestampLocal": "2026-07-03T20:01:59.105Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.65.25.170",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "2d5907e07c4538e15491839b38a80fc53cfd31de6647a7ef6a59bf69df893139",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3fe9e67513854611de9b40284531e08e6e30ee1b4720426b6e7e9e3d2eb46e46"
+    },
+    {
+      "eventId": "f521fdd3-862d-47ae-906b-faaebdd18dcb",
+      "uid": "15551616077",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-03T20:01:59.106Z",
+      "timestampLocal": "2026-07-03T20:01:59.106Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.65.25.170",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "3fe9e67513854611de9b40284531e08e6e30ee1b4720426b6e7e9e3d2eb46e46",
+      "documentHash": "2d5907e07c4538e15491839b38a80fc53cfd31de6647a7ef6a59bf69df893139",
+      "metadata": {
+        "proveedor": "IGNACIO SEBASTIAN BALADAN FULGUERAL",
+        "representante": "IGNACIO SEBASTIAN BALADAN FULGUERAL"
+      },
+      "eventHash": "71d9d29730836d504c35f03d81919e80dd3e159ecdfcb70e7860ab8cf8ae73f4"
+    },
+    {
+      "eventId": "00ebd1fe-5aa0-426d-aecc-3778fae7372e",
+      "uid": "15551616077",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-03T20:02:00.667Z",
+      "timestampLocal": "2026-07-03T20:02:00.667Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.65.25.170",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "71d9d29730836d504c35f03d81919e80dd3e159ecdfcb70e7860ab8cf8ae73f4",
+      "documentHash": "2d5907e07c4538e15491839b38a80fc53cfd31de6647a7ef6a59bf69df893139",
+      "eventHash": "d37885c898a227d89776f7fe3ff81a61dc3cbb7d0688c2f4be294038b342dc6e"
+    },
+    {
+      "eventId": "49821188-a1e3-4d14-a775-cf950d5ad7b6",
+      "uid": "15551616077",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-03T20:05:13.288Z",
+      "timestampLocal": "2026-07-03T15:05:13.288Z",
+      "timezone": "UTC-5",
+      "ipAddress": "181.65.25.170",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "d37885c898a227d89776f7fe3ff81a61dc3cbb7d0688c2f4be294038b342dc6e",
+      "documentHash": "93dc4fbf9c80448f101bb53744c1b93e059e5e22a9b11f7427f55c69abdf042c",
+      "signatureHash": "13e6522295caa5805744cddb5f19d3a19d388e1bf0b55a54b981d05cb52bbbdb",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-03T15:05:10.004Z"
+      },
+      "eventHash": "a12fb928f50d8a0dd082571c3f058d3866e8901d54bf426c12566cce618a3d31"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-03T20:05:13.289Z"
+  }
 }
