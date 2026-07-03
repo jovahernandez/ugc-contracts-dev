@@ -1,19 +1,100 @@
 {
   "uid": "SAMA050614SV2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Axia Salmerón",
     "nombre_representante_legal": "Axia Salmerón",
     "email": "collabaxia@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Axia Salmerón",
-    "nombre_representante_legal": "Axia Salmerón",
-    "email": "collabaxia@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-02T19:09:40.722Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SAMA050614SV2",
+  "signatureMetadata": {
+    "ip": "189.131.168.12",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-03T01:09:44.050Z",
+    "signedAtLocal": "2026-07-02T19:09:44.050Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "41eb1e735fa480946e904592a457bc0a1b501caef2d16d7a1b4dd16cc952d368"
+  "documentHash": "b2e465df41e46b0175eb42b0ca92adb0aaee4c0ac13a200862801eed8c01dce9",
+  "auditTrail": [
+    {
+      "eventId": "b2be7f17-0520-4e7e-be3c-5a87fb97665b",
+      "uid": "SAMA050614SV2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-03T01:07:23.394Z",
+      "timestampLocal": "2026-07-03T01:07:23.394Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.168.12",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAMA050614SV2&nombre_proveedor_razon_social=Axia+Salmer%C3%B3n&nombre_representante_legal=Axia+Salmer%C3%B3n&email=collabaxia%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "41eb1e735fa480946e904592a457bc0a1b501caef2d16d7a1b4dd16cc952d368",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "485909a5566b6846691199572896fc911a4fae9eb6a38a89e9c00a3a27390e16"
+    },
+    {
+      "eventId": "268a585c-ef61-40f6-bcdf-de4307a83849",
+      "uid": "SAMA050614SV2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-03T01:07:23.394Z",
+      "timestampLocal": "2026-07-03T01:07:23.394Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.168.12",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAMA050614SV2&nombre_proveedor_razon_social=Axia+Salmer%C3%B3n&nombre_representante_legal=Axia+Salmer%C3%B3n&email=collabaxia%40gmail.com",
+      "previousEventHash": "485909a5566b6846691199572896fc911a4fae9eb6a38a89e9c00a3a27390e16",
+      "documentHash": "41eb1e735fa480946e904592a457bc0a1b501caef2d16d7a1b4dd16cc952d368",
+      "metadata": {
+        "proveedor": "Axia Salmerón",
+        "representante": "Axia Salmerón"
+      },
+      "eventHash": "869139ce41474308f81cd30a501930cf1473e36bd64ae3a74a27afbb7c418bd4"
+    },
+    {
+      "eventId": "ac598b21-ebca-4ddc-be82-83b29f1be850",
+      "uid": "SAMA050614SV2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-03T01:07:24.879Z",
+      "timestampLocal": "2026-07-03T01:07:24.879Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.168.12",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAMA050614SV2&nombre_proveedor_razon_social=Axia+Salmer%C3%B3n&nombre_representante_legal=Axia+Salmer%C3%B3n&email=collabaxia%40gmail.com",
+      "previousEventHash": "869139ce41474308f81cd30a501930cf1473e36bd64ae3a74a27afbb7c418bd4",
+      "documentHash": "41eb1e735fa480946e904592a457bc0a1b501caef2d16d7a1b4dd16cc952d368",
+      "eventHash": "eaed71d12c2dbd6feefb1e02fbcb197ec9f5740f0a2d05ec480442197af74d01"
+    },
+    {
+      "eventId": "ba805e32-cdfb-40c8-9bb6-67e394724d94",
+      "uid": "SAMA050614SV2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-03T01:09:44.050Z",
+      "timestampLocal": "2026-07-02T19:09:44.050Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.131.168.12",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b5fa0412-a3a9-4eda-9306-520a301352a8",
+      "previousEventHash": "eaed71d12c2dbd6feefb1e02fbcb197ec9f5740f0a2d05ec480442197af74d01",
+      "documentHash": "b2e465df41e46b0175eb42b0ca92adb0aaee4c0ac13a200862801eed8c01dce9",
+      "signatureHash": "eaed48f32c6a93363d68646367c539a4db1dc1170766d90de493ac39b7223a9f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-02T19:09:40.722Z"
+      },
+      "eventHash": "af83b09fa7a779244d658c3eaaf74be54dd430b327360978794ab1f793f6f1e0"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-03T01:09:44.050Z"
+  }
 }
