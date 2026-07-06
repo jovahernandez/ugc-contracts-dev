@@ -1,19 +1,100 @@
 {
   "uid": "LACR0004082W2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "REBECA LABORDE CALDERÓN",
     "nombre_representante_legal": "Rebeca Laborde",
     "email": "rebecalaborde0@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "REBECA LABORDE CALDERÓN",
-    "nombre_representante_legal": "Rebeca Laborde",
-    "email": "rebecalaborde0@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-06T15:07:43.732Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LACR0004082W2",
+  "signatureMetadata": {
+    "ip": "189.236.157.70",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+    "signedAtUtc": "2026-07-06T21:07:47.079Z",
+    "signedAtLocal": "2026-07-06T15:07:47.079Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5405d2bfdebd41edefa21c896a189827071845af163572ac68a6245bb110de3a"
+  "documentHash": "ff9b4464c157c6d089a3ce7f63ba9f89ff1b5e95c2fefe6fb825002d4d13bd90",
+  "auditTrail": [
+    {
+      "eventId": "5730abbe-2b39-4303-881d-eee773095e53",
+      "uid": "LACR0004082W2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-06T21:07:02.845Z",
+      "timestampLocal": "2026-07-06T21:07:02.845Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.157.70",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "5405d2bfdebd41edefa21c896a189827071845af163572ac68a6245bb110de3a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ec44b29d6b14b3ca41ea8413bbe7a3de4ebf88e3be3cb7f4ec141c3608ff885c"
+    },
+    {
+      "eventId": "f03a00dc-203a-4eb8-94bf-0f4efed433d2",
+      "uid": "LACR0004082W2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-06T21:07:02.845Z",
+      "timestampLocal": "2026-07-06T21:07:02.845Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.157.70",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ec44b29d6b14b3ca41ea8413bbe7a3de4ebf88e3be3cb7f4ec141c3608ff885c",
+      "documentHash": "5405d2bfdebd41edefa21c896a189827071845af163572ac68a6245bb110de3a",
+      "metadata": {
+        "proveedor": "REBECA LABORDE CALDERÓN",
+        "representante": "Rebeca Laborde"
+      },
+      "eventHash": "4406df59a1f2818a37e568567144eee4e006d398a5f97d984f2a12df5fe2aef4"
+    },
+    {
+      "eventId": "680da5b4-5bb9-45d0-b955-ef92fb5b64c2",
+      "uid": "LACR0004082W2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-06T21:07:04.025Z",
+      "timestampLocal": "2026-07-06T21:07:04.025Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.157.70",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4406df59a1f2818a37e568567144eee4e006d398a5f97d984f2a12df5fe2aef4",
+      "documentHash": "5405d2bfdebd41edefa21c896a189827071845af163572ac68a6245bb110de3a",
+      "eventHash": "7dea88c71860b90a08aad95487510349257b75e80fc88b5bb7cf856d7e55d6da"
+    },
+    {
+      "eventId": "bf9cf8ab-cd15-4426-b965-b65533a5ffea",
+      "uid": "LACR0004082W2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-06T21:07:47.079Z",
+      "timestampLocal": "2026-07-06T15:07:47.079Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.236.157.70",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "7dea88c71860b90a08aad95487510349257b75e80fc88b5bb7cf856d7e55d6da",
+      "documentHash": "ff9b4464c157c6d089a3ce7f63ba9f89ff1b5e95c2fefe6fb825002d4d13bd90",
+      "signatureHash": "7fa924d665514263ced5a806322978790239db2b8bb27236c711dd7676fc37a2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-06T15:07:43.732Z"
+      },
+      "eventHash": "dfa46cfde251dc8e6157c0eb25d3c1f2f04d2e82e0a97a83a25735b16644b6b3"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-06T21:07:47.079Z"
+  }
 }
