@@ -1,19 +1,152 @@
 {
   "uid": "XAXX010101000",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "BRUTAL MANAGEMENT SAS",
     "nombre_representante_legal": "Carlos Arellano",
     "email": "daniela.salgado@another.co"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "BRUTAL MANAGEMENT SAS",
-    "nombre_representante_legal": "Carlos Arellano",
-    "email": "daniela.salgado@another.co"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-09T09:40:20.989Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/XAXX010101000",
+  "signatureMetadata": {
+    "ip": "187.188.32.143",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-09T15:40:24.328Z",
+    "signedAtLocal": "2026-07-09T09:40:24.328Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e31377257a0072e3ab2e0eeae6456ce861374e74ef5434a637bfdbf7bf45102b"
+  "documentHash": "8cf67d4c07da8ef9db74f0347b242ecee3a33011a3a51c426e65d60c8a936b5f",
+  "auditTrail": [
+    {
+      "eventId": "3f511a2a-3125-4372-9f8b-9153e5fc07ff",
+      "uid": "XAXX010101000",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-09T15:39:42.341Z",
+      "timestampLocal": "2026-07-09T15:39:42.341Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.32.143",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=XAXX010101000&nombre_proveedor_razon_social=BRUTAL+MANAGEMENT+SAS&nombre_representante_legal=Carlos+Arellano&email=daniela.salgado%40another.co",
+      "previousEventHash": null,
+      "documentHash": "e31377257a0072e3ab2e0eeae6456ce861374e74ef5434a637bfdbf7bf45102b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0bf10fd4116e0e87bcc1efb8c128a8583ee0f26af37f64ae2ef7f5dcf44393ad"
+    },
+    {
+      "eventId": "a7e1207b-67c0-494c-9e4e-8424ad399447",
+      "uid": "XAXX010101000",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-09T15:39:42.341Z",
+      "timestampLocal": "2026-07-09T15:39:42.341Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.32.143",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=XAXX010101000&nombre_proveedor_razon_social=BRUTAL+MANAGEMENT+SAS&nombre_representante_legal=Carlos+Arellano&email=daniela.salgado%40another.co",
+      "previousEventHash": "0bf10fd4116e0e87bcc1efb8c128a8583ee0f26af37f64ae2ef7f5dcf44393ad",
+      "documentHash": "e31377257a0072e3ab2e0eeae6456ce861374e74ef5434a637bfdbf7bf45102b",
+      "metadata": {
+        "proveedor": "BRUTAL MANAGEMENT SAS",
+        "representante": "Carlos Arellano"
+      },
+      "eventHash": "0dd96864cdc150e2fd8a4655f42ef8e6eefe280bca1463c7584aaaff01472184"
+    },
+    {
+      "eventId": "f77b1ed6-78c5-43fa-b447-283c2d608a72",
+      "uid": "XAXX010101000",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-09T15:39:43.566Z",
+      "timestampLocal": "2026-07-09T15:39:43.566Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.32.143",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=XAXX010101000&nombre_proveedor_razon_social=BRUTAL+MANAGEMENT+SAS&nombre_representante_legal=Carlos+Arellano&email=daniela.salgado%40another.co",
+      "previousEventHash": "0dd96864cdc150e2fd8a4655f42ef8e6eefe280bca1463c7584aaaff01472184",
+      "documentHash": "e31377257a0072e3ab2e0eeae6456ce861374e74ef5434a637bfdbf7bf45102b",
+      "eventHash": "d175c37a51d8b2bd372355f7ccce71977c79ce021a8fcff816a62d7e51eeae86"
+    },
+    {
+      "eventId": "5d846736-d0b0-4e9a-b344-14a695c11fdf",
+      "uid": "XAXX010101000",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-09T15:39:43.781Z",
+      "timestampLocal": "2026-07-09T15:39:43.781Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.32.143",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=XAXX010101000&nombre_proveedor_razon_social=BRUTAL+MANAGEMENT+SAS&nombre_representante_legal=Carlos+Arellano&email=daniela.salgado%40another.co",
+      "previousEventHash": "d175c37a51d8b2bd372355f7ccce71977c79ce021a8fcff816a62d7e51eeae86",
+      "documentHash": "e31377257a0072e3ab2e0eeae6456ce861374e74ef5434a637bfdbf7bf45102b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4347befd7b606bedb0254d1d688c3c133617d84567747b4ff6ece2a268325132"
+    },
+    {
+      "eventId": "5c460dee-8ee2-4ef8-b48e-3253de8f117d",
+      "uid": "XAXX010101000",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-09T15:39:43.781Z",
+      "timestampLocal": "2026-07-09T15:39:43.781Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.32.143",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=XAXX010101000&nombre_proveedor_razon_social=BRUTAL+MANAGEMENT+SAS&nombre_representante_legal=Carlos+Arellano&email=daniela.salgado%40another.co",
+      "previousEventHash": "4347befd7b606bedb0254d1d688c3c133617d84567747b4ff6ece2a268325132",
+      "documentHash": "e31377257a0072e3ab2e0eeae6456ce861374e74ef5434a637bfdbf7bf45102b",
+      "metadata": {
+        "proveedor": "BRUTAL MANAGEMENT SAS",
+        "representante": "Carlos Arellano"
+      },
+      "eventHash": "dd6f054013daa3d46a357c8f7d414c4e12daa90df2be78ccb099bf98f0b2a0bd"
+    },
+    {
+      "eventId": "108bc173-e0a7-47a6-8a59-40eed9201600",
+      "uid": "XAXX010101000",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-09T15:39:44.980Z",
+      "timestampLocal": "2026-07-09T15:39:44.980Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.32.143",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=XAXX010101000&nombre_proveedor_razon_social=BRUTAL+MANAGEMENT+SAS&nombre_representante_legal=Carlos+Arellano&email=daniela.salgado%40another.co",
+      "previousEventHash": "dd6f054013daa3d46a357c8f7d414c4e12daa90df2be78ccb099bf98f0b2a0bd",
+      "documentHash": "e31377257a0072e3ab2e0eeae6456ce861374e74ef5434a637bfdbf7bf45102b",
+      "eventHash": "de06b58870054690ebcad8c965e9bfa499e004c071acff141cd8619dba07c919"
+    },
+    {
+      "eventId": "65e6f27b-dc47-4ce3-b1d0-997a505452fe",
+      "uid": "XAXX010101000",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-09T15:40:24.328Z",
+      "timestampLocal": "2026-07-09T09:40:24.328Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.32.143",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a703e1bc-d8e1-4c4e-b67f-efeb574b2229",
+      "previousEventHash": "de06b58870054690ebcad8c965e9bfa499e004c071acff141cd8619dba07c919",
+      "documentHash": "8cf67d4c07da8ef9db74f0347b242ecee3a33011a3a51c426e65d60c8a936b5f",
+      "signatureHash": "d836217332011dce791848125d10d3167e87407900555d88d7cd3b9294f8672f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-09T09:40:20.989Z"
+      },
+      "eventHash": "1d4ac04dedd777469b48515aaa0e7cca1dd2ab8054aefc7cc8bfe64848c6ef78"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-07-09T15:40:24.329Z"
+  }
 }
