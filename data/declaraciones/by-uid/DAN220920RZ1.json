@@ -1,19 +1,100 @@
 {
   "uid": "DAN220920RZ1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DIGILEAP & CO SA DE CV",
     "nombre_representante_legal": "CLAUDIA JOSELLINE KLUNDER ROSALES",
     "email": "jos@digileap.co"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "DIGILEAP & CO SA DE CV",
-    "nombre_representante_legal": "CLAUDIA JOSELLINE KLUNDER ROSALES",
-    "email": "jos@digileap.co"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-09T10:40:08.361Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DAN220920RZ1",
+  "signatureMetadata": {
+    "ip": "187.188.8.169",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+    "signedAtUtc": "2026-07-09T16:40:11.759Z",
+    "signedAtLocal": "2026-07-09T10:40:11.759Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d4d09fb0c14c523272ab21ca449fd4eed96e58581594e6f77d9218a4e99b0dc7"
+  "documentHash": "0ed4695f86335f1333389e92e98cdd430f4d8289dab301de4d55c4183796e512",
+  "auditTrail": [
+    {
+      "eventId": "41a8c4fa-8bad-4829-a538-a69cbfeb8258",
+      "uid": "DAN220920RZ1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-09T16:39:51.081Z",
+      "timestampLocal": "2026-07-09T16:39:51.081Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.8.169",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "d4d09fb0c14c523272ab21ca449fd4eed96e58581594e6f77d9218a4e99b0dc7",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e3023b69890e635a7d8e5f25bf679c1b8fbe6f6b78ffb0866d89b735d20547a6"
+    },
+    {
+      "eventId": "e68334e0-a9fe-4d81-919b-b935f1bd37e9",
+      "uid": "DAN220920RZ1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-09T16:39:51.081Z",
+      "timestampLocal": "2026-07-09T16:39:51.081Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.8.169",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "e3023b69890e635a7d8e5f25bf679c1b8fbe6f6b78ffb0866d89b735d20547a6",
+      "documentHash": "d4d09fb0c14c523272ab21ca449fd4eed96e58581594e6f77d9218a4e99b0dc7",
+      "metadata": {
+        "proveedor": "DIGILEAP & CO SA DE CV",
+        "representante": "CLAUDIA JOSELLINE KLUNDER ROSALES"
+      },
+      "eventHash": "e78e0c66530e74983bea97d00ea499e3a34647adff4fef6ce7e3e22c4907d1af"
+    },
+    {
+      "eventId": "35eda74d-f9d9-4177-bd10-aa1300888609",
+      "uid": "DAN220920RZ1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-09T16:39:52.421Z",
+      "timestampLocal": "2026-07-09T16:39:52.421Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.8.169",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "e78e0c66530e74983bea97d00ea499e3a34647adff4fef6ce7e3e22c4907d1af",
+      "documentHash": "d4d09fb0c14c523272ab21ca449fd4eed96e58581594e6f77d9218a4e99b0dc7",
+      "eventHash": "8c872b6f368f7b3c83ba1d722f81f556cc143003854e6945c410995f18eedf7e"
+    },
+    {
+      "eventId": "53849060-9236-4859-ae9c-a01e7c1e0cea",
+      "uid": "DAN220920RZ1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-09T16:40:11.759Z",
+      "timestampLocal": "2026-07-09T10:40:11.759Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.8.169",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8c872b6f368f7b3c83ba1d722f81f556cc143003854e6945c410995f18eedf7e",
+      "documentHash": "0ed4695f86335f1333389e92e98cdd430f4d8289dab301de4d55c4183796e512",
+      "signatureHash": "1f0b4ece46832ca596bdc1ae6de7c560f62bd27cffc9fd1da44fb99354209b81",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-09T10:40:08.361Z"
+      },
+      "eventHash": "6df3c29e5d2fed1d33e361be5038dc92a5e9a5bff95c5ca65b1d2a418ee10029"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-09T16:40:11.759Z"
+  }
 }
