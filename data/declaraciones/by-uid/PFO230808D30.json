@@ -1,19 +1,100 @@
 {
   "uid": "PFO230808D30",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PIXEL FORGE SC",
     "nombre_representante_legal": "Grace Elie Akkad Schaffer",
     "email": "ana@lasenoradecostco.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PIXEL FORGE SC",
-    "nombre_representante_legal": "Grace Elie Akkad Schaffer",
-    "email": "ana@lasenoradecostco.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-09T13:55:29.883Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PFO230808D30",
+  "signatureMetadata": {
+    "ip": "192.253.209.147",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-09T19:55:33.207Z",
+    "signedAtLocal": "2026-07-09T13:55:33.207Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b0965576acc9fa79290616d95e349975fa850caf31fa529f1f15da934cf3af49"
+  "documentHash": "523cc8ba87b5b481aaf5be1c555912ec1875f5aefb18acc5f69ef79e2f581e96",
+  "auditTrail": [
+    {
+      "eventId": "28ec2943-2876-4f03-a135-d726777f94bb",
+      "uid": "PFO230808D30",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-09T19:55:10.477Z",
+      "timestampLocal": "2026-07-09T19:55:10.477Z",
+      "timezone": "UTC+0",
+      "ipAddress": "192.253.209.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PFO230808D30&nombre_proveedor_razon_social=PIXEL+FORGE+SC&nombre_representante_legal=Grace+Elie+Akkad+Schaffer&email=ana%40lasenoradecostco.com",
+      "previousEventHash": null,
+      "documentHash": "b0965576acc9fa79290616d95e349975fa850caf31fa529f1f15da934cf3af49",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cfc501e54f93815c232cd8bd37ef5782820c58367346bbff726bce2c33ebbbbc"
+    },
+    {
+      "eventId": "235fc990-c8d6-4c1d-9cb4-4182abbd0ce4",
+      "uid": "PFO230808D30",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-09T19:55:10.477Z",
+      "timestampLocal": "2026-07-09T19:55:10.477Z",
+      "timezone": "UTC+0",
+      "ipAddress": "192.253.209.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PFO230808D30&nombre_proveedor_razon_social=PIXEL+FORGE+SC&nombre_representante_legal=Grace+Elie+Akkad+Schaffer&email=ana%40lasenoradecostco.com",
+      "previousEventHash": "cfc501e54f93815c232cd8bd37ef5782820c58367346bbff726bce2c33ebbbbc",
+      "documentHash": "b0965576acc9fa79290616d95e349975fa850caf31fa529f1f15da934cf3af49",
+      "metadata": {
+        "proveedor": "PIXEL FORGE SC",
+        "representante": "Grace Elie Akkad Schaffer"
+      },
+      "eventHash": "9a201603cc9e552e71e9ecac356b59965a6770fff1d5390759147acab35bdbbf"
+    },
+    {
+      "eventId": "f053084e-22b8-461d-a30c-31c14caad1bf",
+      "uid": "PFO230808D30",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-09T19:55:11.829Z",
+      "timestampLocal": "2026-07-09T19:55:11.829Z",
+      "timezone": "UTC+0",
+      "ipAddress": "192.253.209.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PFO230808D30&nombre_proveedor_razon_social=PIXEL+FORGE+SC&nombre_representante_legal=Grace+Elie+Akkad+Schaffer&email=ana%40lasenoradecostco.com",
+      "previousEventHash": "9a201603cc9e552e71e9ecac356b59965a6770fff1d5390759147acab35bdbbf",
+      "documentHash": "b0965576acc9fa79290616d95e349975fa850caf31fa529f1f15da934cf3af49",
+      "eventHash": "1d5ad0f9427a6aec4f51fa0844d5f6c182e293d5c8f77c0c5791020f9a1baa56"
+    },
+    {
+      "eventId": "8bdb0963-4178-4669-8dd6-976f25484610",
+      "uid": "PFO230808D30",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-09T19:55:33.208Z",
+      "timestampLocal": "2026-07-09T13:55:33.208Z",
+      "timezone": "UTC-6",
+      "ipAddress": "192.253.209.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/739a974f-f186-4058-8551-4db0d0a08e2b",
+      "previousEventHash": "1d5ad0f9427a6aec4f51fa0844d5f6c182e293d5c8f77c0c5791020f9a1baa56",
+      "documentHash": "523cc8ba87b5b481aaf5be1c555912ec1875f5aefb18acc5f69ef79e2f581e96",
+      "signatureHash": "d84eec437df1b94f2c4202feb65248409c94b45f771e0b5d6a7b86bb93891923",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-09T13:55:29.883Z"
+      },
+      "eventHash": "0b83c71a7d768a93f80f94ea373d6736fcd7f4b836451f8b8ad1e1fe2249cb77"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-09T19:55:33.208Z"
+  }
 }
