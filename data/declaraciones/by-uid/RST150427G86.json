@@ -1,19 +1,100 @@
 {
   "uid": "RST150427G86",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "RENKLER STUDIO",
     "nombre_representante_legal": "DIEGO ARMANDO CARCAÑO CABELLO",
     "email": "diego@renkler.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "RENKLER STUDIO",
-    "nombre_representante_legal": "DIEGO ARMANDO CARCAÑO CABELLO",
-    "email": "diego@renkler.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-10T15:13:37.560Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RST150427G86",
+  "signatureMetadata": {
+    "ip": "189.203.89.202",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+    "signedAtUtc": "2026-07-10T21:13:40.975Z",
+    "signedAtLocal": "2026-07-10T15:13:40.975Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "74199082b10be32facd4d14e84ea2f411f8bb92d22453e064fd4d92b0bd5fb69"
+  "documentHash": "0ec3ad75f69ea51a3291479391f171db4ac84c152d727795bdf6826ad0468751",
+  "auditTrail": [
+    {
+      "eventId": "dea43a05-44df-4a94-a89f-b639f469142f",
+      "uid": "RST150427G86",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-10T21:13:00.021Z",
+      "timestampLocal": "2026-07-10T21:13:00.021Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.89.202",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "74199082b10be32facd4d14e84ea2f411f8bb92d22453e064fd4d92b0bd5fb69",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0de422486222a31a82bd6878a8b5950d2adc75f45b19e5500fdb1b7aad5ebead"
+    },
+    {
+      "eventId": "6dfd7627-e942-4a47-940e-7d0facf91c19",
+      "uid": "RST150427G86",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-10T21:13:00.021Z",
+      "timestampLocal": "2026-07-10T21:13:00.021Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.89.202",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "0de422486222a31a82bd6878a8b5950d2adc75f45b19e5500fdb1b7aad5ebead",
+      "documentHash": "74199082b10be32facd4d14e84ea2f411f8bb92d22453e064fd4d92b0bd5fb69",
+      "metadata": {
+        "proveedor": "RENKLER STUDIO",
+        "representante": "DIEGO ARMANDO CARCAÑO CABELLO"
+      },
+      "eventHash": "dda15b4e27b9648a7fb0526131091bde0c294aa3d6e4a83f40bb19050282b385"
+    },
+    {
+      "eventId": "537eef91-d857-43d1-9806-895a2ce70901",
+      "uid": "RST150427G86",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-10T21:13:01.319Z",
+      "timestampLocal": "2026-07-10T21:13:01.319Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.89.202",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "dda15b4e27b9648a7fb0526131091bde0c294aa3d6e4a83f40bb19050282b385",
+      "documentHash": "74199082b10be32facd4d14e84ea2f411f8bb92d22453e064fd4d92b0bd5fb69",
+      "eventHash": "6c9e41415d2381c31e985b251bbb69aa22b2d6acbebab7a85c1483ab3117f15e"
+    },
+    {
+      "eventId": "7ca5e19f-0f0d-43bc-ba7e-c424eeca4146",
+      "uid": "RST150427G86",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-10T21:13:40.975Z",
+      "timestampLocal": "2026-07-10T15:13:40.975Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.89.202",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "6c9e41415d2381c31e985b251bbb69aa22b2d6acbebab7a85c1483ab3117f15e",
+      "documentHash": "0ec3ad75f69ea51a3291479391f171db4ac84c152d727795bdf6826ad0468751",
+      "signatureHash": "59e02f5970d247db6d099833cdd67b8246fbb7af688ee5089c5ce70393c14a75",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-10T15:13:37.560Z"
+      },
+      "eventHash": "a0782c00d17c7c032a2f9c9b679de7884e06cff264066f4b31358da83949ed65"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-10T21:13:40.975Z"
+  }
 }
