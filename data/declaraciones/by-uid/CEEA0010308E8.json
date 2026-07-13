@@ -1,19 +1,100 @@
 {
   "uid": "CEEA0010308E8",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ANA PAOLA CERDA ESPINOSA",
     "nombre_representante_legal": "ANA PAOLA CERDA",
     "email": "ANACERDA00@GMAIL.COM"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ANA PAOLA CERDA ESPINOSA",
-    "nombre_representante_legal": "ANA PAOLA CERDA",
-    "email": "ANACERDA00@GMAIL.COM"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-13T13:16:47.122Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CEEA0010308E8",
+  "signatureMetadata": {
+    "ip": "189.217.195.158",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+    "signedAtUtc": "2026-07-13T19:16:50.450Z",
+    "signedAtLocal": "2026-07-13T13:16:50.450Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b2d43ecba3d16849b3a1521c177d8074940ef4152bf00d58ac56eb6c32cb75cb"
+  "documentHash": "8c9fb3bc3ef60c57de2cbf33fdd1a903c2404231acca81656b30b0efbe04ac14",
+  "auditTrail": [
+    {
+      "eventId": "0c8b8b0e-765b-430d-965d-5fad6444d993",
+      "uid": "CEEA0010308E8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-13T19:16:04.876Z",
+      "timestampLocal": "2026-07-13T19:16:04.876Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.195.158",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "b2d43ecba3d16849b3a1521c177d8074940ef4152bf00d58ac56eb6c32cb75cb",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6e2247998335a18e90ec4c9cdf1aeba75d6f30fa35647fbb2f767470a6e0bfe8"
+    },
+    {
+      "eventId": "621b0630-3b62-4a7c-befc-b6e0cbb5cd21",
+      "uid": "CEEA0010308E8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-13T19:16:04.876Z",
+      "timestampLocal": "2026-07-13T19:16:04.876Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.195.158",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "6e2247998335a18e90ec4c9cdf1aeba75d6f30fa35647fbb2f767470a6e0bfe8",
+      "documentHash": "b2d43ecba3d16849b3a1521c177d8074940ef4152bf00d58ac56eb6c32cb75cb",
+      "metadata": {
+        "proveedor": "ANA PAOLA CERDA ESPINOSA",
+        "representante": "ANA PAOLA CERDA"
+      },
+      "eventHash": "fec25c10645352ddfbdff8c196aabd7675e1c43688c6c52ea48c5a6c397ecef0"
+    },
+    {
+      "eventId": "4c597a66-c0af-4178-871c-c14b2f5821f1",
+      "uid": "CEEA0010308E8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-13T19:16:06.394Z",
+      "timestampLocal": "2026-07-13T19:16:06.394Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.195.158",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "fec25c10645352ddfbdff8c196aabd7675e1c43688c6c52ea48c5a6c397ecef0",
+      "documentHash": "b2d43ecba3d16849b3a1521c177d8074940ef4152bf00d58ac56eb6c32cb75cb",
+      "eventHash": "a92cab5844b2c7e755fcac4d459b83adf8d683b7e3f05aa35bc5084b9e45b4e5"
+    },
+    {
+      "eventId": "35680732-ff7b-47a0-8a0d-a8e8f57afb48",
+      "uid": "CEEA0010308E8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-13T19:16:50.450Z",
+      "timestampLocal": "2026-07-13T13:16:50.450Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.195.158",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a92cab5844b2c7e755fcac4d459b83adf8d683b7e3f05aa35bc5084b9e45b4e5",
+      "documentHash": "8c9fb3bc3ef60c57de2cbf33fdd1a903c2404231acca81656b30b0efbe04ac14",
+      "signatureHash": "ada3e7f1a739ac56d29eaa6ae1dd4b7b0b68b4b0cfbe0e620151e0970f727f8a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-13T13:16:47.122Z"
+      },
+      "eventHash": "0ef368f3c5d662f75e54270589b77f205b15b21d3a73d4b762b35b30d03b45e3"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-13T19:16:50.451Z"
+  }
 }
