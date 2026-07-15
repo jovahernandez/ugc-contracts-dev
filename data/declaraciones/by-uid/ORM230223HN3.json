@@ -1,19 +1,100 @@
 {
   "uid": "ORM230223HN3",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "OPERADORA DE RESTAURANTES MAIZAJO",
     "nombre_representante_legal": "Santiago Muñoz Moctezuma",
     "email": "facturas@maizajo.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "OPERADORA DE RESTAURANTES MAIZAJO",
-    "nombre_representante_legal": "Santiago Muñoz Moctezuma",
-    "email": "facturas@maizajo.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-15T09:33:21.192Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ORM230223HN3",
+  "signatureMetadata": {
+    "ip": "189.203.88.90",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-15T15:33:24.571Z",
+    "signedAtLocal": "2026-07-15T09:33:24.571Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "35490fd07f762fabfc5d38ed73b3b6d80cc419fe7c2a06f0c5617c54dbbb6717"
+  "documentHash": "d8542f85257cf1ab2a6328f01a670f60f87cdc24fa4fd8f253f7a52fa597573b",
+  "auditTrail": [
+    {
+      "eventId": "407ac242-3f31-4a68-a813-ced58fb9cee2",
+      "uid": "ORM230223HN3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-15T15:32:24.143Z",
+      "timestampLocal": "2026-07-15T15:32:24.143Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.88.90",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ORM230223HN3&nombre_proveedor_razon_social=OPERADORA+DE+RESTAURANTES+MAIZAJO&nombre_representante_legal=Santiago+Mu%C3%B1oz+Moctezuma&email=facturas%40maizajo.com",
+      "previousEventHash": null,
+      "documentHash": "35490fd07f762fabfc5d38ed73b3b6d80cc419fe7c2a06f0c5617c54dbbb6717",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5b133f55e0a4ec80023b17b893941b82d1638b0ec3936a002cccec27fa65c543"
+    },
+    {
+      "eventId": "7ce134ff-3372-4bf9-9041-03a060abf4fe",
+      "uid": "ORM230223HN3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-15T15:32:24.143Z",
+      "timestampLocal": "2026-07-15T15:32:24.143Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.88.90",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ORM230223HN3&nombre_proveedor_razon_social=OPERADORA+DE+RESTAURANTES+MAIZAJO&nombre_representante_legal=Santiago+Mu%C3%B1oz+Moctezuma&email=facturas%40maizajo.com",
+      "previousEventHash": "5b133f55e0a4ec80023b17b893941b82d1638b0ec3936a002cccec27fa65c543",
+      "documentHash": "35490fd07f762fabfc5d38ed73b3b6d80cc419fe7c2a06f0c5617c54dbbb6717",
+      "metadata": {
+        "proveedor": "OPERADORA DE RESTAURANTES MAIZAJO",
+        "representante": "Santiago Muñoz Moctezuma"
+      },
+      "eventHash": "b2c8212905069a4c57e69e780b6bd26b83e51ac0e91ae44b6151b72304e1c832"
+    },
+    {
+      "eventId": "e28bed0a-9448-4606-ac4e-cf6a0fab6e2d",
+      "uid": "ORM230223HN3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-15T15:32:25.355Z",
+      "timestampLocal": "2026-07-15T15:32:25.355Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.88.90",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ORM230223HN3&nombre_proveedor_razon_social=OPERADORA+DE+RESTAURANTES+MAIZAJO&nombre_representante_legal=Santiago+Mu%C3%B1oz+Moctezuma&email=facturas%40maizajo.com",
+      "previousEventHash": "b2c8212905069a4c57e69e780b6bd26b83e51ac0e91ae44b6151b72304e1c832",
+      "documentHash": "35490fd07f762fabfc5d38ed73b3b6d80cc419fe7c2a06f0c5617c54dbbb6717",
+      "eventHash": "d6b31c5478f4cbddb9b2a29ee27fa97fb08e8886ae71e4b14ebe2ff27e97e7e5"
+    },
+    {
+      "eventId": "9720540c-cee4-4448-b4c9-e64df4dd176c",
+      "uid": "ORM230223HN3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-15T15:33:24.571Z",
+      "timestampLocal": "2026-07-15T09:33:24.571Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.88.90",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/82ec2407-82ad-4c6a-b5ff-8d9d142969fc",
+      "previousEventHash": "d6b31c5478f4cbddb9b2a29ee27fa97fb08e8886ae71e4b14ebe2ff27e97e7e5",
+      "documentHash": "d8542f85257cf1ab2a6328f01a670f60f87cdc24fa4fd8f253f7a52fa597573b",
+      "signatureHash": "3f0ab4f72ddbda0a0f863f553388eb039811012634831d3300ea76be1ec156ba",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-15T09:33:21.192Z"
+      },
+      "eventHash": "f45c0dc265f5d58b58c10bdc50778f76aa58e7bf2f2dfce150740b668fa867c6"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-15T15:33:24.571Z"
+  }
 }
