@@ -1,19 +1,100 @@
 {
   "uid": "SPO0409083I1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SAKS POLANCO",
     "nombre_representante_legal": "ERIKA DAVALOS DE LOS REYES",
     "email": "administracionpolanco@saks.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SAKS POLANCO",
-    "nombre_representante_legal": "ERIKA DAVALOS DE LOS REYES",
-    "email": "administracionpolanco@saks.com.mx"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-15T13:01:16.897Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SPO0409083I1",
+  "signatureMetadata": {
+    "ip": "189.146.250.73",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-15T19:01:20.368Z",
+    "signedAtLocal": "2026-07-15T13:01:20.368Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4c2fa70cf995177b9c316065b39a38c4017b5eadb7e907d046ce59c9bed65096"
+  "documentHash": "d3823b30d10574d51cc0c892a8a3d0ef233e4d408dbad3a77ed2e4192e628b2a",
+  "auditTrail": [
+    {
+      "eventId": "944c635a-ad70-4405-a13b-b7294e771c80",
+      "uid": "SPO0409083I1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-15T18:58:21.338Z",
+      "timestampLocal": "2026-07-15T18:58:21.338Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.146.250.73",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8,la;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SPO0409083I1&nombre_proveedor_razon_social=SAKS+POLANCO&nombre_representante_legal=ERIKA+DAVALOS+DE+LOS+REYES&email=administracionpolanco%40saks.com.mx",
+      "previousEventHash": null,
+      "documentHash": "4c2fa70cf995177b9c316065b39a38c4017b5eadb7e907d046ce59c9bed65096",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "49fb3c544bd4c8b4ecc5b2484db29614b0c63cc1946611a86ba33c4429bbb0cc"
+    },
+    {
+      "eventId": "84cb39dc-ec71-4a75-abed-f221d285a06d",
+      "uid": "SPO0409083I1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-15T18:58:21.338Z",
+      "timestampLocal": "2026-07-15T18:58:21.338Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.146.250.73",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8,la;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SPO0409083I1&nombre_proveedor_razon_social=SAKS+POLANCO&nombre_representante_legal=ERIKA+DAVALOS+DE+LOS+REYES&email=administracionpolanco%40saks.com.mx",
+      "previousEventHash": "49fb3c544bd4c8b4ecc5b2484db29614b0c63cc1946611a86ba33c4429bbb0cc",
+      "documentHash": "4c2fa70cf995177b9c316065b39a38c4017b5eadb7e907d046ce59c9bed65096",
+      "metadata": {
+        "proveedor": "SAKS POLANCO",
+        "representante": "ERIKA DAVALOS DE LOS REYES"
+      },
+      "eventHash": "2a5283a5d2ec85f77997f989fe3527e441158922a58636990f258f99a0650fbb"
+    },
+    {
+      "eventId": "9246744e-83f1-4c44-8e7a-bb12f5d88728",
+      "uid": "SPO0409083I1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-15T18:58:22.423Z",
+      "timestampLocal": "2026-07-15T18:58:22.423Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.146.250.73",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8,la;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SPO0409083I1&nombre_proveedor_razon_social=SAKS+POLANCO&nombre_representante_legal=ERIKA+DAVALOS+DE+LOS+REYES&email=administracionpolanco%40saks.com.mx",
+      "previousEventHash": "2a5283a5d2ec85f77997f989fe3527e441158922a58636990f258f99a0650fbb",
+      "documentHash": "4c2fa70cf995177b9c316065b39a38c4017b5eadb7e907d046ce59c9bed65096",
+      "eventHash": "b1b191aa55636236eb8b5603da41e9401937157f9c7583f1164f2cd837af431c"
+    },
+    {
+      "eventId": "07e4a288-a7b3-4906-aa6d-1b4027be11ea",
+      "uid": "SPO0409083I1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-15T19:01:20.368Z",
+      "timestampLocal": "2026-07-15T13:01:20.368Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.146.250.73",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8,la;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e10f971a-278d-413a-b5c4-4122ccf9aa72",
+      "previousEventHash": "b1b191aa55636236eb8b5603da41e9401937157f9c7583f1164f2cd837af431c",
+      "documentHash": "d3823b30d10574d51cc0c892a8a3d0ef233e4d408dbad3a77ed2e4192e628b2a",
+      "signatureHash": "23e87a8138d30701d9759f6a5dfacdc0dfc763f42baef3b3f1953602f8a838a2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-15T13:01:16.897Z"
+      },
+      "eventHash": "06a236dfa007aa62a2b90266fcf70f24245ff44ad16bde00cbd016ad8191ea9b"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-15T19:01:20.369Z"
+  }
 }
