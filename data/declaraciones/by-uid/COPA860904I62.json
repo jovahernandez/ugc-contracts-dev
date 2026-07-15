@@ -1,19 +1,115 @@
 {
   "uid": "COPA860904I62",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ABRAHAM COTA PAREDES",
     "nombre_representante_legal": "ABRAHAM COTA PAREDES",
     "email": "contacto@cotaparedes.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ABRAHAM COTA PAREDES",
-    "nombre_representante_legal": "ABRAHAM COTA PAREDES",
-    "email": "contacto@cotaparedes.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-15T11:05:28.452Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/COPA860904I62",
+  "signatureMetadata": {
+    "ip": "187.246.237.28",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-15T17:05:31.699Z",
+    "signedAtLocal": "2026-07-15T11:05:31.699Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fab41455f9185258d4169b2f758375f56d05e8b858808aaf28856ddedabdb57a"
+  "documentHash": "46adfdd35c17f8c834c9fcfeede1c9abd3254216a0430123463524e589167de9",
+  "auditTrail": [
+    {
+      "eventId": "22d2d43d-2e37-43e4-bd6c-99fd43dcdbfc",
+      "uid": "COPA860904I62",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-15T01:27:53.030Z",
+      "timestampLocal": "2026-07-15T01:27:53.030Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.246.237.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=COPA860904I62&nombre_proveedor_razon_social=ABRAHAM+COTA+PAREDES&nombre_representante_legal=ABRAHAM+COTA+PAREDES&email=contacto%40cotaparedes.com",
+      "previousEventHash": null,
+      "documentHash": "fab41455f9185258d4169b2f758375f56d05e8b858808aaf28856ddedabdb57a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "dacb08af1c98fd5c8defa35e4bfd4fe41c19690b03d14a512090a32987469c56"
+    },
+    {
+      "eventId": "8bf92712-3e0f-4905-a4f4-187e0c82ac00",
+      "uid": "COPA860904I62",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-15T01:27:53.030Z",
+      "timestampLocal": "2026-07-15T01:27:53.030Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.246.237.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=COPA860904I62&nombre_proveedor_razon_social=ABRAHAM+COTA+PAREDES&nombre_representante_legal=ABRAHAM+COTA+PAREDES&email=contacto%40cotaparedes.com",
+      "previousEventHash": "dacb08af1c98fd5c8defa35e4bfd4fe41c19690b03d14a512090a32987469c56",
+      "documentHash": "fab41455f9185258d4169b2f758375f56d05e8b858808aaf28856ddedabdb57a",
+      "metadata": {
+        "proveedor": "ABRAHAM COTA PAREDES",
+        "representante": "ABRAHAM COTA PAREDES"
+      },
+      "eventHash": "0347f11032042f4a458615cc684ad1ce5a9e0d20182c838a69640fedd5bf1856"
+    },
+    {
+      "eventId": "914e7647-540b-4684-8ae5-8aa8e88826c6",
+      "uid": "COPA860904I62",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-15T01:27:54.040Z",
+      "timestampLocal": "2026-07-15T01:27:54.040Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.246.237.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=COPA860904I62&nombre_proveedor_razon_social=ABRAHAM+COTA+PAREDES&nombre_representante_legal=ABRAHAM+COTA+PAREDES&email=contacto%40cotaparedes.com",
+      "previousEventHash": "0347f11032042f4a458615cc684ad1ce5a9e0d20182c838a69640fedd5bf1856",
+      "documentHash": "fab41455f9185258d4169b2f758375f56d05e8b858808aaf28856ddedabdb57a",
+      "eventHash": "2c2b165a5adafba6debda48be9c3ce7bf3cd1b1d1488b992ba7caadae5f7ab8c"
+    },
+    {
+      "eventId": "e3709f46-a686-424b-b54a-cb2fdf3264ab",
+      "uid": "COPA860904I62",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-15T17:03:59.934Z",
+      "timestampLocal": "2026-07-15T17:03:59.934Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.246.237.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "2c2b165a5adafba6debda48be9c3ce7bf3cd1b1d1488b992ba7caadae5f7ab8c",
+      "documentHash": "fab41455f9185258d4169b2f758375f56d05e8b858808aaf28856ddedabdb57a",
+      "eventHash": "010f60f91b23bdd6a4cd8f3ec9c66ace3cf0fa412a2c320b2615fac8090e2d28"
+    },
+    {
+      "eventId": "c45ac8eb-3fd1-420b-bc8e-f8c4d0777d34",
+      "uid": "COPA860904I62",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-15T17:05:31.699Z",
+      "timestampLocal": "2026-07-15T11:05:31.699Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.246.237.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e44ac6a6-6006-4550-adc4-7f4e9f889d7e",
+      "previousEventHash": "010f60f91b23bdd6a4cd8f3ec9c66ace3cf0fa412a2c320b2615fac8090e2d28",
+      "documentHash": "46adfdd35c17f8c834c9fcfeede1c9abd3254216a0430123463524e589167de9",
+      "signatureHash": "2e2fda9f8b2bb2a5ce348f04dbce47c371425587472a0851cf80102dff849892",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-15T11:05:28.452Z"
+      },
+      "eventHash": "70963623c31c5ea92a485a2d70b8c64016674f01b24333bb32a76299d6efa928"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-07-15T17:05:31.700Z"
+  }
 }
