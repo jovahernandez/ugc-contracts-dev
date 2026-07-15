@@ -1,19 +1,100 @@
 {
   "uid": "PECR911001B72",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "perez castillo",
     "nombre_representante_legal": "Rodrigo Ismael",
     "email": "facturacion@surainteriores.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "perez castillo",
-    "nombre_representante_legal": "Rodrigo Ismael",
-    "email": "facturacion@surainteriores.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-14T18:19:33.603Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PECR911001B72",
+  "signatureMetadata": {
+    "ip": "187.188.243.107",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-15T00:19:36.891Z",
+    "signedAtLocal": "2026-07-14T18:19:36.891Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b19a56c8d3f6d13c663dc4707e4fb67ba77c5b7f148d33334ca51109a16fb11d"
+  "documentHash": "4a907a9a52faa5ab0199b68b626ac119a1d4da3012d2a7a828a39ae446fad901",
+  "auditTrail": [
+    {
+      "eventId": "83cacfba-1433-4673-8fac-7d1be85d5854",
+      "uid": "PECR911001B72",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-15T00:19:03.617Z",
+      "timestampLocal": "2026-07-15T00:19:03.617Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.243.107",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PECR911001B72&nombre_proveedor_razon_social=perez+castillo&nombre_representante_legal=Rodrigo+Ismael&email=facturacion%40surainteriores.com",
+      "previousEventHash": null,
+      "documentHash": "b19a56c8d3f6d13c663dc4707e4fb67ba77c5b7f148d33334ca51109a16fb11d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cee47d323568b68f322a5a06b0c6a5aa298c36ea0f9a3e585645d5aa2e6e4e80"
+    },
+    {
+      "eventId": "3e80874e-a780-4ff8-a5f1-460b05a1f77b",
+      "uid": "PECR911001B72",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-15T00:19:03.617Z",
+      "timestampLocal": "2026-07-15T00:19:03.617Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.243.107",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PECR911001B72&nombre_proveedor_razon_social=perez+castillo&nombre_representante_legal=Rodrigo+Ismael&email=facturacion%40surainteriores.com",
+      "previousEventHash": "cee47d323568b68f322a5a06b0c6a5aa298c36ea0f9a3e585645d5aa2e6e4e80",
+      "documentHash": "b19a56c8d3f6d13c663dc4707e4fb67ba77c5b7f148d33334ca51109a16fb11d",
+      "metadata": {
+        "proveedor": "perez castillo",
+        "representante": "Rodrigo Ismael"
+      },
+      "eventHash": "d8f01cac069fd04b652421dde4fedfbe8bdc0d3e04e3043a8b6588fbec513c83"
+    },
+    {
+      "eventId": "98dc2fd3-0252-4e11-8da4-68135d596657",
+      "uid": "PECR911001B72",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-15T00:19:04.784Z",
+      "timestampLocal": "2026-07-15T00:19:04.784Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.243.107",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PECR911001B72&nombre_proveedor_razon_social=perez+castillo&nombre_representante_legal=Rodrigo+Ismael&email=facturacion%40surainteriores.com",
+      "previousEventHash": "d8f01cac069fd04b652421dde4fedfbe8bdc0d3e04e3043a8b6588fbec513c83",
+      "documentHash": "b19a56c8d3f6d13c663dc4707e4fb67ba77c5b7f148d33334ca51109a16fb11d",
+      "eventHash": "e80aae9e6b8794001430accc780e0391acf4f4a4119463a3cb80187c5e7bb145"
+    },
+    {
+      "eventId": "45477f74-d87b-4b3e-ba9a-5a74ea2adbf8",
+      "uid": "PECR911001B72",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-15T00:19:36.891Z",
+      "timestampLocal": "2026-07-14T18:19:36.891Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.243.107",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d3f2c9a9-d625-401f-8f32-5601e099a2f7",
+      "previousEventHash": "e80aae9e6b8794001430accc780e0391acf4f4a4119463a3cb80187c5e7bb145",
+      "documentHash": "4a907a9a52faa5ab0199b68b626ac119a1d4da3012d2a7a828a39ae446fad901",
+      "signatureHash": "f201530c2b90a7eb6d98a80c6dc4cb7a458e8f35e7dabc21efb06188de6e56db",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-14T18:19:33.603Z"
+      },
+      "eventHash": "6108fecca2c10b7746859db82e82628276851d4ce5c0c15b4b5fbc0e44374d66"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-15T00:19:36.892Z"
+  }
 }
