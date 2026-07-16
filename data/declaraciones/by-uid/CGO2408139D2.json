@@ -1,19 +1,100 @@
 {
   "uid": "CGO2408139D2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CASA GORI",
     "nombre_representante_legal": "Pablo Cuevas",
     "email": "pau.agto@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CASA GORI",
-    "nombre_representante_legal": "Pablo Cuevas",
-    "email": "pau.agto@gmail.com"
+  "personaAutorizada": null,
+  "signedAt": "2026-07-15T19:42:20.726Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CGO2408139D2",
+  "signatureMetadata": {
+    "ip": "201.103.204.55",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-16T01:42:24.005Z",
+    "signedAtLocal": "2026-07-15T19:42:24.005Z"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "63b75b6217af182bcfaa46b690672bb189e210e26dfc072bf2ae047963eef8fc"
+  "documentHash": "55aaab5f48336e3294413de3ecfd9060fc11ed14c3b9979958cf2e77991b584d",
+  "auditTrail": [
+    {
+      "eventId": "d4c10503-f77e-4a17-8315-3ff6c89664f3",
+      "uid": "CGO2408139D2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-16T01:41:29.570Z",
+      "timestampLocal": "2026-07-16T01:41:29.570Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.204.55",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CGO2408139D2&nombre_proveedor_razon_social=CASA+GORI&nombre_representante_legal=Pablo+Cuevas&email=pau.agto%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "63b75b6217af182bcfaa46b690672bb189e210e26dfc072bf2ae047963eef8fc",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "806a6725cad84fec0294c4f87562b8075d12c57454641aa2debc0b9b5bc0dedd"
+    },
+    {
+      "eventId": "8ce6ee8c-2b80-4bc3-9f6d-57e7cc233ab1",
+      "uid": "CGO2408139D2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-16T01:41:29.570Z",
+      "timestampLocal": "2026-07-16T01:41:29.570Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.204.55",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CGO2408139D2&nombre_proveedor_razon_social=CASA+GORI&nombre_representante_legal=Pablo+Cuevas&email=pau.agto%40gmail.com",
+      "previousEventHash": "806a6725cad84fec0294c4f87562b8075d12c57454641aa2debc0b9b5bc0dedd",
+      "documentHash": "63b75b6217af182bcfaa46b690672bb189e210e26dfc072bf2ae047963eef8fc",
+      "metadata": {
+        "proveedor": "CASA GORI",
+        "representante": "Pablo Cuevas"
+      },
+      "eventHash": "0c4674ae1d15378f8a2173275787d60c39d672a391824da37c805f1b4b96e62c"
+    },
+    {
+      "eventId": "3239b216-cc75-401e-9105-7f635ce32636",
+      "uid": "CGO2408139D2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-16T01:41:30.652Z",
+      "timestampLocal": "2026-07-16T01:41:30.652Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.204.55",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CGO2408139D2&nombre_proveedor_razon_social=CASA+GORI&nombre_representante_legal=Pablo+Cuevas&email=pau.agto%40gmail.com",
+      "previousEventHash": "0c4674ae1d15378f8a2173275787d60c39d672a391824da37c805f1b4b96e62c",
+      "documentHash": "63b75b6217af182bcfaa46b690672bb189e210e26dfc072bf2ae047963eef8fc",
+      "eventHash": "58e6d0ef966f9ab252ba0603b344f9bb2cb443a277abfd3c99bb5d338069873a"
+    },
+    {
+      "eventId": "bebe9a7b-a0b7-4d24-9a7e-fd1f2c9dfc2d",
+      "uid": "CGO2408139D2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-16T01:42:24.006Z",
+      "timestampLocal": "2026-07-15T19:42:24.006Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.103.204.55",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7c1a0f64-8a38-4e35-8603-3d75ac97fae0",
+      "previousEventHash": "58e6d0ef966f9ab252ba0603b344f9bb2cb443a277abfd3c99bb5d338069873a",
+      "documentHash": "55aaab5f48336e3294413de3ecfd9060fc11ed14c3b9979958cf2e77991b584d",
+      "signatureHash": "e19c1d72bb0f7408aabecc8c9a4d26cf148e72d2bfb2fa7dd5208accfe18a865",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-15T19:42:20.726Z"
+      },
+      "eventHash": "e54cc787dcd2f2ca439b25a9a7e1b9c7ff6b8337759d2932a2c76a2daf9e83ae"
+    }
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-16T01:42:24.006Z"
+  }
 }
