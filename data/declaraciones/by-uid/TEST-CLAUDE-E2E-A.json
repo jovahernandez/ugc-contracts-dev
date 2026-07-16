@@ -2,8 +2,23 @@
   "uid": "TEST-CLAUDE-E2E-A",
   "token": "d7075d9b-8b19-432a-b105-81d77dcda31c",
   "createdAt": "2026-07-16T19:32:35.424Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "en",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PRUEBA CLAUDE SA DE CV",
+    "nombre_representante_legal": "Juan Prueba",
+    "email": "test-claude@example.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PRUEBA CLAUDE SA DE CV",
+    "nombre_representante_legal": "Juan Prueba",
+    "email": "test-claude@example.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "PRUEBA CLAUDE SA DE CV",
+    "nombre_representante_legal": "Juan Prueba",
+    "email": "test-claude@example.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "PRUEBA CLAUDE SA DE CV",
     "nombre_representante_legal": "Juan Prueba",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "f9b08620f6806574066d3bd452ce3e08efe892b76cf1ba7762ef998e39ebe71c",
+  "auditTrail": [
+    {
+      "eventId": "ca48d402-0bb5-4103-9d3f-4895aded75dd",
+      "uid": "TEST-CLAUDE-E2E-A",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-16T19:32:43.036Z",
+      "timestampLocal": "2026-07-16T19:32:43.036Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.16",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": null,
+      "documentHash": "f9b08620f6806574066d3bd452ce3e08efe892b76cf1ba7762ef998e39ebe71c",
+      "metadata": {
+        "language": "en"
+      },
+      "eventHash": "8ca60fff88a880e5d5a4bc2eeada910fc2532c86fc225fc7f3f6068139e21cee"
+    },
+    {
+      "eventId": "d0cf9fbd-0554-4168-b91f-7729ea96ac12",
+      "uid": "TEST-CLAUDE-E2E-A",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-16T19:32:43.036Z",
+      "timestampLocal": "2026-07-16T19:32:43.036Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.16",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": "8ca60fff88a880e5d5a4bc2eeada910fc2532c86fc225fc7f3f6068139e21cee",
+      "documentHash": "f9b08620f6806574066d3bd452ce3e08efe892b76cf1ba7762ef998e39ebe71c",
+      "metadata": {
+        "proveedor": "PRUEBA CLAUDE SA DE CV",
+        "representante": "Juan Prueba"
+      },
+      "eventHash": "f78ef3fd11ffcd7265b493ef0648eda77e92f2d9f00484af0ccc847e4c9f1667"
+    }
+  ]
 }
