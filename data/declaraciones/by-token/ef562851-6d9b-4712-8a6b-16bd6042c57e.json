@@ -2,8 +2,23 @@
   "uid": "GADS960812HC8",
   "token": "ef562851-6d9b-4712-8a6b-16bd6042c57e",
   "createdAt": "2026-07-16T23:45:11.546Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "SOFIA MONSERRAT GAMEZ DELGADO",
+    "nombre_representante_legal": "Elizabeth Figueroa",
+    "email": "monsegd96@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "SOFIA MONSERRAT GAMEZ DELGADO",
+    "nombre_representante_legal": "Elizabeth Figueroa",
+    "email": "monsegd96@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "SOFIA MONSERRAT GAMEZ DELGADO",
+    "nombre_representante_legal": "Elizabeth Figueroa",
+    "email": "monsegd96@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "SOFIA MONSERRAT GAMEZ DELGADO",
     "nombre_representante_legal": "Elizabeth Figueroa",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4b04ae81abe9df33faa8b3f6aae4588f4b9dbc2249de469b91fa07fe9f4d2dce",
+  "auditTrail": [
+    {
+      "eventId": "62aebe51-3546-44d0-884d-18623c0a72c5",
+      "uid": "GADS960812HC8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-16T23:45:17.653Z",
+      "timestampLocal": "2026-07-16T23:45:17.653Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.40.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GADS960812HC8&nombre_proveedor_razon_social=SOFIA+MONSERRAT+GAMEZ+DELGADO&nombre_representante_legal=Elizabeth+Figueroa&email=monsegd96%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "4b04ae81abe9df33faa8b3f6aae4588f4b9dbc2249de469b91fa07fe9f4d2dce",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "53700a950dd1f076b942db4c411c556d432a2f1cdd2bb6be094452eb10dc95f9"
+    },
+    {
+      "eventId": "eb7bd82a-a201-4445-b458-1d61fae69798",
+      "uid": "GADS960812HC8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-16T23:45:17.653Z",
+      "timestampLocal": "2026-07-16T23:45:17.653Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.40.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GADS960812HC8&nombre_proveedor_razon_social=SOFIA+MONSERRAT+GAMEZ+DELGADO&nombre_representante_legal=Elizabeth+Figueroa&email=monsegd96%40gmail.com",
+      "previousEventHash": "53700a950dd1f076b942db4c411c556d432a2f1cdd2bb6be094452eb10dc95f9",
+      "documentHash": "4b04ae81abe9df33faa8b3f6aae4588f4b9dbc2249de469b91fa07fe9f4d2dce",
+      "metadata": {
+        "proveedor": "SOFIA MONSERRAT GAMEZ DELGADO",
+        "representante": "Elizabeth Figueroa"
+      },
+      "eventHash": "6670ab906d2731e5c4054dedbf5890b40200e9dfbdfece33dd675c2b8d0903b2"
+    }
+  ]
 }
