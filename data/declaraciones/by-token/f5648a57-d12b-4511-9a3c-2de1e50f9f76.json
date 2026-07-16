@@ -2,7 +2,7 @@
   "uid": "TEST-CLAUDE-E2E-B",
   "token": "f5648a57-d12b-4511-9a3c-2de1e50f9f76",
   "createdAt": "2026-07-16T19:33:03.795Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PRUEBA CLAUDE DOS SA",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Maria Prueba",
     "email": "test-claude-b@example.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PRUEBA CLAUDE DOS SA",
-    "nombre_representante_legal": "Maria Prueba",
-    "email": "test-claude-b@example.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "PRUEBA CLAUDE DOS SA",
     "nombre_representante_legal": "Maria Prueba",
     "email": "test-claude-b@example.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8153393e93da1474c6cbd77d54e65bdf5f42fefa9c5cdcf003f356a1315379e0",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-16T13:33:34.543Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TEST-CLAUDE-E2E-B",
+  "signatureMetadata": {
+    "ip": "187.190.175.16",
+    "userAgent": "curl/8.18.0",
+    "signedAtUtc": "2026-07-16T19:33:38.013Z",
+    "signedAtLocal": "2026-07-16T13:33:38.013Z"
+  },
+  "documentHash": "48ac35991cbb839738fd1652e9375d0bd1a83d939353681e3c93d1b59ba91661",
   "auditTrail": [
     {
       "eventId": "ecc9ea25-e20e-45dc-9243-c696951c1c02",
@@ -65,6 +66,47 @@
         "representante": "Maria Prueba"
       },
       "eventHash": "e7c43ef08823b684659da93d6a4894a7261b119c77ec7b0802ccda728f6e329d"
+    },
+    {
+      "eventId": "06731424-c7e9-4c1c-a413-98decb80c613",
+      "uid": "TEST-CLAUDE-E2E-B",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-16T19:33:23.098Z",
+      "timestampLocal": "2026-07-16T19:33:23.098Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.16",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": "e7c43ef08823b684659da93d6a4894a7261b119c77ec7b0802ccda728f6e329d",
+      "documentHash": "8153393e93da1474c6cbd77d54e65bdf5f42fefa9c5cdcf003f356a1315379e0",
+      "eventHash": "5c5918b979af51df931901b366b2277c52c681183af3afd644fe8fbd55cd9be6"
+    },
+    {
+      "eventId": "23f2bf16-8668-46c6-bf36-d5f118ebcf29",
+      "uid": "TEST-CLAUDE-E2E-B",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-16T19:33:38.014Z",
+      "timestampLocal": "2026-07-16T13:33:38.014Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.175.16",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": "5c5918b979af51df931901b366b2277c52c681183af3afd644fe8fbd55cd9be6",
+      "documentHash": "48ac35991cbb839738fd1652e9375d0bd1a83d939353681e3c93d1b59ba91661",
+      "signatureHash": "6b7fa434f92a8b80aab02d9bf1a12e49ffcae424e4013a1c4f68b67e3d2bbcd0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-16T13:33:34.543Z"
+      },
+      "eventHash": "b69c764b4e7ab28374c5a7b4c327b70b9e2e28d5f273eb1fb226c48e2bf4c2ee"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-16T19:33:38.014Z"
+  }
 }
