@@ -2,8 +2,23 @@
   "uid": "TEST-CLAUDE-E2E-B",
   "token": "f5648a57-d12b-4511-9a3c-2de1e50f9f76",
   "createdAt": "2026-07-16T19:33:03.795Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PRUEBA CLAUDE DOS SA",
+    "nombre_representante_legal": "Maria Prueba",
+    "email": "test-claude-b@example.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PRUEBA CLAUDE DOS SA",
+    "nombre_representante_legal": "Maria Prueba",
+    "email": "test-claude-b@example.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "PRUEBA CLAUDE DOS SA",
+    "nombre_representante_legal": "Maria Prueba",
+    "email": "test-claude-b@example.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "PRUEBA CLAUDE DOS SA",
     "nombre_representante_legal": "Maria Prueba",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8153393e93da1474c6cbd77d54e65bdf5f42fefa9c5cdcf003f356a1315379e0",
+  "auditTrail": [
+    {
+      "eventId": "ecc9ea25-e20e-45dc-9243-c696951c1c02",
+      "uid": "TEST-CLAUDE-E2E-B",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-16T19:33:12.953Z",
+      "timestampLocal": "2026-07-16T19:33:12.953Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.16",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": null,
+      "documentHash": "8153393e93da1474c6cbd77d54e65bdf5f42fefa9c5cdcf003f356a1315379e0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d2b2e9cad8be3eb00f19e660a1ad388f2bbcd3f6a9c00d46691bbdd121a55481"
+    },
+    {
+      "eventId": "6523a1e7-93f9-4d06-8702-b0e54b3c86ad",
+      "uid": "TEST-CLAUDE-E2E-B",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-16T19:33:12.953Z",
+      "timestampLocal": "2026-07-16T19:33:12.953Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.16",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": "d2b2e9cad8be3eb00f19e660a1ad388f2bbcd3f6a9c00d46691bbdd121a55481",
+      "documentHash": "8153393e93da1474c6cbd77d54e65bdf5f42fefa9c5cdcf003f356a1315379e0",
+      "metadata": {
+        "proveedor": "PRUEBA CLAUDE DOS SA",
+        "representante": "Maria Prueba"
+      },
+      "eventHash": "e7c43ef08823b684659da93d6a4894a7261b119c77ec7b0802ccda728f6e329d"
+    }
+  ]
 }
