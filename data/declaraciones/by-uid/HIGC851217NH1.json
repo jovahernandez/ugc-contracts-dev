@@ -2,7 +2,7 @@
   "uid": "HIGC851217NH1",
   "token": "890970f2-d558-4f13-a61c-4a63a3aad2a0",
   "createdAt": "2026-07-17T22:09:11.988Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Cynthia Gabriela Hidalgo Garcia",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "cynthia gabriela hidalgo garcia",
     "email": "cynthia@morning.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Cynthia Gabriela Hidalgo Garcia",
-    "nombre_representante_legal": "cynthia gabriela hidalgo garcia",
-    "email": "cynthia@morning.com.mx"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Cynthia Gabriela Hidalgo Garcia",
     "nombre_representante_legal": "cynthia gabriela hidalgo garcia",
     "email": "cynthia@morning.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9cecb60e5c121015c13b48e5533b4b5887163b81cd2e5e76a940f20d1180e9b4",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-17T16:09:29.753Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/HIGC851217NH1",
+  "signatureMetadata": {
+    "ip": "177.240.101.242",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-17T22:09:33.064Z",
+    "signedAtLocal": "2026-07-17T16:09:33.064Z"
+  },
+  "documentHash": "775aedbeffefc8fe5517f862ef93e60aaa7c2c33e8b1142f4e376f501bb35e1d",
   "auditTrail": [
     {
       "eventId": "9a2bfe8a-3903-472a-a6fe-506a57c827d0",
@@ -65,6 +66,47 @@
         "representante": "cynthia gabriela hidalgo garcia"
       },
       "eventHash": "4a77711269f28968e3f91dff4164d5f697ca9bdc7941ce54afb02de1e6d923ae"
+    },
+    {
+      "eventId": "6d8a1809-4adf-4095-bca4-139f0de35d10",
+      "uid": "HIGC851217NH1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-17T22:09:19.003Z",
+      "timestampLocal": "2026-07-17T22:09:19.003Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.240.101.242",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HIGC851217NH1&nombre_proveedor_razon_social=Cynthia+Gabriela+Hidalgo+Garcia&nombre_representante_legal=cynthia+gabriela+hidalgo+garcia&email=cynthia%40morning.com.mx",
+      "previousEventHash": "4a77711269f28968e3f91dff4164d5f697ca9bdc7941ce54afb02de1e6d923ae",
+      "documentHash": "9cecb60e5c121015c13b48e5533b4b5887163b81cd2e5e76a940f20d1180e9b4",
+      "eventHash": "2f886566a1923ac2e05d2854d5b17aa06ff526297147af432b6ad10a7ea45a46"
+    },
+    {
+      "eventId": "95a1ac44-8a9b-4312-ab06-a187da728525",
+      "uid": "HIGC851217NH1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-17T22:09:33.064Z",
+      "timestampLocal": "2026-07-17T16:09:33.064Z",
+      "timezone": "UTC-6",
+      "ipAddress": "177.240.101.242",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/890970f2-d558-4f13-a61c-4a63a3aad2a0",
+      "previousEventHash": "2f886566a1923ac2e05d2854d5b17aa06ff526297147af432b6ad10a7ea45a46",
+      "documentHash": "775aedbeffefc8fe5517f862ef93e60aaa7c2c33e8b1142f4e376f501bb35e1d",
+      "signatureHash": "b2c03aace4acc6d3c020fadfb3435dd5d668a201f3c29378443d1311f08a1349",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-17T16:09:29.753Z"
+      },
+      "eventHash": "9917dedee766c5e43d3076586b9369fe339e6cacbdd6c5f4e2a85678d541c954"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-17T22:09:33.064Z"
+  }
 }
