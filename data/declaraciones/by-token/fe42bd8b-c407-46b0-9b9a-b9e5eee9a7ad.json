@@ -2,8 +2,23 @@
   "uid": "BCO2402297Z3",
   "token": "fe42bd8b-c407-46b0-9b9a-b9e5eee9a7ad",
   "createdAt": "2026-07-17T00:27:09.555Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "BANDOLERO COMMUNICATIONS",
+    "nombre_representante_legal": "Guadalupe Ximena Martínez Santos",
+    "email": "ximena@bandoleroagency.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "BANDOLERO COMMUNICATIONS",
+    "nombre_representante_legal": "Guadalupe Ximena Martínez Santos",
+    "email": "ximena@bandoleroagency.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "BANDOLERO COMMUNICATIONS",
+    "nombre_representante_legal": "Guadalupe Ximena Martínez Santos",
+    "email": "ximena@bandoleroagency.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "BANDOLERO COMMUNICATIONS",
     "nombre_representante_legal": "Guadalupe Ximena Martínez Santos",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "57b528229c844cd57c379cc9284778e048d7ee5eeb44e61a0e6d28f6babf6b39",
+  "auditTrail": [
+    {
+      "eventId": "5cfcaf93-cbbe-41b5-9cda-b21266e1ab1f",
+      "uid": "BCO2402297Z3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-17T00:27:16.308Z",
+      "timestampLocal": "2026-07-17T00:27:16.308Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.197.126",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "57b528229c844cd57c379cc9284778e048d7ee5eeb44e61a0e6d28f6babf6b39",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3cef9a26c4572348e9170dbad3459daccea79d6f43f63959f4da30bd8748d8be"
+    },
+    {
+      "eventId": "87d2097c-88d2-4102-b848-9632d3e331b1",
+      "uid": "BCO2402297Z3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-17T00:27:16.308Z",
+      "timestampLocal": "2026-07-17T00:27:16.308Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.197.126",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "3cef9a26c4572348e9170dbad3459daccea79d6f43f63959f4da30bd8748d8be",
+      "documentHash": "57b528229c844cd57c379cc9284778e048d7ee5eeb44e61a0e6d28f6babf6b39",
+      "metadata": {
+        "proveedor": "BANDOLERO COMMUNICATIONS",
+        "representante": "Guadalupe Ximena Martínez Santos"
+      },
+      "eventHash": "e1954653689629938ef72cf22b8b7ea7cf737bfe36cd4abb158a5ff775da5209"
+    }
+  ]
 }
