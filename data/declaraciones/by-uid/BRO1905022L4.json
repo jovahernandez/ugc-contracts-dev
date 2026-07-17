@@ -1,8 +1,14 @@
 {
   "uid": "BRO1905022L4",
+  "token": "fb8db1e0-dd74-4d98-a648-ab2274c93c82",
   "status": "pending_signature",
   "language": "es",
   "proveedor": {
+    "nombre_proveedor_razon_social": "BROLAN SA DE CV",
+    "nombre_representante_legal": "Citlallin Guadalupe Salas Gonzalez",
+    "email": "eunice@brolanagency.com"
+  },
+  "proveedorData": {
     "nombre_proveedor_razon_social": "BROLAN SA DE CV",
     "nombre_representante_legal": "Citlallin Guadalupe Salas Gonzalez",
     "email": "eunice@brolanagency.com"
@@ -12,8 +18,52 @@
     "nombre_representante_legal": "Citlallin Guadalupe Salas Gonzalez",
     "email": "eunice@brolanagency.com"
   },
+  "expectedProveedorData": {
+    "nombre_proveedor_razon_social": "BROLAN SA DE CV",
+    "nombre_representante_legal": "Citlallin Guadalupe Salas Gonzalez",
+    "email": "eunice@brolanagency.com"
+  },
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": "965aec2dd3ac518011ec02d947a85b0d84f0aca1e4f1aec08db681b445a99fef"
+  "documentHash": "8dcaafe6642d5a1aa67f032caf47ed789d828b73937bcd366b26e2409025810d",
+  "auditTrail": [
+    {
+      "eventId": "d73bbb9d-edc6-4ba6-9cc4-ad22a5008c6a",
+      "uid": "BRO1905022L4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-17T15:59:37.928Z",
+      "timestampLocal": "2026-07-17T15:59:37.928Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.150.221",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BRO1905022L4&nombre_proveedor_razon_social=BROLAN+SA+DE+CV&nombre_representante_legal=Citlallin+Guadalupe+Salas+Gonzalez&email=eunice%40brolanagency.com",
+      "previousEventHash": null,
+      "documentHash": "8dcaafe6642d5a1aa67f032caf47ed789d828b73937bcd366b26e2409025810d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "370089c8d0b1a67cb80594334bcedd65ecb41fecc3ed79a1f6aba02aba95f81f"
+    },
+    {
+      "eventId": "4aa615a2-b34e-4cb5-9a2f-d980bad47642",
+      "uid": "BRO1905022L4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-17T15:59:37.928Z",
+      "timestampLocal": "2026-07-17T15:59:37.928Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.150.221",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BRO1905022L4&nombre_proveedor_razon_social=BROLAN+SA+DE+CV&nombre_representante_legal=Citlallin+Guadalupe+Salas+Gonzalez&email=eunice%40brolanagency.com",
+      "previousEventHash": "370089c8d0b1a67cb80594334bcedd65ecb41fecc3ed79a1f6aba02aba95f81f",
+      "documentHash": "8dcaafe6642d5a1aa67f032caf47ed789d828b73937bcd366b26e2409025810d",
+      "metadata": {
+        "proveedor": "BROLAN SA DE CV",
+        "representante": "Citlallin Guadalupe Salas Gonzalez"
+      },
+      "eventHash": "9a8a34d1bd8605ab329a5cdd8b4ab8e6a3408c92bce1c3cb98ea1433ed0b59c2"
+    }
+  ]
 }
