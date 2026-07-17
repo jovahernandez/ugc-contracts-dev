@@ -2,7 +2,7 @@
   "uid": "SAEF661113819",
   "token": "5f0da70c-774c-4712-b056-75578a3a68d9",
   "createdAt": "2026-07-17T01:10:58.025Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "FRANCESCA ROMANA SPATARO EWALD",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "FRANCESCA ROMANA SPATARO EWALD",
     "email": "fiscal_sc@hotmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "FRANCESCA ROMANA SPATARO EWALD",
-    "nombre_representante_legal": "FRANCESCA ROMANA SPATARO EWALD",
-    "email": "fiscal_sc@hotmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "FRANCESCA ROMANA SPATARO EWALD",
     "nombre_representante_legal": "FRANCESCA ROMANA SPATARO EWALD",
     "email": "fiscal_sc@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c7c9eddd9ae0041264378f62d8af8465d2cbcae9fac042653218616d990dd936",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-16T19:12:05.270Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SAEF661113819",
+  "signatureMetadata": {
+    "ip": "187.202.138.250",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-07-17T01:12:08.557Z",
+    "signedAtLocal": "2026-07-16T19:12:08.557Z"
+  },
+  "documentHash": "d84bedf9f4c2cf48c039b4a92857268db5748fca145907d0ea5d85ca71059987",
   "auditTrail": [
     {
       "eventId": "60f4e586-bb9f-4bbb-a229-1d63f426557b",
@@ -102,6 +103,47 @@
         "representante": "FRANCESCA ROMANA SPATARO EWALD"
       },
       "eventHash": "37a969bb3a0e1f1641cf395a10f5f98b553015bd263c956033dddc7a3a2f6091"
+    },
+    {
+      "eventId": "c87ed7f2-037b-4ea7-9294-e082dccc754c",
+      "uid": "SAEF661113819",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-17T01:11:10.644Z",
+      "timestampLocal": "2026-07-17T01:11:10.644Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.138.250",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAEF661113819&nombre_proveedor_razon_social=FRANCESCA+ROMANA+SPATARO+EWALD&nombre_representante_legal=FRANCESCA+ROMANA+SPATARO+EWALD&email=fiscal_sc%40hotmail.com",
+      "previousEventHash": "37a969bb3a0e1f1641cf395a10f5f98b553015bd263c956033dddc7a3a2f6091",
+      "documentHash": "c7c9eddd9ae0041264378f62d8af8465d2cbcae9fac042653218616d990dd936",
+      "eventHash": "a20aea8bd58c603ac7ef76645ca7c3bf88fc83a6cb0f67292b9e253f29808951"
+    },
+    {
+      "eventId": "0acf5252-12fd-47a2-b7ab-0960295a9490",
+      "uid": "SAEF661113819",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-17T01:12:08.557Z",
+      "timestampLocal": "2026-07-16T19:12:08.557Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.202.138.250",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5f0da70c-774c-4712-b056-75578a3a68d9",
+      "previousEventHash": "a20aea8bd58c603ac7ef76645ca7c3bf88fc83a6cb0f67292b9e253f29808951",
+      "documentHash": "d84bedf9f4c2cf48c039b4a92857268db5748fca145907d0ea5d85ca71059987",
+      "signatureHash": "07e473df29232680cd52ccfeb153a312072244f54b44f6772d0df7026f8c3411",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-16T19:12:05.270Z"
+      },
+      "eventHash": "8e6b25622f58e578eb5afe29c4880c5b54d70dd74e1fafc78da5f25d09d94924"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-07-17T01:12:08.558Z"
+  }
 }
