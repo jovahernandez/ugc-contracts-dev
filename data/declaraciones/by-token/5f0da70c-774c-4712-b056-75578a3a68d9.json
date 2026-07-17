@@ -2,8 +2,23 @@
   "uid": "SAEF661113819",
   "token": "5f0da70c-774c-4712-b056-75578a3a68d9",
   "createdAt": "2026-07-17T01:10:58.025Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "FRANCESCA ROMANA SPATARO EWALD",
+    "nombre_representante_legal": "FRANCESCA ROMANA SPATARO EWALD",
+    "email": "fiscal_sc@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "FRANCESCA ROMANA SPATARO EWALD",
+    "nombre_representante_legal": "FRANCESCA ROMANA SPATARO EWALD",
+    "email": "fiscal_sc@hotmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "FRANCESCA ROMANA SPATARO EWALD",
+    "nombre_representante_legal": "FRANCESCA ROMANA SPATARO EWALD",
+    "email": "fiscal_sc@hotmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "FRANCESCA ROMANA SPATARO EWALD",
     "nombre_representante_legal": "FRANCESCA ROMANA SPATARO EWALD",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "144ebe4e06eb81f769e7486359275eb2add55ae391feb1b64b6f8f3b667f0442",
+  "auditTrail": [
+    {
+      "eventId": "60f4e586-bb9f-4bbb-a229-1d63f426557b",
+      "uid": "SAEF661113819",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-17T01:11:04.745Z",
+      "timestampLocal": "2026-07-17T01:11:04.745Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.138.250",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAEF661113819&nombre_proveedor_razon_social=FRANCESCA+ROMANA+SPATARO+EWALD&nombre_representante_legal=FRANCESCA+ROMANA+SPATARO+EWALD&email=fiscal_sc%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "144ebe4e06eb81f769e7486359275eb2add55ae391feb1b64b6f8f3b667f0442",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0ac602297863b638f5d3fc4315eb1a9e0e281d7453b22713da525014a0930928"
+    },
+    {
+      "eventId": "fb354b17-0d6e-474e-a0ae-06cec34ee1cc",
+      "uid": "SAEF661113819",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-17T01:11:04.746Z",
+      "timestampLocal": "2026-07-17T01:11:04.746Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.138.250",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAEF661113819&nombre_proveedor_razon_social=FRANCESCA+ROMANA+SPATARO+EWALD&nombre_representante_legal=FRANCESCA+ROMANA+SPATARO+EWALD&email=fiscal_sc%40hotmail.com",
+      "previousEventHash": "0ac602297863b638f5d3fc4315eb1a9e0e281d7453b22713da525014a0930928",
+      "documentHash": "144ebe4e06eb81f769e7486359275eb2add55ae391feb1b64b6f8f3b667f0442",
+      "metadata": {
+        "proveedor": "FRANCESCA ROMANA SPATARO EWALD",
+        "representante": "FRANCESCA ROMANA SPATARO EWALD"
+      },
+      "eventHash": "98557a2c6b8bec47f7c9c8a4dfcd1808205fda3ae38a1ada39be4b652c1ab231"
+    }
+  ]
 }
