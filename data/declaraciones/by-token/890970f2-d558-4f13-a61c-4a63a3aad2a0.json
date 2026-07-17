@@ -2,8 +2,23 @@
   "uid": "HIGC851217NH1",
   "token": "890970f2-d558-4f13-a61c-4a63a3aad2a0",
   "createdAt": "2026-07-17T22:09:11.988Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Cynthia Gabriela Hidalgo Garcia",
+    "nombre_representante_legal": "cynthia gabriela hidalgo garcia",
+    "email": "cynthia@morning.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Cynthia Gabriela Hidalgo Garcia",
+    "nombre_representante_legal": "cynthia gabriela hidalgo garcia",
+    "email": "cynthia@morning.com.mx"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Cynthia Gabriela Hidalgo Garcia",
+    "nombre_representante_legal": "cynthia gabriela hidalgo garcia",
+    "email": "cynthia@morning.com.mx"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Cynthia Gabriela Hidalgo Garcia",
     "nombre_representante_legal": "cynthia gabriela hidalgo garcia",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9cecb60e5c121015c13b48e5533b4b5887163b81cd2e5e76a940f20d1180e9b4",
+  "auditTrail": [
+    {
+      "eventId": "9a2bfe8a-3903-472a-a6fe-506a57c827d0",
+      "uid": "HIGC851217NH1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-17T22:09:17.187Z",
+      "timestampLocal": "2026-07-17T22:09:17.187Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.240.101.242",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HIGC851217NH1&nombre_proveedor_razon_social=Cynthia+Gabriela+Hidalgo+Garcia&nombre_representante_legal=cynthia+gabriela+hidalgo+garcia&email=cynthia%40morning.com.mx",
+      "previousEventHash": null,
+      "documentHash": "9cecb60e5c121015c13b48e5533b4b5887163b81cd2e5e76a940f20d1180e9b4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "dd3db2b882838903995b85605f5489514b52a42a8492c0d77120dd8b59b228f2"
+    },
+    {
+      "eventId": "338a8b32-42ab-4c03-9c63-cc94ca6ef2d4",
+      "uid": "HIGC851217NH1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-17T22:09:17.187Z",
+      "timestampLocal": "2026-07-17T22:09:17.187Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.240.101.242",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HIGC851217NH1&nombre_proveedor_razon_social=Cynthia+Gabriela+Hidalgo+Garcia&nombre_representante_legal=cynthia+gabriela+hidalgo+garcia&email=cynthia%40morning.com.mx",
+      "previousEventHash": "dd3db2b882838903995b85605f5489514b52a42a8492c0d77120dd8b59b228f2",
+      "documentHash": "9cecb60e5c121015c13b48e5533b4b5887163b81cd2e5e76a940f20d1180e9b4",
+      "metadata": {
+        "proveedor": "Cynthia Gabriela Hidalgo Garcia",
+        "representante": "cynthia gabriela hidalgo garcia"
+      },
+      "eventHash": "4a77711269f28968e3f91dff4164d5f697ca9bdc7941ce54afb02de1e6d923ae"
+    }
+  ]
 }
