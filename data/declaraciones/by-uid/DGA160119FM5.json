@@ -1,7 +1,7 @@
 {
   "uid": "DGA160119FM5",
   "token": "f5d5291b-64d5-48e3-ae82-419f201f9e66",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Divina Gastronomia SAPI de CV",
@@ -13,20 +13,21 @@
     "nombre_representante_legal": "Marco Antonio Alfredo Beteta Vallejo",
     "email": "paola@marcobeteta.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Divina Gastronomia SAPI de CV",
-    "nombre_representante_legal": "Marco Antonio Alfredo Beteta Vallejo",
-    "email": "paola@marcobeteta.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Divina Gastronomia SAPI de CV",
     "nombre_representante_legal": "Marco Antonio Alfredo Beteta Vallejo",
     "email": "paola@marcobeteta.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5fe8368926608f2e45a845e0ae8cefd03f4c56790e0336b4391263a76451e1f3",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-17T10:39:59.420Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DGA160119FM5",
+  "signatureMetadata": {
+    "ip": "201.141.19.1",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-17T16:40:02.936Z",
+    "signedAtLocal": "2026-07-17T10:40:02.936Z"
+  },
+  "documentHash": "efff4e23918a31b1da2882f9774f745dc99e7d9e4017b6afda02cb9aaf280397",
   "auditTrail": [
     {
       "eventId": "2425f5a0-7f5d-498c-b7ea-4e34d9c25bc5",
@@ -101,6 +102,47 @@
         "representante": "Marco Antonio Alfredo Beteta Vallejo"
       },
       "eventHash": "a3220f54d0037e8703700dc0097f854a99711dee7be373377b0b82030398f746"
+    },
+    {
+      "eventId": "549450f5-f593-4b9f-b4ae-6feaab1b0ceb",
+      "uid": "DGA160119FM5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-17T15:04:28.280Z",
+      "timestampLocal": "2026-07-17T15:04:28.280Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.19.1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DGA160119FM5&nombre_proveedor_razon_social=Divina+Gastronomia+SAPI+de+CV&nombre_representante_legal=Marco+Antonio+Alfredo+Beteta+Vallejo&email=paola%40marcobeteta.com",
+      "previousEventHash": "a3220f54d0037e8703700dc0097f854a99711dee7be373377b0b82030398f746",
+      "documentHash": "5fe8368926608f2e45a845e0ae8cefd03f4c56790e0336b4391263a76451e1f3",
+      "eventHash": "0baf2056701254cafd3e6ebe0527fcb27de9d66c1cd0b7f1cf21cbd4cd482e3b"
+    },
+    {
+      "eventId": "6d1e3b9d-14cb-48f6-ae23-74a59527330a",
+      "uid": "DGA160119FM5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-17T16:40:02.937Z",
+      "timestampLocal": "2026-07-17T10:40:02.937Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.19.1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f5d5291b-64d5-48e3-ae82-419f201f9e66",
+      "previousEventHash": "0baf2056701254cafd3e6ebe0527fcb27de9d66c1cd0b7f1cf21cbd4cd482e3b",
+      "documentHash": "efff4e23918a31b1da2882f9774f745dc99e7d9e4017b6afda02cb9aaf280397",
+      "signatureHash": "2388c4ab8d27d2c99f9fc009f5ec06d82d3e008e8e3880763f8d79e7635a89f3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-17T10:39:59.420Z"
+      },
+      "eventHash": "59b64849390f20591d879bc270c8c0bea1ab1ad05367f9c654570dff10759b98"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-07-17T16:40:02.938Z"
+  }
 }
