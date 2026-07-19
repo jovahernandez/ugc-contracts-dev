@@ -2,7 +2,7 @@
   "uid": "SOVT671003JR2",
   "token": "b852b5ec-e13a-42c7-b0bb-ce413c557918",
   "createdAt": "2026-07-18T16:29:50.223Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Maria Teresa Soto Vazquez",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Maria Teresa Soto Vazquez",
     "email": "teresoto.bemine@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Maria Teresa Soto Vazquez",
-    "nombre_representante_legal": "Maria Teresa Soto Vazquez",
-    "email": "teresoto.bemine@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Maria Teresa Soto Vazquez",
     "nombre_representante_legal": "Maria Teresa Soto Vazquez",
     "email": "teresoto.bemine@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "dd413f87658fdaae4667cf744ec32ffa56630fa48da36d935131f36427bf970d",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-18T21:48:44.596Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SOVT671003JR2",
+  "signatureMetadata": {
+    "ip": "201.141.106.118",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-07-19T03:48:47.941Z",
+    "signedAtLocal": "2026-07-18T21:48:47.941Z"
+  },
+  "documentHash": "9790597007da1d28c00de007a0ddff5c7acd7f459b8effde9fe7c7cd196ca23a",
   "auditTrail": [
     {
       "eventId": "a37b4bc0-0205-4a56-a7a7-175987d8e383",
@@ -65,6 +66,92 @@
         "representante": "Maria Teresa Soto Vazquez"
       },
       "eventHash": "c1859b7066f56725a6cd5daa82834a407a60924cfb7a5ff6498e9310c2544ad4"
+    },
+    {
+      "eventId": "ec361c55-223f-487f-8077-1874eac47cea",
+      "uid": "SOVT671003JR2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-18T16:30:49.842Z",
+      "timestampLocal": "2026-07-18T16:30:49.842Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.106.118",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "c1859b7066f56725a6cd5daa82834a407a60924cfb7a5ff6498e9310c2544ad4",
+      "documentHash": "dd413f87658fdaae4667cf744ec32ffa56630fa48da36d935131f36427bf970d",
+      "eventHash": "14c7c78e2db7b3b89103653df6aa56b56f110f662dc70d5582ce24612123ff97"
+    },
+    {
+      "eventId": "f51c5964-61fe-4c19-bcb5-e51075a827ff",
+      "uid": "SOVT671003JR2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-18T19:48:55.668Z",
+      "timestampLocal": "2026-07-18T19:48:55.668Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.106.118",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SOVT671003JR2&nombre_proveedor_razon_social=Maria+Teresa+Soto+Vazquez&nombre_representante_legal=Maria+Teresa+Soto+Vazquez&email=teresoto.bemine%40gmail.com",
+      "previousEventHash": "14c7c78e2db7b3b89103653df6aa56b56f110f662dc70d5582ce24612123ff97",
+      "documentHash": "dd413f87658fdaae4667cf744ec32ffa56630fa48da36d935131f36427bf970d",
+      "eventHash": "885270dd40b5743efeeef914c3adb67339281f21c76f95574c9c7d5ec857f2a8"
+    },
+    {
+      "eventId": "5e3213e2-5e79-4b21-8b33-55679502f125",
+      "uid": "SOVT671003JR2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-19T03:47:54.842Z",
+      "timestampLocal": "2026-07-19T03:47:54.842Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.106.118",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SOVT671003JR2&nombre_proveedor_razon_social=Maria+Teresa+Soto+Vazquez&nombre_representante_legal=Maria+Teresa+Soto+Vazquez&email=teresoto.bemine%40gmail.com",
+      "previousEventHash": "885270dd40b5743efeeef914c3adb67339281f21c76f95574c9c7d5ec857f2a8",
+      "documentHash": "dd413f87658fdaae4667cf744ec32ffa56630fa48da36d935131f36427bf970d",
+      "eventHash": "e29905614409e99f1aa76e76ae27975e4a9324728ce22624c18a8f2100bacba5"
+    },
+    {
+      "eventId": "2324e553-a8e8-401e-8c42-27f95b5986ae",
+      "uid": "SOVT671003JR2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-19T03:47:56.831Z",
+      "timestampLocal": "2026-07-19T03:47:56.831Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.106.118",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "direct",
+      "previousEventHash": "e29905614409e99f1aa76e76ae27975e4a9324728ce22624c18a8f2100bacba5",
+      "documentHash": "dd413f87658fdaae4667cf744ec32ffa56630fa48da36d935131f36427bf970d",
+      "eventHash": "6df5fedffa408425f09caeaabee5a5bb308f64018db00f758cf6473e57d7dfa8"
+    },
+    {
+      "eventId": "5bb49b06-de68-4eb8-87fb-47dae6a13dda",
+      "uid": "SOVT671003JR2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-19T03:48:47.941Z",
+      "timestampLocal": "2026-07-18T21:48:47.941Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.106.118",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b852b5ec-e13a-42c7-b0bb-ce413c557918",
+      "previousEventHash": "6df5fedffa408425f09caeaabee5a5bb308f64018db00f758cf6473e57d7dfa8",
+      "documentHash": "9790597007da1d28c00de007a0ddff5c7acd7f459b8effde9fe7c7cd196ca23a",
+      "signatureHash": "09e41849c36ed4f23edbafa0403eb2a72fc780d36399c72702dc1757c795f9ab",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-18T21:48:44.596Z"
+      },
+      "eventHash": "04c25984481a338d34f800acf07ca42bf135cbbc591dea08c1c3e7cd600ce56a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-07-19T03:48:47.941Z"
+  }
 }
