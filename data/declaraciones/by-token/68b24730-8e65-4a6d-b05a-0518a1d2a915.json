@@ -2,8 +2,23 @@
   "uid": "39.880.137/0001-13",
   "token": "68b24730-8e65-4a6d-b05a-0518a1d2a915",
   "createdAt": "2026-07-20T16:22:55.246Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ANY GABRIELLY ENTERTAINMENT LTDA",
+    "nombre_representante_legal": "Any Gabrielly Rolim Soares",
+    "email": "raphaela@ava.art.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ANY GABRIELLY ENTERTAINMENT LTDA",
+    "nombre_representante_legal": "Any Gabrielly Rolim Soares",
+    "email": "raphaela@ava.art.br"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "ANY GABRIELLY ENTERTAINMENT LTDA",
+    "nombre_representante_legal": "Any Gabrielly Rolim Soares",
+    "email": "raphaela@ava.art.br"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "ANY GABRIELLY ENTERTAINMENT LTDA",
     "nombre_representante_legal": "Any Gabrielly Rolim Soares",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4feb3304746613f6962830a7c4282ac7da055e201e025f6305a059d4008bc8d9",
+  "auditTrail": [
+    {
+      "eventId": "63679b5a-db2a-48fb-94b6-cfb21d10c059",
+      "uid": "39.880.137/0001-13",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-20T16:23:02.502Z",
+      "timestampLocal": "2026-07-20T16:23:02.502Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.118.226.205",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=39.880.137%2F0001-13&nombre_proveedor_razon_social=ANY+GABRIELLY+ENTERTAINMENT+LTDA&nombre_representante_legal=Any+Gabrielly+Rolim+Soares&email=raphaela%40ava.art.br",
+      "previousEventHash": null,
+      "documentHash": "4feb3304746613f6962830a7c4282ac7da055e201e025f6305a059d4008bc8d9",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "e925392c3be47c0949c7bc72a19fae2ae484b1a514c79084fb5d547e67493a8c"
+    },
+    {
+      "eventId": "ff52b46f-1777-46cb-8c5d-b84bc110c24a",
+      "uid": "39.880.137/0001-13",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-20T16:23:02.503Z",
+      "timestampLocal": "2026-07-20T16:23:02.503Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.118.226.205",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=39.880.137%2F0001-13&nombre_proveedor_razon_social=ANY+GABRIELLY+ENTERTAINMENT+LTDA&nombre_representante_legal=Any+Gabrielly+Rolim+Soares&email=raphaela%40ava.art.br",
+      "previousEventHash": "e925392c3be47c0949c7bc72a19fae2ae484b1a514c79084fb5d547e67493a8c",
+      "documentHash": "4feb3304746613f6962830a7c4282ac7da055e201e025f6305a059d4008bc8d9",
+      "metadata": {
+        "proveedor": "ANY GABRIELLY ENTERTAINMENT LTDA",
+        "representante": "Any Gabrielly Rolim Soares"
+      },
+      "eventHash": "d4c2f32626594cce3bfdada3098317c7077d83a5b4e4d3b9f54ba6b473e9d61d"
+    }
+  ]
 }
