@@ -2,8 +2,23 @@
   "uid": "ROSC970813UR9",
   "token": "c79ed73c-c977-4549-94e9-50feb4782fc5",
   "createdAt": "2026-07-20T22:33:41.593Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Christian Mauricio Rodriguez Santos",
+    "nombre_representante_legal": "Christian Mauricio Rodriguez Santos",
+    "email": "mausantos.contacto@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Christian Mauricio Rodriguez Santos",
+    "nombre_representante_legal": "Christian Mauricio Rodriguez Santos",
+    "email": "mausantos.contacto@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Christian Mauricio Rodriguez Santos",
+    "nombre_representante_legal": "Christian Mauricio Rodriguez Santos",
+    "email": "mausantos.contacto@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Christian Mauricio Rodriguez Santos",
     "nombre_representante_legal": "Christian Mauricio Rodriguez Santos",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "5cc6c4af623425b5692848b1bb95bc3f485a8df92996d7b2021ed160038f113f",
+  "auditTrail": [
+    {
+      "eventId": "fd4fd579-227a-453b-b319-5895d8a87159",
+      "uid": "ROSC970813UR9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-20T22:33:47.435Z",
+      "timestampLocal": "2026-07-20T22:33:47.435Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.207.5.140",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ROSC970813UR9&nombre_proveedor_razon_social=Christian+Mauricio+Rodriguez+Santos&nombre_representante_legal=Christian+Mauricio+Rodriguez+Santos&email=mausantos.contacto%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "5cc6c4af623425b5692848b1bb95bc3f485a8df92996d7b2021ed160038f113f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5006dcc4e10dc6d79c9212fcaf03a26694f6ad2afd8992cff0ebf0a7c4f73f3a"
+    },
+    {
+      "eventId": "a1e31947-c13a-4090-9a26-c09db1ef15a0",
+      "uid": "ROSC970813UR9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-20T22:33:47.435Z",
+      "timestampLocal": "2026-07-20T22:33:47.435Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.207.5.140",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ROSC970813UR9&nombre_proveedor_razon_social=Christian+Mauricio+Rodriguez+Santos&nombre_representante_legal=Christian+Mauricio+Rodriguez+Santos&email=mausantos.contacto%40gmail.com",
+      "previousEventHash": "5006dcc4e10dc6d79c9212fcaf03a26694f6ad2afd8992cff0ebf0a7c4f73f3a",
+      "documentHash": "5cc6c4af623425b5692848b1bb95bc3f485a8df92996d7b2021ed160038f113f",
+      "metadata": {
+        "proveedor": "Christian Mauricio Rodriguez Santos",
+        "representante": "Christian Mauricio Rodriguez Santos"
+      },
+      "eventHash": "a2e0cf7527cff4fec8215c6c57560b4c89c78f1a42dbc26661c593d7f4897586"
+    }
+  ]
 }
