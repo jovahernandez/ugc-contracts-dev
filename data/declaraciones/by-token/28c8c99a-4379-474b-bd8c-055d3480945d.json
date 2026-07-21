@@ -2,7 +2,7 @@
   "uid": "LPB070118691",
   "token": "28c8c99a-4379-474b-bd8c-055d3480945d",
   "createdAt": "2026-07-21T15:59:44.744Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "LENOM POSH BRANDING SA DE CV",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "COLETTE DECROUX GONZALEZ ARAGON",
     "email": "administracion@lenom-pb.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "LENOM POSH BRANDING SA DE CV",
-    "nombre_representante_legal": "COLETTE DECROUX GONZALEZ ARAGON",
-    "email": "administracion@lenom-pb.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "LENOM POSH BRANDING SA DE CV",
     "nombre_representante_legal": "COLETTE DECROUX GONZALEZ ARAGON",
     "email": "administracion@lenom-pb.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8a1e8114ab6a7ef2c3be41b07cbbe8ac7f1c133199d4ab2d20cf1ea359d46755",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-21T10:05:12.031Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LPB070118691",
+  "signatureMetadata": {
+    "ip": "200.94.43.182",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "signedAtUtc": "2026-07-21T16:05:17.592Z",
+    "signedAtLocal": "2026-07-21T10:05:17.592Z"
+  },
+  "documentHash": "af6bdd26f65d69df0c73834302ec2a5e564b660c69bd4c1d7dc8fa0ce2e98327",
   "auditTrail": [
     {
       "eventId": "7565f3c6-d6f8-437a-9bbf-860d0ff24e06",
@@ -102,6 +103,47 @@
         "representante": "COLETTE DECROUX GONZALEZ ARAGON"
       },
       "eventHash": "8ea6d99d1b4852c34685a6a884315e71cf1f3be0cb4caf29dac312fdb22d83a6"
+    },
+    {
+      "eventId": "110f8b8f-42ed-459a-bb85-40897637fd71",
+      "uid": "LPB070118691",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-21T16:00:10.885Z",
+      "timestampLocal": "2026-07-21T16:00:10.885Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.94.43.182",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LPB070118691&nombre_proveedor_razon_social=LENOM+POSH+BRANDING+SA+DE+CV&nombre_representante_legal=COLETTE+DECROUX+GONZALEZ+ARAGON&email=administracion%40lenom-pb.com",
+      "previousEventHash": "8ea6d99d1b4852c34685a6a884315e71cf1f3be0cb4caf29dac312fdb22d83a6",
+      "documentHash": "8a1e8114ab6a7ef2c3be41b07cbbe8ac7f1c133199d4ab2d20cf1ea359d46755",
+      "eventHash": "fc39783201f9f84b69442b19a5d4b518d9a8528a023bb720e2e2545f5c7571f3"
+    },
+    {
+      "eventId": "0988a6e1-c41e-43fa-bfc2-298133d263bb",
+      "uid": "LPB070118691",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-21T16:05:17.592Z",
+      "timestampLocal": "2026-07-21T10:05:17.592Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.94.43.182",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/28c8c99a-4379-474b-bd8c-055d3480945d",
+      "previousEventHash": "fc39783201f9f84b69442b19a5d4b518d9a8528a023bb720e2e2545f5c7571f3",
+      "documentHash": "af6bdd26f65d69df0c73834302ec2a5e564b660c69bd4c1d7dc8fa0ce2e98327",
+      "signatureHash": "396808c125a1621b83c115b3613d8b7b7e5dca2e1cb8ea01b14fde6571b9e66a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-21T10:05:12.031Z"
+      },
+      "eventHash": "5fabad16618158c980bd23aed706fad590ae22ffe066f6c3f0fc5e191097aa67"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-07-21T16:05:17.592Z"
+  }
 }
