@@ -2,7 +2,7 @@
   "uid": "AAEE960912FPA",
   "token": "1fcaa221-dbaf-4554-adf5-fd358c664307",
   "createdAt": "2026-07-21T18:52:21.694Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Edson Armando Abarca Estrada",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Jose Alberto Velarde Galvez",
     "email": "edsonarabarca@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Edson Armando Abarca Estrada",
-    "nombre_representante_legal": "Jose Alberto Velarde Galvez",
-    "email": "edsonarabarca@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Edson Armando Abarca Estrada",
     "nombre_representante_legal": "Jose Alberto Velarde Galvez",
     "email": "edsonarabarca@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0649c66f037f93dba7a046133322fc1a42be613b96a4aa9b88b1e58180d2508f",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-21T12:52:52.812Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AAEE960912FPA",
+  "signatureMetadata": {
+    "ip": "187.188.64.48",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "signedAtUtc": "2026-07-21T18:52:56.148Z",
+    "signedAtLocal": "2026-07-21T12:52:56.148Z"
+  },
+  "documentHash": "5ad12c5891fe978b7d9e9553c1936731b467e4e433dad27a0523cddc72968403",
   "auditTrail": [
     {
       "eventId": "8088a7f9-cb2b-4680-994b-ae3b01952300",
@@ -65,6 +66,47 @@
         "representante": "Jose Alberto Velarde Galvez"
       },
       "eventHash": "b588d8c4fb8fad019158dc313bb75939c8d6366115a9af5d6e32f80c9c7faec1"
+    },
+    {
+      "eventId": "dfb71fbe-7816-4fd6-8436-330ff6d8df06",
+      "uid": "AAEE960912FPA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-21T18:52:30.821Z",
+      "timestampLocal": "2026-07-21T18:52:30.821Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.64.48",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "en-US,en;q=0.9,es-ES;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AAEE960912FPA&nombre_proveedor_razon_social=Edson+Armando+Abarca+Estrada&nombre_representante_legal=Jose+Alberto+Velarde+Galvez&email=edsonarabarca%40gmail.com",
+      "previousEventHash": "b588d8c4fb8fad019158dc313bb75939c8d6366115a9af5d6e32f80c9c7faec1",
+      "documentHash": "0649c66f037f93dba7a046133322fc1a42be613b96a4aa9b88b1e58180d2508f",
+      "eventHash": "fef773ca3b43de7cfc78df0ca47956be1531a683c4cbc1c6a05ff2e992dd82ce"
+    },
+    {
+      "eventId": "4d13dba2-ee43-41c2-a081-63f0a33144a6",
+      "uid": "AAEE960912FPA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-21T18:52:56.148Z",
+      "timestampLocal": "2026-07-21T12:52:56.148Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.64.48",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "en-US,en;q=0.9,es-ES;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1fcaa221-dbaf-4554-adf5-fd358c664307",
+      "previousEventHash": "fef773ca3b43de7cfc78df0ca47956be1531a683c4cbc1c6a05ff2e992dd82ce",
+      "documentHash": "5ad12c5891fe978b7d9e9553c1936731b467e4e433dad27a0523cddc72968403",
+      "signatureHash": "c82abad856551fe3bde829b0e0912ed51a67c30780d2fb16142e37d20f4a2c27",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-21T12:52:52.812Z"
+      },
+      "eventHash": "1847cb68b4103fbd26271d1474ee9187e049eeee9a09e20d1eaad5e5eb90e0ae"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-21T18:52:56.149Z"
+  }
 }
