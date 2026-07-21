@@ -2,8 +2,23 @@
   "uid": "RXH870810S93",
   "token": "242e4f74-422a-48cb-8beb-7b375632d7f3",
   "createdAt": "2026-07-21T19:52:38.575Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "RADIO XHVC FM",
+    "nombre_representante_legal": "RAFAEL GERARDO LOPEZ LLAGUNO",
+    "email": "christian.amador@latropical-caliente.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "RADIO XHVC FM",
+    "nombre_representante_legal": "RAFAEL GERARDO LOPEZ LLAGUNO",
+    "email": "christian.amador@latropical-caliente.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "RADIO XHVC FM",
+    "nombre_representante_legal": "RAFAEL GERARDO LOPEZ LLAGUNO",
+    "email": "christian.amador@latropical-caliente.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "RADIO XHVC FM",
     "nombre_representante_legal": "RAFAEL GERARDO LOPEZ LLAGUNO",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "fcc47805bd1be791262646a20b097ddebeebbbd8fe71a46685b5230c09f1fb94",
+  "auditTrail": [
+    {
+      "eventId": "e084fbfb-09ca-48f8-9037-527dd701b97a",
+      "uid": "RXH870810S93",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-21T19:53:05.071Z",
+      "timestampLocal": "2026-07-21T19:53:05.071Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.229.175.172",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RXH870810S93&nombre_proveedor_razon_social=RADIO+XHVC+FM&nombre_representante_legal=RAFAEL+GERARDO+LOPEZ+LLAGUNO&email=christian.amador%40latropical-caliente.com",
+      "previousEventHash": null,
+      "documentHash": "fcc47805bd1be791262646a20b097ddebeebbbd8fe71a46685b5230c09f1fb94",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5dad78d839f849209dc53ece829257bd3e2a09d39cfbcae67728f26a7400d497"
+    },
+    {
+      "eventId": "f6fd549d-83aa-4e00-971d-d87da5347e1d",
+      "uid": "RXH870810S93",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-21T19:53:05.071Z",
+      "timestampLocal": "2026-07-21T19:53:05.071Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.229.175.172",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RXH870810S93&nombre_proveedor_razon_social=RADIO+XHVC+FM&nombre_representante_legal=RAFAEL+GERARDO+LOPEZ+LLAGUNO&email=christian.amador%40latropical-caliente.com",
+      "previousEventHash": "5dad78d839f849209dc53ece829257bd3e2a09d39cfbcae67728f26a7400d497",
+      "documentHash": "fcc47805bd1be791262646a20b097ddebeebbbd8fe71a46685b5230c09f1fb94",
+      "metadata": {
+        "proveedor": "RADIO XHVC FM",
+        "representante": "RAFAEL GERARDO LOPEZ LLAGUNO"
+      },
+      "eventHash": "d473b5cc3f5336a5f041b583d8a401c2bcc01bee91aaf918e90f0401a1c6fff7"
+    }
+  ]
 }
