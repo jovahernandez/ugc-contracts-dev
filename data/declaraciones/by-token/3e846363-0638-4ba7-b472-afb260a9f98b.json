@@ -2,8 +2,23 @@
   "uid": "MAAP910818NL6",
   "token": "3e846363-0638-4ba7-b472-afb260a9f98b",
   "createdAt": "2026-07-21T14:26:36.865Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Paulina Maldonado Alvarez",
+    "nombre_representante_legal": "Paulina Maldonado",
+    "email": "maldonadoapau@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Paulina Maldonado Alvarez",
+    "nombre_representante_legal": "Paulina Maldonado",
+    "email": "maldonadoapau@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Paulina Maldonado Alvarez",
+    "nombre_representante_legal": "Paulina Maldonado",
+    "email": "maldonadoapau@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Paulina Maldonado Alvarez",
     "nombre_representante_legal": "Paulina Maldonado",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9c02776d8182817307460faea5a407e2bba7549c08b30975e8179f2d163bed6d",
+  "auditTrail": [
+    {
+      "eventId": "34d74ca6-314d-40a0-88e1-2bb3ff1c1d9d",
+      "uid": "MAAP910818NL6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-21T14:26:43.529Z",
+      "timestampLocal": "2026-07-21T14:26:43.529Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.234.43.214",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAAP910818NL6&nombre_proveedor_razon_social=Paulina+Maldonado+Alvarez&nombre_representante_legal=Paulina+Maldonado&email=maldonadoapau%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "9c02776d8182817307460faea5a407e2bba7549c08b30975e8179f2d163bed6d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9193e576db7a509ec1c085cccb6022976e7af2a55822e479c406de5283cc1e0f"
+    },
+    {
+      "eventId": "50fc7f24-a768-43ec-920d-f0474b35ac6e",
+      "uid": "MAAP910818NL6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-21T14:26:43.529Z",
+      "timestampLocal": "2026-07-21T14:26:43.529Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.234.43.214",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAAP910818NL6&nombre_proveedor_razon_social=Paulina+Maldonado+Alvarez&nombre_representante_legal=Paulina+Maldonado&email=maldonadoapau%40gmail.com",
+      "previousEventHash": "9193e576db7a509ec1c085cccb6022976e7af2a55822e479c406de5283cc1e0f",
+      "documentHash": "9c02776d8182817307460faea5a407e2bba7549c08b30975e8179f2d163bed6d",
+      "metadata": {
+        "proveedor": "Paulina Maldonado Alvarez",
+        "representante": "Paulina Maldonado"
+      },
+      "eventHash": "cf4dfdcf3dc853382863facded62ea678c42d0e43b378f2ed6ea95f0f2daa233"
+    }
+  ]
 }
