@@ -2,8 +2,23 @@
   "uid": "SEOR9807146S2",
   "token": "b7383a9a-f3e0-4117-9a89-7f3161f5f8a0",
   "createdAt": "2026-07-21T18:45:27.071Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Regina Paris Servín Ornelas",
+    "nombre_representante_legal": "Regina Paris Servín Ornelas",
+    "email": "parissomx@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Regina Paris Servín Ornelas",
+    "nombre_representante_legal": "Regina Paris Servín Ornelas",
+    "email": "parissomx@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Regina Paris Servín Ornelas",
+    "nombre_representante_legal": "Regina Paris Servín Ornelas",
+    "email": "parissomx@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Regina Paris Servín Ornelas",
     "nombre_representante_legal": "Regina Paris Servín Ornelas",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "423985cdf69c145e129ad8981c7e011b32d978c4e6a0f196c556569f19a051c4",
+  "auditTrail": [
+    {
+      "eventId": "b1501a9c-6864-4e41-8cf2-57916d741e04",
+      "uid": "SEOR9807146S2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-21T18:45:34.379Z",
+      "timestampLocal": "2026-07-21T18:45:34.379Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.162.184.120",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SEOR9807146S2&nombre_proveedor_razon_social=Regina+Paris+Serv%C3%ADn+Ornelas&nombre_representante_legal=Regina+Paris+Serv%C3%ADn+Ornelas&email=parissomx%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "423985cdf69c145e129ad8981c7e011b32d978c4e6a0f196c556569f19a051c4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d7ed77de9f7d6a8cfa0929677afdce98a50291a3d8281bd896ce83459459c3e9"
+    },
+    {
+      "eventId": "c3298fdc-b3a1-4aa6-a797-495711e6ac0b",
+      "uid": "SEOR9807146S2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-21T18:45:34.379Z",
+      "timestampLocal": "2026-07-21T18:45:34.379Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.162.184.120",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SEOR9807146S2&nombre_proveedor_razon_social=Regina+Paris+Serv%C3%ADn+Ornelas&nombre_representante_legal=Regina+Paris+Serv%C3%ADn+Ornelas&email=parissomx%40gmail.com",
+      "previousEventHash": "d7ed77de9f7d6a8cfa0929677afdce98a50291a3d8281bd896ce83459459c3e9",
+      "documentHash": "423985cdf69c145e129ad8981c7e011b32d978c4e6a0f196c556569f19a051c4",
+      "metadata": {
+        "proveedor": "Regina Paris Servín Ornelas",
+        "representante": "Regina Paris Servín Ornelas"
+      },
+      "eventHash": "cc8859139aa91a8ed9febc728b068e9a825c47c5bb99a1a61c8fbe2137fda8b9"
+    }
+  ]
 }
