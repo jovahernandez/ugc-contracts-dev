@@ -2,8 +2,23 @@
   "uid": "PGR091112952",
   "token": "861054dd-6f90-4152-82bf-4b74bc1ce5a2",
   "createdAt": "2026-07-21T05:54:51.370Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PROMOTORA GRANBA SA DE CV",
+    "nombre_representante_legal": "EDUARDO GRANJA BAUTISTA",
+    "email": "karii@kapragency.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PROMOTORA GRANBA SA DE CV",
+    "nombre_representante_legal": "EDUARDO GRANJA BAUTISTA",
+    "email": "karii@kapragency.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "PROMOTORA GRANBA SA DE CV",
+    "nombre_representante_legal": "EDUARDO GRANJA BAUTISTA",
+    "email": "karii@kapragency.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "PROMOTORA GRANBA SA DE CV",
     "nombre_representante_legal": "EDUARDO GRANJA BAUTISTA",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "02a545c9f1fd0a5337813dadd5bc47d22237c4f36f94da3b38ca8ceaf0fb6991",
+  "auditTrail": [
+    {
+      "eventId": "81260f8a-c9d3-4881-bfcc-c7e82e3a475d",
+      "uid": "PGR091112952",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-21T05:54:57.921Z",
+      "timestampLocal": "2026-07-21T05:54:57.921Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.155.99",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "02a545c9f1fd0a5337813dadd5bc47d22237c4f36f94da3b38ca8ceaf0fb6991",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6e0b5a48bed24ff801f24de6bb8fade8123e8e434754baf2e9a933f0d95ba3a2"
+    },
+    {
+      "eventId": "c8ec9f78-eab0-4cc2-831f-6197fd43cb25",
+      "uid": "PGR091112952",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-21T05:54:57.921Z",
+      "timestampLocal": "2026-07-21T05:54:57.921Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.155.99",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "6e0b5a48bed24ff801f24de6bb8fade8123e8e434754baf2e9a933f0d95ba3a2",
+      "documentHash": "02a545c9f1fd0a5337813dadd5bc47d22237c4f36f94da3b38ca8ceaf0fb6991",
+      "metadata": {
+        "proveedor": "PROMOTORA GRANBA SA DE CV",
+        "representante": "EDUARDO GRANJA BAUTISTA"
+      },
+      "eventHash": "7933c5f6241647d0ad41e510bc0696d3f99f9908109a033f1a518e576ad548ec"
+    }
+  ]
 }
