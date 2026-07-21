@@ -2,8 +2,23 @@
   "uid": "AAJA880422957",
   "token": "09436959-09bf-4403-85c9-b77df7f7acfc",
   "createdAt": "2026-07-21T19:44:25.601Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Jair Almar",
+    "nombre_representante_legal": "Jair Almar",
+    "email": "jair.almar@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Jair Almar",
+    "nombre_representante_legal": "Jair Almar",
+    "email": "jair.almar@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Jair Almar",
+    "nombre_representante_legal": "Jair Almar",
+    "email": "jair.almar@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Jair Almar",
     "nombre_representante_legal": "Jair Almar",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "5d1089607891d972e1d3333e79b6ec68d02d7bae2c6fcd8fe62623c19396e100",
+  "auditTrail": [
+    {
+      "eventId": "a98d3181-a3e6-466c-921e-e9a30102e0ff",
+      "uid": "AAJA880422957",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-21T19:44:32.408Z",
+      "timestampLocal": "2026-07-21T19:44:32.408Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.50.11",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AAJA880422957&nombre_proveedor_razon_social=Jair+Almar&nombre_representante_legal=Jair+Almar&email=jair.almar%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "5d1089607891d972e1d3333e79b6ec68d02d7bae2c6fcd8fe62623c19396e100",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3eac4b446b8afc3df90d0028bfcd4db640d8e7ca0bd3b8f58d911d57027985b4"
+    },
+    {
+      "eventId": "9843b264-a102-4ced-8a5f-bfcd87c31e34",
+      "uid": "AAJA880422957",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-21T19:44:32.408Z",
+      "timestampLocal": "2026-07-21T19:44:32.408Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.50.11",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AAJA880422957&nombre_proveedor_razon_social=Jair+Almar&nombre_representante_legal=Jair+Almar&email=jair.almar%40gmail.com",
+      "previousEventHash": "3eac4b446b8afc3df90d0028bfcd4db640d8e7ca0bd3b8f58d911d57027985b4",
+      "documentHash": "5d1089607891d972e1d3333e79b6ec68d02d7bae2c6fcd8fe62623c19396e100",
+      "metadata": {
+        "proveedor": "Jair Almar",
+        "representante": "Jair Almar"
+      },
+      "eventHash": "f9a5fc153fefc5c5f40ab62801a2fc1c2b25b10e558a60c16c8ca34b7c64b8a4"
+    }
+  ]
 }
