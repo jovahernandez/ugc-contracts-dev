@@ -2,7 +2,7 @@
   "uid": "SEOR9807146S2",
   "token": "b7383a9a-f3e0-4117-9a89-7f3161f5f8a0",
   "createdAt": "2026-07-21T18:45:27.071Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Regina Paris Servín Ornelas",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Regina Paris Servín Ornelas",
     "email": "parissomx@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Regina Paris Servín Ornelas",
-    "nombre_representante_legal": "Regina Paris Servín Ornelas",
-    "email": "parissomx@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Regina Paris Servín Ornelas",
     "nombre_representante_legal": "Regina Paris Servín Ornelas",
     "email": "parissomx@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "423985cdf69c145e129ad8981c7e011b32d978c4e6a0f196c556569f19a051c4",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-21T12:47:37.418Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SEOR9807146S2",
+  "signatureMetadata": {
+    "ip": "189.162.184.120",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-21T18:47:40.786Z",
+    "signedAtLocal": "2026-07-21T12:47:40.786Z"
+  },
+  "documentHash": "ce1991abba307a4e4ca0bd95c746122eedb77d64058fcfa22f1f38d588dc9b92",
   "auditTrail": [
     {
       "eventId": "b1501a9c-6864-4e41-8cf2-57916d741e04",
@@ -65,6 +66,47 @@
         "representante": "Regina Paris Servín Ornelas"
       },
       "eventHash": "cc8859139aa91a8ed9febc728b068e9a825c47c5bb99a1a61c8fbe2137fda8b9"
+    },
+    {
+      "eventId": "821a0bb0-160e-4b97-a04d-20e7639fe5e3",
+      "uid": "SEOR9807146S2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-21T18:45:36.651Z",
+      "timestampLocal": "2026-07-21T18:45:36.651Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.162.184.120",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SEOR9807146S2&nombre_proveedor_razon_social=Regina+Paris+Serv%C3%ADn+Ornelas&nombre_representante_legal=Regina+Paris+Serv%C3%ADn+Ornelas&email=parissomx%40gmail.com",
+      "previousEventHash": "cc8859139aa91a8ed9febc728b068e9a825c47c5bb99a1a61c8fbe2137fda8b9",
+      "documentHash": "423985cdf69c145e129ad8981c7e011b32d978c4e6a0f196c556569f19a051c4",
+      "eventHash": "b8a89202633a7403e6aa5feeeedc240b1f85ae2c60ae920a3f7d1643b5a622fe"
+    },
+    {
+      "eventId": "61b44a6c-7986-455d-89a1-ba9cc0509c57",
+      "uid": "SEOR9807146S2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-21T18:47:40.786Z",
+      "timestampLocal": "2026-07-21T12:47:40.786Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.162.184.120",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b7383a9a-f3e0-4117-9a89-7f3161f5f8a0",
+      "previousEventHash": "b8a89202633a7403e6aa5feeeedc240b1f85ae2c60ae920a3f7d1643b5a622fe",
+      "documentHash": "ce1991abba307a4e4ca0bd95c746122eedb77d64058fcfa22f1f38d588dc9b92",
+      "signatureHash": "8a43cd1946f9a737694805791aad6c4e196119d398238de431703be6649ddcf7",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-21T12:47:37.418Z"
+      },
+      "eventHash": "0b6b2c67c5f75da4be0bc903f7c7c866abc0f46b8d3ccd0a36620119cd97c649"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-21T18:47:40.786Z"
+  }
 }
