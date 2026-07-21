@@ -2,8 +2,23 @@
   "uid": "OVEL030123EI7",
   "token": "9618c8d3-3e1e-4db2-a64d-7229250cdb09",
   "createdAt": "2026-07-21T16:31:19.119Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "OVEL030123EI7",
+    "nombre_representante_legal": "Elke Orth Velasco",
+    "email": "elkeorthv@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "OVEL030123EI7",
+    "nombre_representante_legal": "Elke Orth Velasco",
+    "email": "elkeorthv@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "OVEL030123EI7",
+    "nombre_representante_legal": "Elke Orth Velasco",
+    "email": "elkeorthv@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "OVEL030123EI7",
     "nombre_representante_legal": "Elke Orth Velasco",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "f6c5dce550f3cda97490402e3ced1ab638d84859984b44bab86c9278b91a2e43",
+  "auditTrail": [
+    {
+      "eventId": "b30ac939-da75-4213-aa3a-a166bc670337",
+      "uid": "OVEL030123EI7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-21T16:31:25.355Z",
+      "timestampLocal": "2026-07-21T16:31:25.355Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.182.135",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OVEL030123EI7&nombre_proveedor_razon_social=OVEL030123EI7&nombre_representante_legal=Elke+Orth+Velasco&email=elkeorthv%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "f6c5dce550f3cda97490402e3ced1ab638d84859984b44bab86c9278b91a2e43",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8e5cc8b7c21b2fe55c7b1592c2599a25ac21b4c0c949067803f062eba5cfbdca"
+    },
+    {
+      "eventId": "a47c4e78-ae28-4f43-be5e-f28674bf9791",
+      "uid": "OVEL030123EI7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-21T16:31:25.355Z",
+      "timestampLocal": "2026-07-21T16:31:25.355Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.182.135",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OVEL030123EI7&nombre_proveedor_razon_social=OVEL030123EI7&nombre_representante_legal=Elke+Orth+Velasco&email=elkeorthv%40gmail.com",
+      "previousEventHash": "8e5cc8b7c21b2fe55c7b1592c2599a25ac21b4c0c949067803f062eba5cfbdca",
+      "documentHash": "f6c5dce550f3cda97490402e3ced1ab638d84859984b44bab86c9278b91a2e43",
+      "metadata": {
+        "proveedor": "OVEL030123EI7",
+        "representante": "Elke Orth Velasco"
+      },
+      "eventHash": "ac4b18972279ce976b09bb9c08fa3de9855f274a8fadcd7d2d17d64bbf36c867"
+    }
+  ]
 }
