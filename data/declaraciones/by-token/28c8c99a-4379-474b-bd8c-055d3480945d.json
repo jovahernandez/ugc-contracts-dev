@@ -2,8 +2,23 @@
   "uid": "LPB070118691",
   "token": "28c8c99a-4379-474b-bd8c-055d3480945d",
   "createdAt": "2026-07-21T15:59:44.744Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "LENOM POSH BRANDING SA DE CV",
+    "nombre_representante_legal": "COLETTE DECROUX GONZALEZ ARAGON",
+    "email": "administracion@lenom-pb.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "LENOM POSH BRANDING SA DE CV",
+    "nombre_representante_legal": "COLETTE DECROUX GONZALEZ ARAGON",
+    "email": "administracion@lenom-pb.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "LENOM POSH BRANDING SA DE CV",
+    "nombre_representante_legal": "COLETTE DECROUX GONZALEZ ARAGON",
+    "email": "administracion@lenom-pb.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "LENOM POSH BRANDING SA DE CV",
     "nombre_representante_legal": "COLETTE DECROUX GONZALEZ ARAGON",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "1bab355eb793fdf5065c6f3dc5fbca18d4484d2ea6c374c6317bd4f0e25dded9",
+  "auditTrail": [
+    {
+      "eventId": "7565f3c6-d6f8-437a-9bbf-860d0ff24e06",
+      "uid": "LPB070118691",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-21T16:00:06.272Z",
+      "timestampLocal": "2026-07-21T16:00:06.272Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.94.43.182",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LPB070118691&nombre_proveedor_razon_social=LENOM+POSH+BRANDING+SA+DE+CV&nombre_representante_legal=COLETTE+DECROUX+GONZALEZ+ARAGON&email=administracion%40lenom-pb.com",
+      "previousEventHash": null,
+      "documentHash": "1bab355eb793fdf5065c6f3dc5fbca18d4484d2ea6c374c6317bd4f0e25dded9",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "546222230f7dadf86d52465e1fc3c5a8686763f710d134b9af57050df082b73a"
+    },
+    {
+      "eventId": "c4939820-c552-4b1c-94e6-17c32d314e8a",
+      "uid": "LPB070118691",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-21T16:00:06.272Z",
+      "timestampLocal": "2026-07-21T16:00:06.272Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.94.43.182",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LPB070118691&nombre_proveedor_razon_social=LENOM+POSH+BRANDING+SA+DE+CV&nombre_representante_legal=COLETTE+DECROUX+GONZALEZ+ARAGON&email=administracion%40lenom-pb.com",
+      "previousEventHash": "546222230f7dadf86d52465e1fc3c5a8686763f710d134b9af57050df082b73a",
+      "documentHash": "1bab355eb793fdf5065c6f3dc5fbca18d4484d2ea6c374c6317bd4f0e25dded9",
+      "metadata": {
+        "proveedor": "LENOM POSH BRANDING SA DE CV",
+        "representante": "COLETTE DECROUX GONZALEZ ARAGON"
+      },
+      "eventHash": "bd9db3970d39933cd426d5c61727b2333c9dad6ba27e0037e70166b6573d2d77"
+    }
+  ]
 }
