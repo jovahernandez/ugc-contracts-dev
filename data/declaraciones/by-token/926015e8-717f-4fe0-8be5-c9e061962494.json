@@ -2,7 +2,7 @@
   "uid": "SST241127BV4",
   "token": "926015e8-717f-4fe0-8be5-c9e061962494",
   "createdAt": "2026-07-21T03:31:14.256Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SOMEONE STUDIO SAS CV",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Axel González",
     "email": "axel@housetalent.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SOMEONE STUDIO SAS CV",
-    "nombre_representante_legal": "Axel González",
-    "email": "axel@housetalent.mx"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "SOMEONE STUDIO SAS CV",
     "nombre_representante_legal": "Axel González",
     "email": "axel@housetalent.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6eb84d878c05ce7e91f153581b406174dcf4e7e0cc892f0d581047a24f895312",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-20T21:32:07.020Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SST241127BV4",
+  "signatureMetadata": {
+    "ip": "189.217.85.80",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-21T03:32:10.382Z",
+    "signedAtLocal": "2026-07-20T21:32:10.382Z"
+  },
+  "documentHash": "be8bcb09c6c8021b2c2b19ae67b9f5ad95c0f2bcacae9670dd19340228e92122",
   "auditTrail": [
     {
       "eventId": "a19a56e3-08a6-4d85-bb39-b69f6ae536f1",
@@ -65,6 +66,47 @@
         "representante": "Axel González"
       },
       "eventHash": "970de483797765ba68a88d410b0f5b9fe46d97da660cd126a7f7cb4182156451"
+    },
+    {
+      "eventId": "74951212-95fe-47f5-8f29-33d7de5eee95",
+      "uid": "SST241127BV4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-21T03:31:55.185Z",
+      "timestampLocal": "2026-07-21T03:31:55.185Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.85.80",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SST241127BV4&nombre_proveedor_razon_social=SOMEONE+STUDIO+SAS+CV&nombre_representante_legal=Axel+Gonz%C3%A1lez&email=axel%40housetalent.mx",
+      "previousEventHash": "970de483797765ba68a88d410b0f5b9fe46d97da660cd126a7f7cb4182156451",
+      "documentHash": "6eb84d878c05ce7e91f153581b406174dcf4e7e0cc892f0d581047a24f895312",
+      "eventHash": "3c42e1d9fdf913071d55a8890b8d4f86dd6f4e454ee4a72a326e5870dc7c4fc5"
+    },
+    {
+      "eventId": "0d9be15e-b9b2-4b26-ad98-29addad39ff1",
+      "uid": "SST241127BV4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-21T03:32:10.382Z",
+      "timestampLocal": "2026-07-20T21:32:10.382Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.85.80",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/926015e8-717f-4fe0-8be5-c9e061962494",
+      "previousEventHash": "3c42e1d9fdf913071d55a8890b8d4f86dd6f4e454ee4a72a326e5870dc7c4fc5",
+      "documentHash": "be8bcb09c6c8021b2c2b19ae67b9f5ad95c0f2bcacae9670dd19340228e92122",
+      "signatureHash": "b3b50f2d01487491bc9dfdbb87fc6521814ac9e0e199de5f557af6d6afe3ea46",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-20T21:32:07.020Z"
+      },
+      "eventHash": "3273108c8de434360db45e382f6b8fb02c8e35fb96a3db32229cbea064d45a68"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-21T03:32:10.382Z"
+  }
 }
