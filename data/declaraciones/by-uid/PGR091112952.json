@@ -2,7 +2,7 @@
   "uid": "PGR091112952",
   "token": "861054dd-6f90-4152-82bf-4b74bc1ce5a2",
   "createdAt": "2026-07-21T05:54:51.370Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PROMOTORA GRANBA SA DE CV",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "EDUARDO GRANJA BAUTISTA",
     "email": "karii@kapragency.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PROMOTORA GRANBA SA DE CV",
-    "nombre_representante_legal": "EDUARDO GRANJA BAUTISTA",
-    "email": "karii@kapragency.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "PROMOTORA GRANBA SA DE CV",
     "nombre_representante_legal": "EDUARDO GRANJA BAUTISTA",
     "email": "karii@kapragency.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "02a545c9f1fd0a5337813dadd5bc47d22237c4f36f94da3b38ca8ceaf0fb6991",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-20T23:55:18.958Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PGR091112952",
+  "signatureMetadata": {
+    "ip": "201.103.155.99",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15",
+    "signedAtUtc": "2026-07-21T05:55:22.988Z",
+    "signedAtLocal": "2026-07-20T23:55:22.988Z"
+  },
+  "documentHash": "749fbf3c664a869fd96979bed9ea499a79ad6ca73fe6b7d8b1c37df15f7d3859",
   "auditTrail": [
     {
       "eventId": "81260f8a-c9d3-4881-bfcc-c7e82e3a475d",
@@ -65,6 +66,47 @@
         "representante": "EDUARDO GRANJA BAUTISTA"
       },
       "eventHash": "7933c5f6241647d0ad41e510bc0696d3f99f9908109a033f1a518e576ad548ec"
+    },
+    {
+      "eventId": "3c014ff8-9300-4f7b-a7ca-e24899f2818a",
+      "uid": "PGR091112952",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-21T05:54:59.925Z",
+      "timestampLocal": "2026-07-21T05:54:59.925Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.155.99",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "7933c5f6241647d0ad41e510bc0696d3f99f9908109a033f1a518e576ad548ec",
+      "documentHash": "02a545c9f1fd0a5337813dadd5bc47d22237c4f36f94da3b38ca8ceaf0fb6991",
+      "eventHash": "c5ae67ddd76c36de57294e143c4c5730445f85e13c27da3b4cb05fb44e99be94"
+    },
+    {
+      "eventId": "bc7806c4-0fed-4ecf-8151-4522cd622bc8",
+      "uid": "PGR091112952",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-21T05:55:22.988Z",
+      "timestampLocal": "2026-07-20T23:55:22.988Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.103.155.99",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "c5ae67ddd76c36de57294e143c4c5730445f85e13c27da3b4cb05fb44e99be94",
+      "documentHash": "749fbf3c664a869fd96979bed9ea499a79ad6ca73fe6b7d8b1c37df15f7d3859",
+      "signatureHash": "97cadd4cf2f132cb91ef2ff3bdf04deac63efbc240da32affb95aa601e9a78a6",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-20T23:55:18.958Z"
+      },
+      "eventHash": "9cf548c92c585759d9a98e4d02d5ace0ba1d7842e1550712235a9035b70c4007"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-21T05:55:22.988Z"
+  }
 }
