@@ -2,8 +2,23 @@
   "uid": "GPR1505211Y3",
   "token": "58c411dd-1d1f-4221-9b26-68bb541c3e4e",
   "createdAt": "2026-07-22T23:47:17.466Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GA5H PRODUCCIONES",
+    "nombre_representante_legal": "Alejandro Alducin Carus",
+    "email": "administracion@cooperativa.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GA5H PRODUCCIONES",
+    "nombre_representante_legal": "Alejandro Alducin Carus",
+    "email": "administracion@cooperativa.mx"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "GA5H PRODUCCIONES",
+    "nombre_representante_legal": "Alejandro Alducin Carus",
+    "email": "administracion@cooperativa.mx"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "GA5H PRODUCCIONES",
     "nombre_representante_legal": "Alejandro Alducin Carus",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "01a79e60e2a9bc557a8602f2b8194caa7d65481106689fc27873471957e5ba6a",
+  "auditTrail": [
+    {
+      "eventId": "b4c66002-e4a4-40f5-bd11-2514b016ac6e",
+      "uid": "GPR1505211Y3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-22T23:47:26.342Z",
+      "timestampLocal": "2026-07-22T23:47:26.342Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.165.79",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GPR1505211Y3&nombre_proveedor_razon_social=GA5H+PRODUCCIONES+&nombre_representante_legal=Alejandro+Alducin+Carus&email=administracion%40cooperativa.mx",
+      "previousEventHash": null,
+      "documentHash": "01a79e60e2a9bc557a8602f2b8194caa7d65481106689fc27873471957e5ba6a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9d8987ab04b745dcf3d05da2e6466d740fc81ecf391f85f0ae0c4f3d30157023"
+    },
+    {
+      "eventId": "4e5995b8-1779-4b26-bd52-b06bcc767de6",
+      "uid": "GPR1505211Y3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-22T23:47:26.342Z",
+      "timestampLocal": "2026-07-22T23:47:26.342Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.165.79",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GPR1505211Y3&nombre_proveedor_razon_social=GA5H+PRODUCCIONES+&nombre_representante_legal=Alejandro+Alducin+Carus&email=administracion%40cooperativa.mx",
+      "previousEventHash": "9d8987ab04b745dcf3d05da2e6466d740fc81ecf391f85f0ae0c4f3d30157023",
+      "documentHash": "01a79e60e2a9bc557a8602f2b8194caa7d65481106689fc27873471957e5ba6a",
+      "metadata": {
+        "proveedor": "GA5H PRODUCCIONES",
+        "representante": "Alejandro Alducin Carus"
+      },
+      "eventHash": "09132e6ae77028f23b9502b322ebcb411d3911232fe58993e2589f1013e11776"
+    }
+  ]
 }
