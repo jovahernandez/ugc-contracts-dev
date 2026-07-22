@@ -2,8 +2,23 @@
   "uid": "GAVC870815PK3",
   "token": "7e3104cd-273b-48d9-99c1-61ced25b68e8",
   "createdAt": "2026-07-22T21:47:35.829Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "CYNTHIA GAMEZ VELAZQUEZ",
+    "nombre_representante_legal": "CYNTHIA VELAZQUEZ GAMEZ",
+    "email": "nomadarte.mx@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "CYNTHIA GAMEZ VELAZQUEZ",
+    "nombre_representante_legal": "CYNTHIA VELAZQUEZ GAMEZ",
+    "email": "nomadarte.mx@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "CYNTHIA GAMEZ VELAZQUEZ",
+    "nombre_representante_legal": "CYNTHIA VELAZQUEZ GAMEZ",
+    "email": "nomadarte.mx@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "CYNTHIA GAMEZ VELAZQUEZ",
     "nombre_representante_legal": "CYNTHIA VELAZQUEZ GAMEZ",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "26175c2e02b48cd4447c0bd582e20f1556626261ddd857067ff2363a068550a7",
+  "auditTrail": [
+    {
+      "eventId": "d19829e3-a41f-410b-a148-c5cb7f52d7c3",
+      "uid": "GAVC870815PK3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-22T21:47:41.236Z",
+      "timestampLocal": "2026-07-22T21:47:41.236Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.152.10.240",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAVC870815PK3&nombre_proveedor_razon_social=CYNTHIA+GAMEZ+VELAZQUEZ&nombre_representante_legal=CYNTHIA+VELAZQUEZ+GAMEZ&email=nomadarte.mx%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "26175c2e02b48cd4447c0bd582e20f1556626261ddd857067ff2363a068550a7",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "53331af370b779eefcc43c544121d8ee0155c0e5328408e6c6029fd69a33fe12"
+    },
+    {
+      "eventId": "687bf87e-6421-4058-9b4d-1b9edd49a7ca",
+      "uid": "GAVC870815PK3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-22T21:47:41.236Z",
+      "timestampLocal": "2026-07-22T21:47:41.236Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.152.10.240",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAVC870815PK3&nombre_proveedor_razon_social=CYNTHIA+GAMEZ+VELAZQUEZ&nombre_representante_legal=CYNTHIA+VELAZQUEZ+GAMEZ&email=nomadarte.mx%40gmail.com",
+      "previousEventHash": "53331af370b779eefcc43c544121d8ee0155c0e5328408e6c6029fd69a33fe12",
+      "documentHash": "26175c2e02b48cd4447c0bd582e20f1556626261ddd857067ff2363a068550a7",
+      "metadata": {
+        "proveedor": "CYNTHIA GAMEZ VELAZQUEZ",
+        "representante": "CYNTHIA VELAZQUEZ GAMEZ"
+      },
+      "eventHash": "f897ac41019c6303e0804c5ca7e4fc2a8428cb74ed00ec4bfb66bd249bf56fab"
+    }
+  ]
 }
