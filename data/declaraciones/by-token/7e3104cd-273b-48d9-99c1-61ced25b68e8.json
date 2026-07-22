@@ -2,7 +2,7 @@
   "uid": "GAVC870815PK3",
   "token": "7e3104cd-273b-48d9-99c1-61ced25b68e8",
   "createdAt": "2026-07-22T21:47:35.829Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CYNTHIA GAMEZ VELAZQUEZ",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "CYNTHIA VELAZQUEZ GAMEZ",
     "email": "nomadarte.mx@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CYNTHIA GAMEZ VELAZQUEZ",
-    "nombre_representante_legal": "CYNTHIA VELAZQUEZ GAMEZ",
-    "email": "nomadarte.mx@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "CYNTHIA GAMEZ VELAZQUEZ",
     "nombre_representante_legal": "CYNTHIA VELAZQUEZ GAMEZ",
     "email": "nomadarte.mx@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "26175c2e02b48cd4447c0bd582e20f1556626261ddd857067ff2363a068550a7",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-22T15:47:56.293Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GAVC870815PK3",
+  "signatureMetadata": {
+    "ip": "201.152.10.240",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-22T21:47:59.516Z",
+    "signedAtLocal": "2026-07-22T15:47:59.516Z"
+  },
+  "documentHash": "6b88a8ed17c93d54659b6028633bb1777284d0b4b31fa48b5530e2e5757ab57e",
   "auditTrail": [
     {
       "eventId": "d19829e3-a41f-410b-a148-c5cb7f52d7c3",
@@ -65,6 +66,47 @@
         "representante": "CYNTHIA VELAZQUEZ GAMEZ"
       },
       "eventHash": "f897ac41019c6303e0804c5ca7e4fc2a8428cb74ed00ec4bfb66bd249bf56fab"
+    },
+    {
+      "eventId": "14f76ada-b0e7-441a-849b-9767b6dcb488",
+      "uid": "GAVC870815PK3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-22T21:47:43.232Z",
+      "timestampLocal": "2026-07-22T21:47:43.232Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.152.10.240",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAVC870815PK3&nombre_proveedor_razon_social=CYNTHIA+GAMEZ+VELAZQUEZ&nombre_representante_legal=CYNTHIA+VELAZQUEZ+GAMEZ&email=nomadarte.mx%40gmail.com",
+      "previousEventHash": "f897ac41019c6303e0804c5ca7e4fc2a8428cb74ed00ec4bfb66bd249bf56fab",
+      "documentHash": "26175c2e02b48cd4447c0bd582e20f1556626261ddd857067ff2363a068550a7",
+      "eventHash": "5084c0604870fe4a5f1c4e047d8e04558260c4e280a39739b1fe519ab0e8991b"
+    },
+    {
+      "eventId": "11359d2a-5729-45c4-9ec6-33a051066a6d",
+      "uid": "GAVC870815PK3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-22T21:47:59.516Z",
+      "timestampLocal": "2026-07-22T15:47:59.516Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.152.10.240",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7e3104cd-273b-48d9-99c1-61ced25b68e8",
+      "previousEventHash": "5084c0604870fe4a5f1c4e047d8e04558260c4e280a39739b1fe519ab0e8991b",
+      "documentHash": "6b88a8ed17c93d54659b6028633bb1777284d0b4b31fa48b5530e2e5757ab57e",
+      "signatureHash": "e949c4b258a4f2981616ce4deb68d67dba5c00d6e6fd677f7be52b8ec828fa73",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-22T15:47:56.293Z"
+      },
+      "eventHash": "f05e84edef3f67f8cfc2b98e19c5dea2a39a8a9d62ceeeff33d8cd8452c37845"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-22T21:47:59.517Z"
+  }
 }
