@@ -2,8 +2,23 @@
   "uid": "1026306163",
   "token": "fbd7984c-8175-4c24-b889-b0d24e5385fc",
   "createdAt": "2026-07-23T20:01:30.358Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JUANDY SALAZAR GARCIA",
+    "nombre_representante_legal": "n/A",
+    "email": "operaciones@factcil.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JUANDY SALAZAR GARCIA",
+    "nombre_representante_legal": "n/A",
+    "email": "operaciones@factcil.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "JUANDY SALAZAR GARCIA",
+    "nombre_representante_legal": "n/A",
+    "email": "operaciones@factcil.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "JUANDY SALAZAR GARCIA",
     "nombre_representante_legal": "n/A",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "af7d8240f40269110037f8177a906e30bcaa5b6dd417cc0de4c005b57ab02808",
+  "auditTrail": [
+    {
+      "eventId": "ac93984e-3032-47db-bcd6-d1bc9718bb6a",
+      "uid": "1026306163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-23T20:01:48.769Z",
+      "timestampLocal": "2026-07-23T20:01:48.769Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.158.204.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1026306163&nombre_proveedor_razon_social=JUANDY+SALAZAR+GARCIA&nombre_representante_legal=n%2FA&email=operaciones%40factcil.com",
+      "previousEventHash": null,
+      "documentHash": "af7d8240f40269110037f8177a906e30bcaa5b6dd417cc0de4c005b57ab02808",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a5b2d1ed7a2a153de6f073fd0eee315914657fb99ce9258694fc54f88981059e"
+    },
+    {
+      "eventId": "5fb892a8-d33b-4ac1-b0c1-263be45a55a3",
+      "uid": "1026306163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-23T20:01:48.769Z",
+      "timestampLocal": "2026-07-23T20:01:48.769Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.158.204.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1026306163&nombre_proveedor_razon_social=JUANDY+SALAZAR+GARCIA&nombre_representante_legal=n%2FA&email=operaciones%40factcil.com",
+      "previousEventHash": "a5b2d1ed7a2a153de6f073fd0eee315914657fb99ce9258694fc54f88981059e",
+      "documentHash": "af7d8240f40269110037f8177a906e30bcaa5b6dd417cc0de4c005b57ab02808",
+      "metadata": {
+        "proveedor": "JUANDY SALAZAR GARCIA",
+        "representante": "n/A"
+      },
+      "eventHash": "a46d500941362b5fa10b014df4b493957aa7112a527b1e7a9102ea2305e4dd26"
+    }
+  ]
 }
