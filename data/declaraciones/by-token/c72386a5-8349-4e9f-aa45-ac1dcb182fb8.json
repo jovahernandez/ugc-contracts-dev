@@ -2,7 +2,7 @@
   "uid": "14.740.938/0001-52",
   "token": "c72386a5-8349-4e9f-aa45-ac1dcb182fb8",
   "createdAt": "2026-07-23T19:38:06.561Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "Ava Produções Artísticas Ltda",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Raphaela Soares Barcalla",
     "email": "raphaela@ava.art.br"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Ava Produções Artísticas Ltda",
-    "nombre_representante_legal": "Raphaela Soares Barcalla",
-    "email": "raphaela@ava.art.br"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Ava Produções Artísticas Ltda",
     "nombre_representante_legal": "Raphaela Soares Barcalla",
     "email": "raphaela@ava.art.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "47eda1520d29f974e6748c709fc496cee7d25216c3be7c57cc52eb30403bad4f",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-23T16:41:33.725Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/14.740.938%2F0001-52",
+  "signatureMetadata": {
+    "ip": "179.118.226.205",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-23T19:41:37.230Z",
+    "signedAtLocal": "2026-07-23T16:41:37.230Z"
+  },
+  "documentHash": "34c0aa1d37cfa548c66cdc8bbe2f3ae4c4c0be68c9376dad3137852be21f1581",
   "auditTrail": [
     {
       "eventId": "8a8b1043-05e8-456c-9884-bb6640a53a81",
@@ -65,6 +66,47 @@
         "representante": "Raphaela Soares Barcalla"
       },
       "eventHash": "b59d62d130116384f727096cf37c47585035b2a1ad827b3a9e752c9ff717fbe2"
+    },
+    {
+      "eventId": "749812f2-e179-4ad9-a7b8-355b34810685",
+      "uid": "14.740.938/0001-52",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-23T19:38:15.861Z",
+      "timestampLocal": "2026-07-23T19:38:15.861Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.118.226.205",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=14.740.938%2F0001-52&nombre_proveedor_razon_social=Ava+Produ%C3%A7%C3%B5es+Art%C3%ADsticas+Ltda&nombre_representante_legal=Raphaela+Soares+Barcalla&email=raphaela%40ava.art.br",
+      "previousEventHash": "b59d62d130116384f727096cf37c47585035b2a1ad827b3a9e752c9ff717fbe2",
+      "documentHash": "47eda1520d29f974e6748c709fc496cee7d25216c3be7c57cc52eb30403bad4f",
+      "eventHash": "3b85ad599141b4c23966cf90307031dc4df59821a47bab26e591261b75bb6589"
+    },
+    {
+      "eventId": "121cc978-cc83-43e8-98b5-7a80af83e829",
+      "uid": "14.740.938/0001-52",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-23T19:41:37.230Z",
+      "timestampLocal": "2026-07-23T16:41:37.230Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.118.226.205",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c72386a5-8349-4e9f-aa45-ac1dcb182fb8",
+      "previousEventHash": "3b85ad599141b4c23966cf90307031dc4df59821a47bab26e591261b75bb6589",
+      "documentHash": "34c0aa1d37cfa548c66cdc8bbe2f3ae4c4c0be68c9376dad3137852be21f1581",
+      "signatureHash": "e795d8a48af680302bd848238330bbae9489687cf943291c8416346488be79df",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-23T16:41:33.725Z"
+      },
+      "eventHash": "d78326a55f63b492ed8e9ffe27c156057bb6022c490404d29df9e9a93faf8755"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-23T19:41:37.231Z"
+  }
 }
