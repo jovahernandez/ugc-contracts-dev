@@ -1,7 +1,7 @@
 {
   "uid": "79882865",
   "token": "0608fa55-1a9b-4dc1-bd91-2abc9aa4b1f2",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JUAN MANUEL TARQUINO AYALA",
@@ -13,20 +13,21 @@
     "nombre_representante_legal": "Juan Manuel Tarquino Ayala",
     "email": "sandraltarquino@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "JUAN MANUEL TARQUINO AYALA",
-    "nombre_representante_legal": "Juan Manuel Tarquino Ayala",
-    "email": "sandraltarquino@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "JUAN MANUEL TARQUINO AYALA",
     "nombre_representante_legal": "Juan Manuel Tarquino Ayala",
     "email": "sandraltarquino@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ace1b35b61a4978787df1079eda9d1a25247e990b43057cfce3e9638b6c47ff0",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-23T17:31:45.101Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/79882865",
+  "signatureMetadata": {
+    "ip": "181.58.63.5",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-07-23T22:31:48.469Z",
+    "signedAtLocal": "2026-07-23T17:31:48.469Z"
+  },
+  "documentHash": "77182d8a057b64ece9812249bd008613de88b7c78bcd3fb75903533a8de459c2",
   "auditTrail": [
     {
       "eventId": "8e65a0da-9b52-4a8f-bb12-abc60261a900",
@@ -64,6 +65,62 @@
         "representante": "Juan Manuel Tarquino Ayala"
       },
       "eventHash": "40d4395fb513fdab60e9f9785383f9664a693306bd19fcc973592c5e14a4ad6a"
+    },
+    {
+      "eventId": "7f3dd93d-4f4c-4e4a-9756-a20904fbdb9e",
+      "uid": "79882865",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-23T22:30:36.157Z",
+      "timestampLocal": "2026-07-23T22:30:36.157Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.58.63.5",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "40d4395fb513fdab60e9f9785383f9664a693306bd19fcc973592c5e14a4ad6a",
+      "documentHash": "ace1b35b61a4978787df1079eda9d1a25247e990b43057cfce3e9638b6c47ff0",
+      "eventHash": "cf8c601c5b8689d890a74cdc7f66c79abd786112f4a571efa6ea69e6577a2a4f"
+    },
+    {
+      "eventId": "1b7f76a7-5725-4216-91e0-5a42b94f19e4",
+      "uid": "79882865",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-23T22:30:51.716Z",
+      "timestampLocal": "2026-07-23T22:30:51.716Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.58.63.5",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "cf8c601c5b8689d890a74cdc7f66c79abd786112f4a571efa6ea69e6577a2a4f",
+      "documentHash": "ace1b35b61a4978787df1079eda9d1a25247e990b43057cfce3e9638b6c47ff0",
+      "eventHash": "8dd9db71e078d1014c098f5d4547693f0c9e24ec500205b5d22e32832a3efaea"
+    },
+    {
+      "eventId": "b86ac979-0b2d-45a2-a989-326717f8265b",
+      "uid": "79882865",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-23T22:31:48.469Z",
+      "timestampLocal": "2026-07-23T17:31:48.469Z",
+      "timezone": "UTC-5",
+      "ipAddress": "181.58.63.5",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8dd9db71e078d1014c098f5d4547693f0c9e24ec500205b5d22e32832a3efaea",
+      "documentHash": "77182d8a057b64ece9812249bd008613de88b7c78bcd3fb75903533a8de459c2",
+      "signatureHash": "d6858113f49c5eafc43910454b32ab8b2317976c52a44f7a1540da814bea3a75",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-23T17:31:45.101Z"
+      },
+      "eventHash": "b25662af5d8164afb1269d6f596d6ef68a7abd70f30dfb84d99cdbe9aa16d8b1"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-07-23T22:31:48.469Z"
+  }
 }
