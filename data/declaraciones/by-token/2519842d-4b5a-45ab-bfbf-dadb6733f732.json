@@ -2,8 +2,23 @@
   "uid": "GAAE990807B15",
   "token": "2519842d-4b5a-45ab-bfbf-dadb6733f732",
   "createdAt": "2026-07-23T16:30:45.246Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ESDRAS LEONARDO GALVAN AGUAYO",
+    "nombre_representante_legal": "Esdras Leonardo Galvan Aguayo",
+    "email": "chichigalvantips@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ESDRAS LEONARDO GALVAN AGUAYO",
+    "nombre_representante_legal": "Esdras Leonardo Galvan Aguayo",
+    "email": "chichigalvantips@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "ESDRAS LEONARDO GALVAN AGUAYO",
+    "nombre_representante_legal": "Esdras Leonardo Galvan Aguayo",
+    "email": "chichigalvantips@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "ESDRAS LEONARDO GALVAN AGUAYO",
     "nombre_representante_legal": "Esdras Leonardo Galvan Aguayo",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "b5f6b134236fabb31de91dd57aab5bfb60969ea586cadb43fd918ceca77c61c6",
+  "auditTrail": [
+    {
+      "eventId": "67c6545d-eb8b-45c4-be79-d7822a9c5066",
+      "uid": "GAAE990807B15",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-23T16:30:51.052Z",
+      "timestampLocal": "2026-07-23T16:30:51.052Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.219.215.133",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "b5f6b134236fabb31de91dd57aab5bfb60969ea586cadb43fd918ceca77c61c6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "414b97548f82ca74a06160a1667ed4c547b9d046b5295a42fe5f6fded44de772"
+    },
+    {
+      "eventId": "eb4dc016-747c-4689-ad0a-4092bb0df9f7",
+      "uid": "GAAE990807B15",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-23T16:30:51.052Z",
+      "timestampLocal": "2026-07-23T16:30:51.052Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.219.215.133",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "414b97548f82ca74a06160a1667ed4c547b9d046b5295a42fe5f6fded44de772",
+      "documentHash": "b5f6b134236fabb31de91dd57aab5bfb60969ea586cadb43fd918ceca77c61c6",
+      "metadata": {
+        "proveedor": "ESDRAS LEONARDO GALVAN AGUAYO",
+        "representante": "Esdras Leonardo Galvan Aguayo"
+      },
+      "eventHash": "d1834617205e9d1ea9175efea1a7776e5fadb20731861ec90931d24b7eb3e1db"
+    }
+  ]
 }
