@@ -2,8 +2,23 @@
   "uid": "14.740.938/0001-52",
   "token": "c72386a5-8349-4e9f-aa45-ac1dcb182fb8",
   "createdAt": "2026-07-23T19:38:06.561Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Ava Produções Artísticas Ltda",
+    "nombre_representante_legal": "Raphaela Soares Barcalla",
+    "email": "raphaela@ava.art.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Ava Produções Artísticas Ltda",
+    "nombre_representante_legal": "Raphaela Soares Barcalla",
+    "email": "raphaela@ava.art.br"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Ava Produções Artísticas Ltda",
+    "nombre_representante_legal": "Raphaela Soares Barcalla",
+    "email": "raphaela@ava.art.br"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Ava Produções Artísticas Ltda",
     "nombre_representante_legal": "Raphaela Soares Barcalla",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "47eda1520d29f974e6748c709fc496cee7d25216c3be7c57cc52eb30403bad4f",
+  "auditTrail": [
+    {
+      "eventId": "8a8b1043-05e8-456c-9884-bb6640a53a81",
+      "uid": "14.740.938/0001-52",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-23T19:38:13.697Z",
+      "timestampLocal": "2026-07-23T19:38:13.697Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.118.226.205",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=14.740.938%2F0001-52&nombre_proveedor_razon_social=Ava+Produ%C3%A7%C3%B5es+Art%C3%ADsticas+Ltda&nombre_representante_legal=Raphaela+Soares+Barcalla&email=raphaela%40ava.art.br",
+      "previousEventHash": null,
+      "documentHash": "47eda1520d29f974e6748c709fc496cee7d25216c3be7c57cc52eb30403bad4f",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "952a3468d863441adf401252eec512ab72280b59c88b4006af51dd398574b8a5"
+    },
+    {
+      "eventId": "00f04234-1450-4763-867a-17d9ce120e28",
+      "uid": "14.740.938/0001-52",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-23T19:38:13.697Z",
+      "timestampLocal": "2026-07-23T19:38:13.697Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.118.226.205",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=14.740.938%2F0001-52&nombre_proveedor_razon_social=Ava+Produ%C3%A7%C3%B5es+Art%C3%ADsticas+Ltda&nombre_representante_legal=Raphaela+Soares+Barcalla&email=raphaela%40ava.art.br",
+      "previousEventHash": "952a3468d863441adf401252eec512ab72280b59c88b4006af51dd398574b8a5",
+      "documentHash": "47eda1520d29f974e6748c709fc496cee7d25216c3be7c57cc52eb30403bad4f",
+      "metadata": {
+        "proveedor": "Ava Produções Artísticas Ltda",
+        "representante": "Raphaela Soares Barcalla"
+      },
+      "eventHash": "b59d62d130116384f727096cf37c47585035b2a1ad827b3a9e752c9ff717fbe2"
+    }
+  ]
 }
