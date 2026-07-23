@@ -2,7 +2,7 @@
   "uid": "7%",
   "token": "fb254f8a-efb8-4c7e-a4e1-836a22b4d12f",
   "createdAt": "2026-07-23T17:43:02.115Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "RED BRANDS INTERNATIONAL SA",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Jose Luis Alvarado",
     "email": "valeria.redcoolbrands@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "RED BRANDS INTERNATIONAL SA",
-    "nombre_representante_legal": "Jose Luis Alvarado",
-    "email": "valeria.redcoolbrands@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "RED BRANDS INTERNATIONAL SA",
     "nombre_representante_legal": "Jose Luis Alvarado",
     "email": "valeria.redcoolbrands@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c4ee484753d1db4c5582c3e0b1ea4b449584231deb2e6dc69042f89606b6a8a0",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-23T12:43:26.272Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/7%25",
+  "signatureMetadata": {
+    "ip": "190.34.68.125",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-23T17:43:29.621Z",
+    "signedAtLocal": "2026-07-23T12:43:29.621Z"
+  },
+  "documentHash": "a2a94b8f65eced770992c6ce427849327900857af3ac3a76c4f0e40ccc42b165",
   "auditTrail": [
     {
       "eventId": "8fbe6765-aa73-475f-b454-3bbf07c7f24d",
@@ -169,6 +170,232 @@
         "representante": "Jose Luis Alvarado"
       },
       "eventHash": "80f14405ee41749229db43db4e6ec095b55cbd07afd31aa88ba5551090264a96"
+    },
+    {
+      "eventId": "0814c6b7-f17a-42b2-a417-551f4f64a4f1",
+      "uid": "7%",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-23T17:43:13.523Z",
+      "timestampLocal": "2026-07-23T17:43:13.523Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.34.68.125",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=7%25&nombre_proveedor_razon_social=RED+BRANDS+INTERNATIONAL+SA+&nombre_representante_legal=Jose+Luis+Alvarado+&email=valeria.redcoolbrands%40gmail.com",
+      "previousEventHash": "80f14405ee41749229db43db4e6ec095b55cbd07afd31aa88ba5551090264a96",
+      "documentHash": "c4ee484753d1db4c5582c3e0b1ea4b449584231deb2e6dc69042f89606b6a8a0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ce583c4175da7ec1d72f17ac3b187c8472f7474de00963776fcb10f7158d835d"
+    },
+    {
+      "eventId": "aa9f0df5-7d23-4b67-974f-8fec82a7e5d3",
+      "uid": "7%",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-23T17:43:13.523Z",
+      "timestampLocal": "2026-07-23T17:43:13.523Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.34.68.125",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=7%25&nombre_proveedor_razon_social=RED+BRANDS+INTERNATIONAL+SA+&nombre_representante_legal=Jose+Luis+Alvarado+&email=valeria.redcoolbrands%40gmail.com",
+      "previousEventHash": "ce583c4175da7ec1d72f17ac3b187c8472f7474de00963776fcb10f7158d835d",
+      "documentHash": "c4ee484753d1db4c5582c3e0b1ea4b449584231deb2e6dc69042f89606b6a8a0",
+      "metadata": {
+        "proveedor": "RED BRANDS INTERNATIONAL SA",
+        "representante": "Jose Luis Alvarado"
+      },
+      "eventHash": "65bd9c980a6f487bd93b25654b2457e5809cf88ffc47005a187a7f67c1b031c7"
+    },
+    {
+      "eventId": "8b338ff4-601e-43ec-bb20-842410e039fd",
+      "uid": "7%",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-23T17:43:13.687Z",
+      "timestampLocal": "2026-07-23T17:43:13.687Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.34.68.125",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=7%25&nombre_proveedor_razon_social=RED+BRANDS+INTERNATIONAL+SA+&nombre_representante_legal=Jose+Luis+Alvarado+&email=valeria.redcoolbrands%40gmail.com",
+      "previousEventHash": "65bd9c980a6f487bd93b25654b2457e5809cf88ffc47005a187a7f67c1b031c7",
+      "documentHash": "c4ee484753d1db4c5582c3e0b1ea4b449584231deb2e6dc69042f89606b6a8a0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "71db4c5fd0787a86f4a4aaff30cd38bc8c5986efa233c17f57b5920f3a771f6a"
+    },
+    {
+      "eventId": "3df9020d-07ae-4d59-a7ee-72f8072f6ba4",
+      "uid": "7%",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-23T17:43:13.687Z",
+      "timestampLocal": "2026-07-23T17:43:13.687Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.34.68.125",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=7%25&nombre_proveedor_razon_social=RED+BRANDS+INTERNATIONAL+SA+&nombre_representante_legal=Jose+Luis+Alvarado+&email=valeria.redcoolbrands%40gmail.com",
+      "previousEventHash": "71db4c5fd0787a86f4a4aaff30cd38bc8c5986efa233c17f57b5920f3a771f6a",
+      "documentHash": "c4ee484753d1db4c5582c3e0b1ea4b449584231deb2e6dc69042f89606b6a8a0",
+      "metadata": {
+        "proveedor": "RED BRANDS INTERNATIONAL SA",
+        "representante": "Jose Luis Alvarado"
+      },
+      "eventHash": "a29e55aeef78c284012aed2e9daed57dd5df688cf0f1055ee5df9e1ecad8e146"
+    },
+    {
+      "eventId": "816cf5a1-a50e-480e-9a1a-f6558875c667",
+      "uid": "7%",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-23T17:43:13.843Z",
+      "timestampLocal": "2026-07-23T17:43:13.843Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.34.68.125",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=7%25&nombre_proveedor_razon_social=RED+BRANDS+INTERNATIONAL+SA+&nombre_representante_legal=Jose+Luis+Alvarado+&email=valeria.redcoolbrands%40gmail.com",
+      "previousEventHash": "a29e55aeef78c284012aed2e9daed57dd5df688cf0f1055ee5df9e1ecad8e146",
+      "documentHash": "c4ee484753d1db4c5582c3e0b1ea4b449584231deb2e6dc69042f89606b6a8a0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "862dcb872a41175412db7dc6089296e0f8524dabb3ae846afdefecb42bcb78e5"
+    },
+    {
+      "eventId": "dec41aa4-60f8-4f27-b9fc-3e656e2c15b4",
+      "uid": "7%",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-23T17:43:13.843Z",
+      "timestampLocal": "2026-07-23T17:43:13.843Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.34.68.125",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=7%25&nombre_proveedor_razon_social=RED+BRANDS+INTERNATIONAL+SA+&nombre_representante_legal=Jose+Luis+Alvarado+&email=valeria.redcoolbrands%40gmail.com",
+      "previousEventHash": "862dcb872a41175412db7dc6089296e0f8524dabb3ae846afdefecb42bcb78e5",
+      "documentHash": "c4ee484753d1db4c5582c3e0b1ea4b449584231deb2e6dc69042f89606b6a8a0",
+      "metadata": {
+        "proveedor": "RED BRANDS INTERNATIONAL SA",
+        "representante": "Jose Luis Alvarado"
+      },
+      "eventHash": "4a04cd6b3e5db62385d56e999ca853ded926f8b968a814bb285dd7461cf23741"
+    },
+    {
+      "eventId": "d63d6cdc-d284-4263-8484-22dfa0768c0a",
+      "uid": "7%",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-23T17:43:14.016Z",
+      "timestampLocal": "2026-07-23T17:43:14.016Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.34.68.125",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=7%25&nombre_proveedor_razon_social=RED+BRANDS+INTERNATIONAL+SA+&nombre_representante_legal=Jose+Luis+Alvarado+&email=valeria.redcoolbrands%40gmail.com",
+      "previousEventHash": "4a04cd6b3e5db62385d56e999ca853ded926f8b968a814bb285dd7461cf23741",
+      "documentHash": "026d1cb2efbb51a32978a422e1cf19dfa8de7cd3298370f2070a2f1cb7abc329",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "7898d88271c93ca7a0042603973dbda4c04555e0f75291ee40b023902da4f523"
+    },
+    {
+      "eventId": "651f61a7-f271-4ca3-a278-62c0e30c8f65",
+      "uid": "7%",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-23T17:43:14.016Z",
+      "timestampLocal": "2026-07-23T17:43:14.016Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.34.68.125",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=7%25&nombre_proveedor_razon_social=RED+BRANDS+INTERNATIONAL+SA+&nombre_representante_legal=Jose+Luis+Alvarado+&email=valeria.redcoolbrands%40gmail.com",
+      "previousEventHash": "7898d88271c93ca7a0042603973dbda4c04555e0f75291ee40b023902da4f523",
+      "documentHash": "026d1cb2efbb51a32978a422e1cf19dfa8de7cd3298370f2070a2f1cb7abc329",
+      "metadata": {
+        "proveedor": "RED BRANDS INTERNATIONAL SA",
+        "representante": "Jose Luis Alvarado"
+      },
+      "eventHash": "f5f43850d371e7255e96ba006d518b131b9edfa6e2c19c95034c2cefe4a0801d"
+    },
+    {
+      "eventId": "c4249ef9-70f7-4c5c-bdcc-ebc832a276df",
+      "uid": "7%",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-23T17:43:14.198Z",
+      "timestampLocal": "2026-07-23T17:43:14.198Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.34.68.125",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=7%25&nombre_proveedor_razon_social=RED+BRANDS+INTERNATIONAL+SA+&nombre_representante_legal=Jose+Luis+Alvarado+&email=valeria.redcoolbrands%40gmail.com",
+      "previousEventHash": "f5f43850d371e7255e96ba006d518b131b9edfa6e2c19c95034c2cefe4a0801d",
+      "documentHash": "026d1cb2efbb51a32978a422e1cf19dfa8de7cd3298370f2070a2f1cb7abc329",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d1ebea4c17d6cf874f4e7854ceb01dccceda9696da13517475647557111fcd39"
+    },
+    {
+      "eventId": "67bfadfd-1151-425b-ad48-9f565dd8b62a",
+      "uid": "7%",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-23T17:43:14.198Z",
+      "timestampLocal": "2026-07-23T17:43:14.198Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.34.68.125",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=7%25&nombre_proveedor_razon_social=RED+BRANDS+INTERNATIONAL+SA+&nombre_representante_legal=Jose+Luis+Alvarado+&email=valeria.redcoolbrands%40gmail.com",
+      "previousEventHash": "d1ebea4c17d6cf874f4e7854ceb01dccceda9696da13517475647557111fcd39",
+      "documentHash": "026d1cb2efbb51a32978a422e1cf19dfa8de7cd3298370f2070a2f1cb7abc329",
+      "metadata": {
+        "proveedor": "RED BRANDS INTERNATIONAL SA",
+        "representante": "Jose Luis Alvarado"
+      },
+      "eventHash": "d075b43dd6a97b2aeae1202c640e49ff1e55ea6a8b957579c2b121e6e9e20e8a"
+    },
+    {
+      "eventId": "ca8ab7f2-5c16-4ee5-8768-b24eabc913cd",
+      "uid": "7%",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-23T17:43:15.250Z",
+      "timestampLocal": "2026-07-23T17:43:15.250Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.34.68.125",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=7%25&nombre_proveedor_razon_social=RED+BRANDS+INTERNATIONAL+SA+&nombre_representante_legal=Jose+Luis+Alvarado+&email=valeria.redcoolbrands%40gmail.com",
+      "previousEventHash": "d075b43dd6a97b2aeae1202c640e49ff1e55ea6a8b957579c2b121e6e9e20e8a",
+      "documentHash": "026d1cb2efbb51a32978a422e1cf19dfa8de7cd3298370f2070a2f1cb7abc329",
+      "eventHash": "451decc20ec9c6e3b96629c52eb4e542732664afa74903e66b04ebddd1118148"
+    },
+    {
+      "eventId": "f645daf7-0f88-4aaf-860e-e1ff27ac0027",
+      "uid": "7%",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-23T17:43:29.621Z",
+      "timestampLocal": "2026-07-23T12:43:29.621Z",
+      "timezone": "UTC-5",
+      "ipAddress": "190.34.68.125",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/fb254f8a-efb8-4c7e-a4e1-836a22b4d12f",
+      "previousEventHash": "451decc20ec9c6e3b96629c52eb4e542732664afa74903e66b04ebddd1118148",
+      "documentHash": "a2a94b8f65eced770992c6ce427849327900857af3ac3a76c4f0e40ccc42b165",
+      "signatureHash": "68e02644aca9fa51cbed0e8b5c5267cc7324d686014a6ae97314cec9d385b4ee",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-23T12:43:26.272Z"
+      },
+      "eventHash": "880f7716229d335f0faef171fc9840f6495df3bafdc3846d9262f4bc04ccf5be"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 20,
+    "verifiedAt": "2026-07-23T17:43:29.622Z"
+  }
 }
