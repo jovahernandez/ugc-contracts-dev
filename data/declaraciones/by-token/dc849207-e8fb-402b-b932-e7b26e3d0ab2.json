@@ -2,8 +2,23 @@
   "uid": "SALP9903133Q4",
   "token": "dc849207-e8fb-402b-b932-e7b26e3d0ab2",
   "createdAt": "2026-07-23T22:28:40.978Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Paula Sánchez López",
+    "nombre_representante_legal": "Paula Sánchez López",
+    "email": "paulasanchezugc@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Paula Sánchez López",
+    "nombre_representante_legal": "Paula Sánchez López",
+    "email": "paulasanchezugc@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Paula Sánchez López",
+    "nombre_representante_legal": "Paula Sánchez López",
+    "email": "paulasanchezugc@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Paula Sánchez López",
     "nombre_representante_legal": "Paula Sánchez López",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "c8a6448a24def50bf017d3ee21a260b2d7682669c862151023bd900eb0572047",
+  "auditTrail": [
+    {
+      "eventId": "fc172b04-18cf-4c7f-aff4-72ac7466f2c3",
+      "uid": "SALP9903133Q4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-23T22:28:46.077Z",
+      "timestampLocal": "2026-07-23T22:28:46.077Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.238.219",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "c8a6448a24def50bf017d3ee21a260b2d7682669c862151023bd900eb0572047",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ca5ae8fdbab00f8652746e5694a85927f049af44ebacf91abfc71a24128fc267"
+    },
+    {
+      "eventId": "6ba0eaa7-b3ed-4833-bfcf-035d74221746",
+      "uid": "SALP9903133Q4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-23T22:28:46.077Z",
+      "timestampLocal": "2026-07-23T22:28:46.077Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.238.219",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ca5ae8fdbab00f8652746e5694a85927f049af44ebacf91abfc71a24128fc267",
+      "documentHash": "c8a6448a24def50bf017d3ee21a260b2d7682669c862151023bd900eb0572047",
+      "metadata": {
+        "proveedor": "Paula Sánchez López",
+        "representante": "Paula Sánchez López"
+      },
+      "eventHash": "8c30639d611a08db17e8c6bca570936e903172b06b362a967625f3725d8ab12a"
+    }
+  ]
 }
