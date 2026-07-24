@@ -2,7 +2,7 @@
   "uid": "ASO1311127U8",
   "token": "19270d37-9ff9-4728-a833-df69837ee110",
   "createdAt": "2026-07-24T19:27:40.326Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ACTUARIAL SOLUTIONS SC",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "DAVID IGLESIAS NAVA",
     "email": "tatiana.b@actuarialsolutions.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ACTUARIAL SOLUTIONS SC",
-    "nombre_representante_legal": "DAVID IGLESIAS NAVA",
-    "email": "tatiana.b@actuarialsolutions.com.mx"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "ACTUARIAL SOLUTIONS SC",
     "nombre_representante_legal": "DAVID IGLESIAS NAVA",
     "email": "tatiana.b@actuarialsolutions.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "bd4b0278b7c434a8e3db5ac25f3d872bdd63821dc34a58536d743d288e3048fb",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-24T13:28:36.677Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ASO1311127U8",
+  "signatureMetadata": {
+    "ip": "201.141.108.119",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "signedAtUtc": "2026-07-24T19:28:40.065Z",
+    "signedAtLocal": "2026-07-24T13:28:40.065Z"
+  },
+  "documentHash": "11fe2788f50c5cbdb0a853075848f1e8b7e382ba0aefc91824432967994a7aee",
   "auditTrail": [
     {
       "eventId": "6b5bc9d5-566e-4e9c-8d9a-78c88ae2e9f8",
@@ -65,6 +66,47 @@
         "representante": "DAVID IGLESIAS NAVA"
       },
       "eventHash": "c9b9b82635e787710f82a6afd28ab3aa36d9e83f4ac99df34eeb59ff131fdb23"
+    },
+    {
+      "eventId": "5a929960-1592-4ece-868c-0dda75818643",
+      "uid": "ASO1311127U8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-24T19:27:51.570Z",
+      "timestampLocal": "2026-07-24T19:27:51.570Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.108.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4,de-DE;q=0.3,de;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ASO1311127U8&nombre_proveedor_razon_social=ACTUARIAL+SOLUTIONS+SC&nombre_representante_legal=DAVID+IGLESIAS+NAVA&email=tatiana.b%40actuarialsolutions.com.mx",
+      "previousEventHash": "c9b9b82635e787710f82a6afd28ab3aa36d9e83f4ac99df34eeb59ff131fdb23",
+      "documentHash": "bd4b0278b7c434a8e3db5ac25f3d872bdd63821dc34a58536d743d288e3048fb",
+      "eventHash": "ba728b3a6cb9437a2a7e2b6ce9f74891295b9d7c1a6441b53e8ffeff2b705364"
+    },
+    {
+      "eventId": "eadbee2d-7f22-481d-bc78-3b521dfa66bc",
+      "uid": "ASO1311127U8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-24T19:28:40.065Z",
+      "timestampLocal": "2026-07-24T13:28:40.065Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.108.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4,de-DE;q=0.3,de;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/19270d37-9ff9-4728-a833-df69837ee110",
+      "previousEventHash": "ba728b3a6cb9437a2a7e2b6ce9f74891295b9d7c1a6441b53e8ffeff2b705364",
+      "documentHash": "11fe2788f50c5cbdb0a853075848f1e8b7e382ba0aefc91824432967994a7aee",
+      "signatureHash": "c87e3cc0a83495484d341b7c0c2722024e5eded6737b020f9c52b29a28a70fa2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-24T13:28:36.677Z"
+      },
+      "eventHash": "69857c1c48cec94bb193bd28c45b28ffc8fa774928ff43fd228ce7ba112a5494"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-24T19:28:40.066Z"
+  }
 }
