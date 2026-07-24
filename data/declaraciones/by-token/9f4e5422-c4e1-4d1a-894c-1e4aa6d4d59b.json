@@ -2,8 +2,23 @@
   "uid": "GAAJ9604103AA",
   "token": "9f4e5422-c4e1-4d1a-894c-1e4aa6d4d59b",
   "createdAt": "2026-07-24T18:33:27.375Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JAVIER GARCIA ASENCIO",
+    "nombre_representante_legal": "JAVIER GARCIA ASCENCIO",
+    "email": "vale.ascencio.gar@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JAVIER GARCIA ASENCIO",
+    "nombre_representante_legal": "JAVIER GARCIA ASCENCIO",
+    "email": "vale.ascencio.gar@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "JAVIER GARCIA ASENCIO",
+    "nombre_representante_legal": "JAVIER GARCIA ASCENCIO",
+    "email": "vale.ascencio.gar@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "JAVIER GARCIA ASENCIO",
     "nombre_representante_legal": "JAVIER GARCIA ASCENCIO",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "084c4625069d92bfe2796bc2818dddb25af459bf8392cebfb736fe991b381d6b",
+  "auditTrail": [
+    {
+      "eventId": "0ceb2fe5-eea2-4cd3-9dce-f7d1f2c3ecfa",
+      "uid": "GAAJ9604103AA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-24T18:33:33.606Z",
+      "timestampLocal": "2026-07-24T18:33:33.606Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.245.244.58",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAAJ9604103AA&nombre_proveedor_razon_social=JAVIER+GARCIA+ASENCIO&nombre_representante_legal=JAVIER+GARCIA+ASCENCIO&email=vale.ascencio.gar%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "084c4625069d92bfe2796bc2818dddb25af459bf8392cebfb736fe991b381d6b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "694a053040e36d1f371d8f768b76b19b60030c648483eb7a7251908950f85834"
+    },
+    {
+      "eventId": "e45ac0be-2cc2-4ca6-8278-12886a5c929d",
+      "uid": "GAAJ9604103AA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-24T18:33:33.606Z",
+      "timestampLocal": "2026-07-24T18:33:33.606Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.245.244.58",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAAJ9604103AA&nombre_proveedor_razon_social=JAVIER+GARCIA+ASENCIO&nombre_representante_legal=JAVIER+GARCIA+ASCENCIO&email=vale.ascencio.gar%40gmail.com",
+      "previousEventHash": "694a053040e36d1f371d8f768b76b19b60030c648483eb7a7251908950f85834",
+      "documentHash": "084c4625069d92bfe2796bc2818dddb25af459bf8392cebfb736fe991b381d6b",
+      "metadata": {
+        "proveedor": "JAVIER GARCIA ASENCIO",
+        "representante": "JAVIER GARCIA ASCENCIO"
+      },
+      "eventHash": "eda10ff1ff65ecad261e3cf80c8d6c42677b7f2b42a59ecf83c5c98f4eb198b6"
+    }
+  ]
 }
