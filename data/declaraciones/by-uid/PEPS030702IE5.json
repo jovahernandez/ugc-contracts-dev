@@ -2,8 +2,23 @@
   "uid": "PEPS030702IE5",
   "token": "0966a039-1965-407a-b958-bcf1c900d060",
   "createdAt": "2026-07-24T06:22:31.416Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "SARA BERENICE PÉREZ PÉREZ",
+    "nombre_representante_legal": "-",
+    "email": "sarita28contactosp@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "SARA BERENICE PÉREZ PÉREZ",
+    "nombre_representante_legal": "-",
+    "email": "sarita28contactosp@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "SARA BERENICE PÉREZ PÉREZ",
+    "nombre_representante_legal": "-",
+    "email": "sarita28contactosp@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "SARA BERENICE PÉREZ PÉREZ",
     "nombre_representante_legal": "-",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a4345040a0809fa9744619309b3ca64d9a61dc14ab10938549e9ba757844021c",
+  "auditTrail": [
+    {
+      "eventId": "4021c81f-9e20-4f75-9c4c-c17fea8944ad",
+      "uid": "PEPS030702IE5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-24T06:22:37.269Z",
+      "timestampLocal": "2026-07-24T06:22:37.269Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.236.72.93",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_5_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/430.3.945886556 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "a4345040a0809fa9744619309b3ca64d9a61dc14ab10938549e9ba757844021c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "740231035740c86775fe32f0e6702652904abed5577001810f484c29d1a67a24"
+    },
+    {
+      "eventId": "7dfc0633-04ef-464b-964c-5dd5a622237e",
+      "uid": "PEPS030702IE5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-24T06:22:37.269Z",
+      "timestampLocal": "2026-07-24T06:22:37.269Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.236.72.93",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_5_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/430.3.945886556 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "740231035740c86775fe32f0e6702652904abed5577001810f484c29d1a67a24",
+      "documentHash": "a4345040a0809fa9744619309b3ca64d9a61dc14ab10938549e9ba757844021c",
+      "metadata": {
+        "proveedor": "SARA BERENICE PÉREZ PÉREZ",
+        "representante": "-"
+      },
+      "eventHash": "aa49ba4f20d96b15490e8ed78794f8779cbb1f96368cff4eed306ec6667d31de"
+    }
+  ]
 }
