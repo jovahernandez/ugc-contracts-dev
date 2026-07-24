@@ -2,8 +2,23 @@
   "uid": "COLD990531C60",
   "token": "a98fc3ba-ec63-437b-8494-3ee92eead2d4",
   "createdAt": "2026-07-24T20:58:30.638Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Diana Laura Contreras Lázaro",
+    "nombre_representante_legal": "Diana Laura Contreras Lazaro",
+    "email": "laura@theviralclub.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Diana Laura Contreras Lázaro",
+    "nombre_representante_legal": "Diana Laura Contreras Lazaro",
+    "email": "laura@theviralclub.co"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Diana Laura Contreras Lázaro",
+    "nombre_representante_legal": "Diana Laura Contreras Lazaro",
+    "email": "laura@theviralclub.co"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Diana Laura Contreras Lázaro",
     "nombre_representante_legal": "Diana Laura Contreras Lazaro",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "3145c82c8fbae16309bf9f3b18a0517801fa5c860e4501825b4213697ee413ad",
+  "auditTrail": [
+    {
+      "eventId": "d8176f5d-f47a-401e-8e48-a42b2a6180e2",
+      "uid": "COLD990531C60",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-24T20:58:36.685Z",
+      "timestampLocal": "2026-07-24T20:58:36.685Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.104.163",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=COLD990531C60&nombre_proveedor_razon_social=Diana+Laura+Contreras+L%C3%A1zaro&nombre_representante_legal=Diana+Laura+Contreras+Lazaro&email=laura%40theviralclub.co",
+      "previousEventHash": null,
+      "documentHash": "3145c82c8fbae16309bf9f3b18a0517801fa5c860e4501825b4213697ee413ad",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "14c28eea34e07e522a556e2296bb284d7092ad4f78dc3d39ce9238b934d366c7"
+    },
+    {
+      "eventId": "9e5cd83a-aca6-4669-96e8-df47b96acdab",
+      "uid": "COLD990531C60",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-24T20:58:36.685Z",
+      "timestampLocal": "2026-07-24T20:58:36.685Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.104.163",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=COLD990531C60&nombre_proveedor_razon_social=Diana+Laura+Contreras+L%C3%A1zaro&nombre_representante_legal=Diana+Laura+Contreras+Lazaro&email=laura%40theviralclub.co",
+      "previousEventHash": "14c28eea34e07e522a556e2296bb284d7092ad4f78dc3d39ce9238b934d366c7",
+      "documentHash": "3145c82c8fbae16309bf9f3b18a0517801fa5c860e4501825b4213697ee413ad",
+      "metadata": {
+        "proveedor": "Diana Laura Contreras Lázaro",
+        "representante": "Diana Laura Contreras Lazaro"
+      },
+      "eventHash": "0f2a7f69df3d6e01b74d4f83c6494d63e02e8f562a6252060d3b82019aad4e66"
+    }
+  ]
 }
