@@ -2,8 +2,23 @@
   "uid": "AAMA880823PQ5",
   "token": "c1bb64bb-b936-4940-893e-ff71a9104935",
   "createdAt": "2026-07-24T22:07:25.161Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Ana Gabriela Almada Martínez",
+    "nombre_representante_legal": "Ana Gabriela Almada Martínez",
+    "email": "davidibarradr@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Ana Gabriela Almada Martínez",
+    "nombre_representante_legal": "Ana Gabriela Almada Martínez",
+    "email": "davidibarradr@hotmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Ana Gabriela Almada Martínez",
+    "nombre_representante_legal": "Ana Gabriela Almada Martínez",
+    "email": "davidibarradr@hotmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Ana Gabriela Almada Martínez",
     "nombre_representante_legal": "Ana Gabriela Almada Martínez",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9fb1d46768bd8531aa958141421a86502770faf8cbf41daec86f94f5e07a9fe1",
+  "auditTrail": [
+    {
+      "eventId": "a65fdb24-25d8-477f-a185-5ac22c5a1a3d",
+      "uid": "AAMA880823PQ5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-24T22:07:33.803Z",
+      "timestampLocal": "2026-07-24T22:07:33.803Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.175.225.165",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "9fb1d46768bd8531aa958141421a86502770faf8cbf41daec86f94f5e07a9fe1",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a1a20a94ea9b028cac83a59e53d876290533dda514cfacaab9481debc1012379"
+    },
+    {
+      "eventId": "12945f2e-7ae8-4ce9-ad7c-7568e1e97aee",
+      "uid": "AAMA880823PQ5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-24T22:07:33.803Z",
+      "timestampLocal": "2026-07-24T22:07:33.803Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.175.225.165",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a1a20a94ea9b028cac83a59e53d876290533dda514cfacaab9481debc1012379",
+      "documentHash": "9fb1d46768bd8531aa958141421a86502770faf8cbf41daec86f94f5e07a9fe1",
+      "metadata": {
+        "proveedor": "Ana Gabriela Almada Martínez",
+        "representante": "Ana Gabriela Almada Martínez"
+      },
+      "eventHash": "172b2cd1f42644099bbc1fbbd2fe84a72fc27ea1147b92992131d29cf39a47bf"
+    }
+  ]
 }
