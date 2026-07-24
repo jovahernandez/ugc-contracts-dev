@@ -2,8 +2,23 @@
   "uid": "ASO1311127U8",
   "token": "19270d37-9ff9-4728-a833-df69837ee110",
   "createdAt": "2026-07-24T19:27:40.326Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ACTUARIAL SOLUTIONS SC",
+    "nombre_representante_legal": "DAVID IGLESIAS NAVA",
+    "email": "tatiana.b@actuarialsolutions.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ACTUARIAL SOLUTIONS SC",
+    "nombre_representante_legal": "DAVID IGLESIAS NAVA",
+    "email": "tatiana.b@actuarialsolutions.com.mx"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "ACTUARIAL SOLUTIONS SC",
+    "nombre_representante_legal": "DAVID IGLESIAS NAVA",
+    "email": "tatiana.b@actuarialsolutions.com.mx"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "ACTUARIAL SOLUTIONS SC",
     "nombre_representante_legal": "DAVID IGLESIAS NAVA",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "bd4b0278b7c434a8e3db5ac25f3d872bdd63821dc34a58536d743d288e3048fb",
+  "auditTrail": [
+    {
+      "eventId": "6b5bc9d5-566e-4e9c-8d9a-78c88ae2e9f8",
+      "uid": "ASO1311127U8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-24T19:27:49.294Z",
+      "timestampLocal": "2026-07-24T19:27:49.294Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.108.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4,de-DE;q=0.3,de;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ASO1311127U8&nombre_proveedor_razon_social=ACTUARIAL+SOLUTIONS+SC&nombre_representante_legal=DAVID+IGLESIAS+NAVA&email=tatiana.b%40actuarialsolutions.com.mx",
+      "previousEventHash": null,
+      "documentHash": "bd4b0278b7c434a8e3db5ac25f3d872bdd63821dc34a58536d743d288e3048fb",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0b72246abe45a5763542b934efdfb6dcb9f20179e61dff3275f819ce753bb1c3"
+    },
+    {
+      "eventId": "e29ca1eb-a62d-4247-9f52-d8ca48c742cf",
+      "uid": "ASO1311127U8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-24T19:27:49.294Z",
+      "timestampLocal": "2026-07-24T19:27:49.294Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.108.119",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4,de-DE;q=0.3,de;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ASO1311127U8&nombre_proveedor_razon_social=ACTUARIAL+SOLUTIONS+SC&nombre_representante_legal=DAVID+IGLESIAS+NAVA&email=tatiana.b%40actuarialsolutions.com.mx",
+      "previousEventHash": "0b72246abe45a5763542b934efdfb6dcb9f20179e61dff3275f819ce753bb1c3",
+      "documentHash": "bd4b0278b7c434a8e3db5ac25f3d872bdd63821dc34a58536d743d288e3048fb",
+      "metadata": {
+        "proveedor": "ACTUARIAL SOLUTIONS SC",
+        "representante": "DAVID IGLESIAS NAVA"
+      },
+      "eventHash": "c9b9b82635e787710f82a6afd28ab3aa36d9e83f4ac99df34eeb59ff131fdb23"
+    }
+  ]
 }
