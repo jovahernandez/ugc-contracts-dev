@@ -2,7 +2,7 @@
   "uid": "GAAJ9604103AA",
   "token": "9f4e5422-c4e1-4d1a-894c-1e4aa6d4d59b",
   "createdAt": "2026-07-24T18:33:27.375Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JAVIER GARCIA ASENCIO",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "JAVIER GARCIA ASCENCIO",
     "email": "vale.ascencio.gar@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "JAVIER GARCIA ASENCIO",
-    "nombre_representante_legal": "JAVIER GARCIA ASCENCIO",
-    "email": "vale.ascencio.gar@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "JAVIER GARCIA ASENCIO",
     "nombre_representante_legal": "JAVIER GARCIA ASCENCIO",
     "email": "vale.ascencio.gar@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "084c4625069d92bfe2796bc2818dddb25af459bf8392cebfb736fe991b381d6b",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-24T12:38:00.981Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GAAJ9604103AA",
+  "signatureMetadata": {
+    "ip": "177.245.244.58",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "signedAtUtc": "2026-07-24T18:38:04.387Z",
+    "signedAtLocal": "2026-07-24T12:38:04.387Z"
+  },
+  "documentHash": "b8dba92d5516f9b318ca840e1f58fd038267f64116fab1a8f98e4238d29fabda",
   "auditTrail": [
     {
       "eventId": "0ceb2fe5-eea2-4cd3-9dce-f7d1f2c3ecfa",
@@ -65,6 +66,47 @@
         "representante": "JAVIER GARCIA ASCENCIO"
       },
       "eventHash": "eda10ff1ff65ecad261e3cf80c8d6c42677b7f2b42a59ecf83c5c98f4eb198b6"
+    },
+    {
+      "eventId": "f7ec375e-8b97-4591-a7f8-dab894b376f7",
+      "uid": "GAAJ9604103AA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-24T18:33:35.657Z",
+      "timestampLocal": "2026-07-24T18:33:35.657Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.245.244.58",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAAJ9604103AA&nombre_proveedor_razon_social=JAVIER+GARCIA+ASENCIO&nombre_representante_legal=JAVIER+GARCIA+ASCENCIO&email=vale.ascencio.gar%40gmail.com",
+      "previousEventHash": "eda10ff1ff65ecad261e3cf80c8d6c42677b7f2b42a59ecf83c5c98f4eb198b6",
+      "documentHash": "084c4625069d92bfe2796bc2818dddb25af459bf8392cebfb736fe991b381d6b",
+      "eventHash": "b4a0297b36cb62d9904076354a9d2f8a5150422f00be8c888b42ad7a534fe191"
+    },
+    {
+      "eventId": "305c0cd6-543a-4322-96f4-5442c4549aa8",
+      "uid": "GAAJ9604103AA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-24T18:38:04.387Z",
+      "timestampLocal": "2026-07-24T12:38:04.387Z",
+      "timezone": "UTC-6",
+      "ipAddress": "177.245.244.58",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/9f4e5422-c4e1-4d1a-894c-1e4aa6d4d59b",
+      "previousEventHash": "b4a0297b36cb62d9904076354a9d2f8a5150422f00be8c888b42ad7a534fe191",
+      "documentHash": "b8dba92d5516f9b318ca840e1f58fd038267f64116fab1a8f98e4238d29fabda",
+      "signatureHash": "30c7cc226c0b77f0b924333569dd041b432208a8d19e7fe432916515a4f1d0fc",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-24T12:38:00.981Z"
+      },
+      "eventHash": "3fe3d782f2c8bfcc9a0722414ab6b01d150a84704ecf49c18625081e9c035725"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-24T18:38:04.387Z"
+  }
 }
