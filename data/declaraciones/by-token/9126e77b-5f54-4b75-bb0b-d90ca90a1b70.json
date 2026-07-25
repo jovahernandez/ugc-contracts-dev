@@ -2,7 +2,7 @@
   "uid": "LOPV940115229",
   "token": "9126e77b-5f54-4b75-bb0b-d90ca90a1b70",
   "createdAt": "2026-07-25T20:45:43.175Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "VICTOR ALFONZO LOPEZ PIÑA",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "VICTOR ALFONZO LOPEZ PIÑA",
     "email": "zepollvictor@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "VICTOR ALFONZO LOPEZ PIÑA",
-    "nombre_representante_legal": "VICTOR ALFONZO LOPEZ PIÑA",
-    "email": "zepollvictor@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "VICTOR ALFONZO LOPEZ PIÑA",
     "nombre_representante_legal": "VICTOR ALFONZO LOPEZ PIÑA",
     "email": "zepollvictor@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ab6ddc0113c7bf7ef1719bf10bb1a4b5f469874e94d4443ddafc118b7289d07a",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-26T02:18:36.823Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LOPV940115229",
+  "signatureMetadata": {
+    "ip": "187.191.39.182",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-25T20:48:42.489Z",
+    "signedAtLocal": "2026-07-26T02:18:42.489Z"
+  },
+  "documentHash": "338eb7e15906960c16231879d9ec97b83887b6ba0c1a562a4d62406932ed1078",
   "auditTrail": [
     {
       "eventId": "7705c278-a77f-4e05-9478-d2ad17ac1569",
@@ -176,6 +177,84 @@
         "representante": "VICTOR ALFONZO LOPEZ PIÑA"
       },
       "eventHash": "a8c074c0578219ee1a57944a1c1ffc6467f98ee51554a9fc1a03253ef1445dce"
+    },
+    {
+      "eventId": "289281d7-94d0-4185-9744-e484d67d73a4",
+      "uid": "LOPV940115229",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-25T20:46:11.308Z",
+      "timestampLocal": "2026-07-25T20:46:11.308Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.39.182",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LOPV940115229&nombre_proveedor_razon_social=VICTOR+ALFONZO+LOPEZ+PI%C3%91A&nombre_representante_legal=VICTOR+ALFONZO+LOPEZ+PI%C3%91A&email=zepollvictor%40gmail.com",
+      "previousEventHash": "a8c074c0578219ee1a57944a1c1ffc6467f98ee51554a9fc1a03253ef1445dce",
+      "documentHash": "ab6ddc0113c7bf7ef1719bf10bb1a4b5f469874e94d4443ddafc118b7289d07a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ac0f3554ee8f4c5e5977d21ddb82394cf9de532a23e75cfe914294e0bce23418"
+    },
+    {
+      "eventId": "b97d384b-f13f-44bd-a64f-7d6e397418a3",
+      "uid": "LOPV940115229",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-25T20:46:11.308Z",
+      "timestampLocal": "2026-07-25T20:46:11.308Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.39.182",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LOPV940115229&nombre_proveedor_razon_social=VICTOR+ALFONZO+LOPEZ+PI%C3%91A&nombre_representante_legal=VICTOR+ALFONZO+LOPEZ+PI%C3%91A&email=zepollvictor%40gmail.com",
+      "previousEventHash": "ac0f3554ee8f4c5e5977d21ddb82394cf9de532a23e75cfe914294e0bce23418",
+      "documentHash": "ab6ddc0113c7bf7ef1719bf10bb1a4b5f469874e94d4443ddafc118b7289d07a",
+      "metadata": {
+        "proveedor": "VICTOR ALFONZO LOPEZ PIÑA",
+        "representante": "VICTOR ALFONZO LOPEZ PIÑA"
+      },
+      "eventHash": "c38cbc06eb239d0ab6b6bde8ee0d2e9bb67bb1fd9b0fff8ffbff71f8ec5102d5"
+    },
+    {
+      "eventId": "12b1b1bc-001c-431d-a8d0-83db096d4ae8",
+      "uid": "LOPV940115229",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-25T20:46:12.977Z",
+      "timestampLocal": "2026-07-25T20:46:12.977Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.39.182",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LOPV940115229&nombre_proveedor_razon_social=VICTOR+ALFONZO+LOPEZ+PI%C3%91A&nombre_representante_legal=VICTOR+ALFONZO+LOPEZ+PI%C3%91A&email=zepollvictor%40gmail.com",
+      "previousEventHash": "c38cbc06eb239d0ab6b6bde8ee0d2e9bb67bb1fd9b0fff8ffbff71f8ec5102d5",
+      "documentHash": "ab6ddc0113c7bf7ef1719bf10bb1a4b5f469874e94d4443ddafc118b7289d07a",
+      "eventHash": "a79273d4e94dd31804f63a2dbe88af65dc848235d43b2535938e209441a90984"
+    },
+    {
+      "eventId": "a912422b-e444-4efb-ad64-0aebeae27963",
+      "uid": "LOPV940115229",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-25T20:48:42.489Z",
+      "timestampLocal": "2026-07-26T02:18:42.489Z",
+      "timezone": "UTC+5.5",
+      "ipAddress": "187.191.39.182",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/9126e77b-5f54-4b75-bb0b-d90ca90a1b70",
+      "previousEventHash": "a79273d4e94dd31804f63a2dbe88af65dc848235d43b2535938e209441a90984",
+      "documentHash": "338eb7e15906960c16231879d9ec97b83887b6ba0c1a562a4d62406932ed1078",
+      "signatureHash": "50d97dd79b5d998896385464d46ce90d7a2b7136efdbb3fbaf881303801c90af",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-26T02:18:36.823Z"
+      },
+      "eventHash": "329711e6e7f89d72ae826e5ab999ea93f505ae59596fe1f651361f79ad5e3589"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 12,
+    "verifiedAt": "2026-07-25T20:48:42.489Z"
+  }
 }
