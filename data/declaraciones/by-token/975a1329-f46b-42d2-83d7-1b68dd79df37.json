@@ -2,7 +2,7 @@
   "uid": "CASP960520MG0",
   "token": "975a1329-f46b-42d2-83d7-1b68dd79df37",
   "createdAt": "2026-07-27T17:32:20.538Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PAMELA CASTRO SANTOS",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "PAMELA CASTRO SANTOS",
     "email": "contacto@coolturafiscal.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PAMELA CASTRO SANTOS",
-    "nombre_representante_legal": "PAMELA CASTRO SANTOS",
-    "email": "contacto@coolturafiscal.mx"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "PAMELA CASTRO SANTOS",
     "nombre_representante_legal": "PAMELA CASTRO SANTOS",
     "email": "contacto@coolturafiscal.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "39f8058aa6654124ea25a573a28d993252eb8f2ca4f4953d1fa5c1570d594225",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-27T11:33:08.126Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CASP960520MG0",
+  "signatureMetadata": {
+    "ip": "201.124.45.97",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-27T17:33:11.479Z",
+    "signedAtLocal": "2026-07-27T11:33:11.479Z"
+  },
+  "documentHash": "b0b84b9596b5552e1e409eae2d56e8e604fc9286e640c56f1dea052b84b9b3fc",
   "auditTrail": [
     {
       "eventId": "1d06f8e5-ada3-4db1-909c-73136c562b91",
@@ -65,6 +66,47 @@
         "representante": "PAMELA CASTRO SANTOS"
       },
       "eventHash": "7c266fe1c5a1b9f13351b6100bb7fe4a577ca8c1b96e22c5107fe9fee3970ec4"
+    },
+    {
+      "eventId": "41a88292-0a11-401a-8001-17dad0d069f2",
+      "uid": "CASP960520MG0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-27T17:32:28.384Z",
+      "timestampLocal": "2026-07-27T17:32:28.384Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.45.97",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CASP960520MG0&nombre_proveedor_razon_social=PAMELA+CASTRO+SANTOS&nombre_representante_legal=PAMELA+CASTRO+SANTOS&email=contacto%40coolturafiscal.mx",
+      "previousEventHash": "7c266fe1c5a1b9f13351b6100bb7fe4a577ca8c1b96e22c5107fe9fee3970ec4",
+      "documentHash": "39f8058aa6654124ea25a573a28d993252eb8f2ca4f4953d1fa5c1570d594225",
+      "eventHash": "4ca7a7d79fee5bc86d9738a5b5a223e4d032a7a697bdaf48650b18474b776df4"
+    },
+    {
+      "eventId": "77cdb945-9d7a-43dc-9460-136d2bf2f618",
+      "uid": "CASP960520MG0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-27T17:33:11.479Z",
+      "timestampLocal": "2026-07-27T11:33:11.479Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.124.45.97",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/975a1329-f46b-42d2-83d7-1b68dd79df37",
+      "previousEventHash": "4ca7a7d79fee5bc86d9738a5b5a223e4d032a7a697bdaf48650b18474b776df4",
+      "documentHash": "b0b84b9596b5552e1e409eae2d56e8e604fc9286e640c56f1dea052b84b9b3fc",
+      "signatureHash": "f3de2486b1c4a3bad42ae4ae2879ae21449189e7cbc8cd7419f49c8885f401db",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-27T11:33:08.126Z"
+      },
+      "eventHash": "a69152684b8d7d161b464cfecea343260131ac19317c8f1bcf848326cc98fc40"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-27T17:33:11.479Z"
+  }
 }
