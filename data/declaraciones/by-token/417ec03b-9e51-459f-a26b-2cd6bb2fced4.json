@@ -2,7 +2,7 @@
   "uid": "BABA960717J70",
   "token": "417ec03b-9e51-459f-a26b-2cd6bb2fced4",
   "createdAt": "2026-07-28T00:52:54.812Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JOSE ALEJANDRO BARRUETA BASILIO",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Jose Alejandro Barrueta Basilio",
     "email": "aletsgo7@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "JOSE ALEJANDRO BARRUETA BASILIO",
-    "nombre_representante_legal": "Jose Alejandro Barrueta Basilio",
-    "email": "aletsgo7@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "JOSE ALEJANDRO BARRUETA BASILIO",
     "nombre_representante_legal": "Jose Alejandro Barrueta Basilio",
     "email": "aletsgo7@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "358b3b77b1bc6fa334ee2f7eb3aad9f558c593f7350f5043e31b043bc5c7ee33",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-27T18:53:55.452Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BABA960717J70",
+  "signatureMetadata": {
+    "ip": "187.190.11.241",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "signedAtUtc": "2026-07-28T00:53:58.771Z",
+    "signedAtLocal": "2026-07-27T18:53:58.771Z"
+  },
+  "documentHash": "660e820e47fa944343639fa6bb4850e51c7d834e8cf6505c501ec70f72979426",
   "auditTrail": [
     {
       "eventId": "f0e97015-bf44-4d57-8a97-98aa8b0e68ce",
@@ -65,6 +66,47 @@
         "representante": "Jose Alejandro Barrueta Basilio"
       },
       "eventHash": "cabbb1aaa94a4c9b3b0132f9a57901d1a3e774f3ce57bea6022f2bb12925a752"
+    },
+    {
+      "eventId": "3b2b6e5b-c21a-4b37-84ad-0f5fb3d322a7",
+      "uid": "BABA960717J70",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-28T00:53:06.798Z",
+      "timestampLocal": "2026-07-28T00:53:06.798Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.11.241",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BABA960717J70&nombre_proveedor_razon_social=JOSE+ALEJANDRO+BARRUETA+BASILIO&nombre_representante_legal=Jose+Alejandro+Barrueta+Basilio&email=aletsgo7%40gmail.com",
+      "previousEventHash": "cabbb1aaa94a4c9b3b0132f9a57901d1a3e774f3ce57bea6022f2bb12925a752",
+      "documentHash": "358b3b77b1bc6fa334ee2f7eb3aad9f558c593f7350f5043e31b043bc5c7ee33",
+      "eventHash": "5a2916ee08aa21c2ec6750a23cac000a50704bcae0ba4d46a9a67ca3d3ac57d6"
+    },
+    {
+      "eventId": "fc9e97b3-ee78-4197-b21a-a6feffadb7ec",
+      "uid": "BABA960717J70",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-28T00:53:58.771Z",
+      "timestampLocal": "2026-07-27T18:53:58.771Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.11.241",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/417ec03b-9e51-459f-a26b-2cd6bb2fced4",
+      "previousEventHash": "5a2916ee08aa21c2ec6750a23cac000a50704bcae0ba4d46a9a67ca3d3ac57d6",
+      "documentHash": "660e820e47fa944343639fa6bb4850e51c7d834e8cf6505c501ec70f72979426",
+      "signatureHash": "eeea3d26fa3a8a621ef608b32bc0df87ddc7549837cfe643a10436df5442dcf0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-27T18:53:55.452Z"
+      },
+      "eventHash": "96a4918f130c75a19b2281357829696e127da20c40870b4f037f3c5639b21991"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-28T00:53:58.771Z"
+  }
 }
