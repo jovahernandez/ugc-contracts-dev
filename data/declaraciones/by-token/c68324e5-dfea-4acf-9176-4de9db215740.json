@@ -2,7 +2,7 @@
   "uid": "EXP6812035X3",
   "token": "c68324e5-dfea-4acf-9176-4de9db215740",
   "createdAt": "2026-07-24T00:08:56.811Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EXPANSION S.A. DE C.V.",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "EKATERINA COLIN MONEDA",
     "email": "invoices@grupoexpansion.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "EXPANSION S.A. DE C.V.",
-    "nombre_representante_legal": "EKATERINA COLIN MONEDA",
-    "email": "invoices@grupoexpansion.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "EXPANSION S.A. DE C.V.",
     "nombre_representante_legal": "EKATERINA COLIN MONEDA",
     "email": "invoices@grupoexpansion.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c6e6b99b939a2a8e736e3f4fecd51b2b0103882a6bc1a5dd618ce26c845c6b5c",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-28T10:00:53.761Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/EXP6812035X3",
+  "signatureMetadata": {
+    "ip": "201.131.117.10",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-28T16:00:57.106Z",
+    "signedAtLocal": "2026-07-28T10:00:57.106Z"
+  },
+  "documentHash": "47feefa5caa3c1fcbf25ab43a631fbc641ecb79aa769b9d989b0372e652ac3c2",
   "auditTrail": [
     {
       "eventId": "d76077de-e01b-4297-8e1d-4a9d32c55ec2",
@@ -65,6 +66,107 @@
         "representante": "EKATERINA COLIN MONEDA"
       },
       "eventHash": "b85029023ad1c33fdba6d8792125403b7fbfcbe0f33681cc64c14e88690173e5"
+    },
+    {
+      "eventId": "488e3e31-b24b-40ed-821a-fadc0140597c",
+      "uid": "EXP6812035X3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-28T00:14:22.918Z",
+      "timestampLocal": "2026-07-28T00:14:22.918Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.131.117.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EXP6812035X3&nombre_proveedor_razon_social=EXPANSION+S.A.+DE+C.V.&nombre_representante_legal=EKATERINA+COLIN+MONEDA&email=invoices%40grupoexpansion.com",
+      "previousEventHash": "b85029023ad1c33fdba6d8792125403b7fbfcbe0f33681cc64c14e88690173e5",
+      "documentHash": "c6e6b99b939a2a8e736e3f4fecd51b2b0103882a6bc1a5dd618ce26c845c6b5c",
+      "eventHash": "7936eacee594d5cea0486c357cb97ab7f9fd5de0da4de388733a8a67c6d45fc5"
+    },
+    {
+      "eventId": "5145fb3b-3c7a-4076-b218-da0c03f853cb",
+      "uid": "EXP6812035X3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-28T01:38:03.201Z",
+      "timestampLocal": "2026-07-28T01:38:03.201Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.229.175.172",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "7936eacee594d5cea0486c357cb97ab7f9fd5de0da4de388733a8a67c6d45fc5",
+      "documentHash": "c6e6b99b939a2a8e736e3f4fecd51b2b0103882a6bc1a5dd618ce26c845c6b5c",
+      "eventHash": "6373ac8a4c1a86e158e35c5a78ece5bc541e92feb60fb2c20c1b04162326a289"
+    },
+    {
+      "eventId": "2ee203be-b4af-4bfe-815b-b232c95522db",
+      "uid": "EXP6812035X3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-28T01:38:18.568Z",
+      "timestampLocal": "2026-07-28T01:38:18.568Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.229.175.172",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "6373ac8a4c1a86e158e35c5a78ece5bc541e92feb60fb2c20c1b04162326a289",
+      "documentHash": "c6e6b99b939a2a8e736e3f4fecd51b2b0103882a6bc1a5dd618ce26c845c6b5c",
+      "eventHash": "c86b0676e2d12b62398f406151ab0a6321f056987231ca8af37d09d65ecd77ac"
+    },
+    {
+      "eventId": "f52dc878-a8db-45ec-89a1-d5eecdf0d118",
+      "uid": "EXP6812035X3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-28T15:57:21.763Z",
+      "timestampLocal": "2026-07-28T15:57:21.763Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.131.117.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c86b0676e2d12b62398f406151ab0a6321f056987231ca8af37d09d65ecd77ac",
+      "documentHash": "c6e6b99b939a2a8e736e3f4fecd51b2b0103882a6bc1a5dd618ce26c845c6b5c",
+      "eventHash": "fd0ba2021120b83aaf45d706fc96209ced18e697175528f9b5b035906d2ab272"
+    },
+    {
+      "eventId": "ecf85e6d-8a1e-4750-8024-20a0bb3c8bff",
+      "uid": "EXP6812035X3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-28T15:59:41.959Z",
+      "timestampLocal": "2026-07-28T15:59:41.959Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.131.117.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "fd0ba2021120b83aaf45d706fc96209ced18e697175528f9b5b035906d2ab272",
+      "documentHash": "c6e6b99b939a2a8e736e3f4fecd51b2b0103882a6bc1a5dd618ce26c845c6b5c",
+      "eventHash": "197cf975018d3fc9fd429b9f7d7e18c4828d613aa64fe8f30b79a4212eb47f6a"
+    },
+    {
+      "eventId": "1a0ebd62-7ef4-4f94-8911-225029154f8f",
+      "uid": "EXP6812035X3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-28T16:00:57.106Z",
+      "timestampLocal": "2026-07-28T10:00:57.106Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.131.117.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c68324e5-dfea-4acf-9176-4de9db215740",
+      "previousEventHash": "197cf975018d3fc9fd429b9f7d7e18c4828d613aa64fe8f30b79a4212eb47f6a",
+      "documentHash": "47feefa5caa3c1fcbf25ab43a631fbc641ecb79aa769b9d989b0372e652ac3c2",
+      "signatureHash": "da6d47d43ceb54455f445ac8606de024381831ec6a36f2ec0316c7851e17a53e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-28T10:00:53.761Z"
+      },
+      "eventHash": "5c4adea5b61a2508e2b92fc428be198fc47143ff449cd0802858b82277c750d3"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-07-28T16:00:57.107Z"
+  }
 }
