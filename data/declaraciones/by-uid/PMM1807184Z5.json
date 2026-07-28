@@ -2,7 +2,7 @@
   "uid": "PMM1807184Z5",
   "token": "dd4677b3-ae13-4c1e-8c04-448ad4b9ae96",
   "createdAt": "2026-07-28T16:35:58.519Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Publicidad Y Marketing En Movimiento, S.A. De C.V.",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Ruth Hernandez Buenavista",
     "email": "primemediamx@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Publicidad Y Marketing En Movimiento, S.A. De C.V.",
-    "nombre_representante_legal": "Ruth Hernandez Buenavista",
-    "email": "primemediamx@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Publicidad Y Marketing En Movimiento, S.A. De C.V.",
     "nombre_representante_legal": "Ruth Hernandez Buenavista",
     "email": "primemediamx@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "50e9eaf15562d5b491070ed208122b9ed5876da0a6d69f46a6a58e1e34a54ff5",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-28T10:37:36.674Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PMM1807184Z5",
+  "signatureMetadata": {
+    "ip": "200.68.183.2",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.113 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-07-28T16:37:42.209Z",
+    "signedAtLocal": "2026-07-28T10:37:42.209Z"
+  },
+  "documentHash": "f7077d4ea18bd002dbad43453dbb17e1da152c8842f28b21283d96c9594a0fc6",
   "auditTrail": [
     {
       "eventId": "6d1603ea-5e0a-46a2-827d-a49565cee33d",
@@ -117,6 +118,47 @@
         "representante": "Ruth Hernandez Buenavista"
       },
       "eventHash": "f373e5476e06ce7a6bd0ec7be1e4f356f5c38c982283afe83693fa0bedbee425"
+    },
+    {
+      "eventId": "5e153f9d-fb3f-4109-a2a3-d3d7a09136d9",
+      "uid": "PMM1807184Z5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-28T16:36:22.350Z",
+      "timestampLocal": "2026-07-28T16:36:22.350Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.97.236",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PMM1807184Z5&nombre_proveedor_razon_social=Publicidad+Y+Marketing+En+Movimiento%2C+S.A.+De+C.V.&nombre_representante_legal=Ruth+Hernandez+Buenavista&email=primemediamx%40gmail.com",
+      "previousEventHash": "f373e5476e06ce7a6bd0ec7be1e4f356f5c38c982283afe83693fa0bedbee425",
+      "documentHash": "50e9eaf15562d5b491070ed208122b9ed5876da0a6d69f46a6a58e1e34a54ff5",
+      "eventHash": "28bc9b38cc9d7e308a9eed3ac28be02b361445477108dd1ed3d05188f1c99e3b"
+    },
+    {
+      "eventId": "64144ece-97e9-4e0c-8fea-93f74fa0663d",
+      "uid": "PMM1807184Z5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-28T16:37:42.209Z",
+      "timestampLocal": "2026-07-28T10:37:42.209Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.68.183.2",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.113 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "28bc9b38cc9d7e308a9eed3ac28be02b361445477108dd1ed3d05188f1c99e3b",
+      "documentHash": "f7077d4ea18bd002dbad43453dbb17e1da152c8842f28b21283d96c9594a0fc6",
+      "signatureHash": "6ee04236c222b9ea32b83bf38f01423b2e44611037f1ba71ba550dbec3544b73",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-28T10:37:36.674Z"
+      },
+      "eventHash": "6bbc4f5199ebb362801847db91211801a8ba06d2366a78022937044a8f6b7208"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-07-28T16:37:42.209Z"
+  }
 }
