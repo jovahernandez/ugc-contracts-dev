@@ -2,7 +2,7 @@
   "uid": "AEDM930422HC8",
   "token": "d647f3ef-c0b9-46e1-96af-c96037809225",
   "createdAt": "2026-07-28T18:21:25.432Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JOSE MIGUEL ANDREU DIAZ",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Jose Miguel Andreu Diaz",
     "email": "thetopcomics@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "JOSE MIGUEL ANDREU DIAZ",
-    "nombre_representante_legal": "Jose Miguel Andreu Diaz",
-    "email": "thetopcomics@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "JOSE MIGUEL ANDREU DIAZ",
     "nombre_representante_legal": "Jose Miguel Andreu Diaz",
     "email": "thetopcomics@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "80a7fd83556b9c0344283d99ba6db205f2804473e72fa9d0833e496e3753f91a",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-28T15:38:13.307Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AEDM930422HC8",
+  "signatureMetadata": {
+    "ip": "187.189.242.40",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 OPR/131.0.0.0",
+    "signedAtUtc": "2026-07-28T21:38:16.828Z",
+    "signedAtLocal": "2026-07-28T15:38:16.828Z"
+  },
+  "documentHash": "b755d2025db7279bc63d0189720b291701ce6668cd59775b5fc76c662db67fe8",
   "auditTrail": [
     {
       "eventId": "99ef0242-7962-450d-bcaf-24e1845cd25a",
@@ -169,6 +170,62 @@
         "representante": "Jose Miguel Andreu Diaz"
       },
       "eventHash": "9e3cbf72abf6eaaf195e7c025c92fc48feedeb04adac8d69c00a4438e60727ea"
+    },
+    {
+      "eventId": "edb26702-8403-404f-830d-94b7438a7862",
+      "uid": "AEDM930422HC8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-28T18:21:39.635Z",
+      "timestampLocal": "2026-07-28T18:21:39.635Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.242.40",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 OPR/131.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8,it;q=0.7,de;q=0.6,fr;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AEDM930422HC8&nombre_proveedor_razon_social=JOSE+MIGUEL+ANDREU+DIAZ&nombre_representante_legal=Jose+Miguel+Andreu+Diaz&email=thetopcomics%40gmail.com",
+      "previousEventHash": "9e3cbf72abf6eaaf195e7c025c92fc48feedeb04adac8d69c00a4438e60727ea",
+      "documentHash": "80a7fd83556b9c0344283d99ba6db205f2804473e72fa9d0833e496e3753f91a",
+      "eventHash": "a239c00a3f3588b6e30f96904b07664c95879c6711d7dba5ff5d6b0b21a44d6a"
+    },
+    {
+      "eventId": "a1a69b02-df8f-4a21-a77e-40ef9e74e487",
+      "uid": "AEDM930422HC8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-28T21:32:25.355Z",
+      "timestampLocal": "2026-07-28T21:32:25.355Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.242.40",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 OPR/131.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8,it;q=0.7,de;q=0.6,fr;q=0.5",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "a239c00a3f3588b6e30f96904b07664c95879c6711d7dba5ff5d6b0b21a44d6a",
+      "documentHash": "80a7fd83556b9c0344283d99ba6db205f2804473e72fa9d0833e496e3753f91a",
+      "eventHash": "7475f665829d8b0e572d581bc14c1e5c3e903f348e9efa7939055e7e3a586941"
+    },
+    {
+      "eventId": "696ba240-f359-4b9f-be8a-4daa7b42de01",
+      "uid": "AEDM930422HC8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-28T21:38:16.828Z",
+      "timestampLocal": "2026-07-28T15:38:16.828Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.242.40",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 OPR/131.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8,it;q=0.7,de;q=0.6,fr;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d647f3ef-c0b9-46e1-96af-c96037809225",
+      "previousEventHash": "7475f665829d8b0e572d581bc14c1e5c3e903f348e9efa7939055e7e3a586941",
+      "documentHash": "b755d2025db7279bc63d0189720b291701ce6668cd59775b5fc76c662db67fe8",
+      "signatureHash": "4a246c4eeb8bbcd3161be356abdd6c2fcbf950e2de9bcd1e6500b99306f5aa38",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-28T15:38:13.307Z"
+      },
+      "eventHash": "80127aeb9d36f2b1af975139970eec99a37717270cb8967fc763f13ec71e247e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-07-28T21:38:16.829Z"
+  }
 }
