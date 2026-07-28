@@ -2,7 +2,7 @@
   "uid": "TEGI890208I34",
   "token": "bd634f0a-5ca5-419a-b65b-2641a2ba1d76",
   "createdAt": "2026-07-28T00:42:38.716Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IRVING JHEREMAYN TELLEZ GARCIA",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "IRVING JHEREMAYN TELLEZ GARCIA",
     "email": "admon@sunshots.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "IRVING JHEREMAYN TELLEZ GARCIA",
-    "nombre_representante_legal": "IRVING JHEREMAYN TELLEZ GARCIA",
-    "email": "admon@sunshots.mx"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "IRVING JHEREMAYN TELLEZ GARCIA",
     "nombre_representante_legal": "IRVING JHEREMAYN TELLEZ GARCIA",
     "email": "admon@sunshots.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e23ea6985420025c03fe3805126d5b3e66f19f43d325e8642b60ce95cdebcc56",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-28T00:22:14.559Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TEGI890208I34",
+  "signatureMetadata": {
+    "ip": "187.189.171.209",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.113 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-07-28T06:22:18.016Z",
+    "signedAtLocal": "2026-07-28T00:22:18.016Z"
+  },
+  "documentHash": "2c61bccf78c224d54d052e183a97ddb32c9cb0b1b6889bdb562edadb2a424908",
   "auditTrail": [
     {
       "eventId": "17de6edd-a5be-444b-b453-eb85c9e9a7e8",
@@ -65,6 +66,77 @@
         "representante": "IRVING JHEREMAYN TELLEZ GARCIA"
       },
       "eventHash": "c81a2d55a773642b283e815b8010f845dcc6f81c5283fbcaef0db0b389f6e776"
+    },
+    {
+      "eventId": "1fc4548d-b763-4063-8efa-1c5b2138d1c5",
+      "uid": "TEGI890208I34",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-28T00:42:58.701Z",
+      "timestampLocal": "2026-07-28T00:42:58.701Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.159.93",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TEGI890208I34&nombre_proveedor_razon_social=IRVING+JHEREMAYN+TELLEZ+GARCIA&nombre_representante_legal=IRVING+JHEREMAYN+TELLEZ+GARCIA&email=admon%40sunshots.mx",
+      "previousEventHash": "c81a2d55a773642b283e815b8010f845dcc6f81c5283fbcaef0db0b389f6e776",
+      "documentHash": "e23ea6985420025c03fe3805126d5b3e66f19f43d325e8642b60ce95cdebcc56",
+      "eventHash": "962c70c959c56ff01d040d4df4b3967bc7eb128b5d943b7bbea3d245cb1c5c5c"
+    },
+    {
+      "eventId": "592e85e3-6f7d-4b79-9450-d9156f74d469",
+      "uid": "TEGI890208I34",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-28T06:20:35.963Z",
+      "timestampLocal": "2026-07-28T06:20:35.963Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.171.209",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.113 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "962c70c959c56ff01d040d4df4b3967bc7eb128b5d943b7bbea3d245cb1c5c5c",
+      "documentHash": "e23ea6985420025c03fe3805126d5b3e66f19f43d325e8642b60ce95cdebcc56",
+      "eventHash": "104c9914b80bc9cd80e9feda9e366c0da5ed39c3e3435455096f09f0f441f889"
+    },
+    {
+      "eventId": "dd9e4937-3689-42d3-9fa7-5b7db97656d6",
+      "uid": "TEGI890208I34",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-28T06:22:03.156Z",
+      "timestampLocal": "2026-07-28T06:22:03.156Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.171.209",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.113 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "104c9914b80bc9cd80e9feda9e366c0da5ed39c3e3435455096f09f0f441f889",
+      "documentHash": "e23ea6985420025c03fe3805126d5b3e66f19f43d325e8642b60ce95cdebcc56",
+      "eventHash": "397f3f9d96048d3bbc92d85587101291994af02056431db7c8c82ba554e4c641"
+    },
+    {
+      "eventId": "029214c8-41bb-4954-897d-b06f5d75dd46",
+      "uid": "TEGI890208I34",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-28T06:22:18.016Z",
+      "timestampLocal": "2026-07-28T00:22:18.016Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.171.209",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.113 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "397f3f9d96048d3bbc92d85587101291994af02056431db7c8c82ba554e4c641",
+      "documentHash": "2c61bccf78c224d54d052e183a97ddb32c9cb0b1b6889bdb562edadb2a424908",
+      "signatureHash": "3a07cd253442df6e5c4c9364d72540a8437e897affef18ac115553ffb4d0c6d7",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-28T00:22:14.559Z"
+      },
+      "eventHash": "954bee0bd03822cc9f9fc089e1fa9bc392c96a00e0b3c389f920dcb57c342410"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-07-28T06:22:18.017Z"
+  }
 }
