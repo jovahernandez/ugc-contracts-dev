@@ -2,8 +2,23 @@
   "uid": "EXP6812035X3",
   "token": "c68324e5-dfea-4acf-9176-4de9db215740",
   "createdAt": "2026-07-24T00:08:56.811Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "EXPANSION S.A. DE C.V.",
+    "nombre_representante_legal": "EKATERINA COLIN MONEDA",
+    "email": "invoices@grupoexpansion.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "EXPANSION S.A. DE C.V.",
+    "nombre_representante_legal": "EKATERINA COLIN MONEDA",
+    "email": "invoices@grupoexpansion.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "EXPANSION S.A. DE C.V.",
+    "nombre_representante_legal": "EKATERINA COLIN MONEDA",
+    "email": "invoices@grupoexpansion.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "EXPANSION S.A. DE C.V.",
     "nombre_representante_legal": "EKATERINA COLIN MONEDA",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "c6e6b99b939a2a8e736e3f4fecd51b2b0103882a6bc1a5dd618ce26c845c6b5c",
+  "auditTrail": [
+    {
+      "eventId": "d76077de-e01b-4297-8e1d-4a9d32c55ec2",
+      "uid": "EXP6812035X3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-28T00:14:20.778Z",
+      "timestampLocal": "2026-07-28T00:14:20.778Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.131.117.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EXP6812035X3&nombre_proveedor_razon_social=EXPANSION+S.A.+DE+C.V.&nombre_representante_legal=EKATERINA+COLIN+MONEDA&email=invoices%40grupoexpansion.com",
+      "previousEventHash": null,
+      "documentHash": "c6e6b99b939a2a8e736e3f4fecd51b2b0103882a6bc1a5dd618ce26c845c6b5c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1a85e8cb2f0bb9165811b9761fb14390f6fc0724e6ad0c0546b44b55fb4f3b1f"
+    },
+    {
+      "eventId": "3e62c855-a542-49a9-a1cc-9f17a3e44379",
+      "uid": "EXP6812035X3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-28T00:14:20.778Z",
+      "timestampLocal": "2026-07-28T00:14:20.778Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.131.117.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EXP6812035X3&nombre_proveedor_razon_social=EXPANSION+S.A.+DE+C.V.&nombre_representante_legal=EKATERINA+COLIN+MONEDA&email=invoices%40grupoexpansion.com",
+      "previousEventHash": "1a85e8cb2f0bb9165811b9761fb14390f6fc0724e6ad0c0546b44b55fb4f3b1f",
+      "documentHash": "c6e6b99b939a2a8e736e3f4fecd51b2b0103882a6bc1a5dd618ce26c845c6b5c",
+      "metadata": {
+        "proveedor": "EXPANSION S.A. DE C.V.",
+        "representante": "EKATERINA COLIN MONEDA"
+      },
+      "eventHash": "b85029023ad1c33fdba6d8792125403b7fbfcbe0f33681cc64c14e88690173e5"
+    }
+  ]
 }
