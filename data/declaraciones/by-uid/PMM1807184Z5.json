@@ -2,8 +2,23 @@
   "uid": "PMM1807184Z5",
   "token": "dd4677b3-ae13-4c1e-8c04-448ad4b9ae96",
   "createdAt": "2026-07-28T16:35:58.519Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Publicidad Y Marketing En Movimiento, S.A. De C.V.",
+    "nombre_representante_legal": "Ruth Hernandez Buenavista",
+    "email": "primemediamx@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Publicidad Y Marketing En Movimiento, S.A. De C.V.",
+    "nombre_representante_legal": "Ruth Hernandez Buenavista",
+    "email": "primemediamx@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Publicidad Y Marketing En Movimiento, S.A. De C.V.",
+    "nombre_representante_legal": "Ruth Hernandez Buenavista",
+    "email": "primemediamx@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Publicidad Y Marketing En Movimiento, S.A. De C.V.",
     "nombre_representante_legal": "Ruth Hernandez Buenavista",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "5c007c3f633c04acec5ae337c95ca8d6340149f92465c88818d8eaee70a4e5fd",
+  "auditTrail": [
+    {
+      "eventId": "6d1603ea-5e0a-46a2-827d-a49565cee33d",
+      "uid": "PMM1807184Z5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-28T16:36:16.052Z",
+      "timestampLocal": "2026-07-28T16:36:16.052Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.183.2",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.113 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "5c007c3f633c04acec5ae337c95ca8d6340149f92465c88818d8eaee70a4e5fd",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cfb2b8f7277bbd626a37be4f03c3296822767dc3ba094ae6c8ca9d2126450cdb"
+    },
+    {
+      "eventId": "b25f18d6-ce1f-4067-b8c4-c7ae07171965",
+      "uid": "PMM1807184Z5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-28T16:36:16.052Z",
+      "timestampLocal": "2026-07-28T16:36:16.052Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.183.2",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.113 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "cfb2b8f7277bbd626a37be4f03c3296822767dc3ba094ae6c8ca9d2126450cdb",
+      "documentHash": "5c007c3f633c04acec5ae337c95ca8d6340149f92465c88818d8eaee70a4e5fd",
+      "metadata": {
+        "proveedor": "Publicidad Y Marketing En Movimiento, S.A. De C.V.",
+        "representante": "Ruth Hernandez Buenavista"
+      },
+      "eventHash": "572e6f0568153a6481c2a696af75b5a3441a119181640bdba9898edce4618785"
+    }
+  ]
 }
