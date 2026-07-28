@@ -2,8 +2,23 @@
   "uid": "AEDM930422HC8",
   "token": "d647f3ef-c0b9-46e1-96af-c96037809225",
   "createdAt": "2026-07-28T18:21:25.432Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JOSE MIGUEL ANDREU DIAZ",
+    "nombre_representante_legal": "Jose Miguel Andreu Diaz",
+    "email": "thetopcomics@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JOSE MIGUEL ANDREU DIAZ",
+    "nombre_representante_legal": "Jose Miguel Andreu Diaz",
+    "email": "thetopcomics@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "JOSE MIGUEL ANDREU DIAZ",
+    "nombre_representante_legal": "Jose Miguel Andreu Diaz",
+    "email": "thetopcomics@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "JOSE MIGUEL ANDREU DIAZ",
     "nombre_representante_legal": "Jose Miguel Andreu Diaz",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "ba6283abcb097a541300b6b111775023b8fcdb3045ada1cf32176a0b11abb70d",
+  "auditTrail": [
+    {
+      "eventId": "99ef0242-7962-450d-bcaf-24e1845cd25a",
+      "uid": "AEDM930422HC8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-28T18:21:31.596Z",
+      "timestampLocal": "2026-07-28T18:21:31.596Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.242.40",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 OPR/131.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8,it;q=0.7,de;q=0.6,fr;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AEDM930422HC8&nombre_proveedor_razon_social=JOSE+MIGUEL+ANDREU+DIAZ&nombre_representante_legal=Jose+Miguel+Andreu+Diaz&email=thetopcomics%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "ba6283abcb097a541300b6b111775023b8fcdb3045ada1cf32176a0b11abb70d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8741be30254a16c167e0604b1569399f6c942240fb440bacfb1c3b4f4086dd3c"
+    },
+    {
+      "eventId": "692b6ed7-3795-49cd-88e3-045cfe4c140e",
+      "uid": "AEDM930422HC8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-28T18:21:31.597Z",
+      "timestampLocal": "2026-07-28T18:21:31.597Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.242.40",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 OPR/131.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8,it;q=0.7,de;q=0.6,fr;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AEDM930422HC8&nombre_proveedor_razon_social=JOSE+MIGUEL+ANDREU+DIAZ&nombre_representante_legal=Jose+Miguel+Andreu+Diaz&email=thetopcomics%40gmail.com",
+      "previousEventHash": "8741be30254a16c167e0604b1569399f6c942240fb440bacfb1c3b4f4086dd3c",
+      "documentHash": "ba6283abcb097a541300b6b111775023b8fcdb3045ada1cf32176a0b11abb70d",
+      "metadata": {
+        "proveedor": "JOSE MIGUEL ANDREU DIAZ",
+        "representante": "Jose Miguel Andreu Diaz"
+      },
+      "eventHash": "96efb7414dc37e4dac3e27f61f0ce23d413598bdae85320d939442d58fb13a28"
+    }
+  ]
 }
