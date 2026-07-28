@@ -2,8 +2,23 @@
   "uid": "BABA960717J70",
   "token": "417ec03b-9e51-459f-a26b-2cd6bb2fced4",
   "createdAt": "2026-07-28T00:52:54.812Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JOSE ALEJANDRO BARRUETA BASILIO",
+    "nombre_representante_legal": "Jose Alejandro Barrueta Basilio",
+    "email": "aletsgo7@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JOSE ALEJANDRO BARRUETA BASILIO",
+    "nombre_representante_legal": "Jose Alejandro Barrueta Basilio",
+    "email": "aletsgo7@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "JOSE ALEJANDRO BARRUETA BASILIO",
+    "nombre_representante_legal": "Jose Alejandro Barrueta Basilio",
+    "email": "aletsgo7@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "JOSE ALEJANDRO BARRUETA BASILIO",
     "nombre_representante_legal": "Jose Alejandro Barrueta Basilio",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "358b3b77b1bc6fa334ee2f7eb3aad9f558c593f7350f5043e31b043bc5c7ee33",
+  "auditTrail": [
+    {
+      "eventId": "f0e97015-bf44-4d57-8a97-98aa8b0e68ce",
+      "uid": "BABA960717J70",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-28T00:53:04.823Z",
+      "timestampLocal": "2026-07-28T00:53:04.823Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.11.241",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BABA960717J70&nombre_proveedor_razon_social=JOSE+ALEJANDRO+BARRUETA+BASILIO&nombre_representante_legal=Jose+Alejandro+Barrueta+Basilio&email=aletsgo7%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "358b3b77b1bc6fa334ee2f7eb3aad9f558c593f7350f5043e31b043bc5c7ee33",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a120b8bb3e90efd6bf4db7f4f88be49d5ffd4117a0f70cb20088fbe1c46c1529"
+    },
+    {
+      "eventId": "e47a8b1f-ad79-4227-85ad-f6da4005fea1",
+      "uid": "BABA960717J70",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-28T00:53:04.823Z",
+      "timestampLocal": "2026-07-28T00:53:04.823Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.11.241",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BABA960717J70&nombre_proveedor_razon_social=JOSE+ALEJANDRO+BARRUETA+BASILIO&nombre_representante_legal=Jose+Alejandro+Barrueta+Basilio&email=aletsgo7%40gmail.com",
+      "previousEventHash": "a120b8bb3e90efd6bf4db7f4f88be49d5ffd4117a0f70cb20088fbe1c46c1529",
+      "documentHash": "358b3b77b1bc6fa334ee2f7eb3aad9f558c593f7350f5043e31b043bc5c7ee33",
+      "metadata": {
+        "proveedor": "JOSE ALEJANDRO BARRUETA BASILIO",
+        "representante": "Jose Alejandro Barrueta Basilio"
+      },
+      "eventHash": "cabbb1aaa94a4c9b3b0132f9a57901d1a3e774f3ce57bea6022f2bb12925a752"
+    }
+  ]
 }
