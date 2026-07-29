@@ -2,8 +2,23 @@
   "uid": "SATI990608241",
   "token": "aa443fa2-bf86-4838-b738-f45855d9af16",
   "createdAt": "2026-07-29T23:40:07.721Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Ivana Alexa Santillan Tellez",
+    "nombre_representante_legal": "Ivana Alexa Santillan Tellez",
+    "email": "alexasantillant@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Ivana Alexa Santillan Tellez",
+    "nombre_representante_legal": "Ivana Alexa Santillan Tellez",
+    "email": "alexasantillant@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Ivana Alexa Santillan Tellez",
+    "nombre_representante_legal": "Ivana Alexa Santillan Tellez",
+    "email": "alexasantillant@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Ivana Alexa Santillan Tellez",
     "nombre_representante_legal": "Ivana Alexa Santillan Tellez",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "175c484b806f900bbe4008f950d992b800a5b35d7f730baa303a0ea1f5bcf13f",
+  "auditTrail": [
+    {
+      "eventId": "aa42b2cf-7459-45b5-b42f-c4109cb937f1",
+      "uid": "SATI990608241",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-29T23:40:13.420Z",
+      "timestampLocal": "2026-07-29T23:40:13.420Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.130.56.239",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SATI990608241&nombre_proveedor_razon_social=Ivana+Alexa+Santillan+Tellez&nombre_representante_legal=Ivana+Alexa+Santillan+Tellez&email=alexasantillant%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "175c484b806f900bbe4008f950d992b800a5b35d7f730baa303a0ea1f5bcf13f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f414802010e5f6bd67336d0c9222d213dae2000591fd6b734dc92197a28ffba8"
+    },
+    {
+      "eventId": "cb22ece7-d5e6-4ee9-ae84-acdee5322678",
+      "uid": "SATI990608241",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-29T23:40:13.420Z",
+      "timestampLocal": "2026-07-29T23:40:13.420Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.130.56.239",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SATI990608241&nombre_proveedor_razon_social=Ivana+Alexa+Santillan+Tellez&nombre_representante_legal=Ivana+Alexa+Santillan+Tellez&email=alexasantillant%40gmail.com",
+      "previousEventHash": "f414802010e5f6bd67336d0c9222d213dae2000591fd6b734dc92197a28ffba8",
+      "documentHash": "175c484b806f900bbe4008f950d992b800a5b35d7f730baa303a0ea1f5bcf13f",
+      "metadata": {
+        "proveedor": "Ivana Alexa Santillan Tellez",
+        "representante": "Ivana Alexa Santillan Tellez"
+      },
+      "eventHash": "b2f98cb607f7a870c14322eea4bfb8220bbcd40696c871e608e948372528b880"
+    }
+  ]
 }
