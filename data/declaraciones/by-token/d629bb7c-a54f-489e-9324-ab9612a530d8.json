@@ -2,7 +2,7 @@
   "uid": "SOCA960522A9A",
   "token": "d629bb7c-a54f-489e-9324-ab9612a530d8",
   "createdAt": "2026-07-29T20:39:43.460Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Arnold Solis Chavez",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Arnold Solis Chavez",
     "email": "memesenlosgenes@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Arnold Solis Chavez",
-    "nombre_representante_legal": "Arnold Solis Chavez",
-    "email": "memesenlosgenes@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Arnold Solis Chavez",
     "nombre_representante_legal": "Arnold Solis Chavez",
     "email": "memesenlosgenes@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c4a4348d4472b563caf7ea2b9437267e908132de2dbc99f1389689011444d56c",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-29T14:40:46.731Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SOCA960522A9A",
+  "signatureMetadata": {
+    "ip": "189.217.82.228",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-29T20:40:50.087Z",
+    "signedAtLocal": "2026-07-29T14:40:50.087Z"
+  },
+  "documentHash": "9772f8c6a7d1b67e2fc4261e9cbde1f9d223dbdd48a1c32e2c80a542f2483ae5",
   "auditTrail": [
     {
       "eventId": "60ad794f-fbf7-4ff6-a2d1-a9f3254e4ad6",
@@ -102,6 +103,47 @@
         "representante": "Arnold Solis Chavez"
       },
       "eventHash": "7eb0dd46ebdfb52182b9d2bc831ad8b30ae6c8a86f47ec5105028196a1f7104f"
+    },
+    {
+      "eventId": "45aa2932-c85d-4afb-b7a7-a48156c83238",
+      "uid": "SOCA960522A9A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-29T20:40:05.114Z",
+      "timestampLocal": "2026-07-29T20:40:05.114Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.82.228",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SOCA960522A9A&nombre_proveedor_razon_social=Arnold+Solis+Chavez&nombre_representante_legal=Arnold+Solis+Chavez&email=memesenlosgenes%40gmail.com",
+      "previousEventHash": "7eb0dd46ebdfb52182b9d2bc831ad8b30ae6c8a86f47ec5105028196a1f7104f",
+      "documentHash": "c4a4348d4472b563caf7ea2b9437267e908132de2dbc99f1389689011444d56c",
+      "eventHash": "bf4405c2fd827cb315701613f1f8fcbfa98ba0c10d829f2d957747bb35df3505"
+    },
+    {
+      "eventId": "d55009df-8b76-4e28-a2ba-ecdc94a838ba",
+      "uid": "SOCA960522A9A",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-29T20:40:50.087Z",
+      "timestampLocal": "2026-07-29T14:40:50.087Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.82.228",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d629bb7c-a54f-489e-9324-ab9612a530d8",
+      "previousEventHash": "bf4405c2fd827cb315701613f1f8fcbfa98ba0c10d829f2d957747bb35df3505",
+      "documentHash": "9772f8c6a7d1b67e2fc4261e9cbde1f9d223dbdd48a1c32e2c80a542f2483ae5",
+      "signatureHash": "e26efa5bddf3739da745a1c2cfb5cbe6c8d9bf65232abd81d344add40b62a8be",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-29T14:40:46.731Z"
+      },
+      "eventHash": "2ed9f6c2f9d8afa1f59262ef0dad06bc19dd91b1039db7d08e1570cb85d9cf6e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-07-29T20:40:50.087Z"
+  }
 }
