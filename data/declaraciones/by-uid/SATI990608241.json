@@ -2,7 +2,7 @@
   "uid": "SATI990608241",
   "token": "aa443fa2-bf86-4838-b738-f45855d9af16",
   "createdAt": "2026-07-29T23:40:07.721Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Ivana Alexa Santillan Tellez",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Ivana Alexa Santillan Tellez",
     "email": "alexasantillant@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Ivana Alexa Santillan Tellez",
-    "nombre_representante_legal": "Ivana Alexa Santillan Tellez",
-    "email": "alexasantillant@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Ivana Alexa Santillan Tellez",
     "nombre_representante_legal": "Ivana Alexa Santillan Tellez",
     "email": "alexasantillant@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "175c484b806f900bbe4008f950d992b800a5b35d7f730baa303a0ea1f5bcf13f",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-29T17:40:28.644Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SATI990608241",
+  "signatureMetadata": {
+    "ip": "189.130.56.239",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-29T23:40:31.991Z",
+    "signedAtLocal": "2026-07-29T17:40:31.991Z"
+  },
+  "documentHash": "1887654c02abb7c7b7815f191ce78aed57cf3a028f26f6e249fb5a176af13954",
   "auditTrail": [
     {
       "eventId": "aa42b2cf-7459-45b5-b42f-c4109cb937f1",
@@ -65,6 +66,84 @@
         "representante": "Ivana Alexa Santillan Tellez"
       },
       "eventHash": "b2f98cb607f7a870c14322eea4bfb8220bbcd40696c871e608e948372528b880"
+    },
+    {
+      "eventId": "b97a2c2b-18c3-400d-a923-3bd8f9cfbded",
+      "uid": "SATI990608241",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-29T23:40:14.662Z",
+      "timestampLocal": "2026-07-29T23:40:14.662Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.130.56.239",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SATI990608241&nombre_proveedor_razon_social=Ivana+Alexa+Santillan+Tellez&nombre_representante_legal=Ivana+Alexa+Santillan+Tellez&email=alexasantillant%40gmail.com",
+      "previousEventHash": "b2f98cb607f7a870c14322eea4bfb8220bbcd40696c871e608e948372528b880",
+      "documentHash": "f30e1118d9bc0d4119e9abdfb55a11f532911d6c13ace54efdb6b02b8c02841f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "50697ab0a3ba3440ca616bfbce98bb7b26fa38e622e322dc4f6258e6ca11643c"
+    },
+    {
+      "eventId": "0d863283-9cbf-4307-a46f-2275e4869fca",
+      "uid": "SATI990608241",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-29T23:40:14.662Z",
+      "timestampLocal": "2026-07-29T23:40:14.662Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.130.56.239",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SATI990608241&nombre_proveedor_razon_social=Ivana+Alexa+Santillan+Tellez&nombre_representante_legal=Ivana+Alexa+Santillan+Tellez&email=alexasantillant%40gmail.com",
+      "previousEventHash": "50697ab0a3ba3440ca616bfbce98bb7b26fa38e622e322dc4f6258e6ca11643c",
+      "documentHash": "f30e1118d9bc0d4119e9abdfb55a11f532911d6c13ace54efdb6b02b8c02841f",
+      "metadata": {
+        "proveedor": "Ivana Alexa Santillan Tellez",
+        "representante": "Ivana Alexa Santillan Tellez"
+      },
+      "eventHash": "92183086e956d8c8738e4ac86d23171587ff7987ec3daed33f712682d0673d24"
+    },
+    {
+      "eventId": "94107e76-f0b9-42f5-8a3d-24736797c725",
+      "uid": "SATI990608241",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-29T23:40:16.468Z",
+      "timestampLocal": "2026-07-29T23:40:16.468Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.130.56.239",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SATI990608241&nombre_proveedor_razon_social=Ivana+Alexa+Santillan+Tellez&nombre_representante_legal=Ivana+Alexa+Santillan+Tellez&email=alexasantillant%40gmail.com",
+      "previousEventHash": "92183086e956d8c8738e4ac86d23171587ff7987ec3daed33f712682d0673d24",
+      "documentHash": "f30e1118d9bc0d4119e9abdfb55a11f532911d6c13ace54efdb6b02b8c02841f",
+      "eventHash": "28532382ea366eef44119414dd0bd557df300677970c7f79cdb2b4b10fef9afc"
+    },
+    {
+      "eventId": "947e621d-93b7-4ddd-856e-4abf0f6f09e4",
+      "uid": "SATI990608241",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-29T23:40:31.991Z",
+      "timestampLocal": "2026-07-29T17:40:31.991Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.130.56.239",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/aa443fa2-bf86-4838-b738-f45855d9af16",
+      "previousEventHash": "28532382ea366eef44119414dd0bd557df300677970c7f79cdb2b4b10fef9afc",
+      "documentHash": "1887654c02abb7c7b7815f191ce78aed57cf3a028f26f6e249fb5a176af13954",
+      "signatureHash": "16ab5aa0fd76b7a21594cbf37f92fa1469f6ede42b69c7274d6106172b9ac2e4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-29T17:40:28.644Z"
+      },
+      "eventHash": "7f609112d388454f372d3066e32ee88f2f561715f938e746ad0a30a28e023e1d"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-07-29T23:40:31.992Z"
+  }
 }
