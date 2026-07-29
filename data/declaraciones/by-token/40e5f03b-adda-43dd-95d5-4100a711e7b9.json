@@ -2,8 +2,23 @@
   "uid": "COOD0008296B6",
   "token": "40e5f03b-adda-43dd-95d5-4100a711e7b9",
   "createdAt": "2026-07-29T20:12:24.075Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "DEBORATH FERNANDA CONTRERAS OCHOA",
+    "nombre_representante_legal": "DEBORATH FERNANDA CONTRERAS OCHOA",
+    "email": "collabs.debyfer@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "DEBORATH FERNANDA CONTRERAS OCHOA",
+    "nombre_representante_legal": "DEBORATH FERNANDA CONTRERAS OCHOA",
+    "email": "collabs.debyfer@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "DEBORATH FERNANDA CONTRERAS OCHOA",
+    "nombre_representante_legal": "DEBORATH FERNANDA CONTRERAS OCHOA",
+    "email": "collabs.debyfer@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "DEBORATH FERNANDA CONTRERAS OCHOA",
     "nombre_representante_legal": "DEBORATH FERNANDA CONTRERAS OCHOA",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "bf2a58d5c15c33d6aaf868318c017be5f3859bc378489caaac9bf9dbcc60d735",
+  "auditTrail": [
+    {
+      "eventId": "09f26ffe-15b2-4a6c-ac45-ddd39fda762a",
+      "uid": "COOD0008296B6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-29T20:12:33.151Z",
+      "timestampLocal": "2026-07-29T20:12:33.151Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.166.169.68",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "bf2a58d5c15c33d6aaf868318c017be5f3859bc378489caaac9bf9dbcc60d735",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "19aa07eedcf29a0cfc2cc603c749c536453d9fe0d8ddf219e9a60b526aecbbf8"
+    },
+    {
+      "eventId": "c1a437f1-2972-4aa2-876f-70d0462a5a77",
+      "uid": "COOD0008296B6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-29T20:12:33.151Z",
+      "timestampLocal": "2026-07-29T20:12:33.151Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.166.169.68",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "19aa07eedcf29a0cfc2cc603c749c536453d9fe0d8ddf219e9a60b526aecbbf8",
+      "documentHash": "bf2a58d5c15c33d6aaf868318c017be5f3859bc378489caaac9bf9dbcc60d735",
+      "metadata": {
+        "proveedor": "DEBORATH FERNANDA CONTRERAS OCHOA",
+        "representante": "DEBORATH FERNANDA CONTRERAS OCHOA"
+      },
+      "eventHash": "b29211911afebeb93a41f37ade30bc7739afa3f1eba6c4f035cf7c9f86e07f04"
+    }
+  ]
 }
