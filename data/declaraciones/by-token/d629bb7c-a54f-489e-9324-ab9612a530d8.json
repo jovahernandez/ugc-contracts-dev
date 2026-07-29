@@ -2,8 +2,23 @@
   "uid": "SOCA960522A9A",
   "token": "d629bb7c-a54f-489e-9324-ab9612a530d8",
   "createdAt": "2026-07-29T20:39:43.460Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Arnold Solis Chavez",
+    "nombre_representante_legal": "Arnold Solis Chavez",
+    "email": "memesenlosgenes@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Arnold Solis Chavez",
+    "nombre_representante_legal": "Arnold Solis Chavez",
+    "email": "memesenlosgenes@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Arnold Solis Chavez",
+    "nombre_representante_legal": "Arnold Solis Chavez",
+    "email": "memesenlosgenes@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Arnold Solis Chavez",
     "nombre_representante_legal": "Arnold Solis Chavez",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "55a6fd294f52619e1697221a220d8a4b0c1c60d591eca42d8251dd27b977eb22",
+  "auditTrail": [
+    {
+      "eventId": "60ad794f-fbf7-4ff6-a2d1-a9f3254e4ad6",
+      "uid": "SOCA960522A9A",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-29T20:40:01.296Z",
+      "timestampLocal": "2026-07-29T20:40:01.296Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.82.228",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SOCA960522A9A&nombre_proveedor_razon_social=Arnold+Solis+Chavez&nombre_representante_legal=Arnold+Solis+Chavez&email=memesenlosgenes%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "55a6fd294f52619e1697221a220d8a4b0c1c60d591eca42d8251dd27b977eb22",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e39d319ba517c498c77d9ec655926b2b75bfa913b4eafd815a21ec17df3911af"
+    },
+    {
+      "eventId": "61e6a3f7-b11e-4820-9445-bce99088639e",
+      "uid": "SOCA960522A9A",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-29T20:40:01.296Z",
+      "timestampLocal": "2026-07-29T20:40:01.296Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.82.228",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SOCA960522A9A&nombre_proveedor_razon_social=Arnold+Solis+Chavez&nombre_representante_legal=Arnold+Solis+Chavez&email=memesenlosgenes%40gmail.com",
+      "previousEventHash": "e39d319ba517c498c77d9ec655926b2b75bfa913b4eafd815a21ec17df3911af",
+      "documentHash": "55a6fd294f52619e1697221a220d8a4b0c1c60d591eca42d8251dd27b977eb22",
+      "metadata": {
+        "proveedor": "Arnold Solis Chavez",
+        "representante": "Arnold Solis Chavez"
+      },
+      "eventHash": "1e54c6f895a74ff699e4c929f684bc9b5b3785ca1586755c68d4c37092e7ff27"
+    }
+  ]
 }
