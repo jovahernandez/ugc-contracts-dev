@@ -2,8 +2,23 @@
   "uid": "39.927.891/0001-61",
   "token": "a1f7003b-a396-463f-9718-b4dae981af89",
   "createdAt": "2026-07-29T20:54:08.416Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PH CORTES LTDA",
+    "nombre_representante_legal": "PEDRO HENRIQUE CORTES MOTTA",
+    "email": "phcortes@somoscortes.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PH CORTES LTDA",
+    "nombre_representante_legal": "PEDRO HENRIQUE CORTES MOTTA",
+    "email": "phcortes@somoscortes.com.br"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "PH CORTES LTDA",
+    "nombre_representante_legal": "PEDRO HENRIQUE CORTES MOTTA",
+    "email": "phcortes@somoscortes.com.br"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "PH CORTES LTDA",
     "nombre_representante_legal": "PEDRO HENRIQUE CORTES MOTTA",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "1fa09406e71139589dc9fae460eb540050d2f76dbe4628f80cd251acefab49d4",
+  "auditTrail": [
+    {
+      "eventId": "20b76a4b-089a-4647-a06e-c735c8d35fb5",
+      "uid": "39.927.891/0001-61",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-29T20:54:16.334Z",
+      "timestampLocal": "2026-07-29T20:54:16.334Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.70.14.113",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "1fa09406e71139589dc9fae460eb540050d2f76dbe4628f80cd251acefab49d4",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "6d3780546e711821bcea84d9c95aae151f8d539200d426c6c98496708b3b1d8e"
+    },
+    {
+      "eventId": "ea2273d1-de2d-42f3-8e71-bad0b97a38d7",
+      "uid": "39.927.891/0001-61",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-29T20:54:16.334Z",
+      "timestampLocal": "2026-07-29T20:54:16.334Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.70.14.113",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "6d3780546e711821bcea84d9c95aae151f8d539200d426c6c98496708b3b1d8e",
+      "documentHash": "1fa09406e71139589dc9fae460eb540050d2f76dbe4628f80cd251acefab49d4",
+      "metadata": {
+        "proveedor": "PH CORTES LTDA",
+        "representante": "PEDRO HENRIQUE CORTES MOTTA"
+      },
+      "eventHash": "c9831bea2f2897d9fd8a22de818a76eb60a29eea96fb9efc3f2dede04194b3d0"
+    }
+  ]
 }
