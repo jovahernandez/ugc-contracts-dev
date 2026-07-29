@@ -2,8 +2,23 @@
   "uid": "NMA2110121B7",
   "token": "0b8a178a-e308-4d52-890d-4ce6e1244d3a",
   "createdAt": "2026-07-29T16:13:14.550Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "911-DG MARKETING SA DE CV",
+    "nombre_representante_legal": "Melissa Arria Muñoz",
+    "email": "amilene@boostacademy.io"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "911-DG MARKETING SA DE CV",
+    "nombre_representante_legal": "Melissa Arria Muñoz",
+    "email": "amilene@boostacademy.io"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "911-DG MARKETING SA DE CV",
+    "nombre_representante_legal": "Melissa Arria Muñoz",
+    "email": "amilene@boostacademy.io"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "911-DG MARKETING SA DE CV",
     "nombre_representante_legal": "Melissa Arria Muñoz",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "2e095674dd2be9adb565ecedc88041f3ec925e70db929462b1249afbe437deb0",
+  "auditTrail": [
+    {
+      "eventId": "f915be00-79f7-4a91-8051-d8250377d973",
+      "uid": "NMA2110121B7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-29T16:13:20.731Z",
+      "timestampLocal": "2026-07-29T16:13:20.731Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.76.122",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=NMA2110121B7&nombre_proveedor_razon_social=911-DG+MARKETING+SA+DE+CV+&nombre_representante_legal=Melissa+Arria+Mu%C3%B1oz+&email=amilene%40boostacademy.io",
+      "previousEventHash": null,
+      "documentHash": "2e095674dd2be9adb565ecedc88041f3ec925e70db929462b1249afbe437deb0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "149d8a99aa01428bd6ccffda4fc94c9a0bf62cee10a959097d3f5f45b14623c0"
+    },
+    {
+      "eventId": "d5f2e90c-7633-4be2-bb6d-1c98a4a4189a",
+      "uid": "NMA2110121B7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-29T16:13:20.732Z",
+      "timestampLocal": "2026-07-29T16:13:20.732Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.76.122",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=NMA2110121B7&nombre_proveedor_razon_social=911-DG+MARKETING+SA+DE+CV+&nombre_representante_legal=Melissa+Arria+Mu%C3%B1oz+&email=amilene%40boostacademy.io",
+      "previousEventHash": "149d8a99aa01428bd6ccffda4fc94c9a0bf62cee10a959097d3f5f45b14623c0",
+      "documentHash": "2e095674dd2be9adb565ecedc88041f3ec925e70db929462b1249afbe437deb0",
+      "metadata": {
+        "proveedor": "911-DG MARKETING SA DE CV",
+        "representante": "Melissa Arria Muñoz"
+      },
+      "eventHash": "5613d14e516978f7f81e8d04a7494ea881e3eb040b7a9ea3ce8bd64dc42084c4"
+    }
+  ]
 }
