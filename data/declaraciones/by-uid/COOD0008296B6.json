@@ -2,7 +2,7 @@
   "uid": "COOD0008296B6",
   "token": "7edf236c-4ab8-48b2-8c50-844604b9a9d5",
   "createdAt": "2026-07-29T17:24:46.038Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DEBORATH FERNANDA CONTRERAS OCHOA",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "DEBORATH FERNANDA CONTRERAS OCHOA",
     "email": "collabs.debyfer@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "DEBORATH FERNANDA CONTRERAS OCHOA",
-    "nombre_representante_legal": "DEBORATH FERNANDA CONTRERAS OCHOA",
-    "email": "collabs.debyfer@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "DEBORATH FERNANDA CONTRERAS OCHOA",
     "nombre_representante_legal": "DEBORATH FERNANDA CONTRERAS OCHOA",
     "email": "collabs.debyfer@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4482f0b693e56516000c78e088e41a0869dde5d3a02b3dab30e70b16dbac3299",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-29T11:25:23.883Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/COOD0008296B6",
+  "signatureMetadata": {
+    "ip": "201.137.133.8",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-29T17:25:27.245Z",
+    "signedAtLocal": "2026-07-29T11:25:27.245Z"
+  },
+  "documentHash": "d4e6e85bad65c50fb8eab8d7765c74809e1111af4230e5d58d1a8ffb4937e9ba",
   "auditTrail": [
     {
       "eventId": "72f850b8-0833-4615-949a-9ed862044d3d",
@@ -65,6 +66,47 @@
         "representante": "DEBORATH FERNANDA CONTRERAS OCHOA"
       },
       "eventHash": "eb2fcdb2def396bb8f14344e4fc1ff7e21f08d7b1c679881bf82452ac040184e"
+    },
+    {
+      "eventId": "0bcb70d7-765c-4104-bc9b-50af7a4e433d",
+      "uid": "COOD0008296B6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-29T17:24:54.758Z",
+      "timestampLocal": "2026-07-29T17:24:54.758Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.133.8",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=COOD0008296B6&nombre_proveedor_razon_social=DEBORATH+FERNANDA+CONTRERAS+OCHOA&nombre_representante_legal=DEBORATH+FERNANDA+CONTRERAS+OCHOA&email=collabs.debyfer%40gmail.com",
+      "previousEventHash": "eb2fcdb2def396bb8f14344e4fc1ff7e21f08d7b1c679881bf82452ac040184e",
+      "documentHash": "4482f0b693e56516000c78e088e41a0869dde5d3a02b3dab30e70b16dbac3299",
+      "eventHash": "50443fcc64d625455d84491f3959a8295a1efac5bc392506982b5eb5c0685966"
+    },
+    {
+      "eventId": "1193345b-0793-4cab-b8db-0baf4305a550",
+      "uid": "COOD0008296B6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-29T17:25:27.245Z",
+      "timestampLocal": "2026-07-29T11:25:27.245Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.137.133.8",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7edf236c-4ab8-48b2-8c50-844604b9a9d5",
+      "previousEventHash": "50443fcc64d625455d84491f3959a8295a1efac5bc392506982b5eb5c0685966",
+      "documentHash": "d4e6e85bad65c50fb8eab8d7765c74809e1111af4230e5d58d1a8ffb4937e9ba",
+      "signatureHash": "52e0169f5075da4ef7f776cc667c29fdd2cb7fa9fa7b19ddbc85902416ba4be2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-29T11:25:23.883Z"
+      },
+      "eventHash": "69935b16dcd0ef43722e277f68e20b17677d143659e033417f9a5ccab37cb106"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-29T17:25:27.246Z"
+  }
 }
