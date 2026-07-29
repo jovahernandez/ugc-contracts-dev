@@ -2,7 +2,7 @@
   "uid": "842496624",
   "token": "8feec401-2536-4162-a9cc-286d05183110",
   "createdAt": "2026-07-29T16:42:15.213Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "LLMM LLC",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Lina Caceres",
     "email": "lina@latinwe.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "LLMM LLC",
-    "nombre_representante_legal": "Lina Caceres",
-    "email": "lina@latinwe.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "LLMM LLC",
     "nombre_representante_legal": "Lina Caceres",
     "email": "lina@latinwe.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6d7dc8c1c509a5e6f232434995cf79c8a00ff1d8a6d14a22a0bc3d310ff6983d",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-29T11:42:46.338Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/842496624",
+  "signatureMetadata": {
+    "ip": "186.86.32.80",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-29T16:42:49.677Z",
+    "signedAtLocal": "2026-07-29T11:42:49.677Z"
+  },
+  "documentHash": "035331e67330ba109b5b73c065b5011e7d3e2ee87f23ada7ab4551de510f404a",
   "auditTrail": [
     {
       "eventId": "8827d5bd-f3b3-408a-a516-e8d1248dcb67",
@@ -65,6 +66,47 @@
         "representante": "Lina Caceres"
       },
       "eventHash": "b77ab68bd734d61c7a7673e09f313e16eca5d03702dbb0ad8a4e6a91f61ecaef"
+    },
+    {
+      "eventId": "a4717aa1-bec8-43e5-9f9f-661a0fef43be",
+      "uid": "842496624",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-29T16:42:27.724Z",
+      "timestampLocal": "2026-07-29T16:42:27.724Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.86.32.80",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=842496624&nombre_proveedor_razon_social=LLMM+LLC+&nombre_representante_legal=Lina+Caceres&email=lina%40latinwe.com",
+      "previousEventHash": "b77ab68bd734d61c7a7673e09f313e16eca5d03702dbb0ad8a4e6a91f61ecaef",
+      "documentHash": "6d7dc8c1c509a5e6f232434995cf79c8a00ff1d8a6d14a22a0bc3d310ff6983d",
+      "eventHash": "d444e740d60a3e48664bf236c22bbe551f27cee98bb1756c2329113da3cfa493"
+    },
+    {
+      "eventId": "d970e16f-a05c-4678-84fe-30044f3a92c0",
+      "uid": "842496624",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-29T16:42:49.677Z",
+      "timestampLocal": "2026-07-29T11:42:49.677Z",
+      "timezone": "UTC-5",
+      "ipAddress": "186.86.32.80",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8feec401-2536-4162-a9cc-286d05183110",
+      "previousEventHash": "d444e740d60a3e48664bf236c22bbe551f27cee98bb1756c2329113da3cfa493",
+      "documentHash": "035331e67330ba109b5b73c065b5011e7d3e2ee87f23ada7ab4551de510f404a",
+      "signatureHash": "addc1fb1e84145403216eee2e0df01ab11c094fe9d46e77e4138324f0b6e3733",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-29T11:42:46.338Z"
+      },
+      "eventHash": "0f7f7ba19777cf01f8294f4410b45e43b743e9522f97435f5bb3da7cf6aa7941"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-29T16:42:49.678Z"
+  }
 }
