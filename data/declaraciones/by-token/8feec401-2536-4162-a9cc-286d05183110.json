@@ -2,8 +2,23 @@
   "uid": "842496624",
   "token": "8feec401-2536-4162-a9cc-286d05183110",
   "createdAt": "2026-07-29T16:42:15.213Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "LLMM LLC",
+    "nombre_representante_legal": "Lina Caceres",
+    "email": "lina@latinwe.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "LLMM LLC",
+    "nombre_representante_legal": "Lina Caceres",
+    "email": "lina@latinwe.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "LLMM LLC",
+    "nombre_representante_legal": "Lina Caceres",
+    "email": "lina@latinwe.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "LLMM LLC",
     "nombre_representante_legal": "Lina Caceres",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "6d7dc8c1c509a5e6f232434995cf79c8a00ff1d8a6d14a22a0bc3d310ff6983d",
+  "auditTrail": [
+    {
+      "eventId": "8827d5bd-f3b3-408a-a516-e8d1248dcb67",
+      "uid": "842496624",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-29T16:42:25.122Z",
+      "timestampLocal": "2026-07-29T16:42:25.122Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.86.32.80",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=842496624&nombre_proveedor_razon_social=LLMM+LLC+&nombre_representante_legal=Lina+Caceres&email=lina%40latinwe.com",
+      "previousEventHash": null,
+      "documentHash": "6d7dc8c1c509a5e6f232434995cf79c8a00ff1d8a6d14a22a0bc3d310ff6983d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "fa23a7a7c7e9d0713ace8fdb098ebec1a4f94c9216dd3777acb5552c00043114"
+    },
+    {
+      "eventId": "a88d3606-8fcf-4ca0-9480-75946b2b0694",
+      "uid": "842496624",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-29T16:42:25.122Z",
+      "timestampLocal": "2026-07-29T16:42:25.122Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.86.32.80",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=842496624&nombre_proveedor_razon_social=LLMM+LLC+&nombre_representante_legal=Lina+Caceres&email=lina%40latinwe.com",
+      "previousEventHash": "fa23a7a7c7e9d0713ace8fdb098ebec1a4f94c9216dd3777acb5552c00043114",
+      "documentHash": "6d7dc8c1c509a5e6f232434995cf79c8a00ff1d8a6d14a22a0bc3d310ff6983d",
+      "metadata": {
+        "proveedor": "LLMM LLC",
+        "representante": "Lina Caceres"
+      },
+      "eventHash": "b77ab68bd734d61c7a7673e09f313e16eca5d03702dbb0ad8a4e6a91f61ecaef"
+    }
+  ]
 }
