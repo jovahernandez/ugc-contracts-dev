@@ -2,8 +2,23 @@
   "uid": "POGL760903M5A",
   "token": "5cc0bd65-9f3e-4657-8e4b-96f8bb8f9acb",
   "createdAt": "2026-07-30T19:20:27.991Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "LORENA JUDITH PORTILLO GEORGGE",
+    "nombre_representante_legal": "LORENA JUDITH PORTILLO GEORGGE",
+    "email": "lopoge@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "LORENA JUDITH PORTILLO GEORGGE",
+    "nombre_representante_legal": "LORENA JUDITH PORTILLO GEORGGE",
+    "email": "lopoge@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "LORENA JUDITH PORTILLO GEORGGE",
+    "nombre_representante_legal": "LORENA JUDITH PORTILLO GEORGGE",
+    "email": "lopoge@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "LORENA JUDITH PORTILLO GEORGGE",
     "nombre_representante_legal": "LORENA JUDITH PORTILLO GEORGGE",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "58960a46efd0c4fffe9c63018b83b0a3f4be5a68c650aac86cf974c4443a5d00",
+  "auditTrail": [
+    {
+      "eventId": "8e6d5d78-f05a-49db-b0a0-4bc589522261",
+      "uid": "POGL760903M5A",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-30T19:20:55.075Z",
+      "timestampLocal": "2026-07-30T19:20:55.075Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.27.25",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=POGL760903M5A&nombre_proveedor_razon_social=LORENA+JUDITH+PORTILLO+GEORGGE&nombre_representante_legal=LORENA+JUDITH+PORTILLO+GEORGGE&email=lopoge%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "58960a46efd0c4fffe9c63018b83b0a3f4be5a68c650aac86cf974c4443a5d00",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "807ebe1f10617bcd7972ca47c4063827e7b0f809961dee6b809591a137cfb4a9"
+    },
+    {
+      "eventId": "7d431821-0d57-480c-ba20-07dcb9113138",
+      "uid": "POGL760903M5A",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-30T19:20:55.075Z",
+      "timestampLocal": "2026-07-30T19:20:55.075Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.27.25",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=POGL760903M5A&nombre_proveedor_razon_social=LORENA+JUDITH+PORTILLO+GEORGGE&nombre_representante_legal=LORENA+JUDITH+PORTILLO+GEORGGE&email=lopoge%40gmail.com",
+      "previousEventHash": "807ebe1f10617bcd7972ca47c4063827e7b0f809961dee6b809591a137cfb4a9",
+      "documentHash": "58960a46efd0c4fffe9c63018b83b0a3f4be5a68c650aac86cf974c4443a5d00",
+      "metadata": {
+        "proveedor": "LORENA JUDITH PORTILLO GEORGGE",
+        "representante": "LORENA JUDITH PORTILLO GEORGGE"
+      },
+      "eventHash": "27214971c582fa33053af77734188f4b527bc4a7be1775d1d69f51176e8ad4e0"
+    }
+  ]
 }
