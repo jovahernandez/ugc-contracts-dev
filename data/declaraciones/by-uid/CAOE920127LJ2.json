@@ -2,8 +2,23 @@
   "uid": "CAOE920127LJ2",
   "token": "d57e3bdf-b2aa-4e95-9b2a-90a205179a56",
   "createdAt": "2026-07-30T00:06:38.614Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "EDGAR DAVID CASTELLANOS OCHOA",
+    "nombre_representante_legal": "EDGAR DAVID CASTELLANOS OCHOA",
+    "email": "edgar.castellanos.ochoa@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "EDGAR DAVID CASTELLANOS OCHOA",
+    "nombre_representante_legal": "EDGAR DAVID CASTELLANOS OCHOA",
+    "email": "edgar.castellanos.ochoa@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "EDGAR DAVID CASTELLANOS OCHOA",
+    "nombre_representante_legal": "EDGAR DAVID CASTELLANOS OCHOA",
+    "email": "edgar.castellanos.ochoa@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "EDGAR DAVID CASTELLANOS OCHOA",
     "nombre_representante_legal": "EDGAR DAVID CASTELLANOS OCHOA",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "e97cbfe92b61af27f207ecf39e9d44c93635c0387a9a4f5606e16ffb6deb6a61",
+  "auditTrail": [
+    {
+      "eventId": "9710cfdc-f4db-41dd-b88e-a14704f34fce",
+      "uid": "CAOE920127LJ2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-30T00:06:44.503Z",
+      "timestampLocal": "2026-07-30T00:06:44.503Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.137.183.63",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAOE920127LJ2&nombre_proveedor_razon_social=EDGAR+DAVID+CASTELLANOS+OCHOA&nombre_representante_legal=EDGAR+DAVID+CASTELLANOS+OCHOA&email=edgar.castellanos.ochoa%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "e97cbfe92b61af27f207ecf39e9d44c93635c0387a9a4f5606e16ffb6deb6a61",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "42d58d1d6e8504d40f588537a39055438baef3e52bf754a0e920b730f307ea2d"
+    },
+    {
+      "eventId": "f7adc91a-2031-442d-ab6a-4ef1b1059c4e",
+      "uid": "CAOE920127LJ2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-30T00:06:44.503Z",
+      "timestampLocal": "2026-07-30T00:06:44.503Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.137.183.63",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAOE920127LJ2&nombre_proveedor_razon_social=EDGAR+DAVID+CASTELLANOS+OCHOA&nombre_representante_legal=EDGAR+DAVID+CASTELLANOS+OCHOA&email=edgar.castellanos.ochoa%40gmail.com",
+      "previousEventHash": "42d58d1d6e8504d40f588537a39055438baef3e52bf754a0e920b730f307ea2d",
+      "documentHash": "e97cbfe92b61af27f207ecf39e9d44c93635c0387a9a4f5606e16ffb6deb6a61",
+      "metadata": {
+        "proveedor": "EDGAR DAVID CASTELLANOS OCHOA",
+        "representante": "EDGAR DAVID CASTELLANOS OCHOA"
+      },
+      "eventHash": "7690339eb93aadd5f34c404258dca8b7b291c3b23e261774e2ace7be94282bb9"
+    }
+  ]
 }
