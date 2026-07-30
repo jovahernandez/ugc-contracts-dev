@@ -2,7 +2,7 @@
   "uid": "CAOE920127LJ2",
   "token": "d57e3bdf-b2aa-4e95-9b2a-90a205179a56",
   "createdAt": "2026-07-30T00:06:38.614Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EDGAR DAVID CASTELLANOS OCHOA",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "EDGAR DAVID CASTELLANOS OCHOA",
     "email": "edgar.castellanos.ochoa@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "EDGAR DAVID CASTELLANOS OCHOA",
-    "nombre_representante_legal": "EDGAR DAVID CASTELLANOS OCHOA",
-    "email": "edgar.castellanos.ochoa@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "EDGAR DAVID CASTELLANOS OCHOA",
     "nombre_representante_legal": "EDGAR DAVID CASTELLANOS OCHOA",
     "email": "edgar.castellanos.ochoa@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e97cbfe92b61af27f207ecf39e9d44c93635c0387a9a4f5606e16ffb6deb6a61",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-29T18:10:35.928Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CAOE920127LJ2",
+  "signatureMetadata": {
+    "ip": "189.137.183.63",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-30T00:10:39.280Z",
+    "signedAtLocal": "2026-07-29T18:10:39.280Z"
+  },
+  "documentHash": "d9bd18880be3ab16284e6cc87ef898706fc0e593e43450db508588c453340b08",
   "auditTrail": [
     {
       "eventId": "9710cfdc-f4db-41dd-b88e-a14704f34fce",
@@ -65,6 +66,47 @@
         "representante": "EDGAR DAVID CASTELLANOS OCHOA"
       },
       "eventHash": "7690339eb93aadd5f34c404258dca8b7b291c3b23e261774e2ace7be94282bb9"
+    },
+    {
+      "eventId": "36087f92-5d13-48a0-9554-609635706efb",
+      "uid": "CAOE920127LJ2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-30T00:06:46.446Z",
+      "timestampLocal": "2026-07-30T00:06:46.446Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.137.183.63",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAOE920127LJ2&nombre_proveedor_razon_social=EDGAR+DAVID+CASTELLANOS+OCHOA&nombre_representante_legal=EDGAR+DAVID+CASTELLANOS+OCHOA&email=edgar.castellanos.ochoa%40gmail.com",
+      "previousEventHash": "7690339eb93aadd5f34c404258dca8b7b291c3b23e261774e2ace7be94282bb9",
+      "documentHash": "e97cbfe92b61af27f207ecf39e9d44c93635c0387a9a4f5606e16ffb6deb6a61",
+      "eventHash": "aae961c42071ea40a774a93b866033e4a15a591c4ef6263ca6b208b1edfb919d"
+    },
+    {
+      "eventId": "7a4680a4-d0b3-4a5c-9c6d-a466a2650214",
+      "uid": "CAOE920127LJ2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-30T00:10:39.281Z",
+      "timestampLocal": "2026-07-29T18:10:39.281Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.137.183.63",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d57e3bdf-b2aa-4e95-9b2a-90a205179a56",
+      "previousEventHash": "aae961c42071ea40a774a93b866033e4a15a591c4ef6263ca6b208b1edfb919d",
+      "documentHash": "d9bd18880be3ab16284e6cc87ef898706fc0e593e43450db508588c453340b08",
+      "signatureHash": "661321c0c1863c41f59ac833cb5b4610ed42405823222dae8b87e677c35e2925",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-29T18:10:35.928Z"
+      },
+      "eventHash": "a41237b8dd09905d81b8d32487ad7cb19f39404722ae520a5e1380697463be71"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-30T00:10:39.281Z"
+  }
 }
