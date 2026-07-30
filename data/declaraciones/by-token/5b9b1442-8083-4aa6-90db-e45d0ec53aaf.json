@@ -2,7 +2,7 @@
   "uid": "1026306163",
   "token": "5b9b1442-8083-4aa6-90db-e45d0ec53aaf",
   "createdAt": "2026-07-27T19:44:25.541Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JUANDY SALAZAR GARCIA",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "n/A",
     "email": "operaciones@factcil.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "JUANDY SALAZAR GARCIA",
-    "nombre_representante_legal": "n/A",
-    "email": "operaciones@factcil.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "JUANDY SALAZAR GARCIA",
     "nombre_representante_legal": "n/A",
     "email": "operaciones@factcil.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "cbe92d216a16b3fd923d2a728df3e946a85d369eebc66bf57fe5e947da3e2840",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-30T09:13:01.363Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/1026306163",
+  "signatureMetadata": {
+    "ip": "181.133.172.49",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-07-30T14:13:04.696Z",
+    "signedAtLocal": "2026-07-30T09:13:04.696Z"
+  },
+  "documentHash": "bacbd667d2db9be644d694c7a5bfcd6c5c649733e372ef0587a63b5133cfdeb8",
   "auditTrail": [
     {
       "eventId": "73be0481-8b84-4643-ba31-0fec76db7217",
@@ -102,6 +103,47 @@
         "representante": "n/A"
       },
       "eventHash": "94c8e03b6c318248d6143d891761f195ead1e264f81b72dc8a7c702d699cdeaa"
+    },
+    {
+      "eventId": "bf2a4b7f-472d-4fe8-8485-079dc7f40af9",
+      "uid": "1026306163",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-30T14:12:49.064Z",
+      "timestampLocal": "2026-07-30T14:12:49.064Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.133.172.49",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "94c8e03b6c318248d6143d891761f195ead1e264f81b72dc8a7c702d699cdeaa",
+      "documentHash": "cbe92d216a16b3fd923d2a728df3e946a85d369eebc66bf57fe5e947da3e2840",
+      "eventHash": "62ecb7332209f88d12aaeeb9911c5879e0d721a581d2227ae73577901b973ade"
+    },
+    {
+      "eventId": "71a70d1d-ae27-47ce-b080-d52d8c278242",
+      "uid": "1026306163",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-30T14:13:04.696Z",
+      "timestampLocal": "2026-07-30T09:13:04.696Z",
+      "timezone": "UTC-5",
+      "ipAddress": "181.133.172.49",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "62ecb7332209f88d12aaeeb9911c5879e0d721a581d2227ae73577901b973ade",
+      "documentHash": "bacbd667d2db9be644d694c7a5bfcd6c5c649733e372ef0587a63b5133cfdeb8",
+      "signatureHash": "62702697a1cd03637f36cb9ecbfb1e7e1766eae9e062169af11b935d5664638f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-30T09:13:01.363Z"
+      },
+      "eventHash": "bb06bac87ec0aa7ab01fa8d44a42cc158c1473b053b9ec752ce623acd466ea95"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-07-30T14:13:04.697Z"
+  }
 }
