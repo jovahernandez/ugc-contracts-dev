@@ -2,8 +2,23 @@
   "uid": "1026306163",
   "token": "5b9b1442-8083-4aa6-90db-e45d0ec53aaf",
   "createdAt": "2026-07-27T19:44:25.541Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JUANDY SALAZAR GARCIA",
+    "nombre_representante_legal": "n/A",
+    "email": "operaciones@factcil.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JUANDY SALAZAR GARCIA",
+    "nombre_representante_legal": "n/A",
+    "email": "operaciones@factcil.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "JUANDY SALAZAR GARCIA",
+    "nombre_representante_legal": "n/A",
+    "email": "operaciones@factcil.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "JUANDY SALAZAR GARCIA",
     "nombre_representante_legal": "n/A",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a104baeafe7c91b299c7230ecb9a6bd31ba070d30b2de4e8cdc942ebbc230039",
+  "auditTrail": [
+    {
+      "eventId": "73be0481-8b84-4643-ba31-0fec76db7217",
+      "uid": "1026306163",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-30T14:12:44.862Z",
+      "timestampLocal": "2026-07-30T14:12:44.862Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.133.172.49",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "a104baeafe7c91b299c7230ecb9a6bd31ba070d30b2de4e8cdc942ebbc230039",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ad83a8fcc360112b5fd81f50860f173d61bd441ee46af5708e0db750acec4ea9"
+    },
+    {
+      "eventId": "c9320e12-c07e-4eea-821f-e5aacf7207dc",
+      "uid": "1026306163",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-30T14:12:44.862Z",
+      "timestampLocal": "2026-07-30T14:12:44.862Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.133.172.49",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ad83a8fcc360112b5fd81f50860f173d61bd441ee46af5708e0db750acec4ea9",
+      "documentHash": "a104baeafe7c91b299c7230ecb9a6bd31ba070d30b2de4e8cdc942ebbc230039",
+      "metadata": {
+        "proveedor": "JUANDY SALAZAR GARCIA",
+        "representante": "n/A"
+      },
+      "eventHash": "6915d7e5457bb4a485d13419f41c4e123fef8b59874009108b633b1d321efcd3"
+    }
+  ]
 }
