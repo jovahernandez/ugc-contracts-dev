@@ -2,8 +2,23 @@
   "uid": "36.912.710/0001-35",
   "token": "d770801b-b8b1-4da2-b933-2bbd62f190a4",
   "createdAt": "2026-07-30T19:35:49.887Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "LIKEY INFLUENCIA LTDA",
+    "nombre_representante_legal": "CAIO DE AQUINO GALLO",
+    "email": "carellano@efficenta.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "LIKEY INFLUENCIA LTDA",
+    "nombre_representante_legal": "CAIO DE AQUINO GALLO",
+    "email": "carellano@efficenta.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "LIKEY INFLUENCIA LTDA",
+    "nombre_representante_legal": "CAIO DE AQUINO GALLO",
+    "email": "carellano@efficenta.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "LIKEY INFLUENCIA LTDA",
     "nombre_representante_legal": "CAIO DE AQUINO GALLO",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "dc6b55ff5546c6a550abd44eb816e8e2ff1323723cb27b51ca475d2ee9149a08",
+  "auditTrail": [
+    {
+      "eventId": "0900c1ad-4fde-4573-b6a2-f4dc3b9765da",
+      "uid": "36.912.710/0001-35",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-30T19:36:01.508Z",
+      "timestampLocal": "2026-07-30T19:36:01.508Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.215.147",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=36.912.710%2F0001-35&nombre_proveedor_razon_social=LIKEY+INFLUENCIA+LTDA&nombre_representante_legal=CAIO+DE+AQUINO+GALLO+&email=carellano%40efficenta.com",
+      "previousEventHash": null,
+      "documentHash": "dc6b55ff5546c6a550abd44eb816e8e2ff1323723cb27b51ca475d2ee9149a08",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "11f6557e6adb62c3908c19d6c614dc5646a97d7b3ba51cbb2e324cb4b2211097"
+    },
+    {
+      "eventId": "7f37ffb3-ccd2-4ab3-aec9-a380d2071986",
+      "uid": "36.912.710/0001-35",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-30T19:36:01.508Z",
+      "timestampLocal": "2026-07-30T19:36:01.508Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.215.147",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=36.912.710%2F0001-35&nombre_proveedor_razon_social=LIKEY+INFLUENCIA+LTDA&nombre_representante_legal=CAIO+DE+AQUINO+GALLO+&email=carellano%40efficenta.com",
+      "previousEventHash": "11f6557e6adb62c3908c19d6c614dc5646a97d7b3ba51cbb2e324cb4b2211097",
+      "documentHash": "dc6b55ff5546c6a550abd44eb816e8e2ff1323723cb27b51ca475d2ee9149a08",
+      "metadata": {
+        "proveedor": "LIKEY INFLUENCIA LTDA",
+        "representante": "CAIO DE AQUINO GALLO"
+      },
+      "eventHash": "1901d43b070667f29c72fffeb17c2f2b1253bb5fcf65ed2d7fda980d22a18c88"
+    }
+  ]
 }
