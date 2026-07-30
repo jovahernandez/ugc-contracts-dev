@@ -2,8 +2,23 @@
   "uid": "KIW0907306Z1",
   "token": "ff44c01e-8047-4c6e-bef1-4e31d509335d",
   "createdAt": "2026-07-30T15:24:21.060Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Kiwilimón, SAPI de CV",
+    "nombre_representante_legal": "Jessica Del Carmen Gamboa García",
+    "email": "miguel.nepomuceno@kiwilimon.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Kiwilimón, SAPI de CV",
+    "nombre_representante_legal": "Jessica Del Carmen Gamboa García",
+    "email": "miguel.nepomuceno@kiwilimon.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Kiwilimón, SAPI de CV",
+    "nombre_representante_legal": "Jessica Del Carmen Gamboa García",
+    "email": "miguel.nepomuceno@kiwilimon.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Kiwilimón, SAPI de CV",
     "nombre_representante_legal": "Jessica Del Carmen Gamboa García",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "5b2c4517685a42e7f86896eda509e4eddee66d21e7e0c1e37ce36016799e9c14",
+  "auditTrail": [
+    {
+      "eventId": "e1ac8af9-23f4-435d-abf2-b32220eb0264",
+      "uid": "KIW0907306Z1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-30T15:24:27.966Z",
+      "timestampLocal": "2026-07-30T15:24:27.966Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.230.236.116",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=KIW0907306Z1&nombre_proveedor_razon_social=Kiwilim%C3%B3n%2C+SAPI+de+CV+&nombre_representante_legal=Jessica+Del+Carmen+Gamboa+Garc%C3%ADa+&email=miguel.nepomuceno%40kiwilimon.com",
+      "previousEventHash": null,
+      "documentHash": "5b2c4517685a42e7f86896eda509e4eddee66d21e7e0c1e37ce36016799e9c14",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9d7acde03f249d627aec64c04bb4c7a6bd09f868ae97e3e76a139a804a321377"
+    },
+    {
+      "eventId": "54d7abf8-9eb4-4aa9-a1ce-a8b73ac2e679",
+      "uid": "KIW0907306Z1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-30T15:24:27.967Z",
+      "timestampLocal": "2026-07-30T15:24:27.967Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.230.236.116",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=KIW0907306Z1&nombre_proveedor_razon_social=Kiwilim%C3%B3n%2C+SAPI+de+CV+&nombre_representante_legal=Jessica+Del+Carmen+Gamboa+Garc%C3%ADa+&email=miguel.nepomuceno%40kiwilimon.com",
+      "previousEventHash": "9d7acde03f249d627aec64c04bb4c7a6bd09f868ae97e3e76a139a804a321377",
+      "documentHash": "5b2c4517685a42e7f86896eda509e4eddee66d21e7e0c1e37ce36016799e9c14",
+      "metadata": {
+        "proveedor": "Kiwilimón, SAPI de CV",
+        "representante": "Jessica Del Carmen Gamboa García"
+      },
+      "eventHash": "5c170c0e7c7837851efa412b804c09efaf419c829dff24374be424375b01da6c"
+    }
+  ]
 }
