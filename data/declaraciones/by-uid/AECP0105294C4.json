@@ -2,8 +2,23 @@
   "uid": "AECP0105294C4",
   "token": "083dc040-2c14-4db3-8385-314e0854d500",
   "createdAt": "2026-07-31T17:57:52.530Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PAOLA ROSARIO ANGEL CAMARENA",
+    "nombre_representante_legal": "NA",
+    "email": "paolaangelcuentas@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PAOLA ROSARIO ANGEL CAMARENA",
+    "nombre_representante_legal": "NA",
+    "email": "paolaangelcuentas@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "PAOLA ROSARIO ANGEL CAMARENA",
+    "nombre_representante_legal": "NA",
+    "email": "paolaangelcuentas@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "PAOLA ROSARIO ANGEL CAMARENA",
     "nombre_representante_legal": "NA",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "462cfcfe6d8e3a1f9b38b27229921d8c25535b51c509b47b9f4ae21c6eda5b2e",
+  "auditTrail": [
+    {
+      "eventId": "8213a6e2-9895-4542-916c-4c0b27a28dbe",
+      "uid": "AECP0105294C4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-31T18:00:00.944Z",
+      "timestampLocal": "2026-07-31T18:00:00.944Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.50.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AECP0105294C4&nombre_proveedor_razon_social=PAOLA+ROSARIO+ANGEL+CAMARENA&nombre_representante_legal=NA&email=paolaangelcuentas%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "462cfcfe6d8e3a1f9b38b27229921d8c25535b51c509b47b9f4ae21c6eda5b2e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "96856e7ecdd4deb02f47069f593ab4ae7c2c90a045b82c4606eafd0b12004834"
+    },
+    {
+      "eventId": "4b59a1be-5ed5-4407-9c53-a35c9f76c556",
+      "uid": "AECP0105294C4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-31T18:00:00.944Z",
+      "timestampLocal": "2026-07-31T18:00:00.944Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.50.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AECP0105294C4&nombre_proveedor_razon_social=PAOLA+ROSARIO+ANGEL+CAMARENA&nombre_representante_legal=NA&email=paolaangelcuentas%40gmail.com",
+      "previousEventHash": "96856e7ecdd4deb02f47069f593ab4ae7c2c90a045b82c4606eafd0b12004834",
+      "documentHash": "462cfcfe6d8e3a1f9b38b27229921d8c25535b51c509b47b9f4ae21c6eda5b2e",
+      "metadata": {
+        "proveedor": "PAOLA ROSARIO ANGEL CAMARENA",
+        "representante": "NA"
+      },
+      "eventHash": "e19fc8ebd50c90e717e706bba24e3447465e5c72d20b2b5d9226929d5a76931f"
+    }
+  ]
 }
