@@ -2,8 +2,23 @@
   "uid": "JALN930827J61",
   "token": "c014feea-7d8d-4ff7-ab24-fabec9ed5c2e",
   "createdAt": "2026-07-29T20:38:20.487Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Ninfa Isabel Jaime Lopez",
+    "nombre_representante_legal": "Glass Origami Fashion Blog Team",
+    "email": "glassorigami.mx@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Ninfa Isabel Jaime Lopez",
+    "nombre_representante_legal": "Glass Origami Fashion Blog Team",
+    "email": "glassorigami.mx@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Ninfa Isabel Jaime Lopez",
+    "nombre_representante_legal": "Glass Origami Fashion Blog Team",
+    "email": "glassorigami.mx@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Ninfa Isabel Jaime Lopez",
     "nombre_representante_legal": "Glass Origami Fashion Blog Team",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8daae67029abc2e7d17bf0ada3eb42a77df67bfd1f21d346fdad1b33a42066e3",
+  "auditTrail": [
+    {
+      "eventId": "417c69df-b80a-40f1-af64-36f7da4981a6",
+      "uid": "JALN930827J61",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-31T04:14:58.559Z",
+      "timestampLocal": "2026-07-31T04:14:58.559Z",
+      "timezone": "UTC+0",
+      "ipAddress": "71.105.132.214",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "8daae67029abc2e7d17bf0ada3eb42a77df67bfd1f21d346fdad1b33a42066e3",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4efebf06afbeee8042f240b89bde9bb7532b70b4760740ff100438249e97fc79"
+    },
+    {
+      "eventId": "f28164a7-464c-4ea5-8bb5-2ae2fad0688b",
+      "uid": "JALN930827J61",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-31T04:14:58.559Z",
+      "timestampLocal": "2026-07-31T04:14:58.559Z",
+      "timezone": "UTC+0",
+      "ipAddress": "71.105.132.214",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4efebf06afbeee8042f240b89bde9bb7532b70b4760740ff100438249e97fc79",
+      "documentHash": "8daae67029abc2e7d17bf0ada3eb42a77df67bfd1f21d346fdad1b33a42066e3",
+      "metadata": {
+        "proveedor": "Ninfa Isabel Jaime Lopez",
+        "representante": "Glass Origami Fashion Blog Team"
+      },
+      "eventHash": "8f1aed2b1dc6a75aed80fa137f95afb6e308459a5f5a905dd56f08f332bcf5a8"
+    }
+  ]
 }
