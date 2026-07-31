@@ -2,8 +2,23 @@
   "uid": "FPB111115GD2",
   "token": "30313a6c-5f02-4e49-b4fc-805d0ae26985",
   "createdAt": "2026-07-31T17:35:55.177Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "FC PUBLIART BUSINESS MEXICO SA DE CV",
+    "nombre_representante_legal": "FC PUBLIART BUSINESS MEXICO SA DE CV",
+    "email": "admon@talentmkt.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "FC PUBLIART BUSINESS MEXICO SA DE CV",
+    "nombre_representante_legal": "FC PUBLIART BUSINESS MEXICO SA DE CV",
+    "email": "admon@talentmkt.com.mx"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "FC PUBLIART BUSINESS MEXICO SA DE CV",
+    "nombre_representante_legal": "FC PUBLIART BUSINESS MEXICO SA DE CV",
+    "email": "admon@talentmkt.com.mx"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "FC PUBLIART BUSINESS MEXICO SA DE CV",
     "nombre_representante_legal": "FC PUBLIART BUSINESS MEXICO SA DE CV",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "60307d027669dc495a31d3313e3ead892013d10334a6907844a877fdd8cd8082",
+  "auditTrail": [
+    {
+      "eventId": "a52d13f8-2788-4272-9e71-bf4279cf53b9",
+      "uid": "FPB111115GD2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-31T17:36:21.750Z",
+      "timestampLocal": "2026-07-31T17:36:21.750Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.50.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FPB111115GD2&nombre_proveedor_razon_social=FC+PUBLIART+BUSINESS+MEXICO+SA+DE+CV&nombre_representante_legal=FC+PUBLIART+BUSINESS+MEXICO+SA+DE+CV&email=admon%40talentmkt.com.mx",
+      "previousEventHash": null,
+      "documentHash": "60307d027669dc495a31d3313e3ead892013d10334a6907844a877fdd8cd8082",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "548f6eb9157f7b79d9374b18d8b047f72c9f7317712a86f5dafa98f255cba9d6"
+    },
+    {
+      "eventId": "59820444-ad01-4b9b-bd29-4071405ce61b",
+      "uid": "FPB111115GD2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-31T17:36:21.750Z",
+      "timestampLocal": "2026-07-31T17:36:21.750Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.50.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FPB111115GD2&nombre_proveedor_razon_social=FC+PUBLIART+BUSINESS+MEXICO+SA+DE+CV&nombre_representante_legal=FC+PUBLIART+BUSINESS+MEXICO+SA+DE+CV&email=admon%40talentmkt.com.mx",
+      "previousEventHash": "548f6eb9157f7b79d9374b18d8b047f72c9f7317712a86f5dafa98f255cba9d6",
+      "documentHash": "60307d027669dc495a31d3313e3ead892013d10334a6907844a877fdd8cd8082",
+      "metadata": {
+        "proveedor": "FC PUBLIART BUSINESS MEXICO SA DE CV",
+        "representante": "FC PUBLIART BUSINESS MEXICO SA DE CV"
+      },
+      "eventHash": "d180a673183b685cb64cd92b3f6f7e88db8397c1ede9a819a56676b68302f374"
+    }
+  ]
 }
