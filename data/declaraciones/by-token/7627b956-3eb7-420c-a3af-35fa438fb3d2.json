@@ -2,8 +2,23 @@
   "uid": "CISN930202P5A",
   "token": "7627b956-3eb7-420c-a3af-35fa438fb3d2",
   "createdAt": "2026-07-31T19:36:00.162Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "NATHALI CICOUREL SERUR",
+    "nombre_representante_legal": "NATHALI CICOUREL SERUR",
+    "email": "ilovecostcomx@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "NATHALI CICOUREL SERUR",
+    "nombre_representante_legal": "NATHALI CICOUREL SERUR",
+    "email": "ilovecostcomx@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "NATHALI CICOUREL SERUR",
+    "nombre_representante_legal": "NATHALI CICOUREL SERUR",
+    "email": "ilovecostcomx@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "NATHALI CICOUREL SERUR",
     "nombre_representante_legal": "NATHALI CICOUREL SERUR",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8267ebb409fa9404cf4ed60d12ee37145b1f5cc4facc6c8c5ab101b9c39143fc",
+  "auditTrail": [
+    {
+      "eventId": "63dd9607-7cf2-44b5-974c-6b6c75898b9c",
+      "uid": "CISN930202P5A",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-31T19:36:09.534Z",
+      "timestampLocal": "2026-07-31T19:36:09.534Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.234.193.130",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CISN930202P5A&nombre_proveedor_razon_social=NATHALI+CICOUREL+SERUR+&nombre_representante_legal=NATHALI+CICOUREL+SERUR&email=ilovecostcomx%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "8267ebb409fa9404cf4ed60d12ee37145b1f5cc4facc6c8c5ab101b9c39143fc",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "15eadaefc91d5277b299015fd681a7abdeffa478dc6edf8679c67d0422261fb4"
+    },
+    {
+      "eventId": "400c48ef-cd7d-47ca-bb83-06cf8a63bc19",
+      "uid": "CISN930202P5A",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-31T19:36:09.534Z",
+      "timestampLocal": "2026-07-31T19:36:09.534Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.234.193.130",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CISN930202P5A&nombre_proveedor_razon_social=NATHALI+CICOUREL+SERUR+&nombre_representante_legal=NATHALI+CICOUREL+SERUR&email=ilovecostcomx%40gmail.com",
+      "previousEventHash": "15eadaefc91d5277b299015fd681a7abdeffa478dc6edf8679c67d0422261fb4",
+      "documentHash": "8267ebb409fa9404cf4ed60d12ee37145b1f5cc4facc6c8c5ab101b9c39143fc",
+      "metadata": {
+        "proveedor": "NATHALI CICOUREL SERUR",
+        "representante": "NATHALI CICOUREL SERUR"
+      },
+      "eventHash": "29da9902d8291bdece3f20689c16b6e6a0aeee10e31d88d3972be604d59620e8"
+    }
+  ]
 }
