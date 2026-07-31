@@ -2,8 +2,23 @@
   "uid": "GMD100513T75",
   "token": "45eda6c1-1f64-40d6-bde2-e0bf7f5cafcf",
   "createdAt": "2026-07-31T15:25:38.844Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
+    "nombre_representante_legal": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
+    "email": "mvelazquez@forbes.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
+    "nombre_representante_legal": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
+    "email": "mvelazquez@forbes.com.mx"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
+    "nombre_representante_legal": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
+    "email": "mvelazquez@forbes.com.mx"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
     "nombre_representante_legal": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "94bbee8fbaa008d96ea17c91546752b3ff2c89e177e3e4df8232b6505f964634",
+  "auditTrail": [
+    {
+      "eventId": "25dd7516-d039-478f-a628-d67590c2523f",
+      "uid": "GMD100513T75",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-31T15:25:46.279Z",
+      "timestampLocal": "2026-07-31T15:25:46.279Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.202.247",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GMD100513T75&nombre_proveedor_razon_social=GRUPO+DE+MEDIOS+DIGITALES+Y+ENTRETENIMIENTO+SA+DE+CV&nombre_representante_legal=GRUPO+DE+MEDIOS+DIGITALES+Y+ENTRETENIMIENTO+SA+DE+CV&email=mvelazquez%40forbes.com.mx",
+      "previousEventHash": null,
+      "documentHash": "94bbee8fbaa008d96ea17c91546752b3ff2c89e177e3e4df8232b6505f964634",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3185de297ee844c984ccece86c2bf0151f21744730c00e788f15c29b52ef4c40"
+    },
+    {
+      "eventId": "2df2dc7e-2b9d-480d-b550-7a42707320d8",
+      "uid": "GMD100513T75",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-31T15:25:46.279Z",
+      "timestampLocal": "2026-07-31T15:25:46.279Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.202.247",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GMD100513T75&nombre_proveedor_razon_social=GRUPO+DE+MEDIOS+DIGITALES+Y+ENTRETENIMIENTO+SA+DE+CV&nombre_representante_legal=GRUPO+DE+MEDIOS+DIGITALES+Y+ENTRETENIMIENTO+SA+DE+CV&email=mvelazquez%40forbes.com.mx",
+      "previousEventHash": "3185de297ee844c984ccece86c2bf0151f21744730c00e788f15c29b52ef4c40",
+      "documentHash": "94bbee8fbaa008d96ea17c91546752b3ff2c89e177e3e4df8232b6505f964634",
+      "metadata": {
+        "proveedor": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
+        "representante": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV"
+      },
+      "eventHash": "1a96c5c514235cce4726f869afcbb3df600b53b66e98ff9aa83505f4b9e6addf"
+    }
+  ]
 }
