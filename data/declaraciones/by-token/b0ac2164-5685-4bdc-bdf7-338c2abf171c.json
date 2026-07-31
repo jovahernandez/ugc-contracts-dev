@@ -2,8 +2,23 @@
   "uid": "SDR2403273E2",
   "token": "b0ac2164-5685-4bdc-bdf7-338c2abf171c",
   "createdAt": "2026-07-31T17:25:08.549Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "S4DRIVERS",
+    "nombre_representante_legal": "José Santos",
+    "email": "vipdriversmx@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "S4DRIVERS",
+    "nombre_representante_legal": "José Santos",
+    "email": "vipdriversmx@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "S4DRIVERS",
+    "nombre_representante_legal": "José Santos",
+    "email": "vipdriversmx@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "S4DRIVERS",
     "nombre_representante_legal": "José Santos",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "6dc752bad932ef5f4a817d06592cc6cabf78c12e4ba329187416a6acb7345093",
+  "auditTrail": [
+    {
+      "eventId": "deb09a48-1fc9-401b-900e-70c8ebe70afc",
+      "uid": "SDR2403273E2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-31T17:25:15.121Z",
+      "timestampLocal": "2026-07-31T17:25:15.121Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.252.194",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,es-ES;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SDR2403273E2&nombre_proveedor_razon_social=S4DRIVERS&nombre_representante_legal=Jos%C3%A9+Santos&email=vipdriversmx%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "6dc752bad932ef5f4a817d06592cc6cabf78c12e4ba329187416a6acb7345093",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "053e8dea6a285436bbbf83f3dd4b052e88b72d30c0687109fc5bab4928bba66d"
+    },
+    {
+      "eventId": "69a1b771-af56-4a03-b19c-466da65845e9",
+      "uid": "SDR2403273E2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-31T17:25:15.121Z",
+      "timestampLocal": "2026-07-31T17:25:15.121Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.252.194",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,es-ES;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SDR2403273E2&nombre_proveedor_razon_social=S4DRIVERS&nombre_representante_legal=Jos%C3%A9+Santos&email=vipdriversmx%40gmail.com",
+      "previousEventHash": "053e8dea6a285436bbbf83f3dd4b052e88b72d30c0687109fc5bab4928bba66d",
+      "documentHash": "6dc752bad932ef5f4a817d06592cc6cabf78c12e4ba329187416a6acb7345093",
+      "metadata": {
+        "proveedor": "S4DRIVERS",
+        "representante": "José Santos"
+      },
+      "eventHash": "016bf77eec649845c61a360a527f9e5d2d1d4a4079ef717ec0bd332a0c53f0eb"
+    }
+  ]
 }
