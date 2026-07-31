@@ -2,7 +2,7 @@
   "uid": "SDR2403273E2",
   "token": "b0ac2164-5685-4bdc-bdf7-338c2abf171c",
   "createdAt": "2026-07-31T17:25:08.549Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "S4DRIVERS",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "José Santos",
     "email": "vipdriversmx@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "S4DRIVERS",
-    "nombre_representante_legal": "José Santos",
-    "email": "vipdriversmx@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "S4DRIVERS",
     "nombre_representante_legal": "José Santos",
     "email": "vipdriversmx@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6dc752bad932ef5f4a817d06592cc6cabf78c12e4ba329187416a6acb7345093",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-31T11:33:35.750Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SDR2403273E2",
+  "signatureMetadata": {
+    "ip": "189.203.252.194",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-31T17:33:39.298Z",
+    "signedAtLocal": "2026-07-31T11:33:39.298Z"
+  },
+  "documentHash": "e2511a87f84e16930e1d79ae185e3dc840484456eb1566e665479f9741fbfbd1",
   "auditTrail": [
     {
       "eventId": "deb09a48-1fc9-401b-900e-70c8ebe70afc",
@@ -65,6 +66,47 @@
         "representante": "José Santos"
       },
       "eventHash": "016bf77eec649845c61a360a527f9e5d2d1d4a4079ef717ec0bd332a0c53f0eb"
+    },
+    {
+      "eventId": "dd2705ef-4377-4d56-b3cc-a3f2c5746a5b",
+      "uid": "SDR2403273E2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T17:25:17.146Z",
+      "timestampLocal": "2026-07-31T17:25:17.146Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.252.194",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,es-ES;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SDR2403273E2&nombre_proveedor_razon_social=S4DRIVERS&nombre_representante_legal=Jos%C3%A9+Santos&email=vipdriversmx%40gmail.com",
+      "previousEventHash": "016bf77eec649845c61a360a527f9e5d2d1d4a4079ef717ec0bd332a0c53f0eb",
+      "documentHash": "6dc752bad932ef5f4a817d06592cc6cabf78c12e4ba329187416a6acb7345093",
+      "eventHash": "1c44e043732b176ca3d7e4661660ad9821c59d9d8e4c0f55d6a3ed669a43cb7d"
+    },
+    {
+      "eventId": "f689d4cd-64ed-4c99-9009-3cd424323ced",
+      "uid": "SDR2403273E2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-31T17:33:39.298Z",
+      "timestampLocal": "2026-07-31T11:33:39.298Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.252.194",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,es-ES;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b0ac2164-5685-4bdc-bdf7-338c2abf171c",
+      "previousEventHash": "1c44e043732b176ca3d7e4661660ad9821c59d9d8e4c0f55d6a3ed669a43cb7d",
+      "documentHash": "e2511a87f84e16930e1d79ae185e3dc840484456eb1566e665479f9741fbfbd1",
+      "signatureHash": "b079597dbf6a3e604ffb606475c582f5db049f2e2de67444c049d555dbf7890c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-31T11:33:35.750Z"
+      },
+      "eventHash": "48bfafd2d8026eb91a7b6f4a86302ebc5fcb626b0f0be5041c86ae1230909f90"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-31T17:33:39.298Z"
+  }
 }
