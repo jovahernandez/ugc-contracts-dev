@@ -2,7 +2,7 @@
   "uid": "CISN930202P5A",
   "token": "7627b956-3eb7-420c-a3af-35fa438fb3d2",
   "createdAt": "2026-07-31T19:36:00.162Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "NATHALI CICOUREL SERUR",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "NATHALI CICOUREL SERUR",
     "email": "ilovecostcomx@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "NATHALI CICOUREL SERUR",
-    "nombre_representante_legal": "NATHALI CICOUREL SERUR",
-    "email": "ilovecostcomx@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "NATHALI CICOUREL SERUR",
     "nombre_representante_legal": "NATHALI CICOUREL SERUR",
     "email": "ilovecostcomx@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8267ebb409fa9404cf4ed60d12ee37145b1f5cc4facc6c8c5ab101b9c39143fc",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-31T13:36:42.348Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CISN930202P5A",
+  "signatureMetadata": {
+    "ip": "189.234.193.130",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "signedAtUtc": "2026-07-31T19:36:45.811Z",
+    "signedAtLocal": "2026-07-31T13:36:45.811Z"
+  },
+  "documentHash": "49f9caa39532713b719423b9ede846d3a74cd9aaf4b8ea285cf092f54b8b8b65",
   "auditTrail": [
     {
       "eventId": "63dd9607-7cf2-44b5-974c-6b6c75898b9c",
@@ -65,6 +66,47 @@
         "representante": "NATHALI CICOUREL SERUR"
       },
       "eventHash": "29da9902d8291bdece3f20689c16b6e6a0aeee10e31d88d3972be604d59620e8"
+    },
+    {
+      "eventId": "7ea849fb-e3ff-4653-8b3a-be237fe58594",
+      "uid": "CISN930202P5A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T19:36:11.722Z",
+      "timestampLocal": "2026-07-31T19:36:11.722Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.234.193.130",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CISN930202P5A&nombre_proveedor_razon_social=NATHALI+CICOUREL+SERUR+&nombre_representante_legal=NATHALI+CICOUREL+SERUR&email=ilovecostcomx%40gmail.com",
+      "previousEventHash": "29da9902d8291bdece3f20689c16b6e6a0aeee10e31d88d3972be604d59620e8",
+      "documentHash": "8267ebb409fa9404cf4ed60d12ee37145b1f5cc4facc6c8c5ab101b9c39143fc",
+      "eventHash": "63f17f79726078197374e108253c0078f2682460f9d0fad980bbc69a87d28fb5"
+    },
+    {
+      "eventId": "e13ac2d9-8a04-4d4e-a283-e3f5c7da0657",
+      "uid": "CISN930202P5A",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-31T19:36:45.811Z",
+      "timestampLocal": "2026-07-31T13:36:45.811Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.234.193.130",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7627b956-3eb7-420c-a3af-35fa438fb3d2",
+      "previousEventHash": "63f17f79726078197374e108253c0078f2682460f9d0fad980bbc69a87d28fb5",
+      "documentHash": "49f9caa39532713b719423b9ede846d3a74cd9aaf4b8ea285cf092f54b8b8b65",
+      "signatureHash": "39bf0856c1363e58cecbbbb5ddcad059d1736b15391d3f71397d3a961d17e9a3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-31T13:36:42.348Z"
+      },
+      "eventHash": "00d1e4a34738af25a7edd90464b1fc9a0b9d3195374d6257de2bcd536ed13678"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-31T19:36:45.811Z"
+  }
 }
