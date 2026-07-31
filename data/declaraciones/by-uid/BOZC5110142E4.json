@@ -2,8 +2,23 @@
   "uid": "BOZC5110142E4",
   "token": "588298ab-ef38-4aac-82d3-26f8f2e5cec0",
   "createdAt": "2026-07-31T17:45:07.341Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Carlos Bonavides Zamudio",
+    "nombre_representante_legal": "Carlos Bonavides Zamudio",
+    "email": "redes@neomenmx.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Carlos Bonavides Zamudio",
+    "nombre_representante_legal": "Carlos Bonavides Zamudio",
+    "email": "redes@neomenmx.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Carlos Bonavides Zamudio",
+    "nombre_representante_legal": "Carlos Bonavides Zamudio",
+    "email": "redes@neomenmx.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Carlos Bonavides Zamudio",
     "nombre_representante_legal": "Carlos Bonavides Zamudio",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "824825e64118c12ebef6553c56017e64003467c24d0584590275a1a2b371f027",
+  "auditTrail": [
+    {
+      "eventId": "84062637-0f2c-4dca-9c55-bde5648ce576",
+      "uid": "BOZC5110142E4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-31T17:47:10.569Z",
+      "timestampLocal": "2026-07-31T17:47:10.569Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.50.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOZC5110142E4&nombre_proveedor_razon_social=+Carlos+Bonavides+Zamudio&nombre_representante_legal=+Carlos+Bonavides+Zamudio&email=redes%40neomenmx.com",
+      "previousEventHash": null,
+      "documentHash": "824825e64118c12ebef6553c56017e64003467c24d0584590275a1a2b371f027",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "61915cb0a3551615da1411f8cf0ecc3321d10dbc2c9f23f20094c223dd9a6cff"
+    },
+    {
+      "eventId": "1a87f737-d344-46ee-a2dc-c566debf854a",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-31T17:47:10.569Z",
+      "timestampLocal": "2026-07-31T17:47:10.569Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.50.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOZC5110142E4&nombre_proveedor_razon_social=+Carlos+Bonavides+Zamudio&nombre_representante_legal=+Carlos+Bonavides+Zamudio&email=redes%40neomenmx.com",
+      "previousEventHash": "61915cb0a3551615da1411f8cf0ecc3321d10dbc2c9f23f20094c223dd9a6cff",
+      "documentHash": "824825e64118c12ebef6553c56017e64003467c24d0584590275a1a2b371f027",
+      "metadata": {
+        "proveedor": "Carlos Bonavides Zamudio",
+        "representante": "Carlos Bonavides Zamudio"
+      },
+      "eventHash": "57e9e99b0e6ee6dfdd6a3150707fa832ac424269b7843df2918ab8671a4a9295"
+    }
+  ]
 }
