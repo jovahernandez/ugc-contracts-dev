@@ -2,7 +2,7 @@
   "uid": "GMD100513T75",
   "token": "45eda6c1-1f64-40d6-bde2-e0bf7f5cafcf",
   "createdAt": "2026-07-31T15:25:38.844Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
     "email": "mvelazquez@forbes.com.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
-    "nombre_representante_legal": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
-    "email": "mvelazquez@forbes.com.mx"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
     "nombre_representante_legal": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV",
     "email": "mvelazquez@forbes.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "94bbee8fbaa008d96ea17c91546752b3ff2c89e177e3e4df8232b6505f964634",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-31T09:27:20.166Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GMD100513T75",
+  "signatureMetadata": {
+    "ip": "189.217.202.247",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-07-31T15:27:25.872Z",
+    "signedAtLocal": "2026-07-31T09:27:25.872Z"
+  },
+  "documentHash": "a4ca956c20444dc99b7fd1e6ce0e0f5ec3261e771662898b7df2e9ef0b2372b3",
   "auditTrail": [
     {
       "eventId": "25dd7516-d039-478f-a628-d67590c2523f",
@@ -65,6 +66,47 @@
         "representante": "GRUPO DE MEDIOS DIGITALES Y ENTRETENIMIENTO SA DE CV"
       },
       "eventHash": "1a96c5c514235cce4726f869afcbb3df600b53b66e98ff9aa83505f4b9e6addf"
+    },
+    {
+      "eventId": "bb3c8bed-fafd-403a-b82f-60b7eb71f150",
+      "uid": "GMD100513T75",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T15:25:48.349Z",
+      "timestampLocal": "2026-07-31T15:25:48.349Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.202.247",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GMD100513T75&nombre_proveedor_razon_social=GRUPO+DE+MEDIOS+DIGITALES+Y+ENTRETENIMIENTO+SA+DE+CV&nombre_representante_legal=GRUPO+DE+MEDIOS+DIGITALES+Y+ENTRETENIMIENTO+SA+DE+CV&email=mvelazquez%40forbes.com.mx",
+      "previousEventHash": "1a96c5c514235cce4726f869afcbb3df600b53b66e98ff9aa83505f4b9e6addf",
+      "documentHash": "94bbee8fbaa008d96ea17c91546752b3ff2c89e177e3e4df8232b6505f964634",
+      "eventHash": "f1e7546d97be257e20ceafa98cc5d7f5c5a9073955549dd82bc96e78df3602e3"
+    },
+    {
+      "eventId": "9fc3b123-de8b-4cbe-aa0c-805d3b929c0d",
+      "uid": "GMD100513T75",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-31T15:27:25.872Z",
+      "timestampLocal": "2026-07-31T09:27:25.872Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.202.247",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/45eda6c1-1f64-40d6-bde2-e0bf7f5cafcf",
+      "previousEventHash": "f1e7546d97be257e20ceafa98cc5d7f5c5a9073955549dd82bc96e78df3602e3",
+      "documentHash": "a4ca956c20444dc99b7fd1e6ce0e0f5ec3261e771662898b7df2e9ef0b2372b3",
+      "signatureHash": "fdca0c5c07d0db274accc1713a15d6b83d933a69a6be3246241bafb9606706de",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-31T09:27:20.166Z"
+      },
+      "eventHash": "785d43d4479ef66c8509df2a63220f23e66555ef4448a17690aec7f73d421f0b"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-31T15:27:25.872Z"
+  }
 }
