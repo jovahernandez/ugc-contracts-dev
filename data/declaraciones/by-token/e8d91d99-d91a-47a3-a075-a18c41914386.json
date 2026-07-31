@@ -2,7 +2,7 @@
   "uid": "BABJ871107JI0",
   "token": "e8d91d99-d91a-47a3-a075-a18c41914386",
   "createdAt": "2026-07-31T01:56:43.958Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JESUS ISRAEL BAÑOS BRITO",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "JESUS ISRAEL BAÑOS BRITO",
     "email": "elcarpimex@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "JESUS ISRAEL BAÑOS BRITO",
-    "nombre_representante_legal": "JESUS ISRAEL BAÑOS BRITO",
-    "email": "elcarpimex@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "JESUS ISRAEL BAÑOS BRITO",
     "nombre_representante_legal": "JESUS ISRAEL BAÑOS BRITO",
     "email": "elcarpimex@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "238e5c7a6e62fc0fc26b162ba3e98d8fe24bdffadf5d529aba7073b3bdc142aa",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-30T20:57:49.839Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BABJ871107JI0",
+  "signatureMetadata": {
+    "ip": "66.9.186.255",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "signedAtUtc": "2026-07-31T01:57:53.192Z",
+    "signedAtLocal": "2026-07-30T20:57:53.192Z"
+  },
+  "documentHash": "67cf274c4958c2bc7bbd1a995f482fadf4b8d6865a5b1ceac98cae611c83ac9b",
   "auditTrail": [
     {
       "eventId": "f76cbd64-6c03-405e-b5af-2315a65729d6",
@@ -139,6 +140,47 @@
         "representante": "JESUS ISRAEL BAÑOS BRITO"
       },
       "eventHash": "1bb114a69fd4c12683983c90da03ef67999ee2727e76080bf33515bdfa710f6f"
+    },
+    {
+      "eventId": "d029dcb2-63ab-43d2-8e94-24a63c5cbce1",
+      "uid": "BABJ871107JI0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T01:56:56.961Z",
+      "timestampLocal": "2026-07-31T01:56:56.961Z",
+      "timezone": "UTC+0",
+      "ipAddress": "66.9.186.255",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BABJ871107JI0&nombre_proveedor_razon_social=JESUS+ISRAEL+BA%C3%91OS+BRITO&nombre_representante_legal=JESUS+ISRAEL+BA%C3%91OS+BRITO&email=elcarpimex%40gmail.com",
+      "previousEventHash": "1bb114a69fd4c12683983c90da03ef67999ee2727e76080bf33515bdfa710f6f",
+      "documentHash": "238e5c7a6e62fc0fc26b162ba3e98d8fe24bdffadf5d529aba7073b3bdc142aa",
+      "eventHash": "c075487d1b777200fd44dcc38f00de9d4f685df88d630efbed24dad4b79a31cf"
+    },
+    {
+      "eventId": "c73afc0e-9704-449b-bf9c-246faf690195",
+      "uid": "BABJ871107JI0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-31T01:57:53.192Z",
+      "timestampLocal": "2026-07-30T20:57:53.192Z",
+      "timezone": "UTC-5",
+      "ipAddress": "66.9.186.255",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e8d91d99-d91a-47a3-a075-a18c41914386",
+      "previousEventHash": "c075487d1b777200fd44dcc38f00de9d4f685df88d630efbed24dad4b79a31cf",
+      "documentHash": "67cf274c4958c2bc7bbd1a995f482fadf4b8d6865a5b1ceac98cae611c83ac9b",
+      "signatureHash": "8488bee7898bf75c4e3f85372bd3c728826c42b43c69764629da01ff4137726b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-30T20:57:49.839Z"
+      },
+      "eventHash": "17b953e563c5b8c968e35207104d94fd7bc020cb982472f2adf6b6f16af04aea"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-07-31T01:57:53.192Z"
+  }
 }
