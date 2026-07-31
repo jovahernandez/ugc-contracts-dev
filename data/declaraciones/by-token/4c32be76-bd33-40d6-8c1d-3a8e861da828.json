@@ -2,7 +2,7 @@
   "uid": "BOZC5110142E4",
   "token": "4c32be76-bd33-40d6-8c1d-3a8e861da828",
   "createdAt": "2026-07-31T06:18:13.053Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Carlos Bonavides Zamudio",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Carlos Bonavides Zamudio",
     "email": "redes@neomenmx.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Carlos Bonavides Zamudio",
-    "nombre_representante_legal": "Carlos Bonavides Zamudio",
-    "email": "redes@neomenmx.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Carlos Bonavides Zamudio",
     "nombre_representante_legal": "Carlos Bonavides Zamudio",
     "email": "redes@neomenmx.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "66c49987133b4d4feb7d430b02dd9f631250bb33d8594d6c89d086aa81887a05",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-31T00:26:34.586Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BOZC5110142E4",
+  "signatureMetadata": {
+    "ip": "187.189.146.183",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-07-31T06:26:37.841Z",
+    "signedAtLocal": "2026-07-31T00:26:37.841Z"
+  },
+  "documentHash": "e2580bb43405508cca91e93a6247f64321acd772338de9d413e749a045243162",
   "auditTrail": [
     {
       "eventId": "21d64346-fd62-4c0e-94b8-86c73a09b25c",
@@ -361,6 +362,241 @@
         "representante": "Carlos Bonavides Zamudio"
       },
       "eventHash": "ce8b91ccdc7ef1a1efbfdf5f95ef64812a4478e6a85bdc641def4bef0e401ec0"
+    },
+    {
+      "eventId": "2a178905-5c2b-4c75-986d-41eade28eac3",
+      "uid": "BOZC5110142E4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-31T06:18:50.019Z",
+      "timestampLocal": "2026-07-31T06:18:50.019Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.193.255.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOZC5110142E4&nombre_proveedor_razon_social=+Carlos+Bonavides+Zamudio&nombre_representante_legal=+Carlos+Bonavides+Zamudio&email=redes%40neomenmx.com",
+      "previousEventHash": "ce8b91ccdc7ef1a1efbfdf5f95ef64812a4478e6a85bdc641def4bef0e401ec0",
+      "documentHash": "39b8279396c191856586bb5a4963150d4db100b0fe73f33f5cf66044c3d84c9a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "52203beb0c6dd799ba818b94fb3377d907a913e7d1ec8aeed9439f8f43d8b873"
+    },
+    {
+      "eventId": "1936018b-3fae-43fd-ba24-c2adc9b0f25b",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-31T06:18:50.019Z",
+      "timestampLocal": "2026-07-31T06:18:50.019Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.193.255.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOZC5110142E4&nombre_proveedor_razon_social=+Carlos+Bonavides+Zamudio&nombre_representante_legal=+Carlos+Bonavides+Zamudio&email=redes%40neomenmx.com",
+      "previousEventHash": "52203beb0c6dd799ba818b94fb3377d907a913e7d1ec8aeed9439f8f43d8b873",
+      "documentHash": "39b8279396c191856586bb5a4963150d4db100b0fe73f33f5cf66044c3d84c9a",
+      "metadata": {
+        "proveedor": "Carlos Bonavides Zamudio",
+        "representante": "Carlos Bonavides Zamudio"
+      },
+      "eventHash": "352efe7ad0e9bfdbb8dc31f535f4c67b03275dd4ddbb46a114b862c2f33baa80"
+    },
+    {
+      "eventId": "058cf282-9aa9-414f-9275-716bdab605de",
+      "uid": "BOZC5110142E4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-31T06:18:50.185Z",
+      "timestampLocal": "2026-07-31T06:18:50.185Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.193.255.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOZC5110142E4&nombre_proveedor_razon_social=+Carlos+Bonavides+Zamudio&nombre_representante_legal=+Carlos+Bonavides+Zamudio&email=redes%40neomenmx.com",
+      "previousEventHash": "352efe7ad0e9bfdbb8dc31f535f4c67b03275dd4ddbb46a114b862c2f33baa80",
+      "documentHash": "39b8279396c191856586bb5a4963150d4db100b0fe73f33f5cf66044c3d84c9a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "dae7e64ba1cafdb2ffcf0f61fe2c544b3279ffbe9a96a2f4a80039629d2e759f"
+    },
+    {
+      "eventId": "d613c93d-54af-432f-a575-11be68802c85",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-31T06:18:50.185Z",
+      "timestampLocal": "2026-07-31T06:18:50.185Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.193.255.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOZC5110142E4&nombre_proveedor_razon_social=+Carlos+Bonavides+Zamudio&nombre_representante_legal=+Carlos+Bonavides+Zamudio&email=redes%40neomenmx.com",
+      "previousEventHash": "dae7e64ba1cafdb2ffcf0f61fe2c544b3279ffbe9a96a2f4a80039629d2e759f",
+      "documentHash": "39b8279396c191856586bb5a4963150d4db100b0fe73f33f5cf66044c3d84c9a",
+      "metadata": {
+        "proveedor": "Carlos Bonavides Zamudio",
+        "representante": "Carlos Bonavides Zamudio"
+      },
+      "eventHash": "389676473d1cccec96f8ad45526b13c5e363d4c447a8c0cc51613ed5d4e9e8ea"
+    },
+    {
+      "eventId": "2aca3e43-ca6b-4978-9adf-54b6ca5f168d",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T06:18:52.395Z",
+      "timestampLocal": "2026-07-31T06:18:52.395Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.193.255.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOZC5110142E4&nombre_proveedor_razon_social=+Carlos+Bonavides+Zamudio&nombre_representante_legal=+Carlos+Bonavides+Zamudio&email=redes%40neomenmx.com",
+      "previousEventHash": "389676473d1cccec96f8ad45526b13c5e363d4c447a8c0cc51613ed5d4e9e8ea",
+      "documentHash": "39b8279396c191856586bb5a4963150d4db100b0fe73f33f5cf66044c3d84c9a",
+      "eventHash": "03beee70198eb133f1207ff65d74521346f6cd3a7ea110533e59ee678274ffa9"
+    },
+    {
+      "eventId": "94fcfe20-2264-43fe-b962-ed1b17fa03e3",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T06:22:29.450Z",
+      "timestampLocal": "2026-07-31T06:22:29.450Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.183",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "03beee70198eb133f1207ff65d74521346f6cd3a7ea110533e59ee678274ffa9",
+      "documentHash": "39b8279396c191856586bb5a4963150d4db100b0fe73f33f5cf66044c3d84c9a",
+      "eventHash": "356f5d72ae1bef715487ce63336f01278642acac5e8661d104791646f765e233"
+    },
+    {
+      "eventId": "e18f2b42-3816-47f3-bb10-d37411c8d26d",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T06:22:38.726Z",
+      "timestampLocal": "2026-07-31T06:22:38.726Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.183",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "356f5d72ae1bef715487ce63336f01278642acac5e8661d104791646f765e233",
+      "documentHash": "39b8279396c191856586bb5a4963150d4db100b0fe73f33f5cf66044c3d84c9a",
+      "eventHash": "2e4434b4160f1e204144be2884adec6ac8469fed125912d8f88739312c0b9da5"
+    },
+    {
+      "eventId": "70e10fe6-50da-48c5-a6ec-1a5bf22f9782",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T06:22:51.665Z",
+      "timestampLocal": "2026-07-31T06:22:51.665Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.183",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "2e4434b4160f1e204144be2884adec6ac8469fed125912d8f88739312c0b9da5",
+      "documentHash": "39b8279396c191856586bb5a4963150d4db100b0fe73f33f5cf66044c3d84c9a",
+      "eventHash": "21bbd718073ee9d0ae938ec6d1faeb60a5798955af3766479744f3ac0d00849d"
+    },
+    {
+      "eventId": "8d7a7046-034e-4f70-9d67-d790e5e64a2f",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T06:23:10.282Z",
+      "timestampLocal": "2026-07-31T06:23:10.282Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.183",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "21bbd718073ee9d0ae938ec6d1faeb60a5798955af3766479744f3ac0d00849d",
+      "documentHash": "39b8279396c191856586bb5a4963150d4db100b0fe73f33f5cf66044c3d84c9a",
+      "eventHash": "b284bc382895f2d24d92dd00916627cd47748869ea2e37a9f124449c43a30c32"
+    },
+    {
+      "eventId": "f6e4bf5e-7b61-4dfd-8096-08279102a6d4",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T06:23:23.784Z",
+      "timestampLocal": "2026-07-31T06:23:23.784Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.183",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "b284bc382895f2d24d92dd00916627cd47748869ea2e37a9f124449c43a30c32",
+      "documentHash": "39b8279396c191856586bb5a4963150d4db100b0fe73f33f5cf66044c3d84c9a",
+      "eventHash": "7cbedf7faf8c1251690106b9b96021afd3b550a1b0ef49f777da8d181a40dac0"
+    },
+    {
+      "eventId": "9976a666-9bab-4bb3-a25a-cfc07a6ce2f7",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T06:23:35.628Z",
+      "timestampLocal": "2026-07-31T06:23:35.628Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.183",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "7cbedf7faf8c1251690106b9b96021afd3b550a1b0ef49f777da8d181a40dac0",
+      "documentHash": "39b8279396c191856586bb5a4963150d4db100b0fe73f33f5cf66044c3d84c9a",
+      "eventHash": "8d4bf555759cba703c104319c85e36a93d99e72d36beaf73ef74bbad860517c3"
+    },
+    {
+      "eventId": "61ae6eae-24b5-4a4c-b2aa-81aed1762784",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T06:24:03.790Z",
+      "timestampLocal": "2026-07-31T06:24:03.790Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.183",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "8d4bf555759cba703c104319c85e36a93d99e72d36beaf73ef74bbad860517c3",
+      "documentHash": "39b8279396c191856586bb5a4963150d4db100b0fe73f33f5cf66044c3d84c9a",
+      "eventHash": "7b69f404c5e7278c1a784934ccb9d6a035bc293a38238f98843583e7687abaa4"
+    },
+    {
+      "eventId": "2a38a550-a630-4894-a271-70f323c36b42",
+      "uid": "BOZC5110142E4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T06:24:50.382Z",
+      "timestampLocal": "2026-07-31T06:24:50.382Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.183",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "7b69f404c5e7278c1a784934ccb9d6a035bc293a38238f98843583e7687abaa4",
+      "documentHash": "39b8279396c191856586bb5a4963150d4db100b0fe73f33f5cf66044c3d84c9a",
+      "eventHash": "35a54969caf17a3e0317cb3b61910b6507375e777e323c9a2def05c6ddc76f4c"
+    },
+    {
+      "eventId": "2e931fcd-3cd8-49dd-b892-731b85fc41aa",
+      "uid": "BOZC5110142E4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-31T06:26:37.841Z",
+      "timestampLocal": "2026-07-31T00:26:37.841Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.146.183",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "35a54969caf17a3e0317cb3b61910b6507375e777e323c9a2def05c6ddc76f4c",
+      "documentHash": "e2580bb43405508cca91e93a6247f64321acd772338de9d413e749a045243162",
+      "signatureHash": "4a2026237b8ff8ae3e4a39700952f26ed1bac8e8a1f4a4ecfc21a28fcc6c7b16",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-31T00:26:34.586Z"
+      },
+      "eventHash": "71c684776573b8c2267f247770c3c1abf04799e2522b6d241246ac016544edd6"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 32,
+    "verifiedAt": "2026-07-31T06:26:37.842Z"
+  }
 }
