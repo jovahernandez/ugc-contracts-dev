@@ -2,8 +2,23 @@
   "uid": "BABJ871107JI0",
   "token": "e8d91d99-d91a-47a3-a075-a18c41914386",
   "createdAt": "2026-07-31T01:56:43.958Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JESUS ISRAEL BAÑOS BRITO",
+    "nombre_representante_legal": "JESUS ISRAEL BAÑOS BRITO",
+    "email": "elcarpimex@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JESUS ISRAEL BAÑOS BRITO",
+    "nombre_representante_legal": "JESUS ISRAEL BAÑOS BRITO",
+    "email": "elcarpimex@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "JESUS ISRAEL BAÑOS BRITO",
+    "nombre_representante_legal": "JESUS ISRAEL BAÑOS BRITO",
+    "email": "elcarpimex@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "JESUS ISRAEL BAÑOS BRITO",
     "nombre_representante_legal": "JESUS ISRAEL BAÑOS BRITO",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "c4deb0c7c3c2add70d53f518bcf73121d865a6ff5026ca1994102573d24da8d1",
+  "auditTrail": [
+    {
+      "eventId": "f76cbd64-6c03-405e-b5af-2315a65729d6",
+      "uid": "BABJ871107JI0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-07-31T01:56:52.416Z",
+      "timestampLocal": "2026-07-31T01:56:52.416Z",
+      "timezone": "UTC+0",
+      "ipAddress": "66.9.186.255",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BABJ871107JI0&nombre_proveedor_razon_social=JESUS+ISRAEL+BA%C3%91OS+BRITO&nombre_representante_legal=JESUS+ISRAEL+BA%C3%91OS+BRITO&email=elcarpimex%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "c4deb0c7c3c2add70d53f518bcf73121d865a6ff5026ca1994102573d24da8d1",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "250eac51d289ffc94ff93e935223f52bbeb0a3df8badc92b9235c28ebf065d1a"
+    },
+    {
+      "eventId": "9e82ca0b-6cb9-4c10-8851-25b375425fac",
+      "uid": "BABJ871107JI0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-07-31T01:56:52.416Z",
+      "timestampLocal": "2026-07-31T01:56:52.416Z",
+      "timezone": "UTC+0",
+      "ipAddress": "66.9.186.255",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BABJ871107JI0&nombre_proveedor_razon_social=JESUS+ISRAEL+BA%C3%91OS+BRITO&nombre_representante_legal=JESUS+ISRAEL+BA%C3%91OS+BRITO&email=elcarpimex%40gmail.com",
+      "previousEventHash": "250eac51d289ffc94ff93e935223f52bbeb0a3df8badc92b9235c28ebf065d1a",
+      "documentHash": "c4deb0c7c3c2add70d53f518bcf73121d865a6ff5026ca1994102573d24da8d1",
+      "metadata": {
+        "proveedor": "JESUS ISRAEL BAÑOS BRITO",
+        "representante": "JESUS ISRAEL BAÑOS BRITO"
+      },
+      "eventHash": "b97ffc25036f58a7b30b295f18e9a848b3755d7d536196f49256d90218f4a8a7"
+    }
+  ]
 }
