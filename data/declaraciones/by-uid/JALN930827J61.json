@@ -2,7 +2,7 @@
   "uid": "JALN930827J61",
   "token": "c014feea-7d8d-4ff7-ab24-fabec9ed5c2e",
   "createdAt": "2026-07-29T20:38:20.487Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Ninfa Isabel Jaime Lopez",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Glass Origami Fashion Blog Team",
     "email": "glassorigami.mx@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Ninfa Isabel Jaime Lopez",
-    "nombre_representante_legal": "Glass Origami Fashion Blog Team",
-    "email": "glassorigami.mx@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Ninfa Isabel Jaime Lopez",
     "nombre_representante_legal": "Glass Origami Fashion Blog Team",
     "email": "glassorigami.mx@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8daae67029abc2e7d17bf0ada3eb42a77df67bfd1f21d346fdad1b33a42066e3",
+  "personaAutorizada": null,
+  "signedAt": "2026-07-31T00:15:23.626Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/JALN930827J61",
+  "signatureMetadata": {
+    "ip": "71.105.132.214",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-07-31T04:15:26.981Z",
+    "signedAtLocal": "2026-07-31T00:15:26.981Z"
+  },
+  "documentHash": "6511a97aba7f40afcd6f915657457db5d322c0071f8b880931d26d03749faa81",
   "auditTrail": [
     {
       "eventId": "417c69df-b80a-40f1-af64-36f7da4981a6",
@@ -65,6 +66,47 @@
         "representante": "Glass Origami Fashion Blog Team"
       },
       "eventHash": "8f1aed2b1dc6a75aed80fa137f95afb6e308459a5f5a905dd56f08f332bcf5a8"
+    },
+    {
+      "eventId": "3864e802-498b-4793-baf1-24af4b4d08c3",
+      "uid": "JALN930827J61",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T04:15:01.056Z",
+      "timestampLocal": "2026-07-31T04:15:01.056Z",
+      "timezone": "UTC+0",
+      "ipAddress": "71.105.132.214",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8f1aed2b1dc6a75aed80fa137f95afb6e308459a5f5a905dd56f08f332bcf5a8",
+      "documentHash": "8daae67029abc2e7d17bf0ada3eb42a77df67bfd1f21d346fdad1b33a42066e3",
+      "eventHash": "c044571ca3ae233458ae40a142ff5b3463293611e432725b1adb013d22d04f96"
+    },
+    {
+      "eventId": "8da8bb9a-8123-48e7-9315-51da2f9f6844",
+      "uid": "JALN930827J61",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-07-31T04:15:26.981Z",
+      "timestampLocal": "2026-07-31T00:15:26.981Z",
+      "timezone": "UTC-4",
+      "ipAddress": "71.105.132.214",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "c044571ca3ae233458ae40a142ff5b3463293611e432725b1adb013d22d04f96",
+      "documentHash": "6511a97aba7f40afcd6f915657457db5d322c0071f8b880931d26d03749faa81",
+      "signatureHash": "23c9c42ac404bcee8c185baf7785cad045b069b154ec9f524b0fe5a225b3764d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-07-31T00:15:23.626Z"
+      },
+      "eventHash": "16ec512049832333dad2ed460195e211ce5f04f5c535cb8f9a9b65abc176f73c"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-07-31T04:15:26.981Z"
+  }
 }
