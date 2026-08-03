@@ -2,8 +2,23 @@
   "uid": "PEMM961219149",
   "token": "d4865581-8adc-4117-b4e5-398ef9472d7e",
   "createdAt": "2026-08-03T22:25:40.705Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Montserrat Petriciolet Mendoza",
+    "nombre_representante_legal": "Montserrat Petriciolet Mendoza",
+    "email": "mn30guerra@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Montserrat Petriciolet Mendoza",
+    "nombre_representante_legal": "Montserrat Petriciolet Mendoza",
+    "email": "mn30guerra@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Montserrat Petriciolet Mendoza",
+    "nombre_representante_legal": "Montserrat Petriciolet Mendoza",
+    "email": "mn30guerra@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Montserrat Petriciolet Mendoza",
     "nombre_representante_legal": "Montserrat Petriciolet Mendoza",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "6d708af08cbc1fc98989dec762fdc2392a4a08790273130293e4a65954d60aa0",
+  "auditTrail": [
+    {
+      "eventId": "cf23d1de-9631-4b6d-879e-55a6e3ab3ef8",
+      "uid": "PEMM961219149",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-03T22:25:47.158Z",
+      "timestampLocal": "2026-08-03T22:25:47.158Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.11.20",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PEMM961219149&nombre_proveedor_razon_social=Montserrat+Petriciolet+Mendoza&nombre_representante_legal=Montserrat+Petriciolet+Mendoza&email=mn30guerra%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "6d708af08cbc1fc98989dec762fdc2392a4a08790273130293e4a65954d60aa0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "58645453d28b801a0fe99d90a9d1c00f8e87e49b6cf0908c655dc521c01c5989"
+    },
+    {
+      "eventId": "490bdfc7-007c-4a0a-9393-0a7bd7d47cef",
+      "uid": "PEMM961219149",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-03T22:25:47.158Z",
+      "timestampLocal": "2026-08-03T22:25:47.158Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.11.20",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PEMM961219149&nombre_proveedor_razon_social=Montserrat+Petriciolet+Mendoza&nombre_representante_legal=Montserrat+Petriciolet+Mendoza&email=mn30guerra%40gmail.com",
+      "previousEventHash": "58645453d28b801a0fe99d90a9d1c00f8e87e49b6cf0908c655dc521c01c5989",
+      "documentHash": "6d708af08cbc1fc98989dec762fdc2392a4a08790273130293e4a65954d60aa0",
+      "metadata": {
+        "proveedor": "Montserrat Petriciolet Mendoza",
+        "representante": "Montserrat Petriciolet Mendoza"
+      },
+      "eventHash": "373fc10d14caecfaf644134e3f46fc5af7ffdac30d86403a95265ff3cc8e5915"
+    }
+  ]
 }
