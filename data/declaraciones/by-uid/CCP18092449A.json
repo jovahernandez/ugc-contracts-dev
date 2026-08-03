@@ -2,7 +2,7 @@
   "uid": "CCP18092449A",
   "token": "d15c46ff-dfc3-48e4-989e-947203427425",
   "createdAt": "2026-08-03T23:23:53.043Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CERO A CIEN PRODUCCIONES",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Marco Antonio Vega López",
     "email": "jnarvaez@ceroacien.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "CERO A CIEN PRODUCCIONES",
-    "nombre_representante_legal": "Marco Antonio Vega López",
-    "email": "jnarvaez@ceroacien.mx"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "CERO A CIEN PRODUCCIONES",
     "nombre_representante_legal": "Marco Antonio Vega López",
     "email": "jnarvaez@ceroacien.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c0d99ac6a610c548ad1b36b20acd4dc1e00282d34d0e90918cd464e421f6b1c1",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-03T17:24:20.436Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CCP18092449A",
+  "signatureMetadata": {
+    "ip": "189.229.241.75",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "signedAtUtc": "2026-08-03T23:24:23.882Z",
+    "signedAtLocal": "2026-08-03T17:24:23.882Z"
+  },
+  "documentHash": "6af9fc55d733b2afd54a51c3be8f80b655631c8f59d87cc331e02666aa04a345",
   "auditTrail": [
     {
       "eventId": "ad5473c4-33a6-4d5a-8970-cdee9c3159c6",
@@ -65,6 +66,47 @@
         "representante": "Marco Antonio Vega López"
       },
       "eventHash": "22872d88dfec45b49c32a1e594c02a75edc315abb3a1286c0511bd0286126924"
+    },
+    {
+      "eventId": "c2439c93-b5ae-4fa1-bf0a-ab76528282da",
+      "uid": "CCP18092449A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-03T23:24:02.750Z",
+      "timestampLocal": "2026-08-03T23:24:02.750Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.229.241.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CCP18092449A&nombre_proveedor_razon_social=CERO+A+CIEN+PRODUCCIONES&nombre_representante_legal=Marco+Antonio+Vega+L%C3%B3pez&email=jnarvaez%40ceroacien.mx",
+      "previousEventHash": "22872d88dfec45b49c32a1e594c02a75edc315abb3a1286c0511bd0286126924",
+      "documentHash": "c0d99ac6a610c548ad1b36b20acd4dc1e00282d34d0e90918cd464e421f6b1c1",
+      "eventHash": "47116a0417a35a6afe3b1db9d2b25d310f6f36a73be8bb7b728116aac934f31f"
+    },
+    {
+      "eventId": "bf6748c0-15b6-4acd-a7a3-588e6f15f42e",
+      "uid": "CCP18092449A",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-03T23:24:23.882Z",
+      "timestampLocal": "2026-08-03T17:24:23.882Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.229.241.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d15c46ff-dfc3-48e4-989e-947203427425",
+      "previousEventHash": "47116a0417a35a6afe3b1db9d2b25d310f6f36a73be8bb7b728116aac934f31f",
+      "documentHash": "6af9fc55d733b2afd54a51c3be8f80b655631c8f59d87cc331e02666aa04a345",
+      "signatureHash": "fabe563e289e00f4788421e1c0a1d063be54bb1cda733a850c39f69193cec636",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-03T17:24:20.436Z"
+      },
+      "eventHash": "973001e471597e5477bb2f3d0c33d03ff0ff1f68b2779610987667a5cdc4a526"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-03T23:24:23.883Z"
+  }
 }
