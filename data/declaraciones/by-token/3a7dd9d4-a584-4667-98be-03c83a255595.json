@@ -2,7 +2,7 @@
   "uid": "PIFA861024C63",
   "token": "3a7dd9d4-a584-4667-98be-03c83a255595",
   "createdAt": "2026-08-03T19:44:59.947Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ALICIA PIÑERA FLORES",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "N/A",
     "email": "alicia@another.co"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ALICIA PIÑERA FLORES",
-    "nombre_representante_legal": "N/A",
-    "email": "alicia@another.co"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "ALICIA PIÑERA FLORES",
     "nombre_representante_legal": "N/A",
     "email": "alicia@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "871ece64612f1a59c2aa4cbdb2610326209b05c931481ee6938d418e73a802bc",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-03T13:45:28.970Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PIFA861024C63",
+  "signatureMetadata": {
+    "ip": "209.178.150.242",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-03T19:45:32.295Z",
+    "signedAtLocal": "2026-08-03T13:45:32.295Z"
+  },
+  "documentHash": "525601b67fd25c18abec1debb5caf9de7d7573a84549bed664dee87552380366",
   "auditTrail": [
     {
       "eventId": "9823c041-d426-4d95-8f26-28fa8c745c27",
@@ -117,6 +118,47 @@
         "representante": "N/A"
       },
       "eventHash": "856acb5109d39a1acb558c4dcfcae2201189883be9bdcb2ee5131188c0d8de38"
+    },
+    {
+      "eventId": "2801539b-e3bc-46fd-bdba-b3b646312ea9",
+      "uid": "PIFA861024C63",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-03T19:45:11.378Z",
+      "timestampLocal": "2026-08-03T19:45:11.378Z",
+      "timezone": "UTC+0",
+      "ipAddress": "209.178.150.242",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PIFA861024C63&nombre_proveedor_razon_social=ALICIA+PI%C3%91ERA+FLORES+&nombre_representante_legal=N%2FA&email=alicia%40another.co",
+      "previousEventHash": "856acb5109d39a1acb558c4dcfcae2201189883be9bdcb2ee5131188c0d8de38",
+      "documentHash": "871ece64612f1a59c2aa4cbdb2610326209b05c931481ee6938d418e73a802bc",
+      "eventHash": "1e4ba30a27a146cacaf07405d047d1d7d37bf13bed322f1c265db74e0cf1ac24"
+    },
+    {
+      "eventId": "2c58fabe-4db7-4c48-ba4c-46f6329f35c8",
+      "uid": "PIFA861024C63",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-03T19:45:32.295Z",
+      "timestampLocal": "2026-08-03T13:45:32.295Z",
+      "timezone": "UTC-6",
+      "ipAddress": "209.178.150.242",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/3a7dd9d4-a584-4667-98be-03c83a255595",
+      "previousEventHash": "1e4ba30a27a146cacaf07405d047d1d7d37bf13bed322f1c265db74e0cf1ac24",
+      "documentHash": "525601b67fd25c18abec1debb5caf9de7d7573a84549bed664dee87552380366",
+      "signatureHash": "7e93b218f5af63e0655c878e6d04aeeefd1e552c0db74cebf13f75657122c1f4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-03T13:45:28.970Z"
+      },
+      "eventHash": "2b6d08923d481bd42cf78608284a05c4f8c5e2accbf0a9c8966b549f82bfcaa9"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-08-03T19:45:32.295Z"
+  }
 }
