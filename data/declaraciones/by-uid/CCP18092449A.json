@@ -2,8 +2,23 @@
   "uid": "CCP18092449A",
   "token": "d15c46ff-dfc3-48e4-989e-947203427425",
   "createdAt": "2026-08-03T23:23:53.043Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "CERO A CIEN PRODUCCIONES",
+    "nombre_representante_legal": "Marco Antonio Vega López",
+    "email": "jnarvaez@ceroacien.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "CERO A CIEN PRODUCCIONES",
+    "nombre_representante_legal": "Marco Antonio Vega López",
+    "email": "jnarvaez@ceroacien.mx"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "CERO A CIEN PRODUCCIONES",
+    "nombre_representante_legal": "Marco Antonio Vega López",
+    "email": "jnarvaez@ceroacien.mx"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "CERO A CIEN PRODUCCIONES",
     "nombre_representante_legal": "Marco Antonio Vega López",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "c0d99ac6a610c548ad1b36b20acd4dc1e00282d34d0e90918cd464e421f6b1c1",
+  "auditTrail": [
+    {
+      "eventId": "ad5473c4-33a6-4d5a-8970-cdee9c3159c6",
+      "uid": "CCP18092449A",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-03T23:24:00.753Z",
+      "timestampLocal": "2026-08-03T23:24:00.753Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.229.241.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CCP18092449A&nombre_proveedor_razon_social=CERO+A+CIEN+PRODUCCIONES&nombre_representante_legal=Marco+Antonio+Vega+L%C3%B3pez&email=jnarvaez%40ceroacien.mx",
+      "previousEventHash": null,
+      "documentHash": "c0d99ac6a610c548ad1b36b20acd4dc1e00282d34d0e90918cd464e421f6b1c1",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d92201bdd5509eb599670b8603e7c64263e83e2b5d599099a9324ad1ae7f6112"
+    },
+    {
+      "eventId": "29759d4d-b402-49ab-a9fe-6ecef68a4a9a",
+      "uid": "CCP18092449A",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-03T23:24:00.753Z",
+      "timestampLocal": "2026-08-03T23:24:00.753Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.229.241.75",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CCP18092449A&nombre_proveedor_razon_social=CERO+A+CIEN+PRODUCCIONES&nombre_representante_legal=Marco+Antonio+Vega+L%C3%B3pez&email=jnarvaez%40ceroacien.mx",
+      "previousEventHash": "d92201bdd5509eb599670b8603e7c64263e83e2b5d599099a9324ad1ae7f6112",
+      "documentHash": "c0d99ac6a610c548ad1b36b20acd4dc1e00282d34d0e90918cd464e421f6b1c1",
+      "metadata": {
+        "proveedor": "CERO A CIEN PRODUCCIONES",
+        "representante": "Marco Antonio Vega López"
+      },
+      "eventHash": "22872d88dfec45b49c32a1e594c02a75edc315abb3a1286c0511bd0286126924"
+    }
+  ]
 }
