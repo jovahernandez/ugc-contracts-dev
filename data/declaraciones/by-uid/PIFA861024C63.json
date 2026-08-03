@@ -2,8 +2,23 @@
   "uid": "PIFA861024C63",
   "token": "3a7dd9d4-a584-4667-98be-03c83a255595",
   "createdAt": "2026-08-03T19:44:59.947Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ALICIA PIÑERA FLORES",
+    "nombre_representante_legal": "N/A",
+    "email": "alicia@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ALICIA PIÑERA FLORES",
+    "nombre_representante_legal": "N/A",
+    "email": "alicia@another.co"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "ALICIA PIÑERA FLORES",
+    "nombre_representante_legal": "N/A",
+    "email": "alicia@another.co"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "ALICIA PIÑERA FLORES",
     "nombre_representante_legal": "N/A",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "5d7319755638d8a35c172b694a566168513a7e2f3ef0eedb957b589f5cc04473",
+  "auditTrail": [
+    {
+      "eventId": "9823c041-d426-4d95-8f26-28fa8c745c27",
+      "uid": "PIFA861024C63",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-03T19:45:06.286Z",
+      "timestampLocal": "2026-08-03T19:45:06.286Z",
+      "timezone": "UTC+0",
+      "ipAddress": "209.178.150.242",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PIFA861024C63&nombre_proveedor_razon_social=ALICIA+PI%C3%91ERA+FLORES+&nombre_representante_legal=N%2FA&email=alicia%40another.co",
+      "previousEventHash": null,
+      "documentHash": "5d7319755638d8a35c172b694a566168513a7e2f3ef0eedb957b589f5cc04473",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1e1192069abc1c25bca759c56113fa7c33f6cd2e6a6ba88c0b9c8b40afff236f"
+    },
+    {
+      "eventId": "683aba3a-024f-40a2-95ce-278dd6357336",
+      "uid": "PIFA861024C63",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-03T19:45:06.286Z",
+      "timestampLocal": "2026-08-03T19:45:06.286Z",
+      "timezone": "UTC+0",
+      "ipAddress": "209.178.150.242",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PIFA861024C63&nombre_proveedor_razon_social=ALICIA+PI%C3%91ERA+FLORES+&nombre_representante_legal=N%2FA&email=alicia%40another.co",
+      "previousEventHash": "1e1192069abc1c25bca759c56113fa7c33f6cd2e6a6ba88c0b9c8b40afff236f",
+      "documentHash": "5d7319755638d8a35c172b694a566168513a7e2f3ef0eedb957b589f5cc04473",
+      "metadata": {
+        "proveedor": "ALICIA PIÑERA FLORES",
+        "representante": "N/A"
+      },
+      "eventHash": "d6185471ab1b6ae1fb980f3808a177dc92ed6a20d28f4f954dc2b0180a2e5f8a"
+    }
+  ]
 }
