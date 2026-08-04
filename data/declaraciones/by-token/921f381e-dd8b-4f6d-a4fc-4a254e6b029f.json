@@ -2,7 +2,7 @@
   "uid": "MEOO900904D75",
   "token": "921f381e-dd8b-4f6d-a4fc-4a254e6b029f",
   "createdAt": "2026-08-04T18:47:44.300Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "OLIVIA MEZA DE LA ORTA",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Olivia Meza de la Orta",
     "email": "editor@meowmag.mx"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "OLIVIA MEZA DE LA ORTA",
-    "nombre_representante_legal": "Olivia Meza de la Orta",
-    "email": "editor@meowmag.mx"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "OLIVIA MEZA DE LA ORTA",
     "nombre_representante_legal": "Olivia Meza de la Orta",
     "email": "editor@meowmag.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1f7d6429c92601428aad1ff4d108fede616e546914aa61275978ed9e83cc673e",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-04T13:12:28.779Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MEOO900904D75",
+  "signatureMetadata": {
+    "ip": "189.147.184.133",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+    "signedAtUtc": "2026-08-04T19:12:34.463Z",
+    "signedAtLocal": "2026-08-04T13:12:34.463Z"
+  },
+  "documentHash": "85feedd630f5bde2b4284d89f54ef76c8e9d9271132c5d8a33980316814f3804",
   "auditTrail": [
     {
       "eventId": "fb3236f5-e4a4-4985-b525-2869770c46fc",
@@ -191,6 +192,99 @@
         "representante": "Olivia Meza de la Orta"
       },
       "eventHash": "ce9ddf65b106a2dc8567166c4c6f2724e399fa137dee46f0e3ae3af2eccdf6e6"
+    },
+    {
+      "eventId": "546fe2f2-a055-4a5e-81cb-3e84ff73b1d3",
+      "uid": "MEOO900904D75",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-04T18:47:55.639Z",
+      "timestampLocal": "2026-08-04T18:47:55.639Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.184.133",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ce9ddf65b106a2dc8567166c4c6f2724e399fa137dee46f0e3ae3af2eccdf6e6",
+      "documentHash": "1f7d6429c92601428aad1ff4d108fede616e546914aa61275978ed9e83cc673e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6613a1b6acc23936cf63803a52c5af26b306995e2dc704028a0df9f7bb7d5f1f"
+    },
+    {
+      "eventId": "1d70e547-b18b-4fc6-906c-f993941e621a",
+      "uid": "MEOO900904D75",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-04T18:47:55.639Z",
+      "timestampLocal": "2026-08-04T18:47:55.639Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.184.133",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "6613a1b6acc23936cf63803a52c5af26b306995e2dc704028a0df9f7bb7d5f1f",
+      "documentHash": "1f7d6429c92601428aad1ff4d108fede616e546914aa61275978ed9e83cc673e",
+      "metadata": {
+        "proveedor": "OLIVIA MEZA DE LA ORTA",
+        "representante": "Olivia Meza de la Orta"
+      },
+      "eventHash": "72728287ade0f44b9f675b62ef5addec35b70e02f8749ba789a71a5dcab98a3b"
+    },
+    {
+      "eventId": "665e44ee-0e40-49af-89d7-8ffad85b60c7",
+      "uid": "MEOO900904D75",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-04T18:47:57.849Z",
+      "timestampLocal": "2026-08-04T18:47:57.849Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.184.133",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "72728287ade0f44b9f675b62ef5addec35b70e02f8749ba789a71a5dcab98a3b",
+      "documentHash": "1f7d6429c92601428aad1ff4d108fede616e546914aa61275978ed9e83cc673e",
+      "eventHash": "c4a029fdd27bad3d46845036aabf20f158a16a08d9511baaf157719ccaa8ac6e"
+    },
+    {
+      "eventId": "a90594c7-b7bf-4de1-8171-4e2bf0e98f4a",
+      "uid": "MEOO900904D75",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-04T19:11:54.245Z",
+      "timestampLocal": "2026-08-04T19:11:54.245Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.184.133",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c4a029fdd27bad3d46845036aabf20f158a16a08d9511baaf157719ccaa8ac6e",
+      "documentHash": "1f7d6429c92601428aad1ff4d108fede616e546914aa61275978ed9e83cc673e",
+      "eventHash": "d7af5758978e7acc8b793feb53056bb50e364a2ae38c4be3a36b8667856a87cf"
+    },
+    {
+      "eventId": "8553e528-121b-4291-b0cb-9a504dc6f370",
+      "uid": "MEOO900904D75",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-04T19:12:34.463Z",
+      "timestampLocal": "2026-08-04T13:12:34.463Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.147.184.133",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "d7af5758978e7acc8b793feb53056bb50e364a2ae38c4be3a36b8667856a87cf",
+      "documentHash": "85feedd630f5bde2b4284d89f54ef76c8e9d9271132c5d8a33980316814f3804",
+      "signatureHash": "30a3c77fa9362e6661227647c8cd78ea7d797052e9b00b6293e43d3eda338c2a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-04T13:12:28.779Z"
+      },
+      "eventHash": "1912264e39b46a0d155a3a8b7e6e42fe7d17430a581e61069e68deab22513883"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 14,
+    "verifiedAt": "2026-08-04T19:12:34.464Z"
+  }
 }
