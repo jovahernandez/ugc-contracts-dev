@@ -2,7 +2,7 @@
   "uid": "KIW0907306Z1",
   "token": "ff44c01e-8047-4c6e-bef1-4e31d509335d",
   "createdAt": "2026-07-30T15:24:21.060Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Kiwilimón, SAPI de CV",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Jessica Del Carmen Gamboa García",
     "email": "miguel.nepomuceno@kiwilimon.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Kiwilimón, SAPI de CV",
-    "nombre_representante_legal": "Jessica Del Carmen Gamboa García",
-    "email": "miguel.nepomuceno@kiwilimon.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Kiwilimón, SAPI de CV",
     "nombre_representante_legal": "Jessica Del Carmen Gamboa García",
     "email": "miguel.nepomuceno@kiwilimon.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5b2c4517685a42e7f86896eda509e4eddee66d21e7e0c1e37ce36016799e9c14",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-04T14:17:59.245Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/KIW0907306Z1",
+  "signatureMetadata": {
+    "ip": "189.217.210.227",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+    "signedAtUtc": "2026-08-04T20:18:02.590Z",
+    "signedAtLocal": "2026-08-04T14:18:02.590Z"
+  },
+  "documentHash": "9b1603bfc7ed391949cd5c8b8b8a1f0ab0b498e393c1638d0e4ccf1cbec95e66",
   "auditTrail": [
     {
       "eventId": "e1ac8af9-23f4-435d-abf2-b32220eb0264",
@@ -65,6 +66,62 @@
         "representante": "Jessica Del Carmen Gamboa García"
       },
       "eventHash": "5c170c0e7c7837851efa412b804c09efaf419c829dff24374be424375b01da6c"
+    },
+    {
+      "eventId": "2f504d98-2873-417c-8192-2fbede0b24f5",
+      "uid": "KIW0907306Z1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-30T15:24:30.086Z",
+      "timestampLocal": "2026-07-30T15:24:30.086Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.230.236.116",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=KIW0907306Z1&nombre_proveedor_razon_social=Kiwilim%C3%B3n%2C+SAPI+de+CV+&nombre_representante_legal=Jessica+Del+Carmen+Gamboa+Garc%C3%ADa+&email=miguel.nepomuceno%40kiwilimon.com",
+      "previousEventHash": "5c170c0e7c7837851efa412b804c09efaf419c829dff24374be424375b01da6c",
+      "documentHash": "5b2c4517685a42e7f86896eda509e4eddee66d21e7e0c1e37ce36016799e9c14",
+      "eventHash": "aa830214d69360a19fedb99e6b1bba3d8a6f2111f4b935b2e993bfc1dc938571"
+    },
+    {
+      "eventId": "c44ad0d2-328a-4016-ba7e-d649dedaff88",
+      "uid": "KIW0907306Z1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-04T20:17:25.667Z",
+      "timestampLocal": "2026-08-04T20:17:25.667Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.210.227",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "aa830214d69360a19fedb99e6b1bba3d8a6f2111f4b935b2e993bfc1dc938571",
+      "documentHash": "5b2c4517685a42e7f86896eda509e4eddee66d21e7e0c1e37ce36016799e9c14",
+      "eventHash": "0ec0f0686e389054b83caedfb4f009d1ccaf023ea5e8199de046341f7e95b64f"
+    },
+    {
+      "eventId": "9f1ef841-b990-4577-a838-c62867dabbe1",
+      "uid": "KIW0907306Z1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-04T20:18:02.590Z",
+      "timestampLocal": "2026-08-04T14:18:02.590Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.210.227",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ff44c01e-8047-4c6e-bef1-4e31d509335d",
+      "previousEventHash": "0ec0f0686e389054b83caedfb4f009d1ccaf023ea5e8199de046341f7e95b64f",
+      "documentHash": "9b1603bfc7ed391949cd5c8b8b8a1f0ab0b498e393c1638d0e4ccf1cbec95e66",
+      "signatureHash": "8edf16a4e6320bdaf04fe8a141a56cb0c28af26b3c87fda0792db7b7640a9b69",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-04T14:17:59.245Z"
+      },
+      "eventHash": "86101a2dad29260d4ff25324b89608c68483d31b9539802287d3a651bd190d0f"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-08-04T20:18:02.591Z"
+  }
 }
