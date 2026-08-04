@@ -2,8 +2,23 @@
   "uid": "GAMS820128C10",
   "token": "44bdca77-5f55-4f06-81d7-aa45c5b548e8",
   "createdAt": "2026-08-04T16:31:18.649Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Sandra Estefanía García Moreno",
+    "nombre_representante_legal": "SANDRA ESTEFANIA GARCIA MORENO",
+    "email": "info@estefaniaencasa.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Sandra Estefanía García Moreno",
+    "nombre_representante_legal": "SANDRA ESTEFANIA GARCIA MORENO",
+    "email": "info@estefaniaencasa.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Sandra Estefanía García Moreno",
+    "nombre_representante_legal": "SANDRA ESTEFANIA GARCIA MORENO",
+    "email": "info@estefaniaencasa.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Sandra Estefanía García Moreno",
     "nombre_representante_legal": "SANDRA ESTEFANIA GARCIA MORENO",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "3979afb0cfe258767927a5e5c9b8047f13b9dc1c94cf35cca0578b342aa09206",
+  "auditTrail": [
+    {
+      "eventId": "06ea6752-8726-4fa0-b499-e9920a1c223d",
+      "uid": "GAMS820128C10",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-04T16:31:25.616Z",
+      "timestampLocal": "2026-08-04T16:31:25.616Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.121.199",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAMS820128C10&nombre_proveedor_razon_social=Sandra+Estefan%C3%ADa+Garc%C3%ADa+Moreno&nombre_representante_legal=SANDRA+ESTEFANIA+GARCIA+MORENO&email=info%40estefaniaencasa.com",
+      "previousEventHash": null,
+      "documentHash": "3979afb0cfe258767927a5e5c9b8047f13b9dc1c94cf35cca0578b342aa09206",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "30795ea5da43e87a0f4083f79cf1d0949b06584fa46e55a0f744eb18d30e71f2"
+    },
+    {
+      "eventId": "7a1ce9bd-14e0-4fa6-a803-8c994d882e64",
+      "uid": "GAMS820128C10",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-04T16:31:25.616Z",
+      "timestampLocal": "2026-08-04T16:31:25.616Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.121.199",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAMS820128C10&nombre_proveedor_razon_social=Sandra+Estefan%C3%ADa+Garc%C3%ADa+Moreno&nombre_representante_legal=SANDRA+ESTEFANIA+GARCIA+MORENO&email=info%40estefaniaencasa.com",
+      "previousEventHash": "30795ea5da43e87a0f4083f79cf1d0949b06584fa46e55a0f744eb18d30e71f2",
+      "documentHash": "3979afb0cfe258767927a5e5c9b8047f13b9dc1c94cf35cca0578b342aa09206",
+      "metadata": {
+        "proveedor": "Sandra Estefanía García Moreno",
+        "representante": "SANDRA ESTEFANIA GARCIA MORENO"
+      },
+      "eventHash": "f8d9749a859bd906caeed18b2ffa84912c8c7391c65b9b5ae958c7cbc528cd85"
+    }
+  ]
 }
