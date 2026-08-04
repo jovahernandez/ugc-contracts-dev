@@ -2,8 +2,23 @@
   "uid": "GSS101213MU8",
   "token": "a25f313f-1974-4a88-9561-bb64d31764b7",
   "createdAt": "2026-08-04T23:41:51.346Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GBCC Strategic Solutions",
+    "nombre_representante_legal": "Gabriela Martínz Bretón",
+    "email": "veronica.oropeza@gbccmexico.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GBCC Strategic Solutions",
+    "nombre_representante_legal": "Gabriela Martínz Bretón",
+    "email": "veronica.oropeza@gbccmexico.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "GBCC Strategic Solutions",
+    "nombre_representante_legal": "Gabriela Martínz Bretón",
+    "email": "veronica.oropeza@gbccmexico.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "GBCC Strategic Solutions",
     "nombre_representante_legal": "Gabriela Martínz Bretón",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "2028d24247046ef7c99757c674afb70597ec669a64c21b9ae5a6043c88776378",
+  "auditTrail": [
+    {
+      "eventId": "78276b48-a960-46b0-8e8a-b25976b57271",
+      "uid": "GSS101213MU8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-04T23:46:00.988Z",
+      "timestampLocal": "2026-08-04T23:46:00.988Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.87.26",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36 EdgA/150.0.0.0",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es-ES;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GSS101213MU8&nombre_proveedor_razon_social=GBCC+Strategic+Solutions+&nombre_representante_legal=Gabriela+Mart%C3%ADnz+Bret%C3%B3n&email=veronica.oropeza%40gbccmexico.com",
+      "previousEventHash": null,
+      "documentHash": "2028d24247046ef7c99757c674afb70597ec669a64c21b9ae5a6043c88776378",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a9da7d1e4090aef7eafe3b4be560e67ea744b0c3886e4cf4d90300db5a71f412"
+    },
+    {
+      "eventId": "59c01c72-189c-4ac8-968d-6256e85f530b",
+      "uid": "GSS101213MU8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-04T23:46:00.988Z",
+      "timestampLocal": "2026-08-04T23:46:00.988Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.87.26",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36 EdgA/150.0.0.0",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es-ES;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GSS101213MU8&nombre_proveedor_razon_social=GBCC+Strategic+Solutions+&nombre_representante_legal=Gabriela+Mart%C3%ADnz+Bret%C3%B3n&email=veronica.oropeza%40gbccmexico.com",
+      "previousEventHash": "a9da7d1e4090aef7eafe3b4be560e67ea744b0c3886e4cf4d90300db5a71f412",
+      "documentHash": "2028d24247046ef7c99757c674afb70597ec669a64c21b9ae5a6043c88776378",
+      "metadata": {
+        "proveedor": "GBCC Strategic Solutions",
+        "representante": "Gabriela Martínz Bretón"
+      },
+      "eventHash": "5cbaf08d21cbe77d1eccd0e9d5751a755d09545ef5e23fc0993e8940faeff89f"
+    }
+  ]
 }
