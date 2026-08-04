@@ -2,8 +2,23 @@
   "uid": "CASA001001Q56",
   "token": "6326e178-ff85-4c5a-ac1b-cb491bae4e56",
   "createdAt": "2026-08-04T02:14:18.784Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ANA KAREN CHACON SOLIS",
+    "nombre_representante_legal": "ANA KAREN CHACON SOLIS",
+    "email": "anasolis.ugc@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ANA KAREN CHACON SOLIS",
+    "nombre_representante_legal": "ANA KAREN CHACON SOLIS",
+    "email": "anasolis.ugc@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "ANA KAREN CHACON SOLIS",
+    "nombre_representante_legal": "ANA KAREN CHACON SOLIS",
+    "email": "anasolis.ugc@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "ANA KAREN CHACON SOLIS",
     "nombre_representante_legal": "ANA KAREN CHACON SOLIS",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "3f8bb5baf2524528cef78dae3b12171dce76c181dfdf39bff8441bb940a1160d",
+  "auditTrail": [
+    {
+      "eventId": "ce99f570-f51e-455f-be30-ac10690cb080",
+      "uid": "CASA001001Q56",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-04T02:14:26.018Z",
+      "timestampLocal": "2026-08-04T02:14:26.018Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.132.248.194",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "3f8bb5baf2524528cef78dae3b12171dce76c181dfdf39bff8441bb940a1160d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "7364443be085eb510db957f855f93b22a8c13b05c14f68ee22a76c88b0d95915"
+    },
+    {
+      "eventId": "024cfe3e-3188-444f-84f9-870c9fcc00de",
+      "uid": "CASA001001Q56",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-04T02:14:26.018Z",
+      "timestampLocal": "2026-08-04T02:14:26.018Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.132.248.194",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "7364443be085eb510db957f855f93b22a8c13b05c14f68ee22a76c88b0d95915",
+      "documentHash": "3f8bb5baf2524528cef78dae3b12171dce76c181dfdf39bff8441bb940a1160d",
+      "metadata": {
+        "proveedor": "ANA KAREN CHACON SOLIS",
+        "representante": "ANA KAREN CHACON SOLIS"
+      },
+      "eventHash": "3969d5fc077f04b1dc34938d9818a7b8dabc6fe13b7c3b06b494ed17af6a843b"
+    }
+  ]
 }
