@@ -2,8 +2,23 @@
   "uid": "GOGG750924KP5",
   "token": "11592872-79f0-467c-afa6-0b74e7b6686e",
   "createdAt": "2026-08-04T20:59:44.145Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GUNTER GONZALEZ GOMEZ",
+    "nombre_representante_legal": "Gunter Gonzalez Gomez",
+    "email": "gunter.gonzalez@outlook.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GUNTER GONZALEZ GOMEZ",
+    "nombre_representante_legal": "Gunter Gonzalez Gomez",
+    "email": "gunter.gonzalez@outlook.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "GUNTER GONZALEZ GOMEZ",
+    "nombre_representante_legal": "Gunter Gonzalez Gomez",
+    "email": "gunter.gonzalez@outlook.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "GUNTER GONZALEZ GOMEZ",
     "nombre_representante_legal": "Gunter Gonzalez Gomez",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "7c95dfae235edcca44aabaa96f4324f2a7689642c49ba8cec2124752d01cfcfa",
+  "auditTrail": [
+    {
+      "eventId": "e0ad4637-2a42-46ce-af99-56b3dbe324a2",
+      "uid": "GOGG750924KP5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-04T20:59:51.803Z",
+      "timestampLocal": "2026-08-04T20:59:51.803Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.245.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOGG750924KP5&nombre_proveedor_razon_social=GUNTER+GONZALEZ+GOMEZ&nombre_representante_legal=Gunter+Gonzalez+Gomez&email=gunter.gonzalez%40outlook.com",
+      "previousEventHash": null,
+      "documentHash": "7c95dfae235edcca44aabaa96f4324f2a7689642c49ba8cec2124752d01cfcfa",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "de2363fd82e7d2b4c8671d4ddf43a6516be3a98298bcb02b4f85ad7919397a61"
+    },
+    {
+      "eventId": "9f663b6d-14c6-48bd-90c4-b4e540d37d65",
+      "uid": "GOGG750924KP5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-04T20:59:51.803Z",
+      "timestampLocal": "2026-08-04T20:59:51.803Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.245.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOGG750924KP5&nombre_proveedor_razon_social=GUNTER+GONZALEZ+GOMEZ&nombre_representante_legal=Gunter+Gonzalez+Gomez&email=gunter.gonzalez%40outlook.com",
+      "previousEventHash": "de2363fd82e7d2b4c8671d4ddf43a6516be3a98298bcb02b4f85ad7919397a61",
+      "documentHash": "7c95dfae235edcca44aabaa96f4324f2a7689642c49ba8cec2124752d01cfcfa",
+      "metadata": {
+        "proveedor": "GUNTER GONZALEZ GOMEZ",
+        "representante": "Gunter Gonzalez Gomez"
+      },
+      "eventHash": "1023ac2032cea2cb9b3103aff62647e90841e558c956470581a416963de78604"
+    }
+  ]
 }
