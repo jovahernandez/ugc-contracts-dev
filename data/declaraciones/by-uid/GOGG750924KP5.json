@@ -2,7 +2,7 @@
   "uid": "GOGG750924KP5",
   "token": "11592872-79f0-467c-afa6-0b74e7b6686e",
   "createdAt": "2026-08-04T20:59:44.145Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GUNTER GONZALEZ GOMEZ",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Gunter Gonzalez Gomez",
     "email": "gunter.gonzalez@outlook.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "GUNTER GONZALEZ GOMEZ",
-    "nombre_representante_legal": "Gunter Gonzalez Gomez",
-    "email": "gunter.gonzalez@outlook.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "GUNTER GONZALEZ GOMEZ",
     "nombre_representante_legal": "Gunter Gonzalez Gomez",
     "email": "gunter.gonzalez@outlook.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7c95dfae235edcca44aabaa96f4324f2a7689642c49ba8cec2124752d01cfcfa",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-04T15:00:37.221Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GOGG750924KP5",
+  "signatureMetadata": {
+    "ip": "187.251.245.49",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-04T21:00:40.554Z",
+    "signedAtLocal": "2026-08-04T15:00:40.554Z"
+  },
+  "documentHash": "709e8501b993dd7a9b658a392c35527b485453b8e7307b04425dd347725e61c1",
   "auditTrail": [
     {
       "eventId": "e0ad4637-2a42-46ce-af99-56b3dbe324a2",
@@ -65,6 +66,62 @@
         "representante": "Gunter Gonzalez Gomez"
       },
       "eventHash": "1023ac2032cea2cb9b3103aff62647e90841e558c956470581a416963de78604"
+    },
+    {
+      "eventId": "c7528a21-b7d0-4050-88bd-1d64079a2710",
+      "uid": "GOGG750924KP5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-04T20:59:53.822Z",
+      "timestampLocal": "2026-08-04T20:59:53.822Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.245.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOGG750924KP5&nombre_proveedor_razon_social=GUNTER+GONZALEZ+GOMEZ&nombre_representante_legal=Gunter+Gonzalez+Gomez&email=gunter.gonzalez%40outlook.com",
+      "previousEventHash": "1023ac2032cea2cb9b3103aff62647e90841e558c956470581a416963de78604",
+      "documentHash": "7c95dfae235edcca44aabaa96f4324f2a7689642c49ba8cec2124752d01cfcfa",
+      "eventHash": "f5229883b7664c3218faa26a3de984c094458e2c84458b3e3b20fa52297c741b"
+    },
+    {
+      "eventId": "d63366ab-e0d6-4d5a-ad7e-60b5e9159e94",
+      "uid": "GOGG750924KP5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-04T21:00:10.997Z",
+      "timestampLocal": "2026-08-04T21:00:10.997Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.245.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "f5229883b7664c3218faa26a3de984c094458e2c84458b3e3b20fa52297c741b",
+      "documentHash": "7c95dfae235edcca44aabaa96f4324f2a7689642c49ba8cec2124752d01cfcfa",
+      "eventHash": "782dafcffef5cd41d2d21e05afccff0510a5ec1d6f27bcf2c504e83834a0b750"
+    },
+    {
+      "eventId": "2e00a76c-6151-4119-bb51-ae896ef91f3f",
+      "uid": "GOGG750924KP5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-04T21:00:40.554Z",
+      "timestampLocal": "2026-08-04T15:00:40.554Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.251.245.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/11592872-79f0-467c-afa6-0b74e7b6686e",
+      "previousEventHash": "782dafcffef5cd41d2d21e05afccff0510a5ec1d6f27bcf2c504e83834a0b750",
+      "documentHash": "709e8501b993dd7a9b658a392c35527b485453b8e7307b04425dd347725e61c1",
+      "signatureHash": "7a18d64a7a97a9a3592419c940997f37881751d6ae173572594a7deb1790c260",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-04T15:00:37.221Z"
+      },
+      "eventHash": "89e076966c9b857642e1ae127751c5b98f91ade09bb4cbe427b6da4792793096"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-08-04T21:00:40.555Z"
+  }
 }
