@@ -2,7 +2,7 @@
   "uid": "DAPS001102SH5",
   "token": "e090f756-587c-47a1-8b61-f607c10e61e7",
   "createdAt": "2026-08-04T20:07:59.917Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SOFIA DANDER PULIDO",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "Sofia Dander Pulido",
     "email": "sofia.dander2110@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "SOFIA DANDER PULIDO",
-    "nombre_representante_legal": "Sofia Dander Pulido",
-    "email": "sofia.dander2110@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "SOFIA DANDER PULIDO",
     "nombre_representante_legal": "Sofia Dander Pulido",
     "email": "sofia.dander2110@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7417b3511b9b354e9db5481f303041ee5802ad2fda32987c796ca0d0ed814b52",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-04T14:08:45.591Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DAPS001102SH5",
+  "signatureMetadata": {
+    "ip": "129.222.91.36",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-04T20:08:51.417Z",
+    "signedAtLocal": "2026-08-04T14:08:51.417Z"
+  },
+  "documentHash": "1204ecc102fd722de60d7d776dbe0f2d65974e056d87305a31a8ab7204acda34",
   "auditTrail": [
     {
       "eventId": "86edc528-589c-46a2-b06d-a0fa2324f457",
@@ -65,6 +66,47 @@
         "representante": "Sofia Dander Pulido"
       },
       "eventHash": "c29bffc6ef11f99b732f3cf3c0df1b7cdabdbd6e8c9eb838e119bb5e7b4f8e2d"
+    },
+    {
+      "eventId": "04acab44-be43-4e0b-a003-c02c812b8680",
+      "uid": "DAPS001102SH5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-04T20:08:09.616Z",
+      "timestampLocal": "2026-08-04T20:08:09.616Z",
+      "timezone": "UTC+0",
+      "ipAddress": "129.222.91.36",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DAPS001102SH5&nombre_proveedor_razon_social=SOFIA+DANDER+PULIDO&nombre_representante_legal=Sofia+Dander+Pulido&email=sofia.dander2110%40gmail.com",
+      "previousEventHash": "c29bffc6ef11f99b732f3cf3c0df1b7cdabdbd6e8c9eb838e119bb5e7b4f8e2d",
+      "documentHash": "7417b3511b9b354e9db5481f303041ee5802ad2fda32987c796ca0d0ed814b52",
+      "eventHash": "964ea6bcb2657c14f78209258d82e42e4c545e62f1cf3224fba0613e51fa1023"
+    },
+    {
+      "eventId": "9688f6a6-c915-49d9-a896-7a52079d7cdf",
+      "uid": "DAPS001102SH5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-04T20:08:51.417Z",
+      "timestampLocal": "2026-08-04T14:08:51.417Z",
+      "timezone": "UTC-6",
+      "ipAddress": "129.222.91.36",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e090f756-587c-47a1-8b61-f607c10e61e7",
+      "previousEventHash": "964ea6bcb2657c14f78209258d82e42e4c545e62f1cf3224fba0613e51fa1023",
+      "documentHash": "1204ecc102fd722de60d7d776dbe0f2d65974e056d87305a31a8ab7204acda34",
+      "signatureHash": "80ce7f0c46d7119e4669d9d099bcc440d865c8c09d3469f7506ece8b0a469756",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-04T14:08:45.591Z"
+      },
+      "eventHash": "1e7b6e9a75270164131071f353b0bcfd2c2b85c80d5d4c0b77b0b002c8e95266"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-04T20:08:51.418Z"
+  }
 }
