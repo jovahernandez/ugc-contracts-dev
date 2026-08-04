@@ -2,7 +2,7 @@
   "uid": "CASA001001Q56",
   "token": "6326e178-ff85-4c5a-ac1b-cb491bae4e56",
   "createdAt": "2026-08-04T02:14:18.784Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ANA KAREN CHACON SOLIS",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "ANA KAREN CHACON SOLIS",
     "email": "anasolis.ugc@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "ANA KAREN CHACON SOLIS",
-    "nombre_representante_legal": "ANA KAREN CHACON SOLIS",
-    "email": "anasolis.ugc@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "ANA KAREN CHACON SOLIS",
     "nombre_representante_legal": "ANA KAREN CHACON SOLIS",
     "email": "anasolis.ugc@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3f8bb5baf2524528cef78dae3b12171dce76c181dfdf39bff8441bb940a1160d",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-03T20:18:08.329Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CASA001001Q56",
+  "signatureMetadata": {
+    "ip": "201.132.248.194",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+    "signedAtUtc": "2026-08-04T02:18:14.095Z",
+    "signedAtLocal": "2026-08-03T20:18:14.095Z"
+  },
+  "documentHash": "09735c464c9c2c9674d2d5768c233be4d9e38cde172f86fde22401020b335f62",
   "auditTrail": [
     {
       "eventId": "ce99f570-f51e-455f-be30-ac10690cb080",
@@ -65,6 +66,47 @@
         "representante": "ANA KAREN CHACON SOLIS"
       },
       "eventHash": "3969d5fc077f04b1dc34938d9818a7b8dabc6fe13b7c3b06b494ed17af6a843b"
+    },
+    {
+      "eventId": "c801029f-1cfc-467a-8e58-a64a04e900f5",
+      "uid": "CASA001001Q56",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-04T02:14:28.016Z",
+      "timestampLocal": "2026-08-04T02:14:28.016Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.132.248.194",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "3969d5fc077f04b1dc34938d9818a7b8dabc6fe13b7c3b06b494ed17af6a843b",
+      "documentHash": "3f8bb5baf2524528cef78dae3b12171dce76c181dfdf39bff8441bb940a1160d",
+      "eventHash": "4640c6e1e581d914a26ff9300a551f7997a512710f1c8358de2cdd47d08e02cb"
+    },
+    {
+      "eventId": "791c9659-8804-4ea1-b96b-9e630debdf0f",
+      "uid": "CASA001001Q56",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-04T02:18:14.095Z",
+      "timestampLocal": "2026-08-03T20:18:14.095Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.132.248.194",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4640c6e1e581d914a26ff9300a551f7997a512710f1c8358de2cdd47d08e02cb",
+      "documentHash": "09735c464c9c2c9674d2d5768c233be4d9e38cde172f86fde22401020b335f62",
+      "signatureHash": "9a0fdc1fd21ae317100c42f07907446772c839ca924c610f706aa93b32a9cca2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-03T20:18:08.329Z"
+      },
+      "eventHash": "b9e0c1e3aa20870022b92661da47516fe4c358ae38febcd5d90e995d7ac076cc"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-04T02:18:14.095Z"
+  }
 }
