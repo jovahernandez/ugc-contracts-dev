@@ -2,8 +2,23 @@
   "uid": "SASE970602TC3",
   "token": "1a2742a1-9511-48c0-bde0-c3fbe62c130d",
   "createdAt": "2026-08-04T20:54:03.607Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ERIKA SAMANTA SALGADO SANTIBAÑEZ",
+    "nombre_representante_legal": "Erika Samanta Salgado Santibañez",
+    "email": "salgado0612@outlook.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ERIKA SAMANTA SALGADO SANTIBAÑEZ",
+    "nombre_representante_legal": "Erika Samanta Salgado Santibañez",
+    "email": "salgado0612@outlook.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "ERIKA SAMANTA SALGADO SANTIBAÑEZ",
+    "nombre_representante_legal": "Erika Samanta Salgado Santibañez",
+    "email": "salgado0612@outlook.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "ERIKA SAMANTA SALGADO SANTIBAÑEZ",
     "nombre_representante_legal": "Erika Samanta Salgado Santibañez",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8887af78ed9c868ff51b4b37a021d64550a68d7bb1f2ab7ef12fda55ebce8990",
+  "auditTrail": [
+    {
+      "eventId": "e29be3ff-7d76-4265-83cc-5597595d993a",
+      "uid": "SASE970602TC3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-04T20:54:14.890Z",
+      "timestampLocal": "2026-08-04T20:54:14.890Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.226.174.107",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4,fr-FR;q=0.3,fr;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SASE970602TC3&nombre_proveedor_razon_social=ERIKA+SAMANTA+SALGADO+SANTIBA%C3%91EZ&nombre_representante_legal=Erika+Samanta+Salgado+Santiba%C3%B1ez&email=salgado0612%40outlook.com",
+      "previousEventHash": null,
+      "documentHash": "8887af78ed9c868ff51b4b37a021d64550a68d7bb1f2ab7ef12fda55ebce8990",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b25dd4bdb8bc1060f811003be1aba8311f0d1190151f4400b40f14d0ce443357"
+    },
+    {
+      "eventId": "e76f1cc6-ec3a-4647-84a1-ac35c9a7094e",
+      "uid": "SASE970602TC3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-04T20:54:14.890Z",
+      "timestampLocal": "2026-08-04T20:54:14.890Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.226.174.107",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4,fr-FR;q=0.3,fr;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SASE970602TC3&nombre_proveedor_razon_social=ERIKA+SAMANTA+SALGADO+SANTIBA%C3%91EZ&nombre_representante_legal=Erika+Samanta+Salgado+Santiba%C3%B1ez&email=salgado0612%40outlook.com",
+      "previousEventHash": "b25dd4bdb8bc1060f811003be1aba8311f0d1190151f4400b40f14d0ce443357",
+      "documentHash": "8887af78ed9c868ff51b4b37a021d64550a68d7bb1f2ab7ef12fda55ebce8990",
+      "metadata": {
+        "proveedor": "ERIKA SAMANTA SALGADO SANTIBAÑEZ",
+        "representante": "Erika Samanta Salgado Santibañez"
+      },
+      "eventHash": "3df624b8c1436f3284282cf339e84708243c12f0968de562d85c8259ce258267"
+    }
+  ]
 }
