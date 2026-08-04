@@ -2,8 +2,23 @@
   "uid": "GASR950503I35",
   "token": "a1937312-e65f-45da-ad52-d4bfbc980570",
   "createdAt": "2026-08-04T13:52:44.411Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Rafael Garcia Silva",
+    "nombre_representante_legal": "Rafael Garcia Silva",
+    "email": "rgs395@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Rafael Garcia Silva",
+    "nombre_representante_legal": "Rafael Garcia Silva",
+    "email": "rgs395@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Rafael Garcia Silva",
+    "nombre_representante_legal": "Rafael Garcia Silva",
+    "email": "rgs395@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Rafael Garcia Silva",
     "nombre_representante_legal": "Rafael Garcia Silva",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "35846a92bd9bd48b87f5760096128b37b9ae83d6042f21686b5770f040ae92db",
+  "auditTrail": [
+    {
+      "eventId": "c1255cb7-e483-46f3-a121-3b95b7381ac3",
+      "uid": "GASR950503I35",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-04T13:52:50.716Z",
+      "timestampLocal": "2026-08-04T13:52:50.716Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.145.227",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "35846a92bd9bd48b87f5760096128b37b9ae83d6042f21686b5770f040ae92db",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2ac89d92ecd60b4c209f3c7012e029b654778a7933440b6845ad5134c3c81540"
+    },
+    {
+      "eventId": "4a3c0b34-f917-474d-be1c-f42602cfa4d9",
+      "uid": "GASR950503I35",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-04T13:52:50.716Z",
+      "timestampLocal": "2026-08-04T13:52:50.716Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.145.227",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "2ac89d92ecd60b4c209f3c7012e029b654778a7933440b6845ad5134c3c81540",
+      "documentHash": "35846a92bd9bd48b87f5760096128b37b9ae83d6042f21686b5770f040ae92db",
+      "metadata": {
+        "proveedor": "Rafael Garcia Silva",
+        "representante": "Rafael Garcia Silva"
+      },
+      "eventHash": "87779d65d204595bdbfa8e85ab988f8fb7939a6cd9d3272fe05dc01405bf2da9"
+    }
+  ]
 }
