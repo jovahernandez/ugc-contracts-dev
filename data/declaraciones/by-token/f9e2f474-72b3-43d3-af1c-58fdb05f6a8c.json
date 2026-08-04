@@ -2,8 +2,23 @@
   "uid": "CEWO870612AF3",
   "token": "f9e2f474-72b3-43d3-af1c-58fdb05f6a8c",
   "createdAt": "2026-08-04T18:37:36.887Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Orly Cheirif",
+    "nombre_representante_legal": "Orly Cheirif Wolosky",
+    "email": "orly.cheirif@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Orly Cheirif",
+    "nombre_representante_legal": "Orly Cheirif Wolosky",
+    "email": "orly.cheirif@gmail.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Orly Cheirif",
+    "nombre_representante_legal": "Orly Cheirif Wolosky",
+    "email": "orly.cheirif@gmail.com"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Orly Cheirif",
     "nombre_representante_legal": "Orly Cheirif Wolosky",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "6c3b18ed1468850fba5394d927c7029709bba71b4faa0d76aa54a8e4a30ab581",
+  "auditTrail": [
+    {
+      "eventId": "2748a5ac-9b96-406d-be5c-e5d6145680b4",
+      "uid": "CEWO870612AF3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-04T18:37:43.516Z",
+      "timestampLocal": "2026-08-04T18:37:43.516Z",
+      "timezone": "UTC+0",
+      "ipAddress": "70.95.164.205",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CEWO870612AF3&nombre_proveedor_razon_social=Orly+Cheirif&nombre_representante_legal=Orly+Cheirif+Wolosky&email=orly.cheirif%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "6c3b18ed1468850fba5394d927c7029709bba71b4faa0d76aa54a8e4a30ab581",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "926010a0964be3934d6785153799078a1a3f4f36960440a3e7817f5c9dbd0a70"
+    },
+    {
+      "eventId": "a6c208bf-0b4a-44fa-9f0b-4768a7daffd9",
+      "uid": "CEWO870612AF3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-04T18:37:43.516Z",
+      "timestampLocal": "2026-08-04T18:37:43.516Z",
+      "timezone": "UTC+0",
+      "ipAddress": "70.95.164.205",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CEWO870612AF3&nombre_proveedor_razon_social=Orly+Cheirif&nombre_representante_legal=Orly+Cheirif+Wolosky&email=orly.cheirif%40gmail.com",
+      "previousEventHash": "926010a0964be3934d6785153799078a1a3f4f36960440a3e7817f5c9dbd0a70",
+      "documentHash": "6c3b18ed1468850fba5394d927c7029709bba71b4faa0d76aa54a8e4a30ab581",
+      "metadata": {
+        "proveedor": "Orly Cheirif",
+        "representante": "Orly Cheirif Wolosky"
+      },
+      "eventHash": "326801584209f0eb52bf61c7a4b7860175b7e1ce35a3bca393ad92d4cd93a329"
+    }
+  ]
 }
