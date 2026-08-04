@@ -2,7 +2,7 @@
   "uid": "AECP0105294C4",
   "token": "083dc040-2c14-4db3-8385-314e0854d500",
   "createdAt": "2026-07-31T17:57:52.530Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PAOLA ROSARIO ANGEL CAMARENA",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "NA",
     "email": "paolaangelcuentas@gmail.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "PAOLA ROSARIO ANGEL CAMARENA",
-    "nombre_representante_legal": "NA",
-    "email": "paolaangelcuentas@gmail.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "PAOLA ROSARIO ANGEL CAMARENA",
     "nombre_representante_legal": "NA",
     "email": "paolaangelcuentas@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "462cfcfe6d8e3a1f9b38b27229921d8c25535b51c509b47b9f4ae21c6eda5b2e",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-03T19:49:53.292Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AECP0105294C4",
+  "signatureMetadata": {
+    "ip": "187.139.77.35",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15",
+    "signedAtUtc": "2026-08-04T01:49:56.633Z",
+    "signedAtLocal": "2026-08-03T19:49:56.633Z"
+  },
+  "documentHash": "cdc4ac3d1dd14be6a917615f453f45c6abd78b022b99896a1e125f40b4ccc6f5",
   "auditTrail": [
     {
       "eventId": "8213a6e2-9895-4542-916c-4c0b27a28dbe",
@@ -65,6 +66,77 @@
         "representante": "NA"
       },
       "eventHash": "e19fc8ebd50c90e717e706bba24e3447465e5c72d20b2b5d9226929d5a76931f"
+    },
+    {
+      "eventId": "95b34951-a606-4c3d-aa0e-13c9e1aa8bf0",
+      "uid": "AECP0105294C4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-07-31T18:00:03.275Z",
+      "timestampLocal": "2026-07-31T18:00:03.275Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.50.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AECP0105294C4&nombre_proveedor_razon_social=PAOLA+ROSARIO+ANGEL+CAMARENA&nombre_representante_legal=NA&email=paolaangelcuentas%40gmail.com",
+      "previousEventHash": "e19fc8ebd50c90e717e706bba24e3447465e5c72d20b2b5d9226929d5a76931f",
+      "documentHash": "462cfcfe6d8e3a1f9b38b27229921d8c25535b51c509b47b9f4ae21c6eda5b2e",
+      "eventHash": "8348310903bcbe0e4f76d2109a818bd121148f7a2b9076b5582b00efa1b96263"
+    },
+    {
+      "eventId": "982f87d0-d6a9-4b80-946e-260cd27df31c",
+      "uid": "AECP0105294C4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-04T01:39:04.083Z",
+      "timestampLocal": "2026-08-04T01:39:04.083Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.139.77.35",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "8348310903bcbe0e4f76d2109a818bd121148f7a2b9076b5582b00efa1b96263",
+      "documentHash": "462cfcfe6d8e3a1f9b38b27229921d8c25535b51c509b47b9f4ae21c6eda5b2e",
+      "eventHash": "dd0df7441b5b615ef2a7210d5a2bc390904169d315f57557ae6a93290e53762f"
+    },
+    {
+      "eventId": "d0593980-0bc6-4040-a93a-5af18096920f",
+      "uid": "AECP0105294C4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-04T01:39:34.245Z",
+      "timestampLocal": "2026-08-04T01:39:34.245Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.139.77.35",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "dd0df7441b5b615ef2a7210d5a2bc390904169d315f57557ae6a93290e53762f",
+      "documentHash": "462cfcfe6d8e3a1f9b38b27229921d8c25535b51c509b47b9f4ae21c6eda5b2e",
+      "eventHash": "da2a7afd4edd73dc3a4c30ea88f3b5d67260be91c4aec4e7b4fb6c66f4e3bdc2"
+    },
+    {
+      "eventId": "2c70893a-6ee7-4571-bc8a-405dba0bbdd8",
+      "uid": "AECP0105294C4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-04T01:49:56.633Z",
+      "timestampLocal": "2026-08-03T19:49:56.633Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.139.77.35",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "da2a7afd4edd73dc3a4c30ea88f3b5d67260be91c4aec4e7b4fb6c66f4e3bdc2",
+      "documentHash": "cdc4ac3d1dd14be6a917615f453f45c6abd78b022b99896a1e125f40b4ccc6f5",
+      "signatureHash": "d997b8932f425eae1497bfca40c04b91625a9fa457aec030453c0f7927fd82fe",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-03T19:49:53.292Z"
+      },
+      "eventHash": "fce41f629bd17c899ad8cf6c000d5b45fe4314147acd7a154d6144917cd64fb7"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-08-04T01:49:56.633Z"
+  }
 }
