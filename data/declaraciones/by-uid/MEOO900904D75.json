@@ -2,8 +2,23 @@
   "uid": "MEOO900904D75",
   "token": "921f381e-dd8b-4f6d-a4fc-4a254e6b029f",
   "createdAt": "2026-08-04T18:47:44.300Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "OLIVIA MEZA DE LA ORTA",
+    "nombre_representante_legal": "Olivia Meza de la Orta",
+    "email": "editor@meowmag.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "OLIVIA MEZA DE LA ORTA",
+    "nombre_representante_legal": "Olivia Meza de la Orta",
+    "email": "editor@meowmag.mx"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "OLIVIA MEZA DE LA ORTA",
+    "nombre_representante_legal": "Olivia Meza de la Orta",
+    "email": "editor@meowmag.mx"
+  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "OLIVIA MEZA DE LA ORTA",
     "nombre_representante_legal": "Olivia Meza de la Orta",
@@ -12,5 +27,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "44ddead755d00725f0f0d10ed84d47ddc0924d8c694e07277001555af4dd6793",
+  "auditTrail": [
+    {
+      "eventId": "fb3236f5-e4a4-4985-b525-2869770c46fc",
+      "uid": "MEOO900904D75",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-04T18:47:49.331Z",
+      "timestampLocal": "2026-08-04T18:47:49.331Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.184.133",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "44ddead755d00725f0f0d10ed84d47ddc0924d8c694e07277001555af4dd6793",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "67970eaac45cce0fa8de0208c4edd3787dc147f328dd4e286c84bd677594afe8"
+    },
+    {
+      "eventId": "15b70377-5853-40c3-81a8-a01e73c9ffac",
+      "uid": "MEOO900904D75",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-04T18:47:49.331Z",
+      "timestampLocal": "2026-08-04T18:47:49.331Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.184.133",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "67970eaac45cce0fa8de0208c4edd3787dc147f328dd4e286c84bd677594afe8",
+      "documentHash": "44ddead755d00725f0f0d10ed84d47ddc0924d8c694e07277001555af4dd6793",
+      "metadata": {
+        "proveedor": "OLIVIA MEZA DE LA ORTA",
+        "representante": "Olivia Meza de la Orta"
+      },
+      "eventHash": "8f0e52b32e55c830576d93ed5bd7dda0023bafc23e817aea4fcc806c0b7ddf51"
+    }
+  ]
 }
