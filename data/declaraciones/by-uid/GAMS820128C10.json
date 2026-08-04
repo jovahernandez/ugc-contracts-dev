@@ -2,7 +2,7 @@
   "uid": "GAMS820128C10",
   "token": "44bdca77-5f55-4f06-81d7-aa45c5b548e8",
   "createdAt": "2026-08-04T16:31:18.649Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Sandra Estefanía García Moreno",
@@ -14,20 +14,21 @@
     "nombre_representante_legal": "SANDRA ESTEFANIA GARCIA MORENO",
     "email": "info@estefaniaencasa.com"
   },
-  "expectedProveedor": {
-    "nombre_proveedor_razon_social": "Sandra Estefanía García Moreno",
-    "nombre_representante_legal": "SANDRA ESTEFANIA GARCIA MORENO",
-    "email": "info@estefaniaencasa.com"
-  },
   "expectedProveedorData": {
     "nombre_proveedor_razon_social": "Sandra Estefanía García Moreno",
     "nombre_representante_legal": "SANDRA ESTEFANIA GARCIA MORENO",
     "email": "info@estefaniaencasa.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3979afb0cfe258767927a5e5c9b8047f13b9dc1c94cf35cca0578b342aa09206",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-04T10:31:53.851Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GAMS820128C10",
+  "signatureMetadata": {
+    "ip": "189.253.121.199",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-04T16:31:57.171Z",
+    "signedAtLocal": "2026-08-04T10:31:57.171Z"
+  },
+  "documentHash": "066dbfafc217304dc6efd813eb0f0cf645340a6d6e5ef648315a8cfb3d6a5503",
   "auditTrail": [
     {
       "eventId": "06ea6752-8726-4fa0-b499-e9920a1c223d",
@@ -65,6 +66,47 @@
         "representante": "SANDRA ESTEFANIA GARCIA MORENO"
       },
       "eventHash": "f8d9749a859bd906caeed18b2ffa84912c8c7391c65b9b5ae958c7cbc528cd85"
+    },
+    {
+      "eventId": "cd41df43-ebc5-4828-bd65-f0dfe8f15d14",
+      "uid": "GAMS820128C10",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-04T16:31:27.917Z",
+      "timestampLocal": "2026-08-04T16:31:27.917Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.121.199",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAMS820128C10&nombre_proveedor_razon_social=Sandra+Estefan%C3%ADa+Garc%C3%ADa+Moreno&nombre_representante_legal=SANDRA+ESTEFANIA+GARCIA+MORENO&email=info%40estefaniaencasa.com",
+      "previousEventHash": "f8d9749a859bd906caeed18b2ffa84912c8c7391c65b9b5ae958c7cbc528cd85",
+      "documentHash": "3979afb0cfe258767927a5e5c9b8047f13b9dc1c94cf35cca0578b342aa09206",
+      "eventHash": "0f7e060f4c4d7be9e7d428b2e65a6451a283cf7c5c810c37df29d1717b0a4273"
+    },
+    {
+      "eventId": "9e16183e-0de3-45ac-bf4c-d3535339a548",
+      "uid": "GAMS820128C10",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-04T16:31:57.171Z",
+      "timestampLocal": "2026-08-04T10:31:57.171Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.253.121.199",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/44bdca77-5f55-4f06-81d7-aa45c5b548e8",
+      "previousEventHash": "0f7e060f4c4d7be9e7d428b2e65a6451a283cf7c5c810c37df29d1717b0a4273",
+      "documentHash": "066dbfafc217304dc6efd813eb0f0cf645340a6d6e5ef648315a8cfb3d6a5503",
+      "signatureHash": "92c887f34aa4686a9aa296fa7d939c8f24be989dbef730555c4d8974dd1c9efb",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-04T10:31:53.851Z"
+      },
+      "eventHash": "e9c57503db161319fa9aa920fdb04da2fef6cc8e25118fb6811bd0c247f65f17"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-04T16:31:57.171Z"
+  }
 }
