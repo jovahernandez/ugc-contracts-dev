@@ -3,8 +3,18 @@
   "declarationId": "2743360d-c176-44f5-97eb-c9e1b664234c",
   "token": "5979bcc6-86e1-4d2c-9ebe-d355f0506cde",
   "createdAt": "2026-08-05T16:50:58.258Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "EMILIO JOSE SAN MIGUEL VILLANUEVA",
+    "nombre_representante_legal": "EMILIO JOSE SAN MIGUEL VILLANUEVA",
+    "email": "esanmiguel@theyellowhat.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "EMILIO JOSE SAN MIGUEL VILLANUEVA",
+    "nombre_representante_legal": "EMILIO JOSE SAN MIGUEL VILLANUEVA",
+    "email": "esanmiguel@theyellowhat.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "EMILIO JOSE SAN MIGUEL VILLANUEVA",
     "nombre_representante_legal": "EMILIO JOSE SAN MIGUEL VILLANUEVA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8ac01fe54201f32290eef76fa52ca6718804b2af83b40152c1e4e202d032a34b",
+  "auditTrail": [
+    {
+      "eventId": "42001346-2410-4a54-921d-0e6c4469a388",
+      "uid": "SAVE8010202EA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-05T16:51:06.471Z",
+      "timestampLocal": "2026-08-05T16:51:06.471Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.98.228",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-AU,en;q=0.9,es-ES;q=0.8,es;q=0.7,gl;q=0.6,ru;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=esanmiguel%40theyellowhat.com&nombre_proveedor_razon_social=EMILIO+JOSE+SAN+MIGUEL+VILLANUEVA&nombre_representante_legal=EMILIO+JOSE+SAN+MIGUEL+VILLANUEVA&uid=SAVE8010202EA",
+      "previousEventHash": null,
+      "documentHash": "8ac01fe54201f32290eef76fa52ca6718804b2af83b40152c1e4e202d032a34b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2c71671f577cbc3a4ae4dc7e40531b667e314c2946f914a1f2c3a60b04bc8bd3"
+    },
+    {
+      "eventId": "4afb7e5a-00c0-40ac-860b-9a60cd38f595",
+      "uid": "SAVE8010202EA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-05T16:51:06.471Z",
+      "timestampLocal": "2026-08-05T16:51:06.471Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.98.228",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-AU,en;q=0.9,es-ES;q=0.8,es;q=0.7,gl;q=0.6,ru;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=esanmiguel%40theyellowhat.com&nombre_proveedor_razon_social=EMILIO+JOSE+SAN+MIGUEL+VILLANUEVA&nombre_representante_legal=EMILIO+JOSE+SAN+MIGUEL+VILLANUEVA&uid=SAVE8010202EA",
+      "previousEventHash": "2c71671f577cbc3a4ae4dc7e40531b667e314c2946f914a1f2c3a60b04bc8bd3",
+      "documentHash": "8ac01fe54201f32290eef76fa52ca6718804b2af83b40152c1e4e202d032a34b",
+      "metadata": {
+        "proveedor": "EMILIO JOSE SAN MIGUEL VILLANUEVA",
+        "representante": "EMILIO JOSE SAN MIGUEL VILLANUEVA"
+      },
+      "eventHash": "94e775e87283d33d6e3c9452dcc1f92afa07fecb39bcc63fbe7d42cf997781b6"
+    }
+  ]
 }
