@@ -1,0 +1,71 @@
+{
+  "uid": "TEST-DEPLOY-001",
+  "declarationId": "004246c8-b57e-4008-bb1c-e0a5543811fe",
+  "token": "5bb72414-04ae-4ced-af98-04300c50ac72",
+  "createdAt": "2026-08-05T01:02:21.590Z",
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Smoke Deploy S.A. de C.V.",
+    "nombre_representante_legal": "Prueba Deploy",
+    "email": "smoke-deploy@example.invalid"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Smoke Deploy S.A. de C.V.",
+    "nombre_representante_legal": "Prueba Deploy",
+    "email": "smoke-deploy@example.invalid"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "Smoke Deploy S.A. de C.V.",
+    "nombre_representante_legal": "Prueba Deploy",
+    "email": "smoke-deploy@example.invalid"
+  },
+  "expectedProveedorData": {
+    "nombre_proveedor_razon_social": "Smoke Deploy S.A. de C.V.",
+    "nombre_representante_legal": "Prueba Deploy",
+    "email": "smoke-deploy@example.invalid"
+  },
+  "signedAt": null,
+  "signedPdfUrl": null,
+  "signatureMetadata": null,
+  "documentHash": "da622dfbfb65759d6e335a4d013a4d2b89bfae8f48dfe8f2bc322cb7d0a3372f",
+  "auditTrail": [
+    {
+      "eventId": "a025c6a1-5241-4030-aa8d-1710c1ad83ea",
+      "uid": "TEST-DEPLOY-001",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-05T01:02:43.425Z",
+      "timestampLocal": "2026-08-05T01:02:43.425Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.154.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TEST-DEPLOY-001",
+      "previousEventHash": null,
+      "documentHash": "da622dfbfb65759d6e335a4d013a4d2b89bfae8f48dfe8f2bc322cb7d0a3372f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8777fefcbc7455ec1487f0b4fa8a859558b48d83bc8ccf585a327b3c134313c1"
+    },
+    {
+      "eventId": "91a06165-647b-49cd-9dd4-e3d96d44b3b8",
+      "uid": "TEST-DEPLOY-001",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-05T01:02:43.425Z",
+      "timestampLocal": "2026-08-05T01:02:43.425Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.154.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TEST-DEPLOY-001",
+      "previousEventHash": "8777fefcbc7455ec1487f0b4fa8a859558b48d83bc8ccf585a327b3c134313c1",
+      "documentHash": "da622dfbfb65759d6e335a4d013a4d2b89bfae8f48dfe8f2bc322cb7d0a3372f",
+      "metadata": {
+        "proveedor": "Smoke Deploy S.A. de C.V.",
+        "representante": "Prueba Deploy"
+      },
+      "eventHash": "c9cb10e1fc5410636bcf61c19b54f6998b152f7a27612338301e0cab30cc42e4"
+    }
+  ]
+}
