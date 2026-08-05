@@ -3,7 +3,7 @@
   "declarationId": "14580502-564b-47a2-a5a3-e6fb29772107",
   "token": "e4a0e9d5-e97e-481c-8e5b-f4caeaa90d66",
   "createdAt": "2026-08-05T22:52:11.419Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "RICARDO GONZALEZ SANCHEZ",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Ariel Vazquez",
     "email": "emprendercarpinteria@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7f2362e6508631d5aa4e4e0cb3f3b3f9ff024b40da012948786f4526c1ecad42",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-05T22:53:39.905Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GOSR841007H36",
+  "signatureMetadata": {
+    "ip": "187.190.154.39",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-05T22:53:43.243Z",
+    "signedAtLocal": "2026-08-05T16:53:43.243Z"
+  },
+  "documentHash": "3a46a68cbdd5aba1e6dc076c8b3bf3e2223e1e6c4e6753b389ddc2c72fe7cf75",
   "auditTrail": [
     {
       "eventId": "d51dd750-e85f-4885-9605-c6ca9daa6298",
@@ -66,6 +72,47 @@
         "representante": "Ariel Vazquez"
       },
       "eventHash": "8aaacdba09b8ad90926e401cf0e9ad92f402e638b1b2dcc2d8fe366952c25563"
+    },
+    {
+      "eventId": "91c32f6a-ba47-416a-9820-ab5dae55dab9",
+      "uid": "GOSR841007H36",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-05T22:52:25.218Z",
+      "timestampLocal": "2026-08-05T22:52:25.218Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.154.39",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=emprendercarpinteria%40gmail.com&nombre_proveedor_razon_social=RICARDO+GONZALEZ+SANCHEZ&nombre_representante_legal=Ariel+Vazquez&uid=GOSR841007H36",
+      "previousEventHash": "8aaacdba09b8ad90926e401cf0e9ad92f402e638b1b2dcc2d8fe366952c25563",
+      "documentHash": "7f2362e6508631d5aa4e4e0cb3f3b3f9ff024b40da012948786f4526c1ecad42",
+      "eventHash": "f9c16a55f68d31876df8b7ecd9f514691bdf50d941c6d18b74034d14024edbc3"
+    },
+    {
+      "eventId": "b84ccb6a-97c0-4484-9a3b-88875eafd1e0",
+      "uid": "GOSR841007H36",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-05T22:53:43.244Z",
+      "timestampLocal": "2026-08-05T16:53:43.244Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.154.39",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e4a0e9d5-e97e-481c-8e5b-f4caeaa90d66",
+      "previousEventHash": "f9c16a55f68d31876df8b7ecd9f514691bdf50d941c6d18b74034d14024edbc3",
+      "documentHash": "3a46a68cbdd5aba1e6dc076c8b3bf3e2223e1e6c4e6753b389ddc2c72fe7cf75",
+      "signatureHash": "c4d2667327fb2c31f2c9629c8ae22340274239abb1f6c984f04d6f7779aae0d9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-05T16:53:39.905Z"
+      },
+      "eventHash": "91fbc5a72d89628b25134c61413d53fed9cb0edd845d4c6e210d0cc42c43d7b9"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-05T22:53:43.593Z"
+  }
 }
