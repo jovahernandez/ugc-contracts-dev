@@ -3,7 +3,7 @@
   "declarationId": "11674740-2764-4619-9c7e-ccb38c02aaa5",
   "token": "70bf97a2-7594-4d2d-bfd1-ea49b48e49a4",
   "createdAt": "2026-08-05T19:42:07.624Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "en",
   "proveedor": {
     "nombre_proveedor_razon_social": "CORINE MARIA MICHELLE LA FONT",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Corine La Font",
     "email": "corinelaf@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f72fe8105cf27f4c0e647ddce4c1803f5eeb8195492c90f45961d055b427bbc7",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-05T19:43:51.283Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/758650-1",
+  "signatureMetadata": {
+    "ip": "181.118.48.34",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-05T19:43:54.781Z",
+    "signedAtLocal": "2026-08-05T15:43:54.781Z"
+  },
+  "documentHash": "00fb5f5b5fd570d4b3ae2ded2946cc58c7cccaa834e14e36fedc0b78d6fb9fd0",
   "auditTrail": [
     {
       "eventId": "1bcffeee-54ae-47a5-9cff-155243943958",
@@ -66,6 +72,47 @@
         "representante": "Corine La Font"
       },
       "eventHash": "284cd255378b57e69f123d93a500a2a744f06f269c8607ebe20cc0e66cc6a113"
+    },
+    {
+      "eventId": "55f224dd-5d82-43d8-82bf-b4107759b904",
+      "uid": "758650-1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-05T19:42:27.417Z",
+      "timestampLocal": "2026-08-05T19:42:27.417Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.118.48.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=corinelaf%40gmail.com&nombre_proveedor_razon_social=CORINE+MARIA+MICHELLE+LA+FONT&nombre_representante_legal=Corine+La+Font&uid=758650-1",
+      "previousEventHash": "284cd255378b57e69f123d93a500a2a744f06f269c8607ebe20cc0e66cc6a113",
+      "documentHash": "f72fe8105cf27f4c0e647ddce4c1803f5eeb8195492c90f45961d055b427bbc7",
+      "eventHash": "faecd7fc1e2a7b7e9ddbe93202382a9812b72de7841c6b61a98f3dfc88419b2d"
+    },
+    {
+      "eventId": "580bd36b-0257-4f98-9e96-2b9626ee5b00",
+      "uid": "758650-1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-05T19:43:54.781Z",
+      "timestampLocal": "2026-08-05T15:43:54.781Z",
+      "timezone": "UTC-4",
+      "ipAddress": "181.118.48.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/70bf97a2-7594-4d2d-bfd1-ea49b48e49a4",
+      "previousEventHash": "faecd7fc1e2a7b7e9ddbe93202382a9812b72de7841c6b61a98f3dfc88419b2d",
+      "documentHash": "00fb5f5b5fd570d4b3ae2ded2946cc58c7cccaa834e14e36fedc0b78d6fb9fd0",
+      "signatureHash": "39310442d0295f1ef6ae7f091e2cd54042d325ebd3fefd668b21cf55c97bbd4f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-05T15:43:51.283Z"
+      },
+      "eventHash": "1892ecb4f52ea00bf100342afd067df1775a14d3b594aa086cf456553805f8fa"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-05T19:43:55.333Z"
+  }
 }
