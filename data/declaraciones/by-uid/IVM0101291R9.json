@@ -3,7 +3,7 @@
   "declarationId": "22611349-c1a0-4900-899a-e30bab136e88",
   "token": "b17b7ee9-b5f1-4967-8f5c-deea4f599307",
   "createdAt": "2026-08-06T18:19:06.577Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Iniciativas Virtuales de México S.A. de C.V",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Raúl Ramírez Díaz",
     "email": "finanzasmx@viko.net"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "cef38050034770b431ec9dae905c80f6ee9c258a04dabe37654ab116fff7007c",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-06T18:19:50.154Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/IVM0101291R9",
+  "signatureMetadata": {
+    "ip": "187.190.190.250",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-06T18:19:53.603Z",
+    "signedAtLocal": "2026-08-06T12:19:53.603Z"
+  },
+  "documentHash": "586470664a9e8d517e144f6632e97c6dc7ce22d0ac6bcf669a713ea0bc35e326",
   "auditTrail": [
     {
       "eventId": "857f3464-325a-47ca-9db5-f46fccb6748d",
@@ -66,6 +72,47 @@
         "representante": "Raúl Ramírez Díaz"
       },
       "eventHash": "fd8e9be9d31996e23f8ab981a8542a2b2e3c509d22a43813501137fbadfd59e3"
+    },
+    {
+      "eventId": "ab1d3f18-5540-4ca0-af44-a1ead2812d96",
+      "uid": "IVM0101291R9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-06T18:19:15.092Z",
+      "timestampLocal": "2026-08-06T18:19:15.092Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.190.250",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=finanzasmx%40viko.net&nombre_proveedor_razon_social=Iniciativas+Virtuales+de+M%C3%A9xico+S.A.+de+C.V&nombre_representante_legal=Ra%C3%BAl+Ram%C3%ADrez+D%C3%ADaz&uid=IVM0101291R9",
+      "previousEventHash": "fd8e9be9d31996e23f8ab981a8542a2b2e3c509d22a43813501137fbadfd59e3",
+      "documentHash": "cef38050034770b431ec9dae905c80f6ee9c258a04dabe37654ab116fff7007c",
+      "eventHash": "594b0f974db5d9f6a8eea0d32210bf3ff4fcc87897f49c89c4a54a7db480de98"
+    },
+    {
+      "eventId": "efa62eaf-866d-4b67-bc62-ada60d62e83d",
+      "uid": "IVM0101291R9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-06T18:19:53.604Z",
+      "timestampLocal": "2026-08-06T12:19:53.604Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.190.250",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b17b7ee9-b5f1-4967-8f5c-deea4f599307",
+      "previousEventHash": "594b0f974db5d9f6a8eea0d32210bf3ff4fcc87897f49c89c4a54a7db480de98",
+      "documentHash": "586470664a9e8d517e144f6632e97c6dc7ce22d0ac6bcf669a713ea0bc35e326",
+      "signatureHash": "d051f0463c7e272d3e10ee651a4acf1cf72a632b3b95db896d1f5c75c5dad538",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-06T12:19:50.154Z"
+      },
+      "eventHash": "e80b5974300e32484f20a5d71406e3b17cc782221611f16031dc9717afaf7f3e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-06T18:19:53.860Z"
+  }
 }
