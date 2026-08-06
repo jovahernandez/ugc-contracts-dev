@@ -3,7 +3,7 @@
   "declarationId": "752c797b-a7d5-4885-9268-c2db81dbe653",
   "token": "be7ae448-287f-468b-820e-393706a4fb5e",
   "createdAt": "2026-08-05T23:55:04.989Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DAVID BEJA HABER",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "DAVID BEJA HABER",
     "email": "itzel@dreamlabagency.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d2bd79797af66e8754a18d620bacd569d1f898bcdd604f1be3f73e34ae0817b1",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-06T18:26:52.695Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BEHD021010LE1",
+  "signatureMetadata": {
+    "ip": "201.119.65.42",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-06T18:26:56.245Z",
+    "signedAtLocal": "2026-08-06T12:26:56.245Z"
+  },
+  "documentHash": "a00862a9914aa348bf437eae03b2778a1b8e86a561a7a0d4ea851a6e7cbed120",
   "auditTrail": [
     {
       "eventId": "0a247114-fcbf-4d80-92db-a63843b7c434",
@@ -155,6 +161,47 @@
         "representante": "DAVID BEJA HABER"
       },
       "eventHash": "f237d0d472eee3aa241aa607397b4bf8c4c63b5470682296f3f52ced4b061717"
+    },
+    {
+      "eventId": "307d186b-2e81-4c69-8655-55e0821c5978",
+      "uid": "BEHD021010LE1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-06T18:25:12.943Z",
+      "timestampLocal": "2026-08-06T18:25:12.943Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.119.65.42",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "f237d0d472eee3aa241aa607397b4bf8c4c63b5470682296f3f52ced4b061717",
+      "documentHash": "d2bd79797af66e8754a18d620bacd569d1f898bcdd604f1be3f73e34ae0817b1",
+      "eventHash": "4df0844af62dad0fd0d3ca8676341310f9d24c6bc826ecd277ff2f21ed465f58"
+    },
+    {
+      "eventId": "bcd29e59-2bd1-44ce-932e-7132e0e6574d",
+      "uid": "BEHD021010LE1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-06T18:26:56.245Z",
+      "timestampLocal": "2026-08-06T12:26:56.245Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.119.65.42",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/be7ae448-287f-468b-820e-393706a4fb5e",
+      "previousEventHash": "4df0844af62dad0fd0d3ca8676341310f9d24c6bc826ecd277ff2f21ed465f58",
+      "documentHash": "a00862a9914aa348bf437eae03b2778a1b8e86a561a7a0d4ea851a6e7cbed120",
+      "signatureHash": "3433193f351df30325cc672172028015f9e93ba3f5fa2218cb26e1a10d7b8978",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-06T12:26:52.695Z"
+      },
+      "eventHash": "707b1e034bc9cf055c3fb8f1c7f05765bd4f9373231ed7db292a010af053b871"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 9,
+    "verifiedAt": "2026-08-06T18:26:56.546Z"
+  }
 }
