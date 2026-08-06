@@ -3,7 +3,7 @@
   "declarationId": "22cd9b1f-1780-4e3e-ac77-b67c6f1bf897",
   "token": "a6b990f5-ff2e-4a7d-ae17-ffc69771f416",
   "createdAt": "2026-08-06T15:31:31.456Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CZRS HERMANOS AGENCY",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "GUSTAVO ALEXIS GALEANA CAZARES",
     "email": "contabilidad@nonagency.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9e8b3fc5d9f11fd5f78b48eee89c1007a630c0a861af92954b30c43cc04ff4c4",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-06T15:32:51.342Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CHA260325TW6",
+  "signatureMetadata": {
+    "ip": "189.167.4.85",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-06T15:32:54.907Z",
+    "signedAtLocal": "2026-08-06T09:32:54.907Z"
+  },
+  "documentHash": "74ad10b7fc254c506e0956b1f97f109511baed9b89d98d000551d41190f0f5e6",
   "auditTrail": [
     {
       "eventId": "af3f2d41-4e12-44d0-aae0-fca5818c8760",
@@ -66,6 +72,47 @@
         "representante": "GUSTAVO ALEXIS GALEANA CAZARES"
       },
       "eventHash": "8380223e5efedfe262a1432f3655aec9fb40368907010912db117238e89f5353"
+    },
+    {
+      "eventId": "4d7e5cc9-07b3-468d-8f83-1e101239c6f7",
+      "uid": "CHA260325TW6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-06T15:31:43.331Z",
+      "timestampLocal": "2026-08-06T15:31:43.331Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.167.4.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=contabilidad%40nonagency.com.mx&nombre_proveedor_razon_social=CZRS+HERMANOS+AGENCY&nombre_representante_legal=GUSTAVO+ALEXIS+GALEANA+CAZARES&uid=CHA260325TW6",
+      "previousEventHash": "8380223e5efedfe262a1432f3655aec9fb40368907010912db117238e89f5353",
+      "documentHash": "9e8b3fc5d9f11fd5f78b48eee89c1007a630c0a861af92954b30c43cc04ff4c4",
+      "eventHash": "aa860126e283647fd877caaffa4499ce4dd9bac2e9ea40c989a68dc9bb3eca99"
+    },
+    {
+      "eventId": "520257dc-8009-4bd2-ba69-8f5ca48423ab",
+      "uid": "CHA260325TW6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-06T15:32:54.907Z",
+      "timestampLocal": "2026-08-06T09:32:54.907Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.167.4.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a6b990f5-ff2e-4a7d-ae17-ffc69771f416",
+      "previousEventHash": "aa860126e283647fd877caaffa4499ce4dd9bac2e9ea40c989a68dc9bb3eca99",
+      "documentHash": "74ad10b7fc254c506e0956b1f97f109511baed9b89d98d000551d41190f0f5e6",
+      "signatureHash": "473881bb43ff07ded291e7285e8e755a109e75cf45a1e9081c51839676ba9b6d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-06T09:32:51.342Z"
+      },
+      "eventHash": "d66df1449e2bd769b5ecdcabff1979ba1036f4254e79fcf16f2a142be550864c"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-06T15:32:55.133Z"
+  }
 }
