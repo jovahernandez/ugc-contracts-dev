@@ -3,8 +3,18 @@
   "declarationId": "e7316e0c-8aa6-4efc-b16f-3e84b66f6128",
   "token": "811afc73-7a70-4040-a076-ee47bebb3edf",
   "createdAt": "2026-08-07T19:26:32.832Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MARIANA JUNUE SANTIAGO SOTO",
+    "nombre_representante_legal": "MARIANA JUNUE SANTIAGO SOTO",
+    "email": "marosant14@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MARIANA JUNUE SANTIAGO SOTO",
+    "nombre_representante_legal": "MARIANA JUNUE SANTIAGO SOTO",
+    "email": "marosant14@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MARIANA JUNUE SANTIAGO SOTO",
     "nombre_representante_legal": "MARIANA JUNUE SANTIAGO SOTO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "ffdc522e33554d8628bf7d264cc0b5f4f2d785c066799842f1d0d847aaf18692",
+  "auditTrail": [
+    {
+      "eventId": "bcef0c99-8df3-4a51-ad8f-65a7a9c1815f",
+      "uid": "SASM880508RA4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-07T20:37:11.751Z",
+      "timestampLocal": "2026-08-07T20:37:11.751Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.144.12.108",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=marosant14%40gmail.com&nombre_proveedor_razon_social=MARIANA+JUNUE+SANTIAGO+SOTO&nombre_representante_legal=MARIANA+JUNUE+SANTIAGO+SOTO&uid=SASM880508RA4",
+      "previousEventHash": null,
+      "documentHash": "ffdc522e33554d8628bf7d264cc0b5f4f2d785c066799842f1d0d847aaf18692",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "698b7a38138c70c1ad76467cd3aa6eba26a269718f642f49416b583aac09304e"
+    },
+    {
+      "eventId": "17cb3645-5177-43bd-8952-5b41ed8b1323",
+      "uid": "SASM880508RA4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-07T20:37:11.752Z",
+      "timestampLocal": "2026-08-07T20:37:11.752Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.144.12.108",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=marosant14%40gmail.com&nombre_proveedor_razon_social=MARIANA+JUNUE+SANTIAGO+SOTO&nombre_representante_legal=MARIANA+JUNUE+SANTIAGO+SOTO&uid=SASM880508RA4",
+      "previousEventHash": "698b7a38138c70c1ad76467cd3aa6eba26a269718f642f49416b583aac09304e",
+      "documentHash": "ffdc522e33554d8628bf7d264cc0b5f4f2d785c066799842f1d0d847aaf18692",
+      "metadata": {
+        "proveedor": "MARIANA JUNUE SANTIAGO SOTO",
+        "representante": "MARIANA JUNUE SANTIAGO SOTO"
+      },
+      "eventHash": "3b5ce01f55006c3c9da07c354e694de3882083493943f086ed2a4e1a90ae80fa"
+    }
+  ]
 }
