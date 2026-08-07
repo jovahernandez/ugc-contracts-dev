@@ -3,7 +3,7 @@
   "declarationId": "d158a4d0-5a36-4786-8d99-03d3c89679c1",
   "token": "08be4d46-8a54-4975-b950-33a39a80054f",
   "createdAt": "2026-08-07T19:03:02.334Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "GABRIELA DE ARAUJO VICENTE",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Gabriela de Araujo Vicente",
     "email": "edilene_vicente@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "92fb0a1588f0da7f984fb41c4fc14ebbbdacab61604d700ec689bacb7f8a7b87",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-07T19:04:23.839Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/48349331801",
+  "signatureMetadata": {
+    "ip": "179.135.222.129",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0",
+    "signedAtUtc": "2026-08-07T19:04:27.122Z",
+    "signedAtLocal": "2026-08-07T16:04:27.122Z"
+  },
+  "documentHash": "43ede82dd1e1ca88ff2a5ad9e6746a75ce0d9a229f026b64a6b352b4bbeaf571",
   "auditTrail": [
     {
       "eventId": "a99b31c5-181a-4040-a1d0-992ffb3efe36",
@@ -66,6 +72,47 @@
         "representante": "Gabriela de Araujo Vicente"
       },
       "eventHash": "04d3717913945a866336a75ff3cd7e5116ddbaeef6a4ac40cca679722a582e67"
+    },
+    {
+      "eventId": "9eba57e3-b251-409c-b3a8-51f1086d72ac",
+      "uid": "48349331801",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-07T19:03:13.416Z",
+      "timestampLocal": "2026-08-07T19:03:13.416Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.135.222.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=edilene_vicente%40hotmail.com&nombre_proveedor_razon_social=GABRIELA+DE+ARAUJO+VICENTE&nombre_representante_legal=Gabriela+de+Araujo+Vicente&uid=48349331801",
+      "previousEventHash": "04d3717913945a866336a75ff3cd7e5116ddbaeef6a4ac40cca679722a582e67",
+      "documentHash": "92fb0a1588f0da7f984fb41c4fc14ebbbdacab61604d700ec689bacb7f8a7b87",
+      "eventHash": "73b14bd440917f338f03b9bc02447355c408189f69f08cf9308e0bcd77f02033"
+    },
+    {
+      "eventId": "7d550d9a-ba1d-4af8-8fb7-22f96a0adb79",
+      "uid": "48349331801",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-07T19:04:27.122Z",
+      "timestampLocal": "2026-08-07T16:04:27.122Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.135.222.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/08be4d46-8a54-4975-b950-33a39a80054f",
+      "previousEventHash": "73b14bd440917f338f03b9bc02447355c408189f69f08cf9308e0bcd77f02033",
+      "documentHash": "43ede82dd1e1ca88ff2a5ad9e6746a75ce0d9a229f026b64a6b352b4bbeaf571",
+      "signatureHash": "300f5e812484d26e179873134acf8d6f09cd38022fde2418a0a74eba0e48b346",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-07T16:04:23.839Z"
+      },
+      "eventHash": "f94fc864a1e4232b036be9d23b8dae31bb2ed2e852b642371d6fcc18ff3f8696"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-07T19:04:27.379Z"
+  }
 }
