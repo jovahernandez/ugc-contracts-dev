@@ -3,7 +3,7 @@
   "declarationId": "60b82964-a39f-4f72-a0f3-5bee3b0fdd78",
   "token": "1265958f-3bf3-4f71-a041-e0ac6c2926fc",
   "createdAt": "2026-08-07T19:49:03.202Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Manuel Alejandro Navarro Trejo",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Manuel Alejandro Navarro Trejo",
     "email": "manu@nmda.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d500418c627c5a8ca66e872f3e9d5299dea61bbb49ddc2e74828756af376c3a5",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-07T19:49:41.510Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/NATM890608JEA",
+  "signatureMetadata": {
+    "ip": "65.196.182.138",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-07T19:49:44.884Z",
+    "signedAtLocal": "2026-08-07T15:49:44.884Z"
+  },
+  "documentHash": "3c5a0262e7a8017aaa3b39ed6c5adcb9fb5faf188c337951dbbfac86223ce998",
   "auditTrail": [
     {
       "eventId": "001e57b7-7f2a-417b-95cb-226e97ba37e4",
@@ -214,6 +220,47 @@
         "representante": "Manuel Alejandro Navarro Trejo"
       },
       "eventHash": "768d6be4ef2688ce5e6a9d7505b3e8841b854590ec46260bbeea279039915ce5"
+    },
+    {
+      "eventId": "f9a593a8-f9cf-4d5c-97bc-b864722698ca",
+      "uid": "NATM890608JEA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-07T19:49:24.695Z",
+      "timestampLocal": "2026-08-07T19:49:24.695Z",
+      "timezone": "UTC+0",
+      "ipAddress": "65.196.182.138",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=manu%40nmda.mx&nombre_proveedor_razon_social=Manuel+Alejandro+Navarro+Trejo&nombre_representante_legal=Manuel+Alejandro+Navarro+Trejo&uid=NATM890608JEA",
+      "previousEventHash": "768d6be4ef2688ce5e6a9d7505b3e8841b854590ec46260bbeea279039915ce5",
+      "documentHash": "d500418c627c5a8ca66e872f3e9d5299dea61bbb49ddc2e74828756af376c3a5",
+      "eventHash": "1549bfe194f34733a2b0a7c5175768dd86d221b61ee674655a8a4c3b73188ee2"
+    },
+    {
+      "eventId": "d61d2bf7-3f50-43b0-8f3a-5a1d67e53f5c",
+      "uid": "NATM890608JEA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-07T19:49:44.884Z",
+      "timestampLocal": "2026-08-07T15:49:44.884Z",
+      "timezone": "UTC-4",
+      "ipAddress": "65.196.182.138",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1265958f-3bf3-4f71-a041-e0ac6c2926fc",
+      "previousEventHash": "1549bfe194f34733a2b0a7c5175768dd86d221b61ee674655a8a4c3b73188ee2",
+      "documentHash": "3c5a0262e7a8017aaa3b39ed6c5adcb9fb5faf188c337951dbbfac86223ce998",
+      "signatureHash": "4c8a5fd937fc5424bc6faa623d6aefe5b7b834c68ea94847e109a5c30236b92e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-07T15:49:41.510Z"
+      },
+      "eventHash": "d19249c076f442c5a5c01f8e35ef0f4ca193ce4618874c378ad43ccab2600021"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 12,
+    "verifiedAt": "2026-08-07T19:49:45.224Z"
+  }
 }
