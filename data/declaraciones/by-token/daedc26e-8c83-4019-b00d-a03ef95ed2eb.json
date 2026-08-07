@@ -3,8 +3,18 @@
   "declarationId": "a1e34dc1-76a4-4435-bbde-c89aa05c6697",
   "token": "daedc26e-8c83-4019-b00d-a03ef95ed2eb",
   "createdAt": "2026-08-07T21:44:15.152Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Juan Carlos Lugo Navarro",
+    "nombre_representante_legal": "JUAN CARLOS LUGO NAVARRO",
+    "email": "managementalentperu@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Juan Carlos Lugo Navarro",
+    "nombre_representante_legal": "JUAN CARLOS LUGO NAVARRO",
+    "email": "managementalentperu@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Juan Carlos Lugo Navarro",
     "nombre_representante_legal": "JUAN CARLOS LUGO NAVARRO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a94239984b4111692ce4ae6c92e6d7f02a527537ea1689107ce74ef8a65f4113",
+  "auditTrail": [
+    {
+      "eventId": "98cfdb69-3af6-4da4-afc8-ace6bdba2aeb",
+      "uid": "10435973391",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-07T21:44:36.067Z",
+      "timestampLocal": "2026-08-07T21:44:36.067Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.233.209.114",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-PE;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=managementalentperu%40gmail.com&nombre_proveedor_razon_social=Juan+Carlos+Lugo+Navarro+&nombre_representante_legal=JUAN+CARLOS+LUGO+NAVARRO&uid=10435973391",
+      "previousEventHash": null,
+      "documentHash": "a94239984b4111692ce4ae6c92e6d7f02a527537ea1689107ce74ef8a65f4113",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2eb3cf6d5c75afc053fa5374385eb26115bf866e78cceeb5db7636ba609f9b56"
+    },
+    {
+      "eventId": "e987e499-d2c5-4164-84f8-94177caa680c",
+      "uid": "10435973391",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-07T21:44:36.068Z",
+      "timestampLocal": "2026-08-07T21:44:36.068Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.233.209.114",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-PE;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=managementalentperu%40gmail.com&nombre_proveedor_razon_social=Juan+Carlos+Lugo+Navarro+&nombre_representante_legal=JUAN+CARLOS+LUGO+NAVARRO&uid=10435973391",
+      "previousEventHash": "2eb3cf6d5c75afc053fa5374385eb26115bf866e78cceeb5db7636ba609f9b56",
+      "documentHash": "a94239984b4111692ce4ae6c92e6d7f02a527537ea1689107ce74ef8a65f4113",
+      "metadata": {
+        "proveedor": "Juan Carlos Lugo Navarro",
+        "representante": "JUAN CARLOS LUGO NAVARRO"
+      },
+      "eventHash": "def078d3d28c5d47bf9539946664a65f0beb9cdc9c8b3489301f580dc6dab87a"
+    }
+  ]
 }
