@@ -3,8 +3,18 @@
   "declarationId": "5776f79c-8c16-41a2-ab32-5e9bf35a9437",
   "token": "43f57acc-1152-4138-a3ca-a9f52a0c36cf",
   "createdAt": "2026-08-07T21:57:34.858Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "BOND INFLUENCE AGENCY",
+    "nombre_representante_legal": "BOND INFLUENCE AGENCY",
+    "email": "cobranza@thebond.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "BOND INFLUENCE AGENCY",
+    "nombre_representante_legal": "BOND INFLUENCE AGENCY",
+    "email": "cobranza@thebond.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "BOND INFLUENCE AGENCY",
     "nombre_representante_legal": "BOND INFLUENCE AGENCY",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "3670ddbe9c1820d2aec4ec9b5186dd265b0a24931c152fdcedc8b316c801d488",
+  "auditTrail": [
+    {
+      "eventId": "90d029e6-b91f-432f-a407-80bc63d670cf",
+      "uid": "BIA2411116J6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-07T21:57:42.068Z",
+      "timestampLocal": "2026-08-07T21:57:42.068Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.152.67.227",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=cobranza%40thebond.com.mx&nombre_proveedor_razon_social=BOND+INFLUENCE+AGENCY&nombre_representante_legal=BOND+INFLUENCE+AGENCY&uid=BIA2411116J6",
+      "previousEventHash": null,
+      "documentHash": "3670ddbe9c1820d2aec4ec9b5186dd265b0a24931c152fdcedc8b316c801d488",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9aa427121458e888a0a393b5074460bb9cfd7dc298dedba26bf357fa06b4ac4b"
+    },
+    {
+      "eventId": "9dc46195-9f80-41ca-9de6-979f469ad42d",
+      "uid": "BIA2411116J6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-07T21:57:42.068Z",
+      "timestampLocal": "2026-08-07T21:57:42.068Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.152.67.227",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=cobranza%40thebond.com.mx&nombre_proveedor_razon_social=BOND+INFLUENCE+AGENCY&nombre_representante_legal=BOND+INFLUENCE+AGENCY&uid=BIA2411116J6",
+      "previousEventHash": "9aa427121458e888a0a393b5074460bb9cfd7dc298dedba26bf357fa06b4ac4b",
+      "documentHash": "3670ddbe9c1820d2aec4ec9b5186dd265b0a24931c152fdcedc8b316c801d488",
+      "metadata": {
+        "proveedor": "BOND INFLUENCE AGENCY",
+        "representante": "BOND INFLUENCE AGENCY"
+      },
+      "eventHash": "49f34648590d9f40330c9f509612cd9414e98d310b3a44ca3b20e8fd3a959b02"
+    }
+  ]
 }
