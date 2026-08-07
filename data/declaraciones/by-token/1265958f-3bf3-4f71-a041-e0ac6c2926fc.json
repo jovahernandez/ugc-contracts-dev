@@ -3,8 +3,18 @@
   "declarationId": "60b82964-a39f-4f72-a0f3-5bee3b0fdd78",
   "token": "1265958f-3bf3-4f71-a041-e0ac6c2926fc",
   "createdAt": "2026-08-07T19:49:03.202Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Manuel Alejandro Navarro Trejo",
+    "nombre_representante_legal": "Manuel Alejandro Navarro Trejo",
+    "email": "manu@nmda.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Manuel Alejandro Navarro Trejo",
+    "nombre_representante_legal": "Manuel Alejandro Navarro Trejo",
+    "email": "manu@nmda.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Manuel Alejandro Navarro Trejo",
     "nombre_representante_legal": "Manuel Alejandro Navarro Trejo",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a44ccd327938716e5b01d37869050b57f2519585ed009ff03646608bcbc6a2e5",
+  "auditTrail": [
+    {
+      "eventId": "001e57b7-7f2a-417b-95cb-226e97ba37e4",
+      "uid": "NATM890608JEA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-07T19:49:17.020Z",
+      "timestampLocal": "2026-08-07T19:49:17.020Z",
+      "timezone": "UTC+0",
+      "ipAddress": "65.196.182.138",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=manu%40nmda.mx&nombre_proveedor_razon_social=Manuel+Alejandro+Navarro+Trejo&nombre_representante_legal=Manuel+Alejandro+Navarro+Trejo&uid=NATM890608JEA",
+      "previousEventHash": null,
+      "documentHash": "a44ccd327938716e5b01d37869050b57f2519585ed009ff03646608bcbc6a2e5",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "fe1a227332ece9242c96d30380e3d69f4b853f065b6a34411304ee454657160d"
+    },
+    {
+      "eventId": "9c83fe18-79b7-4f3c-adec-14951e944473",
+      "uid": "NATM890608JEA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-07T19:49:17.020Z",
+      "timestampLocal": "2026-08-07T19:49:17.020Z",
+      "timezone": "UTC+0",
+      "ipAddress": "65.196.182.138",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=manu%40nmda.mx&nombre_proveedor_razon_social=Manuel+Alejandro+Navarro+Trejo&nombre_representante_legal=Manuel+Alejandro+Navarro+Trejo&uid=NATM890608JEA",
+      "previousEventHash": "fe1a227332ece9242c96d30380e3d69f4b853f065b6a34411304ee454657160d",
+      "documentHash": "a44ccd327938716e5b01d37869050b57f2519585ed009ff03646608bcbc6a2e5",
+      "metadata": {
+        "proveedor": "Manuel Alejandro Navarro Trejo",
+        "representante": "Manuel Alejandro Navarro Trejo"
+      },
+      "eventHash": "74d6acb2384915f027f0720b4458218b9d866c88c1fbbbfd9fdc357956870ff1"
+    }
+  ]
 }
