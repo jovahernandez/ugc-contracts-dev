@@ -3,7 +3,7 @@
   "declarationId": "58e50487-10d0-4da6-8f0a-b55b5ba9c06f",
   "token": "8f0cf614-138b-4c44-8b65-0233b4a17e17",
   "createdAt": "2026-08-06T23:52:40.069Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JESSICA JIMENEZ GARCIA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "JESSICA JIMENEZ GARCIA",
     "email": "jessjimn.work@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "651f0e4006a24b77bb306e841fa190879bf37bab7d3a84cd17aff3e856b1435b",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-07T00:01:44.648Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/JIGJ9908237H4",
+  "signatureMetadata": {
+    "ip": "187.190.215.184",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-07T00:01:47.782Z",
+    "signedAtLocal": "2026-08-06T18:01:47.782Z"
+  },
+  "documentHash": "487d303f6ce1805c5c178dd86486e54b9e2b7a8f09e770c7e724c627c5c482f6",
   "auditTrail": [
     {
       "eventId": "e598ef8b-d591-4b7c-a8b9-cf9bda560c04",
@@ -66,6 +72,62 @@
         "representante": "JESSICA JIMENEZ GARCIA"
       },
       "eventHash": "9fa2b3e1a92211c3bc328c5da7af29e311cedf1cb361876a448df9826a6950ac"
+    },
+    {
+      "eventId": "9718c1c1-e529-472a-80c6-13fe09e293db",
+      "uid": "JIGJ9908237H4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-06T23:52:50.025Z",
+      "timestampLocal": "2026-08-06T23:52:50.025Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.215.184",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=jessjimn.work%40gmail.com&nombre_proveedor_razon_social=JESSICA+JIMENEZ+GARCIA&nombre_representante_legal=JESSICA+JIMENEZ+GARCIA&uid=JIGJ9908237H4",
+      "previousEventHash": "9fa2b3e1a92211c3bc328c5da7af29e311cedf1cb361876a448df9826a6950ac",
+      "documentHash": "651f0e4006a24b77bb306e841fa190879bf37bab7d3a84cd17aff3e856b1435b",
+      "eventHash": "b35d85e5b2289054f7ce9bb65ce91807d739630deb0bf547f4fee5ffdda376f4"
+    },
+    {
+      "eventId": "5eb3732a-6763-4161-9bf3-ea10fbf49a4a",
+      "uid": "JIGJ9908237H4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-07T00:01:02.091Z",
+      "timestampLocal": "2026-08-07T00:01:02.091Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.215.184",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "b35d85e5b2289054f7ce9bb65ce91807d739630deb0bf547f4fee5ffdda376f4",
+      "documentHash": "651f0e4006a24b77bb306e841fa190879bf37bab7d3a84cd17aff3e856b1435b",
+      "eventHash": "31dd3feb579ab5a71a4182ee31c1fcd0d9aa3153efa3d0ffc78b25df8fbeb8a3"
+    },
+    {
+      "eventId": "838d0b51-8eec-436c-ba6c-b1b8a24184af",
+      "uid": "JIGJ9908237H4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-07T00:01:47.782Z",
+      "timestampLocal": "2026-08-06T18:01:47.782Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.215.184",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8f0cf614-138b-4c44-8b65-0233b4a17e17",
+      "previousEventHash": "31dd3feb579ab5a71a4182ee31c1fcd0d9aa3153efa3d0ffc78b25df8fbeb8a3",
+      "documentHash": "487d303f6ce1805c5c178dd86486e54b9e2b7a8f09e770c7e724c627c5c482f6",
+      "signatureHash": "562fe3efc8cfb219dd71b9ce4f5d67a9fbc70847b316334c506930de3399f38a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-06T18:01:44.648Z"
+      },
+      "eventHash": "ceaa600b2602154a5ef15590e10f27924220b11f43d440efe55f0690cf62416c"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-08-07T00:01:48.395Z"
+  }
 }
