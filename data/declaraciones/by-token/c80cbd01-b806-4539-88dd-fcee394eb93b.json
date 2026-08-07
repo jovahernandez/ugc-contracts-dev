@@ -3,8 +3,18 @@
   "declarationId": "ec040310-d005-4456-bade-99e56becc800",
   "token": "c80cbd01-b806-4539-88dd-fcee394eb93b",
   "createdAt": "2026-08-07T19:00:49.017Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GUSTAVO ADOLFO PRADO RODRIGUEZ",
+    "nombre_representante_legal": "GUSTAVO ADOLFO PRADO RODRIGUEZ",
+    "email": "edgar@trendo.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GUSTAVO ADOLFO PRADO RODRIGUEZ",
+    "nombre_representante_legal": "GUSTAVO ADOLFO PRADO RODRIGUEZ",
+    "email": "edgar@trendo.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GUSTAVO ADOLFO PRADO RODRIGUEZ",
     "nombre_representante_legal": "GUSTAVO ADOLFO PRADO RODRIGUEZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "bdbbac6e85bb83e79532d4bbd8c8623df76babf513f2fd27332709c22f73c829",
+  "auditTrail": [
+    {
+      "eventId": "6009f13b-bf3d-4128-9a8c-cd1ec06bd007",
+      "uid": "PARG700831PH9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-07T19:00:55.560Z",
+      "timestampLocal": "2026-08-07T19:00:55.560Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.246.28",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=edgar%40trendo.mx&nombre_proveedor_razon_social=GUSTAVO+ADOLFO+PRADO+RODRIGUEZ&nombre_representante_legal=GUSTAVO+ADOLFO+PRADO+RODRIGUEZ&uid=PARG700831PH9",
+      "previousEventHash": null,
+      "documentHash": "bdbbac6e85bb83e79532d4bbd8c8623df76babf513f2fd27332709c22f73c829",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f8a428fdbde8dd737d6fef2bf1844f6f111360f3cb142a646515ba6df972f874"
+    },
+    {
+      "eventId": "6ee63ac2-360a-4419-89d9-36d5177e1d28",
+      "uid": "PARG700831PH9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-07T19:00:55.560Z",
+      "timestampLocal": "2026-08-07T19:00:55.560Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.246.28",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=edgar%40trendo.mx&nombre_proveedor_razon_social=GUSTAVO+ADOLFO+PRADO+RODRIGUEZ&nombre_representante_legal=GUSTAVO+ADOLFO+PRADO+RODRIGUEZ&uid=PARG700831PH9",
+      "previousEventHash": "f8a428fdbde8dd737d6fef2bf1844f6f111360f3cb142a646515ba6df972f874",
+      "documentHash": "bdbbac6e85bb83e79532d4bbd8c8623df76babf513f2fd27332709c22f73c829",
+      "metadata": {
+        "proveedor": "GUSTAVO ADOLFO PRADO RODRIGUEZ",
+        "representante": "GUSTAVO ADOLFO PRADO RODRIGUEZ"
+      },
+      "eventHash": "1a5d04d8a45b78fb91f62eb4f9d4f6d5825f8b54df731841235004a763747aa3"
+    }
+  ]
 }
