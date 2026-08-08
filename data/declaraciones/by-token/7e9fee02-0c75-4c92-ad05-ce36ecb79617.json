@@ -3,8 +3,18 @@
   "declarationId": "7664f386-faa6-4a50-826d-ca7dd2f06580",
   "token": "7e9fee02-0c75-4c92-ad05-ce36ecb79617",
   "createdAt": "2026-08-08T03:13:29.111Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "NAHOMI LIZBETH MONROY CAMPILLO",
+    "nombre_representante_legal": "Nahomi Lizbeth Monroy Campillo",
+    "email": "finanzas@sparkagency.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "NAHOMI LIZBETH MONROY CAMPILLO",
+    "nombre_representante_legal": "Nahomi Lizbeth Monroy Campillo",
+    "email": "finanzas@sparkagency.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "NAHOMI LIZBETH MONROY CAMPILLO",
     "nombre_representante_legal": "Nahomi Lizbeth Monroy Campillo",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "b9e3d54f5f64b4058d94e122769b840e871de3ecf3fc6e157867dc88442fd528",
+  "auditTrail": [
+    {
+      "eventId": "034aa68f-2cb4-4ff0-a0a2-543709b649f9",
+      "uid": "MOCN970814NA0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-08T03:13:37.125Z",
+      "timestampLocal": "2026-08-08T03:13:37.125Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.196.197.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en,es-ES;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=finanzas%40sparkagency.com.mx&nombre_proveedor_razon_social=NAHOMI+LIZBETH+MONROY+CAMPILLO&nombre_representante_legal=Nahomi+Lizbeth+Monroy+Campillo&uid=MOCN970814NA0",
+      "previousEventHash": null,
+      "documentHash": "b9e3d54f5f64b4058d94e122769b840e871de3ecf3fc6e157867dc88442fd528",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "67c598f6c1869d42913d5e15c028f876fef234883e4583570afdc765a1199c04"
+    },
+    {
+      "eventId": "757ad01a-4a74-4887-988f-504dcb5e59bc",
+      "uid": "MOCN970814NA0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-08T03:13:37.125Z",
+      "timestampLocal": "2026-08-08T03:13:37.125Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.196.197.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en,es-ES;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=finanzas%40sparkagency.com.mx&nombre_proveedor_razon_social=NAHOMI+LIZBETH+MONROY+CAMPILLO&nombre_representante_legal=Nahomi+Lizbeth+Monroy+Campillo&uid=MOCN970814NA0",
+      "previousEventHash": "67c598f6c1869d42913d5e15c028f876fef234883e4583570afdc765a1199c04",
+      "documentHash": "b9e3d54f5f64b4058d94e122769b840e871de3ecf3fc6e157867dc88442fd528",
+      "metadata": {
+        "proveedor": "NAHOMI LIZBETH MONROY CAMPILLO",
+        "representante": "Nahomi Lizbeth Monroy Campillo"
+      },
+      "eventHash": "09a8d56f0cb33f4511093d98022c464fad4706a10cb7647ed974d5faf59d323a"
+    }
+  ]
 }
