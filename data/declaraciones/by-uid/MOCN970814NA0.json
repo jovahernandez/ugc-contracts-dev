@@ -3,7 +3,7 @@
   "declarationId": "7664f386-faa6-4a50-826d-ca7dd2f06580",
   "token": "7e9fee02-0c75-4c92-ad05-ce36ecb79617",
   "createdAt": "2026-08-08T03:13:29.111Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "NAHOMI LIZBETH MONROY CAMPILLO",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Nahomi Lizbeth Monroy Campillo",
     "email": "finanzas@sparkagency.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b9e3d54f5f64b4058d94e122769b840e871de3ecf3fc6e157867dc88442fd528",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-08T03:20:10.226Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MOCN970814NA0",
+  "signatureMetadata": {
+    "ip": "189.196.197.85",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-08T03:20:14.122Z",
+    "signedAtLocal": "2026-08-07T21:20:14.122Z"
+  },
+  "documentHash": "8d6bbb1a3543c36b9f1ddfb4d8a54e38af82eaf80e60af57f73df36b32a60b62",
   "auditTrail": [
     {
       "eventId": "034aa68f-2cb4-4ff0-a0a2-543709b649f9",
@@ -66,6 +72,47 @@
         "representante": "Nahomi Lizbeth Monroy Campillo"
       },
       "eventHash": "09a8d56f0cb33f4511093d98022c464fad4706a10cb7647ed974d5faf59d323a"
+    },
+    {
+      "eventId": "e19d871f-33de-43c7-9ef4-bd607a531276",
+      "uid": "MOCN970814NA0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-08T03:13:39.641Z",
+      "timestampLocal": "2026-08-08T03:13:39.641Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.196.197.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en,es-ES;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=finanzas%40sparkagency.com.mx&nombre_proveedor_razon_social=NAHOMI+LIZBETH+MONROY+CAMPILLO&nombre_representante_legal=Nahomi+Lizbeth+Monroy+Campillo&uid=MOCN970814NA0",
+      "previousEventHash": "09a8d56f0cb33f4511093d98022c464fad4706a10cb7647ed974d5faf59d323a",
+      "documentHash": "b9e3d54f5f64b4058d94e122769b840e871de3ecf3fc6e157867dc88442fd528",
+      "eventHash": "57b2c790200f1425a7e9ce489193e4003bdd4187fd0c65ce3aae4bb00f38b217"
+    },
+    {
+      "eventId": "dc2817b6-ee7c-4d97-9102-e7ccd90a88df",
+      "uid": "MOCN970814NA0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-08T03:20:14.122Z",
+      "timestampLocal": "2026-08-07T21:20:14.122Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.196.197.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en,es-ES;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7e9fee02-0c75-4c92-ad05-ce36ecb79617",
+      "previousEventHash": "57b2c790200f1425a7e9ce489193e4003bdd4187fd0c65ce3aae4bb00f38b217",
+      "documentHash": "8d6bbb1a3543c36b9f1ddfb4d8a54e38af82eaf80e60af57f73df36b32a60b62",
+      "signatureHash": "31e726968743a018047269567ec787e0b3971fcdd541808406c69dd4e8c974b5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-07T21:20:10.226Z"
+      },
+      "eventHash": "1181982789cba7af8a00bca8e4191eaeb07e1703110d7aa8847997d7dd65f540"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-08T03:20:14.327Z"
+  }
 }
