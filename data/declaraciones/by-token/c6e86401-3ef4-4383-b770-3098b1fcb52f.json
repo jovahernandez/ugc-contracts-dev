@@ -3,8 +3,18 @@
   "declarationId": "373335da-730f-4c1e-98c5-fea90713a59d",
   "token": "c6e86401-3ef4-4383-b770-3098b1fcb52f",
   "createdAt": "2026-08-08T03:59:57.356Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "IRENE CRISTINA HERNANDEZ CASTILLO",
+    "nombre_representante_legal": "Irene C. Hernandez",
+    "email": "andrea.nenetina@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "IRENE CRISTINA HERNANDEZ CASTILLO",
+    "nombre_representante_legal": "Irene C. Hernandez",
+    "email": "andrea.nenetina@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "IRENE CRISTINA HERNANDEZ CASTILLO",
     "nombre_representante_legal": "Irene C. Hernandez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4569a075fbbe2e57e1cfd62a6a630aa7ce437545ec28c0a48e7882674743ac72",
+  "auditTrail": [
+    {
+      "eventId": "3b6cc14c-52ef-4495-95ae-79436683c306",
+      "uid": "HECI850321TC9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-08T04:00:46.244Z",
+      "timestampLocal": "2026-08-08T04:00:46.244Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.148.166",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=andrea.nenetina%40gmail.com&nombre_proveedor_razon_social=IRENE+CRISTINA+HERNANDEZ+CASTILLO&nombre_representante_legal=Irene+C.+Hernandez&uid=HECI850321TC9",
+      "previousEventHash": null,
+      "documentHash": "4569a075fbbe2e57e1cfd62a6a630aa7ce437545ec28c0a48e7882674743ac72",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ca530208bdfbe52c26e86353f549e3858a047d46858889dc6a54a3a50fa6fcf0"
+    },
+    {
+      "eventId": "3819d691-6b56-4537-8ad3-2718bc5fe25e",
+      "uid": "HECI850321TC9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-08T04:00:46.244Z",
+      "timestampLocal": "2026-08-08T04:00:46.244Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.148.166",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=andrea.nenetina%40gmail.com&nombre_proveedor_razon_social=IRENE+CRISTINA+HERNANDEZ+CASTILLO&nombre_representante_legal=Irene+C.+Hernandez&uid=HECI850321TC9",
+      "previousEventHash": "ca530208bdfbe52c26e86353f549e3858a047d46858889dc6a54a3a50fa6fcf0",
+      "documentHash": "4569a075fbbe2e57e1cfd62a6a630aa7ce437545ec28c0a48e7882674743ac72",
+      "metadata": {
+        "proveedor": "IRENE CRISTINA HERNANDEZ CASTILLO",
+        "representante": "Irene C. Hernandez"
+      },
+      "eventHash": "1b4c732e7d25ea25fd3a7f97ebedb469bb50742df759d49faa1d875ba54f4394"
+    }
+  ]
 }
