@@ -3,7 +3,7 @@
   "declarationId": "33c1ce6a-e6d8-4344-b358-d5b67bc8ecfa",
   "token": "be64324a-bd97-405e-be3f-26563ac28ebb",
   "createdAt": "2026-08-10T16:05:49.776Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MARIANA ONTAÑON SANCHEZ",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "MARIANA ONTAÑÓN SÁNCHEZ",
     "email": "cienciaconmariana@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "99da4d9a32e43dc1905fffca32c1626e0f7ecf1e851cfe24eaff2a718904c98c",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-10T16:07:16.588Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/OASM961209BX7",
+  "signatureMetadata": {
+    "ip": "201.149.83.38",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-10T16:07:19.897Z",
+    "signedAtLocal": "2026-08-10T10:07:19.897Z"
+  },
+  "documentHash": "a586f92e44ebade63418532ccbf4d1dfaf1871165b338e8900511f1b589fe341",
   "auditTrail": [
     {
       "eventId": "5b9b3684-7c73-4bd2-aa56-75e8394484f3",
@@ -66,6 +72,47 @@
         "representante": "MARIANA ONTAÑÓN SÁNCHEZ"
       },
       "eventHash": "2e84b9beba97fbe5d7601b10173887410623a7bc853450a853c1ee73a7a75c67"
+    },
+    {
+      "eventId": "20af1de9-2d10-43a5-9f6a-edc55d643894",
+      "uid": "OASM961209BX7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-10T16:06:43.780Z",
+      "timestampLocal": "2026-08-10T16:06:43.780Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.83.38",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OASM961209BX7&nombre_proveedor_razon_social=MARIANA+ONTA%C3%91ON+SANCHEZ&nombre_representante_legal=MARIANA+ONTA%C3%91%C3%93N+S%C3%81NCHEZ&email=cienciaconmariana%40gmail.com",
+      "previousEventHash": "2e84b9beba97fbe5d7601b10173887410623a7bc853450a853c1ee73a7a75c67",
+      "documentHash": "99da4d9a32e43dc1905fffca32c1626e0f7ecf1e851cfe24eaff2a718904c98c",
+      "eventHash": "7ca7ca7ea9c5e1b3a4da40ebad0ee25c6fa4240b164403021000aab34553a683"
+    },
+    {
+      "eventId": "a337eef9-3ea8-4fcf-b1ed-90115bb9e8ee",
+      "uid": "OASM961209BX7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-10T16:07:19.897Z",
+      "timestampLocal": "2026-08-10T10:07:19.897Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.149.83.38",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/be64324a-bd97-405e-be3f-26563ac28ebb",
+      "previousEventHash": "7ca7ca7ea9c5e1b3a4da40ebad0ee25c6fa4240b164403021000aab34553a683",
+      "documentHash": "a586f92e44ebade63418532ccbf4d1dfaf1871165b338e8900511f1b589fe341",
+      "signatureHash": "39033ca8b8211084bbc4e22fabce124243dfd14793e4b534a1c3f3aac4d735fa",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-10T10:07:16.588Z"
+      },
+      "eventHash": "0f1a9198ae01ebb37b667fdafcfc1acf4e810f4b8a9378439e2fa7f383cee83f"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-10T16:07:20.116Z"
+  }
 }
