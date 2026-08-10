@@ -3,7 +3,7 @@
   "declarationId": "0d4698ff-8141-43ea-a9fa-9c9c7819d16b",
   "token": "f23f7901-c35a-4b3f-b945-cabc5de762f6",
   "createdAt": "2026-08-10T22:02:33.959Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Maytreya Nambo Punzo",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Maytreya Nambo Punzo",
     "email": "maytreya222@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "446505a401a34a5b4f1db360c309d0670af02d41201783ba58dc604175b99c4d",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-10T22:19:10.779Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/NAPM960817351",
+  "signatureMetadata": {
+    "ip": "201.164.162.99",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-10T22:19:16.388Z",
+    "signedAtLocal": "2026-08-10T16:19:16.388Z"
+  },
+  "documentHash": "149cfc2efffeb3419aff385a7cb3a3340addace16fb98cc694c2993c2ab0c769",
   "auditTrail": [
     {
       "eventId": "a2037da1-7b85-41f6-bfbe-d14b7a29086a",
@@ -66,6 +72,47 @@
         "representante": "Maytreya Nambo Punzo"
       },
       "eventHash": "8f6d4b3c79683a3e66c544a66bb87e12046699bbe977d8d418f156f35e9f4602"
+    },
+    {
+      "eventId": "47d54514-9027-46ca-b92c-4e64f12adbe5",
+      "uid": "NAPM960817351",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-10T22:02:49.421Z",
+      "timestampLocal": "2026-08-10T22:02:49.421Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.164.162.99",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=maytreya222%40hotmail.com&nombre_proveedor_razon_social=Maytreya+Nambo+Punzo&nombre_representante_legal=Maytreya+Nambo+Punzo+&uid=NAPM960817351",
+      "previousEventHash": "8f6d4b3c79683a3e66c544a66bb87e12046699bbe977d8d418f156f35e9f4602",
+      "documentHash": "446505a401a34a5b4f1db360c309d0670af02d41201783ba58dc604175b99c4d",
+      "eventHash": "560f549645307c1b8eee0301ffb3dc9135fa0c12f34f51c05d84bd07e62fdb59"
+    },
+    {
+      "eventId": "aef262e5-27c6-4f00-8948-b8c1903a58a9",
+      "uid": "NAPM960817351",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-10T22:19:16.388Z",
+      "timestampLocal": "2026-08-10T16:19:16.388Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.164.162.99",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f23f7901-c35a-4b3f-b945-cabc5de762f6",
+      "previousEventHash": "560f549645307c1b8eee0301ffb3dc9135fa0c12f34f51c05d84bd07e62fdb59",
+      "documentHash": "149cfc2efffeb3419aff385a7cb3a3340addace16fb98cc694c2993c2ab0c769",
+      "signatureHash": "af2635a5c92de7c0e8f5bf3c6f2af74002577e559fa631f99ed30e219d020cd5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-10T16:19:10.779Z"
+      },
+      "eventHash": "6849a8c95056e1328f5f7bae157986355836d11baa6b97f82fa401b735cfb03e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-10T22:19:16.788Z"
+  }
 }
