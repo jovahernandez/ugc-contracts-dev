@@ -3,8 +3,18 @@
   "declarationId": "51a91628-40f1-4446-a961-6dc8a77b28e2",
   "token": "cf98a35c-c7c6-4d81-980e-92f62fe86023",
   "createdAt": "2026-08-10T22:43:21.340Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "FEDERACION MEXICANA DE FUTBOL ASOCIACION",
+    "nombre_representante_legal": "Luis Enrique Palma Sánchez",
+    "email": "xflores@fmf.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "FEDERACION MEXICANA DE FUTBOL ASOCIACION",
+    "nombre_representante_legal": "Luis Enrique Palma Sánchez",
+    "email": "xflores@fmf.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "FEDERACION MEXICANA DE FUTBOL ASOCIACION",
     "nombre_representante_legal": "Luis Enrique Palma Sánchez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "602ba0fa1e9dea08711cb02282093bd8e08033151234b1143c589520366c8cba",
+  "auditTrail": [
+    {
+      "eventId": "e36e05d3-a915-40e7-a4a0-ecb952549e1e",
+      "uid": "FMF6210196Z4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-10T22:43:33.832Z",
+      "timestampLocal": "2026-08-10T22:43:33.832Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.202.219.226",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=xflores%40fmf.mx&nombre_proveedor_razon_social=FEDERACION+MEXICANA+DE+FUTBOL+ASOCIACION&nombre_representante_legal=Luis+Enrique+Palma+S%C3%A1nchez&uid=FMF6210196Z4",
+      "previousEventHash": null,
+      "documentHash": "602ba0fa1e9dea08711cb02282093bd8e08033151234b1143c589520366c8cba",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "01cf7866e743a948913db078cca011286ab945c8e422dae66544a6f8c02438bc"
+    },
+    {
+      "eventId": "33978c51-6ab2-4e23-a4e1-6ecc4c9c8d3c",
+      "uid": "FMF6210196Z4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-10T22:43:33.832Z",
+      "timestampLocal": "2026-08-10T22:43:33.832Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.202.219.226",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=xflores%40fmf.mx&nombre_proveedor_razon_social=FEDERACION+MEXICANA+DE+FUTBOL+ASOCIACION&nombre_representante_legal=Luis+Enrique+Palma+S%C3%A1nchez&uid=FMF6210196Z4",
+      "previousEventHash": "01cf7866e743a948913db078cca011286ab945c8e422dae66544a6f8c02438bc",
+      "documentHash": "602ba0fa1e9dea08711cb02282093bd8e08033151234b1143c589520366c8cba",
+      "metadata": {
+        "proveedor": "FEDERACION MEXICANA DE FUTBOL ASOCIACION",
+        "representante": "Luis Enrique Palma Sánchez"
+      },
+      "eventHash": "b6e9cf3a839b506a1161524c64507241b57dd4ff35310ed08b4d7dab9865f292"
+    }
+  ]
 }
