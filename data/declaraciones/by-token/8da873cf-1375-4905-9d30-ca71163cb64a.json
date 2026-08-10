@@ -3,7 +3,7 @@
   "declarationId": "458ececa-599b-4f6b-9b59-fcb57635e88b",
   "token": "8da873cf-1375-4905-9d30-ca71163cb64a",
   "createdAt": "2026-08-10T21:34:59.081Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ELIANA MARIEL MOYANO",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "ELIANA MARIEL MOYANO",
     "email": "eliana.moyano@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "489c68617f1d6792fc94ba701e83516cbc24f08fae436d70f917b1076d65554a",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-10T21:35:26.623Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/27283847107",
+  "signatureMetadata": {
+    "ip": "186.22.18.84",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-10T21:35:32.135Z",
+    "signedAtLocal": "2026-08-10T18:35:32.135Z"
+  },
+  "documentHash": "4c3e8b5fabb95ae96b0466e120a589c2a7ae0c03739dae1a9b330cd1b9f88932",
   "auditTrail": [
     {
       "eventId": "613ea357-6fac-4fed-bc37-386c7a38bc0d",
@@ -66,6 +72,47 @@
         "representante": "ELIANA MARIEL MOYANO"
       },
       "eventHash": "18b200cfe871e45633920301bd25d451664c36a8e9aec5645e63144534de3982"
+    },
+    {
+      "eventId": "762eeb02-400a-4a0c-a407-ae453a6bfb81",
+      "uid": "27283847107",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-10T21:35:14.370Z",
+      "timestampLocal": "2026-08-10T21:35:14.370Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.22.18.84",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-AR,es-419;q=0.9,es;q=0.8,pt;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27283847107&nombre_proveedor_razon_social=ELIANA+MARIEL+MOYANO&nombre_representante_legal=ELIANA+MARIEL+MOYANO&email=eliana.moyano%40gmail.com",
+      "previousEventHash": "18b200cfe871e45633920301bd25d451664c36a8e9aec5645e63144534de3982",
+      "documentHash": "489c68617f1d6792fc94ba701e83516cbc24f08fae436d70f917b1076d65554a",
+      "eventHash": "5a4b911605ed470a662dd75459b5e3ba52262f929043ee87208570ec00404d3b"
+    },
+    {
+      "eventId": "89610fdd-731b-4620-8cfc-48c4b24a20e9",
+      "uid": "27283847107",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-10T21:35:32.135Z",
+      "timestampLocal": "2026-08-10T18:35:32.135Z",
+      "timezone": "UTC-3",
+      "ipAddress": "186.22.18.84",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-AR,es-419;q=0.9,es;q=0.8,pt;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8da873cf-1375-4905-9d30-ca71163cb64a",
+      "previousEventHash": "5a4b911605ed470a662dd75459b5e3ba52262f929043ee87208570ec00404d3b",
+      "documentHash": "4c3e8b5fabb95ae96b0466e120a589c2a7ae0c03739dae1a9b330cd1b9f88932",
+      "signatureHash": "b9842a168f1982f54a613cafb3ed759dbe93e4d50403be211b22e734f223f6a9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-10T18:35:26.623Z"
+      },
+      "eventHash": "c4e3f9f2de236b4d7c284c6f336ce2b39e3a403ed225b4b12f23f4c133a12fd6"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-10T21:35:32.506Z"
+  }
 }
