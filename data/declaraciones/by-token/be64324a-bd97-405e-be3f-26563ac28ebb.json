@@ -3,8 +3,18 @@
   "declarationId": "33c1ce6a-e6d8-4344-b358-d5b67bc8ecfa",
   "token": "be64324a-bd97-405e-be3f-26563ac28ebb",
   "createdAt": "2026-08-10T16:05:49.776Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MARIANA ONTAÑON SANCHEZ",
+    "nombre_representante_legal": "MARIANA ONTAÑÓN SÁNCHEZ",
+    "email": "cienciaconmariana@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MARIANA ONTAÑON SANCHEZ",
+    "nombre_representante_legal": "MARIANA ONTAÑÓN SÁNCHEZ",
+    "email": "cienciaconmariana@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MARIANA ONTAÑON SANCHEZ",
     "nombre_representante_legal": "MARIANA ONTAÑÓN SÁNCHEZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "99da4d9a32e43dc1905fffca32c1626e0f7ecf1e851cfe24eaff2a718904c98c",
+  "auditTrail": [
+    {
+      "eventId": "5b9b3684-7c73-4bd2-aa56-75e8394484f3",
+      "uid": "OASM961209BX7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-10T16:06:40.900Z",
+      "timestampLocal": "2026-08-10T16:06:40.900Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.83.38",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OASM961209BX7&nombre_proveedor_razon_social=MARIANA+ONTA%C3%91ON+SANCHEZ&nombre_representante_legal=MARIANA+ONTA%C3%91%C3%93N+S%C3%81NCHEZ&email=cienciaconmariana%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "99da4d9a32e43dc1905fffca32c1626e0f7ecf1e851cfe24eaff2a718904c98c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ea37c9cf670d664ae815563320ddcba8f0ddd4b698deb11ea15cb04f4e32568d"
+    },
+    {
+      "eventId": "286a7d9d-8b1e-403c-b789-5253f45ea426",
+      "uid": "OASM961209BX7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-10T16:06:40.900Z",
+      "timestampLocal": "2026-08-10T16:06:40.900Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.83.38",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OASM961209BX7&nombre_proveedor_razon_social=MARIANA+ONTA%C3%91ON+SANCHEZ&nombre_representante_legal=MARIANA+ONTA%C3%91%C3%93N+S%C3%81NCHEZ&email=cienciaconmariana%40gmail.com",
+      "previousEventHash": "ea37c9cf670d664ae815563320ddcba8f0ddd4b698deb11ea15cb04f4e32568d",
+      "documentHash": "99da4d9a32e43dc1905fffca32c1626e0f7ecf1e851cfe24eaff2a718904c98c",
+      "metadata": {
+        "proveedor": "MARIANA ONTAÑON SANCHEZ",
+        "representante": "MARIANA ONTAÑÓN SÁNCHEZ"
+      },
+      "eventHash": "2e84b9beba97fbe5d7601b10173887410623a7bc853450a853c1ee73a7a75c67"
+    }
+  ]
 }
