@@ -3,7 +3,7 @@
   "declarationId": "e87cc662-cd45-45b0-9589-ba91d538a07e",
   "token": "8ec79673-9e77-405a-88f4-32e2ba6a56bc",
   "createdAt": "2026-08-11T21:04:04.263Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EDGAR FERNANDO ALANIS MENDOZA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "EDGAR FERNANDO ALANIS MENDOZA",
     "email": "chefana@casanovacooks.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e028ab046dc04d817235abadc2e73be3efbd1bdf2f152c63542d8ea86ae93a4c",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-11T21:05:01.576Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AAME920401EU8",
+  "signatureMetadata": {
+    "ip": "189.153.218.119",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-11T21:05:05.157Z",
+    "signedAtLocal": "2026-08-11T15:05:05.157Z"
+  },
+  "documentHash": "8d27037338fad55479d88feecd7ccf0c8b8071c4e43ae7955589beae5135da4a",
   "auditTrail": [
     {
       "eventId": "a4ea09a7-c528-4f41-b413-86a1b0a83c8b",
@@ -251,6 +257,47 @@
         "representante": "EDGAR FERNANDO ALANIS MENDOZA"
       },
       "eventHash": "c73d8c2a7893a20208d292288984df48e0159ddd3b2e77e1128761192e85c5fe"
+    },
+    {
+      "eventId": "9045b29f-09e1-4600-b003-3bb30426bc24",
+      "uid": "AAME920401EU8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-11T21:04:24.478Z",
+      "timestampLocal": "2026-08-11T21:04:24.478Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.153.218.119",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,gl;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=chefana%40casanovacooks.com&nombre_proveedor_razon_social=EDGAR+FERNANDO+ALANIS+MENDOZA&nombre_representante_legal=EDGAR+FERNANDO+ALANIS+MENDOZA+&uid=AAME920401EU8",
+      "previousEventHash": "c73d8c2a7893a20208d292288984df48e0159ddd3b2e77e1128761192e85c5fe",
+      "documentHash": "e028ab046dc04d817235abadc2e73be3efbd1bdf2f152c63542d8ea86ae93a4c",
+      "eventHash": "b59923b65238e6eae70ec28f0b48d46070ba0e7eda8114bab6deae5cf6022b9a"
+    },
+    {
+      "eventId": "1f6beeca-b08a-4ba5-8885-2813cd8012ca",
+      "uid": "AAME920401EU8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-11T21:05:05.157Z",
+      "timestampLocal": "2026-08-11T15:05:05.157Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.153.218.119",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,gl;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8ec79673-9e77-405a-88f4-32e2ba6a56bc",
+      "previousEventHash": "b59923b65238e6eae70ec28f0b48d46070ba0e7eda8114bab6deae5cf6022b9a",
+      "documentHash": "8d27037338fad55479d88feecd7ccf0c8b8071c4e43ae7955589beae5135da4a",
+      "signatureHash": "6116a105abe6360698608a65add3b97d62508c2616affd9f4b33e68052a803c3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-11T15:05:01.576Z"
+      },
+      "eventHash": "5f5d1beac386d06bdcd5641b5a4d9ef09b8e05155ce5ff2e4f85a8e985679f46"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 14,
+    "verifiedAt": "2026-08-11T21:05:05.400Z"
+  }
 }
