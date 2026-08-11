@@ -3,7 +3,7 @@
   "declarationId": "4aabe82d-fdcc-415e-986d-f420448d0e59",
   "token": "8f0c2948-0d17-47fc-b6f2-99525294e34d",
   "createdAt": "2026-08-10T17:55:02.754Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MARIA PAULA AGUIRRE PEREZ",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "MARIA PAULA AGUIRRE PEREZ",
     "email": "mapauaguirre@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f3b86054c7a26cee54d955b93b28a2500fec66e7115da86104dc627b43a2fd97",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-11T15:09:41.175Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AUPP960414IE5",
+  "signatureMetadata": {
+    "ip": "189.236.154.87",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-11T15:09:44.511Z",
+    "signedAtLocal": "2026-08-11T09:09:44.511Z"
+  },
+  "documentHash": "666193335191e6e6bcba6c6d930ea740421e53abdbe8b285929ab06713cb486e",
   "auditTrail": [
     {
       "eventId": "9477e5c3-79c0-4635-8939-9c42c5bdc79e",
@@ -66,6 +72,84 @@
         "representante": "MARIA PAULA AGUIRRE PEREZ"
       },
       "eventHash": "f5bc7297a1d938efcbe5f554e490edc80cfc6c538242a1170ccb47521a40fd51"
+    },
+    {
+      "eventId": "6da085ef-4c63-499c-973f-275ac9d63329",
+      "uid": "AUPP960414IE5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-11T15:09:24.961Z",
+      "timestampLocal": "2026-08-11T15:09:24.961Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.154.87",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=mapauaguirre%40gmail.com&nombre_proveedor_razon_social=MARIA+PAULA+AGUIRRE+PEREZ&nombre_representante_legal=Mar%C3%ADa+Paula+Aguirre+P%C3%A9rez&uid=AUPP960414IE5",
+      "previousEventHash": "f5bc7297a1d938efcbe5f554e490edc80cfc6c538242a1170ccb47521a40fd51",
+      "documentHash": "a42197e881825551266c12be4b5ded743295015674e3c585db0b1baba9c30149",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d1b30913c176a3997eb12694bf81033e8a93f6f3cc8a6d20f13280f9cdabb6fa"
+    },
+    {
+      "eventId": "f61bcdcb-e23d-4133-aafc-5d62be73221d",
+      "uid": "AUPP960414IE5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-11T15:09:24.961Z",
+      "timestampLocal": "2026-08-11T15:09:24.961Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.154.87",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=mapauaguirre%40gmail.com&nombre_proveedor_razon_social=MARIA+PAULA+AGUIRRE+PEREZ&nombre_representante_legal=Mar%C3%ADa+Paula+Aguirre+P%C3%A9rez&uid=AUPP960414IE5",
+      "previousEventHash": "d1b30913c176a3997eb12694bf81033e8a93f6f3cc8a6d20f13280f9cdabb6fa",
+      "documentHash": "a42197e881825551266c12be4b5ded743295015674e3c585db0b1baba9c30149",
+      "metadata": {
+        "proveedor": "MARIA PAULA AGUIRRE PEREZ",
+        "representante": "MARIA PAULA AGUIRRE PEREZ"
+      },
+      "eventHash": "c3cf8644a1e68cf1ffd9464f323181b6180fb825ac0fec0018d1644b5877fd52"
+    },
+    {
+      "eventId": "8f93eae7-89ff-4a6b-878c-9cf1fc8653aa",
+      "uid": "AUPP960414IE5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-11T15:09:28.015Z",
+      "timestampLocal": "2026-08-11T15:09:28.015Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.154.87",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=mapauaguirre%40gmail.com&nombre_proveedor_razon_social=MARIA+PAULA+AGUIRRE+PEREZ&nombre_representante_legal=Mar%C3%ADa+Paula+Aguirre+P%C3%A9rez&uid=AUPP960414IE5",
+      "previousEventHash": "c3cf8644a1e68cf1ffd9464f323181b6180fb825ac0fec0018d1644b5877fd52",
+      "documentHash": "a42197e881825551266c12be4b5ded743295015674e3c585db0b1baba9c30149",
+      "eventHash": "d4b72020a6486685d46a23ae53be70c90c4d5907c73d2358d05f868e396a2738"
+    },
+    {
+      "eventId": "d1fc00d1-25bd-40ce-87bc-ec03face2f32",
+      "uid": "AUPP960414IE5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-11T15:09:44.511Z",
+      "timestampLocal": "2026-08-11T09:09:44.511Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.236.154.87",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8f0c2948-0d17-47fc-b6f2-99525294e34d",
+      "previousEventHash": "d4b72020a6486685d46a23ae53be70c90c4d5907c73d2358d05f868e396a2738",
+      "documentHash": "666193335191e6e6bcba6c6d930ea740421e53abdbe8b285929ab06713cb486e",
+      "signatureHash": "ff69965ba564793ec7027ea0f0ec940de58aae3167e3ba6908c19d4a5756e1fb",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-11T09:09:41.175Z"
+      },
+      "eventHash": "7434b3c251795080ec87fce4c080cac732e7dc38e4a963a34568a9198686e6fe"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-08-11T15:09:44.846Z"
+  }
 }
