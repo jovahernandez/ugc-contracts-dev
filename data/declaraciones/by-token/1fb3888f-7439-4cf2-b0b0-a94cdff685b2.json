@@ -3,8 +3,18 @@
   "declarationId": "a8ae6475-2226-4120-be24-c43e81d2c651",
   "token": "1fb3888f-7439-4cf2-b0b0-a94cdff685b2",
   "createdAt": "2026-08-11T18:10:59.923Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "DIANA SOFÍA BORJA RAMIREZ",
+    "nombre_representante_legal": "Antonio Ortega",
+    "email": "diiborjaa@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "DIANA SOFÍA BORJA RAMIREZ",
+    "nombre_representante_legal": "Antonio Ortega",
+    "email": "diiborjaa@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "DIANA SOFÍA BORJA RAMIREZ",
     "nombre_representante_legal": "Antonio Ortega",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "ce3fe39505e99b37a57dd57705b3f0b69c65f3e541f944d7facb7b955a40eac6",
+  "auditTrail": [
+    {
+      "eventId": "1f01e5ca-b9fe-40fc-bee6-042e07836e7a",
+      "uid": "BORD010117147",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-11T18:12:18.022Z",
+      "timestampLocal": "2026-08-11T18:12:18.022Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.92.76",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=diiborjaa%40gmail.com&nombre_proveedor_razon_social=DIANA+SOF%C3%8DA+BORJA+RAMIREZ&nombre_representante_legal=Antonio+Ortega&uid=BORD010117147",
+      "previousEventHash": null,
+      "documentHash": "ce3fe39505e99b37a57dd57705b3f0b69c65f3e541f944d7facb7b955a40eac6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "92db615feb4d0653b57f607a85d7bbc8852c633178adc641e8a014e41c3edaf7"
+    },
+    {
+      "eventId": "3da5f3b8-0f9b-41d1-87f2-0f5bc1c052bd",
+      "uid": "BORD010117147",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-11T18:12:18.022Z",
+      "timestampLocal": "2026-08-11T18:12:18.022Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.92.76",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=diiborjaa%40gmail.com&nombre_proveedor_razon_social=DIANA+SOF%C3%8DA+BORJA+RAMIREZ&nombre_representante_legal=Antonio+Ortega&uid=BORD010117147",
+      "previousEventHash": "92db615feb4d0653b57f607a85d7bbc8852c633178adc641e8a014e41c3edaf7",
+      "documentHash": "ce3fe39505e99b37a57dd57705b3f0b69c65f3e541f944d7facb7b955a40eac6",
+      "metadata": {
+        "proveedor": "DIANA SOFÍA BORJA RAMIREZ",
+        "representante": "Antonio Ortega"
+      },
+      "eventHash": "dd59d7c2a93d9e0b0222aec6d38a76666448f4fee640aba60e97a59b5d2ab253"
+    }
+  ]
 }
