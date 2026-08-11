@@ -3,8 +3,18 @@
   "declarationId": "f9991fff-cebc-4137-9755-77e2cc8ad1e0",
   "token": "3bb62584-99c0-4ac7-b7e9-f35014f5c50e",
   "createdAt": "2026-08-11T21:53:53.866Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "KOOL STRATEGY",
+    "nombre_representante_legal": "JOSE ARMANDO GONZALEZ GARZA",
+    "email": "somo@koolstudio.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "KOOL STRATEGY",
+    "nombre_representante_legal": "JOSE ARMANDO GONZALEZ GARZA",
+    "email": "somo@koolstudio.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "KOOL STRATEGY",
     "nombre_representante_legal": "JOSE ARMANDO GONZALEZ GARZA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "ae810f68520c508970eba4224ee908c1c7d14209e33e6dba48c236c25d0a1b63",
+  "auditTrail": [
+    {
+      "eventId": "611514f6-c4d3-401e-b630-82f9f1696864",
+      "uid": "KST230612AL4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-11T21:54:00.479Z",
+      "timestampLocal": "2026-08-11T21:54:00.479Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.159.143.229",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=somo%40koolstudio.mx&nombre_proveedor_razon_social=KOOL+STRATEGY&nombre_representante_legal=JOSE+ARMANDO+GONZALEZ+GARZA&uid=KST230612AL4",
+      "previousEventHash": null,
+      "documentHash": "ae810f68520c508970eba4224ee908c1c7d14209e33e6dba48c236c25d0a1b63",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3e3c9a8689b1fb4f9cfe5ccd34c09c12bf2347270b09e01e8dec7b1a22c0920e"
+    },
+    {
+      "eventId": "e0ff772a-b054-4d84-b30f-0eec2b2d795c",
+      "uid": "KST230612AL4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-11T21:54:00.479Z",
+      "timestampLocal": "2026-08-11T21:54:00.479Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.159.143.229",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=somo%40koolstudio.mx&nombre_proveedor_razon_social=KOOL+STRATEGY&nombre_representante_legal=JOSE+ARMANDO+GONZALEZ+GARZA&uid=KST230612AL4",
+      "previousEventHash": "3e3c9a8689b1fb4f9cfe5ccd34c09c12bf2347270b09e01e8dec7b1a22c0920e",
+      "documentHash": "ae810f68520c508970eba4224ee908c1c7d14209e33e6dba48c236c25d0a1b63",
+      "metadata": {
+        "proveedor": "KOOL STRATEGY",
+        "representante": "JOSE ARMANDO GONZALEZ GARZA"
+      },
+      "eventHash": "0e469f5c1098f67f4982f551bcce59c5067cffe368ecfaaa03732853da61a5e6"
+    }
+  ]
 }
