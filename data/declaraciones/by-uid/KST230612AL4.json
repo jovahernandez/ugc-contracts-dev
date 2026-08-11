@@ -3,7 +3,7 @@
   "declarationId": "f9991fff-cebc-4137-9755-77e2cc8ad1e0",
   "token": "3bb62584-99c0-4ac7-b7e9-f35014f5c50e",
   "createdAt": "2026-08-11T21:53:53.866Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "KOOL STRATEGY",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "JOSE ARMANDO GONZALEZ GARZA",
     "email": "somo@koolstudio.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "947c31ab7506a614d6dcbc5a45d3cd7766090de39b776f45cd21a966ad65dd73",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-11T21:55:25.772Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/KST230612AL4",
+  "signatureMetadata": {
+    "ip": "189.159.143.229",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-11T21:55:29.123Z",
+    "signedAtLocal": "2026-08-11T15:55:29.123Z"
+  },
+  "documentHash": "4bb1b74e09ab877408d88652c4d8d2090761c9458c227d1ade715fa8392d5c2f",
   "auditTrail": [
     {
       "eventId": "611514f6-c4d3-401e-b630-82f9f1696864",
@@ -177,6 +183,47 @@
         "representante": "JOSE ARMANDO GONZALEZ GARZA"
       },
       "eventHash": "776358c73ac30e4b5ffb53b50fc6612222d9d5a6d17acc19dc19f13f2ee6c0eb"
+    },
+    {
+      "eventId": "76dbd090-d5a0-4b91-a5ba-b2d397251d08",
+      "uid": "KST230612AL4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-11T21:54:09.092Z",
+      "timestampLocal": "2026-08-11T21:54:09.092Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.159.143.229",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=somo%40koolstudio.mx&nombre_proveedor_razon_social=KOOL+STRATEGY&nombre_representante_legal=JOSE+ARMANDO+GONZALEZ+GARZA&uid=KST230612AL4",
+      "previousEventHash": "776358c73ac30e4b5ffb53b50fc6612222d9d5a6d17acc19dc19f13f2ee6c0eb",
+      "documentHash": "947c31ab7506a614d6dcbc5a45d3cd7766090de39b776f45cd21a966ad65dd73",
+      "eventHash": "8a0bf286a8955506e3fe38f74068bb4e2dd1ba6ab801a8804fac4a3cf5f34b11"
+    },
+    {
+      "eventId": "3cc3827c-ed84-4f4d-881d-79db11c34ca4",
+      "uid": "KST230612AL4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-11T21:55:29.123Z",
+      "timestampLocal": "2026-08-11T15:55:29.123Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.159.143.229",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/3bb62584-99c0-4ac7-b7e9-f35014f5c50e",
+      "previousEventHash": "8a0bf286a8955506e3fe38f74068bb4e2dd1ba6ab801a8804fac4a3cf5f34b11",
+      "documentHash": "4bb1b74e09ab877408d88652c4d8d2090761c9458c227d1ade715fa8392d5c2f",
+      "signatureHash": "3e02b9611e08c6e5f5e8e8299f17ce0b3d0385622237bc37839f17e942db5913",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-11T15:55:25.772Z"
+      },
+      "eventHash": "6b876f72b79d3fa71d77d7fd499f3c298c5670ddbd8c0618fcc4d7198f635bae"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 10,
+    "verifiedAt": "2026-08-11T21:55:29.324Z"
+  }
 }
