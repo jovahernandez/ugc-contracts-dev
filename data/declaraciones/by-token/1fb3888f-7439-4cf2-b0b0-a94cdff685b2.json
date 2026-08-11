@@ -3,7 +3,7 @@
   "declarationId": "a8ae6475-2226-4120-be24-c43e81d2c651",
   "token": "1fb3888f-7439-4cf2-b0b0-a94cdff685b2",
   "createdAt": "2026-08-11T18:10:59.923Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DIANA SOFÍA BORJA RAMIREZ",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Antonio Ortega",
     "email": "diiborjaa@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ce3fe39505e99b37a57dd57705b3f0b69c65f3e541f944d7facb7b955a40eac6",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-11T18:13:02.851Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BORD010117147",
+  "signatureMetadata": {
+    "ip": "189.147.92.76",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-11T18:13:06.287Z",
+    "signedAtLocal": "2026-08-11T12:13:06.287Z"
+  },
+  "documentHash": "b12b761b7d7c7316699fcff583ae83a86da9924fa160b9ce060375196c702df2",
   "auditTrail": [
     {
       "eventId": "1f01e5ca-b9fe-40fc-bee6-042e07836e7a",
@@ -66,6 +72,47 @@
         "representante": "Antonio Ortega"
       },
       "eventHash": "dd59d7c2a93d9e0b0222aec6d38a76666448f4fee640aba60e97a59b5d2ab253"
+    },
+    {
+      "eventId": "0d4dc5b4-959d-462b-8480-4f64c0f61a2a",
+      "uid": "BORD010117147",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-11T18:12:20.653Z",
+      "timestampLocal": "2026-08-11T18:12:20.653Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.92.76",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=diiborjaa%40gmail.com&nombre_proveedor_razon_social=DIANA+SOF%C3%8DA+BORJA+RAMIREZ&nombre_representante_legal=Antonio+Ortega&uid=BORD010117147",
+      "previousEventHash": "dd59d7c2a93d9e0b0222aec6d38a76666448f4fee640aba60e97a59b5d2ab253",
+      "documentHash": "ce3fe39505e99b37a57dd57705b3f0b69c65f3e541f944d7facb7b955a40eac6",
+      "eventHash": "ded808f49e67ba9df8be4fc00cc6c4e13510bddcb12be49825e161f9a2513ace"
+    },
+    {
+      "eventId": "ff09b356-71c6-4569-aa3f-cdf789bcf4f2",
+      "uid": "BORD010117147",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-11T18:13:06.287Z",
+      "timestampLocal": "2026-08-11T12:13:06.287Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.147.92.76",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1fb3888f-7439-4cf2-b0b0-a94cdff685b2",
+      "previousEventHash": "ded808f49e67ba9df8be4fc00cc6c4e13510bddcb12be49825e161f9a2513ace",
+      "documentHash": "b12b761b7d7c7316699fcff583ae83a86da9924fa160b9ce060375196c702df2",
+      "signatureHash": "0656cdc8bdf26f9db9578f7196af7673a520820e729ebfb05c011e1e63a4c135",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-11T12:13:02.851Z"
+      },
+      "eventHash": "1dabdc39cabfd37ba7f60b8ef37fed21f591aea7a9fecf0449f9dc4e80fb0b9f"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-11T18:13:06.547Z"
+  }
 }
