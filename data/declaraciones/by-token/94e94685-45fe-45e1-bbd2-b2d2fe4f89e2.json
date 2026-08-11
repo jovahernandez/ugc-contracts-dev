@@ -3,8 +3,18 @@
   "declarationId": "641e5d7b-f97b-474f-84c6-29a5437113bd",
   "token": "94e94685-45fe-45e1-bbd2-b2d2fe4f89e2",
   "createdAt": "2026-08-11T17:31:49.060Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JOSE ALBERTO GARCIA LOZANO",
+    "nombre_representante_legal": "JOSE ALBERTO GARCIA LOZANO",
+    "email": "info@drjosealbertoderma.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JOSE ALBERTO GARCIA LOZANO",
+    "nombre_representante_legal": "JOSE ALBERTO GARCIA LOZANO",
+    "email": "info@drjosealbertoderma.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "JOSE ALBERTO GARCIA LOZANO",
     "nombre_representante_legal": "JOSE ALBERTO GARCIA LOZANO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d624994ecb34dba9d09ddd8715299e6bdab91afc277722768268936b6a29dc45",
+  "auditTrail": [
+    {
+      "eventId": "9b5cb441-25bf-449c-8b51-f03a4bffc5cc",
+      "uid": "GALA890306258",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-11T17:31:59.290Z",
+      "timestampLocal": "2026-08-11T17:31:59.290Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.152.233.73",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=info%40drjosealbertoderma.com&nombre_proveedor_razon_social=JOSE+ALBERTO+GARCIA+LOZANO&nombre_representante_legal=JOSE+ALBERTO+GARCIA+LOZANO&uid=GALA890306258",
+      "previousEventHash": null,
+      "documentHash": "d624994ecb34dba9d09ddd8715299e6bdab91afc277722768268936b6a29dc45",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c77b81e2969ce507ddb748a29583ac554fc89026253004708cf59dd4e7344bfd"
+    },
+    {
+      "eventId": "739a55d2-67b4-4ab0-89f4-3d909f09187f",
+      "uid": "GALA890306258",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-11T17:31:59.290Z",
+      "timestampLocal": "2026-08-11T17:31:59.290Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.152.233.73",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=info%40drjosealbertoderma.com&nombre_proveedor_razon_social=JOSE+ALBERTO+GARCIA+LOZANO&nombre_representante_legal=JOSE+ALBERTO+GARCIA+LOZANO&uid=GALA890306258",
+      "previousEventHash": "c77b81e2969ce507ddb748a29583ac554fc89026253004708cf59dd4e7344bfd",
+      "documentHash": "d624994ecb34dba9d09ddd8715299e6bdab91afc277722768268936b6a29dc45",
+      "metadata": {
+        "proveedor": "JOSE ALBERTO GARCIA LOZANO",
+        "representante": "JOSE ALBERTO GARCIA LOZANO"
+      },
+      "eventHash": "122e2e99b67db342bf618f176df77754974ca5ada51aef138653089bf37cbbea"
+    }
+  ]
 }
