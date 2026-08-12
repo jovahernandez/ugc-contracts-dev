@@ -3,7 +3,7 @@
   "declarationId": "5d28cf0a-a9e4-4939-9224-7c25788b598d",
   "token": "c705170d-0baa-4f72-af6a-d3ba263fd794",
   "createdAt": "2026-08-12T23:29:34.674Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "INVERSIONES MRS EIRL",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Paquita Avila",
     "email": "carlosomar20@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "17e7219a06134ac0fb6fd31610c3d0cf413448b4732d524f756bb7d5b5f6d246",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-12T23:31:13.701Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20555864541",
+  "signatureMetadata": {
+    "ip": "190.234.8.40",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-12T23:31:17.097Z",
+    "signedAtLocal": "2026-08-12T18:31:17.097Z"
+  },
+  "documentHash": "e2a44aa2bef5b0c631693be7c95238f4a4fcf20a52c1cb8c62162a2a7c0c9618",
   "auditTrail": [
     {
       "eventId": "9b61d88a-04d9-46a5-918e-f3522ff2f45b",
@@ -66,6 +72,47 @@
         "representante": "Paquita Avila"
       },
       "eventHash": "23debc927d7651a5d35df684d90654e4e028165ca329454738758c0b25302652"
+    },
+    {
+      "eventId": "5cf84353-9eed-4f4e-ad90-99ef540c346a",
+      "uid": "20555864541",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-12T23:29:48.800Z",
+      "timestampLocal": "2026-08-12T23:29:48.800Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.234.8.40",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-PE,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=carlosomar20%40gmail.com&nombre_proveedor_razon_social=INVERSIONES+MRS+EIRL&nombre_representante_legal=Paquita+Avila&uid=20555864541",
+      "previousEventHash": "23debc927d7651a5d35df684d90654e4e028165ca329454738758c0b25302652",
+      "documentHash": "17e7219a06134ac0fb6fd31610c3d0cf413448b4732d524f756bb7d5b5f6d246",
+      "eventHash": "20e00bafb00bdac9f45c849f002c4628264c97d3155f89dfb9c5995518650059"
+    },
+    {
+      "eventId": "ae2cc718-1644-4ec3-a996-67be00fac336",
+      "uid": "20555864541",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-12T23:31:17.097Z",
+      "timestampLocal": "2026-08-12T18:31:17.097Z",
+      "timezone": "UTC-5",
+      "ipAddress": "190.234.8.40",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-PE,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c705170d-0baa-4f72-af6a-d3ba263fd794",
+      "previousEventHash": "20e00bafb00bdac9f45c849f002c4628264c97d3155f89dfb9c5995518650059",
+      "documentHash": "e2a44aa2bef5b0c631693be7c95238f4a4fcf20a52c1cb8c62162a2a7c0c9618",
+      "signatureHash": "929155137f0ffd55ffda3e50c4b7a516a1def8f0af768b09c3691c91898254fd",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-12T18:31:13.701Z"
+      },
+      "eventHash": "6d7d3fe00e70c1349b1395b0ba2617ce0594917a5cf7f8c838d5a58ca492469c"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-12T23:31:17.504Z"
+  }
 }
