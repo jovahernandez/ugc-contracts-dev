@@ -3,7 +3,7 @@
   "declarationId": "2368d516-fc27-4533-a764-789432f11326",
   "token": "ea410882-c2a9-4978-b97a-1e29186fe914",
   "createdAt": "2026-08-12T20:04:08.599Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DENISE JOCELYN DIAZ CAMARENA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "NA",
     "email": "jossdiazc@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "30ee5829396158cc5bb145620eb4a83771f19d228e34b6309dd564fea6958cf9",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-12T20:04:53.618Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DICD8210233U1",
+  "signatureMetadata": {
+    "ip": "201.141.102.206",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-12T20:04:56.980Z",
+    "signedAtLocal": "2026-08-12T14:04:56.980Z"
+  },
+  "documentHash": "e7c603edcde33c0ce390210330647775823b14ca478b47805dc125924a0bb535",
   "auditTrail": [
     {
       "eventId": "31c1981a-e2d6-43ea-8a52-ff6db2c06810",
@@ -66,6 +72,47 @@
         "representante": "NA"
       },
       "eventHash": "8fefc6ed4f21196883eae65c32434b3bedcb70d4adaeed94672f1565b6333157"
+    },
+    {
+      "eventId": "3774c215-8e5a-47c5-9e92-bfdddf2fb158",
+      "uid": "DICD8210233U1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-12T20:04:18.615Z",
+      "timestampLocal": "2026-08-12T20:04:18.615Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.102.206",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=jossdiazc%40gmail.com&nombre_proveedor_razon_social=DENISE+JOCELYN+DIAZ+CAMARENA&nombre_representante_legal=NA&uid=DICD8210233U1",
+      "previousEventHash": "8fefc6ed4f21196883eae65c32434b3bedcb70d4adaeed94672f1565b6333157",
+      "documentHash": "30ee5829396158cc5bb145620eb4a83771f19d228e34b6309dd564fea6958cf9",
+      "eventHash": "cfda1f38642cd8bde57c949609fb2a6ae70dbdb70a78fbab0c49b9d7dbd8c4ff"
+    },
+    {
+      "eventId": "1eac541a-f02d-4c0f-8f03-d4a58a08ba26",
+      "uid": "DICD8210233U1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-12T20:04:56.980Z",
+      "timestampLocal": "2026-08-12T14:04:56.980Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.102.206",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ea410882-c2a9-4978-b97a-1e29186fe914",
+      "previousEventHash": "cfda1f38642cd8bde57c949609fb2a6ae70dbdb70a78fbab0c49b9d7dbd8c4ff",
+      "documentHash": "e7c603edcde33c0ce390210330647775823b14ca478b47805dc125924a0bb535",
+      "signatureHash": "f385dbe1040ad1d0f08e48aec64bd8c601cd80e4956d72581e6e743630bccb92",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-12T14:04:53.618Z"
+      },
+      "eventHash": "520d3f066d72427983ccde0bd91eeae660f5c012c87b10a676603fbf876ac859"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-12T20:04:57.296Z"
+  }
 }
