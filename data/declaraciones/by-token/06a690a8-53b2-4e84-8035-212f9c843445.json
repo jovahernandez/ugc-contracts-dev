@@ -3,7 +3,7 @@
   "declarationId": "6f0da05b-1c35-4415-96db-1ab36a9dad50",
   "token": "06a690a8-53b2-4e84-8035-212f9c843445",
   "createdAt": "2026-08-12T21:49:53.820Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Andrea Marida Giancaspero Salas",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Andrea Marida Giancaspero Salas",
     "email": "andygisalas@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "98c136b75fd0b056a53b769bd6b5a91d2d1ef20ec4ee2eba32b64a2e358d838a",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-12T21:50:26.301Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GISA9906261F1",
+  "signatureMetadata": {
+    "ip": "187.189.174.208",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-12T21:50:29.637Z",
+    "signedAtLocal": "2026-08-12T15:50:29.637Z"
+  },
+  "documentHash": "e23a73a43f7347161efd271e4c972dd52777088c0d0cd6f78e7d4114c766901e",
   "auditTrail": [
     {
       "eventId": "a6bfb293-6a83-420a-a2bc-c851d8981e67",
@@ -66,6 +72,47 @@
         "representante": "Andrea Marida Giancaspero Salas"
       },
       "eventHash": "44b12997aaac963066721f20c05b397b43471f5130349c1918f75c88184584e8"
+    },
+    {
+      "eventId": "69b260ad-003f-4b75-8cfd-40628a2ceed0",
+      "uid": "GISA9906261F1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-12T21:50:05.080Z",
+      "timestampLocal": "2026-08-12T21:50:05.080Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.174.208",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=andygisalas%40gmail.com&nombre_proveedor_razon_social=Andrea+Marida+Giancaspero+Salas&nombre_representante_legal=Andrea+Marida+Giancaspero+Salas&uid=GISA9906261F1",
+      "previousEventHash": "44b12997aaac963066721f20c05b397b43471f5130349c1918f75c88184584e8",
+      "documentHash": "98c136b75fd0b056a53b769bd6b5a91d2d1ef20ec4ee2eba32b64a2e358d838a",
+      "eventHash": "61673fa6ec8ffd4d3724b3f33e57ea69efd0d41ed4d4fba6f3a80b63796f9286"
+    },
+    {
+      "eventId": "f844e1d3-c648-42f3-949a-6f43c31856ce",
+      "uid": "GISA9906261F1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-12T21:50:29.637Z",
+      "timestampLocal": "2026-08-12T15:50:29.637Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.174.208",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/06a690a8-53b2-4e84-8035-212f9c843445",
+      "previousEventHash": "61673fa6ec8ffd4d3724b3f33e57ea69efd0d41ed4d4fba6f3a80b63796f9286",
+      "documentHash": "e23a73a43f7347161efd271e4c972dd52777088c0d0cd6f78e7d4114c766901e",
+      "signatureHash": "42ed4eb03a891311159b1815cbf7e1f7bae74b6e5bfeddf31ab1d1caf0c19ea0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-12T15:50:26.301Z"
+      },
+      "eventHash": "1830de9a3c4fcc891ba6e86d227edadaac822bbca2ea49cae10190b8a16be40d"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-12T21:50:29.934Z"
+  }
 }
