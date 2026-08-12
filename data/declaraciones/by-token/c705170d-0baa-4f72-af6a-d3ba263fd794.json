@@ -3,8 +3,18 @@
   "declarationId": "5d28cf0a-a9e4-4939-9224-7c25788b598d",
   "token": "c705170d-0baa-4f72-af6a-d3ba263fd794",
   "createdAt": "2026-08-12T23:29:34.674Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "INVERSIONES MRS EIRL",
+    "nombre_representante_legal": "Paquita Avila",
+    "email": "carlosomar20@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "INVERSIONES MRS EIRL",
+    "nombre_representante_legal": "Paquita Avila",
+    "email": "carlosomar20@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "INVERSIONES MRS EIRL",
     "nombre_representante_legal": "Paquita Avila",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "17e7219a06134ac0fb6fd31610c3d0cf413448b4732d524f756bb7d5b5f6d246",
+  "auditTrail": [
+    {
+      "eventId": "9b61d88a-04d9-46a5-918e-f3522ff2f45b",
+      "uid": "20555864541",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-12T23:29:45.812Z",
+      "timestampLocal": "2026-08-12T23:29:45.812Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.234.8.40",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-PE,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=carlosomar20%40gmail.com&nombre_proveedor_razon_social=INVERSIONES+MRS+EIRL&nombre_representante_legal=Paquita+Avila&uid=20555864541",
+      "previousEventHash": null,
+      "documentHash": "17e7219a06134ac0fb6fd31610c3d0cf413448b4732d524f756bb7d5b5f6d246",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4385433f2ed54857313c9cbdbd6cbdcbcca30d65facb66a2841cf9a6240545ba"
+    },
+    {
+      "eventId": "28d6af05-679c-4ebe-9f94-989d64730e3b",
+      "uid": "20555864541",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-12T23:29:45.812Z",
+      "timestampLocal": "2026-08-12T23:29:45.812Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.234.8.40",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-PE,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=carlosomar20%40gmail.com&nombre_proveedor_razon_social=INVERSIONES+MRS+EIRL&nombre_representante_legal=Paquita+Avila&uid=20555864541",
+      "previousEventHash": "4385433f2ed54857313c9cbdbd6cbdcbcca30d65facb66a2841cf9a6240545ba",
+      "documentHash": "17e7219a06134ac0fb6fd31610c3d0cf413448b4732d524f756bb7d5b5f6d246",
+      "metadata": {
+        "proveedor": "INVERSIONES MRS EIRL",
+        "representante": "Paquita Avila"
+      },
+      "eventHash": "23debc927d7651a5d35df684d90654e4e028165ca329454738758c0b25302652"
+    }
+  ]
 }
