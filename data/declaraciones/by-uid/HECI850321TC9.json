@@ -3,7 +3,7 @@
   "declarationId": "cf01bb94-496d-4971-be14-c46276449e90",
   "token": "b6b61ef5-2a10-4af5-9e99-c331742a1185",
   "createdAt": "2026-08-12T02:32:24.429Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IRENE CRISTINA HERNANDEZ CASTILLO",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Irene C. Hernandez",
     "email": "andrea.nenetina@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "efc50328c6a65606e929feeabcc12a96b6b18971f4e9d6469e57ca7517ff737a",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-12T02:37:04.154Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/HECI850321TC9",
+  "signatureMetadata": {
+    "ip": "187.190.185.153",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-12T02:37:07.512Z",
+    "signedAtLocal": "2026-08-11T20:37:07.512Z"
+  },
+  "documentHash": "87a6a237ae550db346d47c0fe7b5da95a730f6516b5e9e67193a1ef3c6e3b942",
   "auditTrail": [
     {
       "eventId": "eefc2312-8839-4e94-af37-b28a9ffbceb2",
@@ -66,6 +72,47 @@
         "representante": "Irene C. Hernandez"
       },
       "eventHash": "e0b40d19185fcbca01ba709a69e114e99c845ddd9c0147ee938892a7a8725ada"
+    },
+    {
+      "eventId": "e66cd03e-7fbb-437b-a257-30cd6e3b818d",
+      "uid": "HECI850321TC9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-12T02:32:38.780Z",
+      "timestampLocal": "2026-08-12T02:32:38.780Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.185.153",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HECI850321TC9&nombre_proveedor_razon_social=IRENE+CRISTINA+HERNANDEZ+CASTILLO&nombre_representante_legal=Irene+C.+Hernandez&email=andrea.nenetina%40gmail.com",
+      "previousEventHash": "e0b40d19185fcbca01ba709a69e114e99c845ddd9c0147ee938892a7a8725ada",
+      "documentHash": "efc50328c6a65606e929feeabcc12a96b6b18971f4e9d6469e57ca7517ff737a",
+      "eventHash": "6dca05ca71fb44434f2087481ddd9f991a5cb90fd51cbe8339e3ac0c12d6a45e"
+    },
+    {
+      "eventId": "c4c4f76d-03d2-40a7-b776-ea684c6a4732",
+      "uid": "HECI850321TC9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-12T02:37:07.512Z",
+      "timestampLocal": "2026-08-11T20:37:07.512Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.185.153",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b6b61ef5-2a10-4af5-9e99-c331742a1185",
+      "previousEventHash": "6dca05ca71fb44434f2087481ddd9f991a5cb90fd51cbe8339e3ac0c12d6a45e",
+      "documentHash": "87a6a237ae550db346d47c0fe7b5da95a730f6516b5e9e67193a1ef3c6e3b942",
+      "signatureHash": "a5c06ffdb75c72802e40d26f53e4498e914f3eafe8ae3945668f4c5a72270f70",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-11T20:37:04.154Z"
+      },
+      "eventHash": "90da7de5bc1747c1d2777cf05ad218522cddbd3c6919bce75862cdbfa510ced8"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-12T02:37:07.743Z"
+  }
 }
