@@ -3,7 +3,7 @@
   "declarationId": "ff50cb2e-0216-4c78-b6c8-6f6285dfac70",
   "token": "dfc66168-42ea-4ba1-8de7-fbbd85be1066",
   "createdAt": "2026-08-12T17:50:24.745Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MARIA REBECA IBARRA NERI",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "MARIA REBECA IBARRA NERI",
     "email": "rebecaibarraneri@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8f00330c245f9ecd128b9d7414a18c1dae5c4ed633c37e30213d98f1bac2e550",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-12T17:50:58.094Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/IANR980516HQ3",
+  "signatureMetadata": {
+    "ip": "187.144.186.188",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-12T17:51:01.718Z",
+    "signedAtLocal": "2026-08-12T11:51:01.718Z"
+  },
+  "documentHash": "21c3720a58e339adf10972856c5332eacb22563ea5709879b6c3538beff5fd83",
   "auditTrail": [
     {
       "eventId": "d8df729e-62df-44b3-ad51-7608b15151af",
@@ -66,6 +72,47 @@
         "representante": "MARIA REBECA IBARRA NERI"
       },
       "eventHash": "937dd94036162811d8a31207f1964800f7b1de74990d5cf1e4f12c46e2716254"
+    },
+    {
+      "eventId": "6bc585c6-0bc9-4625-a230-019ec8afe1dc",
+      "uid": "IANR980516HQ3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-12T17:50:34.336Z",
+      "timestampLocal": "2026-08-12T17:50:34.336Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.144.186.188",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=rebecaibarraneri%40gmail.com&nombre_proveedor_razon_social=MARIA+REBECA+IBARRA+NERI&nombre_representante_legal=MARIA+REBECA+IBARRA+NERI&uid=IANR980516HQ3",
+      "previousEventHash": "937dd94036162811d8a31207f1964800f7b1de74990d5cf1e4f12c46e2716254",
+      "documentHash": "8f00330c245f9ecd128b9d7414a18c1dae5c4ed633c37e30213d98f1bac2e550",
+      "eventHash": "c56526f4b55a68be0758d89b591cfe074e157be9c2613cacefc332eb759e192e"
+    },
+    {
+      "eventId": "8277fb70-4f44-4286-bb1c-20ac685a764b",
+      "uid": "IANR980516HQ3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-12T17:51:01.718Z",
+      "timestampLocal": "2026-08-12T11:51:01.718Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.144.186.188",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/dfc66168-42ea-4ba1-8de7-fbbd85be1066",
+      "previousEventHash": "c56526f4b55a68be0758d89b591cfe074e157be9c2613cacefc332eb759e192e",
+      "documentHash": "21c3720a58e339adf10972856c5332eacb22563ea5709879b6c3538beff5fd83",
+      "signatureHash": "52296a724f7fdb69969f3ee70c8a51770a92b264a5ef876c50c2b4515a13fc94",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-12T11:50:58.094Z"
+      },
+      "eventHash": "16fcac2b0d2764072fdd6aa7bef0c9f5561165f2885af62a3581dff70f5dcbc4"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-12T17:51:02.072Z"
+  }
 }
