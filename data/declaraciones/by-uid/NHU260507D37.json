@@ -3,7 +3,7 @@
   "declarationId": "fac5f0e4-ef9a-4de7-9b3b-aa5d4a9a10de",
   "token": "2bce3382-660b-4b25-bcb2-f8e210560248",
   "createdAt": "2026-08-06T22:48:10.010Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "NOVA HUB",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Edson Gastón Cruz Hernández",
     "email": "andreajaime@kairoscollective.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9946e10181c4148533aff417247128ccc54c54924b6a18d58e53052ed79c095d",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-13T23:25:26.555Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/NHU260507D37",
+  "signatureMetadata": {
+    "ip": "187.190.198.69",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-13T23:25:29.930Z",
+    "signedAtLocal": "2026-08-13T17:25:29.930Z"
+  },
+  "documentHash": "34795b4e0736278d00a94e71c7dec4138a12ad81e267966719833932178d8c27",
   "auditTrail": [
     {
       "eventId": "c6d7abfd-ea86-43ba-b21b-bc26bd07ac80",
@@ -103,6 +109,77 @@
         "representante": "Edson Gastón Cruz Hernández"
       },
       "eventHash": "811e363943213375589fc5cbe6e858bfaf2c514e12716c44e54330e868eb1e46"
+    },
+    {
+      "eventId": "02ce28e9-1c2a-4012-9534-13143e2347e1",
+      "uid": "NHU260507D37",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-06T22:48:22.221Z",
+      "timestampLocal": "2026-08-06T22:48:22.221Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.194.116",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,es-MX;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=andreajaime%40kairoscollective.com.mx&nombre_proveedor_razon_social=NOVA+HUB&nombre_representante_legal=Edson+Gast%C3%B3n+Cruz+Hern%C3%A1ndez&uid=NHU260507D37",
+      "previousEventHash": "811e363943213375589fc5cbe6e858bfaf2c514e12716c44e54330e868eb1e46",
+      "documentHash": "9946e10181c4148533aff417247128ccc54c54924b6a18d58e53052ed79c095d",
+      "eventHash": "bde0fe129e0e890368a6d710a3e4d8b14d6ba3a0e30b982d13e68469ae98f726"
+    },
+    {
+      "eventId": "cc98ba6e-a903-45c8-b842-82a54cb9e71d",
+      "uid": "NHU260507D37",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-13T23:21:56.349Z",
+      "timestampLocal": "2026-08-13T23:21:56.349Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.198.69",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,es-MX;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "bde0fe129e0e890368a6d710a3e4d8b14d6ba3a0e30b982d13e68469ae98f726",
+      "documentHash": "9946e10181c4148533aff417247128ccc54c54924b6a18d58e53052ed79c095d",
+      "eventHash": "44b4fa8329399ac3d30af8043f3628fb1875cab8e68bbd78a26032fa52cb7d0c"
+    },
+    {
+      "eventId": "40b6f980-a129-4b9f-b7ad-2c51db772f44",
+      "uid": "NHU260507D37",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-13T23:24:45.998Z",
+      "timestampLocal": "2026-08-13T23:24:45.998Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.198.69",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,es-MX;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "44b4fa8329399ac3d30af8043f3628fb1875cab8e68bbd78a26032fa52cb7d0c",
+      "documentHash": "9946e10181c4148533aff417247128ccc54c54924b6a18d58e53052ed79c095d",
+      "eventHash": "99f417da9a4bed355cf83411fb759038563cd22474a896a96281cfb3d30ca886"
+    },
+    {
+      "eventId": "cd2f45c0-5760-4e68-83bc-fa5800659850",
+      "uid": "NHU260507D37",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-13T23:25:29.930Z",
+      "timestampLocal": "2026-08-13T17:25:29.930Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.198.69",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,es-MX;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/2bce3382-660b-4b25-bcb2-f8e210560248",
+      "previousEventHash": "99f417da9a4bed355cf83411fb759038563cd22474a896a96281cfb3d30ca886",
+      "documentHash": "34795b4e0736278d00a94e71c7dec4138a12ad81e267966719833932178d8c27",
+      "signatureHash": "a5e0ac9ef4e07f77bcba4660f6c1c3ffd7d52b0cd28f1dbaba46c276bed317b3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-13T17:25:26.555Z"
+      },
+      "eventHash": "c8af5a9d5d157563e44fab28d55634d6f830720d4fc376be8fa93f461ac271e5"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-08-13T23:25:30.125Z"
+  }
 }
