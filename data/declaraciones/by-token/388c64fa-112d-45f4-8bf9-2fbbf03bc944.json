@@ -3,7 +3,7 @@
   "declarationId": "ca1f0798-7890-4929-8fe2-154af85a3051",
   "token": "388c64fa-112d-45f4-8bf9-2fbbf03bc944",
   "createdAt": "2026-08-13T22:15:58.858Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Sofía Domínguez Aguilar",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Sofia Dominguez Aguilar",
     "email": "dermadominguez@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "39e0ce1de18e55a15167c2a90ebf202359f5aebb97d13fee925c668c9a71c878",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-13T22:16:49.563Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DOAS810705850",
+  "signatureMetadata": {
+    "ip": "189.220.43.117",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+    "signedAtUtc": "2026-08-13T22:16:52.913Z",
+    "signedAtLocal": "2026-08-13T16:16:52.913Z"
+  },
+  "documentHash": "58524dbc22cfad42c17ce5ce518890459b86895f6562b549e7445d0cacc01c47",
   "auditTrail": [
     {
       "eventId": "4ab1e7a0-9548-4e72-9dae-212472863504",
@@ -231,11 +237,11 @@
       "eventHash": "edf2eb2f63eb59345c86cd82c87a695bc88066e57d2c586adf6736606a647b5e"
     },
     {
-      "eventId": "1bdf6391-07f7-43c1-bc6f-56c480a3528f",
+      "eventId": "e405d6fa-faa9-4652-b14f-32a69fcea604",
       "uid": "DOAS810705850",
       "eventType": "language_selected",
-      "timestampUtc": "2026-08-13T22:16:18.592Z",
-      "timestampLocal": "2026-08-13T22:16:18.592Z",
+      "timestampUtc": "2026-08-13T22:16:18.917Z",
+      "timestampLocal": "2026-08-13T22:16:18.917Z",
       "timezone": "UTC+0",
       "ipAddress": "189.220.43.117",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
@@ -246,26 +252,67 @@
       "metadata": {
         "language": "es"
       },
-      "eventHash": "735b3f391d5bd4110663f2d874825d9681610970b8693c18fcb3b36e35e1a648"
+      "eventHash": "6a416cc8a1c67b1e2e8815f3a5c088a51d3bc92d1f04d4b517d938b862b73ee1"
     },
     {
-      "eventId": "4e7eba67-6f90-482f-8e32-f4611c3b9062",
+      "eventId": "fc8aed37-fff3-40f5-a65c-be59f4b5c6ea",
       "uid": "DOAS810705850",
       "eventType": "document_created",
-      "timestampUtc": "2026-08-13T22:16:18.592Z",
-      "timestampLocal": "2026-08-13T22:16:18.592Z",
+      "timestampUtc": "2026-08-13T22:16:18.917Z",
+      "timestampLocal": "2026-08-13T22:16:18.917Z",
       "timezone": "UTC+0",
       "ipAddress": "189.220.43.117",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
       "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=dermadominguez%40hotmail.com&nombre_proveedor_razon_social=Sof%C3%ADa+Dom%C3%ADnguez+Aguilar+&nombre_representante_legal=Sofia+Dominguez+Aguilar&uid=DOAS810705850",
-      "previousEventHash": "735b3f391d5bd4110663f2d874825d9681610970b8693c18fcb3b36e35e1a648",
+      "previousEventHash": "6a416cc8a1c67b1e2e8815f3a5c088a51d3bc92d1f04d4b517d938b862b73ee1",
       "documentHash": "39e0ce1de18e55a15167c2a90ebf202359f5aebb97d13fee925c668c9a71c878",
       "metadata": {
         "proveedor": "Sofía Domínguez Aguilar",
         "representante": "Sofia Dominguez Aguilar"
       },
-      "eventHash": "0ff92ad7ecff6d30676b73665c12029cb4e4de91c7e9b0ebe07cc7d3c83d40a1"
+      "eventHash": "18a36d35516e04e706c9158cadc7d5638b64f2a4dc933d8ddf052000c5fd5f0a"
+    },
+    {
+      "eventId": "bed72834-3b5d-48c9-8981-55d7d53c44b6",
+      "uid": "DOAS810705850",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-13T22:16:21.456Z",
+      "timestampLocal": "2026-08-13T22:16:21.456Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.220.43.117",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=dermadominguez%40hotmail.com&nombre_proveedor_razon_social=Sof%C3%ADa+Dom%C3%ADnguez+Aguilar+&nombre_representante_legal=Sofia+Dominguez+Aguilar&uid=DOAS810705850",
+      "previousEventHash": "18a36d35516e04e706c9158cadc7d5638b64f2a4dc933d8ddf052000c5fd5f0a",
+      "documentHash": "39e0ce1de18e55a15167c2a90ebf202359f5aebb97d13fee925c668c9a71c878",
+      "eventHash": "f16d2e5aff77d21e168641132a25e880b66edc2d74f1e1f85950464cdf703124"
+    },
+    {
+      "eventId": "510c0275-fba3-40b6-80d4-fccefa8a647e",
+      "uid": "DOAS810705850",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-13T22:16:52.913Z",
+      "timestampLocal": "2026-08-13T16:16:52.913Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.220.43.117",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/388c64fa-112d-45f4-8bf9-2fbbf03bc944",
+      "previousEventHash": "f16d2e5aff77d21e168641132a25e880b66edc2d74f1e1f85950464cdf703124",
+      "documentHash": "58524dbc22cfad42c17ce5ce518890459b86895f6562b549e7445d0cacc01c47",
+      "signatureHash": "2dcc70f4bb51280e4acb763e7e4b35f9074e8fe1f930e848d2984eb5c3711e26",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-13T16:16:49.563Z"
+      },
+      "eventHash": "c207562a3188be16bf65b8bead6e204405dcf0f1108766d18ecb30ada750d941"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 15,
+    "verifiedAt": "2026-08-13T22:16:53.516Z"
+  }
 }
