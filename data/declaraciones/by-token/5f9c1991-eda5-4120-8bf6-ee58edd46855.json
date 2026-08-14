@@ -3,8 +3,18 @@
   "declarationId": "af753ac0-65cb-4ccd-89a6-62863d8302f8",
   "token": "5f9c1991-eda5-4120-8bf6-ee58edd46855",
   "createdAt": "2026-08-14T20:57:59.033Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Leonardo Enrique Ramírez López",
+    "nombre_representante_legal": "Leonardo Enrique Ramírez López",
+    "email": "enriqueralo@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Leonardo Enrique Ramírez López",
+    "nombre_representante_legal": "Leonardo Enrique Ramírez López",
+    "email": "enriqueralo@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Leonardo Enrique Ramírez López",
     "nombre_representante_legal": "Leonardo Enrique Ramírez López",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "38ed2f097657cbe33737e7eeb64f54b52fc47f1344ef1ad4a25a1af7e4ed4b1b",
+  "auditTrail": [
+    {
+      "eventId": "387517ac-76f1-49a5-a7fd-35db4884bb04",
+      "uid": "RALL980809B60",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-14T20:58:09.121Z",
+      "timestampLocal": "2026-08-14T20:58:09.121Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.4.42",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RALL980809B60&nombre_proveedor_razon_social=Leonardo+Enrique+Ram%C3%ADrez+L%C3%B3pez+&nombre_representante_legal=Leonardo+Enrique+Ram%C3%ADrez+L%C3%B3pez&email=enriqueralo%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "38ed2f097657cbe33737e7eeb64f54b52fc47f1344ef1ad4a25a1af7e4ed4b1b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "7736b3a7330eb2b8336447bb30e6dc21b288ec9addd1cc252ed2c148163616d8"
+    },
+    {
+      "eventId": "38eaabfd-31b0-4bb1-a56c-345378eaea40",
+      "uid": "RALL980809B60",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-14T20:58:09.121Z",
+      "timestampLocal": "2026-08-14T20:58:09.121Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.4.42",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RALL980809B60&nombre_proveedor_razon_social=Leonardo+Enrique+Ram%C3%ADrez+L%C3%B3pez+&nombre_representante_legal=Leonardo+Enrique+Ram%C3%ADrez+L%C3%B3pez&email=enriqueralo%40hotmail.com",
+      "previousEventHash": "7736b3a7330eb2b8336447bb30e6dc21b288ec9addd1cc252ed2c148163616d8",
+      "documentHash": "38ed2f097657cbe33737e7eeb64f54b52fc47f1344ef1ad4a25a1af7e4ed4b1b",
+      "metadata": {
+        "proveedor": "Leonardo Enrique Ramírez López",
+        "representante": "Leonardo Enrique Ramírez López"
+      },
+      "eventHash": "c8ff0ab13d796856c18b4850b81f4f8361fa3baf8fef6b106f242c4fe4e0812e"
+    }
+  ]
 }
