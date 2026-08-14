@@ -3,7 +3,7 @@
   "declarationId": "5507899a-0500-4a5d-8d80-35ed2e53812a",
   "token": "25360375-c785-479c-8b81-6d9cfdc4aeb4",
   "createdAt": "2026-08-14T21:09:23.689Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Veronica De La Luz Montero Chavez",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Veronica De La Luz Montero Chavez",
     "email": "fatz.fmart@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ba70253778367b94a5ba554e6d8d5503b375ae0ea84b0513d70b21cd69b2777d",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-14T21:13:56.595Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MOCV640602H61",
+  "signatureMetadata": {
+    "ip": "104.246.192.85",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-14T21:13:59.958Z",
+    "signedAtLocal": "2026-08-14T14:13:59.958Z"
+  },
+  "documentHash": "67b8b4f5eb205439634758611d9abeeaefdc246685aabe1c230280c8313349a2",
   "auditTrail": [
     {
       "eventId": "db5c89f4-0654-4062-a4a0-626ffb6ad790",
@@ -66,6 +72,47 @@
         "representante": "Veronica De La Luz Montero Chavez"
       },
       "eventHash": "065092aebf90994d1ebef25d620cf975cd68a19586e465986a0d54f66cd9b0ff"
+    },
+    {
+      "eventId": "0a437129-9ff4-4d4b-afc7-42539888318c",
+      "uid": "MOCV640602H61",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-14T21:09:36.009Z",
+      "timestampLocal": "2026-08-14T21:09:36.009Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.246.192.85",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=fatz.fmart%40gmail.com&nombre_proveedor_razon_social=Veronica+De+La+Luz+Montero+Chavez&nombre_representante_legal=Veronica+De+La+Luz+Montero+Chavez&uid=MOCV640602H61",
+      "previousEventHash": "065092aebf90994d1ebef25d620cf975cd68a19586e465986a0d54f66cd9b0ff",
+      "documentHash": "ba70253778367b94a5ba554e6d8d5503b375ae0ea84b0513d70b21cd69b2777d",
+      "eventHash": "084f43a461407e813b6f3cc4c106829daf32b83e15a430ac62a6130621a07229"
+    },
+    {
+      "eventId": "f54e928d-d1be-4ce7-9505-19f1175f4fde",
+      "uid": "MOCV640602H61",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-14T21:13:59.958Z",
+      "timestampLocal": "2026-08-14T14:13:59.958Z",
+      "timezone": "UTC-7",
+      "ipAddress": "104.246.192.85",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/25360375-c785-479c-8b81-6d9cfdc4aeb4",
+      "previousEventHash": "084f43a461407e813b6f3cc4c106829daf32b83e15a430ac62a6130621a07229",
+      "documentHash": "67b8b4f5eb205439634758611d9abeeaefdc246685aabe1c230280c8313349a2",
+      "signatureHash": "eb86cffee1a615cf4e53e197307240792d62f088eb8b815c0401d72f0c3d3d7d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-14T14:13:56.595Z"
+      },
+      "eventHash": "64852a2f510d01772c2cda39223550da5e5d0dd0f0e544fbe937ca6eb693f36a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-14T21:14:00.198Z"
+  }
 }
