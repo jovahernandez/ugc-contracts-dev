@@ -3,8 +3,18 @@
   "declarationId": "f5e95388-b4b7-4afa-b704-f2dae1adff3f",
   "token": "dcc0e242-3418-4138-b84c-6a9a6b645f4e",
   "createdAt": "2026-08-14T08:36:17.746Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "jose fernando barraza palomera",
+    "nombre_representante_legal": "another",
+    "email": "ferbarrazaoficial@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "jose fernando barraza palomera",
+    "nombre_representante_legal": "another",
+    "email": "ferbarrazaoficial@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "jose fernando barraza palomera",
     "nombre_representante_legal": "another",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "f6e49af955e6e41521df0d49fd9787aa5f40f4378e1de8f8253827355b88bf40",
+  "auditTrail": [
+    {
+      "eventId": "4757f3d6-9e0a-46ad-acdb-68511e0807ae",
+      "uid": "BAPF040910PA3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-14T08:36:25.606Z",
+      "timestampLocal": "2026-08-14T08:36:25.606Z",
+      "timezone": "UTC+0",
+      "ipAddress": "217.76.241.100",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=ferbarrazaoficial%40gmail.com&nombre_proveedor_razon_social=jose+fernando+barraza+palomera&nombre_representante_legal=another&uid=BAPF040910PA3",
+      "previousEventHash": null,
+      "documentHash": "f6e49af955e6e41521df0d49fd9787aa5f40f4378e1de8f8253827355b88bf40",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "71d8405409c071996e98e5a747a813abd51f37a60864aee76cdb894ab1ff908b"
+    },
+    {
+      "eventId": "915f0fb0-80ac-4df6-b9bb-7791dd2613ca",
+      "uid": "BAPF040910PA3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-14T08:36:25.606Z",
+      "timestampLocal": "2026-08-14T08:36:25.606Z",
+      "timezone": "UTC+0",
+      "ipAddress": "217.76.241.100",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=ferbarrazaoficial%40gmail.com&nombre_proveedor_razon_social=jose+fernando+barraza+palomera&nombre_representante_legal=another&uid=BAPF040910PA3",
+      "previousEventHash": "71d8405409c071996e98e5a747a813abd51f37a60864aee76cdb894ab1ff908b",
+      "documentHash": "f6e49af955e6e41521df0d49fd9787aa5f40f4378e1de8f8253827355b88bf40",
+      "metadata": {
+        "proveedor": "jose fernando barraza palomera",
+        "representante": "another"
+      },
+      "eventHash": "578f90562a986f0220b51649a9d117d4a88fe1b10808eb85dbb26b4ec01370cd"
+    }
+  ]
 }
