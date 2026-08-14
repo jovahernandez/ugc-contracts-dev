@@ -3,7 +3,7 @@
   "declarationId": "f5e95388-b4b7-4afa-b704-f2dae1adff3f",
   "token": "dcc0e242-3418-4138-b84c-6a9a6b645f4e",
   "createdAt": "2026-08-14T08:36:17.746Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "jose fernando barraza palomera",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "another",
     "email": "ferbarrazaoficial@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0eaca4418f2b770edffa02747516172f6a3a8beb3e57f871e32735dacfdfe346",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-14T08:38:59.434Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BAPF040910PA3",
+  "signatureMetadata": {
+    "ip": "217.76.241.100",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-14T08:39:02.906Z",
+    "signedAtLocal": "2026-08-14T02:39:02.906Z"
+  },
+  "documentHash": "9263a20812d35fcf241cf1c302603a45d493c970ac4da006db2ffd2adfb38372",
   "auditTrail": [
     {
       "eventId": "4757f3d6-9e0a-46ad-acdb-68511e0807ae",
@@ -103,6 +109,47 @@
         "representante": "another"
       },
       "eventHash": "289d02b7d2b057e0e4d7aeeb893e6d755c6b57561cd9f4bde490d8bae0c6c25a"
+    },
+    {
+      "eventId": "170476ef-e290-4e7d-9baa-ae4a7e3ba4ef",
+      "uid": "BAPF040910PA3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-14T08:36:31.075Z",
+      "timestampLocal": "2026-08-14T08:36:31.075Z",
+      "timezone": "UTC+0",
+      "ipAddress": "217.76.241.100",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=ferbarrazaoficial%40gmail.com&nombre_proveedor_razon_social=jose+fernando+barraza+palomera&nombre_representante_legal=another&uid=BAPF040910PA3",
+      "previousEventHash": "289d02b7d2b057e0e4d7aeeb893e6d755c6b57561cd9f4bde490d8bae0c6c25a",
+      "documentHash": "0eaca4418f2b770edffa02747516172f6a3a8beb3e57f871e32735dacfdfe346",
+      "eventHash": "1d1f19b959a6d421d2635e750836a255ce263cbef6dcb81d6f40a3d4d464fa25"
+    },
+    {
+      "eventId": "e1d50674-0c18-4700-bd80-2eddfad98732",
+      "uid": "BAPF040910PA3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-14T08:39:02.906Z",
+      "timestampLocal": "2026-08-14T02:39:02.906Z",
+      "timezone": "UTC-6",
+      "ipAddress": "217.76.241.100",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/dcc0e242-3418-4138-b84c-6a9a6b645f4e",
+      "previousEventHash": "1d1f19b959a6d421d2635e750836a255ce263cbef6dcb81d6f40a3d4d464fa25",
+      "documentHash": "9263a20812d35fcf241cf1c302603a45d493c970ac4da006db2ffd2adfb38372",
+      "signatureHash": "603b4785f2321e5b4a11e3801007b31a94edcc83b116ba65ce2eaafcede5daff",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-14T02:38:59.434Z"
+      },
+      "eventHash": "8b55332cc4b0a0c051bd14b98ee7ecbccf7b6209a013866946ef9293e716fab1"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-08-14T08:39:03.573Z"
+  }
 }
