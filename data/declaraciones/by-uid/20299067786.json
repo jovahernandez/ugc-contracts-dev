@@ -3,7 +3,7 @@
   "declarationId": "467befb1-15f8-4fee-929d-501830158eaf",
   "token": "c8c4c77e-42d8-47c6-9e14-1c90543ef59d",
   "createdAt": "2026-08-14T16:17:01.608Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JORGE ALEXIS MOYANO",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "JORGE ALEXIS MOYANO",
     "email": "alexismoyano@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b6e3ad31ac299c27ae6a6521bff6770dea2b9ea4366f6a3bc766d0ecbf005ce8",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-14T16:18:06.116Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20299067786",
+  "signatureMetadata": {
+    "ip": "181.97.111.16",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-14T16:18:09.607Z",
+    "signedAtLocal": "2026-08-14T13:18:09.607Z"
+  },
+  "documentHash": "d55ab80cf87d60052b3c88761e5bf36d7edf43cae32629dc6960c368ee82db43",
   "auditTrail": [
     {
       "eventId": "e5ccef61-47f2-40c6-807b-3689823f581a",
@@ -451,6 +457,47 @@
         "representante": "JORGE ALEXIS MOYANO"
       },
       "eventHash": "5ff285e31568a9eb8b71139807acdde5b26fb4f8568bfbe40af188a5b58d9e70"
+    },
+    {
+      "eventId": "2b6f5731-f0c9-47b6-b619-438c1fc06482",
+      "uid": "20299067786",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-14T16:17:26.315Z",
+      "timestampLocal": "2026-08-14T16:17:26.315Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.97.111.16",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,es-419;q=0.8,en;q=0.7,gl;q=0.6,el;q=0.5,pt;q=0.4,ko;q=0.3",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=alexismoyano%40gmail.com&nombre_proveedor_razon_social=JORGE+ALEXIS+MOYANO&nombre_representante_legal=JORGE+ALEXIS+MOYANO&uid=20299067786",
+      "previousEventHash": "5ff285e31568a9eb8b71139807acdde5b26fb4f8568bfbe40af188a5b58d9e70",
+      "documentHash": "b6e3ad31ac299c27ae6a6521bff6770dea2b9ea4366f6a3bc766d0ecbf005ce8",
+      "eventHash": "24ff71b4460d68a5523511f594d4725e38be614adfd9fbc24dd584315147ae2a"
+    },
+    {
+      "eventId": "919fdcfe-cfcd-4a6a-beae-e4fbe20c6f28",
+      "uid": "20299067786",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-14T16:18:09.607Z",
+      "timestampLocal": "2026-08-14T13:18:09.607Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.97.111.16",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,es-419;q=0.8,en;q=0.7,gl;q=0.6,el;q=0.5,pt;q=0.4,ko;q=0.3",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c8c4c77e-42d8-47c6-9e14-1c90543ef59d",
+      "previousEventHash": "24ff71b4460d68a5523511f594d4725e38be614adfd9fbc24dd584315147ae2a",
+      "documentHash": "d55ab80cf87d60052b3c88761e5bf36d7edf43cae32629dc6960c368ee82db43",
+      "signatureHash": "0ffc1145250b77c4fba85539c277cce0f4762dde42f44886a59e3ad826223f0b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-14T13:18:06.116Z"
+      },
+      "eventHash": "0738723116a405459549e19041f85de4c8b84b9c177ec1fb5ec8d8a530ff101f"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 25,
+    "verifiedAt": "2026-08-14T16:18:09.809Z"
+  }
 }
