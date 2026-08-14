@@ -3,7 +3,7 @@
   "declarationId": "b3a6eeed-71ec-4d47-b169-9f7187779b72",
   "token": "64ac9920-2a32-404b-a51a-90bc11579a57",
   "createdAt": "2026-08-14T19:52:13.611Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SERH IDEAS PROMOCIONALES",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "MIGUEL GONZALEZ CORONADO",
     "email": "facturacion@serhgdl.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "30216302be25cca7aa350df6b66ee7620c6089b3e876e416e45ce489c665668f",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-14T20:16:30.256Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SIP110311574",
+  "signatureMetadata": {
+    "ip": "189.178.34.80",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+    "signedAtUtc": "2026-08-14T20:16:33.689Z",
+    "signedAtLocal": "2026-08-14T14:16:33.689Z"
+  },
+  "documentHash": "c81d211f5a88c613d8bc5ccd8e6379855f32bbdf56b26c5e27c2386446ff6359",
   "auditTrail": [
     {
       "eventId": "c4078e32-9a81-4c46-955f-6bac050aa98b",
@@ -155,6 +161,92 @@
         "representante": "MIGUEL GONZALEZ CORONADO"
       },
       "eventHash": "8b7a3cc12a4814e28af338714d1a4f794448decd8c66f8122aa8faf800fce913"
+    },
+    {
+      "eventId": "5a82978a-372f-462b-b09c-6073d8284ea6",
+      "uid": "SIP110311574",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-14T19:52:30.122Z",
+      "timestampLocal": "2026-08-14T19:52:30.122Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.178.34.80",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,es-ES;q=0.7,en;q=0.6,en-GB;q=0.5,en-US;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=facturacion%40serhgdl.com.mx&nombre_proveedor_razon_social=SERH+IDEAS+PROMOCIONALES&nombre_representante_legal=MIGUEL+GONZALEZ+CORONADO&uid=SIP110311574",
+      "previousEventHash": "8b7a3cc12a4814e28af338714d1a4f794448decd8c66f8122aa8faf800fce913",
+      "documentHash": "30216302be25cca7aa350df6b66ee7620c6089b3e876e416e45ce489c665668f",
+      "eventHash": "9bb6f4cf1b51334f0260a0177e3e6007a2ed2e1a588c339c0d7d49910d2b980a"
+    },
+    {
+      "eventId": "fddc8d9a-9ffc-4ec2-9ea1-a380a7f3513e",
+      "uid": "SIP110311574",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-14T20:06:56.522Z",
+      "timestampLocal": "2026-08-14T20:06:56.522Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.178.34.80",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,es-ES;q=0.7,en;q=0.6,en-GB;q=0.5,en-US;q=0.4",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "9bb6f4cf1b51334f0260a0177e3e6007a2ed2e1a588c339c0d7d49910d2b980a",
+      "documentHash": "30216302be25cca7aa350df6b66ee7620c6089b3e876e416e45ce489c665668f",
+      "eventHash": "d952ab8ba4ad059be88ad2cd1996e35d50e9352ea44cd7e67167af2c01406801"
+    },
+    {
+      "eventId": "6fb9235f-7eb9-40d9-b345-c917780b0728",
+      "uid": "SIP110311574",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-14T20:07:10.072Z",
+      "timestampLocal": "2026-08-14T20:07:10.072Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.178.34.80",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,es-ES;q=0.7,en;q=0.6,en-GB;q=0.5,en-US;q=0.4",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "d952ab8ba4ad059be88ad2cd1996e35d50e9352ea44cd7e67167af2c01406801",
+      "documentHash": "30216302be25cca7aa350df6b66ee7620c6089b3e876e416e45ce489c665668f",
+      "eventHash": "1a197d2910fce5bd860786f3b5faa478feff9b23a4de7561eabc639a2420663f"
+    },
+    {
+      "eventId": "ecd40afd-5726-4e2b-b2b8-82e02afa6c41",
+      "uid": "SIP110311574",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-14T20:08:05.283Z",
+      "timestampLocal": "2026-08-14T20:08:05.283Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.178.34.80",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,es-ES;q=0.7,en;q=0.6,en-GB;q=0.5,en-US;q=0.4",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "1a197d2910fce5bd860786f3b5faa478feff9b23a4de7561eabc639a2420663f",
+      "documentHash": "30216302be25cca7aa350df6b66ee7620c6089b3e876e416e45ce489c665668f",
+      "eventHash": "ee21db92ea124bda3ec3cd6bf9c897c1f1e1396e97a9f1448e912be7cc2eb4b9"
+    },
+    {
+      "eventId": "21599d62-adcf-444d-ab63-e836976ee9af",
+      "uid": "SIP110311574",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-14T20:16:33.689Z",
+      "timestampLocal": "2026-08-14T14:16:33.689Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.178.34.80",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,es-ES;q=0.7,en;q=0.6,en-GB;q=0.5,en-US;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/64ac9920-2a32-404b-a51a-90bc11579a57",
+      "previousEventHash": "ee21db92ea124bda3ec3cd6bf9c897c1f1e1396e97a9f1448e912be7cc2eb4b9",
+      "documentHash": "c81d211f5a88c613d8bc5ccd8e6379855f32bbdf56b26c5e27c2386446ff6359",
+      "signatureHash": "e2302179c9fa3145e1093161a6defacbc5cf91b7e18f0cd435918b7b4602b81e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-14T14:16:30.256Z"
+      },
+      "eventHash": "798b972854e3013342562c0610bf775fc1e265f2932e7d6ee77fe226cc0263d6"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 12,
+    "verifiedAt": "2026-08-14T20:16:34.005Z"
+  }
 }
