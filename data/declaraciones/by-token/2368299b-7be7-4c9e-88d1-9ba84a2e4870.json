@@ -3,7 +3,7 @@
   "declarationId": "c4b3bb15-c92d-4ad8-a313-6206a848161b",
   "token": "2368299b-7be7-4c9e-88d1-9ba84a2e4870",
   "createdAt": "2026-08-15T02:14:19.127Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MAYRA VERONICA GASCA RODRIGUEZ",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "MAYRA VERONICA GASCA RODRIGUEZ",
     "email": "agencyespresso@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f253729addadd20ac95379856c848c9d493d0be26b94c3b8feed332295820882",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-15T02:14:59.283Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GARM950109IV7",
+  "signatureMetadata": {
+    "ip": "189.131.234.173",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-15T02:15:02.846Z",
+    "signedAtLocal": "2026-08-14T20:15:02.846Z"
+  },
+  "documentHash": "3cd0a7ace72498c3fda3d44db59e15015e7e2a81aec72680666d9721457d0641",
   "auditTrail": [
     {
       "eventId": "60cfa99b-793b-4498-9899-af12f37c78da",
@@ -192,6 +198,47 @@
         "representante": "MAYRA VERONICA GASCA RODRIGUEZ"
       },
       "eventHash": "8d9cab8dd6842bc7f33671547ca84c46832b3d14c184f5238e9956f3d7636357"
+    },
+    {
+      "eventId": "03d89f75-366e-4d1b-b262-bcd8d02a5f85",
+      "uid": "GARM950109IV7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-15T02:14:37.956Z",
+      "timestampLocal": "2026-08-15T02:14:37.956Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.234.173",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=agencyespresso%40gmail.com&nombre_proveedor_razon_social=MAYRA+VERONICA+GASCA+RODRIGUEZ&nombre_representante_legal=MAYRA+VERONICA+GASCA+RODRIGUEZ&uid=GARM950109IV7",
+      "previousEventHash": "8d9cab8dd6842bc7f33671547ca84c46832b3d14c184f5238e9956f3d7636357",
+      "documentHash": "f253729addadd20ac95379856c848c9d493d0be26b94c3b8feed332295820882",
+      "eventHash": "9a78e7292dbe722b0035697c7786ef72017ecd508c3c23e9ea2f5a7f167dd6cd"
+    },
+    {
+      "eventId": "1c0def8b-ec1f-49c7-ac01-e3c822104338",
+      "uid": "GARM950109IV7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-15T02:15:02.846Z",
+      "timestampLocal": "2026-08-14T20:15:02.846Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.131.234.173",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/2368299b-7be7-4c9e-88d1-9ba84a2e4870",
+      "previousEventHash": "9a78e7292dbe722b0035697c7786ef72017ecd508c3c23e9ea2f5a7f167dd6cd",
+      "documentHash": "3cd0a7ace72498c3fda3d44db59e15015e7e2a81aec72680666d9721457d0641",
+      "signatureHash": "2f867c0c91d20cf9c7df18f16b29f6f18ce76f6f3a90d5998fea45f664396262",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-14T20:14:59.283Z"
+      },
+      "eventHash": "9d7475d8b727d9916bde38241e367b7e597f82b354d4ae160a9be31940647e38"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-08-15T02:15:03.092Z"
+  }
 }
