@@ -3,8 +3,18 @@
   "declarationId": "1065b870-32c2-4299-9893-ee945d29045b",
   "token": "28e35d96-36c0-4916-bc49-931a44758129",
   "createdAt": "2026-08-17T17:31:43.418Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Nayeli Castillo Prieto",
+    "nombre_representante_legal": "Nayeli Castillo Prieto",
+    "email": "castilloprietonayeli@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Nayeli Castillo Prieto",
+    "nombre_representante_legal": "Nayeli Castillo Prieto",
+    "email": "castilloprietonayeli@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Nayeli Castillo Prieto",
     "nombre_representante_legal": "Nayeli Castillo Prieto",
@@ -18,5 +28,118 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "0e71b98dc36ec56efa8f509678a2e4e1074d652ae849809b6a2c6b6bbaf10c5d",
+  "auditTrail": [
+    {
+      "eventId": "45a9000c-e8d7-472d-a413-1e07924d1aa1",
+      "uid": "CAPN060821MHA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-17T17:31:55.348Z",
+      "timestampLocal": "2026-08-17T17:31:55.348Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.222.22.59",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=castilloprietonayeli%40gmail.com&nombre_proveedor_razon_social=Nayeli+Castillo+Prieto&nombre_representante_legal=Nayeli+Castillo+Prieto&uid=CAPN060821MHA",
+      "previousEventHash": null,
+      "documentHash": "165b71ac5420d455f24a03dda7735317bbc4f7a43ec3d995b15ce56150f9cc05",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3e1b9750d2ee68753e592e50325b27638cf45e199f694cd9a90acfc4ba7a55ff"
+    },
+    {
+      "eventId": "26f2a7a5-6993-465f-9e1c-66ecc2d8d67b",
+      "uid": "CAPN060821MHA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-17T17:31:55.348Z",
+      "timestampLocal": "2026-08-17T17:31:55.348Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.222.22.59",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=castilloprietonayeli%40gmail.com&nombre_proveedor_razon_social=Nayeli+Castillo+Prieto&nombre_representante_legal=Nayeli+Castillo+Prieto&uid=CAPN060821MHA",
+      "previousEventHash": "3e1b9750d2ee68753e592e50325b27638cf45e199f694cd9a90acfc4ba7a55ff",
+      "documentHash": "165b71ac5420d455f24a03dda7735317bbc4f7a43ec3d995b15ce56150f9cc05",
+      "metadata": {
+        "proveedor": "Nayeli Castillo Prieto",
+        "representante": "Nayeli Castillo Prieto"
+      },
+      "eventHash": "d84b8fc32a93e037c17c61555d4fbe1ecb49c91139df91f7d57a2ac5698a5544"
+    },
+    {
+      "eventId": "b247c3ce-ec9b-4502-88ca-0d1da6fd0765",
+      "uid": "CAPN060821MHA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-17T17:31:58.181Z",
+      "timestampLocal": "2026-08-17T17:31:58.181Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.222.22.59",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=castilloprietonayeli%40gmail.com&nombre_proveedor_razon_social=Nayeli+Castillo+Prieto&nombre_representante_legal=Nayeli+Castillo+Prieto&uid=CAPN060821MHA",
+      "previousEventHash": "d84b8fc32a93e037c17c61555d4fbe1ecb49c91139df91f7d57a2ac5698a5544",
+      "documentHash": "0e71b98dc36ec56efa8f509678a2e4e1074d652ae849809b6a2c6b6bbaf10c5d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ac4c435489082a925e20b03c1b818f390a2073dfe61479d5bd6a8a553270a240"
+    },
+    {
+      "eventId": "fcd4ec96-0480-4ff7-941a-ca8ffc0ecc92",
+      "uid": "CAPN060821MHA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-17T17:31:58.181Z",
+      "timestampLocal": "2026-08-17T17:31:58.181Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.222.22.59",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=castilloprietonayeli%40gmail.com&nombre_proveedor_razon_social=Nayeli+Castillo+Prieto&nombre_representante_legal=Nayeli+Castillo+Prieto&uid=CAPN060821MHA",
+      "previousEventHash": "ac4c435489082a925e20b03c1b818f390a2073dfe61479d5bd6a8a553270a240",
+      "documentHash": "0e71b98dc36ec56efa8f509678a2e4e1074d652ae849809b6a2c6b6bbaf10c5d",
+      "metadata": {
+        "proveedor": "Nayeli Castillo Prieto",
+        "representante": "Nayeli Castillo Prieto"
+      },
+      "eventHash": "5350c948deba30d8415a4101e01dbd027b111636d79e6213890c500488cbd46a"
+    },
+    {
+      "eventId": "58b3d1db-933e-4dda-818d-d63fbc0e1ac8",
+      "uid": "CAPN060821MHA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-17T17:31:59.115Z",
+      "timestampLocal": "2026-08-17T17:31:59.115Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.222.22.59",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=castilloprietonayeli%40gmail.com&nombre_proveedor_razon_social=Nayeli+Castillo+Prieto&nombre_representante_legal=Nayeli+Castillo+Prieto&uid=CAPN060821MHA",
+      "previousEventHash": "5350c948deba30d8415a4101e01dbd027b111636d79e6213890c500488cbd46a",
+      "documentHash": "0e71b98dc36ec56efa8f509678a2e4e1074d652ae849809b6a2c6b6bbaf10c5d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "aae4195a12e17ec3460d9ff5a12544e531ff05d0d5d5e38632305b67d739ee87"
+    },
+    {
+      "eventId": "36291d88-e03f-4d8d-984f-9a4835e71842",
+      "uid": "CAPN060821MHA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-17T17:31:59.115Z",
+      "timestampLocal": "2026-08-17T17:31:59.115Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.222.22.59",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=castilloprietonayeli%40gmail.com&nombre_proveedor_razon_social=Nayeli+Castillo+Prieto&nombre_representante_legal=Nayeli+Castillo+Prieto&uid=CAPN060821MHA",
+      "previousEventHash": "aae4195a12e17ec3460d9ff5a12544e531ff05d0d5d5e38632305b67d739ee87",
+      "documentHash": "0e71b98dc36ec56efa8f509678a2e4e1074d652ae849809b6a2c6b6bbaf10c5d",
+      "metadata": {
+        "proveedor": "Nayeli Castillo Prieto",
+        "representante": "Nayeli Castillo Prieto"
+      },
+      "eventHash": "a03dafcc8376428d5bb9644b5a41faa14f404233e3168d095cec5c29be20574a"
+    }
+  ]
 }
