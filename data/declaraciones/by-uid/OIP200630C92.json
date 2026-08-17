@@ -3,7 +3,7 @@
   "declarationId": "6ffdb294-11a2-40c3-bc79-7c9fb8486604",
   "token": "16461031-afad-47ff-a40e-09eee075ff53",
   "createdAt": "2026-08-17T21:05:19.858Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "OMG IMPACTO PUBLICITARIO",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "blanca esther cortes oaxaca",
     "email": "gervilla13@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7b0b50d5df9f9562c23939f3fb6e60c7fa84e7bd8f64042e502d94669834eed4",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-17T21:05:47.204Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/OIP200630C92",
+  "signatureMetadata": {
+    "ip": "187.202.246.192",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-17T21:05:50.558Z",
+    "signedAtLocal": "2026-08-17T15:05:50.558Z"
+  },
+  "documentHash": "69a063a54d4845f3c16e049992f7d0af64ae4c6d9c5867dcd60ab64834e33f8e",
   "auditTrail": [
     {
       "eventId": "d1e33233-da9e-4f68-a546-9c9d9317b38f",
@@ -118,6 +124,47 @@
         "representante": "blanca esther cortes oaxaca"
       },
       "eventHash": "6c3c2400b951240824c41184838b4539e49101274223d1d4aee69f1d7e95ca41"
+    },
+    {
+      "eventId": "c8b79b5c-c758-413c-adeb-dd7c521d5586",
+      "uid": "OIP200630C92",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-17T21:05:31.999Z",
+      "timestampLocal": "2026-08-17T21:05:31.999Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.246.192",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=gervilla13%40gmail.com&nombre_proveedor_razon_social=OMG+IMPACTO+PUBLICITARIO&nombre_representante_legal=blanca+esther+cortes+oaxaca&uid=OIP200630C92",
+      "previousEventHash": "6c3c2400b951240824c41184838b4539e49101274223d1d4aee69f1d7e95ca41",
+      "documentHash": "7b0b50d5df9f9562c23939f3fb6e60c7fa84e7bd8f64042e502d94669834eed4",
+      "eventHash": "45d8b7876582c8be4399389d148b60eeb5574c767e21bf2337671eb6def8a7fb"
+    },
+    {
+      "eventId": "b32add82-80cc-4807-b295-e4640d2cb304",
+      "uid": "OIP200630C92",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-17T21:05:50.558Z",
+      "timestampLocal": "2026-08-17T15:05:50.558Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.202.246.192",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/16461031-afad-47ff-a40e-09eee075ff53",
+      "previousEventHash": "45d8b7876582c8be4399389d148b60eeb5574c767e21bf2337671eb6def8a7fb",
+      "documentHash": "69a063a54d4845f3c16e049992f7d0af64ae4c6d9c5867dcd60ab64834e33f8e",
+      "signatureHash": "80d65a054ce06df39f84503752a5f6aee43c31a952b420be23985fc83acf61a4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-17T15:05:47.204Z"
+      },
+      "eventHash": "646cc4ce11b8412ddd0f894656bbff40ef5ca432edef102a4ea460ea86ed8c08"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-08-17T21:05:50.869Z"
+  }
 }
