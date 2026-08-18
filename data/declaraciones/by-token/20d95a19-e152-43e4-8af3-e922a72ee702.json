@@ -3,8 +3,18 @@
   "declarationId": "baeccff5-ce25-4058-8768-6156b8963471",
   "token": "20d95a19-e152-43e4-8af3-e922a72ee702",
   "createdAt": "2026-08-18T03:00:56.717Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Bruno Fernando Ordoñez Colorado",
+    "nombre_representante_legal": "Bruno Ordoñez",
+    "email": "brunoordonez062@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Bruno Fernando Ordoñez Colorado",
+    "nombre_representante_legal": "Bruno Ordoñez",
+    "email": "brunoordonez062@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Bruno Fernando Ordoñez Colorado",
     "nombre_representante_legal": "Bruno Ordoñez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a46edaf6f6dbaa265872690eeb3068de69c4e7b9c0d2d180076175be780ebcd3",
+  "auditTrail": [
+    {
+      "eventId": "3a17fdaf-91fc-403f-9ba1-63fdd8728e55",
+      "uid": "OOCB000627T38",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-18T03:01:03.665Z",
+      "timestampLocal": "2026-08-18T03:01:03.665Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.194.112",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=brunoordonez062%40gmail.com&nombre_proveedor_razon_social=Bruno+Fernando+Ordo%C3%B1ez+Colorado&nombre_representante_legal=Bruno+Ordo%C3%B1ez&uid=OOCB000627T38",
+      "previousEventHash": null,
+      "documentHash": "a46edaf6f6dbaa265872690eeb3068de69c4e7b9c0d2d180076175be780ebcd3",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cabafe6129b1490dc489e0539b7de0f5248443f842f458bbfd69328b6e2f6473"
+    },
+    {
+      "eventId": "99bb662d-d015-44bd-8b68-b947e7b75bb2",
+      "uid": "OOCB000627T38",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-18T03:01:03.665Z",
+      "timestampLocal": "2026-08-18T03:01:03.665Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.194.112",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=brunoordonez062%40gmail.com&nombre_proveedor_razon_social=Bruno+Fernando+Ordo%C3%B1ez+Colorado&nombre_representante_legal=Bruno+Ordo%C3%B1ez&uid=OOCB000627T38",
+      "previousEventHash": "cabafe6129b1490dc489e0539b7de0f5248443f842f458bbfd69328b6e2f6473",
+      "documentHash": "a46edaf6f6dbaa265872690eeb3068de69c4e7b9c0d2d180076175be780ebcd3",
+      "metadata": {
+        "proveedor": "Bruno Fernando Ordoñez Colorado",
+        "representante": "Bruno Ordoñez"
+      },
+      "eventHash": "af2542f3d9203faa644df4992961a0592aa623da3222481c6c28470e982fe960"
+    }
+  ]
 }
