@@ -3,8 +3,18 @@
   "declarationId": "80be14c1-e5a8-42fc-bafd-c9ff37cc7339",
   "token": "c63214df-feb3-44ac-aa92-5993d5f720e5",
   "createdAt": "2026-08-18T18:31:21.829Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PEDRO PABLO GAMBOA GAMBOA",
+    "nombre_representante_legal": "PEDRO PABLO GAMBOA GAMBOA",
+    "email": "pedro.pgamboag@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PEDRO PABLO GAMBOA GAMBOA",
+    "nombre_representante_legal": "PEDRO PABLO GAMBOA GAMBOA",
+    "email": "pedro.pgamboag@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "PEDRO PABLO GAMBOA GAMBOA",
     "nombre_representante_legal": "PEDRO PABLO GAMBOA GAMBOA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9bf08fffb3641754ff97fc22c6861a5581e3281cea697e4e1e62f62714ea2233",
+  "auditTrail": [
+    {
+      "eventId": "eee0393b-0654-4f84-9a25-3d6a576374c1",
+      "uid": "GAGP9305283Q8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-18T18:31:29.644Z",
+      "timestampLocal": "2026-08-18T18:31:29.644Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.94.202",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=pedro.pgamboag%40gmail.com&nombre_proveedor_razon_social=PEDRO+PABLO+GAMBOA+GAMBOA&nombre_representante_legal=PEDRO+PABLO+GAMBOA+GAMBOA&uid=GAGP9305283Q8",
+      "previousEventHash": null,
+      "documentHash": "9bf08fffb3641754ff97fc22c6861a5581e3281cea697e4e1e62f62714ea2233",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a83e735aec6ba6fb1241c691cd0c11b11deafe9f7a053dc8a1cec6d2222f73a1"
+    },
+    {
+      "eventId": "bde97f9d-b9d9-4fd7-94ea-46e504f2cacc",
+      "uid": "GAGP9305283Q8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-18T18:31:29.644Z",
+      "timestampLocal": "2026-08-18T18:31:29.644Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.94.202",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=pedro.pgamboag%40gmail.com&nombre_proveedor_razon_social=PEDRO+PABLO+GAMBOA+GAMBOA&nombre_representante_legal=PEDRO+PABLO+GAMBOA+GAMBOA&uid=GAGP9305283Q8",
+      "previousEventHash": "a83e735aec6ba6fb1241c691cd0c11b11deafe9f7a053dc8a1cec6d2222f73a1",
+      "documentHash": "9bf08fffb3641754ff97fc22c6861a5581e3281cea697e4e1e62f62714ea2233",
+      "metadata": {
+        "proveedor": "PEDRO PABLO GAMBOA GAMBOA",
+        "representante": "PEDRO PABLO GAMBOA GAMBOA"
+      },
+      "eventHash": "96c366eb844ee3bb76024be24287f6dffe4c736c87be96142c800248b81d5bb2"
+    }
+  ]
 }
