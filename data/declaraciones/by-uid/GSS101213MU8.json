@@ -2,7 +2,7 @@
   "uid": "GSS101213MU8",
   "token": "a25f313f-1974-4a88-9561-bb64d31764b7",
   "createdAt": "2026-08-04T23:41:51.346Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GBCC Strategic Solutions",
@@ -24,10 +24,16 @@
     "nombre_representante_legal": "Gabriela Martínz Bretón",
     "email": "veronica.oropeza@gbccmexico.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2028d24247046ef7c99757c674afb70597ec669a64c21b9ae5a6043c88776378",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-18T00:09:00.707Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GSS101213MU8",
+  "signatureMetadata": {
+    "ip": "189.217.83.233",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36 EdgA/151.0.0.0",
+    "signedAtUtc": "2026-08-18T00:09:04.052Z",
+    "signedAtLocal": "2026-08-17T18:09:04.052Z"
+  },
+  "documentHash": "57cdfd9d7b92194b352349d2a5e6a3b1494ba997873105e3a375b95acccdbde3",
   "auditTrail": [
     {
       "eventId": "78276b48-a960-46b0-8e8a-b25976b57271",
@@ -65,6 +71,62 @@
         "representante": "Gabriela Martínz Bretón"
       },
       "eventHash": "5cbaf08d21cbe77d1eccd0e9d5751a755d09545ef5e23fc0993e8940faeff89f"
+    },
+    {
+      "eventId": "c342b89e-79ba-43ce-8034-2f7b697039d2",
+      "uid": "GSS101213MU8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-18T00:02:04.112Z",
+      "timestampLocal": "2026-08-18T00:02:04.112Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.83.233",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "5cbaf08d21cbe77d1eccd0e9d5751a755d09545ef5e23fc0993e8940faeff89f",
+      "documentHash": "2028d24247046ef7c99757c674afb70597ec669a64c21b9ae5a6043c88776378",
+      "eventHash": "be631de7ce089a0aeadaa300d2d49314f758f6746701a2e15401be730dec5a42"
+    },
+    {
+      "eventId": "e6cfb19f-768a-46d8-ab41-22cab0e5b2c1",
+      "uid": "GSS101213MU8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-18T00:07:40.494Z",
+      "timestampLocal": "2026-08-18T00:07:40.494Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.83.233",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36 EdgA/151.0.0.0",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es-ES;q=0.8,es;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "be631de7ce089a0aeadaa300d2d49314f758f6746701a2e15401be730dec5a42",
+      "documentHash": "2028d24247046ef7c99757c674afb70597ec669a64c21b9ae5a6043c88776378",
+      "eventHash": "0b8f7031d6d2f4148b1f9d928f77feba4848d1ece61c5dcb6bf9c81409a9f295"
+    },
+    {
+      "eventId": "b7251a52-ea1c-4ac8-b4f0-ffb1a584c108",
+      "uid": "GSS101213MU8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-18T00:09:04.052Z",
+      "timestampLocal": "2026-08-17T18:09:04.052Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.83.233",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Mobile Safari/537.36 EdgA/151.0.0.0",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es-ES;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a25f313f-1974-4a88-9561-bb64d31764b7",
+      "previousEventHash": "0b8f7031d6d2f4148b1f9d928f77feba4848d1ece61c5dcb6bf9c81409a9f295",
+      "documentHash": "57cdfd9d7b92194b352349d2a5e6a3b1494ba997873105e3a375b95acccdbde3",
+      "signatureHash": "2fd3a89ed8212e8f7572f757d3b45ede9b222321599f3dd0251359f36bbbf0ac",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-17T18:09:00.707Z"
+      },
+      "eventHash": "76c18735160765dbb7353b10a645d9efca367ad7849e3175c5fde11b79bb53ae"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-08-18T00:09:04.290Z"
+  }
 }
