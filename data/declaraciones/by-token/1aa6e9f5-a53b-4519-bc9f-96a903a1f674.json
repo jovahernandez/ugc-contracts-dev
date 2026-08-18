@@ -3,7 +3,7 @@
   "declarationId": "31efba14-3c93-458d-90c1-b536fc09d5ce",
   "token": "1aa6e9f5-a53b-4519-bc9f-96a903a1f674",
   "createdAt": "2026-08-18T16:48:39.462Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Sistemas Comunicacionales SA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Claudia Gonzalez",
     "email": "secretaria@ladevi.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e3f98aad520c025275183c076f7b823454bd13b8ea43984b70d0296953c95a03",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-18T16:49:47.386Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/30707539212",
+  "signatureMetadata": {
+    "ip": "181.117.92.171",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+    "signedAtUtc": "2026-08-18T16:49:50.785Z",
+    "signedAtLocal": "2026-08-18T13:49:50.785Z"
+  },
+  "documentHash": "76de8c70cb86d4163a6279e4ab74ef66ee1f6f2832a311b782316718611c4d9b",
   "auditTrail": [
     {
       "eventId": "7c46d43b-a5b8-4f40-87c8-ba93d517dccc",
@@ -66,6 +72,47 @@
         "representante": "Claudia Gonzalez"
       },
       "eventHash": "9174d5ddc95a53b8a0746be66977e39cb0b93317d13d44ba7dedb0264abf5288"
+    },
+    {
+      "eventId": "aeb406c1-711a-4c33-a18c-8b37f7467cf8",
+      "uid": "30707539212",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-18T16:48:52.744Z",
+      "timestampLocal": "2026-08-18T16:48:52.744Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.117.92.171",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5,it-IT;q=0.4,it;q=0.3",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=secretaria%40ladevi.com&nombre_proveedor_razon_social=Sistemas+Comunicacionales+SA&nombre_representante_legal=Claudia+Gonzalez&uid=30707539212",
+      "previousEventHash": "9174d5ddc95a53b8a0746be66977e39cb0b93317d13d44ba7dedb0264abf5288",
+      "documentHash": "e3f98aad520c025275183c076f7b823454bd13b8ea43984b70d0296953c95a03",
+      "eventHash": "0609c601178faf41f749a3fa0f866ba972919ddfc11a3b62d7028545a700e80f"
+    },
+    {
+      "eventId": "43a570e4-628c-47f1-864b-8108c2130ac9",
+      "uid": "30707539212",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-18T16:49:50.785Z",
+      "timestampLocal": "2026-08-18T13:49:50.785Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.117.92.171",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-AR;q=0.5,it-IT;q=0.4,it;q=0.3",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1aa6e9f5-a53b-4519-bc9f-96a903a1f674",
+      "previousEventHash": "0609c601178faf41f749a3fa0f866ba972919ddfc11a3b62d7028545a700e80f",
+      "documentHash": "76de8c70cb86d4163a6279e4ab74ef66ee1f6f2832a311b782316718611c4d9b",
+      "signatureHash": "9acd15cd4c693479c1bad666a8f84cf14c94d3ebfd4be9c077e79463dc5e8419",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-18T13:49:47.386Z"
+      },
+      "eventHash": "fc3616f3f9ff30c8b6ab05639721e90d374bc99b5134c31d67082d07c7eb95c1"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-18T16:49:51.113Z"
+  }
 }
