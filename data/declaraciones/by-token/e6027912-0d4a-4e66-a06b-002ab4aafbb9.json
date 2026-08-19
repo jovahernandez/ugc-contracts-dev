@@ -3,8 +3,18 @@
   "declarationId": "1d6169c1-a71e-4c33-9855-6ee199e4916f",
   "token": "e6027912-0d4a-4e66-a06b-002ab4aafbb9",
   "createdAt": "2026-08-19T01:29:15.884Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "KEVIN BOCANEGRA VERA",
+    "nombre_representante_legal": "Kevin Bocanegra Vera",
+    "email": "kevinbocanegravera800@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "KEVIN BOCANEGRA VERA",
+    "nombre_representante_legal": "Kevin Bocanegra Vera",
+    "email": "kevinbocanegravera800@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "KEVIN BOCANEGRA VERA",
     "nombre_representante_legal": "Kevin Bocanegra Vera",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8555cf627a4ff23555f2eb3588c14bd2dcb7e056303dd58f0deb7f441624be76",
+  "auditTrail": [
+    {
+      "eventId": "f7453824-3671-42c4-ac2e-1e2d70f12ed8",
+      "uid": "BOVK001121443",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-19T01:29:22.580Z",
+      "timestampLocal": "2026-08-19T01:29:22.580Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.146.185.24",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 OPR/134.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOVK001121443&nombre_proveedor_razon_social=KEVIN+BOCANEGRA+VERA&nombre_representante_legal=Kevin+Bocanegra+Vera&email=kevinbocanegravera800%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "8555cf627a4ff23555f2eb3588c14bd2dcb7e056303dd58f0deb7f441624be76",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ff13970211191319e168895462662b09efd54088d48d0b80e1ed661919351821"
+    },
+    {
+      "eventId": "4651a72d-0f0c-40b2-887f-b620556b747c",
+      "uid": "BOVK001121443",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-19T01:29:22.580Z",
+      "timestampLocal": "2026-08-19T01:29:22.580Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.146.185.24",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 OPR/134.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOVK001121443&nombre_proveedor_razon_social=KEVIN+BOCANEGRA+VERA&nombre_representante_legal=Kevin+Bocanegra+Vera&email=kevinbocanegravera800%40gmail.com",
+      "previousEventHash": "ff13970211191319e168895462662b09efd54088d48d0b80e1ed661919351821",
+      "documentHash": "8555cf627a4ff23555f2eb3588c14bd2dcb7e056303dd58f0deb7f441624be76",
+      "metadata": {
+        "proveedor": "KEVIN BOCANEGRA VERA",
+        "representante": "Kevin Bocanegra Vera"
+      },
+      "eventHash": "cf1400b62133648e0ee8d761f4b85b84c90f329024da4097dec689f3b7b82c85"
+    }
+  ]
 }
