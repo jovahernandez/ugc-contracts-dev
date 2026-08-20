@@ -3,7 +3,7 @@
   "declarationId": "044ea993-a485-4406-a0ac-0d4e884475ba",
   "token": "6788074e-5dc5-4b53-8070-91c3c4c5d9f7",
   "createdAt": "2026-08-20T21:11:53.026Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "VALERIA QUIJAS BECERRA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "VALERIA QUIJAS BECERRA",
     "email": "vatelier.decor@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e59182d7b7cf38d4b079e27d9591234e541e7b26a56cbb749ead904869404e20",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-20T21:12:46.550Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/QUBV970618HF8",
+  "signatureMetadata": {
+    "ip": "189.253.16.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-20T21:12:49.983Z",
+    "signedAtLocal": "2026-08-20T15:12:49.983Z"
+  },
+  "documentHash": "634fd5f5c4f8d44dfa36766a936685b7554a5ca830eb843a3a85ea6c20c91cf8",
   "auditTrail": [
     {
       "eventId": "982eb176-7a10-4c04-b224-dcad710a0274",
@@ -192,6 +198,62 @@
         "representante": "VALERIA QUIJAS BECERRA"
       },
       "eventHash": "4869aa9e35d0a4e03abdb72e542b2da5e90de803129781ab2ccd613c62472e6f"
+    },
+    {
+      "eventId": "abcb5fac-441a-4e48-8037-c3335cf93d7f",
+      "uid": "QUBV970618HF8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-20T21:12:10.896Z",
+      "timestampLocal": "2026-08-20T21:12:10.896Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.16.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=vatelier.decor%40gmail.com&nombre_proveedor_razon_social=VALERIA+QUIJAS+BECERRA&nombre_representante_legal=VALERIA+QUIJAS+BECERRA&uid=QUBV970618HF8",
+      "previousEventHash": "4869aa9e35d0a4e03abdb72e542b2da5e90de803129781ab2ccd613c62472e6f",
+      "documentHash": "e59182d7b7cf38d4b079e27d9591234e541e7b26a56cbb749ead904869404e20",
+      "eventHash": "7da2529c679e389860be5d0ab3cc5d568f291495e699f4a309a48e6c611bdd2e"
+    },
+    {
+      "eventId": "d8ad50cf-14c9-4e2e-bb41-8334f1255a66",
+      "uid": "QUBV970618HF8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-20T21:12:15.000Z",
+      "timestampLocal": "2026-08-20T21:12:15.000Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.16.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "7da2529c679e389860be5d0ab3cc5d568f291495e699f4a309a48e6c611bdd2e",
+      "documentHash": "e59182d7b7cf38d4b079e27d9591234e541e7b26a56cbb749ead904869404e20",
+      "eventHash": "606f78fab775ac5f9da7ad06158fa733626076e353562b2f5eece138bc624846"
+    },
+    {
+      "eventId": "bc04bc35-3927-4697-89e9-3560d8b83a75",
+      "uid": "QUBV970618HF8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-20T21:12:49.983Z",
+      "timestampLocal": "2026-08-20T15:12:49.983Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.253.16.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/6788074e-5dc5-4b53-8070-91c3c4c5d9f7",
+      "previousEventHash": "606f78fab775ac5f9da7ad06158fa733626076e353562b2f5eece138bc624846",
+      "documentHash": "634fd5f5c4f8d44dfa36766a936685b7554a5ca830eb843a3a85ea6c20c91cf8",
+      "signatureHash": "afea83f4a65ff40927512182b835a06de9b1fa43d286e267932db5e984540cea",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-20T15:12:46.550Z"
+      },
+      "eventHash": "2d263a7e64bd53e3869b2b63b83bfe440c3772ac7e4d0f06f71c60ec08893b9a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 12,
+    "verifiedAt": "2026-08-20T21:12:50.208Z"
+  }
 }
