@@ -3,7 +3,7 @@
   "declarationId": "e566c9df-bd27-499f-a7a4-d135b0405fee",
   "token": "5d74bf66-8ac0-4926-852e-c88825848d8e",
   "createdAt": "2026-08-20T18:11:34.232Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JIMENA RAQUEL SHIROMA GAGO",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Jimena Raquel Shiroma Gago",
     "email": "administracion@casasiete.pe"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d36ec785463f018495a50eab2755b3ea7a4b11ba07960c002d6f39272fb69a43",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-20T18:21:59.679Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/10746427404",
+  "signatureMetadata": {
+    "ip": "179.6.43.14",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-20T18:22:03.047Z",
+    "signedAtLocal": "2026-08-20T13:22:03.047Z"
+  },
+  "documentHash": "8dcdde8911321d51af1043667bf65f3d3cdc544a783f89ed6cc6e8baa145baae",
   "auditTrail": [
     {
       "eventId": "33fc784f-1dbf-48a5-a534-07db315240fb",
@@ -251,6 +257,47 @@
         "representante": "Jimena Raquel Shiroma Gago"
       },
       "eventHash": "24b26b1c5f55d9cd08fe4a76f8610ecf297edbdca1fbc6f640042db0728266ec"
+    },
+    {
+      "eventId": "3c7f0dfa-ad23-45fd-a70b-4aed77338cf5",
+      "uid": "10746427404",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-20T18:11:53.669Z",
+      "timestampLocal": "2026-08-20T18:11:53.669Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.6.43.14",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=administracion%40casasiete.pe&nombre_proveedor_razon_social=JIMENA+RAQUEL+SHIROMA+GAGO&nombre_representante_legal=Jimena+Raquel+Shiroma+Gago&uid=10746427404",
+      "previousEventHash": "24b26b1c5f55d9cd08fe4a76f8610ecf297edbdca1fbc6f640042db0728266ec",
+      "documentHash": "d36ec785463f018495a50eab2755b3ea7a4b11ba07960c002d6f39272fb69a43",
+      "eventHash": "f272dbb56dbf83d9fb771fe4a2defaf95793d0452dc9f4043b44a6b5d89f30ec"
+    },
+    {
+      "eventId": "374934d5-9958-45d7-bf21-178a023f44ee",
+      "uid": "10746427404",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-20T18:22:03.047Z",
+      "timestampLocal": "2026-08-20T13:22:03.047Z",
+      "timezone": "UTC-5",
+      "ipAddress": "179.6.43.14",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5d74bf66-8ac0-4926-852e-c88825848d8e",
+      "previousEventHash": "f272dbb56dbf83d9fb771fe4a2defaf95793d0452dc9f4043b44a6b5d89f30ec",
+      "documentHash": "8dcdde8911321d51af1043667bf65f3d3cdc544a783f89ed6cc6e8baa145baae",
+      "signatureHash": "7be9404ceaad4c2536f6f64c093688b1f4ecdd318227c797aba19cf175bbefe5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-20T13:21:59.679Z"
+      },
+      "eventHash": "2ba56be16616a26843f311d80a2c001da266cfb26c8cb8cc9a91c91f3fd82cd3"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 14,
+    "verifiedAt": "2026-08-20T18:22:03.527Z"
+  }
 }
