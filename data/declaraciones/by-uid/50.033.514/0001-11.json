@@ -3,8 +3,18 @@
   "declarationId": "290e1b26-0c9b-4a26-a9de-7988dcf90c07",
   "token": "4d3acec4-586c-4e16-93d5-935fe94d936f",
   "createdAt": "2026-08-20T15:07:38.323Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "50.033.514 AMANDA CRISTINA DE SOUZA RIBEIRO",
+    "nombre_representante_legal": "Amanda Cristina de Souza Ribeiro",
+    "email": "vinicius.santos@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "50.033.514 AMANDA CRISTINA DE SOUZA RIBEIRO",
+    "nombre_representante_legal": "Amanda Cristina de Souza Ribeiro",
+    "email": "vinicius.santos@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "50.033.514 AMANDA CRISTINA DE SOUZA RIBEIRO",
     "nombre_representante_legal": "Amanda Cristina de Souza Ribeiro",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "7a1763e9ca89552043ec3ee3fa2c87b9670bbe486cd5ad42f5775930f22e8f51",
+  "auditTrail": [
+    {
+      "eventId": "746531ec-8d7d-4c82-a880-7e43a6dea69e",
+      "uid": "50.033.514/0001-11",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-20T15:07:45.774Z",
+      "timestampLocal": "2026-08-20T15:07:45.774Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.46.85.105",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?email=vinicius.santos%40another.co&nombre_proveedor_razon_social=50.033.514+AMANDA+CRISTINA+DE+SOUZA+RIBEIRO&nombre_representante_legal=Amanda+Cristina+de+Souza+Ribeiro&uid=50.033.514%2F0001-11",
+      "previousEventHash": null,
+      "documentHash": "7a1763e9ca89552043ec3ee3fa2c87b9670bbe486cd5ad42f5775930f22e8f51",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "73dfa45b3990d286aedc0142e61c178cff93f58417bd9058d9b0d23caf12a03a"
+    },
+    {
+      "eventId": "415c4b80-ef8b-43a8-8292-ab4bb8f9aa4c",
+      "uid": "50.033.514/0001-11",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-20T15:07:45.775Z",
+      "timestampLocal": "2026-08-20T15:07:45.775Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.46.85.105",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?email=vinicius.santos%40another.co&nombre_proveedor_razon_social=50.033.514+AMANDA+CRISTINA+DE+SOUZA+RIBEIRO&nombre_representante_legal=Amanda+Cristina+de+Souza+Ribeiro&uid=50.033.514%2F0001-11",
+      "previousEventHash": "73dfa45b3990d286aedc0142e61c178cff93f58417bd9058d9b0d23caf12a03a",
+      "documentHash": "7a1763e9ca89552043ec3ee3fa2c87b9670bbe486cd5ad42f5775930f22e8f51",
+      "metadata": {
+        "proveedor": "50.033.514 AMANDA CRISTINA DE SOUZA RIBEIRO",
+        "representante": "Amanda Cristina de Souza Ribeiro"
+      },
+      "eventHash": "180205e92c0983712e790aadf7674557b651d223adcd2cf5ebfeb8df18bc169e"
+    }
+  ]
 }
