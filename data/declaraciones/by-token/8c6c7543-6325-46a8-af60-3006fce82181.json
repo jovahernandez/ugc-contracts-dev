@@ -3,8 +3,18 @@
   "declarationId": "5e63f3b8-5bac-4c87-8c41-3d0420da0764",
   "token": "8c6c7543-6325-46a8-af60-3006fce82181",
   "createdAt": "2026-08-20T18:38:24.398Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "D C PRODUCOES CINEMATOGRAFICAS LTDA",
+    "nombre_representante_legal": "BIANCA DE SOUZA MENDES COMPARATO",
+    "email": "vinicius.santos@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "D C PRODUCOES CINEMATOGRAFICAS LTDA",
+    "nombre_representante_legal": "BIANCA DE SOUZA MENDES COMPARATO",
+    "email": "vinicius.santos@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "D C PRODUCOES CINEMATOGRAFICAS LTDA",
     "nombre_representante_legal": "BIANCA DE SOUZA MENDES COMPARATO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4f69c148e14a72b846c7fefa19a7742278559442df85e05e2ca38781d43b6e68",
+  "auditTrail": [
+    {
+      "eventId": "5e8c8388-4db1-4ad1-b17f-024c7cac5452",
+      "uid": "30.714.026/0001-62",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-20T18:39:13.751Z",
+      "timestampLocal": "2026-08-20T18:39:13.751Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.90.210.27",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=30.714.026%2F0001-62&nombre_proveedor_razon_social=D+C+PRODUCOES+CINEMATOGRAFICAS+LTDA&nombre_representante_legal=BIANCA+DE+SOUZA+MENDES+COMPARATO&email=vinicius.santos%40another.co",
+      "previousEventHash": null,
+      "documentHash": "4f69c148e14a72b846c7fefa19a7742278559442df85e05e2ca38781d43b6e68",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "45b89537d21e2a2faf4e561b00a3bc26de7c41ba0dd1f44923b2485153f240f4"
+    },
+    {
+      "eventId": "42b3eea7-bddc-4a39-80b3-d3e0a0f0ecff",
+      "uid": "30.714.026/0001-62",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-20T18:39:13.751Z",
+      "timestampLocal": "2026-08-20T18:39:13.751Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.90.210.27",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=30.714.026%2F0001-62&nombre_proveedor_razon_social=D+C+PRODUCOES+CINEMATOGRAFICAS+LTDA&nombre_representante_legal=BIANCA+DE+SOUZA+MENDES+COMPARATO&email=vinicius.santos%40another.co",
+      "previousEventHash": "45b89537d21e2a2faf4e561b00a3bc26de7c41ba0dd1f44923b2485153f240f4",
+      "documentHash": "4f69c148e14a72b846c7fefa19a7742278559442df85e05e2ca38781d43b6e68",
+      "metadata": {
+        "proveedor": "D C PRODUCOES CINEMATOGRAFICAS LTDA",
+        "representante": "BIANCA DE SOUZA MENDES COMPARATO"
+      },
+      "eventHash": "cd7a3a4abadd4bc761ee6021b07b56804854ddf7101e620de4b11c3d6668cf11"
+    }
+  ]
 }
