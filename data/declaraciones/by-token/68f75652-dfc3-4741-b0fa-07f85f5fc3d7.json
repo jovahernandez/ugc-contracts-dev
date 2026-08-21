@@ -3,7 +3,7 @@
   "declarationId": "07f96b47-16fc-4559-b1c5-ab1e23eba1b7",
   "token": "68f75652-dfc3-4741-b0fa-07f85f5fc3d7",
   "createdAt": "2026-08-21T18:04:17.581Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Valentin Antonio Sandoval Bistrain",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Valentin Antonio Sandoval Bistrain",
     "email": "tuplayera@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3153bc8c0dbf3e3bbc248022274edb8c6370ca9138f2878cd19a8bf489afde01",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-21T18:05:12.679Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SABV790214KE5",
+  "signatureMetadata": {
+    "ip": "187.190.194.161",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-21T18:05:16.188Z",
+    "signedAtLocal": "2026-08-21T12:05:16.188Z"
+  },
+  "documentHash": "a0e7abc183a29b61afb55796a3dda4139db1adbcd1d51e8df16177099593ea6a",
   "auditTrail": [
     {
       "eventId": "67daa6a0-8635-4d94-993f-eff113558d95",
@@ -103,6 +109,47 @@
         "representante": "Valentin Antonio Sandoval Bistrain"
       },
       "eventHash": "24bfdda6ca6048881430c3b5ae28b1c51836eaffb064221230ee7582186c38df"
+    },
+    {
+      "eventId": "b3ebc565-8670-4ac4-8c3d-008492715948",
+      "uid": "SABV790214KE5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-21T18:04:30.799Z",
+      "timestampLocal": "2026-08-21T18:04:30.799Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.194.161",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=tuplayera%40hotmail.com&nombre_proveedor_razon_social=Valentin+Antonio+Sandoval+Bistrain&nombre_representante_legal=Valentin+Antonio+Sandoval+Bistrain&uid=SABV790214KE5",
+      "previousEventHash": "24bfdda6ca6048881430c3b5ae28b1c51836eaffb064221230ee7582186c38df",
+      "documentHash": "3153bc8c0dbf3e3bbc248022274edb8c6370ca9138f2878cd19a8bf489afde01",
+      "eventHash": "424a6a32ff316f4118bc8b453278364d2fd181b0e1a3da1571f3b7479a7b30ec"
+    },
+    {
+      "eventId": "5be177f6-0dd8-4a79-aa50-ffb29e60ff22",
+      "uid": "SABV790214KE5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-21T18:05:16.188Z",
+      "timestampLocal": "2026-08-21T12:05:16.188Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.194.161",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/68f75652-dfc3-4741-b0fa-07f85f5fc3d7",
+      "previousEventHash": "424a6a32ff316f4118bc8b453278364d2fd181b0e1a3da1571f3b7479a7b30ec",
+      "documentHash": "a0e7abc183a29b61afb55796a3dda4139db1adbcd1d51e8df16177099593ea6a",
+      "signatureHash": "c6f6fabefee5d412528d7cb5185491ebd7e5971bfc28b9207c34beacec553712",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-21T12:05:12.679Z"
+      },
+      "eventHash": "5e03fcf792b5af9a9776ef78734170eb484cc8eeac0d7a0dd6188632496746b4"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-08-21T18:05:16.462Z"
+  }
 }
