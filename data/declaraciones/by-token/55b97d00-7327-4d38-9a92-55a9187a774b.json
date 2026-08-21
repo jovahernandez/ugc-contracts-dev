@@ -3,8 +3,18 @@
   "declarationId": "97527cb1-3eb7-4ecd-a3cc-c86ef2d47fe4",
   "token": "55b97d00-7327-4d38-9a92-55a9187a774b",
   "createdAt": "2026-08-21T05:20:24.365Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ALEJANDRA ITZEL HERNANDEZ LOPEZ",
+    "nombre_representante_legal": "Alitzel Gallo",
+    "email": "galloalitzel@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ALEJANDRA ITZEL HERNANDEZ LOPEZ",
+    "nombre_representante_legal": "Alitzel Gallo",
+    "email": "galloalitzel@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ALEJANDRA ITZEL HERNANDEZ LOPEZ",
     "nombre_representante_legal": "Alitzel Gallo",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4bf13b25b9e0731490585e987d9c7733469fb94296f783f7fa90b1c1ca8cafc9",
+  "auditTrail": [
+    {
+      "eventId": "3587de5d-2975-4145-bacc-c9e6591460de",
+      "uid": "HELA931012I46",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-21T05:20:33.915Z",
+      "timestampLocal": "2026-08-21T05:20:33.915Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.92.236",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=galloalitzel%40gmail.com&nombre_proveedor_razon_social=ALEJANDRA+ITZEL+HERNANDEZ+LOPEZ&nombre_representante_legal=Alitzel+Gallo&uid=HELA931012I46",
+      "previousEventHash": null,
+      "documentHash": "4bf13b25b9e0731490585e987d9c7733469fb94296f783f7fa90b1c1ca8cafc9",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2d9fc8b0efbd6dc63b98786676965915a3553ce0d9b6914abecc4f22be0fc0c3"
+    },
+    {
+      "eventId": "f430e946-4adc-4a09-8086-cfda5f6e9433",
+      "uid": "HELA931012I46",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-21T05:20:33.915Z",
+      "timestampLocal": "2026-08-21T05:20:33.915Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.92.236",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=galloalitzel%40gmail.com&nombre_proveedor_razon_social=ALEJANDRA+ITZEL+HERNANDEZ+LOPEZ&nombre_representante_legal=Alitzel+Gallo&uid=HELA931012I46",
+      "previousEventHash": "2d9fc8b0efbd6dc63b98786676965915a3553ce0d9b6914abecc4f22be0fc0c3",
+      "documentHash": "4bf13b25b9e0731490585e987d9c7733469fb94296f783f7fa90b1c1ca8cafc9",
+      "metadata": {
+        "proveedor": "ALEJANDRA ITZEL HERNANDEZ LOPEZ",
+        "representante": "Alitzel Gallo"
+      },
+      "eventHash": "f979f85d231c8f4c21c0ae161a19d9daab3aed45e720752659ac8feb3ad13b3b"
+    }
+  ]
 }
