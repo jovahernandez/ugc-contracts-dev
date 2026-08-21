@@ -3,7 +3,7 @@
   "declarationId": "c21bdffe-1416-46f1-8ffe-1962558b9e74",
   "token": "fc8a366d-2493-4a49-a1a6-5bce0b511c71",
   "createdAt": "2026-08-21T21:08:07.175Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "María Isabel Martínez Gómez",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Maria Isabel Martinez gomez",
     "email": "yosoymaribelmg@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2778b30260cfdb2a01f169fa9f1865a8fb781b68feace2d16da2934767163687",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-21T21:09:03.721Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MAGI820628RW0",
+  "signatureMetadata": {
+    "ip": "189.147.101.101",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-21T21:09:07.349Z",
+    "signedAtLocal": "2026-08-21T15:09:07.349Z"
+  },
+  "documentHash": "6efc1bd22a39e5ca1fec90e0b1c0564f9a516119210aabc437f53cbfdc072e9f",
   "auditTrail": [
     {
       "eventId": "badc6c31-96b5-4ab2-a992-313511bd20ce",
@@ -66,6 +72,47 @@
         "representante": "Maria Isabel Martinez gomez"
       },
       "eventHash": "879ecf42f32b67e3d83919ed5fbecfc51d7e42bf0e7a61104a99ed62de72e816"
+    },
+    {
+      "eventId": "e444e52b-5e03-4d70-8d39-05285d94f1ce",
+      "uid": "MAGI820628RW0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-21T21:08:24.565Z",
+      "timestampLocal": "2026-08-21T21:08:24.565Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.101.101",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=yosoymaribelmg%40gmail.com&nombre_proveedor_razon_social=Mar%C3%ADa+Isabel+Mart%C3%ADnez+G%C3%B3mez+&nombre_representante_legal=Maria+Isabel+Martinez+gomez&uid=MAGI820628RW0",
+      "previousEventHash": "879ecf42f32b67e3d83919ed5fbecfc51d7e42bf0e7a61104a99ed62de72e816",
+      "documentHash": "2778b30260cfdb2a01f169fa9f1865a8fb781b68feace2d16da2934767163687",
+      "eventHash": "b952dd5a180d21e0bf3de7cae70a6ae24844c62493d019375252882c185a4ab3"
+    },
+    {
+      "eventId": "c638bee1-e7f4-4f29-95e4-5070a0f96864",
+      "uid": "MAGI820628RW0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-21T21:09:07.349Z",
+      "timestampLocal": "2026-08-21T15:09:07.349Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.147.101.101",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/fc8a366d-2493-4a49-a1a6-5bce0b511c71",
+      "previousEventHash": "b952dd5a180d21e0bf3de7cae70a6ae24844c62493d019375252882c185a4ab3",
+      "documentHash": "6efc1bd22a39e5ca1fec90e0b1c0564f9a516119210aabc437f53cbfdc072e9f",
+      "signatureHash": "22707d573e77f42b03427b7119496dccbf7eca0b373c8c8c09eadb1f68e49f66",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-21T15:09:03.721Z"
+      },
+      "eventHash": "24bb870078dedaec98f9414921cb40fd3c819c49a003465513deb50273f4b81d"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-21T21:09:07.602Z"
+  }
 }
