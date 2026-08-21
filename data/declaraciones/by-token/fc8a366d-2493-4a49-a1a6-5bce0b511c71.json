@@ -3,8 +3,18 @@
   "declarationId": "c21bdffe-1416-46f1-8ffe-1962558b9e74",
   "token": "fc8a366d-2493-4a49-a1a6-5bce0b511c71",
   "createdAt": "2026-08-21T21:08:07.175Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "María Isabel Martínez Gómez",
+    "nombre_representante_legal": "Maria Isabel Martinez gomez",
+    "email": "yosoymaribelmg@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "María Isabel Martínez Gómez",
+    "nombre_representante_legal": "Maria Isabel Martinez gomez",
+    "email": "yosoymaribelmg@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "María Isabel Martínez Gómez",
     "nombre_representante_legal": "Maria Isabel Martinez gomez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "2778b30260cfdb2a01f169fa9f1865a8fb781b68feace2d16da2934767163687",
+  "auditTrail": [
+    {
+      "eventId": "badc6c31-96b5-4ab2-a992-313511bd20ce",
+      "uid": "MAGI820628RW0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-21T21:08:21.364Z",
+      "timestampLocal": "2026-08-21T21:08:21.364Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.101.101",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=yosoymaribelmg%40gmail.com&nombre_proveedor_razon_social=Mar%C3%ADa+Isabel+Mart%C3%ADnez+G%C3%B3mez+&nombre_representante_legal=Maria+Isabel+Martinez+gomez&uid=MAGI820628RW0",
+      "previousEventHash": null,
+      "documentHash": "2778b30260cfdb2a01f169fa9f1865a8fb781b68feace2d16da2934767163687",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "df4b6d41c9f3e096d201cc1c0df701182748959d69a2b5e8b18fdcf33f963bea"
+    },
+    {
+      "eventId": "6f970141-df07-4418-baf0-9b8b93447238",
+      "uid": "MAGI820628RW0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-21T21:08:21.364Z",
+      "timestampLocal": "2026-08-21T21:08:21.364Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.101.101",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=yosoymaribelmg%40gmail.com&nombre_proveedor_razon_social=Mar%C3%ADa+Isabel+Mart%C3%ADnez+G%C3%B3mez+&nombre_representante_legal=Maria+Isabel+Martinez+gomez&uid=MAGI820628RW0",
+      "previousEventHash": "df4b6d41c9f3e096d201cc1c0df701182748959d69a2b5e8b18fdcf33f963bea",
+      "documentHash": "2778b30260cfdb2a01f169fa9f1865a8fb781b68feace2d16da2934767163687",
+      "metadata": {
+        "proveedor": "María Isabel Martínez Gómez",
+        "representante": "Maria Isabel Martinez gomez"
+      },
+      "eventHash": "879ecf42f32b67e3d83919ed5fbecfc51d7e42bf0e7a61104a99ed62de72e816"
+    }
+  ]
 }
