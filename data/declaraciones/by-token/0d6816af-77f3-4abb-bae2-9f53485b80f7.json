@@ -3,7 +3,7 @@
   "declarationId": "174b4466-5e9a-4785-a4fb-d54f83b8478c",
   "token": "0d6816af-77f3-4abb-bae2-9f53485b80f7",
   "createdAt": "2026-08-22T00:01:30.375Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Jessica Suarez Ortega",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Jessica Suarez Ortega",
     "email": "jessisuar1318@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "389f409e67149ddc1d2409889adde4e1cfa65dac8dce8792001a7fa03f25e959",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-22T00:02:34.730Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SUOJ021213CV9",
+  "signatureMetadata": {
+    "ip": "189.245.13.61",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-22T00:02:38.241Z",
+    "signedAtLocal": "2026-08-21T18:02:38.241Z"
+  },
+  "documentHash": "000e92e411eddd6a9ca3cc967f63bc474e4cc12f3ce604aeb6fc7a0754269d7a",
   "auditTrail": [
     {
       "eventId": "42237512-ebc9-4b02-9738-485af9e39f1e",
@@ -66,6 +72,47 @@
         "representante": "Jessica Suarez Ortega"
       },
       "eventHash": "a9e5aee5aa48febdb3124e62fdeedc6368dbd61c496b3a5943805ec85b6ce550"
+    },
+    {
+      "eventId": "8f07d9a3-6dbb-4838-bac8-2c1f41080f3d",
+      "uid": "SUOJ021213CV9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-22T00:01:52.852Z",
+      "timestampLocal": "2026-08-22T00:01:52.852Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.13.61",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SUOJ021213CV9&nombre_proveedor_razon_social=Jessica+Suarez+Ortega&nombre_representante_legal=Jessica+Suarez+Ortega&email=jessisuar1318%40gmail.com",
+      "previousEventHash": "a9e5aee5aa48febdb3124e62fdeedc6368dbd61c496b3a5943805ec85b6ce550",
+      "documentHash": "389f409e67149ddc1d2409889adde4e1cfa65dac8dce8792001a7fa03f25e959",
+      "eventHash": "072783433192bb45602e1ea64a28f7ad7892b86202dbbaada9bebe5a171b4736"
+    },
+    {
+      "eventId": "5fb38489-4604-4530-972d-369bcb36e85b",
+      "uid": "SUOJ021213CV9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-22T00:02:38.241Z",
+      "timestampLocal": "2026-08-21T18:02:38.241Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.245.13.61",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/0d6816af-77f3-4abb-bae2-9f53485b80f7",
+      "previousEventHash": "072783433192bb45602e1ea64a28f7ad7892b86202dbbaada9bebe5a171b4736",
+      "documentHash": "000e92e411eddd6a9ca3cc967f63bc474e4cc12f3ce604aeb6fc7a0754269d7a",
+      "signatureHash": "1aa22edd42e3aae5ee6ba05ed37276fcc714f46b553e1ac054c3e0b3118ea46e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-21T18:02:34.730Z"
+      },
+      "eventHash": "014f9607732a15dac39c116fcea5d6d0430f106660e738f5b6bf8c58f9083ed4"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-22T00:02:38.483Z"
+  }
 }
