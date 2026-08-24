@@ -3,7 +3,7 @@
   "declarationId": "f7bb46bb-cf7b-4b68-8d9b-76a12f94e805",
   "token": "2e8b7671-f775-45d4-a7c9-fc1f0c37c6ad",
   "createdAt": "2026-08-24T17:48:08.147Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "EDITORA GLOBO S/A",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "MARCIO FELIX DOS SANTOS",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d939ca89c9842b059cc5930306fdab746957d1bb987f52b63d2c3c78fbb1c75d",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-24T17:48:29.891Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/04.067.191%2F0001-60",
+  "signatureMetadata": {
+    "ip": "179.135.253.207",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+    "signedAtUtc": "2026-08-24T17:48:33.258Z",
+    "signedAtLocal": "2026-08-24T14:48:33.258Z"
+  },
+  "documentHash": "38df4bf14e2b20d5dcd29a6f268c08e7686fe6a272055f9acf0fc15854cec0f8",
   "auditTrail": [
     {
       "eventId": "3b72af04-6799-4af9-9860-00405fbaff56",
@@ -66,6 +72,47 @@
         "representante": "MARCIO FELIX DOS SANTOS"
       },
       "eventHash": "514f0362badeeb8c50d6158a95dfbe20b6b8d4cbf6d6bccfaf3a5efb66180ed8"
+    },
+    {
+      "eventId": "41ac06ec-1a63-4e35-a958-5652b6f15ec4",
+      "uid": "04.067.191/0001-60",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-24T17:48:21.119Z",
+      "timestampLocal": "2026-08-24T17:48:21.119Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.135.253.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=04.067.191%2F0001-60&nombre_proveedor_razon_social=EDITORA+GLOBO+S%2FA&nombre_representante_legal=MARCIO+FELIX+DOS+SANTOS&email=vinicius.santos%40another.co",
+      "previousEventHash": "514f0362badeeb8c50d6158a95dfbe20b6b8d4cbf6d6bccfaf3a5efb66180ed8",
+      "documentHash": "d939ca89c9842b059cc5930306fdab746957d1bb987f52b63d2c3c78fbb1c75d",
+      "eventHash": "2140a823f781cbdfacebe2f7adeb6d7f90bccae774a2c86353bfd98af6b7fa76"
+    },
+    {
+      "eventId": "eef131a0-a2d5-42f8-8267-044fb30b8d37",
+      "uid": "04.067.191/0001-60",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-24T17:48:33.258Z",
+      "timestampLocal": "2026-08-24T14:48:33.258Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.135.253.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/2e8b7671-f775-45d4-a7c9-fc1f0c37c6ad",
+      "previousEventHash": "2140a823f781cbdfacebe2f7adeb6d7f90bccae774a2c86353bfd98af6b7fa76",
+      "documentHash": "38df4bf14e2b20d5dcd29a6f268c08e7686fe6a272055f9acf0fc15854cec0f8",
+      "signatureHash": "3a77f58e69c3725059197ffef5ac7cfc9438cdfbc46d4285294519cdfc4c505b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-24T14:48:29.891Z"
+      },
+      "eventHash": "a3003e2763db3ef71cdffde2a0682286ecf878e856b9ac7adaef707b02e27fd7"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-24T17:48:33.470Z"
+  }
 }
