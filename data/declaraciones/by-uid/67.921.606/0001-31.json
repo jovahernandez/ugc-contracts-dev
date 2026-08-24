@@ -3,7 +3,7 @@
   "declarationId": "110b2c09-1c5d-43e1-b880-d6d8f2294db0",
   "token": "7eb276de-45c3-4f2f-b0eb-b4af3d804dcf",
   "createdAt": "2026-08-24T19:19:46.172Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "ILUSTRAGABS LTDA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "GABRIELA MARTINS PEIXOTO",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "bc0ec11b3c57d8aac809a84b639b9b2a3b31c88f47f7d0f08d9ac71feff88899",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-24T19:22:09.924Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/67.921.606%2F0001-31",
+  "signatureMetadata": {
+    "ip": "179.135.253.207",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+    "signedAtUtc": "2026-08-24T19:22:13.236Z",
+    "signedAtLocal": "2026-08-24T16:22:13.236Z"
+  },
+  "documentHash": "de368dcc17c80b1ffedd6f8da9e49802c97626ae9b2d5d4dfdc65b0a201fffeb",
   "auditTrail": [
     {
       "eventId": "703f9912-cacd-464b-829b-661623027dbf",
@@ -66,6 +72,47 @@
         "representante": "GABRIELA MARTINS PEIXOTO"
       },
       "eventHash": "12942a36813c9d0dfe9c2ace3761019c92ef6d99309fc9f1d5f2b9f9f1743350"
+    },
+    {
+      "eventId": "e79e638c-9a02-4485-be3d-c50eef348d91",
+      "uid": "67.921.606/0001-31",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-24T19:22:01.010Z",
+      "timestampLocal": "2026-08-24T19:22:01.010Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.135.253.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=67.921.606%2F0001-31&nombre_proveedor_razon_social=ILUSTRAGABS+LTDA&nombre_representante_legal=GABRIELA+MARTINS+PEIXOTO&email=vinicius.santos%40another.co",
+      "previousEventHash": "12942a36813c9d0dfe9c2ace3761019c92ef6d99309fc9f1d5f2b9f9f1743350",
+      "documentHash": "bc0ec11b3c57d8aac809a84b639b9b2a3b31c88f47f7d0f08d9ac71feff88899",
+      "eventHash": "c9878eb5a19ba001f66d30353027c2130c3f7c17a328cf61796c710c98f678a1"
+    },
+    {
+      "eventId": "960e32b3-2cda-49e6-b28b-32ad1ba17544",
+      "uid": "67.921.606/0001-31",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-24T19:22:13.236Z",
+      "timestampLocal": "2026-08-24T16:22:13.236Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.135.253.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/7eb276de-45c3-4f2f-b0eb-b4af3d804dcf",
+      "previousEventHash": "c9878eb5a19ba001f66d30353027c2130c3f7c17a328cf61796c710c98f678a1",
+      "documentHash": "de368dcc17c80b1ffedd6f8da9e49802c97626ae9b2d5d4dfdc65b0a201fffeb",
+      "signatureHash": "b850dd5a65a297fcdc0c2e86eb0d806386c1a55bb18b9744e058cb6a87a63470",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-24T16:22:09.924Z"
+      },
+      "eventHash": "e0a24dbbe546f236a0d292d9ab48faaf557553f17e69abb57368fc02cc633065"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-24T19:22:13.518Z"
+  }
 }
