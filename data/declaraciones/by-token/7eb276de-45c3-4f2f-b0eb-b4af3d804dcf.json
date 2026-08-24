@@ -3,8 +3,18 @@
   "declarationId": "110b2c09-1c5d-43e1-b880-d6d8f2294db0",
   "token": "7eb276de-45c3-4f2f-b0eb-b4af3d804dcf",
   "createdAt": "2026-08-24T19:19:46.172Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ILUSTRAGABS LTDA",
+    "nombre_representante_legal": "GABRIELA MARTINS PEIXOTO",
+    "email": "vinicius.santos@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ILUSTRAGABS LTDA",
+    "nombre_representante_legal": "GABRIELA MARTINS PEIXOTO",
+    "email": "vinicius.santos@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ILUSTRAGABS LTDA",
     "nombre_representante_legal": "GABRIELA MARTINS PEIXOTO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "bc0ec11b3c57d8aac809a84b639b9b2a3b31c88f47f7d0f08d9ac71feff88899",
+  "auditTrail": [
+    {
+      "eventId": "703f9912-cacd-464b-829b-661623027dbf",
+      "uid": "67.921.606/0001-31",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-24T19:21:57.438Z",
+      "timestampLocal": "2026-08-24T19:21:57.438Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.135.253.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=67.921.606%2F0001-31&nombre_proveedor_razon_social=ILUSTRAGABS+LTDA&nombre_representante_legal=GABRIELA+MARTINS+PEIXOTO&email=vinicius.santos%40another.co",
+      "previousEventHash": null,
+      "documentHash": "bc0ec11b3c57d8aac809a84b639b9b2a3b31c88f47f7d0f08d9ac71feff88899",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "06585eb68378df2a93554309db427ce5330c075ebec41a2d338b62fa1ce97100"
+    },
+    {
+      "eventId": "68391944-d0ee-4be2-8f02-8d9da4d649f6",
+      "uid": "67.921.606/0001-31",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-24T19:21:57.438Z",
+      "timestampLocal": "2026-08-24T19:21:57.438Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.135.253.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=67.921.606%2F0001-31&nombre_proveedor_razon_social=ILUSTRAGABS+LTDA&nombre_representante_legal=GABRIELA+MARTINS+PEIXOTO&email=vinicius.santos%40another.co",
+      "previousEventHash": "06585eb68378df2a93554309db427ce5330c075ebec41a2d338b62fa1ce97100",
+      "documentHash": "bc0ec11b3c57d8aac809a84b639b9b2a3b31c88f47f7d0f08d9ac71feff88899",
+      "metadata": {
+        "proveedor": "ILUSTRAGABS LTDA",
+        "representante": "GABRIELA MARTINS PEIXOTO"
+      },
+      "eventHash": "12942a36813c9d0dfe9c2ace3761019c92ef6d99309fc9f1d5f2b9f9f1743350"
+    }
+  ]
 }
