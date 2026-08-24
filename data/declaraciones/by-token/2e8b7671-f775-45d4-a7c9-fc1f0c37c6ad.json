@@ -3,8 +3,18 @@
   "declarationId": "f7bb46bb-cf7b-4b68-8d9b-76a12f94e805",
   "token": "2e8b7671-f775-45d4-a7c9-fc1f0c37c6ad",
   "createdAt": "2026-08-24T17:48:08.147Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "EDITORA GLOBO S/A",
+    "nombre_representante_legal": "MARCIO FELIX DOS SANTOS",
+    "email": "vinicius.santos@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "EDITORA GLOBO S/A",
+    "nombre_representante_legal": "MARCIO FELIX DOS SANTOS",
+    "email": "vinicius.santos@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "EDITORA GLOBO S/A",
     "nombre_representante_legal": "MARCIO FELIX DOS SANTOS",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d939ca89c9842b059cc5930306fdab746957d1bb987f52b63d2c3c78fbb1c75d",
+  "auditTrail": [
+    {
+      "eventId": "3b72af04-6799-4af9-9860-00405fbaff56",
+      "uid": "04.067.191/0001-60",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-24T17:48:18.369Z",
+      "timestampLocal": "2026-08-24T17:48:18.369Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.135.253.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=04.067.191%2F0001-60&nombre_proveedor_razon_social=EDITORA+GLOBO+S%2FA&nombre_representante_legal=MARCIO+FELIX+DOS+SANTOS&email=vinicius.santos%40another.co",
+      "previousEventHash": null,
+      "documentHash": "d939ca89c9842b059cc5930306fdab746957d1bb987f52b63d2c3c78fbb1c75d",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "6cc6f2ec19205968fb1e0f6a0481914c50f6004aa970fe553e210be8d5b77172"
+    },
+    {
+      "eventId": "d9394673-fbaf-41e6-9dff-3c42785cd949",
+      "uid": "04.067.191/0001-60",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-24T17:48:18.369Z",
+      "timestampLocal": "2026-08-24T17:48:18.369Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.135.253.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=04.067.191%2F0001-60&nombre_proveedor_razon_social=EDITORA+GLOBO+S%2FA&nombre_representante_legal=MARCIO+FELIX+DOS+SANTOS&email=vinicius.santos%40another.co",
+      "previousEventHash": "6cc6f2ec19205968fb1e0f6a0481914c50f6004aa970fe553e210be8d5b77172",
+      "documentHash": "d939ca89c9842b059cc5930306fdab746957d1bb987f52b63d2c3c78fbb1c75d",
+      "metadata": {
+        "proveedor": "EDITORA GLOBO S/A",
+        "representante": "MARCIO FELIX DOS SANTOS"
+      },
+      "eventHash": "514f0362badeeb8c50d6158a95dfbe20b6b8d4cbf6d6bccfaf3a5efb66180ed8"
+    }
+  ]
 }
