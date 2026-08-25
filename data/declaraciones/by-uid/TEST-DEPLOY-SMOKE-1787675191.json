@@ -1,0 +1,71 @@
+{
+  "uid": "TEST-DEPLOY-SMOKE-1787675191",
+  "declarationId": "6392e26b-b44b-4fa4-9fba-554111ca1dfa",
+  "token": "9fcb418f-7469-4707-836e-fd80b55fea7a",
+  "createdAt": "2026-08-25T16:26:32.812Z",
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PRUEBA DEPLOY SA",
+    "nombre_representante_legal": "Juan Deploy",
+    "email": "deploy@example.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PRUEBA DEPLOY SA",
+    "nombre_representante_legal": "Juan Deploy",
+    "email": "deploy@example.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "PRUEBA DEPLOY SA",
+    "nombre_representante_legal": "Juan Deploy",
+    "email": "deploy@example.com"
+  },
+  "expectedProveedorData": {
+    "nombre_proveedor_razon_social": "PRUEBA DEPLOY SA",
+    "nombre_representante_legal": "Juan Deploy",
+    "email": "deploy@example.com"
+  },
+  "signedAt": null,
+  "signedPdfUrl": null,
+  "signatureMetadata": null,
+  "documentHash": "85a82cc365800f4e6332be02d1488b301ae7bab431b1be4ff665269e54245bef",
+  "auditTrail": [
+    {
+      "eventId": "723c3a5b-3bde-464b-bfcd-88bfae805877",
+      "uid": "TEST-DEPLOY-SMOKE-1787675191",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-25T16:26:35.748Z",
+      "timestampLocal": "2026-08-25T16:26:35.748Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": null,
+      "documentHash": "85a82cc365800f4e6332be02d1488b301ae7bab431b1be4ff665269e54245bef",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a63dafe8702983bb254e5353c001bf48861cd29f19ec4291bee17a23b4be44ec"
+    },
+    {
+      "eventId": "7f7a97ba-2eca-4f86-9cea-7a7574cae34f",
+      "uid": "TEST-DEPLOY-SMOKE-1787675191",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-25T16:26:35.748Z",
+      "timestampLocal": "2026-08-25T16:26:35.748Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": "a63dafe8702983bb254e5353c001bf48861cd29f19ec4291bee17a23b4be44ec",
+      "documentHash": "85a82cc365800f4e6332be02d1488b301ae7bab431b1be4ff665269e54245bef",
+      "metadata": {
+        "proveedor": "PRUEBA DEPLOY SA",
+        "representante": "Juan Deploy"
+      },
+      "eventHash": "1d2198330fc6c6abe8e3f6fb0ea3a2599912ffff412856f680a118581075ce7f"
+    }
+  ]
+}
