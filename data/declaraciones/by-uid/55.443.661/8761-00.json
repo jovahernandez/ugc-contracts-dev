@@ -3,8 +3,18 @@
   "declarationId": "5b184cc6-09db-4725-bcf5-9afda69adb3a",
   "token": "f544bb1a-bcda-4a80-a723-8984c94f4e1d",
   "createdAt": "2026-08-25T19:05:21.464Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "LETICIA VIEIRA PRODUCOES ARTISTICAS LTDA",
+    "nombre_representante_legal": "Vinícius Dias dos Santos",
+    "email": "vinicius.santos@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "LETICIA VIEIRA PRODUCOES ARTISTICAS LTDA",
+    "nombre_representante_legal": "Vinícius Dias dos Santos",
+    "email": "vinicius.santos@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "LETICIA VIEIRA PRODUCOES ARTISTICAS LTDA",
     "nombre_representante_legal": "Vinícius Dias dos Santos",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d2e3033a0ed7d269e58ed440c11b3a1b178ccbdf4a7cf6eb90863f5801bda936",
+  "auditTrail": [
+    {
+      "eventId": "f95c043a-fff0-440c-ab63-a3248a6b3289",
+      "uid": "55.443.661/8761-00",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-25T19:05:31.481Z",
+      "timestampLocal": "2026-08-25T19:05:31.481Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.135.253.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=55.443.661%2F8761-00&nombre_proveedor_razon_social=LETICIA+VIEIRA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": null,
+      "documentHash": "d2e3033a0ed7d269e58ed440c11b3a1b178ccbdf4a7cf6eb90863f5801bda936",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "91032908db7d388ad23e8f4ad0e4f6c317d6559f792408e0e48cf322f06d1f33"
+    },
+    {
+      "eventId": "d7fac40b-990c-45c2-9014-8e7037f596ec",
+      "uid": "55.443.661/8761-00",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-25T19:05:31.481Z",
+      "timestampLocal": "2026-08-25T19:05:31.481Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.135.253.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=55.443.661%2F8761-00&nombre_proveedor_razon_social=LETICIA+VIEIRA+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "91032908db7d388ad23e8f4ad0e4f6c317d6559f792408e0e48cf322f06d1f33",
+      "documentHash": "d2e3033a0ed7d269e58ed440c11b3a1b178ccbdf4a7cf6eb90863f5801bda936",
+      "metadata": {
+        "proveedor": "LETICIA VIEIRA PRODUCOES ARTISTICAS LTDA",
+        "representante": "Vinícius Dias dos Santos"
+      },
+      "eventHash": "17c3059fb9b2b1752e374584605f92b4a22e4482dfffd76e3108e265e09bf283"
+    }
+  ]
 }
