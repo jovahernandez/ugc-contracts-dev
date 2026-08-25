@@ -3,7 +3,7 @@
   "declarationId": "6392e26b-b44b-4fa4-9fba-554111ca1dfa",
   "token": "9fcb418f-7469-4707-836e-fd80b55fea7a",
   "createdAt": "2026-08-25T16:26:32.812Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PRUEBA DEPLOY SA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Juan Deploy",
     "email": "deploy@example.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "85a82cc365800f4e6332be02d1488b301ae7bab431b1be4ff665269e54245bef",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-25T16:26:40.104Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TEST-DEPLOY-SMOKE-1787675191",
+  "signatureMetadata": {
+    "ip": "187.190.175.176",
+    "userAgent": "curl/8.18.0",
+    "signedAtUtc": "2026-08-25T16:26:43.477Z",
+    "signedAtLocal": "2026-08-25T10:26:43.477Z"
+  },
+  "documentHash": "11f61de4e3a3b456c461727704a7294e4aa486ad30acad3aaed6bf6b831f6562",
   "auditTrail": [
     {
       "eventId": "723c3a5b-3bde-464b-bfcd-88bfae805877",
@@ -66,6 +72,47 @@
         "representante": "Juan Deploy"
       },
       "eventHash": "1d2198330fc6c6abe8e3f6fb0ea3a2599912ffff412856f680a118581075ce7f"
+    },
+    {
+      "eventId": "3691c3b5-8801-41d9-80e9-906c0e830dad",
+      "uid": "TEST-DEPLOY-SMOKE-1787675191",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-25T16:26:39.363Z",
+      "timestampLocal": "2026-08-25T16:26:39.363Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": "1d2198330fc6c6abe8e3f6fb0ea3a2599912ffff412856f680a118581075ce7f",
+      "documentHash": "85a82cc365800f4e6332be02d1488b301ae7bab431b1be4ff665269e54245bef",
+      "eventHash": "1719def6d6d44936a173bb11057d77304a73f0c206c93e8c54f87a7cbf95bc1f"
+    },
+    {
+      "eventId": "9118cbf0-80c0-405f-bb05-83fc3116ee69",
+      "uid": "TEST-DEPLOY-SMOKE-1787675191",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-25T16:26:43.478Z",
+      "timestampLocal": "2026-08-25T10:26:43.478Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": "1719def6d6d44936a173bb11057d77304a73f0c206c93e8c54f87a7cbf95bc1f",
+      "documentHash": "11f61de4e3a3b456c461727704a7294e4aa486ad30acad3aaed6bf6b831f6562",
+      "signatureHash": "6b7fa434f92a8b80aab02d9bf1a12e49ffcae424e4013a1c4f68b67e3d2bbcd0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-25T10:26:40.104Z"
+      },
+      "eventHash": "ddf9fb860f0c770ba82003796c5676292610baf58b5e0163ed06c10f3c857f2a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-25T16:26:43.650Z"
+  }
 }
