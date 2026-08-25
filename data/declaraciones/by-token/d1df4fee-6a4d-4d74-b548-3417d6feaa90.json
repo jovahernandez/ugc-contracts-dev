@@ -3,8 +3,18 @@
   "declarationId": "399720e4-3d73-479f-a2eb-66c572f13efb",
   "token": "d1df4fee-6a4d-4d74-b548-3417d6feaa90",
   "createdAt": "2026-08-25T23:19:21.710Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "SOFIA CASTELLANOS PEREZ",
+    "nombre_representante_legal": "Sofia Castellanos Pérez",
+    "email": "hola@sofiacastellanos.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "SOFIA CASTELLANOS PEREZ",
+    "nombre_representante_legal": "Sofia Castellanos Pérez",
+    "email": "hola@sofiacastellanos.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "SOFIA CASTELLANOS PEREZ",
     "nombre_representante_legal": "Sofia Castellanos Pérez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "050113190f26e982692bf4bf43de6955191b7ad207efa068367a39c98f9bfe67",
+  "auditTrail": [
+    {
+      "eventId": "3b29612e-ee52-450a-b418-56ccf4f89b75",
+      "uid": "CAPS920520J26",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-25T23:19:31.869Z",
+      "timestampLocal": "2026-08-25T23:19:31.869Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.189.104",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=hola%40sofiacastellanos.com&nombre_proveedor_razon_social=SOFIA+CASTELLANOS+PEREZ&nombre_representante_legal=Sofia+Castellanos+P%C3%A9rez&uid=CAPS920520J26",
+      "previousEventHash": null,
+      "documentHash": "050113190f26e982692bf4bf43de6955191b7ad207efa068367a39c98f9bfe67",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f4b984d4c42598741afb0e0707cb4d5dde3f8450678d2ccef2a903a428246b86"
+    },
+    {
+      "eventId": "0183e69e-9a9f-43a3-a94a-a17fd8dd3bf4",
+      "uid": "CAPS920520J26",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-25T23:19:31.869Z",
+      "timestampLocal": "2026-08-25T23:19:31.869Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.189.104",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=hola%40sofiacastellanos.com&nombre_proveedor_razon_social=SOFIA+CASTELLANOS+PEREZ&nombre_representante_legal=Sofia+Castellanos+P%C3%A9rez&uid=CAPS920520J26",
+      "previousEventHash": "f4b984d4c42598741afb0e0707cb4d5dde3f8450678d2ccef2a903a428246b86",
+      "documentHash": "050113190f26e982692bf4bf43de6955191b7ad207efa068367a39c98f9bfe67",
+      "metadata": {
+        "proveedor": "SOFIA CASTELLANOS PEREZ",
+        "representante": "Sofia Castellanos Pérez"
+      },
+      "eventHash": "34251fb380a5e0206a00ab3d8cd5e28d279c3e7e630fc5dde78013cddd592005"
+    }
+  ]
 }
