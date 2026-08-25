@@ -3,8 +3,18 @@
   "declarationId": "584b39c3-acf2-4fa7-85a8-c8579b021df7",
   "token": "5e64d1dc-d550-47fc-a394-a9950a5b9b94",
   "createdAt": "2026-08-25T23:33:33.157Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "OSCAR PASCUAL NAVEJA RIVERA",
+    "nombre_representante_legal": "OSCAR PASCUAL NAVEJA RIVERA",
+    "email": "oscarnavejarrpp@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "OSCAR PASCUAL NAVEJA RIVERA",
+    "nombre_representante_legal": "OSCAR PASCUAL NAVEJA RIVERA",
+    "email": "oscarnavejarrpp@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "OSCAR PASCUAL NAVEJA RIVERA",
     "nombre_representante_legal": "OSCAR PASCUAL NAVEJA RIVERA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "bd783806d024a3230088fb57da910e58d2402f29a9faa066b4959a33cca8e7a7",
+  "auditTrail": [
+    {
+      "eventId": "fb7af767-059d-4134-bf95-208e3d408f2a",
+      "uid": "NARO730704RL6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-25T23:33:42.797Z",
+      "timestampLocal": "2026-08-25T23:33:42.797Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.246.141.41",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=oscarnavejarrpp%40gmail.com&nombre_proveedor_razon_social=OSCAR+PASCUAL+NAVEJA+RIVERA&nombre_representante_legal=OSCAR+PASCUAL+NAVEJA+RIVERA&uid=NARO730704RL6",
+      "previousEventHash": null,
+      "documentHash": "bd783806d024a3230088fb57da910e58d2402f29a9faa066b4959a33cca8e7a7",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "fd459ed58901adac9802edc18d2fb0b0d10f32ad3a7fb6e8821c13e7dc7fb346"
+    },
+    {
+      "eventId": "6b3c5f7c-a640-48c2-a836-c5b9ec739d76",
+      "uid": "NARO730704RL6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-25T23:33:42.797Z",
+      "timestampLocal": "2026-08-25T23:33:42.797Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.246.141.41",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=oscarnavejarrpp%40gmail.com&nombre_proveedor_razon_social=OSCAR+PASCUAL+NAVEJA+RIVERA&nombre_representante_legal=OSCAR+PASCUAL+NAVEJA+RIVERA&uid=NARO730704RL6",
+      "previousEventHash": "fd459ed58901adac9802edc18d2fb0b0d10f32ad3a7fb6e8821c13e7dc7fb346",
+      "documentHash": "bd783806d024a3230088fb57da910e58d2402f29a9faa066b4959a33cca8e7a7",
+      "metadata": {
+        "proveedor": "OSCAR PASCUAL NAVEJA RIVERA",
+        "representante": "OSCAR PASCUAL NAVEJA RIVERA"
+      },
+      "eventHash": "e4aa74c3b9769a42dd4ca2845978781b777cb417014aee3a4dd46180ff1fc57d"
+    }
+  ]
 }
