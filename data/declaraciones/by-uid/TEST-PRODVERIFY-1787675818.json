@@ -3,7 +3,7 @@
   "declarationId": "b978e140-81bb-4511-93c1-9c6e181c4c89",
   "token": "d7c6fc65-5771-422f-86be-fb5821de93c4",
   "createdAt": "2026-08-25T16:37:00.396Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "VERIFICACION PROD SA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Test Prod",
     "email": "verify@example.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5f09090848d42930f435e48454b07fa965c98ba78318e09e523da51d4e4e460f",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-25T16:37:08.110Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TEST-PRODVERIFY-1787675818",
+  "signatureMetadata": {
+    "ip": "187.190.175.176",
+    "userAgent": "curl/8.18.0",
+    "signedAtUtc": "2026-08-25T16:37:11.747Z",
+    "signedAtLocal": "2026-08-25T10:37:11.747Z"
+  },
+  "documentHash": "319b1c6717421602958995aa31106d111c7937ac37ea8872b781b03fb8c72c9b",
   "auditTrail": [
     {
       "eventId": "6f72633a-3ac6-42fc-9471-af66dbe1a318",
@@ -66,6 +72,47 @@
         "representante": "Test Prod"
       },
       "eventHash": "1f30982a6699fb87573fef30c06766892617703a6c22c51be2edb54180891256"
+    },
+    {
+      "eventId": "452a046b-3eb7-4492-9e62-5f400c11c887",
+      "uid": "TEST-PRODVERIFY-1787675818",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-25T16:37:07.527Z",
+      "timestampLocal": "2026-08-25T16:37:07.527Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": "1f30982a6699fb87573fef30c06766892617703a6c22c51be2edb54180891256",
+      "documentHash": "5f09090848d42930f435e48454b07fa965c98ba78318e09e523da51d4e4e460f",
+      "eventHash": "5853bc957aba1303652f7afff57b4b05ac22de7d174bfc605d40bfa96be5cbd1"
+    },
+    {
+      "eventId": "38c3d2dd-9e32-4355-b6d2-e24da2984005",
+      "uid": "TEST-PRODVERIFY-1787675818",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-25T16:37:11.747Z",
+      "timestampLocal": "2026-08-25T10:37:11.747Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": "5853bc957aba1303652f7afff57b4b05ac22de7d174bfc605d40bfa96be5cbd1",
+      "documentHash": "319b1c6717421602958995aa31106d111c7937ac37ea8872b781b03fb8c72c9b",
+      "signatureHash": "6b7fa434f92a8b80aab02d9bf1a12e49ffcae424e4013a1c4f68b67e3d2bbcd0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-25T10:37:08.110Z"
+      },
+      "eventHash": "c49d7aab2bc6991f28eb4a99e1b3134250366dc9f32131be4ffa0ce716627af9"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-25T16:37:12.122Z"
+  }
 }
