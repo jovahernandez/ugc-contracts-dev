@@ -1,0 +1,71 @@
+{
+  "uid": "TEST-PRODVERIFY-1787675818",
+  "declarationId": "b978e140-81bb-4511-93c1-9c6e181c4c89",
+  "token": "d7c6fc65-5771-422f-86be-fb5821de93c4",
+  "createdAt": "2026-08-25T16:37:00.396Z",
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "VERIFICACION PROD SA",
+    "nombre_representante_legal": "Test Prod",
+    "email": "verify@example.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "VERIFICACION PROD SA",
+    "nombre_representante_legal": "Test Prod",
+    "email": "verify@example.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "VERIFICACION PROD SA",
+    "nombre_representante_legal": "Test Prod",
+    "email": "verify@example.com"
+  },
+  "expectedProveedorData": {
+    "nombre_proveedor_razon_social": "VERIFICACION PROD SA",
+    "nombre_representante_legal": "Test Prod",
+    "email": "verify@example.com"
+  },
+  "signedAt": null,
+  "signedPdfUrl": null,
+  "signatureMetadata": null,
+  "documentHash": "5f09090848d42930f435e48454b07fa965c98ba78318e09e523da51d4e4e460f",
+  "auditTrail": [
+    {
+      "eventId": "6f72633a-3ac6-42fc-9471-af66dbe1a318",
+      "uid": "TEST-PRODVERIFY-1787675818",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-25T16:37:03.699Z",
+      "timestampLocal": "2026-08-25T16:37:03.699Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": null,
+      "documentHash": "5f09090848d42930f435e48454b07fa965c98ba78318e09e523da51d4e4e460f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f705c2a9ae8b8b1a24e6b70b1d6d8f0051324a526db4ca7caecf9c4e82491be6"
+    },
+    {
+      "eventId": "10021f4c-0704-4b68-8667-01e96f178130",
+      "uid": "TEST-PRODVERIFY-1787675818",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-25T16:37:03.699Z",
+      "timestampLocal": "2026-08-25T16:37:03.699Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "curl/8.18.0",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": "f705c2a9ae8b8b1a24e6b70b1d6d8f0051324a526db4ca7caecf9c4e82491be6",
+      "documentHash": "5f09090848d42930f435e48454b07fa965c98ba78318e09e523da51d4e4e460f",
+      "metadata": {
+        "proveedor": "VERIFICACION PROD SA",
+        "representante": "Test Prod"
+      },
+      "eventHash": "1f30982a6699fb87573fef30c06766892617703a6c22c51be2edb54180891256"
+    }
+  ]
+}
