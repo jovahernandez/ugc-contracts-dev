@@ -3,8 +3,18 @@
   "declarationId": "a4b1e0e9-5036-455b-9171-ae41ca0b436f",
   "token": "8225020c-df28-44d6-a919-16ff57f035d3",
   "createdAt": "2026-08-26T18:08:23.633Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "SUHYEON HWANG",
+    "nombre_representante_legal": "SUHYEON HWANG",
+    "email": "xntngus2001@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "SUHYEON HWANG",
+    "nombre_representante_legal": "SUHYEON HWANG",
+    "email": "xntngus2001@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "SUHYEON HWANG",
     "nombre_representante_legal": "SUHYEON HWANG",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "fd52e337effa8b39bcf04d558f6ccf9fbfb416ef0ef3334649a4b7a94be70d67",
+  "auditTrail": [
+    {
+      "eventId": "e7f6864d-50f2-4573-bb51-e4daa20be97e",
+      "uid": "HASU010213L32",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-26T18:08:39.343Z",
+      "timestampLocal": "2026-08-26T18:08:39.343Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.118.157",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=xntngus2001%40gmail.com&nombre_proveedor_razon_social=SUHYEON+HWANG&nombre_representante_legal=SUHYEON+HWANG&uid=HASU010213L32",
+      "previousEventHash": null,
+      "documentHash": "fd52e337effa8b39bcf04d558f6ccf9fbfb416ef0ef3334649a4b7a94be70d67",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e1927cf311b44ef8b774a6fbe4b8ab4e9fdd6780e2442930cd54b8c8329a0fb9"
+    },
+    {
+      "eventId": "a46456fe-a133-4260-ac9b-38cb44dd95ea",
+      "uid": "HASU010213L32",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-26T18:08:39.343Z",
+      "timestampLocal": "2026-08-26T18:08:39.343Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.118.157",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=xntngus2001%40gmail.com&nombre_proveedor_razon_social=SUHYEON+HWANG&nombre_representante_legal=SUHYEON+HWANG&uid=HASU010213L32",
+      "previousEventHash": "e1927cf311b44ef8b774a6fbe4b8ab4e9fdd6780e2442930cd54b8c8329a0fb9",
+      "documentHash": "fd52e337effa8b39bcf04d558f6ccf9fbfb416ef0ef3334649a4b7a94be70d67",
+      "metadata": {
+        "proveedor": "SUHYEON HWANG",
+        "representante": "SUHYEON HWANG"
+      },
+      "eventHash": "dd8a2fa83708d08a73d7f45c6545f692a2d593063476522162c98073369cf611"
+    }
+  ]
 }
