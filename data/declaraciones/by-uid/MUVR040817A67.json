@@ -3,8 +3,18 @@
   "declarationId": "6534ee61-169c-4605-bf65-740f7ee1250b",
   "token": "10783604-471c-4e0b-81fc-165a4362ceb8",
   "createdAt": "2026-08-26T17:10:32.313Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MARIA REGINA MUÑOZ VAZQUEZ",
+    "nombre_representante_legal": "NA",
+    "email": "ma.regiss17@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MARIA REGINA MUÑOZ VAZQUEZ",
+    "nombre_representante_legal": "NA",
+    "email": "ma.regiss17@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MARIA REGINA MUÑOZ VAZQUEZ",
     "nombre_representante_legal": "NA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "1f3081137f8dbd6bd7aa1113e730c9e0826d35bd325ad2acf6114b1c33972fbc",
+  "auditTrail": [
+    {
+      "eventId": "7cb20efa-5d68-45fa-92af-ac20fb0136f2",
+      "uid": "MUVR040817A67",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-26T17:10:41.911Z",
+      "timestampLocal": "2026-08-26T17:10:41.911Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.162.73.84",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=ma.regiss17%40gmail.com&nombre_proveedor_razon_social=MARIA+REGINA+MU%C3%91OZ+VAZQUEZ&nombre_representante_legal=NA&uid=MUVR040817A67",
+      "previousEventHash": null,
+      "documentHash": "1f3081137f8dbd6bd7aa1113e730c9e0826d35bd325ad2acf6114b1c33972fbc",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "073e5eb21666462c504cdb07fa299dfb2e5b5e4651fe5e5a621ffad56f63a33c"
+    },
+    {
+      "eventId": "79c14422-1cd3-41d2-8327-f000f75e3bf7",
+      "uid": "MUVR040817A67",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-26T17:10:41.912Z",
+      "timestampLocal": "2026-08-26T17:10:41.912Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.162.73.84",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=ma.regiss17%40gmail.com&nombre_proveedor_razon_social=MARIA+REGINA+MU%C3%91OZ+VAZQUEZ&nombre_representante_legal=NA&uid=MUVR040817A67",
+      "previousEventHash": "073e5eb21666462c504cdb07fa299dfb2e5b5e4651fe5e5a621ffad56f63a33c",
+      "documentHash": "1f3081137f8dbd6bd7aa1113e730c9e0826d35bd325ad2acf6114b1c33972fbc",
+      "metadata": {
+        "proveedor": "MARIA REGINA MUÑOZ VAZQUEZ",
+        "representante": "NA"
+      },
+      "eventHash": "91c26f64659c44343591fb68048c2df945bf73a16cf38b7a79a1a6f2ef485dda"
+    }
+  ]
 }
