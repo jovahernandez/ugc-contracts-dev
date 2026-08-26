@@ -3,7 +3,7 @@
   "declarationId": "62151bc0-d3cb-4b97-9443-c5487dcb5c11",
   "token": "070010d3-b69c-4dc0-82ec-1a1516d6993a",
   "createdAt": "2026-08-20T21:02:31.365Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "TALITA WATANABE DA ROCHA EVENTOS E PUBLICIDADE",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Talita Watanabe",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "df21c9391ed1416eb3e8fb4af65701b9c91e1c30def1e3a2ca0108072da7d9e3",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-26T19:00:32.712Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/15.074.068%2F0001-92",
+  "signatureMetadata": {
+    "ip": "104.140.66.98",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+    "signedAtUtc": "2026-08-26T19:00:36.034Z",
+    "signedAtLocal": "2026-08-26T16:00:36.034Z"
+  },
+  "documentHash": "20684ebbd06b5fa706dbbe00094a3c2728a447947b5e11a8a8cc9fe2ec082e86",
   "auditTrail": [
     {
       "eventId": "d824d8ad-1fab-4a26-bc6c-93541f3ea367",
@@ -66,6 +72,62 @@
         "representante": "Talita Watanabe"
       },
       "eventHash": "b642fefc66e7e2db052e41bd7f83d51dfd2452f689d0201402b59e8150fdafcf"
+    },
+    {
+      "eventId": "06e7f125-bb3a-491a-bb80-b0ae09c8c390",
+      "uid": "15.074.068/0001-92",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-20T21:03:34.722Z",
+      "timestampLocal": "2026-08-20T21:03:34.722Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.46.85.105",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=15.074.068%2F0001-92&nombre_proveedor_razon_social=TALITA+WATANABE+DA+ROCHA+EVENTOS+E+PUBLICIDADE&nombre_representante_legal=Talita+Watanabe&email=vinicius.santos%40another.co",
+      "previousEventHash": "b642fefc66e7e2db052e41bd7f83d51dfd2452f689d0201402b59e8150fdafcf",
+      "documentHash": "df21c9391ed1416eb3e8fb4af65701b9c91e1c30def1e3a2ca0108072da7d9e3",
+      "eventHash": "e7140f483f945b7d6dd55376e0054c6f78768546eb6921433ccb9dfc4dbc36c4"
+    },
+    {
+      "eventId": "fdf3b417-8ff3-4633-b9d2-f9cfa9853409",
+      "uid": "15.074.068/0001-92",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-26T19:00:23.025Z",
+      "timestampLocal": "2026-08-26T19:00:23.025Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://dev-anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "e7140f483f945b7d6dd55376e0054c6f78768546eb6921433ccb9dfc4dbc36c4",
+      "documentHash": "df21c9391ed1416eb3e8fb4af65701b9c91e1c30def1e3a2ca0108072da7d9e3",
+      "eventHash": "b302761aeabf21f7b41879dfdf6727723b8a6e2b9e32fd0f4a80f6846f617a09"
+    },
+    {
+      "eventId": "bdd52856-d3aa-4083-ba92-8a99d7fee03b",
+      "uid": "15.074.068/0001-92",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-26T19:00:36.034Z",
+      "timestampLocal": "2026-08-26T16:00:36.034Z",
+      "timezone": "UTC-3",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/070010d3-b69c-4dc0-82ec-1a1516d6993a",
+      "previousEventHash": "b302761aeabf21f7b41879dfdf6727723b8a6e2b9e32fd0f4a80f6846f617a09",
+      "documentHash": "20684ebbd06b5fa706dbbe00094a3c2728a447947b5e11a8a8cc9fe2ec082e86",
+      "signatureHash": "4fd5b4e77992cee19ab2788626538c5d57e9bd1f999e4850fb2e57bc1c15f883",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-26T16:00:32.712Z"
+      },
+      "eventHash": "2031dea7632f6d2729dd2d76647006b9b79280dbc78305fc254f5c68ef4ac8f7"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-08-26T19:00:36.263Z"
+  }
 }
