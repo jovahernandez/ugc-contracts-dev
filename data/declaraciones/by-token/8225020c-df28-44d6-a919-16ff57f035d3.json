@@ -3,7 +3,7 @@
   "declarationId": "a4b1e0e9-5036-455b-9171-ae41ca0b436f",
   "token": "8225020c-df28-44d6-a919-16ff57f035d3",
   "createdAt": "2026-08-26T18:08:23.633Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SUHYEON HWANG",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "SUHYEON HWANG",
     "email": "xntngus2001@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fd52e337effa8b39bcf04d558f6ccf9fbfb416ef0ef3334649a4b7a94be70d67",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-26T18:15:28.981Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/HASU010213L32",
+  "signatureMetadata": {
+    "ip": "189.175.118.157",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-26T18:15:32.370Z",
+    "signedAtLocal": "2026-08-26T12:15:32.370Z"
+  },
+  "documentHash": "78b8c73340f40b7444cc448e1ab4cab2b2ee7b67802b4d083dd0d18619d5bd2f",
   "auditTrail": [
     {
       "eventId": "e7f6864d-50f2-4573-bb51-e4daa20be97e",
@@ -66,6 +72,62 @@
         "representante": "SUHYEON HWANG"
       },
       "eventHash": "dd8a2fa83708d08a73d7f45c6545f692a2d593063476522162c98073369cf611"
+    },
+    {
+      "eventId": "1e48c767-db38-40c1-a943-54b832881525",
+      "uid": "HASU010213L32",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-26T18:08:42.180Z",
+      "timestampLocal": "2026-08-26T18:08:42.180Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.118.157",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=xntngus2001%40gmail.com&nombre_proveedor_razon_social=SUHYEON+HWANG&nombre_representante_legal=SUHYEON+HWANG&uid=HASU010213L32",
+      "previousEventHash": "dd8a2fa83708d08a73d7f45c6545f692a2d593063476522162c98073369cf611",
+      "documentHash": "fd52e337effa8b39bcf04d558f6ccf9fbfb416ef0ef3334649a4b7a94be70d67",
+      "eventHash": "1f2edd483e3f9075abb50dff2b94b5449e2c7ae87a27794562fe97dca419a97d"
+    },
+    {
+      "eventId": "ccc4d9e6-e73a-4959-bce4-011342bcc60e",
+      "uid": "HASU010213L32",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-26T18:14:44.255Z",
+      "timestampLocal": "2026-08-26T18:14:44.255Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.118.157",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "1f2edd483e3f9075abb50dff2b94b5449e2c7ae87a27794562fe97dca419a97d",
+      "documentHash": "fd52e337effa8b39bcf04d558f6ccf9fbfb416ef0ef3334649a4b7a94be70d67",
+      "eventHash": "590f32372565fcbf097ef97a51f1b807d7f037e0f02c452a43927c22888782c9"
+    },
+    {
+      "eventId": "067837f6-f6f9-4cc9-afa0-a68f747a1204",
+      "uid": "HASU010213L32",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-26T18:15:32.370Z",
+      "timestampLocal": "2026-08-26T12:15:32.370Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.175.118.157",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8225020c-df28-44d6-a919-16ff57f035d3",
+      "previousEventHash": "590f32372565fcbf097ef97a51f1b807d7f037e0f02c452a43927c22888782c9",
+      "documentHash": "78b8c73340f40b7444cc448e1ab4cab2b2ee7b67802b4d083dd0d18619d5bd2f",
+      "signatureHash": "79e14967409bd541ed304048ebcdb73183ac565ce2258f65aaeeebe66eaffef0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-26T12:15:28.981Z"
+      },
+      "eventHash": "1f71bae319525dbd4bfa2e1c7b558685c5707d9c764d30d5a762e1d291e055c2"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-08-26T18:15:32.758Z"
+  }
 }
