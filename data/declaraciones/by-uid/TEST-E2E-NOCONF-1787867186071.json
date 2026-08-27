@@ -1,0 +1,71 @@
+{
+  "uid": "TEST-E2E-NOCONF-1787867186071",
+  "declarationId": "ed164524-f2d0-4273-b58d-13e89ec635b3",
+  "token": "d7fed712-c8de-4549-aae5-f7faac117589",
+  "createdAt": "2026-08-27T21:46:27.677Z",
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PRUEBA E2E SA",
+    "nombre_representante_legal": "Rep E2E",
+    "email": "e2e@x.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PRUEBA E2E SA",
+    "nombre_representante_legal": "Rep E2E",
+    "email": "e2e@x.com"
+  },
+  "expectedProveedor": {
+    "nombre_proveedor_razon_social": "PRUEBA E2E SA",
+    "nombre_representante_legal": "Rep E2E",
+    "email": "e2e@x.com"
+  },
+  "expectedProveedorData": {
+    "nombre_proveedor_razon_social": "PRUEBA E2E SA",
+    "nombre_representante_legal": "Rep E2E",
+    "email": "e2e@x.com"
+  },
+  "signedAt": null,
+  "signedPdfUrl": null,
+  "signatureMetadata": null,
+  "documentHash": "990f7f440ea73a8e7547dea466cd5dc47eb5c5d7b3927cecbc2989390670cba7",
+  "auditTrail": [
+    {
+      "eventId": "789a26e6-09ef-489e-a0ad-f9021ea2f524",
+      "uid": "TEST-E2E-NOCONF-1787867186071",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-27T21:46:30.369Z",
+      "timestampLocal": "2026-08-27T21:46:30.369Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "node",
+      "acceptLanguage": "*",
+      "referer": "direct",
+      "previousEventHash": null,
+      "documentHash": "990f7f440ea73a8e7547dea466cd5dc47eb5c5d7b3927cecbc2989390670cba7",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "93216b51da66982ebd179e92ce7799a459aaa578b24ed6706f7073a5ce633fe0"
+    },
+    {
+      "eventId": "119ad5bd-fad6-4f55-a662-2e97f58141fc",
+      "uid": "TEST-E2E-NOCONF-1787867186071",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-27T21:46:30.369Z",
+      "timestampLocal": "2026-08-27T21:46:30.369Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "node",
+      "acceptLanguage": "*",
+      "referer": "direct",
+      "previousEventHash": "93216b51da66982ebd179e92ce7799a459aaa578b24ed6706f7073a5ce633fe0",
+      "documentHash": "990f7f440ea73a8e7547dea466cd5dc47eb5c5d7b3927cecbc2989390670cba7",
+      "metadata": {
+        "proveedor": "PRUEBA E2E SA",
+        "representante": "Rep E2E"
+      },
+      "eventHash": "a572cb80dc837eff23898b112378e755a7ad086a557389f1bb88eb02b4bd19ef"
+    }
+  ]
+}
