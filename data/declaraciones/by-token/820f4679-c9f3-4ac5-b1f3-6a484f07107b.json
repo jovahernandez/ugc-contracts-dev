@@ -3,8 +3,18 @@
   "declarationId": "6990628d-588a-4dd5-99af-0a459bfa5751",
   "token": "820f4679-c9f3-4ac5-b1f3-6a484f07107b",
   "createdAt": "2026-08-27T21:47:54.753Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "A",
+    "nombre_representante_legal": "B",
+    "email": "c@c.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "A",
+    "nombre_representante_legal": "B",
+    "email": "c@c.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "A",
     "nombre_representante_legal": "B",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "6fc718875f16593c4735eb8544c3d8d7f4ede9c2b962659ef38f07ecb3387901",
+  "auditTrail": [
+    {
+      "eventId": "0ff440eb-7a94-4628-a412-2ba48b666699",
+      "uid": "UI-CHK-1787867186071",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-27T21:47:57.032Z",
+      "timestampLocal": "2026-08-27T21:47:57.032Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "node",
+      "acceptLanguage": "*",
+      "referer": "direct",
+      "previousEventHash": null,
+      "documentHash": "6fc718875f16593c4735eb8544c3d8d7f4ede9c2b962659ef38f07ecb3387901",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e6d2a4c49d4f49592e709ce19e1de6cd801690d65ffc4eed47c67ddf680031a0"
+    },
+    {
+      "eventId": "8e2507b7-3d98-47a3-9361-7d824755d888",
+      "uid": "UI-CHK-1787867186071",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-27T21:47:57.032Z",
+      "timestampLocal": "2026-08-27T21:47:57.032Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "node",
+      "acceptLanguage": "*",
+      "referer": "direct",
+      "previousEventHash": "e6d2a4c49d4f49592e709ce19e1de6cd801690d65ffc4eed47c67ddf680031a0",
+      "documentHash": "6fc718875f16593c4735eb8544c3d8d7f4ede9c2b962659ef38f07ecb3387901",
+      "metadata": {
+        "proveedor": "A",
+        "representante": "B"
+      },
+      "eventHash": "980ff3597249a69477fc69830dd2bad21e03601dabc5724408854609d81fab6f"
+    }
+  ]
 }
