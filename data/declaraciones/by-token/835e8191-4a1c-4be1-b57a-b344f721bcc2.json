@@ -3,8 +3,18 @@
   "declarationId": "b63c0a40-0487-4f54-a51f-581b77713934",
   "token": "835e8191-4a1c-4be1-b57a-b344f721bcc2",
   "createdAt": "2026-08-26T20:53:27.707Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "FBWORKERS",
+    "nombre_representante_legal": "Belen Limón",
+    "email": "admin@fbworkers.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "FBWORKERS",
+    "nombre_representante_legal": "Belen Limón",
+    "email": "admin@fbworkers.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "FBWORKERS",
     "nombre_representante_legal": "Belen Limón",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "82cac61833a1423133bcf205c17e2972b83dd0af4bd60424d48a9761e3ee21de",
+  "auditTrail": [
+    {
+      "eventId": "b5817651-36bd-4d8c-97ea-326a83fb1859",
+      "uid": "FBW1912025U1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-27T00:55:10.271Z",
+      "timestampLocal": "2026-08-27T00:55:10.271Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.37.96",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=admin%40fbworkers.com&nombre_proveedor_razon_social=FBWORKERS&nombre_representante_legal=Belen+Lim%C3%B3n&uid=FBW1912025U1",
+      "previousEventHash": null,
+      "documentHash": "82cac61833a1423133bcf205c17e2972b83dd0af4bd60424d48a9761e3ee21de",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "40161d52e468f6fb869cf618cd0463d25da851813519b4d9eec2c17214ed8e45"
+    },
+    {
+      "eventId": "92aba5a6-6b46-4c16-bd44-7b5cff4380f0",
+      "uid": "FBW1912025U1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-27T00:55:10.271Z",
+      "timestampLocal": "2026-08-27T00:55:10.271Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.37.96",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=admin%40fbworkers.com&nombre_proveedor_razon_social=FBWORKERS&nombre_representante_legal=Belen+Lim%C3%B3n&uid=FBW1912025U1",
+      "previousEventHash": "40161d52e468f6fb869cf618cd0463d25da851813519b4d9eec2c17214ed8e45",
+      "documentHash": "82cac61833a1423133bcf205c17e2972b83dd0af4bd60424d48a9761e3ee21de",
+      "metadata": {
+        "proveedor": "FBWORKERS",
+        "representante": "Belen Limón"
+      },
+      "eventHash": "affe7ff19ab93e1e2f21265e2b3131442e9530aafdb1a03c6143f36c9d57052a"
+    }
+  ]
 }
