@@ -3,7 +3,7 @@
   "declarationId": "ed164524-f2d0-4273-b58d-13e89ec635b3",
   "token": "d7fed712-c8de-4549-aae5-f7faac117589",
   "createdAt": "2026-08-27T21:46:27.677Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PRUEBA E2E SA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Rep E2E",
     "email": "e2e@x.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "990f7f440ea73a8e7547dea466cd5dc47eb5c5d7b3927cecbc2989390670cba7",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-08-27T21:46:33.358Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TEST-E2E-NOCONF-1787867186071",
+  "signatureMetadata": {
+    "ip": "187.190.175.176",
+    "userAgent": "node",
+    "signedAtUtc": "2026-08-27T21:46:36.730Z",
+    "signedAtLocal": "2026-08-27T15:46:36.730Z"
+  },
+  "documentHash": "1ca0ac8e018b3cac02211336032453626612e06953f6bfef9558d12bfdb45880",
   "auditTrail": [
     {
       "eventId": "789a26e6-09ef-489e-a0ad-f9021ea2f524",
@@ -66,6 +74,34 @@
         "representante": "Rep E2E"
       },
       "eventHash": "a572cb80dc837eff23898b112378e755a7ad086a557389f1bb88eb02b4bd19ef"
+    },
+    {
+      "eventId": "6e2b4347-c93a-40b3-8ba1-0751341c0e49",
+      "uid": "TEST-E2E-NOCONF-1787867186071",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-27T21:46:36.730Z",
+      "timestampLocal": "2026-08-27T15:46:36.730Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "node",
+      "acceptLanguage": "*",
+      "referer": "direct",
+      "previousEventHash": "a572cb80dc837eff23898b112378e755a7ad086a557389f1bb88eb02b4bd19ef",
+      "documentHash": "1ca0ac8e018b3cac02211336032453626612e06953f6bfef9558d12bfdb45880",
+      "signatureHash": "6b7fa434f92a8b80aab02d9bf1a12e49ffcae424e4013a1c4f68b67e3d2bbcd0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-27T15:46:33.358Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "36a522cffc769682bc73d3dec98d7c08ab98030073470e5f0145f876eb0cb363"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 3,
+    "verifiedAt": "2026-08-27T21:46:36.919Z"
+  }
 }
