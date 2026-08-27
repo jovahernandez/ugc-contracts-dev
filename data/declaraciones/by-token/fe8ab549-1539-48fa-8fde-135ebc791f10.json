@@ -3,8 +3,18 @@
   "declarationId": "1a6ae45b-2ab0-47d2-92de-bd476f80df6a",
   "token": "fe8ab549-1539-48fa-8fde-135ebc791f10",
   "createdAt": "2026-08-27T23:39:19.172Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "UNIVERSAL MUSIC GROUP MEXICO SA DE CV",
+    "nombre_representante_legal": "Jose Angel Echevarria",
+    "email": "hector.morales@umusic.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "UNIVERSAL MUSIC GROUP MEXICO SA DE CV",
+    "nombre_representante_legal": "Jose Angel Echevarria",
+    "email": "hector.morales@umusic.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "UNIVERSAL MUSIC GROUP MEXICO SA DE CV",
     "nombre_representante_legal": "Jose Angel Echevarria",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "753a04ed281c543c0539a4c1307221475d0dffed5b81de769138307eeaecda68",
+  "auditTrail": [
+    {
+      "eventId": "770cd4e9-38c8-4941-a448-97f6cae6d91e",
+      "uid": "EMM9410016H0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-27T23:39:27.742Z",
+      "timestampLocal": "2026-08-27T23:39:27.742Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.94.122.220",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=hector.morales%40umusic.com&nombre_proveedor_razon_social=UNIVERSAL+MUSIC+GROUP+MEXICO+SA+DE+CV&nombre_representante_legal=Jose+Angel+Echevarria&uid=EMM9410016H0",
+      "previousEventHash": null,
+      "documentHash": "753a04ed281c543c0539a4c1307221475d0dffed5b81de769138307eeaecda68",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "7dc9effe82f424ad3b79cfb91fe66519ab95d139211e4c5b92dd882d05e66c89"
+    },
+    {
+      "eventId": "b9cf7d3f-082b-445e-bab6-8a74acb29848",
+      "uid": "EMM9410016H0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-27T23:39:27.742Z",
+      "timestampLocal": "2026-08-27T23:39:27.742Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.94.122.220",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=hector.morales%40umusic.com&nombre_proveedor_razon_social=UNIVERSAL+MUSIC+GROUP+MEXICO+SA+DE+CV&nombre_representante_legal=Jose+Angel+Echevarria&uid=EMM9410016H0",
+      "previousEventHash": "7dc9effe82f424ad3b79cfb91fe66519ab95d139211e4c5b92dd882d05e66c89",
+      "documentHash": "753a04ed281c543c0539a4c1307221475d0dffed5b81de769138307eeaecda68",
+      "metadata": {
+        "proveedor": "UNIVERSAL MUSIC GROUP MEXICO SA DE CV",
+        "representante": "Jose Angel Echevarria"
+      },
+      "eventHash": "e0bbee75d73ddded57e4214dbdf530c58b733347efdd356493914ec73c176fbc"
+    }
+  ]
 }
