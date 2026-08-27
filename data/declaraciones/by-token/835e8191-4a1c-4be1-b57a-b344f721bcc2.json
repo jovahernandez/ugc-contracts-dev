@@ -3,7 +3,7 @@
   "declarationId": "b63c0a40-0487-4f54-a51f-581b77713934",
   "token": "835e8191-4a1c-4be1-b57a-b344f721bcc2",
   "createdAt": "2026-08-26T20:53:27.707Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "FBWORKERS",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Belen Limón",
     "email": "admin@fbworkers.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "82cac61833a1423133bcf205c17e2972b83dd0af4bd60424d48a9761e3ee21de",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-27T00:55:24.455Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/FBW1912025U1",
+  "signatureMetadata": {
+    "ip": "187.191.37.96",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-27T00:55:27.794Z",
+    "signedAtLocal": "2026-08-26T18:55:27.794Z"
+  },
+  "documentHash": "6035817ec3f71a98a937a45edc603419230777d5212d43b6105b8e41adab1555",
   "auditTrail": [
     {
       "eventId": "b5817651-36bd-4d8c-97ea-326a83fb1859",
@@ -66,6 +72,47 @@
         "representante": "Belen Limón"
       },
       "eventHash": "affe7ff19ab93e1e2f21265e2b3131442e9530aafdb1a03c6143f36c9d57052a"
+    },
+    {
+      "eventId": "e5207866-56e7-4d89-bd08-de2899aa0186",
+      "uid": "FBW1912025U1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-27T00:55:13.475Z",
+      "timestampLocal": "2026-08-27T00:55:13.475Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.37.96",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=admin%40fbworkers.com&nombre_proveedor_razon_social=FBWORKERS&nombre_representante_legal=Belen+Lim%C3%B3n&uid=FBW1912025U1",
+      "previousEventHash": "affe7ff19ab93e1e2f21265e2b3131442e9530aafdb1a03c6143f36c9d57052a",
+      "documentHash": "82cac61833a1423133bcf205c17e2972b83dd0af4bd60424d48a9761e3ee21de",
+      "eventHash": "9a9661a049dcf391e68d68eec7261ee2f383e712639b6724c1b88e19842fc749"
+    },
+    {
+      "eventId": "41422fb5-b082-4980-8eff-f5644c75bea1",
+      "uid": "FBW1912025U1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-27T00:55:27.794Z",
+      "timestampLocal": "2026-08-26T18:55:27.794Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.191.37.96",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/835e8191-4a1c-4be1-b57a-b344f721bcc2",
+      "previousEventHash": "9a9661a049dcf391e68d68eec7261ee2f383e712639b6724c1b88e19842fc749",
+      "documentHash": "6035817ec3f71a98a937a45edc603419230777d5212d43b6105b8e41adab1555",
+      "signatureHash": "8b297e5152082411f2fd419e6e01a31fd851fb1ef3b661999dbca5c28e4cdef9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-26T18:55:24.455Z"
+      },
+      "eventHash": "eab421492e50ed04c743e91ba2494a1c51561ad4f6b3705124983fe22da1fdff"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-27T00:55:27.985Z"
+  }
 }
