@@ -3,8 +3,18 @@
   "declarationId": "b230e56a-0672-4be9-a6a8-2cd9cd86f414",
   "token": "8db2179d-2d1a-4f45-99ca-ca24a1b38085",
   "createdAt": "2026-08-28T22:49:56.990Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Alondra Ortiz Garcia",
+    "nombre_representante_legal": "na",
+    "email": "cuauh.franco@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Alondra Ortiz Garcia",
+    "nombre_representante_legal": "na",
+    "email": "cuauh.franco@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Alondra Ortiz Garcia",
     "nombre_representante_legal": "na",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "7d515adc8c4d2a3aeb0b211c1ef42d40171c778308dde5f8e47e57eed7c8c7ef",
+  "auditTrail": [
+    {
+      "eventId": "c3e70df5-ddf2-46fc-89e5-2f365beb436e",
+      "uid": "OIGA841109PN6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-28T22:57:43.503Z",
+      "timestampLocal": "2026-08-28T22:57:43.503Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.242",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=OIGA841109PN6&nombre_proveedor_razon_social=Alondra+Ortiz+Garcia&nombre_representante_legal=na&email=cuauh.franco%40another.co",
+      "previousEventHash": null,
+      "documentHash": "7d515adc8c4d2a3aeb0b211c1ef42d40171c778308dde5f8e47e57eed7c8c7ef",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "26e3232d537830a7f2746869a4a44ac85a02c0bb220e6b1cd74d01a6e2987c79"
+    },
+    {
+      "eventId": "2805ffc0-a220-4ab7-b980-1aaf158305ca",
+      "uid": "OIGA841109PN6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-28T22:57:43.503Z",
+      "timestampLocal": "2026-08-28T22:57:43.503Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.146.242",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=OIGA841109PN6&nombre_proveedor_razon_social=Alondra+Ortiz+Garcia&nombre_representante_legal=na&email=cuauh.franco%40another.co",
+      "previousEventHash": "26e3232d537830a7f2746869a4a44ac85a02c0bb220e6b1cd74d01a6e2987c79",
+      "documentHash": "7d515adc8c4d2a3aeb0b211c1ef42d40171c778308dde5f8e47e57eed7c8c7ef",
+      "metadata": {
+        "proveedor": "Alondra Ortiz Garcia",
+        "representante": "na"
+      },
+      "eventHash": "168784c909b5dca5eed302e6e7c3672471642c729416e527d9e723d541d57457"
+    }
+  ]
 }
