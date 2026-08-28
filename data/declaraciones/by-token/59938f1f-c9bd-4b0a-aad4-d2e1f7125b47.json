@@ -3,7 +3,7 @@
   "declarationId": "93a3bc43-9660-460c-a89d-a43e0e3ee969",
   "token": "59938f1f-c9bd-4b0a-aad4-d2e1f7125b47",
   "createdAt": "2026-08-28T01:04:08.550Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MARIA ELISA GALLEGOS MARTINEZ",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "María Elisa gallegos Martinez",
     "email": "mgallegosm94@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f6e00ed6f94072ef0fb253265643a81c2c419a1428506bcb57ccfae16ae119cf",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-28T01:04:54.359Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GAME941108QW8",
+  "signatureMetadata": {
+    "ip": "189.216.42.37",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-28T01:04:58.022Z",
+    "signedAtLocal": "2026-08-27T19:04:58.022Z"
+  },
+  "documentHash": "a08f4da3e813bf9412e5601b9f93dc0cfaf3934f700bb3a421db3a7ed5ca9785",
   "auditTrail": [
     {
       "eventId": "ad47683f-0921-4ec4-b6c4-92926f007007",
@@ -140,6 +146,47 @@
         "representante": "María Elisa gallegos Martinez"
       },
       "eventHash": "01ee8c843f13283edd31a4a2aad6d7e0c514ffc48f78a4c920245292b1a21ec5"
+    },
+    {
+      "eventId": "d8928e46-232a-4bb3-8042-060a992d79b9",
+      "uid": "GAME941108QW8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-28T01:04:22.166Z",
+      "timestampLocal": "2026-08-28T01:04:22.166Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.42.37",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=mgallegosm94%40gmail.com&nombre_proveedor_razon_social=MARIA+ELISA+GALLEGOS+MARTINEZ+&nombre_representante_legal=Mar%C3%ADa+Elisa+gallegos+Martinez&uid=GAME941108QW8",
+      "previousEventHash": "01ee8c843f13283edd31a4a2aad6d7e0c514ffc48f78a4c920245292b1a21ec5",
+      "documentHash": "f6e00ed6f94072ef0fb253265643a81c2c419a1428506bcb57ccfae16ae119cf",
+      "eventHash": "86dc4c9c61f98a4ee8b2bcc9daef3093e7704df14c3d579c3b14cc0319f75cc0"
+    },
+    {
+      "eventId": "92891bbf-9b14-4ca2-be36-dfe4baea59a4",
+      "uid": "GAME941108QW8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-28T01:04:58.022Z",
+      "timestampLocal": "2026-08-27T19:04:58.022Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.216.42.37",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/59938f1f-c9bd-4b0a-aad4-d2e1f7125b47",
+      "previousEventHash": "86dc4c9c61f98a4ee8b2bcc9daef3093e7704df14c3d579c3b14cc0319f75cc0",
+      "documentHash": "a08f4da3e813bf9412e5601b9f93dc0cfaf3934f700bb3a421db3a7ed5ca9785",
+      "signatureHash": "c694f9af46ab5ee997812f60692060d1c81d0822a66d34064ea11e79ea3cd92d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-27T19:04:54.359Z"
+      },
+      "eventHash": "d9359102f827b0eda45547766bfb59861e7d7c3c436bdc4277e2a2a91ba7934a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-08-28T01:04:58.200Z"
+  }
 }
