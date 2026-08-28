@@ -3,8 +3,18 @@
   "declarationId": "2b8e0348-e71d-4447-a714-7390bae5e80d",
   "token": "d871deb1-d600-4eff-ae6e-d486d9f158b0",
   "createdAt": "2026-08-28T20:27:11.472Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MYT MARKETING COMUNICACIÓN, S.A.P.I. DE C.V.",
+    "nombre_representante_legal": "Pablo Mier y Terán Guevara",
+    "email": "rodrigo.garcia@capitalcuarzo.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MYT MARKETING COMUNICACIÓN, S.A.P.I. DE C.V.",
+    "nombre_representante_legal": "Pablo Mier y Terán Guevara",
+    "email": "rodrigo.garcia@capitalcuarzo.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MYT MARKETING COMUNICACIÓN, S.A.P.I. DE C.V.",
     "nombre_representante_legal": "Pablo Mier y Terán Guevara",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "2263dab35ddef782f99fc79f521a6cc8a611eba54ab648ca68a11b01c63ac8fb",
+  "auditTrail": [
+    {
+      "eventId": "059032ea-7789-4805-988c-f4be79525305",
+      "uid": "MMC210726NN7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-28T20:27:18.424Z",
+      "timestampLocal": "2026-08-28T20:27:18.424Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.33.31",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=rodrigo.garcia%40capitalcuarzo.com&nombre_proveedor_razon_social=MYT+MARKETING+COMUNICACI%C3%93N%2C+S.A.P.I.+DE+C.V.&nombre_representante_legal=Pablo+Mier+y+Ter%C3%A1n+Guevara&uid=MMC210726NN7",
+      "previousEventHash": null,
+      "documentHash": "2263dab35ddef782f99fc79f521a6cc8a611eba54ab648ca68a11b01c63ac8fb",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "08a639ceb2a35ff3e885f17ad81e9fd26609747844c8ea392816fceaf907e73b"
+    },
+    {
+      "eventId": "6c722812-3368-4c0e-837b-e9a96cdb982c",
+      "uid": "MMC210726NN7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-28T20:27:18.424Z",
+      "timestampLocal": "2026-08-28T20:27:18.424Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.33.31",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=rodrigo.garcia%40capitalcuarzo.com&nombre_proveedor_razon_social=MYT+MARKETING+COMUNICACI%C3%93N%2C+S.A.P.I.+DE+C.V.&nombre_representante_legal=Pablo+Mier+y+Ter%C3%A1n+Guevara&uid=MMC210726NN7",
+      "previousEventHash": "08a639ceb2a35ff3e885f17ad81e9fd26609747844c8ea392816fceaf907e73b",
+      "documentHash": "2263dab35ddef782f99fc79f521a6cc8a611eba54ab648ca68a11b01c63ac8fb",
+      "metadata": {
+        "proveedor": "MYT MARKETING COMUNICACIÓN, S.A.P.I. DE C.V.",
+        "representante": "Pablo Mier y Terán Guevara"
+      },
+      "eventHash": "e562b5711ce02ca56b5751e32f03f6c27acfcc31406ef3614750c376b0a49536"
+    }
+  ]
 }
