@@ -3,7 +3,7 @@
   "declarationId": "65bfaeae-4c32-41a1-a017-b812178b86dc",
   "token": "a287c738-21aa-4287-b32d-3c0ff602cc80",
   "createdAt": "2026-08-31T18:14:53.907Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Ana Laura Pereyra Escudero",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Ana Laura Pereyra Escudero",
     "email": "anapereyrae@outlook.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1235b09d69a9ce6100ee1bc8d4c845f22382b153ebfe868febcd4470a6aac0fb",
+  "personaAutorizada": null,
+  "signedAt": "2026-08-31T18:17:05.717Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PEEA911031AS5",
+  "signatureMetadata": {
+    "ip": "189.217.110.162",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-31T18:17:09.217Z",
+    "signedAtLocal": "2026-08-31T12:17:09.217Z"
+  },
+  "documentHash": "c26e70cada7d1c3951ee7245ef441099a9ddca4b1adea452dc76363f112144a0",
   "auditTrail": [
     {
       "eventId": "fefa6224-5414-4016-9410-26f81c401436",
@@ -103,6 +109,47 @@
         "representante": "Ana Laura Pereyra Escudero"
       },
       "eventHash": "22eada812299ad2be08cd27ceab21b61153504b9772f97a5bca7a8af7b060a84"
+    },
+    {
+      "eventId": "871b7345-a875-49df-a178-c2125f6ac1e6",
+      "uid": "PEEA911031AS5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-31T18:15:04.338Z",
+      "timestampLocal": "2026-08-31T18:15:04.338Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.110.162",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=anapereyrae%40outlook.com&nombre_proveedor_razon_social=Ana+Laura+Pereyra+Escudero&nombre_representante_legal=Ana+Laura+Pereyra+Escudero&uid=PEEA911031AS5",
+      "previousEventHash": "22eada812299ad2be08cd27ceab21b61153504b9772f97a5bca7a8af7b060a84",
+      "documentHash": "1235b09d69a9ce6100ee1bc8d4c845f22382b153ebfe868febcd4470a6aac0fb",
+      "eventHash": "b0b96024748cf785951e07666fae57c4a51ad25c9eaf3d8368b6e0ce9f103a3d"
+    },
+    {
+      "eventId": "3ab67f73-35cd-4b28-ad1f-688d63d016bd",
+      "uid": "PEEA911031AS5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-31T18:17:09.217Z",
+      "timestampLocal": "2026-08-31T12:17:09.217Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.110.162",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a287c738-21aa-4287-b32d-3c0ff602cc80",
+      "previousEventHash": "b0b96024748cf785951e07666fae57c4a51ad25c9eaf3d8368b6e0ce9f103a3d",
+      "documentHash": "c26e70cada7d1c3951ee7245ef441099a9ddca4b1adea452dc76363f112144a0",
+      "signatureHash": "3c6d422abaf9a2dd0ff15701c4a1d88b6c289bd7dad2f728261d2e5d852744ec",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-31T12:17:05.717Z"
+      },
+      "eventHash": "13ab0b25c5cba41b2dedbf891e1aba5096adfff03f8e19975ad18d35e0f50056"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-08-31T18:17:09.646Z"
+  }
 }
