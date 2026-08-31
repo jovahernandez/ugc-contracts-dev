@@ -3,8 +3,18 @@
   "declarationId": "a9834377-ec3e-459d-92ca-8aef01fa71f3",
   "token": "586a49f9-3c91-4d1e-9ca6-970b4eb66789",
   "createdAt": "2026-08-31T21:37:49.897Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "SIN CONF SA",
+    "nombre_representante_legal": "Rep",
+    "email": "x@x.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "SIN CONF SA",
+    "nombre_representante_legal": "Rep",
+    "email": "x@x.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "SIN CONF SA",
     "nombre_representante_legal": "Rep",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "74d75830f17acf17e5179b3bb44ef5841635eebb1bafb26eaf76c6fdf893ccd0",
+  "auditTrail": [
+    {
+      "eventId": "9ea06424-3d34-488c-bc95-91cb75f04f2c",
+      "uid": "TEST-PRODNOCONF-1788212268113",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-31T21:37:52.338Z",
+      "timestampLocal": "2026-08-31T21:37:52.338Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "node",
+      "acceptLanguage": "*",
+      "referer": "direct",
+      "previousEventHash": null,
+      "documentHash": "74d75830f17acf17e5179b3bb44ef5841635eebb1bafb26eaf76c6fdf893ccd0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f2ae008ed1368515174fe815c6caa21433dea89562b94f46e83132e77b6537ac"
+    },
+    {
+      "eventId": "8812f333-e5c0-4a44-800a-dcb429b2e9f5",
+      "uid": "TEST-PRODNOCONF-1788212268113",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-31T21:37:52.338Z",
+      "timestampLocal": "2026-08-31T21:37:52.338Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "node",
+      "acceptLanguage": "*",
+      "referer": "direct",
+      "previousEventHash": "f2ae008ed1368515174fe815c6caa21433dea89562b94f46e83132e77b6537ac",
+      "documentHash": "74d75830f17acf17e5179b3bb44ef5841635eebb1bafb26eaf76c6fdf893ccd0",
+      "metadata": {
+        "proveedor": "SIN CONF SA",
+        "representante": "Rep"
+      },
+      "eventHash": "11aec53762b0786fbb4b318da0b255aba7747e11f08031349308c150f548b366"
+    }
+  ]
 }
