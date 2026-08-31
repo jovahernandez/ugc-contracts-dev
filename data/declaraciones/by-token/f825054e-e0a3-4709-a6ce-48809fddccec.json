@@ -3,8 +3,18 @@
   "declarationId": "b783a19d-2360-426b-9de2-d931ed1655d1",
   "token": "f825054e-e0a3-4709-a6ce-48809fddccec",
   "createdAt": "2026-08-31T21:37:06.958Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PRUEBA PROD SA",
+    "nombre_representante_legal": "Rep Prod",
+    "email": "x@x.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PRUEBA PROD SA",
+    "nombre_representante_legal": "Rep Prod",
+    "email": "x@x.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "PRUEBA PROD SA",
     "nombre_representante_legal": "Rep Prod",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d9c8e6a9faca2ff2e6922451fbaac31bd3a1536a78b6afddf9cee09d7c3b96f2",
+  "auditTrail": [
+    {
+      "eventId": "ccc94baa-fe7a-4d28-ada3-f290a59ed199",
+      "uid": "TEST-PRODCONF-1788212225170",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-31T21:37:09.640Z",
+      "timestampLocal": "2026-08-31T21:37:09.640Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "node",
+      "acceptLanguage": "*",
+      "referer": "direct",
+      "previousEventHash": null,
+      "documentHash": "d9c8e6a9faca2ff2e6922451fbaac31bd3a1536a78b6afddf9cee09d7c3b96f2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a3a749f3f65757db71d32d87630b2bcd58b3db01d8d5e5f7ee4d41bf36dfe967"
+    },
+    {
+      "eventId": "19a365f2-4bc3-45d0-aca1-f7a8d675d224",
+      "uid": "TEST-PRODCONF-1788212225170",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-31T21:37:09.640Z",
+      "timestampLocal": "2026-08-31T21:37:09.640Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "node",
+      "acceptLanguage": "*",
+      "referer": "direct",
+      "previousEventHash": "a3a749f3f65757db71d32d87630b2bcd58b3db01d8d5e5f7ee4d41bf36dfe967",
+      "documentHash": "d9c8e6a9faca2ff2e6922451fbaac31bd3a1536a78b6afddf9cee09d7c3b96f2",
+      "metadata": {
+        "proveedor": "PRUEBA PROD SA",
+        "representante": "Rep Prod"
+      },
+      "eventHash": "8c784e52fc09d496bf33806cc09c2bf862b01bcb9b45f297e7122081fde7e011"
+    }
+  ]
 }
