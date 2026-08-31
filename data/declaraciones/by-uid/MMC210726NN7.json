@@ -3,7 +3,7 @@
   "declarationId": "2b8e0348-e71d-4447-a714-7390bae5e80d",
   "token": "d871deb1-d600-4eff-ae6e-d486d9f158b0",
   "createdAt": "2026-08-28T20:27:11.472Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MYT MARKETING COMUNICACIÓN, S.A.P.I. DE C.V.",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Pablo Mier y Terán Guevara",
     "email": "rodrigo.garcia@capitalcuarzo.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4cdc0641f1492f8e7395262e2a400a59db8f8d0ef419ca94bf44fbd3823c2321",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-08-31T22:54:00.337Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MMC210726NN7",
+  "signatureMetadata": {
+    "ip": "45.235.172.178",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-31T22:54:03.709Z",
+    "signedAtLocal": "2026-08-31T16:54:03.709Z"
+  },
+  "documentHash": "02ed4200f9baf2793041a35414ea9e0991342c637094d33129ba82c0fce4b49b",
   "auditTrail": [
     {
       "eventId": "059032ea-7789-4805-988c-f4be79525305",
@@ -118,6 +126,64 @@
         "representante": "Pablo Mier y Terán Guevara"
       },
       "eventHash": "872d67bc3be6457319c678fcc92c26204f245399516b92d3fa412f6fd635527c"
+    },
+    {
+      "eventId": "d954a246-4657-4277-821d-0927f5f67b94",
+      "uid": "MMC210726NN7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-28T20:27:23.955Z",
+      "timestampLocal": "2026-08-28T20:27:23.955Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.33.31",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=rodrigo.garcia%40capitalcuarzo.com&nombre_proveedor_razon_social=MYT+MARKETING+COMUNICACI%C3%93N%2C+S.A.P.I.+DE+C.V.&nombre_representante_legal=Pablo+Mier+y+Ter%C3%A1n+Guevara&uid=MMC210726NN7",
+      "previousEventHash": "872d67bc3be6457319c678fcc92c26204f245399516b92d3fa412f6fd635527c",
+      "documentHash": "4cdc0641f1492f8e7395262e2a400a59db8f8d0ef419ca94bf44fbd3823c2321",
+      "eventHash": "94b5c30e47df28f8392ce3018f6af360d61c76b97304005fd78104124239df76"
+    },
+    {
+      "eventId": "bdfe1321-1146-4e9d-9e84-edc923243cda",
+      "uid": "MMC210726NN7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-31T22:48:48.391Z",
+      "timestampLocal": "2026-08-31T22:48:48.391Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.235.172.178",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "94b5c30e47df28f8392ce3018f6af360d61c76b97304005fd78104124239df76",
+      "documentHash": "4cdc0641f1492f8e7395262e2a400a59db8f8d0ef419ca94bf44fbd3823c2321",
+      "eventHash": "83a61d19115372c5fef1d08b39d0ed3276b360d7ac49e787ea0637f23aa60b1a"
+    },
+    {
+      "eventId": "982c6743-b08f-4516-af44-a6f0ba105f20",
+      "uid": "MMC210726NN7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-31T22:54:03.709Z",
+      "timestampLocal": "2026-08-31T16:54:03.709Z",
+      "timezone": "UTC-6",
+      "ipAddress": "45.235.172.178",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d871deb1-d600-4eff-ae6e-d486d9f158b0",
+      "previousEventHash": "83a61d19115372c5fef1d08b39d0ed3276b360d7ac49e787ea0637f23aa60b1a",
+      "documentHash": "02ed4200f9baf2793041a35414ea9e0991342c637094d33129ba82c0fce4b49b",
+      "signatureHash": "2d778039e40560e86e07c6573c2c5b1664cf07ffd40e5b6c4c1f07da57590e52",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-31T16:54:00.337Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "b49dce02062860399bca9f5b9c5c427c7711eeab733a051935971c58dc87b296"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-08-31T22:54:04.040Z"
+  }
 }
