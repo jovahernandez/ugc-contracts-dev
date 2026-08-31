@@ -3,7 +3,7 @@
   "declarationId": "9d235eaf-345a-4a76-a54b-4c044983e96e",
   "token": "11bffd68-f41e-4879-9bf9-afdbd4c391bc",
   "createdAt": "2026-08-31T20:31:28.160Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CONSTRUCTORA DEL NORTE SA",
@@ -25,10 +25,45 @@
     "nombre_representante_legal": "Roberto Mendez",
     "email": "e2e@x.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "59b48183a628c77298a9fd6dfe0e3287954b5f3bba2ff3fcff1225764970e1ab",
+  "personaAutorizada": null,
+  "tieneConflicto": true,
+  "conflicto": {
+    "categorias": [
+      {
+        "aplica": true,
+        "persona": "Laura Mendez",
+        "relacion": "Hermana",
+        "descripcion": "Trabaja en el area de compras de Grupo Another y es hermana del representante legal"
+      },
+      {
+        "aplica": false,
+        "persona": "",
+        "relacion": "",
+        "descripcion": ""
+      },
+      {
+        "aplica": true,
+        "persona": "Inversiones GA",
+        "relacion": "Accionista",
+        "descripcion": "Un directivo de Grupo Another posee el 12% de las acciones"
+      },
+      {
+        "aplica": false,
+        "persona": "",
+        "relacion": "",
+        "descripcion": ""
+      }
+    ]
+  },
+  "signedAt": "2026-08-31T20:31:35.980Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TEST-PREV-1788208286175",
+  "signatureMetadata": {
+    "ip": "187.190.175.176",
+    "userAgent": "node",
+    "signedAtUtc": "2026-08-31T20:31:39.238Z",
+    "signedAtLocal": "2026-08-31T14:31:39.238Z"
+  },
+  "documentHash": "1cefd6cb2d5289aabb7c7d3f9917879f9ef956ac9e0c0839f8cf04c13c0d3547",
   "auditTrail": [
     {
       "eventId": "b45a1d3b-9b5d-46d6-80a1-20057312c7a5",
@@ -66,6 +101,76 @@
         "representante": "Roberto Mendez"
       },
       "eventHash": "eaae8314eccbf55a2f047129179ca8a121880636af09a8b690a730d0c1d048b2"
+    },
+    {
+      "eventId": "243ee5fe-e769-4dae-b3e8-0985fd8c242b",
+      "uid": "TEST-PREV-1788208286175",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-31T20:31:34.297Z",
+      "timestampLocal": "2026-08-31T20:31:34.297Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "node",
+      "acceptLanguage": "*",
+      "referer": "direct",
+      "previousEventHash": "eaae8314eccbf55a2f047129179ca8a121880636af09a8b690a730d0c1d048b2",
+      "documentHash": "59b48183a628c77298a9fd6dfe0e3287954b5f3bba2ff3fcff1225764970e1ab",
+      "eventHash": "c9c83871ed3379b25fa14a5f30612f749ae417d27337f1573b36ef6a123beaa3"
+    },
+    {
+      "eventId": "d3586fa5-d185-4457-aaf0-ac8a22b2ef2d",
+      "uid": "TEST-PREV-1788208286175",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-31T20:31:39.239Z",
+      "timestampLocal": "2026-08-31T14:31:39.239Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "node",
+      "acceptLanguage": "*",
+      "referer": "direct",
+      "previousEventHash": "c9c83871ed3379b25fa14a5f30612f749ae417d27337f1573b36ef6a123beaa3",
+      "documentHash": "1cefd6cb2d5289aabb7c7d3f9917879f9ef956ac9e0c0839f8cf04c13c0d3547",
+      "signatureHash": "6b7fa434f92a8b80aab02d9bf1a12e49ffcae424e4013a1c4f68b67e3d2bbcd0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-31T14:31:35.980Z",
+        "tieneConflicto": true,
+        "conflicto": {
+          "categorias": [
+            {
+              "aplica": true,
+              "persona": "Laura Mendez",
+              "relacion": "Hermana",
+              "descripcion": "Trabaja en el area de compras de Grupo Another y es hermana del representante legal"
+            },
+            {
+              "aplica": false,
+              "persona": "",
+              "relacion": "",
+              "descripcion": ""
+            },
+            {
+              "aplica": true,
+              "persona": "Inversiones GA",
+              "relacion": "Accionista",
+              "descripcion": "Un directivo de Grupo Another posee el 12% de las acciones"
+            },
+            {
+              "aplica": false,
+              "persona": "",
+              "relacion": "",
+              "descripcion": ""
+            }
+          ]
+        }
+      },
+      "eventHash": "4d86a29220fd8c3cf5ceaa6a96b42974b5509fbb2c21ac6e981077951b882204"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-31T20:31:39.507Z"
+  }
 }
