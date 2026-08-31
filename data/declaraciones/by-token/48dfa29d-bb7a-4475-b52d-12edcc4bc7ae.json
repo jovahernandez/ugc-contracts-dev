@@ -3,8 +3,18 @@
   "declarationId": "4c350f27-eff2-4d5b-a62f-8561f4b481d4",
   "token": "48dfa29d-bb7a-4475-b52d-12edcc4bc7ae",
   "createdAt": "2026-08-31T22:57:45.162Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Adolfo Gomez De La Fuente",
+    "nombre_representante_legal": "NA",
+    "email": "adolfodelafuente@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Adolfo Gomez De La Fuente",
+    "nombre_representante_legal": "NA",
+    "email": "adolfodelafuente@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Adolfo Gomez De La Fuente",
     "nombre_representante_legal": "NA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4c4a6b53742b046351ec5409bdfff4b3991474b9122550378818840e710b48b6",
+  "auditTrail": [
+    {
+      "eventId": "3af41cf7-f30d-480e-8164-b5ef379236b6",
+      "uid": "GOFA891216IS1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-08-31T22:57:55.955Z",
+      "timestampLocal": "2026-08-31T22:57:55.955Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.198.166",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=adolfodelafuente%40hotmail.com&nombre_proveedor_razon_social=Adolfo+Gomez+De+La+Fuente&nombre_representante_legal=NA&uid=GOFA891216IS1",
+      "previousEventHash": null,
+      "documentHash": "4c4a6b53742b046351ec5409bdfff4b3991474b9122550378818840e710b48b6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9d54d88fddcf466095bc44cbcf42085a48d20e45578128c71e980237bc66856b"
+    },
+    {
+      "eventId": "14e4cc64-a444-4393-8fd0-59b2d8e2497a",
+      "uid": "GOFA891216IS1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-08-31T22:57:55.955Z",
+      "timestampLocal": "2026-08-31T22:57:55.955Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.198.166",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=adolfodelafuente%40hotmail.com&nombre_proveedor_razon_social=Adolfo+Gomez+De+La+Fuente&nombre_representante_legal=NA&uid=GOFA891216IS1",
+      "previousEventHash": "9d54d88fddcf466095bc44cbcf42085a48d20e45578128c71e980237bc66856b",
+      "documentHash": "4c4a6b53742b046351ec5409bdfff4b3991474b9122550378818840e710b48b6",
+      "metadata": {
+        "proveedor": "Adolfo Gomez De La Fuente",
+        "representante": "NA"
+      },
+      "eventHash": "f7bd140d9299cfbd362a8ce7ec830fda9d18f1e1df41d6fccead23cb7d241ad9"
+    }
+  ]
 }
