@@ -3,7 +3,7 @@
   "declarationId": "b783a19d-2360-426b-9de2-d931ed1655d1",
   "token": "f825054e-e0a3-4709-a6ce-48809fddccec",
   "createdAt": "2026-08-31T21:37:06.958Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PRUEBA PROD SA",
@@ -25,10 +25,45 @@
     "nombre_representante_legal": "Rep Prod",
     "email": "x@x.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d9c8e6a9faca2ff2e6922451fbaac31bd3a1536a78b6afddf9cee09d7c3b96f2",
+  "personaAutorizada": null,
+  "tieneConflicto": true,
+  "conflicto": {
+    "categorias": [
+      {
+        "aplica": true,
+        "persona": "Ana Ruiz",
+        "relacion": "Prima",
+        "descripcion": "Familiar directo del representante legal"
+      },
+      {
+        "aplica": false,
+        "persona": "",
+        "relacion": "",
+        "descripcion": ""
+      },
+      {
+        "aplica": false,
+        "persona": "",
+        "relacion": "",
+        "descripcion": ""
+      },
+      {
+        "aplica": false,
+        "persona": "",
+        "relacion": "",
+        "descripcion": ""
+      }
+    ]
+  },
+  "signedAt": "2026-08-31T21:37:14.043Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TEST-PRODCONF-1788212225170",
+  "signatureMetadata": {
+    "ip": "187.190.175.176",
+    "userAgent": "node",
+    "signedAtUtc": "2026-08-31T21:37:17.251Z",
+    "signedAtLocal": "2026-08-31T15:37:17.251Z"
+  },
+  "documentHash": "1efd3752e1ed6bf88a0b4fb285269c368d13a8ac6bb0c371e99c14711f334b8b",
   "auditTrail": [
     {
       "eventId": "ccc94baa-fe7a-4d28-ada3-f290a59ed199",
@@ -66,6 +101,76 @@
         "representante": "Rep Prod"
       },
       "eventHash": "8c784e52fc09d496bf33806cc09c2bf862b01bcb9b45f297e7122081fde7e011"
+    },
+    {
+      "eventId": "3b8cf40d-50f4-44d6-973d-3278f021e98b",
+      "uid": "TEST-PRODCONF-1788212225170",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-31T21:37:12.384Z",
+      "timestampLocal": "2026-08-31T21:37:12.384Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "node",
+      "acceptLanguage": "*",
+      "referer": "direct",
+      "previousEventHash": "8c784e52fc09d496bf33806cc09c2bf862b01bcb9b45f297e7122081fde7e011",
+      "documentHash": "d9c8e6a9faca2ff2e6922451fbaac31bd3a1536a78b6afddf9cee09d7c3b96f2",
+      "eventHash": "7d28a0776d9f4a85e586f125249bdad49feaca07335390250cd2c5a5b262bdbf"
+    },
+    {
+      "eventId": "ecc18569-aba1-41a9-ad6d-79bb18b5be45",
+      "uid": "TEST-PRODCONF-1788212225170",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-31T21:37:17.251Z",
+      "timestampLocal": "2026-08-31T15:37:17.251Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.175.176",
+      "userAgent": "node",
+      "acceptLanguage": "*",
+      "referer": "direct",
+      "previousEventHash": "7d28a0776d9f4a85e586f125249bdad49feaca07335390250cd2c5a5b262bdbf",
+      "documentHash": "1efd3752e1ed6bf88a0b4fb285269c368d13a8ac6bb0c371e99c14711f334b8b",
+      "signatureHash": "6b7fa434f92a8b80aab02d9bf1a12e49ffcae424e4013a1c4f68b67e3d2bbcd0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-31T15:37:14.043Z",
+        "tieneConflicto": true,
+        "conflicto": {
+          "categorias": [
+            {
+              "aplica": true,
+              "persona": "Ana Ruiz",
+              "relacion": "Prima",
+              "descripcion": "Familiar directo del representante legal"
+            },
+            {
+              "aplica": false,
+              "persona": "",
+              "relacion": "",
+              "descripcion": ""
+            },
+            {
+              "aplica": false,
+              "persona": "",
+              "relacion": "",
+              "descripcion": ""
+            },
+            {
+              "aplica": false,
+              "persona": "",
+              "relacion": "",
+              "descripcion": ""
+            }
+          ]
+        }
+      },
+      "eventHash": "d80babcf8ba1dafc204d40342c8fbfcb474c3e9c45a9fbef5a1109af3dd3fde1"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-08-31T21:37:17.574Z"
+  }
 }
