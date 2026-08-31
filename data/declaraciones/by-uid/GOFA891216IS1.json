@@ -3,7 +3,7 @@
   "declarationId": "4c350f27-eff2-4d5b-a62f-8561f4b481d4",
   "token": "48dfa29d-bb7a-4475-b52d-12edcc4bc7ae",
   "createdAt": "2026-08-31T22:57:45.162Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Adolfo Gomez De La Fuente",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "NA",
     "email": "adolfodelafuente@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c2e5a80f273c3a590fc83ab8020d198fe14d85634e5745aa16c32d6aee4d78fe",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-08-31T22:58:38.311Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GOFA891216IS1",
+  "signatureMetadata": {
+    "ip": "189.217.198.166",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-08-31T22:58:44.458Z",
+    "signedAtLocal": "2026-08-31T16:58:44.458Z"
+  },
+  "documentHash": "84193b0fa442e5e911793161280a1a413668a09c55339f5798ffd0dd0f103d20",
   "auditTrail": [
     {
       "eventId": "3af41cf7-f30d-480e-8164-b5ef379236b6",
@@ -140,6 +148,49 @@
         "representante": "NA"
       },
       "eventHash": "df85cb08797f519f79232f7dd1306dfe3af761068943d8a91e690058c5ab6aa2"
+    },
+    {
+      "eventId": "2e96ffc0-576e-4122-b398-f931e15eeae6",
+      "uid": "GOFA891216IS1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-31T22:58:02.142Z",
+      "timestampLocal": "2026-08-31T22:58:02.142Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.198.166",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=adolfodelafuente%40hotmail.com&nombre_proveedor_razon_social=Adolfo+Gomez+De+La+Fuente&nombre_representante_legal=NA&uid=GOFA891216IS1",
+      "previousEventHash": "df85cb08797f519f79232f7dd1306dfe3af761068943d8a91e690058c5ab6aa2",
+      "documentHash": "c2e5a80f273c3a590fc83ab8020d198fe14d85634e5745aa16c32d6aee4d78fe",
+      "eventHash": "68b6470630778f10757356577dd49fc700790386b47f4d0d5843ab8ddc946101"
+    },
+    {
+      "eventId": "488ff4c1-434c-4f99-a204-98cdad9e34d4",
+      "uid": "GOFA891216IS1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-08-31T22:58:44.458Z",
+      "timestampLocal": "2026-08-31T16:58:44.458Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.198.166",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/48dfa29d-bb7a-4475-b52d-12edcc4bc7ae",
+      "previousEventHash": "68b6470630778f10757356577dd49fc700790386b47f4d0d5843ab8ddc946101",
+      "documentHash": "84193b0fa442e5e911793161280a1a413668a09c55339f5798ffd0dd0f103d20",
+      "signatureHash": "929181d7087f3d6d555dbd1bde1df653c3f12860395953ec406ccad010f4f646",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-08-31T16:58:38.311Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "431ee2b69d9e36bb3a6a58b08ffd1e32a59ff7fe4add146fac5c9e9928abd62f"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-08-31T22:58:44.787Z"
+  }
 }
