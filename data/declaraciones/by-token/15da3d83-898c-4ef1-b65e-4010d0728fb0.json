@@ -3,8 +3,18 @@
   "declarationId": "eb98ae94-ec5d-410a-a383-bf73357743ad",
   "token": "15da3d83-898c-4ef1-b65e-4010d0728fb0",
   "createdAt": "2026-08-28T13:39:01.242Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Dahamara Michelle Alvarez Garcia",
+    "nombre_representante_legal": "Dahamara Michelle Alvarez Garcia",
+    "email": "c.michellealvarz@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Dahamara Michelle Alvarez Garcia",
+    "nombre_representante_legal": "Dahamara Michelle Alvarez Garcia",
+    "email": "c.michellealvarz@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Dahamara Michelle Alvarez Garcia",
     "nombre_representante_legal": "Dahamara Michelle Alvarez Garcia",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9ffcce102fe7e5bdd423e36aaa8834e7c9fd676baaa6cd73d135d901ea90895c",
+  "auditTrail": [
+    {
+      "eventId": "fd3e41cf-4dc7-4733-936f-3508466b9e04",
+      "uid": "AAGD970604DG9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-01T22:16:38.172Z",
+      "timestampLocal": "2026-09-01T22:16:38.172Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.241.192",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AAGD970604DG9&nombre_proveedor_razon_social=Dahamara+Michelle+Alvarez+Garcia&nombre_representante_legal=Dahamara+Michelle+Alvarez+Garcia&email=c.michellealvarz%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "9ffcce102fe7e5bdd423e36aaa8834e7c9fd676baaa6cd73d135d901ea90895c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9b433ab9e291e09599b489ecac27ba90a3f25a62ebb1d2fb506b49e91f6d25c2"
+    },
+    {
+      "eventId": "631b6a53-cf9e-4b19-bbd7-a54be119aed5",
+      "uid": "AAGD970604DG9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-01T22:16:38.172Z",
+      "timestampLocal": "2026-09-01T22:16:38.172Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.241.192",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AAGD970604DG9&nombre_proveedor_razon_social=Dahamara+Michelle+Alvarez+Garcia&nombre_representante_legal=Dahamara+Michelle+Alvarez+Garcia&email=c.michellealvarz%40gmail.com",
+      "previousEventHash": "9b433ab9e291e09599b489ecac27ba90a3f25a62ebb1d2fb506b49e91f6d25c2",
+      "documentHash": "9ffcce102fe7e5bdd423e36aaa8834e7c9fd676baaa6cd73d135d901ea90895c",
+      "metadata": {
+        "proveedor": "Dahamara Michelle Alvarez Garcia",
+        "representante": "Dahamara Michelle Alvarez Garcia"
+      },
+      "eventHash": "243fb1deae7b5d6f3275d5dd6d3fdc67f42243d58634d6a416b73ba3d40d69f2"
+    }
+  ]
 }
