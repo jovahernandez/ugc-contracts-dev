@@ -3,8 +3,18 @@
   "declarationId": "fd0bf1de-0839-4a56-ae70-d52dd70b02c0",
   "token": "10d1d145-0f2d-4f2e-927f-82a46e224676",
   "createdAt": "2026-09-01T15:08:49.242Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "DUMA PRODUCOES LTDA",
+    "nombre_representante_legal": "DUMA PRODUCOES LTDA",
+    "email": "samanta.alves@agenciaskip.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "DUMA PRODUCOES LTDA",
+    "nombre_representante_legal": "DUMA PRODUCOES LTDA",
+    "email": "samanta.alves@agenciaskip.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "DUMA PRODUCOES LTDA",
     "nombre_representante_legal": "DUMA PRODUCOES LTDA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a7703cf0f7a57a1944e680d8e6abc400777adca2c227ce203c3c6a8dad28c381",
+  "auditTrail": [
+    {
+      "eventId": "a57ea156-a537-4c74-bda5-d6f2b6740857",
+      "uid": "37335210000140",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-01T15:09:00.004Z",
+      "timestampLocal": "2026-09-01T15:09:00.004Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.131.106.19",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=samanta.alves%40agenciaskip.com&nombre_proveedor_razon_social=DUMA+PRODUCOES+LTDA&nombre_representante_legal=DUMA+PRODUCOES+LTDA&uid=37335210000140",
+      "previousEventHash": null,
+      "documentHash": "a7703cf0f7a57a1944e680d8e6abc400777adca2c227ce203c3c6a8dad28c381",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "34b86cdee3bd6c698968f44b51fdf7172632320fb1e10c4181f44056e7037477"
+    },
+    {
+      "eventId": "febcb4cc-a041-44e1-84dd-3a446446faba",
+      "uid": "37335210000140",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-01T15:09:00.005Z",
+      "timestampLocal": "2026-09-01T15:09:00.005Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.131.106.19",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=samanta.alves%40agenciaskip.com&nombre_proveedor_razon_social=DUMA+PRODUCOES+LTDA&nombre_representante_legal=DUMA+PRODUCOES+LTDA&uid=37335210000140",
+      "previousEventHash": "34b86cdee3bd6c698968f44b51fdf7172632320fb1e10c4181f44056e7037477",
+      "documentHash": "a7703cf0f7a57a1944e680d8e6abc400777adca2c227ce203c3c6a8dad28c381",
+      "metadata": {
+        "proveedor": "DUMA PRODUCOES LTDA",
+        "representante": "DUMA PRODUCOES LTDA"
+      },
+      "eventHash": "50c516af908a98709ca74770e229e9aa9e214531269f8def54287b9429924808"
+    }
+  ]
 }
