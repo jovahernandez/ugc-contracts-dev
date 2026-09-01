@@ -3,8 +3,18 @@
   "declarationId": "95440848-deb9-469d-827f-82b8a2ccd067",
   "token": "b2eb9e8f-eccb-4695-bde3-e29262ba247d",
   "createdAt": "2026-09-01T19:43:56.129Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MAINFRAME SAC",
+    "nombre_representante_legal": "Phillip Chu Joy Lanat",
+    "email": "administracion@pchujoy.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MAINFRAME SAC",
+    "nombre_representante_legal": "Phillip Chu Joy Lanat",
+    "email": "administracion@pchujoy.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MAINFRAME SAC",
     "nombre_representante_legal": "Phillip Chu Joy Lanat",
@@ -18,5 +28,81 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "42ded7f7c3c75f83be1dc4cca82588160a500593c0af4dbeb952ee8008751842",
+  "auditTrail": [
+    {
+      "eventId": "1a2e6fae-b32d-4078-a163-24a3ebe38a59",
+      "uid": "20606475757",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-01T19:44:11.284Z",
+      "timestampLocal": "2026-09-01T19:44:11.284Z",
+      "timezone": "UTC+0",
+      "ipAddress": "161.132.66.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=administracion%40pchujoy.com&nombre_proveedor_razon_social=MAINFRAME+SAC&nombre_representante_legal=Phillip+Chu+Joy+Lanat&uid=20606475757",
+      "previousEventHash": null,
+      "documentHash": "2bacdde7dcc0da62c76f87f09053b98ffd0e6ac62905038ac49e1cfe424add55",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "51a00ccffaebf8b33a3a8df5c1385dbe138b37f39a62c127fb08e4e77c8e758a"
+    },
+    {
+      "eventId": "fbaff1f2-473c-4624-a354-e4c3ebb2bfdf",
+      "uid": "20606475757",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-01T19:44:11.284Z",
+      "timestampLocal": "2026-09-01T19:44:11.284Z",
+      "timezone": "UTC+0",
+      "ipAddress": "161.132.66.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=administracion%40pchujoy.com&nombre_proveedor_razon_social=MAINFRAME+SAC&nombre_representante_legal=Phillip+Chu+Joy+Lanat&uid=20606475757",
+      "previousEventHash": "51a00ccffaebf8b33a3a8df5c1385dbe138b37f39a62c127fb08e4e77c8e758a",
+      "documentHash": "2bacdde7dcc0da62c76f87f09053b98ffd0e6ac62905038ac49e1cfe424add55",
+      "metadata": {
+        "proveedor": "MAINFRAME SAC",
+        "representante": "Phillip Chu Joy Lanat"
+      },
+      "eventHash": "4161f4015d399c1166bb5efdb469256c7020d87cde8d460a80e8fd7150a9f79c"
+    },
+    {
+      "eventId": "31f3e8fb-361e-4bed-bf0b-7100688abc22",
+      "uid": "20606475757",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-01T19:44:12.779Z",
+      "timestampLocal": "2026-09-01T19:44:12.779Z",
+      "timezone": "UTC+0",
+      "ipAddress": "161.132.66.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=administracion%40pchujoy.com&nombre_proveedor_razon_social=MAINFRAME+SAC&nombre_representante_legal=Phillip+Chu+Joy+Lanat&uid=20606475757",
+      "previousEventHash": "4161f4015d399c1166bb5efdb469256c7020d87cde8d460a80e8fd7150a9f79c",
+      "documentHash": "42ded7f7c3c75f83be1dc4cca82588160a500593c0af4dbeb952ee8008751842",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b7d8cb99909ef9afb1e7197c2196af5f1c4c87af65673d6577cb0213d1d425a5"
+    },
+    {
+      "eventId": "74a0f7a0-c880-4154-8613-e7a283967765",
+      "uid": "20606475757",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-01T19:44:12.779Z",
+      "timestampLocal": "2026-09-01T19:44:12.779Z",
+      "timezone": "UTC+0",
+      "ipAddress": "161.132.66.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=administracion%40pchujoy.com&nombre_proveedor_razon_social=MAINFRAME+SAC&nombre_representante_legal=Phillip+Chu+Joy+Lanat&uid=20606475757",
+      "previousEventHash": "b7d8cb99909ef9afb1e7197c2196af5f1c4c87af65673d6577cb0213d1d425a5",
+      "documentHash": "42ded7f7c3c75f83be1dc4cca82588160a500593c0af4dbeb952ee8008751842",
+      "metadata": {
+        "proveedor": "MAINFRAME SAC",
+        "representante": "Phillip Chu Joy Lanat"
+      },
+      "eventHash": "58b72eeae78e899b78d3632c9699302e2e778630418f817e74761b805ee78a8a"
+    }
+  ]
 }
