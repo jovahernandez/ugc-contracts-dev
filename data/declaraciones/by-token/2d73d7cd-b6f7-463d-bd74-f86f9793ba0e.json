@@ -3,8 +3,18 @@
   "declarationId": "928a5000-1b3a-413d-9a3b-1285a71153cd",
   "token": "2d73d7cd-b6f7-463d-bd74-f86f9793ba0e",
   "createdAt": "2026-09-01T21:11:36.864Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "FONNETA COMUNICACIONES SAS",
+    "nombre_representante_legal": "Monica Patricia Jaramillo Giraldo",
+    "email": "administrativo@fonneta.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "FONNETA COMUNICACIONES SAS",
+    "nombre_representante_legal": "Monica Patricia Jaramillo Giraldo",
+    "email": "administrativo@fonneta.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "FONNETA COMUNICACIONES SAS",
     "nombre_representante_legal": "Monica Patricia Jaramillo Giraldo",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "60ccb19873ea70c4e6438c442fde07457d3ac9b0ad68c694e38d908381c1deed",
+  "auditTrail": [
+    {
+      "eventId": "901b6d9d-9653-42cf-beb0-94799a8656ad",
+      "uid": "9013620517",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-01T21:11:46.865Z",
+      "timestampLocal": "2026-09-01T21:11:46.865Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.165.231.219",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=administrativo%40fonneta.com&nombre_proveedor_razon_social=FONNETA+COMUNICACIONES+SAS&nombre_representante_legal=Monica+Patricia+Jaramillo+Giraldo&uid=9013620517",
+      "previousEventHash": null,
+      "documentHash": "60ccb19873ea70c4e6438c442fde07457d3ac9b0ad68c694e38d908381c1deed",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "acbe48d2fbc57f0c33979be5a84e13a3881b3d3b2e753017db6a5e0eb5d7f863"
+    },
+    {
+      "eventId": "cbe510fc-becc-4841-b9d6-9ba364d9b512",
+      "uid": "9013620517",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-01T21:11:46.865Z",
+      "timestampLocal": "2026-09-01T21:11:46.865Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.165.231.219",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=administrativo%40fonneta.com&nombre_proveedor_razon_social=FONNETA+COMUNICACIONES+SAS&nombre_representante_legal=Monica+Patricia+Jaramillo+Giraldo&uid=9013620517",
+      "previousEventHash": "acbe48d2fbc57f0c33979be5a84e13a3881b3d3b2e753017db6a5e0eb5d7f863",
+      "documentHash": "60ccb19873ea70c4e6438c442fde07457d3ac9b0ad68c694e38d908381c1deed",
+      "metadata": {
+        "proveedor": "FONNETA COMUNICACIONES SAS",
+        "representante": "Monica Patricia Jaramillo Giraldo"
+      },
+      "eventHash": "2addb595266808a6d31f9352522324a9844f66271b2cbbafac5198ed8b1c908b"
+    }
+  ]
 }
