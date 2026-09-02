@@ -3,8 +3,18 @@
   "declarationId": "15f22738-65c9-4df3-a7d7-bb1cbcdfa18b",
   "token": "841567b2-49e3-448f-92e9-b7573f04e960",
   "createdAt": "2026-09-02T03:01:57.443Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Nelsy Coromoto Gonzalez de Cerrada",
+    "nombre_representante_legal": "NELSY GONZÁLEZ",
+    "email": "nelsygonzalezrfc@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Nelsy Coromoto Gonzalez de Cerrada",
+    "nombre_representante_legal": "NELSY GONZÁLEZ",
+    "email": "nelsygonzalezrfc@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Nelsy Coromoto Gonzalez de Cerrada",
     "nombre_representante_legal": "NELSY GONZÁLEZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "6abe0509074d88f360e08d557d96cd8d05ec5734114d3ec26fc52fea89ac298e",
+  "auditTrail": [
+    {
+      "eventId": "bebd5682-df03-4ecc-a1fa-a1a6825ef2a5",
+      "uid": "GOCN7908208K6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-02T03:03:14.603Z",
+      "timestampLocal": "2026-09-02T03:03:14.603Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.194.186",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=nelsygonzalezrfc%40gmail.com&nombre_proveedor_razon_social=Nelsy+Coromoto+Gonzalez+de+Cerrada&nombre_representante_legal=NELSY+GONZ%C3%81LEZ+&uid=GOCN7908208K6",
+      "previousEventHash": null,
+      "documentHash": "6abe0509074d88f360e08d557d96cd8d05ec5734114d3ec26fc52fea89ac298e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "23593a3ae77432f3d8ce28aba10e4c542412e4d8ddfd806f8e7f58b99944e578"
+    },
+    {
+      "eventId": "2af45210-60b7-43a1-9c29-05fb16f77891",
+      "uid": "GOCN7908208K6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-02T03:03:14.603Z",
+      "timestampLocal": "2026-09-02T03:03:14.603Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.194.186",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=nelsygonzalezrfc%40gmail.com&nombre_proveedor_razon_social=Nelsy+Coromoto+Gonzalez+de+Cerrada&nombre_representante_legal=NELSY+GONZ%C3%81LEZ+&uid=GOCN7908208K6",
+      "previousEventHash": "23593a3ae77432f3d8ce28aba10e4c542412e4d8ddfd806f8e7f58b99944e578",
+      "documentHash": "6abe0509074d88f360e08d557d96cd8d05ec5734114d3ec26fc52fea89ac298e",
+      "metadata": {
+        "proveedor": "Nelsy Coromoto Gonzalez de Cerrada",
+        "representante": "NELSY GONZÁLEZ"
+      },
+      "eventHash": "98981de539613c0e5ee4831e2d564d034a322dd8fb8757b6cb42b862766c60f0"
+    }
+  ]
 }
