@@ -3,7 +3,7 @@
   "declarationId": "e4e316fd-2ec5-48f0-85ab-d7cd1a3c65af",
   "token": "bf89bc31-aadc-4596-a87c-8fd902797c95",
   "createdAt": "2026-09-01T20:29:19.074Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IJM PLUS SA de CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ALEJANDRO MORENO TORRENTERA",
     "email": "mome.cases@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3946a5b5be9e5aaa773918ecdc2b536b5cc8bea1c455f98c38de503c1045728c",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-02T22:26:35.920Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/IPL240530AR1",
+  "signatureMetadata": {
+    "ip": "148.224.126.15",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-02T22:26:39.286Z",
+    "signedAtLocal": "2026-09-02T16:26:39.286Z"
+  },
+  "documentHash": "995997249c1dfafc97d4e5850dd86ad6379b70a233d902e3cfc336a3cf633d61",
   "auditTrail": [
     {
       "eventId": "465f1acc-a719-41ca-8849-5791d5145922",
@@ -157,41 +165,84 @@
       "eventHash": "03a75735b597d892e833d68a849a79d5179b4ba019f91ac7e54a782f7483a175"
     },
     {
-      "eventId": "6fb1b3f4-173f-4741-8938-42902fc19642",
+      "eventId": "27bb5872-f90d-4842-8b4f-f8d8d2f12deb",
       "uid": "IPL240530AR1",
       "eventType": "language_selected",
-      "timestampUtc": "2026-09-01T20:29:42.000Z",
-      "timestampLocal": "2026-09-01T20:29:42.000Z",
+      "timestampUtc": "2026-09-01T20:29:42.328Z",
+      "timestampLocal": "2026-09-01T20:29:42.328Z",
       "timezone": "UTC+0",
       "ipAddress": "187.232.204.8",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
       "acceptLanguage": "es-ES,es;q=0.9",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IPL240530AR1&nombre_proveedor_razon_social=IJM+PLUS+SA+de+CV&nombre_representante_legal=ALEJANDRO+MORENO+TORRENTERA&email=mome.cases%40gmail.com",
       "previousEventHash": "03a75735b597d892e833d68a849a79d5179b4ba019f91ac7e54a782f7483a175",
-      "documentHash": "3946a5b5be9e5aaa773918ecdc2b536b5cc8bea1c455f98c38de503c1045728c",
+      "documentHash": "813b054bc2317dbc2a101878d10abc5e2734dbebb3512ddbdfc79f2d37b9c860",
       "metadata": {
         "language": "es"
       },
-      "eventHash": "6613dc1c5d5a5743a4c41fba3c5235317cb9da61aa4ece897ffda2f08bd5c3eb"
+      "eventHash": "d9c33f2e7b6d596a61fe402f498408d17954e4d133ebd203144b6ac68a7f54bb"
     },
     {
-      "eventId": "3c5426f3-5d90-445a-8c7a-6a265d31b484",
+      "eventId": "b01cc89d-4437-41a0-9c32-c5bbdf707aa1",
       "uid": "IPL240530AR1",
       "eventType": "document_created",
-      "timestampUtc": "2026-09-01T20:29:42.000Z",
-      "timestampLocal": "2026-09-01T20:29:42.000Z",
+      "timestampUtc": "2026-09-01T20:29:42.328Z",
+      "timestampLocal": "2026-09-01T20:29:42.328Z",
       "timezone": "UTC+0",
       "ipAddress": "187.232.204.8",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
       "acceptLanguage": "es-ES,es;q=0.9",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IPL240530AR1&nombre_proveedor_razon_social=IJM+PLUS+SA+de+CV&nombre_representante_legal=ALEJANDRO+MORENO+TORRENTERA&email=mome.cases%40gmail.com",
-      "previousEventHash": "6613dc1c5d5a5743a4c41fba3c5235317cb9da61aa4ece897ffda2f08bd5c3eb",
-      "documentHash": "3946a5b5be9e5aaa773918ecdc2b536b5cc8bea1c455f98c38de503c1045728c",
+      "previousEventHash": "d9c33f2e7b6d596a61fe402f498408d17954e4d133ebd203144b6ac68a7f54bb",
+      "documentHash": "813b054bc2317dbc2a101878d10abc5e2734dbebb3512ddbdfc79f2d37b9c860",
       "metadata": {
         "proveedor": "IJM PLUS SA de CV",
         "representante": "ALEJANDRO MORENO TORRENTERA"
       },
-      "eventHash": "7fcaa112c0abc4316bdbd86e87179a5b2ca39d1a97d4b91e006e088f5be8cd2d"
+      "eventHash": "a2b1411452e0fdca812f9a3026bef4b3911619769920e1831bb71c9ac0697030"
+    },
+    {
+      "eventId": "58f8b336-3671-4bf1-877f-ed6c64a8103d",
+      "uid": "IPL240530AR1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-02T22:23:24.342Z",
+      "timestampLocal": "2026-09-02T22:23:24.342Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.224.126.15",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "a2b1411452e0fdca812f9a3026bef4b3911619769920e1831bb71c9ac0697030",
+      "documentHash": "813b054bc2317dbc2a101878d10abc5e2734dbebb3512ddbdfc79f2d37b9c860",
+      "eventHash": "3966e09bfb1fbe0ef2715d52a69e30e6c373408809faf9da8b7850992c5fc14d"
+    },
+    {
+      "eventId": "c9e01c92-ce23-45d2-9c0e-6a2a127f1adf",
+      "uid": "IPL240530AR1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-02T22:26:39.286Z",
+      "timestampLocal": "2026-09-02T16:26:39.286Z",
+      "timezone": "UTC-6",
+      "ipAddress": "148.224.126.15",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/bf89bc31-aadc-4596-a87c-8fd902797c95",
+      "previousEventHash": "3966e09bfb1fbe0ef2715d52a69e30e6c373408809faf9da8b7850992c5fc14d",
+      "documentHash": "995997249c1dfafc97d4e5850dd86ad6379b70a233d902e3cfc336a3cf633d61",
+      "signatureHash": "1aeccaead2b487ffacb01aaab8027a097d7c185bd05ceca4d4b09451e7661a5b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-02T16:26:35.920Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "9091dbbd9b9692b092e3f13e1337367df6cb806e7805e466308f951bbf4905a5"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-09-02T22:26:39.541Z"
+  }
 }
