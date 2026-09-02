@@ -3,7 +3,7 @@
   "declarationId": "1d4e469a-8b4b-4b2a-bdda-b942ded3ed19",
   "token": "876448b4-8f0e-4013-a0fd-5a1f2e0235bd",
   "createdAt": "2026-09-02T02:44:56.284Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Marco Alejandro González Medina",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Marco Alejandro González Medina",
     "email": "alejandrom4rch@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b040989041f2a6602e9b86aea2892f10337055e28d3997377773fda912cd261f",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-02T02:46:11.928Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GOMM901123UW9",
+  "signatureMetadata": {
+    "ip": "189.142.163.181",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-02T02:46:17.607Z",
+    "signedAtLocal": "2026-09-01T20:46:17.607Z"
+  },
+  "documentHash": "f67191dbb0ef1073df1658dc0c1a0072166e03f12652cf6aa66f592a20a66bf4",
   "auditTrail": [
     {
       "eventId": "b671d157-0472-4005-bc18-84dfdb1301aa",
@@ -103,6 +111,49 @@
         "representante": "Marco Alejandro González Medina"
       },
       "eventHash": "23ea7e8f427169b347058aa572dd06acc0efe2aeab4f777ca9d9b77398bae327"
+    },
+    {
+      "eventId": "4abe87b8-ddb4-4b73-a627-ac2e4b4d04a7",
+      "uid": "GOMM901123UW9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-02T02:45:09.066Z",
+      "timestampLocal": "2026-09-02T02:45:09.066Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.142.163.181",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=alejandrom4rch%40gmail.com&nombre_proveedor_razon_social=Marco+Alejandro+Gonz%C3%A1lez+Medina+&nombre_representante_legal=Marco+Alejandro+Gonz%C3%A1lez+Medina+&uid=GOMM901123UW9",
+      "previousEventHash": "23ea7e8f427169b347058aa572dd06acc0efe2aeab4f777ca9d9b77398bae327",
+      "documentHash": "b040989041f2a6602e9b86aea2892f10337055e28d3997377773fda912cd261f",
+      "eventHash": "cc0b07aa4b37c8251b273cb22a41f1cd3e457de7a91960ebd3851c63bee62ddf"
+    },
+    {
+      "eventId": "0dbf1a04-c695-452c-a762-b81825553d0d",
+      "uid": "GOMM901123UW9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-02T02:46:17.607Z",
+      "timestampLocal": "2026-09-01T20:46:17.607Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.142.163.181",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/876448b4-8f0e-4013-a0fd-5a1f2e0235bd",
+      "previousEventHash": "cc0b07aa4b37c8251b273cb22a41f1cd3e457de7a91960ebd3851c63bee62ddf",
+      "documentHash": "f67191dbb0ef1073df1658dc0c1a0072166e03f12652cf6aa66f592a20a66bf4",
+      "signatureHash": "bd348c34f30eb080c1f9db631affec6385099454e52b7bee4fa86bc041bf8713",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-01T20:46:11.928Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "f29a98369f48dee385e04986555c44739d071549400ff507c4356955431360c0"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-02T02:46:17.892Z"
+  }
 }
