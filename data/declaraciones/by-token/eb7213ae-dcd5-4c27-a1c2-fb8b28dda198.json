@@ -3,7 +3,7 @@
   "declarationId": "bb6659b5-4954-4d40-bbab-e828b1e29ba7",
   "token": "eb7213ae-dcd5-4c27-a1c2-fb8b28dda198",
   "createdAt": "2026-09-02T00:13:52.787Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DANNA ALEJANDRA CASTILLO AGUILAR",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "DANNA ALEJANDRA CASTILLO AGUILAR",
     "email": "danna174c@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1c9c4e6d38cbe09998196419d1d37b5caa7a5f6172f9f1aabb903e622f4f0eb1",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-02T00:15:02.912Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/83969705",
+  "signatureMetadata": {
+    "ip": "190.148.42.255",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-02T00:15:06.453Z",
+    "signedAtLocal": "2026-09-01T18:15:06.453Z"
+  },
+  "documentHash": "9055ac28ad6c512a5e66f119d89bfc66d9f5240dbdd274a03e7ff1c8990dfd21",
   "auditTrail": [
     {
       "eventId": "15744152-8a05-4ed3-b082-6ac802dadf58",
@@ -66,6 +74,49 @@
         "representante": "DANNA ALEJANDRA CASTILLO AGUILAR"
       },
       "eventHash": "231c5d52a88d1aa40b227e121bc1f2c3de2e7bb57c35331cfa4cadb716a43198"
+    },
+    {
+      "eventId": "07945322-8249-47bf-8a4b-9236c1b7c12d",
+      "uid": "83969705",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-02T00:14:27.536Z",
+      "timestampLocal": "2026-09-02T00:14:27.536Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.148.42.255",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=83969705&nombre_proveedor_razon_social=DANNA+ALEJANDRA+CASTILLO+AGUILAR&nombre_representante_legal=DANNA+ALEJANDRA+CASTILLO+AGUILAR&email=danna174c%40gmail.com",
+      "previousEventHash": "231c5d52a88d1aa40b227e121bc1f2c3de2e7bb57c35331cfa4cadb716a43198",
+      "documentHash": "1c9c4e6d38cbe09998196419d1d37b5caa7a5f6172f9f1aabb903e622f4f0eb1",
+      "eventHash": "05e3b2f597f7a997e0069c1abeaf7e021f84dc3cabd6be9c511c6b6966ba4d77"
+    },
+    {
+      "eventId": "f32e9a01-742b-42f0-9a1b-01dd90c2f174",
+      "uid": "83969705",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-02T00:15:06.453Z",
+      "timestampLocal": "2026-09-01T18:15:06.453Z",
+      "timezone": "UTC-6",
+      "ipAddress": "190.148.42.255",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/eb7213ae-dcd5-4c27-a1c2-fb8b28dda198",
+      "previousEventHash": "05e3b2f597f7a997e0069c1abeaf7e021f84dc3cabd6be9c511c6b6966ba4d77",
+      "documentHash": "9055ac28ad6c512a5e66f119d89bfc66d9f5240dbdd274a03e7ff1c8990dfd21",
+      "signatureHash": "ebcc7ef522da0752dee66c6891da438fbc9ff97913585516d059a668729df551",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-01T18:15:02.912Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "5cfd662803ee57918bd3c55094557de851717e72f9bc2f151d1b4e726988919c"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-02T00:15:06.627Z"
+  }
 }
