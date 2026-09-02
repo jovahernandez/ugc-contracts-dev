@@ -3,7 +3,7 @@
   "declarationId": "633ee1ab-f9de-4ac5-b307-0643792ffaa7",
   "token": "397acf52-4a0e-4f30-ab90-ec6cd19592f4",
   "createdAt": "2026-09-02T00:37:03.017Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "COMMUN MARKETING SERVICES, S.A. DE C.V.",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "GUILLERMO SEGOVIA VILLADA",
     "email": "admin@commun.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8588f745e6aa6289d63827c4d061ed44c75ba8ebaa5bc90d496318bbbea3b28b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-02T00:38:28.618Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CMS170814FT1",
+  "signatureMetadata": {
+    "ip": "189.225.131.189",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-02T00:38:31.978Z",
+    "signedAtLocal": "2026-09-01T18:38:31.978Z"
+  },
+  "documentHash": "b0e99e24a631d90aa1540b7ba13c670a282b7858b6116d2c0bf8deb0a9adf255",
   "auditTrail": [
     {
       "eventId": "c0ca0bc3-69f5-467c-9185-2d2867a2db2a",
@@ -290,11 +298,11 @@
       "eventHash": "5e67ce4b1b7cd8e2bbdb4f70737941e3c16467f8a8ccfa044e5fdb472c254ea7"
     },
     {
-      "eventId": "57e32739-0c4f-49c6-9ff2-8ac40b926dd7",
+      "eventId": "c2d2c0c2-156e-4a7b-92a0-d263e786705e",
       "uid": "CMS170814FT1",
       "eventType": "language_selected",
-      "timestampUtc": "2026-09-02T00:37:21.260Z",
-      "timestampLocal": "2026-09-02T00:37:21.260Z",
+      "timestampUtc": "2026-09-02T00:37:21.614Z",
+      "timestampLocal": "2026-09-02T00:37:21.614Z",
       "timezone": "UTC+0",
       "ipAddress": "189.225.131.189",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
@@ -305,26 +313,69 @@
       "metadata": {
         "language": "es"
       },
-      "eventHash": "ec870153adb5cca969ac68c50f842f5bbf90e253c744c70be7987cbf860089a7"
+      "eventHash": "7f33d14418db278b9be6b43f6d4c289ac7cc72b2d3ff5db4af40267b7d41a5d2"
     },
     {
-      "eventId": "4df3b765-a790-4f79-8b40-bb671e3a1d7e",
+      "eventId": "9bf7a07b-d4f6-4b3b-9b7f-0bade2622f0e",
       "uid": "CMS170814FT1",
       "eventType": "document_created",
-      "timestampUtc": "2026-09-02T00:37:21.260Z",
-      "timestampLocal": "2026-09-02T00:37:21.260Z",
+      "timestampUtc": "2026-09-02T00:37:21.614Z",
+      "timestampLocal": "2026-09-02T00:37:21.614Z",
       "timezone": "UTC+0",
       "ipAddress": "189.225.131.189",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
       "acceptLanguage": "es-ES,es;q=0.9,en-US;q=0.8,en;q=0.7",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=admin%40commun.mx&nombre_proveedor_razon_social=COMMUN+MARKETING+SERVICES%2C+S.A.+DE+C.V.&nombre_representante_legal=GUILLERMO+SEGOVIA+VILLADA&uid=CMS170814FT1",
-      "previousEventHash": "ec870153adb5cca969ac68c50f842f5bbf90e253c744c70be7987cbf860089a7",
+      "previousEventHash": "7f33d14418db278b9be6b43f6d4c289ac7cc72b2d3ff5db4af40267b7d41a5d2",
       "documentHash": "8588f745e6aa6289d63827c4d061ed44c75ba8ebaa5bc90d496318bbbea3b28b",
       "metadata": {
         "proveedor": "COMMUN MARKETING SERVICES, S.A. DE C.V.",
         "representante": "GUILLERMO SEGOVIA VILLADA"
       },
-      "eventHash": "f0b8ca5b09735ad902f4498acd89ca6b4a1eca44f63cb0523fb3046bb42dd1b8"
+      "eventHash": "5e38f7b472e870483a669c89a9c08fae574aed5513089794b2dbb2fbf04baaf2"
+    },
+    {
+      "eventId": "82b88eb6-8d92-4b1a-8c0e-c20a57834085",
+      "uid": "CMS170814FT1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-02T00:37:26.516Z",
+      "timestampLocal": "2026-09-02T00:37:26.516Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.225.131.189",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "5e38f7b472e870483a669c89a9c08fae574aed5513089794b2dbb2fbf04baaf2",
+      "documentHash": "8588f745e6aa6289d63827c4d061ed44c75ba8ebaa5bc90d496318bbbea3b28b",
+      "eventHash": "0a623c0a8357054a0fd26b5ed38466944a83c711fbefa60cee05fea666ca94e0"
+    },
+    {
+      "eventId": "48d5fcfd-2dab-4c33-9f81-d29a9dc667ac",
+      "uid": "CMS170814FT1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-02T00:38:31.978Z",
+      "timestampLocal": "2026-09-01T18:38:31.978Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.225.131.189",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/397acf52-4a0e-4f30-ab90-ec6cd19592f4",
+      "previousEventHash": "0a623c0a8357054a0fd26b5ed38466944a83c711fbefa60cee05fea666ca94e0",
+      "documentHash": "b0e99e24a631d90aa1540b7ba13c670a282b7858b6116d2c0bf8deb0a9adf255",
+      "signatureHash": "36ecf00e63632a0f6ad97472e8b642194b0af95df6e82fd4d07963011e7a32aa",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-01T18:38:28.618Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "8c8ba91b4ab177412f75d221d88dcd36a6fd86b2c0cd9624fa6738d2cf303adf"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 18,
+    "verifiedAt": "2026-09-02T00:38:32.275Z"
+  }
 }
