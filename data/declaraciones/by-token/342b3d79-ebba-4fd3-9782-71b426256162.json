@@ -3,8 +3,18 @@
   "declarationId": "6b78e51c-3f44-40eb-9cff-96ae7591d91b",
   "token": "342b3d79-ebba-4fd3-9782-71b426256162",
   "createdAt": "2026-09-02T18:31:36.224Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "DIGNO AGUSTIN LAREZ MORANDI",
+    "nombre_representante_legal": "DIGNO AGUSTIN LAREZ MORANDI",
+    "email": "agustinlarezmorandi@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "DIGNO AGUSTIN LAREZ MORANDI",
+    "nombre_representante_legal": "DIGNO AGUSTIN LAREZ MORANDI",
+    "email": "agustinlarezmorandi@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "DIGNO AGUSTIN LAREZ MORANDI",
     "nombre_representante_legal": "DIGNO AGUSTIN LAREZ MORANDI",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d83f4b9d278bbcac31556f531bd315e7990536b77bf3ca1faccb39662ac75eba",
+  "auditTrail": [
+    {
+      "eventId": "74fc20f3-2fc8-47ed-8bc7-755c17ff74e0",
+      "uid": "700564530-1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-02T18:31:43.041Z",
+      "timestampLocal": "2026-09-02T18:31:43.041Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.116.91.1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "d83f4b9d278bbcac31556f531bd315e7990536b77bf3ca1faccb39662ac75eba",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "244ec3c5ef4cd8b7c18e6e04d827efd8ce09fbd0f6902b81ca134b41613e7bd1"
+    },
+    {
+      "eventId": "469d956d-afc0-4148-b020-7e0377605929",
+      "uid": "700564530-1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-02T18:31:43.041Z",
+      "timestampLocal": "2026-09-02T18:31:43.041Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.116.91.1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "244ec3c5ef4cd8b7c18e6e04d827efd8ce09fbd0f6902b81ca134b41613e7bd1",
+      "documentHash": "d83f4b9d278bbcac31556f531bd315e7990536b77bf3ca1faccb39662ac75eba",
+      "metadata": {
+        "proveedor": "DIGNO AGUSTIN LAREZ MORANDI",
+        "representante": "DIGNO AGUSTIN LAREZ MORANDI"
+      },
+      "eventHash": "f4a56dac024063b403083e71e0c6c18ecdccde43afb41781e2b805b9024d1474"
+    }
+  ]
 }
