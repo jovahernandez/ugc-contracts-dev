@@ -3,8 +3,18 @@
   "declarationId": "73abeebc-89d0-4ad7-ab5b-f37c6bd1ebc6",
   "token": "f1210e7e-fad5-45c7-9f6f-7fce58cc0e02",
   "createdAt": "2026-09-02T18:04:12.865Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "David Olvera López",
+    "nombre_representante_legal": "David Olvera López",
+    "email": "thefreezewiz@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "David Olvera López",
+    "nombre_representante_legal": "David Olvera López",
+    "email": "thefreezewiz@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "David Olvera López",
     "nombre_representante_legal": "David Olvera López",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d7a5da03afb7f94c93b16b3023a8658d4f16017988fd1658aba269775523dd5e",
+  "auditTrail": [
+    {
+      "eventId": "5072e254-0fd9-4969-bac5-c38e861eb656",
+      "uid": "OELD980811655",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-02T18:04:24.404Z",
+      "timestampLocal": "2026-09-02T18:04:24.404Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.142.250.250",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/152.0.7977.64 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "d7a5da03afb7f94c93b16b3023a8658d4f16017988fd1658aba269775523dd5e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d544f805a3790ecf05974c3522927d6eb44a050173603ac140d90a7524b37530"
+    },
+    {
+      "eventId": "d421efa6-8835-4727-8191-1a673fb53a0f",
+      "uid": "OELD980811655",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-02T18:04:24.404Z",
+      "timestampLocal": "2026-09-02T18:04:24.404Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.142.250.250",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/152.0.7977.64 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "d544f805a3790ecf05974c3522927d6eb44a050173603ac140d90a7524b37530",
+      "documentHash": "d7a5da03afb7f94c93b16b3023a8658d4f16017988fd1658aba269775523dd5e",
+      "metadata": {
+        "proveedor": "David Olvera López",
+        "representante": "David Olvera López"
+      },
+      "eventHash": "8f20a8bcec1da73fedc6e7088b3efd5a52d57968d856f907d0aa398bb28101d7"
+    }
+  ]
 }
