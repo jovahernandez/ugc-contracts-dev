@@ -3,7 +3,7 @@
   "declarationId": "4b658604-51e5-4337-9fea-f523787297b3",
   "token": "60aceba8-166d-4dba-b44e-a1e37979d77a",
   "createdAt": "2026-09-03T03:02:33.914Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Anna Valeria Grijalva Cambuston",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Persona Física",
     "email": "valeriagricollabs@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1e79dbaff0eacc693c5e0f76f0a2279c11e93184f295b97523cd6e8b30a4ea42",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-03T04:10:09.695Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GICA021031BX4",
+  "signatureMetadata": {
+    "ip": "189.203.174.55",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-09-03T04:10:13.052Z",
+    "signedAtLocal": "2026-09-02T22:10:13.052Z"
+  },
+  "documentHash": "e7f46f36d9c89d8e96da18820fd459433dbe22c53d23e5a9d4fae5f2776e4992",
   "auditTrail": [
     {
       "eventId": "a8404313-6c29-448f-938e-f6a58ae3dfd5",
@@ -66,6 +74,49 @@
         "representante": "Persona Física"
       },
       "eventHash": "7011584f4c73fe546d3ef72f0763bb58beb8efe8264e1ec69303f44f7a24d288"
+    },
+    {
+      "eventId": "21a2becf-3039-4fad-a7c3-1bd8a0bc9e72",
+      "uid": "GICA021031BX4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-03T04:07:16.314Z",
+      "timestampLocal": "2026-09-03T04:07:16.314Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.174.55",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "7011584f4c73fe546d3ef72f0763bb58beb8efe8264e1ec69303f44f7a24d288",
+      "documentHash": "1e79dbaff0eacc693c5e0f76f0a2279c11e93184f295b97523cd6e8b30a4ea42",
+      "eventHash": "444be7ae5b3ac41d5211aca54305a5759d139ea30062eba223af6e9e5d6b3eb6"
+    },
+    {
+      "eventId": "deac822e-4560-477b-9dca-f111c6273f60",
+      "uid": "GICA021031BX4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-03T04:10:13.052Z",
+      "timestampLocal": "2026-09-02T22:10:13.052Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.174.55",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "444be7ae5b3ac41d5211aca54305a5759d139ea30062eba223af6e9e5d6b3eb6",
+      "documentHash": "e7f46f36d9c89d8e96da18820fd459433dbe22c53d23e5a9d4fae5f2776e4992",
+      "signatureHash": "2d00da4500f633842ae95c1d5242168a2a958821c2235e9374b92f3762413f79",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-02T22:10:09.695Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "12e884aa6d64399abab31d681bf4ccc856c5db89979f70d804f01b0411461fc2"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-03T04:10:13.387Z"
+  }
 }
