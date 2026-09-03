@@ -3,7 +3,7 @@
   "declarationId": "367c1b3e-c7d6-4a3e-bd00-492b2a50616e",
   "token": "a8ba5ba7-1173-44a1-baa1-21904f0b82a9",
   "createdAt": "2026-09-03T18:39:48.906Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Zayda Paulina Romero Villaseñor",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ZAYDA VILLASEÑOR",
     "email": "zaydarv@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c01b33f6ddf0830adf787890f507ba393a75baf3483d07da93699112b04b5e8a",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-03T18:40:50.360Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ROVZ920905IY1",
+  "signatureMetadata": {
+    "ip": "189.178.73.52",
+    "userAgent": "Mozilla/5.0 (iPad; CPU OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-09-03T18:40:53.706Z",
+    "signedAtLocal": "2026-09-03T12:40:53.706Z"
+  },
+  "documentHash": "d01f12205c3b6b0e29c2020c9140eb57f3a3cadda186fdf9b540f281dc3fb542",
   "auditTrail": [
     {
       "eventId": "be07c102-a1d8-420f-8d35-6c5ec4650fd6",
@@ -103,6 +111,49 @@
         "representante": "ZAYDA VILLASEÑOR"
       },
       "eventHash": "5eceb1e9bf6c6c480cf382e98ce075dc1d1f58229d0797f17acb7fc0faab95e4"
+    },
+    {
+      "eventId": "b8928351-b215-4fc0-a90d-31e1a617bd16",
+      "uid": "ROVZ920905IY1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-03T18:40:00.775Z",
+      "timestampLocal": "2026-09-03T18:40:00.775Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.178.73.52",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "5eceb1e9bf6c6c480cf382e98ce075dc1d1f58229d0797f17acb7fc0faab95e4",
+      "documentHash": "c01b33f6ddf0830adf787890f507ba393a75baf3483d07da93699112b04b5e8a",
+      "eventHash": "56075ed431c9d0a3d23218a5e9e8794ea26761859d0ca633f32416d0816188e8"
+    },
+    {
+      "eventId": "9002c421-f0c8-48b8-a592-c773e89f9d59",
+      "uid": "ROVZ920905IY1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-03T18:40:53.706Z",
+      "timestampLocal": "2026-09-03T12:40:53.706Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.178.73.52",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "56075ed431c9d0a3d23218a5e9e8794ea26761859d0ca633f32416d0816188e8",
+      "documentHash": "d01f12205c3b6b0e29c2020c9140eb57f3a3cadda186fdf9b540f281dc3fb542",
+      "signatureHash": "f18457faf0deb291759530ad2eee075bd73b92e82fbca4c3a77342f31e7f4657",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-03T12:40:50.360Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "31706809cb639035cec9c06d7b1af5d66a1cff0ca85d55440311ec317d003b1d"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-03T18:40:53.974Z"
+  }
 }
