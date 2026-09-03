@@ -3,7 +3,7 @@
   "declarationId": "49026405-daa6-4005-a2a6-bff37257951b",
   "token": "792638cb-624c-4060-95ed-cde865a47aa5",
   "createdAt": "2026-09-03T19:52:06.214Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MOYA PRODUCTIONS LLC",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "DIEGO CHICA MOYA",
     "email": "tesoreria@moyaproducciones.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3dbff3b7b6b4bbfb3d9f37d38b24142bde35daf42101b3cffb3a18d2c69e8c86",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-03T19:53:27.834Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/320764009",
+  "signatureMetadata": {
+    "ip": "186.154.144.10",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-03T19:53:31.271Z",
+    "signedAtLocal": "2026-09-03T14:53:31.271Z"
+  },
+  "documentHash": "c922608503ae908f7d10880c9ab7fff341ba4ebbc1cf2c96c9fb0254447916c1",
   "auditTrail": [
     {
       "eventId": "0422df5c-d05f-436c-b7ae-f380744d3f8c",
@@ -66,6 +74,49 @@
         "representante": "DIEGO CHICA MOYA"
       },
       "eventHash": "04029d8134427eaeebe8ee40d69cd6e28b4c2d54b65d2f1fc69a04eefa739cb2"
+    },
+    {
+      "eventId": "2ec754f0-585a-4815-957b-f5c2f95488e7",
+      "uid": "320764009",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-03T19:52:23.624Z",
+      "timestampLocal": "2026-09-03T19:52:23.624Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.154.144.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=320764009&nombre_proveedor_razon_social=MOYA+PRODUCTIONS+LLC&nombre_representante_legal=DIEGO+CHICA+MOYA&email=tesoreria%40moyaproducciones.com",
+      "previousEventHash": "04029d8134427eaeebe8ee40d69cd6e28b4c2d54b65d2f1fc69a04eefa739cb2",
+      "documentHash": "3dbff3b7b6b4bbfb3d9f37d38b24142bde35daf42101b3cffb3a18d2c69e8c86",
+      "eventHash": "43a700be4b27646e2342ac065b559f7fb5b3ca2716406595f49c8dcbbb1e129d"
+    },
+    {
+      "eventId": "e605562f-6479-4744-a019-5c50baaa10b4",
+      "uid": "320764009",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-03T19:53:31.271Z",
+      "timestampLocal": "2026-09-03T14:53:31.271Z",
+      "timezone": "UTC-5",
+      "ipAddress": "186.154.144.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/792638cb-624c-4060-95ed-cde865a47aa5",
+      "previousEventHash": "43a700be4b27646e2342ac065b559f7fb5b3ca2716406595f49c8dcbbb1e129d",
+      "documentHash": "c922608503ae908f7d10880c9ab7fff341ba4ebbc1cf2c96c9fb0254447916c1",
+      "signatureHash": "1d69845e9236ba65bf8ae2ed4614c5f2aeed5608bd60e8121c78ddee4d079294",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-03T14:53:27.834Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "624c59e71b3b93742bfac5e2dc3c1a84488d64222b1ed771ae912e12cd37c61a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-03T19:53:31.523Z"
+  }
 }
