@@ -3,8 +3,18 @@
   "declarationId": "99a825b4-6b40-4257-9ea9-aa00603101e5",
   "token": "2b771fd8-8e9c-4cfc-8770-dc2c17f33a81",
   "createdAt": "2026-09-03T17:25:03.740Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JULIANA CISNEROS GUERRA",
+    "nombre_representante_legal": "JULIANA CISNEROS GUERRA",
+    "email": "julianacisneros95@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JULIANA CISNEROS GUERRA",
+    "nombre_representante_legal": "JULIANA CISNEROS GUERRA",
+    "email": "julianacisneros95@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "JULIANA CISNEROS GUERRA",
     "nombre_representante_legal": "JULIANA CISNEROS GUERRA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "b4439f5da7b5c8a9cdf0e866ec4545b2bfd547fa2c1dc9943290394b84050172",
+  "auditTrail": [
+    {
+      "eventId": "91d4b9b9-ac58-4c4f-a128-6c6ec40d37c0",
+      "uid": "700505668",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-03T17:25:11.529Z",
+      "timestampLocal": "2026-09-03T17:25:11.529Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.24.120.187",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "b4439f5da7b5c8a9cdf0e866ec4545b2bfd547fa2c1dc9943290394b84050172",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "691dc4bbf305e97d7a1c6aa7068bfedffc2c8eae4d7efdde9820dd9dee87f5d6"
+    },
+    {
+      "eventId": "74e2975c-46f1-4df3-98e2-1266f44916c6",
+      "uid": "700505668",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-03T17:25:11.529Z",
+      "timestampLocal": "2026-09-03T17:25:11.529Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.24.120.187",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "691dc4bbf305e97d7a1c6aa7068bfedffc2c8eae4d7efdde9820dd9dee87f5d6",
+      "documentHash": "b4439f5da7b5c8a9cdf0e866ec4545b2bfd547fa2c1dc9943290394b84050172",
+      "metadata": {
+        "proveedor": "JULIANA CISNEROS GUERRA",
+        "representante": "JULIANA CISNEROS GUERRA"
+      },
+      "eventHash": "0fd1e2d9a6d09124badfed84ebf3170217f0cec3da4760194614d9c2073299dd"
+    }
+  ]
 }
