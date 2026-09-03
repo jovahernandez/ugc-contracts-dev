@@ -3,8 +3,18 @@
   "declarationId": "1621bd81-523b-4359-8a19-f72bd2d979e1",
   "token": "45d0a91d-ceee-477f-a5e7-8627aa2384ca",
   "createdAt": "2026-09-03T15:02:30.653Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "SATSANGA SAS",
+    "nombre_representante_legal": "ANGEL LEONARDO MORAN REYES",
+    "email": "catherinsalinasv@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "SATSANGA SAS",
+    "nombre_representante_legal": "ANGEL LEONARDO MORAN REYES",
+    "email": "catherinsalinasv@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "SATSANGA SAS",
     "nombre_representante_legal": "ANGEL LEONARDO MORAN REYES",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "e9753f7dcdc6546a08b906866add07b4d29f3d0653dd86afcfc4683f106be86f",
+  "auditTrail": [
+    {
+      "eventId": "f4249d72-c464-4f7b-a5f7-9283fcad0ee7",
+      "uid": "9012966237",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-03T15:02:38.116Z",
+      "timestampLocal": "2026-09-03T15:02:38.116Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.203.128.55",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=9012966237&nombre_proveedor_razon_social=SATSANGA+SAS&nombre_representante_legal=ANGEL+LEONARDO+MORAN+REYES&email=catherinsalinasv%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "e9753f7dcdc6546a08b906866add07b4d29f3d0653dd86afcfc4683f106be86f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9c98be32eafd3dc985a615e2302d63bacd5cc9d7957a3ed2ac44b37fb3d9d889"
+    },
+    {
+      "eventId": "94e95641-2594-499e-8760-447b869612c9",
+      "uid": "9012966237",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-03T15:02:38.116Z",
+      "timestampLocal": "2026-09-03T15:02:38.116Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.203.128.55",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=9012966237&nombre_proveedor_razon_social=SATSANGA+SAS&nombre_representante_legal=ANGEL+LEONARDO+MORAN+REYES&email=catherinsalinasv%40gmail.com",
+      "previousEventHash": "9c98be32eafd3dc985a615e2302d63bacd5cc9d7957a3ed2ac44b37fb3d9d889",
+      "documentHash": "e9753f7dcdc6546a08b906866add07b4d29f3d0653dd86afcfc4683f106be86f",
+      "metadata": {
+        "proveedor": "SATSANGA SAS",
+        "representante": "ANGEL LEONARDO MORAN REYES"
+      },
+      "eventHash": "afa90b703d1ebab96dfaa7f09471c0d73ddd5d125a13d94288a43460b0a4e25d"
+    }
+  ]
 }
