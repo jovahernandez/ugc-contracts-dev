@@ -3,7 +3,7 @@
   "declarationId": "134103ec-b50e-4f5e-916b-c69319315ee8",
   "token": "3e730480-9eb0-4d8f-99a9-84c30a4632d9",
   "createdAt": "2026-09-03T15:28:56.519Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "YELLOW DATA - SOLUCOES INTELIGENTES EM TI LTDA.",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JOSE EDUARDO C. DA ROCHA",
     "email": "eduardorocha@pressmanager.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "38721628953d2f349848bb002dca1cb3c6be0233436a89c3fe81ed4d280b9834",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-03T15:29:52.853Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/15.480.228%2F0001-01",
+  "signatureMetadata": {
+    "ip": "167.249.107.32",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-03T15:29:57.659Z",
+    "signedAtLocal": "2026-09-03T12:29:57.659Z"
+  },
+  "documentHash": "12a5f889342a9785b4ce13559edaea4e97f35d3d8f0a3764df949d36c29d3281",
   "auditTrail": [
     {
       "eventId": "73f0bdbd-98be-42c8-8d81-29449312dc95",
@@ -66,6 +74,49 @@
         "representante": "JOSE EDUARDO C. DA ROCHA"
       },
       "eventHash": "0e847852bdada945b1cc90b97f945f2cc792bab6fb1cce849f0b1e0d5d482e57"
+    },
+    {
+      "eventId": "bb69bf3a-194f-456d-9545-46ebe7535686",
+      "uid": "15.480.228/0001-01",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-03T15:29:10.348Z",
+      "timestampLocal": "2026-09-03T15:29:10.348Z",
+      "timezone": "UTC+0",
+      "ipAddress": "167.249.107.32",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=15.480.228%2F0001-01&nombre_proveedor_razon_social=YELLOW+DATA+-+SOLUCOES+INTELIGENTES+EM+TI+LTDA.&nombre_representante_legal=JOSE+EDUARDO+C.+DA+ROCHA&email=eduardorocha%40pressmanager.com.br",
+      "previousEventHash": "0e847852bdada945b1cc90b97f945f2cc792bab6fb1cce849f0b1e0d5d482e57",
+      "documentHash": "38721628953d2f349848bb002dca1cb3c6be0233436a89c3fe81ed4d280b9834",
+      "eventHash": "6ee4506c13a118f99ff7bd88ad9a775ce75f6d84ebb4faf4997c9d29d53593e4"
+    },
+    {
+      "eventId": "caad5e1e-7760-4e53-89a3-9f53c6dcf6a1",
+      "uid": "15.480.228/0001-01",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-03T15:29:57.659Z",
+      "timestampLocal": "2026-09-03T12:29:57.659Z",
+      "timezone": "UTC-3",
+      "ipAddress": "167.249.107.32",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/3e730480-9eb0-4d8f-99a9-84c30a4632d9",
+      "previousEventHash": "6ee4506c13a118f99ff7bd88ad9a775ce75f6d84ebb4faf4997c9d29d53593e4",
+      "documentHash": "12a5f889342a9785b4ce13559edaea4e97f35d3d8f0a3764df949d36c29d3281",
+      "signatureHash": "ee05e04e07ab8c21ccfdfe4366ec4edd7d169301dc2c03fc692ab203648ef73d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-03T12:29:52.853Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "e42ff759fcd3324560637700b9dab669978ff669a2fd18087df8fafe05db5721"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-03T15:29:58.114Z"
+  }
 }
