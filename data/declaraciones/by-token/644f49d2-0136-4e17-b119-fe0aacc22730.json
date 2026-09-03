@@ -3,7 +3,7 @@
   "declarationId": "1cac54e9-7a4a-4107-834e-6836c17866cb",
   "token": "644f49d2-0136-4e17-b119-fe0aacc22730",
   "createdAt": "2026-09-03T20:11:27.388Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "TAMBOR BUSINESS LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Vitor Souza Bastos",
     "email": "vitor@tambor.biz"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fd14da46a3f24f23666c3fb69cb93814c2e5922f1b9ca7e6405607160b9259ef",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-03T20:33:55.858Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/27.904.759%2F0001-55",
+  "signatureMetadata": {
+    "ip": "179.209.44.215",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-03T20:33:59.179Z",
+    "signedAtLocal": "2026-09-03T17:33:59.179Z"
+  },
+  "documentHash": "d82647f6825ca20033f07f045b08ba2ecce633ccbb6791bb1772e76abef5d129",
   "auditTrail": [
     {
       "eventId": "a0a7f17e-c672-448e-a608-990486f38714",
@@ -103,6 +111,64 @@
         "representante": "Vitor Souza Bastos"
       },
       "eventHash": "abf4b119f51c11aee46b13d0b7caf9b0a121d6acc29237784d8b39c5f8f8bc3e"
+    },
+    {
+      "eventId": "81df52a7-262e-4857-9e31-17049c49fdba",
+      "uid": "27.904.759/0001-55",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-03T20:11:41.337Z",
+      "timestampLocal": "2026-09-03T20:11:41.337Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.161.228.189",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27.904.759%2F0001-55&nombre_proveedor_razon_social=TAMBOR+BUSINESS+LTDA&nombre_representante_legal=Vitor+Souza+Bastos&email=vitor%40tambor.biz",
+      "previousEventHash": "abf4b119f51c11aee46b13d0b7caf9b0a121d6acc29237784d8b39c5f8f8bc3e",
+      "documentHash": "fd14da46a3f24f23666c3fb69cb93814c2e5922f1b9ca7e6405607160b9259ef",
+      "eventHash": "93cfecb10f1fd38446941e6197a60e81e8c253343b9e3a50224409c770a14348"
+    },
+    {
+      "eventId": "834c1dbd-20b4-40c9-a4a2-7bc48f36923e",
+      "uid": "27.904.759/0001-55",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-03T20:33:29.434Z",
+      "timestampLocal": "2026-09-03T20:33:29.434Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.209.44.215",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "93cfecb10f1fd38446941e6197a60e81e8c253343b9e3a50224409c770a14348",
+      "documentHash": "fd14da46a3f24f23666c3fb69cb93814c2e5922f1b9ca7e6405607160b9259ef",
+      "eventHash": "908512e54ea842508aa8403865b4a996771a03f941fd477fcba43b3fa763f066"
+    },
+    {
+      "eventId": "30040a5b-32c2-4103-a904-88f864cb98fd",
+      "uid": "27.904.759/0001-55",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-03T20:33:59.179Z",
+      "timestampLocal": "2026-09-03T17:33:59.179Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.209.44.215",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/644f49d2-0136-4e17-b119-fe0aacc22730",
+      "previousEventHash": "908512e54ea842508aa8403865b4a996771a03f941fd477fcba43b3fa763f066",
+      "documentHash": "d82647f6825ca20033f07f045b08ba2ecce633ccbb6791bb1772e76abef5d129",
+      "signatureHash": "ed689873426a1ce9feb072cc267d523dd69ffaf9af0590e811afecf37c03b5eb",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-03T17:33:55.858Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "726f39196ec0ddd745792a54dcbf6764ec513ee9491b14582fe1fb8e8fe19e97"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-09-03T20:33:59.444Z"
+  }
 }
