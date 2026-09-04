@@ -3,7 +3,7 @@
   "declarationId": "8a0978f6-59d6-4b8f-9ac6-639ac63f2263",
   "token": "c313292a-4c97-4074-930f-0c92bfdfbf51",
   "createdAt": "2026-09-04T14:58:02.857Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "VACA MEDIA GROUP MARKETING E PARTICIPACOES LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Frederick Sebastian",
     "email": "lucas@vaca.media"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "eae1adf759267ef5beb280ac826d8c9cb01a694a9576ea7de31623b75fb0ecbe",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-04T14:59:10.507Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/60014689000135",
+  "signatureMetadata": {
+    "ip": "187.10.83.193",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-04T14:59:18.371Z",
+    "signedAtLocal": "2026-09-04T11:59:18.371Z"
+  },
+  "documentHash": "f7ed7d8e98972bc72be5064a60c2d92696d31749849fb691b18f093c1dba60ff",
   "auditTrail": [
     {
       "eventId": "578d96dc-dcc9-4679-8ef4-df4f8626e167",
@@ -103,6 +111,49 @@
         "representante": "Frederick Sebastian"
       },
       "eventHash": "a422b24ad938f9706af31ae8503292564f4a894ba378a451ad18b725bebc27a9"
+    },
+    {
+      "eventId": "302e7fde-267e-4330-b256-2f1f545eb115",
+      "uid": "60014689000135",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-04T14:58:15.106Z",
+      "timestampLocal": "2026-09-04T14:58:15.106Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.10.83.193",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=60014689000135&nombre_proveedor_razon_social=VACA+MEDIA+GROUP+MARKETING+E+PARTICIPACOES+LTDA&nombre_representante_legal=Frederick+Sebastian&email=lucas%40vaca.media",
+      "previousEventHash": "a422b24ad938f9706af31ae8503292564f4a894ba378a451ad18b725bebc27a9",
+      "documentHash": "eae1adf759267ef5beb280ac826d8c9cb01a694a9576ea7de31623b75fb0ecbe",
+      "eventHash": "e92936347b4482024326cb1906f64b4bf2f00b92e9a354b1535d30727f254cc0"
+    },
+    {
+      "eventId": "f824d4a9-59c7-44b7-a277-88dc56be63cc",
+      "uid": "60014689000135",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-04T14:59:18.371Z",
+      "timestampLocal": "2026-09-04T11:59:18.371Z",
+      "timezone": "UTC-3",
+      "ipAddress": "187.10.83.193",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c313292a-4c97-4074-930f-0c92bfdfbf51",
+      "previousEventHash": "e92936347b4482024326cb1906f64b4bf2f00b92e9a354b1535d30727f254cc0",
+      "documentHash": "f7ed7d8e98972bc72be5064a60c2d92696d31749849fb691b18f093c1dba60ff",
+      "signatureHash": "33a2f5e2ca31673a18e656edd794c050fbe198d8015fda1573034c701b2e51cc",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-04T11:59:10.507Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "de66211a7b91965af70f34155078405104a9d507cd753c2e33d35421a39ded8a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-04T14:59:18.672Z"
+  }
 }
