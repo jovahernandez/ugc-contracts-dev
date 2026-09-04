@@ -3,7 +3,7 @@
   "declarationId": "37d6204c-544f-41e6-b514-e733e5bebf22",
   "token": "a9544897-ad52-4119-9844-918d559b4f6e",
   "createdAt": "2026-08-27T19:48:17.929Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JAIR JADHIEL DOMINGUEZ GARZA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Jair Jadhiel Domínguez Garza",
     "email": "brico.best@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "dcf7bae01242140816696bc61438c100724dabfdd03ec64da014968d069fb502",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-04T19:40:24.970Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DOGJ910508UL1",
+  "signatureMetadata": {
+    "ip": "104.28.50.23",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+    "signedAtUtc": "2026-09-04T19:40:28.354Z",
+    "signedAtLocal": "2026-09-04T13:40:28.354Z"
+  },
+  "documentHash": "d7778a0c5c1d6978da33d502e875186f0cab296814669d3b2398e5105e720290",
   "auditTrail": [
     {
       "eventId": "a6f33c3e-5035-450b-9b38-32395d7ab3d5",
@@ -118,6 +126,79 @@
         "representante": "Jair Jadhiel Domínguez Garza"
       },
       "eventHash": "0e4057cffbf4fe8b6c0a10dec383d3738596af33b6038de3d52d08ed8d2a61f1"
+    },
+    {
+      "eventId": "5ea6c871-72f8-4309-8354-24a219a1cb4d",
+      "uid": "DOGJ910508UL1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-27T19:48:31.359Z",
+      "timestampLocal": "2026-08-27T19:48:31.359Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.241.192",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DOGJ910508UL1&nombre_proveedor_razon_social=JAIR+JADHIEL+DOMINGUEZ+GARZA&nombre_representante_legal=Jair+Jadhiel+Dom%C3%ADnguez+Garza&email=brico.best%40gmail.com",
+      "previousEventHash": "0e4057cffbf4fe8b6c0a10dec383d3738596af33b6038de3d52d08ed8d2a61f1",
+      "documentHash": "dcf7bae01242140816696bc61438c100724dabfdd03ec64da014968d069fb502",
+      "eventHash": "65e959d02544a0048b14d7628cbea7116fa0b785b3910a28c018d7b716c42de9"
+    },
+    {
+      "eventId": "7086ad15-8f7c-43bf-a001-636e2dbf2f7d",
+      "uid": "DOGJ910508UL1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-08-27T19:49:35.086Z",
+      "timestampLocal": "2026-08-27T19:49:35.086Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.241.192",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "65e959d02544a0048b14d7628cbea7116fa0b785b3910a28c018d7b716c42de9",
+      "documentHash": "dcf7bae01242140816696bc61438c100724dabfdd03ec64da014968d069fb502",
+      "eventHash": "509b6dbc9158f625aebf2cd5313ff4b8cb4cb95937af36f89b07da7297452516"
+    },
+    {
+      "eventId": "684dd68e-4ad8-4f30-8860-e67bc728142b",
+      "uid": "DOGJ910508UL1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-04T19:40:00.335Z",
+      "timestampLocal": "2026-09-04T19:40:00.335Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.50.23",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "509b6dbc9158f625aebf2cd5313ff4b8cb4cb95937af36f89b07da7297452516",
+      "documentHash": "dcf7bae01242140816696bc61438c100724dabfdd03ec64da014968d069fb502",
+      "eventHash": "28e89157660ae6c575ca459ca0673ef1b99b536dd1663d14150c2a508886b000"
+    },
+    {
+      "eventId": "51ef66a0-c272-4e75-a171-32c1c9a5a940",
+      "uid": "DOGJ910508UL1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-04T19:40:28.354Z",
+      "timestampLocal": "2026-09-04T13:40:28.354Z",
+      "timezone": "UTC-6",
+      "ipAddress": "104.28.50.23",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "28e89157660ae6c575ca459ca0673ef1b99b536dd1663d14150c2a508886b000",
+      "documentHash": "d7778a0c5c1d6978da33d502e875186f0cab296814669d3b2398e5105e720290",
+      "signatureHash": "a571aa7d912819017e2a570baf8c220221aa0ed10349c6d180abd848414886f4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-04T13:40:24.970Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "33e7df0b6246aef08c508bd746d5109bb580a4092014222f299c80bf182304c1"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 9,
+    "verifiedAt": "2026-09-04T19:40:28.618Z"
+  }
 }
