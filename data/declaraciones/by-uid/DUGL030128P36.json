@@ -3,7 +3,7 @@
   "declarationId": "b1525f8d-7a0f-42b2-bd44-fc4238d6cec3",
   "token": "1ee9542b-f18c-4aa7-a5ed-dbda1e81cd12",
   "createdAt": "2026-09-04T20:47:37.508Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Libni Arisdé Durán González",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Libni Arisde Durán González",
     "email": "libniaris28@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "31229f206563204b596568380a8675556185e1decef9434a4853c45aa881d61c",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-04T20:52:44.723Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DUGL030128P36",
+  "signatureMetadata": {
+    "ip": "187.188.255.76",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-09-04T20:52:48.104Z",
+    "signedAtLocal": "2026-09-04T14:52:48.104Z"
+  },
+  "documentHash": "09d35b5338676612d2c4198cd20a23798d73c738017a521495cead810daaa4cc",
   "auditTrail": [
     {
       "eventId": "9a33dab1-e353-4ced-9129-8d3733b93c24",
@@ -179,41 +187,84 @@
       "eventHash": "2109a341448c601e3e94ac8235cde691538d737df429a3834674a925d46afb1c"
     },
     {
-      "eventId": "a1a03a21-cb69-4e42-b935-9e888d3dee24",
+      "eventId": "0a66bfdd-2489-4962-a2fb-df835b4d79f7",
       "uid": "DUGL030128P36",
       "eventType": "language_selected",
-      "timestampUtc": "2026-09-04T20:47:59.667Z",
-      "timestampLocal": "2026-09-04T20:47:59.667Z",
+      "timestampUtc": "2026-09-04T20:48:00.050Z",
+      "timestampLocal": "2026-09-04T20:48:00.050Z",
       "timezone": "UTC+0",
       "ipAddress": "187.188.255.76",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
       "acceptLanguage": "es-419,es;q=0.9",
       "referer": "https://coi-acuerdo.up.railway.app/",
       "previousEventHash": "2109a341448c601e3e94ac8235cde691538d737df429a3834674a925d46afb1c",
-      "documentHash": "31229f206563204b596568380a8675556185e1decef9434a4853c45aa881d61c",
+      "documentHash": "19fb2dbc8f52058c54b4262166fba5bb106c3fe5ee59a15e8e2346e574f26305",
       "metadata": {
         "language": "es"
       },
-      "eventHash": "52351bb502963857a869a46b5e636753805f0263cb7b35fa86c0de9fcf690c3f"
+      "eventHash": "a1902a006f81ae920db20968cb7ea8388a52f5a1adcc4fbfd3df8288edcca663"
     },
     {
-      "eventId": "1d7381d2-d740-4044-ab55-33a23156c925",
+      "eventId": "11efe22b-4e95-449d-b55e-5f80f68651a5",
       "uid": "DUGL030128P36",
       "eventType": "document_created",
-      "timestampUtc": "2026-09-04T20:47:59.667Z",
-      "timestampLocal": "2026-09-04T20:47:59.667Z",
+      "timestampUtc": "2026-09-04T20:48:00.050Z",
+      "timestampLocal": "2026-09-04T20:48:00.050Z",
       "timezone": "UTC+0",
       "ipAddress": "187.188.255.76",
       "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
       "acceptLanguage": "es-419,es;q=0.9",
       "referer": "https://coi-acuerdo.up.railway.app/",
-      "previousEventHash": "52351bb502963857a869a46b5e636753805f0263cb7b35fa86c0de9fcf690c3f",
-      "documentHash": "31229f206563204b596568380a8675556185e1decef9434a4853c45aa881d61c",
+      "previousEventHash": "a1902a006f81ae920db20968cb7ea8388a52f5a1adcc4fbfd3df8288edcca663",
+      "documentHash": "19fb2dbc8f52058c54b4262166fba5bb106c3fe5ee59a15e8e2346e574f26305",
       "metadata": {
         "proveedor": "Libni Arisdé Durán González",
         "representante": "Libni Arisde Durán González"
       },
-      "eventHash": "e3806f990ebeacbd5fb2bd7de13813b39f29669d6c15cde6183dcd4dec9a0ee2"
+      "eventHash": "55f154ae157f2641af5bcc29672ce131bc151c70959ce5fc34959cc5b0f9efbf"
+    },
+    {
+      "eventId": "cd30585a-caef-4d4c-b23c-ad3a15b53681",
+      "uid": "DUGL030128P36",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-04T20:48:02.784Z",
+      "timestampLocal": "2026-09-04T20:48:02.784Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.255.76",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "55f154ae157f2641af5bcc29672ce131bc151c70959ce5fc34959cc5b0f9efbf",
+      "documentHash": "19fb2dbc8f52058c54b4262166fba5bb106c3fe5ee59a15e8e2346e574f26305",
+      "eventHash": "e019184ea487a49e8341e890b4bc3ec566b7c3cd7dd2f9ad00adab6051c0dd6e"
+    },
+    {
+      "eventId": "fe495201-14fc-4c9c-98e7-9fd9a12d9f90",
+      "uid": "DUGL030128P36",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-04T20:52:48.104Z",
+      "timestampLocal": "2026-09-04T14:52:48.104Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.255.76",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "e019184ea487a49e8341e890b4bc3ec566b7c3cd7dd2f9ad00adab6051c0dd6e",
+      "documentHash": "09d35b5338676612d2c4198cd20a23798d73c738017a521495cead810daaa4cc",
+      "signatureHash": "067e1b6ab9592d2cc2eb3fedcaa93d9f312a93e6df1ef2559513a6cf38ed3412",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-04T14:52:44.723Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "0ffcb6986b7c579f4dbbd772e3a96e0f2a1e7ff9f0e58c306e91d4d35251be94"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 12,
+    "verifiedAt": "2026-09-04T20:52:48.510Z"
+  }
 }
