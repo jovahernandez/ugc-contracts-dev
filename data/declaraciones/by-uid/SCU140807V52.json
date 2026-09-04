@@ -3,7 +3,7 @@
   "declarationId": "0e85747e-e779-4cf7-a742-11c0f4e25d4c",
   "token": "8196cfa6-10ef-4e61-abef-a525f1dfe3b2",
   "createdAt": "2026-09-04T02:08:04.363Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SERVICIOS CORPORATIVOS UWS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "HERALDO GOMEZ LEPE",
     "email": "tere_flores25@hotmail.es"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "76142816f851d1c45f347b5e8f9c85e6c17c1a7a4572de53bfa30f8b23145037",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-04T02:08:36.845Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SCU140807V52",
+  "signatureMetadata": {
+    "ip": "177.230.97.122",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-04T02:08:40.242Z",
+    "signedAtLocal": "2026-09-03T19:08:40.242Z"
+  },
+  "documentHash": "071454ead4aab48d099f0ae4ffde47fdf3fd2d17b8684379e6dcfffc6bae1426",
   "auditTrail": [
     {
       "eventId": "edfa844c-21c3-49f2-8ae4-4432af40025d",
@@ -66,6 +74,49 @@
         "representante": "HERALDO GOMEZ LEPE"
       },
       "eventHash": "de4fb53547542028bd44e6487d4957a5770cd8f678510bcfe4e7127045a684e6"
+    },
+    {
+      "eventId": "b784a5ea-b3cb-46df-8bc9-ab6f4c0b9f52",
+      "uid": "SCU140807V52",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-04T02:08:15.148Z",
+      "timestampLocal": "2026-09-04T02:08:15.148Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.230.97.122",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SCU140807V52&nombre_proveedor_razon_social=SERVICIOS+CORPORATIVOS+UWS&nombre_representante_legal=HERALDO+GOMEZ+LEPE&email=tere_flores25%40hotmail.es",
+      "previousEventHash": "de4fb53547542028bd44e6487d4957a5770cd8f678510bcfe4e7127045a684e6",
+      "documentHash": "76142816f851d1c45f347b5e8f9c85e6c17c1a7a4572de53bfa30f8b23145037",
+      "eventHash": "9672a17526780c037e10302da6cf75d5fbdb9210ab29eab10b81bd6e399f54b7"
+    },
+    {
+      "eventId": "cdb90aa9-4463-4753-ab9c-27fccff3e0ba",
+      "uid": "SCU140807V52",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-04T02:08:40.242Z",
+      "timestampLocal": "2026-09-03T19:08:40.242Z",
+      "timezone": "UTC-7",
+      "ipAddress": "177.230.97.122",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8196cfa6-10ef-4e61-abef-a525f1dfe3b2",
+      "previousEventHash": "9672a17526780c037e10302da6cf75d5fbdb9210ab29eab10b81bd6e399f54b7",
+      "documentHash": "071454ead4aab48d099f0ae4ffde47fdf3fd2d17b8684379e6dcfffc6bae1426",
+      "signatureHash": "7dd7c9758c212e52610c835e0512009f739346f1588b49088c9f48d3d28a3362",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-03T19:08:36.845Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "470623f5288f34e859aa38fe7af74bb1b35d8cb715b2340a7be62b3ff193abdd"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-04T02:08:40.541Z"
+  }
 }
