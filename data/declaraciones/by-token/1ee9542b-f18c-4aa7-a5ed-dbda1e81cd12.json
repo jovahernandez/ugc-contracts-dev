@@ -3,8 +3,18 @@
   "declarationId": "b1525f8d-7a0f-42b2-bd44-fc4238d6cec3",
   "token": "1ee9542b-f18c-4aa7-a5ed-dbda1e81cd12",
   "createdAt": "2026-09-04T20:47:37.508Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Libni Arisdé Durán González",
+    "nombre_representante_legal": "Libni Arisde Durán González",
+    "email": "libniaris28@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Libni Arisdé Durán González",
+    "nombre_representante_legal": "Libni Arisde Durán González",
+    "email": "libniaris28@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Libni Arisdé Durán González",
     "nombre_representante_legal": "Libni Arisde Durán González",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "1b58f8f022e9a2bcb4116e9e724d1eb29535c5bb04b6e2e016d5e54a0db9e20f",
+  "auditTrail": [
+    {
+      "eventId": "9a33dab1-e353-4ced-9129-8d3733b93c24",
+      "uid": "DUGL030128P36",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-04T20:47:46.043Z",
+      "timestampLocal": "2026-09-04T20:47:46.043Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.255.76",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "1b58f8f022e9a2bcb4116e9e724d1eb29535c5bb04b6e2e016d5e54a0db9e20f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ccdd83c0ace1511f64fee82d8452703c98df1540cb6f6b3d9c006985df0a6369"
+    },
+    {
+      "eventId": "b9dbb25a-aed1-4830-97b1-aac1d99ee1c7",
+      "uid": "DUGL030128P36",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-04T20:47:46.043Z",
+      "timestampLocal": "2026-09-04T20:47:46.043Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.255.76",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ccdd83c0ace1511f64fee82d8452703c98df1540cb6f6b3d9c006985df0a6369",
+      "documentHash": "1b58f8f022e9a2bcb4116e9e724d1eb29535c5bb04b6e2e016d5e54a0db9e20f",
+      "metadata": {
+        "proveedor": "Libni Arisdé Durán González",
+        "representante": "Libni Arisde Durán González"
+      },
+      "eventHash": "fa7dd45826d3d239aab460814d2f994d1d239f36f56f0d57a85cfaa5e26611cf"
+    }
+  ]
 }
