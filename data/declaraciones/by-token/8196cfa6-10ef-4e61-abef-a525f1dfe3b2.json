@@ -3,8 +3,18 @@
   "declarationId": "0e85747e-e779-4cf7-a742-11c0f4e25d4c",
   "token": "8196cfa6-10ef-4e61-abef-a525f1dfe3b2",
   "createdAt": "2026-09-04T02:08:04.363Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "SERVICIOS CORPORATIVOS UWS",
+    "nombre_representante_legal": "HERALDO GOMEZ LEPE",
+    "email": "tere_flores25@hotmail.es"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "SERVICIOS CORPORATIVOS UWS",
+    "nombre_representante_legal": "HERALDO GOMEZ LEPE",
+    "email": "tere_flores25@hotmail.es"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "SERVICIOS CORPORATIVOS UWS",
     "nombre_representante_legal": "HERALDO GOMEZ LEPE",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "76142816f851d1c45f347b5e8f9c85e6c17c1a7a4572de53bfa30f8b23145037",
+  "auditTrail": [
+    {
+      "eventId": "edfa844c-21c3-49f2-8ae4-4432af40025d",
+      "uid": "SCU140807V52",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-04T02:08:12.506Z",
+      "timestampLocal": "2026-09-04T02:08:12.506Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.230.97.122",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SCU140807V52&nombre_proveedor_razon_social=SERVICIOS+CORPORATIVOS+UWS&nombre_representante_legal=HERALDO+GOMEZ+LEPE&email=tere_flores25%40hotmail.es",
+      "previousEventHash": null,
+      "documentHash": "76142816f851d1c45f347b5e8f9c85e6c17c1a7a4572de53bfa30f8b23145037",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e0ddb32766349405d3db3ef0578a8180fea03831d924f4e199954b6fe9e80aef"
+    },
+    {
+      "eventId": "0ec8dcd2-c57c-495b-9126-b31738aeea29",
+      "uid": "SCU140807V52",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-04T02:08:12.506Z",
+      "timestampLocal": "2026-09-04T02:08:12.506Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.230.97.122",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SCU140807V52&nombre_proveedor_razon_social=SERVICIOS+CORPORATIVOS+UWS&nombre_representante_legal=HERALDO+GOMEZ+LEPE&email=tere_flores25%40hotmail.es",
+      "previousEventHash": "e0ddb32766349405d3db3ef0578a8180fea03831d924f4e199954b6fe9e80aef",
+      "documentHash": "76142816f851d1c45f347b5e8f9c85e6c17c1a7a4572de53bfa30f8b23145037",
+      "metadata": {
+        "proveedor": "SERVICIOS CORPORATIVOS UWS",
+        "representante": "HERALDO GOMEZ LEPE"
+      },
+      "eventHash": "de4fb53547542028bd44e6487d4957a5770cd8f678510bcfe4e7127045a684e6"
+    }
+  ]
 }
