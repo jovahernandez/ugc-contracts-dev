@@ -3,7 +3,7 @@
   "declarationId": "1f5ed099-c067-4e10-81a7-24ed7c8a2fac",
   "token": "02637cb4-48dd-448c-a16a-692d0755a4dd",
   "createdAt": "2026-09-04T15:42:06.132Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PLATAFORMA DE PERIODISMO GATOPARDO SA DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "MANUEL ALEJANDRO ARTEAGA REYES",
     "email": "liz@acaciacapital.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "82250de8d2a10de84609fb9bdaf9fb971b818b8c85a6c5905782ca8d26fbc9ac",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-04T15:44:30.119Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PPG191216S75",
+  "signatureMetadata": {
+    "ip": "187.188.225.152",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+    "signedAtUtc": "2026-09-04T15:44:33.490Z",
+    "signedAtLocal": "2026-09-04T09:44:33.490Z"
+  },
+  "documentHash": "46648c1dd39a2aed55f456560d36863ce3661f78ac63fe85b3e2b8305745277d",
   "auditTrail": [
     {
       "eventId": "925c75f1-9a5f-4e92-b3b4-10bb91bb9b14",
@@ -103,6 +111,49 @@
         "representante": "MANUEL ALEJANDRO ARTEAGA REYES"
       },
       "eventHash": "c8c1393b671ce496a9946771fee527e3fad1f4531ac61f4a219288c91a85e58c"
+    },
+    {
+      "eventId": "362455e2-710e-4e75-8d94-608b8b5bac41",
+      "uid": "PPG191216S75",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-04T15:42:21.739Z",
+      "timestampLocal": "2026-09-04T15:42:21.739Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.225.152",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "c8c1393b671ce496a9946771fee527e3fad1f4531ac61f4a219288c91a85e58c",
+      "documentHash": "82250de8d2a10de84609fb9bdaf9fb971b818b8c85a6c5905782ca8d26fbc9ac",
+      "eventHash": "3c2adb98acdec72ea1a45c42c1012ad7cb6a3ad93dfc5252c7013b0424891a62"
+    },
+    {
+      "eventId": "d0d887c4-0305-4e33-8463-3e2809b8ad91",
+      "uid": "PPG191216S75",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-04T15:44:33.490Z",
+      "timestampLocal": "2026-09-04T09:44:33.490Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.225.152",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "3c2adb98acdec72ea1a45c42c1012ad7cb6a3ad93dfc5252c7013b0424891a62",
+      "documentHash": "46648c1dd39a2aed55f456560d36863ce3661f78ac63fe85b3e2b8305745277d",
+      "signatureHash": "a9f87e6b909c4053096813453901b5cf7de4b18c4b8677008fabe55f27b7184a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-04T09:44:30.119Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "da5283e26829171603b5ef6ac0a03918118fafee82c214e264b251332ea6f3e4"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-04T15:44:33.630Z"
+  }
 }
