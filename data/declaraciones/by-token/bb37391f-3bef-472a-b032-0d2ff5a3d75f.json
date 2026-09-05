@@ -3,8 +3,18 @@
   "declarationId": "7d0bf771-c72b-41b4-bace-d3a39405f292",
   "token": "bb37391f-3bef-472a-b032-0d2ff5a3d75f",
   "createdAt": "2026-09-05T16:32:03.384Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ANGIE LUCERO ARIZAGA RUIZ",
+    "nombre_representante_legal": "ANGIE LUCERO ARIZAGA RUIZ",
+    "email": "cavidafa@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ANGIE LUCERO ARIZAGA RUIZ",
+    "nombre_representante_legal": "ANGIE LUCERO ARIZAGA RUIZ",
+    "email": "cavidafa@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ANGIE LUCERO ARIZAGA RUIZ",
     "nombre_representante_legal": "ANGIE LUCERO ARIZAGA RUIZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "0dd7e79be79db44a78fc180facb9f7e64b1c07cbde585d1044f87a6f5a1152a6",
+  "auditTrail": [
+    {
+      "eventId": "218f7b5c-2f84-42ff-a0c1-562d70ed39f6",
+      "uid": "10473694561",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-05T16:32:10.997Z",
+      "timestampLocal": "2026-09-05T16:32:10.997Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.66.188.35",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-PE,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=10473694561&nombre_proveedor_razon_social=ANGIE+LUCERO+ARIZAGA+RUIZ&nombre_representante_legal=ANGIE+LUCERO+ARIZAGA+RUIZ&email=cavidafa%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "0dd7e79be79db44a78fc180facb9f7e64b1c07cbde585d1044f87a6f5a1152a6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "7025bce28449e15e713612186cf78bca3cf9f13f27e608b7f10392a2ef4efcee"
+    },
+    {
+      "eventId": "16905270-ba89-40f9-9e9f-62c946e8506e",
+      "uid": "10473694561",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-05T16:32:10.997Z",
+      "timestampLocal": "2026-09-05T16:32:10.997Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.66.188.35",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-PE,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=10473694561&nombre_proveedor_razon_social=ANGIE+LUCERO+ARIZAGA+RUIZ&nombre_representante_legal=ANGIE+LUCERO+ARIZAGA+RUIZ&email=cavidafa%40gmail.com",
+      "previousEventHash": "7025bce28449e15e713612186cf78bca3cf9f13f27e608b7f10392a2ef4efcee",
+      "documentHash": "0dd7e79be79db44a78fc180facb9f7e64b1c07cbde585d1044f87a6f5a1152a6",
+      "metadata": {
+        "proveedor": "ANGIE LUCERO ARIZAGA RUIZ",
+        "representante": "ANGIE LUCERO ARIZAGA RUIZ"
+      },
+      "eventHash": "0222255252fa3b602a87f749913347340de2e343c221fa9461ee3ddf0486ac5e"
+    }
+  ]
 }
