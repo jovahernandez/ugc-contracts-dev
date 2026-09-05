@@ -3,7 +3,7 @@
   "declarationId": "54105c77-308f-40e5-bc4a-1daa875a8dc7",
   "token": "d5e8be2f-56a3-4d6b-bbbd-bc6448673600",
   "createdAt": "2026-09-04T16:35:56.278Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GRUPO LA REPUBLICA PUBLICACIONES SA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Carla Catherina Dellafredad Fernández",
     "email": "teresa.luque@glr.pe"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c4d49ee8885124c1311ca33aff7f37caa94b6c4c81db8b0aeab2c556e2fc7903",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-05T13:37:56.948Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20517374661",
+  "signatureMetadata": {
+    "ip": "179.7.80.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-05T13:38:00.307Z",
+    "signedAtLocal": "2026-09-05T08:38:00.307Z"
+  },
+  "documentHash": "66c7a74a81da2ffef0b8f51dfc319fbf5f22029ef79786acf298d1e56145122c",
   "auditTrail": [
     {
       "eventId": "382da536-bed5-4d71-adec-8455aa51676d",
@@ -66,6 +74,49 @@
         "representante": "Carla Catherina Dellafredad Fernández"
       },
       "eventHash": "f723ce8ae1b16cc75982134fe4b92461e5fcee53e4d81abd5cfc63189fc3674f"
+    },
+    {
+      "eventId": "e98c3ce4-2e5e-4797-8386-e355f17c6a77",
+      "uid": "20517374661",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-05T13:35:45.418Z",
+      "timestampLocal": "2026-09-05T13:35:45.418Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.7.80.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,de;q=0.7,zh;q=0.6,ko;q=0.5,fr;q=0.4,it;q=0.3,pt;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20517374661&nombre_proveedor_razon_social=GRUPO+LA+REPUBLICA+PUBLICACIONES+SA&nombre_representante_legal=Carla+Catherina+Dellafredad+Fern%C3%A1ndez&email=teresa.luque%40glr.pe",
+      "previousEventHash": "f723ce8ae1b16cc75982134fe4b92461e5fcee53e4d81abd5cfc63189fc3674f",
+      "documentHash": "c4d49ee8885124c1311ca33aff7f37caa94b6c4c81db8b0aeab2c556e2fc7903",
+      "eventHash": "165c60b1cef285c103beda5ca3e2e434fcb58be6904b0df7ff2ad406371f73cf"
+    },
+    {
+      "eventId": "4d0086bc-9393-4ff5-837f-aebd7c17a6c5",
+      "uid": "20517374661",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-05T13:38:00.308Z",
+      "timestampLocal": "2026-09-05T08:38:00.308Z",
+      "timezone": "UTC-5",
+      "ipAddress": "179.7.80.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,de;q=0.7,zh;q=0.6,ko;q=0.5,fr;q=0.4,it;q=0.3,pt;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d5e8be2f-56a3-4d6b-bbbd-bc6448673600",
+      "previousEventHash": "165c60b1cef285c103beda5ca3e2e434fcb58be6904b0df7ff2ad406371f73cf",
+      "documentHash": "66c7a74a81da2ffef0b8f51dfc319fbf5f22029ef79786acf298d1e56145122c",
+      "signatureHash": "07840f0d1e2f5cd2e1b1386f4ee516f75ea90770774c690498f05c75db229059",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-05T08:37:56.948Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "01b90c392fedc45652cf0cebcd6c7b14355f8298f5029839a064dcbb2b632f02"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-05T13:38:00.515Z"
+  }
 }
