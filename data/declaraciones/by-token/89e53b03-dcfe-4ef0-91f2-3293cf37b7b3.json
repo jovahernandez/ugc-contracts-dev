@@ -3,7 +3,7 @@
   "declarationId": "d55c4ec9-1a44-4787-a1c0-c7771564bf2c",
   "token": "89e53b03-dcfe-4ef0-91f2-3293cf37b7b3",
   "createdAt": "2026-09-06T00:09:00.669Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DANIELA MARLENE MURGUIA PUGA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "DANIELA MARLENE MURGUIA PUGA",
     "email": "dra.danyderma@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c8836662c3f32b7127347889966cd719afc4b3414131657e2c0844ff432101be",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-06T00:09:30.902Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MUPD920707CI7",
+  "signatureMetadata": {
+    "ip": "187.188.64.3",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-06T00:09:34.823Z",
+    "signedAtLocal": "2026-09-05T18:09:34.823Z"
+  },
+  "documentHash": "1e2702d4eebd5ec0d7a47b15be84748afa7faac7a121c453a66521227a961434",
   "auditTrail": [
     {
       "eventId": "edafd226-cd11-4999-a62f-3d7d6002a2bb",
@@ -66,6 +74,49 @@
         "representante": "DANIELA MARLENE MURGUIA PUGA"
       },
       "eventHash": "24b404bb90ebb3921992430ffd6b92a8175708e1025f2883449bbc4b49de3946"
+    },
+    {
+      "eventId": "bafcfa47-bab8-4513-b832-30d8af15e6fa",
+      "uid": "MUPD920707CI7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-06T00:09:10.917Z",
+      "timestampLocal": "2026-09-06T00:09:10.917Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.64.3",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MUPD920707CI7&nombre_proveedor_razon_social=DANIELA+MARLENE+MURGUIA+PUGA&nombre_representante_legal=DANIELA+MARLENE+MURGUIA+PUGA&email=dra.danyderma%40gmail.com",
+      "previousEventHash": "24b404bb90ebb3921992430ffd6b92a8175708e1025f2883449bbc4b49de3946",
+      "documentHash": "c8836662c3f32b7127347889966cd719afc4b3414131657e2c0844ff432101be",
+      "eventHash": "eb1bcf2cb39da3e6ab880bf39d9070c9944e39f5c092f021e9e30bd7b4a645bf"
+    },
+    {
+      "eventId": "0668bd25-f31d-46a0-b83a-3518ccfacb10",
+      "uid": "MUPD920707CI7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-06T00:09:34.823Z",
+      "timestampLocal": "2026-09-05T18:09:34.823Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.64.3",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/89e53b03-dcfe-4ef0-91f2-3293cf37b7b3",
+      "previousEventHash": "eb1bcf2cb39da3e6ab880bf39d9070c9944e39f5c092f021e9e30bd7b4a645bf",
+      "documentHash": "1e2702d4eebd5ec0d7a47b15be84748afa7faac7a121c453a66521227a961434",
+      "signatureHash": "e4b494f5ed75028c5db60bbcd249633e0fdcb371dc9e94d62745aff21aadfb3e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-05T18:09:30.902Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "6406a83ef81483d13fd63691241bd9fcdd8c789c476e73058b1f3b997cdd86d2"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-06T00:09:35.046Z"
+  }
 }
