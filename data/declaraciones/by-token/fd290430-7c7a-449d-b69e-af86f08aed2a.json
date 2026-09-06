@@ -3,7 +3,7 @@
   "declarationId": "a12c1941-74f3-4a36-a721-6e8c47378e8e",
   "token": "fd290430-7c7a-449d-b69e-af86f08aed2a",
   "createdAt": "2026-09-06T15:25:42.510Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GELATINE MACHINE SA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JORGE ISAAC LOPEZ",
     "email": "whoisjisaac@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7ab5ff3d6c16dc039f78bb3b6f126642f30c69f4fd7e3f24dd652e10222235c6",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-06T15:26:12.395Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/15571155022021DV43",
+  "signatureMetadata": {
+    "ip": "200.75.238.66",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-06T15:26:15.817Z",
+    "signedAtLocal": "2026-09-06T10:26:15.817Z"
+  },
+  "documentHash": "df6abdd1441f49f9346e776a6227e81528c05a9aa76d2caa8d4cc16c1ea91957",
   "auditTrail": [
     {
       "eventId": "c4e8d585-d95c-4631-babf-ce3a31926af4",
@@ -66,6 +74,49 @@
         "representante": "JORGE ISAAC LOPEZ"
       },
       "eventHash": "3a910fa1f21319bc7ba211d78cd4e50891afaf2f8909bed9019d008a777621c8"
+    },
+    {
+      "eventId": "99ef4f79-c2b7-4eaa-9d62-adad0be936cf",
+      "uid": "15571155022021DV43",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-06T15:25:50.671Z",
+      "timestampLocal": "2026-09-06T15:25:50.671Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.75.238.66",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-AU,en-GB;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=15571155022021DV43&nombre_proveedor_razon_social=GELATINE+MACHINE+SA&nombre_representante_legal=JORGE+ISAAC+LOPEZ&email=whoisjisaac%40gmail.com",
+      "previousEventHash": "3a910fa1f21319bc7ba211d78cd4e50891afaf2f8909bed9019d008a777621c8",
+      "documentHash": "7ab5ff3d6c16dc039f78bb3b6f126642f30c69f4fd7e3f24dd652e10222235c6",
+      "eventHash": "82b62881a58a0a8b07abac041b2542bef3c45a66c0e571de48402009d349fb9b"
+    },
+    {
+      "eventId": "85ba297c-8163-4c5d-ae3b-044b6cdf22ac",
+      "uid": "15571155022021DV43",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-06T15:26:15.817Z",
+      "timestampLocal": "2026-09-06T10:26:15.817Z",
+      "timezone": "UTC-5",
+      "ipAddress": "200.75.238.66",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-AU,en-GB;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/fd290430-7c7a-449d-b69e-af86f08aed2a",
+      "previousEventHash": "82b62881a58a0a8b07abac041b2542bef3c45a66c0e571de48402009d349fb9b",
+      "documentHash": "df6abdd1441f49f9346e776a6227e81528c05a9aa76d2caa8d4cc16c1ea91957",
+      "signatureHash": "42c8b51620e5a80e415f85992aa095a228a927b88e4e3f19eef0974643985cca",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-06T10:26:12.395Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "70fda24d3157a80c6b87d9061f658941cd6f9e8cddbf42b11526b15ebaad5038"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-06T15:26:15.986Z"
+  }
 }
