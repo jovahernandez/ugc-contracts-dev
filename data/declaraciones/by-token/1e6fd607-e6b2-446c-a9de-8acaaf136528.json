@@ -3,7 +3,7 @@
   "declarationId": "ba26d7fe-0e31-4e58-83de-9d5809e59cc1",
   "token": "1e6fd607-e6b2-446c-a9de-8acaaf136528",
   "createdAt": "2026-09-07T22:22:13.381Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SERVICIOS CORPORATIVOS UWS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "HERALDO GOMEZ LEPE",
     "email": "tere_flores25@hotmail.es"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c69c16dd899d7a30c916eae6ef0da90f1f0295a9bb6d9d97e884acd1e59fc822",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-07T22:23:22.682Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SCU140807V52",
+  "signatureMetadata": {
+    "ip": "187.172.135.229",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-07T22:23:26.045Z",
+    "signedAtLocal": "2026-09-07T15:23:26.045Z"
+  },
+  "documentHash": "42469b58feac0e9ac1d5fc66e4e9fa8010e9ba0c3e25d8598f9bea5b5e0bd40a",
   "auditTrail": [
     {
       "eventId": "8babead4-37ed-4186-8bf2-0095a78d5c8b",
@@ -66,6 +74,64 @@
         "representante": "HERALDO GOMEZ LEPE"
       },
       "eventHash": "ffb5073dd05e0725268e13e0808c416867a9111e0d70b3289d5c4fb3b11444bf"
+    },
+    {
+      "eventId": "91b90bfb-d844-4cdf-96ee-1fa09337ef05",
+      "uid": "SCU140807V52",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-07T22:22:23.076Z",
+      "timestampLocal": "2026-09-07T22:22:23.076Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.172.135.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SCU140807V52&nombre_proveedor_razon_social=SERVICIOS+CORPORATIVOS+UWS&nombre_representante_legal=HERALDO+GOMEZ+LEPE&email=tere_flores25%40hotmail.es",
+      "previousEventHash": "ffb5073dd05e0725268e13e0808c416867a9111e0d70b3289d5c4fb3b11444bf",
+      "documentHash": "c69c16dd899d7a30c916eae6ef0da90f1f0295a9bb6d9d97e884acd1e59fc822",
+      "eventHash": "fa51a27c6502de4c707db4cc00f617d350d79590b06ad45011ce391b2f849db6"
+    },
+    {
+      "eventId": "452ad39a-dab2-4981-afff-2aad589e2a9a",
+      "uid": "SCU140807V52",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-07T22:23:02.042Z",
+      "timestampLocal": "2026-09-07T22:23:02.042Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.172.135.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "fa51a27c6502de4c707db4cc00f617d350d79590b06ad45011ce391b2f849db6",
+      "documentHash": "c69c16dd899d7a30c916eae6ef0da90f1f0295a9bb6d9d97e884acd1e59fc822",
+      "eventHash": "e7996e01e73738f556c70966d62c9700c83f9f44503a9f30bf88e29959483bac"
+    },
+    {
+      "eventId": "ecef7201-d295-422f-b2e6-38f5ccc9cecb",
+      "uid": "SCU140807V52",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-07T22:23:26.045Z",
+      "timestampLocal": "2026-09-07T15:23:26.045Z",
+      "timezone": "UTC-7",
+      "ipAddress": "187.172.135.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1e6fd607-e6b2-446c-a9de-8acaaf136528",
+      "previousEventHash": "e7996e01e73738f556c70966d62c9700c83f9f44503a9f30bf88e29959483bac",
+      "documentHash": "42469b58feac0e9ac1d5fc66e4e9fa8010e9ba0c3e25d8598f9bea5b5e0bd40a",
+      "signatureHash": "72d38b75cda86fc1e68f3cee0bc5bf96bc3f085a0aec4f69846466b9c91bf926",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-07T15:23:22.682Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "78ad67051583609f66e4df65fa2a1d10081200359d47dda1bf437b447f97413c"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-09-07T22:23:26.373Z"
+  }
 }
