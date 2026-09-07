@@ -3,7 +3,7 @@
   "declarationId": "b2bb997a-2475-4b93-9da8-6295345ba90b",
   "token": "efd6c46b-e3fb-45e9-ac60-78bee1c25be1",
   "createdAt": "2026-09-07T23:00:43.735Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EDGAR  ALEJANDRO YESCAS ROMERO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Edgar Alejandro Yescas Romero",
     "email": "ventas@impactoidea.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c30f8f74cab8f1fdb39fa673d507388f36441049a780212a24400fe4cbcd3270",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-07T23:29:32.494Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/YERE700130H98",
+  "signatureMetadata": {
+    "ip": "201.145.181.75",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-09-07T23:29:35.828Z",
+    "signedAtLocal": "2026-09-07T17:29:35.828Z"
+  },
+  "documentHash": "c1d8e52b6bf975cf36d8377e26b14df342849ce6ef5783e77566c2b5f28f3752",
   "auditTrail": [
     {
       "eventId": "3d7fb8fc-de09-4c2d-bbd0-650ea3b49bfa",
@@ -66,6 +74,64 @@
         "representante": "Edgar Alejandro Yescas Romero"
       },
       "eventHash": "83e56559b06470b58b277f18f8fefe3a542eafcb09e28e863b3f98435be5f7a6"
+    },
+    {
+      "eventId": "a175ba73-bb9e-45f0-a9a8-80969667fb47",
+      "uid": "YERE700130H98",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-07T23:00:54.488Z",
+      "timestampLocal": "2026-09-07T23:00:54.488Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.139.123.72",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=YERE700130H98&nombre_proveedor_razon_social=EDGAR++ALEJANDRO+YESCAS+ROMERO&nombre_representante_legal=Edgar+Alejandro+Yescas+Romero&email=ventas%40impactoidea.com",
+      "previousEventHash": "83e56559b06470b58b277f18f8fefe3a542eafcb09e28e863b3f98435be5f7a6",
+      "documentHash": "c30f8f74cab8f1fdb39fa673d507388f36441049a780212a24400fe4cbcd3270",
+      "eventHash": "81878160af296c1c47bf10a951b44dbe6187e1b10dbafcf21715c6e5a7f20a04"
+    },
+    {
+      "eventId": "ee7b3864-5a39-4eaf-a849-69fc444e720b",
+      "uid": "YERE700130H98",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-07T23:28:03.815Z",
+      "timestampLocal": "2026-09-07T23:28:03.815Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.145.181.75",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "81878160af296c1c47bf10a951b44dbe6187e1b10dbafcf21715c6e5a7f20a04",
+      "documentHash": "c30f8f74cab8f1fdb39fa673d507388f36441049a780212a24400fe4cbcd3270",
+      "eventHash": "dd70d475780de1b6d819e827d599fb6ad15f201dd20679147174f6cfafe4ba5a"
+    },
+    {
+      "eventId": "52c5faa4-71ad-4560-85a8-07085da06d97",
+      "uid": "YERE700130H98",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-07T23:29:35.828Z",
+      "timestampLocal": "2026-09-07T17:29:35.828Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.145.181.75",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "dd70d475780de1b6d819e827d599fb6ad15f201dd20679147174f6cfafe4ba5a",
+      "documentHash": "c1d8e52b6bf975cf36d8377e26b14df342849ce6ef5783e77566c2b5f28f3752",
+      "signatureHash": "6b19c7cf4fa6b497b3691e89e39ef193d1baa2d11fec732e014f7403e8034d50",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-07T17:29:32.494Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "2cec15dd233be18f301aefcb53f8aa76badd9cf933919be654ff2c2a527b2fa6"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-09-07T23:29:36.200Z"
+  }
 }
