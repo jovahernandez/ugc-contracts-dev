@@ -3,7 +3,7 @@
   "declarationId": "493cf56d-7d24-4b40-8110-ff9bada54601",
   "token": "5b02cda6-ee07-4752-bdb8-d5f4f59acef9",
   "createdAt": "2026-09-07T22:08:28.656Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DC INFLUENCER MARKETING SA DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Cinthya Fernanda Dussan Guzman",
     "email": "contabilidadmx@dcinfluencers.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "00ec8a7bd4d4d9953f7685fdf0350f81568654db888464336fdddbf10a6083a7",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-07T22:28:02.020Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DIM230213PI3",
+  "signatureMetadata": {
+    "ip": "186.121.68.149",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-07T22:28:07.714Z",
+    "signedAtLocal": "2026-09-07T17:28:07.714Z"
+  },
+  "documentHash": "d5ace16cc6c1249c76a5e3535cebbe59568b9dbb1aa6f5c8ef57c500979f494f",
   "auditTrail": [
     {
       "eventId": "4fc43cf2-1aba-4165-944e-acd967f659a7",
@@ -66,6 +74,49 @@
         "representante": "Cinthya Fernanda Dussan Guzman"
       },
       "eventHash": "de8759c59c576f9309e961a6e326868040dae6e4dfd91e8efd6055a18be72a3d"
+    },
+    {
+      "eventId": "bd9ea230-f0f0-4d1c-a5c4-78f967cec32c",
+      "uid": "DIM230213PI3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-07T22:08:45.459Z",
+      "timestampLocal": "2026-09-07T22:08:45.459Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.121.68.149",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DIM230213PI3&nombre_proveedor_razon_social=DC+INFLUENCER+MARKETING+SA+DE+CV&nombre_representante_legal=Cinthya+Fernanda+Dussan+Guzman&email=contabilidadmx%40dcinfluencers.com",
+      "previousEventHash": "de8759c59c576f9309e961a6e326868040dae6e4dfd91e8efd6055a18be72a3d",
+      "documentHash": "00ec8a7bd4d4d9953f7685fdf0350f81568654db888464336fdddbf10a6083a7",
+      "eventHash": "387a20beb70276897dcc95890b5f6ce85e4a81b790dc6e06fbe00f1ab95afa01"
+    },
+    {
+      "eventId": "0cd3675e-59d5-48bb-bccf-e9517c041622",
+      "uid": "DIM230213PI3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-07T22:28:07.714Z",
+      "timestampLocal": "2026-09-07T17:28:07.714Z",
+      "timezone": "UTC-5",
+      "ipAddress": "186.121.68.149",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5b02cda6-ee07-4752-bdb8-d5f4f59acef9",
+      "previousEventHash": "387a20beb70276897dcc95890b5f6ce85e4a81b790dc6e06fbe00f1ab95afa01",
+      "documentHash": "d5ace16cc6c1249c76a5e3535cebbe59568b9dbb1aa6f5c8ef57c500979f494f",
+      "signatureHash": "85e021668f8e061996880c68f21608d823def3adf9f20df039ac92683be7351d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-07T17:28:02.020Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "ddea45d6b27b9dbed7ed3e4169fe6b8928e99a671679200902241a10815c9268"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-07T22:28:07.954Z"
+  }
 }
