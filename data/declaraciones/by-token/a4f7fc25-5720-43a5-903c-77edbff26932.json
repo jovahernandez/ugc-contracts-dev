@@ -3,7 +3,7 @@
   "declarationId": "75721ecf-1ea6-47cf-bbde-6ff98f72797d",
   "token": "a4f7fc25-5720-43a5-903c-77edbff26932",
   "createdAt": "2026-09-07T12:20:36.193Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SIGLO DATA SAS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Javier Galvis Montero",
     "email": "asis.admin@siglodata.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2f56a24c32abc1a5b57a644f8a390a3f286d6791e79cc9a8c060e694882ef9f7",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-07T12:27:24.704Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/8300720712",
+  "signatureMetadata": {
+    "ip": "181.204.145.146",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-07T12:27:28.063Z",
+    "signedAtLocal": "2026-09-07T07:27:28.063Z"
+  },
+  "documentHash": "cc57eaa575083b25c3fd5d66d7914df9a4605ed9271cd299141fe210653e9025",
   "auditTrail": [
     {
       "eventId": "ae1ac270-7291-485d-8ced-4773e4f43dd9",
@@ -66,6 +74,49 @@
         "representante": "Javier Galvis Montero"
       },
       "eventHash": "bf4e09149fb5b7a6a8128027f9d059dea0fc2601887bad691cce606dfecc5de2"
+    },
+    {
+      "eventId": "f07985b4-c6ed-461b-aabf-635d8b505b21",
+      "uid": "8300720712",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-07T12:20:46.222Z",
+      "timestampLocal": "2026-09-07T12:20:46.222Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.204.145.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=8300720712&nombre_proveedor_razon_social=SIGLO+DATA+SAS&nombre_representante_legal=Javier+Galvis+Montero&email=asis.admin%40siglodata.com",
+      "previousEventHash": "bf4e09149fb5b7a6a8128027f9d059dea0fc2601887bad691cce606dfecc5de2",
+      "documentHash": "2f56a24c32abc1a5b57a644f8a390a3f286d6791e79cc9a8c060e694882ef9f7",
+      "eventHash": "da6d87ab5541f087d457777540df38aabd903b54261c96ff95d359b561923f3d"
+    },
+    {
+      "eventId": "0c609dcf-8a49-4ca5-9e1e-b6bf4d1a80db",
+      "uid": "8300720712",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-07T12:27:28.063Z",
+      "timestampLocal": "2026-09-07T07:27:28.063Z",
+      "timezone": "UTC-5",
+      "ipAddress": "181.204.145.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a4f7fc25-5720-43a5-903c-77edbff26932",
+      "previousEventHash": "da6d87ab5541f087d457777540df38aabd903b54261c96ff95d359b561923f3d",
+      "documentHash": "cc57eaa575083b25c3fd5d66d7914df9a4605ed9271cd299141fe210653e9025",
+      "signatureHash": "9e45e6c0530630421be8adef212573cb0ef37c70b16dbe38c8a361486b931193",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-07T07:27:24.704Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "4dd8f20a8636754acf7cb96101b35df4b92002f0a2f8431fba61665345b57721"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-07T12:27:28.358Z"
+  }
 }
