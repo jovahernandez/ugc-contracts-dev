@@ -3,8 +3,18 @@
   "declarationId": "ab114a67-b63e-41d5-a030-887067189b13",
   "token": "0714cd4c-e963-454b-b9ea-be91b625c6df",
   "createdAt": "2026-09-07T21:15:04.006Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "EDG OPERACIONES S.A DE C.V",
+    "nombre_representante_legal": "Yolanda Piña Queveda",
+    "email": "veronica@jardinlomasaltas.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "EDG OPERACIONES S.A DE C.V",
+    "nombre_representante_legal": "Yolanda Piña Queveda",
+    "email": "veronica@jardinlomasaltas.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "EDG OPERACIONES S.A DE C.V",
     "nombre_representante_legal": "Yolanda Piña Queveda",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "c174ab746ccc6de9bf0d4d065b0cfa58ed16d2e03cfae09484ee9e7e7610d051",
+  "auditTrail": [
+    {
+      "eventId": "152c7f06-97e8-4de8-8c55-a42b60d1051d",
+      "uid": "EOP100902J83",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-07T21:15:16.583Z",
+      "timestampLocal": "2026-09-07T21:15:16.583Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.20.94",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EOP100902J83&nombre_proveedor_razon_social=EDG+OPERACIONES+S.A+DE+C.V+&nombre_representante_legal=Yolanda+Pi%C3%B1a+Queveda+&email=veronica%40jardinlomasaltas.mx",
+      "previousEventHash": null,
+      "documentHash": "c174ab746ccc6de9bf0d4d065b0cfa58ed16d2e03cfae09484ee9e7e7610d051",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "943e188e1bab2d7c6a5acaca5a92d79dc4369e2cbb4d12f21185fe7450af59a7"
+    },
+    {
+      "eventId": "1ba9c9cc-4a7a-41a1-ab49-4fc87c2bf1f8",
+      "uid": "EOP100902J83",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-07T21:15:16.583Z",
+      "timestampLocal": "2026-09-07T21:15:16.583Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.20.94",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EOP100902J83&nombre_proveedor_razon_social=EDG+OPERACIONES+S.A+DE+C.V+&nombre_representante_legal=Yolanda+Pi%C3%B1a+Queveda+&email=veronica%40jardinlomasaltas.mx",
+      "previousEventHash": "943e188e1bab2d7c6a5acaca5a92d79dc4369e2cbb4d12f21185fe7450af59a7",
+      "documentHash": "c174ab746ccc6de9bf0d4d065b0cfa58ed16d2e03cfae09484ee9e7e7610d051",
+      "metadata": {
+        "proveedor": "EDG OPERACIONES S.A DE C.V",
+        "representante": "Yolanda Piña Queveda"
+      },
+      "eventHash": "04575c6e121145318da51b6cc52a5c312e1f421fc29c17c43055f1f4d9cbd20b"
+    }
+  ]
 }
