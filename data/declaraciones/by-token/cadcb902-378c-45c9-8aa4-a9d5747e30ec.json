@@ -3,8 +3,18 @@
   "declarationId": "47f1425f-b880-4e75-8260-9d1a85c7f14e",
   "token": "cadcb902-378c-45c9-8aa4-a9d5747e30ec",
   "createdAt": "2026-09-07T13:46:00.263Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "REVISTA COOL SRL",
+    "nombre_representante_legal": "ROXANA SCHAIMAN",
+    "email": "revistacool2024@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "REVISTA COOL SRL",
+    "nombre_representante_legal": "ROXANA SCHAIMAN",
+    "email": "revistacool2024@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "REVISTA COOL SRL",
     "nombre_representante_legal": "ROXANA SCHAIMAN",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "777e6cc0524c36cd66922580708939a2b64294da6afa1b2867832cfe600f5856",
+  "auditTrail": [
+    {
+      "eventId": "9cca544d-2f49-4c4d-a532-ce6bd7e47962",
+      "uid": "148924023",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-07T13:46:09.945Z",
+      "timestampLocal": "2026-09-07T13:46:09.945Z",
+      "timezone": "UTC+0",
+      "ipAddress": "158.172.227.222",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=148924023&nombre_proveedor_razon_social=REVISTA+COOL+SRL&nombre_representante_legal=ROXANA+SCHAIMAN&email=revistacool2024%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "777e6cc0524c36cd66922580708939a2b64294da6afa1b2867832cfe600f5856",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "578682f59e716893e4502d4c3450f6700eba75961ea9a7482301b04839cf385e"
+    },
+    {
+      "eventId": "b8ec8f96-6065-431b-a720-065f427402ea",
+      "uid": "148924023",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-07T13:46:09.945Z",
+      "timestampLocal": "2026-09-07T13:46:09.945Z",
+      "timezone": "UTC+0",
+      "ipAddress": "158.172.227.222",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=148924023&nombre_proveedor_razon_social=REVISTA+COOL+SRL&nombre_representante_legal=ROXANA+SCHAIMAN&email=revistacool2024%40gmail.com",
+      "previousEventHash": "578682f59e716893e4502d4c3450f6700eba75961ea9a7482301b04839cf385e",
+      "documentHash": "777e6cc0524c36cd66922580708939a2b64294da6afa1b2867832cfe600f5856",
+      "metadata": {
+        "proveedor": "REVISTA COOL SRL",
+        "representante": "ROXANA SCHAIMAN"
+      },
+      "eventHash": "831c3c8ae6344753145510c5f1de9adcd45b9335ebef6e2df12e38b35d895ea4"
+    }
+  ]
 }
