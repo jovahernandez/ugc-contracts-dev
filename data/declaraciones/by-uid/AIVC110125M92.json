@@ -3,7 +3,7 @@
   "declarationId": "62eefb90-6190-4faf-838a-399bb171dfa2",
   "token": "57375f76-ab8c-4a82-a3f7-2bfedcf6e3a1",
   "createdAt": "2026-09-08T02:18:00.060Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Celina Isabella Arias Vizcarra",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Armando de Leon Arcos",
     "email": "celiwaki@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6ce9599094ac3225b9457b3445310536c7c1624c67021cd0866b883b275c11ff",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-08T02:19:26.991Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AIVC110125M92",
+  "signatureMetadata": {
+    "ip": "187.235.236.96",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+    "signedAtUtc": "2026-09-08T02:19:30.349Z",
+    "signedAtLocal": "2026-09-07T20:19:30.349Z"
+  },
+  "documentHash": "ef1995ebd281633a32434f91a56ad98aefba105bac64c4736277afb611e9c5d8",
   "auditTrail": [
     {
       "eventId": "e9d0c2b8-bb99-48aa-925c-88b865abb201",
@@ -66,6 +74,49 @@
         "representante": "Armando de Leon Arcos"
       },
       "eventHash": "884fb8b9cc66eeee334e35924fb6b9521b42089219fe9d0b17dd8d358695bfd3"
+    },
+    {
+      "eventId": "f6d7b0b2-949f-47fd-8c1c-a5afde9d9150",
+      "uid": "AIVC110125M92",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-08T02:18:12.610Z",
+      "timestampLocal": "2026-09-08T02:18:12.610Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.235.236.96",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AIVC110125M92&nombre_proveedor_razon_social=Celina+Isabella+Arias+Vizcarra&nombre_representante_legal=Armando+de+Leon+Arcos&email=celiwaki%40gmail.com",
+      "previousEventHash": "884fb8b9cc66eeee334e35924fb6b9521b42089219fe9d0b17dd8d358695bfd3",
+      "documentHash": "6ce9599094ac3225b9457b3445310536c7c1624c67021cd0866b883b275c11ff",
+      "eventHash": "ae172e10719154cf3d3bddec803ec9e4a44420f3ef3071ee4c504c20aa268042"
+    },
+    {
+      "eventId": "5a89ce0f-c72b-4931-9679-d01a6966eb36",
+      "uid": "AIVC110125M92",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-08T02:19:30.349Z",
+      "timestampLocal": "2026-09-07T20:19:30.349Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.235.236.96",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/57375f76-ab8c-4a82-a3f7-2bfedcf6e3a1",
+      "previousEventHash": "ae172e10719154cf3d3bddec803ec9e4a44420f3ef3071ee4c504c20aa268042",
+      "documentHash": "ef1995ebd281633a32434f91a56ad98aefba105bac64c4736277afb611e9c5d8",
+      "signatureHash": "ffabc3901aa808a1f5aedaa4eb61e835eba04a36663ea02143c3bf44c2f10082",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-07T20:19:26.991Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "4b22c60170978925f5c42db5fdea89b639096dfdfbf051b1152051c036df2f68"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-08T02:19:30.595Z"
+  }
 }
