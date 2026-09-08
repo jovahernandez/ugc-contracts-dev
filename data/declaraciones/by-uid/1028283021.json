@@ -3,7 +3,7 @@
   "declarationId": "65368504-6dc9-41d3-aa3b-c69e0886beb0",
   "token": "6c8eeb04-81b6-4150-a593-91f7a62ad2c7",
   "createdAt": "2026-09-08T01:31:24.972Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EMPRESA DE COMUNICACION SOCIAL EL DEBER SA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "José Luis Alvares Murillo",
     "email": "carla.palacios@grupoeldeber.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "dab6804b5762416a7218d7eabf14e1a6357270e6cc0b905862fd939d8289cc8d",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-08T01:34:20.195Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/1028283021",
+  "signatureMetadata": {
+    "ip": "189.28.68.207",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+    "signedAtUtc": "2026-09-08T01:34:23.567Z",
+    "signedAtLocal": "2026-09-07T21:34:23.567Z"
+  },
+  "documentHash": "2fc86c0b26f4c963619eae647306a2983fecf6ba49512c9046c3ec47f434519a",
   "auditTrail": [
     {
       "eventId": "0ccbf822-9bcf-40b9-a496-8eae5de914fd",
@@ -66,6 +74,49 @@
         "representante": "José Luis Alvares Murillo"
       },
       "eventHash": "699a182d93d294beac91097f8ef0ba953b24c0576b45f23d9d0c506492442e2a"
+    },
+    {
+      "eventId": "42f79400-ca43-4750-832a-396ed3c1aa45",
+      "uid": "1028283021",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-08T01:31:36.598Z",
+      "timestampLocal": "2026-09-08T01:31:36.598Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.28.68.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1028283021&nombre_proveedor_razon_social=EMPRESA+DE+COMUNICACION+SOCIAL+EL+DEBER+SA&nombre_representante_legal=Jos%C3%A9+Luis+Alvares+Murillo&email=carla.palacios%40grupoeldeber.com",
+      "previousEventHash": "699a182d93d294beac91097f8ef0ba953b24c0576b45f23d9d0c506492442e2a",
+      "documentHash": "dab6804b5762416a7218d7eabf14e1a6357270e6cc0b905862fd939d8289cc8d",
+      "eventHash": "a61302cbb4aabae95a668bddb3751a94c9fd2edef85d3961812add100ff99518"
+    },
+    {
+      "eventId": "b299afec-c767-42a2-8c5e-0c619735685e",
+      "uid": "1028283021",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-08T01:34:23.567Z",
+      "timestampLocal": "2026-09-07T21:34:23.567Z",
+      "timezone": "UTC-4",
+      "ipAddress": "189.28.68.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/6c8eeb04-81b6-4150-a593-91f7a62ad2c7",
+      "previousEventHash": "a61302cbb4aabae95a668bddb3751a94c9fd2edef85d3961812add100ff99518",
+      "documentHash": "2fc86c0b26f4c963619eae647306a2983fecf6ba49512c9046c3ec47f434519a",
+      "signatureHash": "1c81134cd1d1361a52a91cd13c514ad41e97354e0d499808781e769b1cbb95e3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-07T21:34:20.195Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "62f5d27835b9b432012b7c903f41a73174d5da59b8c1534585a89fe87d4b268c"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-08T01:34:23.851Z"
+  }
 }
