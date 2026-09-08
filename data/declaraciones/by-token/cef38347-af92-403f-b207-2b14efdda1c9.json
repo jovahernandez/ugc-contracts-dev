@@ -3,8 +3,18 @@
   "declarationId": "68ce8995-277b-4d98-8c7a-31af7cc1f6a4",
   "token": "cef38347-af92-403f-b207-2b14efdda1c9",
   "createdAt": "2026-09-08T19:58:15.990Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "TC LAS MEJORES COMPAÑIAS S DE RL DE CV",
+    "nombre_representante_legal": "MARIA LAILA CHARTUNI ORTEGA",
+    "email": "jessical@thetopcompanies.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "TC LAS MEJORES COMPAÑIAS S DE RL DE CV",
+    "nombre_representante_legal": "MARIA LAILA CHARTUNI ORTEGA",
+    "email": "jessical@thetopcompanies.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "TC LAS MEJORES COMPAÑIAS S DE RL DE CV",
     "nombre_representante_legal": "MARIA LAILA CHARTUNI ORTEGA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8d78f4ebefe5c0b8827ec85fe1a20885f16f71f637ffb1fa1c6efac083d5c8ad",
+  "auditTrail": [
+    {
+      "eventId": "5b1d2428-3ea4-464f-93f9-0cfc9417f261",
+      "uid": "TMC091217U85",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-08T19:58:22.654Z",
+      "timestampLocal": "2026-09-08T19:58:22.654Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.132.103",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TMC091217U85&nombre_proveedor_razon_social=TC+LAS+MEJORES+COMPA%C3%91IAS+S+DE+RL+DE+CV&nombre_representante_legal=MARIA+LAILA+CHARTUNI+ORTEGA&email=jessical%40thetopcompanies.com.mx",
+      "previousEventHash": null,
+      "documentHash": "8d78f4ebefe5c0b8827ec85fe1a20885f16f71f637ffb1fa1c6efac083d5c8ad",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "eb23006dd6ebb0297747d16a155960b1c6d4f4b84f0e4a4e688cdf0e8682f173"
+    },
+    {
+      "eventId": "e9028720-6b5e-4414-a94e-1be4de6d6039",
+      "uid": "TMC091217U85",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-08T19:58:22.654Z",
+      "timestampLocal": "2026-09-08T19:58:22.654Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.132.103",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TMC091217U85&nombre_proveedor_razon_social=TC+LAS+MEJORES+COMPA%C3%91IAS+S+DE+RL+DE+CV&nombre_representante_legal=MARIA+LAILA+CHARTUNI+ORTEGA&email=jessical%40thetopcompanies.com.mx",
+      "previousEventHash": "eb23006dd6ebb0297747d16a155960b1c6d4f4b84f0e4a4e688cdf0e8682f173",
+      "documentHash": "8d78f4ebefe5c0b8827ec85fe1a20885f16f71f637ffb1fa1c6efac083d5c8ad",
+      "metadata": {
+        "proveedor": "TC LAS MEJORES COMPAÑIAS S DE RL DE CV",
+        "representante": "MARIA LAILA CHARTUNI ORTEGA"
+      },
+      "eventHash": "6cd1a715eccbdde54d0678694a7bacf7dec9f4df3eac34605f6a6f655fd0eab9"
+    }
+  ]
 }
