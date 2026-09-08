@@ -3,7 +3,7 @@
   "declarationId": "b0cdbc5d-1626-4ea1-8839-16aba2472f81",
   "token": "ed7f0b71-8d8c-4c97-81e2-2db1545aed5a",
   "createdAt": "2026-09-08T16:20:36.828Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "New Energy Strategy Consulting SA de CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Jeroen Jacob Jan Posma",
     "email": "agg@mexicobusiness.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "575cd03b9ae283460cd5d96edd91531102a4fa33a7c2c9a74376efd7a635fad7",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-08T16:27:00.948Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/NES110616MK8",
+  "signatureMetadata": {
+    "ip": "189.146.159.180",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-08T16:27:04.482Z",
+    "signedAtLocal": "2026-09-08T10:27:04.482Z"
+  },
+  "documentHash": "16fbdfc153dcd4d2fec30690a2a3685522bfa87f32d5c0f34a8df146553d7349",
   "auditTrail": [
     {
       "eventId": "ba478900-dbff-4095-a979-03bbe6fe883a",
@@ -66,6 +74,49 @@
         "representante": "Jeroen Jacob Jan Posma"
       },
       "eventHash": "4c47ead4b581648e090bbc4babf47e09280137534377163a4436f4b4d1d63f0e"
+    },
+    {
+      "eventId": "bfc39750-5a67-4077-8c0f-a66524a20d15",
+      "uid": "NES110616MK8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-08T16:21:27.848Z",
+      "timestampLocal": "2026-09-08T16:21:27.848Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.146.159.180",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=NES110616MK8&nombre_proveedor_razon_social=New+Energy+Strategy+Consulting+SA+de+CV&nombre_representante_legal=Jeroen+Jacob+Jan+Posma&email=agg%40mexicobusiness.mx",
+      "previousEventHash": "4c47ead4b581648e090bbc4babf47e09280137534377163a4436f4b4d1d63f0e",
+      "documentHash": "575cd03b9ae283460cd5d96edd91531102a4fa33a7c2c9a74376efd7a635fad7",
+      "eventHash": "c240e491fbb00c32c3ccd2425c28c782a18f0dafc763bce28d69b8817c1784a3"
+    },
+    {
+      "eventId": "bf818b48-ef4b-48d1-b531-1f7b08f5cac5",
+      "uid": "NES110616MK8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-08T16:27:04.482Z",
+      "timestampLocal": "2026-09-08T10:27:04.482Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.146.159.180",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ed7f0b71-8d8c-4c97-81e2-2db1545aed5a",
+      "previousEventHash": "c240e491fbb00c32c3ccd2425c28c782a18f0dafc763bce28d69b8817c1784a3",
+      "documentHash": "16fbdfc153dcd4d2fec30690a2a3685522bfa87f32d5c0f34a8df146553d7349",
+      "signatureHash": "893aa743b0523200528d42c0903e557aa2bcb6d114ee2aef83f334b11a4923bf",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-08T10:27:00.948Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "730c0342d2c529acf84aa1ffc076843c1fa09734c7cdc78a03fadece92e802fb"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-08T16:27:04.741Z"
+  }
 }
