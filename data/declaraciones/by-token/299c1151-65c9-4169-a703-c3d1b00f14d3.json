@@ -3,8 +3,18 @@
   "declarationId": "0315938a-c50d-47f4-b991-ae9e75431925",
   "token": "299c1151-65c9-4169-a703-c3d1b00f14d3",
   "createdAt": "2026-09-08T22:08:26.585Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JORGE BARRERA DAVILA",
+    "nombre_representante_legal": "JORGE BARRERA DAVILA",
+    "email": "facturacion@grupofantasia.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JORGE BARRERA DAVILA",
+    "nombre_representante_legal": "JORGE BARRERA DAVILA",
+    "email": "facturacion@grupofantasia.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "JORGE BARRERA DAVILA",
     "nombre_representante_legal": "JORGE BARRERA DAVILA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "ac3371c54f17a28723ab5b5bff2e712cd7bafd9c34e5a1dd0070dda4d5fd0050",
+  "auditTrail": [
+    {
+      "eventId": "30591e72-71b7-42b8-97c5-b2b977711178",
+      "uid": "BADJ710206737",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-08T22:08:34.994Z",
+      "timestampLocal": "2026-09-08T22:08:34.994Z",
+      "timezone": "UTC+0",
+      "ipAddress": "99.144.73.171",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "ac3371c54f17a28723ab5b5bff2e712cd7bafd9c34e5a1dd0070dda4d5fd0050",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "fdb7e1b2e980bf84bbe10eab6f4d72345d0dbc835c937b504af20321c269d15f"
+    },
+    {
+      "eventId": "c1f478aa-5a6f-4732-9db5-923106764151",
+      "uid": "BADJ710206737",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-08T22:08:34.994Z",
+      "timestampLocal": "2026-09-08T22:08:34.994Z",
+      "timezone": "UTC+0",
+      "ipAddress": "99.144.73.171",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "fdb7e1b2e980bf84bbe10eab6f4d72345d0dbc835c937b504af20321c269d15f",
+      "documentHash": "ac3371c54f17a28723ab5b5bff2e712cd7bafd9c34e5a1dd0070dda4d5fd0050",
+      "metadata": {
+        "proveedor": "JORGE BARRERA DAVILA",
+        "representante": "JORGE BARRERA DAVILA"
+      },
+      "eventHash": "0814a1d1b103db1013bf052afe46ee71d27a18f1686c436006c7ee34efd2c877"
+    }
+  ]
 }
