@@ -3,8 +3,18 @@
   "declarationId": "1ead0566-d2dd-43af-b936-29b45de43ba6",
   "token": "be0f2266-e571-428b-9726-e8e4034e693b",
   "createdAt": "2026-09-08T18:46:43.437Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Julian Alejandro Bustos Guio",
+    "nombre_representante_legal": "Julian Alejandro Bustos Guio",
+    "email": "fastdrivecolombia@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Julian Alejandro Bustos Guio",
+    "nombre_representante_legal": "Julian Alejandro Bustos Guio",
+    "email": "fastdrivecolombia@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Julian Alejandro Bustos Guio",
     "nombre_representante_legal": "Julian Alejandro Bustos Guio",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a8896e5d13e81e1740e6df7645dcb68005708e2d2e8ce3803fb1c201b5e623cd",
+  "auditTrail": [
+    {
+      "eventId": "14673ad4-d625-4f9b-9781-f1f979c243f3",
+      "uid": "1000596044",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-08T18:46:52.965Z",
+      "timestampLocal": "2026-09-08T18:46:52.965Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.155.13.30",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1000596044&nombre_proveedor_razon_social=Julian+Alejandro+Bustos+Guio&nombre_representante_legal=Julian+Alejandro+Bustos+Guio&email=fastdrivecolombia%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "a8896e5d13e81e1740e6df7645dcb68005708e2d2e8ce3803fb1c201b5e623cd",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f80dc040990de12e3dafa017d02c807f1e123247d5b75c62be53983ed11763fc"
+    },
+    {
+      "eventId": "6c300f08-3c1a-41a2-a442-af626bf45573",
+      "uid": "1000596044",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-08T18:46:52.965Z",
+      "timestampLocal": "2026-09-08T18:46:52.965Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.155.13.30",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1000596044&nombre_proveedor_razon_social=Julian+Alejandro+Bustos+Guio&nombre_representante_legal=Julian+Alejandro+Bustos+Guio&email=fastdrivecolombia%40gmail.com",
+      "previousEventHash": "f80dc040990de12e3dafa017d02c807f1e123247d5b75c62be53983ed11763fc",
+      "documentHash": "a8896e5d13e81e1740e6df7645dcb68005708e2d2e8ce3803fb1c201b5e623cd",
+      "metadata": {
+        "proveedor": "Julian Alejandro Bustos Guio",
+        "representante": "Julian Alejandro Bustos Guio"
+      },
+      "eventHash": "23661956fdd309c4a399eeeb1a57f2b2413d33e99c82ad650a2971554e868605"
+    }
+  ]
 }
