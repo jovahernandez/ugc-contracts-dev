@@ -3,8 +3,18 @@
   "declarationId": "13e57592-fbc6-42b0-8cf0-e49116320cd7",
   "token": "4eb45373-6eef-48a6-94d6-82aa283b6133",
   "createdAt": "2026-09-07T22:56:59.055Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Brenda Adriana Miranda Melogoza",
+    "nombre_representante_legal": "Brenda Adriana Miranda Melgoza",
+    "email": "brendamiranda.m@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Brenda Adriana Miranda Melogoza",
+    "nombre_representante_legal": "Brenda Adriana Miranda Melgoza",
+    "email": "brendamiranda.m@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Brenda Adriana Miranda Melogoza",
     "nombre_representante_legal": "Brenda Adriana Miranda Melgoza",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "856b67e30007ddebddd05891402f74ff5bbc388744b0413d83b4e170a06f2810",
+  "auditTrail": [
+    {
+      "eventId": "af061263-9645-45f1-91b7-472cf2a80021",
+      "uid": "MIMB790607GMA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-08T22:55:05.793Z",
+      "timestampLocal": "2026-09-08T22:55:05.793Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.252.76",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "856b67e30007ddebddd05891402f74ff5bbc388744b0413d83b4e170a06f2810",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0bca50b5e5be92ba1f6ebbc9d9af0cc624e96e5bc02171e91ad74180c0402086"
+    },
+    {
+      "eventId": "69eaa2a7-258f-4ba4-b1b9-49a8f089e2cd",
+      "uid": "MIMB790607GMA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-08T22:55:05.793Z",
+      "timestampLocal": "2026-09-08T22:55:05.793Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.252.76",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "0bca50b5e5be92ba1f6ebbc9d9af0cc624e96e5bc02171e91ad74180c0402086",
+      "documentHash": "856b67e30007ddebddd05891402f74ff5bbc388744b0413d83b4e170a06f2810",
+      "metadata": {
+        "proveedor": "Brenda Adriana Miranda Melogoza",
+        "representante": "Brenda Adriana Miranda Melgoza"
+      },
+      "eventHash": "04007abd9db47f3123c9b3f2b43e35641bf08a555c7397721ad8bceaaf26821c"
+    }
+  ]
 }
