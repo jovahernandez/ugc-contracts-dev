@@ -3,8 +3,18 @@
   "declarationId": "880380be-2b6b-4fa4-894d-07cac933aa8b",
   "token": "8c2c8b30-c14c-4df7-a3b9-ba13e4e745f0",
   "createdAt": "2026-09-08T13:57:59.809Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MOYA PRODUCTIONS LLC",
+    "nombre_representante_legal": "DIEGO CHICA MOYA",
+    "email": "tesoreria@moyaproducciones.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MOYA PRODUCTIONS LLC",
+    "nombre_representante_legal": "DIEGO CHICA MOYA",
+    "email": "tesoreria@moyaproducciones.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MOYA PRODUCTIONS LLC",
     "nombre_representante_legal": "DIEGO CHICA MOYA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d54e883a85de4e010d3b1163e9b2783add4b45feccd72b263985f95f34eab94d",
+  "auditTrail": [
+    {
+      "eventId": "294f2c6c-1a88-478a-8889-2bbaa60565b2",
+      "uid": "320764009",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-08T13:58:06.629Z",
+      "timestampLocal": "2026-09-08T13:58:06.629Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.154.144.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=320764009&nombre_proveedor_razon_social=MOYA+PRODUCTIONS+LLC&nombre_representante_legal=DIEGO+CHICA+MOYA&email=tesoreria%40moyaproducciones.com",
+      "previousEventHash": null,
+      "documentHash": "d54e883a85de4e010d3b1163e9b2783add4b45feccd72b263985f95f34eab94d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "73d366df421777d794901113a84d66ee27039009c94d1470efe6fe9c515d1b55"
+    },
+    {
+      "eventId": "b721cf0d-89a9-42e3-97b9-b69655453f98",
+      "uid": "320764009",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-08T13:58:06.629Z",
+      "timestampLocal": "2026-09-08T13:58:06.629Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.154.144.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=320764009&nombre_proveedor_razon_social=MOYA+PRODUCTIONS+LLC&nombre_representante_legal=DIEGO+CHICA+MOYA&email=tesoreria%40moyaproducciones.com",
+      "previousEventHash": "73d366df421777d794901113a84d66ee27039009c94d1470efe6fe9c515d1b55",
+      "documentHash": "d54e883a85de4e010d3b1163e9b2783add4b45feccd72b263985f95f34eab94d",
+      "metadata": {
+        "proveedor": "MOYA PRODUCTIONS LLC",
+        "representante": "DIEGO CHICA MOYA"
+      },
+      "eventHash": "e84bf92b919b9e452162e4d6b4cf9c5af8d37e5b8b3bd89b69ced2f46334ef12"
+    }
+  ]
 }
