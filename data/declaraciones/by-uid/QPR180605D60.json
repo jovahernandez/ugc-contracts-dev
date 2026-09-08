@@ -3,8 +3,18 @@
   "declarationId": "f479f000-f4f6-4f2b-b8be-f611c77bbe74",
   "token": "a037a1b7-0414-41b4-a7bc-47cd9b54258a",
   "createdAt": "2026-09-08T15:24:29.914Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MSRL DESIGN PRODUTOS E PLANEJAMENTO LTDA",
+    "nombre_representante_legal": "MARIANA SIRIANI RIBEIRO DE LIMA",
+    "email": "designer.siriani@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MSRL DESIGN PRODUTOS E PLANEJAMENTO LTDA",
+    "nombre_representante_legal": "MARIANA SIRIANI RIBEIRO DE LIMA",
+    "email": "designer.siriani@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MSRL DESIGN PRODUTOS E PLANEJAMENTO LTDA",
     "nombre_representante_legal": "MARIANA SIRIANI RIBEIRO DE LIMA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9e675db71c908dd4257b2c665b33087c07d334b75cc2bff9353ea4854b9e8af7",
+  "auditTrail": [
+    {
+      "eventId": "1ba19226-1348-4df3-8625-764faac2721b",
+      "uid": "QPR180605D60",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-08T15:24:38.397Z",
+      "timestampLocal": "2026-09-08T15:24:38.397Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.102.181.134",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=QPR180605D60&nombre_proveedor_razon_social=MSRL+DESIGN+PRODUTOS+E+PLANEJAMENTO+LTDA&nombre_representante_legal=MARIANA+SIRIANI+RIBEIRO+DE+LIMA&email=designer.siriani%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "9e675db71c908dd4257b2c665b33087c07d334b75cc2bff9353ea4854b9e8af7",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "2904697fb33e27553d7b6948fc322a3353eb30219b7e80644d96b18cea298d0f"
+    },
+    {
+      "eventId": "07500ebf-d58a-4945-98e1-312ebb52cb64",
+      "uid": "QPR180605D60",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-08T15:24:38.397Z",
+      "timestampLocal": "2026-09-08T15:24:38.397Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.102.181.134",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=QPR180605D60&nombre_proveedor_razon_social=MSRL+DESIGN+PRODUTOS+E+PLANEJAMENTO+LTDA&nombre_representante_legal=MARIANA+SIRIANI+RIBEIRO+DE+LIMA&email=designer.siriani%40gmail.com",
+      "previousEventHash": "2904697fb33e27553d7b6948fc322a3353eb30219b7e80644d96b18cea298d0f",
+      "documentHash": "9e675db71c908dd4257b2c665b33087c07d334b75cc2bff9353ea4854b9e8af7",
+      "metadata": {
+        "proveedor": "MSRL DESIGN PRODUTOS E PLANEJAMENTO LTDA",
+        "representante": "MARIANA SIRIANI RIBEIRO DE LIMA"
+      },
+      "eventHash": "a25b0f87084519c5b5ed89097774639d266fa46c873892cc0900eeed9118ac56"
+    }
+  ]
 }
