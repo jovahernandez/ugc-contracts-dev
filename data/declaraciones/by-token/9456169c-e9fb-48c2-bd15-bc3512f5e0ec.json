@@ -3,8 +3,18 @@
   "declarationId": "1fb8c684-8549-4549-9bab-4aecfa27379d",
   "token": "9456169c-e9fb-48c2-bd15-bc3512f5e0ec",
   "createdAt": "2026-09-09T13:57:31.221Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "DOLCI AUDIOVISUAL LTDA",
+    "nombre_representante_legal": "Gustavo Dolci",
+    "email": "contato@gustavodolci.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "DOLCI AUDIOVISUAL LTDA",
+    "nombre_representante_legal": "Gustavo Dolci",
+    "email": "contato@gustavodolci.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "DOLCI AUDIOVISUAL LTDA",
     "nombre_representante_legal": "Gustavo Dolci",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "ba49019b486fe09519358248195f3313f712ea68e3586e3c5ad2b9c2c45a1bd2",
+  "auditTrail": [
+    {
+      "eventId": "705ac9e2-fff8-4455-b4c1-22b80423a611",
+      "uid": "49.795.366/0001-93",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-09T13:57:36.419Z",
+      "timestampLocal": "2026-09-09T13:57:36.419Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.93.222.252",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=49.795.366%2F0001-93&nombre_proveedor_razon_social=DOLCI+AUDIOVISUAL+LTDA&nombre_representante_legal=Gustavo+Dolci&email=contato%40gustavodolci.com.br",
+      "previousEventHash": null,
+      "documentHash": "ba49019b486fe09519358248195f3313f712ea68e3586e3c5ad2b9c2c45a1bd2",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "c809207cec6851fed0e81804d1df118692e86ed38a14c6461d7df036b483a8d8"
+    },
+    {
+      "eventId": "7173ff8f-1598-4a79-99b9-04144347fe10",
+      "uid": "49.795.366/0001-93",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-09T13:57:36.419Z",
+      "timestampLocal": "2026-09-09T13:57:36.419Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.93.222.252",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=49.795.366%2F0001-93&nombre_proveedor_razon_social=DOLCI+AUDIOVISUAL+LTDA&nombre_representante_legal=Gustavo+Dolci&email=contato%40gustavodolci.com.br",
+      "previousEventHash": "c809207cec6851fed0e81804d1df118692e86ed38a14c6461d7df036b483a8d8",
+      "documentHash": "ba49019b486fe09519358248195f3313f712ea68e3586e3c5ad2b9c2c45a1bd2",
+      "metadata": {
+        "proveedor": "DOLCI AUDIOVISUAL LTDA",
+        "representante": "Gustavo Dolci"
+      },
+      "eventHash": "01c1da714b2606f3ec7fc00e4ef3d1e6e8d7e43c58be2f36c81ea39d29840b50"
+    }
+  ]
 }
