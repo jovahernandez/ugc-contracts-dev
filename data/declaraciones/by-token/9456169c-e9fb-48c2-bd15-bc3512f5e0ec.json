@@ -3,7 +3,7 @@
   "declarationId": "1fb8c684-8549-4549-9bab-4aecfa27379d",
   "token": "9456169c-e9fb-48c2-bd15-bc3512f5e0ec",
   "createdAt": "2026-09-09T13:57:31.221Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "DOLCI AUDIOVISUAL LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Gustavo Dolci",
     "email": "contato@gustavodolci.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "95d553d0bf417bad8bcd3b9b83ec62dca982e00bf34b86536687ab9b88ae2347",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-09T13:58:59.226Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/49.795.366%2F0001-93",
+  "signatureMetadata": {
+    "ip": "201.93.222.252",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-09T13:59:02.456Z",
+    "signedAtLocal": "2026-09-09T10:59:02.456Z"
+  },
+  "documentHash": "06971d9c498d76ba08468c6fa7f38db658eab3ac31caa60090e282e5ce20b7bb",
   "auditTrail": [
     {
       "eventId": "705ac9e2-fff8-4455-b4c1-22b80423a611",
@@ -251,6 +259,49 @@
         "representante": "Gustavo Dolci"
       },
       "eventHash": "87c75e7c81995e20a7827a97c1f1780aa2aeb0cae6a27d1dcb15e5d0b79ac75d"
+    },
+    {
+      "eventId": "e52f5061-73a3-483c-9872-cbd5e82a8216",
+      "uid": "49.795.366/0001-93",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-09T13:57:49.259Z",
+      "timestampLocal": "2026-09-09T13:57:49.259Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.93.222.252",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "87c75e7c81995e20a7827a97c1f1780aa2aeb0cae6a27d1dcb15e5d0b79ac75d",
+      "documentHash": "95d553d0bf417bad8bcd3b9b83ec62dca982e00bf34b86536687ab9b88ae2347",
+      "eventHash": "75486df25ac0c174e2d3b1713343f5657c9d86ca96058eae0cd09b61e46fd1b7"
+    },
+    {
+      "eventId": "f2602809-c342-48eb-b14c-474f236f06d2",
+      "uid": "49.795.366/0001-93",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-09T13:59:02.456Z",
+      "timestampLocal": "2026-09-09T10:59:02.456Z",
+      "timezone": "UTC-3",
+      "ipAddress": "201.93.222.252",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/9456169c-e9fb-48c2-bd15-bc3512f5e0ec",
+      "previousEventHash": "75486df25ac0c174e2d3b1713343f5657c9d86ca96058eae0cd09b61e46fd1b7",
+      "documentHash": "06971d9c498d76ba08468c6fa7f38db658eab3ac31caa60090e282e5ce20b7bb",
+      "signatureHash": "988b6e8d41d418c980ee9d1ffc8a0b169bd8e3ba84a83d922432f1904f217e31",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-09T10:58:59.226Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "0f410d4d37db7905782af2c74c490be3e9ed0c4fd85909bb15ad4e175833e0e3"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 14,
+    "verifiedAt": "2026-09-09T13:59:02.681Z"
+  }
 }
