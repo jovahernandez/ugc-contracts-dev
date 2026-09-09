@@ -3,8 +3,18 @@
   "declarationId": "d4277720-fe27-48de-8247-1c54b9e1025a",
   "token": "8259f9fe-bf76-4a57-a35c-4f48bed2a0d8",
   "createdAt": "2026-09-09T13:25:43.623Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Messs Agência de Comunicação Ltda",
+    "nombre_representante_legal": "Natasha Mihaliuc Dias Branco",
+    "email": "jaci.dias@messs.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Messs Agência de Comunicação Ltda",
+    "nombre_representante_legal": "Natasha Mihaliuc Dias Branco",
+    "email": "jaci.dias@messs.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Messs Agência de Comunicação Ltda",
     "nombre_representante_legal": "Natasha Mihaliuc Dias Branco",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "fbd0a863fe62af80998efb2331f8bcaf0a16342cf5e39646ac281d0d4ff8b0bf",
+  "auditTrail": [
+    {
+      "eventId": "c4ff3393-67c2-40c9-8ac8-fffaeecc8b9b",
+      "uid": "36.309.405/0001-53",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-09T13:25:50.436Z",
+      "timestampLocal": "2026-09-09T13:25:50.436Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.207.189.23",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=36.309.405%2F0001-53&nombre_proveedor_razon_social=Messs+Ag%C3%AAncia+de+Comunica%C3%A7%C3%A3o+Ltda&nombre_representante_legal=Natasha+Mihaliuc+Dias+Branco&email=jaci.dias%40messs.com.br",
+      "previousEventHash": null,
+      "documentHash": "fbd0a863fe62af80998efb2331f8bcaf0a16342cf5e39646ac281d0d4ff8b0bf",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "3ad70d55e39271a33074ef70244cde730c10957d1a81bf08f128cd0f5cba8325"
+    },
+    {
+      "eventId": "733468a0-0d7f-459e-97ce-1671c459e6b3",
+      "uid": "36.309.405/0001-53",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-09T13:25:50.436Z",
+      "timestampLocal": "2026-09-09T13:25:50.436Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.207.189.23",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=36.309.405%2F0001-53&nombre_proveedor_razon_social=Messs+Ag%C3%AAncia+de+Comunica%C3%A7%C3%A3o+Ltda&nombre_representante_legal=Natasha+Mihaliuc+Dias+Branco&email=jaci.dias%40messs.com.br",
+      "previousEventHash": "3ad70d55e39271a33074ef70244cde730c10957d1a81bf08f128cd0f5cba8325",
+      "documentHash": "fbd0a863fe62af80998efb2331f8bcaf0a16342cf5e39646ac281d0d4ff8b0bf",
+      "metadata": {
+        "proveedor": "Messs Agência de Comunicação Ltda",
+        "representante": "Natasha Mihaliuc Dias Branco"
+      },
+      "eventHash": "852f839538f8c4d7378c3038c3f18b715a01324c93d85e3dc22b6314dd7f4f60"
+    }
+  ]
 }
