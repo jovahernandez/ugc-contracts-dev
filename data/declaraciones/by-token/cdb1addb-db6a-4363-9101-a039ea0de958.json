@@ -3,7 +3,7 @@
   "declarationId": "1b4b5d3e-7065-4df7-a8aa-9180453d3fcb",
   "token": "cdb1addb-db6a-4363-9101-a039ea0de958",
   "createdAt": "2026-09-09T16:12:47.258Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "A.C. GROMANN DESIGN DE MODA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Ana Cecilia Gromann",
     "email": "ceciliagnn@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3c4de573c9338d63fe4426e2fc5002a9426fd3b9cebc0066d531f60be1f608bf",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-09T16:13:12.596Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/32.597.280%2F0001-53",
+  "signatureMetadata": {
+    "ip": "177.188.197.49",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-09T16:13:16.138Z",
+    "signedAtLocal": "2026-09-09T13:13:16.138Z"
+  },
+  "documentHash": "c05eb28f52c77914e6d700e5b89cd6ac7c3bd51e7971023c414501d4a37b6304",
   "auditTrail": [
     {
       "eventId": "28485bb2-5f4e-4d46-b327-ba917ed1940a",
@@ -105,41 +113,99 @@
       "eventHash": "2350f3af67fc39ac53fe4ed16ea4b2c970cd6ffac3268da8a21c98f66da4877f"
     },
     {
-      "eventId": "1e01f131-2516-457f-b5ab-968eab68b5d2",
+      "eventId": "64e2a9ec-cbf0-4e6a-9f9b-721b3165424a",
       "uid": "32.597.280/0001-53",
-      "eventType": "language_selected",
-      "timestampUtc": "2026-09-09T16:12:59.709Z",
-      "timestampLocal": "2026-09-09T16:12:59.709Z",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-09T16:12:59.718Z",
+      "timestampLocal": "2026-09-09T16:12:59.718Z",
       "timezone": "UTC+0",
       "ipAddress": "177.188.197.49",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
       "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=32.597.280%2F0001-53&nombre_proveedor_razon_social=A.C.+GROMANN+DESIGN+DE+MODA&nombre_representante_legal=Ana+Cecilia+Gromann&email=ceciliagnn%40gmail.com",
       "previousEventHash": "2350f3af67fc39ac53fe4ed16ea4b2c970cd6ffac3268da8a21c98f66da4877f",
-      "documentHash": "3c4de573c9338d63fe4426e2fc5002a9426fd3b9cebc0066d531f60be1f608bf",
-      "metadata": {
-        "language": "pt"
-      },
-      "eventHash": "efaa9b8374227c366192ea27f44854a6b223077a6b36f2869993789b4cc4f558"
+      "documentHash": "68273ed64daf9f88bb5ea09cd902fcaa4bddc5b49c97ca4f668c9166abfb8805",
+      "eventHash": "4a85ae5f7f0581df81e3b1c7df190458056cf4373d86d550e933195223861bbf"
     },
     {
-      "eventId": "25f6b546-9201-4fdf-9c8f-32204d9c3b90",
+      "eventId": "417d732c-7cdb-4c30-92ea-9555ab9e0cf4",
       "uid": "32.597.280/0001-53",
-      "eventType": "document_created",
-      "timestampUtc": "2026-09-09T16:12:59.709Z",
-      "timestampLocal": "2026-09-09T16:12:59.709Z",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-09T16:13:00.280Z",
+      "timestampLocal": "2026-09-09T16:13:00.280Z",
       "timezone": "UTC+0",
       "ipAddress": "177.188.197.49",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
       "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=32.597.280%2F0001-53&nombre_proveedor_razon_social=A.C.+GROMANN+DESIGN+DE+MODA&nombre_representante_legal=Ana+Cecilia+Gromann&email=ceciliagnn%40gmail.com",
-      "previousEventHash": "efaa9b8374227c366192ea27f44854a6b223077a6b36f2869993789b4cc4f558",
-      "documentHash": "3c4de573c9338d63fe4426e2fc5002a9426fd3b9cebc0066d531f60be1f608bf",
+      "previousEventHash": "4a85ae5f7f0581df81e3b1c7df190458056cf4373d86d550e933195223861bbf",
+      "documentHash": "64a8f2ffdf8a3ccfbdbe78c5178990c75ba223f2fabb05b30b5e60e45704d343",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "12abc3fc1b49eae64f6207b772dab24c6b1e7f3f590c19dd2a70fb1e24dd6f40"
+    },
+    {
+      "eventId": "1d55a6fa-03e7-48bb-9520-14825c6aecff",
+      "uid": "32.597.280/0001-53",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-09T16:13:00.280Z",
+      "timestampLocal": "2026-09-09T16:13:00.280Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.188.197.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=32.597.280%2F0001-53&nombre_proveedor_razon_social=A.C.+GROMANN+DESIGN+DE+MODA&nombre_representante_legal=Ana+Cecilia+Gromann&email=ceciliagnn%40gmail.com",
+      "previousEventHash": "12abc3fc1b49eae64f6207b772dab24c6b1e7f3f590c19dd2a70fb1e24dd6f40",
+      "documentHash": "64a8f2ffdf8a3ccfbdbe78c5178990c75ba223f2fabb05b30b5e60e45704d343",
       "metadata": {
         "proveedor": "A.C. GROMANN DESIGN DE MODA",
         "representante": "Ana Cecilia Gromann"
       },
-      "eventHash": "5d74c6866da539001e2ea35382980cb83547cf14b2869e24557a00f527c07d21"
+      "eventHash": "d1c01b1b3086ab738fc1ee6a7a0ee827e789ffced80cf25ee633fb0f6963c449"
+    },
+    {
+      "eventId": "96c21bda-314b-4211-b6a6-57482bc39e4b",
+      "uid": "32.597.280/0001-53",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-09T16:13:02.590Z",
+      "timestampLocal": "2026-09-09T16:13:02.590Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.188.197.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=32.597.280%2F0001-53&nombre_proveedor_razon_social=A.C.+GROMANN+DESIGN+DE+MODA&nombre_representante_legal=Ana+Cecilia+Gromann&email=ceciliagnn%40gmail.com",
+      "previousEventHash": "d1c01b1b3086ab738fc1ee6a7a0ee827e789ffced80cf25ee633fb0f6963c449",
+      "documentHash": "64a8f2ffdf8a3ccfbdbe78c5178990c75ba223f2fabb05b30b5e60e45704d343",
+      "eventHash": "26fdeceec490eff985358c138374ea1e6da0d9fc64c2102ba27eda673b95afe1"
+    },
+    {
+      "eventId": "8900238d-ddda-48e0-90e0-78b2f84dcd2d",
+      "uid": "32.597.280/0001-53",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-09T16:13:16.138Z",
+      "timestampLocal": "2026-09-09T13:13:16.138Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.188.197.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/cdb1addb-db6a-4363-9101-a039ea0de958",
+      "previousEventHash": "26fdeceec490eff985358c138374ea1e6da0d9fc64c2102ba27eda673b95afe1",
+      "documentHash": "c05eb28f52c77914e6d700e5b89cd6ac7c3bd51e7971023c414501d4a37b6304",
+      "signatureHash": "105a8994ca68975696234a0392c5cda84647aff729664e452e61e7d868410254",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-09T13:13:12.596Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "f69c4273d6a2bdf5063066cf2e96586d2c4014b54a2bcb631a43c6eeda7f8999"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 9,
+    "verifiedAt": "2026-09-09T16:13:16.834Z"
+  }
 }
