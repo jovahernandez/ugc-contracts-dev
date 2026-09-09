@@ -3,7 +3,7 @@
   "declarationId": "c019945e-76b0-4bd3-9720-4dd2137ad9cc",
   "token": "f9de0fe9-723a-494f-939f-be0050400c37",
   "createdAt": "2026-09-09T00:08:25.324Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Lilia Mariana Saldaña Gómez",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Ninguno",
     "email": "doctoramarianaderma@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b098363109be141cbda62535354992efa47447a7bdd6a4dae53175316c314e46",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-09T00:18:21.721Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SAGL880928G62",
+  "signatureMetadata": {
+    "ip": "200.68.173.80",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-09-09T00:18:25.139Z",
+    "signedAtLocal": "2026-09-08T18:18:25.139Z"
+  },
+  "documentHash": "4626d14b81d947d0cab6a25cbceeef7d5479559d32389338988e7e4358b33f10",
   "auditTrail": [
     {
       "eventId": "d7c9a494-554d-49bc-a9b7-9628a789c2c7",
@@ -140,6 +148,123 @@
         "representante": "Ninguno"
       },
       "eventHash": "9b7d229e9232b8568113962dccf714057befe038e25dc0f9e7eb6d4be5f5a78f"
+    },
+    {
+      "eventId": "3e210ff1-e8b6-414e-a35f-462167974528",
+      "uid": "SAGL880928G62",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-09T00:08:35.304Z",
+      "timestampLocal": "2026-09-09T00:08:35.304Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.80",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "9b7d229e9232b8568113962dccf714057befe038e25dc0f9e7eb6d4be5f5a78f",
+      "documentHash": "b098363109be141cbda62535354992efa47447a7bdd6a4dae53175316c314e46",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f1c9b59ca59c0a68eb8ae40a8996ead8fbeaebaf362bb6d3e3fb064363e17e74"
+    },
+    {
+      "eventId": "6cf3e82a-cf08-477c-92eb-9c8cd8a73f95",
+      "uid": "SAGL880928G62",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-09T00:08:35.304Z",
+      "timestampLocal": "2026-09-09T00:08:35.304Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.80",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f1c9b59ca59c0a68eb8ae40a8996ead8fbeaebaf362bb6d3e3fb064363e17e74",
+      "documentHash": "b098363109be141cbda62535354992efa47447a7bdd6a4dae53175316c314e46",
+      "metadata": {
+        "proveedor": "Lilia Mariana Saldaña Gómez",
+        "representante": "Ninguno"
+      },
+      "eventHash": "8e548018dc6319097abaeb309dffe1c2d7bd43685022ad88fcf337d0600ba312"
+    },
+    {
+      "eventId": "2b976a8b-9ca7-4257-aa2a-07d462b4f0fb",
+      "uid": "SAGL880928G62",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-09T00:08:36.633Z",
+      "timestampLocal": "2026-09-09T00:08:36.633Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.80",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8e548018dc6319097abaeb309dffe1c2d7bd43685022ad88fcf337d0600ba312",
+      "documentHash": "72a354345248c45b797bdd8feff9886633e637e1b81107026ad43ef31679389b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "71e3917b97e10d96af6544fb0c0e9ee4ef2eebfe36afa426c5672626a6f34aaf"
+    },
+    {
+      "eventId": "bd61285c-b5c7-45c1-8f47-ad887966d2fd",
+      "uid": "SAGL880928G62",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-09T00:08:36.633Z",
+      "timestampLocal": "2026-09-09T00:08:36.633Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.80",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "71e3917b97e10d96af6544fb0c0e9ee4ef2eebfe36afa426c5672626a6f34aaf",
+      "documentHash": "72a354345248c45b797bdd8feff9886633e637e1b81107026ad43ef31679389b",
+      "metadata": {
+        "proveedor": "Lilia Mariana Saldaña Gómez",
+        "representante": "Ninguno"
+      },
+      "eventHash": "e94087e3fe10f8135cbbf261241b4bb98fc11cca752968562f2d6fa5bb7150ac"
+    },
+    {
+      "eventId": "c7b79b64-72bf-48f1-ada8-85f93e582a9a",
+      "uid": "SAGL880928G62",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-09T00:08:39.323Z",
+      "timestampLocal": "2026-09-09T00:08:39.323Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.80",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "e94087e3fe10f8135cbbf261241b4bb98fc11cca752968562f2d6fa5bb7150ac",
+      "documentHash": "72a354345248c45b797bdd8feff9886633e637e1b81107026ad43ef31679389b",
+      "eventHash": "210c3253c300d3c15c5c4dfd7642bd06c23a695b09dcbf5ca8309474278b6dc0"
+    },
+    {
+      "eventId": "61103fb0-cf11-47f1-a3cf-bf2e4b124ae0",
+      "uid": "SAGL880928G62",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-09T00:18:25.139Z",
+      "timestampLocal": "2026-09-08T18:18:25.139Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.68.173.80",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "210c3253c300d3c15c5c4dfd7642bd06c23a695b09dcbf5ca8309474278b6dc0",
+      "documentHash": "4626d14b81d947d0cab6a25cbceeef7d5479559d32389338988e7e4358b33f10",
+      "signatureHash": "94f760f5c0bc8fa6f694a41d49ab4fe9b35517a4ef72aa137eb95c3ab5714478",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-08T18:18:21.721Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "505af695144211ee6a629c802d08f8110b1138b0bca71e188631606e3c7b435d"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 12,
+    "verifiedAt": "2026-09-09T00:18:25.421Z"
+  }
 }
