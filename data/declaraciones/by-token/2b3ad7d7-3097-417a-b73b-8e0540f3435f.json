@@ -3,8 +3,18 @@
   "declarationId": "7d31c307-8fc5-4d38-8211-f7d0de3b938f",
   "token": "2b3ad7d7-3097-417a-b73b-8e0540f3435f",
   "createdAt": "2026-09-09T18:50:39.121Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Jesús David Romo López",
+    "nombre_representante_legal": "Jesús David Romo López",
+    "email": "yosuromo79@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Jesús David Romo López",
+    "nombre_representante_legal": "Jesús David Romo López",
+    "email": "yosuromo79@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Jesús David Romo López",
     "nombre_representante_legal": "Jesús David Romo López",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "040a865a16306c9398b77e8c65a37d664fb7f2ae818f317ef8c58935fd2f5b8e",
+  "auditTrail": [
+    {
+      "eventId": "0f528cb1-1b3c-4424-9fae-141002cf94e9",
+      "uid": "ROLJ790312N43",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-09T18:54:04.000Z",
+      "timestampLocal": "2026-09-09T18:54:04.000Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.230.29.43",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ROLJ790312N43&nombre_proveedor_razon_social=Jes%C3%BAs+David+Romo+L%C3%B3pez+&nombre_representante_legal=Jes%C3%BAs+David+Romo+L%C3%B3pez+&email=yosuromo79%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "040a865a16306c9398b77e8c65a37d664fb7f2ae818f317ef8c58935fd2f5b8e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "030edd29f1962bb822c10f415ef56480aaee57ac6870ed551ade9a71c9e0433e"
+    },
+    {
+      "eventId": "30b24bdf-bea3-4fec-9f03-d46b4dbc789d",
+      "uid": "ROLJ790312N43",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-09T18:54:04.000Z",
+      "timestampLocal": "2026-09-09T18:54:04.000Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.230.29.43",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ROLJ790312N43&nombre_proveedor_razon_social=Jes%C3%BAs+David+Romo+L%C3%B3pez+&nombre_representante_legal=Jes%C3%BAs+David+Romo+L%C3%B3pez+&email=yosuromo79%40gmail.com",
+      "previousEventHash": "030edd29f1962bb822c10f415ef56480aaee57ac6870ed551ade9a71c9e0433e",
+      "documentHash": "040a865a16306c9398b77e8c65a37d664fb7f2ae818f317ef8c58935fd2f5b8e",
+      "metadata": {
+        "proveedor": "Jesús David Romo López",
+        "representante": "Jesús David Romo López"
+      },
+      "eventHash": "f7f832187518f48fd81897cb9627e3b4794ec5489993dc2c7e94580af1fabe93"
+    }
+  ]
 }
