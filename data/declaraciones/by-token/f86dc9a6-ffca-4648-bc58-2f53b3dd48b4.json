@@ -3,8 +3,18 @@
   "declarationId": "d3888493-3d85-4f31-9e79-b9869f811934",
   "token": "f86dc9a6-ffca-4648-bc58-2f53b3dd48b4",
   "createdAt": "2026-09-10T17:29:18.071Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "IJM PLUS SA de CV",
+    "nombre_representante_legal": "ALEJANDRO MORENO TORRENTERA",
+    "email": "mome.cases@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "IJM PLUS SA de CV",
+    "nombre_representante_legal": "ALEJANDRO MORENO TORRENTERA",
+    "email": "mome.cases@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "IJM PLUS SA de CV",
     "nombre_representante_legal": "ALEJANDRO MORENO TORRENTERA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "533d4fc0d31f34f8eefd7db3c1c9d751111af1f25427f43cd28249fcae02505c",
+  "auditTrail": [
+    {
+      "eventId": "1aa8502c-2946-41ae-b40d-d07299a8dec6",
+      "uid": "IPL240530AR1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-10T19:49:09.035Z",
+      "timestampLocal": "2026-09-10T19:49:09.035Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.224.126.15",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IPL240530AR1&nombre_proveedor_razon_social=IJM+PLUS+SA+de+CV&nombre_representante_legal=ALEJANDRO+MORENO+TORRENTERA&email=mome.cases%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "533d4fc0d31f34f8eefd7db3c1c9d751111af1f25427f43cd28249fcae02505c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f6baa37ec8e906c8606f15d697830c2572fa5b2c745fe77468821f69f1990d0a"
+    },
+    {
+      "eventId": "b9d3714f-bebe-451d-b873-ca37142f4cb9",
+      "uid": "IPL240530AR1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-10T19:49:09.035Z",
+      "timestampLocal": "2026-09-10T19:49:09.035Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.224.126.15",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IPL240530AR1&nombre_proveedor_razon_social=IJM+PLUS+SA+de+CV&nombre_representante_legal=ALEJANDRO+MORENO+TORRENTERA&email=mome.cases%40gmail.com",
+      "previousEventHash": "f6baa37ec8e906c8606f15d697830c2572fa5b2c745fe77468821f69f1990d0a",
+      "documentHash": "533d4fc0d31f34f8eefd7db3c1c9d751111af1f25427f43cd28249fcae02505c",
+      "metadata": {
+        "proveedor": "IJM PLUS SA de CV",
+        "representante": "ALEJANDRO MORENO TORRENTERA"
+      },
+      "eventHash": "60f4b9a54ff1fcbf647cda0966902e38c046f58a58447c07f87e7a93760d0139"
+    }
+  ]
 }
