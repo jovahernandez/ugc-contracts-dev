@@ -3,7 +3,7 @@
   "declarationId": "157f76b9-9218-4f31-ab51-5ce7f391fb5e",
   "token": "1b87bba1-d466-43dd-837c-c9573633ace9",
   "createdAt": "2026-09-09T17:59:13.842Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EDG OPERACIONES S.A DE C.V",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Yolanda Piña Queveda",
     "email": "veronica@jardinlomasaltas.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "be15c0725c4de2c953a066c13cad0571f8462560028b197c367a2b2f076e0cdc",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-10T18:19:56.720Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/EOP100902J83",
+  "signatureMetadata": {
+    "ip": "189.236.20.94",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+    "signedAtUtc": "2026-09-10T18:20:00.131Z",
+    "signedAtLocal": "2026-09-10T12:20:00.131Z"
+  },
+  "documentHash": "6a6978799725a3d51906efbc7a9cabde456c98cf4e5fae82ed580bf43d96dcd7",
   "auditTrail": [
     {
       "eventId": "47a92a88-b570-4e8d-aa4e-6ee2c01e392b",
@@ -103,6 +111,64 @@
         "representante": "Yolanda Piña Queveda"
       },
       "eventHash": "96a81ba55fb210196b8992b08a225b97d2a83da21f5885b314d43be06277ac01"
+    },
+    {
+      "eventId": "404cd86d-c24e-4e59-86c7-6f088fd46a6c",
+      "uid": "EOP100902J83",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-09T17:59:32.134Z",
+      "timestampLocal": "2026-09-09T17:59:32.134Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.20.94",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EOP100902J83&nombre_proveedor_razon_social=EDG+OPERACIONES+S.A+DE+C.V+&nombre_representante_legal=Yolanda+Pi%C3%B1a+Queveda+&email=veronica%40jardinlomasaltas.mx",
+      "previousEventHash": "96a81ba55fb210196b8992b08a225b97d2a83da21f5885b314d43be06277ac01",
+      "documentHash": "be15c0725c4de2c953a066c13cad0571f8462560028b197c367a2b2f076e0cdc",
+      "eventHash": "93f9f9efae51e47cefbcd8b8e30a4378c4be17e4c748f74d12c041c3a72ebb09"
+    },
+    {
+      "eventId": "428bc7ee-34b5-47a3-9325-f8ce79290e4d",
+      "uid": "EOP100902J83",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-10T18:18:11.311Z",
+      "timestampLocal": "2026-09-10T18:18:11.311Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.236.20.94",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "93f9f9efae51e47cefbcd8b8e30a4378c4be17e4c748f74d12c041c3a72ebb09",
+      "documentHash": "be15c0725c4de2c953a066c13cad0571f8462560028b197c367a2b2f076e0cdc",
+      "eventHash": "6f8f1bc6557c0fad7443beb2f7b3d262aed9c8f029e80611e06370d6e36af1d2"
+    },
+    {
+      "eventId": "90f83fb2-fe0a-4f96-a1bc-619a4399b14f",
+      "uid": "EOP100902J83",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-10T18:20:00.131Z",
+      "timestampLocal": "2026-09-10T12:20:00.131Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.236.20.94",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1b87bba1-d466-43dd-837c-c9573633ace9",
+      "previousEventHash": "6f8f1bc6557c0fad7443beb2f7b3d262aed9c8f029e80611e06370d6e36af1d2",
+      "documentHash": "6a6978799725a3d51906efbc7a9cabde456c98cf4e5fae82ed580bf43d96dcd7",
+      "signatureHash": "37fa3e7a6686697e97ab1cfacde0276a6776777be4c98e3ee796e448dad61516",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-10T12:19:56.720Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "a1fe90b95ea3010431576ad3c75e5922d6be7feddbe805c258d746fdd11bcba6"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-09-10T18:20:00.341Z"
+  }
 }
