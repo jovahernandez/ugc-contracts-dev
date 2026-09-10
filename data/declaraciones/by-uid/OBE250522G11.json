@@ -3,7 +3,7 @@
   "declarationId": "78326567-1547-4241-958c-ecaeff1b077a",
   "token": "1f2c9bbe-2b77-4dc8-9d19-7453e82316d7",
   "createdAt": "2026-09-10T21:40:37.245Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "OH BELLEZA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Javier Morones",
     "email": "mlsrbarbero01@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fb116b7486489352807bea4bbfb0d0f5d52f809877c85ab8ff18fe1d1ae7eb04",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-10T21:50:16.147Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/OBE250522G11",
+  "signatureMetadata": {
+    "ip": "189.175.123.185",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-10T21:50:19.576Z",
+    "signedAtLocal": "2026-09-10T15:50:19.576Z"
+  },
+  "documentHash": "2db31b374aeada2d811b71a47f262ae8d178ca5d8f4d23570c3cbde04159e64a",
   "auditTrail": [
     {
       "eventId": "6e133206-184c-4d6b-8bde-ceb738dee5bb",
@@ -103,6 +111,101 @@
         "representante": "Javier Morones"
       },
       "eventHash": "e1c360bea4bc3ab00ec6b095ce069b2378be100d33920a504ec72356f7fa2893"
+    },
+    {
+      "eventId": "4e5cac8e-7b20-4fc7-81d7-293e9369e072",
+      "uid": "OBE250522G11",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-10T21:40:52.417Z",
+      "timestampLocal": "2026-09-10T21:40:52.417Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OBE250522G11&nombre_proveedor_razon_social=OH+BELLEZA+&nombre_representante_legal=Javier+Morones+&email=mlsrbarbero01%40gmail.com",
+      "previousEventHash": "e1c360bea4bc3ab00ec6b095ce069b2378be100d33920a504ec72356f7fa2893",
+      "documentHash": "69e90539ff837202a7d9e9efb417792afffd8aefeb573694991ec6caf5993552",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0f6a2be9f90eab16407a21d5c6459debd50a09805b3b3cf531fd248516f1ed36"
+    },
+    {
+      "eventId": "d9950866-d1d9-48e9-a4c4-d1058776e496",
+      "uid": "OBE250522G11",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-10T21:40:52.417Z",
+      "timestampLocal": "2026-09-10T21:40:52.417Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OBE250522G11&nombre_proveedor_razon_social=OH+BELLEZA+&nombre_representante_legal=Javier+Morones+&email=mlsrbarbero01%40gmail.com",
+      "previousEventHash": "0f6a2be9f90eab16407a21d5c6459debd50a09805b3b3cf531fd248516f1ed36",
+      "documentHash": "69e90539ff837202a7d9e9efb417792afffd8aefeb573694991ec6caf5993552",
+      "metadata": {
+        "proveedor": "OH BELLEZA",
+        "representante": "Javier Morones"
+      },
+      "eventHash": "3d34a0619d87184582fd27384abbac85bf32de9e55d21a0f53bcf5759fce3505"
+    },
+    {
+      "eventId": "d328e28e-bf87-48aa-908f-fa3a7fc450b1",
+      "uid": "OBE250522G11",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-10T21:40:55.364Z",
+      "timestampLocal": "2026-09-10T21:40:55.364Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OBE250522G11&nombre_proveedor_razon_social=OH+BELLEZA+&nombre_representante_legal=Javier+Morones+&email=mlsrbarbero01%40gmail.com",
+      "previousEventHash": "3d34a0619d87184582fd27384abbac85bf32de9e55d21a0f53bcf5759fce3505",
+      "documentHash": "69e90539ff837202a7d9e9efb417792afffd8aefeb573694991ec6caf5993552",
+      "eventHash": "dbe7db9d3d8c444e1c1b5dac8e4d6babc97fd47510d46b82f4c7427a556b68e9"
+    },
+    {
+      "eventId": "bf3fea85-00de-45a7-bb8a-c278a846b0d4",
+      "uid": "OBE250522G11",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-10T21:49:30.084Z",
+      "timestampLocal": "2026-09-10T21:49:30.084Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "dbe7db9d3d8c444e1c1b5dac8e4d6babc97fd47510d46b82f4c7427a556b68e9",
+      "documentHash": "69e90539ff837202a7d9e9efb417792afffd8aefeb573694991ec6caf5993552",
+      "eventHash": "bd80f1faef8142f2895e4ae688f80e04b5124eb676404863f3b54e8690b7ae75"
+    },
+    {
+      "eventId": "b72e517e-f3f1-4713-8621-90fcffea9f6a",
+      "uid": "OBE250522G11",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-10T21:50:19.576Z",
+      "timestampLocal": "2026-09-10T15:50:19.576Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1f2c9bbe-2b77-4dc8-9d19-7453e82316d7",
+      "previousEventHash": "bd80f1faef8142f2895e4ae688f80e04b5124eb676404863f3b54e8690b7ae75",
+      "documentHash": "2db31b374aeada2d811b71a47f262ae8d178ca5d8f4d23570c3cbde04159e64a",
+      "signatureHash": "f2d97689a3539295346ed2e62ebebc82d5256ee1203a196b1714817a809c215e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-10T15:50:16.147Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "c646e2a365fb262ba3a132cbbcb95b52bfd88b033cf10955f3d082f4def89877"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 9,
+    "verifiedAt": "2026-09-10T21:50:19.733Z"
+  }
 }
