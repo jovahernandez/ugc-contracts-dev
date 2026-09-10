@@ -3,7 +3,7 @@
   "declarationId": "cfba8244-48d1-4b24-9f82-45c51e58fe08",
   "token": "dcdf470c-64c9-4adc-81b8-76f148888097",
   "createdAt": "2026-09-10T01:30:51.346Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Norma Olivia de la O Escamilla",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Norma Olivia de la O Escamilla",
     "email": "dermanas@dermaoclinic.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7ed3a1873f5862f6fc1aa84cf5be0902d4d9c16f02c1c812207d6dfdd61d83ee",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-10T01:31:31.467Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/OENO9104272F5",
+  "signatureMetadata": {
+    "ip": "187.190.171.237",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-10T01:31:34.828Z",
+    "signedAtLocal": "2026-09-09T19:31:34.828Z"
+  },
+  "documentHash": "35ce1d13e58df3c38678a63e655b9a92f292604af01a25c68cf9cfa114082219",
   "auditTrail": [
     {
       "eventId": "b8ec5678-1773-41b2-8a0a-1e9109d52141",
@@ -177,6 +185,86 @@
         "representante": "Norma Olivia de la O Escamilla"
       },
       "eventHash": "f110a12297b64d16c766053bfb245b6145edae526bc5a21cd460ce0ea6fc7bd3"
+    },
+    {
+      "eventId": "c4b15927-c367-4a59-9303-b77866c6fdcc",
+      "uid": "OENO9104272F5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-10T01:31:06.324Z",
+      "timestampLocal": "2026-09-10T01:31:06.324Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.171.237",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OENO9104272F5&nombre_proveedor_razon_social=Norma+Olivia+de+la+O+Escamilla&nombre_representante_legal=Norma+Olivia+de+la+O+Escamilla&email=dermanas%40dermaoclinic.com",
+      "previousEventHash": "f110a12297b64d16c766053bfb245b6145edae526bc5a21cd460ce0ea6fc7bd3",
+      "documentHash": "1cc930864abc26cc90ce72baf16d8ce19f8877dbf0f21d2b4c932993643ab6ca",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2cbd662e9044bdba56e851b3fb00ccb516e773a49c656ea63d13f38db4d6251b"
+    },
+    {
+      "eventId": "08bbdec1-41ce-4490-ab03-7e501a819689",
+      "uid": "OENO9104272F5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-10T01:31:06.324Z",
+      "timestampLocal": "2026-09-10T01:31:06.324Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.171.237",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OENO9104272F5&nombre_proveedor_razon_social=Norma+Olivia+de+la+O+Escamilla&nombre_representante_legal=Norma+Olivia+de+la+O+Escamilla&email=dermanas%40dermaoclinic.com",
+      "previousEventHash": "2cbd662e9044bdba56e851b3fb00ccb516e773a49c656ea63d13f38db4d6251b",
+      "documentHash": "1cc930864abc26cc90ce72baf16d8ce19f8877dbf0f21d2b4c932993643ab6ca",
+      "metadata": {
+        "proveedor": "Norma Olivia de la O Escamilla",
+        "representante": "Norma Olivia de la O Escamilla"
+      },
+      "eventHash": "fcfd51b318aae64eb66dd123d8149282a1fd0384f0255a645da0683f6c1a9942"
+    },
+    {
+      "eventId": "921333c6-e239-4ea3-9cbc-36053e142f71",
+      "uid": "OENO9104272F5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-10T01:31:08.326Z",
+      "timestampLocal": "2026-09-10T01:31:08.326Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.171.237",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OENO9104272F5&nombre_proveedor_razon_social=Norma+Olivia+de+la+O+Escamilla&nombre_representante_legal=Norma+Olivia+de+la+O+Escamilla&email=dermanas%40dermaoclinic.com",
+      "previousEventHash": "fcfd51b318aae64eb66dd123d8149282a1fd0384f0255a645da0683f6c1a9942",
+      "documentHash": "1cc930864abc26cc90ce72baf16d8ce19f8877dbf0f21d2b4c932993643ab6ca",
+      "eventHash": "9ed21adf3412c1d08242d448da8a82e7b515da664e3709903cb4c21db04c8d1f"
+    },
+    {
+      "eventId": "7774fc60-5ad5-4404-acfb-869acfeba760",
+      "uid": "OENO9104272F5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-10T01:31:34.829Z",
+      "timestampLocal": "2026-09-09T19:31:34.829Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.171.237",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/dcdf470c-64c9-4adc-81b8-76f148888097",
+      "previousEventHash": "9ed21adf3412c1d08242d448da8a82e7b515da664e3709903cb4c21db04c8d1f",
+      "documentHash": "35ce1d13e58df3c38678a63e655b9a92f292604af01a25c68cf9cfa114082219",
+      "signatureHash": "7ef3db01098878533bac3f4d9cd8f63f5c7c7160925e9f599cb868801f6b86f0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-09T19:31:31.467Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "f44b377d8dcb8d533f4435827651a0a29715fa032bc8b98116b9fe7b54bd03f8"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 12,
+    "verifiedAt": "2026-09-10T01:31:35.108Z"
+  }
 }
