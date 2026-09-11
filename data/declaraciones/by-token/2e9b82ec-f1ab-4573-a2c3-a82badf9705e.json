@@ -3,8 +3,18 @@
   "declarationId": "b7165cb9-56ad-4e71-8ef8-7af61597afac",
   "token": "2e9b82ec-f1ab-4573-a2c3-a82badf9705e",
   "createdAt": "2026-09-11T18:10:14.810Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Maytreya Nambo Punzo",
+    "nombre_representante_legal": "Maytreya Nambo Punzo",
+    "email": "maytreya222@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Maytreya Nambo Punzo",
+    "nombre_representante_legal": "Maytreya Nambo Punzo",
+    "email": "maytreya222@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Maytreya Nambo Punzo",
     "nombre_representante_legal": "Maytreya Nambo Punzo",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "810ff1262a3531434eead1256e993e19489f7b0f79d0851366ebae90d3b0b07b",
+  "auditTrail": [
+    {
+      "eventId": "5bfd976d-8b2a-4acf-8087-140d5b8ec892",
+      "uid": "NAPM960817351",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-11T18:10:24.489Z",
+      "timestampLocal": "2026-09-11T18:10:24.489Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.164.162.108",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "810ff1262a3531434eead1256e993e19489f7b0f79d0851366ebae90d3b0b07b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ad79c1151808c10d518cbd6a5a13d38af5a74460f7b9a0e34f025fb1d9506bde"
+    },
+    {
+      "eventId": "50ff9d4a-eb32-41b9-ba1d-a78daa488ca3",
+      "uid": "NAPM960817351",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-11T18:10:24.489Z",
+      "timestampLocal": "2026-09-11T18:10:24.489Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.164.162.108",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ad79c1151808c10d518cbd6a5a13d38af5a74460f7b9a0e34f025fb1d9506bde",
+      "documentHash": "810ff1262a3531434eead1256e993e19489f7b0f79d0851366ebae90d3b0b07b",
+      "metadata": {
+        "proveedor": "Maytreya Nambo Punzo",
+        "representante": "Maytreya Nambo Punzo"
+      },
+      "eventHash": "748cbf6426fa922a6366fdcb8e78ec2e9518f635ca52b00945337de380f527d6"
+    }
+  ]
 }
