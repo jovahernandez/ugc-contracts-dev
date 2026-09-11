@@ -3,7 +3,7 @@
   "declarationId": "68bc6598-c5fe-44cf-b1b4-48e70a88de7b",
   "token": "d9bd7bfb-99b2-4f58-ad9e-b8e6c2dc53ec",
   "createdAt": "2026-09-11T21:31:08.433Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Geovanni Adrover",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "-",
     "email": "geoadrover@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "29b5090b1819e2cf159a6a2a215230a9a6bfe86cc7311d9a2eff29ce7ef702a2",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-11T21:32:52.856Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/117913855",
+  "signatureMetadata": {
+    "ip": "186.151.24.92",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+    "signedAtUtc": "2026-09-11T21:32:56.217Z",
+    "signedAtLocal": "2026-09-11T15:32:56.217Z"
+  },
+  "documentHash": "da28b2ccb40395c33409c65fbf7912cc1b80de6cb96f775d523ddb84ff18fe00",
   "auditTrail": [
     {
       "eventId": "7f67140e-9cf2-4235-be69-4a33ff00f408",
@@ -66,6 +74,49 @@
         "representante": "-"
       },
       "eventHash": "595f927a0c350bdac440dd738e771450680911c11bfc0afae1fc4dfd3de411aa"
+    },
+    {
+      "eventId": "76a896a9-936b-4217-9c24-f3405b8a330b",
+      "uid": "117913855",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-11T21:31:19.769Z",
+      "timestampLocal": "2026-09-11T21:31:19.769Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.151.24.92",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,it-IT;q=0.4,it;q=0.3,es-GT;q=0.2,es-SV;q=0.1",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=117913855&nombre_proveedor_razon_social=Geovanni+Adrover&nombre_representante_legal=-&email=geoadrover%40gmail.com",
+      "previousEventHash": "595f927a0c350bdac440dd738e771450680911c11bfc0afae1fc4dfd3de411aa",
+      "documentHash": "29b5090b1819e2cf159a6a2a215230a9a6bfe86cc7311d9a2eff29ce7ef702a2",
+      "eventHash": "b9afccaefbd8dddf48bb938c72af82c19271bf1b254c28fc81a17c5fc551e5d2"
+    },
+    {
+      "eventId": "be979eac-728b-4c49-b96d-0be5a6302ea3",
+      "uid": "117913855",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-11T21:32:56.217Z",
+      "timestampLocal": "2026-09-11T15:32:56.217Z",
+      "timezone": "UTC-6",
+      "ipAddress": "186.151.24.92",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,it-IT;q=0.4,it;q=0.3,es-GT;q=0.2,es-SV;q=0.1",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d9bd7bfb-99b2-4f58-ad9e-b8e6c2dc53ec",
+      "previousEventHash": "b9afccaefbd8dddf48bb938c72af82c19271bf1b254c28fc81a17c5fc551e5d2",
+      "documentHash": "da28b2ccb40395c33409c65fbf7912cc1b80de6cb96f775d523ddb84ff18fe00",
+      "signatureHash": "408665169f72d871902f196e633bfa54c9c05db248a61a3ef833d0f81b33d35b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-11T15:32:52.856Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "ac8ff314fafe8efd035628468f42ae7607d337f4d2182a1451fbccfa33255e00"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-11T21:32:56.458Z"
+  }
 }
