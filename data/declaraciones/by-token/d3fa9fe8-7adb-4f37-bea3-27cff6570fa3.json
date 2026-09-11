@@ -3,8 +3,18 @@
   "declarationId": "7aadea32-57ee-4d51-97f2-d542a3e6f5a6",
   "token": "d3fa9fe8-7adb-4f37-bea3-27cff6570fa3",
   "createdAt": "2026-09-11T00:30:34.397Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Marco Montalvo Treviño",
+    "nombre_representante_legal": "No aplica",
+    "email": "rosapastelagency@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Marco Montalvo Treviño",
+    "nombre_representante_legal": "No aplica",
+    "email": "rosapastelagency@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Marco Montalvo Treviño",
     "nombre_representante_legal": "No aplica",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8f5f9ae6fbecbb38594fea894f6bb38da19e9464f7e594f683a8a496d5db1b39",
+  "auditTrail": [
+    {
+      "eventId": "fd14811f-bf43-420c-810d-7975cd8848bd",
+      "uid": "MOTM941214V95",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-11T00:30:41.087Z",
+      "timestampLocal": "2026-09-11T00:30:41.087Z",
+      "timezone": "UTC+0",
+      "ipAddress": "195.250.228.114",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/152.0.7977.64 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "8f5f9ae6fbecbb38594fea894f6bb38da19e9464f7e594f683a8a496d5db1b39",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "70fca40aa2560809d6fcabe4bc33465fef5ae6daadd7275ed62bf96bbc0a4264"
+    },
+    {
+      "eventId": "289cfdb7-fcc6-4d58-a11a-d49d39f89135",
+      "uid": "MOTM941214V95",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-11T00:30:41.088Z",
+      "timestampLocal": "2026-09-11T00:30:41.088Z",
+      "timezone": "UTC+0",
+      "ipAddress": "195.250.228.114",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/152.0.7977.64 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "70fca40aa2560809d6fcabe4bc33465fef5ae6daadd7275ed62bf96bbc0a4264",
+      "documentHash": "8f5f9ae6fbecbb38594fea894f6bb38da19e9464f7e594f683a8a496d5db1b39",
+      "metadata": {
+        "proveedor": "Marco Montalvo Treviño",
+        "representante": "No aplica"
+      },
+      "eventHash": "df3cd0d2e4564ba9bfc2c674accd84d8229ce2656ac7c91154adb1880a39ddd7"
+    }
+  ]
 }
