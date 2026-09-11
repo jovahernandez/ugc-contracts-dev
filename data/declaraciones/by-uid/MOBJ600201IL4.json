@@ -3,7 +3,7 @@
   "declarationId": "d794501d-c497-4989-8c96-0d9a4df0c25c",
   "token": "e232c99b-bd03-4468-96f0-0a71bf69f040",
   "createdAt": "2026-09-10T23:49:04.030Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JAVIER MORONES BULNES",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JAVIER MORONES BULNES",
     "email": "mlsrbarbero01@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fdce039f0fac4fc7119b74a86f53d0c90ecba9bbb1f8fcd53b06261ac0611d4a",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-11T00:21:48.845Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MOBJ600201IL4",
+  "signatureMetadata": {
+    "ip": "189.175.123.185",
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+    "signedAtUtc": "2026-09-11T00:21:52.224Z",
+    "signedAtLocal": "2026-09-10T18:21:52.224Z"
+  },
+  "documentHash": "bd79f372a55887c946fc39c197907d0bb3ffb7ece300c0e202484a6f53961c91",
   "auditTrail": [
     {
       "eventId": "884fdc70-be15-4716-84bd-4aa48e0c5762",
@@ -177,6 +185,154 @@
         "representante": "JAVIER MORONES BULNES"
       },
       "eventHash": "2e5f0810e33744500a1a957df5024b1409a4cdf7c7252735da1108f0c6533c0c"
+    },
+    {
+      "eventId": "061192be-4243-4af3-b5da-45a2abc0a22a",
+      "uid": "MOBJ600201IL4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-10T23:56:54.354Z",
+      "timestampLocal": "2026-09-10T23:56:54.354Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MOBJ600201IL4&nombre_proveedor_razon_social=JAVIER+MORONES+BULNES&nombre_representante_legal=JAVIER+MORONES+BULNES&email=mlsrbarbero01%40gmail.com",
+      "previousEventHash": "2e5f0810e33744500a1a957df5024b1409a4cdf7c7252735da1108f0c6533c0c",
+      "documentHash": "fdce039f0fac4fc7119b74a86f53d0c90ecba9bbb1f8fcd53b06261ac0611d4a",
+      "eventHash": "859470b9a9e7bf5319016accab1d2aab18a2ed94d4129ae7aa0d3c2521bde434"
+    },
+    {
+      "eventId": "737f1f6b-925b-407f-8bbc-5a7ea5984ed8",
+      "uid": "MOBJ600201IL4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-10T23:59:43.622Z",
+      "timestampLocal": "2026-09-10T23:59:43.622Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "859470b9a9e7bf5319016accab1d2aab18a2ed94d4129ae7aa0d3c2521bde434",
+      "documentHash": "fdce039f0fac4fc7119b74a86f53d0c90ecba9bbb1f8fcd53b06261ac0611d4a",
+      "eventHash": "827dc41f396bc2f38d02bed1bd7c2d3a2fa6424256ac8350c8ab1f25aec4337a"
+    },
+    {
+      "eventId": "ba7d231b-9c34-432c-854b-3f254455d538",
+      "uid": "MOBJ600201IL4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-11T00:04:50.311Z",
+      "timestampLocal": "2026-09-11T00:04:50.311Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "827dc41f396bc2f38d02bed1bd7c2d3a2fa6424256ac8350c8ab1f25aec4337a",
+      "documentHash": "fdce039f0fac4fc7119b74a86f53d0c90ecba9bbb1f8fcd53b06261ac0611d4a",
+      "eventHash": "971fa86fee78ece18336170fa8af157860a6d3e74d8375e6de6cff9ada146205"
+    },
+    {
+      "eventId": "70a21bc4-618c-4df1-86f1-3217fdf1c911",
+      "uid": "MOBJ600201IL4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-11T00:07:01.660Z",
+      "timestampLocal": "2026-09-11T00:07:01.660Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "971fa86fee78ece18336170fa8af157860a6d3e74d8375e6de6cff9ada146205",
+      "documentHash": "fdce039f0fac4fc7119b74a86f53d0c90ecba9bbb1f8fcd53b06261ac0611d4a",
+      "eventHash": "313c8ba1104927cf27c679f6dcbd281cc36eeaa4407f5883c8f4812ed2af14f2"
+    },
+    {
+      "eventId": "a8742a92-845e-43bd-a49c-ad6a43f6b836",
+      "uid": "MOBJ600201IL4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-11T00:14:32.715Z",
+      "timestampLocal": "2026-09-11T00:14:32.715Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "313c8ba1104927cf27c679f6dcbd281cc36eeaa4407f5883c8f4812ed2af14f2",
+      "documentHash": "fdce039f0fac4fc7119b74a86f53d0c90ecba9bbb1f8fcd53b06261ac0611d4a",
+      "eventHash": "5b07ed8986c59a2c823367e6326c59c434e6aba674c9cb144d82f34257d0e10f"
+    },
+    {
+      "eventId": "bd46c92d-cb9d-49f4-a467-14aa66ec61f5",
+      "uid": "MOBJ600201IL4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-11T00:18:33.125Z",
+      "timestampLocal": "2026-09-11T00:18:33.125Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "5b07ed8986c59a2c823367e6326c59c434e6aba674c9cb144d82f34257d0e10f",
+      "documentHash": "fdce039f0fac4fc7119b74a86f53d0c90ecba9bbb1f8fcd53b06261ac0611d4a",
+      "eventHash": "8bae74352a96abc2fa73a5a027752b4748a562ed7728531b108ad072560f4c5a"
+    },
+    {
+      "eventId": "bd7e08b1-04a0-4da7-a0c5-1c762770b238",
+      "uid": "MOBJ600201IL4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-11T00:19:48.739Z",
+      "timestampLocal": "2026-09-11T00:19:48.739Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "8bae74352a96abc2fa73a5a027752b4748a562ed7728531b108ad072560f4c5a",
+      "documentHash": "fdce039f0fac4fc7119b74a86f53d0c90ecba9bbb1f8fcd53b06261ac0611d4a",
+      "eventHash": "43743968207d89a608c81a017a2f6c190f9a24742eccfa50a74077fa7e7d0b40"
+    },
+    {
+      "eventId": "7f3a08c2-3da9-4bd9-822c-ac53f95c5c83",
+      "uid": "MOBJ600201IL4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-11T00:20:56.485Z",
+      "timestampLocal": "2026-09-11T00:20:56.485Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "43743968207d89a608c81a017a2f6c190f9a24742eccfa50a74077fa7e7d0b40",
+      "documentHash": "fdce039f0fac4fc7119b74a86f53d0c90ecba9bbb1f8fcd53b06261ac0611d4a",
+      "eventHash": "87f59924b2ff7f8bf024b48dad690afc77925b3a14e5a96adafde0f50f78ef39"
+    },
+    {
+      "eventId": "5428df79-dbbe-499b-9523-edefb601ccb7",
+      "uid": "MOBJ600201IL4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-11T00:21:52.224Z",
+      "timestampLocal": "2026-09-10T18:21:52.224Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.175.123.185",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e232c99b-bd03-4468-96f0-0a71bf69f040",
+      "previousEventHash": "87f59924b2ff7f8bf024b48dad690afc77925b3a14e5a96adafde0f50f78ef39",
+      "documentHash": "bd79f372a55887c946fc39c197907d0bb3ffb7ece300c0e202484a6f53961c91",
+      "signatureHash": "69ef48f5c8db15ef948de47c611b9203fbe414cfb398057cf96f1c342d71b039",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-10T18:21:48.845Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "e95b19d84368b54637dd3123a8785bf71e004ab0b42af21e175cdfabb33381f1"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 17,
+    "verifiedAt": "2026-09-11T00:21:52.448Z"
+  }
 }
