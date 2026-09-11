@@ -3,7 +3,7 @@
   "declarationId": "500de6de-c52f-438b-9c63-d2c49cdcfbf2",
   "token": "0c22a219-3cec-4abb-bbb3-67964831ccc9",
   "createdAt": "2026-09-11T12:15:05.250Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "D M QUEIROZ PRODUCOES ME",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Diogenes Machado de Queiroz",
     "email": "jlopes@jayoffice.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1813bc857fb636f70d1ea59704dabf148e61bf41262ee566846fe50941388ad5",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-11T12:17:40.268Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/21.905.315%2F0001-58",
+  "signatureMetadata": {
+    "ip": "191.34.70.223",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-11T12:17:43.627Z",
+    "signedAtLocal": "2026-09-11T09:17:43.627Z"
+  },
+  "documentHash": "39a2c53f29b9349425d74d4d33ae051e96b90e941441f926250ae835e45931b7",
   "auditTrail": [
     {
       "eventId": "29d40899-593a-4b71-ae54-eb9559dc025a",
@@ -103,6 +111,49 @@
         "representante": "Diogenes Machado de Queiroz"
       },
       "eventHash": "0a166b502e38c248eb26141e352c4b31b75e4232e648af9aada748da04dd3327"
+    },
+    {
+      "eventId": "d2d3d58e-d25a-4c98-aea8-c7f562ee4c9d",
+      "uid": "21.905.315/0001-58",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-11T12:15:17.906Z",
+      "timestampLocal": "2026-09-11T12:15:17.906Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.34.70.223",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=21.905.315%2F0001-58&nombre_proveedor_razon_social=D+M+QUEIROZ+PRODUCOES+ME&nombre_representante_legal=Diogenes+Machado+de+Queiroz&email=jlopes%40jayoffice.com",
+      "previousEventHash": "0a166b502e38c248eb26141e352c4b31b75e4232e648af9aada748da04dd3327",
+      "documentHash": "1813bc857fb636f70d1ea59704dabf148e61bf41262ee566846fe50941388ad5",
+      "eventHash": "71799295885f7740f81c869a228f3d4568d3423ef5654a3d3b0331628e9ed5b8"
+    },
+    {
+      "eventId": "62ffc2b9-a3c5-4757-aea7-6ce12f9b0d6f",
+      "uid": "21.905.315/0001-58",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-11T12:17:43.627Z",
+      "timestampLocal": "2026-09-11T09:17:43.627Z",
+      "timezone": "UTC-3",
+      "ipAddress": "191.34.70.223",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/0c22a219-3cec-4abb-bbb3-67964831ccc9",
+      "previousEventHash": "71799295885f7740f81c869a228f3d4568d3423ef5654a3d3b0331628e9ed5b8",
+      "documentHash": "39a2c53f29b9349425d74d4d33ae051e96b90e941441f926250ae835e45931b7",
+      "signatureHash": "bed43279ef56373398178ea97e015f380a7b53a185831345d8ae335c1c85b84e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-11T09:17:40.268Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "195c8cafeb29dbd084fe322d5a3c5823cc999b329dfcbc0b57dc1064daa52bd6"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-11T12:17:44.117Z"
+  }
 }
