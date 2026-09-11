@@ -3,7 +3,7 @@
   "declarationId": "6c3b8a5c-b755-4d0b-99eb-fcdc74ef4594",
   "token": "39a793ba-fb08-4a41-bec5-e080146ee116",
   "createdAt": "2026-09-11T19:17:56.852Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Jackeline Sorayda Granados Martinez",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Jackeline Sorayda Granados Martinez",
     "email": "dra.jackiegranados@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3c41583dc0dfa0f29a0b57256ae560b815f462db71ed492dcd5f313987c64230",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-11T19:20:20.328Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/324937-0",
+  "signatureMetadata": {
+    "ip": "190.62.47.154",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-11T19:20:23.824Z",
+    "signedAtLocal": "2026-09-11T13:20:23.824Z"
+  },
+  "documentHash": "9be3371a1c9118f236997adce52d700d7a0c1348625f9767ebd356b2aabf459e",
   "auditTrail": [
     {
       "eventId": "c2b4bc5c-9045-4e0b-9d7b-35bfc407c3bc",
@@ -103,6 +111,49 @@
         "representante": "Jackeline Sorayda Granados Martinez"
       },
       "eventHash": "f75ed1b0470ceecd97b6880a0fd3ea0ffb6f25c20004b0f573194a40fd993eb8"
+    },
+    {
+      "eventId": "310e9bd1-9d8e-494f-ba08-0eb98ce278b3",
+      "uid": "324937-0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-11T19:18:14.588Z",
+      "timestampLocal": "2026-09-11T19:18:14.588Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.62.47.154",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,fr;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=324937-0&nombre_proveedor_razon_social=Jackeline+Sorayda+Granados+Martinez&nombre_representante_legal=Jackeline+Sorayda+Granados+Martinez&email=dra.jackiegranados%40gmail.com",
+      "previousEventHash": "f75ed1b0470ceecd97b6880a0fd3ea0ffb6f25c20004b0f573194a40fd993eb8",
+      "documentHash": "3c41583dc0dfa0f29a0b57256ae560b815f462db71ed492dcd5f313987c64230",
+      "eventHash": "c519c7a130066f93dff8ca3c01b985e0c987d7fec7a5ff8e0a8d0691d0a08dbb"
+    },
+    {
+      "eventId": "9978c986-d829-4488-b15d-e5677a463523",
+      "uid": "324937-0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-11T19:20:23.824Z",
+      "timestampLocal": "2026-09-11T13:20:23.824Z",
+      "timezone": "UTC-6",
+      "ipAddress": "190.62.47.154",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,fr;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/39a793ba-fb08-4a41-bec5-e080146ee116",
+      "previousEventHash": "c519c7a130066f93dff8ca3c01b985e0c987d7fec7a5ff8e0a8d0691d0a08dbb",
+      "documentHash": "9be3371a1c9118f236997adce52d700d7a0c1348625f9767ebd356b2aabf459e",
+      "signatureHash": "881688ad880d126e5095c731ac015733b9a5297eb9857386ff42dee0180867c1",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-11T13:20:20.328Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "4b9d15158e9acd2eace502f8558b9195192cb99c29dc0bd65a2d326e18d4adb4"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-11T19:20:23.981Z"
+  }
 }
