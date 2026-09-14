@@ -3,8 +3,18 @@
   "declarationId": "1f623910-c13d-482e-b91e-22f87aef83c4",
   "token": "1cb9a78e-0b5b-4c7c-b11a-881ad696eaa3",
   "createdAt": "2026-09-14T17:11:10.246Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Sarahi Reza torres",
+    "nombre_representante_legal": "Sarahi Reza",
+    "email": "info@sarahireza.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Sarahi Reza torres",
+    "nombre_representante_legal": "Sarahi Reza",
+    "email": "info@sarahireza.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Sarahi Reza torres",
     "nombre_representante_legal": "Sarahi Reza",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a26d047ed05952dad091f45a516837dba60106ce5e0a23c16d0f12f4b181f524",
+  "auditTrail": [
+    {
+      "eventId": "3aff5e8c-5868-4be7-84dc-552b375e3bde",
+      "uid": "RETS850810FE7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-14T17:11:16.536Z",
+      "timestampLocal": "2026-09-14T17:11:16.536Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.117.81",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "a26d047ed05952dad091f45a516837dba60106ce5e0a23c16d0f12f4b181f524",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9fa11d4a32be902cbefa72bb7d5d7a1fd3199750f77890d9479d03a88726a247"
+    },
+    {
+      "eventId": "ab2b47b9-83c2-4583-8c9b-c46fa0f82b3a",
+      "uid": "RETS850810FE7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-14T17:11:16.536Z",
+      "timestampLocal": "2026-09-14T17:11:16.536Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.117.81",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "9fa11d4a32be902cbefa72bb7d5d7a1fd3199750f77890d9479d03a88726a247",
+      "documentHash": "a26d047ed05952dad091f45a516837dba60106ce5e0a23c16d0f12f4b181f524",
+      "metadata": {
+        "proveedor": "Sarahi Reza torres",
+        "representante": "Sarahi Reza"
+      },
+      "eventHash": "b7754ceca56028326fa1f02ad5be5123bcdbe77a30e806e08c21fb49cd02cf70"
+    }
+  ]
 }
