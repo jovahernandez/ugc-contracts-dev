@@ -3,8 +3,18 @@
   "declarationId": "29d3dee3-5bca-49b7-a2bc-6a87f8b939b0",
   "token": "3b2381c8-0e94-453d-b6af-46eabc9ba231",
   "createdAt": "2026-09-14T18:53:05.165Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Alejandro Tinoco Guarneros",
+    "nombre_representante_legal": "Alejandro Tinoco",
+    "email": "tinocoalejandro07@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Alejandro Tinoco Guarneros",
+    "nombre_representante_legal": "Alejandro Tinoco",
+    "email": "tinocoalejandro07@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Alejandro Tinoco Guarneros",
     "nombre_representante_legal": "Alejandro Tinoco",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "b4faf49e4d99290c1646c5a449054fe071485df5201ee7b38c336fe769b13922",
+  "auditTrail": [
+    {
+      "eventId": "256f71e3-4813-4b7e-b8e7-a8f6cc39db1b",
+      "uid": "TIGA970708LP2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-14T18:53:12.154Z",
+      "timestampLocal": "2026-09-14T18:53:12.154Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.186.197",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TIGA970708LP2&nombre_proveedor_razon_social=Alejandro+Tinoco+Guarneros&nombre_representante_legal=Alejandro+Tinoco&email=tinocoalejandro07%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "b4faf49e4d99290c1646c5a449054fe071485df5201ee7b38c336fe769b13922",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "fb0f1f7978eaccb90da1118d985d3030ed87c0977e213f993a0e732690310eeb"
+    },
+    {
+      "eventId": "e5cf4e16-a1dc-4269-ba80-209752d211db",
+      "uid": "TIGA970708LP2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-14T18:53:12.154Z",
+      "timestampLocal": "2026-09-14T18:53:12.154Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.186.197",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TIGA970708LP2&nombre_proveedor_razon_social=Alejandro+Tinoco+Guarneros&nombre_representante_legal=Alejandro+Tinoco&email=tinocoalejandro07%40gmail.com",
+      "previousEventHash": "fb0f1f7978eaccb90da1118d985d3030ed87c0977e213f993a0e732690310eeb",
+      "documentHash": "b4faf49e4d99290c1646c5a449054fe071485df5201ee7b38c336fe769b13922",
+      "metadata": {
+        "proveedor": "Alejandro Tinoco Guarneros",
+        "representante": "Alejandro Tinoco"
+      },
+      "eventHash": "2484c7c012ed19d604b7a7ed2059430f08aaafa3616ebe2da9f9b5338c21a310"
+    }
+  ]
 }
