@@ -3,7 +3,7 @@
   "declarationId": "872b7a67-892b-45c8-90ce-d47db33b9421",
   "token": "531c0579-8856-400c-8e22-17a5577f0fec",
   "createdAt": "2026-09-14T15:34:11.609Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "CIRCUITO ELEGANTE MAGAZINE LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "PRISCILA BENTES DE MELLO VAZ",
     "email": "bentes@circuitoelegante.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1d886e8d2ee57e6b3cbc0a70406c2a2f59aeb3edd2996f28a2352feb64805870",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-14T15:34:57.993Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/66.508.911%2F0001-32",
+  "signatureMetadata": {
+    "ip": "179.82.11.178",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-14T15:35:01.787Z",
+    "signedAtLocal": "2026-09-14T12:35:01.787Z"
+  },
+  "documentHash": "2b6e1bb08c471a30605c6fa61046e673fbe56ca67eb246f70e363dc07e3fbfa6",
   "auditTrail": [
     {
       "eventId": "addabb5f-6ed1-4c80-90c6-d1b1420b555f",
@@ -66,6 +74,49 @@
         "representante": "PRISCILA BENTES DE MELLO VAZ"
       },
       "eventHash": "90c4721fd08ed5bfc8074caee94c5fe8c61c42b3c540bf28b4bcc7330c32d16d"
+    },
+    {
+      "eventId": "7c57f4ba-51ea-4502-8904-5f7d08459a09",
+      "uid": "66.508.911/0001-32",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-14T15:34:23.235Z",
+      "timestampLocal": "2026-09-14T15:34:23.235Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.82.11.178",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=66.508.911%2F0001-32&nombre_proveedor_razon_social=CIRCUITO+ELEGANTE+MAGAZINE+LTDA&nombre_representante_legal=PRISCILA+BENTES+DE+MELLO+VAZ&email=bentes%40circuitoelegante.com.br",
+      "previousEventHash": "90c4721fd08ed5bfc8074caee94c5fe8c61c42b3c540bf28b4bcc7330c32d16d",
+      "documentHash": "1d886e8d2ee57e6b3cbc0a70406c2a2f59aeb3edd2996f28a2352feb64805870",
+      "eventHash": "aa4fee227db1d93648d18f392a3022cf31c96452735f9cbe2b468ac78e8c3421"
+    },
+    {
+      "eventId": "48f0a04e-e676-4542-8ed9-d56c676342c6",
+      "uid": "66.508.911/0001-32",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-14T15:35:01.787Z",
+      "timestampLocal": "2026-09-14T12:35:01.787Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.82.11.178",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/531c0579-8856-400c-8e22-17a5577f0fec",
+      "previousEventHash": "aa4fee227db1d93648d18f392a3022cf31c96452735f9cbe2b468ac78e8c3421",
+      "documentHash": "2b6e1bb08c471a30605c6fa61046e673fbe56ca67eb246f70e363dc07e3fbfa6",
+      "signatureHash": "8e9b2485ea59d46d03b35dbb6d076b916d7476d41d39f0762679fd048f169eda",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-14T12:34:57.993Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "8de76788ba443bb0f116936a9138be4dd60d87b2d45d009bc5db88691b3edb16"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-14T15:35:02.002Z"
+  }
 }
