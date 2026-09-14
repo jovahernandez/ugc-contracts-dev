@@ -3,8 +3,18 @@
   "declarationId": "53a4038f-b88c-4d21-a177-001e01d2890e",
   "token": "d3640af8-4d3b-41cc-a322-31af31b8bb8a",
   "createdAt": "2026-09-14T20:30:29.347Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "IMA TALENT",
+    "nombre_representante_legal": "ANDREA FREYRIA MUNIAIN",
+    "email": "administracion@mycrewtalent.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "IMA TALENT",
+    "nombre_representante_legal": "ANDREA FREYRIA MUNIAIN",
+    "email": "administracion@mycrewtalent.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "IMA TALENT",
     "nombre_representante_legal": "ANDREA FREYRIA MUNIAIN",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9ab2b77fdee4432c7d33a6def7084cb01594010894fed4d8679058f215ea916f",
+  "auditTrail": [
+    {
+      "eventId": "8a92b762-d88a-45fa-ac73-67b74073e9a5",
+      "uid": "ITA240912B18",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-14T20:30:38.930Z",
+      "timestampLocal": "2026-09-14T20:30:38.930Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.146.171.9",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ITA240912B18&nombre_proveedor_razon_social=IMA+TALENT&nombre_representante_legal=ANDREA+FREYRIA+MUNIAIN&email=administracion%40mycrewtalent.com",
+      "previousEventHash": null,
+      "documentHash": "9ab2b77fdee4432c7d33a6def7084cb01594010894fed4d8679058f215ea916f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "db34c6a4de20ec51a145eb4e77cb7e1140720201c05e6856d4b958fa8396a66b"
+    },
+    {
+      "eventId": "13a7d665-da71-4a24-a87c-6c1ebc9d5fd8",
+      "uid": "ITA240912B18",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-14T20:30:38.930Z",
+      "timestampLocal": "2026-09-14T20:30:38.930Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.146.171.9",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ITA240912B18&nombre_proveedor_razon_social=IMA+TALENT&nombre_representante_legal=ANDREA+FREYRIA+MUNIAIN&email=administracion%40mycrewtalent.com",
+      "previousEventHash": "db34c6a4de20ec51a145eb4e77cb7e1140720201c05e6856d4b958fa8396a66b",
+      "documentHash": "9ab2b77fdee4432c7d33a6def7084cb01594010894fed4d8679058f215ea916f",
+      "metadata": {
+        "proveedor": "IMA TALENT",
+        "representante": "ANDREA FREYRIA MUNIAIN"
+      },
+      "eventHash": "018025db897c5b47083c5ffb62890d7f5680850782658253a8e218e5351f2d33"
+    }
+  ]
 }
