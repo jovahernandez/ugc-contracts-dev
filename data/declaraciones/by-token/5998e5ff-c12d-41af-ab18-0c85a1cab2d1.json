@@ -3,8 +3,18 @@
   "declarationId": "c7332e30-5f9d-4bc2-93ae-e326e389968f",
   "token": "5998e5ff-c12d-41af-ab18-0c85a1cab2d1",
   "createdAt": "2026-09-15T01:40:22.942Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JESSICA DIAZ CHAVEZ",
+    "nombre_representante_legal": "NA",
+    "email": "herandy@meshurtalent.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JESSICA DIAZ CHAVEZ",
+    "nombre_representante_legal": "NA",
+    "email": "herandy@meshurtalent.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "JESSICA DIAZ CHAVEZ",
     "nombre_representante_legal": "NA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4c82cdfbf1fabf417432ba7151c443c5cead7b5459cb2919a6f550eb2096d4ab",
+  "auditTrail": [
+    {
+      "eventId": "04f66f03-c272-42c1-aee3-09dabf740bab",
+      "uid": "DICJ910327N2A",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-15T01:40:31.352Z",
+      "timestampLocal": "2026-09-15T01:40:31.352Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.207.80.178",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DICJ910327N2A&nombre_proveedor_razon_social=JESSICA+DIAZ+CHAVEZ&nombre_representante_legal=NA&email=herandy%40meshurtalent.com",
+      "previousEventHash": null,
+      "documentHash": "4c82cdfbf1fabf417432ba7151c443c5cead7b5459cb2919a6f550eb2096d4ab",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cfa7f5d41fcae37930adc9fc49a711d5fc34d71fc30aeeb4eaf34808ebc7e733"
+    },
+    {
+      "eventId": "53b2501b-f9ef-45b3-b578-04c5b21122c5",
+      "uid": "DICJ910327N2A",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-15T01:40:31.352Z",
+      "timestampLocal": "2026-09-15T01:40:31.352Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.207.80.178",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DICJ910327N2A&nombre_proveedor_razon_social=JESSICA+DIAZ+CHAVEZ&nombre_representante_legal=NA&email=herandy%40meshurtalent.com",
+      "previousEventHash": "cfa7f5d41fcae37930adc9fc49a711d5fc34d71fc30aeeb4eaf34808ebc7e733",
+      "documentHash": "4c82cdfbf1fabf417432ba7151c443c5cead7b5459cb2919a6f550eb2096d4ab",
+      "metadata": {
+        "proveedor": "JESSICA DIAZ CHAVEZ",
+        "representante": "NA"
+      },
+      "eventHash": "84f2b4b1dee53759e7adb35fc1e3129aca41d05cadebccfe9029cf0e8d57a8d9"
+    }
+  ]
 }
