@@ -3,7 +3,7 @@
   "declarationId": "38e0c2d6-249f-4fdd-80ba-f0ac1ae62c51",
   "token": "520ec535-ca29-4d3e-a75f-b39ecd35e215",
   "createdAt": "2026-09-15T16:57:33.310Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Estamos Ready sas",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Laura juliana Rodríguez",
     "email": "administracion@estamosready.com.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3f52fb67849371a4d5bcec4cddab5fc8977bfb3b15f9f1d6c920a68494016967",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-15T17:14:48.668Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/Estamos%20ready",
+  "signatureMetadata": {
+    "ip": "181.63.38.209",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+    "signedAtUtc": "2026-09-15T17:14:52.091Z",
+    "signedAtLocal": "2026-09-15T12:14:52.091Z"
+  },
+  "documentHash": "d266e6a39927637a6167e930ec6368772ef03523c6c1f9b5797bbffd832617de",
   "auditTrail": [
     {
       "eventId": "8b9f16bb-6345-466d-8667-edb4c93f7eee",
@@ -140,6 +148,49 @@
         "representante": "Laura juliana Rodríguez"
       },
       "eventHash": "1cf78745f05f6c569dde6da7929ab858acecf11cc6debc779bd4eafa65522df4"
+    },
+    {
+      "eventId": "1cf1dac9-5e79-4809-82e3-f49e2a5ff2f0",
+      "uid": "Estamos ready",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-15T16:57:48.162Z",
+      "timestampLocal": "2026-09-15T16:57:48.162Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.63.38.209",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "1cf78745f05f6c569dde6da7929ab858acecf11cc6debc779bd4eafa65522df4",
+      "documentHash": "3f52fb67849371a4d5bcec4cddab5fc8977bfb3b15f9f1d6c920a68494016967",
+      "eventHash": "3e4a2b5750ff6e827993b6303f8948dd296bd38e538b971498272f352154f698"
+    },
+    {
+      "eventId": "606620db-d87a-456f-923c-5f54bee3fc13",
+      "uid": "Estamos ready",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-15T17:14:52.091Z",
+      "timestampLocal": "2026-09-15T12:14:52.091Z",
+      "timezone": "UTC-5",
+      "ipAddress": "181.63.38.209",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "3e4a2b5750ff6e827993b6303f8948dd296bd38e538b971498272f352154f698",
+      "documentHash": "d266e6a39927637a6167e930ec6368772ef03523c6c1f9b5797bbffd832617de",
+      "signatureHash": "9d43da0e7622fcf00cfe668886178ba8c6a3742cdc1203e630309382f074af70",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-15T12:14:48.668Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "5a78323c8f91de82c2092eba31c01f431cf02576359aa3cc6bf9bfd922b04aaa"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-09-15T17:14:52.351Z"
+  }
 }
