@@ -3,7 +3,7 @@
   "declarationId": "071ac9cd-8c37-42a6-a2ad-9fbc0c9c2a90",
   "token": "64f14474-730e-42e5-b84f-fd7db5711618",
   "createdAt": "2026-09-15T20:56:52.552Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "KVM COMUNICACIONES SAC",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "PIEDRA ESPINOSA KARLA LORENA",
     "email": "anyeloyvegfs@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a5146f8e48febebc6b674ae9d1b942e433bceff06729e927b9394e94d64b2010",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-15T20:57:44.086Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20602127592",
+  "signatureMetadata": {
+    "ip": "200.121.230.145",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-15T20:57:47.469Z",
+    "signedAtLocal": "2026-09-15T15:57:47.469Z"
+  },
+  "documentHash": "94b02a9971ce48b758533f692ab853847ccaff813e1f48d0d0e1c90c9d617a87",
   "auditTrail": [
     {
       "eventId": "72c29a09-d86f-4875-85f7-2b3aa7836b18",
@@ -66,6 +74,49 @@
         "representante": "PIEDRA ESPINOSA KARLA LORENA"
       },
       "eventHash": "dcc94ea9817e116edfec1e0a7165b9d8dbd31c7bc78e7826d076b959ace65cd0"
+    },
+    {
+      "eventId": "381cd64e-6022-4c22-81fb-2a60cca029fd",
+      "uid": "20602127592",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-15T20:57:06.881Z",
+      "timestampLocal": "2026-09-15T20:57:06.881Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.121.230.145",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20602127592&nombre_proveedor_razon_social=KVM+COMUNICACIONES+SAC&nombre_representante_legal=PIEDRA+ESPINOSA+KARLA+LORENA&email=anyeloyvegfs%40gmail.com",
+      "previousEventHash": "dcc94ea9817e116edfec1e0a7165b9d8dbd31c7bc78e7826d076b959ace65cd0",
+      "documentHash": "a5146f8e48febebc6b674ae9d1b942e433bceff06729e927b9394e94d64b2010",
+      "eventHash": "bcd7eb19926451403961990e9379deda9a81d423f45e1cb0fb81314e43891d13"
+    },
+    {
+      "eventId": "34f70a93-ad67-4eca-be7a-829bb924450e",
+      "uid": "20602127592",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-15T20:57:47.469Z",
+      "timestampLocal": "2026-09-15T15:57:47.469Z",
+      "timezone": "UTC-5",
+      "ipAddress": "200.121.230.145",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/64f14474-730e-42e5-b84f-fd7db5711618",
+      "previousEventHash": "bcd7eb19926451403961990e9379deda9a81d423f45e1cb0fb81314e43891d13",
+      "documentHash": "94b02a9971ce48b758533f692ab853847ccaff813e1f48d0d0e1c90c9d617a87",
+      "signatureHash": "9c9d760032edd42e647a08459faacacfea65c6aece87eb1de47eb406db747f89",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-15T15:57:44.086Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "aa9475c4bccfd141f8476611ba686259228bc0ba14e2a35003dba8792ff4117d"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-15T20:57:47.723Z"
+  }
 }
