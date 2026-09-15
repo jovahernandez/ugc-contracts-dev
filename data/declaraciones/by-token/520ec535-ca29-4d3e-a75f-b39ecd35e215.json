@@ -3,8 +3,18 @@
   "declarationId": "38e0c2d6-249f-4fdd-80ba-f0ac1ae62c51",
   "token": "520ec535-ca29-4d3e-a75f-b39ecd35e215",
   "createdAt": "2026-09-15T16:57:33.310Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Estamos Ready sas",
+    "nombre_representante_legal": "Laura juliana Rodríguez",
+    "email": "administracion@estamosready.com.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Estamos Ready sas",
+    "nombre_representante_legal": "Laura juliana Rodríguez",
+    "email": "administracion@estamosready.com.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Estamos Ready sas",
     "nombre_representante_legal": "Laura juliana Rodríguez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "543283028fcc16cd662291a78e8a0a29633d899cb8421a6ef622376590d4f8a4",
+  "auditTrail": [
+    {
+      "eventId": "8b9f16bb-6345-466d-8667-edb4c93f7eee",
+      "uid": "Estamos ready",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-15T16:57:40.633Z",
+      "timestampLocal": "2026-09-15T16:57:40.633Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.63.38.209",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "543283028fcc16cd662291a78e8a0a29633d899cb8421a6ef622376590d4f8a4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "04ee925c680695314357c7cc0df052779dfe914502166519699362ef9d83186e"
+    },
+    {
+      "eventId": "0948c115-4731-4de7-8721-58b2cb39d79b",
+      "uid": "Estamos ready",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-15T16:57:40.633Z",
+      "timestampLocal": "2026-09-15T16:57:40.633Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.63.38.209",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "04ee925c680695314357c7cc0df052779dfe914502166519699362ef9d83186e",
+      "documentHash": "543283028fcc16cd662291a78e8a0a29633d899cb8421a6ef622376590d4f8a4",
+      "metadata": {
+        "proveedor": "Estamos Ready sas",
+        "representante": "Laura juliana Rodríguez"
+      },
+      "eventHash": "4626983be8486c3ff408046f52cb22347d7d7b93df414314fb69e359d63e5c8c"
+    }
+  ]
 }
