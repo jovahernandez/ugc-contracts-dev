@@ -3,7 +3,7 @@
   "declarationId": "8e80c6ae-cc5e-4cca-9985-22669b4afa40",
   "token": "4bb54f89-3dae-401e-996b-84b7e95e24b3",
   "createdAt": "2026-09-15T19:04:35.579Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "MAKERS.AG LIVE MARKETING LTDA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "LUIS HENRIQUE MAZZI",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "763449c169d92b25cdaab490faadb7ca8dfe5cc14c3957a6f044ab280b7665d9",
+  "personaAutorizada": null,
+  "signedAt": "2026-09-15T19:04:50.629Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/41.103.431%2F0001-60",
+  "signatureMetadata": {
+    "ip": "207.223.100.146",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "signedAtUtc": "2026-09-15T19:04:53.964Z",
+    "signedAtLocal": "2026-09-15T16:04:53.964Z"
+  },
+  "documentHash": "353176761739fab956eca08b46fd2e2c52048cb4572f57a339ddb0f562a70e3f",
   "auditTrail": [
     {
       "eventId": "b8d78c96-d60c-472e-80cc-dbfd2a33dab4",
@@ -66,6 +72,47 @@
         "representante": "LUIS HENRIQUE MAZZI"
       },
       "eventHash": "3eb68e25990ce9c887672927870943b6fc3efbd8e0b43793d5e6052ee98a7404"
+    },
+    {
+      "eventId": "08cbac3a-9b54-4e32-876f-2a63a5f50568",
+      "uid": "41.103.431/0001-60",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-15T19:04:43.860Z",
+      "timestampLocal": "2026-09-15T19:04:43.860Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=41.103.431%2F0001-60&nombre_proveedor_razon_social=MAKERS.AG+LIVE+MARKETING+LTDA&nombre_representante_legal=LUIS+HENRIQUE+MAZZI&email=vinicius.santos%40another.co",
+      "previousEventHash": "3eb68e25990ce9c887672927870943b6fc3efbd8e0b43793d5e6052ee98a7404",
+      "documentHash": "763449c169d92b25cdaab490faadb7ca8dfe5cc14c3957a6f044ab280b7665d9",
+      "eventHash": "8bb7912e5bb68c199385f0ff7429fbd1a1babb7b108f94a6f8e6ccdcec0a1ef4"
+    },
+    {
+      "eventId": "c8aba979-fca7-411d-94a0-890894f6fd82",
+      "uid": "41.103.431/0001-60",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-15T19:04:53.964Z",
+      "timestampLocal": "2026-09-15T16:04:53.964Z",
+      "timezone": "UTC-3",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/4bb54f89-3dae-401e-996b-84b7e95e24b3",
+      "previousEventHash": "8bb7912e5bb68c199385f0ff7429fbd1a1babb7b108f94a6f8e6ccdcec0a1ef4",
+      "documentHash": "353176761739fab956eca08b46fd2e2c52048cb4572f57a339ddb0f562a70e3f",
+      "signatureHash": "856df3729fbb8de8a478b3bf4739a290fb9ea1a5563a0a051a29ee2004e83159",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-15T16:04:50.629Z"
+      },
+      "eventHash": "d64aa4101d8afdb7b11b515aef3dbd86b6bc088cb031fbf6976505ce98b20eae"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-15T19:04:54.203Z"
+  }
 }
