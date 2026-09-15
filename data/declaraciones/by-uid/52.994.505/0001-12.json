@@ -3,8 +3,18 @@
   "declarationId": "00f39315-3acd-45ec-8955-d8467580c5be",
   "token": "7beeefa4-5b74-469b-b4e8-5168c3c6c94e",
   "createdAt": "2026-09-15T17:51:11.018Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GUSTAVO CZOU LTDA",
+    "nombre_representante_legal": "GUSTAVO CZOUPINSKI ROEPER",
+    "email": "vinicius.santos@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GUSTAVO CZOU LTDA",
+    "nombre_representante_legal": "GUSTAVO CZOUPINSKI ROEPER",
+    "email": "vinicius.santos@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GUSTAVO CZOU LTDA",
     "nombre_representante_legal": "GUSTAVO CZOUPINSKI ROEPER",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "69c0019bcdf862004a6a2989132b08b8a0c382cfc62fcc46ca9cbee2d939b7b2",
+  "auditTrail": [
+    {
+      "eventId": "ebefbaa9-77b8-486b-8a34-ff31b0d047ea",
+      "uid": "52.994.505/0001-12",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-15T17:51:22.807Z",
+      "timestampLocal": "2026-09-15T17:51:22.807Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=52.994.505%2F0001-12&nombre_proveedor_razon_social=GUSTAVO+CZOU+LTDA&nombre_representante_legal=GUSTAVO+CZOUPINSKI+ROEPER&email=vinicius.santos%40another.co",
+      "previousEventHash": null,
+      "documentHash": "69c0019bcdf862004a6a2989132b08b8a0c382cfc62fcc46ca9cbee2d939b7b2",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "8e4f085a269d0c0ef796422c9ac9b916409b39da076f40a197a364e6e1f2dcbb"
+    },
+    {
+      "eventId": "c35690b6-97e9-435b-8526-db1413e4511e",
+      "uid": "52.994.505/0001-12",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-15T17:51:22.807Z",
+      "timestampLocal": "2026-09-15T17:51:22.807Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=52.994.505%2F0001-12&nombre_proveedor_razon_social=GUSTAVO+CZOU+LTDA&nombre_representante_legal=GUSTAVO+CZOUPINSKI+ROEPER&email=vinicius.santos%40another.co",
+      "previousEventHash": "8e4f085a269d0c0ef796422c9ac9b916409b39da076f40a197a364e6e1f2dcbb",
+      "documentHash": "69c0019bcdf862004a6a2989132b08b8a0c382cfc62fcc46ca9cbee2d939b7b2",
+      "metadata": {
+        "proveedor": "GUSTAVO CZOU LTDA",
+        "representante": "GUSTAVO CZOUPINSKI ROEPER"
+      },
+      "eventHash": "1651b6e8ae71943d281d4f622f26f70cf7c6e3a509d399d0859c5fbb7898986a"
+    }
+  ]
 }
