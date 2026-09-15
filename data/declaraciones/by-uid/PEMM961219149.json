@@ -3,7 +3,7 @@
   "declarationId": "857a3437-b84d-4bc6-b32c-bd78613f67ef",
   "token": "b76712e3-546e-4038-941f-3c308ca88136",
   "createdAt": "2026-09-12T03:02:27.309Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Montserrat Petriciolet Mendoza",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Montserrat Petriciolet Mendoza",
     "email": "mn30guerra@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "33adbdfac50424802e4c4211aa864c9aae87a328005c7f008967183b759c2b47",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-15T15:17:44.315Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PEMM961219149",
+  "signatureMetadata": {
+    "ip": "189.203.88.63",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-09-15T15:17:47.717Z",
+    "signedAtLocal": "2026-09-15T09:17:47.717Z"
+  },
+  "documentHash": "397e69516a9d67e690cdf41a81eaf611dba2f0c8862ea2c378d466a9d17ab951",
   "auditTrail": [
     {
       "eventId": "e0ed7874-4bc9-41ba-ba21-5bb82d125cea",
@@ -177,6 +185,64 @@
         "representante": "Montserrat Petriciolet Mendoza"
       },
       "eventHash": "cbaa6cbdcd8ad88fdb678a099a804e47f3c0d81e146d1536c9ca9dae78fee6c8"
+    },
+    {
+      "eventId": "d80f53cb-ceee-48c4-b468-e52d70ccecc6",
+      "uid": "PEMM961219149",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-12T03:03:53.685Z",
+      "timestampLocal": "2026-09-12T03:03:53.685Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.133.92",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PEMM961219149&nombre_proveedor_razon_social=Montserrat+Petriciolet+Mendoza&nombre_representante_legal=Montserrat+Petriciolet+Mendoza&email=mn30guerra%40gmail.com",
+      "previousEventHash": "cbaa6cbdcd8ad88fdb678a099a804e47f3c0d81e146d1536c9ca9dae78fee6c8",
+      "documentHash": "33adbdfac50424802e4c4211aa864c9aae87a328005c7f008967183b759c2b47",
+      "eventHash": "06ac22d19b6ba405fda3369747b4dfd3c50f36a22310b569f857f3c254df1134"
+    },
+    {
+      "eventId": "97c8ce9f-2fda-40e7-b7a3-a094809a5506",
+      "uid": "PEMM961219149",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-15T15:16:19.531Z",
+      "timestampLocal": "2026-09-15T15:16:19.531Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.88.63",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "06ac22d19b6ba405fda3369747b4dfd3c50f36a22310b569f857f3c254df1134",
+      "documentHash": "33adbdfac50424802e4c4211aa864c9aae87a328005c7f008967183b759c2b47",
+      "eventHash": "4a2046ea2874e4ae6f2fbdec93790d779478b341a5a179d71e8c379da19acae2"
+    },
+    {
+      "eventId": "8e05ba0b-ec55-46f2-bf64-8a6fef2c3f70",
+      "uid": "PEMM961219149",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-15T15:17:47.717Z",
+      "timestampLocal": "2026-09-15T09:17:47.717Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.88.63",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4a2046ea2874e4ae6f2fbdec93790d779478b341a5a179d71e8c379da19acae2",
+      "documentHash": "397e69516a9d67e690cdf41a81eaf611dba2f0c8862ea2c378d466a9d17ab951",
+      "signatureHash": "c18d7dfe2e573a8b6e71221dc3b25104bd915083af87759b167720068a6714e5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-15T09:17:44.315Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "36bb75e5a54350a50f444593c1c98ce9752365234fd6bc01aec37563f688beb9"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-09-15T15:17:47.895Z"
+  }
 }
