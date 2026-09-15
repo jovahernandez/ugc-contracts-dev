@@ -3,7 +3,7 @@
   "declarationId": "00f39315-3acd-45ec-8955-d8467580c5be",
   "token": "7beeefa4-5b74-469b-b4e8-5168c3c6c94e",
   "createdAt": "2026-09-15T17:51:11.018Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "GUSTAVO CZOU LTDA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "GUSTAVO CZOUPINSKI ROEPER",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "69c0019bcdf862004a6a2989132b08b8a0c382cfc62fcc46ca9cbee2d939b7b2",
+  "personaAutorizada": null,
+  "signedAt": "2026-09-15T17:51:33.808Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/52.994.505%2F0001-12",
+  "signatureMetadata": {
+    "ip": "207.223.100.146",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "signedAtUtc": "2026-09-15T17:51:39.475Z",
+    "signedAtLocal": "2026-09-15T14:51:39.475Z"
+  },
+  "documentHash": "856cc7e1b10ba6bc2cd7c7ce385e315cfa71527e42da10b31751ab249c51ee0f",
   "auditTrail": [
     {
       "eventId": "ebefbaa9-77b8-486b-8a34-ff31b0d047ea",
@@ -66,6 +72,47 @@
         "representante": "GUSTAVO CZOUPINSKI ROEPER"
       },
       "eventHash": "1651b6e8ae71943d281d4f622f26f70cf7c6e3a509d399d0859c5fbb7898986a"
+    },
+    {
+      "eventId": "9d57c59f-b560-470a-967b-9eb0ca2d8a55",
+      "uid": "52.994.505/0001-12",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-15T17:51:25.387Z",
+      "timestampLocal": "2026-09-15T17:51:25.387Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=52.994.505%2F0001-12&nombre_proveedor_razon_social=GUSTAVO+CZOU+LTDA&nombre_representante_legal=GUSTAVO+CZOUPINSKI+ROEPER&email=vinicius.santos%40another.co",
+      "previousEventHash": "1651b6e8ae71943d281d4f622f26f70cf7c6e3a509d399d0859c5fbb7898986a",
+      "documentHash": "69c0019bcdf862004a6a2989132b08b8a0c382cfc62fcc46ca9cbee2d939b7b2",
+      "eventHash": "780f6e148c02e43e12e053d6aeae83ac6b2dc7ad9e76736f4b3f360bb48ffd0c"
+    },
+    {
+      "eventId": "6cb13b1d-aae5-4170-91d3-3c37910f383b",
+      "uid": "52.994.505/0001-12",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-15T17:51:39.475Z",
+      "timestampLocal": "2026-09-15T14:51:39.475Z",
+      "timezone": "UTC-3",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/7beeefa4-5b74-469b-b4e8-5168c3c6c94e",
+      "previousEventHash": "780f6e148c02e43e12e053d6aeae83ac6b2dc7ad9e76736f4b3f360bb48ffd0c",
+      "documentHash": "856cc7e1b10ba6bc2cd7c7ce385e315cfa71527e42da10b31751ab249c51ee0f",
+      "signatureHash": "982538776e99895f757a34d1ce08156417d43308f446be16bd0bbd8e235f4c6f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-15T14:51:33.808Z"
+      },
+      "eventHash": "95824515cab3747829ba983610d631645a118165bc02bc52fe481811772e4356"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-15T17:51:39.728Z"
+  }
 }
