@@ -3,7 +3,7 @@
   "declarationId": "b414ce52-975b-4814-8029-f398d98ec732",
   "token": "9997c518-d2e6-4710-9eb8-643dffc8acb5",
   "createdAt": "2026-09-15T21:00:15.430Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "RED UNO DE BOLIVIA S.A.",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JOAQUIN PEREYRA VACA DIEZ",
     "email": "carlagomez@reduno.com.bo"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "bb4ba83c9fd0c1e61daf6f5607c439b796bc3cad3093f04ee618c870b1d0c065",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-15T21:03:55.230Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/1028447026",
+  "signatureMetadata": {
+    "ip": "190.181.62.250",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "signedAtUtc": "2026-09-15T21:03:58.635Z",
+    "signedAtLocal": "2026-09-15T17:03:58.635Z"
+  },
+  "documentHash": "c5b267de2bdc63481f6810190b3ffc83f7a2aa58cdeae95146bcd9cbeec88ce2",
   "auditTrail": [
     {
       "eventId": "5c30138d-e35c-44cc-bbab-b2d956a2563a",
@@ -66,6 +74,49 @@
         "representante": "JOAQUIN PEREYRA VACA DIEZ"
       },
       "eventHash": "84f055d0e3746d5a57e0b079339528d5ba5d34fbf900a2c82adfbe441dfd7e23"
+    },
+    {
+      "eventId": "4686da0d-b09e-46bb-841f-f2c9e9319f85",
+      "uid": "1028447026",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-15T21:00:26.691Z",
+      "timestampLocal": "2026-09-15T21:00:26.691Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.181.62.250",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1028447026&nombre_proveedor_razon_social=RED+UNO+DE+BOLIVIA+S.A.&nombre_representante_legal=JOAQUIN+PEREYRA+VACA+DIEZ&email=carlagomez%40reduno.com.bo",
+      "previousEventHash": "84f055d0e3746d5a57e0b079339528d5ba5d34fbf900a2c82adfbe441dfd7e23",
+      "documentHash": "bb4ba83c9fd0c1e61daf6f5607c439b796bc3cad3093f04ee618c870b1d0c065",
+      "eventHash": "d5293bc678ae2c59b2d6d09986b75d927d86baffef1dbf00058405b93f037306"
+    },
+    {
+      "eventId": "0ec1fe0f-2d59-4252-91e9-06431125d72e",
+      "uid": "1028447026",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-15T21:03:58.635Z",
+      "timestampLocal": "2026-09-15T17:03:58.635Z",
+      "timezone": "UTC-4",
+      "ipAddress": "190.181.62.250",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/9997c518-d2e6-4710-9eb8-643dffc8acb5",
+      "previousEventHash": "d5293bc678ae2c59b2d6d09986b75d927d86baffef1dbf00058405b93f037306",
+      "documentHash": "c5b267de2bdc63481f6810190b3ffc83f7a2aa58cdeae95146bcd9cbeec88ce2",
+      "signatureHash": "62294f47ecfd310d8f2c60329833b73e3d389ed5f0fe96c61ab974c1cb06ff02",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-15T17:03:55.230Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "c6ca207816d8e64c1a6dd1b78763cf624832b170824a2e0e1be55a4e66ef6fb7"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-15T21:03:58.904Z"
+  }
 }
