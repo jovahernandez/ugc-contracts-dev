@@ -3,8 +3,18 @@
   "declarationId": "333e03cc-c7cf-4c8f-832e-17eea307167f",
   "token": "fe8c93d8-2052-4c0e-886a-7e45d2e3973a",
   "createdAt": "2026-09-16T23:41:26.667Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Julia Dalavia Nina Produções Artísticas ME",
+    "nombre_representante_legal": "Julia Dalavia Nina",
+    "email": "contato@stexpedito.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Julia Dalavia Nina Produções Artísticas ME",
+    "nombre_representante_legal": "Julia Dalavia Nina",
+    "email": "contato@stexpedito.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Julia Dalavia Nina Produções Artísticas ME",
     "nombre_representante_legal": "Julia Dalavia Nina",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "58997a5725920f7884da2fd71c1e7a17eccd96d69067102fa3e0cdab1d28676e",
+  "auditTrail": [
+    {
+      "eventId": "7e498664-bd5b-4fc4-b189-62362ebe23bb",
+      "uid": "48.218.319/0001-14",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-16T23:41:32.855Z",
+      "timestampLocal": "2026-09-16T23:41:32.855Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.238.253.115",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "58997a5725920f7884da2fd71c1e7a17eccd96d69067102fa3e0cdab1d28676e",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "8fa016599dbd86054b78e69c58be0bfe47b125e55057db995cf687ee08cd2c51"
+    },
+    {
+      "eventId": "026a6852-236c-4411-b66b-c4fb348bfca1",
+      "uid": "48.218.319/0001-14",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-16T23:41:32.855Z",
+      "timestampLocal": "2026-09-16T23:41:32.855Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.238.253.115",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8fa016599dbd86054b78e69c58be0bfe47b125e55057db995cf687ee08cd2c51",
+      "documentHash": "58997a5725920f7884da2fd71c1e7a17eccd96d69067102fa3e0cdab1d28676e",
+      "metadata": {
+        "proveedor": "Julia Dalavia Nina Produções Artísticas ME",
+        "representante": "Julia Dalavia Nina"
+      },
+      "eventHash": "1c737355f700bb5ec0884d81fd033d2a04929364c418d184b7fc7c4ab58c1217"
+    }
+  ]
 }
