@@ -3,7 +3,7 @@
   "declarationId": "4df290b3-93b0-4f77-9617-f4d7f8779f31",
   "token": "868e2e35-8d62-4930-b197-63e3ca56aec2",
   "createdAt": "2026-09-16T13:33:17.872Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "OIO AGENCIA DE DESIGN GRAFICO E ILUSTRAÇÃO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Alexandre Henrique Morais Franzolim",
     "email": "assistente@oio.ag"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "84319370cda2b2442469e386d08090e26a5a96eb27a0eb5a45ffd795074a4f97",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-16T13:34:11.653Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/38250640000122",
+  "signatureMetadata": {
+    "ip": "45.238.40.201",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-16T13:34:17.375Z",
+    "signedAtLocal": "2026-09-16T10:34:17.375Z"
+  },
+  "documentHash": "6858209b4ad60f85acf198cdf32923a4addf79106280cac361ca426875a99d1f",
   "auditTrail": [
     {
       "eventId": "9a119687-6860-4519-ae6d-261fb787bf9c",
@@ -155,6 +163,49 @@
         "representante": "Alexandre Henrique Morais Franzolim"
       },
       "eventHash": "c369a8d7b3a042067370f4fe669ec0a19f1927f0e03b5f2171deb798f50fd809"
+    },
+    {
+      "eventId": "b732ae37-f1b2-4ce5-bd27-8522801c1bc2",
+      "uid": "38250640000122",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-16T13:33:48.766Z",
+      "timestampLocal": "2026-09-16T13:33:48.766Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.238.40.201",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c369a8d7b3a042067370f4fe669ec0a19f1927f0e03b5f2171deb798f50fd809",
+      "documentHash": "84319370cda2b2442469e386d08090e26a5a96eb27a0eb5a45ffd795074a4f97",
+      "eventHash": "2db6e43dcaeb971cf8e400605064bf38a1cf18e3b188f86b76c8ff0ce43d5f90"
+    },
+    {
+      "eventId": "370fe9d9-c895-43a6-a7a0-ba40660e7a3e",
+      "uid": "38250640000122",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-16T13:34:17.375Z",
+      "timestampLocal": "2026-09-16T10:34:17.375Z",
+      "timezone": "UTC-3",
+      "ipAddress": "45.238.40.201",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/868e2e35-8d62-4930-b197-63e3ca56aec2",
+      "previousEventHash": "2db6e43dcaeb971cf8e400605064bf38a1cf18e3b188f86b76c8ff0ce43d5f90",
+      "documentHash": "6858209b4ad60f85acf198cdf32923a4addf79106280cac361ca426875a99d1f",
+      "signatureHash": "4186071d4ceed71769a6a9c748d06ad98fc748e3d753b8b4751e118c93e6fc4b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-16T10:34:11.653Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "884901c823d74e30265bc3cdb7a7684f0e4b708d18ea683be576805d26305aac"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 9,
+    "verifiedAt": "2026-09-16T13:34:17.779Z"
+  }
 }
