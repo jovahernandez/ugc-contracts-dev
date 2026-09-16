@@ -3,7 +3,7 @@
   "declarationId": "333e03cc-c7cf-4c8f-832e-17eea307167f",
   "token": "fe8c93d8-2052-4c0e-886a-7e45d2e3973a",
   "createdAt": "2026-09-16T23:41:26.667Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "Julia Dalavia Nina Produções Artísticas ME",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Julia Dalavia Nina",
     "email": "contato@stexpedito.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f56d7d3995f536eb69b734856e409b290242154b6dc895dc537c7ded760a9d3e",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-16T23:42:27.940Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/48.218.319%2F0001-14",
+  "signatureMetadata": {
+    "ip": "45.238.253.115",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "signedAtUtc": "2026-09-16T23:42:31.301Z",
+    "signedAtLocal": "2026-09-16T20:42:31.301Z"
+  },
+  "documentHash": "ac6167913c03d2745a977627a9cd54417ccb4140ae453bbba76829483c3c0a19",
   "auditTrail": [
     {
       "eventId": "7e498664-bd5b-4fc4-b189-62362ebe23bb",
@@ -118,6 +126,49 @@
         "representante": "Julia Dalavia Nina"
       },
       "eventHash": "3d759fb3d66109e43cb518831667409a0bdf998306d833cb16598f8a5d9f4d73"
+    },
+    {
+      "eventId": "ecf33595-c241-4b3c-a44f-ab0ff63b87b2",
+      "uid": "48.218.319/0001-14",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-16T23:41:38.161Z",
+      "timestampLocal": "2026-09-16T23:41:38.161Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.238.253.115",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "3d759fb3d66109e43cb518831667409a0bdf998306d833cb16598f8a5d9f4d73",
+      "documentHash": "f56d7d3995f536eb69b734856e409b290242154b6dc895dc537c7ded760a9d3e",
+      "eventHash": "22d5d7edf3c0298043f4c9b8b8e44bb482b49c0b9da352517d180cd6e21d4d5f"
+    },
+    {
+      "eventId": "6de87d60-773b-4496-ac7d-04e4369722e5",
+      "uid": "48.218.319/0001-14",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-16T23:42:31.302Z",
+      "timestampLocal": "2026-09-16T20:42:31.302Z",
+      "timezone": "UTC-3",
+      "ipAddress": "45.238.253.115",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "22d5d7edf3c0298043f4c9b8b8e44bb482b49c0b9da352517d180cd6e21d4d5f",
+      "documentHash": "ac6167913c03d2745a977627a9cd54417ccb4140ae453bbba76829483c3c0a19",
+      "signatureHash": "7c8322cf6dfc17c643751506fef9ef45a96f38e9dfabd72b799279c275c40849",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-16T20:42:27.940Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "44230b264e519faff622f5090bd74c6c7093d94f266e816bf2d387658458f111"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-09-16T23:42:31.451Z"
+  }
 }
