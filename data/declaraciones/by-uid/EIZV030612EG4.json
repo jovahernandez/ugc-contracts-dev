@@ -3,7 +3,7 @@
   "declarationId": "2f044c41-8038-4ca3-a51c-fc343453cb8e",
   "token": "7173c65a-8954-47de-87f8-c96468bbd13d",
   "createdAt": "2026-09-16T03:55:28.620Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Valeria Espinosa Zaldivar",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Valeria Espinosa Zaldivar",
     "email": "valesitaespinaca@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2d466c4e0b6269dbcf6f2be8a14a1dde7df45168bdbd739fed832e8ea99707e1",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-16T03:56:31.270Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/EIZV030612EG4",
+  "signatureMetadata": {
+    "ip": "187.188.9.190",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-16T03:56:34.684Z",
+    "signedAtLocal": "2026-09-15T21:56:34.684Z"
+  },
+  "documentHash": "5ef04e639f96cd28e2e8472e99a45f7b5cc8720bac341524ef10692808954b8f",
   "auditTrail": [
     {
       "eventId": "d0ea0990-36c8-433c-b689-ab67d2cc63b6",
@@ -118,6 +126,49 @@
         "representante": "Valeria Espinosa Zaldivar"
       },
       "eventHash": "0a8e12b4ca01acbcaa5758e4520b0039a80b68fb313c347dc476af223a2f6a4c"
+    },
+    {
+      "eventId": "8a3d0bec-214f-4ae5-ada2-edbfde5a449c",
+      "uid": "EIZV030612EG4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-16T03:55:40.893Z",
+      "timestampLocal": "2026-09-16T03:55:40.893Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.9.190",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIZV030612EG4&nombre_proveedor_razon_social=Valeria+Espinosa+Zaldivar&nombre_representante_legal=Valeria+Espinosa+Zaldivar&email=valesitaespinaca%40gmail.com",
+      "previousEventHash": "0a8e12b4ca01acbcaa5758e4520b0039a80b68fb313c347dc476af223a2f6a4c",
+      "documentHash": "2d466c4e0b6269dbcf6f2be8a14a1dde7df45168bdbd739fed832e8ea99707e1",
+      "eventHash": "70a7348ab5289a851e1b66d2a9a4a69036ab63a3eeab3d0a046add2271368704"
+    },
+    {
+      "eventId": "2340f3fb-6d0c-4413-ba85-c6cb1bb226d8",
+      "uid": "EIZV030612EG4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-16T03:56:34.684Z",
+      "timestampLocal": "2026-09-15T21:56:34.684Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.9.190",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7173c65a-8954-47de-87f8-c96468bbd13d",
+      "previousEventHash": "70a7348ab5289a851e1b66d2a9a4a69036ab63a3eeab3d0a046add2271368704",
+      "documentHash": "5ef04e639f96cd28e2e8472e99a45f7b5cc8720bac341524ef10692808954b8f",
+      "signatureHash": "a67b6543241fe9d7e864582212a69be0cb47844a5117042d6c8a5ca0addb4f81",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-15T21:56:31.270Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "b15ff2d9130410c217c6ee803957dbefaaabf0006b98eff551ab80e0d740dfb9"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-09-16T03:56:34.862Z"
+  }
 }
