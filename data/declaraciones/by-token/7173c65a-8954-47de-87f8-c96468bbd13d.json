@@ -3,8 +3,18 @@
   "declarationId": "2f044c41-8038-4ca3-a51c-fc343453cb8e",
   "token": "7173c65a-8954-47de-87f8-c96468bbd13d",
   "createdAt": "2026-09-16T03:55:28.620Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Valeria Espinosa Zaldivar",
+    "nombre_representante_legal": "Valeria Espinosa Zaldivar",
+    "email": "valesitaespinaca@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Valeria Espinosa Zaldivar",
+    "nombre_representante_legal": "Valeria Espinosa Zaldivar",
+    "email": "valesitaespinaca@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Valeria Espinosa Zaldivar",
     "nombre_representante_legal": "Valeria Espinosa Zaldivar",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "831b2f4822fe96ff9ad5af8cbcd7e7e486858f26fae6126434cf84d850d625c6",
+  "auditTrail": [
+    {
+      "eventId": "d0ea0990-36c8-433c-b689-ab67d2cc63b6",
+      "uid": "EIZV030612EG4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-16T03:55:35.567Z",
+      "timestampLocal": "2026-09-16T03:55:35.567Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.9.190",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIZV030612EG4&nombre_proveedor_razon_social=Valeria+Espinosa+Zaldivar&nombre_representante_legal=Valeria+Espinosa+Zaldivar&email=valesitaespinaca%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "831b2f4822fe96ff9ad5af8cbcd7e7e486858f26fae6126434cf84d850d625c6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "7999b716d0c2d0034752e05e62a740e7aa4c2dcfb052696fadbcc45643eeaa76"
+    },
+    {
+      "eventId": "7076664c-d22e-4399-bf5a-184ad6586545",
+      "uid": "EIZV030612EG4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-16T03:55:35.567Z",
+      "timestampLocal": "2026-09-16T03:55:35.567Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.9.190",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIZV030612EG4&nombre_proveedor_razon_social=Valeria+Espinosa+Zaldivar&nombre_representante_legal=Valeria+Espinosa+Zaldivar&email=valesitaespinaca%40gmail.com",
+      "previousEventHash": "7999b716d0c2d0034752e05e62a740e7aa4c2dcfb052696fadbcc45643eeaa76",
+      "documentHash": "831b2f4822fe96ff9ad5af8cbcd7e7e486858f26fae6126434cf84d850d625c6",
+      "metadata": {
+        "proveedor": "Valeria Espinosa Zaldivar",
+        "representante": "Valeria Espinosa Zaldivar"
+      },
+      "eventHash": "d51df71be289ef26af8e879df3fad92990e0209fd2f469e7ec68c6db9d0e721c"
+    }
+  ]
 }
