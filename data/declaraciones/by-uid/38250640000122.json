@@ -3,8 +3,18 @@
   "declarationId": "4df290b3-93b0-4f77-9617-f4d7f8779f31",
   "token": "868e2e35-8d62-4930-b197-63e3ca56aec2",
   "createdAt": "2026-09-16T13:33:17.872Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "OIO AGENCIA DE DESIGN GRAFICO E ILUSTRAÇÃO",
+    "nombre_representante_legal": "Alexandre Henrique Morais Franzolim",
+    "email": "assistente@oio.ag"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "OIO AGENCIA DE DESIGN GRAFICO E ILUSTRAÇÃO",
+    "nombre_representante_legal": "Alexandre Henrique Morais Franzolim",
+    "email": "assistente@oio.ag"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "OIO AGENCIA DE DESIGN GRAFICO E ILUSTRAÇÃO",
     "nombre_representante_legal": "Alexandre Henrique Morais Franzolim",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "7357fa923e9cfbec76db9ad1ab74c5133a16f0f80137a4aa5bc9ad779c27ac67",
+  "auditTrail": [
+    {
+      "eventId": "9a119687-6860-4519-ae6d-261fb787bf9c",
+      "uid": "38250640000122",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-16T13:33:27.765Z",
+      "timestampLocal": "2026-09-16T13:33:27.765Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.238.40.201",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=38250640000122&nombre_proveedor_razon_social=OIO+AGENCIA+DE+DESIGN+GRAFICO+E+ILUSTRA%C3%87%C3%83O&nombre_representante_legal=Alexandre+Henrique+Morais+Franzolim&email=assistente%40oio.ag",
+      "previousEventHash": null,
+      "documentHash": "7357fa923e9cfbec76db9ad1ab74c5133a16f0f80137a4aa5bc9ad779c27ac67",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "b67abfaae59ddc751c1f8c49096fa5da5bed3df76335f193a0f8cd64d3f17008"
+    },
+    {
+      "eventId": "56fc4682-e697-4322-954f-93f294217dd2",
+      "uid": "38250640000122",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-16T13:33:27.765Z",
+      "timestampLocal": "2026-09-16T13:33:27.765Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.238.40.201",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=38250640000122&nombre_proveedor_razon_social=OIO+AGENCIA+DE+DESIGN+GRAFICO+E+ILUSTRA%C3%87%C3%83O&nombre_representante_legal=Alexandre+Henrique+Morais+Franzolim&email=assistente%40oio.ag",
+      "previousEventHash": "b67abfaae59ddc751c1f8c49096fa5da5bed3df76335f193a0f8cd64d3f17008",
+      "documentHash": "7357fa923e9cfbec76db9ad1ab74c5133a16f0f80137a4aa5bc9ad779c27ac67",
+      "metadata": {
+        "proveedor": "OIO AGENCIA DE DESIGN GRAFICO E ILUSTRAÇÃO",
+        "representante": "Alexandre Henrique Morais Franzolim"
+      },
+      "eventHash": "f88a62eab56f2ba92044794de14379013fcf5357611007c1b37daff27e989f60"
+    }
+  ]
 }
