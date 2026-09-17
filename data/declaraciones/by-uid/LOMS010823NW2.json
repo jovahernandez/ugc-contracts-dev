@@ -3,7 +3,7 @@
   "declarationId": "d587b639-13eb-403d-82c0-cf402e55caef",
   "token": "202036ee-e0d1-4ee2-ba91-753a051e80ab",
   "createdAt": "2026-09-17T20:14:41.653Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SARA JUDITH LOPEZ MARTINEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Sara Judith Lopez Martinez",
     "email": "contacto.sarajudith@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fa918b6c22fba34a0d922cbd79c9181cdd98f8526ac2eb1d30f4381f6ca143de",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-17T20:15:42.093Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LOMS010823NW2",
+  "signatureMetadata": {
+    "ip": "201.141.124.174",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-17T20:15:45.785Z",
+    "signedAtLocal": "2026-09-17T14:15:45.785Z"
+  },
+  "documentHash": "6c39c04ab1b86c37ecb33e3085f4c5a48286fbbd95a265c95d95bf7798f36b29",
   "auditTrail": [
     {
       "eventId": "efe35efa-6eca-4ea2-b50f-dbd83c15e2dd",
@@ -140,6 +148,49 @@
         "representante": "Sara Judith Lopez Martinez"
       },
       "eventHash": "4ab49458ff73557fa82927f3e6f4503cbb77b1a78e7560aff5a7e93be3b388be"
+    },
+    {
+      "eventId": "b728ccf2-a720-4f18-a870-44576c147741",
+      "uid": "LOMS010823NW2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-17T20:14:54.831Z",
+      "timestampLocal": "2026-09-17T20:14:54.831Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.124.174",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LOMS010823NW2&nombre_proveedor_razon_social=SARA+JUDITH+LOPEZ+MARTINEZ&nombre_representante_legal=Sara+Judith+Lopez+Martinez&email=contacto.sarajudith%40gmail.com",
+      "previousEventHash": "4ab49458ff73557fa82927f3e6f4503cbb77b1a78e7560aff5a7e93be3b388be",
+      "documentHash": "fa918b6c22fba34a0d922cbd79c9181cdd98f8526ac2eb1d30f4381f6ca143de",
+      "eventHash": "918aec3465d786426a3a5087a7dae919c27ecf586a29dd3557f42d8bbf08e1a0"
+    },
+    {
+      "eventId": "e0225109-b5f4-4e38-9037-509ef3ac2cd3",
+      "uid": "LOMS010823NW2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-17T20:15:45.785Z",
+      "timestampLocal": "2026-09-17T14:15:45.785Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.124.174",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/202036ee-e0d1-4ee2-ba91-753a051e80ab",
+      "previousEventHash": "918aec3465d786426a3a5087a7dae919c27ecf586a29dd3557f42d8bbf08e1a0",
+      "documentHash": "6c39c04ab1b86c37ecb33e3085f4c5a48286fbbd95a265c95d95bf7798f36b29",
+      "signatureHash": "7e238b6a55c59e3bf36ef07c844289516ea830d81663304d5288cdae89103af8",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-17T14:15:42.093Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "b0642f126b72f78dd54d81ee8f3319e6e10378f66e8ba7f95a004fd8075a94df"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-09-17T20:15:46.049Z"
+  }
 }
