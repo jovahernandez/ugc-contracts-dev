@@ -3,7 +3,7 @@
   "declarationId": "4443e3f8-a7d2-4342-908d-d06d6df9d0fc",
   "token": "3509c5e8-7d1c-4641-a293-c6cf69cc01c6",
   "createdAt": "2026-09-17T12:45:00.529Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "ZARABATANA ESTUDIOS LTDA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Felipe Recondo Freire",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "97a4d735cc10a17ebb0145579102fc51f02ef37ca77a37acc5b3d7957b9e90db",
+  "personaAutorizada": null,
+  "signedAt": "2026-09-17T12:45:14.782Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/57.142.475%2F0001-30",
+  "signatureMetadata": {
+    "ip": "207.223.100.146",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "signedAtUtc": "2026-09-17T12:45:18.085Z",
+    "signedAtLocal": "2026-09-17T09:45:18.085Z"
+  },
+  "documentHash": "8c5a7b70db31b519222f5791f948ec471294b6a39867d020b9ef564b6e1cdc09",
   "auditTrail": [
     {
       "eventId": "9d4baf28-bc29-4f9c-878a-289b3fb378f7",
@@ -66,6 +72,84 @@
         "representante": "Felipe Recondo Freire"
       },
       "eventHash": "0024dd6aa67445afe4cd8034710cd4c3ccbf68d5395032c2afb6088efde18f4d"
+    },
+    {
+      "eventId": "1ec8a585-3f1a-4da0-a136-d9aaddf430b9",
+      "uid": "57.142.475/0001-30",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-17T12:45:07.093Z",
+      "timestampLocal": "2026-09-17T12:45:07.093Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=57.142.475%2F0001-30&nombre_proveedor_razon_social=ZARABATANA+ESTUDIOS+LTDA&nombre_representante_legal=Felipe+Recondo+Freire&email=vinicius.santos%40another.co",
+      "previousEventHash": "0024dd6aa67445afe4cd8034710cd4c3ccbf68d5395032c2afb6088efde18f4d",
+      "documentHash": "97a4d735cc10a17ebb0145579102fc51f02ef37ca77a37acc5b3d7957b9e90db",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "414c4a705930b79dce1d13169790cf2e4850d9b8d63b1ba5171af7315921ba83"
+    },
+    {
+      "eventId": "26b1fd39-46ce-43a2-8f00-a7d121e8c20e",
+      "uid": "57.142.475/0001-30",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-17T12:45:07.093Z",
+      "timestampLocal": "2026-09-17T12:45:07.093Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=57.142.475%2F0001-30&nombre_proveedor_razon_social=ZARABATANA+ESTUDIOS+LTDA&nombre_representante_legal=Felipe+Recondo+Freire&email=vinicius.santos%40another.co",
+      "previousEventHash": "414c4a705930b79dce1d13169790cf2e4850d9b8d63b1ba5171af7315921ba83",
+      "documentHash": "97a4d735cc10a17ebb0145579102fc51f02ef37ca77a37acc5b3d7957b9e90db",
+      "metadata": {
+        "proveedor": "ZARABATANA ESTUDIOS LTDA",
+        "representante": "Felipe Recondo Freire"
+      },
+      "eventHash": "5155299a1603a7c189f501b552979365abb85e303e74c6294a221e0d6f51e88e"
+    },
+    {
+      "eventId": "c512664b-21ef-4a1a-9106-fb6287654214",
+      "uid": "57.142.475/0001-30",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-17T12:45:09.104Z",
+      "timestampLocal": "2026-09-17T12:45:09.104Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=57.142.475%2F0001-30&nombre_proveedor_razon_social=ZARABATANA+ESTUDIOS+LTDA&nombre_representante_legal=Felipe+Recondo+Freire&email=vinicius.santos%40another.co",
+      "previousEventHash": "5155299a1603a7c189f501b552979365abb85e303e74c6294a221e0d6f51e88e",
+      "documentHash": "97a4d735cc10a17ebb0145579102fc51f02ef37ca77a37acc5b3d7957b9e90db",
+      "eventHash": "d16d02017e5c9c267facdae0930e9ee2ba0aa7323591ad88b3c26eedbe5713ec"
+    },
+    {
+      "eventId": "28707d9e-d7bf-45b5-8234-9f3baca71c72",
+      "uid": "57.142.475/0001-30",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-17T12:45:18.085Z",
+      "timestampLocal": "2026-09-17T09:45:18.085Z",
+      "timezone": "UTC-3",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/3509c5e8-7d1c-4641-a293-c6cf69cc01c6",
+      "previousEventHash": "d16d02017e5c9c267facdae0930e9ee2ba0aa7323591ad88b3c26eedbe5713ec",
+      "documentHash": "8c5a7b70db31b519222f5791f948ec471294b6a39867d020b9ef564b6e1cdc09",
+      "signatureHash": "a856b4682a08abc599df449030aececd0d496bafe1125d3e0aa2b36cdb6a553e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-17T09:45:14.782Z"
+      },
+      "eventHash": "159f470ab42e17a827020a781efd2cdb03fda2222eafa3888f7701445934e9d7"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-17T12:45:18.368Z"
+  }
 }
