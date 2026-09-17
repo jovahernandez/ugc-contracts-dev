@@ -3,7 +3,7 @@
   "declarationId": "c7332e30-5f9d-4bc2-93ae-e326e389968f",
   "token": "5998e5ff-c12d-41af-ab18-0c85a1cab2d1",
   "createdAt": "2026-09-15T01:40:22.942Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JESSICA DIAZ CHAVEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "NA",
     "email": "herandy@meshurtalent.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4c82cdfbf1fabf417432ba7151c443c5cead7b5459cb2919a6f550eb2096d4ab",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-17T22:02:07.054Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DICJ910327N2A",
+  "signatureMetadata": {
+    "ip": "189.217.82.112",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-09-17T22:02:10.451Z",
+    "signedAtLocal": "2026-09-17T16:02:10.451Z"
+  },
+  "documentHash": "0395a2640d475b296844486ab310900dd2a562852bba93f789ddde42fad6a67e",
   "auditTrail": [
     {
       "eventId": "04f66f03-c272-42c1-aee3-09dabf740bab",
@@ -66,6 +74,79 @@
         "representante": "NA"
       },
       "eventHash": "84f2b4b1dee53759e7adb35fc1e3129aca41d05cadebccfe9029cf0e8d57a8d9"
+    },
+    {
+      "eventId": "0b612fe4-f4fe-4384-a179-0f961bd552db",
+      "uid": "DICJ910327N2A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-15T01:40:33.389Z",
+      "timestampLocal": "2026-09-15T01:40:33.389Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.207.80.178",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DICJ910327N2A&nombre_proveedor_razon_social=JESSICA+DIAZ+CHAVEZ&nombre_representante_legal=NA&email=herandy%40meshurtalent.com",
+      "previousEventHash": "84f2b4b1dee53759e7adb35fc1e3129aca41d05cadebccfe9029cf0e8d57a8d9",
+      "documentHash": "4c82cdfbf1fabf417432ba7151c443c5cead7b5459cb2919a6f550eb2096d4ab",
+      "eventHash": "cdda2136822e2d2d788505fd690c675ac67cab3fba97638726510e90ea10903f"
+    },
+    {
+      "eventId": "73279e32-b560-43dc-b8cf-f5de22f229e8",
+      "uid": "DICJ910327N2A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-15T01:41:58.145Z",
+      "timestampLocal": "2026-09-15T01:41:58.145Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.207.80.178",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "cdda2136822e2d2d788505fd690c675ac67cab3fba97638726510e90ea10903f",
+      "documentHash": "4c82cdfbf1fabf417432ba7151c443c5cead7b5459cb2919a6f550eb2096d4ab",
+      "eventHash": "7f891bd84dcc5c3759047362d95f01aa24f9ea89990bcca6a0d3067f2e0f178a"
+    },
+    {
+      "eventId": "7cab99c6-3818-46a2-815c-65948a6a3212",
+      "uid": "DICJ910327N2A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-17T21:57:06.551Z",
+      "timestampLocal": "2026-09-17T21:57:06.551Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.82.112",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "7f891bd84dcc5c3759047362d95f01aa24f9ea89990bcca6a0d3067f2e0f178a",
+      "documentHash": "4c82cdfbf1fabf417432ba7151c443c5cead7b5459cb2919a6f550eb2096d4ab",
+      "eventHash": "81275960a5363bf40ca8e48805e21927512edd9983d01b6f0cb1735c2fe0e4c2"
+    },
+    {
+      "eventId": "30440f16-4eab-486c-b0fa-490a8d4a47df",
+      "uid": "DICJ910327N2A",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-17T22:02:10.451Z",
+      "timestampLocal": "2026-09-17T16:02:10.451Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.82.112",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "81275960a5363bf40ca8e48805e21927512edd9983d01b6f0cb1735c2fe0e4c2",
+      "documentHash": "0395a2640d475b296844486ab310900dd2a562852bba93f789ddde42fad6a67e",
+      "signatureHash": "231ef45d6c38e980a1d06ab54524a23c19fde69b239b0ec41b53ad4032936cf0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-17T16:02:07.054Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "8cd05a86f4170cefad4798cd8004c55a4c3a54f225b011afcb2e6b8b621992e0"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-17T22:02:10.679Z"
+  }
 }
