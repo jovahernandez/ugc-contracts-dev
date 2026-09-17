@@ -3,7 +3,7 @@
   "declarationId": "4937acf5-e5ef-4e65-a7e9-1b2303601b73",
   "token": "f8298a1b-4e9d-488d-b8f9-2b9245007cd7",
   "createdAt": "2026-09-17T01:43:40.550Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "jose luis Morales",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JOSE LUIS MORALES",
     "email": "joselm1988@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "576c6cc7001a43934a4f776de32537a0afb1cfff48cae97cf62a8f6eac0b3a59",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-17T01:44:48.863Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/1037590147",
+  "signatureMetadata": {
+    "ip": "206.84.80.13",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-17T01:44:52.235Z",
+    "signedAtLocal": "2026-09-16T20:44:52.235Z"
+  },
+  "documentHash": "ce0cd7403ea54eb02fa296e9bc0ff9c2ff3489ea17578853b8e3b62b94b655b1",
   "auditTrail": [
     {
       "eventId": "dc1f23a4-03fe-4897-b08d-2b5c9066e0a9",
@@ -66,6 +74,49 @@
         "representante": "JOSE LUIS MORALES"
       },
       "eventHash": "c2e2359f1fe696caaa8e51175e2f89c81b2fb40fbbb82ce0d63dfce6d64f596b"
+    },
+    {
+      "eventId": "6b878392-fbfb-45d7-bcce-f0c9aa04d0b6",
+      "uid": "1037590147",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-17T01:43:54.271Z",
+      "timestampLocal": "2026-09-17T01:43:54.271Z",
+      "timezone": "UTC+0",
+      "ipAddress": "206.84.80.13",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1037590147&nombre_proveedor_razon_social=jose+luis+Morales&nombre_representante_legal=JOSE+LUIS+MORALES&email=joselm1988%40gmail.com",
+      "previousEventHash": "c2e2359f1fe696caaa8e51175e2f89c81b2fb40fbbb82ce0d63dfce6d64f596b",
+      "documentHash": "576c6cc7001a43934a4f776de32537a0afb1cfff48cae97cf62a8f6eac0b3a59",
+      "eventHash": "880103427c2afd61efebcc39e88b89cba27c7279c914c19fc382b0bb8a548cdb"
+    },
+    {
+      "eventId": "d47a75de-ff4d-402d-970e-dda144055fce",
+      "uid": "1037590147",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-17T01:44:52.235Z",
+      "timestampLocal": "2026-09-16T20:44:52.235Z",
+      "timezone": "UTC-5",
+      "ipAddress": "206.84.80.13",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f8298a1b-4e9d-488d-b8f9-2b9245007cd7",
+      "previousEventHash": "880103427c2afd61efebcc39e88b89cba27c7279c914c19fc382b0bb8a548cdb",
+      "documentHash": "ce0cd7403ea54eb02fa296e9bc0ff9c2ff3489ea17578853b8e3b62b94b655b1",
+      "signatureHash": "c215464849ffada47cf5623fe1e8f3046ba4c66dc80199c7469a467ddef2fbd3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-16T20:44:48.863Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "557a523aad432cd81ea1bbca5a0b7e7fa27e08a990d55aafb16c4d49b0c72a5f"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-17T01:44:52.488Z"
+  }
 }
