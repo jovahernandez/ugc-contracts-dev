@@ -3,7 +3,7 @@
   "declarationId": "201e9d33-9d1f-47e2-bb7d-0e43d819d18b",
   "token": "67ec30f8-0181-4c4c-a16a-6c06e841b34b",
   "createdAt": "2026-09-17T22:20:43.638Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "KVM COMUNICACIONES SAC",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "PIEDRA ESPINOSA KARLA LORENA",
     "email": "anyeloyvegfs@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0876981edc293f285d1c123f182c1a23108bbef84146f8784e4e07729f353972",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-17T22:25:18.178Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20602127592",
+  "signatureMetadata": {
+    "ip": "200.121.230.145",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-17T22:25:21.616Z",
+    "signedAtLocal": "2026-09-17T17:25:21.616Z"
+  },
+  "documentHash": "62d475bfff6b06920a5ad233154465def6578678fa24520e56d4387bb101d36e",
   "auditTrail": [
     {
       "eventId": "b2052fed-3eee-4b30-affc-0155b6dcfb17",
@@ -66,6 +74,64 @@
         "representante": "PIEDRA ESPINOSA KARLA LORENA"
       },
       "eventHash": "6b859860c5188d3e0c25278eb205606ffd0673e740ba41b46c64b822d711752d"
+    },
+    {
+      "eventId": "bb204c12-05fe-4c52-964b-dacf5e4e74b7",
+      "uid": "20602127592",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-17T22:20:55.416Z",
+      "timestampLocal": "2026-09-17T22:20:55.416Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.121.230.145",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20602127592&nombre_proveedor_razon_social=KVM+COMUNICACIONES+SAC&nombre_representante_legal=PIEDRA+ESPINOSA+KARLA+LORENA&email=anyeloyvegfs%40gmail.com",
+      "previousEventHash": "6b859860c5188d3e0c25278eb205606ffd0673e740ba41b46c64b822d711752d",
+      "documentHash": "0876981edc293f285d1c123f182c1a23108bbef84146f8784e4e07729f353972",
+      "eventHash": "15cd25db8dea78647f77abfe34943f03c7f720542b53e978469202b8396b46dc"
+    },
+    {
+      "eventId": "c5f5b3bf-57f5-497a-9dde-b10b17fa8f39",
+      "uid": "20602127592",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-17T22:22:15.507Z",
+      "timestampLocal": "2026-09-17T22:22:15.507Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.121.230.145",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "15cd25db8dea78647f77abfe34943f03c7f720542b53e978469202b8396b46dc",
+      "documentHash": "0876981edc293f285d1c123f182c1a23108bbef84146f8784e4e07729f353972",
+      "eventHash": "0abee21ab0c8aa9e21efa7717df3e7cd0237d8efbf8701963db44fdcedfde916"
+    },
+    {
+      "eventId": "89aab452-bf99-49d6-9d77-b6a2cdcf5fa0",
+      "uid": "20602127592",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-17T22:25:21.616Z",
+      "timestampLocal": "2026-09-17T17:25:21.616Z",
+      "timezone": "UTC-5",
+      "ipAddress": "200.121.230.145",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/67ec30f8-0181-4c4c-a16a-6c06e841b34b",
+      "previousEventHash": "0abee21ab0c8aa9e21efa7717df3e7cd0237d8efbf8701963db44fdcedfde916",
+      "documentHash": "62d475bfff6b06920a5ad233154465def6578678fa24520e56d4387bb101d36e",
+      "signatureHash": "c5509aded345908699bd9f8bfa69e55cb5f9f6771eb5a0fb23288ca35e5c05a6",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-17T17:25:18.178Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "7ae454fea39e6946039235dabbdc6fcf07f0c0037b041e50c7efde93813e5d8d"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-09-17T22:25:21.840Z"
+  }
 }
