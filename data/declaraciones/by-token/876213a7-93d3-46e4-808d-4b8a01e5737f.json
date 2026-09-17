@@ -3,8 +3,18 @@
   "declarationId": "219966e5-cecc-42c7-8dc3-63b149e196d7",
   "token": "876213a7-93d3-46e4-808d-4b8a01e5737f",
   "createdAt": "2026-09-17T18:44:37.091Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MRM COMUNICACION SA DE CV",
+    "nombre_representante_legal": "KAREN DANIELA MAZA RODRIGUEZ",
+    "email": "tanluna.contact@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MRM COMUNICACION SA DE CV",
+    "nombre_representante_legal": "KAREN DANIELA MAZA RODRIGUEZ",
+    "email": "tanluna.contact@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MRM COMUNICACION SA DE CV",
     "nombre_representante_legal": "KAREN DANIELA MAZA RODRIGUEZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9f2588fa84c16cfc16c486b7df271bb08c221844e4f7b9b07f1535acbc54642d",
+  "auditTrail": [
+    {
+      "eventId": "0a07836c-b677-4e7c-8433-047652c233a7",
+      "uid": "MCO180115SW2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-17T18:44:43.723Z",
+      "timestampLocal": "2026-09-17T18:44:43.723Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.118.192",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MCO180115SW2&nombre_proveedor_razon_social=MRM+COMUNICACION+SA+DE+CV&nombre_representante_legal=KAREN+DANIELA+MAZA+RODRIGUEZ&email=tanluna.contact%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "9f2588fa84c16cfc16c486b7df271bb08c221844e4f7b9b07f1535acbc54642d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ec71f97679ee0e07cfc9f4448a841f0247e256d329e004a16125a8cacd6c5c68"
+    },
+    {
+      "eventId": "4868fb1e-dacc-4b18-8e6b-f1429877ca6c",
+      "uid": "MCO180115SW2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-17T18:44:43.723Z",
+      "timestampLocal": "2026-09-17T18:44:43.723Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.118.192",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MCO180115SW2&nombre_proveedor_razon_social=MRM+COMUNICACION+SA+DE+CV&nombre_representante_legal=KAREN+DANIELA+MAZA+RODRIGUEZ&email=tanluna.contact%40gmail.com",
+      "previousEventHash": "ec71f97679ee0e07cfc9f4448a841f0247e256d329e004a16125a8cacd6c5c68",
+      "documentHash": "9f2588fa84c16cfc16c486b7df271bb08c221844e4f7b9b07f1535acbc54642d",
+      "metadata": {
+        "proveedor": "MRM COMUNICACION SA DE CV",
+        "representante": "KAREN DANIELA MAZA RODRIGUEZ"
+      },
+      "eventHash": "9f29bb4e7957bdc2b68ab05b1922d6b0870d689a9924e63227ecf7b82d335e23"
+    }
+  ]
 }
