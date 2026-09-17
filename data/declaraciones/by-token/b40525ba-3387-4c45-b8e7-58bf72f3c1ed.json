@@ -3,8 +3,18 @@
   "declarationId": "844e8c31-2a8c-4e52-ad31-2defb7214d2c",
   "token": "b40525ba-3387-4c45-b8e7-58bf72f3c1ed",
   "createdAt": "2026-09-17T06:12:53.516Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "María del Mar Rivera",
+    "nombre_representante_legal": "María del Mar Rivera",
+    "email": "rivera.ortodoncia@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "María del Mar Rivera",
+    "nombre_representante_legal": "María del Mar Rivera",
+    "email": "rivera.ortodoncia@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "María del Mar Rivera",
     "nombre_representante_legal": "María del Mar Rivera",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "aa6c9862695607a44e758a145e9e05e6db02da6191a280c8c7b5d05b6a5c07aa",
+  "auditTrail": [
+    {
+      "eventId": "bd49d6da-d2a7-42d3-af0e-8e197f5677bf",
+      "uid": "303860921",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-17T06:13:01.815Z",
+      "timestampLocal": "2026-09-17T06:13:01.815Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.194.40.135",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "aa6c9862695607a44e758a145e9e05e6db02da6191a280c8c7b5d05b6a5c07aa",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5d993c0d19b81b35ff3e52b0b565e17c2b900ba4f0126fc2f532d2f9458dce19"
+    },
+    {
+      "eventId": "abb9e956-bfdb-4819-8df1-13863eaf8684",
+      "uid": "303860921",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-17T06:13:01.815Z",
+      "timestampLocal": "2026-09-17T06:13:01.815Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.194.40.135",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "5d993c0d19b81b35ff3e52b0b565e17c2b900ba4f0126fc2f532d2f9458dce19",
+      "documentHash": "aa6c9862695607a44e758a145e9e05e6db02da6191a280c8c7b5d05b6a5c07aa",
+      "metadata": {
+        "proveedor": "María del Mar Rivera",
+        "representante": "María del Mar Rivera"
+      },
+      "eventHash": "3a89c450d252aa4151e9d7d34bd0d948e9f4e92e190b3dbd29ce602bf5f05d76"
+    }
+  ]
 }
