@@ -3,8 +3,18 @@
   "declarationId": "7c61d185-6b26-4ce0-886b-57a75c868639",
   "token": "223d7a88-c7e7-4e24-9b48-2770263b9b58",
   "createdAt": "2026-09-17T19:11:14.587Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ARMANDO GERARDO HERNANDEZ MORALES",
+    "nombre_representante_legal": "-",
+    "email": "serviauto.ingenieria@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ARMANDO GERARDO HERNANDEZ MORALES",
+    "nombre_representante_legal": "-",
+    "email": "serviauto.ingenieria@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ARMANDO GERARDO HERNANDEZ MORALES",
     "nombre_representante_legal": "-",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "12160e5b8b6e81e04c04fc305bc955e61b597b1d6a5b16286075c3e53bd25960",
+  "auditTrail": [
+    {
+      "eventId": "e1a54436-72f2-408c-8bc5-f10e5b4df1b5",
+      "uid": "HEMA630629LJ9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-17T19:11:26.395Z",
+      "timestampLocal": "2026-09-17T19:11:26.395Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.96.206",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "12160e5b8b6e81e04c04fc305bc955e61b597b1d6a5b16286075c3e53bd25960",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "7923da8d2786b5d4e1388ccd070da09461faec37094e5b3109a16552780448c9"
+    },
+    {
+      "eventId": "17e7a61a-b187-4a6b-952f-8477fe592a32",
+      "uid": "HEMA630629LJ9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-17T19:11:26.395Z",
+      "timestampLocal": "2026-09-17T19:11:26.395Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.96.206",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "7923da8d2786b5d4e1388ccd070da09461faec37094e5b3109a16552780448c9",
+      "documentHash": "12160e5b8b6e81e04c04fc305bc955e61b597b1d6a5b16286075c3e53bd25960",
+      "metadata": {
+        "proveedor": "ARMANDO GERARDO HERNANDEZ MORALES",
+        "representante": "-"
+      },
+      "eventHash": "b7272d5312f96312765fc23358bf5981cf05d51b69c62224b2531030d71e7f1f"
+    }
+  ]
 }
