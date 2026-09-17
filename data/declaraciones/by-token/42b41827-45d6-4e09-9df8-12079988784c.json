@@ -3,8 +3,18 @@
   "declarationId": "631ad756-851b-489c-aaeb-f8384a11a637",
   "token": "42b41827-45d6-4e09-9df8-12079988784c",
   "createdAt": "2026-09-17T17:28:04.164Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ANNA LUIZA OCCHIALINI PAES DE ALMEIDA",
+    "nombre_representante_legal": "Anna Luiza Occhialini Paes de Almeida",
+    "email": "contato@stexpedito.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ANNA LUIZA OCCHIALINI PAES DE ALMEIDA",
+    "nombre_representante_legal": "Anna Luiza Occhialini Paes de Almeida",
+    "email": "contato@stexpedito.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ANNA LUIZA OCCHIALINI PAES DE ALMEIDA",
     "nombre_representante_legal": "Anna Luiza Occhialini Paes de Almeida",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4a4ce58873ea454750e32723164ab99fe36e36ae9cba968b7616867c7564cc8e",
+  "auditTrail": [
+    {
+      "eventId": "410a7051-8610-420a-8fd3-f5fc596a49b7",
+      "uid": "11.232.849/0001-07",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-17T17:28:10.837Z",
+      "timestampLocal": "2026-09-17T17:28:10.837Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.238.253.115",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "4a4ce58873ea454750e32723164ab99fe36e36ae9cba968b7616867c7564cc8e",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "8d9807d49b5415c90f6bb3f464cf9f46d39ac386cbb6210c324292cabadb1513"
+    },
+    {
+      "eventId": "bfe0fa1a-e712-42f7-85d4-3d94fc368581",
+      "uid": "11.232.849/0001-07",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-17T17:28:10.837Z",
+      "timestampLocal": "2026-09-17T17:28:10.837Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.238.253.115",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8d9807d49b5415c90f6bb3f464cf9f46d39ac386cbb6210c324292cabadb1513",
+      "documentHash": "4a4ce58873ea454750e32723164ab99fe36e36ae9cba968b7616867c7564cc8e",
+      "metadata": {
+        "proveedor": "ANNA LUIZA OCCHIALINI PAES DE ALMEIDA",
+        "representante": "Anna Luiza Occhialini Paes de Almeida"
+      },
+      "eventHash": "2a038a2d26bf2de0c2ebb17356781f8566fc4acefbd1792c7beb0b999a24e4ec"
+    }
+  ]
 }
