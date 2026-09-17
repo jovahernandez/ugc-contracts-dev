@@ -3,8 +3,18 @@
   "declarationId": "cc434712-836e-4d84-a90c-3ba98490da9b",
   "token": "84d27310-3cbe-4bbc-a0c5-1a8e33fffe27",
   "createdAt": "2026-09-17T15:03:49.342Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Gamboa&Bayona S.A.S",
+    "nombre_representante_legal": "Sara Bayona Muñoz",
+    "email": "sebasgambo27@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Gamboa&Bayona S.A.S",
+    "nombre_representante_legal": "Sara Bayona Muñoz",
+    "email": "sebasgambo27@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Gamboa&Bayona S.A.S",
     "nombre_representante_legal": "Sara Bayona Muñoz",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "0b1b4069cc3d99e506f1c990f709be127cff4b8b33984f8421047e5ebf1904b2",
+  "auditTrail": [
+    {
+      "eventId": "fbc3b6af-e0bf-4d21-8e53-e4ba47d6899a",
+      "uid": "901640845-0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-17T15:03:57.586Z",
+      "timestampLocal": "2026-09-17T15:03:57.586Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.82.102.115",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901640845-0&nombre_proveedor_razon_social=Gamboa%26Bayona+S.A.S&nombre_representante_legal=Sara+Bayona+Mu%C3%B1oz&email=sebasgambo27%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "0b1b4069cc3d99e506f1c990f709be127cff4b8b33984f8421047e5ebf1904b2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "59bd37b09adeb825a67bf0e3de3e62eebe0f53e6967bfebc971ae0732aede893"
+    },
+    {
+      "eventId": "886a3a25-c51d-4184-846a-bff82a0e6848",
+      "uid": "901640845-0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-17T15:03:57.586Z",
+      "timestampLocal": "2026-09-17T15:03:57.586Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.82.102.115",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901640845-0&nombre_proveedor_razon_social=Gamboa%26Bayona+S.A.S&nombre_representante_legal=Sara+Bayona+Mu%C3%B1oz&email=sebasgambo27%40gmail.com",
+      "previousEventHash": "59bd37b09adeb825a67bf0e3de3e62eebe0f53e6967bfebc971ae0732aede893",
+      "documentHash": "0b1b4069cc3d99e506f1c990f709be127cff4b8b33984f8421047e5ebf1904b2",
+      "metadata": {
+        "proveedor": "Gamboa&Bayona S.A.S",
+        "representante": "Sara Bayona Muñoz"
+      },
+      "eventHash": "f43c7b482d38cdc067e1cf1da2bb12098d1adcca457e8a3c2fb2c95780270f0b"
+    }
+  ]
 }
