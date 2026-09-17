@@ -3,8 +3,18 @@
   "declarationId": "4443e3f8-a7d2-4342-908d-d06d6df9d0fc",
   "token": "3509c5e8-7d1c-4641-a293-c6cf69cc01c6",
   "createdAt": "2026-09-17T12:45:00.529Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ZARABATANA ESTUDIOS LTDA",
+    "nombre_representante_legal": "Felipe Recondo Freire",
+    "email": "vinicius.santos@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ZARABATANA ESTUDIOS LTDA",
+    "nombre_representante_legal": "Felipe Recondo Freire",
+    "email": "vinicius.santos@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ZARABATANA ESTUDIOS LTDA",
     "nombre_representante_legal": "Felipe Recondo Freire",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "97a4d735cc10a17ebb0145579102fc51f02ef37ca77a37acc5b3d7957b9e90db",
+  "auditTrail": [
+    {
+      "eventId": "9d4baf28-bc29-4f9c-878a-289b3fb378f7",
+      "uid": "57.142.475/0001-30",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-17T12:45:06.158Z",
+      "timestampLocal": "2026-09-17T12:45:06.158Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=57.142.475%2F0001-30&nombre_proveedor_razon_social=ZARABATANA+ESTUDIOS+LTDA&nombre_representante_legal=Felipe+Recondo+Freire&email=vinicius.santos%40another.co",
+      "previousEventHash": null,
+      "documentHash": "97a4d735cc10a17ebb0145579102fc51f02ef37ca77a37acc5b3d7957b9e90db",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "10e8bbcd15eaa1f8aebf5a947190b3242349c2d2065fb68e685d653d77b93024"
+    },
+    {
+      "eventId": "8cbe500a-4f4d-44e1-b247-66769c0ec749",
+      "uid": "57.142.475/0001-30",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-17T12:45:06.158Z",
+      "timestampLocal": "2026-09-17T12:45:06.158Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=57.142.475%2F0001-30&nombre_proveedor_razon_social=ZARABATANA+ESTUDIOS+LTDA&nombre_representante_legal=Felipe+Recondo+Freire&email=vinicius.santos%40another.co",
+      "previousEventHash": "10e8bbcd15eaa1f8aebf5a947190b3242349c2d2065fb68e685d653d77b93024",
+      "documentHash": "97a4d735cc10a17ebb0145579102fc51f02ef37ca77a37acc5b3d7957b9e90db",
+      "metadata": {
+        "proveedor": "ZARABATANA ESTUDIOS LTDA",
+        "representante": "Felipe Recondo Freire"
+      },
+      "eventHash": "0024dd6aa67445afe4cd8034710cd4c3ccbf68d5395032c2afb6088efde18f4d"
+    }
+  ]
 }
