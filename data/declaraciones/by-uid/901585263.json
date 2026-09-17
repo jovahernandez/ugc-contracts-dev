@@ -3,7 +3,7 @@
   "declarationId": "37997e60-7365-44ec-b7f2-d5c9d05d1554",
   "token": "ca11bb84-177d-46e2-8cd2-35751e451b2e",
   "createdAt": "2026-09-17T13:38:10.158Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "BUDA ENTERTAINMENT SAS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "BUDA ENTERTAINMENT SAS",
     "email": "administracion@budaentertainment.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7a21478a972bb0068ae544903560d136008999fe8e96a4a26a0edd8bc8645f40",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-17T13:39:04.646Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/901585263",
+  "signatureMetadata": {
+    "ip": "45.238.183.224",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-17T13:39:08.064Z",
+    "signedAtLocal": "2026-09-17T08:39:08.064Z"
+  },
+  "documentHash": "8d79b174a0c5db4772754a8e22118a6f2e545608917399b274cb6eb2a2870333",
   "auditTrail": [
     {
       "eventId": "3e44c177-d16c-4ce3-8d3b-ab182344dea9",
@@ -155,6 +163,86 @@
         "representante": "BUDA ENTERTAINMENT SAS"
       },
       "eventHash": "ef214516ac7c0d208cb5505f63928d4803e5141560f20d1dbc68721dcf145f25"
+    },
+    {
+      "eventId": "4ce25131-b7bf-45a1-8966-84719599476f",
+      "uid": "901585263",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-17T13:38:22.428Z",
+      "timestampLocal": "2026-09-17T13:38:22.428Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.238.183.224",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901585263&nombre_proveedor_razon_social=BUDA+ENTERTAINMENT+SAS&nombre_representante_legal=BUDA+ENTERTAINMENT+SAS&email=administracion%40budaentertainment.com",
+      "previousEventHash": "ef214516ac7c0d208cb5505f63928d4803e5141560f20d1dbc68721dcf145f25",
+      "documentHash": "2d6d6805b0462575c746c8dd2e7910eac2747337d9c38173861dfc37255b0be5",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "45bbc2e37fcf2ebd8672eea47dc83a244d42d7f7ac893404b4c521fc14e539d1"
+    },
+    {
+      "eventId": "41e8950a-e0ee-4325-b6eb-3d63a71eb200",
+      "uid": "901585263",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-17T13:38:22.428Z",
+      "timestampLocal": "2026-09-17T13:38:22.428Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.238.183.224",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901585263&nombre_proveedor_razon_social=BUDA+ENTERTAINMENT+SAS&nombre_representante_legal=BUDA+ENTERTAINMENT+SAS&email=administracion%40budaentertainment.com",
+      "previousEventHash": "45bbc2e37fcf2ebd8672eea47dc83a244d42d7f7ac893404b4c521fc14e539d1",
+      "documentHash": "2d6d6805b0462575c746c8dd2e7910eac2747337d9c38173861dfc37255b0be5",
+      "metadata": {
+        "proveedor": "BUDA ENTERTAINMENT SAS",
+        "representante": "BUDA ENTERTAINMENT SAS"
+      },
+      "eventHash": "6e829b31610794b3f1d7ab8de08ad01b21b81f03c94ebbea7243f5d0b7b73303"
+    },
+    {
+      "eventId": "a519e96f-b757-4a8e-80a0-ac57a5dafd4e",
+      "uid": "901585263",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-17T13:38:24.784Z",
+      "timestampLocal": "2026-09-17T13:38:24.784Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.238.183.224",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901585263&nombre_proveedor_razon_social=BUDA+ENTERTAINMENT+SAS&nombre_representante_legal=BUDA+ENTERTAINMENT+SAS&email=administracion%40budaentertainment.com",
+      "previousEventHash": "6e829b31610794b3f1d7ab8de08ad01b21b81f03c94ebbea7243f5d0b7b73303",
+      "documentHash": "2d6d6805b0462575c746c8dd2e7910eac2747337d9c38173861dfc37255b0be5",
+      "eventHash": "3c18d714ad74cfac61e38bbe7c4763e01a40fce0b24104b21dc52c46abcce522"
+    },
+    {
+      "eventId": "245321b9-27bc-4f3f-94cb-94c8058309ee",
+      "uid": "901585263",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-17T13:39:08.064Z",
+      "timestampLocal": "2026-09-17T08:39:08.064Z",
+      "timezone": "UTC-5",
+      "ipAddress": "45.238.183.224",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ca11bb84-177d-46e2-8cd2-35751e451b2e",
+      "previousEventHash": "3c18d714ad74cfac61e38bbe7c4763e01a40fce0b24104b21dc52c46abcce522",
+      "documentHash": "8d79b174a0c5db4772754a8e22118a6f2e545608917399b274cb6eb2a2870333",
+      "signatureHash": "a8ecba0ec999dc619fafa501b104312bb2e37415b975668966b08fcda6876b82",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-17T08:39:04.646Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "ce3f3bbbe9598cef062f75ac6a5bf4790b7aaae16145562f63913c1a7b89ca70"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-09-17T13:39:08.250Z"
+  }
 }
