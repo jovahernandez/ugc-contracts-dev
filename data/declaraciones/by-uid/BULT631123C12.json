@@ -3,7 +3,7 @@
   "declarationId": "5d8b4cc0-1094-4df4-b151-75ba8e90cb9d",
   "token": "9bc32bdf-6a7b-48d6-ac7e-6315b43b681b",
   "createdAt": "2026-09-17T22:56:48.158Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "TERESA DE JESUS BUENFIL LOPEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "TERESA DE JESUS BUENFIL LOPEZ",
     "email": "bjasoc_ana@yahoo.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "88ef36ef789a578cf04263b43d4356677d862d03f88da4acc457843c35482b9b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-17T23:00:38.059Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BULT631123C12",
+  "signatureMetadata": {
+    "ip": "187.190.254.38",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-17T23:00:41.430Z",
+    "signedAtLocal": "2026-09-17T17:00:41.430Z"
+  },
+  "documentHash": "40780e856bb58626c219d9b07885f29b8687dc93ce50cc1b5c6598af2467610c",
   "auditTrail": [
     {
       "eventId": "58481d36-399a-482c-9f37-2d639a3ad68f",
@@ -66,6 +74,79 @@
         "representante": "TERESA DE JESUS BUENFIL LOPEZ"
       },
       "eventHash": "16c399888622a4421e3319762843b537cdb2566a15276417387f1fbdead241fd"
+    },
+    {
+      "eventId": "fb8fc60f-cf3c-412f-8616-0cd3b8b1483b",
+      "uid": "BULT631123C12",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-17T22:57:06.801Z",
+      "timestampLocal": "2026-09-17T22:57:06.801Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.254.38",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BULT631123C12&nombre_proveedor_razon_social=TERESA+DE+JESUS+BUENFIL+LOPEZ&nombre_representante_legal=TERESA+DE+JESUS+BUENFIL+LOPEZ&email=bjasoc_ana%40yahoo.com.mx",
+      "previousEventHash": "16c399888622a4421e3319762843b537cdb2566a15276417387f1fbdead241fd",
+      "documentHash": "88ef36ef789a578cf04263b43d4356677d862d03f88da4acc457843c35482b9b",
+      "eventHash": "c0dae960e2a563338ad778402941f3c678c01adad17a99ccb2aa2c465221b532"
+    },
+    {
+      "eventId": "722c6ca9-43ff-425c-8306-83727f81ef9d",
+      "uid": "BULT631123C12",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-17T22:58:58.112Z",
+      "timestampLocal": "2026-09-17T22:58:58.112Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.254.38",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c0dae960e2a563338ad778402941f3c678c01adad17a99ccb2aa2c465221b532",
+      "documentHash": "88ef36ef789a578cf04263b43d4356677d862d03f88da4acc457843c35482b9b",
+      "eventHash": "6b32616a9a1fee08063065a247d0db0d24d7c9b6d5dd22f0debefb115e22cebf"
+    },
+    {
+      "eventId": "bceb11a5-1f2a-4dd0-81a5-1a474eb641e2",
+      "uid": "BULT631123C12",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-17T22:59:55.735Z",
+      "timestampLocal": "2026-09-17T22:59:55.735Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.254.38",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "6b32616a9a1fee08063065a247d0db0d24d7c9b6d5dd22f0debefb115e22cebf",
+      "documentHash": "88ef36ef789a578cf04263b43d4356677d862d03f88da4acc457843c35482b9b",
+      "eventHash": "cc26165bdfc082c06a3e8343c5d229227517c2f066ce453215899cab529eb2d1"
+    },
+    {
+      "eventId": "b98c8267-b80e-4065-864a-83462b892df3",
+      "uid": "BULT631123C12",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-17T23:00:41.430Z",
+      "timestampLocal": "2026-09-17T17:00:41.430Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.254.38",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/9bc32bdf-6a7b-48d6-ac7e-6315b43b681b",
+      "previousEventHash": "cc26165bdfc082c06a3e8343c5d229227517c2f066ce453215899cab529eb2d1",
+      "documentHash": "40780e856bb58626c219d9b07885f29b8687dc93ce50cc1b5c6598af2467610c",
+      "signatureHash": "41fc0801a77cb3edaf66f046a8af7601fcfcb5e2f6c3f253e67d9debc8db07fd",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-17T17:00:38.059Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "7ca4692e65c4254053d070e49b6bec0c7cf267ec9b9078b50f7dfcebee12222e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-17T23:00:41.602Z"
+  }
 }
