@@ -3,8 +3,18 @@
   "declarationId": "5d8b4cc0-1094-4df4-b151-75ba8e90cb9d",
   "token": "9bc32bdf-6a7b-48d6-ac7e-6315b43b681b",
   "createdAt": "2026-09-17T22:56:48.158Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "TERESA DE JESUS BUENFIL LOPEZ",
+    "nombre_representante_legal": "TERESA DE JESUS BUENFIL LOPEZ",
+    "email": "bjasoc_ana@yahoo.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "TERESA DE JESUS BUENFIL LOPEZ",
+    "nombre_representante_legal": "TERESA DE JESUS BUENFIL LOPEZ",
+    "email": "bjasoc_ana@yahoo.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "TERESA DE JESUS BUENFIL LOPEZ",
     "nombre_representante_legal": "TERESA DE JESUS BUENFIL LOPEZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "88ef36ef789a578cf04263b43d4356677d862d03f88da4acc457843c35482b9b",
+  "auditTrail": [
+    {
+      "eventId": "58481d36-399a-482c-9f37-2d639a3ad68f",
+      "uid": "BULT631123C12",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-17T22:57:04.517Z",
+      "timestampLocal": "2026-09-17T22:57:04.517Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.254.38",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BULT631123C12&nombre_proveedor_razon_social=TERESA+DE+JESUS+BUENFIL+LOPEZ&nombre_representante_legal=TERESA+DE+JESUS+BUENFIL+LOPEZ&email=bjasoc_ana%40yahoo.com.mx",
+      "previousEventHash": null,
+      "documentHash": "88ef36ef789a578cf04263b43d4356677d862d03f88da4acc457843c35482b9b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2654487cab8dd7b7853b4c16e01cab82f01286f1a782cc114f54a904260130e5"
+    },
+    {
+      "eventId": "4d1992aa-750b-402d-9ff9-257586e6bec3",
+      "uid": "BULT631123C12",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-17T22:57:04.517Z",
+      "timestampLocal": "2026-09-17T22:57:04.517Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.254.38",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BULT631123C12&nombre_proveedor_razon_social=TERESA+DE+JESUS+BUENFIL+LOPEZ&nombre_representante_legal=TERESA+DE+JESUS+BUENFIL+LOPEZ&email=bjasoc_ana%40yahoo.com.mx",
+      "previousEventHash": "2654487cab8dd7b7853b4c16e01cab82f01286f1a782cc114f54a904260130e5",
+      "documentHash": "88ef36ef789a578cf04263b43d4356677d862d03f88da4acc457843c35482b9b",
+      "metadata": {
+        "proveedor": "TERESA DE JESUS BUENFIL LOPEZ",
+        "representante": "TERESA DE JESUS BUENFIL LOPEZ"
+      },
+      "eventHash": "16c399888622a4421e3319762843b537cdb2566a15276417387f1fbdead241fd"
+    }
+  ]
 }
