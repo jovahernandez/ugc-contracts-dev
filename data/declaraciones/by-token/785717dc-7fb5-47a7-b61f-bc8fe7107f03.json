@@ -3,8 +3,18 @@
   "declarationId": "fe4fdf59-9e36-442e-81c2-0a5965a7fdea",
   "token": "785717dc-7fb5-47a7-b61f-bc8fe7107f03",
   "createdAt": "2026-09-18T18:35:48.422Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Sebastián Beltrán Esquivel",
+    "nombre_representante_legal": "Alfredo Isaac Villa Vázquez",
+    "email": "sebas_nstars@neomenmx.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Sebastián Beltrán Esquivel",
+    "nombre_representante_legal": "Alfredo Isaac Villa Vázquez",
+    "email": "sebas_nstars@neomenmx.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Sebastián Beltrán Esquivel",
     "nombre_representante_legal": "Alfredo Isaac Villa Vázquez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "37e48d31aed68f6d5c7b9e4e9d447a2cb5328f76ebd022b50de4e2131ab9f34f",
+  "auditTrail": [
+    {
+      "eventId": "12c6ee69-af2a-4659-889b-f0d8e81228f9",
+      "uid": "BEES030425UZ3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-18T18:35:53.163Z",
+      "timestampLocal": "2026-09-18T18:35:53.163Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.42.216",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BEES030425UZ3&nombre_proveedor_razon_social=Sebasti%C3%A1n+Beltr%C3%A1n+Esquivel&nombre_representante_legal=Alfredo+Isaac+Villa+V%C3%A1zquez&email=sebas_nstars%40neomenmx.com",
+      "previousEventHash": null,
+      "documentHash": "37e48d31aed68f6d5c7b9e4e9d447a2cb5328f76ebd022b50de4e2131ab9f34f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2b243a410d6801768af384a4390d6512ecfdbf4a0b4a24113c69962a69e1e1f2"
+    },
+    {
+      "eventId": "27d58292-456c-4090-8307-0eb90cfeea93",
+      "uid": "BEES030425UZ3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-18T18:35:53.163Z",
+      "timestampLocal": "2026-09-18T18:35:53.163Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.42.216",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BEES030425UZ3&nombre_proveedor_razon_social=Sebasti%C3%A1n+Beltr%C3%A1n+Esquivel&nombre_representante_legal=Alfredo+Isaac+Villa+V%C3%A1zquez&email=sebas_nstars%40neomenmx.com",
+      "previousEventHash": "2b243a410d6801768af384a4390d6512ecfdbf4a0b4a24113c69962a69e1e1f2",
+      "documentHash": "37e48d31aed68f6d5c7b9e4e9d447a2cb5328f76ebd022b50de4e2131ab9f34f",
+      "metadata": {
+        "proveedor": "Sebastián Beltrán Esquivel",
+        "representante": "Alfredo Isaac Villa Vázquez"
+      },
+      "eventHash": "0632a25ad0ba852ee2412ba2b610aa6a554035b5559b55dc591334af1c43d3c8"
+    }
+  ]
 }
