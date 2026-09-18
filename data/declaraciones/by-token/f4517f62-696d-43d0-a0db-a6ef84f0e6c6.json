@@ -3,7 +3,7 @@
   "declarationId": "fbbf8c51-d2b0-4512-8abd-e98529d9ab0c",
   "token": "f4517f62-696d-43d0-a0db-a6ef84f0e6c6",
   "createdAt": "2026-09-18T19:53:44.836Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Michelle Duque",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Maria Fernando Velasquez",
     "email": "contactomichelleduque@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "14400c9aa7580a5bba6eda7214324aedcf1a7b1d9e1d0ecdc7898988e19efd75",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-18T19:54:47.261Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/1193597920",
+  "signatureMetadata": {
+    "ip": "206.84.81.34",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-18T19:54:50.854Z",
+    "signedAtLocal": "2026-09-18T14:54:50.854Z"
+  },
+  "documentHash": "98c68b8c69654e1950a7fb63afdba05ad14bb5621bd01dc15b002162f7d03d81",
   "auditTrail": [
     {
       "eventId": "9ce76713-204e-46c7-a074-a71c9de2d423",
@@ -66,6 +74,49 @@
         "representante": "Maria Fernando Velasquez"
       },
       "eventHash": "bf33bcbdd1403ae6e7e4dd3cdc7912e3699156a77fca9ac2c940c4d78324fc39"
+    },
+    {
+      "eventId": "94c98767-7e3f-475e-aa61-729af1eddc6c",
+      "uid": "1193597920",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-18T19:53:55.851Z",
+      "timestampLocal": "2026-09-18T19:53:55.851Z",
+      "timezone": "UTC+0",
+      "ipAddress": "206.84.81.34",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1193597920&nombre_proveedor_razon_social=Michelle+Duque&nombre_representante_legal=Maria+Fernando+Velasquez&email=contactomichelleduque%40gmail.com",
+      "previousEventHash": "bf33bcbdd1403ae6e7e4dd3cdc7912e3699156a77fca9ac2c940c4d78324fc39",
+      "documentHash": "14400c9aa7580a5bba6eda7214324aedcf1a7b1d9e1d0ecdc7898988e19efd75",
+      "eventHash": "c30b0299eee58ee30607b3c4c6157617f577ca3610fcd9672776e124d58398b2"
+    },
+    {
+      "eventId": "4a53dcf6-8293-43c4-b252-67f5630d87a9",
+      "uid": "1193597920",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-18T19:54:50.854Z",
+      "timestampLocal": "2026-09-18T14:54:50.854Z",
+      "timezone": "UTC-5",
+      "ipAddress": "206.84.81.34",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f4517f62-696d-43d0-a0db-a6ef84f0e6c6",
+      "previousEventHash": "c30b0299eee58ee30607b3c4c6157617f577ca3610fcd9672776e124d58398b2",
+      "documentHash": "98c68b8c69654e1950a7fb63afdba05ad14bb5621bd01dc15b002162f7d03d81",
+      "signatureHash": "a3cc1cb87512eb18250872746c0765643b54b74b3ff5a2f59031b24ff5cd5c7a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-18T14:54:47.261Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "f791b2d677811c22ec2289b6100cdcbfbf5e069ec4919734621185dddc77ec41"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-18T19:54:51.075Z"
+  }
 }
