@@ -3,7 +3,7 @@
   "declarationId": "8f123a9d-6ffb-4e9e-843e-adaeaa83f5f9",
   "token": "86615e58-77f8-4f85-97b6-74a77eea3bc0",
   "createdAt": "2026-09-18T15:26:14.244Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "VERTIZ GONZALEZ NATALIE DIANE",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "NATALIE VERTIZ",
     "email": "cavidafa@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fac35b55beb80ddc3664126dad7a27864f5a40f2113c3b415721104a1e513ba5",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-18T15:32:49.626Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/10481645226",
+  "signatureMetadata": {
+    "ip": "181.66.140.229",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-18T15:32:53.028Z",
+    "signedAtLocal": "2026-09-18T10:32:53.028Z"
+  },
+  "documentHash": "4a5b4b84e67d1dfedb4414c327a6c2508b083769707328a9446d3f17d91e8552",
   "auditTrail": [
     {
       "eventId": "14de5bf5-2d82-4abd-9a1e-816b8e477574",
@@ -66,6 +74,49 @@
         "representante": "NATALIE VERTIZ"
       },
       "eventHash": "879f21ac04b035b813d10bccb09c8a1e14a06cab87034fc05d57d9b82ed01bfb"
+    },
+    {
+      "eventId": "563eefae-cbc2-42ea-9f0b-c73a911406fe",
+      "uid": "10481645226",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-18T15:26:31.617Z",
+      "timestampLocal": "2026-09-18T15:26:31.617Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.66.140.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-PE,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=10481645226&nombre_proveedor_razon_social=VERTIZ+GONZALEZ+NATALIE+DIANE&nombre_representante_legal=NATALIE+VERTIZ&email=cavidafa%40gmail.com",
+      "previousEventHash": "879f21ac04b035b813d10bccb09c8a1e14a06cab87034fc05d57d9b82ed01bfb",
+      "documentHash": "fac35b55beb80ddc3664126dad7a27864f5a40f2113c3b415721104a1e513ba5",
+      "eventHash": "86ed17b16d79050e53becd2eda4883c55c1a33f5e862a4934732c50be39ad97d"
+    },
+    {
+      "eventId": "f3cc354d-8562-4dd4-8acf-4349246a5f3a",
+      "uid": "10481645226",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-18T15:32:53.028Z",
+      "timestampLocal": "2026-09-18T10:32:53.028Z",
+      "timezone": "UTC-5",
+      "ipAddress": "181.66.140.229",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-PE,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/86615e58-77f8-4f85-97b6-74a77eea3bc0",
+      "previousEventHash": "86ed17b16d79050e53becd2eda4883c55c1a33f5e862a4934732c50be39ad97d",
+      "documentHash": "4a5b4b84e67d1dfedb4414c327a6c2508b083769707328a9446d3f17d91e8552",
+      "signatureHash": "2dc77b8eca6f33e7d756aafbebe1390303901c64184d8c8d98d2555d354697b9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-18T10:32:49.626Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "8f7f9b2bd532d432b9223bd6bf1b757fed84c10212df3e65da408da40ec10535"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-18T15:32:53.314Z"
+  }
 }
