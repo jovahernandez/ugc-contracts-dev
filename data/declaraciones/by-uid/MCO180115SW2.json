@@ -3,7 +3,7 @@
   "declarationId": "219966e5-cecc-42c7-8dc3-63b149e196d7",
   "token": "876213a7-93d3-46e4-808d-4b8a01e5737f",
   "createdAt": "2026-09-17T18:44:37.091Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MRM COMUNICACION SA DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "KAREN DANIELA MAZA RODRIGUEZ",
     "email": "tanluna.contact@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9f2588fa84c16cfc16c486b7df271bb08c221844e4f7b9b07f1535acbc54642d",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-18T01:17:12.306Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MCO180115SW2",
+  "signatureMetadata": {
+    "ip": "201.153.91.185",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-18T01:17:15.699Z",
+    "signedAtLocal": "2026-09-17T19:17:15.699Z"
+  },
+  "documentHash": "973c0ba5480bf9d435c3dff31d1287b4e669844ab85feeb01aab6e5c2870f0a8",
   "auditTrail": [
     {
       "eventId": "0a07836c-b677-4e7c-8433-047652c233a7",
@@ -66,6 +74,79 @@
         "representante": "KAREN DANIELA MAZA RODRIGUEZ"
       },
       "eventHash": "9f29bb4e7957bdc2b68ab05b1922d6b0870d689a9924e63227ecf7b82d335e23"
+    },
+    {
+      "eventId": "405b8946-0590-4449-9dd9-a64e5fc2b7d9",
+      "uid": "MCO180115SW2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-17T18:44:46.297Z",
+      "timestampLocal": "2026-09-17T18:44:46.297Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.118.192",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MCO180115SW2&nombre_proveedor_razon_social=MRM+COMUNICACION+SA+DE+CV&nombre_representante_legal=KAREN+DANIELA+MAZA+RODRIGUEZ&email=tanluna.contact%40gmail.com",
+      "previousEventHash": "9f29bb4e7957bdc2b68ab05b1922d6b0870d689a9924e63227ecf7b82d335e23",
+      "documentHash": "9f2588fa84c16cfc16c486b7df271bb08c221844e4f7b9b07f1535acbc54642d",
+      "eventHash": "c930a56255063716857da04378081d223c4664bd59f27513f999e73af168cfa8"
+    },
+    {
+      "eventId": "86c99e72-e417-4fc8-a530-03945b084333",
+      "uid": "MCO180115SW2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-17T18:46:59.715Z",
+      "timestampLocal": "2026-09-17T18:46:59.715Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.118.192",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c930a56255063716857da04378081d223c4664bd59f27513f999e73af168cfa8",
+      "documentHash": "9f2588fa84c16cfc16c486b7df271bb08c221844e4f7b9b07f1535acbc54642d",
+      "eventHash": "07840a9de4d9e4bcbb49f9dd690d769b0584cda6aacdfe9600d7337154c1ac86"
+    },
+    {
+      "eventId": "2e64f951-139a-4bd8-a433-b1ed666efa9d",
+      "uid": "MCO180115SW2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-18T01:15:59.863Z",
+      "timestampLocal": "2026-09-18T01:15:59.863Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.153.91.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "07840a9de4d9e4bcbb49f9dd690d769b0584cda6aacdfe9600d7337154c1ac86",
+      "documentHash": "9f2588fa84c16cfc16c486b7df271bb08c221844e4f7b9b07f1535acbc54642d",
+      "eventHash": "1dbd28e1c437115e4e002a717f578cb28f5bb422a8b5120aeb73933efb614ce0"
+    },
+    {
+      "eventId": "da8a6715-d8aa-4f3f-b381-ee7734bfad83",
+      "uid": "MCO180115SW2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-18T01:17:15.700Z",
+      "timestampLocal": "2026-09-17T19:17:15.700Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.153.91.185",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/876213a7-93d3-46e4-808d-4b8a01e5737f",
+      "previousEventHash": "1dbd28e1c437115e4e002a717f578cb28f5bb422a8b5120aeb73933efb614ce0",
+      "documentHash": "973c0ba5480bf9d435c3dff31d1287b4e669844ab85feeb01aab6e5c2870f0a8",
+      "signatureHash": "12fa9f98d0ac1cda75db827abcd9a0506a4c9971e506d0881f1c475faf22117b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-17T19:17:12.306Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "742bd06e4d2fb5ce77f81918108565a90d3f5ff7d246652340c0ff8de849f533"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-18T01:17:15.860Z"
+  }
 }
