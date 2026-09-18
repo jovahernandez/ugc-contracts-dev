@@ -3,7 +3,7 @@
   "declarationId": "7fac4182-459b-40a4-8705-2191dafdc8fb",
   "token": "e562ad1e-bc38-42b5-ad46-a92617c0d3e8",
   "createdAt": "2026-09-18T19:39:28.724Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SIBARRA CORP",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "SAMUEL IBARRA",
     "email": "drsibarra@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "eaf9194932b562f06b57d111ed3c009a35e76033d7059b608c98984efc888fb5",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-18T19:55:59.559Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/155632801-2-2016DV2",
+  "signatureMetadata": {
+    "ip": "190.33.39.156",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/153.0.8010.24 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-09-18T19:56:02.969Z",
+    "signedAtLocal": "2026-09-18T14:56:02.969Z"
+  },
+  "documentHash": "5c16fc7e4448a2cb21a91b5b3cdd297b18b5abb27adece5b060294039ae9dfa7",
   "auditTrail": [
     {
       "eventId": "43d073f2-f616-42c3-a179-5af599bb5a20",
@@ -66,6 +74,64 @@
         "representante": "SAMUEL IBARRA"
       },
       "eventHash": "e98fa90894fae14a77e52341693e0481e67d8e65925c155e3b88bfb937862697"
+    },
+    {
+      "eventId": "130983b3-7abe-45df-8e79-97fe81385cfe",
+      "uid": "155632801-2-2016DV2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-18T19:39:41.234Z",
+      "timestampLocal": "2026-09-18T19:39:41.234Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.218.232.8",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=155632801-2-2016DV2&nombre_proveedor_razon_social=SIBARRA+CORP+&nombre_representante_legal=SAMUEL+IBARRA&email=drsibarra%40gmail.com",
+      "previousEventHash": "e98fa90894fae14a77e52341693e0481e67d8e65925c155e3b88bfb937862697",
+      "documentHash": "eaf9194932b562f06b57d111ed3c009a35e76033d7059b608c98984efc888fb5",
+      "eventHash": "1c777afdf7372a99d2f8509928596bcf2a0259248522af0cf9e6394c8772d716"
+    },
+    {
+      "eventId": "aa5875b5-e03b-415c-a468-bfe9ccbdf949",
+      "uid": "155632801-2-2016DV2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-18T19:54:58.983Z",
+      "timestampLocal": "2026-09-18T19:54:58.983Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.33.75.27",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/153.0.8010.24 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "1c777afdf7372a99d2f8509928596bcf2a0259248522af0cf9e6394c8772d716",
+      "documentHash": "eaf9194932b562f06b57d111ed3c009a35e76033d7059b608c98984efc888fb5",
+      "eventHash": "0bf4d7f4eff9e27135285be218682e0b5774f7890b6ca9e6e6735dc90e90ae68"
+    },
+    {
+      "eventId": "fdc5a43e-0083-40f1-993f-72e8bbdca10c",
+      "uid": "155632801-2-2016DV2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-18T19:56:02.969Z",
+      "timestampLocal": "2026-09-18T14:56:02.969Z",
+      "timezone": "UTC-5",
+      "ipAddress": "190.33.39.156",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/153.0.8010.24 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "0bf4d7f4eff9e27135285be218682e0b5774f7890b6ca9e6e6735dc90e90ae68",
+      "documentHash": "5c16fc7e4448a2cb21a91b5b3cdd297b18b5abb27adece5b060294039ae9dfa7",
+      "signatureHash": "cd02c3c25cf31524e5a541df53ee13d660f78375ac696c7ebb8fbd2380a9ec6f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-18T14:55:59.559Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "1e603f0be378e0086ab6b6343ff8c09cbfb34ea0541f5185baac2d69148de1da"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-09-18T19:56:03.120Z"
+  }
 }
