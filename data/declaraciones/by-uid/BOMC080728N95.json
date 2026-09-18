@@ -3,7 +3,7 @@
   "declarationId": "7acd8e23-29bf-4642-9b21-79fac64c6d16",
   "token": "b9943fe5-06c4-463c-8b4f-8c0eb046f7a6",
   "createdAt": "2026-09-18T17:20:14.476Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Carlos Leopoldo Tadeo Bonavides Marcos",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Carlos Leopoldo Tadeo Bonavides Marcos",
     "email": "tadeobonavides7@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "64e4f4f80aed43ac6a23367fd5dff123b934ad2e5b9a4d7c358c608f56dedc23",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-18T17:25:35.282Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BOMC080728N95",
+  "signatureMetadata": {
+    "ip": "187.251.223.215",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "signedAtUtc": "2026-09-18T17:25:38.642Z",
+    "signedAtLocal": "2026-09-18T11:25:38.642Z"
+  },
+  "documentHash": "418d15e21bafa8ab9b99e20aea52ef5df03743b6444e17b323a94ee65ad31173",
   "auditTrail": [
     {
       "eventId": "d71dbbf9-8f4b-4063-b447-623e570f02d6",
@@ -179,11 +187,11 @@
       "eventHash": "7dd9e8b7d02677514aa671409b5ea25838e778809b58d2e4f8f64c8cc2eaeb74"
     },
     {
-      "eventId": "22bd9ddb-21a6-4785-8c21-da570651fc48",
+      "eventId": "273f72d9-cd4d-492f-b274-39ee37b20cdc",
       "uid": "BOMC080728N95",
       "eventType": "language_selected",
-      "timestampUtc": "2026-09-18T17:20:32.645Z",
-      "timestampLocal": "2026-09-18T17:20:32.645Z",
+      "timestampUtc": "2026-09-18T17:20:32.806Z",
+      "timestampLocal": "2026-09-18T17:20:32.806Z",
       "timezone": "UTC+0",
       "ipAddress": "187.251.223.215",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
@@ -194,26 +202,69 @@
       "metadata": {
         "language": "es"
       },
-      "eventHash": "321932e51683e7f0a6a4e6ed884308968af16db66994031783d6a300bc959851"
+      "eventHash": "7cafebdcf3bd9e4dcb1f96cb97eb2ca4637b8fc7bfbab4e6434931b3a1befc95"
     },
     {
-      "eventId": "3a431aa4-5dd5-44da-a99d-33fae0d9681a",
+      "eventId": "aaf81d9e-957b-4b60-9c79-8611107cc2f4",
       "uid": "BOMC080728N95",
       "eventType": "document_created",
-      "timestampUtc": "2026-09-18T17:20:32.645Z",
-      "timestampLocal": "2026-09-18T17:20:32.645Z",
+      "timestampUtc": "2026-09-18T17:20:32.806Z",
+      "timestampLocal": "2026-09-18T17:20:32.806Z",
       "timezone": "UTC+0",
       "ipAddress": "187.251.223.215",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
       "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOMC080728N95&nombre_proveedor_razon_social=Carlos+Leopoldo+Tadeo+Bonavides+Marcos&nombre_representante_legal=Carlos+Leopoldo+Tadeo+Bonavides+Marcos&email=tadeobonavides7%40gmail.com",
-      "previousEventHash": "321932e51683e7f0a6a4e6ed884308968af16db66994031783d6a300bc959851",
+      "previousEventHash": "7cafebdcf3bd9e4dcb1f96cb97eb2ca4637b8fc7bfbab4e6434931b3a1befc95",
       "documentHash": "64e4f4f80aed43ac6a23367fd5dff123b934ad2e5b9a4d7c358c608f56dedc23",
       "metadata": {
         "proveedor": "Carlos Leopoldo Tadeo Bonavides Marcos",
         "representante": "Carlos Leopoldo Tadeo Bonavides Marcos"
       },
-      "eventHash": "426666302f85c0c50c73ee33c9e1066dbd7336903840c4a9e2787e503fa4d9c4"
+      "eventHash": "5318df75b0e7f2110dcb751d5bbfe2f7118fec19946869691a700b6d16fc6a55"
+    },
+    {
+      "eventId": "18109fca-fc7d-4138-a0eb-e494305389df",
+      "uid": "BOMC080728N95",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-18T17:20:35.318Z",
+      "timestampLocal": "2026-09-18T17:20:35.318Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.223.215",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BOMC080728N95&nombre_proveedor_razon_social=Carlos+Leopoldo+Tadeo+Bonavides+Marcos&nombre_representante_legal=Carlos+Leopoldo+Tadeo+Bonavides+Marcos&email=tadeobonavides7%40gmail.com",
+      "previousEventHash": "5318df75b0e7f2110dcb751d5bbfe2f7118fec19946869691a700b6d16fc6a55",
+      "documentHash": "64e4f4f80aed43ac6a23367fd5dff123b934ad2e5b9a4d7c358c608f56dedc23",
+      "eventHash": "4a50947b55cf256c8b2099d5af023e6329021c31fb1694b0e764c58f5f1f229a"
+    },
+    {
+      "eventId": "f22781c0-67c0-46b5-bdb6-28f307322c15",
+      "uid": "BOMC080728N95",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-18T17:25:38.642Z",
+      "timestampLocal": "2026-09-18T11:25:38.642Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.251.223.215",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b9943fe5-06c4-463c-8b4f-8c0eb046f7a6",
+      "previousEventHash": "4a50947b55cf256c8b2099d5af023e6329021c31fb1694b0e764c58f5f1f229a",
+      "documentHash": "418d15e21bafa8ab9b99e20aea52ef5df03743b6444e17b323a94ee65ad31173",
+      "signatureHash": "363b941fc1b643fe05fc304e07287fcfc113dd9c4c03cc594c349e6924718ad8",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-18T11:25:35.282Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "7960ac1d8f044717d5564c1650e335fb2d44b1c5a68d6ec99a5640b1f3f13db6"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 12,
+    "verifiedAt": "2026-09-18T17:25:38.835Z"
+  }
 }
