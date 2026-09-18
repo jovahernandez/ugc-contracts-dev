@@ -3,7 +3,7 @@
   "declarationId": "58e61f44-c23f-42ca-b867-3d32065a2d4e",
   "token": "d9db1981-0a22-4e56-9ba1-373f36a0f12f",
   "createdAt": "2026-09-18T18:46:28.983Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ANA IRENE BARRANTES RAMIREZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "N/A",
     "email": "anabar6@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "80f8c2759399e03326a9ae50b02fc32473c1ec627e418b793eb3388636aab89f",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-18T18:46:49.709Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/116540252",
+  "signatureMetadata": {
+    "ip": "190.171.106.147",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-18T18:46:53.038Z",
+    "signedAtLocal": "2026-09-18T12:46:53.038Z"
+  },
+  "documentHash": "de5799238624f727630cfb77e8d0ec41d2334ccf35ccfec97b2c6caa934054f5",
   "auditTrail": [
     {
       "eventId": "80870063-fd99-49b5-84c9-90a26454d076",
@@ -103,6 +111,49 @@
         "representante": "N/A"
       },
       "eventHash": "14460e1010c14b374a38b7ef7187ba5fa222a7040634ea435ce8610eaff6e8c1"
+    },
+    {
+      "eventId": "f8cbe636-1e52-4b47-8eda-def580e3c745",
+      "uid": "116540252",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-18T18:46:39.396Z",
+      "timestampLocal": "2026-09-18T18:46:39.396Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.171.106.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=116540252&nombre_proveedor_razon_social=ANA+IRENE+BARRANTES+RAMIREZ&nombre_representante_legal=N%2FA&email=anabar6%40gmail.com",
+      "previousEventHash": "14460e1010c14b374a38b7ef7187ba5fa222a7040634ea435ce8610eaff6e8c1",
+      "documentHash": "80f8c2759399e03326a9ae50b02fc32473c1ec627e418b793eb3388636aab89f",
+      "eventHash": "f2f0d8db4e2150beee0833994aae9395bfb8d9b7dcf8e7de3c6fede02b431cff"
+    },
+    {
+      "eventId": "d93b1966-c75d-47e8-9d36-726f5f4e9851",
+      "uid": "116540252",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-18T18:46:53.038Z",
+      "timestampLocal": "2026-09-18T12:46:53.038Z",
+      "timezone": "UTC-6",
+      "ipAddress": "190.171.106.147",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d9db1981-0a22-4e56-9ba1-373f36a0f12f",
+      "previousEventHash": "f2f0d8db4e2150beee0833994aae9395bfb8d9b7dcf8e7de3c6fede02b431cff",
+      "documentHash": "de5799238624f727630cfb77e8d0ec41d2334ccf35ccfec97b2c6caa934054f5",
+      "signatureHash": "990098c2dc771b5d5d6cc2041021c233b10c9df8d9192650d86daee84acfc1d1",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-18T12:46:49.709Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "0c9f14c2bf9813b2ed579464bbedbfeea87a5586c6dd4b326d530a5c312d0b92"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-18T18:46:53.202Z"
+  }
 }
