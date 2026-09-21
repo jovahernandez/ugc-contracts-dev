@@ -3,8 +3,18 @@
   "declarationId": "a672a3ba-0d5b-42d3-98bc-f74ff40c7b04",
   "token": "7015c98c-1541-4931-bf0b-267792957756",
   "createdAt": "2026-09-21T20:55:17.911Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Niño Fresa SRL",
+    "nombre_representante_legal": "Daniela Ortiz Melgar",
+    "email": "danielaortiz@ninofresa.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Niño Fresa SRL",
+    "nombre_representante_legal": "Daniela Ortiz Melgar",
+    "email": "danielaortiz@ninofresa.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Niño Fresa SRL",
     "nombre_representante_legal": "Daniela Ortiz Melgar",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "0c93e3f5c4c47c1431ff120803b54c535ccb8852b537be321f54f80a9e52041c",
+  "auditTrail": [
+    {
+      "eventId": "ff69f17a-d6fc-466c-9f24-4f905ea5b63d",
+      "uid": "297446024",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-21T20:55:27.265Z",
+      "timestampLocal": "2026-09-21T20:55:27.265Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.114.108.55",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "0c93e3f5c4c47c1431ff120803b54c535ccb8852b537be321f54f80a9e52041c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "40f45f999a263c749e6c6f04508f896f84bbaeecfe238a1834366a7cebcd6683"
+    },
+    {
+      "eventId": "b79275c2-e358-4021-bcd0-6afcba65e732",
+      "uid": "297446024",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-21T20:55:27.265Z",
+      "timestampLocal": "2026-09-21T20:55:27.265Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.114.108.55",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "40f45f999a263c749e6c6f04508f896f84bbaeecfe238a1834366a7cebcd6683",
+      "documentHash": "0c93e3f5c4c47c1431ff120803b54c535ccb8852b537be321f54f80a9e52041c",
+      "metadata": {
+        "proveedor": "Niño Fresa SRL",
+        "representante": "Daniela Ortiz Melgar"
+      },
+      "eventHash": "008539213bd2f94091bdc81ad3e8dd035241891b4e407cca30ef6ffdd335948a"
+    }
+  ]
 }
