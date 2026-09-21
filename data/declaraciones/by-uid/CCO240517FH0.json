@@ -1,7 +1,7 @@
 {
   "uid": "CCO240517FH0",
   "token": "7c4d76e1-5936-4f69-a0ba-a6d6ed10a904",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CENTILIA CONNECTORS S DE RL DE CV",
@@ -23,10 +23,18 @@
     "nombre_representante_legal": "Jesus Carlos Martinez Peón",
     "email": "mauricio.borbon@centilia.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "836ea40d840eee996e08cc93fb53a4f5910d591e96249623b8e2e162d56deb52",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-21T19:20:11.968Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CCO240517FH0",
+  "signatureMetadata": {
+    "ip": "187.189.88.161",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-21T19:20:15.317Z",
+    "signedAtLocal": "2026-09-21T13:20:15.317Z"
+  },
+  "documentHash": "1314304c5e5f48cac79134ddcf0c2fa04509e21a7ab536e08a29f3846c6f9c73",
   "auditTrail": [
     {
       "eventId": "ca762292-c29f-4ca5-a081-77b172dbf4dd",
@@ -138,6 +146,49 @@
         "representante": "Jesus Carlos Martinez Peón"
       },
       "eventHash": "c1262db3649c3409f690c7767b22ce787a752f9084078c8f9d51c1dc66891e24"
+    },
+    {
+      "eventId": "bcb823d7-786f-469d-b55e-60e3f97040b2",
+      "uid": "CCO240517FH0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-21T19:19:56.890Z",
+      "timestampLocal": "2026-09-21T19:19:56.890Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.88.161",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CCO240517FH0&nombre_proveedor_razon_social=CENTILIA+CONNECTORS+S+DE+RL+DE+CV&nombre_representante_legal=Jesus+Carlos+Martinez+Peon&email=mauricio.borbon%40centilia.co",
+      "previousEventHash": "c1262db3649c3409f690c7767b22ce787a752f9084078c8f9d51c1dc66891e24",
+      "documentHash": "836ea40d840eee996e08cc93fb53a4f5910d591e96249623b8e2e162d56deb52",
+      "eventHash": "508710bd260747a66157c677daf949aad36a2181c8ed81815da758e820b9a2cc"
+    },
+    {
+      "eventId": "1cf4bb2a-0f9e-4acb-8db3-3f2f36381df5",
+      "uid": "CCO240517FH0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-21T19:20:15.317Z",
+      "timestampLocal": "2026-09-21T13:20:15.317Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.88.161",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7c4d76e1-5936-4f69-a0ba-a6d6ed10a904",
+      "previousEventHash": "508710bd260747a66157c677daf949aad36a2181c8ed81815da758e820b9a2cc",
+      "documentHash": "1314304c5e5f48cac79134ddcf0c2fa04509e21a7ab536e08a29f3846c6f9c73",
+      "signatureHash": "8f1d6d42ac570c9f59ff45c454584aef474093a5faec2ba6da761dc83c0d0022",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-21T13:20:11.968Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "433b035c5c4a85933d453d9ae4d56d0c1c080e19343d2e3b028fcd0854411d59"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-09-21T19:20:15.583Z"
+  }
 }
