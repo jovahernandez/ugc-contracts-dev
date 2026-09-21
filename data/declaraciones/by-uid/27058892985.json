@@ -3,8 +3,18 @@
   "declarationId": "15407a72-087f-42ee-982b-04508f2725c2",
   "token": "68489d17-2987-45c2-b0ad-23ebc7952a07",
   "createdAt": "2026-09-21T17:03:03.863Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "LILIANA MARTA GRINBERG",
+    "nombre_representante_legal": "Liliana Grinberg",
+    "email": "mariadelcarmen@escribaniagrinberg.com.ar"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "LILIANA MARTA GRINBERG",
+    "nombre_representante_legal": "Liliana Grinberg",
+    "email": "mariadelcarmen@escribaniagrinberg.com.ar"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "LILIANA MARTA GRINBERG",
     "nombre_representante_legal": "Liliana Grinberg",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "6923ade96a20dad53bcc108517fdb8a3953172da6f3d1d4ba1e107e4b35d23c5",
+  "auditTrail": [
+    {
+      "eventId": "9219fe7a-14ee-4a4e-b8a0-5a352c0b6e2d",
+      "uid": "27058892985",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-21T17:03:14.687Z",
+      "timestampLocal": "2026-09-21T17:03:14.687Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.210.192.209",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27058892985&nombre_proveedor_razon_social=LILIANA+MARTA+GRINBERG&nombre_representante_legal=Liliana+Grinberg&email=mariadelcarmen%40escribaniagrinberg.com.ar",
+      "previousEventHash": null,
+      "documentHash": "6923ade96a20dad53bcc108517fdb8a3953172da6f3d1d4ba1e107e4b35d23c5",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e2c3ee1ea732bc02651b4067a786874d1d5aa2d08574153baed61560dc3838c4"
+    },
+    {
+      "eventId": "7e06b7fe-ad93-4aa7-9ec8-b04d9676bdc1",
+      "uid": "27058892985",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-21T17:03:14.687Z",
+      "timestampLocal": "2026-09-21T17:03:14.687Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.210.192.209",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27058892985&nombre_proveedor_razon_social=LILIANA+MARTA+GRINBERG&nombre_representante_legal=Liliana+Grinberg&email=mariadelcarmen%40escribaniagrinberg.com.ar",
+      "previousEventHash": "e2c3ee1ea732bc02651b4067a786874d1d5aa2d08574153baed61560dc3838c4",
+      "documentHash": "6923ade96a20dad53bcc108517fdb8a3953172da6f3d1d4ba1e107e4b35d23c5",
+      "metadata": {
+        "proveedor": "LILIANA MARTA GRINBERG",
+        "representante": "Liliana Grinberg"
+      },
+      "eventHash": "45d87a6d45d80858d869ccc4c67ab0424203ef77745ce7608b072200cfb90119"
+    }
+  ]
 }
