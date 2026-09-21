@@ -3,8 +3,18 @@
   "declarationId": "1ef4d96f-cb19-46f1-906d-6103b35e66b4",
   "token": "91bf8939-fc5c-40ed-b51b-e4870a8abc00",
   "createdAt": "2026-09-21T18:29:56.590Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Renato Gutierrez Zamora Pacheco",
+    "nombre_representante_legal": "LENIN JORGE ZAMUDIO",
+    "email": "renatogutierrez.actor@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Renato Gutierrez Zamora Pacheco",
+    "nombre_representante_legal": "LENIN JORGE ZAMUDIO",
+    "email": "renatogutierrez.actor@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Renato Gutierrez Zamora Pacheco",
     "nombre_representante_legal": "LENIN JORGE ZAMUDIO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "e5a9462aa8c19df150a028953c69dd9093e111b17a7614ef9fbbdf3bbbb3d5ac",
+  "auditTrail": [
+    {
+      "eventId": "328c0312-a8ad-45f5-90e2-b9a8f359b271",
+      "uid": "GUPR920128SU1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-21T18:30:03.805Z",
+      "timestampLocal": "2026-09-21T18:30:03.805Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.195.101",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15",
+      "acceptLanguage": "es-xl",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "e5a9462aa8c19df150a028953c69dd9093e111b17a7614ef9fbbdf3bbbb3d5ac",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "819ce08778494e62468cdc464e189459f046d0320c17667913ce77b17d9de382"
+    },
+    {
+      "eventId": "8c0b2205-341c-4611-a1dd-48dd2dd67858",
+      "uid": "GUPR920128SU1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-21T18:30:03.805Z",
+      "timestampLocal": "2026-09-21T18:30:03.805Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.195.101",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15",
+      "acceptLanguage": "es-xl",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "819ce08778494e62468cdc464e189459f046d0320c17667913ce77b17d9de382",
+      "documentHash": "e5a9462aa8c19df150a028953c69dd9093e111b17a7614ef9fbbdf3bbbb3d5ac",
+      "metadata": {
+        "proveedor": "Renato Gutierrez Zamora Pacheco",
+        "representante": "LENIN JORGE ZAMUDIO"
+      },
+      "eventHash": "c21c733ae5b99795ae6debffc1000747377622888e13ae981fa48c32d2d0edd9"
+    }
+  ]
 }
