@@ -3,8 +3,18 @@
   "declarationId": "055f97b5-16ee-4846-a792-5dea7ffff379",
   "token": "6f73d9ee-eaf4-4114-8e36-e4cedd689a2d",
   "createdAt": "2026-09-21T22:25:17.377Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Michelle Ivonne Toache Allende",
+    "nombre_representante_legal": "N/A",
+    "email": "michelle_toache@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Michelle Ivonne Toache Allende",
+    "nombre_representante_legal": "N/A",
+    "email": "michelle_toache@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Michelle Ivonne Toache Allende",
     "nombre_representante_legal": "N/A",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "68d842628acd2a92e684144556dfd51b68d9d345bb77f9e979c3631ebed4268b",
+  "auditTrail": [
+    {
+      "eventId": "f1d1a83e-4098-4d42-812c-6994626ad099",
+      "uid": "TOAM8906028F3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-21T22:25:24.144Z",
+      "timestampLocal": "2026-09-21T22:25:24.144Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.123.42",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "68d842628acd2a92e684144556dfd51b68d9d345bb77f9e979c3631ebed4268b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c9aec9cda6726ab78ef78ca78e714914aaf63557ba1bb972e4b506a4eff26105"
+    },
+    {
+      "eventId": "9a94e91b-2a69-4113-8531-5c91a2995788",
+      "uid": "TOAM8906028F3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-21T22:25:24.144Z",
+      "timestampLocal": "2026-09-21T22:25:24.144Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.123.42",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "c9aec9cda6726ab78ef78ca78e714914aaf63557ba1bb972e4b506a4eff26105",
+      "documentHash": "68d842628acd2a92e684144556dfd51b68d9d345bb77f9e979c3631ebed4268b",
+      "metadata": {
+        "proveedor": "Michelle Ivonne Toache Allende",
+        "representante": "N/A"
+      },
+      "eventHash": "4f5f93837344f56d136121fe4975be85ec3fe1baad954868491797f778a01ecc"
+    }
+  ]
 }
