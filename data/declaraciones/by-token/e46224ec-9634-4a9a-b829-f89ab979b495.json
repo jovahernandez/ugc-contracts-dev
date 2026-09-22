@@ -3,8 +3,18 @@
   "declarationId": "c4ea23d1-a4bb-46d9-a8ec-7fa562e60471",
   "token": "e46224ec-9634-4a9a-b829-f89ab979b495",
   "createdAt": "2026-09-22T13:05:10.702Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MIRANDA BOLSAS E ACESSORIOS LTDA",
+    "nombre_representante_legal": "Patricia faria",
+    "email": "vinicius.santos@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MIRANDA BOLSAS E ACESSORIOS LTDA",
+    "nombre_representante_legal": "Patricia faria",
+    "email": "vinicius.santos@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MIRANDA BOLSAS E ACESSORIOS LTDA",
     "nombre_representante_legal": "Patricia faria",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "7234bd6db9d20f4a6842d9dba90789f5a609e33ae6290af7d295241eaaec3a59",
+  "auditTrail": [
+    {
+      "eventId": "76c143e7-43d1-48be-b044-3f34c48213c6",
+      "uid": "19.759.192/0001-42",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-22T13:05:16.204Z",
+      "timestampLocal": "2026-09-22T13:05:16.204Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=19.759.192%2F0001-42&nombre_proveedor_razon_social=MIRANDA+BOLSAS+E+ACESSORIOS+LTDA&nombre_representante_legal=Patricia+faria&email=vinicius.santos%40another.co",
+      "previousEventHash": null,
+      "documentHash": "7234bd6db9d20f4a6842d9dba90789f5a609e33ae6290af7d295241eaaec3a59",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "541371750ff546f587a12b12e8400360e152b6bcc6e2aceacf3cc1b10d7bd492"
+    },
+    {
+      "eventId": "f9f688ad-459a-4ed8-a883-08b4ff9516a5",
+      "uid": "19.759.192/0001-42",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-22T13:05:16.204Z",
+      "timestampLocal": "2026-09-22T13:05:16.204Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=19.759.192%2F0001-42&nombre_proveedor_razon_social=MIRANDA+BOLSAS+E+ACESSORIOS+LTDA&nombre_representante_legal=Patricia+faria&email=vinicius.santos%40another.co",
+      "previousEventHash": "541371750ff546f587a12b12e8400360e152b6bcc6e2aceacf3cc1b10d7bd492",
+      "documentHash": "7234bd6db9d20f4a6842d9dba90789f5a609e33ae6290af7d295241eaaec3a59",
+      "metadata": {
+        "proveedor": "MIRANDA BOLSAS E ACESSORIOS LTDA",
+        "representante": "Patricia faria"
+      },
+      "eventHash": "58eeebc828cd9e0715f74f3162341c12de05c3020bca8e0a31db8ed2468e2408"
+    }
+  ]
 }
