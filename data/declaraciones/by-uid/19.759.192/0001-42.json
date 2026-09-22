@@ -3,7 +3,7 @@
   "declarationId": "c4ea23d1-a4bb-46d9-a8ec-7fa562e60471",
   "token": "e46224ec-9634-4a9a-b829-f89ab979b495",
   "createdAt": "2026-09-22T13:05:10.702Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "MIRANDA BOLSAS E ACESSORIOS LTDA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Patricia faria",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7234bd6db9d20f4a6842d9dba90789f5a609e33ae6290af7d295241eaaec3a59",
+  "personaAutorizada": null,
+  "signedAt": "2026-09-22T13:05:25.252Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/19.759.192%2F0001-42",
+  "signatureMetadata": {
+    "ip": "104.140.66.98",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "signedAtUtc": "2026-09-22T13:05:28.565Z",
+    "signedAtLocal": "2026-09-22T10:05:28.565Z"
+  },
+  "documentHash": "c5499c80757fbc90639cfb50df612141a4de76de95ff2deb58877668fc487798",
   "auditTrail": [
     {
       "eventId": "76c143e7-43d1-48be-b044-3f34c48213c6",
@@ -66,6 +72,47 @@
         "representante": "Patricia faria"
       },
       "eventHash": "58eeebc828cd9e0715f74f3162341c12de05c3020bca8e0a31db8ed2468e2408"
+    },
+    {
+      "eventId": "138aa42d-c648-4149-b0ad-807a582c94c6",
+      "uid": "19.759.192/0001-42",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-22T13:05:19.821Z",
+      "timestampLocal": "2026-09-22T13:05:19.821Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=19.759.192%2F0001-42&nombre_proveedor_razon_social=MIRANDA+BOLSAS+E+ACESSORIOS+LTDA&nombre_representante_legal=Patricia+faria&email=vinicius.santos%40another.co",
+      "previousEventHash": "58eeebc828cd9e0715f74f3162341c12de05c3020bca8e0a31db8ed2468e2408",
+      "documentHash": "7234bd6db9d20f4a6842d9dba90789f5a609e33ae6290af7d295241eaaec3a59",
+      "eventHash": "2a249246b7bc5c2045d6662da1655b7858d4b746cf4c78f86283125ffefe9fc5"
+    },
+    {
+      "eventId": "9116c9f0-35c1-4e59-ab86-4eb4c015ba76",
+      "uid": "19.759.192/0001-42",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-22T13:05:28.566Z",
+      "timestampLocal": "2026-09-22T10:05:28.566Z",
+      "timezone": "UTC-3",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/e46224ec-9634-4a9a-b829-f89ab979b495",
+      "previousEventHash": "2a249246b7bc5c2045d6662da1655b7858d4b746cf4c78f86283125ffefe9fc5",
+      "documentHash": "c5499c80757fbc90639cfb50df612141a4de76de95ff2deb58877668fc487798",
+      "signatureHash": "c6685c12bef1becb0546e84658ca9d49492643f3423af1fb9fddbbe4119e5871",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-22T10:05:25.252Z"
+      },
+      "eventHash": "ffaf72514d29ee977b8a5b5d261a8e59c51f1879961e91b3e89e78914d34b611"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-22T13:05:28.746Z"
+  }
 }
