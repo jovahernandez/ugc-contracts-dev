@@ -3,7 +3,7 @@
   "declarationId": "712be02a-021e-451d-b52d-08573fe86d22",
   "token": "661a504e-15a5-4875-b4d5-48ef5cfc1daa",
   "createdAt": "2026-09-22T03:26:05.034Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Fernando Luis Diaz Zabaleta",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Fernando Diaz",
     "email": "ferxodiaz.dj@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3ab884c0fec7b5f6ae449eb17b07915ecc273b3ab62f89695ea57f558c800cf5",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-22T03:27:07.948Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/E8224078",
+  "signatureMetadata": {
+    "ip": "186.73.37.222",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-22T03:27:11.354Z",
+    "signedAtLocal": "2026-09-21T22:27:11.354Z"
+  },
+  "documentHash": "e7869deb844c81b4a8f52ac52ef38aa250e75c238c85ef7b4e2c9b73e953d361",
   "auditTrail": [
     {
       "eventId": "52f0d6b5-6523-4981-b788-aa8e81698a7a",
@@ -66,6 +74,49 @@
         "representante": "Fernando Diaz"
       },
       "eventHash": "1a56c59e3a7d81e32d1b66665809239a0a3c20379bb970026a03138c5f4d68d3"
+    },
+    {
+      "eventId": "82fe748e-36cd-44b6-ac96-7f455a975faf",
+      "uid": "E8224078",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-22T03:26:13.329Z",
+      "timestampLocal": "2026-09-22T03:26:13.329Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.73.37.222",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=E8224078&nombre_proveedor_razon_social=Fernando+Luis+Diaz+Zabaleta&nombre_representante_legal=Fernando+Diaz&email=ferxodiaz.dj%40gmail.com",
+      "previousEventHash": "1a56c59e3a7d81e32d1b66665809239a0a3c20379bb970026a03138c5f4d68d3",
+      "documentHash": "3ab884c0fec7b5f6ae449eb17b07915ecc273b3ab62f89695ea57f558c800cf5",
+      "eventHash": "c927db1eb4105a1825077efd54a93eb27c4bd67648e79319934a4c93394d614c"
+    },
+    {
+      "eventId": "78996a42-e16b-445c-8dcb-1861dc760719",
+      "uid": "E8224078",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-22T03:27:11.354Z",
+      "timestampLocal": "2026-09-21T22:27:11.354Z",
+      "timezone": "UTC-5",
+      "ipAddress": "186.73.37.222",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/661a504e-15a5-4875-b4d5-48ef5cfc1daa",
+      "previousEventHash": "c927db1eb4105a1825077efd54a93eb27c4bd67648e79319934a4c93394d614c",
+      "documentHash": "e7869deb844c81b4a8f52ac52ef38aa250e75c238c85ef7b4e2c9b73e953d361",
+      "signatureHash": "aa68bad7b60c63c25fcae464c3eff880c6e758f72e01a03d2da61b461d6bbdb3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-21T22:27:07.948Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "d05cd144829fc63af4253d2e21ffe84e93733b190639d13a043b10c87aa9240e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-22T03:27:11.638Z"
+  }
 }
