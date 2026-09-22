@@ -3,8 +3,18 @@
   "declarationId": "0d34b112-0ee1-44b6-8f34-db2acbc0375f",
   "token": "0dee5478-7e4d-4082-a775-1f6ea87876a6",
   "createdAt": "2026-09-22T15:39:21.742Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "INVERSIONES TRANQUILA SPA",
+    "nombre_representante_legal": "Blu Dumay",
+    "email": "bludalbero@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "INVERSIONES TRANQUILA SPA",
+    "nombre_representante_legal": "Blu Dumay",
+    "email": "bludalbero@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "INVERSIONES TRANQUILA SPA",
     "nombre_representante_legal": "Blu Dumay",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "777f90c53adabcf5ccc40ebe2f634f9d9a22fd84508a19120ae8fef639601668",
+  "auditTrail": [
+    {
+      "eventId": "56557cd2-a888-4c53-a44a-0d50c7a20c10",
+      "uid": "19524611-4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-22T15:39:28.590Z",
+      "timestampLocal": "2026-09-22T15:39:28.590Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.11.81.105",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "777f90c53adabcf5ccc40ebe2f634f9d9a22fd84508a19120ae8fef639601668",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b423df540cc95e5cb7c844cee644d5a8baf97bc8099fa63bdded2fdaa2d5c09b"
+    },
+    {
+      "eventId": "ce250db8-f1ac-4d24-b27a-7168a74755f6",
+      "uid": "19524611-4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-22T15:39:28.590Z",
+      "timestampLocal": "2026-09-22T15:39:28.590Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.11.81.105",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "b423df540cc95e5cb7c844cee644d5a8baf97bc8099fa63bdded2fdaa2d5c09b",
+      "documentHash": "777f90c53adabcf5ccc40ebe2f634f9d9a22fd84508a19120ae8fef639601668",
+      "metadata": {
+        "proveedor": "INVERSIONES TRANQUILA SPA",
+        "representante": "Blu Dumay"
+      },
+      "eventHash": "9575480eccd7b0063cf42e4b04e494fce8e5d909f651ccda717c5ef960f87fa6"
+    }
+  ]
 }
