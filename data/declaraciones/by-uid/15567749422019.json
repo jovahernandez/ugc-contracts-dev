@@ -3,8 +3,18 @@
   "declarationId": "1e642bbc-8a0e-4ac2-9211-17f1b08229c4",
   "token": "79d9d29c-9d7a-44c7-8b42-7d14435b811e",
   "createdAt": "2026-09-22T12:32:17.570Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "SAKATA MAS SA",
+    "nombre_representante_legal": "SAKATA MAS SA",
+    "email": "massielmas0510@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "SAKATA MAS SA",
+    "nombre_representante_legal": "SAKATA MAS SA",
+    "email": "massielmas0510@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "SAKATA MAS SA",
     "nombre_representante_legal": "SAKATA MAS SA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "f2db7ba7bad3c1b86607496cef715e04841ca5d89f0bc92f13405a5fcc06e79a",
+  "auditTrail": [
+    {
+      "eventId": "87d3a213-680a-4378-9496-da6e3ee5fa1f",
+      "uid": "15567749422019",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-22T12:32:25.101Z",
+      "timestampLocal": "2026-09-22T12:32:25.101Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.141.180.91",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en,es-ES;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=15567749422019&nombre_proveedor_razon_social=SAKATA+MAS+SA&nombre_representante_legal=SAKATA+MAS+SA&email=massielmas0510%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "f2db7ba7bad3c1b86607496cef715e04841ca5d89f0bc92f13405a5fcc06e79a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c9b19446802985a6906e03fab90722a839e1e02a1dd9958be4c19a2e48c1893a"
+    },
+    {
+      "eventId": "16587f26-f3bc-4833-b24d-e50d1ca76f1c",
+      "uid": "15567749422019",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-22T12:32:25.101Z",
+      "timestampLocal": "2026-09-22T12:32:25.101Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.141.180.91",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en,es-ES;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=15567749422019&nombre_proveedor_razon_social=SAKATA+MAS+SA&nombre_representante_legal=SAKATA+MAS+SA&email=massielmas0510%40gmail.com",
+      "previousEventHash": "c9b19446802985a6906e03fab90722a839e1e02a1dd9958be4c19a2e48c1893a",
+      "documentHash": "f2db7ba7bad3c1b86607496cef715e04841ca5d89f0bc92f13405a5fcc06e79a",
+      "metadata": {
+        "proveedor": "SAKATA MAS SA",
+        "representante": "SAKATA MAS SA"
+      },
+      "eventHash": "d61d1363f4051a89e4f2c6d3b81a68762980677cd94e7aa2986b32ea589c7e8a"
+    }
+  ]
 }
