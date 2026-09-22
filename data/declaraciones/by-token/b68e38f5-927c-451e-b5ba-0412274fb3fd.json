@@ -3,8 +3,18 @@
   "declarationId": "879dfcb4-92f4-4750-b5c1-e443ebb38df8",
   "token": "b68e38f5-927c-451e-b5ba-0412274fb3fd",
   "createdAt": "2026-09-22T19:03:11.061Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "H R REZENDE PROMOCOES E EVENTOS LTDA",
+    "nombre_representante_legal": "ANTONIA REGINA DE REZENDE",
+    "email": "vinicius.santos@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "H R REZENDE PROMOCOES E EVENTOS LTDA",
+    "nombre_representante_legal": "ANTONIA REGINA DE REZENDE",
+    "email": "vinicius.santos@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "H R REZENDE PROMOCOES E EVENTOS LTDA",
     "nombre_representante_legal": "ANTONIA REGINA DE REZENDE",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "7b0ce67b64f70f6fd31a0a61f520adcbdf534bf13bfb1975bdb0edf62317c98f",
+  "auditTrail": [
+    {
+      "eventId": "d01c64b0-c5a6-4095-ae61-4863aad62d75",
+      "uid": "04.578.681/0001-20",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-22T19:03:17.630Z",
+      "timestampLocal": "2026-09-22T19:03:17.630Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=04.578.681%2F0001-20&nombre_proveedor_razon_social=H+R+REZENDE+PROMOCOES+E+EVENTOS+LTDA&nombre_representante_legal=ANTONIA+REGINA+DE+REZENDE&email=vinicius.santos%40another.co",
+      "previousEventHash": null,
+      "documentHash": "7b0ce67b64f70f6fd31a0a61f520adcbdf534bf13bfb1975bdb0edf62317c98f",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "2d53e24cc3d94f13ddd7bd3af15c15e67695f4205d7d27c4801fab3fb4d3dcda"
+    },
+    {
+      "eventId": "0ad010bf-b774-4072-b137-b92243f75f37",
+      "uid": "04.578.681/0001-20",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-22T19:03:17.630Z",
+      "timestampLocal": "2026-09-22T19:03:17.630Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=04.578.681%2F0001-20&nombre_proveedor_razon_social=H+R+REZENDE+PROMOCOES+E+EVENTOS+LTDA&nombre_representante_legal=ANTONIA+REGINA+DE+REZENDE&email=vinicius.santos%40another.co",
+      "previousEventHash": "2d53e24cc3d94f13ddd7bd3af15c15e67695f4205d7d27c4801fab3fb4d3dcda",
+      "documentHash": "7b0ce67b64f70f6fd31a0a61f520adcbdf534bf13bfb1975bdb0edf62317c98f",
+      "metadata": {
+        "proveedor": "H R REZENDE PROMOCOES E EVENTOS LTDA",
+        "representante": "ANTONIA REGINA DE REZENDE"
+      },
+      "eventHash": "22faa1352b56d3dc92c062e4ee49dbfa9db0c3efeb6dc688b35be7e0b0c9230a"
+    }
+  ]
 }
