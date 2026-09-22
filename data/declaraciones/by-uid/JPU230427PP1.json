@@ -3,7 +3,7 @@
   "declarationId": "ea39b53e-2781-480f-9825-e5d69b295dbf",
   "token": "83cce0cc-fd6f-40f4-991d-a1cd39720c5f",
   "createdAt": "2026-09-22T18:16:57.853Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JAKKOLA PUBLISHING, S.A. DE C.V.",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JOHANA ITZEL LAYNEZ LIMON",
     "email": "asistencia@prensadanna.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "cf1aee412be6bc7854a78989b542f5132b93b2bb883a21dde20a17817552ae7a",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-22T18:28:56.423Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/JPU230427PP1",
+  "signatureMetadata": {
+    "ip": "187.168.151.69",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-22T18:28:59.879Z",
+    "signedAtLocal": "2026-09-22T12:28:59.879Z"
+  },
+  "documentHash": "7dfd7149c1f46d317f63623580b5303ad73e6d4be68cd8f397abf38d14e0916c",
   "auditTrail": [
     {
       "eventId": "c935f58b-017b-44a8-a895-8d3988c80455",
@@ -66,6 +74,49 @@
         "representante": "JOHANA ITZEL LAYNEZ LIMON"
       },
       "eventHash": "48d329850ddbcfd4683ffac58c2c7686b0bb8f425883d558519de37cf7ec366c"
+    },
+    {
+      "eventId": "bc177b93-6d6e-42fd-82cb-221edf10fcb4",
+      "uid": "JPU230427PP1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-22T18:17:14.207Z",
+      "timestampLocal": "2026-09-22T18:17:14.207Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.151.69",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=JPU230427PP1&nombre_proveedor_razon_social=JAKKOLA+PUBLISHING%2C+S.A.+DE+C.V.+&nombre_representante_legal=JOHANA+ITZEL+LAYNEZ+LIMON+&email=asistencia%40prensadanna.com.mx",
+      "previousEventHash": "48d329850ddbcfd4683ffac58c2c7686b0bb8f425883d558519de37cf7ec366c",
+      "documentHash": "cf1aee412be6bc7854a78989b542f5132b93b2bb883a21dde20a17817552ae7a",
+      "eventHash": "038c31249a5d1f4dd8c82c309852111db8583f20170ea23c4585336e6725bce6"
+    },
+    {
+      "eventId": "bca5858b-349d-46b3-ae5a-06803857f6b2",
+      "uid": "JPU230427PP1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-22T18:28:59.879Z",
+      "timestampLocal": "2026-09-22T12:28:59.879Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.168.151.69",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/83cce0cc-fd6f-40f4-991d-a1cd39720c5f",
+      "previousEventHash": "038c31249a5d1f4dd8c82c309852111db8583f20170ea23c4585336e6725bce6",
+      "documentHash": "7dfd7149c1f46d317f63623580b5303ad73e6d4be68cd8f397abf38d14e0916c",
+      "signatureHash": "256d7b693f66b9c903be21f4382e66b372198167b78b6c2e4d5f40dd91c11a9c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-22T12:28:56.423Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "8fc5087cc505cd3fb8b09146f6aca7268e5764d62c87adc9035eb01bc2ea020b"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-22T18:29:00.088Z"
+  }
 }
