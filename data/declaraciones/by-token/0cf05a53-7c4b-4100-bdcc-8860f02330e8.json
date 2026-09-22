@@ -3,8 +3,18 @@
   "declarationId": "b1dfbe08-cd60-4ebc-827c-ebb7e47d38bc",
   "token": "0cf05a53-7c4b-4100-bdcc-8860f02330e8",
   "createdAt": "2026-09-22T17:10:20.941Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "janeth fierros nieto",
+    "nombre_representante_legal": "janeth fierros nieto",
+    "email": "jnimarketing27@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "janeth fierros nieto",
+    "nombre_representante_legal": "janeth fierros nieto",
+    "email": "jnimarketing27@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "janeth fierros nieto",
     "nombre_representante_legal": "janeth fierros nieto",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9c1e27fe6ba00ee9647850ae99403ac128d25c107f2efecf8c41b7b61deeafef",
+  "auditTrail": [
+    {
+      "eventId": "50def79a-abac-45c2-af7e-8ca4b5031aaa",
+      "uid": "FINJ960904K33",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-22T17:10:30.267Z",
+      "timestampLocal": "2026-09-22T17:10:30.267Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.127.209",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FINJ960904K33&nombre_proveedor_razon_social=janeth+fierros+nieto+&nombre_representante_legal=janeth+fierros+nieto&email=jnimarketing27%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "9c1e27fe6ba00ee9647850ae99403ac128d25c107f2efecf8c41b7b61deeafef",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c477e44ad2925e73fb100eaa7b64bffc9b58f89abeed643bf3ef9d28b7639207"
+    },
+    {
+      "eventId": "22a89870-db47-4ee7-a2ab-4bae1832dde9",
+      "uid": "FINJ960904K33",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-22T17:10:30.267Z",
+      "timestampLocal": "2026-09-22T17:10:30.267Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.127.209",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FINJ960904K33&nombre_proveedor_razon_social=janeth+fierros+nieto+&nombre_representante_legal=janeth+fierros+nieto&email=jnimarketing27%40gmail.com",
+      "previousEventHash": "c477e44ad2925e73fb100eaa7b64bffc9b58f89abeed643bf3ef9d28b7639207",
+      "documentHash": "9c1e27fe6ba00ee9647850ae99403ac128d25c107f2efecf8c41b7b61deeafef",
+      "metadata": {
+        "proveedor": "janeth fierros nieto",
+        "representante": "janeth fierros nieto"
+      },
+      "eventHash": "519956b1b7e3e53c3a37f2ded13641a57b9f52076ab26490fa00fcc1cf0c0e2d"
+    }
+  ]
 }
