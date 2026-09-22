@@ -3,7 +3,7 @@
   "declarationId": "3d9a4374-a6c7-4361-92be-cb38c31c13e7",
   "token": "90a83a34-a386-4493-9b97-64ca9aad5d2f",
   "createdAt": "2026-09-22T14:57:48.126Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Vision Projects SpA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Juan Carlos Latorre",
     "email": "conniemollb@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "bf8408e344317b5615cd7e7f4a3f6acb619e794661917b36e1bec85439725092",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-22T14:58:23.335Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/78.214.948-2",
+  "signatureMetadata": {
+    "ip": "104.28.214.26",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-22T14:58:26.774Z",
+    "signedAtLocal": "2026-09-22T11:58:26.774Z"
+  },
+  "documentHash": "a958a5c57c0e433ad844935b053adbfdf68c9109ff1bb172ff1f4f81316a14fb",
   "auditTrail": [
     {
       "eventId": "ff39b204-d9cf-4319-beb7-8ba0d44a611d",
@@ -157,11 +165,11 @@
       "eventHash": "a86193e3357258505cefa0d435115342c21024a5d066d5562d6dbec445318d36"
     },
     {
-      "eventId": "3b7c04cd-e335-43ec-8031-378906db5baf",
+      "eventId": "5ee0e322-b3d8-4b9c-a1f7-72d6868c2a77",
       "uid": "78.214.948-2",
       "eventType": "language_selected",
-      "timestampUtc": "2026-09-22T14:58:03.301Z",
-      "timestampLocal": "2026-09-22T14:58:03.301Z",
+      "timestampUtc": "2026-09-22T14:58:03.765Z",
+      "timestampLocal": "2026-09-22T14:58:03.765Z",
       "timezone": "UTC+0",
       "ipAddress": "104.28.214.26",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
@@ -172,26 +180,69 @@
       "metadata": {
         "language": "es"
       },
-      "eventHash": "3558f8ae066620fd89109cf68a9704e7dbd052e6247c623489aeebb6c8d5c394"
+      "eventHash": "880d6b21116eee34ba7433d0e6e042d144c23c3cbfa9b6ebb9ef5757f1495e67"
     },
     {
-      "eventId": "3e53e298-1587-4458-a7d6-5cdd149263d1",
+      "eventId": "7c828281-a9d0-4f12-8619-5581cd4a65e4",
       "uid": "78.214.948-2",
       "eventType": "document_created",
-      "timestampUtc": "2026-09-22T14:58:03.301Z",
-      "timestampLocal": "2026-09-22T14:58:03.301Z",
+      "timestampUtc": "2026-09-22T14:58:03.765Z",
+      "timestampLocal": "2026-09-22T14:58:03.765Z",
       "timezone": "UTC+0",
       "ipAddress": "104.28.214.26",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
       "acceptLanguage": "en-US,en;q=0.9",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=78.214.948-2&nombre_proveedor_razon_social=Vision+Projects+SpA&nombre_representante_legal=Juan+Carlos+Latorre&email=conniemollb%40gmail.com",
-      "previousEventHash": "3558f8ae066620fd89109cf68a9704e7dbd052e6247c623489aeebb6c8d5c394",
+      "previousEventHash": "880d6b21116eee34ba7433d0e6e042d144c23c3cbfa9b6ebb9ef5757f1495e67",
       "documentHash": "bf8408e344317b5615cd7e7f4a3f6acb619e794661917b36e1bec85439725092",
       "metadata": {
         "proveedor": "Vision Projects SpA",
         "representante": "Juan Carlos Latorre"
       },
-      "eventHash": "f65021f492271b4243be4832605f1971db0f40c3d62671e25ec787dd92014cb5"
+      "eventHash": "20e990e645856bb701805b789192e22258e50f7f254ec2a3c8038f960f70ed78"
+    },
+    {
+      "eventId": "d49d012f-0935-452e-ad8f-f81b59b8b3c9",
+      "uid": "78.214.948-2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-22T14:58:06.478Z",
+      "timestampLocal": "2026-09-22T14:58:06.478Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.214.26",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=78.214.948-2&nombre_proveedor_razon_social=Vision+Projects+SpA&nombre_representante_legal=Juan+Carlos+Latorre&email=conniemollb%40gmail.com",
+      "previousEventHash": "20e990e645856bb701805b789192e22258e50f7f254ec2a3c8038f960f70ed78",
+      "documentHash": "bf8408e344317b5615cd7e7f4a3f6acb619e794661917b36e1bec85439725092",
+      "eventHash": "e5a2990830324911e25c1e68c1ca7474811ce826ab657b3a4cf84fa0ae7c9313"
+    },
+    {
+      "eventId": "f65b1d26-6d98-4747-92f0-36a7c063035e",
+      "uid": "78.214.948-2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-22T14:58:26.774Z",
+      "timestampLocal": "2026-09-22T11:58:26.774Z",
+      "timezone": "UTC-3",
+      "ipAddress": "104.28.214.26",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/90a83a34-a386-4493-9b97-64ca9aad5d2f",
+      "previousEventHash": "e5a2990830324911e25c1e68c1ca7474811ce826ab657b3a4cf84fa0ae7c9313",
+      "documentHash": "a958a5c57c0e433ad844935b053adbfdf68c9109ff1bb172ff1f4f81316a14fb",
+      "signatureHash": "5be613ec87766a27df671a6efa460c3c44f3ae4f2796a5808e034c74e988a0dc",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-22T11:58:23.335Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "4e308688a826c6d8cfd3b3673b6c5f3dddee8152d1ae6c886c99b020ea9fe6c3"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-09-22T14:58:27.082Z"
+  }
 }
