@@ -3,7 +3,7 @@
   "declarationId": "832a6682-dce6-4415-9826-3b4948e9ee1b",
   "token": "41abb90e-604e-4d37-ab0e-9bbda80e0dd6",
   "createdAt": "2026-09-22T15:26:53.628Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "TERESA DE JESUS BUENFIL LOPEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "TERESA DE JESUS BUENFIL LOPEZ",
     "email": "bjasoc_ana@yahoo.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "07e6a076f066e6024cc2e38a08fba4c45c9c9b8359ea1dadcbe4f90d7bac25d5",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-22T21:57:54.503Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BULT631123C12",
+  "signatureMetadata": {
+    "ip": "201.137.22.25",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-09-22T21:58:00.231Z",
+    "signedAtLocal": "2026-09-22T15:58:00.231Z"
+  },
+  "documentHash": "f0b35e598dcbfbc4ca5500a7e9b52b3027d39502aad94df5ad4b3f6f33092681",
   "auditTrail": [
     {
       "eventId": "9f01e2bc-18af-4059-8810-bec93745c1b3",
@@ -66,6 +74,64 @@
         "representante": "TERESA DE JESUS BUENFIL LOPEZ"
       },
       "eventHash": "92b36e682733553990375c074d3965d235eeaa5498aed2dce686637caec888cb"
+    },
+    {
+      "eventId": "39f94d62-f1ec-4228-a527-1f6948a59505",
+      "uid": "BULT631123C12",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-22T15:27:07.354Z",
+      "timestampLocal": "2026-09-22T15:27:07.354Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.254.38",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BULT631123C12&nombre_proveedor_razon_social=TERESA+DE+JESUS+BUENFIL+LOPEZ&nombre_representante_legal=TERESA+DE+JESUS+BUENFIL+LOPEZ&email=bjasoc_ana%40yahoo.com.mx",
+      "previousEventHash": "92b36e682733553990375c074d3965d235eeaa5498aed2dce686637caec888cb",
+      "documentHash": "07e6a076f066e6024cc2e38a08fba4c45c9c9b8359ea1dadcbe4f90d7bac25d5",
+      "eventHash": "4aa51d91f11570ab28fc2abccb84985c14053eb32e227c27a3f901d913b3835f"
+    },
+    {
+      "eventId": "a46cf24c-cc6b-4418-b64a-03731ea5ca47",
+      "uid": "BULT631123C12",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-22T21:55:04.407Z",
+      "timestampLocal": "2026-09-22T21:55:04.407Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.22.25",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "4aa51d91f11570ab28fc2abccb84985c14053eb32e227c27a3f901d913b3835f",
+      "documentHash": "07e6a076f066e6024cc2e38a08fba4c45c9c9b8359ea1dadcbe4f90d7bac25d5",
+      "eventHash": "19c035b99e2ad8109c696fcddea2c55c11c25737a59bf7cc5167809a75b5e417"
+    },
+    {
+      "eventId": "7abd95bb-a523-4189-9036-0b70e9f08e37",
+      "uid": "BULT631123C12",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-22T21:58:00.231Z",
+      "timestampLocal": "2026-09-22T15:58:00.231Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.137.22.25",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "19c035b99e2ad8109c696fcddea2c55c11c25737a59bf7cc5167809a75b5e417",
+      "documentHash": "f0b35e598dcbfbc4ca5500a7e9b52b3027d39502aad94df5ad4b3f6f33092681",
+      "signatureHash": "37e82b7b4b5edfd61e15ed28e9a1e5f93a8fbb3f7ae587f6da111988fce0faad",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-22T15:57:54.503Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "da53dfc4e97ef95a5108527bda5087de85cb7b47e58654482d2591a7ee4bdba8"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-09-22T21:58:00.537Z"
+  }
 }
