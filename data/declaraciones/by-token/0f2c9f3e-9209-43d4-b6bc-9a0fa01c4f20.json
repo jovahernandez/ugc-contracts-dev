@@ -3,8 +3,18 @@
   "declarationId": "7620a1f4-5dd5-41d4-ba83-3bdce898d85b",
   "token": "0f2c9f3e-9209-43d4-b6bc-9a0fa01c4f20",
   "createdAt": "2026-09-23T17:03:34.749Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "BBMUNDO DIRECT SA DE CV",
+    "nombre_representante_legal": "BBMUNDO DIRECT SA DE CV",
+    "email": "sandra.rueda@mmkgroup.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "BBMUNDO DIRECT SA DE CV",
+    "nombre_representante_legal": "BBMUNDO DIRECT SA DE CV",
+    "email": "sandra.rueda@mmkgroup.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "BBMUNDO DIRECT SA DE CV",
     "nombre_representante_legal": "BBMUNDO DIRECT SA DE CV",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a0c138ffc296d1d204de5f8a67ba42bdbc23e8b6dbbbf3f2a44a43d4289d0459",
+  "auditTrail": [
+    {
+      "eventId": "e2d49c38-b9f2-4725-af99-6d3ef4cdcc07",
+      "uid": "BDI050302PA0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-23T17:03:41.701Z",
+      "timestampLocal": "2026-09-23T17:03:41.701Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.82.86",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BDI050302PA0&nombre_proveedor_razon_social=BBMUNDO+DIRECT+SA+DE+CV&nombre_representante_legal=BBMUNDO+DIRECT+SA+DE+CV&email=sandra.rueda%40mmkgroup.com.mx",
+      "previousEventHash": null,
+      "documentHash": "a0c138ffc296d1d204de5f8a67ba42bdbc23e8b6dbbbf3f2a44a43d4289d0459",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a8ed080a51e3f5edc0d496cf1122b65ae35d42ec452a3f4a9101af5dfb872fc5"
+    },
+    {
+      "eventId": "24100db6-c71c-4c06-be43-4bac4b106346",
+      "uid": "BDI050302PA0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-23T17:03:41.701Z",
+      "timestampLocal": "2026-09-23T17:03:41.701Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.149.82.86",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BDI050302PA0&nombre_proveedor_razon_social=BBMUNDO+DIRECT+SA+DE+CV&nombre_representante_legal=BBMUNDO+DIRECT+SA+DE+CV&email=sandra.rueda%40mmkgroup.com.mx",
+      "previousEventHash": "a8ed080a51e3f5edc0d496cf1122b65ae35d42ec452a3f4a9101af5dfb872fc5",
+      "documentHash": "a0c138ffc296d1d204de5f8a67ba42bdbc23e8b6dbbbf3f2a44a43d4289d0459",
+      "metadata": {
+        "proveedor": "BBMUNDO DIRECT SA DE CV",
+        "representante": "BBMUNDO DIRECT SA DE CV"
+      },
+      "eventHash": "e7fa74a40183c1cca8996834dfa3ca3ba76568095cf5c407f5a908a0fa3a6481"
+    }
+  ]
 }
