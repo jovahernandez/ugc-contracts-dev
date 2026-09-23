@@ -3,7 +3,7 @@
   "declarationId": "87b6cb24-5488-435d-9ccc-920fb76535f4",
   "token": "ea1b3cec-4701-4fd3-a6a1-f9bcad3f014b",
   "createdAt": "2026-09-23T18:21:26.987Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "COMPLO STUDIO LTDA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Vinícius",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8985275f05560ddd24fa0ec12a5db2c90c38fc31752f30a95f1d069eab88caa7",
+  "personaAutorizada": null,
+  "signedAt": "2026-09-23T18:21:41.930Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/33.064.047%2F0001-78",
+  "signatureMetadata": {
+    "ip": "177.68.100.241",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "signedAtUtc": "2026-09-23T18:21:47.535Z",
+    "signedAtLocal": "2026-09-23T15:21:47.535Z"
+  },
+  "documentHash": "7f81b7b1ba07f6b2482ccd5978aa135d9743900ddcf7bf3366adc035c246b104",
   "auditTrail": [
     {
       "eventId": "4688684d-3b1a-49c9-8800-3a52c9e0e9e9",
@@ -103,6 +109,47 @@
         "representante": "Vinícius"
       },
       "eventHash": "ca5d414fd62fa7ece5a5fe20079b01245aa847af580548d951b2be3f52b14674"
+    },
+    {
+      "eventId": "827095b7-2c55-4843-aa90-1a52a71e90b1",
+      "uid": "33.064.047/0001-78",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-23T18:21:36.277Z",
+      "timestampLocal": "2026-09-23T18:21:36.277Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.68.100.241",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=33.064.047%2F0001-78&nombre_proveedor_razon_social=COMPLO+STUDIO+LTDA&nombre_representante_legal=Vin%C3%ADcius&email=vinicius.santos%40another.co",
+      "previousEventHash": "ca5d414fd62fa7ece5a5fe20079b01245aa847af580548d951b2be3f52b14674",
+      "documentHash": "8985275f05560ddd24fa0ec12a5db2c90c38fc31752f30a95f1d069eab88caa7",
+      "eventHash": "c664c3195431fa1ccc724bf85613fba6636fb6e8762cc9ec529ab67d207c1ef5"
+    },
+    {
+      "eventId": "8671e9a4-412a-4e74-b0fd-2678e66a15fe",
+      "uid": "33.064.047/0001-78",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-23T18:21:47.535Z",
+      "timestampLocal": "2026-09-23T15:21:47.535Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.68.100.241",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/ea1b3cec-4701-4fd3-a6a1-f9bcad3f014b",
+      "previousEventHash": "c664c3195431fa1ccc724bf85613fba6636fb6e8762cc9ec529ab67d207c1ef5",
+      "documentHash": "7f81b7b1ba07f6b2482ccd5978aa135d9743900ddcf7bf3366adc035c246b104",
+      "signatureHash": "a664708f1afbed8b5890040a7ab87ecfd3f0b48c0716904cf6e621edbe1f8105",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-23T15:21:41.930Z"
+      },
+      "eventHash": "3d17b4969120fc6998d7aa41fea87cdab1e8ca0f76731e89dfce5fc777f20cf8"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-23T18:21:47.769Z"
+  }
 }
