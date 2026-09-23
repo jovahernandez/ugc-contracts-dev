@@ -3,8 +3,18 @@
   "declarationId": "9d158f7c-cc25-4c92-9d17-fe1d61735d47",
   "token": "ca8b4d3a-1ea7-40e0-bff6-a2dbc0278dd5",
   "createdAt": "2026-09-23T19:56:45.233Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Samuel Eliceo Cedeño González",
+    "nombre_representante_legal": "no información",
+    "email": "dentalgroupredessociales@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Samuel Eliceo Cedeño González",
+    "nombre_representante_legal": "no información",
+    "email": "dentalgroupredessociales@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Samuel Eliceo Cedeño González",
     "nombre_representante_legal": "no información",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "05cb1708121238a766da4f96b9b52adfa90e56fe8167e1e4ff7c54e09645bf97",
+  "auditTrail": [
+    {
+      "eventId": "f60b44ac-5810-4d80-a3d9-d16c58086899",
+      "uid": "8-343-233",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-23T19:56:54.286Z",
+      "timestampLocal": "2026-09-23T19:56:54.286Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.140.219.53",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=8-343-233&nombre_proveedor_razon_social=Samuel+Eliceo+Cede%C3%B1o+Gonz%C3%A1lez+&nombre_representante_legal=no+informaci%C3%B3n&email=dentalgroupredessociales%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "05cb1708121238a766da4f96b9b52adfa90e56fe8167e1e4ff7c54e09645bf97",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4445a7c426072bb616d7956c2cb9107be28849d088ad98600e6cad3fdf0252a9"
+    },
+    {
+      "eventId": "5152b75f-b47d-44e9-b291-05c5d82edcb1",
+      "uid": "8-343-233",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-23T19:56:54.286Z",
+      "timestampLocal": "2026-09-23T19:56:54.286Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.140.219.53",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=8-343-233&nombre_proveedor_razon_social=Samuel+Eliceo+Cede%C3%B1o+Gonz%C3%A1lez+&nombre_representante_legal=no+informaci%C3%B3n&email=dentalgroupredessociales%40gmail.com",
+      "previousEventHash": "4445a7c426072bb616d7956c2cb9107be28849d088ad98600e6cad3fdf0252a9",
+      "documentHash": "05cb1708121238a766da4f96b9b52adfa90e56fe8167e1e4ff7c54e09645bf97",
+      "metadata": {
+        "proveedor": "Samuel Eliceo Cedeño González",
+        "representante": "no información"
+      },
+      "eventHash": "47ada3d1d6a11737c0456474d20f8ae75838974a260927b5fef00f3b19f0d11c"
+    }
+  ]
 }
