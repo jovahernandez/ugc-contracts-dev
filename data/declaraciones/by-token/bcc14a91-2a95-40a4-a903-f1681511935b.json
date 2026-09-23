@@ -3,7 +3,7 @@
   "declarationId": "53bf1203-29b8-4a55-a7d9-2608488e0239",
   "token": "bcc14a91-2a95-40a4-a903-f1681511935b",
   "createdAt": "2026-09-23T22:03:13.296Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MIASTRAL LLC",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "MARIA PINEDA",
     "email": "isabelh@miastral.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2ac5c224ea486c560dd3c21e49acde7843636e3d5ef1c5d09bc304f629f92ce2",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-23T22:04:05.933Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/474647787",
+  "signatureMetadata": {
+    "ip": "70.131.191.200",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-23T22:04:09.327Z",
+    "signedAtLocal": "2026-09-23T18:04:09.327Z"
+  },
+  "documentHash": "2143e6c6312945fdb1567418a29d9019faf1d9bed5e70882da5cf6db7f14b1d4",
   "auditTrail": [
     {
       "eventId": "d584bae6-de89-42d3-9eeb-b892a2b07e2e",
@@ -66,6 +74,49 @@
         "representante": "MARIA PINEDA"
       },
       "eventHash": "adff1c183965fc80e72e8eef075a0148f2b08756901e87dd1d16b10de1de16f2"
+    },
+    {
+      "eventId": "cf05636d-6620-4806-b0aa-55faef36624a",
+      "uid": "474647787",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-23T22:03:22.470Z",
+      "timestampLocal": "2026-09-23T22:03:22.470Z",
+      "timezone": "UTC+0",
+      "ipAddress": "70.131.191.200",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=474647787&nombre_proveedor_razon_social=MIASTRAL+LLC+&nombre_representante_legal=MARIA+PINEDA+&email=isabelh%40miastral.com",
+      "previousEventHash": "adff1c183965fc80e72e8eef075a0148f2b08756901e87dd1d16b10de1de16f2",
+      "documentHash": "2ac5c224ea486c560dd3c21e49acde7843636e3d5ef1c5d09bc304f629f92ce2",
+      "eventHash": "8f5fc81c67514801a44831e0a6a314c8ed2eee6f49ebbdef6436268498e8dd85"
+    },
+    {
+      "eventId": "8ba39c35-9aa1-43a1-9a91-92b3d7f2fb44",
+      "uid": "474647787",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-23T22:04:09.327Z",
+      "timestampLocal": "2026-09-23T18:04:09.327Z",
+      "timezone": "UTC-4",
+      "ipAddress": "70.131.191.200",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/bcc14a91-2a95-40a4-a903-f1681511935b",
+      "previousEventHash": "8f5fc81c67514801a44831e0a6a314c8ed2eee6f49ebbdef6436268498e8dd85",
+      "documentHash": "2143e6c6312945fdb1567418a29d9019faf1d9bed5e70882da5cf6db7f14b1d4",
+      "signatureHash": "329330bfe3a748b3c6aa2d8af72e477d1c56dc37b24a1bc3f1c08e011478fdcd",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-23T18:04:05.933Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "d565e47b3f45eab8f6a5f5aeaca0d493fdcc775aac99cc8a70599a7f222c2f80"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-23T22:04:09.812Z"
+  }
 }
