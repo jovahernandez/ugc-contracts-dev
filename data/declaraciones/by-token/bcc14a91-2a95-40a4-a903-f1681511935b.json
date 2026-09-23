@@ -3,8 +3,18 @@
   "declarationId": "53bf1203-29b8-4a55-a7d9-2608488e0239",
   "token": "bcc14a91-2a95-40a4-a903-f1681511935b",
   "createdAt": "2026-09-23T22:03:13.296Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MIASTRAL LLC",
+    "nombre_representante_legal": "MARIA PINEDA",
+    "email": "isabelh@miastral.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MIASTRAL LLC",
+    "nombre_representante_legal": "MARIA PINEDA",
+    "email": "isabelh@miastral.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MIASTRAL LLC",
     "nombre_representante_legal": "MARIA PINEDA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "2ac5c224ea486c560dd3c21e49acde7843636e3d5ef1c5d09bc304f629f92ce2",
+  "auditTrail": [
+    {
+      "eventId": "d584bae6-de89-42d3-9eeb-b892a2b07e2e",
+      "uid": "474647787",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-23T22:03:19.885Z",
+      "timestampLocal": "2026-09-23T22:03:19.885Z",
+      "timezone": "UTC+0",
+      "ipAddress": "70.131.191.200",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=474647787&nombre_proveedor_razon_social=MIASTRAL+LLC+&nombre_representante_legal=MARIA+PINEDA+&email=isabelh%40miastral.com",
+      "previousEventHash": null,
+      "documentHash": "2ac5c224ea486c560dd3c21e49acde7843636e3d5ef1c5d09bc304f629f92ce2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0f8104a2296075d58a63b8f28a1253753f6e85247c9df1dcd2203a0c34d3a226"
+    },
+    {
+      "eventId": "b24a9597-2811-4c03-a989-fb2ac67fbe00",
+      "uid": "474647787",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-23T22:03:19.886Z",
+      "timestampLocal": "2026-09-23T22:03:19.886Z",
+      "timezone": "UTC+0",
+      "ipAddress": "70.131.191.200",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=474647787&nombre_proveedor_razon_social=MIASTRAL+LLC+&nombre_representante_legal=MARIA+PINEDA+&email=isabelh%40miastral.com",
+      "previousEventHash": "0f8104a2296075d58a63b8f28a1253753f6e85247c9df1dcd2203a0c34d3a226",
+      "documentHash": "2ac5c224ea486c560dd3c21e49acde7843636e3d5ef1c5d09bc304f629f92ce2",
+      "metadata": {
+        "proveedor": "MIASTRAL LLC",
+        "representante": "MARIA PINEDA"
+      },
+      "eventHash": "adff1c183965fc80e72e8eef075a0148f2b08756901e87dd1d16b10de1de16f2"
+    }
+  ]
 }
