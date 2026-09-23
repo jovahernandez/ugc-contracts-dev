@@ -3,8 +3,18 @@
   "declarationId": "4c3b92b2-a7b7-404f-9035-d47e8a17e32c",
   "token": "0f73ab41-3385-4c45-a3d3-c8cac21b504c",
   "createdAt": "2026-08-14T19:18:28.783Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Gladys Olguin Escobar",
+    "nombre_representante_legal": "Gladys Olguin Escobar",
+    "email": "gladys123sol@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Gladys Olguin Escobar",
+    "nombre_representante_legal": "Gladys Olguin Escobar",
+    "email": "gladys123sol@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Gladys Olguin Escobar",
     "nombre_representante_legal": "Gladys Olguin Escobar",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "30b0b890ac59e0822154aa1ad56b20021387492ee5f44bb5c26438749140708c",
+  "auditTrail": [
+    {
+      "eventId": "997d88ca-05eb-419b-8ce3-5fe147a855c6",
+      "uid": "OUEG890910H51",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-23T21:12:03.259Z",
+      "timestampLocal": "2026-09-23T21:12:03.259Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.164.185.90",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "30b0b890ac59e0822154aa1ad56b20021387492ee5f44bb5c26438749140708c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "feebe60f55212dad695ffb03bb0cec9f83064b2e8f27808d8e5bd8bc0365a0c7"
+    },
+    {
+      "eventId": "1b66f4b0-9dd7-44a4-b3c9-2f7bd930135b",
+      "uid": "OUEG890910H51",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-23T21:12:03.259Z",
+      "timestampLocal": "2026-09-23T21:12:03.259Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.164.185.90",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "feebe60f55212dad695ffb03bb0cec9f83064b2e8f27808d8e5bd8bc0365a0c7",
+      "documentHash": "30b0b890ac59e0822154aa1ad56b20021387492ee5f44bb5c26438749140708c",
+      "metadata": {
+        "proveedor": "Gladys Olguin Escobar",
+        "representante": "Gladys Olguin Escobar"
+      },
+      "eventHash": "c8b8b9883d208c417ac0ae60b15a24c7e3ba434c872038c284bdfc9ff23b0ae6"
+    }
+  ]
 }
