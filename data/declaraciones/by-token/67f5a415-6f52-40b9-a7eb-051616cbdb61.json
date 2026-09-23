@@ -3,8 +3,18 @@
   "declarationId": "e2bbd3fb-06cb-45a1-a0b2-7bedb8a7f22e",
   "token": "67f5a415-6f52-40b9-a7eb-051616cbdb61",
   "createdAt": "2026-09-23T03:00:34.720Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Sergio Jiovani Aguilera Solis",
+    "nombre_representante_legal": "Sergio Jiovani Aguilera Solis",
+    "email": "hola@profeserge.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Sergio Jiovani Aguilera Solis",
+    "nombre_representante_legal": "Sergio Jiovani Aguilera Solis",
+    "email": "hola@profeserge.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Sergio Jiovani Aguilera Solis",
     "nombre_representante_legal": "Sergio Jiovani Aguilera Solis",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "485e8dd661664e496825f38de7ee47a29ca49e6a3cd7f1abdb214bb0eb0ba145",
+  "auditTrail": [
+    {
+      "eventId": "73c473aa-a530-4d08-97bc-60b75efa4d90",
+      "uid": "AUSS9405147D9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-23T03:00:43.852Z",
+      "timestampLocal": "2026-09-23T03:00:43.852Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.190.97.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AUSS9405147D9&nombre_proveedor_razon_social=Sergio+Jiovani+Aguilera+Solis&nombre_representante_legal=Sergio+Jiovani+Aguilera+Solis&email=hola%40profeserge.com",
+      "previousEventHash": null,
+      "documentHash": "485e8dd661664e496825f38de7ee47a29ca49e6a3cd7f1abdb214bb0eb0ba145",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d6d3ae4f595a31ee6f78068919e4adbbd3e4aa29fbf6c09f83ccda0b7fff8586"
+    },
+    {
+      "eventId": "9da62ecd-064a-4f38-b037-b3da5a94e898",
+      "uid": "AUSS9405147D9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-23T03:00:43.852Z",
+      "timestampLocal": "2026-09-23T03:00:43.852Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.190.97.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AUSS9405147D9&nombre_proveedor_razon_social=Sergio+Jiovani+Aguilera+Solis&nombre_representante_legal=Sergio+Jiovani+Aguilera+Solis&email=hola%40profeserge.com",
+      "previousEventHash": "d6d3ae4f595a31ee6f78068919e4adbbd3e4aa29fbf6c09f83ccda0b7fff8586",
+      "documentHash": "485e8dd661664e496825f38de7ee47a29ca49e6a3cd7f1abdb214bb0eb0ba145",
+      "metadata": {
+        "proveedor": "Sergio Jiovani Aguilera Solis",
+        "representante": "Sergio Jiovani Aguilera Solis"
+      },
+      "eventHash": "69cee0abb01d42156b73e471eadaa1e2fd74cd930810f7de8645bcf530f054a5"
+    }
+  ]
 }
