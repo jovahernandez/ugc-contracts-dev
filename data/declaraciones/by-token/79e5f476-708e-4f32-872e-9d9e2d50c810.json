@@ -3,8 +3,18 @@
   "declarationId": "cac19632-2e29-4536-bfad-66e996495094",
   "token": "79e5f476-708e-4f32-872e-9d9e2d50c810",
   "createdAt": "2026-09-23T16:16:24.850Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "VP MEDIO GROUP SAC",
+    "nombre_representante_legal": "VP MEDIO GROUP SAC",
+    "email": "administracion1@vpmediagroup.com.pe"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "VP MEDIO GROUP SAC",
+    "nombre_representante_legal": "VP MEDIO GROUP SAC",
+    "email": "administracion1@vpmediagroup.com.pe"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "VP MEDIO GROUP SAC",
     "nombre_representante_legal": "VP MEDIO GROUP SAC",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "c4eaf7dfa397ab32a99fc0803c6b5763d15f4d484fcec9a5a1e88c208b0c78e0",
+  "auditTrail": [
+    {
+      "eventId": "fa620d8c-d97b-440c-929d-3c00a5bd055d",
+      "uid": "20609215837",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-23T16:16:31.127Z",
+      "timestampLocal": "2026-09-23T16:16:31.127Z",
+      "timezone": "UTC+0",
+      "ipAddress": "170.233.144.40",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20609215837&nombre_proveedor_razon_social=VP+MEDIO+GROUP+SAC&nombre_representante_legal=VP+MEDIO+GROUP+SAC&email=administracion1%40vpmediagroup.com.pe",
+      "previousEventHash": null,
+      "documentHash": "c4eaf7dfa397ab32a99fc0803c6b5763d15f4d484fcec9a5a1e88c208b0c78e0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3230474b8373f4f354d29c87f9dfb4cdaee6fe542c2fec4a7c8c35607dc659ad"
+    },
+    {
+      "eventId": "2bc351b3-d226-4602-a9e4-70e1c241561a",
+      "uid": "20609215837",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-23T16:16:31.128Z",
+      "timestampLocal": "2026-09-23T16:16:31.128Z",
+      "timezone": "UTC+0",
+      "ipAddress": "170.233.144.40",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20609215837&nombre_proveedor_razon_social=VP+MEDIO+GROUP+SAC&nombre_representante_legal=VP+MEDIO+GROUP+SAC&email=administracion1%40vpmediagroup.com.pe",
+      "previousEventHash": "3230474b8373f4f354d29c87f9dfb4cdaee6fe542c2fec4a7c8c35607dc659ad",
+      "documentHash": "c4eaf7dfa397ab32a99fc0803c6b5763d15f4d484fcec9a5a1e88c208b0c78e0",
+      "metadata": {
+        "proveedor": "VP MEDIO GROUP SAC",
+        "representante": "VP MEDIO GROUP SAC"
+      },
+      "eventHash": "452f36861145ec0d876e4149279142e21bd1fd22bd0ed3a608d43e3bd4cdd215"
+    }
+  ]
 }
