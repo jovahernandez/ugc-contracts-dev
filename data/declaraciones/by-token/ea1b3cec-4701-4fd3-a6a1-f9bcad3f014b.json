@@ -3,8 +3,18 @@
   "declarationId": "87b6cb24-5488-435d-9ccc-920fb76535f4",
   "token": "ea1b3cec-4701-4fd3-a6a1-f9bcad3f014b",
   "createdAt": "2026-09-23T18:21:26.987Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "COMPLO STUDIO LTDA",
+    "nombre_representante_legal": "Vinícius",
+    "email": "vinicius.santos@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "COMPLO STUDIO LTDA",
+    "nombre_representante_legal": "Vinícius",
+    "email": "vinicius.santos@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "COMPLO STUDIO LTDA",
     "nombre_representante_legal": "Vinícius",
@@ -18,5 +28,81 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8985275f05560ddd24fa0ec12a5db2c90c38fc31752f30a95f1d069eab88caa7",
+  "auditTrail": [
+    {
+      "eventId": "4688684d-3b1a-49c9-8800-3a52c9e0e9e9",
+      "uid": "33.064.047/0001-78",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-23T18:21:32.639Z",
+      "timestampLocal": "2026-09-23T18:21:32.639Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.68.100.241",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=33.064.047%2F0001-78&nombre_proveedor_razon_social=COMPLO+STUDIO+LTDA&nombre_representante_legal=Vin%C3%ADcius&email=vinicius.santos%40another.co",
+      "previousEventHash": null,
+      "documentHash": "8985275f05560ddd24fa0ec12a5db2c90c38fc31752f30a95f1d069eab88caa7",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "e4fd5c9d84df8ed3ba6a9227721a85313f380740eeae8ba7da7bcaab7c89ddab"
+    },
+    {
+      "eventId": "feadd553-dcd7-4356-b840-0d33bf4576ed",
+      "uid": "33.064.047/0001-78",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-23T18:21:32.639Z",
+      "timestampLocal": "2026-09-23T18:21:32.639Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.68.100.241",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=33.064.047%2F0001-78&nombre_proveedor_razon_social=COMPLO+STUDIO+LTDA&nombre_representante_legal=Vin%C3%ADcius&email=vinicius.santos%40another.co",
+      "previousEventHash": "e4fd5c9d84df8ed3ba6a9227721a85313f380740eeae8ba7da7bcaab7c89ddab",
+      "documentHash": "8985275f05560ddd24fa0ec12a5db2c90c38fc31752f30a95f1d069eab88caa7",
+      "metadata": {
+        "proveedor": "COMPLO STUDIO LTDA",
+        "representante": "Vinícius"
+      },
+      "eventHash": "16fd5e45e08b3d72b94b4d26a026973c0d31a5a82d8b1f68779d2e5501fa8121"
+    },
+    {
+      "eventId": "71dfad42-9def-4b4e-8fe7-174a7cd568d2",
+      "uid": "33.064.047/0001-78",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-23T18:21:33.245Z",
+      "timestampLocal": "2026-09-23T18:21:33.245Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.68.100.241",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=33.064.047%2F0001-78&nombre_proveedor_razon_social=COMPLO+STUDIO+LTDA&nombre_representante_legal=Vin%C3%ADcius&email=vinicius.santos%40another.co",
+      "previousEventHash": "16fd5e45e08b3d72b94b4d26a026973c0d31a5a82d8b1f68779d2e5501fa8121",
+      "documentHash": "8985275f05560ddd24fa0ec12a5db2c90c38fc31752f30a95f1d069eab88caa7",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "5083bc7acecb5ec8e334eaa602d74b13b16dd686e129df667911c35485792223"
+    },
+    {
+      "eventId": "9a80752a-2180-45cc-9922-cea9fc4a9003",
+      "uid": "33.064.047/0001-78",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-23T18:21:33.245Z",
+      "timestampLocal": "2026-09-23T18:21:33.245Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.68.100.241",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=33.064.047%2F0001-78&nombre_proveedor_razon_social=COMPLO+STUDIO+LTDA&nombre_representante_legal=Vin%C3%ADcius&email=vinicius.santos%40another.co",
+      "previousEventHash": "5083bc7acecb5ec8e334eaa602d74b13b16dd686e129df667911c35485792223",
+      "documentHash": "8985275f05560ddd24fa0ec12a5db2c90c38fc31752f30a95f1d069eab88caa7",
+      "metadata": {
+        "proveedor": "COMPLO STUDIO LTDA",
+        "representante": "Vinícius"
+      },
+      "eventHash": "ca5d414fd62fa7ece5a5fe20079b01245aa847af580548d951b2be3f52b14674"
+    }
+  ]
 }
