@@ -3,8 +3,18 @@
   "declarationId": "0035fa52-f09b-46c5-9491-ef6bef1fd332",
   "token": "570b46b1-b95b-451f-8995-f77614b5b291",
   "createdAt": "2026-09-24T20:25:46.579Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MANDUKA EVENTOS",
+    "nombre_representante_legal": "ILSE YANINE URIARTE CORONA",
+    "email": "hola.manduka@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MANDUKA EVENTOS",
+    "nombre_representante_legal": "ILSE YANINE URIARTE CORONA",
+    "email": "hola.manduka@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MANDUKA EVENTOS",
     "nombre_representante_legal": "ILSE YANINE URIARTE CORONA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "795626fa6a4860e5a5d6ed71fc7ee8297c74a09e886bb8f21e453e771b7664a7",
+  "auditTrail": [
+    {
+      "eventId": "517bbc51-4830-4641-b06c-3971e70bdbd6",
+      "uid": "MEV230712APA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-24T20:26:27.802Z",
+      "timestampLocal": "2026-09-24T20:26:27.802Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.226.193",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MEV230712APA&nombre_proveedor_razon_social=MANDUKA+EVENTOS&nombre_representante_legal=ILSE+YANINE+URIARTE+CORONA&email=hola.manduka%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "795626fa6a4860e5a5d6ed71fc7ee8297c74a09e886bb8f21e453e771b7664a7",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1cb46f41af9ea0edc39454ce8ea74a952376d77858709f07e63bfb9260412ba2"
+    },
+    {
+      "eventId": "307425b0-a44d-4a57-9b29-331d176c11c9",
+      "uid": "MEV230712APA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-24T20:26:27.802Z",
+      "timestampLocal": "2026-09-24T20:26:27.802Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.226.193",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MEV230712APA&nombre_proveedor_razon_social=MANDUKA+EVENTOS&nombre_representante_legal=ILSE+YANINE+URIARTE+CORONA&email=hola.manduka%40gmail.com",
+      "previousEventHash": "1cb46f41af9ea0edc39454ce8ea74a952376d77858709f07e63bfb9260412ba2",
+      "documentHash": "795626fa6a4860e5a5d6ed71fc7ee8297c74a09e886bb8f21e453e771b7664a7",
+      "metadata": {
+        "proveedor": "MANDUKA EVENTOS",
+        "representante": "ILSE YANINE URIARTE CORONA"
+      },
+      "eventHash": "c5b533d258cafe00d02a8ba5a03a409c29aceb9bf8905d3baa881b28d8538af4"
+    }
+  ]
 }
