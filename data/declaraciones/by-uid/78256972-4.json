@@ -3,7 +3,7 @@
   "declarationId": "9c7a4672-9eaa-463b-8332-57c860eb9cd5",
   "token": "aa79a36f-2c95-44c7-9d2c-adf9d6320991",
   "createdAt": "2026-09-24T22:25:38.762Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Calvo Estrada Spa",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "isabel calvo",
     "email": "is4belcalvo@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b50636c608ec10e2487241dcb47a7ed4344d8cfce13395288d5d62bb197bc207",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-24T22:26:32.942Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/78256972-4",
+  "signatureMetadata": {
+    "ip": "92.184.96.27",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-24T22:26:36.279Z",
+    "signedAtLocal": "2026-09-25T00:26:36.279Z"
+  },
+  "documentHash": "7b81c66887376ddadb53643fb3eeb4416e9d12c553cd840cffd0c61788925301",
   "auditTrail": [
     {
       "eventId": "957df014-1429-441c-89d4-ae7e2aa89026",
@@ -318,6 +326,49 @@
         "representante": "isabel calvo"
       },
       "eventHash": "90f8b844fd4be3ae54958107ea6ad0e662db70c3ba717ae03e6a7ea9b18eb071"
+    },
+    {
+      "eventId": "be5f9ee9-561d-4eeb-93b2-fb2ea1803377",
+      "uid": "78256972-4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-24T22:26:17.986Z",
+      "timestampLocal": "2026-09-24T22:26:17.986Z",
+      "timezone": "UTC+0",
+      "ipAddress": "92.184.96.27",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=78256972-4&nombre_proveedor_razon_social=Calvo+Estrada+Spa&nombre_representante_legal=isabel+calvo&email=is4belcalvo%40gmail.com",
+      "previousEventHash": "90f8b844fd4be3ae54958107ea6ad0e662db70c3ba717ae03e6a7ea9b18eb071",
+      "documentHash": "b50636c608ec10e2487241dcb47a7ed4344d8cfce13395288d5d62bb197bc207",
+      "eventHash": "d6bf052d780b71ce640a35b9885ac22c4fc7d8f90c09881b82e49fff768f772e"
+    },
+    {
+      "eventId": "51ffcee4-018a-4bed-9b21-2c0b69ea13d8",
+      "uid": "78256972-4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-24T22:26:36.279Z",
+      "timestampLocal": "2026-09-25T00:26:36.279Z",
+      "timezone": "UTC+2",
+      "ipAddress": "92.184.96.27",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/aa79a36f-2c95-44c7-9d2c-adf9d6320991",
+      "previousEventHash": "d6bf052d780b71ce640a35b9885ac22c4fc7d8f90c09881b82e49fff768f772e",
+      "documentHash": "7b81c66887376ddadb53643fb3eeb4416e9d12c553cd840cffd0c61788925301",
+      "signatureHash": "8d4083bce8fb0d7720d71fb7c9d7a660c4fd15f44e92ead6f8828ab4ca54e313",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-25T00:26:32.942Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "968e9c2c76fde5044c2465239a192a8f920c0ffc60eb5ab1a591c6e4728c3161"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 18,
+    "verifiedAt": "2026-09-24T22:26:36.550Z"
+  }
 }
