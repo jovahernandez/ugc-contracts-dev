@@ -3,7 +3,7 @@
   "declarationId": "a1296e62-0f32-4eca-9fc7-2e32b943baec",
   "token": "7e2fe247-503e-4830-88b6-99edbae2dc25",
   "createdAt": "2026-09-24T14:28:21.387Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "CAMILA LIMA SANTOS 10753291673",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Vinícius Dias dos Santos",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3165967cf43a54584dff6abc80ab99d9fef0d5026ccd43491413441bfa44b337",
+  "personaAutorizada": null,
+  "signedAt": "2026-09-24T14:29:23.504Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/38.097.764%2F0001-10",
+  "signatureMetadata": {
+    "ip": "104.140.66.98",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "signedAtUtc": "2026-09-24T14:29:26.937Z",
+    "signedAtLocal": "2026-09-24T11:29:26.937Z"
+  },
+  "documentHash": "9711107b3591c82a95cd09005ae66bfb9c570c61d634b273b636d1da3ea725cf",
   "auditTrail": [
     {
       "eventId": "8e4646ba-f545-4297-871a-8ddf73a669d9",
@@ -66,6 +72,47 @@
         "representante": "Vinícius Dias dos Santos"
       },
       "eventHash": "adc040dd4bfa3506c59e8051b111e44d89e3c80b4b6ade694541d8a8c60e99ce"
+    },
+    {
+      "eventId": "7cbca935-17e1-4fb0-8a7f-049e44838fc6",
+      "uid": "38.097.764/0001-10",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-24T14:29:08.432Z",
+      "timestampLocal": "2026-09-24T14:29:08.432Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=38.097.764%2F0001-10&nombre_proveedor_razon_social=CAMILA+LIMA+SANTOS+10753291673&nombre_representante_legal=Vin%C3%ADcius+Dias+dos+Santos&email=vinicius.santos%40another.co",
+      "previousEventHash": "adc040dd4bfa3506c59e8051b111e44d89e3c80b4b6ade694541d8a8c60e99ce",
+      "documentHash": "3165967cf43a54584dff6abc80ab99d9fef0d5026ccd43491413441bfa44b337",
+      "eventHash": "1711e9f72b8df7923182d8f7266b07cc3496ee33525cbcd5f5ea952f0c4a14b8"
+    },
+    {
+      "eventId": "36e5b928-0552-4c3a-9d0c-c7bce566224e",
+      "uid": "38.097.764/0001-10",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-24T14:29:26.937Z",
+      "timestampLocal": "2026-09-24T11:29:26.937Z",
+      "timezone": "UTC-3",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/7e2fe247-503e-4830-88b6-99edbae2dc25",
+      "previousEventHash": "1711e9f72b8df7923182d8f7266b07cc3496ee33525cbcd5f5ea952f0c4a14b8",
+      "documentHash": "9711107b3591c82a95cd09005ae66bfb9c570c61d634b273b636d1da3ea725cf",
+      "signatureHash": "487c5b566d60e7cd82e56c67ff57dc2c0b6aefea52b39dbd6121d1b7453a4cd3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-24T11:29:23.504Z"
+      },
+      "eventHash": "b07ce2f0e299ad0db9341cad00abf55f6085ff0857df28ba162a15b9cbb1b1d4"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-24T14:29:27.204Z"
+  }
 }
