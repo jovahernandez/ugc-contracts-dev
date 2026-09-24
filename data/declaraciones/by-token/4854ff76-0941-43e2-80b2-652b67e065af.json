@@ -3,7 +3,7 @@
   "declarationId": "1132416c-3853-4b1f-82dc-a76c1051ec5e",
   "token": "4854ff76-0941-43e2-80b2-652b67e065af",
   "createdAt": "2026-09-24T15:18:01.559Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "LUCIO DA SILVA DE JESUS 9.572.503",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "49.572.503 LUCIO DA SILVA DE JESUS",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7de2305b1011a86ae64f0a2ad5c80931e752edccec92913e2ded9ce2c3e29783",
+  "personaAutorizada": null,
+  "signedAt": "2026-09-24T15:18:24.739Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/49.572.503%2F0001-20",
+  "signatureMetadata": {
+    "ip": "104.140.66.98",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "signedAtUtc": "2026-09-24T15:18:28.047Z",
+    "signedAtLocal": "2026-09-24T12:18:28.047Z"
+  },
+  "documentHash": "79bdee9eb98fb069b306bb586f7a2747ad0bd79b41227cc425b14dc25d031540",
   "auditTrail": [
     {
       "eventId": "f638963e-3ef2-47da-bab0-c80d1bfdaa0c",
@@ -103,6 +109,84 @@
         "representante": "49.572.503 LUCIO DA SILVA DE JESUS"
       },
       "eventHash": "c86eabd33cba3ffef57adbd2e3e517e43f5dbefee32f31dec9da8f4d8e86d44c"
+    },
+    {
+      "eventId": "ebf05983-e4aa-4a35-b3a4-429e5e5a7c60",
+      "uid": "49.572.503/0001-20",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-24T15:18:11.695Z",
+      "timestampLocal": "2026-09-24T15:18:11.695Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=49.572.503%2F0001-20&nombre_proveedor_razon_social=LUCIO+DA+SILVA+DE+JESUS+9.572.503&nombre_representante_legal=49.572.503+LUCIO+DA+SILVA+DE+JESUS&email=vinicius.santos%40another.co",
+      "previousEventHash": "c86eabd33cba3ffef57adbd2e3e517e43f5dbefee32f31dec9da8f4d8e86d44c",
+      "documentHash": "7de2305b1011a86ae64f0a2ad5c80931e752edccec92913e2ded9ce2c3e29783",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "17b1e50ad4b1394ff7fcd09005dd8b25286cf7ed0be43725c8fb94f4d92cd0b5"
+    },
+    {
+      "eventId": "9af9b29d-6414-4d73-914a-f31f1bebcb58",
+      "uid": "49.572.503/0001-20",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-24T15:18:11.695Z",
+      "timestampLocal": "2026-09-24T15:18:11.695Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=49.572.503%2F0001-20&nombre_proveedor_razon_social=LUCIO+DA+SILVA+DE+JESUS+9.572.503&nombre_representante_legal=49.572.503+LUCIO+DA+SILVA+DE+JESUS&email=vinicius.santos%40another.co",
+      "previousEventHash": "17b1e50ad4b1394ff7fcd09005dd8b25286cf7ed0be43725c8fb94f4d92cd0b5",
+      "documentHash": "7de2305b1011a86ae64f0a2ad5c80931e752edccec92913e2ded9ce2c3e29783",
+      "metadata": {
+        "proveedor": "LUCIO DA SILVA DE JESUS 9.572.503",
+        "representante": "49.572.503 LUCIO DA SILVA DE JESUS"
+      },
+      "eventHash": "e2b9b0579e0ed41a2cb65d902f2b7c5985f71b814932ad4ff4bf70c0fbb378b8"
+    },
+    {
+      "eventId": "0f60ba3f-09e7-4231-aa5e-56ce2247907a",
+      "uid": "49.572.503/0001-20",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-24T15:18:14.290Z",
+      "timestampLocal": "2026-09-24T15:18:14.290Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=49.572.503%2F0001-20&nombre_proveedor_razon_social=LUCIO+DA+SILVA+DE+JESUS+9.572.503&nombre_representante_legal=49.572.503+LUCIO+DA+SILVA+DE+JESUS&email=vinicius.santos%40another.co",
+      "previousEventHash": "e2b9b0579e0ed41a2cb65d902f2b7c5985f71b814932ad4ff4bf70c0fbb378b8",
+      "documentHash": "7de2305b1011a86ae64f0a2ad5c80931e752edccec92913e2ded9ce2c3e29783",
+      "eventHash": "a2c628bc6cc7c3bebc1c952a25b0023deed4e81ce30c4bd826ac5ded35cfc926"
+    },
+    {
+      "eventId": "34efd207-f66c-486a-a079-581fc08e8aef",
+      "uid": "49.572.503/0001-20",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-24T15:18:28.047Z",
+      "timestampLocal": "2026-09-24T12:18:28.047Z",
+      "timezone": "UTC-3",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/4854ff76-0941-43e2-80b2-652b67e065af",
+      "previousEventHash": "a2c628bc6cc7c3bebc1c952a25b0023deed4e81ce30c4bd826ac5ded35cfc926",
+      "documentHash": "79bdee9eb98fb069b306bb586f7a2747ad0bd79b41227cc425b14dc25d031540",
+      "signatureHash": "70f7d9625fd6cdeb38d71c3b357ef0e875b473a02b7533c2b6b4eb4cef04f333",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-24T12:18:24.739Z"
+      },
+      "eventHash": "b20f2f9a436984ebe93aa40e993faf94596b0f553154f39489362a12d14dfced"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-09-24T15:18:28.361Z"
+  }
 }
