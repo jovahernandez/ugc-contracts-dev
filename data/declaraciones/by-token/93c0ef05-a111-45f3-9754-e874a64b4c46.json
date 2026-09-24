@@ -3,7 +3,7 @@
   "declarationId": "15c81992-5c32-410e-9b1b-de4f206cfffa",
   "token": "93c0ef05-a111-45f3-9754-e874a64b4c46",
   "createdAt": "2026-09-24T14:33:23.781Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "GABISTECA PRODUCOES LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Gabriela de Araujo Vicente",
     "email": "edilene_vicente@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "34bd48984302e6ca98c8f93c51698d5b828b6be4707f47eb48796ab081e0bf0a",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-24T14:36:44.570Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/39.456.709%2F0001-31",
+  "signatureMetadata": {
+    "ip": "201.86.221.127",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0",
+    "signedAtUtc": "2026-09-24T14:36:50.254Z",
+    "signedAtLocal": "2026-09-24T11:36:50.254Z"
+  },
+  "documentHash": "a3c134d7e4b3118f07c6fdf0cf0666edf6d12a9687311dfbb7a0a601859833ac",
   "auditTrail": [
     {
       "eventId": "92291481-8b4b-4405-b529-6471bf832dec",
@@ -66,6 +74,49 @@
         "representante": "Gabriela de Araujo Vicente"
       },
       "eventHash": "b0d2d3eb7384ea23fc0eb5a30b38eeb31cd2340199bb06df123ec174268de00e"
+    },
+    {
+      "eventId": "a43d4da5-f8f0-4703-9988-c5663fc5b670",
+      "uid": "39.456.709/0001-31",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-24T14:33:39.056Z",
+      "timestampLocal": "2026-09-24T14:33:39.056Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.86.221.127",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=39.456.709%2F0001-31&nombre_proveedor_razon_social=GABISTECA+PRODUCOES+LTDA&nombre_representante_legal=Gabriela+de+Araujo+Vicente&email=edilene_vicente%40hotmail.com",
+      "previousEventHash": "b0d2d3eb7384ea23fc0eb5a30b38eeb31cd2340199bb06df123ec174268de00e",
+      "documentHash": "34bd48984302e6ca98c8f93c51698d5b828b6be4707f47eb48796ab081e0bf0a",
+      "eventHash": "eefdb82517ae38c903c76e1a6de015cc2c1f4389fe02609eef71a71dcfedcebb"
+    },
+    {
+      "eventId": "ab6bea19-4952-4fbe-b336-74320b2f194b",
+      "uid": "39.456.709/0001-31",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-24T14:36:50.254Z",
+      "timestampLocal": "2026-09-24T11:36:50.254Z",
+      "timezone": "UTC-3",
+      "ipAddress": "201.86.221.127",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/93c0ef05-a111-45f3-9754-e874a64b4c46",
+      "previousEventHash": "eefdb82517ae38c903c76e1a6de015cc2c1f4389fe02609eef71a71dcfedcebb",
+      "documentHash": "a3c134d7e4b3118f07c6fdf0cf0666edf6d12a9687311dfbb7a0a601859833ac",
+      "signatureHash": "d31574efe26969d3518068ff4f313707f92a9ccd7c19519bab4170e9c848d894",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-24T11:36:44.570Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "de84af418ae23ae5bb2b2ebc07cb7869fe3856300cf1ac641298f5b971412be3"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-24T14:36:50.539Z"
+  }
 }
