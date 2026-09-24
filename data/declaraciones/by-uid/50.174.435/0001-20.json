@@ -3,8 +3,18 @@
   "declarationId": "dae14572-ba2b-4ec1-bf20-a7dd5cf6d45e",
   "token": "debb650c-71a5-4252-bb93-f7e6e6d7f1b6",
   "createdAt": "2026-09-24T13:42:51.037Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "50.174.435 ANDERSON FELIPE DAMIAO SILVA",
+    "nombre_representante_legal": "50.174.435 ANDERSON FELIPE DAMIAO SILVA",
+    "email": "vinicius.santos@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "50.174.435 ANDERSON FELIPE DAMIAO SILVA",
+    "nombre_representante_legal": "50.174.435 ANDERSON FELIPE DAMIAO SILVA",
+    "email": "vinicius.santos@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "50.174.435 ANDERSON FELIPE DAMIAO SILVA",
     "nombre_representante_legal": "50.174.435 ANDERSON FELIPE DAMIAO SILVA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "e9791ce754a7d9322d230b15eb9b33b99aa1ee49fa3ca13440252f8fdb1bcbdd",
+  "auditTrail": [
+    {
+      "eventId": "591aad56-0910-4552-a26d-def796145405",
+      "uid": "50.174.435/0001-20",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-24T13:42:57.575Z",
+      "timestampLocal": "2026-09-24T13:42:57.575Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=50.174.435%2F0001-20&nombre_proveedor_razon_social=50.174.435+ANDERSON+FELIPE+DAMIAO+SILVA&nombre_representante_legal=50.174.435+ANDERSON+FELIPE+DAMIAO+SILVA&email=vinicius.santos%40another.co",
+      "previousEventHash": null,
+      "documentHash": "e9791ce754a7d9322d230b15eb9b33b99aa1ee49fa3ca13440252f8fdb1bcbdd",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "3f94732f4abd1d9e5f8be64c254e14346c091580799ea177afd500a1423522f3"
+    },
+    {
+      "eventId": "1730adc1-93ee-4fe7-ade8-0fa95b89267c",
+      "uid": "50.174.435/0001-20",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-24T13:42:57.575Z",
+      "timestampLocal": "2026-09-24T13:42:57.575Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=50.174.435%2F0001-20&nombre_proveedor_razon_social=50.174.435+ANDERSON+FELIPE+DAMIAO+SILVA&nombre_representante_legal=50.174.435+ANDERSON+FELIPE+DAMIAO+SILVA&email=vinicius.santos%40another.co",
+      "previousEventHash": "3f94732f4abd1d9e5f8be64c254e14346c091580799ea177afd500a1423522f3",
+      "documentHash": "e9791ce754a7d9322d230b15eb9b33b99aa1ee49fa3ca13440252f8fdb1bcbdd",
+      "metadata": {
+        "proveedor": "50.174.435 ANDERSON FELIPE DAMIAO SILVA",
+        "representante": "50.174.435 ANDERSON FELIPE DAMIAO SILVA"
+      },
+      "eventHash": "449ba5b781c667ab8bf825329e85c14e94568662fb2d05af5278dba4d0df8342"
+    }
+  ]
 }
