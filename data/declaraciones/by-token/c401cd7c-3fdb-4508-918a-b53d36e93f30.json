@@ -3,7 +3,7 @@
   "declarationId": "a2e7cb56-3a5e-45cd-981f-f7220e661c42",
   "token": "c401cd7c-3fdb-4508-918a-b53d36e93f30",
   "createdAt": "2026-09-21T19:50:29.541Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Corporación La Prensa S.A.",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Jorge Molina",
     "email": "cobros@prensa.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "36bab76d31c026e220d30c05ef3dbdc2ec752ed0d559243b8b7fdb05e74cefc7",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-24T19:58:57.225Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/2978-2-46909",
+  "signatureMetadata": {
+    "ip": "200.6.79.251",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-24T19:59:02.925Z",
+    "signedAtLocal": "2026-09-24T14:59:02.925Z"
+  },
+  "documentHash": "c656bc110ac40fa8a52ce03330a47c2fa3387bc20cd2f55605b67e6329790c30",
   "auditTrail": [
     {
       "eventId": "c9e13c57-7b45-4174-b972-e9f5db83b726",
@@ -66,6 +74,94 @@
         "representante": "Jorge Molina"
       },
       "eventHash": "23b45aed7cd17855676f42a5ffa297ffde078eed0a1186a5d7c5cf420a657fa7"
+    },
+    {
+      "eventId": "56d8d928-a585-42e4-99a6-c89c79217c4c",
+      "uid": "2978-2-46909",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-21T19:50:40.078Z",
+      "timestampLocal": "2026-09-21T19:50:40.078Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.6.79.251",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=2978-2-46909&nombre_proveedor_razon_social=Corporaci%C3%B3n+La+Prensa+S.A.&nombre_representante_legal=Jorge+Molina&email=cobros%40prensa.com",
+      "previousEventHash": "23b45aed7cd17855676f42a5ffa297ffde078eed0a1186a5d7c5cf420a657fa7",
+      "documentHash": "36bab76d31c026e220d30c05ef3dbdc2ec752ed0d559243b8b7fdb05e74cefc7",
+      "eventHash": "65c6eebff214ef78fe59b74132d38011d7a4277b99de8c5d5536eebfa5949679"
+    },
+    {
+      "eventId": "c285a71e-e2ad-4b84-9c3f-795e5a15d790",
+      "uid": "2978-2-46909",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-24T18:42:07.230Z",
+      "timestampLocal": "2026-09-24T18:42:07.230Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.8.204",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "65c6eebff214ef78fe59b74132d38011d7a4277b99de8c5d5536eebfa5949679",
+      "documentHash": "36bab76d31c026e220d30c05ef3dbdc2ec752ed0d559243b8b7fdb05e74cefc7",
+      "eventHash": "2ff6f5d9ef145cfec05023ddcd03a47180510b00b6348bed11be2cf0b52b64c1"
+    },
+    {
+      "eventId": "eba1ee25-a27b-426a-9a84-c8796dcf99ef",
+      "uid": "2978-2-46909",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-24T18:42:21.427Z",
+      "timestampLocal": "2026-09-24T18:42:21.427Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.8.204",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "2ff6f5d9ef145cfec05023ddcd03a47180510b00b6348bed11be2cf0b52b64c1",
+      "documentHash": "36bab76d31c026e220d30c05ef3dbdc2ec752ed0d559243b8b7fdb05e74cefc7",
+      "eventHash": "433a590c8f30c2601038cc3c187557cee0818dd663820d9100a8f305b9975452"
+    },
+    {
+      "eventId": "c7a24ce9-42a5-4f86-ad78-83d84152dd0a",
+      "uid": "2978-2-46909",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-24T19:57:34.820Z",
+      "timestampLocal": "2026-09-24T19:57:34.820Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.6.79.251",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "433a590c8f30c2601038cc3c187557cee0818dd663820d9100a8f305b9975452",
+      "documentHash": "36bab76d31c026e220d30c05ef3dbdc2ec752ed0d559243b8b7fdb05e74cefc7",
+      "eventHash": "e4520af8ddbcaac69db0261686690777c5d2c1d97c7ceb9d2eb003096c2fc3b6"
+    },
+    {
+      "eventId": "357312c9-f5fd-41a1-9c60-860e8b012e53",
+      "uid": "2978-2-46909",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-24T19:59:02.925Z",
+      "timestampLocal": "2026-09-24T14:59:02.925Z",
+      "timezone": "UTC-5",
+      "ipAddress": "200.6.79.251",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c401cd7c-3fdb-4508-918a-b53d36e93f30",
+      "previousEventHash": "e4520af8ddbcaac69db0261686690777c5d2c1d97c7ceb9d2eb003096c2fc3b6",
+      "documentHash": "c656bc110ac40fa8a52ce03330a47c2fa3387bc20cd2f55605b67e6329790c30",
+      "signatureHash": "515026e1525f38ebc52495744bc2dd550549fca5cc82da1cfe0e42cbf5cfc9ed",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-24T14:58:57.225Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "0409d83dabbf6970006c1538798b361194016c2a55ad149aeda0089641c13a69"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-09-24T19:59:03.266Z"
+  }
 }
