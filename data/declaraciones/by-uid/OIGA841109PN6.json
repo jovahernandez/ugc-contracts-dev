@@ -3,8 +3,18 @@
   "declarationId": "189995bd-66e2-4e81-b23f-de61515b1969",
   "token": "0a6ded66-c45b-4220-a80d-f4297ceefc2d",
   "createdAt": "2026-09-24T18:05:05.734Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Alondra Ortiz Garcia",
+    "nombre_representante_legal": "Alondra Ortiz Garcia",
+    "email": "alondragarcialocutora@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Alondra Ortiz Garcia",
+    "nombre_representante_legal": "Alondra Ortiz Garcia",
+    "email": "alondragarcialocutora@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Alondra Ortiz Garcia",
     "nombre_representante_legal": "Alondra Ortiz Garcia",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "bce2926776f5c141c681e0cbc704891b88c594b208c4892b9da78830c8b10ef2",
+  "auditTrail": [
+    {
+      "eventId": "c2fbff23-0201-45b2-9dfb-a91b0d392c78",
+      "uid": "OIGA841109PN6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-24T18:05:13.698Z",
+      "timestampLocal": "2026-09-24T18:05:13.698Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.159.47",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "bce2926776f5c141c681e0cbc704891b88c594b208c4892b9da78830c8b10ef2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c7b63f791b5a1658fa25cc7e944f5585bb396e3cd937fc5b14689bd66bbae9fe"
+    },
+    {
+      "eventId": "ba76cfd7-4b6d-4377-94a5-6e5d97bf5b36",
+      "uid": "OIGA841109PN6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-24T18:05:13.698Z",
+      "timestampLocal": "2026-09-24T18:05:13.698Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.159.47",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "c7b63f791b5a1658fa25cc7e944f5585bb396e3cd937fc5b14689bd66bbae9fe",
+      "documentHash": "bce2926776f5c141c681e0cbc704891b88c594b208c4892b9da78830c8b10ef2",
+      "metadata": {
+        "proveedor": "Alondra Ortiz Garcia",
+        "representante": "Alondra Ortiz Garcia"
+      },
+      "eventHash": "671d7ed4ac3b553d391d2b39ea961cb6d36f9579eec36b9bc270cf4cd0a3726a"
+    }
+  ]
 }
