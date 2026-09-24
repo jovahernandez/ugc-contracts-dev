@@ -3,8 +3,18 @@
   "declarationId": "c55e2dea-9140-41bf-a54d-125122e88d75",
   "token": "68119137-7b70-4a97-8aff-b7c66c534765",
   "createdAt": "2026-09-24T00:25:41.052Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Alejandra Salome",
+    "nombre_representante_legal": "Alejandra Salome",
+    "email": "alex_cast_lopez@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Alejandra Salome",
+    "nombre_representante_legal": "Alejandra Salome",
+    "email": "alex_cast_lopez@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Alejandra Salome",
     "nombre_representante_legal": "Alejandra Salome",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "674df972e4a79784c3e1c6771af278cfe8c943173563cfb5bd0a699afb06ef67",
+  "auditTrail": [
+    {
+      "eventId": "3b3b25d3-7383-4679-b0ff-5c1a1dc09040",
+      "uid": "LOCA941219818",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-24T00:25:49.619Z",
+      "timestampLocal": "2026-09-24T00:25:49.619Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.187.195",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6.1 Safari/605.1.15",
+      "acceptLanguage": "es-xl",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "674df972e4a79784c3e1c6771af278cfe8c943173563cfb5bd0a699afb06ef67",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cf6736483819347f54fc24893e42dd73b464071c6272f811f97c58ce2138697c"
+    },
+    {
+      "eventId": "95098a5b-9d9a-4e92-be47-d960ff24a55f",
+      "uid": "LOCA941219818",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-24T00:25:49.619Z",
+      "timestampLocal": "2026-09-24T00:25:49.619Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.187.195",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6.1 Safari/605.1.15",
+      "acceptLanguage": "es-xl",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "cf6736483819347f54fc24893e42dd73b464071c6272f811f97c58ce2138697c",
+      "documentHash": "674df972e4a79784c3e1c6771af278cfe8c943173563cfb5bd0a699afb06ef67",
+      "metadata": {
+        "proveedor": "Alejandra Salome",
+        "representante": "Alejandra Salome"
+      },
+      "eventHash": "f6655019c5cd74ab32d48ed48bbbe4a08b6cdb882ae772e827e561a880ace5d3"
+    }
+  ]
 }
