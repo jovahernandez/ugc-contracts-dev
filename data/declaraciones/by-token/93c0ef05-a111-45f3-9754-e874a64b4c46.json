@@ -3,8 +3,18 @@
   "declarationId": "15c81992-5c32-410e-9b1b-de4f206cfffa",
   "token": "93c0ef05-a111-45f3-9754-e874a64b4c46",
   "createdAt": "2026-09-24T14:33:23.781Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GABISTECA PRODUCOES LTDA",
+    "nombre_representante_legal": "Gabriela de Araujo Vicente",
+    "email": "edilene_vicente@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GABISTECA PRODUCOES LTDA",
+    "nombre_representante_legal": "Gabriela de Araujo Vicente",
+    "email": "edilene_vicente@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GABISTECA PRODUCOES LTDA",
     "nombre_representante_legal": "Gabriela de Araujo Vicente",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "34bd48984302e6ca98c8f93c51698d5b828b6be4707f47eb48796ab081e0bf0a",
+  "auditTrail": [
+    {
+      "eventId": "92291481-8b4b-4405-b529-6471bf832dec",
+      "uid": "39.456.709/0001-31",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-24T14:33:35.783Z",
+      "timestampLocal": "2026-09-24T14:33:35.783Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.86.221.127",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=39.456.709%2F0001-31&nombre_proveedor_razon_social=GABISTECA+PRODUCOES+LTDA&nombre_representante_legal=Gabriela+de+Araujo+Vicente&email=edilene_vicente%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "34bd48984302e6ca98c8f93c51698d5b828b6be4707f47eb48796ab081e0bf0a",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "11c90a453be316680d228c405ce3238890bf7599fb7ddc93dea27ee3c86ffe63"
+    },
+    {
+      "eventId": "6b212142-1875-4858-ac82-a2d8ce080e07",
+      "uid": "39.456.709/0001-31",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-24T14:33:35.783Z",
+      "timestampLocal": "2026-09-24T14:33:35.783Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.86.221.127",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=39.456.709%2F0001-31&nombre_proveedor_razon_social=GABISTECA+PRODUCOES+LTDA&nombre_representante_legal=Gabriela+de+Araujo+Vicente&email=edilene_vicente%40hotmail.com",
+      "previousEventHash": "11c90a453be316680d228c405ce3238890bf7599fb7ddc93dea27ee3c86ffe63",
+      "documentHash": "34bd48984302e6ca98c8f93c51698d5b828b6be4707f47eb48796ab081e0bf0a",
+      "metadata": {
+        "proveedor": "GABISTECA PRODUCOES LTDA",
+        "representante": "Gabriela de Araujo Vicente"
+      },
+      "eventHash": "b0d2d3eb7384ea23fc0eb5a30b38eeb31cd2340199bb06df123ec174268de00e"
+    }
+  ]
 }
