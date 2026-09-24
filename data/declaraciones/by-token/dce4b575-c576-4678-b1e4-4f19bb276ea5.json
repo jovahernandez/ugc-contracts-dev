@@ -3,8 +3,18 @@
   "declarationId": "f37859f0-aec1-4e60-ac08-82248c0ce97e",
   "token": "dce4b575-c576-4678-b1e4-4f19bb276ea5",
   "createdAt": "2026-09-24T22:19:58.985Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "LUISA CAROLINA CARDENAS ANZOLA",
+    "nombre_representante_legal": "NO APLICA",
+    "email": "unatalluisa7@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "LUISA CAROLINA CARDENAS ANZOLA",
+    "nombre_representante_legal": "NO APLICA",
+    "email": "unatalluisa7@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "LUISA CAROLINA CARDENAS ANZOLA",
     "nombre_representante_legal": "NO APLICA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "67a9096bafc0d782cf83cf1bd0b6b315c4a9db5e84f2f690ed762dcdad84db51",
+  "auditTrail": [
+    {
+      "eventId": "4a6e421d-2e9a-44e3-943f-2ffe7d04850d",
+      "uid": "CAAL920525JS1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-24T22:20:07.112Z",
+      "timestampLocal": "2026-09-24T22:20:07.112Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.13.30",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAAL920525JS1&nombre_proveedor_razon_social=LUISA+CAROLINA+CARDENAS+ANZOLA&nombre_representante_legal=NO+APLICA&email=unatalluisa7%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "67a9096bafc0d782cf83cf1bd0b6b315c4a9db5e84f2f690ed762dcdad84db51",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3b4a8e15c7046182d07fcf9c60a0a38cff7b23a989e57b8cc81d9c2c37a76639"
+    },
+    {
+      "eventId": "0ca7cede-d24a-4720-aae1-b1e628df3eee",
+      "uid": "CAAL920525JS1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-24T22:20:07.112Z",
+      "timestampLocal": "2026-09-24T22:20:07.112Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.13.30",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAAL920525JS1&nombre_proveedor_razon_social=LUISA+CAROLINA+CARDENAS+ANZOLA&nombre_representante_legal=NO+APLICA&email=unatalluisa7%40gmail.com",
+      "previousEventHash": "3b4a8e15c7046182d07fcf9c60a0a38cff7b23a989e57b8cc81d9c2c37a76639",
+      "documentHash": "67a9096bafc0d782cf83cf1bd0b6b315c4a9db5e84f2f690ed762dcdad84db51",
+      "metadata": {
+        "proveedor": "LUISA CAROLINA CARDENAS ANZOLA",
+        "representante": "NO APLICA"
+      },
+      "eventHash": "7ca10eefc9ebaba5e3fe21718459eb0d0ee63e32e097b6c50c70d7e870745f7e"
+    }
+  ]
 }
