@@ -3,7 +3,7 @@
   "declarationId": "d27a49d4-1fac-49da-893f-510a7080b978",
   "token": "0bededf0-eff1-4cbe-a0ed-0c4afb02df9b",
   "createdAt": "2026-09-24T19:35:32.783Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "LUXOR BRINDES COMERCIO E SERVICOS LTDA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Vinícius",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "20505ca796aeb86ad2e217611a0764d0202f4db9c0b2ba0f0d86eb530a2d6d67",
+  "personaAutorizada": null,
+  "signedAt": "2026-09-24T19:35:50.263Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/65.844.887%2F0001-40",
+  "signatureMetadata": {
+    "ip": "104.140.66.98",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "signedAtUtc": "2026-09-24T19:35:53.601Z",
+    "signedAtLocal": "2026-09-24T16:35:53.601Z"
+  },
+  "documentHash": "9c45aad92dc1593cd8d57109cb2089aa5a2f7f63f0954ecdaaf916a62cef84c5",
   "auditTrail": [
     {
       "eventId": "68cd7b6b-bd6d-4b9c-8288-f9da0cc75d07",
@@ -66,6 +72,47 @@
         "representante": "Vinícius"
       },
       "eventHash": "a8e3103ecc5cf7e783a6d3c8ce08a41db0faf6a706349ad0b6bd8599be43b07f"
+    },
+    {
+      "eventId": "d4ce2201-5e09-4155-9618-3d45363c90db",
+      "uid": "65.844.887/0001-40",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-24T19:35:42.745Z",
+      "timestampLocal": "2026-09-24T19:35:42.745Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=65.844.887%2F0001-40&nombre_proveedor_razon_social=LUXOR+BRINDES+COMERCIO+E+SERVICOS+LTDA&nombre_representante_legal=Vin%C3%ADcius&email=vinicius.santos%40another.co",
+      "previousEventHash": "a8e3103ecc5cf7e783a6d3c8ce08a41db0faf6a706349ad0b6bd8599be43b07f",
+      "documentHash": "20505ca796aeb86ad2e217611a0764d0202f4db9c0b2ba0f0d86eb530a2d6d67",
+      "eventHash": "beed53e408c1130f5c30a83c194cc2cdc730764fd276cb0153400ea6c143d951"
+    },
+    {
+      "eventId": "dfa5fd52-4c8e-4544-801b-fabf0969580a",
+      "uid": "65.844.887/0001-40",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-24T19:35:53.601Z",
+      "timestampLocal": "2026-09-24T16:35:53.601Z",
+      "timezone": "UTC-3",
+      "ipAddress": "104.140.66.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/0bededf0-eff1-4cbe-a0ed-0c4afb02df9b",
+      "previousEventHash": "beed53e408c1130f5c30a83c194cc2cdc730764fd276cb0153400ea6c143d951",
+      "documentHash": "9c45aad92dc1593cd8d57109cb2089aa5a2f7f63f0954ecdaaf916a62cef84c5",
+      "signatureHash": "c992b6d3d495c2ddb5981a41c7a74d3452aa45fdb987b9d19d4f88fc490f98d3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-24T16:35:50.263Z"
+      },
+      "eventHash": "92415af985f6bdf1a44666928d8b4731153b9265be82b077453d946cbec92321"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-24T19:35:53.758Z"
+  }
 }
