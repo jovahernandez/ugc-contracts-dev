@@ -3,7 +3,7 @@
   "declarationId": "60c39258-7d4b-446c-b342-23871aa52610",
   "token": "c625a97d-efe1-42a8-8293-387a9b25ab83",
   "createdAt": "2026-09-24T21:15:52.547Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "FAST GOURMET LTDA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Vinícius",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4c479e5dad93e6ada4107e32d804787a93b3ed60cb09f90f0a9c53e093238f50",
+  "personaAutorizada": null,
+  "signedAt": "2026-09-24T21:16:10.567Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/24.285.185%2F0001-96",
+  "signatureMetadata": {
+    "ip": "207.223.100.146",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "signedAtUtc": "2026-09-24T21:16:13.971Z",
+    "signedAtLocal": "2026-09-24T18:16:13.971Z"
+  },
+  "documentHash": "fc00a5af3aa5cd48a12055183b18751c53b8f1ebb05c252dd5ff6135c40b57bd",
   "auditTrail": [
     {
       "eventId": "e89e30a8-6f0a-49e1-a14d-c4fa94b75515",
@@ -140,6 +146,47 @@
         "representante": "Vinícius"
       },
       "eventHash": "59698cfa93792b4b5832594ef996dbd7a7c2d0db86fdaa985792f9ff2ea9cb2e"
+    },
+    {
+      "eventId": "1bb05054-d009-40b2-af8d-4e60f6dc5ae2",
+      "uid": "24.285.185/0001-96",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-24T21:16:03.809Z",
+      "timestampLocal": "2026-09-24T21:16:03.809Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=24.285.185%2F0001-96&nombre_proveedor_razon_social=FAST+GOURMET+LTDA&nombre_representante_legal=Vin%C3%ADcius&email=vinicius.santos%40another.co",
+      "previousEventHash": "59698cfa93792b4b5832594ef996dbd7a7c2d0db86fdaa985792f9ff2ea9cb2e",
+      "documentHash": "4c479e5dad93e6ada4107e32d804787a93b3ed60cb09f90f0a9c53e093238f50",
+      "eventHash": "6a76fb227295861c2cc3e33d7e1a9c6509f2f4c0eccac623547bb777ce615575"
+    },
+    {
+      "eventId": "e11cc8a2-e7ec-4c3c-859f-e036e745b650",
+      "uid": "24.285.185/0001-96",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-24T21:16:13.971Z",
+      "timestampLocal": "2026-09-24T18:16:13.971Z",
+      "timezone": "UTC-3",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/c625a97d-efe1-42a8-8293-387a9b25ab83",
+      "previousEventHash": "6a76fb227295861c2cc3e33d7e1a9c6509f2f4c0eccac623547bb777ce615575",
+      "documentHash": "fc00a5af3aa5cd48a12055183b18751c53b8f1ebb05c252dd5ff6135c40b57bd",
+      "signatureHash": "95fc1e67cfce50f1f49b72fef079273dd0ea0658fa33cf7b7d4a75390d824c49",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-24T18:16:10.567Z"
+      },
+      "eventHash": "31ba7d19957ef10deabf23d70e9fac7375005b3a5e802add05832c2390797957"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-09-24T21:16:14.221Z"
+  }
 }
