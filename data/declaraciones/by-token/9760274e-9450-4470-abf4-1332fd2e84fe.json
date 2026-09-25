@@ -3,7 +3,7 @@
   "declarationId": "df998ff6-8289-4c67-a029-07ac3edc7b24",
   "token": "9760274e-9450-4470-abf4-1332fd2e84fe",
   "createdAt": "2026-09-25T18:22:29.238Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "KIKI GASTRONOMIA CRIATIVA LTDA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Vinícius",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "10190a8a6a8cf5d374f5c17329b12f496098501862bc97bd6cb0ba09074892c1",
+  "personaAutorizada": null,
+  "signedAt": "2026-09-25T18:22:54.383Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/43.959.093%2F0001-99",
+  "signatureMetadata": {
+    "ip": "177.9.233.212",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "signedAtUtc": "2026-09-25T18:22:57.893Z",
+    "signedAtLocal": "2026-09-25T15:22:57.893Z"
+  },
+  "documentHash": "aafb34c342b4e5e3acc8ef69d191d09db886f22e1ed7adc4dfa542091bfd038b",
   "auditTrail": [
     {
       "eventId": "a9f856d5-1034-4d71-8bbb-60b1aa16ea6c",
@@ -66,6 +72,47 @@
         "representante": "Vinícius"
       },
       "eventHash": "c0555ce38b3ccd4334627eccbf72661d49390ced4018553495238295c3671386"
+    },
+    {
+      "eventId": "e97a3bac-e09e-48e9-ba64-bec673f299dd",
+      "uid": "43.959.093/0001-99",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-25T18:22:47.143Z",
+      "timestampLocal": "2026-09-25T18:22:47.143Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.9.233.212",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=43.959.093%2F0001-99&nombre_proveedor_razon_social=KIKI+GASTRONOMIA+CRIATIVA+LTDA&nombre_representante_legal=Vin%C3%ADcius&email=vinicius.santos%40another.co",
+      "previousEventHash": "c0555ce38b3ccd4334627eccbf72661d49390ced4018553495238295c3671386",
+      "documentHash": "10190a8a6a8cf5d374f5c17329b12f496098501862bc97bd6cb0ba09074892c1",
+      "eventHash": "3f2f501f8e6fade71df78ea7f196e59a01d3d96eb82cf5803c2f79b49ea74035"
+    },
+    {
+      "eventId": "13fe2f2f-933d-4234-a013-4563662d7542",
+      "uid": "43.959.093/0001-99",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-25T18:22:57.893Z",
+      "timestampLocal": "2026-09-25T15:22:57.893Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.9.233.212",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/9760274e-9450-4470-abf4-1332fd2e84fe",
+      "previousEventHash": "3f2f501f8e6fade71df78ea7f196e59a01d3d96eb82cf5803c2f79b49ea74035",
+      "documentHash": "aafb34c342b4e5e3acc8ef69d191d09db886f22e1ed7adc4dfa542091bfd038b",
+      "signatureHash": "0856169573defa76cb453e9e8c90c2e4c28bde21b744ef2d1b68a7e64b9eb3a4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-25T15:22:54.383Z"
+      },
+      "eventHash": "92bc89b22470dcae184e43635a2828f2e7595aaf9d4b924a99ab3988fc3a2413"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-25T18:22:58.056Z"
+  }
 }
