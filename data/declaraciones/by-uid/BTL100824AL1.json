@@ -3,8 +3,18 @@
   "declarationId": "31512b7a-70da-4937-a1a0-3951d4a13ce9",
   "token": "47ae4670-8401-4bda-9f40-578c31d80b26",
   "createdAt": "2026-09-25T20:50:47.623Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "BTL SA DE CV",
+    "nombre_representante_legal": "ALDO VAZQUEZ GOMEZ",
+    "email": "GERARDO@HOLZ.MX"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "BTL SA DE CV",
+    "nombre_representante_legal": "ALDO VAZQUEZ GOMEZ",
+    "email": "GERARDO@HOLZ.MX"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "BTL SA DE CV",
     "nombre_representante_legal": "ALDO VAZQUEZ GOMEZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "002b5585943e7b46aa191f17cac762ce313c14317a0580ec30f667dae72e4541",
+  "auditTrail": [
+    {
+      "eventId": "4db7308b-b042-4cea-b1bc-98060d972987",
+      "uid": "BTL100824AL1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-25T20:50:53.976Z",
+      "timestampLocal": "2026-09-25T20:50:53.976Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.90.35",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BTL100824AL1&nombre_proveedor_razon_social=BTL+SA+DE+CV&nombre_representante_legal=ALDO+VAZQUEZ+GOMEZ&email=GERARDO%40HOLZ.MX",
+      "previousEventHash": null,
+      "documentHash": "002b5585943e7b46aa191f17cac762ce313c14317a0580ec30f667dae72e4541",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "bc07af23ba2ea70c9f27090ac1170a3c69c4d1eaac31013a3f4a842cce3053a2"
+    },
+    {
+      "eventId": "eff8e182-a707-42be-9928-f9b3b4c17a49",
+      "uid": "BTL100824AL1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-25T20:50:53.976Z",
+      "timestampLocal": "2026-09-25T20:50:53.976Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.90.35",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BTL100824AL1&nombre_proveedor_razon_social=BTL+SA+DE+CV&nombre_representante_legal=ALDO+VAZQUEZ+GOMEZ&email=GERARDO%40HOLZ.MX",
+      "previousEventHash": "bc07af23ba2ea70c9f27090ac1170a3c69c4d1eaac31013a3f4a842cce3053a2",
+      "documentHash": "002b5585943e7b46aa191f17cac762ce313c14317a0580ec30f667dae72e4541",
+      "metadata": {
+        "proveedor": "BTL SA DE CV",
+        "representante": "ALDO VAZQUEZ GOMEZ"
+      },
+      "eventHash": "27aee54f129e68906f4a4ffc3e7d0a42ae692b3ec8ab55c7066e320857fc4fa4"
+    }
+  ]
 }
