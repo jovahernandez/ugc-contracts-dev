@@ -3,7 +3,7 @@
   "declarationId": "d6f876ea-008a-4d7d-8d0c-bbd2fe0fa4c8",
   "token": "09c52981-27f6-4428-84b9-53029f02292a",
   "createdAt": "2026-09-25T14:36:29.508Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "COLECTIVO WEB SAS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "COLECTIVO WEB SAS",
     "email": "alejandro@colectivoweb.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d9c7d20665c51a6c5d11797ca6ecac02bf72eeb94df3bbd10ebc7de3e7ee88b2",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-25T14:36:58.284Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/901303997-7",
+  "signatureMetadata": {
+    "ip": "191.104.89.112",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-25T14:37:01.712Z",
+    "signedAtLocal": "2026-09-25T09:37:01.712Z"
+  },
+  "documentHash": "39b56dbfa285401f93fbfee431b73c853c587a9519d3cafef233e5410d85074a",
   "auditTrail": [
     {
       "eventId": "e9c324e7-3eaf-4ac9-b946-475984c8bea8",
@@ -118,6 +126,49 @@
         "representante": "COLECTIVO WEB SAS"
       },
       "eventHash": "6a74c415f473ca502c0c48f1f33c61557fedc859372e5b0b1fd95f78bd1096bb"
+    },
+    {
+      "eventId": "0c071814-a289-48ec-a0c0-96ab7baccbf4",
+      "uid": "901303997-7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-25T14:36:42.912Z",
+      "timestampLocal": "2026-09-25T14:36:42.912Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.104.89.112",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901303997-7&nombre_proveedor_razon_social=COLECTIVO+WEB+SAS&nombre_representante_legal=COLECTIVO+WEB+SAS&email=alejandro%40colectivoweb.com",
+      "previousEventHash": "6a74c415f473ca502c0c48f1f33c61557fedc859372e5b0b1fd95f78bd1096bb",
+      "documentHash": "d9c7d20665c51a6c5d11797ca6ecac02bf72eeb94df3bbd10ebc7de3e7ee88b2",
+      "eventHash": "89eb9a6611313d2a76cf18267f024d98cf2bd03abf6c2f6df463c32232efae7e"
+    },
+    {
+      "eventId": "ab48f74e-e236-417b-9a5f-af51e03ed957",
+      "uid": "901303997-7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-25T14:37:01.712Z",
+      "timestampLocal": "2026-09-25T09:37:01.712Z",
+      "timezone": "UTC-5",
+      "ipAddress": "191.104.89.112",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/09c52981-27f6-4428-84b9-53029f02292a",
+      "previousEventHash": "89eb9a6611313d2a76cf18267f024d98cf2bd03abf6c2f6df463c32232efae7e",
+      "documentHash": "39b56dbfa285401f93fbfee431b73c853c587a9519d3cafef233e5410d85074a",
+      "signatureHash": "f0fa247383ef68c9920ac45745b77073856bb856aa7b53a17f3d95e0c2d737b8",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-25T09:36:58.284Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "6ab831ba4d022f1d1f21a70714039998e860296d99b910128a56d4ce76f4e091"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-09-25T14:37:02.030Z"
+  }
 }
