@@ -3,7 +3,7 @@
   "declarationId": "1120175e-668f-44fc-9515-483b708ccb69",
   "token": "6b309064-9e11-40dd-b43f-3db522dd0b0e",
   "createdAt": "2026-09-25T19:16:19.946Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "BERRIES FUN LAB",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Nancy Araiza Escobedo",
     "email": "nancy@lushandberries.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6e21ebea1cf3faa13c82fec39fdba9191b7fa04592c45bcc08b0c9c8d3a469a7",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-25T19:18:06.680Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BFL190523BP4",
+  "signatureMetadata": {
+    "ip": "200.68.183.117",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-25T19:18:12.375Z",
+    "signedAtLocal": "2026-09-25T13:18:12.375Z"
+  },
+  "documentHash": "f91d82d2e917307b8bfc02f9bed0612ee562010f6f57a779240595b1afcde4aa",
   "auditTrail": [
     {
       "eventId": "b86ce941-d40f-46f9-a02d-56fa3771de6c",
@@ -103,6 +111,49 @@
         "representante": "Nancy Araiza Escobedo"
       },
       "eventHash": "003b9a104cb6fe7047fed4436ace4fc22f31613cdd24561d0c86d7127a153dff"
+    },
+    {
+      "eventId": "ef9e5fdb-5b66-4da2-9491-110b78afe5a2",
+      "uid": "BFL190523BP4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-25T19:16:34.317Z",
+      "timestampLocal": "2026-09-25T19:16:34.317Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.183.117",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7,es-US;q=0.6,es-419;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BFL190523BP4&nombre_proveedor_razon_social=BERRIES+FUN+LAB&nombre_representante_legal=Nancy+Araiza+Escobedo&email=nancy%40lushandberries.mx",
+      "previousEventHash": "003b9a104cb6fe7047fed4436ace4fc22f31613cdd24561d0c86d7127a153dff",
+      "documentHash": "6e21ebea1cf3faa13c82fec39fdba9191b7fa04592c45bcc08b0c9c8d3a469a7",
+      "eventHash": "1c0a175b8d1fcbaeb55ee60d40778a0d0b9b6245291f3d041cf159431aeb0ba5"
+    },
+    {
+      "eventId": "fcc49b5d-1538-486f-8493-d5f02ede71fd",
+      "uid": "BFL190523BP4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-25T19:18:12.375Z",
+      "timestampLocal": "2026-09-25T13:18:12.375Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.68.183.117",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7,es-US;q=0.6,es-419;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/6b309064-9e11-40dd-b43f-3db522dd0b0e",
+      "previousEventHash": "1c0a175b8d1fcbaeb55ee60d40778a0d0b9b6245291f3d041cf159431aeb0ba5",
+      "documentHash": "f91d82d2e917307b8bfc02f9bed0612ee562010f6f57a779240595b1afcde4aa",
+      "signatureHash": "8f1a3e495ea0c97206e4ea70cc6f4208e9cf3f99ba0c154eaf75aefa0e52add3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-25T13:18:06.680Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "80ca9e5ff2ffd117b3348cd23adc9110dd3f1463de30f4304b21f7dcc28e1e73"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-25T19:18:12.735Z"
+  }
 }
