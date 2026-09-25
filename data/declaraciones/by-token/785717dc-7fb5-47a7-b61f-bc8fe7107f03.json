@@ -3,7 +3,7 @@
   "declarationId": "fe4fdf59-9e36-442e-81c2-0a5965a7fdea",
   "token": "785717dc-7fb5-47a7-b61f-bc8fe7107f03",
   "createdAt": "2026-09-18T18:35:48.422Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Sebastián Beltrán Esquivel",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Alfredo Isaac Villa Vázquez",
     "email": "sebas_nstars@neomenmx.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "37e48d31aed68f6d5c7b9e4e9d447a2cb5328f76ebd022b50de4e2131ab9f34f",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-25T23:24:20.894Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BEES030425UZ3",
+  "signatureMetadata": {
+    "ip": "187.214.99.221",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "signedAtUtc": "2026-09-25T23:24:24.584Z",
+    "signedAtLocal": "2026-09-25T17:24:24.584Z"
+  },
+  "documentHash": "37194b075ae8ce5ae6892de96d94ed81e79e96a3c8d16194ede4cc61fcb5d848",
   "auditTrail": [
     {
       "eventId": "12c6ee69-af2a-4659-889b-f0d8e81228f9",
@@ -66,6 +74,64 @@
         "representante": "Alfredo Isaac Villa Vázquez"
       },
       "eventHash": "0632a25ad0ba852ee2412ba2b610aa6a554035b5559b55dc591334af1c43d3c8"
+    },
+    {
+      "eventId": "4ef003cf-6fe4-4e3a-81b1-3878871ae8d5",
+      "uid": "BEES030425UZ3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-18T18:35:55.509Z",
+      "timestampLocal": "2026-09-18T18:35:55.509Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.42.216",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BEES030425UZ3&nombre_proveedor_razon_social=Sebasti%C3%A1n+Beltr%C3%A1n+Esquivel&nombre_representante_legal=Alfredo+Isaac+Villa+V%C3%A1zquez&email=sebas_nstars%40neomenmx.com",
+      "previousEventHash": "0632a25ad0ba852ee2412ba2b610aa6a554035b5559b55dc591334af1c43d3c8",
+      "documentHash": "37e48d31aed68f6d5c7b9e4e9d447a2cb5328f76ebd022b50de4e2131ab9f34f",
+      "eventHash": "86758e920b6eeb261c58718d24ebf01469cf7c6dfb0172af28d10b5e16c46ade"
+    },
+    {
+      "eventId": "7686bc47-7ae3-4395-8096-76792fec10ca",
+      "uid": "BEES030425UZ3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-25T23:16:58.608Z",
+      "timestampLocal": "2026-09-25T23:16:58.608Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.214.99.221",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "86758e920b6eeb261c58718d24ebf01469cf7c6dfb0172af28d10b5e16c46ade",
+      "documentHash": "37e48d31aed68f6d5c7b9e4e9d447a2cb5328f76ebd022b50de4e2131ab9f34f",
+      "eventHash": "0c50ff18b0a7310e84269108478ba0e946ff3d77793df8f6c8ee6431c19fef4d"
+    },
+    {
+      "eventId": "e75f9cf6-416a-4a3a-b963-d1126682461f",
+      "uid": "BEES030425UZ3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-25T23:24:24.584Z",
+      "timestampLocal": "2026-09-25T17:24:24.584Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.214.99.221",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/785717dc-7fb5-47a7-b61f-bc8fe7107f03",
+      "previousEventHash": "0c50ff18b0a7310e84269108478ba0e946ff3d77793df8f6c8ee6431c19fef4d",
+      "documentHash": "37194b075ae8ce5ae6892de96d94ed81e79e96a3c8d16194ede4cc61fcb5d848",
+      "signatureHash": "928bd1cb5405365711fe5384d7f45bce6684dc17734c817e6a04acdfe42c5582",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-25T17:24:20.894Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "86ca367de2e35ae6fa216db1da35a4b4fe3353df9cb22ee728038805f8f438e6"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-09-25T23:24:24.884Z"
+  }
 }
