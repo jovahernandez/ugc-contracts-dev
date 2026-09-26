@@ -3,7 +3,7 @@
   "declarationId": "24499344-02bd-4b20-8806-2a01cc3c3227",
   "token": "72edd406-560e-4651-9c7d-d4e2c7241935",
   "createdAt": "2026-09-26T00:17:02.747Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Francesca Niro Mondragon",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Francesca Niro Mondragon",
     "email": "francesca0509@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9e418adb7b8406e721defce5ee28e28bb96aa510a4666ba0e78eea14409b5b19",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-26T00:19:49.301Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/NIMF000905793",
+  "signatureMetadata": {
+    "ip": "189.217.90.119",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-26T00:19:52.666Z",
+    "signedAtLocal": "2026-09-25T18:19:52.666Z"
+  },
+  "documentHash": "40cbd9b7eb0c310fa7739af7609b5bed07f76aa8149b9ab3c882c577a9d8771a",
   "auditTrail": [
     {
       "eventId": "454490a4-af17-47ea-9a55-92f3bf1aafe5",
@@ -266,6 +274,49 @@
         "representante": "Francesca Niro Mondragon"
       },
       "eventHash": "2e30918b89e805b3d27538147722bed060f2cd4494021f8dc114588a608f255d"
+    },
+    {
+      "eventId": "7e24a5b9-eb65-49b4-8b78-ce4f27ccec7e",
+      "uid": "NIMF000905793",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-26T00:17:20.170Z",
+      "timestampLocal": "2026-09-26T00:17:20.170Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.90.119",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=NIMF000905793&nombre_proveedor_razon_social=Francesca+Niro+Mondragon&nombre_representante_legal=Francesca+Niro+Mondragon&email=francesca0509%40gmail.com",
+      "previousEventHash": "2e30918b89e805b3d27538147722bed060f2cd4494021f8dc114588a608f255d",
+      "documentHash": "9e418adb7b8406e721defce5ee28e28bb96aa510a4666ba0e78eea14409b5b19",
+      "eventHash": "d37ca3783519f921fce295cd1eda2ff3437e6c9b453082f25e9d99b7da57a015"
+    },
+    {
+      "eventId": "0be16139-59d1-4a30-9fc6-96e9eb2b85b1",
+      "uid": "NIMF000905793",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-26T00:19:52.666Z",
+      "timestampLocal": "2026-09-25T18:19:52.666Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.90.119",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/72edd406-560e-4651-9c7d-d4e2c7241935",
+      "previousEventHash": "d37ca3783519f921fce295cd1eda2ff3437e6c9b453082f25e9d99b7da57a015",
+      "documentHash": "40cbd9b7eb0c310fa7739af7609b5bed07f76aa8149b9ab3c882c577a9d8771a",
+      "signatureHash": "3591cd98e99dc0dd97703a4f51b9cea25504993988672397cfb999680f41fdd7",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-25T18:19:49.301Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "2ed6605705dc15ec5a6c03fcb86791825524290d4b27b8831cc71c5a76104ada"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 15,
+    "verifiedAt": "2026-09-26T00:19:53.032Z"
+  }
 }
