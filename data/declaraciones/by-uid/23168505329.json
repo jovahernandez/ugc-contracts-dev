@@ -3,8 +3,18 @@
   "declarationId": "b3593c4f-dc04-46e5-99f0-3071520702cc",
   "token": "4cdbcb70-d994-438b-8465-c1bfa06b4650",
   "createdAt": "2026-09-26T03:01:07.667Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "CLAUDIO DANIEL NUNEZ",
+    "nombre_representante_legal": "CLAUDIO DANIEL NUNEZ",
+    "email": "cdn@romanello.com.ar"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "CLAUDIO DANIEL NUNEZ",
+    "nombre_representante_legal": "CLAUDIO DANIEL NUNEZ",
+    "email": "cdn@romanello.com.ar"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "CLAUDIO DANIEL NUNEZ",
     "nombre_representante_legal": "CLAUDIO DANIEL NUNEZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d8265bbf5af4becbb3ffdd82d466afb0c99de306184264ff71b2c8898d4b66ac",
+  "auditTrail": [
+    {
+      "eventId": "6e9b3462-152d-4722-97fc-2cb9b2e2b790",
+      "uid": "23168505329",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-26T03:01:18.005Z",
+      "timestampLocal": "2026-09-26T03:01:18.005Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.169.37.151",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=23168505329&nombre_proveedor_razon_social=CLAUDIO+DANIEL+NUNEZ&nombre_representante_legal=CLAUDIO+DANIEL+NUNEZ&email=cdn%40romanello.com.ar",
+      "previousEventHash": null,
+      "documentHash": "d8265bbf5af4becbb3ffdd82d466afb0c99de306184264ff71b2c8898d4b66ac",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "83c260a0281bf0e2459d551466333b0507ad9bd5fea01d67982ea388942836f7"
+    },
+    {
+      "eventId": "0ad9e814-1b09-4bc3-a104-812b0fed4403",
+      "uid": "23168505329",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-26T03:01:18.005Z",
+      "timestampLocal": "2026-09-26T03:01:18.005Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.169.37.151",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=23168505329&nombre_proveedor_razon_social=CLAUDIO+DANIEL+NUNEZ&nombre_representante_legal=CLAUDIO+DANIEL+NUNEZ&email=cdn%40romanello.com.ar",
+      "previousEventHash": "83c260a0281bf0e2459d551466333b0507ad9bd5fea01d67982ea388942836f7",
+      "documentHash": "d8265bbf5af4becbb3ffdd82d466afb0c99de306184264ff71b2c8898d4b66ac",
+      "metadata": {
+        "proveedor": "CLAUDIO DANIEL NUNEZ",
+        "representante": "CLAUDIO DANIEL NUNEZ"
+      },
+      "eventHash": "ed5afbcfab7ed93f8c6940214c00266857b097738241f5e3f321e85007d0852e"
+    }
+  ]
 }
