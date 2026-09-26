@@ -3,8 +3,18 @@
   "declarationId": "51e536aa-570e-4623-a528-0a3a77889372",
   "token": "d23fba56-c4ad-4629-8e43-d691b3dfc9c6",
   "createdAt": "2026-09-26T04:04:19.251Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Mytzel Haydee Terrazas Zuñiga",
+    "nombre_representante_legal": "Mytzel Haydee Terrazas Zuñiga",
+    "email": "mytzelhtz@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Mytzel Haydee Terrazas Zuñiga",
+    "nombre_representante_legal": "Mytzel Haydee Terrazas Zuñiga",
+    "email": "mytzelhtz@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Mytzel Haydee Terrazas Zuñiga",
     "nombre_representante_legal": "Mytzel Haydee Terrazas Zuñiga",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "7dcbb28f5501586a381884f50d70c62b9b7c1ee8774e3cc230edfc39ac83700c",
+  "auditTrail": [
+    {
+      "eventId": "a342ad8e-5f03-42c7-b39a-b7bc3a679feb",
+      "uid": "TEZM900519NIA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-26T04:04:25.266Z",
+      "timestampLocal": "2026-09-26T04:04:25.266Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.9.61",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TEZM900519NIA&nombre_proveedor_razon_social=Mytzel+Haydee+Terrazas+Zu%C3%B1iga+&nombre_representante_legal=Mytzel+Haydee+Terrazas+Zu%C3%B1iga+&email=mytzelhtz%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "7dcbb28f5501586a381884f50d70c62b9b7c1ee8774e3cc230edfc39ac83700c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b2f1eeb88fa05c0ba94990f237193763fcde700785f3bf080b539126cff00748"
+    },
+    {
+      "eventId": "39ee6834-2283-4533-a3dd-6c1e2b89e7a2",
+      "uid": "TEZM900519NIA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-26T04:04:25.266Z",
+      "timestampLocal": "2026-09-26T04:04:25.266Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.9.61",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TEZM900519NIA&nombre_proveedor_razon_social=Mytzel+Haydee+Terrazas+Zu%C3%B1iga+&nombre_representante_legal=Mytzel+Haydee+Terrazas+Zu%C3%B1iga+&email=mytzelhtz%40gmail.com",
+      "previousEventHash": "b2f1eeb88fa05c0ba94990f237193763fcde700785f3bf080b539126cff00748",
+      "documentHash": "7dcbb28f5501586a381884f50d70c62b9b7c1ee8774e3cc230edfc39ac83700c",
+      "metadata": {
+        "proveedor": "Mytzel Haydee Terrazas Zuñiga",
+        "representante": "Mytzel Haydee Terrazas Zuñiga"
+      },
+      "eventHash": "bd2d6e643958626bea69a4c851333ad47ebd9678766aa87b56aa7757bef1b368"
+    }
+  ]
 }
