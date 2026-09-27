@@ -3,8 +3,18 @@
   "declarationId": "78438d2e-0d46-4aff-a8be-70be2fc9bfdb",
   "token": "82d85ffd-61a9-4441-9cc0-20001f4b6088",
   "createdAt": "2026-09-27T04:35:32.854Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Delfin Barquero",
+    "nombre_representante_legal": "Delfin Barquero",
+    "email": "drbarquero@delfinbarquero.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Delfin Barquero",
+    "nombre_representante_legal": "Delfin Barquero",
+    "email": "drbarquero@delfinbarquero.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Delfin Barquero",
     "nombre_representante_legal": "Delfin Barquero",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "b4e63a46c7fc33d434eb154f42499cb77f26f11c0857dd40982b680b5efdb4b9",
+  "auditTrail": [
+    {
+      "eventId": "d4918e7c-b68d-4c2c-8ac2-fa990014b553",
+      "uid": "110020408",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-27T04:35:41.641Z",
+      "timestampLocal": "2026-09-27T04:35:41.641Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.206.191.134",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,es-419;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=110020408&nombre_proveedor_razon_social=Delfin+Barquero&nombre_representante_legal=Delfin+Barquero&email=drbarquero%40delfinbarquero.com",
+      "previousEventHash": null,
+      "documentHash": "b4e63a46c7fc33d434eb154f42499cb77f26f11c0857dd40982b680b5efdb4b9",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1ca103178ab29eab07278531e4b5587ebc4be7aba5346e0422eb062edb2fb843"
+    },
+    {
+      "eventId": "b949e2fc-af68-4250-9e78-bfedced1eafa",
+      "uid": "110020408",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-27T04:35:41.641Z",
+      "timestampLocal": "2026-09-27T04:35:41.641Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.206.191.134",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8,es-419;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=110020408&nombre_proveedor_razon_social=Delfin+Barquero&nombre_representante_legal=Delfin+Barquero&email=drbarquero%40delfinbarquero.com",
+      "previousEventHash": "1ca103178ab29eab07278531e4b5587ebc4be7aba5346e0422eb062edb2fb843",
+      "documentHash": "b4e63a46c7fc33d434eb154f42499cb77f26f11c0857dd40982b680b5efdb4b9",
+      "metadata": {
+        "proveedor": "Delfin Barquero",
+        "representante": "Delfin Barquero"
+      },
+      "eventHash": "9fc6f25b59bdfd57c0c5b4c5403f31d2d26344be03d739c163949064ee7aa7ca"
+    }
+  ]
 }
