@@ -3,7 +3,7 @@
   "declarationId": "10d08245-cab3-4549-ba7a-27615a429f08",
   "token": "ec3f2796-806b-48b7-821b-c4578f06739b",
   "createdAt": "2026-09-27T00:26:11.427Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "LUIS EDUARDO LIMÓN LÓPEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Luis Eduardo Limón López",
     "email": "eduardo@acento.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "afcb34b245482c2d137b04a1bc72aa17aa2c07f969b08fa70d774f3073f6ecdc",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-27T00:27:16.832Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LILL900601B21",
+  "signatureMetadata": {
+    "ip": "189.217.86.253",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-27T00:27:20.194Z",
+    "signedAtLocal": "2026-09-26T18:27:20.194Z"
+  },
+  "documentHash": "088655621aa3b7c5147078b5071e91df34b09a3b60920d66ddc49d82a2d340df",
   "auditTrail": [
     {
       "eventId": "074bf777-7267-4c7c-91c5-e20051a83606",
@@ -66,6 +74,49 @@
         "representante": "Luis Eduardo Limón López"
       },
       "eventHash": "048c3e57e773ce9e8a9c18336c1a32fc95cb6b7ccd919b0640b6fa7a0ccd58e5"
+    },
+    {
+      "eventId": "824c81cb-37e2-46b4-b4b2-6d60dcc91591",
+      "uid": "LILL900601B21",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-27T00:26:20.600Z",
+      "timestampLocal": "2026-09-27T00:26:20.600Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.86.253",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LILL900601B21&nombre_proveedor_razon_social=LUIS+EDUARDO+LIM%C3%93N+L%C3%93PEZ&nombre_representante_legal=Luis+Eduardo+Lim%C3%B3n+L%C3%B3pez&email=eduardo%40acento.mx",
+      "previousEventHash": "048c3e57e773ce9e8a9c18336c1a32fc95cb6b7ccd919b0640b6fa7a0ccd58e5",
+      "documentHash": "afcb34b245482c2d137b04a1bc72aa17aa2c07f969b08fa70d774f3073f6ecdc",
+      "eventHash": "239b3c497535d87d597ee122a6f64db56740051692a46ecf7ddb3ee156ad1102"
+    },
+    {
+      "eventId": "21105f58-f3fe-4159-b99e-66e654f2bdfc",
+      "uid": "LILL900601B21",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-27T00:27:20.194Z",
+      "timestampLocal": "2026-09-26T18:27:20.194Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.86.253",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ec3f2796-806b-48b7-821b-c4578f06739b",
+      "previousEventHash": "239b3c497535d87d597ee122a6f64db56740051692a46ecf7ddb3ee156ad1102",
+      "documentHash": "088655621aa3b7c5147078b5071e91df34b09a3b60920d66ddc49d82a2d340df",
+      "signatureHash": "cc8745cceecdc3f9434e78c7cfbdc312ee31c2b9bbdd88f2a8a2356b2c7cbb9e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-26T18:27:16.832Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "f7bc9695095e1b1f59959eb812f8a3e374e4f0b2bc3629fd73a7a60792492554"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-27T00:27:20.346Z"
+  }
 }
