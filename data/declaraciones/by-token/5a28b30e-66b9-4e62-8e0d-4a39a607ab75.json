@@ -3,8 +3,18 @@
   "declarationId": "94f2b47e-0432-4ae4-ab88-114a4e697699",
   "token": "5a28b30e-66b9-4e62-8e0d-4a39a607ab75",
   "createdAt": "2026-09-28T04:43:43.566Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JAMES WILLIAM FALLAS VEGA",
+    "nombre_representante_legal": "JAMES WILLIAM FALLAS VEGA",
+    "email": "cortoclic@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JAMES WILLIAM FALLAS VEGA",
+    "nombre_representante_legal": "JAMES WILLIAM FALLAS VEGA",
+    "email": "cortoclic@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "JAMES WILLIAM FALLAS VEGA",
     "nombre_representante_legal": "JAMES WILLIAM FALLAS VEGA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "e26b21e6445d44ce162bd4ad679308f9ca989005211d49ba7fc40c7ed1acdb69",
+  "auditTrail": [
+    {
+      "eventId": "30c2a50c-e4f8-49d1-83e5-2e9c2ebeb84c",
+      "uid": "1405184748895",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-28T04:43:51.981Z",
+      "timestampLocal": "2026-09-28T04:43:51.981Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.210.166.171",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "e26b21e6445d44ce162bd4ad679308f9ca989005211d49ba7fc40c7ed1acdb69",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "868feec9b0b2d553e81092973d37a15231fc1a45c7d02669cfbd8e1f2f057794"
+    },
+    {
+      "eventId": "c49c6695-2f3e-44fb-acff-5765dd3be3a8",
+      "uid": "1405184748895",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-28T04:43:51.981Z",
+      "timestampLocal": "2026-09-28T04:43:51.981Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.210.166.171",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "868feec9b0b2d553e81092973d37a15231fc1a45c7d02669cfbd8e1f2f057794",
+      "documentHash": "e26b21e6445d44ce162bd4ad679308f9ca989005211d49ba7fc40c7ed1acdb69",
+      "metadata": {
+        "proveedor": "JAMES WILLIAM FALLAS VEGA",
+        "representante": "JAMES WILLIAM FALLAS VEGA"
+      },
+      "eventHash": "27c3c838d7b09c2f3ab346ea92251da9b2fd281f243622a272e1022119c47aea"
+    }
+  ]
 }
