@@ -3,8 +3,18 @@
   "declarationId": "dfbf746b-0267-407c-b41f-e52170e74b00",
   "token": "a008e5c2-43a5-454c-ab92-086bcbbc382c",
   "createdAt": "2026-09-28T17:20:15.316Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "5M2 AIRPORTS SA DE CV",
+    "nombre_representante_legal": "EKATERINA COLIN MONEDA",
+    "email": "facturacion@grupoexpansion.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "5M2 AIRPORTS SA DE CV",
+    "nombre_representante_legal": "EKATERINA COLIN MONEDA",
+    "email": "facturacion@grupoexpansion.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "5M2 AIRPORTS SA DE CV",
     "nombre_representante_legal": "EKATERINA COLIN MONEDA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a543aa16b77659c4d464147689b9c34f4e8097e8c51730eb82431ca715c60cec",
+  "auditTrail": [
+    {
+      "eventId": "5146cae2-dfb8-401c-8042-093f2f474efe",
+      "uid": "MAI181009ER5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-28T17:20:31.002Z",
+      "timestampLocal": "2026-09-28T17:20:31.002Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.131.117.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAI181009ER5&nombre_proveedor_razon_social=5M2+AIRPORTS+SA+DE+CV&nombre_representante_legal=EKATERINA+COLIN+MONEDA&email=facturacion%40grupoexpansion.com",
+      "previousEventHash": null,
+      "documentHash": "a543aa16b77659c4d464147689b9c34f4e8097e8c51730eb82431ca715c60cec",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4befbca7a559d8ef517142027ccff0c0a3e63c940446195f4d397051ea88e86f"
+    },
+    {
+      "eventId": "047e580c-d39a-4821-b3c9-70bdbd45b8f0",
+      "uid": "MAI181009ER5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-28T17:20:31.002Z",
+      "timestampLocal": "2026-09-28T17:20:31.002Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.131.117.10",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAI181009ER5&nombre_proveedor_razon_social=5M2+AIRPORTS+SA+DE+CV&nombre_representante_legal=EKATERINA+COLIN+MONEDA&email=facturacion%40grupoexpansion.com",
+      "previousEventHash": "4befbca7a559d8ef517142027ccff0c0a3e63c940446195f4d397051ea88e86f",
+      "documentHash": "a543aa16b77659c4d464147689b9c34f4e8097e8c51730eb82431ca715c60cec",
+      "metadata": {
+        "proveedor": "5M2 AIRPORTS SA DE CV",
+        "representante": "EKATERINA COLIN MONEDA"
+      },
+      "eventHash": "a7590f09cc026f3d1da52656da1cfa88387c94a0845ebb5b11255d2aef3bff41"
+    }
+  ]
 }
