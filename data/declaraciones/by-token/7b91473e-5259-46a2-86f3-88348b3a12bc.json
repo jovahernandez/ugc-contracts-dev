@@ -3,8 +3,18 @@
   "declarationId": "0ee0853b-138f-48a5-9b42-38060bcadc4c",
   "token": "7b91473e-5259-46a2-86f3-88348b3a12bc",
   "createdAt": "2026-09-28T19:03:54.488Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PAUTA MEXICO SA DE CV",
+    "nombre_representante_legal": "MARIO VICENTE CARCAÑO CONTRERAS",
+    "email": "administracion@pautaglobal.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PAUTA MEXICO SA DE CV",
+    "nombre_representante_legal": "MARIO VICENTE CARCAÑO CONTRERAS",
+    "email": "administracion@pautaglobal.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "PAUTA MEXICO SA DE CV",
     "nombre_representante_legal": "MARIO VICENTE CARCAÑO CONTRERAS",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "0d2458476e985201cd1abb869aab07a0d2dea192b569431660d09441b8b66a94",
+  "auditTrail": [
+    {
+      "eventId": "20b73114-289e-4e68-bb3c-5b6226d61c36",
+      "uid": "PME160525TU8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-28T19:04:04.322Z",
+      "timestampLocal": "2026-09-28T19:04:04.322Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.52.94.166",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PME160525TU8&nombre_proveedor_razon_social=PAUTA+MEXICO+SA+DE+CV&nombre_representante_legal=MARIO+VICENTE+CARCA%C3%91O+CONTRERAS&email=administracion%40pautaglobal.mx",
+      "previousEventHash": null,
+      "documentHash": "0d2458476e985201cd1abb869aab07a0d2dea192b569431660d09441b8b66a94",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "19600c60015d0205e348e74a05b3ee8faf4c33a22ebbdaa2b96da7f111de2dd7"
+    },
+    {
+      "eventId": "c1ef3f9c-cce8-477a-b29b-b25ef20989bc",
+      "uid": "PME160525TU8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-28T19:04:04.322Z",
+      "timestampLocal": "2026-09-28T19:04:04.322Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.52.94.166",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PME160525TU8&nombre_proveedor_razon_social=PAUTA+MEXICO+SA+DE+CV&nombre_representante_legal=MARIO+VICENTE+CARCA%C3%91O+CONTRERAS&email=administracion%40pautaglobal.mx",
+      "previousEventHash": "19600c60015d0205e348e74a05b3ee8faf4c33a22ebbdaa2b96da7f111de2dd7",
+      "documentHash": "0d2458476e985201cd1abb869aab07a0d2dea192b569431660d09441b8b66a94",
+      "metadata": {
+        "proveedor": "PAUTA MEXICO SA DE CV",
+        "representante": "MARIO VICENTE CARCAÑO CONTRERAS"
+      },
+      "eventHash": "1d34fb55095e726aa5c499e0f1780de8f0553c305ca9f69a8a97dc0cff5300c2"
+    }
+  ]
 }
