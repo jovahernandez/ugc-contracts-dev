@@ -3,8 +3,18 @@
   "declarationId": "2b79bb98-039c-4e01-9e8e-931eb9667abd",
   "token": "ee616443-c28c-46e2-8bd7-2b76eda84245",
   "createdAt": "2026-09-28T20:05:37.198Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "CIAS PERIODISTICAS DEL SOL DEL PACIFICO",
+    "nombre_representante_legal": "RAFAEL SEBASTIAN GIL ROBLES",
+    "email": "mballesteros@lavozdelafrontera.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "CIAS PERIODISTICAS DEL SOL DEL PACIFICO",
+    "nombre_representante_legal": "RAFAEL SEBASTIAN GIL ROBLES",
+    "email": "mballesteros@lavozdelafrontera.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "CIAS PERIODISTICAS DEL SOL DEL PACIFICO",
     "nombre_representante_legal": "RAFAEL SEBASTIAN GIL ROBLES",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "bc571f0d95ee67578b397fadae58cd2c1cdb45ea4530b178a43a6e3d50cd0c7a",
+  "auditTrail": [
+    {
+      "eventId": "7e260fa5-6ada-4650-8a5d-5acf4c3cea5f",
+      "uid": "CPS7907264F9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-28T20:05:46.692Z",
+      "timestampLocal": "2026-09-28T20:05:46.692Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.246.138",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CPS7907264F9&nombre_proveedor_razon_social=CIAS+PERIODISTICAS+DEL+SOL+DEL+PACIFICO&nombre_representante_legal=RAFAEL+SEBASTIAN+GIL+ROBLES&email=mballesteros%40lavozdelafrontera.com.mx",
+      "previousEventHash": null,
+      "documentHash": "bc571f0d95ee67578b397fadae58cd2c1cdb45ea4530b178a43a6e3d50cd0c7a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "fe63348eb20765590204448734b064e58a494eae0324736130df25014c8b43c8"
+    },
+    {
+      "eventId": "27b3d5da-8c7f-4b9b-bee1-7d8b01a01e53",
+      "uid": "CPS7907264F9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-28T20:05:46.692Z",
+      "timestampLocal": "2026-09-28T20:05:46.692Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.246.138",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CPS7907264F9&nombre_proveedor_razon_social=CIAS+PERIODISTICAS+DEL+SOL+DEL+PACIFICO&nombre_representante_legal=RAFAEL+SEBASTIAN+GIL+ROBLES&email=mballesteros%40lavozdelafrontera.com.mx",
+      "previousEventHash": "fe63348eb20765590204448734b064e58a494eae0324736130df25014c8b43c8",
+      "documentHash": "bc571f0d95ee67578b397fadae58cd2c1cdb45ea4530b178a43a6e3d50cd0c7a",
+      "metadata": {
+        "proveedor": "CIAS PERIODISTICAS DEL SOL DEL PACIFICO",
+        "representante": "RAFAEL SEBASTIAN GIL ROBLES"
+      },
+      "eventHash": "4f911da7d742191d9a2ef1fdc9437a89485e3812ad874927a3377fa4efea4119"
+    }
+  ]
 }
