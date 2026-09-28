@@ -3,7 +3,7 @@
   "declarationId": "99933a87-7bd8-4a45-848b-721299919eac",
   "token": "0942c785-bb7c-4e4e-8fd7-3732d9dc08bb",
   "createdAt": "2026-09-28T02:53:49.551Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "NVN SOLUTIONS SA DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "MIGUEL ANGEL ORTEGA MARTINEZ",
     "email": "mortega.kyocera@nvnsolutions.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1840cea17b645ac75e22d90bba312c7efe0b08a710fe6943f105c8e16ffb7fb5",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-28T02:54:58.871Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/NSO161107JP7",
+  "signatureMetadata": {
+    "ip": "189.217.86.247",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-28T02:55:02.231Z",
+    "signedAtLocal": "2026-09-27T20:55:02.231Z"
+  },
+  "documentHash": "1e8b48efba499b7294a12986e9323c76ceacbc7bd470d942cc3994f3c32ff126",
   "auditTrail": [
     {
       "eventId": "7362e301-2e7b-4e12-9bbd-8f95bd3e6777",
@@ -66,6 +74,49 @@
         "representante": "MIGUEL ANGEL ORTEGA MARTINEZ"
       },
       "eventHash": "46039840f77076b7b4a09b527e6bc134733fb6347f6f92319d8eabde58b1d07e"
+    },
+    {
+      "eventId": "9b26f023-ba09-4ec1-8c03-bde86da74619",
+      "uid": "NSO161107JP7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T02:54:02.185Z",
+      "timestampLocal": "2026-09-28T02:54:02.185Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.86.247",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=NSO161107JP7&nombre_proveedor_razon_social=NVN+SOLUTIONS+SA+DE+CV&nombre_representante_legal=MIGUEL+ANGEL+ORTEGA+MARTINEZ&email=mortega.kyocera%40nvnsolutions.com.mx",
+      "previousEventHash": "46039840f77076b7b4a09b527e6bc134733fb6347f6f92319d8eabde58b1d07e",
+      "documentHash": "1840cea17b645ac75e22d90bba312c7efe0b08a710fe6943f105c8e16ffb7fb5",
+      "eventHash": "44492481bb1224b85e044aa4e49f5e05f7f4324a861239b1dad6cc4180f52c1e"
+    },
+    {
+      "eventId": "d38d9c0d-ba66-40ca-8ecd-5c91779ff0df",
+      "uid": "NSO161107JP7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-28T02:55:02.231Z",
+      "timestampLocal": "2026-09-27T20:55:02.231Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.86.247",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/0942c785-bb7c-4e4e-8fd7-3732d9dc08bb",
+      "previousEventHash": "44492481bb1224b85e044aa4e49f5e05f7f4324a861239b1dad6cc4180f52c1e",
+      "documentHash": "1e8b48efba499b7294a12986e9323c76ceacbc7bd470d942cc3994f3c32ff126",
+      "signatureHash": "52df5069554179240eab3ffcc4d07ea144d2a34a941955136111c838c29f07c5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-27T20:54:58.871Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "ff6cef2c275030c76320261d6ee5ecae24d96c0ae9ac9bf7eacab720db42f2f7"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-28T02:55:02.402Z"
+  }
 }
