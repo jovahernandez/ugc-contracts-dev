@@ -3,7 +3,7 @@
   "declarationId": "5a1a4aa4-9748-4ead-af30-23105936eb7c",
   "token": "2c24c0dd-c629-4d00-b2bc-4ab6b94a9baf",
   "createdAt": "2026-09-28T22:46:05.372Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "en",
   "proveedor": {
     "nombre_proveedor_razon_social": "CASA BELLA GROUP BRASIL LTDA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Lizet Alonso",
     "email": "roberto.espinosa@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "52e2740336cea85d6e4ad9f576dbaad051a0504e52e4a40549fde65e1b80ab7c",
+  "personaAutorizada": null,
+  "signedAt": "2026-09-28T22:46:38.948Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/18.142.074%2F0001-28",
+  "signatureMetadata": {
+    "ip": "187.190.187.122",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-28T22:46:42.814Z",
+    "signedAtLocal": "2026-09-28T16:46:42.814Z"
+  },
+  "documentHash": "e531d841e46fbc3cd1b6a7f962f04a64dacebb9c4c1216fce21f94eadce533b5",
   "auditTrail": [
     {
       "eventId": "33f094b7-1624-4117-919c-5d378eff3ee6",
@@ -340,6 +346,47 @@
         "representante": "Lizet Alonso"
       },
       "eventHash": "15005e23290336cc5597dc3919689b084b601c4c8657cac919a71ff83e3231c6"
+    },
+    {
+      "eventId": "f3ee684f-f527-4408-bc42-4687366ab3e1",
+      "uid": "18.142.074/0001-28",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T22:46:24.402Z",
+      "timestampLocal": "2026-09-28T22:46:24.402Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.187.122",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8,it-IT;q=0.7,it;q=0.6",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?email=roberto.espinosa%40another.co&nombre_proveedor_razon_social=CASA+BELLA+GROUP+BRASIL+LTDA&nombre_representante_legal=Lizet+Alonso+&uid=18.142.074%2F0001-28",
+      "previousEventHash": "15005e23290336cc5597dc3919689b084b601c4c8657cac919a71ff83e3231c6",
+      "documentHash": "52e2740336cea85d6e4ad9f576dbaad051a0504e52e4a40549fde65e1b80ab7c",
+      "eventHash": "38895a88b9f238ac935bff7ce72f99361dc24a0b8808a7c454e05d4fc75eb439"
+    },
+    {
+      "eventId": "08f48b02-ccc5-4604-813d-a57ce25ee27b",
+      "uid": "18.142.074/0001-28",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-28T22:46:42.814Z",
+      "timestampLocal": "2026-09-28T16:46:42.814Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.187.122",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8,it-IT;q=0.7,it;q=0.6",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/2c24c0dd-c629-4d00-b2bc-4ab6b94a9baf",
+      "previousEventHash": "38895a88b9f238ac935bff7ce72f99361dc24a0b8808a7c454e05d4fc75eb439",
+      "documentHash": "e531d841e46fbc3cd1b6a7f962f04a64dacebb9c4c1216fce21f94eadce533b5",
+      "signatureHash": "935e28a4489d766f7735bd101e4892a8fe1809ac3ef60da30cf5ec1a9c328d14",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-28T16:46:38.948Z"
+      },
+      "eventHash": "ffa2009a49e87195001e771d77d6d73fa5d8661ba424b39384a33fb40c54e931"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 19,
+    "verifiedAt": "2026-09-28T22:46:42.994Z"
+  }
 }
