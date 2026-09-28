@@ -3,8 +3,18 @@
   "declarationId": "a2a75f0f-dddc-4021-aa81-e9ed8808b791",
   "token": "b94195e7-23f3-4627-ab68-9bf774d2e913",
   "createdAt": "2026-09-28T23:56:32.439Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ANTONIO PEREZ IRAGORRI",
+    "nombre_representante_legal": "Antonio Perez Iragorri",
+    "email": "antonio@a.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ANTONIO PEREZ IRAGORRI",
+    "nombre_representante_legal": "Antonio Perez Iragorri",
+    "email": "antonio@a.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ANTONIO PEREZ IRAGORRI",
     "nombre_representante_legal": "Antonio Perez Iragorri",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "3c58ae27d49d2588103ec060da528b41c02b68043f70445f24977d3a357a4f70",
+  "auditTrail": [
+    {
+      "eventId": "0530d92f-e020-41be-bca2-5906f41a1497",
+      "uid": "PEIA631224342",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-28T23:56:40.910Z",
+      "timestampLocal": "2026-09-28T23:56:40.910Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.107.195",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PEIA631224342&nombre_proveedor_razon_social=ANTONIO+PEREZ+IRAGORRI&nombre_representante_legal=Antonio+Perez+Iragorri&email=antonio%40a.com.mx",
+      "previousEventHash": null,
+      "documentHash": "3c58ae27d49d2588103ec060da528b41c02b68043f70445f24977d3a357a4f70",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "dbd57d7e57349161030626f3ae6b073eaf69bdccd034519c81570376f860ba2a"
+    },
+    {
+      "eventId": "ffc01d6f-af8b-41b8-8083-e354e858f4aa",
+      "uid": "PEIA631224342",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-28T23:56:40.910Z",
+      "timestampLocal": "2026-09-28T23:56:40.910Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.107.195",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PEIA631224342&nombre_proveedor_razon_social=ANTONIO+PEREZ+IRAGORRI&nombre_representante_legal=Antonio+Perez+Iragorri&email=antonio%40a.com.mx",
+      "previousEventHash": "dbd57d7e57349161030626f3ae6b073eaf69bdccd034519c81570376f860ba2a",
+      "documentHash": "3c58ae27d49d2588103ec060da528b41c02b68043f70445f24977d3a357a4f70",
+      "metadata": {
+        "proveedor": "ANTONIO PEREZ IRAGORRI",
+        "representante": "Antonio Perez Iragorri"
+      },
+      "eventHash": "b05572e5d13542868576dbf3c821812da50e3d07b218e934daea8fcbe072693c"
+    }
+  ]
 }
