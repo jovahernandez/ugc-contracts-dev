@@ -3,8 +3,18 @@
   "declarationId": "f27d9045-b751-40a6-b366-a1bf26214b1c",
   "token": "1c6edef5-f1f6-4068-9dcc-e9f323c411c1",
   "createdAt": "2026-09-28T21:08:21.280Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "DIARIO LA EXPRESION",
+    "nombre_representante_legal": "RAFAEL SEBASTIAN GIL ROBLES",
+    "email": "mballesteros@lavozdelafrontera.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "DIARIO LA EXPRESION",
+    "nombre_representante_legal": "RAFAEL SEBASTIAN GIL ROBLES",
+    "email": "mballesteros@lavozdelafrontera.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "DIARIO LA EXPRESION",
     "nombre_representante_legal": "RAFAEL SEBASTIAN GIL ROBLES",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "40e65a66fa87d31514e8cc4ba675e3fdc05ddbb3f71941b990188982f7398a54",
+  "auditTrail": [
+    {
+      "eventId": "9c36157d-4068-4dee-beb2-b54258ea1f72",
+      "uid": "DEX940330BT5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-28T21:08:27.980Z",
+      "timestampLocal": "2026-09-28T21:08:27.980Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.246.138",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DEX940330BT5&nombre_proveedor_razon_social=DIARIO+LA+EXPRESION&nombre_representante_legal=RAFAEL+SEBASTIAN+GIL+ROBLES&email=mballesteros%40lavozdelafrontera.com.mx",
+      "previousEventHash": null,
+      "documentHash": "40e65a66fa87d31514e8cc4ba675e3fdc05ddbb3f71941b990188982f7398a54",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "97d3858ca5907983ea274ef945e72e1807dfeb3585b9277b5dacacadd1ea9e7e"
+    },
+    {
+      "eventId": "ae51159c-d24f-46fd-9ce2-b062a114061d",
+      "uid": "DEX940330BT5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-28T21:08:27.980Z",
+      "timestampLocal": "2026-09-28T21:08:27.980Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.246.138",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DEX940330BT5&nombre_proveedor_razon_social=DIARIO+LA+EXPRESION&nombre_representante_legal=RAFAEL+SEBASTIAN+GIL+ROBLES&email=mballesteros%40lavozdelafrontera.com.mx",
+      "previousEventHash": "97d3858ca5907983ea274ef945e72e1807dfeb3585b9277b5dacacadd1ea9e7e",
+      "documentHash": "40e65a66fa87d31514e8cc4ba675e3fdc05ddbb3f71941b990188982f7398a54",
+      "metadata": {
+        "proveedor": "DIARIO LA EXPRESION",
+        "representante": "RAFAEL SEBASTIAN GIL ROBLES"
+      },
+      "eventHash": "8360779f038b0f366c6c1a8cf74f9d21e8261c5ffcd6212f17116e27f140f420"
+    }
+  ]
 }
