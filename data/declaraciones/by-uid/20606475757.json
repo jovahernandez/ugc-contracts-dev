@@ -3,7 +3,7 @@
   "declarationId": "95440848-deb9-469d-827f-82b8a2ccd067",
   "token": "b2eb9e8f-eccb-4695-bde3-e29262ba247d",
   "createdAt": "2026-09-01T19:43:56.129Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MAINFRAME SAC",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Phillip Chu Joy Lanat",
     "email": "administracion@pchujoy.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "42ded7f7c3c75f83be1dc4cca82588160a500593c0af4dbeb952ee8008751842",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-28T20:17:15.450Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20606475757",
+  "signatureMetadata": {
+    "ip": "161.132.66.49",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-28T20:17:18.875Z",
+    "signedAtLocal": "2026-09-28T15:17:18.875Z"
+  },
+  "documentHash": "6784739408d978dba30b9f5c6e0f0689b8caf6eb60fda451f2d513ab095b24bc",
   "auditTrail": [
     {
       "eventId": "1a2e6fae-b32d-4078-a163-24a3ebe38a59",
@@ -103,6 +111,124 @@
         "representante": "Phillip Chu Joy Lanat"
       },
       "eventHash": "58b72eeae78e899b78d3632c9699302e2e778630418f817e74761b805ee78a8a"
+    },
+    {
+      "eventId": "b711e2fb-7e99-46de-a3d0-7163e40c3423",
+      "uid": "20606475757",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-01T19:44:15.649Z",
+      "timestampLocal": "2026-09-01T19:44:15.649Z",
+      "timezone": "UTC+0",
+      "ipAddress": "161.132.66.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?email=administracion%40pchujoy.com&nombre_proveedor_razon_social=MAINFRAME+SAC&nombre_representante_legal=Phillip+Chu+Joy+Lanat&uid=20606475757",
+      "previousEventHash": "58b72eeae78e899b78d3632c9699302e2e778630418f817e74761b805ee78a8a",
+      "documentHash": "42ded7f7c3c75f83be1dc4cca82588160a500593c0af4dbeb952ee8008751842",
+      "eventHash": "bc451e6997291e892b3072513344da6179d699a5775af74bf353f8adecaf2097"
+    },
+    {
+      "eventId": "40a26f02-66e2-4913-afe6-7e237284caa6",
+      "uid": "20606475757",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-18T19:54:06.054Z",
+      "timestampLocal": "2026-09-18T19:54:06.054Z",
+      "timezone": "UTC+0",
+      "ipAddress": "161.132.66.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "bc451e6997291e892b3072513344da6179d699a5775af74bf353f8adecaf2097",
+      "documentHash": "42ded7f7c3c75f83be1dc4cca82588160a500593c0af4dbeb952ee8008751842",
+      "eventHash": "701762933a8ec6d8f03745a880d757c7870668628dbcb5faf774acb67a8fb339"
+    },
+    {
+      "eventId": "755e79dd-5028-4c30-8493-abde15183ec8",
+      "uid": "20606475757",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-18T19:58:12.214Z",
+      "timestampLocal": "2026-09-18T19:58:12.214Z",
+      "timezone": "UTC+0",
+      "ipAddress": "161.132.66.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "701762933a8ec6d8f03745a880d757c7870668628dbcb5faf774acb67a8fb339",
+      "documentHash": "42ded7f7c3c75f83be1dc4cca82588160a500593c0af4dbeb952ee8008751842",
+      "eventHash": "6571d051b804f1d4a52e44d778729e3e580e8e8fade39a8779ff800968372ffd"
+    },
+    {
+      "eventId": "85ed4c14-94f1-43b9-bf3a-59e589dffea1",
+      "uid": "20606475757",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-18T20:00:15.366Z",
+      "timestampLocal": "2026-09-18T20:00:15.366Z",
+      "timezone": "UTC+0",
+      "ipAddress": "161.132.66.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "6571d051b804f1d4a52e44d778729e3e580e8e8fade39a8779ff800968372ffd",
+      "documentHash": "42ded7f7c3c75f83be1dc4cca82588160a500593c0af4dbeb952ee8008751842",
+      "eventHash": "36b2af4cec9ce4c20271301786d0910f30176c9ae3b6957fa89954a25f0444db"
+    },
+    {
+      "eventId": "8359a428-0ba5-47ac-b4fe-5bdc9abda558",
+      "uid": "20606475757",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T14:39:09.397Z",
+      "timestampLocal": "2026-09-28T14:39:09.397Z",
+      "timezone": "UTC+0",
+      "ipAddress": "161.132.66.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "36b2af4cec9ce4c20271301786d0910f30176c9ae3b6957fa89954a25f0444db",
+      "documentHash": "42ded7f7c3c75f83be1dc4cca82588160a500593c0af4dbeb952ee8008751842",
+      "eventHash": "56497d5b6a948ea3ffcf6c4b7740b04e54942db83c4ce096488e4d251e4240a2"
+    },
+    {
+      "eventId": "0badfe5a-2887-475a-9896-38c449f75d32",
+      "uid": "20606475757",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T20:09:27.973Z",
+      "timestampLocal": "2026-09-28T20:09:27.973Z",
+      "timezone": "UTC+0",
+      "ipAddress": "161.132.66.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "56497d5b6a948ea3ffcf6c4b7740b04e54942db83c4ce096488e4d251e4240a2",
+      "documentHash": "42ded7f7c3c75f83be1dc4cca82588160a500593c0af4dbeb952ee8008751842",
+      "eventHash": "d4fba8a8418d0ead78b200426fdbf59ec1e055c6bf3221a85d84b52d7457cbd1"
+    },
+    {
+      "eventId": "58a12345-c413-401b-a630-3eae39b8312a",
+      "uid": "20606475757",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-28T20:17:18.875Z",
+      "timestampLocal": "2026-09-28T15:17:18.875Z",
+      "timezone": "UTC-5",
+      "ipAddress": "161.132.66.49",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b2eb9e8f-eccb-4695-bde3-e29262ba247d",
+      "previousEventHash": "d4fba8a8418d0ead78b200426fdbf59ec1e055c6bf3221a85d84b52d7457cbd1",
+      "documentHash": "6784739408d978dba30b9f5c6e0f0689b8caf6eb60fda451f2d513ab095b24bc",
+      "signatureHash": "e8008b53167f37ee52897e5398cf1dcfc7c0c6d1ab6da28c2bfe932fe3753db9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-28T15:17:15.450Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "0c898df3f07f516882aa95fd16e433d97f1ced1d725c717bdf24ac2e07336fb7"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-09-28T20:17:19.121Z"
+  }
 }
