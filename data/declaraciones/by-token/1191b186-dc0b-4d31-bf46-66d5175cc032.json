@@ -3,8 +3,18 @@
   "declarationId": "101669df-e42a-4291-8433-c8aab4f931eb",
   "token": "1191b186-dc0b-4d31-bf46-66d5175cc032",
   "createdAt": "2026-09-28T11:55:02.361Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "BULL MEDIA GROUP SRL",
+    "nombre_representante_legal": "BULL MEDIA GROUP SRL",
+    "email": "administracion@bullmg.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "BULL MEDIA GROUP SRL",
+    "nombre_representante_legal": "BULL MEDIA GROUP SRL",
+    "email": "administracion@bullmg.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "BULL MEDIA GROUP SRL",
     "nombre_representante_legal": "BULL MEDIA GROUP SRL",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "611f99c4e4938b506930aec4bdf29d15e1c3fdb5a815a122961e0a3929713ebc",
+  "auditTrail": [
+    {
+      "eventId": "a80aba2a-dbf6-4eb0-a061-7566e51decb2",
+      "uid": "30715233971",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-28T11:55:18.770Z",
+      "timestampLocal": "2026-09-28T11:55:18.770Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.226.181.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=30715233971&nombre_proveedor_razon_social=BULL+MEDIA+GROUP+SRL&nombre_representante_legal=BULL+MEDIA+GROUP+SRL&email=administracion%40bullmg.com",
+      "previousEventHash": null,
+      "documentHash": "611f99c4e4938b506930aec4bdf29d15e1c3fdb5a815a122961e0a3929713ebc",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cbb12956a00564faa1481d5b27fd391693b6bc8633db627ff1232d2ba202cbef"
+    },
+    {
+      "eventId": "c2be7d3d-1d0b-4726-9d93-35f63b42a2bf",
+      "uid": "30715233971",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-28T11:55:18.770Z",
+      "timestampLocal": "2026-09-28T11:55:18.770Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.226.181.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=30715233971&nombre_proveedor_razon_social=BULL+MEDIA+GROUP+SRL&nombre_representante_legal=BULL+MEDIA+GROUP+SRL&email=administracion%40bullmg.com",
+      "previousEventHash": "cbb12956a00564faa1481d5b27fd391693b6bc8633db627ff1232d2ba202cbef",
+      "documentHash": "611f99c4e4938b506930aec4bdf29d15e1c3fdb5a815a122961e0a3929713ebc",
+      "metadata": {
+        "proveedor": "BULL MEDIA GROUP SRL",
+        "representante": "BULL MEDIA GROUP SRL"
+      },
+      "eventHash": "d1f82b26181de391f11526f56ca5c7dcfd0e675a967570560c92d11d018f3004"
+    }
+  ]
 }
