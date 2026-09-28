@@ -3,7 +3,7 @@
   "declarationId": "696f71c2-ac98-42a1-8b82-ede6ac7b2a34",
   "token": "a386891a-2c69-4371-901e-e868a586e240",
   "createdAt": "2026-09-28T16:33:22.748Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GRUPO CORPORATIVO FORMA SA DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "GRUPO CORPORATIVO FORMA SA DE CV",
     "email": "luis@gforma.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b4a010ef55a7844686c9977184ae584151d20e58c4cd383aedf87a689ae37b1a",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-28T16:44:29.130Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GCF9502202Q8",
+  "signatureMetadata": {
+    "ip": "189.147.13.181",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "signedAtUtc": "2026-09-28T16:44:32.487Z",
+    "signedAtLocal": "2026-09-28T10:44:32.487Z"
+  },
+  "documentHash": "d50b399513d243ffd4d7f871f5b606583514b4ff56f92648c591b567eb6bcaa0",
   "auditTrail": [
     {
       "eventId": "2e591d12-f8a7-4acd-ad83-7bdb2319c263",
@@ -66,6 +74,49 @@
         "representante": "GRUPO CORPORATIVO FORMA SA DE CV"
       },
       "eventHash": "4e31c11bfe74ef5cad4764e8fbc16f2ad72680a4f8bbc75593320ee4f7914fba"
+    },
+    {
+      "eventId": "b1c39028-aa79-48d9-8911-e1c220e8bed5",
+      "uid": "GCF9502202Q8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T16:43:06.217Z",
+      "timestampLocal": "2026-09-28T16:43:06.217Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.13.181",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4,pt-PT;q=0.3,pt;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GCF9502202Q8&nombre_proveedor_razon_social=GRUPO+CORPORATIVO+FORMA+SA+DE+CV&nombre_representante_legal=Luis+Guillermo+Gallastegui+Villalpando&email=mecadotecnia%40gforma.com",
+      "previousEventHash": "4e31c11bfe74ef5cad4764e8fbc16f2ad72680a4f8bbc75593320ee4f7914fba",
+      "documentHash": "b4a010ef55a7844686c9977184ae584151d20e58c4cd383aedf87a689ae37b1a",
+      "eventHash": "f7bec86b46bb4efd98bc6215c07b206d87856f60eae179444e624c3dddfe00b6"
+    },
+    {
+      "eventId": "42465984-7ba6-4621-ae71-c97dfaf13ae2",
+      "uid": "GCF9502202Q8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-28T16:44:32.487Z",
+      "timestampLocal": "2026-09-28T10:44:32.487Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.147.13.181",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4,pt-PT;q=0.3,pt;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a386891a-2c69-4371-901e-e868a586e240",
+      "previousEventHash": "f7bec86b46bb4efd98bc6215c07b206d87856f60eae179444e624c3dddfe00b6",
+      "documentHash": "d50b399513d243ffd4d7f871f5b606583514b4ff56f92648c591b567eb6bcaa0",
+      "signatureHash": "2ace1aa2a2eb213b6ab1fd3632d3826d179d06428b197206dd1984aae8c33525",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-28T10:44:29.130Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "3be3631b170f8a6452c4eac66c67f819ab601749429230341e5c59ac8ffac702"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-28T16:44:32.698Z"
+  }
 }
