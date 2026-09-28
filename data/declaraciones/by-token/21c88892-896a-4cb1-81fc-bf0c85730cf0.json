@@ -3,8 +3,18 @@
   "declarationId": "f0d24dfa-96a8-4831-9662-cda763408f15",
   "token": "21c88892-896a-4cb1-81fc-bf0c85730cf0",
   "createdAt": "2026-09-28T20:40:36.626Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Meni - Negocios em Gastronomia Ltda",
+    "nombre_representante_legal": "Caio Romano Borges Daniel",
+    "email": "caio@meni.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Meni - Negocios em Gastronomia Ltda",
+    "nombre_representante_legal": "Caio Romano Borges Daniel",
+    "email": "caio@meni.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Meni - Negocios em Gastronomia Ltda",
     "nombre_representante_legal": "Caio Romano Borges Daniel",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "bf0540ef4d425c79427c56ed8ceca2a4487bef25f81f052f1a6dc4f95d0de84b",
+  "auditTrail": [
+    {
+      "eventId": "f2aee363-4aba-4036-bfbd-a0be2e341acc",
+      "uid": "19.643.407/0001-65",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-28T20:40:46.576Z",
+      "timestampLocal": "2026-09-28T20:40:46.576Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.140.104.145",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=19.643.407%2F0001-65&nombre_proveedor_razon_social=Meni+-+Negocios+em+Gastronomia+Ltda&nombre_representante_legal=Caio+Romano+Borges+Daniel&email=caio%40meni.com.br",
+      "previousEventHash": null,
+      "documentHash": "bf0540ef4d425c79427c56ed8ceca2a4487bef25f81f052f1a6dc4f95d0de84b",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "c153534c435cacd1c56b103fb64e1dc5c830129413a39af6126a3989f072e063"
+    },
+    {
+      "eventId": "b4cb84be-7bb6-4821-95b5-b7a7c3f9915f",
+      "uid": "19.643.407/0001-65",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-28T20:40:46.576Z",
+      "timestampLocal": "2026-09-28T20:40:46.576Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.140.104.145",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=19.643.407%2F0001-65&nombre_proveedor_razon_social=Meni+-+Negocios+em+Gastronomia+Ltda&nombre_representante_legal=Caio+Romano+Borges+Daniel&email=caio%40meni.com.br",
+      "previousEventHash": "c153534c435cacd1c56b103fb64e1dc5c830129413a39af6126a3989f072e063",
+      "documentHash": "bf0540ef4d425c79427c56ed8ceca2a4487bef25f81f052f1a6dc4f95d0de84b",
+      "metadata": {
+        "proveedor": "Meni - Negocios em Gastronomia Ltda",
+        "representante": "Caio Romano Borges Daniel"
+      },
+      "eventHash": "21ab64714296f504af05346305ddb197d296f8964e4ebb52cafd415f2a8cbf59"
+    }
+  ]
 }
