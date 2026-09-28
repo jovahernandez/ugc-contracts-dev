@@ -3,7 +3,7 @@
   "declarationId": "9d8fd3ba-cf84-4aec-93f7-a7628873b87e",
   "token": "8eb984c6-be0d-4b93-be34-49c1e344c2f8",
   "createdAt": "2026-09-28T15:31:56.501Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "COMPANIA CHILENA DE COMUNICACIONES SA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "COMPANIA CHILENA DE COMUNICACIONES SA",
     "email": "emiranda@cooperativa.cl"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5bcf6d186f5eb95ec085e6eea099fd324a5695e27164ef2518de6406768e9e3f",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-28T15:32:37.121Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/94795000-2",
+  "signatureMetadata": {
+    "ip": "200.11.86.98",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-28T15:32:42.841Z",
+    "signedAtLocal": "2026-09-28T12:32:42.841Z"
+  },
+  "documentHash": "9e9636610caf6f6bd63899e476e3c070180cb6f06cb54b162bd1b550fee38611",
   "auditTrail": [
     {
       "eventId": "6b287b95-4d2e-4867-bbd3-9d75cdb89d66",
@@ -66,6 +74,49 @@
         "representante": "COMPANIA CHILENA DE COMUNICACIONES SA"
       },
       "eventHash": "94d25828bbbd122da7f4dea5374d74b650d5c678af480efdc5d77c908a508421"
+    },
+    {
+      "eventId": "acb8648c-e18b-4087-90b5-394117b3118e",
+      "uid": "94795000-2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T15:32:10.096Z",
+      "timestampLocal": "2026-09-28T15:32:10.096Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.11.86.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,pl;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=94795000-2&nombre_proveedor_razon_social=COMPANIA+CHILENA+DE+COMUNICACIONES+SA&nombre_representante_legal=COMPANIA+CHILENA+DE+COMUNICACIONES+SA&email=emiranda%40cooperativa.cl",
+      "previousEventHash": "94d25828bbbd122da7f4dea5374d74b650d5c678af480efdc5d77c908a508421",
+      "documentHash": "5bcf6d186f5eb95ec085e6eea099fd324a5695e27164ef2518de6406768e9e3f",
+      "eventHash": "8be2657692de88d8b34bbcfd7480a997ab6eb4b1a8d79cffa1195cd7a4e571e9"
+    },
+    {
+      "eventId": "ced6933d-7ed9-40bc-86f1-21f2758d8ed3",
+      "uid": "94795000-2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-28T15:32:42.841Z",
+      "timestampLocal": "2026-09-28T12:32:42.841Z",
+      "timezone": "UTC-3",
+      "ipAddress": "200.11.86.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,pl;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8eb984c6-be0d-4b93-be34-49c1e344c2f8",
+      "previousEventHash": "8be2657692de88d8b34bbcfd7480a997ab6eb4b1a8d79cffa1195cd7a4e571e9",
+      "documentHash": "9e9636610caf6f6bd63899e476e3c070180cb6f06cb54b162bd1b550fee38611",
+      "signatureHash": "275944ca87ffe2045d825247d002ac7bb29a6fee5d72538d7f770e51b75d1844",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-28T12:32:37.121Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "628f64a4d3bf6c92bfd5733410c6bb8ec13c532bc4907c7c65828079bbfdb0ad"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-28T15:32:43.145Z"
+  }
 }
