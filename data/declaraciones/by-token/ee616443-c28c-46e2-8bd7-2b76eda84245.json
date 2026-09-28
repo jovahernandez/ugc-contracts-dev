@@ -3,7 +3,7 @@
   "declarationId": "2b79bb98-039c-4e01-9e8e-931eb9667abd",
   "token": "ee616443-c28c-46e2-8bd7-2b76eda84245",
   "createdAt": "2026-09-28T20:05:37.198Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CIAS PERIODISTICAS DEL SOL DEL PACIFICO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "RAFAEL SEBASTIAN GIL ROBLES",
     "email": "mballesteros@lavozdelafrontera.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "bc571f0d95ee67578b397fadae58cd2c1cdb45ea4530b178a43a6e3d50cd0c7a",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-28T20:11:47.368Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CPS7907264F9",
+  "signatureMetadata": {
+    "ip": "200.76.246.138",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-28T20:11:50.981Z",
+    "signedAtLocal": "2026-09-28T13:11:50.981Z"
+  },
+  "documentHash": "af0945b6e6979ac9131f88df0db9a3b50f2fa06c129b37151252de5f89592661",
   "auditTrail": [
     {
       "eventId": "7e260fa5-6ada-4650-8a5d-5acf4c3cea5f",
@@ -66,6 +74,64 @@
         "representante": "RAFAEL SEBASTIAN GIL ROBLES"
       },
       "eventHash": "4f911da7d742191d9a2ef1fdc9437a89485e3812ad874927a3377fa4efea4119"
+    },
+    {
+      "eventId": "64b4c649-7335-4994-9f45-edab89f51e3f",
+      "uid": "CPS7907264F9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T20:05:49.536Z",
+      "timestampLocal": "2026-09-28T20:05:49.536Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.246.138",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CPS7907264F9&nombre_proveedor_razon_social=CIAS+PERIODISTICAS+DEL+SOL+DEL+PACIFICO&nombre_representante_legal=RAFAEL+SEBASTIAN+GIL+ROBLES&email=mballesteros%40lavozdelafrontera.com.mx",
+      "previousEventHash": "4f911da7d742191d9a2ef1fdc9437a89485e3812ad874927a3377fa4efea4119",
+      "documentHash": "bc571f0d95ee67578b397fadae58cd2c1cdb45ea4530b178a43a6e3d50cd0c7a",
+      "eventHash": "0f1a6d5f53575b286553fdb3beae7834a0f43bbfecde54a0394d19696b93eda2"
+    },
+    {
+      "eventId": "7f8a6603-cb9b-41f0-8ee0-62e4a0904cce",
+      "uid": "CPS7907264F9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T20:11:14.095Z",
+      "timestampLocal": "2026-09-28T20:11:14.095Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.76.246.138",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "0f1a6d5f53575b286553fdb3beae7834a0f43bbfecde54a0394d19696b93eda2",
+      "documentHash": "bc571f0d95ee67578b397fadae58cd2c1cdb45ea4530b178a43a6e3d50cd0c7a",
+      "eventHash": "5323ce46975604bebc64a0481238da06be5a9e0292785485929e822076f90c7a"
+    },
+    {
+      "eventId": "2a9718c5-5f1a-4499-9d8a-a8bafdfc1f2f",
+      "uid": "CPS7907264F9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-28T20:11:50.981Z",
+      "timestampLocal": "2026-09-28T13:11:50.981Z",
+      "timezone": "UTC-7",
+      "ipAddress": "200.76.246.138",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ee616443-c28c-46e2-8bd7-2b76eda84245",
+      "previousEventHash": "5323ce46975604bebc64a0481238da06be5a9e0292785485929e822076f90c7a",
+      "documentHash": "af0945b6e6979ac9131f88df0db9a3b50f2fa06c129b37151252de5f89592661",
+      "signatureHash": "693eb9bae17da66455015b7b991d02ed51db7bd4f2cfb3587eb18bc7f3178c63",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-28T13:11:47.368Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "d640855ca9790744181cb011da6c9c04b34f8ae4b8a98e72e8c4005cb597b916"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-09-28T20:11:51.201Z"
+  }
 }
