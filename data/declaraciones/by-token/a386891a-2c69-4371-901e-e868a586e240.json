@@ -3,8 +3,18 @@
   "declarationId": "696f71c2-ac98-42a1-8b82-ede6ac7b2a34",
   "token": "a386891a-2c69-4371-901e-e868a586e240",
   "createdAt": "2026-09-28T16:33:22.748Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GRUPO CORPORATIVO FORMA SA DE CV",
+    "nombre_representante_legal": "GRUPO CORPORATIVO FORMA SA DE CV",
+    "email": "luis@gforma.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GRUPO CORPORATIVO FORMA SA DE CV",
+    "nombre_representante_legal": "GRUPO CORPORATIVO FORMA SA DE CV",
+    "email": "luis@gforma.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GRUPO CORPORATIVO FORMA SA DE CV",
     "nombre_representante_legal": "GRUPO CORPORATIVO FORMA SA DE CV",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "b4a010ef55a7844686c9977184ae584151d20e58c4cd383aedf87a689ae37b1a",
+  "auditTrail": [
+    {
+      "eventId": "2e591d12-f8a7-4acd-ad83-7bdb2319c263",
+      "uid": "GCF9502202Q8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-28T16:43:03.353Z",
+      "timestampLocal": "2026-09-28T16:43:03.353Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.13.181",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4,pt-PT;q=0.3,pt;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GCF9502202Q8&nombre_proveedor_razon_social=GRUPO+CORPORATIVO+FORMA+SA+DE+CV&nombre_representante_legal=Luis+Guillermo+Gallastegui+Villalpando&email=mecadotecnia%40gforma.com",
+      "previousEventHash": null,
+      "documentHash": "b4a010ef55a7844686c9977184ae584151d20e58c4cd383aedf87a689ae37b1a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8e1b065760485aa60e9f56f03d709c78ac56410c2606f0f6a82118683fbbb32f"
+    },
+    {
+      "eventId": "203e3832-b60c-4854-9348-0ebaef088e56",
+      "uid": "GCF9502202Q8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-28T16:43:03.353Z",
+      "timestampLocal": "2026-09-28T16:43:03.353Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.147.13.181",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4,pt-PT;q=0.3,pt;q=0.2",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GCF9502202Q8&nombre_proveedor_razon_social=GRUPO+CORPORATIVO+FORMA+SA+DE+CV&nombre_representante_legal=Luis+Guillermo+Gallastegui+Villalpando&email=mecadotecnia%40gforma.com",
+      "previousEventHash": "8e1b065760485aa60e9f56f03d709c78ac56410c2606f0f6a82118683fbbb32f",
+      "documentHash": "b4a010ef55a7844686c9977184ae584151d20e58c4cd383aedf87a689ae37b1a",
+      "metadata": {
+        "proveedor": "GRUPO CORPORATIVO FORMA SA DE CV",
+        "representante": "GRUPO CORPORATIVO FORMA SA DE CV"
+      },
+      "eventHash": "4e31c11bfe74ef5cad4764e8fbc16f2ad72680a4f8bbc75593320ee4f7914fba"
+    }
+  ]
 }
