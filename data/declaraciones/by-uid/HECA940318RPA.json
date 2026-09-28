@@ -3,7 +3,7 @@
   "declarationId": "fcea466f-850d-44f3-95c2-90386d3e517b",
   "token": "bda5f237-4988-4959-a4bf-7c627cd4d4cf",
   "createdAt": "2026-09-28T04:15:07.966Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ARANTXA PAOLA HERNÁNDEZ CASTRO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ARANTXA PAOLA HERNÁNDEZ CASTRO",
     "email": "paooherzz@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fec11341593b48e45bd44ff39fcac53dd260822e90d1be51059df3cf9031ce61",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-28T04:16:55.345Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/HECA940318RPA",
+  "signatureMetadata": {
+    "ip": "201.162.168.121",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-09-28T04:16:58.746Z",
+    "signedAtLocal": "2026-09-27T22:16:58.746Z"
+  },
+  "documentHash": "6a750cfbc43905cee412e8374bd62084d25cc5bef68d74bfb7f11c82b9448c43",
   "auditTrail": [
     {
       "eventId": "aaac44df-cd2c-44e3-9d42-7161ae8d0fa9",
@@ -140,6 +148,64 @@
         "representante": "ARANTXA PAOLA HERNÁNDEZ CASTRO"
       },
       "eventHash": "d3c19404a65ea98c1cc8789f2b763259250261d043cd41e5d2079b79cbc93179"
+    },
+    {
+      "eventId": "5ba8345c-90e6-4bd8-a3e8-4dea55a7f08c",
+      "uid": "HECA940318RPA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T04:15:22.795Z",
+      "timestampLocal": "2026-09-28T04:15:22.795Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.162.168.121",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "d3c19404a65ea98c1cc8789f2b763259250261d043cd41e5d2079b79cbc93179",
+      "documentHash": "fec11341593b48e45bd44ff39fcac53dd260822e90d1be51059df3cf9031ce61",
+      "eventHash": "649e6c2625e6199f06fbaa85e98507e0c30a52b5a2cfce67a1e32732943c4804"
+    },
+    {
+      "eventId": "0ccaf2bf-c093-44c0-92a6-42ff294c6672",
+      "uid": "HECA940318RPA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T04:16:41.270Z",
+      "timestampLocal": "2026-09-28T04:16:41.270Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.162.168.121",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "649e6c2625e6199f06fbaa85e98507e0c30a52b5a2cfce67a1e32732943c4804",
+      "documentHash": "fec11341593b48e45bd44ff39fcac53dd260822e90d1be51059df3cf9031ce61",
+      "eventHash": "1838ba41dfc340c152cf5c5c7c8fc68c98eacde14391967a00868595469d6097"
+    },
+    {
+      "eventId": "d64b46f1-8806-4abc-b0f5-2041fe0b7988",
+      "uid": "HECA940318RPA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-28T04:16:58.746Z",
+      "timestampLocal": "2026-09-27T22:16:58.746Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.162.168.121",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "1838ba41dfc340c152cf5c5c7c8fc68c98eacde14391967a00868595469d6097",
+      "documentHash": "6a750cfbc43905cee412e8374bd62084d25cc5bef68d74bfb7f11c82b9448c43",
+      "signatureHash": "c0eaa5a59fd73775fc4b05b4f12f9dd548573710583cff714c4d0ac442b51f56",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-27T22:16:55.345Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "88a3529d99f6f8f2a5c190e128a8d37b7a38b840c0cb9d516299f46f35eacc82"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 9,
+    "verifiedAt": "2026-09-28T04:16:59.129Z"
+  }
 }
