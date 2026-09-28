@@ -3,7 +3,7 @@
   "declarationId": "3a54d17f-5c9c-4d39-aaa1-cabe84f29121",
   "token": "e2e539ab-deae-49ee-ab17-1e80eaff9756",
   "createdAt": "2026-09-28T13:25:44.521Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JAIME IGNACIO KUNSTMANN BUSTAMANTE",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "PALOSANTO ESTUDIO",
     "email": "jk@palosantoestudio.cl"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a4f311aee6875bf1a4e5ea23c24dc3fe19a92b95ec87244f8665fee837826bd8",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-28T13:26:10.012Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/169144249",
+  "signatureMetadata": {
+    "ip": "181.173.250.169",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-28T13:26:14.484Z",
+    "signedAtLocal": "2026-09-28T10:26:14.484Z"
+  },
+  "documentHash": "bdcabf5f4eb6159294f35dd3da1e8b94394804f668c37c86825c56eb48d0368d",
   "auditTrail": [
     {
       "eventId": "de844425-25bf-43ff-b077-43f4ff7ce214",
@@ -66,6 +74,49 @@
         "representante": "PALOSANTO ESTUDIO"
       },
       "eventHash": "d5f81673e8430aabe250397965cb6e81256fc10190584e28c4444458d139c86d"
+    },
+    {
+      "eventId": "260fae74-b72f-4fef-8b9c-4bee6b178c80",
+      "uid": "169144249",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T13:25:55.684Z",
+      "timestampLocal": "2026-09-28T13:25:55.684Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.173.250.169",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=169144249&nombre_proveedor_razon_social=JAIME+IGNACIO+KUNSTMANN+BUSTAMANTE&nombre_representante_legal=PALOSANTO+ESTUDIO&email=jk%40palosantoestudio.cl",
+      "previousEventHash": "d5f81673e8430aabe250397965cb6e81256fc10190584e28c4444458d139c86d",
+      "documentHash": "a4f311aee6875bf1a4e5ea23c24dc3fe19a92b95ec87244f8665fee837826bd8",
+      "eventHash": "ad0a8d6910b4f21cc309bba537ff0584f295c1511c6eeb24e27cc3147ed5044e"
+    },
+    {
+      "eventId": "80a9559c-2ed6-43b1-83b9-342ac8de67db",
+      "uid": "169144249",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-28T13:26:14.484Z",
+      "timestampLocal": "2026-09-28T10:26:14.484Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.173.250.169",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e2e539ab-deae-49ee-ab17-1e80eaff9756",
+      "previousEventHash": "ad0a8d6910b4f21cc309bba537ff0584f295c1511c6eeb24e27cc3147ed5044e",
+      "documentHash": "bdcabf5f4eb6159294f35dd3da1e8b94394804f668c37c86825c56eb48d0368d",
+      "signatureHash": "4dfc2fad80e560f183d34aa7920f08a89fe06efb49cf86119ea6f70f0051926e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-28T10:26:10.012Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "deed1f6e8f191b271d61c70e25c14a60c278cb0b58ebbc0a3755d7716f1732cd"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-28T13:26:15.276Z"
+  }
 }
