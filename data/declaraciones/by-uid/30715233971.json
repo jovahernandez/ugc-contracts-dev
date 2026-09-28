@@ -3,7 +3,7 @@
   "declarationId": "101669df-e42a-4291-8433-c8aab4f931eb",
   "token": "1191b186-dc0b-4d31-bf46-66d5175cc032",
   "createdAt": "2026-09-28T11:55:02.361Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "BULL MEDIA GROUP SRL",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "BULL MEDIA GROUP SRL",
     "email": "administracion@bullmg.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "611f99c4e4938b506930aec4bdf29d15e1c3fdb5a815a122961e0a3929713ebc",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-28T11:56:39.510Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/30715233971",
+  "signatureMetadata": {
+    "ip": "190.226.181.101",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-28T11:56:42.919Z",
+    "signedAtLocal": "2026-09-28T08:56:42.919Z"
+  },
+  "documentHash": "20fceb10460f2d5304cc09bfba3dcb78a3c1cb9775ade5281f1414a21c4118e9",
   "auditTrail": [
     {
       "eventId": "a80aba2a-dbf6-4eb0-a061-7566e51decb2",
@@ -66,6 +74,64 @@
         "representante": "BULL MEDIA GROUP SRL"
       },
       "eventHash": "d1f82b26181de391f11526f56ca5c7dcfd0e675a967570560c92d11d018f3004"
+    },
+    {
+      "eventId": "f813a22a-430f-42fa-84bd-5afa900c44b3",
+      "uid": "30715233971",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T11:55:21.572Z",
+      "timestampLocal": "2026-09-28T11:55:21.572Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.226.181.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=30715233971&nombre_proveedor_razon_social=BULL+MEDIA+GROUP+SRL&nombre_representante_legal=BULL+MEDIA+GROUP+SRL&email=administracion%40bullmg.com",
+      "previousEventHash": "d1f82b26181de391f11526f56ca5c7dcfd0e675a967570560c92d11d018f3004",
+      "documentHash": "611f99c4e4938b506930aec4bdf29d15e1c3fdb5a815a122961e0a3929713ebc",
+      "eventHash": "a112078ae1de5628b6a90744d7595b163e0c5f98df6d9a3ac2ee71a06644202d"
+    },
+    {
+      "eventId": "49b3ae0a-5db7-4ea8-aeac-8625d79d0352",
+      "uid": "30715233971",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T11:55:35.879Z",
+      "timestampLocal": "2026-09-28T11:55:35.879Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.226.181.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "a112078ae1de5628b6a90744d7595b163e0c5f98df6d9a3ac2ee71a06644202d",
+      "documentHash": "611f99c4e4938b506930aec4bdf29d15e1c3fdb5a815a122961e0a3929713ebc",
+      "eventHash": "e85e759a7d10bd258142dd417abdaeced26755e8fe6df4577600ffdeee422e3e"
+    },
+    {
+      "eventId": "138bd256-077c-4f24-b0b1-64f7cafe5d07",
+      "uid": "30715233971",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-28T11:56:42.919Z",
+      "timestampLocal": "2026-09-28T08:56:42.919Z",
+      "timezone": "UTC-3",
+      "ipAddress": "190.226.181.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1191b186-dc0b-4d31-bf46-66d5175cc032",
+      "previousEventHash": "e85e759a7d10bd258142dd417abdaeced26755e8fe6df4577600ffdeee422e3e",
+      "documentHash": "20fceb10460f2d5304cc09bfba3dcb78a3c1cb9775ade5281f1414a21c4118e9",
+      "signatureHash": "689b5b879d4941d5487c2580e8915c1aef460aaa8af72dc7f54a9476c3ff17f9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-28T08:56:39.510Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "b38bbe2dd6f42cb307e8762ac90c9197978eb32f1c27a0c9da93073544810967"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-09-28T11:56:43.100Z"
+  }
 }
