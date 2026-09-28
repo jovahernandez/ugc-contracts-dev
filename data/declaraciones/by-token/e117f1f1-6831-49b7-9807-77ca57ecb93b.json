@@ -3,7 +3,7 @@
   "declarationId": "812fdf75-47ad-40b1-aa51-7baec07ac4bc",
   "token": "e117f1f1-6831-49b7-9807-77ca57ecb93b",
   "createdAt": "2026-09-28T01:54:02.829Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SOCIAL NATION SA DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "PAOLA GALLO FERNANDEZ",
     "email": "lucia@troop.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "972ee8a3c1c85c34a9577c863ff49525245ea139be7ce549881e14bf58aa73ec",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-28T01:55:39.804Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SNA180926S78",
+  "signatureMetadata": {
+    "ip": "189.217.109.25",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-28T01:55:43.253Z",
+    "signedAtLocal": "2026-09-27T19:55:43.253Z"
+  },
+  "documentHash": "9dcb8f3940e9af7bd3917793069b9e0ac1f2feb92e6f58eda68ae9f216eeb2c1",
   "auditTrail": [
     {
       "eventId": "e4318e17-8fa4-4ee5-bdf5-4f86d7e3139b",
@@ -66,6 +74,49 @@
         "representante": "PAOLA GALLO FERNANDEZ"
       },
       "eventHash": "68207cafa470654c582112748ad9d03f836bf20d36ddbdafd6ce028b52db0f52"
+    },
+    {
+      "eventId": "10e25185-e46d-4a9d-bdf3-052132cc2e5f",
+      "uid": "SNA180926S78",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T01:54:14.120Z",
+      "timestampLocal": "2026-09-28T01:54:14.120Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.109.25",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SNA180926S78&nombre_proveedor_razon_social=SOCIAL+NATION+SA+DE+CV&nombre_representante_legal=PAOLA+GALLO+FERNANDEZ&email=lucia%40troop.com.mx",
+      "previousEventHash": "68207cafa470654c582112748ad9d03f836bf20d36ddbdafd6ce028b52db0f52",
+      "documentHash": "972ee8a3c1c85c34a9577c863ff49525245ea139be7ce549881e14bf58aa73ec",
+      "eventHash": "aa42f636af1ecdd78dcd149bf36d3c1e31e2a7461ac70627e1f6c838e8a73d76"
+    },
+    {
+      "eventId": "bc66dba8-03c2-402b-8bfa-8c673a7ada1c",
+      "uid": "SNA180926S78",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-28T01:55:43.253Z",
+      "timestampLocal": "2026-09-27T19:55:43.253Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.109.25",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e117f1f1-6831-49b7-9807-77ca57ecb93b",
+      "previousEventHash": "aa42f636af1ecdd78dcd149bf36d3c1e31e2a7461ac70627e1f6c838e8a73d76",
+      "documentHash": "9dcb8f3940e9af7bd3917793069b9e0ac1f2feb92e6f58eda68ae9f216eeb2c1",
+      "signatureHash": "83f462e0db808dcb2de7886254d1dbb78cc29bb285cdcd5b53871ca9454e18cf",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-27T19:55:39.804Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "d98ed4f9e1331ed807eedbc412dbeb07058846c2104c724401d8fe027039ecae"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-28T01:55:43.464Z"
+  }
 }
