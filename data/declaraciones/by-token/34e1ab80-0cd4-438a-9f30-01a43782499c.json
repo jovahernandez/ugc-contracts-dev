@@ -3,7 +3,7 @@
   "declarationId": "20966b8b-4b41-4c2d-a2a4-776a7147cf45",
   "token": "34e1ab80-0cd4-438a-9f30-01a43782499c",
   "createdAt": "2026-09-28T04:30:31.634Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JM INGENIERIA DE CONSULTORIA Y CONSTRUCCION SAS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JORGE MARIANO MARTINEZ SUAREZ",
     "email": "jm.ingenieriacolombia@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "bcf8b31d31269e3f1065e41e3601cfdcda46ddcdeae30c499b7f1f3187a5d829",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-28T04:31:40.044Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/901010089-6",
+  "signatureMetadata": {
+    "ip": "190.84.117.199",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-28T04:31:45.720Z",
+    "signedAtLocal": "2026-09-27T23:31:45.720Z"
+  },
+  "documentHash": "026c6357314522d250aa4361ad00612c8f17334deca248f56f03fdf7af2202e9",
   "auditTrail": [
     {
       "eventId": "51d4714c-8749-4141-b509-d2241bc578a7",
@@ -66,6 +74,49 @@
         "representante": "JORGE MARIANO MARTINEZ SUAREZ"
       },
       "eventHash": "4c58b7594072ad96ca7c5ef81121fec173fabd90f1c97a86edafae3a2eb61033"
+    },
+    {
+      "eventId": "949ab063-31f7-4fcf-bf70-44df69007d8e",
+      "uid": "901010089-6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-28T04:30:42.496Z",
+      "timestampLocal": "2026-09-28T04:30:42.496Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.84.117.199",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901010089-6&nombre_proveedor_razon_social=JM+INGENIERIA+DE+CONSULTORIA+Y+CONSTRUCCION+SAS&nombre_representante_legal=JORGE+MARIANO+MARTINEZ+SUAREZ&email=jm.ingenieriacolombia%40gmail.com",
+      "previousEventHash": "4c58b7594072ad96ca7c5ef81121fec173fabd90f1c97a86edafae3a2eb61033",
+      "documentHash": "bcf8b31d31269e3f1065e41e3601cfdcda46ddcdeae30c499b7f1f3187a5d829",
+      "eventHash": "9173004f390bbe6994f03d3f3cde32aaf6a5f72512c279552592a48b86fe7226"
+    },
+    {
+      "eventId": "5ff7c9bc-3676-4fa8-816f-cc4cf222987a",
+      "uid": "901010089-6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-28T04:31:45.720Z",
+      "timestampLocal": "2026-09-27T23:31:45.720Z",
+      "timezone": "UTC-5",
+      "ipAddress": "190.84.117.199",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/34e1ab80-0cd4-438a-9f30-01a43782499c",
+      "previousEventHash": "9173004f390bbe6994f03d3f3cde32aaf6a5f72512c279552592a48b86fe7226",
+      "documentHash": "026c6357314522d250aa4361ad00612c8f17334deca248f56f03fdf7af2202e9",
+      "signatureHash": "ae3910941743a21009a96dd31b450c9470a0f47548a30c396ad97168195cd5a6",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-27T23:31:40.044Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "2d6dc4761835b7e314888d632a93613e7100f54214d8df32b87cf3acd13e2bf0"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-28T04:31:46.023Z"
+  }
 }
