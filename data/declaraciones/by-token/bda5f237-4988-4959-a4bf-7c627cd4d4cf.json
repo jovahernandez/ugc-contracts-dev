@@ -3,8 +3,18 @@
   "declarationId": "fcea466f-850d-44f3-95c2-90386d3e517b",
   "token": "bda5f237-4988-4959-a4bf-7c627cd4d4cf",
   "createdAt": "2026-09-28T04:15:07.966Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ARANTXA PAOLA HERNÁNDEZ CASTRO",
+    "nombre_representante_legal": "ARANTXA PAOLA HERNÁNDEZ CASTRO",
+    "email": "paooherzz@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ARANTXA PAOLA HERNÁNDEZ CASTRO",
+    "nombre_representante_legal": "ARANTXA PAOLA HERNÁNDEZ CASTRO",
+    "email": "paooherzz@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ARANTXA PAOLA HERNÁNDEZ CASTRO",
     "nombre_representante_legal": "ARANTXA PAOLA HERNÁNDEZ CASTRO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "31773d27215aa6ded4b382e76f7acd9dda1aac7c29fd6a92889fb1cf0bc5becb",
+  "auditTrail": [
+    {
+      "eventId": "f419abe5-3ba3-4101-b1fe-995485f23092",
+      "uid": "HECA940318RPA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-28T04:15:15.387Z",
+      "timestampLocal": "2026-09-28T04:15:15.387Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.162.168.121",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "31773d27215aa6ded4b382e76f7acd9dda1aac7c29fd6a92889fb1cf0bc5becb",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "64eeb6db577313d5fddda3e42a3dc5c86b4e5151aa8ace5f3136df06db272e62"
+    },
+    {
+      "eventId": "89d01cae-eca8-4ee4-a710-d1143115ec7c",
+      "uid": "HECA940318RPA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-28T04:15:15.387Z",
+      "timestampLocal": "2026-09-28T04:15:15.387Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.162.168.121",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "64eeb6db577313d5fddda3e42a3dc5c86b4e5151aa8ace5f3136df06db272e62",
+      "documentHash": "31773d27215aa6ded4b382e76f7acd9dda1aac7c29fd6a92889fb1cf0bc5becb",
+      "metadata": {
+        "proveedor": "ARANTXA PAOLA HERNÁNDEZ CASTRO",
+        "representante": "ARANTXA PAOLA HERNÁNDEZ CASTRO"
+      },
+      "eventHash": "c3c432a4bc5a577921d7fc7c88edabfb44910efd860e41d20234af612c7c019d"
+    }
+  ]
 }
