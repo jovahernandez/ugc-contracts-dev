@@ -3,8 +3,18 @@
   "declarationId": "3b0b94a7-1bd4-4410-bf77-3abe1cce3d63",
   "token": "ca3bed96-d16b-4383-ba1f-07eccbc8c8ac",
   "createdAt": "2026-09-29T20:26:55.520Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GRUPO HOTELERO HABITA",
+    "nombre_representante_legal": "JAIME MICHA SMEKE",
+    "email": "eventos@hotelhabita.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GRUPO HOTELERO HABITA",
+    "nombre_representante_legal": "JAIME MICHA SMEKE",
+    "email": "eventos@hotelhabita.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GRUPO HOTELERO HABITA",
     "nombre_representante_legal": "JAIME MICHA SMEKE",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "ff74da883d9e9cb1624f66ab8449852cbf442b21170abac2128d1e04282780c2",
+  "auditTrail": [
+    {
+      "eventId": "201f6fd7-24a5-4a75-b689-76563100816c",
+      "uid": "GHH180822830",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-29T20:27:59.883Z",
+      "timestampLocal": "2026-09-29T20:27:59.883Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.222.132.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GHH180822830&nombre_proveedor_razon_social=GRUPO+HOTELERO+HABITA+&nombre_representante_legal=JAIME+MICHA+SMEKE&email=eventos%40hotelhabita.com",
+      "previousEventHash": null,
+      "documentHash": "ff74da883d9e9cb1624f66ab8449852cbf442b21170abac2128d1e04282780c2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8785f724cda42e00b00d060e421c824950534e397d16a091fd0e0096dcb05553"
+    },
+    {
+      "eventId": "43bce499-c2b4-4335-b058-9625eabf531e",
+      "uid": "GHH180822830",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-29T20:27:59.883Z",
+      "timestampLocal": "2026-09-29T20:27:59.883Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.222.132.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GHH180822830&nombre_proveedor_razon_social=GRUPO+HOTELERO+HABITA+&nombre_representante_legal=JAIME+MICHA+SMEKE&email=eventos%40hotelhabita.com",
+      "previousEventHash": "8785f724cda42e00b00d060e421c824950534e397d16a091fd0e0096dcb05553",
+      "documentHash": "ff74da883d9e9cb1624f66ab8449852cbf442b21170abac2128d1e04282780c2",
+      "metadata": {
+        "proveedor": "GRUPO HOTELERO HABITA",
+        "representante": "JAIME MICHA SMEKE"
+      },
+      "eventHash": "22952124fbb5c9ffb3707eddc41231300a6ced6ca2820ae0d73cb1337851fa10"
+    }
+  ]
 }
