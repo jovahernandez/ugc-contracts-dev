@@ -3,8 +3,18 @@
   "declarationId": "272ef98a-21e9-4ac3-97e1-e7f5a5b98107",
   "token": "8a1feb9b-488c-4791-a825-ee4f06a52be4",
   "createdAt": "2026-09-29T02:26:54.638Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Calvo Estrada Spa",
+    "nombre_representante_legal": "isabel calvo",
+    "email": "is4belcalvo@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Calvo Estrada Spa",
+    "nombre_representante_legal": "isabel calvo",
+    "email": "is4belcalvo@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Calvo Estrada Spa",
     "nombre_representante_legal": "isabel calvo",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "2776a00de856d98e7c79afc0f393f53c7a3ad9dd95976e0ce79e0c1b2a4fd126",
+  "auditTrail": [
+    {
+      "eventId": "ba08b93c-393c-4650-a43d-f5106be13c9c",
+      "uid": "78256972-4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-29T02:27:00.456Z",
+      "timestampLocal": "2026-09-29T02:27:00.456Z",
+      "timezone": "UTC+0",
+      "ipAddress": "146.75.210.15",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "2776a00de856d98e7c79afc0f393f53c7a3ad9dd95976e0ce79e0c1b2a4fd126",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6a91f3eb973f6d7787abdb8bae8e668a4f27b3c503b356255e12f9be9eb5f888"
+    },
+    {
+      "eventId": "3f4e5f90-9430-45c4-907c-bf0ca06d7e17",
+      "uid": "78256972-4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-29T02:27:00.456Z",
+      "timestampLocal": "2026-09-29T02:27:00.456Z",
+      "timezone": "UTC+0",
+      "ipAddress": "146.75.210.15",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "6a91f3eb973f6d7787abdb8bae8e668a4f27b3c503b356255e12f9be9eb5f888",
+      "documentHash": "2776a00de856d98e7c79afc0f393f53c7a3ad9dd95976e0ce79e0c1b2a4fd126",
+      "metadata": {
+        "proveedor": "Calvo Estrada Spa",
+        "representante": "isabel calvo"
+      },
+      "eventHash": "2ab8681f7dab910b61054d4a7712ca0780d557f586b257bb4ed80a6d3e37d21c"
+    }
+  ]
 }
