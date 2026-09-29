@@ -3,7 +3,7 @@
   "declarationId": "ea0f910e-ba93-460e-b9d2-9389df968eeb",
   "token": "0d7c9de1-f9fa-47ea-8d7c-f03da642bdee",
   "createdAt": "2026-09-29T21:41:46.569Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DGC PRODUCCIONES SA DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "LILIANA DE LA CRUZ MENESES",
     "email": "rocio@dgcproducciones.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "40404f07c5828a844260a93fd9b655616b1f0d887ba77ce0cf1c1312e7b5211b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-29T21:45:16.396Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DPR100624TK4",
+  "signatureMetadata": {
+    "ip": "189.216.169.76",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-09-29T21:45:19.774Z",
+    "signedAtLocal": "2026-09-29T15:45:19.774Z"
+  },
+  "documentHash": "1e19ab299dc167467790f11fca3677fe019fe2dc232ba30f4fc44271b9605543",
   "auditTrail": [
     {
       "eventId": "1374507a-4855-47b0-96bf-f31441439d7e",
@@ -66,6 +74,64 @@
         "representante": "LILIANA DE LA CRUZ MENESES"
       },
       "eventHash": "3d8c3d53c2c8c55f0baedfbc7f32b47d254b201ce2a94fb657a4762ae5bb39f0"
+    },
+    {
+      "eventId": "ef0d1ef5-0fc9-4a03-8045-72503458a03b",
+      "uid": "DPR100624TK4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-29T21:41:56.678Z",
+      "timestampLocal": "2026-09-29T21:41:56.678Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.169.76",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DPR100624TK4&nombre_proveedor_razon_social=DGC+PRODUCCIONES+SA+DE+CV&nombre_representante_legal=LILIANA+DE+LA+CRUZ+MENESES&email=rocio%40dgcproducciones.com",
+      "previousEventHash": "3d8c3d53c2c8c55f0baedfbc7f32b47d254b201ce2a94fb657a4762ae5bb39f0",
+      "documentHash": "40404f07c5828a844260a93fd9b655616b1f0d887ba77ce0cf1c1312e7b5211b",
+      "eventHash": "f433f6039b430e4178f99c2eb447a4b329d7f37de58a6bcc3dbdd838e1845e18"
+    },
+    {
+      "eventId": "1bae3d05-eaac-4261-a799-d0b777716fc1",
+      "uid": "DPR100624TK4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-29T21:44:18.410Z",
+      "timestampLocal": "2026-09-29T21:44:18.410Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.169.76",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "f433f6039b430e4178f99c2eb447a4b329d7f37de58a6bcc3dbdd838e1845e18",
+      "documentHash": "40404f07c5828a844260a93fd9b655616b1f0d887ba77ce0cf1c1312e7b5211b",
+      "eventHash": "a7d604d7d83e37cc7e19a22623a08f94be1a763554c4dc865b8af271b7ee55bb"
+    },
+    {
+      "eventId": "949f3360-b451-4213-84e2-d9be069fc83b",
+      "uid": "DPR100624TK4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-29T21:45:19.775Z",
+      "timestampLocal": "2026-09-29T15:45:19.775Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.216.169.76",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a7d604d7d83e37cc7e19a22623a08f94be1a763554c4dc865b8af271b7ee55bb",
+      "documentHash": "1e19ab299dc167467790f11fca3677fe019fe2dc232ba30f4fc44271b9605543",
+      "signatureHash": "351cdfa8dbfef5cd4ad7cfc0b5b87281af968071266d1c3266983d2c614180a4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-29T15:45:16.396Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "45d44195ec20927ea13e81db40351083738353a75775835604411cb09f46922f"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-09-29T21:45:20.034Z"
+  }
 }
