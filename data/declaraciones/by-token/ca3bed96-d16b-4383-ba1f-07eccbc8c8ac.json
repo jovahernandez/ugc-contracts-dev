@@ -3,7 +3,7 @@
   "declarationId": "3b0b94a7-1bd4-4410-bf77-3abe1cce3d63",
   "token": "ca3bed96-d16b-4383-ba1f-07eccbc8c8ac",
   "createdAt": "2026-09-29T20:26:55.520Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GRUPO HOTELERO HABITA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JAIME MICHA SMEKE",
     "email": "eventos@hotelhabita.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ff74da883d9e9cb1624f66ab8449852cbf442b21170abac2128d1e04282780c2",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-29T21:02:07.364Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GHH180822830",
+  "signatureMetadata": {
+    "ip": "148.222.132.132",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "signedAtUtc": "2026-09-29T21:02:10.774Z",
+    "signedAtLocal": "2026-09-29T15:02:10.774Z"
+  },
+  "documentHash": "6cdf4f868320ef492034603cbcc61902d980ba6faa5990ea6e2a3a4e935a9b8a",
   "auditTrail": [
     {
       "eventId": "201f6fd7-24a5-4a75-b689-76563100816c",
@@ -66,6 +74,79 @@
         "representante": "JAIME MICHA SMEKE"
       },
       "eventHash": "22952124fbb5c9ffb3707eddc41231300a6ced6ca2820ae0d73cb1337851fa10"
+    },
+    {
+      "eventId": "25aa7088-9d27-4bc3-b682-875ceaabd58c",
+      "uid": "GHH180822830",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-29T20:28:02.841Z",
+      "timestampLocal": "2026-09-29T20:28:02.841Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.222.132.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GHH180822830&nombre_proveedor_razon_social=GRUPO+HOTELERO+HABITA+&nombre_representante_legal=JAIME+MICHA+SMEKE&email=eventos%40hotelhabita.com",
+      "previousEventHash": "22952124fbb5c9ffb3707eddc41231300a6ced6ca2820ae0d73cb1337851fa10",
+      "documentHash": "ff74da883d9e9cb1624f66ab8449852cbf442b21170abac2128d1e04282780c2",
+      "eventHash": "22d7dc3b67351b7fa759e3a61f18343bb3369f476a29e42f823359d0a5ef226f"
+    },
+    {
+      "eventId": "347b71ec-2cd8-4c07-a4d7-718404cf33b5",
+      "uid": "GHH180822830",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-29T20:58:13.198Z",
+      "timestampLocal": "2026-09-29T20:58:13.198Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.222.132.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "22d7dc3b67351b7fa759e3a61f18343bb3369f476a29e42f823359d0a5ef226f",
+      "documentHash": "ff74da883d9e9cb1624f66ab8449852cbf442b21170abac2128d1e04282780c2",
+      "eventHash": "e1de985804e7a84f2fb899a03c04678598d90e3a18b0e950860f878aa3daad7e"
+    },
+    {
+      "eventId": "60ed097d-d14f-41d2-b048-eb39645c25ab",
+      "uid": "GHH180822830",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-29T20:58:52.860Z",
+      "timestampLocal": "2026-09-29T20:58:52.860Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.222.132.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "e1de985804e7a84f2fb899a03c04678598d90e3a18b0e950860f878aa3daad7e",
+      "documentHash": "ff74da883d9e9cb1624f66ab8449852cbf442b21170abac2128d1e04282780c2",
+      "eventHash": "52a8804f9c7fdb46bc15930e40363a7bc8f5d4b1ec9c819bb0d86ba8ae132ce5"
+    },
+    {
+      "eventId": "056cb929-a63a-4a68-8331-be91b20bc5c2",
+      "uid": "GHH180822830",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-29T21:02:10.774Z",
+      "timestampLocal": "2026-09-29T15:02:10.774Z",
+      "timezone": "UTC-6",
+      "ipAddress": "148.222.132.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ca3bed96-d16b-4383-ba1f-07eccbc8c8ac",
+      "previousEventHash": "52a8804f9c7fdb46bc15930e40363a7bc8f5d4b1ec9c819bb0d86ba8ae132ce5",
+      "documentHash": "6cdf4f868320ef492034603cbcc61902d980ba6faa5990ea6e2a3a4e935a9b8a",
+      "signatureHash": "5894e5d43f3c3770f249e7042e6ca4a0a8195c50fcecdffc2a3a96cc5885ed34",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-29T15:02:07.364Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "d077f2c966fc42bbb4818ddd5f990a0db27a4d77a7a7039c820c9c40baec8305"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-09-29T21:02:11.062Z"
+  }
 }
