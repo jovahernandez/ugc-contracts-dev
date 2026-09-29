@@ -3,7 +3,7 @@
   "declarationId": "2e3e50d6-a032-47f7-a6cf-30596dad8369",
   "token": "bf34b990-5b01-493d-a6f1-40ea425782ff",
   "createdAt": "2026-09-29T01:20:35.683Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IVAN ESCALANTE CRUZ GONZALEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "IVAN ESCALANTE CRUZ GONZÁLEZ",
     "email": "escalanteivan@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "84841a00a8c7f901580f425d0082d731b992ff07c7063bffde022cefc46ad20c",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-29T01:21:35.903Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/EACI750806518",
+  "signatureMetadata": {
+    "ip": "187.190.198.233",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-29T01:21:39.286Z",
+    "signedAtLocal": "2026-09-28T19:21:39.286Z"
+  },
+  "documentHash": "a5c891a5c40df757a8b04ee8ccc91b80c1202c2897a9b886adb1b60591c970ee",
   "auditTrail": [
     {
       "eventId": "6e740562-9a5e-4f14-9178-36c129a2a5ca",
@@ -66,6 +74,49 @@
         "representante": "IVAN ESCALANTE CRUZ GONZÁLEZ"
       },
       "eventHash": "689e562ed6ebf7c53662ba7e6c2d59959e797b62232c9ad2e5aece6c6c9aa700"
+    },
+    {
+      "eventId": "c0ef281c-224f-4b51-8146-adbe62f5e9aa",
+      "uid": "EACI750806518",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-29T01:20:48.159Z",
+      "timestampLocal": "2026-09-29T01:20:48.159Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.198.233",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,fr-FR;q=0.9,fr;q=0.8,en-US;q=0.7,en;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EACI750806518&nombre_proveedor_razon_social=IVAN+ESCALANTE+CRUZ+GONZALEZ&nombre_representante_legal=IVAN+ESCALANTE+CRUZ+GONZ%C3%81LEZ&email=escalanteivan%40gmail.com",
+      "previousEventHash": "689e562ed6ebf7c53662ba7e6c2d59959e797b62232c9ad2e5aece6c6c9aa700",
+      "documentHash": "84841a00a8c7f901580f425d0082d731b992ff07c7063bffde022cefc46ad20c",
+      "eventHash": "9871a95491fb6d571da2d41421479fe15685b071bbbf73914da351bc76b5f79f"
+    },
+    {
+      "eventId": "38ad87b3-b98e-4cc9-9ecc-89a0fd75355d",
+      "uid": "EACI750806518",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-29T01:21:39.286Z",
+      "timestampLocal": "2026-09-28T19:21:39.286Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.198.233",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,fr-FR;q=0.9,fr;q=0.8,en-US;q=0.7,en;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/bf34b990-5b01-493d-a6f1-40ea425782ff",
+      "previousEventHash": "9871a95491fb6d571da2d41421479fe15685b071bbbf73914da351bc76b5f79f",
+      "documentHash": "a5c891a5c40df757a8b04ee8ccc91b80c1202c2897a9b886adb1b60591c970ee",
+      "signatureHash": "bde951d043e2abc97a569117eecdd5426a786f83558a7b98889918c303b44770",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-28T19:21:35.903Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "e6da36d72a50cf0ea209f6f1c17009638af7dcd522c9154c4c08bc95ad7c196f"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-29T01:21:39.494Z"
+  }
 }
