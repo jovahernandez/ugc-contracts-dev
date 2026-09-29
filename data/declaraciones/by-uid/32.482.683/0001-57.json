@@ -3,7 +3,7 @@
   "declarationId": "9d73793a-b0af-455c-a6a6-52b5865f23c9",
   "token": "e5d5d244-301c-45cb-bd3c-ce91d40395b8",
   "createdAt": "2026-09-29T19:38:52.428Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "MICHELE CRISPIM GASTRONOMIA E EVENTOS LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Michele Crispim Silva",
     "email": "cozinha@meni.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1721c3166ceff1fdbce860cba839b641a545738d91147c9d157fc107564bf30f",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-29T19:39:27.825Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/32.482.683%2F0001-57",
+  "signatureMetadata": {
+    "ip": "177.140.104.145",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "signedAtUtc": "2026-09-29T19:39:31.135Z",
+    "signedAtLocal": "2026-09-29T16:39:31.135Z"
+  },
+  "documentHash": "6d4e2cc9a5541bd4cd04a97382c04b88774ec9ee57dcd1da44bdf9af8a0944a1",
   "auditTrail": [
     {
       "eventId": "e279defc-6bdd-45ff-8e4e-3cceb0e2b4cd",
@@ -66,6 +74,49 @@
         "representante": "Michele Crispim Silva"
       },
       "eventHash": "553866f52255d5add5445b4a1c38c8369c168c72fa6a9b8101db77c04eb01e6c"
+    },
+    {
+      "eventId": "c595d76f-883a-4bb6-a25b-9d36853789e3",
+      "uid": "32.482.683/0001-57",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-29T19:39:04.910Z",
+      "timestampLocal": "2026-09-29T19:39:04.910Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.140.104.145",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=32.482.683%2F0001-57&nombre_proveedor_razon_social=MICHELE+CRISPIM+GASTRONOMIA+E+EVENTOS+LTDA&nombre_representante_legal=Michele+Crispim+Silva&email=cozinha%40meni.com.br",
+      "previousEventHash": "553866f52255d5add5445b4a1c38c8369c168c72fa6a9b8101db77c04eb01e6c",
+      "documentHash": "1721c3166ceff1fdbce860cba839b641a545738d91147c9d157fc107564bf30f",
+      "eventHash": "ae5f0ff736ee1375ad602b5a6132720858072b4a499b0f5725823c1cb689aac0"
+    },
+    {
+      "eventId": "24881ea7-f296-421d-9d2b-263de76a4c16",
+      "uid": "32.482.683/0001-57",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-29T19:39:31.135Z",
+      "timestampLocal": "2026-09-29T16:39:31.135Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.140.104.145",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e5d5d244-301c-45cb-bd3c-ce91d40395b8",
+      "previousEventHash": "ae5f0ff736ee1375ad602b5a6132720858072b4a499b0f5725823c1cb689aac0",
+      "documentHash": "6d4e2cc9a5541bd4cd04a97382c04b88774ec9ee57dcd1da44bdf9af8a0944a1",
+      "signatureHash": "1c45832b98a1d86f0a873d25866595e16487c6c55afd57ff46836f3cb28386c7",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-29T16:39:27.825Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "6b23a6f2529e02468e22cb335bc49b17ac57c942bd348e6330a6ee5dfd75a438"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-29T19:39:31.429Z"
+  }
 }
