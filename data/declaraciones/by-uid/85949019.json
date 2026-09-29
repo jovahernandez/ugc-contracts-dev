@@ -3,8 +3,18 @@
   "declarationId": "1683624b-2f10-4835-b521-07c10e13946e",
   "token": "aec6edda-d090-4a10-a07b-6bde5b759904",
   "createdAt": "2026-09-29T22:30:22.099Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "AMR PRODUCCIONES, S.A.",
+    "nombre_representante_legal": "Inmer Alexander Ramirez Argueta",
+    "email": "astrid.escobar@blessure.com.gt"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "AMR PRODUCCIONES, S.A.",
+    "nombre_representante_legal": "Inmer Alexander Ramirez Argueta",
+    "email": "astrid.escobar@blessure.com.gt"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "AMR PRODUCCIONES, S.A.",
     "nombre_representante_legal": "Inmer Alexander Ramirez Argueta",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d79c7a31a40c23093b3a3202453de628eb9c50a4f25ac5c1b05c00f5b787a108",
+  "auditTrail": [
+    {
+      "eventId": "1330c4a7-368c-4f45-b9d7-475f6218a481",
+      "uid": "85949019",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-29T22:30:37.086Z",
+      "timestampLocal": "2026-09-29T22:30:37.086Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.174.91.162",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0",
+      "acceptLanguage": "es-ES,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=85949019&nombre_proveedor_razon_social=AMR+PRODUCCIONES%2C+S.A.+&nombre_representante_legal=Inmer+Alexander+Ramirez+Argueta+&email=astrid.escobar%40blessure.com.gt",
+      "previousEventHash": null,
+      "documentHash": "d79c7a31a40c23093b3a3202453de628eb9c50a4f25ac5c1b05c00f5b787a108",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "14b6b7dd7436b98904c3e3998839ea29b9f4103d12085fc13c17906623ded958"
+    },
+    {
+      "eventId": "63060566-19a9-4691-89fb-68f9de26b976",
+      "uid": "85949019",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-29T22:30:37.086Z",
+      "timestampLocal": "2026-09-29T22:30:37.086Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.174.91.162",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0",
+      "acceptLanguage": "es-ES,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=85949019&nombre_proveedor_razon_social=AMR+PRODUCCIONES%2C+S.A.+&nombre_representante_legal=Inmer+Alexander+Ramirez+Argueta+&email=astrid.escobar%40blessure.com.gt",
+      "previousEventHash": "14b6b7dd7436b98904c3e3998839ea29b9f4103d12085fc13c17906623ded958",
+      "documentHash": "d79c7a31a40c23093b3a3202453de628eb9c50a4f25ac5c1b05c00f5b787a108",
+      "metadata": {
+        "proveedor": "AMR PRODUCCIONES, S.A.",
+        "representante": "Inmer Alexander Ramirez Argueta"
+      },
+      "eventHash": "db26eea3f698f711a6094987e2a253f6516e1d328c99e140e56e6e3fe9535ead"
+    }
+  ]
 }
