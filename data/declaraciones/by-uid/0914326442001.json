@@ -3,8 +3,18 @@
   "declarationId": "cfe9a6f4-4aaa-49ce-8467-985971ef2f9e",
   "token": "602b2ba1-3e93-43d6-b74a-62d83ae6cced",
   "createdAt": "2026-09-29T21:12:49.094Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ANDREA HILDA SUZUKI PADRÓN",
+    "nombre_representante_legal": "ANDREA HILDA SUZUKI PADRÓN",
+    "email": "administracion@breinjart.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ANDREA HILDA SUZUKI PADRÓN",
+    "nombre_representante_legal": "ANDREA HILDA SUZUKI PADRÓN",
+    "email": "administracion@breinjart.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ANDREA HILDA SUZUKI PADRÓN",
     "nombre_representante_legal": "ANDREA HILDA SUZUKI PADRÓN",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9884d5bf6676416cdbc80bcea30f9f127b4419c095c689a996690f53949e7d5d",
+  "auditTrail": [
+    {
+      "eventId": "f2446f7a-2c74-4613-b324-e21ee0eb0611",
+      "uid": "0914326442001",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-29T21:19:50.846Z",
+      "timestampLocal": "2026-09-29T21:19:50.846Z",
+      "timezone": "UTC+0",
+      "ipAddress": "157.100.168.105",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=0914326442001&nombre_proveedor_razon_social=ANDREA+HILDA+SUZUKI+PADR%C3%93N&nombre_representante_legal=ANDREA+HILDA+SUZUKI+PADR%C3%93N&email=administracion%40breinjart.com",
+      "previousEventHash": null,
+      "documentHash": "9884d5bf6676416cdbc80bcea30f9f127b4419c095c689a996690f53949e7d5d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a28371c7f106a7071dc9f9aca65bb4fd42cd79f5af84b55614b48f96f4677292"
+    },
+    {
+      "eventId": "386c0ab2-b870-43b0-8757-ba108e34e46a",
+      "uid": "0914326442001",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-29T21:19:50.846Z",
+      "timestampLocal": "2026-09-29T21:19:50.846Z",
+      "timezone": "UTC+0",
+      "ipAddress": "157.100.168.105",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=0914326442001&nombre_proveedor_razon_social=ANDREA+HILDA+SUZUKI+PADR%C3%93N&nombre_representante_legal=ANDREA+HILDA+SUZUKI+PADR%C3%93N&email=administracion%40breinjart.com",
+      "previousEventHash": "a28371c7f106a7071dc9f9aca65bb4fd42cd79f5af84b55614b48f96f4677292",
+      "documentHash": "9884d5bf6676416cdbc80bcea30f9f127b4419c095c689a996690f53949e7d5d",
+      "metadata": {
+        "proveedor": "ANDREA HILDA SUZUKI PADRÓN",
+        "representante": "ANDREA HILDA SUZUKI PADRÓN"
+      },
+      "eventHash": "43ddfe864008890795cfcabe4d64884f5cb854e3140886ada0e704b432b1621a"
+    }
+  ]
 }
