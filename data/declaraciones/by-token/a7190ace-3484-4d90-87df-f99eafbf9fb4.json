@@ -3,8 +3,18 @@
   "declarationId": "6453fcf0-e4cf-4210-b4d4-e5eeb72bf545",
   "token": "a7190ace-3484-4d90-87df-f99eafbf9fb4",
   "createdAt": "2026-09-30T17:31:54.646Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "AS DEPORTE",
+    "nombre_representante_legal": "ALVAREZ MARTINEZ ANTONIO",
+    "email": "jhernandezg@asdeporte.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "AS DEPORTE",
+    "nombre_representante_legal": "ALVAREZ MARTINEZ ANTONIO",
+    "email": "jhernandezg@asdeporte.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "AS DEPORTE",
     "nombre_representante_legal": "ALVAREZ MARTINEZ ANTONIO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "36125b3fcfa9f77e154a744dab75765674fe90567a5967c2df78c42580bf7f54",
+  "auditTrail": [
+    {
+      "eventId": "1e8409be-8124-4745-ab62-9c2efc0481bd",
+      "uid": "ADE050204B3A",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-30T17:32:03.982Z",
+      "timestampLocal": "2026-09-30T17:32:03.982Z",
+      "timezone": "UTC+0",
+      "ipAddress": "132.255.125.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ADE050204B3A&nombre_proveedor_razon_social=AS+DEPORTE&nombre_representante_legal=ALVAREZ+MARTINEZ+ANTONIO&email=jhernandezg%40asdeporte.com",
+      "previousEventHash": null,
+      "documentHash": "36125b3fcfa9f77e154a744dab75765674fe90567a5967c2df78c42580bf7f54",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c8d9b04538b36856593c67e9168f85bf0ceac4b5b2781b4607ec73c60e60570f"
+    },
+    {
+      "eventId": "87222a3d-e1cd-4fad-a50a-6f7efc83ee03",
+      "uid": "ADE050204B3A",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-30T17:32:03.982Z",
+      "timestampLocal": "2026-09-30T17:32:03.982Z",
+      "timezone": "UTC+0",
+      "ipAddress": "132.255.125.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ADE050204B3A&nombre_proveedor_razon_social=AS+DEPORTE&nombre_representante_legal=ALVAREZ+MARTINEZ+ANTONIO&email=jhernandezg%40asdeporte.com",
+      "previousEventHash": "c8d9b04538b36856593c67e9168f85bf0ceac4b5b2781b4607ec73c60e60570f",
+      "documentHash": "36125b3fcfa9f77e154a744dab75765674fe90567a5967c2df78c42580bf7f54",
+      "metadata": {
+        "proveedor": "AS DEPORTE",
+        "representante": "ALVAREZ MARTINEZ ANTONIO"
+      },
+      "eventHash": "c89190f05588b5f7b5e0e71ca701b16570ece72c7c8b9b1281a1331306ddf100"
+    }
+  ]
 }
