@@ -3,7 +3,7 @@
   "declarationId": "6decd16f-e038-48be-86fd-a3337d51e49c",
   "token": "5adf6d46-a32a-46c2-bf82-d09e64997e12",
   "createdAt": "2026-09-30T18:08:21.368Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CARLO ALEJANDRO VALERA SANCHEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "CARLO ALEJANDRO VALERA SANCHEZ",
     "email": "carlovalera95@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a2b74939d1489b6b0b7f62bdbde035422bdba1e1eed597bc57a3c18789cbbf12",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-30T18:23:04.999Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/VASC9509257Y5",
+  "signatureMetadata": {
+    "ip": "130.41.42.234",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-30T18:23:08.373Z",
+    "signedAtLocal": "2026-09-30T12:23:08.373Z"
+  },
+  "documentHash": "31a65e82c96c62ab851ca1824c929e7dbd68905183eabb7d600f52cefbf8e900",
   "auditTrail": [
     {
       "eventId": "2db3ccd1-89a0-4219-aa13-977530a1a791",
@@ -392,6 +400,64 @@
         "representante": "CARLO ALEJANDRO VALERA SANCHEZ"
       },
       "eventHash": "1de8e77fc5b1a649476f898215efd6fde8b4bbbb21fa8ed1c8343673e754f097"
+    },
+    {
+      "eventId": "2398bb1e-063f-4421-90f7-a00ac2b1bc64",
+      "uid": "VASC9509257Y5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-30T18:08:46.704Z",
+      "timestampLocal": "2026-09-30T18:08:46.704Z",
+      "timezone": "UTC+0",
+      "ipAddress": "130.41.42.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8,fr;q=0.7,gl;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VASC9509257Y5&nombre_proveedor_razon_social=CARLO+ALEJANDRO+VALERA+SANCHEZ&nombre_representante_legal=CARLO+ALEJANDRO+VALERA+SANCHEZ&email=carlovalera95%40gmail.com",
+      "previousEventHash": "1de8e77fc5b1a649476f898215efd6fde8b4bbbb21fa8ed1c8343673e754f097",
+      "documentHash": "a2b74939d1489b6b0b7f62bdbde035422bdba1e1eed597bc57a3c18789cbbf12",
+      "eventHash": "e00c3ca974998a04d3bc9e449cefa0f7c81e79617416932662e476c36c222fe5"
+    },
+    {
+      "eventId": "11bcda5e-9a53-41c5-bfc4-a2ab4ccbe7d0",
+      "uid": "VASC9509257Y5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-30T18:22:45.947Z",
+      "timestampLocal": "2026-09-30T18:22:45.947Z",
+      "timezone": "UTC+0",
+      "ipAddress": "130.41.42.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8,fr;q=0.7,gl;q=0.6",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "e00c3ca974998a04d3bc9e449cefa0f7c81e79617416932662e476c36c222fe5",
+      "documentHash": "a2b74939d1489b6b0b7f62bdbde035422bdba1e1eed597bc57a3c18789cbbf12",
+      "eventHash": "fa3469077453a09028514b15ba51e980b0870acad11e5c15b3616f136d34da10"
+    },
+    {
+      "eventId": "dcf93089-e999-4388-9dae-aff30730959a",
+      "uid": "VASC9509257Y5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-30T18:23:08.373Z",
+      "timestampLocal": "2026-09-30T12:23:08.373Z",
+      "timezone": "UTC-6",
+      "ipAddress": "130.41.42.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8,fr;q=0.7,gl;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5adf6d46-a32a-46c2-bf82-d09e64997e12",
+      "previousEventHash": "fa3469077453a09028514b15ba51e980b0870acad11e5c15b3616f136d34da10",
+      "documentHash": "31a65e82c96c62ab851ca1824c929e7dbd68905183eabb7d600f52cefbf8e900",
+      "signatureHash": "0b27dd0e89f20f5678094d0648c47f910b116752bc9e9d6087a5d8bccbd9e59c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-30T12:23:04.999Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "36b1278efa3b82856d9c0e071f6030204049372a2d5f22087774f79e2be84f46"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 23,
+    "verifiedAt": "2026-09-30T18:23:08.581Z"
+  }
 }
