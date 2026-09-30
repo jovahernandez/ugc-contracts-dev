@@ -3,7 +3,7 @@
   "declarationId": "eb643342-c227-4286-8175-983d7618895b",
   "token": "8e8e39f4-89aa-4a78-99f5-7e7102ff7a80",
   "createdAt": "2026-09-30T17:56:15.994Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DANIELA GUZMAN DE LA PEÑA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "DANIELA GUZMÁN DE LA PEÑA",
     "email": "danii.gzmn@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6e9d35d71cb4cd2a76c48dbce78d5fcb1f752cf5b5750a98ab85b075678c5cd5",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-30T17:57:06.160Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GUPD8908105H1",
+  "signatureMetadata": {
+    "ip": "189.244.22.255",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-09-30T17:57:09.971Z",
+    "signedAtLocal": "2026-09-30T11:57:09.971Z"
+  },
+  "documentHash": "be88580920f1e4b10ab0db03fa7b357a17e82f4a348c70cd2e083321fa7c2d76",
   "auditTrail": [
     {
       "eventId": "e21e4b02-9958-40c9-b9a6-12f8288528f2",
@@ -66,6 +74,49 @@
         "representante": "DANIELA GUZMÁN DE LA PEÑA"
       },
       "eventHash": "89d782c29fd573e8dda35c0b073aed83f6485e76b233d4c40af53b2dd89cfc82"
+    },
+    {
+      "eventId": "e5db8199-3d99-4183-8158-bbd188abf967",
+      "uid": "GUPD8908105H1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-30T17:56:32.267Z",
+      "timestampLocal": "2026-09-30T17:56:32.267Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.244.22.255",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GUPD8908105H1&nombre_proveedor_razon_social=DANIELA+GUZMAN+DE+LA+PE%C3%91A&nombre_representante_legal=DANIELA+GUZM%C3%81N+DE+LA+PE%C3%91A&email=danii.gzmn%40gmail.com",
+      "previousEventHash": "89d782c29fd573e8dda35c0b073aed83f6485e76b233d4c40af53b2dd89cfc82",
+      "documentHash": "6e9d35d71cb4cd2a76c48dbce78d5fcb1f752cf5b5750a98ab85b075678c5cd5",
+      "eventHash": "5944fc4152c779a8c773737e55bfda71cbd0a75c901a927540f01a093a90e7a8"
+    },
+    {
+      "eventId": "e1a03276-382e-4619-81dd-a2c549b059a5",
+      "uid": "GUPD8908105H1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-30T17:57:09.971Z",
+      "timestampLocal": "2026-09-30T11:57:09.971Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.244.22.255",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8e8e39f4-89aa-4a78-99f5-7e7102ff7a80",
+      "previousEventHash": "5944fc4152c779a8c773737e55bfda71cbd0a75c901a927540f01a093a90e7a8",
+      "documentHash": "be88580920f1e4b10ab0db03fa7b357a17e82f4a348c70cd2e083321fa7c2d76",
+      "signatureHash": "de8f7781283601718989424bbcf1a067c7b63e6be2c0843e573b6346d344577b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-30T11:57:06.160Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "10bbc2d750bee5cf7ad718e5229297680f88763ebaccd2514782bdb9bfec54ac"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-09-30T17:57:10.261Z"
+  }
 }
