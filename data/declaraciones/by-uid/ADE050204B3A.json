@@ -3,7 +3,7 @@
   "declarationId": "6453fcf0-e4cf-4210-b4d4-e5eeb72bf545",
   "token": "a7190ace-3484-4d90-87df-f99eafbf9fb4",
   "createdAt": "2026-09-30T17:31:54.646Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "AS DEPORTE",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ALVAREZ MARTINEZ ANTONIO",
     "email": "jhernandezg@asdeporte.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "36125b3fcfa9f77e154a744dab75765674fe90567a5967c2df78c42580bf7f54",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-30T22:43:59.830Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ADE050204B3A",
+  "signatureMetadata": {
+    "ip": "132.255.125.34",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "signedAtUtc": "2026-09-30T22:44:03.230Z",
+    "signedAtLocal": "2026-09-30T16:44:03.230Z"
+  },
+  "documentHash": "af939b79d558abd4ccd1662e830cc19ad002db099e7ec82aa6a6e261bb8e687d",
   "auditTrail": [
     {
       "eventId": "1e8409be-8124-4745-ab62-9c2efc0481bd",
@@ -66,6 +74,94 @@
         "representante": "ALVAREZ MARTINEZ ANTONIO"
       },
       "eventHash": "c89190f05588b5f7b5e0e71ca701b16570ece72c7c8b9b1281a1331306ddf100"
+    },
+    {
+      "eventId": "22ec0c15-4365-49dc-bf5d-7d2640e03783",
+      "uid": "ADE050204B3A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-30T17:32:07.054Z",
+      "timestampLocal": "2026-09-30T17:32:07.054Z",
+      "timezone": "UTC+0",
+      "ipAddress": "132.255.125.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ADE050204B3A&nombre_proveedor_razon_social=AS+DEPORTE&nombre_representante_legal=ALVAREZ+MARTINEZ+ANTONIO&email=jhernandezg%40asdeporte.com",
+      "previousEventHash": "c89190f05588b5f7b5e0e71ca701b16570ece72c7c8b9b1281a1331306ddf100",
+      "documentHash": "36125b3fcfa9f77e154a744dab75765674fe90567a5967c2df78c42580bf7f54",
+      "eventHash": "f5093e9530aef73a9c4484c2b819406beacdad73ed2adf956e46b03cdf66b4b1"
+    },
+    {
+      "eventId": "2dab74f0-f7dd-4ddd-a4ac-c31ee9dfc82d",
+      "uid": "ADE050204B3A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-30T22:39:12.545Z",
+      "timestampLocal": "2026-09-30T22:39:12.545Z",
+      "timezone": "UTC+0",
+      "ipAddress": "132.255.125.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "f5093e9530aef73a9c4484c2b819406beacdad73ed2adf956e46b03cdf66b4b1",
+      "documentHash": "36125b3fcfa9f77e154a744dab75765674fe90567a5967c2df78c42580bf7f54",
+      "eventHash": "3ccf16c8f085b5b0effd9de97447c60befd3d0d0c7ca47d62294f0a58435d1dc"
+    },
+    {
+      "eventId": "868b9182-b6ff-49f9-9c47-dff4653b657c",
+      "uid": "ADE050204B3A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-30T22:41:44.071Z",
+      "timestampLocal": "2026-09-30T22:41:44.071Z",
+      "timezone": "UTC+0",
+      "ipAddress": "132.255.125.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "3ccf16c8f085b5b0effd9de97447c60befd3d0d0c7ca47d62294f0a58435d1dc",
+      "documentHash": "36125b3fcfa9f77e154a744dab75765674fe90567a5967c2df78c42580bf7f54",
+      "eventHash": "e1ec22c7ad4157204573d6c8efb84b670ba476ce68a9b3ac34c9298470c4a1c6"
+    },
+    {
+      "eventId": "4595ce49-cca0-4cde-9246-3aee80ff106d",
+      "uid": "ADE050204B3A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-30T22:42:50.310Z",
+      "timestampLocal": "2026-09-30T22:42:50.310Z",
+      "timezone": "UTC+0",
+      "ipAddress": "132.255.125.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "e1ec22c7ad4157204573d6c8efb84b670ba476ce68a9b3ac34c9298470c4a1c6",
+      "documentHash": "36125b3fcfa9f77e154a744dab75765674fe90567a5967c2df78c42580bf7f54",
+      "eventHash": "8261295baf38e2f8c8ba01a3e64901c49793350655aa534e9a763d8af16ee10d"
+    },
+    {
+      "eventId": "c9571a59-9b2d-4bef-9088-9256b12f5a41",
+      "uid": "ADE050204B3A",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-30T22:44:03.231Z",
+      "timestampLocal": "2026-09-30T16:44:03.231Z",
+      "timezone": "UTC-6",
+      "ipAddress": "132.255.125.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a7190ace-3484-4d90-87df-f99eafbf9fb4",
+      "previousEventHash": "8261295baf38e2f8c8ba01a3e64901c49793350655aa534e9a763d8af16ee10d",
+      "documentHash": "af939b79d558abd4ccd1662e830cc19ad002db099e7ec82aa6a6e261bb8e687d",
+      "signatureHash": "7a66ef4af7b5c7d345ec7922d13789ce06116c9f04bc76bb48417c01e52f48f4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-30T16:43:59.830Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "1db9520bb61c35962928cfe1a2f6ee2b343cd590b866b7eef494b29b51a3f112"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-09-30T22:44:03.421Z"
+  }
 }
