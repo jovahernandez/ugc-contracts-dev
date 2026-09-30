@@ -3,7 +3,7 @@
   "declarationId": "fda3792c-816f-4936-b3cc-706afbf31e95",
   "token": "c078afa3-9a47-422c-9edf-0a4a2af4386e",
   "createdAt": "2026-09-30T10:47:16.606Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "Vinicola Pedrucci LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Guilherme Pedrucci",
     "email": "comercial@casapedrucci.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fef15e7ff10fcbdaaf1ec1cbd1d8b045c05214ac1d0abf2dd70d0a2d882db979",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-09-30T10:48:14.919Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/04.880.609%2F0001-53",
+  "signatureMetadata": {
+    "ip": "45.228.22.3",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "signedAtUtc": "2026-09-30T10:48:18.394Z",
+    "signedAtLocal": "2026-09-30T07:48:18.394Z"
+  },
+  "documentHash": "281f6ac201a3add3088993bdaf63763ae3636b1cd32accb44a84e57b0a0b895a",
   "auditTrail": [
     {
       "eventId": "85b6479c-e7f0-4be9-9c8d-ed30f5eb68e1",
@@ -103,6 +111,64 @@
         "representante": "Guilherme Pedrucci"
       },
       "eventHash": "ecd3979ade521cd87e3a4b444e3c1fa135928f00b9b99bbc30e87f8ca6ae7da6"
+    },
+    {
+      "eventId": "6efa4282-f9d0-4b21-a265-903329df4173",
+      "uid": "04.880.609/0001-53",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-30T10:47:29.358Z",
+      "timestampLocal": "2026-09-30T10:47:29.358Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.228.22.3",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=04.880.609%2F0001-53&nombre_proveedor_razon_social=Vinicola+Pedrucci+LTDA&nombre_representante_legal=Guilherme+Pedrucci&email=comercial%40casapedrucci.com.br",
+      "previousEventHash": "ecd3979ade521cd87e3a4b444e3c1fa135928f00b9b99bbc30e87f8ca6ae7da6",
+      "documentHash": "fef15e7ff10fcbdaaf1ec1cbd1d8b045c05214ac1d0abf2dd70d0a2d882db979",
+      "eventHash": "b114995565f007aa9259ed6b7d9894215b031b9a1b71779a8868c1ee531f3b59"
+    },
+    {
+      "eventId": "e226cd7a-da69-487f-98a3-72bc4878c16e",
+      "uid": "04.880.609/0001-53",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-30T10:47:51.922Z",
+      "timestampLocal": "2026-09-30T10:47:51.922Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.228.22.3",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "b114995565f007aa9259ed6b7d9894215b031b9a1b71779a8868c1ee531f3b59",
+      "documentHash": "fef15e7ff10fcbdaaf1ec1cbd1d8b045c05214ac1d0abf2dd70d0a2d882db979",
+      "eventHash": "2a2808c20c8d1f34af93e2ea2a468447ea972e2f46335c05d87254920fdc9394"
+    },
+    {
+      "eventId": "9f8c34ff-e106-41d9-8efa-aaa4f07bb2b2",
+      "uid": "04.880.609/0001-53",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-09-30T10:48:18.394Z",
+      "timestampLocal": "2026-09-30T07:48:18.394Z",
+      "timezone": "UTC-3",
+      "ipAddress": "45.228.22.3",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c078afa3-9a47-422c-9edf-0a4a2af4386e",
+      "previousEventHash": "2a2808c20c8d1f34af93e2ea2a468447ea972e2f46335c05d87254920fdc9394",
+      "documentHash": "281f6ac201a3add3088993bdaf63763ae3636b1cd32accb44a84e57b0a0b895a",
+      "signatureHash": "f24bf21c77289de39317355a5ab89e360144986b0bbbaff179863e7c1512a2a2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-09-30T07:48:14.919Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "75517599103c9b83baa06aa68281c41782f3cb6ee15f07a6f7ecc0a0ec1dbeee"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-09-30T10:48:18.674Z"
+  }
 }
