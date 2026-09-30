@@ -3,8 +3,18 @@
   "declarationId": "154d3f56-9e4f-4d32-8637-154e039f4477",
   "token": "4a124964-b1bf-4354-8fab-7dabb8e4247e",
   "createdAt": "2026-09-30T01:54:59.577Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Anali moreno López",
+    "nombre_representante_legal": "anali moreno lopez",
+    "email": "analimorenolpz@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Anali moreno López",
+    "nombre_representante_legal": "anali moreno lopez",
+    "email": "analimorenolpz@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Anali moreno López",
     "nombre_representante_legal": "anali moreno lopez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "45be8679f048d1dbf6992ad36c76f24b0c188e96864aad848e2175af0de38748",
+  "auditTrail": [
+    {
+      "eventId": "68df958d-3ad0-4143-bd9c-052a1d0523f1",
+      "uid": "MOLA9303105Q8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-09-30T01:55:20.743Z",
+      "timestampLocal": "2026-09-30T01:55:20.743Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.244.134.85",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/154.0.8037.55 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "45be8679f048d1dbf6992ad36c76f24b0c188e96864aad848e2175af0de38748",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "eec9f0329e862342d0fd1f4631d93ef5ffd81e0e6e6f083689cc98e4326f4fdc"
+    },
+    {
+      "eventId": "e07dded1-7725-4352-a2b4-487512d9b9c2",
+      "uid": "MOLA9303105Q8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-09-30T01:55:20.743Z",
+      "timestampLocal": "2026-09-30T01:55:20.743Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.244.134.85",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/154.0.8037.55 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "eec9f0329e862342d0fd1f4631d93ef5ffd81e0e6e6f083689cc98e4326f4fdc",
+      "documentHash": "45be8679f048d1dbf6992ad36c76f24b0c188e96864aad848e2175af0de38748",
+      "metadata": {
+        "proveedor": "Anali moreno López",
+        "representante": "anali moreno lopez"
+      },
+      "eventHash": "ac0ff93da657785e6e8bbcf6e534a485664df3a95d59e17e724ff2fabef517b6"
+    }
+  ]
 }
