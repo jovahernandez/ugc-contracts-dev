@@ -3,8 +3,18 @@
   "declarationId": "a92fef8e-f359-4045-b0fd-a8377c412aa0",
   "token": "25000bb9-e963-4dc2-a26f-9cd0b5749a3e",
   "createdAt": "2026-10-01T23:00:43.565Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "VICTOR DANIEL GONZALEZ MEDINA",
+    "nombre_representante_legal": "N/A",
+    "email": "cuauh.franco@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "VICTOR DANIEL GONZALEZ MEDINA",
+    "nombre_representante_legal": "N/A",
+    "email": "cuauh.franco@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "VICTOR DANIEL GONZALEZ MEDINA",
     "nombre_representante_legal": "N/A",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "37ab3c30bcaa8e65b450cb342b3bd4e6cf380f5161fb50d5bfa0c43353e4fc15",
+  "auditTrail": [
+    {
+      "eventId": "693050d7-daca-47a9-bf6c-7edf6ad91cac",
+      "uid": "93370504",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-01T23:01:06.485Z",
+      "timestampLocal": "2026-10-01T23:01:06.485Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.225.64",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=93370504&nombre_proveedor_razon_social=VICTOR+DANIEL+GONZALEZ+MEDINA&nombre_representante_legal=N%2FA&email=cuauh.franco%40another.co",
+      "previousEventHash": null,
+      "documentHash": "37ab3c30bcaa8e65b450cb342b3bd4e6cf380f5161fb50d5bfa0c43353e4fc15",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6f5bace6cf5d0480ee2c5451dbf8c6631f5c0bdd6fd0f0379514e7f7ee37f887"
+    },
+    {
+      "eventId": "84802eb4-6940-407e-a037-c6f800ecc555",
+      "uid": "93370504",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-01T23:01:06.485Z",
+      "timestampLocal": "2026-10-01T23:01:06.485Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.225.64",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=93370504&nombre_proveedor_razon_social=VICTOR+DANIEL+GONZALEZ+MEDINA&nombre_representante_legal=N%2FA&email=cuauh.franco%40another.co",
+      "previousEventHash": "6f5bace6cf5d0480ee2c5451dbf8c6631f5c0bdd6fd0f0379514e7f7ee37f887",
+      "documentHash": "37ab3c30bcaa8e65b450cb342b3bd4e6cf380f5161fb50d5bfa0c43353e4fc15",
+      "metadata": {
+        "proveedor": "VICTOR DANIEL GONZALEZ MEDINA",
+        "representante": "N/A"
+      },
+      "eventHash": "5ee6441f2a3cfb42b1d3f941430f79e5263a2531223c2024e10b07f51ea4e994"
+    }
+  ]
 }
