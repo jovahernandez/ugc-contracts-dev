@@ -3,7 +3,7 @@
   "declarationId": "cfe9a6f4-4aaa-49ce-8467-985971ef2f9e",
   "token": "602b2ba1-3e93-43d6-b74a-62d83ae6cced",
   "createdAt": "2026-09-29T21:12:49.094Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ANDREA HILDA SUZUKI PADRÓN",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ANDREA HILDA SUZUKI PADRÓN",
     "email": "administracion@breinjart.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9884d5bf6676416cdbc80bcea30f9f127b4419c095c689a996690f53949e7d5d",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-01T20:56:43.217Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/0914326442001",
+  "signatureMetadata": {
+    "ip": "157.100.127.66",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-10-01T20:56:46.607Z",
+    "signedAtLocal": "2026-10-01T15:56:46.607Z"
+  },
+  "documentHash": "91f85e994883a0c9b89ef36aee5c55dc5f92cf2ca72f8645d42819e647edb92b",
   "auditTrail": [
     {
       "eventId": "f2446f7a-2c74-4613-b324-e21ee0eb0611",
@@ -66,6 +74,64 @@
         "representante": "ANDREA HILDA SUZUKI PADRÓN"
       },
       "eventHash": "43ddfe864008890795cfcabe4d64884f5cb854e3140886ada0e704b432b1621a"
+    },
+    {
+      "eventId": "a642840c-a6ac-4bbd-8ce2-571de44f9d91",
+      "uid": "0914326442001",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-29T21:19:53.868Z",
+      "timestampLocal": "2026-09-29T21:19:53.868Z",
+      "timezone": "UTC+0",
+      "ipAddress": "157.100.168.105",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=0914326442001&nombre_proveedor_razon_social=ANDREA+HILDA+SUZUKI+PADR%C3%93N&nombre_representante_legal=ANDREA+HILDA+SUZUKI+PADR%C3%93N&email=administracion%40breinjart.com",
+      "previousEventHash": "43ddfe864008890795cfcabe4d64884f5cb854e3140886ada0e704b432b1621a",
+      "documentHash": "9884d5bf6676416cdbc80bcea30f9f127b4419c095c689a996690f53949e7d5d",
+      "eventHash": "1166b393ae9d47bdbd0f95d9b920ebf9ccc6abfe1e37108ba1352d45374cc2e5"
+    },
+    {
+      "eventId": "af1d400a-cac1-4d08-9144-5412054d7693",
+      "uid": "0914326442001",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-01T20:56:28.089Z",
+      "timestampLocal": "2026-10-01T20:56:28.089Z",
+      "timezone": "UTC+0",
+      "ipAddress": "157.100.127.66",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "1166b393ae9d47bdbd0f95d9b920ebf9ccc6abfe1e37108ba1352d45374cc2e5",
+      "documentHash": "9884d5bf6676416cdbc80bcea30f9f127b4419c095c689a996690f53949e7d5d",
+      "eventHash": "53d6fece0a5e372f458ac56fa05eaf7249f106fae62d65eab516b7ef9789c26b"
+    },
+    {
+      "eventId": "278155ee-e9f6-4a2b-a44a-ca42ccbedc6c",
+      "uid": "0914326442001",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-01T20:56:46.607Z",
+      "timestampLocal": "2026-10-01T15:56:46.607Z",
+      "timezone": "UTC-5",
+      "ipAddress": "157.100.127.66",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "53d6fece0a5e372f458ac56fa05eaf7249f106fae62d65eab516b7ef9789c26b",
+      "documentHash": "91f85e994883a0c9b89ef36aee5c55dc5f92cf2ca72f8645d42819e647edb92b",
+      "signatureHash": "4b9832a3967c753b34e77aca5a90e29e211c6930ef1483b9c1da1350bc77019b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-01T15:56:43.217Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "165515a7aa01ab7b99a0217bfb89355e9767e7046ed9c012d695c9c94227ba67"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-01T20:56:46.907Z"
+  }
 }
