@@ -3,8 +3,18 @@
   "declarationId": "d430f553-5edc-4e58-b314-1c4e579cfee8",
   "token": "0e5d1474-fce4-45f3-b179-6c69d7ee1f23",
   "createdAt": "2026-10-01T04:36:29.700Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "FERNANDO MAYEN MARIN",
+    "nombre_representante_legal": "FERNANDO MAYEN MARIN",
+    "email": "Fermayen21@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "FERNANDO MAYEN MARIN",
+    "nombre_representante_legal": "FERNANDO MAYEN MARIN",
+    "email": "Fermayen21@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "FERNANDO MAYEN MARIN",
     "nombre_representante_legal": "FERNANDO MAYEN MARIN",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "08d124db07a3f09df11b038f56c0d29d38512df78d01296d240965f0a51f89a3",
+  "auditTrail": [
+    {
+      "eventId": "0ea7c491-4dc7-4d90-92b7-681d41988cd1",
+      "uid": "MAMF031108BE7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-01T04:36:36.016Z",
+      "timestampLocal": "2026-10-01T04:36:36.016Z",
+      "timezone": "UTC+0",
+      "ipAddress": "131.178.21.20",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/154.0.8037.55 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "08d124db07a3f09df11b038f56c0d29d38512df78d01296d240965f0a51f89a3",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f79c6d56fe2b2465caaa4a4720afd4b0e25e6a86c84d4ba8b93c61e32f8dae3a"
+    },
+    {
+      "eventId": "b88a8b73-fe79-4bcf-a532-d8f87a011272",
+      "uid": "MAMF031108BE7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-01T04:36:36.016Z",
+      "timestampLocal": "2026-10-01T04:36:36.016Z",
+      "timezone": "UTC+0",
+      "ipAddress": "131.178.21.20",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/154.0.8037.55 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f79c6d56fe2b2465caaa4a4720afd4b0e25e6a86c84d4ba8b93c61e32f8dae3a",
+      "documentHash": "08d124db07a3f09df11b038f56c0d29d38512df78d01296d240965f0a51f89a3",
+      "metadata": {
+        "proveedor": "FERNANDO MAYEN MARIN",
+        "representante": "FERNANDO MAYEN MARIN"
+      },
+      "eventHash": "0dd59128dd9483777a659f4929361814a90bfba06b15fcc029ed9ea4e4cc3620"
+    }
+  ]
 }
