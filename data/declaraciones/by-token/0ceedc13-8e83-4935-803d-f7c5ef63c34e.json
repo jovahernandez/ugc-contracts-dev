@@ -3,8 +3,18 @@
   "declarationId": "666f1316-c8ad-4bbc-974c-7f263061dfdc",
   "token": "0ceedc13-8e83-4935-803d-f7c5ef63c34e",
   "createdAt": "2026-10-01T04:08:28.172Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Samantha Pavon Reyna",
+    "nombre_representante_legal": "Samantha Pavon Reyna",
+    "email": "samanthapavon.corporativo@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Samantha Pavon Reyna",
+    "nombre_representante_legal": "Samantha Pavon Reyna",
+    "email": "samanthapavon.corporativo@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Samantha Pavon Reyna",
     "nombre_representante_legal": "Samantha Pavon Reyna",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "73cefe65f23ad79eb3538be25ba7732f03263772fe87897894eaca922394c4d6",
+  "auditTrail": [
+    {
+      "eventId": "66bf1568-8b43-4445-9b20-6c19e59f4a3a",
+      "uid": "PARS0308186Q6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-01T04:08:34.638Z",
+      "timestampLocal": "2026-10-01T04:08:34.638Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.4.68",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PARS0308186Q6&nombre_proveedor_razon_social=Samantha+Pavon+Reyna&nombre_representante_legal=Samantha+Pavon+Reyna&email=samanthapavon.corporativo%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "73cefe65f23ad79eb3538be25ba7732f03263772fe87897894eaca922394c4d6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "96a367d0ab42b14182242cfa64a3aa0b6720808d48f7197aec066a65fafb0967"
+    },
+    {
+      "eventId": "6352a1e9-de2a-4c9a-a83a-337195e17401",
+      "uid": "PARS0308186Q6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-01T04:08:34.638Z",
+      "timestampLocal": "2026-10-01T04:08:34.638Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.4.68",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PARS0308186Q6&nombre_proveedor_razon_social=Samantha+Pavon+Reyna&nombre_representante_legal=Samantha+Pavon+Reyna&email=samanthapavon.corporativo%40gmail.com",
+      "previousEventHash": "96a367d0ab42b14182242cfa64a3aa0b6720808d48f7197aec066a65fafb0967",
+      "documentHash": "73cefe65f23ad79eb3538be25ba7732f03263772fe87897894eaca922394c4d6",
+      "metadata": {
+        "proveedor": "Samantha Pavon Reyna",
+        "representante": "Samantha Pavon Reyna"
+      },
+      "eventHash": "b264f37c61053241eaa4fc4b2814c75e4002c8684fdaca491cd68caa847ded17"
+    }
+  ]
 }
