@@ -3,7 +3,7 @@
   "declarationId": "a92fef8e-f359-4045-b0fd-a8377c412aa0",
   "token": "25000bb9-e963-4dc2-a26f-9cd0b5749a3e",
   "createdAt": "2026-10-01T23:00:43.565Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "VICTOR DANIEL GONZALEZ MEDINA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "N/A",
     "email": "cuauh.franco@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "57220d4ddb709be06484113e978e3519b264e325b6b076907c2ccc4a30d9b9a7",
+  "personaAutorizada": null,
+  "signedAt": "2026-10-01T23:01:32.942Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/93370504",
+  "signatureMetadata": {
+    "ip": "189.245.225.64",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-01T23:01:36.441Z",
+    "signedAtLocal": "2026-10-01T17:01:36.441Z"
+  },
+  "documentHash": "464df5ac3962e07f1d0b1c5e772a67a1f0adbd4437f21572c3724e1867d4dbf8",
   "auditTrail": [
     {
       "eventId": "693050d7-daca-47a9-bf6c-7edf6ad91cac",
@@ -473,6 +479,84 @@
         "representante": "N/A"
       },
       "eventHash": "e55a1b597d20fd3438881003e04a367e2681825fd407c649f082a043e7659248"
+    },
+    {
+      "eventId": "bc900682-051b-4d2c-a465-a41b6e932b43",
+      "uid": "93370504",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-01T23:01:21.374Z",
+      "timestampLocal": "2026-10-01T23:01:21.374Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.225.64",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=93370504&nombre_proveedor_razon_social=VICTOR+DANIEL+GONZALEZ+MEDINA&nombre_representante_legal=N%2FA&email=cuauh.franco%40another.co",
+      "previousEventHash": "e55a1b597d20fd3438881003e04a367e2681825fd407c649f082a043e7659248",
+      "documentHash": "57220d4ddb709be06484113e978e3519b264e325b6b076907c2ccc4a30d9b9a7",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e408d5b3c0082cff65bb646a4df9a5f20ac110fc951c107c2332168b6d8d0ebf"
+    },
+    {
+      "eventId": "fd352113-9ec5-492d-87d8-b366868464a8",
+      "uid": "93370504",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-01T23:01:21.374Z",
+      "timestampLocal": "2026-10-01T23:01:21.374Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.225.64",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=93370504&nombre_proveedor_razon_social=VICTOR+DANIEL+GONZALEZ+MEDINA&nombre_representante_legal=N%2FA&email=cuauh.franco%40another.co",
+      "previousEventHash": "e408d5b3c0082cff65bb646a4df9a5f20ac110fc951c107c2332168b6d8d0ebf",
+      "documentHash": "57220d4ddb709be06484113e978e3519b264e325b6b076907c2ccc4a30d9b9a7",
+      "metadata": {
+        "proveedor": "VICTOR DANIEL GONZALEZ MEDINA",
+        "representante": "N/A"
+      },
+      "eventHash": "873befea21c0258732140ae987440fd0452fbecd103725418acb32e49b147f02"
+    },
+    {
+      "eventId": "f4887b7a-f802-4ee7-9711-227168dfbd29",
+      "uid": "93370504",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-01T23:01:24.402Z",
+      "timestampLocal": "2026-10-01T23:01:24.402Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.225.64",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://dev-anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "873befea21c0258732140ae987440fd0452fbecd103725418acb32e49b147f02",
+      "documentHash": "57220d4ddb709be06484113e978e3519b264e325b6b076907c2ccc4a30d9b9a7",
+      "eventHash": "6fcfc9e234ce0c72cfb9bb748070764f8cc7d80d93ebe2cc870dc8410ee27d22"
+    },
+    {
+      "eventId": "41e18de4-44bc-4e81-9eb4-ed4c0ef04d4e",
+      "uid": "93370504",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-01T23:01:36.441Z",
+      "timestampLocal": "2026-10-01T17:01:36.441Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.245.225.64",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/25000bb9-e963-4dc2-a26f-9cd0b5749a3e",
+      "previousEventHash": "6fcfc9e234ce0c72cfb9bb748070764f8cc7d80d93ebe2cc870dc8410ee27d22",
+      "documentHash": "464df5ac3962e07f1d0b1c5e772a67a1f0adbd4437f21572c3724e1867d4dbf8",
+      "signatureHash": "29cc10a17d7efca1a7b741dced383f6c428102dfff892d04af0f1b8628e9ab78",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-01T17:01:32.942Z"
+      },
+      "eventHash": "daecdfecfd15ee867e06b1171a6e025e7d398c3f4f92a7f62219b830f91eede3"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 28,
+    "verifiedAt": "2026-10-01T23:01:36.695Z"
+  }
 }
