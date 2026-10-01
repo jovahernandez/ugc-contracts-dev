@@ -3,8 +3,18 @@
   "declarationId": "758bec90-6924-479b-8940-721529f3635e",
   "token": "96ed1dac-12b9-477c-9844-2cfcdf4b04bb",
   "createdAt": "2026-10-01T20:10:53.634Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "G&M spa",
+    "nombre_representante_legal": "Gabriela Zambrano",
+    "email": "contacto@gymproducciones.cl"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "G&M spa",
+    "nombre_representante_legal": "Gabriela Zambrano",
+    "email": "contacto@gymproducciones.cl"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "G&M spa",
     "nombre_representante_legal": "Gabriela Zambrano",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "ddf39fad57a5f208b737c0f319eb210855d6135b6857d89c4b66839a56c22e9e",
+  "auditTrail": [
+    {
+      "eventId": "00477e77-427e-4e70-a56c-4f26e548584d",
+      "uid": "77750589-0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-01T20:11:02.080Z",
+      "timestampLocal": "2026-10-01T20:11:02.080Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.83.208.3",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "ddf39fad57a5f208b737c0f319eb210855d6135b6857d89c4b66839a56c22e9e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4c73cf09c6c284fd187f3e294d3ee6501fc94bbc2701ca01062475186ba53a2a"
+    },
+    {
+      "eventId": "40098a1c-f10e-47f9-9639-c76a824742de",
+      "uid": "77750589-0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-01T20:11:02.080Z",
+      "timestampLocal": "2026-10-01T20:11:02.080Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.83.208.3",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4c73cf09c6c284fd187f3e294d3ee6501fc94bbc2701ca01062475186ba53a2a",
+      "documentHash": "ddf39fad57a5f208b737c0f319eb210855d6135b6857d89c4b66839a56c22e9e",
+      "metadata": {
+        "proveedor": "G&M spa",
+        "representante": "Gabriela Zambrano"
+      },
+      "eventHash": "9a291993e0fb5f56d13e11fb0f6fd1df1efacc6a6d7b6e74718ffe0e8881de34"
+    }
+  ]
 }
