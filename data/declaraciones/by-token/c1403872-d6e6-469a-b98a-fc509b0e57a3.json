@@ -3,8 +3,18 @@
   "declarationId": "12a4792e-8f27-494a-8edc-eba9563deae7",
   "token": "c1403872-d6e6-469a-b98a-fc509b0e57a3",
   "createdAt": "2026-10-02T23:08:10.051Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "SARA MARIA RENTERIA PINEDA",
+    "nombre_representante_legal": "-",
+    "email": "sararenteria76@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "SARA MARIA RENTERIA PINEDA",
+    "nombre_representante_legal": "-",
+    "email": "sararenteria76@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "SARA MARIA RENTERIA PINEDA",
     "nombre_representante_legal": "-",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "73efe0b6565d953219a640e157e377dd7f15d743124d84450277ba9678c201d4",
+  "auditTrail": [
+    {
+      "eventId": "bcf0ecea-c44c-4b94-a721-8e0981890125",
+      "uid": "REPS760920381",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-02T23:08:33.839Z",
+      "timestampLocal": "2026-10-02T23:08:33.839Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.164.25.15",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=REPS760920381&nombre_proveedor_razon_social=SARA+MARIA+RENTERIA+PINEDA&nombre_representante_legal=-&email=sararenteria76%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "73efe0b6565d953219a640e157e377dd7f15d743124d84450277ba9678c201d4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b0d88755d8d1d810357add53a07ac4e655b2018919468edb0cab3707a4b560d6"
+    },
+    {
+      "eventId": "8e08a0e3-8984-4dea-ac11-8052f288fa59",
+      "uid": "REPS760920381",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-02T23:08:33.839Z",
+      "timestampLocal": "2026-10-02T23:08:33.839Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.164.25.15",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=REPS760920381&nombre_proveedor_razon_social=SARA+MARIA+RENTERIA+PINEDA&nombre_representante_legal=-&email=sararenteria76%40gmail.com",
+      "previousEventHash": "b0d88755d8d1d810357add53a07ac4e655b2018919468edb0cab3707a4b560d6",
+      "documentHash": "73efe0b6565d953219a640e157e377dd7f15d743124d84450277ba9678c201d4",
+      "metadata": {
+        "proveedor": "SARA MARIA RENTERIA PINEDA",
+        "representante": "-"
+      },
+      "eventHash": "233a11c31c2ce521c03697d0a507a9b8be982ff013517af7d2474a7cc74bcc62"
+    }
+  ]
 }
