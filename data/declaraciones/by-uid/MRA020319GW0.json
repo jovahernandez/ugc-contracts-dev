@@ -3,8 +3,18 @@
   "declarationId": "169d96cd-e742-415e-b799-e1092913c249",
   "token": "acb0b8d7-1224-47d8-aae5-85e8a410eded",
   "createdAt": "2026-10-02T03:51:35.505Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MILLENIUM RACING SA DE CV",
+    "nombre_representante_legal": "MARIO DOMINGUEZ FERNANDEZ",
+    "email": "gmomascarua@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MILLENIUM RACING SA DE CV",
+    "nombre_representante_legal": "MARIO DOMINGUEZ FERNANDEZ",
+    "email": "gmomascarua@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MILLENIUM RACING SA DE CV",
     "nombre_representante_legal": "MARIO DOMINGUEZ FERNANDEZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "39f9265f57f1ee8ec50e4a1b308dd9f9256ef68b8746a62153db4c5c19cd1619",
+  "auditTrail": [
+    {
+      "eventId": "a5d743aa-8716-4552-9276-3f06fb344028",
+      "uid": "MRA020319GW0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-02T03:51:45.192Z",
+      "timestampLocal": "2026-10-02T03:51:45.192Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.118.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MRA020319GW0&nombre_proveedor_razon_social=MILLENIUM+RACING+SA+DE+CV&nombre_representante_legal=MARIO+DOMINGUEZ+FERNANDEZ&email=gmomascarua%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "39f9265f57f1ee8ec50e4a1b308dd9f9256ef68b8746a62153db4c5c19cd1619",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8d99715f6bcade50e9e1efaef4ca77fc1573ea4289b5c13295d03d462ccb8d6d"
+    },
+    {
+      "eventId": "1414761c-3f8e-4542-be91-9f28f73a5839",
+      "uid": "MRA020319GW0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-02T03:51:45.192Z",
+      "timestampLocal": "2026-10-02T03:51:45.192Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.118.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MRA020319GW0&nombre_proveedor_razon_social=MILLENIUM+RACING+SA+DE+CV&nombre_representante_legal=MARIO+DOMINGUEZ+FERNANDEZ&email=gmomascarua%40gmail.com",
+      "previousEventHash": "8d99715f6bcade50e9e1efaef4ca77fc1573ea4289b5c13295d03d462ccb8d6d",
+      "documentHash": "39f9265f57f1ee8ec50e4a1b308dd9f9256ef68b8746a62153db4c5c19cd1619",
+      "metadata": {
+        "proveedor": "MILLENIUM RACING SA DE CV",
+        "representante": "MARIO DOMINGUEZ FERNANDEZ"
+      },
+      "eventHash": "4faae31a3a12dfa165eca5c1433ee714baf07019a12df95c1898e388773b845a"
+    }
+  ]
 }
