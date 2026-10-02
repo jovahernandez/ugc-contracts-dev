@@ -3,8 +3,18 @@
   "declarationId": "4e24d86a-ab38-46a0-b87d-ebeaf77f15bd",
   "token": "8c8cdd4f-7c10-498b-8ec0-1c9d4a8afb86",
   "createdAt": "2026-10-02T18:16:03.318Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "LIFT BTL PRODUCCION SAS",
+    "nombre_representante_legal": "Luis Enrique Pardo Zuluaga",
+    "email": "liftfacturacion@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "LIFT BTL PRODUCCION SAS",
+    "nombre_representante_legal": "Luis Enrique Pardo Zuluaga",
+    "email": "liftfacturacion@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "LIFT BTL PRODUCCION SAS",
     "nombre_representante_legal": "Luis Enrique Pardo Zuluaga",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "841cd460d2aab9a1a650b4abdad83317b5bd7e86622bcdc4c1d31c3a308acd93",
+  "auditTrail": [
+    {
+      "eventId": "39344351-b952-4226-80cc-bc299e167b27",
+      "uid": "901798774-5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-02T18:16:11.475Z",
+      "timestampLocal": "2026-10-02T18:16:11.475Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.154.35.245",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901798774-5&nombre_proveedor_razon_social=LIFT+BTL+PRODUCCION+SAS&nombre_representante_legal=Luis+Enrique+Pardo+Zuluaga&email=liftfacturacion%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "841cd460d2aab9a1a650b4abdad83317b5bd7e86622bcdc4c1d31c3a308acd93",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b9490a35ddbe24ce63a0eb6fa3d4e4341be126cf4ec4da0bca0a4ca3eeb38923"
+    },
+    {
+      "eventId": "b5099be0-da5c-4eb8-8830-aa53aacc1975",
+      "uid": "901798774-5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-02T18:16:11.476Z",
+      "timestampLocal": "2026-10-02T18:16:11.476Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.154.35.245",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901798774-5&nombre_proveedor_razon_social=LIFT+BTL+PRODUCCION+SAS&nombre_representante_legal=Luis+Enrique+Pardo+Zuluaga&email=liftfacturacion%40gmail.com",
+      "previousEventHash": "b9490a35ddbe24ce63a0eb6fa3d4e4341be126cf4ec4da0bca0a4ca3eeb38923",
+      "documentHash": "841cd460d2aab9a1a650b4abdad83317b5bd7e86622bcdc4c1d31c3a308acd93",
+      "metadata": {
+        "proveedor": "LIFT BTL PRODUCCION SAS",
+        "representante": "Luis Enrique Pardo Zuluaga"
+      },
+      "eventHash": "71e2006bc1d03d94f6e23ca41ecdd92cc5d5c68bcf6b24043c0abaa9298e1b38"
+    }
+  ]
 }
