@@ -3,7 +3,7 @@
   "declarationId": "7e4adffa-350d-41fb-8e91-8cf62e94fcb0",
   "token": "42044d5c-7c85-4bee-a828-b175e5136c88",
   "createdAt": "2026-10-02T22:40:44.803Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "The Public House Design Ltda",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Talita de Almeida Baptista",
     "email": "vinicius@thepublic.house"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "bc64e5b930cb045823104c63d21b34f640c98f235783ba7a48826565cc0849ae",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-02T22:41:56.436Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/43.550.198%2F0001-90",
+  "signatureMetadata": {
+    "ip": "201.93.105.57",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-02T22:41:59.698Z",
+    "signedAtLocal": "2026-10-02T19:41:59.698Z"
+  },
+  "documentHash": "70cc2bf73e1640a1d476f3c9551a326c524331c0edca965954ece74632a2b359",
   "auditTrail": [
     {
       "eventId": "df498270-470b-4c1d-bef2-2fd376f9097f",
@@ -66,6 +74,64 @@
         "representante": "Talita de Almeida Baptista"
       },
       "eventHash": "39cd15a42e6ddb8a0ae817998077c1223b0af2fb0f16ca6383c9a90540fc2c9e"
+    },
+    {
+      "eventId": "589326c3-8f41-44a0-ab4c-b3717929d41d",
+      "uid": "43.550.198/0001-90",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-02T22:40:58.759Z",
+      "timestampLocal": "2026-10-02T22:40:58.759Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.93.105.57",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=43.550.198%2F0001-90&nombre_proveedor_razon_social=The+Public+House+Design+Ltda&nombre_representante_legal=Talita+de+Almeida+Baptista&email=vinicius%40thepublic.house",
+      "previousEventHash": "39cd15a42e6ddb8a0ae817998077c1223b0af2fb0f16ca6383c9a90540fc2c9e",
+      "documentHash": "bc64e5b930cb045823104c63d21b34f640c98f235783ba7a48826565cc0849ae",
+      "eventHash": "95ce7b01bcff33ad99b19a95a70a5bf6b06e0f6715169bb955eca52774da2129"
+    },
+    {
+      "eventId": "77a15ebb-b95c-4ecf-af99-43d8a6e9d3a4",
+      "uid": "43.550.198/0001-90",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-02T22:41:36.668Z",
+      "timestampLocal": "2026-10-02T22:41:36.668Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.93.105.57",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "95ce7b01bcff33ad99b19a95a70a5bf6b06e0f6715169bb955eca52774da2129",
+      "documentHash": "bc64e5b930cb045823104c63d21b34f640c98f235783ba7a48826565cc0849ae",
+      "eventHash": "e0350facd320e61281edf1d5bc68ce47532c9aa50cfdad57f336040a34efb9f7"
+    },
+    {
+      "eventId": "8d24df1b-2ecf-438f-bcc2-49246133ab9e",
+      "uid": "43.550.198/0001-90",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-02T22:41:59.698Z",
+      "timestampLocal": "2026-10-02T19:41:59.698Z",
+      "timezone": "UTC-3",
+      "ipAddress": "201.93.105.57",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/42044d5c-7c85-4bee-a828-b175e5136c88",
+      "previousEventHash": "e0350facd320e61281edf1d5bc68ce47532c9aa50cfdad57f336040a34efb9f7",
+      "documentHash": "70cc2bf73e1640a1d476f3c9551a326c524331c0edca965954ece74632a2b359",
+      "signatureHash": "921fa0508e10acad553d317b1fc150c752abe1eddd2d2060fcf11d61a62f6ce4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-02T19:41:56.436Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "afd4809e4111a3cdefb2328e2a51fe7f1c10672fde4d64909fdfd1b9eca3fb2b"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-02T22:41:59.876Z"
+  }
 }
