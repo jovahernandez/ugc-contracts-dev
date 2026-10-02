@@ -3,7 +3,7 @@
   "declarationId": "dad828e2-b9d8-4b84-8b9f-63c681d0c75f",
   "token": "f43bfdd5-014c-410d-bf7e-5ef312007d34",
   "createdAt": "2026-10-02T18:00:21.209Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "IMH Eventos Ltda",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Marcus Hoenen",
     "email": "marcus@howhub.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7fb6d6c79095f69a8ddef003f321230be92be6d3808a9ba61fe0d43b556a2488",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-02T18:01:12.162Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/47.757.142%2F0001-61",
+  "signatureMetadata": {
+    "ip": "152.234.110.27",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-02T18:01:15.512Z",
+    "signedAtLocal": "2026-10-02T15:01:15.512Z"
+  },
+  "documentHash": "3977d672669dc67e9fcb4d3055db42a5f11fb2763932415a779a1dc2f6cf56e8",
   "auditTrail": [
     {
       "eventId": "17c4e2aa-c3c7-4218-aaa7-b1212e8b1395",
@@ -66,6 +74,49 @@
         "representante": "Marcus Hoenen"
       },
       "eventHash": "96a4d322e9b93b2eccdfd1911855c2996250920442e35fe906230a1079f9d368"
+    },
+    {
+      "eventId": "64f43cf8-7fa9-462e-8080-61ac6e474cd6",
+      "uid": "47.757.142/0001-61",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-02T18:00:31.776Z",
+      "timestampLocal": "2026-10-02T18:00:31.776Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.234.110.27",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,pt;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=47.757.142%2F0001-61&nombre_proveedor_razon_social=IMH+Eventos+Ltda&nombre_representante_legal=Marcus+Hoenen&email=marcus%40howhub.com.br",
+      "previousEventHash": "96a4d322e9b93b2eccdfd1911855c2996250920442e35fe906230a1079f9d368",
+      "documentHash": "7fb6d6c79095f69a8ddef003f321230be92be6d3808a9ba61fe0d43b556a2488",
+      "eventHash": "70a621c6e4e1216a683f864f81f405d520faee48c4c2945469d73e4af036ca50"
+    },
+    {
+      "eventId": "e66f0b00-8ef8-4609-8f88-6da5c2183b67",
+      "uid": "47.757.142/0001-61",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-02T18:01:15.512Z",
+      "timestampLocal": "2026-10-02T15:01:15.512Z",
+      "timezone": "UTC-3",
+      "ipAddress": "152.234.110.27",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,pt;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f43bfdd5-014c-410d-bf7e-5ef312007d34",
+      "previousEventHash": "70a621c6e4e1216a683f864f81f405d520faee48c4c2945469d73e4af036ca50",
+      "documentHash": "3977d672669dc67e9fcb4d3055db42a5f11fb2763932415a779a1dc2f6cf56e8",
+      "signatureHash": "eb64967eef1915f7422d6caa3d6ecfb3c7e0d96e2283598781615c89c1b12466",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-02T15:01:12.162Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "eb7679d2042017c0ec913caad51e18ee35f735a1299bf34fc57854083942efbf"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-02T18:01:15.774Z"
+  }
 }
