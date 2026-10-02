@@ -3,7 +3,7 @@
   "declarationId": "12a4792e-8f27-494a-8edc-eba9563deae7",
   "token": "c1403872-d6e6-469a-b98a-fc509b0e57a3",
   "createdAt": "2026-10-02T23:08:10.051Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "SARA MARIA RENTERIA PINEDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "-",
     "email": "sararenteria76@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b8243891c9a3378284f662b2dfe515b53dfddec90cb6236b53e97ea44e4d6e6f",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-02T23:10:29.039Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/REPS760920381",
+  "signatureMetadata": {
+    "ip": "189.164.25.15",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-02T23:10:32.373Z",
+    "signedAtLocal": "2026-10-02T17:10:32.373Z"
+  },
+  "documentHash": "3a6feca8deb889dea383e783eab0249dce04f89c2ed3fff0903ec7229db91fcc",
   "auditTrail": [
     {
       "eventId": "bcf0ecea-c44c-4b94-a721-8e0981890125",
@@ -103,6 +111,49 @@
         "representante": "-"
       },
       "eventHash": "006800037321b62a128a0aa01b1e9a3983a285cbb2c77bef6f1e55ea168100f7"
+    },
+    {
+      "eventId": "94e5665b-0af4-4222-a66b-5ea2b939e66e",
+      "uid": "REPS760920381",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-02T23:08:38.687Z",
+      "timestampLocal": "2026-10-02T23:08:38.687Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.164.25.15",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=REPS760920381&nombre_proveedor_razon_social=SARA+MARIA+RENTERIA+PINEDA&nombre_representante_legal=-&email=sararenteria76%40gmail.com",
+      "previousEventHash": "006800037321b62a128a0aa01b1e9a3983a285cbb2c77bef6f1e55ea168100f7",
+      "documentHash": "b8243891c9a3378284f662b2dfe515b53dfddec90cb6236b53e97ea44e4d6e6f",
+      "eventHash": "2bbb00877957b378d4db9a6dba741a826bfa851bdff3e9de57ae2ef8619cc280"
+    },
+    {
+      "eventId": "ab37ed98-99f9-4287-b38a-a45551e48168",
+      "uid": "REPS760920381",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-02T23:10:32.373Z",
+      "timestampLocal": "2026-10-02T17:10:32.373Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.164.25.15",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c1403872-d6e6-469a-b98a-fc509b0e57a3",
+      "previousEventHash": "2bbb00877957b378d4db9a6dba741a826bfa851bdff3e9de57ae2ef8619cc280",
+      "documentHash": "3a6feca8deb889dea383e783eab0249dce04f89c2ed3fff0903ec7229db91fcc",
+      "signatureHash": "1ed89c03faf17d854db0ae8dcf35364cf3482451e90e68547deda885fc255d78",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-02T17:10:29.039Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "129bc7d3691110bf5784217b4ff477e48f3fc36bea9a44992de8abe988a5ad1d"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-02T23:10:32.598Z"
+  }
 }
