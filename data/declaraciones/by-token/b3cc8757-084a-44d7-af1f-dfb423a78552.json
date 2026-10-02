@@ -3,8 +3,18 @@
   "declarationId": "f878cd97-cb2f-4e5a-9689-cc11430b344b",
   "token": "b3cc8757-084a-44d7-af1f-dfb423a78552",
   "createdAt": "2026-10-02T19:57:07.924Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "NITZIO MICH SA DE CV",
+    "nombre_representante_legal": "Luis marcelo",
+    "email": "agustin.rios@bemeagency.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "NITZIO MICH SA DE CV",
+    "nombre_representante_legal": "Luis marcelo",
+    "email": "agustin.rios@bemeagency.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "NITZIO MICH SA DE CV",
     "nombre_representante_legal": "Luis marcelo",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "2ba248b864f0e3326ba0baeae664c2e5e1f12da0f3f062ff3d106e0b56490f60",
+  "auditTrail": [
+    {
+      "eventId": "6fde62ad-0d93-4544-966e-2af3ea9049f5",
+      "uid": "NMI220405CQ6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-02T19:57:15.475Z",
+      "timestampLocal": "2026-10-02T19:57:15.475Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.101.67",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "2ba248b864f0e3326ba0baeae664c2e5e1f12da0f3f062ff3d106e0b56490f60",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "642eb6623f4a40d06a6e1579cdb0dc6dce8056cb4ef6a45f4aa359bf7af1966d"
+    },
+    {
+      "eventId": "f8a9ad3b-7b4f-450b-950f-1ada867e67cb",
+      "uid": "NMI220405CQ6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-02T19:57:15.475Z",
+      "timestampLocal": "2026-10-02T19:57:15.475Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.101.67",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "642eb6623f4a40d06a6e1579cdb0dc6dce8056cb4ef6a45f4aa359bf7af1966d",
+      "documentHash": "2ba248b864f0e3326ba0baeae664c2e5e1f12da0f3f062ff3d106e0b56490f60",
+      "metadata": {
+        "proveedor": "NITZIO MICH SA DE CV",
+        "representante": "Luis marcelo"
+      },
+      "eventHash": "27c1d0f502f494d252cd4e264e3081434e439b54166c432c456b6d7032e9533c"
+    }
+  ]
 }
