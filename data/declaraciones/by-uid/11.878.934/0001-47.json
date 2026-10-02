@@ -3,7 +3,7 @@
   "declarationId": "de74a630-b273-4832-88d5-987998b8bd29",
   "token": "b362187f-202c-4002-956a-74c3caca7073",
   "createdAt": "2026-10-01T12:46:15.032Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "CERVEJARIA BERGGREN INDUSTRIA E COMERCIO DE BEBIDAS LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Lucas Berggren",
     "email": "heloiza.salles@berggrenbier.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e7b0a86d602602d7b3562bbb0fcd5f24fa784884ec7138686c4a04e238b016b3",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-02T11:23:06.647Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/11.878.934%2F0001-47",
+  "signatureMetadata": {
+    "ip": "200.206.114.19",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-02T11:23:10.118Z",
+    "signedAtLocal": "2026-10-02T08:23:10.118Z"
+  },
+  "documentHash": "8eac304416c1773f0faddf0308fe8bebfed52cf8feda1c755a4f5cb725bd862f",
   "auditTrail": [
     {
       "eventId": "3fdce4b5-eb8e-4300-b221-f1c3da04cf16",
@@ -66,6 +74,79 @@
         "representante": "Lucas Berggren"
       },
       "eventHash": "f234a580a46e03d8862179986a6ead7849103a38ce4064a77679e85d592a49e6"
+    },
+    {
+      "eventId": "aaa9a6f8-03b2-465f-805f-903759c093f1",
+      "uid": "11.878.934/0001-47",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-01T12:46:31.173Z",
+      "timestampLocal": "2026-10-01T12:46:31.173Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.206.114.19",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-GB;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=11.878.934%2F0001-47&nombre_proveedor_razon_social=CERVEJARIA+BERGGREN+INDUSTRIA+E+COMERCIO+DE+BEBIDAS+LTDA&nombre_representante_legal=Lucas+Berggren&email=heloiza.salles%40berggrenbier.com.br",
+      "previousEventHash": "f234a580a46e03d8862179986a6ead7849103a38ce4064a77679e85d592a49e6",
+      "documentHash": "e7b0a86d602602d7b3562bbb0fcd5f24fa784884ec7138686c4a04e238b016b3",
+      "eventHash": "fe478a5eba18627573e31a593e6b5f3534356d5927c5a0a4e5ccecc60f8af3aa"
+    },
+    {
+      "eventId": "652b5bdb-05af-4ba0-ba7b-56be12fac653",
+      "uid": "11.878.934/0001-47",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-02T11:21:53.461Z",
+      "timestampLocal": "2026-10-02T11:21:53.461Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.206.114.19",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-GB;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "fe478a5eba18627573e31a593e6b5f3534356d5927c5a0a4e5ccecc60f8af3aa",
+      "documentHash": "e7b0a86d602602d7b3562bbb0fcd5f24fa784884ec7138686c4a04e238b016b3",
+      "eventHash": "ab2e18bb55cbe5cddf68d9192e1eb00bb43e0692be115c5aecb47ae29cd7cd45"
+    },
+    {
+      "eventId": "be989590-9191-4f5b-91f6-ed88598c5d57",
+      "uid": "11.878.934/0001-47",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-02T11:22:36.052Z",
+      "timestampLocal": "2026-10-02T11:22:36.052Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.206.114.19",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-GB;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "ab2e18bb55cbe5cddf68d9192e1eb00bb43e0692be115c5aecb47ae29cd7cd45",
+      "documentHash": "e7b0a86d602602d7b3562bbb0fcd5f24fa784884ec7138686c4a04e238b016b3",
+      "eventHash": "9ee60d1be6558ff28dfdc0e38940d348bb6b723167967ea5021c25a70892f600"
+    },
+    {
+      "eventId": "c6731585-ba67-4ccd-974f-a964c29d001b",
+      "uid": "11.878.934/0001-47",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-02T11:23:10.118Z",
+      "timestampLocal": "2026-10-02T08:23:10.118Z",
+      "timezone": "UTC-3",
+      "ipAddress": "200.206.114.19",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-GB;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b362187f-202c-4002-956a-74c3caca7073",
+      "previousEventHash": "9ee60d1be6558ff28dfdc0e38940d348bb6b723167967ea5021c25a70892f600",
+      "documentHash": "8eac304416c1773f0faddf0308fe8bebfed52cf8feda1c755a4f5cb725bd862f",
+      "signatureHash": "9124ffccc02f5a9dacdf1db2eb2632089a83568dbb39299e39b1810229194c1b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-02T08:23:06.647Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "c3aeabf1375e3a96625abd2ae9246210359a94008ddbef91e1fda1cdee85216d"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-02T11:23:10.311Z"
+  }
 }
