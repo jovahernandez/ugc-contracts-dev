@@ -3,7 +3,7 @@
   "declarationId": "5b04c3f0-9f5b-41eb-b2c5-2e1e4d095628",
   "token": "63d6e002-a730-47a2-95d7-6ada49c526d5",
   "createdAt": "2026-10-03T23:17:57.482Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "YADIRA NOEMI CALVILLO RAMIREZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "YADIRA NOEMI CALVILLO RAMIREZ",
     "email": "yadi_noemi02@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "87d1acce043d5e03604b10592b2c92618c18eeedf0efb2fda511e86f6f0f508f",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-03T23:23:19.532Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CARY8604098T1",
+  "signatureMetadata": {
+    "ip": "187.189.148.223",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+    "signedAtUtc": "2026-10-03T23:23:23.025Z",
+    "signedAtLocal": "2026-10-03T17:23:23.025Z"
+  },
+  "documentHash": "a81da04fcf67310020614ad2640e35d73ec0bdc8c2904d3613df0e217b7efbb4",
   "auditTrail": [
     {
       "eventId": "aaeb90fe-6874-4c33-839b-28b272d6b222",
@@ -66,6 +74,49 @@
         "representante": "YADIRA NOEMI CALVILLO RAMIREZ"
       },
       "eventHash": "e6a6eecac5f92fb5cf1033d3bcd15937ca585d52305f0b335cf309f84c69556f"
+    },
+    {
+      "eventId": "0a389033-a28f-4a22-9317-8c2026875af2",
+      "uid": "CARY8604098T1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-03T23:18:09.414Z",
+      "timestampLocal": "2026-10-03T23:18:09.414Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.148.223",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "e6a6eecac5f92fb5cf1033d3bcd15937ca585d52305f0b335cf309f84c69556f",
+      "documentHash": "87d1acce043d5e03604b10592b2c92618c18eeedf0efb2fda511e86f6f0f508f",
+      "eventHash": "6399b3756274987e67c803434574c769908a37566b3848ff16257ffdcd0e3e0a"
+    },
+    {
+      "eventId": "6753ec24-0d65-49dc-af6c-f0699aa1680e",
+      "uid": "CARY8604098T1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-03T23:23:23.025Z",
+      "timestampLocal": "2026-10-03T17:23:23.025Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.148.223",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "6399b3756274987e67c803434574c769908a37566b3848ff16257ffdcd0e3e0a",
+      "documentHash": "a81da04fcf67310020614ad2640e35d73ec0bdc8c2904d3613df0e217b7efbb4",
+      "signatureHash": "b356e553bb065d0fd940c6eaff3d3f64d4bf662b3b82640dbff919f6effd335b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-03T17:23:19.532Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "31ecb9fa471053172fcbe4c2d0a8304fd078662a5f1ef312eaf859799c6b6d28"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-03T23:23:23.211Z"
+  }
 }
