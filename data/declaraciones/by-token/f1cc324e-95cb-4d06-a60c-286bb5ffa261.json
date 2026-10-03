@@ -3,7 +3,7 @@
   "declarationId": "e31f9838-2580-489c-b262-92eae48afa42",
   "token": "f1cc324e-95cb-4d06-a60c-286bb5ffa261",
   "createdAt": "2026-10-03T20:21:24.828Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Krishna Santic Valle",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Another Co",
     "email": "savasantic1234@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d9117da0bcf894f5f27473ab64487d656ec81d0d5666e8c759a2648423615e91",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-03T20:26:41.955Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/19931632-K",
+  "signatureMetadata": {
+    "ip": "179.9.55.55",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-03T20:26:45.670Z",
+    "signedAtLocal": "2026-10-03T17:26:45.670Z"
+  },
+  "documentHash": "d0c8e95309f85508f507a161ce1fde2885f9e67ccbfe7e3c2b50c78c9c81f89d",
   "auditTrail": [
     {
       "eventId": "bc390c28-c467-4375-8dc0-ffdbdd614d06",
@@ -179,11 +187,11 @@
       "eventHash": "57cd572401693e5f982c979dff31ac2f8645c87db288746c36b09fe3405541d3"
     },
     {
-      "eventId": "c66270e8-90d9-4c68-8acb-dd3a625e626b",
+      "eventId": "77ed68cc-9890-4961-86f5-26d5330c5ca1",
       "uid": "19931632-K",
       "eventType": "language_selected",
-      "timestampUtc": "2026-10-03T20:21:38.617Z",
-      "timestampLocal": "2026-10-03T20:21:38.617Z",
+      "timestampUtc": "2026-10-03T20:21:39.070Z",
+      "timestampLocal": "2026-10-03T20:21:39.070Z",
       "timezone": "UTC+0",
       "ipAddress": "179.9.55.55",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
@@ -194,26 +202,84 @@
       "metadata": {
         "language": "es"
       },
-      "eventHash": "c53dd298f870feda2844b69ee8cedba32a349429f2a16da776d427d36712e6b2"
+      "eventHash": "7ccfea265d9153c504089069d76de5759093d453bb55a63067726eb22dfeb0f4"
     },
     {
-      "eventId": "ebf0f65d-0467-491c-ab1b-7304584756aa",
+      "eventId": "9dd7838e-6863-4eaa-ad83-5ddb481402db",
       "uid": "19931632-K",
       "eventType": "document_created",
-      "timestampUtc": "2026-10-03T20:21:38.618Z",
-      "timestampLocal": "2026-10-03T20:21:38.618Z",
+      "timestampUtc": "2026-10-03T20:21:39.070Z",
+      "timestampLocal": "2026-10-03T20:21:39.070Z",
       "timezone": "UTC+0",
       "ipAddress": "179.9.55.55",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
       "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=19931632-K&nombre_proveedor_razon_social=Krishna+Santic+Valle+&nombre_representante_legal=Another+Co+&email=savasantic1234%40gmail.com",
-      "previousEventHash": "c53dd298f870feda2844b69ee8cedba32a349429f2a16da776d427d36712e6b2",
+      "previousEventHash": "7ccfea265d9153c504089069d76de5759093d453bb55a63067726eb22dfeb0f4",
       "documentHash": "d9117da0bcf894f5f27473ab64487d656ec81d0d5666e8c759a2648423615e91",
       "metadata": {
         "proveedor": "Krishna Santic Valle",
         "representante": "Another Co"
       },
-      "eventHash": "d69946b2a2636333ed4dfaf9a34d004b5473746659bf5a7dd60e80366af066d7"
+      "eventHash": "5e1fd3dc66900496fae34b6ac122fd2c4fa34b36b21e90b4718050e237613e50"
+    },
+    {
+      "eventId": "92a01330-7553-42f6-be65-911a3a81091b",
+      "uid": "19931632-K",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-03T20:21:41.573Z",
+      "timestampLocal": "2026-10-03T20:21:41.573Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.9.55.55",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=19931632-K&nombre_proveedor_razon_social=Krishna+Santic+Valle+&nombre_representante_legal=Another+Co+&email=savasantic1234%40gmail.com",
+      "previousEventHash": "5e1fd3dc66900496fae34b6ac122fd2c4fa34b36b21e90b4718050e237613e50",
+      "documentHash": "d9117da0bcf894f5f27473ab64487d656ec81d0d5666e8c759a2648423615e91",
+      "eventHash": "423dd3e633f64f7d76136e7329b9789738a0d1246802e6b89ce68c37899c0216"
+    },
+    {
+      "eventId": "0896cfd2-886f-41e8-a62c-5ec43a80cd97",
+      "uid": "19931632-K",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-03T20:22:43.740Z",
+      "timestampLocal": "2026-10-03T20:22:43.740Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.9.55.55",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "423dd3e633f64f7d76136e7329b9789738a0d1246802e6b89ce68c37899c0216",
+      "documentHash": "d9117da0bcf894f5f27473ab64487d656ec81d0d5666e8c759a2648423615e91",
+      "eventHash": "752bf0d3661ecdb7b38b0c94ad39ed2de983d764938625f5611b6d322d709c87"
+    },
+    {
+      "eventId": "daa54079-b47e-449c-9553-5e174cabb34c",
+      "uid": "19931632-K",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-03T20:26:45.670Z",
+      "timestampLocal": "2026-10-03T17:26:45.670Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.9.55.55",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f1cc324e-95cb-4d06-a60c-286bb5ffa261",
+      "previousEventHash": "752bf0d3661ecdb7b38b0c94ad39ed2de983d764938625f5611b6d322d709c87",
+      "documentHash": "d0c8e95309f85508f507a161ce1fde2885f9e67ccbfe7e3c2b50c78c9c81f89d",
+      "signatureHash": "3fc5cf5fea0cb110ae846ed4801af82772ed22a5111ae0ed84644315fa0743dd",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-03T17:26:41.955Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "0de49a5d809b63e9fe8984f7fc0a7910c0e9416a721cd032533e5111b04baae9"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 13,
+    "verifiedAt": "2026-10-03T20:26:45.925Z"
+  }
 }
