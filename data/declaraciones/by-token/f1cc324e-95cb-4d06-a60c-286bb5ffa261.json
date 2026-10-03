@@ -3,8 +3,18 @@
   "declarationId": "e31f9838-2580-489c-b262-92eae48afa42",
   "token": "f1cc324e-95cb-4d06-a60c-286bb5ffa261",
   "createdAt": "2026-10-03T20:21:24.828Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Krishna Santic Valle",
+    "nombre_representante_legal": "Another Co",
+    "email": "savasantic1234@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Krishna Santic Valle",
+    "nombre_representante_legal": "Another Co",
+    "email": "savasantic1234@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Krishna Santic Valle",
     "nombre_representante_legal": "Another Co",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "91b5955e9a763f24de9136c359291a264b106c5b2543552a2e70acb230d2cb29",
+  "auditTrail": [
+    {
+      "eventId": "bc390c28-c467-4375-8dc0-ffdbdd614d06",
+      "uid": "19931632-K",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-03T20:21:34.441Z",
+      "timestampLocal": "2026-10-03T20:21:34.441Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.9.55.55",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=19931632-K&nombre_proveedor_razon_social=Krishna+Santic+Valle+&nombre_representante_legal=Another+Co+&email=savasantic1234%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "91b5955e9a763f24de9136c359291a264b106c5b2543552a2e70acb230d2cb29",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5689781e08233948ffb04743b45b4aa3375720873c0cbe21b89215489b476395"
+    },
+    {
+      "eventId": "ba0880d6-450d-45a6-94da-b5fb1411cf11",
+      "uid": "19931632-K",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-03T20:21:34.441Z",
+      "timestampLocal": "2026-10-03T20:21:34.441Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.9.55.55",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=19931632-K&nombre_proveedor_razon_social=Krishna+Santic+Valle+&nombre_representante_legal=Another+Co+&email=savasantic1234%40gmail.com",
+      "previousEventHash": "5689781e08233948ffb04743b45b4aa3375720873c0cbe21b89215489b476395",
+      "documentHash": "91b5955e9a763f24de9136c359291a264b106c5b2543552a2e70acb230d2cb29",
+      "metadata": {
+        "proveedor": "Krishna Santic Valle",
+        "representante": "Another Co"
+      },
+      "eventHash": "771ec114005daf981529cf2d45044fff833c977afd58d0ac16e6e8466accd471"
+    }
+  ]
 }
