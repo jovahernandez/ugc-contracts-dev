@@ -3,8 +3,18 @@
   "declarationId": "5af380bc-461e-4cdd-a803-ea8b53fd0951",
   "token": "1100c789-4a4d-4ba7-84c4-d9877075624a",
   "createdAt": "2026-10-05T21:25:58.544Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Regina Bugarin Gómez",
+    "nombre_representante_legal": "Regina Bugarin Gómez",
+    "email": "reginabugarin450@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Regina Bugarin Gómez",
+    "nombre_representante_legal": "Regina Bugarin Gómez",
+    "email": "reginabugarin450@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Regina Bugarin Gómez",
     "nombre_representante_legal": "Regina Bugarin Gómez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "ee6a1227748ba6a719579d9bca07555fb14caa3bcc5bbd9fc3118b20a0917076",
+  "auditTrail": [
+    {
+      "eventId": "289af4a0-2589-4494-ad73-625db1023b2b",
+      "uid": "BUGR051015PS9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-05T21:26:05.412Z",
+      "timestampLocal": "2026-10-05T21:26:05.412Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.85.28",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "ee6a1227748ba6a719579d9bca07555fb14caa3bcc5bbd9fc3118b20a0917076",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "deeafad94eabe22685bc6f50ac29bc371767f8397bfb6a944de019743ef9df35"
+    },
+    {
+      "eventId": "16b0d49d-f8f8-4718-9b93-484dbc6ff4e3",
+      "uid": "BUGR051015PS9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-05T21:26:05.412Z",
+      "timestampLocal": "2026-10-05T21:26:05.412Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.85.28",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "deeafad94eabe22685bc6f50ac29bc371767f8397bfb6a944de019743ef9df35",
+      "documentHash": "ee6a1227748ba6a719579d9bca07555fb14caa3bcc5bbd9fc3118b20a0917076",
+      "metadata": {
+        "proveedor": "Regina Bugarin Gómez",
+        "representante": "Regina Bugarin Gómez"
+      },
+      "eventHash": "edbccd8e5977e57f74857adaa70c49da656e99e433e3ef60d2baa26ec4fa4ce8"
+    }
+  ]
 }
