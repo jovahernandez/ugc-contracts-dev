@@ -3,8 +3,18 @@
   "declarationId": "d36a96c6-3d4a-4276-b4e5-6242acf8f5a3",
   "token": "cc4a1791-7901-4d8a-8fc4-a598480eb41c",
   "createdAt": "2026-10-05T19:02:36.420Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GAMAL DIGITAL S.R.L.",
+    "nombre_representante_legal": "GAMAL DIGITAL S.R.L.",
+    "email": "kmila@ciencialobo.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GAMAL DIGITAL S.R.L.",
+    "nombre_representante_legal": "GAMAL DIGITAL S.R.L.",
+    "email": "kmila@ciencialobo.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GAMAL DIGITAL S.R.L.",
     "nombre_representante_legal": "GAMAL DIGITAL S.R.L.",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "87696d9ca991ad7a6bb261e32091eb9e4090bcf2f2bad1bd1a282b7feaa3f1a2",
+  "auditTrail": [
+    {
+      "eventId": "f9619c37-1fce-4239-86d6-ef1a9f77e10f",
+      "uid": "30718281888",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-05T19:02:50.107Z",
+      "timestampLocal": "2026-10-05T19:02:50.107Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.31.202.68",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=30718281888&nombre_proveedor_razon_social=GAMAL+DIGITAL+S.R.L.&nombre_representante_legal=GAMAL+DIGITAL+S.R.L.&email=kmila%40ciencialobo.com",
+      "previousEventHash": null,
+      "documentHash": "87696d9ca991ad7a6bb261e32091eb9e4090bcf2f2bad1bd1a282b7feaa3f1a2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "686618b35043df4fd9b20ca8aa430ac61868ac3f3498acc5d25cb2177303f726"
+    },
+    {
+      "eventId": "23846d3b-a2b9-4815-b374-5c45a7e63247",
+      "uid": "30718281888",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-05T19:02:50.107Z",
+      "timestampLocal": "2026-10-05T19:02:50.107Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.31.202.68",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=30718281888&nombre_proveedor_razon_social=GAMAL+DIGITAL+S.R.L.&nombre_representante_legal=GAMAL+DIGITAL+S.R.L.&email=kmila%40ciencialobo.com",
+      "previousEventHash": "686618b35043df4fd9b20ca8aa430ac61868ac3f3498acc5d25cb2177303f726",
+      "documentHash": "87696d9ca991ad7a6bb261e32091eb9e4090bcf2f2bad1bd1a282b7feaa3f1a2",
+      "metadata": {
+        "proveedor": "GAMAL DIGITAL S.R.L.",
+        "representante": "GAMAL DIGITAL S.R.L."
+      },
+      "eventHash": "509c2133517702fe545a0475fc175504c026030fc2c74fce15ede256d4f78b59"
+    }
+  ]
 }
