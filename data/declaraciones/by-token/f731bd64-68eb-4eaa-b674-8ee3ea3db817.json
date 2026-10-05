@@ -3,8 +3,18 @@
   "declarationId": "2944bcf4-62b7-4da8-b933-f825439238f6",
   "token": "f731bd64-68eb-4eaa-b674-8ee3ea3db817",
   "createdAt": "2026-10-05T20:55:14.625Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ANA PAULINA NAVA ESTRADA",
+    "nombre_representante_legal": "ANA PAULINA NAVA ESTRADA",
+    "email": "anapaunava.contacto@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ANA PAULINA NAVA ESTRADA",
+    "nombre_representante_legal": "ANA PAULINA NAVA ESTRADA",
+    "email": "anapaunava.contacto@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ANA PAULINA NAVA ESTRADA",
     "nombre_representante_legal": "ANA PAULINA NAVA ESTRADA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4a574a1007eb7414047d0fa749d4207a57c38433fe39b8aa9e910a4bf81e5743",
+  "auditTrail": [
+    {
+      "eventId": "dfea41c3-afd9-42e6-8afd-6d3d8d315775",
+      "uid": "NAEA020327RV9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-05T20:55:23.024Z",
+      "timestampLocal": "2026-10-05T20:55:23.024Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.111.26",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "4a574a1007eb7414047d0fa749d4207a57c38433fe39b8aa9e910a4bf81e5743",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "dd9086fe2fe6f22a625035dc3e9a54d1a71414309d89e2c69278ca11df8aeebd"
+    },
+    {
+      "eventId": "b61c1813-01dd-4445-bb68-e554e641c6bc",
+      "uid": "NAEA020327RV9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-05T20:55:23.024Z",
+      "timestampLocal": "2026-10-05T20:55:23.024Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.111.26",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "dd9086fe2fe6f22a625035dc3e9a54d1a71414309d89e2c69278ca11df8aeebd",
+      "documentHash": "4a574a1007eb7414047d0fa749d4207a57c38433fe39b8aa9e910a4bf81e5743",
+      "metadata": {
+        "proveedor": "ANA PAULINA NAVA ESTRADA",
+        "representante": "ANA PAULINA NAVA ESTRADA"
+      },
+      "eventHash": "5c56aa8df298d3417f35f6fb73987e6355e186b881d693c5831d4d8b80ca5e99"
+    }
+  ]
 }
