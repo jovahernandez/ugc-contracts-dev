@@ -3,7 +3,7 @@
   "declarationId": "7a54c67d-dcfd-4c63-a8cf-27d1fca4a38e",
   "token": "58315f5c-9dab-4f57-8e3a-01c894a49dd3",
   "createdAt": "2026-10-05T22:13:03.097Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "KVM COMUNICACIONES SAC",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Roberto E",
     "email": "roberto.espinosa@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1fa1e2d94313d9f707d79f029a525aee4b2432871c7fd2d2b357786b7f165d1f",
+  "personaAutorizada": null,
+  "signedAt": "2026-10-05T22:13:28.455Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20602127592",
+  "signatureMetadata": {
+    "ip": "187.190.187.122",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-05T22:13:31.821Z",
+    "signedAtLocal": "2026-10-05T16:13:31.821Z"
+  },
+  "documentHash": "d5574d121c954d4faa97108ec3e6263e117a68044a822a84d1657879c992fbb3",
   "auditTrail": [
     {
       "eventId": "afcff64d-7163-458b-a0a5-16c61461a705",
@@ -66,6 +72,84 @@
         "representante": "Roberto E"
       },
       "eventHash": "6d34de89b10e1bbc280761c9b7c4068ce6224a4602f1526b6819dcea0b9af45f"
+    },
+    {
+      "eventId": "4ab01a4a-6c2f-4737-9397-3a7d77db974b",
+      "uid": "20602127592",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-05T22:13:10.825Z",
+      "timestampLocal": "2026-10-05T22:13:10.825Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.187.122",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8,it-IT;q=0.7,it;q=0.6",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=20602127592&nombre_proveedor_razon_social=KVM+COMUNICACIONES+SAC&nombre_representante_legal=Roberto+E+&email=roberto.espinosa%40another.co",
+      "previousEventHash": "6d34de89b10e1bbc280761c9b7c4068ce6224a4602f1526b6819dcea0b9af45f",
+      "documentHash": "2c302252c6a51645e9a1d92599891db038c0fca8599ed11907554b3f1e16594e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ca62a279704d3173baca5a512862f6202b2d8672993ea0ad32007951010e829c"
+    },
+    {
+      "eventId": "b8c4a7cd-3825-42b4-9028-d34444f6245b",
+      "uid": "20602127592",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-05T22:13:10.825Z",
+      "timestampLocal": "2026-10-05T22:13:10.825Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.187.122",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8,it-IT;q=0.7,it;q=0.6",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=20602127592&nombre_proveedor_razon_social=KVM+COMUNICACIONES+SAC&nombre_representante_legal=Roberto+E+&email=roberto.espinosa%40another.co",
+      "previousEventHash": "ca62a279704d3173baca5a512862f6202b2d8672993ea0ad32007951010e829c",
+      "documentHash": "2c302252c6a51645e9a1d92599891db038c0fca8599ed11907554b3f1e16594e",
+      "metadata": {
+        "proveedor": "KVM COMUNICACIONES SAC",
+        "representante": "Roberto E"
+      },
+      "eventHash": "1894cea419b84dd9643e57ee7a62e84d235aa6a890b192c4a20d68c1d92b76ad"
+    },
+    {
+      "eventId": "7166f149-b407-41b9-b76a-921b26fee95e",
+      "uid": "20602127592",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-05T22:13:13.763Z",
+      "timestampLocal": "2026-10-05T22:13:13.763Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.187.122",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8,it-IT;q=0.7,it;q=0.6",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=20602127592&nombre_proveedor_razon_social=KVM+COMUNICACIONES+SAC&nombre_representante_legal=Roberto+E+&email=roberto.espinosa%40another.co",
+      "previousEventHash": "1894cea419b84dd9643e57ee7a62e84d235aa6a890b192c4a20d68c1d92b76ad",
+      "documentHash": "2c302252c6a51645e9a1d92599891db038c0fca8599ed11907554b3f1e16594e",
+      "eventHash": "f20baa0d7efd6badfa9db922ead61a2ac0b1e0ff9d0fae8bfd5fdd8cba216137"
+    },
+    {
+      "eventId": "e754a182-88c7-4e5d-8ca3-f1c32c9b4bba",
+      "uid": "20602127592",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-05T22:13:31.821Z",
+      "timestampLocal": "2026-10-05T16:13:31.821Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.187.122",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8,it-IT;q=0.7,it;q=0.6",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/58315f5c-9dab-4f57-8e3a-01c894a49dd3",
+      "previousEventHash": "f20baa0d7efd6badfa9db922ead61a2ac0b1e0ff9d0fae8bfd5fdd8cba216137",
+      "documentHash": "d5574d121c954d4faa97108ec3e6263e117a68044a822a84d1657879c992fbb3",
+      "signatureHash": "3ece09aaf006aac8ea59ee18edfe772d9a1ff2bc6656286fe83c97eaafaac9ab",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-05T16:13:28.455Z"
+      },
+      "eventHash": "bd6de894842e96f8f903d44d963e155cc27ebbd120f82b4f5d6d6b8a4f66e422"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-05T22:13:32.085Z"
+  }
 }
