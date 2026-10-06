@@ -3,7 +3,7 @@
   "declarationId": "fde63c22-7a55-49d8-bada-5814b75a11e0",
   "token": "f523b30e-f86d-4be1-9dc1-db24f4bb3b53",
   "createdAt": "2026-10-06T23:12:37.234Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ACCOMS LATAM",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Gabriela María Castro Gerardo",
     "email": "gabymacage@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fe3f0466532efff85f63660d60418a64c70cf4517f54855537f4f155ede9967e",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-06T23:14:23.933Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CAGG930103D23",
+  "signatureMetadata": {
+    "ip": "187.188.33.29",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-06T23:14:27.361Z",
+    "signedAtLocal": "2026-10-06T16:14:27.361Z"
+  },
+  "documentHash": "2c5546740fb67d4dcbb7c8279c0f6557bdf6c16c9b2bae0da8f4bc314c713abf",
   "auditTrail": [
     {
       "eventId": "f991a8d1-f8c0-4df1-be97-3d4c978d3f20",
@@ -66,6 +74,49 @@
         "representante": "Gabriela María Castro Gerardo"
       },
       "eventHash": "fe5cc0db5a122dd7f991a81b339e9a0c56fe39368995a72f9e35e220ca60e4c3"
+    },
+    {
+      "eventId": "339ad34b-8652-4a8f-9e37-83637893d93b",
+      "uid": "CAGG930103D23",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-06T23:13:22.402Z",
+      "timestampLocal": "2026-10-06T23:13:22.402Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.33.29",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAGG930103D23&nombre_proveedor_razon_social=ACCOMS+LATAM&nombre_representante_legal=Gabriela+Mar%C3%ADa+Castro+Gerardo&email=gabymacage%40gmail.com",
+      "previousEventHash": "fe5cc0db5a122dd7f991a81b339e9a0c56fe39368995a72f9e35e220ca60e4c3",
+      "documentHash": "fe3f0466532efff85f63660d60418a64c70cf4517f54855537f4f155ede9967e",
+      "eventHash": "2c0c39522ff3ffa71b58d0f824fdd7a678a6013ef9ae58dd98bbc0676a7c001a"
+    },
+    {
+      "eventId": "623ec33c-fada-4439-95f1-bd0d9ce616cb",
+      "uid": "CAGG930103D23",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-06T23:14:27.361Z",
+      "timestampLocal": "2026-10-06T16:14:27.361Z",
+      "timezone": "UTC-7",
+      "ipAddress": "187.188.33.29",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f523b30e-f86d-4be1-9dc1-db24f4bb3b53",
+      "previousEventHash": "2c0c39522ff3ffa71b58d0f824fdd7a678a6013ef9ae58dd98bbc0676a7c001a",
+      "documentHash": "2c5546740fb67d4dcbb7c8279c0f6557bdf6c16c9b2bae0da8f4bc314c713abf",
+      "signatureHash": "bf8b537d97deaabed1ca96eaa9915dc960194f6d5f5213dc75f7524167153c81",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-06T16:14:23.933Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "c9997222de809c900d2341cbdda2f45d59317012265dd74af75cae985cdbb9cf"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-06T23:14:27.563Z"
+  }
 }
