@@ -3,8 +3,18 @@
   "declarationId": "4f2fbd19-d43d-4a94-be41-b21f07afc28d",
   "token": "8b6462b9-bd39-4174-afed-10c05e36e20b",
   "createdAt": "2026-10-06T23:08:16.262Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GRUPO HOTELERO HABITA",
+    "nombre_representante_legal": "LIZETH SALINAS LOZANO",
+    "email": "eventos@hotelhabita.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GRUPO HOTELERO HABITA",
+    "nombre_representante_legal": "LIZETH SALINAS LOZANO",
+    "email": "eventos@hotelhabita.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GRUPO HOTELERO HABITA",
     "nombre_representante_legal": "LIZETH SALINAS LOZANO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "5549d19cc69fa60b1e555d4d78579bdcbd3335201075ebcfc025fc964a683ff0",
+  "auditTrail": [
+    {
+      "eventId": "b9fd1e91-ccf5-40c5-a3f4-3af04855050b",
+      "uid": "GHH180822830",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-06T23:08:21.874Z",
+      "timestampLocal": "2026-10-06T23:08:21.874Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.166.101.189",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GHH180822830&nombre_proveedor_razon_social=GRUPO+HOTELERO+HABITA+&nombre_representante_legal=LIZETH+SALINAS+LOZANO&email=eventos%40hotelhabita.com",
+      "previousEventHash": null,
+      "documentHash": "5549d19cc69fa60b1e555d4d78579bdcbd3335201075ebcfc025fc964a683ff0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "816a8e7a8e49ea263346a2cf0acd6345f0872d83b2a67389c1b1c69938234d52"
+    },
+    {
+      "eventId": "b696c036-98da-40e8-830e-9d03c3297e72",
+      "uid": "GHH180822830",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-06T23:08:21.874Z",
+      "timestampLocal": "2026-10-06T23:08:21.874Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.166.101.189",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GHH180822830&nombre_proveedor_razon_social=GRUPO+HOTELERO+HABITA+&nombre_representante_legal=LIZETH+SALINAS+LOZANO&email=eventos%40hotelhabita.com",
+      "previousEventHash": "816a8e7a8e49ea263346a2cf0acd6345f0872d83b2a67389c1b1c69938234d52",
+      "documentHash": "5549d19cc69fa60b1e555d4d78579bdcbd3335201075ebcfc025fc964a683ff0",
+      "metadata": {
+        "proveedor": "GRUPO HOTELERO HABITA",
+        "representante": "LIZETH SALINAS LOZANO"
+      },
+      "eventHash": "35fdb2ea00f10fd4faa55b8df719f9c14b1fcad2d19103bcf48f6d8c42de6149"
+    }
+  ]
 }
