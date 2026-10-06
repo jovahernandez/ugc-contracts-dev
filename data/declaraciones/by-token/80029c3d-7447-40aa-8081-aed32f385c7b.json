@@ -3,7 +3,7 @@
   "declarationId": "46b356d0-59ff-437b-8959-2b67176c623b",
   "token": "80029c3d-7447-40aa-8081-aed32f385c7b",
   "createdAt": "2026-10-06T20:58:06.336Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "Luppa Comunicaão Ltda",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Luciana Eschiapati",
     "email": "financeiro2@luppaatelie.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "033afd15bd639d3f1085d337df063e8c4887be8bca8a4f2a21c4a0083244c30e",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-06T20:58:38.293Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/48.653.597%2F0001-08",
+  "signatureMetadata": {
+    "ip": "187.122.57.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-06T20:58:41.656Z",
+    "signedAtLocal": "2026-10-06T17:58:41.656Z"
+  },
+  "documentHash": "f93b81ba9ab29d866cbdc2866d68d197dc3c2f89fb0711e6ae6c0cfaee56b59e",
   "auditTrail": [
     {
       "eventId": "b1029fe7-42fa-4e24-b86b-f8b9680f1c78",
@@ -66,6 +74,49 @@
         "representante": "Luciana Eschiapati"
       },
       "eventHash": "19d16dff4fcb112ca689c8277b845a0009d1d62cba50a91763f6f927c6751b1f"
+    },
+    {
+      "eventId": "e97e770c-8314-46df-8cfb-cc578a03c15b",
+      "uid": "48.653.597/0001-08",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-06T20:58:16.687Z",
+      "timestampLocal": "2026-10-06T20:58:16.687Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.122.57.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=48.653.597%2F0001-08&nombre_proveedor_razon_social=Luppa+Comunica%C3%A3o+Ltda&nombre_representante_legal=Luciana+Eschiapati&email=financeiro2%40luppaatelie.com",
+      "previousEventHash": "19d16dff4fcb112ca689c8277b845a0009d1d62cba50a91763f6f927c6751b1f",
+      "documentHash": "033afd15bd639d3f1085d337df063e8c4887be8bca8a4f2a21c4a0083244c30e",
+      "eventHash": "f7afafceaccf7b908ad353736c0611f5d7692744ce234681118086beea6f6803"
+    },
+    {
+      "eventId": "19cd0cd0-8a13-4abf-9c69-fd53741909d4",
+      "uid": "48.653.597/0001-08",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-06T20:58:41.656Z",
+      "timestampLocal": "2026-10-06T17:58:41.656Z",
+      "timezone": "UTC-3",
+      "ipAddress": "187.122.57.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/80029c3d-7447-40aa-8081-aed32f385c7b",
+      "previousEventHash": "f7afafceaccf7b908ad353736c0611f5d7692744ce234681118086beea6f6803",
+      "documentHash": "f93b81ba9ab29d866cbdc2866d68d197dc3c2f89fb0711e6ae6c0cfaee56b59e",
+      "signatureHash": "e15e69930bbe5a7682733e2d83d24a70514dd5642268a2d0405bb65ddb5db0e8",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-06T17:58:38.293Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "d27629ad621d33b522e16e545408f7c36b73f500588ee5856fa3120be30f787e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-06T20:58:41.951Z"
+  }
 }
