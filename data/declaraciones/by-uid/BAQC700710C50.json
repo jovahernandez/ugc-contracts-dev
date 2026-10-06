@@ -3,7 +3,7 @@
   "declarationId": "f6a230d0-5a94-4da6-a549-f6f9e5ea66fc",
   "token": "eede6d13-4d43-4fa5-a37a-a8b8ed92f736",
   "createdAt": "2026-10-06T00:29:22.999Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CLAUDIA LORENA BRAVO QUEVEDO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "CLAUDIA LORENA BRAVO QUEVEDO",
     "email": "miguellara285@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "94032e3aefba581ce09f93c3101e0854a2dcd2b2fd8d6b4bba99fa063e20bf36",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-06T00:31:10.229Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BAQC700710C50",
+  "signatureMetadata": {
+    "ip": "189.245.210.177",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "signedAtUtc": "2026-10-06T00:31:15.942Z",
+    "signedAtLocal": "2026-10-05T18:31:15.942Z"
+  },
+  "documentHash": "79b2221bbacbe71b9a647d3cbd7bb2999c7482aff9bc72d6355c11da5753f171",
   "auditTrail": [
     {
       "eventId": "7f0d8aba-f9c1-4ac5-a4c3-08e14984b076",
@@ -118,6 +126,49 @@
         "representante": "CLAUDIA LORENA BRAVO QUEVEDO"
       },
       "eventHash": "d553bdb81fe0b9a161a246764a8ea12a5152d2cfc1d202d6026086e787be93f6"
+    },
+    {
+      "eventId": "36102254-c912-4dbc-97ba-fcd0cba3a5be",
+      "uid": "BAQC700710C50",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-06T00:29:41.266Z",
+      "timestampLocal": "2026-10-06T00:29:41.266Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.210.177",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BAQC700710C50&nombre_proveedor_razon_social=CLAUDIA+LORENA+BRAVO+QUEVEDO&nombre_representante_legal=CLAUDIA+LORENA+BRAVO+QUEVEDO&email=miguellara285%40hotmail.com",
+      "previousEventHash": "d553bdb81fe0b9a161a246764a8ea12a5152d2cfc1d202d6026086e787be93f6",
+      "documentHash": "94032e3aefba581ce09f93c3101e0854a2dcd2b2fd8d6b4bba99fa063e20bf36",
+      "eventHash": "62538f4ce3372cb19b36b42e4df72a81dc4022a53de1e718683aae31be2a39c9"
+    },
+    {
+      "eventId": "1f8115c0-8564-4050-ba5b-38d37f033a8e",
+      "uid": "BAQC700710C50",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-06T00:31:15.942Z",
+      "timestampLocal": "2026-10-05T18:31:15.942Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.245.210.177",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/eede6d13-4d43-4fa5-a37a-a8b8ed92f736",
+      "previousEventHash": "62538f4ce3372cb19b36b42e4df72a81dc4022a53de1e718683aae31be2a39c9",
+      "documentHash": "79b2221bbacbe71b9a647d3cbd7bb2999c7482aff9bc72d6355c11da5753f171",
+      "signatureHash": "5f44d7dd9a9f63082e3e2c858b1fb13a84a6c12c75845238c8c4cfbd93ffd4b2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-05T18:31:10.229Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "fae330a6c3c9ea99dd2d63e4371e154b9e1aa439ee960636866913efbcdee84e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-10-06T00:31:16.234Z"
+  }
 }
