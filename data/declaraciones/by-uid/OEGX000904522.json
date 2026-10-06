@@ -3,7 +3,7 @@
   "declarationId": "4d33679a-21a2-4680-bc8f-afe1dd78ffe9",
   "token": "7c4185c3-fe52-49c0-b741-00e4266115db",
   "createdAt": "2026-10-06T23:23:16.851Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "XIMENA ORTEGA GAMBOA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "XIMENA ORTEGA GAMBOA",
     "email": "ximenagamboacollabs@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6cd40d9fcd7202b91d94aff8565a03ecac68c9fa812fd9f4b343be329c425984",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-06T23:24:30.665Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/OEGX000904522",
+  "signatureMetadata": {
+    "ip": "187.191.33.234",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-06T23:24:34.021Z",
+    "signedAtLocal": "2026-10-06T17:24:34.021Z"
+  },
+  "documentHash": "e37578527be4fd0ec03f6980800224dd8c29411298dbe04c6e8bd76ed6e95505",
   "auditTrail": [
     {
       "eventId": "bee5328d-7ebd-4831-9be2-0ddfdd7562b7",
@@ -66,6 +74,49 @@
         "representante": "XIMENA ORTEGA GAMBOA"
       },
       "eventHash": "a7a380fbc9f0379158b45a0a7b15199e8cb7c58cbc95b63e2c5a4469c19acb1a"
+    },
+    {
+      "eventId": "68e2e664-4e67-4f27-9afa-8c6141f10f58",
+      "uid": "OEGX000904522",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-06T23:23:27.133Z",
+      "timestampLocal": "2026-10-06T23:23:27.133Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.33.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OEGX000904522&nombre_proveedor_razon_social=XIMENA+ORTEGA+GAMBOA&nombre_representante_legal=XIMENA+ORTEGA+GAMBOA&email=ximenagamboacollabs%40gmail.com",
+      "previousEventHash": "a7a380fbc9f0379158b45a0a7b15199e8cb7c58cbc95b63e2c5a4469c19acb1a",
+      "documentHash": "6cd40d9fcd7202b91d94aff8565a03ecac68c9fa812fd9f4b343be329c425984",
+      "eventHash": "4c16b7443ab853e8edecf2262bbfb1016b908644b43464be2732905cdb144f42"
+    },
+    {
+      "eventId": "ffd2ba2d-3e2d-46e7-9fd9-44444f9fddf9",
+      "uid": "OEGX000904522",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-06T23:24:34.021Z",
+      "timestampLocal": "2026-10-06T17:24:34.021Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.191.33.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7c4185c3-fe52-49c0-b741-00e4266115db",
+      "previousEventHash": "4c16b7443ab853e8edecf2262bbfb1016b908644b43464be2732905cdb144f42",
+      "documentHash": "e37578527be4fd0ec03f6980800224dd8c29411298dbe04c6e8bd76ed6e95505",
+      "signatureHash": "391ae5d5b0b5d0d98de5f677e375d3c075095a521269b14dbfba8ef0a7bb8ac9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-06T17:24:30.665Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "cd16c8437760a8de8fda937f893fac4e07433c6c83c4827ab55df839863ea6cb"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-06T23:24:34.202Z"
+  }
 }
