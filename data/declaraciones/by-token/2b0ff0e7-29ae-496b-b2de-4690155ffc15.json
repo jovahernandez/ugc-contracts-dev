@@ -3,7 +3,7 @@
   "declarationId": "0b5d1cee-6b2c-46d3-a61d-e0e032d1c65d",
   "token": "2b0ff0e7-29ae-496b-b2de-4690155ffc15",
   "createdAt": "2026-10-06T03:33:16.242Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EDDY CUTBERTO BLANCO ESPINOZA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "EDDY CUTBERTO BLANCO ESPINOZA",
     "email": "eddyespinozaphoto@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "794d8c60391a3e8b817ce6274e05d4477f6d53a31676f245b227c3b395294af1",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-06T03:34:25.854Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BAEE920320U30",
+  "signatureMetadata": {
+    "ip": "201.124.210.13",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-06T03:34:29.204Z",
+    "signedAtLocal": "2026-10-05T21:34:29.204Z"
+  },
+  "documentHash": "b83d89e3df43e03e13bdc97e5c2fa5ad0b6cc118215ef68fe114e869d532a6b3",
   "auditTrail": [
     {
       "eventId": "e2a98118-1437-445f-91bc-16b8b8cc35c8",
@@ -103,6 +111,49 @@
         "representante": "EDDY CUTBERTO BLANCO ESPINOZA"
       },
       "eventHash": "de47e6e5152b5b01af9a485c0ea70d314a4cac4b6781203870ecf79496023f47"
+    },
+    {
+      "eventId": "48054fe3-2119-475b-b342-67fd7e1f609a",
+      "uid": "BAEE920320U30",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-06T03:33:29.516Z",
+      "timestampLocal": "2026-10-06T03:33:29.516Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.210.13",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BAEE920320U30&nombre_proveedor_razon_social=EDDY+CUTBERTO+BLANCO+ESPINOZA&nombre_representante_legal=EDDY+CUTBERTO+BLANCO+ESPINOZA&email=eddyespinozaphoto%40gmail.com",
+      "previousEventHash": "de47e6e5152b5b01af9a485c0ea70d314a4cac4b6781203870ecf79496023f47",
+      "documentHash": "794d8c60391a3e8b817ce6274e05d4477f6d53a31676f245b227c3b395294af1",
+      "eventHash": "8a955ec25f69cf90caec44db99750dcc881d189857140efb25c0f25954cce5c3"
+    },
+    {
+      "eventId": "5d740b89-84f0-4bb1-87b1-3e6cb708569b",
+      "uid": "BAEE920320U30",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-06T03:34:29.204Z",
+      "timestampLocal": "2026-10-05T21:34:29.204Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.124.210.13",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/2b0ff0e7-29ae-496b-b2de-4690155ffc15",
+      "previousEventHash": "8a955ec25f69cf90caec44db99750dcc881d189857140efb25c0f25954cce5c3",
+      "documentHash": "b83d89e3df43e03e13bdc97e5c2fa5ad0b6cc118215ef68fe114e869d532a6b3",
+      "signatureHash": "1c04081d56b6ca083f92d0d0fa459bee93a58a080fa344c9e7db0337cbc38047",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-05T21:34:25.854Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "a451f7c4b3efd425452cd8f5a9ea6458a996794f0249802182ee555f08036592"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-06T03:34:29.392Z"
+  }
 }
