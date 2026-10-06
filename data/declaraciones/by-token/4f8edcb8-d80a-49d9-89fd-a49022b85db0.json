@@ -3,8 +3,18 @@
   "declarationId": "83c96bdb-d471-4671-80c2-5651db7b19b2",
   "token": "4f8edcb8-d80a-49d9-89fd-a49022b85db0",
   "createdAt": "2026-10-06T17:05:40.168Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Diana Leticia Ancona Lezama",
+    "nombre_representante_legal": "no aplica",
+    "email": "diana@anconawellness.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Diana Leticia Ancona Lezama",
+    "nombre_representante_legal": "no aplica",
+    "email": "diana@anconawellness.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Diana Leticia Ancona Lezama",
     "nombre_representante_legal": "no aplica",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "e3386599bab123b44726516b65950ffc5cf35557d04fb924a0eafee45e2c788e",
+  "auditTrail": [
+    {
+      "eventId": "52b4d8b8-12cd-442e-a178-cee41a1010d4",
+      "uid": "AOLD890914CS7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-06T17:05:47.908Z",
+      "timestampLocal": "2026-10-06T17:05:47.908Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.229.39",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "en-CA,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "e3386599bab123b44726516b65950ffc5cf35557d04fb924a0eafee45e2c788e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "649d8f445f02721df931289bbc81613277135ed8b31eca79c1adab6a19d51545"
+    },
+    {
+      "eventId": "5ca97650-9778-495b-942a-a4623571f739",
+      "uid": "AOLD890914CS7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-06T17:05:47.908Z",
+      "timestampLocal": "2026-10-06T17:05:47.908Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.229.39",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "en-CA,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "649d8f445f02721df931289bbc81613277135ed8b31eca79c1adab6a19d51545",
+      "documentHash": "e3386599bab123b44726516b65950ffc5cf35557d04fb924a0eafee45e2c788e",
+      "metadata": {
+        "proveedor": "Diana Leticia Ancona Lezama",
+        "representante": "no aplica"
+      },
+      "eventHash": "1b1d5e7dccaf949357e559c41e7e05ada3181c34fcfc321b150a665cfad15c6f"
+    }
+  ]
 }
