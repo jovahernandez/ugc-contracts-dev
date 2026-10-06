@@ -3,7 +3,7 @@
   "declarationId": "83c96bdb-d471-4671-80c2-5651db7b19b2",
   "token": "4f8edcb8-d80a-49d9-89fd-a49022b85db0",
   "createdAt": "2026-10-06T17:05:40.168Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Diana Leticia Ancona Lezama",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "no aplica",
     "email": "diana@anconawellness.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2431bc06b7236ed5cd28adf9e9fec2120ad2170d2d048c85796e9b86cf25f60b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-06T17:06:16.283Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AOLD890914CS7",
+  "signatureMetadata": {
+    "ip": "187.190.229.39",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+    "signedAtUtc": "2026-10-06T17:06:19.869Z",
+    "signedAtLocal": "2026-10-06T11:06:19.869Z"
+  },
+  "documentHash": "fda465938a372cf0d91193d99812bd37ebde1414fa2b44f0a0cd96a0f6d2d7b5",
   "auditTrail": [
     {
       "eventId": "52b4d8b8-12cd-442e-a178-cee41a1010d4",
@@ -155,6 +163,49 @@
         "representante": "no aplica"
       },
       "eventHash": "8219a25bdfb186a969833976101dc5e9ff71a778f19b29a2cbbfaafc292e7ecf"
+    },
+    {
+      "eventId": "fefa36b8-6a33-4016-b085-05fc975069ef",
+      "uid": "AOLD890914CS7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-06T17:05:55.566Z",
+      "timestampLocal": "2026-10-06T17:05:55.566Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.229.39",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "en-CA,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8219a25bdfb186a969833976101dc5e9ff71a778f19b29a2cbbfaafc292e7ecf",
+      "documentHash": "2431bc06b7236ed5cd28adf9e9fec2120ad2170d2d048c85796e9b86cf25f60b",
+      "eventHash": "6d8b030e99c86dd7788e494ce523a0f8a8602267128f4957be84a25b3076680f"
+    },
+    {
+      "eventId": "eed1da27-b9ba-4695-a563-c64db226d83f",
+      "uid": "AOLD890914CS7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-06T17:06:19.870Z",
+      "timestampLocal": "2026-10-06T11:06:19.870Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.229.39",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "en-CA,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "6d8b030e99c86dd7788e494ce523a0f8a8602267128f4957be84a25b3076680f",
+      "documentHash": "fda465938a372cf0d91193d99812bd37ebde1414fa2b44f0a0cd96a0f6d2d7b5",
+      "signatureHash": "d9faaf11c0b1b123616fc0fdba1253bf937b262b8c72d2564e45155e46234fcc",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-06T11:06:16.283Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "daae8de936c583781ebf4d5a082f919e29b9569efc3d3d0f04799964dc2536cc"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 9,
+    "verifiedAt": "2026-10-06T17:06:20.047Z"
+  }
 }
