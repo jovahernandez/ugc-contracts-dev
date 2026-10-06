@@ -3,7 +3,7 @@
   "declarationId": "5e4e5748-e0f2-4512-9f7a-c2d447ba1611",
   "token": "2d529799-9b9f-4ef6-942c-409dc0c4eeff",
   "createdAt": "2026-10-06T03:15:06.482Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "HUMBERTO BRANDAO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "HUMBERTO BRANDAO",
     "email": "humberto@elcuara.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b21bf65a1475414714895268be3b8a6d3715e6e784f31c3923e1c8785331830b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-06T03:17:06.372Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/8705809",
+  "signatureMetadata": {
+    "ip": "190.123.235.93",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-06T03:17:10.033Z",
+    "signedAtLocal": "2026-10-05T22:17:10.033Z"
+  },
+  "documentHash": "21658b1844baab8f579f1761c956842187d141618b440b950ffaecf99e433c85",
   "auditTrail": [
     {
       "eventId": "7cb76efc-901e-4047-a754-d16f38476108",
@@ -66,6 +74,49 @@
         "representante": "HUMBERTO BRANDAO"
       },
       "eventHash": "6aa5ca432b6bda6a08376443cbb3ed103adf6a09e57859eb67404d06e00928b3"
+    },
+    {
+      "eventId": "db2faed6-8528-48e3-92e1-e687f7843b66",
+      "uid": "8705809",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-06T03:15:18.986Z",
+      "timestampLocal": "2026-10-06T03:15:18.986Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.123.235.93",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=8705809&nombre_proveedor_razon_social=HUMBERTO+BRANDAO&nombre_representante_legal=HUMBERTO+BRANDAO&email=humberto%40elcuara.com",
+      "previousEventHash": "6aa5ca432b6bda6a08376443cbb3ed103adf6a09e57859eb67404d06e00928b3",
+      "documentHash": "b21bf65a1475414714895268be3b8a6d3715e6e784f31c3923e1c8785331830b",
+      "eventHash": "8623236d5d625faf8326e571dafeff114fbb6677c8391d5009d3358213ae2064"
+    },
+    {
+      "eventId": "f3a75e26-0177-4240-b936-ec6f9c569691",
+      "uid": "8705809",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-06T03:17:10.033Z",
+      "timestampLocal": "2026-10-05T22:17:10.033Z",
+      "timezone": "UTC-5",
+      "ipAddress": "190.123.235.93",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/2d529799-9b9f-4ef6-942c-409dc0c4eeff",
+      "previousEventHash": "8623236d5d625faf8326e571dafeff114fbb6677c8391d5009d3358213ae2064",
+      "documentHash": "21658b1844baab8f579f1761c956842187d141618b440b950ffaecf99e433c85",
+      "signatureHash": "1c14da666b357a96dfaa5e4ee21a6c089ae3cb14cddb9bda8948e9088255027e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-05T22:17:06.372Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "62e4376e37433aa80992ff2e8fd93bfbf8f5d5561e2a3005652b98ca7def88ba"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-06T03:17:10.394Z"
+  }
 }
