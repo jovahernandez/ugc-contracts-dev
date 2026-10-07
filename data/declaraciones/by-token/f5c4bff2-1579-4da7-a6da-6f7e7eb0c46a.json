@@ -3,7 +3,7 @@
   "declarationId": "3c967b9c-5986-42b4-b8fd-01e3a79a788f",
   "token": "f5c4bff2-1579-4da7-a6da-6f7e7eb0c46a",
   "createdAt": "2026-10-07T20:50:43.785Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Roxana Rivera Aguado",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ROXANA RIVERA AGUADO",
     "email": "roxanriv@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f875174ead70c571e806fe7a50b8d6b05086bde32ba85dfe02456f5ce5ca99fb",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-07T20:52:41.101Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RIAR851104NU1",
+  "signatureMetadata": {
+    "ip": "136.226.0.117",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+    "signedAtUtc": "2026-10-07T20:52:44.460Z",
+    "signedAtLocal": "2026-10-07T14:52:44.460Z"
+  },
+  "documentHash": "ba60cf506f8f2ef5f822a1ed4a11aa1a720b2f149dc352f62b7071308b57f3e9",
   "auditTrail": [
     {
       "eventId": "be6aee86-1f44-4535-9305-f5a6f324ec26",
@@ -140,6 +148,49 @@
         "representante": "ROXANA RIVERA AGUADO"
       },
       "eventHash": "e2527308d3dcfd3ce75b6e7a1b44c27dcb820de8d3ef0c85a35cbcebfe1845ff"
+    },
+    {
+      "eventId": "ba3b3dad-2579-4a93-9450-5f2193146a32",
+      "uid": "RIAR851104NU1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-07T20:51:02.559Z",
+      "timestampLocal": "2026-10-07T20:51:02.559Z",
+      "timezone": "UTC+0",
+      "ipAddress": "136.226.0.117",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RIAR851104NU1&nombre_proveedor_razon_social=Roxana+Rivera+Aguado&nombre_representante_legal=ROXANA+RIVERA+AGUADO&email=roxanriv%40gmail.com",
+      "previousEventHash": "e2527308d3dcfd3ce75b6e7a1b44c27dcb820de8d3ef0c85a35cbcebfe1845ff",
+      "documentHash": "f875174ead70c571e806fe7a50b8d6b05086bde32ba85dfe02456f5ce5ca99fb",
+      "eventHash": "2994214807efc5ec29022b3a25c372327b90ec50776590fb6b898c45598295b6"
+    },
+    {
+      "eventId": "cd42f87a-7714-4196-b33b-9602604b7dc8",
+      "uid": "RIAR851104NU1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-07T20:52:44.460Z",
+      "timestampLocal": "2026-10-07T14:52:44.460Z",
+      "timezone": "UTC-6",
+      "ipAddress": "136.226.0.117",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f5c4bff2-1579-4da7-a6da-6f7e7eb0c46a",
+      "previousEventHash": "2994214807efc5ec29022b3a25c372327b90ec50776590fb6b898c45598295b6",
+      "documentHash": "ba60cf506f8f2ef5f822a1ed4a11aa1a720b2f149dc352f62b7071308b57f3e9",
+      "signatureHash": "c7d2626eef79683e5450a2386a07fda8e537cbd14637a003d6b61e9608fa4680",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-07T14:52:41.101Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "27a472f33bd0ca202c2af9849d4eb28f92061e4e6837c1efbe164940dbf9a8e3"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-10-07T20:52:44.643Z"
+  }
 }
