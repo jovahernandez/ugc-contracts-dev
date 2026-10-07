@@ -3,7 +3,7 @@
   "declarationId": "8bb2b79d-fcde-43a5-80bf-1ee5b2cb056c",
   "token": "b0d398d6-d47b-486f-93c1-6fdf91ec5475",
   "createdAt": "2026-10-07T23:14:23.401Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "RETRO STUDIO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "RODRIGO NAVA MENDOZA",
     "email": "paulina@retrocasaproductora.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c077d78e6f5491a1f65da2c28a4fa00ac142546c02d7bf696045cf01e491c817",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-07T23:22:47.775Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RST070309F47",
+  "signatureMetadata": {
+    "ip": "189.235.176.195",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:140.0) Gecko/20100101 Firefox/140.0",
+    "signedAtUtc": "2026-10-07T23:22:51.116Z",
+    "signedAtLocal": "2026-10-07T17:22:51.116Z"
+  },
+  "documentHash": "d6f1aa83775773e71574ff39f760a70dc7d377e002ce8c449b75c8223a50fc11",
   "auditTrail": [
     {
       "eventId": "1b9dbca5-0512-4be2-9fb9-c4b0008df184",
@@ -66,6 +74,64 @@
         "representante": "RODRIGO NAVA MENDOZA"
       },
       "eventHash": "115dbe323029b229dad552957bca114f3583eeaa2db8fff926075341771a07e6"
+    },
+    {
+      "eventId": "af478b29-ece6-4755-86ff-d8467eb0325e",
+      "uid": "RST070309F47",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-07T23:14:39.340Z",
+      "timestampLocal": "2026-10-07T23:14:39.340Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.235.176.195",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "acceptLanguage": "es-MX,es;q=0.8,en-US;q=0.5,en;q=0.3",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RST070309F47&nombre_proveedor_razon_social=RETRO+STUDIO&nombre_representante_legal=RODRIGO+NAVA+MENDOZA&email=paulina%40retrocasaproductora.com",
+      "previousEventHash": "115dbe323029b229dad552957bca114f3583eeaa2db8fff926075341771a07e6",
+      "documentHash": "c077d78e6f5491a1f65da2c28a4fa00ac142546c02d7bf696045cf01e491c817",
+      "eventHash": "a726817734f186f0ee72b01ca7f8724dd11d5b56c8ffcc46e5e80820500734bd"
+    },
+    {
+      "eventId": "797f8913-d4c6-4b39-b440-8dd8f139c2f7",
+      "uid": "RST070309F47",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-07T23:17:44.593Z",
+      "timestampLocal": "2026-10-07T23:17:44.593Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.235.176.195",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "acceptLanguage": "es-MX,es;q=0.8,en-US;q=0.5,en;q=0.3",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "a726817734f186f0ee72b01ca7f8724dd11d5b56c8ffcc46e5e80820500734bd",
+      "documentHash": "c077d78e6f5491a1f65da2c28a4fa00ac142546c02d7bf696045cf01e491c817",
+      "eventHash": "81f099b9e4ded40073e755e5a662e9ced2b787b30efacbcfd8054be0fbb353b2"
+    },
+    {
+      "eventId": "5a8331cd-7f21-4413-affe-e3c14941a904",
+      "uid": "RST070309F47",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-07T23:22:51.116Z",
+      "timestampLocal": "2026-10-07T17:22:51.116Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.235.176.195",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "acceptLanguage": "es-MX,es;q=0.8,en-US;q=0.5,en;q=0.3",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b0d398d6-d47b-486f-93c1-6fdf91ec5475",
+      "previousEventHash": "81f099b9e4ded40073e755e5a662e9ced2b787b30efacbcfd8054be0fbb353b2",
+      "documentHash": "d6f1aa83775773e71574ff39f760a70dc7d377e002ce8c449b75c8223a50fc11",
+      "signatureHash": "5f42afbe915e84777387579a47ceed6bda28094a18422437308a224cf1f08bb9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-07T17:22:47.775Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "35046a0a10be18cc68eb2bf220870d37c5c35464692627cf329fa971b30d1d73"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-07T23:22:51.418Z"
+  }
 }
