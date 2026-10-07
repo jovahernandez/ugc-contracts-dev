@@ -3,8 +3,18 @@
   "declarationId": "8bb2b79d-fcde-43a5-80bf-1ee5b2cb056c",
   "token": "b0d398d6-d47b-486f-93c1-6fdf91ec5475",
   "createdAt": "2026-10-07T23:14:23.401Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "RETRO STUDIO",
+    "nombre_representante_legal": "RODRIGO NAVA MENDOZA",
+    "email": "paulina@retrocasaproductora.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "RETRO STUDIO",
+    "nombre_representante_legal": "RODRIGO NAVA MENDOZA",
+    "email": "paulina@retrocasaproductora.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "RETRO STUDIO",
     "nombre_representante_legal": "RODRIGO NAVA MENDOZA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "c077d78e6f5491a1f65da2c28a4fa00ac142546c02d7bf696045cf01e491c817",
+  "auditTrail": [
+    {
+      "eventId": "1b9dbca5-0512-4be2-9fb9-c4b0008df184",
+      "uid": "RST070309F47",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-07T23:14:31.878Z",
+      "timestampLocal": "2026-10-07T23:14:31.878Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.235.176.195",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "acceptLanguage": "es-MX,es;q=0.8,en-US;q=0.5,en;q=0.3",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RST070309F47&nombre_proveedor_razon_social=RETRO+STUDIO&nombre_representante_legal=RODRIGO+NAVA+MENDOZA&email=paulina%40retrocasaproductora.com",
+      "previousEventHash": null,
+      "documentHash": "c077d78e6f5491a1f65da2c28a4fa00ac142546c02d7bf696045cf01e491c817",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "52e849701d0b58932521eb660ef2a6e2eca8048118296e62da128d9929bd04f6"
+    },
+    {
+      "eventId": "d6d291f6-70fb-49bd-929b-908a27a65294",
+      "uid": "RST070309F47",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-07T23:14:31.878Z",
+      "timestampLocal": "2026-10-07T23:14:31.878Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.235.176.195",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "acceptLanguage": "es-MX,es;q=0.8,en-US;q=0.5,en;q=0.3",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RST070309F47&nombre_proveedor_razon_social=RETRO+STUDIO&nombre_representante_legal=RODRIGO+NAVA+MENDOZA&email=paulina%40retrocasaproductora.com",
+      "previousEventHash": "52e849701d0b58932521eb660ef2a6e2eca8048118296e62da128d9929bd04f6",
+      "documentHash": "c077d78e6f5491a1f65da2c28a4fa00ac142546c02d7bf696045cf01e491c817",
+      "metadata": {
+        "proveedor": "RETRO STUDIO",
+        "representante": "RODRIGO NAVA MENDOZA"
+      },
+      "eventHash": "115dbe323029b229dad552957bca114f3583eeaa2db8fff926075341771a07e6"
+    }
+  ]
 }
