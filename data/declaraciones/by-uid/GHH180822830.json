@@ -3,7 +3,7 @@
   "declarationId": "4f2fbd19-d43d-4a94-be41-b21f07afc28d",
   "token": "8b6462b9-bd39-4174-afed-10c05e36e20b",
   "createdAt": "2026-10-06T23:08:16.262Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GRUPO HOTELERO HABITA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "LIZETH SALINAS LOZANO",
     "email": "eventos@hotelhabita.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5549d19cc69fa60b1e555d4d78579bdcbd3335201075ebcfc025fc964a683ff0",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-07T20:33:05.049Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GHH180822830",
+  "signatureMetadata": {
+    "ip": "187.234.69.13",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-07T20:33:08.425Z",
+    "signedAtLocal": "2026-10-07T14:33:08.425Z"
+  },
+  "documentHash": "944004942f138b306264395708447831c5c2089fa488cfb21fed0e197d7e9d77",
   "auditTrail": [
     {
       "eventId": "b9fd1e91-ccf5-40c5-a3f4-3af04855050b",
@@ -66,6 +74,64 @@
         "representante": "LIZETH SALINAS LOZANO"
       },
       "eventHash": "35fdb2ea00f10fd4faa55b8df719f9c14b1fcad2d19103bcf48f6d8c42de6149"
+    },
+    {
+      "eventId": "9a8c9328-47e2-46a9-a14d-de06d27d7f13",
+      "uid": "GHH180822830",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-06T23:08:24.419Z",
+      "timestampLocal": "2026-10-06T23:08:24.419Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.166.101.189",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GHH180822830&nombre_proveedor_razon_social=GRUPO+HOTELERO+HABITA+&nombre_representante_legal=LIZETH+SALINAS+LOZANO&email=eventos%40hotelhabita.com",
+      "previousEventHash": "35fdb2ea00f10fd4faa55b8df719f9c14b1fcad2d19103bcf48f6d8c42de6149",
+      "documentHash": "5549d19cc69fa60b1e555d4d78579bdcbd3335201075ebcfc025fc964a683ff0",
+      "eventHash": "34c0c17f7024f9cee9e41fe632e40933497c215873a943aea26f85ebdaf4f020"
+    },
+    {
+      "eventId": "0b2544bb-4aae-4b64-b3e4-3c07544ceccc",
+      "uid": "GHH180822830",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-07T20:17:54.629Z",
+      "timestampLocal": "2026-10-07T20:17:54.629Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.234.69.13",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "34c0c17f7024f9cee9e41fe632e40933497c215873a943aea26f85ebdaf4f020",
+      "documentHash": "5549d19cc69fa60b1e555d4d78579bdcbd3335201075ebcfc025fc964a683ff0",
+      "eventHash": "2598a9a3a8a6b4791e43c2f99d716c890a9e1b0e81cbcabee9f8593c00ebb1ef"
+    },
+    {
+      "eventId": "668a207a-06eb-416a-bf1e-ba8c46f68bee",
+      "uid": "GHH180822830",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-07T20:33:08.426Z",
+      "timestampLocal": "2026-10-07T14:33:08.426Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.234.69.13",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8b6462b9-bd39-4174-afed-10c05e36e20b",
+      "previousEventHash": "2598a9a3a8a6b4791e43c2f99d716c890a9e1b0e81cbcabee9f8593c00ebb1ef",
+      "documentHash": "944004942f138b306264395708447831c5c2089fa488cfb21fed0e197d7e9d77",
+      "signatureHash": "d4cad09e2570d7f1703422e920e899f78a26e1cdf1b83fe8e254d3a9eb2c3536",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-07T14:33:05.049Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "82f3c1beb9c8d97ca1aae2ff96620f5f25aea26c4ab3d571754e0ee51dfc19d3"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-07T20:33:08.622Z"
+  }
 }
