@@ -3,7 +3,7 @@
   "declarationId": "82b70fe2-d0bc-40b9-a534-39bd0bd325ad",
   "token": "e87a0a34-5cc2-4539-b327-0570853db888",
   "createdAt": "2026-10-07T13:37:34.746Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "ZCORP LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "EDUARDO BARONCELI ZANQUETA",
     "email": "contato@afamiliaz.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d104739f62764ca9cd2cd9c73e05928496b284df1332c43687cef0f234b22eb1",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-07T13:37:59.908Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/54.180.106%2F0001-43",
+  "signatureMetadata": {
+    "ip": "207.223.100.146",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "signedAtUtc": "2026-10-07T13:38:03.038Z",
+    "signedAtLocal": "2026-10-07T10:38:03.038Z"
+  },
+  "documentHash": "373dbb131fb452e1993664570b2c180fbdf80a43f67894b4b87e22b1f0ea4bdb",
   "auditTrail": [
     {
       "eventId": "3b717fd3-5265-4745-87bf-5dacfb86be18",
@@ -66,6 +74,49 @@
         "representante": "EDUARDO BARONCELI ZANQUETA"
       },
       "eventHash": "37d4996a3a283e390caf17f181afdcc0a55c1bc9a7e46a54150bddfc30aadfa1"
+    },
+    {
+      "eventId": "1f90b479-5b30-4850-b05f-3f690abf5b91",
+      "uid": "54.180.106/0001-43",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-07T13:37:44.514Z",
+      "timestampLocal": "2026-10-07T13:37:44.514Z",
+      "timezone": "UTC+0",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=54.180.106%2F0001-43&nombre_proveedor_razon_social=ZCORP+LTDA&nombre_representante_legal=EDUARDO+BARONCELI+ZANQUETA&email=contato%40afamiliaz.com.br",
+      "previousEventHash": "37d4996a3a283e390caf17f181afdcc0a55c1bc9a7e46a54150bddfc30aadfa1",
+      "documentHash": "d104739f62764ca9cd2cd9c73e05928496b284df1332c43687cef0f234b22eb1",
+      "eventHash": "86073f42c344d7c9ad1d814e4249dba61b80332dce8fd70854a559e377fb005d"
+    },
+    {
+      "eventId": "80c09de0-8ce8-4bb6-9d30-adf4c3ddfa62",
+      "uid": "54.180.106/0001-43",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-07T13:38:03.038Z",
+      "timestampLocal": "2026-10-07T10:38:03.038Z",
+      "timezone": "UTC-3",
+      "ipAddress": "207.223.100.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e87a0a34-5cc2-4539-b327-0570853db888",
+      "previousEventHash": "86073f42c344d7c9ad1d814e4249dba61b80332dce8fd70854a559e377fb005d",
+      "documentHash": "373dbb131fb452e1993664570b2c180fbdf80a43f67894b4b87e22b1f0ea4bdb",
+      "signatureHash": "4bbe9b193573ce74324abb256d3b945a26ab4683d9ecb965a5582fc4984f7bf0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-07T10:37:59.908Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "bc6cd374d4bfb90fab527514111b35fca0ba9e6001a38efca3d45771c1d90802"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-07T13:38:03.482Z"
+  }
 }
