@@ -3,7 +3,7 @@
   "declarationId": "2a643e5a-4a90-4bd9-8a39-3f14f4d8cdc0",
   "token": "51f1694e-52be-4b83-9937-238e3d523bab",
   "createdAt": "2026-10-07T00:46:18.568Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Karla Sofia Salinas Antonio",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Karla Sofia Salinas Antonio",
     "email": "karlasalinas.1997@outlook.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "edb0f79ffa29c1dabc5748dfd21e4648354f3f60f9e67d5815d4787bc07f8c31",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-07T00:46:52.766Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SAAK970514N11",
+  "signatureMetadata": {
+    "ip": "187.188.47.66",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-07T00:46:55.923Z",
+    "signedAtLocal": "2026-10-06T18:46:55.923Z"
+  },
+  "documentHash": "1738a2391a9eab00af326b9e649a67cf2ef8b366d6fcd872293481bf60c9833d",
   "auditTrail": [
     {
       "eventId": "923805d2-d65a-4b97-aa72-657d90edb95d",
@@ -177,6 +185,49 @@
         "representante": "Karla Sofia Salinas Antonio"
       },
       "eventHash": "80d1b7c9c97c3d5abbc2f013a27adecfd780fe57eff59d4714879dd0cd3b5314"
+    },
+    {
+      "eventId": "7b35969e-20f4-4b14-adea-90d1b8a2205b",
+      "uid": "SAAK970514N11",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-07T00:46:32.932Z",
+      "timestampLocal": "2026-10-07T00:46:32.932Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.47.66",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAAK970514N11&nombre_proveedor_razon_social=Karla+Sofia+Salinas+Antonio&nombre_representante_legal=Karla+Sofia+Salinas+Antonio&email=karlasalinas.1997%40outlook.com",
+      "previousEventHash": "80d1b7c9c97c3d5abbc2f013a27adecfd780fe57eff59d4714879dd0cd3b5314",
+      "documentHash": "edb0f79ffa29c1dabc5748dfd21e4648354f3f60f9e67d5815d4787bc07f8c31",
+      "eventHash": "4150dd078f8236f5470f8d9a184397be3c8949fa0249f29d811a7a23b84cca5f"
+    },
+    {
+      "eventId": "14abf298-5cb8-4063-a3f8-82b3233f48a0",
+      "uid": "SAAK970514N11",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-07T00:46:55.923Z",
+      "timestampLocal": "2026-10-06T18:46:55.923Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.47.66",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/51f1694e-52be-4b83-9937-238e3d523bab",
+      "previousEventHash": "4150dd078f8236f5470f8d9a184397be3c8949fa0249f29d811a7a23b84cca5f",
+      "documentHash": "1738a2391a9eab00af326b9e649a67cf2ef8b366d6fcd872293481bf60c9833d",
+      "signatureHash": "ac7adb564387d2e6620759be20eaa10cac13d583559b9219c58f30e9168e42a2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-06T18:46:52.766Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "236c2b16f14d6325fc5d88a4dcb828fb0f20f9718fdad6a3fa82b6c282f71540"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 10,
+    "verifiedAt": "2026-10-07T00:46:56.191Z"
+  }
 }
