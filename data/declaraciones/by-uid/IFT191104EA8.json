@@ -3,7 +3,7 @@
   "declarationId": "7fd83d03-964d-41bb-804a-353316c2e993",
   "token": "4b821410-4cff-4f81-9d21-87f79a2d8d49",
   "createdAt": "2026-10-05T22:23:55.552Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "INTERMEX FTA S DE RL DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "INTERMEX FTA S DE RL DE CV",
     "email": "gabriela.tellez@thewalk.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3c78e73c36789d8da7983d2470de9c31d08231ed45af2aa93a8e46412f2637fc",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-07T20:26:47.406Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/IFT191104EA8",
+  "signatureMetadata": {
+    "ip": "201.137.236.156",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-07T20:26:50.750Z",
+    "signedAtLocal": "2026-10-07T14:26:50.750Z"
+  },
+  "documentHash": "4e6d78ad77053d54bb9e4bcd5eeaefa34e1eb0d40a745a3d5f86d1d6023c59c1",
   "auditTrail": [
     {
       "eventId": "30a944b7-067a-4bfd-899b-46414cee624f",
@@ -66,6 +74,79 @@
         "representante": "INTERMEX FTA S DE RL DE CV"
       },
       "eventHash": "954bd67fd036c2552e612f9d470849238731df111cc3087f1b8256bd2c87a7ac"
+    },
+    {
+      "eventId": "6ece2fa4-872c-469e-8fc8-f7858e0913cc",
+      "uid": "IFT191104EA8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-05T22:25:51.913Z",
+      "timestampLocal": "2026-10-05T22:25:51.913Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.236.156",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IFT191104EA8&nombre_proveedor_razon_social=INTERMEX+FTA+S+DE+RL+DE+CV&nombre_representante_legal=INTERMEX+FTA+S+DE+RL+DE+CV&email=gabriela.tellez%40thewalk.com.mx",
+      "previousEventHash": "954bd67fd036c2552e612f9d470849238731df111cc3087f1b8256bd2c87a7ac",
+      "documentHash": "3c78e73c36789d8da7983d2470de9c31d08231ed45af2aa93a8e46412f2637fc",
+      "eventHash": "443428cc23227e472948d105ac4855557ecfeb9ee9228a025f4a684ac46261de"
+    },
+    {
+      "eventId": "649caa68-013f-49d0-a241-49eb6290e045",
+      "uid": "IFT191104EA8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-07T20:19:22.637Z",
+      "timestampLocal": "2026-10-07T20:19:22.637Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.236.156",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "443428cc23227e472948d105ac4855557ecfeb9ee9228a025f4a684ac46261de",
+      "documentHash": "3c78e73c36789d8da7983d2470de9c31d08231ed45af2aa93a8e46412f2637fc",
+      "eventHash": "762a386846cdb2bfb5b565c537cc9ca3d55a6ca493e4939dda0ce26f78d8c70d"
+    },
+    {
+      "eventId": "2583b829-3aa4-49b9-a4aa-6899f71f3cde",
+      "uid": "IFT191104EA8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-07T20:20:26.741Z",
+      "timestampLocal": "2026-10-07T20:20:26.741Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.236.156",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "762a386846cdb2bfb5b565c537cc9ca3d55a6ca493e4939dda0ce26f78d8c70d",
+      "documentHash": "3c78e73c36789d8da7983d2470de9c31d08231ed45af2aa93a8e46412f2637fc",
+      "eventHash": "9900388dce05f843576e83f18688ebae79c57179a0da58d5f363698bd450ef8d"
+    },
+    {
+      "eventId": "cc3f4779-2213-4da9-b09d-dd63950881d6",
+      "uid": "IFT191104EA8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-07T20:26:50.750Z",
+      "timestampLocal": "2026-10-07T14:26:50.750Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.137.236.156",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/4b821410-4cff-4f81-9d21-87f79a2d8d49",
+      "previousEventHash": "9900388dce05f843576e83f18688ebae79c57179a0da58d5f363698bd450ef8d",
+      "documentHash": "4e6d78ad77053d54bb9e4bcd5eeaefa34e1eb0d40a745a3d5f86d1d6023c59c1",
+      "signatureHash": "1efae91650c887cd2a46389be63028dbc2b63657e5401a7bd28a5d2986d9a107",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-07T14:26:47.406Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "435c630af5c3a4c0e7982ebd7bdd305214195a8bac309706ede9d2be3e6f9703"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-07T20:26:51.019Z"
+  }
 }
