@@ -3,7 +3,7 @@
   "declarationId": "beb697ae-e151-4eaf-a339-6da59607e403",
   "token": "44ad3a73-641c-4df4-a3ad-a374dcfbee4f",
   "createdAt": "2026-10-06T20:24:45.789Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "COLAB MANAGMENT AGENCY",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "RICARDO SALIDO VIVES",
     "email": "administracion@colabagency.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1286703d127f21244e42f5f6f6731ea9927c7903962415183a83e0e602d6332b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-07T23:37:42.140Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CMA260306RS4",
+  "signatureMetadata": {
+    "ip": "189.203.193.19",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-07T23:37:45.501Z",
+    "signedAtLocal": "2026-10-07T17:37:45.501Z"
+  },
+  "documentHash": "c64687a9a06150252dda9ce0cdbfc908de8e595c9fb63b7f4dd2a87eb6cba31b",
   "auditTrail": [
     {
       "eventId": "a18376b1-0888-42b4-9c9d-95cbdd4c0757",
@@ -103,6 +111,79 @@
         "representante": "RICARDO SALIDO VIVES"
       },
       "eventHash": "97c01169d8252c9b0899bf746b8b5f6d1d70852e094230c144f1a31a07e17e6f"
+    },
+    {
+      "eventId": "4dafc57a-28ac-4039-85e5-c72785ecf727",
+      "uid": "CMA260306RS4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-06T20:25:00.629Z",
+      "timestampLocal": "2026-10-06T20:25:00.629Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.209.42.193",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CMA260306RS4&nombre_proveedor_razon_social=COLAB+MANAGMENT+AGENCY&nombre_representante_legal=RICARDO+SALIDO+VIVES&email=administracion%40colabagency.mx",
+      "previousEventHash": "97c01169d8252c9b0899bf746b8b5f6d1d70852e094230c144f1a31a07e17e6f",
+      "documentHash": "1286703d127f21244e42f5f6f6731ea9927c7903962415183a83e0e602d6332b",
+      "eventHash": "7b607eb619d3da01d6a250792fc8be7d3984de706a9e5471b21fbe182e0bc001"
+    },
+    {
+      "eventId": "d9b670af-8b80-48b2-90df-4a699e211470",
+      "uid": "CMA260306RS4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-06T21:05:03.649Z",
+      "timestampLocal": "2026-10-06T21:05:03.649Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.209.42.193",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "7b607eb619d3da01d6a250792fc8be7d3984de706a9e5471b21fbe182e0bc001",
+      "documentHash": "1286703d127f21244e42f5f6f6731ea9927c7903962415183a83e0e602d6332b",
+      "eventHash": "527f9542f5f5f2e0114ab9af6795efc8d4efec3c3c781d9dd8a5502fd0aa4941"
+    },
+    {
+      "eventId": "79bd07af-393c-45ff-9431-00b42e6c31e6",
+      "uid": "CMA260306RS4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-07T23:37:19.437Z",
+      "timestampLocal": "2026-10-07T23:37:19.437Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.193.19",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "527f9542f5f5f2e0114ab9af6795efc8d4efec3c3c781d9dd8a5502fd0aa4941",
+      "documentHash": "1286703d127f21244e42f5f6f6731ea9927c7903962415183a83e0e602d6332b",
+      "eventHash": "c81efa85538222bd274e86932120610b0806601d53f3c8463a6e0e6badb2d7fc"
+    },
+    {
+      "eventId": "58f72e17-ce46-46ec-b869-26ae3fa1bf03",
+      "uid": "CMA260306RS4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-07T23:37:45.501Z",
+      "timestampLocal": "2026-10-07T17:37:45.501Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.193.19",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/44ad3a73-641c-4df4-a3ad-a374dcfbee4f",
+      "previousEventHash": "c81efa85538222bd274e86932120610b0806601d53f3c8463a6e0e6badb2d7fc",
+      "documentHash": "c64687a9a06150252dda9ce0cdbfc908de8e595c9fb63b7f4dd2a87eb6cba31b",
+      "signatureHash": "eb8e7dad8138f53fc8dbdcbf17d42f87a8af10be7cc0c333a6c87c71735d4f33",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-07T17:37:42.140Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "cd0393da6747387204e7196816de70c08b9f8b4d6ec3903eb9771868cfb8d155"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-10-07T23:37:45.737Z"
+  }
 }
