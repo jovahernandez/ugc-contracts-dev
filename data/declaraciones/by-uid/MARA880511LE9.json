@@ -3,7 +3,7 @@
   "declarationId": "0ae47304-edef-47e4-9e50-481ff6979a74",
   "token": "0e857597-f42e-4260-a8b6-2c528929902e",
   "createdAt": "2026-10-08T16:59:11.584Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Andrea Madero Rivero",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Andrea Madero Rivero",
     "email": "tambiensoymamamx@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2e39fa6f0be87fa882c832ccc93173a8e328bc262aacdb649f47440261cc14fa",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-08T17:04:51.415Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MARA880511LE9",
+  "signatureMetadata": {
+    "ip": "189.172.212.148",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-08T17:04:55.250Z",
+    "signedAtLocal": "2026-10-08T11:04:55.250Z"
+  },
+  "documentHash": "0835752882203da33101eeb03598102f2d088d0c0f78e67c8ba2cdfd131a5bad",
   "auditTrail": [
     {
       "eventId": "b68aaf25-7cae-4e2b-b82c-787582c5570e",
@@ -66,6 +74,64 @@
         "representante": "Andrea Madero Rivero"
       },
       "eventHash": "0ca2f1969bc4d43fc0ea0223ca45cbdb84a4f741212de67d044a932b8753fbd0"
+    },
+    {
+      "eventId": "d0d42264-2038-4a94-8d61-eaea572e720a",
+      "uid": "MARA880511LE9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T17:00:50.008Z",
+      "timestampLocal": "2026-10-08T17:00:50.008Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.172.179",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MARA880511LE9&nombre_proveedor_razon_social=Andrea+Madero+Rivero+&nombre_representante_legal=Andrea+Madero+Rivero+&email=tambiensoymamamx%40gmail.com",
+      "previousEventHash": "0ca2f1969bc4d43fc0ea0223ca45cbdb84a4f741212de67d044a932b8753fbd0",
+      "documentHash": "2e39fa6f0be87fa882c832ccc93173a8e328bc262aacdb649f47440261cc14fa",
+      "eventHash": "cf8f6826fd1a0d360be40b190e920524f5cef4ad54caae361078f56fdd09a61a"
+    },
+    {
+      "eventId": "9d96b59d-c530-4335-927c-2b0ab34c29bb",
+      "uid": "MARA880511LE9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T17:04:15.991Z",
+      "timestampLocal": "2026-10-08T17:04:15.991Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.172.212.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "cf8f6826fd1a0d360be40b190e920524f5cef4ad54caae361078f56fdd09a61a",
+      "documentHash": "2e39fa6f0be87fa882c832ccc93173a8e328bc262aacdb649f47440261cc14fa",
+      "eventHash": "0d40beaf6dc530c550e8ef33f1544167385bd859d65ca3fcd6445e7f12495640"
+    },
+    {
+      "eventId": "8d0a57a6-c077-43bc-9df0-9f6faa4a192a",
+      "uid": "MARA880511LE9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-08T17:04:55.250Z",
+      "timestampLocal": "2026-10-08T11:04:55.250Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.172.212.148",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/0e857597-f42e-4260-a8b6-2c528929902e",
+      "previousEventHash": "0d40beaf6dc530c550e8ef33f1544167385bd859d65ca3fcd6445e7f12495640",
+      "documentHash": "0835752882203da33101eeb03598102f2d088d0c0f78e67c8ba2cdfd131a5bad",
+      "signatureHash": "038ff2c63d6373fd8ad6f0adcdcc62fef54625b2c24ae3233a7bb9b2aae3764e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-08T11:04:51.415Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "fecff8cae774b886245c10163dea3d3c9f73f376f9f81aca48bb1373f15601cd"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-08T17:04:55.481Z"
+  }
 }
