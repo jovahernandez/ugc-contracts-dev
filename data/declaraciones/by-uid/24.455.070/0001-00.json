@@ -3,7 +3,7 @@
   "declarationId": "a2db385c-c577-471a-8660-4a47601170f5",
   "token": "8bd4af19-d0c6-4945-baff-f66567794a64",
   "createdAt": "2026-10-08T16:41:29.727Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "MOTRIZ Produes Artísticas LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Carolina Merat França",
     "email": "contato@merat-ag.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d58ae26d6a861ac3750ac41e7b3199149d71bbd3a05c2bac3e8dd4f02b70133e",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-08T16:42:23.915Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/24.455.070%2F0001-00",
+  "signatureMetadata": {
+    "ip": "45.65.158.208",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-08T16:42:27.308Z",
+    "signedAtLocal": "2026-10-08T13:42:27.308Z"
+  },
+  "documentHash": "ed8100cb35ae0d36debe01a9568a08648c07a36e6c5d857aa7209da1bf4f4ef9",
   "auditTrail": [
     {
       "eventId": "702936b7-ea42-4305-b23d-a08d6b1ffad5",
@@ -66,6 +74,64 @@
         "representante": "Carolina Merat França"
       },
       "eventHash": "bf01972beb0906cc0ae6014fa5874b8e664a5a075d30b80159178e4e2ac47dcf"
+    },
+    {
+      "eventId": "1fc02387-ad4e-4b8b-adda-6d544b371317",
+      "uid": "24.455.070/0001-00",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T16:41:39.998Z",
+      "timestampLocal": "2026-10-08T16:41:39.998Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.65.158.208",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=24.455.070%2F0001-00&nombre_proveedor_razon_social=MOTRIZ+Produes+Art%C3%ADsticas+LTDA&nombre_representante_legal=Carolina+Merat+Fran%C3%A7a&email=contato%40merat-ag.com",
+      "previousEventHash": "bf01972beb0906cc0ae6014fa5874b8e664a5a075d30b80159178e4e2ac47dcf",
+      "documentHash": "d58ae26d6a861ac3750ac41e7b3199149d71bbd3a05c2bac3e8dd4f02b70133e",
+      "eventHash": "47395bd0d67de40ad07b33ca373d4dcff3485ce7a89b5a740e2e514fd9aa77c2"
+    },
+    {
+      "eventId": "bc79d56e-648a-48cf-b606-5e3916e849b7",
+      "uid": "24.455.070/0001-00",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T16:42:05.109Z",
+      "timestampLocal": "2026-10-08T16:42:05.109Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.65.158.208",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "47395bd0d67de40ad07b33ca373d4dcff3485ce7a89b5a740e2e514fd9aa77c2",
+      "documentHash": "d58ae26d6a861ac3750ac41e7b3199149d71bbd3a05c2bac3e8dd4f02b70133e",
+      "eventHash": "3a54ddefa38a5f50bc9c099803463a98fbb9a96204591934ec5078560799f370"
+    },
+    {
+      "eventId": "b6b07230-cc9a-48d8-807d-7171422c8142",
+      "uid": "24.455.070/0001-00",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-08T16:42:27.308Z",
+      "timestampLocal": "2026-10-08T13:42:27.308Z",
+      "timezone": "UTC-3",
+      "ipAddress": "45.65.158.208",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8bd4af19-d0c6-4945-baff-f66567794a64",
+      "previousEventHash": "3a54ddefa38a5f50bc9c099803463a98fbb9a96204591934ec5078560799f370",
+      "documentHash": "ed8100cb35ae0d36debe01a9568a08648c07a36e6c5d857aa7209da1bf4f4ef9",
+      "signatureHash": "b016d773929828525bd89c37e3f64a9780c318575efee43982b7d54284cf97a3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-08T13:42:23.915Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "128711c7e113b3453b04f50b277614f6f5f65cac7c7c6b576a56869e63674313"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-08T16:42:27.552Z"
+  }
 }
