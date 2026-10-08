@@ -3,7 +3,7 @@
   "declarationId": "5fd1af76-6bb3-4a90-aaa1-b1c1e048e9e5",
   "token": "5e73998e-90de-482a-a6a4-d675ccd866d3",
   "createdAt": "2026-10-08T18:47:44.931Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Carla Pancardo",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Carla Pancardo",
     "email": "charliepanq@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "05fd4d4e704d2aca04e34991cc76586ecb80568c9adf3504c3b98f69b853f6ff",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-08T19:02:18.500Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PAGC841218T91",
+  "signatureMetadata": {
+    "ip": "189.217.83.9",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/441.5.989047059 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-10-08T19:02:21.896Z",
+    "signedAtLocal": "2026-10-08T13:02:21.896Z"
+  },
+  "documentHash": "4c910693286559121e2c3bd052f85b0af947d11ae244e19acefdd6521f086b10",
   "auditTrail": [
     {
       "eventId": "711c8ba9-7d7b-453c-9902-3fb399eebafa",
@@ -66,6 +74,94 @@
         "representante": "Carla Pancardo"
       },
       "eventHash": "1bb13de0a817b24c9a5c013a1070b2c593a657602941d99dca89716858f37b0c"
+    },
+    {
+      "eventId": "710ece11-3e81-4afb-a19e-9250924b9a5c",
+      "uid": "PAGC841218T91",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T18:47:56.312Z",
+      "timestampLocal": "2026-10-08T18:47:56.312Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.83.9",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/441.5.989047059 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "1bb13de0a817b24c9a5c013a1070b2c593a657602941d99dca89716858f37b0c",
+      "documentHash": "05fd4d4e704d2aca04e34991cc76586ecb80568c9adf3504c3b98f69b853f6ff",
+      "eventHash": "2608367e0b730be35d15c5021ec310c13fd89f2137032f8868bb279a6a4839f0"
+    },
+    {
+      "eventId": "19c104ad-0c39-4e29-9b9f-f61a5af7e5cd",
+      "uid": "PAGC841218T91",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T18:56:08.799Z",
+      "timestampLocal": "2026-10-08T18:56:08.799Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.83.9",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/441.5.989047059 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "2608367e0b730be35d15c5021ec310c13fd89f2137032f8868bb279a6a4839f0",
+      "documentHash": "05fd4d4e704d2aca04e34991cc76586ecb80568c9adf3504c3b98f69b853f6ff",
+      "eventHash": "cbc19ca9381e4b85e56416cb3d1d56040b4a7d043379cb6f1fed1286c39846b5"
+    },
+    {
+      "eventId": "cfe8c8e7-52d7-4736-a218-12729ccb06df",
+      "uid": "PAGC841218T91",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T18:58:16.130Z",
+      "timestampLocal": "2026-10-08T18:58:16.130Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.83.9",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/441.5.989047059 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "cbc19ca9381e4b85e56416cb3d1d56040b4a7d043379cb6f1fed1286c39846b5",
+      "documentHash": "05fd4d4e704d2aca04e34991cc76586ecb80568c9adf3504c3b98f69b853f6ff",
+      "eventHash": "5133c315d3ab206b45effd8337d327adcdc968bca936c56df67010d6f01ce2aa"
+    },
+    {
+      "eventId": "10f5ad1a-ac01-4da8-b657-49ddae9a373a",
+      "uid": "PAGC841218T91",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T18:59:18.467Z",
+      "timestampLocal": "2026-10-08T18:59:18.467Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.83.9",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/441.5.989047059 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "5133c315d3ab206b45effd8337d327adcdc968bca936c56df67010d6f01ce2aa",
+      "documentHash": "05fd4d4e704d2aca04e34991cc76586ecb80568c9adf3504c3b98f69b853f6ff",
+      "eventHash": "ba7a21196b8d6cdc9001fd731227782e61d58755d2384a28f6e43bef160c5985"
+    },
+    {
+      "eventId": "4ce5fcb8-36e2-410f-864e-86f9d6e0bd71",
+      "uid": "PAGC841218T91",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-08T19:02:21.896Z",
+      "timestampLocal": "2026-10-08T13:02:21.896Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.83.9",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/441.5.989047059 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ba7a21196b8d6cdc9001fd731227782e61d58755d2384a28f6e43bef160c5985",
+      "documentHash": "4c910693286559121e2c3bd052f85b0af947d11ae244e19acefdd6521f086b10",
+      "signatureHash": "aee7db66ee56ecd249a86c453be23c4ab149f9413b5f701eebd78e16c8dd5cf5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-08T13:02:18.500Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "481d294306007aaf646939e7e500c9b9ff9d05bbde690372f85e4c82a49be6fd"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-10-08T19:02:22.250Z"
+  }
 }
