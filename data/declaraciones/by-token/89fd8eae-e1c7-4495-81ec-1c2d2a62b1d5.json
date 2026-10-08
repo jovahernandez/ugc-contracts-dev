@@ -3,7 +3,7 @@
   "declarationId": "d57bf087-f76f-4c7d-a7bc-b6f5754b6aaa",
   "token": "89fd8eae-e1c7-4495-81ec-1c2d2a62b1d5",
   "createdAt": "2026-10-08T02:48:39.350Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "GEOVANE DE MIRANDA JUNIOR 55.329.648",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Geovane de Miranda Junior",
     "email": "juniormg010@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "75428bc025abc39089a5f61444278c939f34638ccdaaff4e1d18624eaf7691e8",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-08T02:49:34.851Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/55.329.648%2F0001-06",
+  "signatureMetadata": {
+    "ip": "200.151.0.254",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-08T02:49:38.262Z",
+    "signedAtLocal": "2026-10-07T23:49:38.262Z"
+  },
+  "documentHash": "9e2c28e3843f4b13073fc8807e7fec17a6d78df6cf6bb4106519a5de0d623ad1",
   "auditTrail": [
     {
       "eventId": "c1c2d72b-f92c-4127-9f21-fa14dc9b7f29",
@@ -140,6 +148,49 @@
         "representante": "Geovane de Miranda Junior"
       },
       "eventHash": "471ad4b5df110a0fbcd218ed39c7a1e62b5a71fc63a6b55dd44915475e8e0b27"
+    },
+    {
+      "eventId": "86e9b1f1-c5ce-439e-9b79-1ed461b04da7",
+      "uid": "55.329.648/0001-06",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T02:48:53.305Z",
+      "timestampLocal": "2026-10-08T02:48:53.305Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.151.0.254",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55.329.648%2F0001-06&nombre_proveedor_razon_social=GEOVANE+DE+MIRANDA+JUNIOR+55.329.648&nombre_representante_legal=Geovane+de+Miranda+Junior&email=juniormg010%40gmail.com",
+      "previousEventHash": "471ad4b5df110a0fbcd218ed39c7a1e62b5a71fc63a6b55dd44915475e8e0b27",
+      "documentHash": "75428bc025abc39089a5f61444278c939f34638ccdaaff4e1d18624eaf7691e8",
+      "eventHash": "0a1af0461f91f99464778360a8801ff6ae6ffcc32bed0d114a1b51e1b3ecbd4e"
+    },
+    {
+      "eventId": "e319a428-5a94-4807-be17-385f717abbd1",
+      "uid": "55.329.648/0001-06",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-08T02:49:38.262Z",
+      "timestampLocal": "2026-10-07T23:49:38.262Z",
+      "timezone": "UTC-3",
+      "ipAddress": "200.151.0.254",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/89fd8eae-e1c7-4495-81ec-1c2d2a62b1d5",
+      "previousEventHash": "0a1af0461f91f99464778360a8801ff6ae6ffcc32bed0d114a1b51e1b3ecbd4e",
+      "documentHash": "9e2c28e3843f4b13073fc8807e7fec17a6d78df6cf6bb4106519a5de0d623ad1",
+      "signatureHash": "0f581b2c7d5769f9171d71778872712e5ccf6eb786119cd0d661c5e7b41eb938",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-07T23:49:34.851Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "cb570f779bf6d70a6d824aac3bf49d00e9e66e8773b1ca604585704b37da9b95"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-10-08T02:49:38.422Z"
+  }
 }
