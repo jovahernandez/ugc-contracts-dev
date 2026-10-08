@@ -3,8 +3,18 @@
   "declarationId": "d7c8449a-21ba-42fe-a39a-fa565f97087b",
   "token": "c8b28a24-1e83-430e-992b-6046484d199d",
   "createdAt": "2026-10-08T00:23:27.438Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "HAARDCONTRAC SA DE CV",
+    "nombre_representante_legal": "Celson Antoni Garcia Velazquez",
+    "email": "riccicolabs@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "HAARDCONTRAC SA DE CV",
+    "nombre_representante_legal": "Celson Antoni Garcia Velazquez",
+    "email": "riccicolabs@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "HAARDCONTRAC SA DE CV",
     "nombre_representante_legal": "Celson Antoni Garcia Velazquez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d05156f70c49a18b94286a424c5006f114f5208066750a459caaf2d4c622f176",
+  "auditTrail": [
+    {
+      "eventId": "543d5778-99e2-4b90-8e31-4c4cc46629b8",
+      "uid": "HAA241223UP2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-08T00:23:34.021Z",
+      "timestampLocal": "2026-10-08T00:23:34.021Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.212.94.75",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "d05156f70c49a18b94286a424c5006f114f5208066750a459caaf2d4c622f176",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a31e99821a8ee220c0bf5c0f2184c23e02e92a3742d7631936209b8598462d7b"
+    },
+    {
+      "eventId": "c7d990f5-cf60-426c-b764-dc6b675d9924",
+      "uid": "HAA241223UP2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-08T00:23:34.021Z",
+      "timestampLocal": "2026-10-08T00:23:34.021Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.212.94.75",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a31e99821a8ee220c0bf5c0f2184c23e02e92a3742d7631936209b8598462d7b",
+      "documentHash": "d05156f70c49a18b94286a424c5006f114f5208066750a459caaf2d4c622f176",
+      "metadata": {
+        "proveedor": "HAARDCONTRAC SA DE CV",
+        "representante": "Celson Antoni Garcia Velazquez"
+      },
+      "eventHash": "b55bebc008fe8fb40a49c0f4293a27a4a9579eea8f59e1785e8a8032efed5a7d"
+    }
+  ]
 }
