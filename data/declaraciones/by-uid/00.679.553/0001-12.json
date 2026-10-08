@@ -3,7 +3,7 @@
   "declarationId": "fafd88cb-d18a-4b0e-a6ff-f7c5ef1b2a82",
   "token": "ab39a883-1c29-44d9-a22b-01d0e7d028eb",
   "createdAt": "2026-10-08T14:19:12.997Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "LPL LIGHTING PRODUCTIONS LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Rafael Auricchio",
     "email": "GABRIELA.DELANOCE@LPL.COM.BR"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a240fdb5541bbfc4421653d8a3b04055c662be636e795af191406c80ba6b972b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-08T14:19:56.442Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/00.679.553%2F0001-12",
+  "signatureMetadata": {
+    "ip": "45.191.136.187",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-08T14:19:59.829Z",
+    "signedAtLocal": "2026-10-08T11:19:59.829Z"
+  },
+  "documentHash": "f9bf967a5489f9d06364c008eadb5725b9e6e1bc9b7f6f5ba124f2e920d6d40a",
   "auditTrail": [
     {
       "eventId": "cce59d0c-5802-481f-8ea2-376f6de5a013",
@@ -177,6 +185,49 @@
         "representante": "Rafael Auricchio"
       },
       "eventHash": "08abf17a3ce75251c34d23f2206dad645fb9caccbe3ad8f79c3e107ba0b70c03"
+    },
+    {
+      "eventId": "48c947ad-7b20-4c75-afbf-501b66a2242d",
+      "uid": "00.679.553/0001-12",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T14:19:31.777Z",
+      "timestampLocal": "2026-10-08T14:19:31.777Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.191.136.187",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=00.679.553%2F0001-12&nombre_proveedor_razon_social=LPL+LIGHTING+PRODUCTIONS+LTDA&nombre_representante_legal=Rafael+Auricchio&email=GABRIELA.DELANOCE%40LPL.COM.BR",
+      "previousEventHash": "08abf17a3ce75251c34d23f2206dad645fb9caccbe3ad8f79c3e107ba0b70c03",
+      "documentHash": "a240fdb5541bbfc4421653d8a3b04055c662be636e795af191406c80ba6b972b",
+      "eventHash": "8a1be3738af785d1c29f53c8bdf484f664a2dafcea0465ceaef613a1cb1874b3"
+    },
+    {
+      "eventId": "934dba16-34b3-4c40-8bcf-44aabc535b10",
+      "uid": "00.679.553/0001-12",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-08T14:19:59.829Z",
+      "timestampLocal": "2026-10-08T11:19:59.829Z",
+      "timezone": "UTC-3",
+      "ipAddress": "45.191.136.187",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ab39a883-1c29-44d9-a22b-01d0e7d028eb",
+      "previousEventHash": "8a1be3738af785d1c29f53c8bdf484f664a2dafcea0465ceaef613a1cb1874b3",
+      "documentHash": "f9bf967a5489f9d06364c008eadb5725b9e6e1bc9b7f6f5ba124f2e920d6d40a",
+      "signatureHash": "679f9e1d088dca6a319c179b8288d24774cf09f68e239281f548affedcac0668",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-08T11:19:56.442Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "d9ba1e54504d39846b25208bb22af586cbacaad7976cfff3ef32e8d79748c799"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 10,
+    "verifiedAt": "2026-10-08T14:20:00.159Z"
+  }
 }
