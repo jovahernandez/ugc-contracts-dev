@@ -3,8 +3,18 @@
   "declarationId": "a2db385c-c577-471a-8660-4a47601170f5",
   "token": "8bd4af19-d0c6-4945-baff-f66567794a64",
   "createdAt": "2026-10-08T16:41:29.727Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MOTRIZ Produes Artísticas LTDA",
+    "nombre_representante_legal": "Carolina Merat França",
+    "email": "contato@merat-ag.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MOTRIZ Produes Artísticas LTDA",
+    "nombre_representante_legal": "Carolina Merat França",
+    "email": "contato@merat-ag.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MOTRIZ Produes Artísticas LTDA",
     "nombre_representante_legal": "Carolina Merat França",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d58ae26d6a861ac3750ac41e7b3199149d71bbd3a05c2bac3e8dd4f02b70133e",
+  "auditTrail": [
+    {
+      "eventId": "702936b7-ea42-4305-b23d-a08d6b1ffad5",
+      "uid": "24.455.070/0001-00",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-08T16:41:36.037Z",
+      "timestampLocal": "2026-10-08T16:41:36.037Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.65.158.208",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=24.455.070%2F0001-00&nombre_proveedor_razon_social=MOTRIZ+Produes+Art%C3%ADsticas+LTDA&nombre_representante_legal=Carolina+Merat+Fran%C3%A7a&email=contato%40merat-ag.com",
+      "previousEventHash": null,
+      "documentHash": "d58ae26d6a861ac3750ac41e7b3199149d71bbd3a05c2bac3e8dd4f02b70133e",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "5b69288a4b69239373b192177d69bf4d73fc93aa99a0288cccdb94dac173366d"
+    },
+    {
+      "eventId": "b55afac8-0e96-40e4-9ab4-4e085b63f12a",
+      "uid": "24.455.070/0001-00",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-08T16:41:36.037Z",
+      "timestampLocal": "2026-10-08T16:41:36.037Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.65.158.208",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=24.455.070%2F0001-00&nombre_proveedor_razon_social=MOTRIZ+Produes+Art%C3%ADsticas+LTDA&nombre_representante_legal=Carolina+Merat+Fran%C3%A7a&email=contato%40merat-ag.com",
+      "previousEventHash": "5b69288a4b69239373b192177d69bf4d73fc93aa99a0288cccdb94dac173366d",
+      "documentHash": "d58ae26d6a861ac3750ac41e7b3199149d71bbd3a05c2bac3e8dd4f02b70133e",
+      "metadata": {
+        "proveedor": "MOTRIZ Produes Artísticas LTDA",
+        "representante": "Carolina Merat França"
+      },
+      "eventHash": "bf01972beb0906cc0ae6014fa5874b8e664a5a075d30b80159178e4e2ac47dcf"
+    }
+  ]
 }
