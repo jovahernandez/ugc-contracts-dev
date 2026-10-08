@@ -3,7 +3,7 @@
   "declarationId": "fca92b15-37d5-4970-8c5e-0769e32826de",
   "token": "aa93b72d-62db-4894-b744-a7d299469a4f",
   "createdAt": "2026-10-08T20:31:13.542Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "INFLU",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Mariana Guerrero Rangel",
     "email": "contactmarianaguerrero@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4556316d9645f18bad5dccde61df8e07f58438c91fa2984000860bbc5c9fc1fc",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-08T20:35:18.971Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GURM8909289I8",
+  "signatureMetadata": {
+    "ip": "200.68.166.9",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-08T20:35:22.442Z",
+    "signedAtLocal": "2026-10-08T14:35:22.442Z"
+  },
+  "documentHash": "0e6ea98bdf722bbce5961595b2f52e6e3b788df102ece80c90f227e2ffdfb4e6",
   "auditTrail": [
     {
       "eventId": "ba8e468f-3eb2-4854-8fc3-6d4e13916dea",
@@ -66,6 +74,49 @@
         "representante": "Mariana Guerrero Rangel"
       },
       "eventHash": "c64f58c0424024cffd9285bce1af7b799291abe1534f6fa59f333752a25198db"
+    },
+    {
+      "eventId": "42a89d43-f770-48fb-a7de-c6475506c39e",
+      "uid": "GURM8909289I8",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T20:31:23.773Z",
+      "timestampLocal": "2026-10-08T20:31:23.773Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.166.9",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-419;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GURM8909289I8&nombre_proveedor_razon_social=INFLU&nombre_representante_legal=Mariana+Guerrero+Rangel&email=contactmarianaguerrero%40gmail.com",
+      "previousEventHash": "c64f58c0424024cffd9285bce1af7b799291abe1534f6fa59f333752a25198db",
+      "documentHash": "4556316d9645f18bad5dccde61df8e07f58438c91fa2984000860bbc5c9fc1fc",
+      "eventHash": "247b51b3e47f93dee9b520b535dbc056dcac7c1f5d48c3444df8b6fca0828d8b"
+    },
+    {
+      "eventId": "fcda5f9d-d826-4d5a-9d88-9f5c427e5183",
+      "uid": "GURM8909289I8",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-08T20:35:22.443Z",
+      "timestampLocal": "2026-10-08T14:35:22.443Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.68.166.9",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-419;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/aa93b72d-62db-4894-b744-a7d299469a4f",
+      "previousEventHash": "247b51b3e47f93dee9b520b535dbc056dcac7c1f5d48c3444df8b6fca0828d8b",
+      "documentHash": "0e6ea98bdf722bbce5961595b2f52e6e3b788df102ece80c90f227e2ffdfb4e6",
+      "signatureHash": "8ecf093e680efe16ba7bec1585cbb700caac085f40c0f6a415b41511f7356132",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-08T14:35:18.971Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "963953b0cb8c4d7fb1a696cd1d7c5a6e5fefb9dc9e8e2fd57cd369c897af3dab"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-08T20:35:22.741Z"
+  }
 }
