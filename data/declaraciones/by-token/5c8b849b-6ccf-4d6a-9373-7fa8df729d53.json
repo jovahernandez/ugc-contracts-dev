@@ -3,8 +3,18 @@
   "declarationId": "3d8586e6-9dd5-4466-ac1f-b6caeeab3d65",
   "token": "5c8b849b-6ccf-4d6a-9373-7fa8df729d53",
   "createdAt": "2026-10-08T23:16:48.355Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Diana Fernanda Ponzo Marrujo",
+    "nombre_representante_legal": "Diana Fernanda Ponzo Marrujo",
+    "email": "dianaponzodpcustoms@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Diana Fernanda Ponzo Marrujo",
+    "nombre_representante_legal": "Diana Fernanda Ponzo Marrujo",
+    "email": "dianaponzodpcustoms@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Diana Fernanda Ponzo Marrujo",
     "nombre_representante_legal": "Diana Fernanda Ponzo Marrujo",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "2e7df9950a7d245a3dfaeb3749b4f714ff4122b0d3c948b675d9034380338284",
+  "auditTrail": [
+    {
+      "eventId": "734725c0-e1a2-4a25-86ed-302075135af1",
+      "uid": "POMD9310121Z0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-08T23:16:57.858Z",
+      "timestampLocal": "2026-10-08T23:16:57.858Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.230.102.9",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=POMD9310121Z0&nombre_proveedor_razon_social=Diana+Fernanda+Ponzo+Marrujo&nombre_representante_legal=Diana+Fernanda+Ponzo+Marrujo&email=dianaponzodpcustoms%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "2e7df9950a7d245a3dfaeb3749b4f714ff4122b0d3c948b675d9034380338284",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3c56bdbabd6b6c3b21a77a4122631c5cf7948faeba71ab0d373ea338908304f8"
+    },
+    {
+      "eventId": "67cfae41-8409-4a11-b73b-565500a94b49",
+      "uid": "POMD9310121Z0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-08T23:16:57.858Z",
+      "timestampLocal": "2026-10-08T23:16:57.858Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.230.102.9",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=POMD9310121Z0&nombre_proveedor_razon_social=Diana+Fernanda+Ponzo+Marrujo&nombre_representante_legal=Diana+Fernanda+Ponzo+Marrujo&email=dianaponzodpcustoms%40gmail.com",
+      "previousEventHash": "3c56bdbabd6b6c3b21a77a4122631c5cf7948faeba71ab0d373ea338908304f8",
+      "documentHash": "2e7df9950a7d245a3dfaeb3749b4f714ff4122b0d3c948b675d9034380338284",
+      "metadata": {
+        "proveedor": "Diana Fernanda Ponzo Marrujo",
+        "representante": "Diana Fernanda Ponzo Marrujo"
+      },
+      "eventHash": "f310e9dc896aa4ddb04b4a87a9e19c6f6838291c3a40755c2955cd6b478c94c8"
+    }
+  ]
 }
