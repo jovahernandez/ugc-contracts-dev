@@ -3,8 +3,18 @@
   "declarationId": "d57bf087-f76f-4c7d-a7bc-b6f5754b6aaa",
   "token": "89fd8eae-e1c7-4495-81ec-1c2d2a62b1d5",
   "createdAt": "2026-10-08T02:48:39.350Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GEOVANE DE MIRANDA JUNIOR 55.329.648",
+    "nombre_representante_legal": "Geovane de Miranda Junior",
+    "email": "juniormg010@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GEOVANE DE MIRANDA JUNIOR 55.329.648",
+    "nombre_representante_legal": "Geovane de Miranda Junior",
+    "email": "juniormg010@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GEOVANE DE MIRANDA JUNIOR 55.329.648",
     "nombre_representante_legal": "Geovane de Miranda Junior",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "ede7a8e48c72ecbc329ea6e4f89bb08ff87dda8747c1db0bb5c9b1f8118a90eb",
+  "auditTrail": [
+    {
+      "eventId": "c1c2d72b-f92c-4127-9f21-fa14dc9b7f29",
+      "uid": "55.329.648/0001-06",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-08T02:48:46.230Z",
+      "timestampLocal": "2026-10-08T02:48:46.230Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.151.0.254",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55.329.648%2F0001-06&nombre_proveedor_razon_social=GEOVANE+DE+MIRANDA+JUNIOR+55.329.648&nombre_representante_legal=Geovane+de+Miranda+Junior&email=juniormg010%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "ede7a8e48c72ecbc329ea6e4f89bb08ff87dda8747c1db0bb5c9b1f8118a90eb",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "c342ac110ec0c533b9acd2259d528d22bdaf344fb505148a4bcd5200f85e7ed0"
+    },
+    {
+      "eventId": "10fa0303-9ae0-4bd6-a707-2ca8ae5ec39c",
+      "uid": "55.329.648/0001-06",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-08T02:48:46.230Z",
+      "timestampLocal": "2026-10-08T02:48:46.230Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.151.0.254",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55.329.648%2F0001-06&nombre_proveedor_razon_social=GEOVANE+DE+MIRANDA+JUNIOR+55.329.648&nombre_representante_legal=Geovane+de+Miranda+Junior&email=juniormg010%40gmail.com",
+      "previousEventHash": "c342ac110ec0c533b9acd2259d528d22bdaf344fb505148a4bcd5200f85e7ed0",
+      "documentHash": "ede7a8e48c72ecbc329ea6e4f89bb08ff87dda8747c1db0bb5c9b1f8118a90eb",
+      "metadata": {
+        "proveedor": "GEOVANE DE MIRANDA JUNIOR 55.329.648",
+        "representante": "Geovane de Miranda Junior"
+      },
+      "eventHash": "4cb31d5ad2010659fa95277a73ae158626cc3de60901d697ce6051d34f3b3564"
+    }
+  ]
 }
