@@ -3,7 +3,7 @@
   "declarationId": "6903048d-ca47-4212-a401-c539808d7d4c",
   "token": "e8ebb7f8-6da8-4f7c-be8f-8c9a40f430c9",
   "createdAt": "2026-10-08T17:27:01.958Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EXEMPLO LTDA",
@@ -25,10 +25,16 @@
     "nombre_representante_legal": "Roberto sa de cv Roberto sa de cv",
     "email": "vinicius.santos@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "df480afeeae6d9e7da4bcc890387657bb7c7206674b4fbbc8216dd5d7ab50941",
+  "personaAutorizada": null,
+  "signedAt": "2026-10-08T17:27:39.321Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/57.230.920%2F0001-14",
+  "signatureMetadata": {
+    "ip": "45.166.101.189",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-08T17:27:42.840Z",
+    "signedAtLocal": "2026-10-08T11:27:42.840Z"
+  },
+  "documentHash": "ef8e2790fa3675c0d2d86c956abc14e216b1c10fe786cf93e20f8f2d49ebda0a",
   "auditTrail": [
     {
       "eventId": "6838a4d4-3816-4acc-b69c-7d7021add59d",
@@ -103,6 +109,47 @@
         "representante": "Roberto sa de cv Roberto sa de cv"
       },
       "eventHash": "3423bb9f85f88fc067ddbbfdabcf0ce77b72064c04e4d06b0cddb0b448a7dbe6"
+    },
+    {
+      "eventId": "39ac9d23-19ef-4fa7-a1af-5ec21ec18610",
+      "uid": "57.230.920/0001-14",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T17:27:29.693Z",
+      "timestampLocal": "2026-10-08T17:27:29.693Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.166.101.189",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.7",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=57.230.920%2F0001-14&nombre_proveedor_razon_social=EXEMPLO+LTDA&nombre_representante_legal=Roberto+sa+de+cv+Roberto+sa+de+cv+&email=vinicius.santos%40another.co",
+      "previousEventHash": "3423bb9f85f88fc067ddbbfdabcf0ce77b72064c04e4d06b0cddb0b448a7dbe6",
+      "documentHash": "df480afeeae6d9e7da4bcc890387657bb7c7206674b4fbbc8216dd5d7ab50941",
+      "eventHash": "f4b78888f49a578e6df7fd0dd79a35c281b5b88dd891fe00eb8705fa01d04318"
+    },
+    {
+      "eventId": "11f32d6d-255e-4611-8598-f570da2d0242",
+      "uid": "57.230.920/0001-14",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-08T17:27:42.840Z",
+      "timestampLocal": "2026-10-08T11:27:42.840Z",
+      "timezone": "UTC-6",
+      "ipAddress": "45.166.101.189",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.7",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion/firmar/e8ebb7f8-6da8-4f7c-be8f-8c9a40f430c9",
+      "previousEventHash": "f4b78888f49a578e6df7fd0dd79a35c281b5b88dd891fe00eb8705fa01d04318",
+      "documentHash": "ef8e2790fa3675c0d2d86c956abc14e216b1c10fe786cf93e20f8f2d49ebda0a",
+      "signatureHash": "4d88fd551d5af9cfd612da47949faea6c5fb42714901f12b2cf3b661c9d4452d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-08T11:27:39.321Z"
+      },
+      "eventHash": "1b2d46304869f380bbfc647fb17a0d7e7191ea02f1a77dbfbc91d26b6d0d2d4b"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-08T17:27:43.188Z"
+  }
 }
