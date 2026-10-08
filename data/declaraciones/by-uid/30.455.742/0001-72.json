@@ -3,7 +3,7 @@
   "declarationId": "7ad6162a-b458-4034-aa96-a036444fdfe9",
   "token": "51af0068-2ec4-402d-b83e-511665d5f920",
   "createdAt": "2026-10-08T19:57:30.143Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "Roberta Rodrigues Silva Produções Artísticas LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Roberta Rodrigues",
     "email": "betabelanegra@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c36cb4753a8df19d0786c8466da7aaa0e9c3693b0587ba0daabd50c4410acaa9",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-08T19:58:13.848Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/30.455.742%2F0001-72",
+  "signatureMetadata": {
+    "ip": "45.65.158.208",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-08T19:58:16.856Z",
+    "signedAtLocal": "2026-10-08T16:58:16.856Z"
+  },
+  "documentHash": "8a54ece909cc0dc1c9dfa2d0c136a0dbc79593bd3211331620721c286487773f",
   "auditTrail": [
     {
       "eventId": "f0041dc8-c967-45dc-8a0e-3fa7a46a1ead",
@@ -66,6 +74,49 @@
         "representante": "Roberta Rodrigues"
       },
       "eventHash": "1e9ccc2d6cade37dbe7fb8e9e6154186809da9629c8ff4768cfa467aa3ce4838"
+    },
+    {
+      "eventId": "b505aafb-f852-4f33-bd9f-f0b1832ef9f9",
+      "uid": "30.455.742/0001-72",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T19:57:59.587Z",
+      "timestampLocal": "2026-10-08T19:57:59.587Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.65.158.208",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=30.455.742%2F0001-72&nombre_proveedor_razon_social=Roberta+Rodrigues+Silva+Produ%C3%A7%C3%B5es+Art%C3%ADsticas+LTDA&nombre_representante_legal=Roberta+Rodrigues&email=betabelanegra%40gmail.com",
+      "previousEventHash": "1e9ccc2d6cade37dbe7fb8e9e6154186809da9629c8ff4768cfa467aa3ce4838",
+      "documentHash": "c36cb4753a8df19d0786c8466da7aaa0e9c3693b0587ba0daabd50c4410acaa9",
+      "eventHash": "e44aa1cab8172f4b292c76b4f84ad68e4d12f0bf4abe28666d1d9afef2758447"
+    },
+    {
+      "eventId": "a365e54c-b7f0-428a-acdb-4b6032b3a271",
+      "uid": "30.455.742/0001-72",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-08T19:58:16.856Z",
+      "timestampLocal": "2026-10-08T16:58:16.856Z",
+      "timezone": "UTC-3",
+      "ipAddress": "45.65.158.208",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/51af0068-2ec4-402d-b83e-511665d5f920",
+      "previousEventHash": "e44aa1cab8172f4b292c76b4f84ad68e4d12f0bf4abe28666d1d9afef2758447",
+      "documentHash": "8a54ece909cc0dc1c9dfa2d0c136a0dbc79593bd3211331620721c286487773f",
+      "signatureHash": "f6223543a1fee15825c4255dae1334378ae66367b9106ead9fc9f7c030144ba1",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-08T16:58:13.848Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "9ff96cc7c8473474f211b8f53a60ff4685365a368c870342432ed2369c7ae02c"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-08T19:58:17.024Z"
+  }
 }
