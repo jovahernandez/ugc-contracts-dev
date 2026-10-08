@@ -3,7 +3,7 @@
   "declarationId": "cd361645-f876-4569-bfb6-263ce9ecebc8",
   "token": "8054cd3b-5dbe-4c5d-b199-9261ec372c4e",
   "createdAt": "2026-10-08T18:11:48.734Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "TCM TRANSPORTES EJECUTIVO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JOSÉ CARLOS MEDINA SORIANO",
     "email": "contrataciones@tcmtransportesejecutivos.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "94527e92927ecf3bc2d096fded62c68c9437f1f7d480040a7d9d7aebf62ceb00",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-08T18:12:31.218Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TTE190524RVA",
+  "signatureMetadata": {
+    "ip": "201.110.81.150",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-08T18:12:34.569Z",
+    "signedAtLocal": "2026-10-08T12:12:34.569Z"
+  },
+  "documentHash": "1c4167922e28c01f05e7571cdb26133a2b7e2c68d873e2f284a560b901eb245b",
   "auditTrail": [
     {
       "eventId": "519274ef-af43-4df0-be7e-872f5a8a5fab",
@@ -103,6 +111,49 @@
         "representante": "JOSÉ CARLOS MEDINA SORIANO"
       },
       "eventHash": "19919f295e91e984b3b42d979ea3c8a14c253caf6de14252835a8386771eb1ff"
+    },
+    {
+      "eventId": "3756a7cb-25c4-4da1-b6b3-68c23094ea9b",
+      "uid": "TTE190524RVA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-08T18:12:04.123Z",
+      "timestampLocal": "2026-10-08T18:12:04.123Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.110.81.150",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TTE190524RVA&nombre_proveedor_razon_social=TCM+TRANSPORTES+EJECUTIVO&nombre_representante_legal=JOS%C3%89+CARLOS+MEDINA+SORIANO&email=contrataciones%40tcmtransportesejecutivos.com.mx",
+      "previousEventHash": "19919f295e91e984b3b42d979ea3c8a14c253caf6de14252835a8386771eb1ff",
+      "documentHash": "94527e92927ecf3bc2d096fded62c68c9437f1f7d480040a7d9d7aebf62ceb00",
+      "eventHash": "fd50fcd7ebe88b5037163a0b5a54bbb3ca6ba586202feb52c411ca5bd71b7b6c"
+    },
+    {
+      "eventId": "a4cf656b-e057-4010-9ec2-0e619dbd7ecf",
+      "uid": "TTE190524RVA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-08T18:12:34.569Z",
+      "timestampLocal": "2026-10-08T12:12:34.569Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.110.81.150",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8054cd3b-5dbe-4c5d-b199-9261ec372c4e",
+      "previousEventHash": "fd50fcd7ebe88b5037163a0b5a54bbb3ca6ba586202feb52c411ca5bd71b7b6c",
+      "documentHash": "1c4167922e28c01f05e7571cdb26133a2b7e2c68d873e2f284a560b901eb245b",
+      "signatureHash": "b56fd3aa0d5932da5101ce7cd7392696cf7f8cb3516df240d623d0571004764d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-08T12:12:31.218Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "6c386b728a133127b9e94eda5561883f3256f7e8c00a04796a46fcea04fd6341"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-08T18:12:34.902Z"
+  }
 }
