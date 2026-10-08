@@ -3,8 +3,18 @@
   "declarationId": "99b09a57-2c0e-44f4-95bc-929973b56169",
   "token": "b6a82ef0-6fb0-4de9-9970-b042a3c26474",
   "createdAt": "2026-10-08T16:15:49.757Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GETAO",
+    "nombre_representante_legal": "FELIX BAUTISTA RAMOS",
+    "email": "getao.group@outlook.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GETAO",
+    "nombre_representante_legal": "FELIX BAUTISTA RAMOS",
+    "email": "getao.group@outlook.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GETAO",
     "nombre_representante_legal": "FELIX BAUTISTA RAMOS",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "b119c477bc0127afaf263ba8bb02c6516b58ccd5d33af71f7fa62db2bbdd1437",
+  "auditTrail": [
+    {
+      "eventId": "ea913bce-b9e7-4881-a5e2-57660ce16bbe",
+      "uid": "GET250915MY8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-08T16:15:58.567Z",
+      "timestampLocal": "2026-10-08T16:15:58.567Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.110.19",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GET250915MY8&nombre_proveedor_razon_social=GETAO&nombre_representante_legal=FELIX+BAUTISTA+RAMOS&email=getao.group%40outlook.com",
+      "previousEventHash": null,
+      "documentHash": "b119c477bc0127afaf263ba8bb02c6516b58ccd5d33af71f7fa62db2bbdd1437",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5ef1d5e7b7b05865e7bb1d17b2ff52ecdc598622c410cea993dfce88bb5e9f67"
+    },
+    {
+      "eventId": "022155de-dcb0-4cad-bdee-b93b278a99b1",
+      "uid": "GET250915MY8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-08T16:15:58.567Z",
+      "timestampLocal": "2026-10-08T16:15:58.567Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.110.19",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GET250915MY8&nombre_proveedor_razon_social=GETAO&nombre_representante_legal=FELIX+BAUTISTA+RAMOS&email=getao.group%40outlook.com",
+      "previousEventHash": "5ef1d5e7b7b05865e7bb1d17b2ff52ecdc598622c410cea993dfce88bb5e9f67",
+      "documentHash": "b119c477bc0127afaf263ba8bb02c6516b58ccd5d33af71f7fa62db2bbdd1437",
+      "metadata": {
+        "proveedor": "GETAO",
+        "representante": "FELIX BAUTISTA RAMOS"
+      },
+      "eventHash": "de9e72a119de1b0b256eb5e668238b4d3a641928e62f2c9d2ad72e10b51afcd3"
+    }
+  ]
 }
