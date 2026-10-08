@@ -3,8 +3,18 @@
   "declarationId": "0ae47304-edef-47e4-9e50-481ff6979a74",
   "token": "0e857597-f42e-4260-a8b6-2c528929902e",
   "createdAt": "2026-10-08T16:59:11.584Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Andrea Madero Rivero",
+    "nombre_representante_legal": "Andrea Madero Rivero",
+    "email": "tambiensoymamamx@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Andrea Madero Rivero",
+    "nombre_representante_legal": "Andrea Madero Rivero",
+    "email": "tambiensoymamamx@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Andrea Madero Rivero",
     "nombre_representante_legal": "Andrea Madero Rivero",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "2e39fa6f0be87fa882c832ccc93173a8e328bc262aacdb649f47440261cc14fa",
+  "auditTrail": [
+    {
+      "eventId": "b68aaf25-7cae-4e2b-b82c-787582c5570e",
+      "uid": "MARA880511LE9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-08T17:00:16.558Z",
+      "timestampLocal": "2026-10-08T17:00:16.558Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.172.179",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MARA880511LE9&nombre_proveedor_razon_social=Andrea+Madero+Rivero+&nombre_representante_legal=Andrea+Madero+Rivero+&email=tambiensoymamamx%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "2e39fa6f0be87fa882c832ccc93173a8e328bc262aacdb649f47440261cc14fa",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3b9c96c2d6628348bc9632cee5136b9f391b7d08eabc6ca1aee87debab44b984"
+    },
+    {
+      "eventId": "ce73f26e-9c8f-41c2-9546-d34cee8a62e7",
+      "uid": "MARA880511LE9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-08T17:00:16.558Z",
+      "timestampLocal": "2026-10-08T17:00:16.558Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.172.179",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MARA880511LE9&nombre_proveedor_razon_social=Andrea+Madero+Rivero+&nombre_representante_legal=Andrea+Madero+Rivero+&email=tambiensoymamamx%40gmail.com",
+      "previousEventHash": "3b9c96c2d6628348bc9632cee5136b9f391b7d08eabc6ca1aee87debab44b984",
+      "documentHash": "2e39fa6f0be87fa882c832ccc93173a8e328bc262aacdb649f47440261cc14fa",
+      "metadata": {
+        "proveedor": "Andrea Madero Rivero",
+        "representante": "Andrea Madero Rivero"
+      },
+      "eventHash": "0ca2f1969bc4d43fc0ea0223ca45cbdb84a4f741212de67d044a932b8753fbd0"
+    }
+  ]
 }
