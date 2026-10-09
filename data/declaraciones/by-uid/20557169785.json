@@ -3,7 +3,7 @@
   "declarationId": "66632ef7-4f20-48e2-ba72-50391fb224e7",
   "token": "0d28cc17-d515-4fc7-996b-8b3895ad6b92",
   "createdAt": "2026-10-09T15:46:25.541Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "VPS PERU SAC",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ENRIQUE PEREZ SUAREZ",
     "email": "b.paucar@vpslatam.pe"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d03d0d2b51a0d7729b74d5f3618cd9639ff68f89eb82bbc943daffd5308cf333",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-09T16:02:10.018Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/20557169785",
+  "signatureMetadata": {
+    "ip": "179.6.16.190",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-09T16:02:13.386Z",
+    "signedAtLocal": "2026-10-09T11:02:13.386Z"
+  },
+  "documentHash": "ee11433fe17319b143299eea8cf4119b609720839bd66e6bb312b3fa42c7c810",
   "auditTrail": [
     {
       "eventId": "21a963b6-5e21-46f7-9132-dd98fb275c4e",
@@ -66,6 +74,139 @@
         "representante": "ENRIQUE PEREZ SUAREZ"
       },
       "eventHash": "5a5e78054f0f6f0f22169bd6c2f179da1afe475239e14b485c733cf5072bb78e"
+    },
+    {
+      "eventId": "d7e3497a-2d5e-429d-b416-cbb8d2b645cd",
+      "uid": "20557169785",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T15:46:39.358Z",
+      "timestampLocal": "2026-10-09T15:46:39.358Z",
+      "timezone": "UTC+0",
+      "ipAddress": "170.231.171.182",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20557169785&nombre_proveedor_razon_social=VPS+PERU+SAC&nombre_representante_legal=ENRIQUE+PEREZ+SUAREZ&email=b.paucar%40vpslatam.pe",
+      "previousEventHash": "5a5e78054f0f6f0f22169bd6c2f179da1afe475239e14b485c733cf5072bb78e",
+      "documentHash": "d03d0d2b51a0d7729b74d5f3618cd9639ff68f89eb82bbc943daffd5308cf333",
+      "eventHash": "d7a2e03e20b41012217d5330baed6be0054e6af91f017206077a175ee998f85f"
+    },
+    {
+      "eventId": "37489278-9271-41d7-9b24-52871561a556",
+      "uid": "20557169785",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T15:56:15.280Z",
+      "timestampLocal": "2026-10-09T15:56:15.280Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.6.16.190",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "d7a2e03e20b41012217d5330baed6be0054e6af91f017206077a175ee998f85f",
+      "documentHash": "d03d0d2b51a0d7729b74d5f3618cd9639ff68f89eb82bbc943daffd5308cf333",
+      "eventHash": "fd9fd1670093a30943781160ffa710607f7168ce36f45af4653875853e460057"
+    },
+    {
+      "eventId": "d6fafadd-3da3-44f9-9366-1eab6fbd4a37",
+      "uid": "20557169785",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T15:59:52.154Z",
+      "timestampLocal": "2026-10-09T15:59:52.154Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.6.16.190",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "fd9fd1670093a30943781160ffa710607f7168ce36f45af4653875853e460057",
+      "documentHash": "d03d0d2b51a0d7729b74d5f3618cd9639ff68f89eb82bbc943daffd5308cf333",
+      "eventHash": "4aac930ccc31fa1bca293b5a084ab1f6f46cb926fe7660afe1bade1f2ea7d5b8"
+    },
+    {
+      "eventId": "6b96069d-fb32-4163-806f-d1731a71fe10",
+      "uid": "20557169785",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T16:00:10.601Z",
+      "timestampLocal": "2026-10-09T16:00:10.601Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.6.16.190",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "4aac930ccc31fa1bca293b5a084ab1f6f46cb926fe7660afe1bade1f2ea7d5b8",
+      "documentHash": "d03d0d2b51a0d7729b74d5f3618cd9639ff68f89eb82bbc943daffd5308cf333",
+      "eventHash": "8fdf0738f49b3550575b45569bc8a31cdb44b968c0e6c8dab6cf5d7edeade8f9"
+    },
+    {
+      "eventId": "f4bda96c-d656-49ee-b9e3-6675f9939907",
+      "uid": "20557169785",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T16:00:51.326Z",
+      "timestampLocal": "2026-10-09T16:00:51.326Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.6.16.190",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "8fdf0738f49b3550575b45569bc8a31cdb44b968c0e6c8dab6cf5d7edeade8f9",
+      "documentHash": "d03d0d2b51a0d7729b74d5f3618cd9639ff68f89eb82bbc943daffd5308cf333",
+      "eventHash": "c5c7a695f31ed6c0a2bde5e0785a474d0a604a149fa28dd0d50c04f1c0b96f1a"
+    },
+    {
+      "eventId": "4420771d-b5e4-4b3e-b8db-1b1afd5950a3",
+      "uid": "20557169785",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T16:01:14.421Z",
+      "timestampLocal": "2026-10-09T16:01:14.421Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.6.16.190",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c5c7a695f31ed6c0a2bde5e0785a474d0a604a149fa28dd0d50c04f1c0b96f1a",
+      "documentHash": "d03d0d2b51a0d7729b74d5f3618cd9639ff68f89eb82bbc943daffd5308cf333",
+      "eventHash": "d16459d746e97378e6feea5ded52f3c227e0888cf5bc714e56789c15ef6943e1"
+    },
+    {
+      "eventId": "570d15fc-8ac2-4d39-a780-2406c611341c",
+      "uid": "20557169785",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T16:01:19.150Z",
+      "timestampLocal": "2026-10-09T16:01:19.150Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.6.16.190",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "d16459d746e97378e6feea5ded52f3c227e0888cf5bc714e56789c15ef6943e1",
+      "documentHash": "d03d0d2b51a0d7729b74d5f3618cd9639ff68f89eb82bbc943daffd5308cf333",
+      "eventHash": "8eae08dca75f590e9aceb10adb70c8b1ed62ab7f89a86b1f7e14bcc59ac356df"
+    },
+    {
+      "eventId": "76651188-4f82-41e6-a5c3-1da238771488",
+      "uid": "20557169785",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-09T16:02:13.386Z",
+      "timestampLocal": "2026-10-09T11:02:13.386Z",
+      "timezone": "UTC-5",
+      "ipAddress": "179.6.16.190",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/0d28cc17-d515-4fc7-996b-8b3895ad6b92",
+      "previousEventHash": "8eae08dca75f590e9aceb10adb70c8b1ed62ab7f89a86b1f7e14bcc59ac356df",
+      "documentHash": "ee11433fe17319b143299eea8cf4119b609720839bd66e6bb312b3fa42c7c810",
+      "signatureHash": "f26716008c1281b1aee842de9bdc5783bd92f957cc2e3fd62110e8900bec259d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-09T11:02:10.018Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "e712955a4f482402a048bad8224f9d74cb2b2f1000baac1fd9660f425bbdcb08"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 10,
+    "verifiedAt": "2026-10-09T16:02:13.570Z"
+  }
 }
