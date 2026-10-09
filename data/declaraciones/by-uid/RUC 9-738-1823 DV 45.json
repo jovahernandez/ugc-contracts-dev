@@ -3,7 +3,7 @@
   "declarationId": "11aad9ec-3e98-4564-99b2-afa13e84acb8",
   "token": "43ce880e-6355-4227-8724-e8896690a836",
   "createdAt": "2026-10-09T00:30:20.794Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DANIEL ANGEL GUEVARA DONADO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "DANIEL GUEVARA",
     "email": "ventas@branzstudio.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "370e0134cb4ffee761f4b0dcd9ea349d33bd4f68c4a5c73e009498440761584b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-09T00:30:56.659Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RUC%209-738-1823%20DV%2045",
+  "signatureMetadata": {
+    "ip": "200.46.55.90",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "signedAtUtc": "2026-10-09T00:31:00.193Z",
+    "signedAtLocal": "2026-10-08T19:31:00.193Z"
+  },
+  "documentHash": "ec6616629b1aa4cc0c97da32645cf44732680aa65256ed7fdaf993b30ee11f5d",
   "auditTrail": [
     {
       "eventId": "94df8f6e-000f-4ef0-b0e2-46a0dc5e1232",
@@ -103,6 +111,49 @@
         "representante": "DANIEL GUEVARA"
       },
       "eventHash": "efe4979d6e22018d4935707037be20c5253dc3024acb1aec7ba1573c163958d3"
+    },
+    {
+      "eventId": "9b2daa84-a492-4466-818b-0d4a1b8e1cff",
+      "uid": "RUC 9-738-1823 DV 45",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T00:30:32.757Z",
+      "timestampLocal": "2026-10-09T00:30:32.757Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.46.55.90",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RUC+9-738-1823+DV+45&nombre_proveedor_razon_social=DANIEL+ANGEL+GUEVARA+DONADO&nombre_representante_legal=DANIEL+GUEVARA&email=ventas%40branzstudio.com",
+      "previousEventHash": "efe4979d6e22018d4935707037be20c5253dc3024acb1aec7ba1573c163958d3",
+      "documentHash": "370e0134cb4ffee761f4b0dcd9ea349d33bd4f68c4a5c73e009498440761584b",
+      "eventHash": "8ecf6051fe454f0355b4dfbafaee615de5c5e4c80ecae548a5f3ac9a0a77d0be"
+    },
+    {
+      "eventId": "43fd2bfe-0f54-495c-ba62-1b4335ad20ab",
+      "uid": "RUC 9-738-1823 DV 45",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-09T00:31:00.193Z",
+      "timestampLocal": "2026-10-08T19:31:00.193Z",
+      "timezone": "UTC-5",
+      "ipAddress": "200.46.55.90",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/43ce880e-6355-4227-8724-e8896690a836",
+      "previousEventHash": "8ecf6051fe454f0355b4dfbafaee615de5c5e4c80ecae548a5f3ac9a0a77d0be",
+      "documentHash": "ec6616629b1aa4cc0c97da32645cf44732680aa65256ed7fdaf993b30ee11f5d",
+      "signatureHash": "004af1754086352dbf75ba697bb7aef42e994ac065ffcc8dcd14ab700e6c88a2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-08T19:30:56.659Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "0635a68048fc661457ffa17eed4466df84b74682ceadb9bc1d65381bd7b33e3b"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-09T00:31:00.432Z"
+  }
 }
