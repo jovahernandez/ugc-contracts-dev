@@ -1,7 +1,7 @@
 {
   "uid": "860.001.022-7",
   "token": "2da639da-4c29-40ea-ae51-adc9a6256df1",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CASA EDITORIAL EL TIEMPO S A",
@@ -23,10 +23,18 @@
     "nombre_representante_legal": "Gabriel Castellanos Castellanos",
     "email": "felcri@eltiempo.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e66db0b3db19f472efce1452a6f7841af1c1c29731258469873008ee21bed341",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-09T19:57:33.558Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/860.001.022-7",
+  "signatureMetadata": {
+    "ip": "186.30.60.152",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-09T19:57:36.934Z",
+    "signedAtLocal": "2026-10-09T14:57:36.934Z"
+  },
+  "documentHash": "ca6e749d7d3a1ce36b8857cc09657f540ceb7a328848085512c1ee4039203c88",
   "auditTrail": [
     {
       "eventId": "0ef96b58-1199-4ddf-8cab-119ac195e1f9",
@@ -138,6 +146,49 @@
         "representante": "Gabriel Castellanos Castellanos"
       },
       "eventHash": "e6c57e141ffa7f30e8d90842faca05c80de8b65c3327a198c9b03df39e844c19"
+    },
+    {
+      "eventId": "2acce835-61a7-489f-b282-2a6b003cd93d",
+      "uid": "860.001.022-7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T19:56:32.359Z",
+      "timestampLocal": "2026-10-09T19:56:32.359Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.30.60.152",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=860.001.022-7&nombre_proveedor_razon_social=CASA+EDITORIAL+EL+TIEMPO+S+A&nombre_representante_legal=Carlo+Felipe+Diaz+Parra&email=felcri%40eltiempo.com",
+      "previousEventHash": "e6c57e141ffa7f30e8d90842faca05c80de8b65c3327a198c9b03df39e844c19",
+      "documentHash": "e66db0b3db19f472efce1452a6f7841af1c1c29731258469873008ee21bed341",
+      "eventHash": "43ded1384e3b28f63bb53354b2ad8647ea7104be23b487f4310b97c1f3c2c69a"
+    },
+    {
+      "eventId": "070e5a84-917d-4eb7-ad1f-9866f37e7cfb",
+      "uid": "860.001.022-7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-09T19:57:36.934Z",
+      "timestampLocal": "2026-10-09T14:57:36.934Z",
+      "timezone": "UTC-5",
+      "ipAddress": "186.30.60.152",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/2da639da-4c29-40ea-ae51-adc9a6256df1",
+      "previousEventHash": "43ded1384e3b28f63bb53354b2ad8647ea7104be23b487f4310b97c1f3c2c69a",
+      "documentHash": "ca6e749d7d3a1ce36b8857cc09657f540ceb7a328848085512c1ee4039203c88",
+      "signatureHash": "c0cccdb8498209a34c40a4c68514dcddbebdc4594bc42cadb8d5ea38afb12d9e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-09T14:57:33.558Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "d3186a8510d634aca8cc91d1134c02cb87bdb5d10678a7bf4969070e8fd81201"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-10-09T19:57:37.203Z"
+  }
 }
