@@ -1,8 +1,14 @@
 {
   "uid": "860.001.022-7",
+  "token": "2da639da-4c29-40ea-ae51-adc9a6256df1",
   "status": "pending_signature",
   "language": "es",
   "proveedor": {
+    "nombre_proveedor_razon_social": "CASA EDITORIAL EL TIEMPO S A",
+    "nombre_representante_legal": "Gabriel Castellanos Castellanos",
+    "email": "felcri@eltiempo.com"
+  },
+  "proveedorData": {
     "nombre_proveedor_razon_social": "CASA EDITORIAL EL TIEMPO S A",
     "nombre_representante_legal": "Gabriel Castellanos Castellanos",
     "email": "felcri@eltiempo.com"
@@ -12,8 +18,52 @@
     "nombre_representante_legal": "Gabriel Castellanos Castellanos",
     "email": "felcri@eltiempo.com"
   },
+  "expectedProveedorData": {
+    "nombre_proveedor_razon_social": "CASA EDITORIAL EL TIEMPO S A",
+    "nombre_representante_legal": "Gabriel Castellanos Castellanos",
+    "email": "felcri@eltiempo.com"
+  },
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": "83dd3b95c6d2baeda5a9e17e6805dfa78e093afecee119604aff072d7f5a5555"
+  "documentHash": "998a8c35f8cc86c8f4070cb7ae345dfe1341ecb4bf5cdc585f22113a1d495e77",
+  "auditTrail": [
+    {
+      "eventId": "0ef96b58-1199-4ddf-8cab-119ac195e1f9",
+      "uid": "860.001.022-7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-09T19:56:25.407Z",
+      "timestampLocal": "2026-10-09T19:56:25.407Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.30.60.152",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=860.001.022-7&nombre_proveedor_razon_social=CASA+EDITORIAL+EL+TIEMPO+S+A&nombre_representante_legal=Carlo+Felipe+Diaz+Parra&email=felcri%40eltiempo.com",
+      "previousEventHash": null,
+      "documentHash": "998a8c35f8cc86c8f4070cb7ae345dfe1341ecb4bf5cdc585f22113a1d495e77",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b0b3dac5609ca1e7623c7461b93c7f7983497a399bc2dd07b1b2027a8185f2c8"
+    },
+    {
+      "eventId": "1fd60d06-fd52-4e6f-8082-f58bd9b97ae0",
+      "uid": "860.001.022-7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-09T19:56:25.407Z",
+      "timestampLocal": "2026-10-09T19:56:25.407Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.30.60.152",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=860.001.022-7&nombre_proveedor_razon_social=CASA+EDITORIAL+EL+TIEMPO+S+A&nombre_representante_legal=Carlo+Felipe+Diaz+Parra&email=felcri%40eltiempo.com",
+      "previousEventHash": "b0b3dac5609ca1e7623c7461b93c7f7983497a399bc2dd07b1b2027a8185f2c8",
+      "documentHash": "998a8c35f8cc86c8f4070cb7ae345dfe1341ecb4bf5cdc585f22113a1d495e77",
+      "metadata": {
+        "proveedor": "CASA EDITORIAL EL TIEMPO S A",
+        "representante": "Gabriel Castellanos Castellanos"
+      },
+      "eventHash": "129740638ff27538924535a807eed9bd0d982d9122eb2e85955e7024bd76748c"
+    }
+  ]
 }
