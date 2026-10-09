@@ -3,8 +3,18 @@
   "declarationId": "eeeec05c-e4d7-443d-9bd7-45f5a18e42c3",
   "token": "62c0b5ef-a0d0-4162-87a8-521a6112d1f8",
   "createdAt": "2026-10-09T19:35:44.495Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "FAMILIA QUILOMBO PARENTALIDADE E EDUCACAO ANTIRRACISTA LTDA",
+    "nombre_representante_legal": "Margarida Maria Arcebispo",
+    "email": "familiaquilombo@brunch.ag"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "FAMILIA QUILOMBO PARENTALIDADE E EDUCACAO ANTIRRACISTA LTDA",
+    "nombre_representante_legal": "Margarida Maria Arcebispo",
+    "email": "familiaquilombo@brunch.ag"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "FAMILIA QUILOMBO PARENTALIDADE E EDUCACAO ANTIRRACISTA LTDA",
     "nombre_representante_legal": "Margarida Maria Arcebispo",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "5068a4d5bbf41d43b48f0bccd9adbc99fc95738a84e830dadbdc89968fc179e3",
+  "auditTrail": [
+    {
+      "eventId": "1a8c734c-1937-44d8-8034-1b97da9961b8",
+      "uid": "33.483.712/0001-68",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-09T19:35:52.432Z",
+      "timestampLocal": "2026-10-09T19:35:52.432Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.26.122.230",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/154.0.8037.55 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "5068a4d5bbf41d43b48f0bccd9adbc99fc95738a84e830dadbdc89968fc179e3",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "66c9888f3b376e549990a88ae0493886d36916dcb573a515caa224f7e7e3c8f1"
+    },
+    {
+      "eventId": "13471392-0a13-4e47-be00-88ffd0743a48",
+      "uid": "33.483.712/0001-68",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-09T19:35:52.432Z",
+      "timestampLocal": "2026-10-09T19:35:52.432Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.26.122.230",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/154.0.8037.55 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "66c9888f3b376e549990a88ae0493886d36916dcb573a515caa224f7e7e3c8f1",
+      "documentHash": "5068a4d5bbf41d43b48f0bccd9adbc99fc95738a84e830dadbdc89968fc179e3",
+      "metadata": {
+        "proveedor": "FAMILIA QUILOMBO PARENTALIDADE E EDUCACAO ANTIRRACISTA LTDA",
+        "representante": "Margarida Maria Arcebispo"
+      },
+      "eventHash": "f5deb4a377ac5a6be0808ccf1e54db5c3c283d087f019e0727ffeb766fdcb8b4"
+    }
+  ]
 }
