@@ -3,7 +3,7 @@
   "declarationId": "779e6a9c-ec3f-4826-a769-46aa06f81cb0",
   "token": "8cb6f8c4-3faa-45a0-ba4f-061fcdd04ab7",
   "createdAt": "2026-10-09T17:59:03.656Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Médicos Dentales Guerra S.A",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Rodrigo Estuardo Guerra",
     "email": "carina@guatemaladental.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4f033777f18cdeea00a5567280281a02b3291c1c5feff465d776251803bb0d24",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-09T17:59:41.122Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/74226738",
+  "signatureMetadata": {
+    "ip": "38.41.224.66",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-09T17:59:44.458Z",
+    "signedAtLocal": "2026-10-09T11:59:44.458Z"
+  },
+  "documentHash": "df94fe1269d0a7c8e616510267f4c389e7e63416fdd22c40488ad856701e12ba",
   "auditTrail": [
     {
       "eventId": "c0e58bd0-9647-4410-921c-9d0eae9acc3e",
@@ -66,6 +74,49 @@
         "representante": "Rodrigo Estuardo Guerra"
       },
       "eventHash": "907645fab5c64d9ac122f824fa6abdad77166faf96ceb031ad47df505db1d0a0"
+    },
+    {
+      "eventId": "698f87d4-aa5a-47ee-96a2-02ef999174db",
+      "uid": "74226738",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T17:59:17.417Z",
+      "timestampLocal": "2026-10-09T17:59:17.417Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.41.224.66",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=74226738&nombre_proveedor_razon_social=M%C3%A9dicos+Dentales+Guerra+S.A&nombre_representante_legal=Rodrigo+Estuardo+Guerra&email=carina%40guatemaladental.com",
+      "previousEventHash": "907645fab5c64d9ac122f824fa6abdad77166faf96ceb031ad47df505db1d0a0",
+      "documentHash": "4f033777f18cdeea00a5567280281a02b3291c1c5feff465d776251803bb0d24",
+      "eventHash": "96d3b63ed7cdd031b784119d8dc620a236b0c31fe9f2b32424360dd1276386e8"
+    },
+    {
+      "eventId": "3d3df83b-cbd4-435a-be87-72f6fbb7aff1",
+      "uid": "74226738",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-09T17:59:44.458Z",
+      "timestampLocal": "2026-10-09T11:59:44.458Z",
+      "timezone": "UTC-6",
+      "ipAddress": "38.41.224.66",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8cb6f8c4-3faa-45a0-ba4f-061fcdd04ab7",
+      "previousEventHash": "96d3b63ed7cdd031b784119d8dc620a236b0c31fe9f2b32424360dd1276386e8",
+      "documentHash": "df94fe1269d0a7c8e616510267f4c389e7e63416fdd22c40488ad856701e12ba",
+      "signatureHash": "3dde568b11f5facd86a0511da658e58c04e5c5e5e14f7574793171253a77d523",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-09T11:59:41.122Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "fa98a7115ae549e81cea0376ff0d183d2afa2e2f622ebbeca7017a93a211b1ef"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-09T17:59:45.056Z"
+  }
 }
