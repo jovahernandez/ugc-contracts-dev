@@ -3,7 +3,7 @@
   "declarationId": "e23aef77-ae18-4384-b54b-13689e6c8450",
   "token": "745e0dec-1cf1-4866-870f-6b8ebb6040be",
   "createdAt": "2026-10-02T21:56:38.834Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ADORO PAGARLES SA DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Oscar Yamakawa",
     "email": "oscar@makeithappen.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "750a6dce9bda7c8283519e97c32b79b4e2a1b82d74c3801be0b14f6b32fe9ce6",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-09T19:48:33.322Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/APA160308CQ4",
+  "signatureMetadata": {
+    "ip": "187.191.37.191",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Viewer/99.9.8911.88",
+    "signedAtUtc": "2026-10-09T19:48:36.739Z",
+    "signedAtLocal": "2026-10-09T13:48:36.739Z"
+  },
+  "documentHash": "68dd2d73f0a3ce2131788cfa30c473a83e2cae066378f7a435e9b0687f519ba9",
   "auditTrail": [
     {
       "eventId": "fffe3924-b312-46a8-bd9d-350d693c66f1",
@@ -140,6 +148,64 @@
         "representante": "Oscar Yamakawa"
       },
       "eventHash": "e3ba7f42e0c34092c2e84c1748536a27a428ba478769f5f5804332ae4bc00894"
+    },
+    {
+      "eventId": "225b1314-2318-4b25-a926-d0cfc9805d92",
+      "uid": "APA160308CQ4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-02T21:56:57.852Z",
+      "timestampLocal": "2026-10-02T21:56:57.852Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.198.246",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 GLS/100.10.9506.95",
+      "acceptLanguage": "es-419,es;q=0.9, en-ES;q=0.001",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=APA160308CQ4&nombre_proveedor_razon_social=ADORO+PAGARLES+SA+DE+CV&nombre_representante_legal=Oscar+Yamakawa&email=oscar%40makeithappen.mx",
+      "previousEventHash": "e3ba7f42e0c34092c2e84c1748536a27a428ba478769f5f5804332ae4bc00894",
+      "documentHash": "750a6dce9bda7c8283519e97c32b79b4e2a1b82d74c3801be0b14f6b32fe9ce6",
+      "eventHash": "2f161a9cb5c5a1379aa3d625b1221b1aa1758ea9a9abb464352936739a9fccf8"
+    },
+    {
+      "eventId": "17b2ea21-2b41-411d-aab9-41fb4474a482",
+      "uid": "APA160308CQ4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T19:47:58.844Z",
+      "timestampLocal": "2026-10-09T19:47:58.844Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.37.191",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Viewer/99.9.8911.88",
+      "acceptLanguage": "es-ES,es;q=0.9, en-IN;q=0.001",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "2f161a9cb5c5a1379aa3d625b1221b1aa1758ea9a9abb464352936739a9fccf8",
+      "documentHash": "750a6dce9bda7c8283519e97c32b79b4e2a1b82d74c3801be0b14f6b32fe9ce6",
+      "eventHash": "ffc2146fb940ac4e8a6ed86ae306dd6c16584fbb02592081c0ec857637768a20"
+    },
+    {
+      "eventId": "ee755799-d0c0-4dc0-ade3-245ece004e34",
+      "uid": "APA160308CQ4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-09T19:48:36.739Z",
+      "timestampLocal": "2026-10-09T13:48:36.739Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.191.37.191",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Viewer/99.9.8911.88",
+      "acceptLanguage": "es-ES,es;q=0.9, en-IE;q=0.001",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/745e0dec-1cf1-4866-870f-6b8ebb6040be",
+      "previousEventHash": "ffc2146fb940ac4e8a6ed86ae306dd6c16584fbb02592081c0ec857637768a20",
+      "documentHash": "68dd2d73f0a3ce2131788cfa30c473a83e2cae066378f7a435e9b0687f519ba9",
+      "signatureHash": "1a90b49071deb6f2b0ed39cbd63bfe079cc1441a9122d918c0168ef3b734b7e8",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-09T13:48:33.322Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "aa8e96ae626170904e3ecf64867cfaaad0576236974a845c4b4b891d9c507a0a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 9,
+    "verifiedAt": "2026-10-09T19:48:37.057Z"
+  }
 }
