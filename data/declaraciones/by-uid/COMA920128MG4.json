@@ -3,7 +3,7 @@
   "declarationId": "ef4c2e71-cac3-464d-b3d3-6a42303e341f",
   "token": "38f1bcac-f0ad-4ab1-9aa3-1b4d406c0357",
   "createdAt": "2026-10-09T23:13:41.138Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Ana Karla Corral Marmolejo",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ANA KARLA CORRAL",
     "email": "anamarmolejoa@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "32611633ead84b211f5ad442f47bbd198d1b182b77ccd6d0db8aed842e73b9b9",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-09T23:15:56.387Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/COMA920128MG4",
+  "signatureMetadata": {
+    "ip": "187.214.77.149",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-09T23:15:59.758Z",
+    "signedAtLocal": "2026-10-09T17:15:59.758Z"
+  },
+  "documentHash": "33983dcdf6cee7c627cd8f681ca90e7109bb88a58884fc4dbc34a600894af579",
   "auditTrail": [
     {
       "eventId": "0a144a4d-8c84-40ab-a0e2-a24f5f8ad7b2",
@@ -66,6 +74,49 @@
         "representante": "ANA KARLA CORRAL"
       },
       "eventHash": "755099acae061cdb744208079475ebff15746fc1c4f5459cef72a66380715c4f"
+    },
+    {
+      "eventId": "a149f1b5-ef96-46c6-a7ab-932115dc04e8",
+      "uid": "COMA920128MG4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T23:13:55.052Z",
+      "timestampLocal": "2026-10-09T23:13:55.052Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.214.77.149",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=COMA920128MG4&nombre_proveedor_razon_social=Ana+Karla+Corral+Marmolejo&nombre_representante_legal=ANA+KARLA+CORRAL&email=anamarmolejoa%40gmail.com",
+      "previousEventHash": "755099acae061cdb744208079475ebff15746fc1c4f5459cef72a66380715c4f",
+      "documentHash": "32611633ead84b211f5ad442f47bbd198d1b182b77ccd6d0db8aed842e73b9b9",
+      "eventHash": "f6f408d369cfaa047e565f1e48eaf60434bb63182704ec114eb5b8065c407a08"
+    },
+    {
+      "eventId": "b2a8edfe-215e-474c-a1a9-edf7cb614683",
+      "uid": "COMA920128MG4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-09T23:15:59.758Z",
+      "timestampLocal": "2026-10-09T17:15:59.758Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.214.77.149",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/38f1bcac-f0ad-4ab1-9aa3-1b4d406c0357",
+      "previousEventHash": "f6f408d369cfaa047e565f1e48eaf60434bb63182704ec114eb5b8065c407a08",
+      "documentHash": "33983dcdf6cee7c627cd8f681ca90e7109bb88a58884fc4dbc34a600894af579",
+      "signatureHash": "cb71424931e97386bf43a1e64e58137402458378116c6992ebd863374438baf0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-09T17:15:56.387Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "1d780b81648fc91c7e2f9914e73370ba8a74ac278782f90157f0314e560c32f7"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-09T23:15:59.969Z"
+  }
 }
