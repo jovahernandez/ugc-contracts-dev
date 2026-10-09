@@ -3,8 +3,18 @@
   "declarationId": "779e6a9c-ec3f-4826-a769-46aa06f81cb0",
   "token": "8cb6f8c4-3faa-45a0-ba4f-061fcdd04ab7",
   "createdAt": "2026-10-09T17:59:03.656Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Médicos Dentales Guerra S.A",
+    "nombre_representante_legal": "Rodrigo Estuardo Guerra",
+    "email": "carina@guatemaladental.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Médicos Dentales Guerra S.A",
+    "nombre_representante_legal": "Rodrigo Estuardo Guerra",
+    "email": "carina@guatemaladental.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Médicos Dentales Guerra S.A",
     "nombre_representante_legal": "Rodrigo Estuardo Guerra",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4f033777f18cdeea00a5567280281a02b3291c1c5feff465d776251803bb0d24",
+  "auditTrail": [
+    {
+      "eventId": "c0e58bd0-9647-4410-921c-9d0eae9acc3e",
+      "uid": "74226738",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-09T17:59:14.253Z",
+      "timestampLocal": "2026-10-09T17:59:14.253Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.41.224.66",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=74226738&nombre_proveedor_razon_social=M%C3%A9dicos+Dentales+Guerra+S.A&nombre_representante_legal=Rodrigo+Estuardo+Guerra&email=carina%40guatemaladental.com",
+      "previousEventHash": null,
+      "documentHash": "4f033777f18cdeea00a5567280281a02b3291c1c5feff465d776251803bb0d24",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "596800c530bfb718a6cbef65e321b6d75cda7c85af80d16f6501db2d571238da"
+    },
+    {
+      "eventId": "fedf3e4d-a55f-48a3-857f-0a2d7a2e9456",
+      "uid": "74226738",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-09T17:59:14.253Z",
+      "timestampLocal": "2026-10-09T17:59:14.253Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.41.224.66",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=74226738&nombre_proveedor_razon_social=M%C3%A9dicos+Dentales+Guerra+S.A&nombre_representante_legal=Rodrigo+Estuardo+Guerra&email=carina%40guatemaladental.com",
+      "previousEventHash": "596800c530bfb718a6cbef65e321b6d75cda7c85af80d16f6501db2d571238da",
+      "documentHash": "4f033777f18cdeea00a5567280281a02b3291c1c5feff465d776251803bb0d24",
+      "metadata": {
+        "proveedor": "Médicos Dentales Guerra S.A",
+        "representante": "Rodrigo Estuardo Guerra"
+      },
+      "eventHash": "907645fab5c64d9ac122f824fa6abdad77166faf96ceb031ad47df505db1d0a0"
+    }
+  ]
 }
