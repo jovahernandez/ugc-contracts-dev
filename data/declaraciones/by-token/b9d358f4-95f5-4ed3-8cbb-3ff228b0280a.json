@@ -3,7 +3,7 @@
   "declarationId": "1729fd2f-1877-4a9a-a9a2-735832db4f72",
   "token": "b9d358f4-95f5-4ed3-8cbb-3ff228b0280a",
   "createdAt": "2026-10-09T16:46:48.434Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "CARLA BALTA PRODUTORA DE CONTEUDO DIGITAL LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Carla da Gama Balta",
     "email": "estefani.teixeira@gruposoller.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c5023373fb25e685cde4743e537a619c2956130fa5dc035a7e3b60a64d7b0beb",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-09T16:47:36.055Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/32.724.771%2F0001-18",
+  "signatureMetadata": {
+    "ip": "190.89.0.221",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "signedAtUtc": "2026-10-09T16:47:39.418Z",
+    "signedAtLocal": "2026-10-09T13:47:39.418Z"
+  },
+  "documentHash": "4b06f3498c3e32caa0cf76f5e2ccda206fcce8bf8d1be7e3b3ccbd7402b3ff06",
   "auditTrail": [
     {
       "eventId": "617fc72d-4a68-4c30-846d-1a71bf6d3b55",
@@ -66,6 +74,49 @@
         "representante": "Carla da Gama Balta"
       },
       "eventHash": "0b0d5e9354c5b6430e257d6ae57059333d27e16141c9681a3fca91a27a680789"
+    },
+    {
+      "eventId": "f75897f2-ae23-40ce-a167-91d65f3a0954",
+      "uid": "32.724.771/0001-18",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T16:46:58.062Z",
+      "timestampLocal": "2026-10-09T16:46:58.062Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.89.0.221",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=32.724.771%2F0001-18&nombre_proveedor_razon_social=CARLA+BALTA+PRODUTORA+DE+CONTEUDO+DIGITAL+LTDA&nombre_representante_legal=Carla+da+Gama+Balta&email=estefani.teixeira%40gruposoller.com.br",
+      "previousEventHash": "0b0d5e9354c5b6430e257d6ae57059333d27e16141c9681a3fca91a27a680789",
+      "documentHash": "c5023373fb25e685cde4743e537a619c2956130fa5dc035a7e3b60a64d7b0beb",
+      "eventHash": "2f4ee61d266dcbd3571fc8fd3f2d5b38eb4734867a88763ce1ccf03f6abe5e49"
+    },
+    {
+      "eventId": "2c9a6bca-620f-41bd-90c3-c1e23af09720",
+      "uid": "32.724.771/0001-18",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-09T16:47:39.418Z",
+      "timestampLocal": "2026-10-09T13:47:39.418Z",
+      "timezone": "UTC-3",
+      "ipAddress": "190.89.0.221",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b9d358f4-95f5-4ed3-8cbb-3ff228b0280a",
+      "previousEventHash": "2f4ee61d266dcbd3571fc8fd3f2d5b38eb4734867a88763ce1ccf03f6abe5e49",
+      "documentHash": "4b06f3498c3e32caa0cf76f5e2ccda206fcce8bf8d1be7e3b3ccbd7402b3ff06",
+      "signatureHash": "eb04c003163d41ea0aef1604f17f0ea694cc737dae62be58635571b2b33f4ca3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-09T13:47:36.055Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "b0907f722cdb3a9576ea536c8f69eac280333b2e8f1e342665c591bb225a9d23"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-09T16:47:39.637Z"
+  }
 }
