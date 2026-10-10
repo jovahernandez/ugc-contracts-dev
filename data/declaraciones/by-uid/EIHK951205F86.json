@@ -3,7 +3,7 @@
   "declarationId": "c151a992-810c-4b8c-9db6-51d1ed051df6",
   "token": "8d619e72-33d5-48d1-b7df-e2e839a9d98f",
   "createdAt": "2026-10-10T03:08:53.206Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Katia Xanat Espino Hernandez",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Katia Xanat Espino Hernandez",
     "email": "curlykatues@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9a7a2e6de3c2fdbf45b0a823bb9d1d3fce043199ab676920d9836a34e95bf400",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-10T03:09:31.611Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/EIHK951205F86",
+  "signatureMetadata": {
+    "ip": "201.141.28.233",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-10T03:09:35.045Z",
+    "signedAtLocal": "2026-10-09T21:09:35.045Z"
+  },
+  "documentHash": "f65dc9844ccdf01e1948bd5f57810d1e644ae8fa488163604c8013708d6a8f78",
   "auditTrail": [
     {
       "eventId": "54ed9ad9-3af2-456e-93c1-d5292d700f79",
@@ -142,41 +150,84 @@
       "eventHash": "d327b0175b7e6beeaac7d8d4b4108575362ccc4d72b2038e246ffcb599f744e0"
     },
     {
-      "eventId": "0d9cc4e0-6314-42e8-bb53-aa3fcf97da76",
+      "eventId": "fcb70575-7119-4157-9cb9-d8e91e8f38b3",
       "uid": "EIHK951205F86",
       "eventType": "language_selected",
-      "timestampUtc": "2026-10-10T03:09:05.919Z",
-      "timestampLocal": "2026-10-10T03:09:05.919Z",
+      "timestampUtc": "2026-10-10T03:09:06.399Z",
+      "timestampLocal": "2026-10-10T03:09:06.399Z",
       "timezone": "UTC+0",
       "ipAddress": "201.141.28.233",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
       "acceptLanguage": "es-419,es;q=0.9",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIHK951205F86&nombre_proveedor_razon_social=Katia+Xanat+Espino+Hernandez&nombre_representante_legal=Katia+Xanat+Espino+Hernandez&email=curlykatues%40gmail.com",
       "previousEventHash": "d327b0175b7e6beeaac7d8d4b4108575362ccc4d72b2038e246ffcb599f744e0",
-      "documentHash": "9a7a2e6de3c2fdbf45b0a823bb9d1d3fce043199ab676920d9836a34e95bf400",
+      "documentHash": "d4927f51c5aaff2942f2da69576a44b71f2f525845018081429547a32361e53d",
       "metadata": {
         "language": "es"
       },
-      "eventHash": "105e46a69ae994a3e9fc3e7fcf5fe98e22698c43d35f58af3d06cdc1911de4a8"
+      "eventHash": "e80eca028639367ed9ec7f7e11533c170e56b56e323205cebb66c0ee9fa014b0"
     },
     {
-      "eventId": "79b5ed89-1048-4f6a-8960-93b1e180250e",
+      "eventId": "db67079f-8697-41e8-a0a6-2c7f0e61cefe",
       "uid": "EIHK951205F86",
       "eventType": "document_created",
-      "timestampUtc": "2026-10-10T03:09:05.919Z",
-      "timestampLocal": "2026-10-10T03:09:05.919Z",
+      "timestampUtc": "2026-10-10T03:09:06.399Z",
+      "timestampLocal": "2026-10-10T03:09:06.399Z",
       "timezone": "UTC+0",
       "ipAddress": "201.141.28.233",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
       "acceptLanguage": "es-419,es;q=0.9",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIHK951205F86&nombre_proveedor_razon_social=Katia+Xanat+Espino+Hernandez&nombre_representante_legal=Katia+Xanat+Espino+Hernandez&email=curlykatues%40gmail.com",
-      "previousEventHash": "105e46a69ae994a3e9fc3e7fcf5fe98e22698c43d35f58af3d06cdc1911de4a8",
-      "documentHash": "9a7a2e6de3c2fdbf45b0a823bb9d1d3fce043199ab676920d9836a34e95bf400",
+      "previousEventHash": "e80eca028639367ed9ec7f7e11533c170e56b56e323205cebb66c0ee9fa014b0",
+      "documentHash": "d4927f51c5aaff2942f2da69576a44b71f2f525845018081429547a32361e53d",
       "metadata": {
         "proveedor": "Katia Xanat Espino Hernandez",
         "representante": "Katia Xanat Espino Hernandez"
       },
-      "eventHash": "6b3ce30092424654bb231316c94eedb3e16ec472bc565df3e15ae3e986549d17"
+      "eventHash": "60a928544062a8a37e8e9346de4dbb6f70f7d02bccca1d89e0aacb1520406025"
+    },
+    {
+      "eventId": "7c13b268-f7d9-40f7-9ab5-fde517f6f8d0",
+      "uid": "EIHK951205F86",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-10T03:09:08.727Z",
+      "timestampLocal": "2026-10-10T03:09:08.727Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.28.233",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EIHK951205F86&nombre_proveedor_razon_social=Katia+Xanat+Espino+Hernandez&nombre_representante_legal=Katia+Xanat+Espino+Hernandez&email=curlykatues%40gmail.com",
+      "previousEventHash": "60a928544062a8a37e8e9346de4dbb6f70f7d02bccca1d89e0aacb1520406025",
+      "documentHash": "d4927f51c5aaff2942f2da69576a44b71f2f525845018081429547a32361e53d",
+      "eventHash": "11f6ee80f15e02ccfe63f2976df91278b40beb3ecd45c974ab22f6aa7e31cdf0"
+    },
+    {
+      "eventId": "6e05322e-d225-4ced-9cbd-853da5ffad10",
+      "uid": "EIHK951205F86",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-10T03:09:35.045Z",
+      "timestampLocal": "2026-10-09T21:09:35.045Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.28.233",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8d619e72-33d5-48d1-b7df-e2e839a9d98f",
+      "previousEventHash": "11f6ee80f15e02ccfe63f2976df91278b40beb3ecd45c974ab22f6aa7e31cdf0",
+      "documentHash": "f65dc9844ccdf01e1948bd5f57810d1e644ae8fa488163604c8013708d6a8f78",
+      "signatureHash": "3ccf70afbf2f7f00415ee2048fa7c7712d420313a971b08d48ccbcb3598e5a1d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-09T21:09:31.611Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "da4dbcb339a98563de69dc6e45cde5f04fffd9e12ae0477ec0c5f43d753fe6be"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 10,
+    "verifiedAt": "2026-10-10T03:09:35.355Z"
+  }
 }
