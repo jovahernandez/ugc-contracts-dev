@@ -3,7 +3,7 @@
   "declarationId": "4521332a-b075-43e0-8f00-e7b540e19bff",
   "token": "f6bd1f78-77fe-4da0-a0b1-91bce2c66165",
   "createdAt": "2026-10-11T20:54:58.278Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "HEIDY LETICIA QUIROZ ARCE",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "HEIDY LETICIA QUIROZ ARCE",
     "email": "quirozarce79@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8e8d031032fe3ef761c77b6adb829d2036f06b76b98b58e356efece5050e6ca1",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-11T20:56:47.847Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/QUAH790904RA7",
+  "signatureMetadata": {
+    "ip": "187.250.185.133",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-11T20:56:51.175Z",
+    "signedAtLocal": "2026-10-11T13:56:51.175Z"
+  },
+  "documentHash": "735c004b6b8e004adab990b58d258b1dd95a0011ab04b34348de32ad8ac4239e",
   "auditTrail": [
     {
       "eventId": "787747b2-56ee-4657-a5d5-a1a6860a59e2",
@@ -105,11 +113,11 @@
       "eventHash": "fe405d154188cf70e0cf0b1141893a4fe1fd11328854cd8fab32bf14ba8ef447"
     },
     {
-      "eventId": "09c1d371-f822-4f38-9fbb-1a0510cf8d86",
+      "eventId": "991645ac-5c4f-4488-ac78-aedf2179a89e",
       "uid": "QUAH790904RA7",
       "eventType": "language_selected",
-      "timestampUtc": "2026-10-11T20:55:12.393Z",
-      "timestampLocal": "2026-10-11T20:55:12.393Z",
+      "timestampUtc": "2026-10-11T20:55:12.773Z",
+      "timestampLocal": "2026-10-11T20:55:12.773Z",
       "timezone": "UTC+0",
       "ipAddress": "187.250.185.133",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
@@ -120,26 +128,69 @@
       "metadata": {
         "language": "es"
       },
-      "eventHash": "d517e6949385f90a24d99517857c3fc8fb493da335356bedb568e308d16d2435"
+      "eventHash": "112ed300a06862e3dc5d4553a1423ee1cff8bebf21be052d5dd7e079d6f1653d"
     },
     {
-      "eventId": "ee9b1bfa-6fc5-413b-98c4-700c40462bf6",
+      "eventId": "50c9e48a-f0b9-43d6-b1cb-d7ec7cf7fe4c",
       "uid": "QUAH790904RA7",
       "eventType": "document_created",
-      "timestampUtc": "2026-10-11T20:55:12.393Z",
-      "timestampLocal": "2026-10-11T20:55:12.393Z",
+      "timestampUtc": "2026-10-11T20:55:12.773Z",
+      "timestampLocal": "2026-10-11T20:55:12.773Z",
       "timezone": "UTC+0",
       "ipAddress": "187.250.185.133",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
       "acceptLanguage": "es-ES,es;q=0.9",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=QUAH790904RA7&nombre_proveedor_razon_social=HEIDY+LETICIA+QUIROZ+ARCE&nombre_representante_legal=HEIDY+LETICIA+QUIROZ+ARCE&email=quirozarce79%40gmail.com",
-      "previousEventHash": "d517e6949385f90a24d99517857c3fc8fb493da335356bedb568e308d16d2435",
+      "previousEventHash": "112ed300a06862e3dc5d4553a1423ee1cff8bebf21be052d5dd7e079d6f1653d",
       "documentHash": "8e8d031032fe3ef761c77b6adb829d2036f06b76b98b58e356efece5050e6ca1",
       "metadata": {
         "proveedor": "HEIDY LETICIA QUIROZ ARCE",
         "representante": "HEIDY LETICIA QUIROZ ARCE"
       },
-      "eventHash": "e4bff5e529f33125de99ac07e38d2cd5b2b36d8121ed71e7b8aba80d61e86590"
+      "eventHash": "ff1d8a7d115c71e11da642ee87cfaad1550981d1228109262b0889a2be58f9ca"
+    },
+    {
+      "eventId": "1d02f8a1-82dd-491b-afef-125fee3fd218",
+      "uid": "QUAH790904RA7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-11T20:55:15.543Z",
+      "timestampLocal": "2026-10-11T20:55:15.543Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.250.185.133",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=QUAH790904RA7&nombre_proveedor_razon_social=HEIDY+LETICIA+QUIROZ+ARCE&nombre_representante_legal=HEIDY+LETICIA+QUIROZ+ARCE&email=quirozarce79%40gmail.com",
+      "previousEventHash": "ff1d8a7d115c71e11da642ee87cfaad1550981d1228109262b0889a2be58f9ca",
+      "documentHash": "8e8d031032fe3ef761c77b6adb829d2036f06b76b98b58e356efece5050e6ca1",
+      "eventHash": "e00ce608c3bfaa176140ffecc98075fe63b4d8d152c0bcdf33b5ec7d2ab13f1f"
+    },
+    {
+      "eventId": "a92a07bd-fd00-444e-8e0b-71769c73eb4d",
+      "uid": "QUAH790904RA7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-11T20:56:51.175Z",
+      "timestampLocal": "2026-10-11T13:56:51.175Z",
+      "timezone": "UTC-7",
+      "ipAddress": "187.250.185.133",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f6bd1f78-77fe-4da0-a0b1-91bce2c66165",
+      "previousEventHash": "e00ce608c3bfaa176140ffecc98075fe63b4d8d152c0bcdf33b5ec7d2ab13f1f",
+      "documentHash": "735c004b6b8e004adab990b58d258b1dd95a0011ab04b34348de32ad8ac4239e",
+      "signatureHash": "fed08febe2ab4c37713738aa79c99cb2ee9babe52df307232fc42c4eeeafe456",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-11T13:56:47.847Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "b0633484a16dff2b758c6b48d4fb49f9ec42a25c301e8c96c08674916b766209"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-10-11T20:56:51.332Z"
+  }
 }
