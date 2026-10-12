@@ -3,7 +3,7 @@
   "declarationId": "6f6b0dcc-abcb-4116-a328-2c513f5c193d",
   "token": "05db1453-cb57-473b-a0ed-77297468c360",
   "createdAt": "2026-10-12T23:30:45.782Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Maria del Mar Ibarra Ruiseñor",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Mar Ibarra Ruiseñor",
     "email": "mariadelmaribarrar@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "cfbfa1e5c79aad05bde4cac0de46653876a88aec1425062ee447712c77eafcfb",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-12T23:31:40.528Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/IARM941019QC7",
+  "signatureMetadata": {
+    "ip": "187.155.92.200",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-12T23:31:43.898Z",
+    "signedAtLocal": "2026-10-12T17:31:43.898Z"
+  },
+  "documentHash": "1fa536c011d5c6fcb31e0d4d9801f5be2345803fcfd09efe6d71145fa91c1822",
   "auditTrail": [
     {
       "eventId": "5d6fc10b-ae77-4c57-aa25-12964d0be496",
@@ -66,6 +74,64 @@
         "representante": "Mar Ibarra Ruiseñor"
       },
       "eventHash": "cb0f80d938c3bea8ea16f39c356172eae579760442e5cd62d5f0910121ed7e8c"
+    },
+    {
+      "eventId": "f45e102b-8cca-40f2-a80a-3c5a6c7c69db",
+      "uid": "IARM941019QC7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-12T23:30:55.748Z",
+      "timestampLocal": "2026-10-12T23:30:55.748Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.155.92.200",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IARM941019QC7&nombre_proveedor_razon_social=Maria+del+Mar+Ibarra+Ruise%C3%B1or&nombre_representante_legal=Mar+Ibarra+Ruise%C3%B1or&email=mariadelmaribarrar%40gmail.com",
+      "previousEventHash": "cb0f80d938c3bea8ea16f39c356172eae579760442e5cd62d5f0910121ed7e8c",
+      "documentHash": "cfbfa1e5c79aad05bde4cac0de46653876a88aec1425062ee447712c77eafcfb",
+      "eventHash": "5a726ffb557c0fa36dc425130bf3858587e0d10a762e9fd11a32295bb005e827"
+    },
+    {
+      "eventId": "66f06c7f-9e93-4db8-acd3-ffd9984ba734",
+      "uid": "IARM941019QC7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-12T23:31:15.776Z",
+      "timestampLocal": "2026-10-12T23:31:15.776Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.155.92.200",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "5a726ffb557c0fa36dc425130bf3858587e0d10a762e9fd11a32295bb005e827",
+      "documentHash": "cfbfa1e5c79aad05bde4cac0de46653876a88aec1425062ee447712c77eafcfb",
+      "eventHash": "6011126a92d3bbc752561fdbe31d15f8e48515496f51da146513fb7c62873e60"
+    },
+    {
+      "eventId": "3ff21287-09fc-4b82-9dec-7dc7e10062bc",
+      "uid": "IARM941019QC7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-12T23:31:43.898Z",
+      "timestampLocal": "2026-10-12T17:31:43.898Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.155.92.200",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/05db1453-cb57-473b-a0ed-77297468c360",
+      "previousEventHash": "6011126a92d3bbc752561fdbe31d15f8e48515496f51da146513fb7c62873e60",
+      "documentHash": "1fa536c011d5c6fcb31e0d4d9801f5be2345803fcfd09efe6d71145fa91c1822",
+      "signatureHash": "8e89876e0752621759ad5c35405a71351587d2b78d678d652a84f161b77eb3d7",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-12T17:31:40.528Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "40506f88bb3d4fcfc8dfb9588dbd33149b3af23d497db72a22839fcb2f121a96"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-12T23:31:44.236Z"
+  }
 }
