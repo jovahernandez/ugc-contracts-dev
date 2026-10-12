@@ -3,8 +3,18 @@
   "declarationId": "6f6b0dcc-abcb-4116-a328-2c513f5c193d",
   "token": "05db1453-cb57-473b-a0ed-77297468c360",
   "createdAt": "2026-10-12T23:30:45.782Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Maria del Mar Ibarra Ruiseñor",
+    "nombre_representante_legal": "Mar Ibarra Ruiseñor",
+    "email": "mariadelmaribarrar@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Maria del Mar Ibarra Ruiseñor",
+    "nombre_representante_legal": "Mar Ibarra Ruiseñor",
+    "email": "mariadelmaribarrar@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Maria del Mar Ibarra Ruiseñor",
     "nombre_representante_legal": "Mar Ibarra Ruiseñor",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "cfbfa1e5c79aad05bde4cac0de46653876a88aec1425062ee447712c77eafcfb",
+  "auditTrail": [
+    {
+      "eventId": "5d6fc10b-ae77-4c57-aa25-12964d0be496",
+      "uid": "IARM941019QC7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-12T23:30:52.957Z",
+      "timestampLocal": "2026-10-12T23:30:52.957Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.155.92.200",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IARM941019QC7&nombre_proveedor_razon_social=Maria+del+Mar+Ibarra+Ruise%C3%B1or&nombre_representante_legal=Mar+Ibarra+Ruise%C3%B1or&email=mariadelmaribarrar%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "cfbfa1e5c79aad05bde4cac0de46653876a88aec1425062ee447712c77eafcfb",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6c29926cd0c9b2205389e349b1a5150695b308027635f189e6eeb759251018d0"
+    },
+    {
+      "eventId": "dbab87df-d483-494c-b2b2-374a9ad551ce",
+      "uid": "IARM941019QC7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-12T23:30:52.957Z",
+      "timestampLocal": "2026-10-12T23:30:52.957Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.155.92.200",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IARM941019QC7&nombre_proveedor_razon_social=Maria+del+Mar+Ibarra+Ruise%C3%B1or&nombre_representante_legal=Mar+Ibarra+Ruise%C3%B1or&email=mariadelmaribarrar%40gmail.com",
+      "previousEventHash": "6c29926cd0c9b2205389e349b1a5150695b308027635f189e6eeb759251018d0",
+      "documentHash": "cfbfa1e5c79aad05bde4cac0de46653876a88aec1425062ee447712c77eafcfb",
+      "metadata": {
+        "proveedor": "Maria del Mar Ibarra Ruiseñor",
+        "representante": "Mar Ibarra Ruiseñor"
+      },
+      "eventHash": "cb0f80d938c3bea8ea16f39c356172eae579760442e5cd62d5f0910121ed7e8c"
+    }
+  ]
 }
