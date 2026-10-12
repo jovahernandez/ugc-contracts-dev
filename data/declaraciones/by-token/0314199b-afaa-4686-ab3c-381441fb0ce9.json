@@ -3,7 +3,7 @@
   "declarationId": "6c7f821c-a455-4caa-8f7e-2d81ca5cf5dc",
   "token": "0314199b-afaa-4686-ab3c-381441fb0ce9",
   "createdAt": "2026-10-12T17:58:46.031Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MEDIOS VIRALES PUBLICITARIOS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "CLAUDIA ROBERTA DE ALBA VALENCIA",
     "email": "claudia@mvpdigital.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "42ca19803921c90e895b3567868c6e360d6df879dea65efd7f24fcdd4fe8e93b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-12T18:00:11.822Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MVP240207AI5",
+  "signatureMetadata": {
+    "ip": "187.190.205.168",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "signedAtUtc": "2026-10-12T18:00:15.280Z",
+    "signedAtLocal": "2026-10-12T12:00:15.280Z"
+  },
+  "documentHash": "439333572a0f2008f03ecda4629a83f45502e25f02e63a4ddd3610e34399a50e",
   "auditTrail": [
     {
       "eventId": "7b13c559-307f-4d8f-9660-ba1e1c4fb3f0",
@@ -66,6 +74,49 @@
         "representante": "CLAUDIA ROBERTA DE ALBA VALENCIA"
       },
       "eventHash": "0eb9ae6e38191f811e31b9f2749e99ef099af8a81d2ec8522c6977d74d4e3691"
+    },
+    {
+      "eventId": "0013902f-acbe-4366-9035-a977a7e02ca9",
+      "uid": "MVP240207AI5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-12T17:58:58.336Z",
+      "timestampLocal": "2026-10-12T17:58:58.336Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.205.168",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MVP240207AI5&nombre_proveedor_razon_social=MEDIOS+VIRALES+PUBLICITARIOS+&nombre_representante_legal=CLAUDIA+ROBERTA+DE+ALBA+VALENCIA+&email=claudia%40mvpdigital.mx",
+      "previousEventHash": "0eb9ae6e38191f811e31b9f2749e99ef099af8a81d2ec8522c6977d74d4e3691",
+      "documentHash": "42ca19803921c90e895b3567868c6e360d6df879dea65efd7f24fcdd4fe8e93b",
+      "eventHash": "8f27d44a3660d82d62fecd124b75a871d4d8ba2805cc59c6d9b21bcca8a02bd9"
+    },
+    {
+      "eventId": "d8abe0cb-1081-4f19-9ded-cb7d80312455",
+      "uid": "MVP240207AI5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-12T18:00:15.280Z",
+      "timestampLocal": "2026-10-12T12:00:15.280Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.205.168",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/0314199b-afaa-4686-ab3c-381441fb0ce9",
+      "previousEventHash": "8f27d44a3660d82d62fecd124b75a871d4d8ba2805cc59c6d9b21bcca8a02bd9",
+      "documentHash": "439333572a0f2008f03ecda4629a83f45502e25f02e63a4ddd3610e34399a50e",
+      "signatureHash": "6c0170743c9f49ab08a773290319c5759b2df5b8a910bbf156ed099db77c44e0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-12T12:00:11.822Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "818165adfe7c735f76cbef050e5adebb2677583fde6e45b598aa6a8bf17c1d72"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-12T18:00:15.562Z"
+  }
 }
