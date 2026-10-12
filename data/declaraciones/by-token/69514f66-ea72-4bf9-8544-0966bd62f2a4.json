@@ -3,8 +3,18 @@
   "declarationId": "6bad9209-ee12-42c9-b89c-6cfb0a81d67f",
   "token": "69514f66-ea72-4bf9-8544-0966bd62f2a4",
   "createdAt": "2026-10-12T23:10:51.806Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Julio Cesar Hernandez Garcia",
+    "nombre_representante_legal": "Julio Cesar Hernandez Garcia",
+    "email": "ventas@acuarela-events.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Julio Cesar Hernandez Garcia",
+    "nombre_representante_legal": "Julio Cesar Hernandez Garcia",
+    "email": "ventas@acuarela-events.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Julio Cesar Hernandez Garcia",
     "nombre_representante_legal": "Julio Cesar Hernandez Garcia",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "ce21ca7530e1b17503006061811eb5e3efd7d4c1ff8d68f9421990a40f41c294",
+  "auditTrail": [
+    {
+      "eventId": "2d505caf-99e8-44b2-b8b6-5a0026419143",
+      "uid": "HEGJ771229DE6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-12T23:11:03.556Z",
+      "timestampLocal": "2026-10-12T23:11:03.556Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.80.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HEGJ771229DE6&nombre_proveedor_razon_social=Julio+Cesar+Hernandez+Garcia&nombre_representante_legal=Julio+Cesar+Hernandez+Garcia&email=ventas%40acuarela-events.mx",
+      "previousEventHash": null,
+      "documentHash": "ce21ca7530e1b17503006061811eb5e3efd7d4c1ff8d68f9421990a40f41c294",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b943f5f91ac09147e13d2ea45eb1c78164e9cc40e9bac615eb08e96f5cb567c1"
+    },
+    {
+      "eventId": "05876608-3d2d-4869-baf9-12226e1fdb0c",
+      "uid": "HEGJ771229DE6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-12T23:11:03.556Z",
+      "timestampLocal": "2026-10-12T23:11:03.556Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.80.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HEGJ771229DE6&nombre_proveedor_razon_social=Julio+Cesar+Hernandez+Garcia&nombre_representante_legal=Julio+Cesar+Hernandez+Garcia&email=ventas%40acuarela-events.mx",
+      "previousEventHash": "b943f5f91ac09147e13d2ea45eb1c78164e9cc40e9bac615eb08e96f5cb567c1",
+      "documentHash": "ce21ca7530e1b17503006061811eb5e3efd7d4c1ff8d68f9421990a40f41c294",
+      "metadata": {
+        "proveedor": "Julio Cesar Hernandez Garcia",
+        "representante": "Julio Cesar Hernandez Garcia"
+      },
+      "eventHash": "be84e59977ba953b7b7a77b9c86fa710b7a210519ee90d3b7fd9b4361acb3439"
+    }
+  ]
 }
