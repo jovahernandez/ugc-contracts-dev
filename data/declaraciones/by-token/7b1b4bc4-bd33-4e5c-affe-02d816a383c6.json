@@ -3,8 +3,18 @@
   "declarationId": "a97946bb-ef47-47bf-8861-b357f4d3a5c5",
   "token": "7b1b4bc4-bd33-4e5c-affe-02d816a383c6",
   "createdAt": "2026-10-12T19:46:27.772Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Maria Constanza Moll Bilbao",
+    "nombre_representante_legal": "Maria Constanza Moll",
+    "email": "conniemollb@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Maria Constanza Moll Bilbao",
+    "nombre_representante_legal": "Maria Constanza Moll",
+    "email": "conniemollb@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Maria Constanza Moll Bilbao",
     "nombre_representante_legal": "Maria Constanza Moll",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "5ce9e1a3603de41c9acbf4ca38f6c56ca1a39e5edaa57e9d15baee35fa07b341",
+  "auditTrail": [
+    {
+      "eventId": "d3e6ed08-18c9-46fc-b489-471681b1d00d",
+      "uid": "189365217",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-12T19:46:34.606Z",
+      "timestampLocal": "2026-10-12T19:46:34.606Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.246.27",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=189365217&nombre_proveedor_razon_social=Maria+Constanza+Moll+Bilbao&nombre_representante_legal=Maria+Constanza+Moll&email=conniemollb%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "5ce9e1a3603de41c9acbf4ca38f6c56ca1a39e5edaa57e9d15baee35fa07b341",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2050726472f22819dfe3f44ca2a8989f0564a2c57b600cd7246ac0c187fbb6c2"
+    },
+    {
+      "eventId": "9458032a-4a45-41d4-b9fa-994ec116054e",
+      "uid": "189365217",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-12T19:46:34.606Z",
+      "timestampLocal": "2026-10-12T19:46:34.606Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.246.27",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=189365217&nombre_proveedor_razon_social=Maria+Constanza+Moll+Bilbao&nombre_representante_legal=Maria+Constanza+Moll&email=conniemollb%40gmail.com",
+      "previousEventHash": "2050726472f22819dfe3f44ca2a8989f0564a2c57b600cd7246ac0c187fbb6c2",
+      "documentHash": "5ce9e1a3603de41c9acbf4ca38f6c56ca1a39e5edaa57e9d15baee35fa07b341",
+      "metadata": {
+        "proveedor": "Maria Constanza Moll Bilbao",
+        "representante": "Maria Constanza Moll"
+      },
+      "eventHash": "ad6eb389985b8656711ce14acc36c8877e47f2b27f833acbe7d160d5c74af75a"
+    }
+  ]
 }
