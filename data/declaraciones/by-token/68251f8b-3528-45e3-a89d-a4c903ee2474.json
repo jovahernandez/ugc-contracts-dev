@@ -3,7 +3,7 @@
   "declarationId": "047ad0de-522e-49e8-8bca-a3e434c63b7c",
   "token": "68251f8b-3528-45e3-a89d-a4c903ee2474",
   "createdAt": "2026-10-12T21:03:09.971Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IVAN EDUARDO OCHOA SANDOVAL",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Lenin Antonio Zamudio",
     "email": "ivan_ochoa94@hotmail.es"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e1e7b1a6b548ddee809034fc4fd505dd076e5ba5c5b7415d7d6e1ac31b8d7ae7",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-12T21:03:46.490Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/OOSI941020U57",
+  "signatureMetadata": {
+    "ip": "201.103.144.214",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-12T21:03:49.833Z",
+    "signedAtLocal": "2026-10-12T15:03:49.833Z"
+  },
+  "documentHash": "9c6470a8c91e5e20081cdbe083b44044731974a603717fba389afc03be2fdc2c",
   "auditTrail": [
     {
       "eventId": "69291a82-7eea-4905-9e2d-67115ef08bc5",
@@ -103,6 +111,49 @@
         "representante": "Lenin Antonio Zamudio"
       },
       "eventHash": "59c54ecec75609131ed95fbdffc38b4ba9fa0c7eb96fd9a18211420448f2a552"
+    },
+    {
+      "eventId": "ce5fd051-f4b8-49a3-87c5-196e79a9fe82",
+      "uid": "OOSI941020U57",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-12T21:03:22.759Z",
+      "timestampLocal": "2026-10-12T21:03:22.759Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.144.214",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OOSI941020U57&nombre_proveedor_razon_social=IVAN+EDUARDO+OCHOA+SANDOVAL&nombre_representante_legal=Lenin+Antonio+Zamudio+&email=ivan_ochoa94%40hotmail.es",
+      "previousEventHash": "59c54ecec75609131ed95fbdffc38b4ba9fa0c7eb96fd9a18211420448f2a552",
+      "documentHash": "e1e7b1a6b548ddee809034fc4fd505dd076e5ba5c5b7415d7d6e1ac31b8d7ae7",
+      "eventHash": "c67ed31504558c7a79f635f6e3e2519c35123484ab2664a5fb1bd1e429e56908"
+    },
+    {
+      "eventId": "d31956a1-ecb5-4f7c-ae23-7ce0a4a55538",
+      "uid": "OOSI941020U57",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-12T21:03:49.833Z",
+      "timestampLocal": "2026-10-12T15:03:49.833Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.103.144.214",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/68251f8b-3528-45e3-a89d-a4c903ee2474",
+      "previousEventHash": "c67ed31504558c7a79f635f6e3e2519c35123484ab2664a5fb1bd1e429e56908",
+      "documentHash": "9c6470a8c91e5e20081cdbe083b44044731974a603717fba389afc03be2fdc2c",
+      "signatureHash": "83551375c86a27f4a8aa96581606a56c3a18b9a79409310d0633d612268b8133",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-12T15:03:46.490Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "26f854db3e7f9bb52d694812416eab8e55c9d0c5d27915df23934cdd447b8e81"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-12T21:03:50.131Z"
+  }
 }
