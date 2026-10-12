@@ -3,7 +3,7 @@
   "declarationId": "44459e38-b310-4947-aa47-36c4673559d9",
   "token": "386316fc-ae36-4ff2-baf6-0cdf655f9a14",
   "createdAt": "2026-10-12T18:57:06.340Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MAURO NUÑEZ MENDEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "MAURO NUÑEZ MENDEZ",
     "email": "maurohilltop@yahoo.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "da19f623878698e2ba1b7b0bff23df2e7fefc109ae606ccce3aad325416a9496",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-12T18:58:09.522Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/NUMM630130841",
+  "signatureMetadata": {
+    "ip": "187.190.189.241",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-12T18:58:12.920Z",
+    "signedAtLocal": "2026-10-12T12:58:12.920Z"
+  },
+  "documentHash": "7866c3428c0b9620a8816522aa5287e78263b0ce70ebbc7725baf5c2f14b3ae4",
   "auditTrail": [
     {
       "eventId": "91f58bce-ab00-4fe3-9235-d228f2266277",
@@ -66,6 +74,49 @@
         "representante": "MAURO NUÑEZ MENDEZ"
       },
       "eventHash": "88fd97a6fe47e1d2bd517080665b360d0f67151095c0064e1a1c4d5388788166"
+    },
+    {
+      "eventId": "c77e0745-e5a1-470a-b674-b612d56ddb62",
+      "uid": "NUMM630130841",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-12T18:57:21.877Z",
+      "timestampLocal": "2026-10-12T18:57:21.877Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.189.241",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,es-ES;q=0.9,bs;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=NUMM630130841&nombre_proveedor_razon_social=MAURO+NU%C3%91EZ+MENDEZ&nombre_representante_legal=MAURO+NU%C3%91EZ+MENDEZ&email=maurohilltop%40yahoo.com",
+      "previousEventHash": "88fd97a6fe47e1d2bd517080665b360d0f67151095c0064e1a1c4d5388788166",
+      "documentHash": "da19f623878698e2ba1b7b0bff23df2e7fefc109ae606ccce3aad325416a9496",
+      "eventHash": "52ef40125384d12dde8f7af9ebd1ba689a28469fa583acdf47d8a947565d5f80"
+    },
+    {
+      "eventId": "f90299b0-4bc2-4e32-ba4d-a7ecef702be6",
+      "uid": "NUMM630130841",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-12T18:58:12.920Z",
+      "timestampLocal": "2026-10-12T12:58:12.920Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.189.241",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,es-ES;q=0.9,bs;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/386316fc-ae36-4ff2-baf6-0cdf655f9a14",
+      "previousEventHash": "52ef40125384d12dde8f7af9ebd1ba689a28469fa583acdf47d8a947565d5f80",
+      "documentHash": "7866c3428c0b9620a8816522aa5287e78263b0ce70ebbc7725baf5c2f14b3ae4",
+      "signatureHash": "5aa3bdf88ebbe44e37bd828f6cd7d1352552d69de98c580bb6407354bff4e0ff",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-12T12:58:09.522Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "16adc6c25df1c8395f6ec2357c63fd1f6acfc938470c54ab78d99dce9a49fb2a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-12T18:58:13.169Z"
+  }
 }
