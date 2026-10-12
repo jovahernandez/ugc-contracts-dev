@@ -3,7 +3,7 @@
   "declarationId": "6cd0820c-22fb-43a3-9bde-4d8876169c97",
   "token": "83f7f59a-e35f-4d23-8263-f13719ef1678",
   "createdAt": "2026-10-07T00:39:45.041Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Maria Luisa Olvera Gonzalez",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Management Inspire",
     "email": "management@coinspire.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "24f094b6012fba05b3dcfd31652f7792d75bde67731ea5fa956e36f54309a083",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-12T20:22:46.352Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/OEGL891217SN2",
+  "signatureMetadata": {
+    "ip": "189.217.207.82",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-12T20:22:49.713Z",
+    "signedAtLocal": "2026-10-12T14:22:49.713Z"
+  },
+  "documentHash": "128ada23f66f0c39a9559b6ade7ba90c5981eb623a176d6589ca6080623c4a6d",
   "auditTrail": [
     {
       "eventId": "4507e7ae-23ee-480d-8e3f-43a8f87959a9",
@@ -140,6 +148,64 @@
         "representante": "Management Inspire"
       },
       "eventHash": "ea7bab86f8fa6a85420e1030cced308546d821882cecd4f4ce331f2c8eddbab4"
+    },
+    {
+      "eventId": "0b8ad648-b49e-4620-8632-fe34c33dff6a",
+      "uid": "OEGL891217SN2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-07T00:39:58.144Z",
+      "timestampLocal": "2026-10-07T00:39:58.144Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.207.82",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=OEGL891217SN2&nombre_proveedor_razon_social=Maria+Luisa+Olvera+Gonzalez&nombre_representante_legal=Management+Inspire&email=management%40coinspire.com.mx",
+      "previousEventHash": "ea7bab86f8fa6a85420e1030cced308546d821882cecd4f4ce331f2c8eddbab4",
+      "documentHash": "24f094b6012fba05b3dcfd31652f7792d75bde67731ea5fa956e36f54309a083",
+      "eventHash": "c54c10928106958ad2fd2ae22ce6c288c72cad50e1ae00a037c1b6c426a6251e"
+    },
+    {
+      "eventId": "278e2e3d-631c-4e64-8d40-1964de90e177",
+      "uid": "OEGL891217SN2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-12T20:22:02.006Z",
+      "timestampLocal": "2026-10-12T20:22:02.006Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.207.82",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c54c10928106958ad2fd2ae22ce6c288c72cad50e1ae00a037c1b6c426a6251e",
+      "documentHash": "24f094b6012fba05b3dcfd31652f7792d75bde67731ea5fa956e36f54309a083",
+      "eventHash": "44f252fd99c592c476d3154560f4ba66a0ac963735a91ba186e80a917ed2ed8c"
+    },
+    {
+      "eventId": "6b43b5c6-03ea-469a-82c6-9244353d76b4",
+      "uid": "OEGL891217SN2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-12T20:22:49.713Z",
+      "timestampLocal": "2026-10-12T14:22:49.713Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.207.82",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/83f7f59a-e35f-4d23-8263-f13719ef1678",
+      "previousEventHash": "44f252fd99c592c476d3154560f4ba66a0ac963735a91ba186e80a917ed2ed8c",
+      "documentHash": "128ada23f66f0c39a9559b6ade7ba90c5981eb623a176d6589ca6080623c4a6d",
+      "signatureHash": "842662420150c308fc96f65d2ec08b882d36741b1dabeded5074edea0b94bc43",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-12T14:22:46.352Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "5f7937be174d4c856092ed0b2eea0a432a87b78985cf34ec57ccea77b4f9a01e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 9,
+    "verifiedAt": "2026-10-12T20:22:49.932Z"
+  }
 }
