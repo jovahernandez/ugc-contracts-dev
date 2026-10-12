@@ -3,7 +3,7 @@
   "declarationId": "40e3665c-f3ec-41f4-86e6-2673761e2f51",
   "token": "24b9266d-638a-4982-bfac-cd84fd93403b",
   "createdAt": "2026-10-09T23:13:21.465Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GNOG MEDIA Y TECNOLOGIA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Fernando Gimenez Nogueira",
     "email": "finanzas@gnog.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2bf2947f213a6823f2962a6d3413f32d87723b9d33c4c4000720b2fb0d0cec41",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-12T19:14:40.718Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GMT160208ET1",
+  "signatureMetadata": {
+    "ip": "201.103.101.50",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-12T19:14:44.215Z",
+    "signedAtLocal": "2026-10-12T13:14:44.215Z"
+  },
+  "documentHash": "14e634e8fbcf4179221348750d02a9228f8d58651c7d3a91bcebcd4dc32bc763",
   "auditTrail": [
     {
       "eventId": "22240e14-e598-43aa-8970-f4cd0c352151",
@@ -103,6 +111,64 @@
         "representante": "Fernando Gimenez Nogueira"
       },
       "eventHash": "e94129cf39de8561a31de9945f7d750e4cad0a1b0a205b1044ad0d71b8d74fb9"
+    },
+    {
+      "eventId": "5155c585-52a8-4c1d-b6a9-f69496b18bb1",
+      "uid": "GMT160208ET1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-09T23:13:38.297Z",
+      "timestampLocal": "2026-10-09T23:13:38.297Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.101.50",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GMT160208ET1&nombre_proveedor_razon_social=GNOG+MEDIA+Y+TECNOLOGIA&nombre_representante_legal=Fernando+Gimenez+Nogueira&email=finanzas%40gnog.com.mx",
+      "previousEventHash": "e94129cf39de8561a31de9945f7d750e4cad0a1b0a205b1044ad0d71b8d74fb9",
+      "documentHash": "2bf2947f213a6823f2962a6d3413f32d87723b9d33c4c4000720b2fb0d0cec41",
+      "eventHash": "c09776ff5ec7ba67365ff10d86a477ea495fa62a3085b579c40a934fef0bf4fb"
+    },
+    {
+      "eventId": "64623f41-3608-4142-8d5b-e8ee01d1f225",
+      "uid": "GMT160208ET1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-12T19:14:03.192Z",
+      "timestampLocal": "2026-10-12T19:14:03.192Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.101.50",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c09776ff5ec7ba67365ff10d86a477ea495fa62a3085b579c40a934fef0bf4fb",
+      "documentHash": "2bf2947f213a6823f2962a6d3413f32d87723b9d33c4c4000720b2fb0d0cec41",
+      "eventHash": "b4b7061d30acf37a062a0f01a4a9ebbbc9e471f6d3002c96499523a2f024d10e"
+    },
+    {
+      "eventId": "1c3e42fe-ccc6-4048-b556-96a7f975e2fa",
+      "uid": "GMT160208ET1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-12T19:14:44.215Z",
+      "timestampLocal": "2026-10-12T13:14:44.215Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.103.101.50",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/24b9266d-638a-4982-bfac-cd84fd93403b",
+      "previousEventHash": "b4b7061d30acf37a062a0f01a4a9ebbbc9e471f6d3002c96499523a2f024d10e",
+      "documentHash": "14e634e8fbcf4179221348750d02a9228f8d58651c7d3a91bcebcd4dc32bc763",
+      "signatureHash": "ff5228a413db3beacca69aaf62b2569355bd87a23a278aee471968594200bfa6",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-12T13:14:40.718Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "52d4f43ee349a3af65ea95522c5e259bb6ecf71296d60f6ab86bacd2024a5973"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-10-12T19:14:44.524Z"
+  }
 }
