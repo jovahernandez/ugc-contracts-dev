@@ -3,7 +3,7 @@
   "declarationId": "7d9ae234-96bf-453a-ba65-8d2eade28d44",
   "token": "a0eb4a19-5d21-4d0c-98bc-0eeedae3f190",
   "createdAt": "2026-10-13T19:12:34.123Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "53.953.596 RANI DEUSDARA BRITO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "RANI DEUSDARÁ BRITO",
     "email": "contasareceber@sidegroup.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1ae29e2800b62e3ce57af371e443de5074e257a3ca5c42cf3213dd3d7713e6c8",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-13T19:13:15.141Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/53.953.596%2F0001-00",
+  "signatureMetadata": {
+    "ip": "200.180.212.131",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-13T19:13:18.507Z",
+    "signedAtLocal": "2026-10-13T16:13:18.507Z"
+  },
+  "documentHash": "d1312f0c8da3286498e9addc3d745d7cd2f7c068bc1773849625c8d9a443ffca",
   "auditTrail": [
     {
       "eventId": "0cf8261b-b5bb-4044-8cc7-2678255cd434",
@@ -66,6 +74,49 @@
         "representante": "RANI DEUSDARÁ BRITO"
       },
       "eventHash": "df7e826985733a675cb2ca96b9b52f21d9a81938b5b8d1f55fd9384d6bb045d2"
+    },
+    {
+      "eventId": "3c3a1a6a-ea72-4df2-bdda-306685a3872c",
+      "uid": "53.953.596/0001-00",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-13T19:12:44.610Z",
+      "timestampLocal": "2026-10-13T19:12:44.610Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.180.212.131",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=53.953.596%2F0001-00&nombre_proveedor_razon_social=53.953.596+RANI+DEUSDARA+BRITO&nombre_representante_legal=RANI+DEUSDAR%C3%81+BRITO&email=contasareceber%40sidegroup.com.br",
+      "previousEventHash": "df7e826985733a675cb2ca96b9b52f21d9a81938b5b8d1f55fd9384d6bb045d2",
+      "documentHash": "1ae29e2800b62e3ce57af371e443de5074e257a3ca5c42cf3213dd3d7713e6c8",
+      "eventHash": "1dfe2b203b09b05b67198744537801b142adcf0ddf666c3092d9bf935587d2ae"
+    },
+    {
+      "eventId": "834a8463-4d2a-4eb8-93d4-d3c995a6b932",
+      "uid": "53.953.596/0001-00",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-13T19:13:18.507Z",
+      "timestampLocal": "2026-10-13T16:13:18.507Z",
+      "timezone": "UTC-3",
+      "ipAddress": "200.180.212.131",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a0eb4a19-5d21-4d0c-98bc-0eeedae3f190",
+      "previousEventHash": "1dfe2b203b09b05b67198744537801b142adcf0ddf666c3092d9bf935587d2ae",
+      "documentHash": "d1312f0c8da3286498e9addc3d745d7cd2f7c068bc1773849625c8d9a443ffca",
+      "signatureHash": "bf37e2820fdea7719f60199a5cdb8ea941ba8ecc5e6694b73494d9f66f76d397",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-13T16:13:15.141Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "5b51858cb51bcc9c29486252dcd3c793deb4086109e4d092a3d8189fc99b4e6a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-13T19:13:18.683Z"
+  }
 }
