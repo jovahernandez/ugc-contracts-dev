@@ -3,8 +3,18 @@
   "declarationId": "bb6d66a7-f84c-40ce-8306-7eb3e7b05291",
   "token": "e1f2e71b-5776-40c0-bdfe-ea2e3f12f9f5",
   "createdAt": "2026-10-13T21:02:37.197Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "DENISSE MAHUAMPI PEREZ CONTRERAS",
+    "nombre_representante_legal": "N/A",
+    "email": "denii.contreras@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "DENISSE MAHUAMPI PEREZ CONTRERAS",
+    "nombre_representante_legal": "N/A",
+    "email": "denii.contreras@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "DENISSE MAHUAMPI PEREZ CONTRERAS",
     "nombre_representante_legal": "N/A",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "5b0b8c0e9d12949041db003345a55ea68147e76f7d864891dbe8ab98574485a2",
+  "auditTrail": [
+    {
+      "eventId": "f6b6ffe3-c711-40bd-b1b4-467498455b6e",
+      "uid": "PECD920101P20",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-13T21:02:44.369Z",
+      "timestampLocal": "2026-10-13T21:02:44.369Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.185.67",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PECD920101P20&nombre_proveedor_razon_social=DENISSE+MAHUAMPI+PEREZ+CONTRERAS&nombre_representante_legal=N%2FA&email=denii.contreras%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "5b0b8c0e9d12949041db003345a55ea68147e76f7d864891dbe8ab98574485a2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cdeb225c2763772f42ea9fa1d149e871a5049b0ab45c937eb43bd653ecc04705"
+    },
+    {
+      "eventId": "9273049b-611d-4eaf-ac4b-0002c0236341",
+      "uid": "PECD920101P20",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-13T21:02:44.369Z",
+      "timestampLocal": "2026-10-13T21:02:44.369Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.185.67",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PECD920101P20&nombre_proveedor_razon_social=DENISSE+MAHUAMPI+PEREZ+CONTRERAS&nombre_representante_legal=N%2FA&email=denii.contreras%40gmail.com",
+      "previousEventHash": "cdeb225c2763772f42ea9fa1d149e871a5049b0ab45c937eb43bd653ecc04705",
+      "documentHash": "5b0b8c0e9d12949041db003345a55ea68147e76f7d864891dbe8ab98574485a2",
+      "metadata": {
+        "proveedor": "DENISSE MAHUAMPI PEREZ CONTRERAS",
+        "representante": "N/A"
+      },
+      "eventHash": "4bfaebf044bcb6a16d00f32545ebb0b3418634f84a3c82df29ea2e7d85d73348"
+    }
+  ]
 }
