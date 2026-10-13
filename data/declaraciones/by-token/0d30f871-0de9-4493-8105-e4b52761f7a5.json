@@ -3,8 +3,18 @@
   "declarationId": "739f8917-ad32-415b-912c-52c3521ef888",
   "token": "0d30f871-0de9-4493-8105-e4b52761f7a5",
   "createdAt": "2026-10-13T18:03:12.440Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "SCUDERIA EDITORES",
+    "nombre_representante_legal": "Carlos Eduardo Jalife Villalón",
+    "email": "scuderiargz@yahoo.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "SCUDERIA EDITORES",
+    "nombre_representante_legal": "Carlos Eduardo Jalife Villalón",
+    "email": "scuderiargz@yahoo.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "SCUDERIA EDITORES",
     "nombre_representante_legal": "Carlos Eduardo Jalife Villalón",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "25f79e4405d7bcf0664468b39133fb02b1ba985b1c495f1282f9e3187ebb5e46",
+  "auditTrail": [
+    {
+      "eventId": "b7a55f64-4725-40fe-92c5-34bf138e62b2",
+      "uid": "SED1106173A4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-13T18:04:18.196Z",
+      "timestampLocal": "2026-10-13T18:04:18.196Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.225.88",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SED1106173A4&nombre_proveedor_razon_social=SCUDERIA+EDITORES&nombre_representante_legal=Carlos+Eduardo+Jalife+Villal%C3%B3n&email=scuderiargz%40yahoo.com.mx",
+      "previousEventHash": null,
+      "documentHash": "25f79e4405d7bcf0664468b39133fb02b1ba985b1c495f1282f9e3187ebb5e46",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1a49ca174c57ea6ec5bd006e7010f5e18a9abfa2e4ae3eed3680087273b636a0"
+    },
+    {
+      "eventId": "76827abf-b2e2-475e-ac2f-643cb20ca0b4",
+      "uid": "SED1106173A4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-13T18:04:18.196Z",
+      "timestampLocal": "2026-10-13T18:04:18.196Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.131.225.88",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SED1106173A4&nombre_proveedor_razon_social=SCUDERIA+EDITORES&nombre_representante_legal=Carlos+Eduardo+Jalife+Villal%C3%B3n&email=scuderiargz%40yahoo.com.mx",
+      "previousEventHash": "1a49ca174c57ea6ec5bd006e7010f5e18a9abfa2e4ae3eed3680087273b636a0",
+      "documentHash": "25f79e4405d7bcf0664468b39133fb02b1ba985b1c495f1282f9e3187ebb5e46",
+      "metadata": {
+        "proveedor": "SCUDERIA EDITORES",
+        "representante": "Carlos Eduardo Jalife Villalón"
+      },
+      "eventHash": "d0f22a4195094613655d95a59218e83d0e885ac07b2d1ddd71dc75e4b4477492"
+    }
+  ]
 }
