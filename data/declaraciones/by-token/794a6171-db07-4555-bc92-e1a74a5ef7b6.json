@@ -3,7 +3,7 @@
   "declarationId": "cdb4ec23-dad9-4e74-b098-5b66fdeb3742",
   "token": "794a6171-db07-4555-bc92-e1a74a5ef7b6",
   "createdAt": "2026-10-13T23:08:38.974Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GOSJ8205074P5",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Jorge Eduardo Gonzalez Salazar",
     "email": "beth.rmz@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4e9b8ef24087197f4f2526bfa48c6fd6dd3478bdfef587c80dda3e959458e769",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-13T23:15:49.625Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GOSJ8205074P5",
+  "signatureMetadata": {
+    "ip": "187.161.117.43",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-13T23:15:53.138Z",
+    "signedAtLocal": "2026-10-13T17:15:53.138Z"
+  },
+  "documentHash": "0aaf5451a205104914ce114ada7068dba7b06c6ab73fa2163516070fc617db1e",
   "auditTrail": [
     {
       "eventId": "990b643b-f457-414e-86a9-fcb2d956842b",
@@ -66,6 +74,49 @@
         "representante": "Jorge Eduardo Gonzalez Salazar"
       },
       "eventHash": "3ffc25fe984fa921214a6c1dac100a5b067dc9309ff73e1175b7bab7e357ab14"
+    },
+    {
+      "eventId": "87c1eb81-9fff-4817-bca7-89761a6f711b",
+      "uid": "GOSJ8205074P5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-13T23:08:51.038Z",
+      "timestampLocal": "2026-10-13T23:08:51.038Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.161.117.43",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOSJ8205074P5&nombre_proveedor_razon_social=GOSJ8205074P5&nombre_representante_legal=Jorge+Eduardo+Gonzalez+Salazar&email=beth.rmz%40gmail.com",
+      "previousEventHash": "3ffc25fe984fa921214a6c1dac100a5b067dc9309ff73e1175b7bab7e357ab14",
+      "documentHash": "4e9b8ef24087197f4f2526bfa48c6fd6dd3478bdfef587c80dda3e959458e769",
+      "eventHash": "957f2ea155071f729e5516f047a46cade1ebecf4b88483df2da26c36690a530a"
+    },
+    {
+      "eventId": "8b715b8c-3c72-4acc-91fb-30ca68649221",
+      "uid": "GOSJ8205074P5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-13T23:15:53.138Z",
+      "timestampLocal": "2026-10-13T17:15:53.138Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.161.117.43",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/794a6171-db07-4555-bc92-e1a74a5ef7b6",
+      "previousEventHash": "957f2ea155071f729e5516f047a46cade1ebecf4b88483df2da26c36690a530a",
+      "documentHash": "0aaf5451a205104914ce114ada7068dba7b06c6ab73fa2163516070fc617db1e",
+      "signatureHash": "de59dd058945bae1b2c2d92f51f3d421a62797ae6fb65591d20444563c282e78",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-13T17:15:49.625Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "996b8f45ed8e5ecdff11abd4928f6c4ccd04ea295f1240ed343741c3e23bdb72"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-13T23:15:53.389Z"
+  }
 }
