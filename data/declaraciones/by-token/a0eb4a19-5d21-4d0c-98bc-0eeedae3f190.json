@@ -3,8 +3,18 @@
   "declarationId": "7d9ae234-96bf-453a-ba65-8d2eade28d44",
   "token": "a0eb4a19-5d21-4d0c-98bc-0eeedae3f190",
   "createdAt": "2026-10-13T19:12:34.123Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "53.953.596 RANI DEUSDARA BRITO",
+    "nombre_representante_legal": "RANI DEUSDARÁ BRITO",
+    "email": "contasareceber@sidegroup.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "53.953.596 RANI DEUSDARA BRITO",
+    "nombre_representante_legal": "RANI DEUSDARÁ BRITO",
+    "email": "contasareceber@sidegroup.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "53.953.596 RANI DEUSDARA BRITO",
     "nombre_representante_legal": "RANI DEUSDARÁ BRITO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "1ae29e2800b62e3ce57af371e443de5074e257a3ca5c42cf3213dd3d7713e6c8",
+  "auditTrail": [
+    {
+      "eventId": "0cf8261b-b5bb-4044-8cc7-2678255cd434",
+      "uid": "53.953.596/0001-00",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-13T19:12:41.330Z",
+      "timestampLocal": "2026-10-13T19:12:41.330Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.180.212.131",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=53.953.596%2F0001-00&nombre_proveedor_razon_social=53.953.596+RANI+DEUSDARA+BRITO&nombre_representante_legal=RANI+DEUSDAR%C3%81+BRITO&email=contasareceber%40sidegroup.com.br",
+      "previousEventHash": null,
+      "documentHash": "1ae29e2800b62e3ce57af371e443de5074e257a3ca5c42cf3213dd3d7713e6c8",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "799d449016e6ce1369534d6285ce1d3bf822de89ee121054d3a3fb7927921976"
+    },
+    {
+      "eventId": "8f20b4b1-8cf6-4388-8785-e23bd9ac203c",
+      "uid": "53.953.596/0001-00",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-13T19:12:41.330Z",
+      "timestampLocal": "2026-10-13T19:12:41.330Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.180.212.131",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=53.953.596%2F0001-00&nombre_proveedor_razon_social=53.953.596+RANI+DEUSDARA+BRITO&nombre_representante_legal=RANI+DEUSDAR%C3%81+BRITO&email=contasareceber%40sidegroup.com.br",
+      "previousEventHash": "799d449016e6ce1369534d6285ce1d3bf822de89ee121054d3a3fb7927921976",
+      "documentHash": "1ae29e2800b62e3ce57af371e443de5074e257a3ca5c42cf3213dd3d7713e6c8",
+      "metadata": {
+        "proveedor": "53.953.596 RANI DEUSDARA BRITO",
+        "representante": "RANI DEUSDARÁ BRITO"
+      },
+      "eventHash": "df7e826985733a675cb2ca96b9b52f21d9a81938b5b8d1f55fd9384d6bb045d2"
+    }
+  ]
 }
