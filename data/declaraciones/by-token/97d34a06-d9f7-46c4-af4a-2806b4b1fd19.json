@@ -3,7 +3,7 @@
   "declarationId": "18e228c8-b0a5-43ef-a314-368d7586d5d1",
   "token": "97d34a06-d9f7-46c4-af4a-2806b4b1fd19",
   "createdAt": "2026-10-13T21:30:59.351Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "FCO Action Media",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ALICIA MEDINA MORALES",
     "email": "erosas@fcogroup.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "46c0e05af88c58ec78a7a3d1960daae2f7a159d5c90c8870464e35bfd23e4ba5",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-13T21:36:05.541Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/FAM231122445",
+  "signatureMetadata": {
+    "ip": "189.216.119.162",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-13T21:36:09.106Z",
+    "signedAtLocal": "2026-10-13T15:36:09.106Z"
+  },
+  "documentHash": "e58c07f6cbee9aff66440879d306c7bf194d58e542d5efc7bd8ab11516028c7b",
   "auditTrail": [
     {
       "eventId": "0af6045f-fd63-4727-8ec2-06a6871de93b",
@@ -66,6 +74,49 @@
         "representante": "ALICIA MEDINA MORALES"
       },
       "eventHash": "15262ad1b52436c977463c660aa5671e3333d6dfe42dd87672bad1bc877dd1ae"
+    },
+    {
+      "eventId": "23d22c88-3316-441d-a15e-4a078385b67f",
+      "uid": "FAM231122445",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-13T21:31:16.964Z",
+      "timestampLocal": "2026-10-13T21:31:16.964Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.119.162",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FAM231122445&nombre_proveedor_razon_social=FCO+Action+Media&nombre_representante_legal=ALICIA+MEDINA+MORALES+&email=erosas%40fcogroup.mx",
+      "previousEventHash": "15262ad1b52436c977463c660aa5671e3333d6dfe42dd87672bad1bc877dd1ae",
+      "documentHash": "46c0e05af88c58ec78a7a3d1960daae2f7a159d5c90c8870464e35bfd23e4ba5",
+      "eventHash": "ec6ac8fc662f106388102408ff406555c140042174f14551073454d89d715320"
+    },
+    {
+      "eventId": "8375ec35-50a3-476f-ae18-61b8e0cb8dd5",
+      "uid": "FAM231122445",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-13T21:36:09.106Z",
+      "timestampLocal": "2026-10-13T15:36:09.106Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.216.119.162",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/97d34a06-d9f7-46c4-af4a-2806b4b1fd19",
+      "previousEventHash": "ec6ac8fc662f106388102408ff406555c140042174f14551073454d89d715320",
+      "documentHash": "e58c07f6cbee9aff66440879d306c7bf194d58e542d5efc7bd8ab11516028c7b",
+      "signatureHash": "792c2efdb663828480428b181fd1ec917f88f4e1f1454134fcab03951145a0ff",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-13T15:36:05.541Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "6562025a96b846fc14fe0d66447a9f857b512b4fd1a15f0639fee729e761c23e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-13T21:36:09.294Z"
+  }
 }
