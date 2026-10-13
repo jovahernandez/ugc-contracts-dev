@@ -3,7 +3,7 @@
   "declarationId": "389dd690-3243-493b-b9d4-875bc018af6b",
   "token": "1a1b1a9f-9a2e-4ca3-ae9b-0135717e79b5",
   "createdAt": "2026-10-13T20:39:21.646Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Gerardo Agustín Ramírez Villafaña",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Gerardo Ramírez",
     "email": "multimediosvillafana@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "743b3b638867600d14f7a9f641b4a755e9113b2409d8fdbab85d79394f82e298",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-13T20:41:43.498Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RAVG871020KV0",
+  "signatureMetadata": {
+    "ip": "189.189.142.189",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-13T20:41:46.874Z",
+    "signedAtLocal": "2026-10-13T14:41:46.874Z"
+  },
+  "documentHash": "45125ccfb75c69f74add0a0ca6a5c6bfb7be75eb28e4f8f2264f20b9916757ec",
   "auditTrail": [
     {
       "eventId": "4c127591-c0f7-4300-ba5b-d5cc7854ece0",
@@ -103,6 +111,49 @@
         "representante": "Gerardo Ramírez"
       },
       "eventHash": "f8d2bad9312482aea40fbebec10b0118abfe8874500fc3600527583c20eaa5c5"
+    },
+    {
+      "eventId": "b1f941a3-1bc1-42eb-8380-5a074f1284b1",
+      "uid": "RAVG871020KV0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-13T20:39:40.590Z",
+      "timestampLocal": "2026-10-13T20:39:40.590Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.189.142.189",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=RAVG871020KV0&nombre_proveedor_razon_social=Gerardo+Agust%C3%ADn+Ram%C3%ADrez+Villafa%C3%B1a&nombre_representante_legal=Gerardo+Ram%C3%ADrez&email=multimediosvillafana%40gmail.com",
+      "previousEventHash": "f8d2bad9312482aea40fbebec10b0118abfe8874500fc3600527583c20eaa5c5",
+      "documentHash": "743b3b638867600d14f7a9f641b4a755e9113b2409d8fdbab85d79394f82e298",
+      "eventHash": "5239f60da1825133cb5890e321ce883b5000544a2de2cc8794cec1bffe873cdd"
+    },
+    {
+      "eventId": "abca5025-8286-48e9-bb2e-d35e595721f0",
+      "uid": "RAVG871020KV0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-13T20:41:46.874Z",
+      "timestampLocal": "2026-10-13T14:41:46.874Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.189.142.189",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1a1b1a9f-9a2e-4ca3-ae9b-0135717e79b5",
+      "previousEventHash": "5239f60da1825133cb5890e321ce883b5000544a2de2cc8794cec1bffe873cdd",
+      "documentHash": "45125ccfb75c69f74add0a0ca6a5c6bfb7be75eb28e4f8f2264f20b9916757ec",
+      "signatureHash": "990f460260f25ad9d1eaca3d96b98c1ead9b739ab77f312eccfe1acf9af72229",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-13T14:41:43.498Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "ef470243474fa288b44815a9399cdd02f1eebe15ae56cced6286067aa4159777"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-13T20:41:47.043Z"
+  }
 }
