@@ -3,8 +3,18 @@
   "declarationId": "d00d1238-2703-4316-a7a8-2308cfee7b7f",
   "token": "162085f7-1160-485c-9bcb-eed61db0f399",
   "createdAt": "2026-10-13T17:46:48.157Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Fernando Castillo Cosme",
+    "nombre_representante_legal": "Fernando Castillo",
+    "email": "bike.knights.contact@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Fernando Castillo Cosme",
+    "nombre_representante_legal": "Fernando Castillo",
+    "email": "bike.knights.contact@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Fernando Castillo Cosme",
     "nombre_representante_legal": "Fernando Castillo",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4b201817041502103d7b1a5648dd934cb32dc344afe24be397c6bbe4576ebbcf",
+  "auditTrail": [
+    {
+      "eventId": "9bbdd27f-ba4c-4b0e-8e6d-48621f660cd5",
+      "uid": "CACF960820CM0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-13T17:46:54.473Z",
+      "timestampLocal": "2026-10-13T17:46:54.473Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.132.183",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8,pt;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CACF960820CM0&nombre_proveedor_razon_social=Fernando+Castillo+Cosme&nombre_representante_legal=Fernando+Castillo&email=bike.knights.contact%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "4b201817041502103d7b1a5648dd934cb32dc344afe24be397c6bbe4576ebbcf",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a64d258a9498911b2aa49f03c3a0cec9d3d2755cc11fd622bd229779c9fa38d1"
+    },
+    {
+      "eventId": "96f393b1-5bee-427e-b26a-5b893b5c5892",
+      "uid": "CACF960820CM0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-13T17:46:54.474Z",
+      "timestampLocal": "2026-10-13T17:46:54.474Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.132.183",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8,pt;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CACF960820CM0&nombre_proveedor_razon_social=Fernando+Castillo+Cosme&nombre_representante_legal=Fernando+Castillo&email=bike.knights.contact%40gmail.com",
+      "previousEventHash": "a64d258a9498911b2aa49f03c3a0cec9d3d2755cc11fd622bd229779c9fa38d1",
+      "documentHash": "4b201817041502103d7b1a5648dd934cb32dc344afe24be397c6bbe4576ebbcf",
+      "metadata": {
+        "proveedor": "Fernando Castillo Cosme",
+        "representante": "Fernando Castillo"
+      },
+      "eventHash": "88b319b9d821098ad9f8ea02dde6eb6ae28312fa0962c8a870acd7522cbf117a"
+    }
+  ]
 }
