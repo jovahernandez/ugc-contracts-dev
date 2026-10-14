@@ -3,8 +3,18 @@
   "declarationId": "b683bc7b-e324-46cf-a00b-28f20774ff8c",
   "token": "37b787c1-4ef0-4b03-8a3b-e752ebef9154",
   "createdAt": "2026-10-14T19:57:27.889Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Javier Vidal",
+    "nombre_representante_legal": "Javier Vidal",
+    "email": "javiervidala23@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Javier Vidal",
+    "nombre_representante_legal": "Javier Vidal",
+    "email": "javiervidala23@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Javier Vidal",
     "nombre_representante_legal": "Javier Vidal",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "fc5bfe112e4e5b7bd0a0e02e05c2ae2332237224151b0865b806408100a56e00",
+  "auditTrail": [
+    {
+      "eventId": "b262a4c8-26c4-44ba-a929-331acaf6dc97",
+      "uid": "202948286",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-14T19:57:37.289Z",
+      "timestampLocal": "2026-10-14T19:57:37.289Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.100.226.141",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=202948286&nombre_proveedor_razon_social=Javier+Vidal&nombre_representante_legal=Javier+Vidal+&email=javiervidala23%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "fc5bfe112e4e5b7bd0a0e02e05c2ae2332237224151b0865b806408100a56e00",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9a0ffb6539bf1806548f1e2ed737356e3a4fc9d670cac206ed4676101c28b9e0"
+    },
+    {
+      "eventId": "f9dc7737-9887-41c9-9164-ea850328ed7a",
+      "uid": "202948286",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-14T19:57:37.289Z",
+      "timestampLocal": "2026-10-14T19:57:37.289Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.100.226.141",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=202948286&nombre_proveedor_razon_social=Javier+Vidal&nombre_representante_legal=Javier+Vidal+&email=javiervidala23%40gmail.com",
+      "previousEventHash": "9a0ffb6539bf1806548f1e2ed737356e3a4fc9d670cac206ed4676101c28b9e0",
+      "documentHash": "fc5bfe112e4e5b7bd0a0e02e05c2ae2332237224151b0865b806408100a56e00",
+      "metadata": {
+        "proveedor": "Javier Vidal",
+        "representante": "Javier Vidal"
+      },
+      "eventHash": "0b8229c0bdb83dc2e06008b82a515369a760ba81c4a5da98155b7f46ee70ca37"
+    }
+  ]
 }
