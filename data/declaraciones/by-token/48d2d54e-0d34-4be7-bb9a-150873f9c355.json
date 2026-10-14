@@ -3,8 +3,18 @@
   "declarationId": "23cdc3f9-9573-4b07-bd6d-6b4a3d4d0057",
   "token": "48d2d54e-0d34-4be7-bb9a-150873f9c355",
   "createdAt": "2026-10-14T12:58:17.960Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MEC SOLUTION LTDA",
+    "nombre_representante_legal": "Marcelo da Rosa Fernandes",
+    "email": "financeiro@mecsolution.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MEC SOLUTION LTDA",
+    "nombre_representante_legal": "Marcelo da Rosa Fernandes",
+    "email": "financeiro@mecsolution.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MEC SOLUTION LTDA",
     "nombre_representante_legal": "Marcelo da Rosa Fernandes",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "b9891daeb6eba8ac76c74b847394ac7c0fae5a294e9fd37ee7ec218b0b3bf04e",
+  "auditTrail": [
+    {
+      "eventId": "52d7b8e7-3824-495f-80a7-5e22e8f0234d",
+      "uid": "24.364.007/0001-50",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-14T12:58:24.809Z",
+      "timestampLocal": "2026-10-14T12:58:24.809Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.75.60.179",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=24.364.007%2F0001-50&nombre_proveedor_razon_social=MEC+SOLUTION+LTDA&nombre_representante_legal=Marcelo+da+Rosa+Fernandes&email=financeiro%40mecsolution.com.br",
+      "previousEventHash": null,
+      "documentHash": "b9891daeb6eba8ac76c74b847394ac7c0fae5a294e9fd37ee7ec218b0b3bf04e",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "10c51c870b671bc3b61290cb03a9fe386fe3b243d63bbe7fe30420e03c7fb1a0"
+    },
+    {
+      "eventId": "a29a73f5-b5d7-4ba2-ab65-0a65c9a6fb5b",
+      "uid": "24.364.007/0001-50",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-14T12:58:24.809Z",
+      "timestampLocal": "2026-10-14T12:58:24.809Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.75.60.179",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=24.364.007%2F0001-50&nombre_proveedor_razon_social=MEC+SOLUTION+LTDA&nombre_representante_legal=Marcelo+da+Rosa+Fernandes&email=financeiro%40mecsolution.com.br",
+      "previousEventHash": "10c51c870b671bc3b61290cb03a9fe386fe3b243d63bbe7fe30420e03c7fb1a0",
+      "documentHash": "b9891daeb6eba8ac76c74b847394ac7c0fae5a294e9fd37ee7ec218b0b3bf04e",
+      "metadata": {
+        "proveedor": "MEC SOLUTION LTDA",
+        "representante": "Marcelo da Rosa Fernandes"
+      },
+      "eventHash": "ef2b6b3ffd4bbc1fbacb5ab104aef08486db37b4150acb64e172e13b8247cc67"
+    }
+  ]
 }
