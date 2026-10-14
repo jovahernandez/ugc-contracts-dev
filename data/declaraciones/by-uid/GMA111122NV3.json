@@ -3,7 +3,7 @@
   "declarationId": "8bc96ca7-2ee3-4745-ae5a-a3f7a0ad9075",
   "token": "35bc5f20-17b5-4881-a990-3dcf1d72c593",
   "createdAt": "2026-10-14T02:39:48.143Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GH MANAGEMENT SA DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "GOTTFRIED HEISS",
     "email": "administracion@ghmanagement.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ba2f97c232eddef46c7cb340eb35c3512866a68e0dadcc1f6506838cfa545617",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-14T02:43:41.033Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GMA111122NV3",
+  "signatureMetadata": {
+    "ip": "187.168.51.51",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+    "signedAtUtc": "2026-10-14T02:43:44.514Z",
+    "signedAtLocal": "2026-10-13T20:43:44.514Z"
+  },
+  "documentHash": "0a7a1134db52375cce8be7215f7e266960715833b32a924206bf1ea174887c84",
   "auditTrail": [
     {
       "eventId": "60d258eb-7d74-4371-bcfc-a67b227a72a0",
@@ -66,6 +74,49 @@
         "representante": "GOTTFRIED HEISS"
       },
       "eventHash": "958bcc45267efaec3a6439dd05b5d96697489446f60ff656d7a77cfe6df7e15a"
+    },
+    {
+      "eventId": "46f94f92-aac2-400b-9552-d7b4a12ed92d",
+      "uid": "GMA111122NV3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-14T02:40:05.312Z",
+      "timestampLocal": "2026-10-14T02:40:05.312Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.51.51",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GMA111122NV3&nombre_proveedor_razon_social=GH+MANAGEMENT+SA+DE+CV&nombre_representante_legal=GOTTFRIED+HEISS+&email=administracion%40ghmanagement.mx",
+      "previousEventHash": "958bcc45267efaec3a6439dd05b5d96697489446f60ff656d7a77cfe6df7e15a",
+      "documentHash": "ba2f97c232eddef46c7cb340eb35c3512866a68e0dadcc1f6506838cfa545617",
+      "eventHash": "cde45308b24ab0bc444d0e8fc0d0a68099149021c8910956964284a8fb711f31"
+    },
+    {
+      "eventId": "3116e443-f945-4b27-8d2f-6aecec821401",
+      "uid": "GMA111122NV3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-14T02:43:44.514Z",
+      "timestampLocal": "2026-10-13T20:43:44.514Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.168.51.51",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/35bc5f20-17b5-4881-a990-3dcf1d72c593",
+      "previousEventHash": "cde45308b24ab0bc444d0e8fc0d0a68099149021c8910956964284a8fb711f31",
+      "documentHash": "0a7a1134db52375cce8be7215f7e266960715833b32a924206bf1ea174887c84",
+      "signatureHash": "a5377d31d0c0722cee1af2d0e9391a76018621213d5c718f62be5a57828ebff1",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-13T20:43:41.033Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "5ede3d4f7ac6bb1b80dd331bbc238a8d1a54ef48240a03d0f4602577be85514e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-14T02:43:44.771Z"
+  }
 }
