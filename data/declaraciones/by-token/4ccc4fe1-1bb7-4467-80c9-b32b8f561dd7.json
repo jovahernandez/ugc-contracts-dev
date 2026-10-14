@@ -3,8 +3,18 @@
   "declarationId": "100b8b50-8bb8-4c61-a150-58589cb6e17b",
   "token": "4ccc4fe1-1bb7-4467-80c9-b32b8f561dd7",
   "createdAt": "2026-10-14T21:21:01.580Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Corporación La Prensa S.A.",
+    "nombre_representante_legal": "Soodabeh Salance",
+    "email": "cuauh.franco@another.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Corporación La Prensa S.A.",
+    "nombre_representante_legal": "Soodabeh Salance",
+    "email": "cuauh.franco@another.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Corporación La Prensa S.A.",
     "nombre_representante_legal": "Soodabeh Salance",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a2201540f885b36a8e065470c4cf73d6560dccc6e486d49e54ce4f249b3544bf",
+  "auditTrail": [
+    {
+      "eventId": "e1654486-e3bd-4fc4-86d9-a34810fda432",
+      "uid": "2978-2-46909",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-14T21:21:20.565Z",
+      "timestampLocal": "2026-10-14T21:21:20.565Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.225.64",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=2978-2-46909&nombre_proveedor_razon_social=Corporaci%C3%B3n+La+Prensa+S.A.&nombre_representante_legal=Soodabeh+Salance&email=cuauh.franco%40another.co",
+      "previousEventHash": null,
+      "documentHash": "a2201540f885b36a8e065470c4cf73d6560dccc6e486d49e54ce4f249b3544bf",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ea5849376058f88c356f5961de26e8111b0c0c71443862788aa41b529918454a"
+    },
+    {
+      "eventId": "10c10f48-2a88-46fb-8ad5-212acfbb9c97",
+      "uid": "2978-2-46909",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-14T21:21:20.566Z",
+      "timestampLocal": "2026-10-14T21:21:20.566Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.225.64",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://another-ugc-contracts-staging.up.railway.app/declaracion?uid=2978-2-46909&nombre_proveedor_razon_social=Corporaci%C3%B3n+La+Prensa+S.A.&nombre_representante_legal=Soodabeh+Salance&email=cuauh.franco%40another.co",
+      "previousEventHash": "ea5849376058f88c356f5961de26e8111b0c0c71443862788aa41b529918454a",
+      "documentHash": "a2201540f885b36a8e065470c4cf73d6560dccc6e486d49e54ce4f249b3544bf",
+      "metadata": {
+        "proveedor": "Corporación La Prensa S.A.",
+        "representante": "Soodabeh Salance"
+      },
+      "eventHash": "678b37b6cacf7d21c26451a5fe93aa01f63b969d62db207b58ac570af524c9da"
+    }
+  ]
 }
