@@ -3,8 +3,18 @@
   "declarationId": "08b58c6f-2341-4938-84bf-78dd80e18770",
   "token": "7f674288-0d97-4d21-9913-edceb2203429",
   "createdAt": "2026-10-13T14:48:03.235Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Corporación La Prensa S.A.",
+    "nombre_representante_legal": "Soodabeh Salance",
+    "email": "cobros@prensa.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Corporación La Prensa S.A.",
+    "nombre_representante_legal": "Soodabeh Salance",
+    "email": "cobros@prensa.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Corporación La Prensa S.A.",
     "nombre_representante_legal": "Soodabeh Salance",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "bb64064209258471dea754c6cfdb3f1652640ebc2ea975ab8ab2efaab4b91bd3",
+  "auditTrail": [
+    {
+      "eventId": "939df4bf-2b8e-46b4-aae4-8d5dbd7ed080",
+      "uid": "2978-2-46909",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-14T00:14:06.557Z",
+      "timestampLocal": "2026-10-14T00:14:06.557Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.6.79.251",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=2978-2-46909&nombre_proveedor_razon_social=Corporaci%C3%B3n+La+Prensa+S.A.&nombre_representante_legal=Soodabeh+Salance&email=cobros%40prensa.com",
+      "previousEventHash": null,
+      "documentHash": "bb64064209258471dea754c6cfdb3f1652640ebc2ea975ab8ab2efaab4b91bd3",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a200e74bffc2acbbbc5ff13811fc76c8eb115f2326a917eeba99f0a7fee41427"
+    },
+    {
+      "eventId": "28fe0039-28f8-4a07-b5fd-3b3a1fafdeac",
+      "uid": "2978-2-46909",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-14T00:14:06.557Z",
+      "timestampLocal": "2026-10-14T00:14:06.557Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.6.79.251",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=2978-2-46909&nombre_proveedor_razon_social=Corporaci%C3%B3n+La+Prensa+S.A.&nombre_representante_legal=Soodabeh+Salance&email=cobros%40prensa.com",
+      "previousEventHash": "a200e74bffc2acbbbc5ff13811fc76c8eb115f2326a917eeba99f0a7fee41427",
+      "documentHash": "bb64064209258471dea754c6cfdb3f1652640ebc2ea975ab8ab2efaab4b91bd3",
+      "metadata": {
+        "proveedor": "Corporación La Prensa S.A.",
+        "representante": "Soodabeh Salance"
+      },
+      "eventHash": "5d3451c21e652cdffd2e438b7cfa8b98ad73f1f10920f7f82edc52453abcf4c8"
+    }
+  ]
 }
