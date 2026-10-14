@@ -3,8 +3,18 @@
   "declarationId": "17818501-ee61-47ed-b0a0-7261dba73416",
   "token": "8d64f424-c203-473e-a95c-abbde1bcafcb",
   "createdAt": "2026-10-14T19:27:50.965Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "IMPORTADORES INCOL SAS",
+    "nombre_representante_legal": "ANDREA GARCIA",
+    "email": "importadoresincol@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "IMPORTADORES INCOL SAS",
+    "nombre_representante_legal": "ANDREA GARCIA",
+    "email": "importadoresincol@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "IMPORTADORES INCOL SAS",
     "nombre_representante_legal": "ANDREA GARCIA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "df3a3a355b5dee045061e211f2660ce94ebcf1c79d82c2eac211a88ec6e64262",
+  "auditTrail": [
+    {
+      "eventId": "9b531f70-fe04-49f2-a2ab-87852bbe0a77",
+      "uid": "901757210-8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-14T19:28:01.504Z",
+      "timestampLocal": "2026-10-14T19:28:01.504Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.154.161.151",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "df3a3a355b5dee045061e211f2660ce94ebcf1c79d82c2eac211a88ec6e64262",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d4e159e830e0e3f2e38fb1862977a847d0698b233ef2a214074b64fcac2d0d0f"
+    },
+    {
+      "eventId": "6f451194-a2e7-46f8-bab5-d3cea1c0882a",
+      "uid": "901757210-8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-14T19:28:01.504Z",
+      "timestampLocal": "2026-10-14T19:28:01.504Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.154.161.151",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "d4e159e830e0e3f2e38fb1862977a847d0698b233ef2a214074b64fcac2d0d0f",
+      "documentHash": "df3a3a355b5dee045061e211f2660ce94ebcf1c79d82c2eac211a88ec6e64262",
+      "metadata": {
+        "proveedor": "IMPORTADORES INCOL SAS",
+        "representante": "ANDREA GARCIA"
+      },
+      "eventHash": "6bd791a51b117236a020f3bb00793d86597f12f0172d454276998cb62c0e73db"
+    }
+  ]
 }
