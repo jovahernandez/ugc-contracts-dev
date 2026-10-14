@@ -3,7 +3,7 @@
   "declarationId": "b683bc7b-e324-46cf-a00b-28f20774ff8c",
   "token": "37b787c1-4ef0-4b03-8a3b-e752ebef9154",
   "createdAt": "2026-10-14T19:57:27.889Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Javier Vidal",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Javier Vidal",
     "email": "javiervidala23@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6725c1050233f99fbb0f34a43ce0cb6008d1c2fb4869db63235090d054832fbf",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-14T20:01:30.417Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/202948286",
+  "signatureMetadata": {
+    "ip": "190.100.226.141",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-14T20:01:34.152Z",
+    "signedAtLocal": "2026-10-14T17:01:34.152Z"
+  },
+  "documentHash": "fb79f7f48ef6879674c995c6a99cbea5a65e13fb1a8d80055259094509f039b7",
   "auditTrail": [
     {
       "eventId": "b262a4c8-26c4-44ba-a929-331acaf6dc97",
@@ -214,6 +222,64 @@
         "representante": "Javier Vidal"
       },
       "eventHash": "462c7fc96707e7ec0f53b4b9f28ca42aa615bed530357a02d7cb786dee1a8aad"
+    },
+    {
+      "eventId": "ffc3f1ec-540c-471d-9958-fef9370ea91f",
+      "uid": "202948286",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-14T19:57:47.036Z",
+      "timestampLocal": "2026-10-14T19:57:47.036Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.100.226.141",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=202948286&nombre_proveedor_razon_social=Javier+Vidal&nombre_representante_legal=Javier+Vidal+&email=javiervidala23%40gmail.com",
+      "previousEventHash": "462c7fc96707e7ec0f53b4b9f28ca42aa615bed530357a02d7cb786dee1a8aad",
+      "documentHash": "6725c1050233f99fbb0f34a43ce0cb6008d1c2fb4869db63235090d054832fbf",
+      "eventHash": "5d50ba7dc896667c38f6951d5a8bc066bdbf27fb40670132aa7474026b78d035"
+    },
+    {
+      "eventId": "81ea921f-47af-43bc-b2fe-b38c35da37bf",
+      "uid": "202948286",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-14T19:59:53.802Z",
+      "timestampLocal": "2026-10-14T19:59:53.802Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.100.226.141",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "5d50ba7dc896667c38f6951d5a8bc066bdbf27fb40670132aa7474026b78d035",
+      "documentHash": "6725c1050233f99fbb0f34a43ce0cb6008d1c2fb4869db63235090d054832fbf",
+      "eventHash": "dbf059ee45fa9e409a6633d90b285a9f1c6158677b8ddd8f2026141e1ebf0ebe"
+    },
+    {
+      "eventId": "01c71c4e-2de8-4d98-9dfa-9ff72477b15b",
+      "uid": "202948286",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-14T20:01:34.152Z",
+      "timestampLocal": "2026-10-14T17:01:34.152Z",
+      "timezone": "UTC-3",
+      "ipAddress": "190.100.226.141",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/37b787c1-4ef0-4b03-8a3b-e752ebef9154",
+      "previousEventHash": "dbf059ee45fa9e409a6633d90b285a9f1c6158677b8ddd8f2026141e1ebf0ebe",
+      "documentHash": "fb79f7f48ef6879674c995c6a99cbea5a65e13fb1a8d80055259094509f039b7",
+      "signatureHash": "05faeac636bb52d9c3a9cafd3365fa4074a86942191d5cadb644af1ffb7ef183",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-14T17:01:30.417Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "8a62a0460980166b8f056f7a7578fd70d7da789f987246602995f9a02bed8a8b"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 13,
+    "verifiedAt": "2026-10-14T20:01:34.532Z"
+  }
 }
