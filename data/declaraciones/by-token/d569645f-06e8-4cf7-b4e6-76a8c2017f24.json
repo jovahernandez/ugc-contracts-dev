@@ -3,8 +3,18 @@
   "declarationId": "e67922f7-194e-4e9a-8b7f-1ccc747a7fb7",
   "token": "d569645f-06e8-4cf7-b4e6-76a8c2017f24",
   "createdAt": "2026-10-15T16:35:27.014Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Alberto Frias Escobar",
+    "nombre_representante_legal": "Alberto Frias Escobar",
+    "email": "beto.frias.escobar@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Alberto Frias Escobar",
+    "nombre_representante_legal": "Alberto Frias Escobar",
+    "email": "beto.frias.escobar@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Alberto Frias Escobar",
     "nombre_representante_legal": "Alberto Frias Escobar",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8f4944ba439268c45628f2198f59355a49f42d36ef49cb1d61e76c03db1b71e3",
+  "auditTrail": [
+    {
+      "eventId": "4705e469-93d9-4150-acdb-8e9b959c421e",
+      "uid": "FIEA9002145E3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-15T16:35:37.275Z",
+      "timestampLocal": "2026-10-15T16:35:37.275Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.152.127.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FIEA9002145E3&nombre_proveedor_razon_social=Alberto+Frias+Escobar+&nombre_representante_legal=Alberto+Frias+Escobar&email=beto.frias.escobar%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "8f4944ba439268c45628f2198f59355a49f42d36ef49cb1d61e76c03db1b71e3",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "581b9cbff20123a8046898f2d036db21e31b44245842a78e417a3c25d349003b"
+    },
+    {
+      "eventId": "846af3ff-a900-4e66-bdc2-d028c01b97eb",
+      "uid": "FIEA9002145E3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-15T16:35:37.275Z",
+      "timestampLocal": "2026-10-15T16:35:37.275Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.152.127.34",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FIEA9002145E3&nombre_proveedor_razon_social=Alberto+Frias+Escobar+&nombre_representante_legal=Alberto+Frias+Escobar&email=beto.frias.escobar%40gmail.com",
+      "previousEventHash": "581b9cbff20123a8046898f2d036db21e31b44245842a78e417a3c25d349003b",
+      "documentHash": "8f4944ba439268c45628f2198f59355a49f42d36ef49cb1d61e76c03db1b71e3",
+      "metadata": {
+        "proveedor": "Alberto Frias Escobar",
+        "representante": "Alberto Frias Escobar"
+      },
+      "eventHash": "1928bb0070d53295804b5bb9c1eb320625d756fe17852bde587e47a96bb7ac06"
+    }
+  ]
 }
