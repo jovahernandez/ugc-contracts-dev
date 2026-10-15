@@ -3,7 +3,7 @@
   "declarationId": "c5176a1d-e50c-4e3a-b212-b8dcf09cea96",
   "token": "e164c1fb-af96-468d-8094-659b9c6d8c31",
   "createdAt": "2026-10-15T14:16:12.007Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "leandro pedott",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Leandro Pedott",
     "email": "pedotteventos@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4b0f4bda22ce4875c4d48f0c72fd1ee9f788f4c94933fabea1705e2152b13d27",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-15T14:17:11.497Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/32.022.821%2F0001-15",
+  "signatureMetadata": {
+    "ip": "189.78.61.128",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-15T14:17:14.800Z",
+    "signedAtLocal": "2026-10-15T11:17:14.800Z"
+  },
+  "documentHash": "3b99be925007554550e7c7f95572279b48902a4935193929a271e612171aac46",
   "auditTrail": [
     {
       "eventId": "86d3f521-8a90-4e36-a227-7158816151f9",
@@ -66,6 +74,49 @@
         "representante": "Leandro Pedott"
       },
       "eventHash": "38187bcc5625bd5ba53fc569c2ad4eb4299f5ed51a60481cb35f876ab0b9df6f"
+    },
+    {
+      "eventId": "a50e292f-34f4-4aa4-889c-31f637a69445",
+      "uid": "32.022.821/0001-15",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-15T14:16:41.643Z",
+      "timestampLocal": "2026-10-15T14:16:41.643Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.78.61.128",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=32.022.821%2F0001-15&nombre_proveedor_razon_social=leandro+pedott&nombre_representante_legal=Leandro+Pedott&email=pedotteventos%40gmail.com",
+      "previousEventHash": "38187bcc5625bd5ba53fc569c2ad4eb4299f5ed51a60481cb35f876ab0b9df6f",
+      "documentHash": "4b0f4bda22ce4875c4d48f0c72fd1ee9f788f4c94933fabea1705e2152b13d27",
+      "eventHash": "49a4a99d966a4dcc4c141a11d63dc8f2064dab37729574ae00203f1140c723c0"
+    },
+    {
+      "eventId": "b2d5b030-40e0-4825-a13e-c2edfbe52851",
+      "uid": "32.022.821/0001-15",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-15T14:17:14.800Z",
+      "timestampLocal": "2026-10-15T11:17:14.800Z",
+      "timezone": "UTC-3",
+      "ipAddress": "189.78.61.128",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e164c1fb-af96-468d-8094-659b9c6d8c31",
+      "previousEventHash": "49a4a99d966a4dcc4c141a11d63dc8f2064dab37729574ae00203f1140c723c0",
+      "documentHash": "3b99be925007554550e7c7f95572279b48902a4935193929a271e612171aac46",
+      "signatureHash": "99c98a84046b90240d8bbebb54e33ed3326f40c8274773aa2bf80db5b4d160fa",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-15T11:17:11.497Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "7133337f8f6450feb6c59221a9d27ee56172703a614b6d524ba5ca4ac1163360"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-15T14:17:15.054Z"
+  }
 }
