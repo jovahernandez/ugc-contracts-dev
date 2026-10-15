@@ -3,8 +3,18 @@
   "declarationId": "c5176a1d-e50c-4e3a-b212-b8dcf09cea96",
   "token": "e164c1fb-af96-468d-8094-659b9c6d8c31",
   "createdAt": "2026-10-15T14:16:12.007Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "leandro pedott",
+    "nombre_representante_legal": "Leandro Pedott",
+    "email": "pedotteventos@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "leandro pedott",
+    "nombre_representante_legal": "Leandro Pedott",
+    "email": "pedotteventos@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "leandro pedott",
     "nombre_representante_legal": "Leandro Pedott",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4b0f4bda22ce4875c4d48f0c72fd1ee9f788f4c94933fabea1705e2152b13d27",
+  "auditTrail": [
+    {
+      "eventId": "86d3f521-8a90-4e36-a227-7158816151f9",
+      "uid": "32.022.821/0001-15",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-15T14:16:38.053Z",
+      "timestampLocal": "2026-10-15T14:16:38.053Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.78.61.128",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=32.022.821%2F0001-15&nombre_proveedor_razon_social=leandro+pedott&nombre_representante_legal=Leandro+Pedott&email=pedotteventos%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "4b0f4bda22ce4875c4d48f0c72fd1ee9f788f4c94933fabea1705e2152b13d27",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "1542ffdc54fcc7c60dded327d781a003f6e849c55fba34d5c1ce6f3993883974"
+    },
+    {
+      "eventId": "506d5b47-5143-4250-9911-cea3cb63d5fd",
+      "uid": "32.022.821/0001-15",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-15T14:16:38.053Z",
+      "timestampLocal": "2026-10-15T14:16:38.053Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.78.61.128",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=32.022.821%2F0001-15&nombre_proveedor_razon_social=leandro+pedott&nombre_representante_legal=Leandro+Pedott&email=pedotteventos%40gmail.com",
+      "previousEventHash": "1542ffdc54fcc7c60dded327d781a003f6e849c55fba34d5c1ce6f3993883974",
+      "documentHash": "4b0f4bda22ce4875c4d48f0c72fd1ee9f788f4c94933fabea1705e2152b13d27",
+      "metadata": {
+        "proveedor": "leandro pedott",
+        "representante": "Leandro Pedott"
+      },
+      "eventHash": "38187bcc5625bd5ba53fc569c2ad4eb4299f5ed51a60481cb35f876ab0b9df6f"
+    }
+  ]
 }
