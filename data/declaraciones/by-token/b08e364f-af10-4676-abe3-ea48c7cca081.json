@@ -3,8 +3,18 @@
   "declarationId": "82e1263e-5d68-4ee8-ba17-4e88a0432f5e",
   "token": "b08e364f-af10-4676-abe3-ea48c7cca081",
   "createdAt": "2026-10-15T20:49:00.651Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "RICARDO SEBASTIAN VERDEJO YAÑEZ",
+    "nombre_representante_legal": "Ricardo Verdejo",
+    "email": "ricardo.s.verdejo@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "RICARDO SEBASTIAN VERDEJO YAÑEZ",
+    "nombre_representante_legal": "Ricardo Verdejo",
+    "email": "ricardo.s.verdejo@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "RICARDO SEBASTIAN VERDEJO YAÑEZ",
     "nombre_representante_legal": "Ricardo Verdejo",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4c9b3d77928b0f224dfffbfdae4eec7cd270e57e90be1354b7a7014dd0bc8b4f",
+  "auditTrail": [
+    {
+      "eventId": "c3aba9aa-c329-4c0d-bf25-641a7dbc198c",
+      "uid": "VEYR910320KG5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-15T20:49:22.055Z",
+      "timestampLocal": "2026-10-15T20:49:22.055Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.130.112.78",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VEYR910320KG5&nombre_proveedor_razon_social=RICARDO+SEBASTIAN+VERDEJO+YAN%CC%83EZ&nombre_representante_legal=Ricardo+Verdejo&email=ricardo.s.verdejo%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "4c9b3d77928b0f224dfffbfdae4eec7cd270e57e90be1354b7a7014dd0bc8b4f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "bdc44bdf66580679f8f68f38d8680dc434bb73dd4669ff2f3fb09cf8706e48b2"
+    },
+    {
+      "eventId": "88fe2647-eac6-46cf-a042-4a193ed5d5dd",
+      "uid": "VEYR910320KG5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-15T20:49:22.055Z",
+      "timestampLocal": "2026-10-15T20:49:22.055Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.130.112.78",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VEYR910320KG5&nombre_proveedor_razon_social=RICARDO+SEBASTIAN+VERDEJO+YAN%CC%83EZ&nombre_representante_legal=Ricardo+Verdejo&email=ricardo.s.verdejo%40gmail.com",
+      "previousEventHash": "bdc44bdf66580679f8f68f38d8680dc434bb73dd4669ff2f3fb09cf8706e48b2",
+      "documentHash": "4c9b3d77928b0f224dfffbfdae4eec7cd270e57e90be1354b7a7014dd0bc8b4f",
+      "metadata": {
+        "proveedor": "RICARDO SEBASTIAN VERDEJO YAÑEZ",
+        "representante": "Ricardo Verdejo"
+      },
+      "eventHash": "7b685619e0be04cb95671e99fe78033d706adfdf63b39c35b4624e8c627a6c9d"
+    }
+  ]
 }
