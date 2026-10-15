@@ -3,7 +3,7 @@
   "declarationId": "1bad83ca-1537-41e9-92cb-0dc4067b20f8",
   "token": "98f1bc63-cbec-4db4-b77b-8ae3b37fd93f",
   "createdAt": "2026-10-15T20:03:35.060Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "3101725709",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "natalia chango",
     "email": "clinicaodentcr@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "33b469a00aefc911bd6be3ff22dcb1baf352e18eb8bf4ac0f783b95f29959a26",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-15T20:04:14.502Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/503920044",
+  "signatureMetadata": {
+    "ip": "186.15.124.87",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-15T20:04:17.878Z",
+    "signedAtLocal": "2026-10-15T14:04:17.878Z"
+  },
+  "documentHash": "79b3915769060e0bf17f7c7f0a86e7c49e6d8802212ef449ddee01ec136a7b81",
   "auditTrail": [
     {
       "eventId": "e3da320b-7892-4097-95a5-993d2b337f8e",
@@ -66,6 +74,49 @@
         "representante": "natalia chango"
       },
       "eventHash": "78492e799b932d8b4d66b83246add0fc6decb79c6814cbc275e060713aa16c63"
+    },
+    {
+      "eventId": "970898a1-0e58-4764-b136-1cc24e1f0e55",
+      "uid": "503920044",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-15T20:03:46.160Z",
+      "timestampLocal": "2026-10-15T20:03:46.160Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.15.124.87",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=503920044&nombre_proveedor_razon_social=3101725709&nombre_representante_legal=natalia+chango&email=clinicaodentcr%40gmail.com",
+      "previousEventHash": "78492e799b932d8b4d66b83246add0fc6decb79c6814cbc275e060713aa16c63",
+      "documentHash": "33b469a00aefc911bd6be3ff22dcb1baf352e18eb8bf4ac0f783b95f29959a26",
+      "eventHash": "1a2efc8b66b0e4ec4749dd1f0288e9d0797b4aadbdce46197766c06b29bc3017"
+    },
+    {
+      "eventId": "7753deb4-b206-448c-b99c-fa2a028a07b8",
+      "uid": "503920044",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-15T20:04:17.878Z",
+      "timestampLocal": "2026-10-15T14:04:17.878Z",
+      "timezone": "UTC-6",
+      "ipAddress": "186.15.124.87",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/98f1bc63-cbec-4db4-b77b-8ae3b37fd93f",
+      "previousEventHash": "1a2efc8b66b0e4ec4749dd1f0288e9d0797b4aadbdce46197766c06b29bc3017",
+      "documentHash": "79b3915769060e0bf17f7c7f0a86e7c49e6d8802212ef449ddee01ec136a7b81",
+      "signatureHash": "29ca982f8b848cf675b01c8ccd300d7fb83b28d6f0765fb488825aecaa23d78a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-15T14:04:14.502Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "21cb352911ed7790d37034b849610ce74c1622f7209b06d48f56cb476538e0db"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-15T20:04:18.170Z"
+  }
 }
