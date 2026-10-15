@@ -3,7 +3,7 @@
   "declarationId": "f563332c-24d8-450a-8bbc-6d819228aefe",
   "token": "f3536212-965e-456e-a1d1-4b6d5f9b5135",
   "createdAt": "2026-10-15T17:28:13.782Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EPIFANIA ARTIST AND MUSIC SERVICESEPIFANIA ARTIST AND MUSIC SERVICES",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Paulo Andres Díaz Mendoza",
     "email": "paulo.diaz.mendoza@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "cd37cb4dd6a8286953c1dde1a7ef08672dbf0ffa87f8a098d3454b2e91ebe704",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-15T17:30:33.618Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/EAM230830H5A",
+  "signatureMetadata": {
+    "ip": "189.217.203.38",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-15T17:30:37.566Z",
+    "signedAtLocal": "2026-10-15T11:30:37.566Z"
+  },
+  "documentHash": "cad58f52885ba6692c1f08db42c2e1617b889565a52fdf4eb561b2421e3011aa",
   "auditTrail": [
     {
       "eventId": "02c1a08c-b82c-401e-a128-7d45bd5ed60b",
@@ -177,6 +185,64 @@
         "representante": "Paulo Andres Díaz Mendoza"
       },
       "eventHash": "cfa868e7c1871e2ad09493fd5e2eae4433133aac4684216420f127bc20ce9692"
+    },
+    {
+      "eventId": "8037aa76-a9fe-4fac-9575-a96ea1f56829",
+      "uid": "EAM230830H5A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-15T17:28:35.556Z",
+      "timestampLocal": "2026-10-15T17:28:35.556Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.203.38",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EAM230830H5A&nombre_proveedor_razon_social=EPIFANIA+ARTIST+AND+MUSIC+SERVICESEPIFANIA+ARTIST+AND+MUSIC+SERVICES&nombre_representante_legal=Paulo+Andres+D%C3%ADaz+Mendoza&email=paulo.diaz.mendoza%40gmail.com",
+      "previousEventHash": "cfa868e7c1871e2ad09493fd5e2eae4433133aac4684216420f127bc20ce9692",
+      "documentHash": "cd37cb4dd6a8286953c1dde1a7ef08672dbf0ffa87f8a098d3454b2e91ebe704",
+      "eventHash": "2281a824d3b804f30375ef0f49107d3979f8c50b6da81b7085dde2c9afa65e7a"
+    },
+    {
+      "eventId": "4ec8ed01-f2a5-4e68-bc58-383087176261",
+      "uid": "EAM230830H5A",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-15T17:30:03.366Z",
+      "timestampLocal": "2026-10-15T17:30:03.366Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.203.38",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "2281a824d3b804f30375ef0f49107d3979f8c50b6da81b7085dde2c9afa65e7a",
+      "documentHash": "cd37cb4dd6a8286953c1dde1a7ef08672dbf0ffa87f8a098d3454b2e91ebe704",
+      "eventHash": "cd381d36da2155caea3d7adc2f5e679c821811dd46735a01601b857a891d99df"
+    },
+    {
+      "eventId": "cde32bc4-3b46-472b-a382-3110c49dcf42",
+      "uid": "EAM230830H5A",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-15T17:30:37.566Z",
+      "timestampLocal": "2026-10-15T11:30:37.566Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.203.38",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f3536212-965e-456e-a1d1-4b6d5f9b5135",
+      "previousEventHash": "cd381d36da2155caea3d7adc2f5e679c821811dd46735a01601b857a891d99df",
+      "documentHash": "cad58f52885ba6692c1f08db42c2e1617b889565a52fdf4eb561b2421e3011aa",
+      "signatureHash": "8b282cb4be885fa8c9d72f8ee8dbad2259fbc23fff78ab3c58c9aaf3171c084c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-15T11:30:33.618Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "7c13b487433729cf997cc1e03e116af788db0ea59272c6c47d853f608caa8168"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-10-15T17:30:37.820Z"
+  }
 }
