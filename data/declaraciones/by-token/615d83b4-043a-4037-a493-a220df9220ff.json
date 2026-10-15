@@ -3,7 +3,7 @@
   "declarationId": "525771fa-e77a-4c38-a372-da575c383482",
   "token": "615d83b4-043a-4037-a493-a220df9220ff",
   "createdAt": "2026-10-15T14:34:47.017Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Camila Andrea Rocha Bernal",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Another Colombia",
     "email": "finance@heartcreators.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4980abf2a8d1baa5cc1b698466bae5e7f402bcb4a5380a00dd9c5bc9acf1f04b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-15T14:36:52.746Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/1023968425-6",
+  "signatureMetadata": {
+    "ip": "191.156.231.45",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-10-15T14:36:56.163Z",
+    "signedAtLocal": "2026-10-15T09:36:56.163Z"
+  },
+  "documentHash": "ca19a34787679ca213d72f3c740137370f800ae2dacbeeaa3ca0c9e7c90273d0",
   "auditTrail": [
     {
       "eventId": "78ac50cf-8030-413a-8f7f-9a0c4c11171a",
@@ -636,6 +644,49 @@
         "representante": "Another Colombia"
       },
       "eventHash": "cd4ab262a5e893b4ef445cb1af81323daf169f997f94092d42d479e9bcc26bc4"
+    },
+    {
+      "eventId": "72497d51-8355-4054-8222-9f5605908867",
+      "uid": "1023968425-6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-15T14:35:45.380Z",
+      "timestampLocal": "2026-10-15T14:35:45.380Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.156.231.45",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "cd4ab262a5e893b4ef445cb1af81323daf169f997f94092d42d479e9bcc26bc4",
+      "documentHash": "4980abf2a8d1baa5cc1b698466bae5e7f402bcb4a5380a00dd9c5bc9acf1f04b",
+      "eventHash": "fd16261d8fd4fe80527ef902f7e4fa582caaa93f999a415291b4e51741198c49"
+    },
+    {
+      "eventId": "307e3f3d-4c49-43c3-8b03-46ef421716cc",
+      "uid": "1023968425-6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-15T14:36:56.163Z",
+      "timestampLocal": "2026-10-15T09:36:56.163Z",
+      "timezone": "UTC-5",
+      "ipAddress": "191.156.231.45",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "fd16261d8fd4fe80527ef902f7e4fa582caaa93f999a415291b4e51741198c49",
+      "documentHash": "ca19a34787679ca213d72f3c740137370f800ae2dacbeeaa3ca0c9e7c90273d0",
+      "signatureHash": "643133f39cf4580517e6adcc91f7e2cf9ace7dcac49559aa03fa96260f2b30bd",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-15T09:36:52.746Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "61a207e0821d463674d2a1fa8ef2c30636e6656d3ff591c3d0b626b7f27f76ac"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 35,
+    "verifiedAt": "2026-10-15T14:36:56.363Z"
+  }
 }
