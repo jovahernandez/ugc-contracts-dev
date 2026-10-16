@@ -3,7 +3,7 @@
   "declarationId": "f600a5f0-17c5-4c51-a73b-08205df4239f",
   "token": "4df09d3d-b1f6-44fa-a0e4-dfbca103ef8a",
   "createdAt": "2026-10-16T15:34:23.692Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Tamara Martínez Camacho",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Tamara Martínez Camacho",
     "email": "contacto@promocionalestextiles.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7c0cc4ecad95f06fc2e1a63251befb001a52bd3fb3ddc7e33f4c7e255441b539",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-16T15:35:25.549Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MACT031112EU9",
+  "signatureMetadata": {
+    "ip": "189.206.30.130",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-16T15:35:28.877Z",
+    "signedAtLocal": "2026-10-16T09:35:28.877Z"
+  },
+  "documentHash": "9eaba4de6c464b2905a0e6feb3b3c81161811d46eb7780985418a25fc3a9bf38",
   "auditTrail": [
     {
       "eventId": "ef823271-c510-49cd-bee4-122653e3448c",
@@ -103,6 +111,49 @@
         "representante": "Tamara Martínez Camacho"
       },
       "eventHash": "148a6dd2e1a2797e5ef8159ca7a403e2bcd622164344940e19d97e8925a88253"
+    },
+    {
+      "eventId": "ee8cd9e0-8a9f-4933-a155-2ad879eaa887",
+      "uid": "MACT031112EU9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-16T15:34:37.499Z",
+      "timestampLocal": "2026-10-16T15:34:37.499Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.206.30.130",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,es-US;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MACT031112EU9&nombre_proveedor_razon_social=Tamara+Mart%C3%ADnez+Camacho&nombre_representante_legal=Tamara+Mart%C3%ADnez+Camacho&email=contacto%40promocionalestextiles.com",
+      "previousEventHash": "148a6dd2e1a2797e5ef8159ca7a403e2bcd622164344940e19d97e8925a88253",
+      "documentHash": "7c0cc4ecad95f06fc2e1a63251befb001a52bd3fb3ddc7e33f4c7e255441b539",
+      "eventHash": "21b5c7e8376f84c224c0659e48c219c9f87131b00774122b652ae0b728442ee1"
+    },
+    {
+      "eventId": "2a2f46da-9264-4eae-aeb9-c19c9378c85c",
+      "uid": "MACT031112EU9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-16T15:35:28.877Z",
+      "timestampLocal": "2026-10-16T09:35:28.877Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.206.30.130",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,es-US;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/4df09d3d-b1f6-44fa-a0e4-dfbca103ef8a",
+      "previousEventHash": "21b5c7e8376f84c224c0659e48c219c9f87131b00774122b652ae0b728442ee1",
+      "documentHash": "9eaba4de6c464b2905a0e6feb3b3c81161811d46eb7780985418a25fc3a9bf38",
+      "signatureHash": "0de31baf4d14e76224a54a29e25d17fdd662d59ecf6a03270337fa762f6ce993",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-16T09:35:25.549Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "7f67e96e8b4fa95a4191786fa0d348a3a22a442899eceb06e52f2643edc9d7c8"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-16T15:35:30.096Z"
+  }
 }
