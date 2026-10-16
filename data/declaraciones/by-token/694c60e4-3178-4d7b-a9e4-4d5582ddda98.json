@@ -3,7 +3,7 @@
   "declarationId": "63ad2f0f-298e-4616-9ece-eeb3bd43ed55",
   "token": "694c60e4-3178-4d7b-a9e4-4d5582ddda98",
   "createdAt": "2026-10-16T22:38:55.071Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CREACION DE EVENTOS 99 SA DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "SERGIO RAMIREZ FLORES",
     "email": "eventos99direccionn@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "69bc9c61104f3cc5658588aad6987cf638d14ebff1452710747ec872cd84b39e",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-16T23:42:11.940Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CEN1906188T7",
+  "signatureMetadata": {
+    "ip": "189.144.10.28",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+    "signedAtUtc": "2026-10-16T23:42:15.312Z",
+    "signedAtLocal": "2026-10-16T17:42:15.312Z"
+  },
+  "documentHash": "33cd505d3b0f93a5e54e48d7330c97884dbbb84914d94294ec1090b2127689de",
   "auditTrail": [
     {
       "eventId": "e187e3a2-7274-473b-b6a6-1b32667bad66",
@@ -66,6 +74,49 @@
         "representante": "SERGIO RAMIREZ FLORES"
       },
       "eventHash": "fd31cf34eb495eed580d8507ba933d2cab8201d8c3b0deef46ea5d592cd643fb"
+    },
+    {
+      "eventId": "fbeeab0c-88da-446b-88bd-2f44d800ce54",
+      "uid": "CEN1906188T7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-16T23:37:42.750Z",
+      "timestampLocal": "2026-10-16T23:37:42.750Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.144.10.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CEN1906188T7&nombre_proveedor_razon_social=CREACION+DE+EVENTOS+99+SA+DE+CV&nombre_representante_legal=SERGIO+RAMIREZ+FLORES&email=eventos99direccionn%40gmail.com",
+      "previousEventHash": "fd31cf34eb495eed580d8507ba933d2cab8201d8c3b0deef46ea5d592cd643fb",
+      "documentHash": "69bc9c61104f3cc5658588aad6987cf638d14ebff1452710747ec872cd84b39e",
+      "eventHash": "07fb47192b6e421e9917a4fe3ed04a54644fab9db45581cbfe31f3136eff5ad5"
+    },
+    {
+      "eventId": "afc4d55c-ed81-4fa5-9c68-717366a99955",
+      "uid": "CEN1906188T7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-16T23:42:15.313Z",
+      "timestampLocal": "2026-10-16T17:42:15.313Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.144.10.28",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/694c60e4-3178-4d7b-a9e4-4d5582ddda98",
+      "previousEventHash": "07fb47192b6e421e9917a4fe3ed04a54644fab9db45581cbfe31f3136eff5ad5",
+      "documentHash": "33cd505d3b0f93a5e54e48d7330c97884dbbb84914d94294ec1090b2127689de",
+      "signatureHash": "43e9547e2dd84d9146b85ea7d52846179031b6dcbfe4b6b2fddf52f69f1016e5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-16T17:42:11.940Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "15c348c790283bad4b9ea4386e90d270a27750949ff6bbd44c26438646abb79c"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-16T23:42:15.571Z"
+  }
 }
