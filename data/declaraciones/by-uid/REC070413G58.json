@@ -3,7 +3,7 @@
   "declarationId": "f6115f62-2cd2-4d88-b6b0-f7503f2e1c20",
   "token": "714ba4b6-d4b6-45d5-a657-822d8d4cd475",
   "createdAt": "2026-10-16T00:13:32.188Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "REGISTRO EXPRESS Y CONVENCIONES SA DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JOSE FRANCISCO ROSALES CORTES",
     "email": "halcantara@registroexpress.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7f72b589e9a27e917bffc939e2dce6e2b70e6045c2b012759a543acd7c175f3f",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-16T00:15:26.892Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/REC070413G58",
+  "signatureMetadata": {
+    "ip": "189.144.143.3",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+    "signedAtUtc": "2026-10-16T00:15:30.502Z",
+    "signedAtLocal": "2026-10-15T18:15:30.502Z"
+  },
+  "documentHash": "da592098a0eaa6480dcfb5b72eb96c220be4f69acf14c6f59e39d2ef3a2c7325",
   "auditTrail": [
     {
       "eventId": "37c8318c-c2fb-4f4d-9b42-e253681d35c0",
@@ -103,6 +111,49 @@
         "representante": "JOSE FRANCISCO ROSALES CORTES"
       },
       "eventHash": "9f6249ea02ca1640dd96f98a7b59672265703ece0cfac65f2ea350a452bd94d7"
+    },
+    {
+      "eventId": "ab8744dd-2778-4fa1-8a78-3e4378af6cec",
+      "uid": "REC070413G58",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-16T00:13:44.331Z",
+      "timestampLocal": "2026-10-16T00:13:44.331Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.144.143.3",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=REC070413G58&nombre_proveedor_razon_social=REGISTRO+EXPRESS+Y+CONVENCIONES+SA+DE+CV&nombre_representante_legal=JOSE+FRANCISCO+ROSALES+CORTES&email=halcantara%40registroexpress.com.mx",
+      "previousEventHash": "9f6249ea02ca1640dd96f98a7b59672265703ece0cfac65f2ea350a452bd94d7",
+      "documentHash": "7f72b589e9a27e917bffc939e2dce6e2b70e6045c2b012759a543acd7c175f3f",
+      "eventHash": "97b9893c64670549e6575f8d8abe2fdb7d1afade82eff9fde19a24eded1c0fa6"
+    },
+    {
+      "eventId": "2d8aa450-0d1f-45c2-8a36-fd96a4d95d08",
+      "uid": "REC070413G58",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-16T00:15:30.502Z",
+      "timestampLocal": "2026-10-15T18:15:30.502Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.144.143.3",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/714ba4b6-d4b6-45d5-a657-822d8d4cd475",
+      "previousEventHash": "97b9893c64670549e6575f8d8abe2fdb7d1afade82eff9fde19a24eded1c0fa6",
+      "documentHash": "da592098a0eaa6480dcfb5b72eb96c220be4f69acf14c6f59e39d2ef3a2c7325",
+      "signatureHash": "5c4c48e63fab8d5a7cb535d89b071e8092de95c71f178aba4451aeae2252ed3e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-15T18:15:26.892Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "bf03fe5c3a2e37ffa9188eeebbceeeeea9847fa95483313aeaab7a60b095ca6e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-16T00:15:30.760Z"
+  }
 }
