@@ -3,8 +3,18 @@
   "declarationId": "f600a5f0-17c5-4c51-a73b-08205df4239f",
   "token": "4df09d3d-b1f6-44fa-a0e4-dfbca103ef8a",
   "createdAt": "2026-10-16T15:34:23.692Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Tamara Martínez Camacho",
+    "nombre_representante_legal": "Tamara Martínez Camacho",
+    "email": "contacto@promocionalestextiles.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Tamara Martínez Camacho",
+    "nombre_representante_legal": "Tamara Martínez Camacho",
+    "email": "contacto@promocionalestextiles.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Tamara Martínez Camacho",
     "nombre_representante_legal": "Tamara Martínez Camacho",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "38fbd2785d49646426174f2c41adb136be6cb5292738f3ed45e0049d44055a1c",
+  "auditTrail": [
+    {
+      "eventId": "ef823271-c510-49cd-bee4-122653e3448c",
+      "uid": "MACT031112EU9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-16T15:34:31.860Z",
+      "timestampLocal": "2026-10-16T15:34:31.860Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.206.30.130",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,es-US;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MACT031112EU9&nombre_proveedor_razon_social=Tamara+Mart%C3%ADnez+Camacho&nombre_representante_legal=Tamara+Mart%C3%ADnez+Camacho&email=contacto%40promocionalestextiles.com",
+      "previousEventHash": null,
+      "documentHash": "38fbd2785d49646426174f2c41adb136be6cb5292738f3ed45e0049d44055a1c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "dabcc5c9d72e7ef16aad708831d115e0e5f74ddcff99718068130014a2e4cfa4"
+    },
+    {
+      "eventId": "97210a6f-b583-4b46-98cd-784c8738b955",
+      "uid": "MACT031112EU9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-16T15:34:31.860Z",
+      "timestampLocal": "2026-10-16T15:34:31.860Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.206.30.130",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,es-US;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MACT031112EU9&nombre_proveedor_razon_social=Tamara+Mart%C3%ADnez+Camacho&nombre_representante_legal=Tamara+Mart%C3%ADnez+Camacho&email=contacto%40promocionalestextiles.com",
+      "previousEventHash": "dabcc5c9d72e7ef16aad708831d115e0e5f74ddcff99718068130014a2e4cfa4",
+      "documentHash": "38fbd2785d49646426174f2c41adb136be6cb5292738f3ed45e0049d44055a1c",
+      "metadata": {
+        "proveedor": "Tamara Martínez Camacho",
+        "representante": "Tamara Martínez Camacho"
+      },
+      "eventHash": "6d4f258a3d670ef0e197a02fbbe273a90fc4192baf3de087f6b677f643b21e1a"
+    }
+  ]
 }
