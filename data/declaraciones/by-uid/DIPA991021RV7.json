@@ -3,7 +3,7 @@
   "declarationId": "3a04f9f5-40c7-4e08-9f9a-e80d18702b86",
   "token": "4a4cb305-f5ed-4e9c-8dbd-9c33f7e4c629",
   "createdAt": "2026-10-18T02:28:33.096Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Araceli Zarahi Diaz Perea",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Araceli Zarahi Diaz Perea",
     "email": "zarahidiazperea@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "aa6977b5e2275ed1451cc73dc8d66ea35f58076cf322cd6fed056ffa4e527a92",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-18T02:30:25.598Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DIPA991021RV7",
+  "signatureMetadata": {
+    "ip": "187.190.159.245",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-18T02:30:28.977Z",
+    "signedAtLocal": "2026-10-17T20:30:28.977Z"
+  },
+  "documentHash": "2b2f555eabdd858de5a82bf3e7c4915e0be58493784cdef13c4dd6c0e76d435c",
   "auditTrail": [
     {
       "eventId": "47e66957-10c4-43c5-b2f5-56139ca6f797",
@@ -66,6 +74,86 @@
         "representante": "Araceli Zarahi Diaz Perea"
       },
       "eventHash": "68a27ec8d6b749001fed8dba5df98222ffa11ad8e3cfc54d96cfed26c0a9b02d"
+    },
+    {
+      "eventId": "a31bbeea-0b3b-44f7-829d-c1439d0846e8",
+      "uid": "DIPA991021RV7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-18T02:28:41.394Z",
+      "timestampLocal": "2026-10-18T02:28:41.394Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.159.245",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DIPA991021RV7&nombre_proveedor_razon_social=Araceli+Zarahi+Diaz+Perea&nombre_representante_legal=Araceli+Zarahi+Diaz+Perea&email=zarahidiazperea%40gmail.com",
+      "previousEventHash": "68a27ec8d6b749001fed8dba5df98222ffa11ad8e3cfc54d96cfed26c0a9b02d",
+      "documentHash": "87ddefec148d90ad2ee378d172568b4af4ec67ba2885d764fb8ffc727b716b37",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "011dade460fc1b0f24e637b0607b56430599babe571aff1e88e3cbb715593d95"
+    },
+    {
+      "eventId": "4bad437c-d0dd-4a11-84e1-c1f21921fe22",
+      "uid": "DIPA991021RV7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-18T02:28:41.394Z",
+      "timestampLocal": "2026-10-18T02:28:41.394Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.159.245",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DIPA991021RV7&nombre_proveedor_razon_social=Araceli+Zarahi+Diaz+Perea&nombre_representante_legal=Araceli+Zarahi+Diaz+Perea&email=zarahidiazperea%40gmail.com",
+      "previousEventHash": "011dade460fc1b0f24e637b0607b56430599babe571aff1e88e3cbb715593d95",
+      "documentHash": "87ddefec148d90ad2ee378d172568b4af4ec67ba2885d764fb8ffc727b716b37",
+      "metadata": {
+        "proveedor": "Araceli Zarahi Diaz Perea",
+        "representante": "Araceli Zarahi Diaz Perea"
+      },
+      "eventHash": "29f48da2d9731b858b45b7d33636a0ee8971f9531e3f682b390d10ecf709c6a8"
+    },
+    {
+      "eventId": "c79ac9ab-f52b-4ba5-8433-fdcdab6ece19",
+      "uid": "DIPA991021RV7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-18T02:28:43.875Z",
+      "timestampLocal": "2026-10-18T02:28:43.875Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.159.245",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DIPA991021RV7&nombre_proveedor_razon_social=Araceli+Zarahi+Diaz+Perea&nombre_representante_legal=Araceli+Zarahi+Diaz+Perea&email=zarahidiazperea%40gmail.com",
+      "previousEventHash": "29f48da2d9731b858b45b7d33636a0ee8971f9531e3f682b390d10ecf709c6a8",
+      "documentHash": "87ddefec148d90ad2ee378d172568b4af4ec67ba2885d764fb8ffc727b716b37",
+      "eventHash": "de6e67f5ab720a378048b3d0adc8051f4ad08d559d137eecffe25af620064646"
+    },
+    {
+      "eventId": "ffe92751-6287-409d-933d-521a65cbb3ff",
+      "uid": "DIPA991021RV7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-18T02:30:28.977Z",
+      "timestampLocal": "2026-10-17T20:30:28.977Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.159.245",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/4a4cb305-f5ed-4e9c-8dbd-9c33f7e4c629",
+      "previousEventHash": "de6e67f5ab720a378048b3d0adc8051f4ad08d559d137eecffe25af620064646",
+      "documentHash": "2b2f555eabdd858de5a82bf3e7c4915e0be58493784cdef13c4dd6c0e76d435c",
+      "signatureHash": "db87e4b9ea3fd667ed8dbe107be395cd4208d83f8de6974382cd5d519986b199",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-17T20:30:25.598Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "ab81daa66dfdde46370d502ef48684d0598f832c9806397681d373fffa27d655"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-18T02:30:29.173Z"
+  }
 }
