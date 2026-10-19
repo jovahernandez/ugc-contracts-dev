@@ -3,8 +3,18 @@
   "declarationId": "c3ef7106-23fd-43c7-b4f5-93b2a422b726",
   "token": "a06fa3e3-6424-4385-8461-764a27d496c7",
   "createdAt": "2026-10-19T20:05:26.822Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "NOTA & PRENSA SOCIEDAD ANONIMA CERRADA",
+    "nombre_representante_legal": "FRANKLIN GERARDO ELGUERA ORTEGA",
+    "email": "administracion@caretas.com.pe"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "NOTA & PRENSA SOCIEDAD ANONIMA CERRADA",
+    "nombre_representante_legal": "FRANKLIN GERARDO ELGUERA ORTEGA",
+    "email": "administracion@caretas.com.pe"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "NOTA & PRENSA SOCIEDAD ANONIMA CERRADA",
     "nombre_representante_legal": "FRANKLIN GERARDO ELGUERA ORTEGA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "63f8f960deda7326c5e7c3ff215b3fd6be7c8ed2fcad5414cb802713d10f7bb8",
+  "auditTrail": [
+    {
+      "eventId": "bf4dbfb8-aae3-4695-b8ea-5063cfffb6f6",
+      "uid": "20611357916",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-19T20:05:43.893Z",
+      "timestampLocal": "2026-10-19T20:05:43.893Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.253.183.100",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-PE,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20611357916&nombre_proveedor_razon_social=NOTA+%26+PRENSA+SOCIEDAD+ANONIMA+CERRADA&nombre_representante_legal=FRANKLIN+GERARDO+ELGUERA+ORTEGA&email=administracion%40caretas.com.pe",
+      "previousEventHash": null,
+      "documentHash": "63f8f960deda7326c5e7c3ff215b3fd6be7c8ed2fcad5414cb802713d10f7bb8",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1babf0291906a328feccaf76cf2a218248484c4d23abbda1ac7e89165cad88cc"
+    },
+    {
+      "eventId": "0be03680-a56b-4713-bfaf-36ee34b728c2",
+      "uid": "20611357916",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-19T20:05:43.893Z",
+      "timestampLocal": "2026-10-19T20:05:43.893Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.253.183.100",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-PE,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20611357916&nombre_proveedor_razon_social=NOTA+%26+PRENSA+SOCIEDAD+ANONIMA+CERRADA&nombre_representante_legal=FRANKLIN+GERARDO+ELGUERA+ORTEGA&email=administracion%40caretas.com.pe",
+      "previousEventHash": "1babf0291906a328feccaf76cf2a218248484c4d23abbda1ac7e89165cad88cc",
+      "documentHash": "63f8f960deda7326c5e7c3ff215b3fd6be7c8ed2fcad5414cb802713d10f7bb8",
+      "metadata": {
+        "proveedor": "NOTA & PRENSA SOCIEDAD ANONIMA CERRADA",
+        "representante": "FRANKLIN GERARDO ELGUERA ORTEGA"
+      },
+      "eventHash": "dcaa97d93493d32b46845d2105d2a5c2ee5c2d16ce73b659187a6074e607d716"
+    }
+  ]
 }
