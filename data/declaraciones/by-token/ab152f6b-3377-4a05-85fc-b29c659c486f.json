@@ -3,8 +3,18 @@
   "declarationId": "a2386719-ae66-4745-b9cc-5ead45a282b1",
   "token": "ab152f6b-3377-4a05-85fc-b29c659c486f",
   "createdAt": "2026-10-19T16:40:15.826Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Candelaria Copello",
+    "nombre_representante_legal": "Candelaria Copello",
+    "email": "propuestascandecopello@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Candelaria Copello",
+    "nombre_representante_legal": "Candelaria Copello",
+    "email": "propuestascandecopello@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Candelaria Copello",
     "nombre_representante_legal": "Candelaria Copello",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "537e51a7dcffb56efd51595b343badae01982e98ba235c0d79e0a099b566a463",
+  "auditTrail": [
+    {
+      "eventId": "c96016cb-dcf3-40cb-b49c-d04d9c1ac027",
+      "uid": "27-42841016-0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-19T16:40:26.204Z",
+      "timestampLocal": "2026-10-19T16:40:26.204Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.63.47.242",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5,es-419;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27-42841016-0&nombre_proveedor_razon_social=Candelaria+Copello&nombre_representante_legal=Candelaria+Copello&email=propuestascandecopello%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "537e51a7dcffb56efd51595b343badae01982e98ba235c0d79e0a099b566a463",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c1022daeb277791c97086e36b28e0caeb3f985b358ffe209450fb238645d6084"
+    },
+    {
+      "eventId": "cc5a9bfd-7bae-45c4-a30e-90fa6e6d4eb0",
+      "uid": "27-42841016-0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-19T16:40:26.204Z",
+      "timestampLocal": "2026-10-19T16:40:26.204Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.63.47.242",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5,es-419;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27-42841016-0&nombre_proveedor_razon_social=Candelaria+Copello&nombre_representante_legal=Candelaria+Copello&email=propuestascandecopello%40gmail.com",
+      "previousEventHash": "c1022daeb277791c97086e36b28e0caeb3f985b358ffe209450fb238645d6084",
+      "documentHash": "537e51a7dcffb56efd51595b343badae01982e98ba235c0d79e0a099b566a463",
+      "metadata": {
+        "proveedor": "Candelaria Copello",
+        "representante": "Candelaria Copello"
+      },
+      "eventHash": "7224806cf7689b5906078537484cc9c8a3b24759a772291cceb113bc24c6230c"
+    }
+  ]
 }
