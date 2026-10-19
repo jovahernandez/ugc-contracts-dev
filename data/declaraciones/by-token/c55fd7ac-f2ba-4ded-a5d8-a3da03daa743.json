@@ -3,8 +3,18 @@
   "declarationId": "f8add4eb-a787-4967-ac2a-ba4f810c2fe4",
   "token": "c55fd7ac-f2ba-4ded-a5d8-a3da03daa743",
   "createdAt": "2026-10-19T23:37:53.970Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "M GUERRERO PEREIRA MARKETING DIGITAL",
+    "nombre_representante_legal": "Marcella Guerrero Barral Evangelista",
+    "email": "contato@agenciaboua.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "M GUERRERO PEREIRA MARKETING DIGITAL",
+    "nombre_representante_legal": "Marcella Guerrero Barral Evangelista",
+    "email": "contato@agenciaboua.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "M GUERRERO PEREIRA MARKETING DIGITAL",
     "nombre_representante_legal": "Marcella Guerrero Barral Evangelista",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "776e448ba8d672825f1f4a645b2d69f52381970806544fd5f512bf4f9231a6d0",
+  "auditTrail": [
+    {
+      "eventId": "64b5731c-e53d-430a-97c5-d911c079b457",
+      "uid": "37.954.175/0001-48",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-19T23:37:59.490Z",
+      "timestampLocal": "2026-10-19T23:37:59.490Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.183.54.173",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=37.954.175%2F0001-48&nombre_proveedor_razon_social=M+GUERRERO+PEREIRA+MARKETING+DIGITAL&nombre_representante_legal=Marcella+Guerrero+Barral+Evangelista&email=contato%40agenciaboua.com.br",
+      "previousEventHash": null,
+      "documentHash": "776e448ba8d672825f1f4a645b2d69f52381970806544fd5f512bf4f9231a6d0",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "8cab57b1c4aa0e98d032bf34415e5ac274b1da4340dadd0d338502eaf6943a47"
+    },
+    {
+      "eventId": "1809b17d-3278-416c-bf04-8c5eeaca0cf9",
+      "uid": "37.954.175/0001-48",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-19T23:37:59.490Z",
+      "timestampLocal": "2026-10-19T23:37:59.490Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.183.54.173",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=37.954.175%2F0001-48&nombre_proveedor_razon_social=M+GUERRERO+PEREIRA+MARKETING+DIGITAL&nombre_representante_legal=Marcella+Guerrero+Barral+Evangelista&email=contato%40agenciaboua.com.br",
+      "previousEventHash": "8cab57b1c4aa0e98d032bf34415e5ac274b1da4340dadd0d338502eaf6943a47",
+      "documentHash": "776e448ba8d672825f1f4a645b2d69f52381970806544fd5f512bf4f9231a6d0",
+      "metadata": {
+        "proveedor": "M GUERRERO PEREIRA MARKETING DIGITAL",
+        "representante": "Marcella Guerrero Barral Evangelista"
+      },
+      "eventHash": "bca93cb03b106601259188105606a47783364a699799b134a89ad074257e4b8f"
+    }
+  ]
 }
