@@ -3,8 +3,18 @@
   "declarationId": "2983697a-77a7-413f-8c4a-76c1e8375672",
   "token": "952e57eb-9d0d-4813-b805-183c6967c0c6",
   "createdAt": "2026-10-19T17:17:11.113Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GRAPHI, AGENCIA DE PUBLICIDAD & MARKETING S.A DE C.V",
+    "nombre_representante_legal": "Joqsan Juarez Roldan",
+    "email": "betancourtceres@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GRAPHI, AGENCIA DE PUBLICIDAD & MARKETING S.A DE C.V",
+    "nombre_representante_legal": "Joqsan Juarez Roldan",
+    "email": "betancourtceres@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GRAPHI, AGENCIA DE PUBLICIDAD & MARKETING S.A DE C.V",
     "nombre_representante_legal": "Joqsan Juarez Roldan",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "eaadcff553b99ea3cad6fb4ccdd35a4e1ab01ccba035c3b3f4b835eebb49f09d",
+  "auditTrail": [
+    {
+      "eventId": "0ff8ec92-951f-457c-92ed-a96bcbcca52b",
+      "uid": "GAP250807TD5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-19T17:17:17.533Z",
+      "timestampLocal": "2026-10-19T17:17:17.533Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.91.203",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "eaadcff553b99ea3cad6fb4ccdd35a4e1ab01ccba035c3b3f4b835eebb49f09d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "357c435333f2897a6f2d7cc0d1e7c181c7fb6d8fe1bcc85ef8bb00666278a27f"
+    },
+    {
+      "eventId": "484eefe1-4860-4a1d-bcfe-759d0a33c8d1",
+      "uid": "GAP250807TD5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-19T17:17:17.534Z",
+      "timestampLocal": "2026-10-19T17:17:17.534Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.91.203",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "357c435333f2897a6f2d7cc0d1e7c181c7fb6d8fe1bcc85ef8bb00666278a27f",
+      "documentHash": "eaadcff553b99ea3cad6fb4ccdd35a4e1ab01ccba035c3b3f4b835eebb49f09d",
+      "metadata": {
+        "proveedor": "GRAPHI, AGENCIA DE PUBLICIDAD & MARKETING S.A DE C.V",
+        "representante": "Joqsan Juarez Roldan"
+      },
+      "eventHash": "f103290744fe084fe1d6a5d10a2715ce9f58659698d05f2c9762de32be9327c4"
+    }
+  ]
 }
