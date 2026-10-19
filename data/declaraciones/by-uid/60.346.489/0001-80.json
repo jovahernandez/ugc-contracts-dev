@@ -3,8 +3,18 @@
   "declarationId": "0e7fcf41-7f11-4598-a656-ab6fb74df43e",
   "token": "9731c950-51ef-44d6-8434-37827da0bcc5",
   "createdAt": "2026-10-19T22:37:57.756Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "VEVE SIGNED LTDA",
+    "nombre_representante_legal": "Letícia Pontes",
+    "email": "vevesigned@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "VEVE SIGNED LTDA",
+    "nombre_representante_legal": "Letícia Pontes",
+    "email": "vevesigned@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "VEVE SIGNED LTDA",
     "nombre_representante_legal": "Letícia Pontes",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "56849671ed0f531d50efd599fa1edee17dd06545fceceb7ef25ec91d0b71fa6b",
+  "auditTrail": [
+    {
+      "eventId": "7a2e90b5-67c2-42cd-b987-e8a12b9c7862",
+      "uid": "60.346.489/0001-80",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-19T22:38:04.699Z",
+      "timestampLocal": "2026-10-19T22:38:04.699Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.98.251.86",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "56849671ed0f531d50efd599fa1edee17dd06545fceceb7ef25ec91d0b71fa6b",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "16968d665796862c0937b1508571c4059af2a0774d2136619ecef9608a0a6a5b"
+    },
+    {
+      "eventId": "d7b9a9c8-dd84-4bbc-aa68-e90c2c5f7449",
+      "uid": "60.346.489/0001-80",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-19T22:38:04.700Z",
+      "timestampLocal": "2026-10-19T22:38:04.700Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.98.251.86",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "16968d665796862c0937b1508571c4059af2a0774d2136619ecef9608a0a6a5b",
+      "documentHash": "56849671ed0f531d50efd599fa1edee17dd06545fceceb7ef25ec91d0b71fa6b",
+      "metadata": {
+        "proveedor": "VEVE SIGNED LTDA",
+        "representante": "Letícia Pontes"
+      },
+      "eventHash": "c2d916a80a5e2ecad6ccf5fcbfaab66c8f697a215cc19eb28af26181c9ff5883"
+    }
+  ]
 }
