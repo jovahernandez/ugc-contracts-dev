@@ -3,7 +3,7 @@
   "declarationId": "0e7fcf41-7f11-4598-a656-ab6fb74df43e",
   "token": "9731c950-51ef-44d6-8434-37827da0bcc5",
   "createdAt": "2026-10-19T22:37:57.756Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "VEVE SIGNED LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Letícia Pontes",
     "email": "vevesigned@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "56849671ed0f531d50efd599fa1edee17dd06545fceceb7ef25ec91d0b71fa6b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-19T22:38:39.887Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/60.346.489%2F0001-80",
+  "signatureMetadata": {
+    "ip": "189.98.251.86",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-10-19T22:38:43.310Z",
+    "signedAtLocal": "2026-10-19T19:38:43.310Z"
+  },
+  "documentHash": "8269aa6a3be142c39a3dfc66298225025bfd7621a4af8394c84292c25f0ebbe5",
   "auditTrail": [
     {
       "eventId": "7a2e90b5-67c2-42cd-b987-e8a12b9c7862",
@@ -66,6 +74,49 @@
         "representante": "Letícia Pontes"
       },
       "eventHash": "c2d916a80a5e2ecad6ccf5fcbfaab66c8f697a215cc19eb28af26181c9ff5883"
+    },
+    {
+      "eventId": "9af9e483-8675-431a-bc61-7d0056f6a773",
+      "uid": "60.346.489/0001-80",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-19T22:38:07.756Z",
+      "timestampLocal": "2026-10-19T22:38:07.756Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.98.251.86",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "c2d916a80a5e2ecad6ccf5fcbfaab66c8f697a215cc19eb28af26181c9ff5883",
+      "documentHash": "56849671ed0f531d50efd599fa1edee17dd06545fceceb7ef25ec91d0b71fa6b",
+      "eventHash": "0ab3900022bbd7637552ae09b97a823e0f28ff72ca775b13e7114dc4fca47187"
+    },
+    {
+      "eventId": "df77c05e-a2f5-4537-8992-93b09046f6e4",
+      "uid": "60.346.489/0001-80",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-19T22:38:43.310Z",
+      "timestampLocal": "2026-10-19T19:38:43.310Z",
+      "timezone": "UTC-3",
+      "ipAddress": "189.98.251.86",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "0ab3900022bbd7637552ae09b97a823e0f28ff72ca775b13e7114dc4fca47187",
+      "documentHash": "8269aa6a3be142c39a3dfc66298225025bfd7621a4af8394c84292c25f0ebbe5",
+      "signatureHash": "d78ca14034e3519b2c329a574ab1bc5cbda369c80d2f685e2c117501481e3ef3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-19T19:38:39.887Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "6048c9e56a21a720204cf6a9a1e20f2c29babb992c9cc5fb7a170ebd221ca814"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-19T22:38:43.686Z"
+  }
 }
