@@ -3,7 +3,7 @@
   "declarationId": "f8add4eb-a787-4967-ac2a-ba4f810c2fe4",
   "token": "c55fd7ac-f2ba-4ded-a5d8-a3da03daa743",
   "createdAt": "2026-10-19T23:37:53.970Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "M GUERRERO PEREIRA MARKETING DIGITAL",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Marcella Guerrero Barral Evangelista",
     "email": "contato@agenciaboua.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "776e448ba8d672825f1f4a645b2d69f52381970806544fd5f512bf4f9231a6d0",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-19T23:39:40.323Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/37.954.175%2F0001-48",
+  "signatureMetadata": {
+    "ip": "187.183.54.173",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-19T23:39:43.742Z",
+    "signedAtLocal": "2026-10-19T20:39:43.742Z"
+  },
+  "documentHash": "7c32aa3e6a8ee88f57495f8671d9f1f12999c03f998f52269c08be948ac1a857",
   "auditTrail": [
     {
       "eventId": "64b5731c-e53d-430a-97c5-d911c079b457",
@@ -66,6 +74,64 @@
         "representante": "Marcella Guerrero Barral Evangelista"
       },
       "eventHash": "bca93cb03b106601259188105606a47783364a699799b134a89ad074257e4b8f"
+    },
+    {
+      "eventId": "22a6b087-37e9-4af8-93f8-f1ea67a87a6e",
+      "uid": "37.954.175/0001-48",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-19T23:38:02.491Z",
+      "timestampLocal": "2026-10-19T23:38:02.491Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.183.54.173",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=37.954.175%2F0001-48&nombre_proveedor_razon_social=M+GUERRERO+PEREIRA+MARKETING+DIGITAL&nombre_representante_legal=Marcella+Guerrero+Barral+Evangelista&email=contato%40agenciaboua.com.br",
+      "previousEventHash": "bca93cb03b106601259188105606a47783364a699799b134a89ad074257e4b8f",
+      "documentHash": "776e448ba8d672825f1f4a645b2d69f52381970806544fd5f512bf4f9231a6d0",
+      "eventHash": "0b8245b7ac02cadc585c2f9fb4e29ef8f5e22f024646ca3efc86d61edb1a49a7"
+    },
+    {
+      "eventId": "149269ca-5d96-4cd7-82ad-00e66b0802bf",
+      "uid": "37.954.175/0001-48",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-19T23:39:17.421Z",
+      "timestampLocal": "2026-10-19T23:39:17.421Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.183.54.173",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "0b8245b7ac02cadc585c2f9fb4e29ef8f5e22f024646ca3efc86d61edb1a49a7",
+      "documentHash": "776e448ba8d672825f1f4a645b2d69f52381970806544fd5f512bf4f9231a6d0",
+      "eventHash": "d5d2f7a912c2b5f66ae4fd4c4a77bcff07e328084844a39c03a6b37a6681d0c7"
+    },
+    {
+      "eventId": "68c96550-2f1f-4a79-9a89-5e76043a9c38",
+      "uid": "37.954.175/0001-48",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-19T23:39:43.742Z",
+      "timestampLocal": "2026-10-19T20:39:43.742Z",
+      "timezone": "UTC-3",
+      "ipAddress": "187.183.54.173",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c55fd7ac-f2ba-4ded-a5d8-a3da03daa743",
+      "previousEventHash": "d5d2f7a912c2b5f66ae4fd4c4a77bcff07e328084844a39c03a6b37a6681d0c7",
+      "documentHash": "7c32aa3e6a8ee88f57495f8671d9f1f12999c03f998f52269c08be948ac1a857",
+      "signatureHash": "932936f935b3aef4b36b3a97da9fdd0d4553e8d8d9bf8eea0f487ea9794871f9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-19T20:39:40.323Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "2caabb56faca4481026cff3addf6b6c152c2fce0b2fdad94662d3b9b6b7f141f"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-19T23:39:43.938Z"
+  }
 }
