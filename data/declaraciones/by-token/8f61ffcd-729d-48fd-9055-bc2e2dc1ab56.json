@@ -3,8 +3,18 @@
   "declarationId": "79ed7b65-6223-46f1-b8bb-231fb059e1bd",
   "token": "8f61ffcd-729d-48fd-9055-bc2e2dc1ab56",
   "createdAt": "2026-10-19T20:53:10.931Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Dominique Neves dos Santos 06312924386",
+    "nombre_representante_legal": "Dominique Neves dos Santos",
+    "email": "assessoriadominiqueneves@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Dominique Neves dos Santos 06312924386",
+    "nombre_representante_legal": "Dominique Neves dos Santos",
+    "email": "assessoriadominiqueneves@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Dominique Neves dos Santos 06312924386",
     "nombre_representante_legal": "Dominique Neves dos Santos",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "0caa48122c8818a3e1a5e4b435b03db11ae53633452da7d6c02d9b8661b849ff",
+  "auditTrail": [
+    {
+      "eventId": "4cd8e120-6d5d-486f-be34-67572421cb8c",
+      "uid": "44.109.454/0001-70",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-19T20:53:20.563Z",
+      "timestampLocal": "2026-10-19T20:53:20.563Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.100.120.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=44.109.454%2F0001-70&nombre_proveedor_razon_social=Dominique+Neves+dos+Santos+06312924386&nombre_representante_legal=Dominique+Neves+dos+Santos&email=assessoriadominiqueneves%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "0caa48122c8818a3e1a5e4b435b03db11ae53633452da7d6c02d9b8661b849ff",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "8dd5038882104d52f779d6583134784e0344190fdb44fb4695a48ba9406fb770"
+    },
+    {
+      "eventId": "ec9e52ff-bf0b-4cbc-961c-7fe029cc22ec",
+      "uid": "44.109.454/0001-70",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-19T20:53:20.563Z",
+      "timestampLocal": "2026-10-19T20:53:20.563Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.100.120.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=44.109.454%2F0001-70&nombre_proveedor_razon_social=Dominique+Neves+dos+Santos+06312924386&nombre_representante_legal=Dominique+Neves+dos+Santos&email=assessoriadominiqueneves%40hotmail.com",
+      "previousEventHash": "8dd5038882104d52f779d6583134784e0344190fdb44fb4695a48ba9406fb770",
+      "documentHash": "0caa48122c8818a3e1a5e4b435b03db11ae53633452da7d6c02d9b8661b849ff",
+      "metadata": {
+        "proveedor": "Dominique Neves dos Santos 06312924386",
+        "representante": "Dominique Neves dos Santos"
+      },
+      "eventHash": "d5ce8f103a0acf6e6875128f248a18adee90005168cd8687ec8a59b454164700"
+    }
+  ]
 }
