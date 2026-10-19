@@ -3,7 +3,7 @@
   "declarationId": "79ed7b65-6223-46f1-b8bb-231fb059e1bd",
   "token": "8f61ffcd-729d-48fd-9055-bc2e2dc1ab56",
   "createdAt": "2026-10-19T20:53:10.931Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "Dominique Neves dos Santos 06312924386",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Dominique Neves dos Santos",
     "email": "assessoriadominiqueneves@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3c5997decdd1f78f5ed066c1a1adbfd6da921c5fe16b7315c6c78256896e7ce9",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-19T20:54:54.137Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/44.109.454%2F0001-70",
+  "signatureMetadata": {
+    "ip": "177.100.120.22",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-19T20:54:57.712Z",
+    "signedAtLocal": "2026-10-19T17:54:57.712Z"
+  },
+  "documentHash": "0a945b6b8a9a42f64ce46cf8a01352a28d393b450d8c689975a89d95744e8c97",
   "auditTrail": [
     {
       "eventId": "4cd8e120-6d5d-486f-be34-67572421cb8c",
@@ -231,11 +239,11 @@
       "eventHash": "35252ac68e2fdf205d2b8dac270d978848bea5ff989b67c3872427b00d377b1f"
     },
     {
-      "eventId": "4e2653c5-61bf-4309-9b02-6b7c28ae62c3",
+      "eventId": "ae7a65b0-032b-4d81-aa94-795fec92947d",
       "uid": "44.109.454/0001-70",
       "eventType": "language_selected",
-      "timestampUtc": "2026-10-19T20:53:32.643Z",
-      "timestampLocal": "2026-10-19T20:53:32.643Z",
+      "timestampUtc": "2026-10-19T20:53:33.215Z",
+      "timestampLocal": "2026-10-19T20:53:33.215Z",
       "timezone": "UTC+0",
       "ipAddress": "177.100.120.22",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
@@ -246,26 +254,69 @@
       "metadata": {
         "language": "pt"
       },
-      "eventHash": "5deaec8a7e5335aa3fbd7c785e66a82da2fb3491d21bd9f2ac6dec37b563081d"
+      "eventHash": "379ae743c2687b8da59119ea0237e0b6eca6eccb91569492f587c3e85caf7a09"
     },
     {
-      "eventId": "a58b4dfe-6831-4bb7-b46c-0a10159bf92f",
+      "eventId": "0a1e911d-d18e-42b4-ac02-8dfcc676209e",
       "uid": "44.109.454/0001-70",
       "eventType": "document_created",
-      "timestampUtc": "2026-10-19T20:53:32.643Z",
-      "timestampLocal": "2026-10-19T20:53:32.643Z",
+      "timestampUtc": "2026-10-19T20:53:33.215Z",
+      "timestampLocal": "2026-10-19T20:53:33.215Z",
       "timezone": "UTC+0",
       "ipAddress": "177.100.120.22",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
       "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=44.109.454%2F0001-70&nombre_proveedor_razon_social=Dominique+Neves+dos+Santos+06312924386&nombre_representante_legal=Dominique+Neves+dos+Santos&email=assessoriadominiqueneves%40hotmail.com",
-      "previousEventHash": "5deaec8a7e5335aa3fbd7c785e66a82da2fb3491d21bd9f2ac6dec37b563081d",
+      "previousEventHash": "379ae743c2687b8da59119ea0237e0b6eca6eccb91569492f587c3e85caf7a09",
       "documentHash": "3c5997decdd1f78f5ed066c1a1adbfd6da921c5fe16b7315c6c78256896e7ce9",
       "metadata": {
         "proveedor": "Dominique Neves dos Santos 06312924386",
         "representante": "Dominique Neves dos Santos"
       },
-      "eventHash": "ad79c7b088c64e0252b2583284ea012bbd557f809abbc6fb38c228c8392805c2"
+      "eventHash": "01dde5b63610e9b473c11856a7688139d8c805cb647adad0a00f4c91b32c8ed6"
+    },
+    {
+      "eventId": "72f9a373-5740-4e29-8a8f-2fc853b78645",
+      "uid": "44.109.454/0001-70",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-19T20:53:36.125Z",
+      "timestampLocal": "2026-10-19T20:53:36.125Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.100.120.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=44.109.454%2F0001-70&nombre_proveedor_razon_social=Dominique+Neves+dos+Santos+06312924386&nombre_representante_legal=Dominique+Neves+dos+Santos&email=assessoriadominiqueneves%40hotmail.com",
+      "previousEventHash": "01dde5b63610e9b473c11856a7688139d8c805cb647adad0a00f4c91b32c8ed6",
+      "documentHash": "3c5997decdd1f78f5ed066c1a1adbfd6da921c5fe16b7315c6c78256896e7ce9",
+      "eventHash": "5f6e02192846792284ed48408de08ae209720e5af65f8de0ff9a7489d0ca3664"
+    },
+    {
+      "eventId": "3c39eff8-969a-4173-9ed8-94505e1eef02",
+      "uid": "44.109.454/0001-70",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-19T20:54:57.712Z",
+      "timestampLocal": "2026-10-19T17:54:57.712Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.100.120.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8f61ffcd-729d-48fd-9055-bc2e2dc1ab56",
+      "previousEventHash": "5f6e02192846792284ed48408de08ae209720e5af65f8de0ff9a7489d0ca3664",
+      "documentHash": "0a945b6b8a9a42f64ce46cf8a01352a28d393b450d8c689975a89d95744e8c97",
+      "signatureHash": "8a8b6a496b349f2637f9c4ea776fafb699f40b18544b0ccb7c85ae9a5eda5602",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-19T17:54:54.137Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "dc9b3a53232a0ae72129a0666967c92cf2578ebd63f57733302287a2539b74b4"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 15,
+    "verifiedAt": "2026-10-19T20:54:57.946Z"
+  }
 }
