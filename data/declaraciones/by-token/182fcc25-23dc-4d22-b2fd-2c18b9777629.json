@@ -3,8 +3,18 @@
   "declarationId": "c1da805c-de7f-41ac-a6c0-1a6638382090",
   "token": "182fcc25-23dc-4d22-b2fd-2c18b9777629",
   "createdAt": "2026-10-20T15:31:40.864Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ART SERVICOS EM EVENTOS LTDA",
+    "nombre_representante_legal": "Fernando Ruiz Leitão",
+    "email": "scarlet.araujo@bisutti.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ART SERVICOS EM EVENTOS LTDA",
+    "nombre_representante_legal": "Fernando Ruiz Leitão",
+    "email": "scarlet.araujo@bisutti.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ART SERVICOS EM EVENTOS LTDA",
     "nombre_representante_legal": "Fernando Ruiz Leitão",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "03a6fff6d0072e2185c207730455809a651d7eb0588542721f32d4887e5ca360",
+  "auditTrail": [
+    {
+      "eventId": "2e3c6d04-ed3f-4fc6-be85-f2151c0a885c",
+      "uid": "08.751.839/0001-73",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-20T15:31:51.078Z",
+      "timestampLocal": "2026-10-20T15:31:51.078Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.8.166.91",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=08.751.839%2F0001-73&nombre_proveedor_razon_social=ART+SERVICOS+EM+EVENTOS+LTDA&nombre_representante_legal=Fernando+Ruiz+Leit%C3%A3o&email=scarlet.araujo%40bisutti.com.br",
+      "previousEventHash": null,
+      "documentHash": "03a6fff6d0072e2185c207730455809a651d7eb0588542721f32d4887e5ca360",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "94345b1eb8597c1c81014c47eba9d0d4050ae66dc2516d947dce34cdabbb32da"
+    },
+    {
+      "eventId": "670aab5c-8266-42da-ba6f-2c5a6194cd91",
+      "uid": "08.751.839/0001-73",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-20T15:31:51.078Z",
+      "timestampLocal": "2026-10-20T15:31:51.078Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.8.166.91",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=08.751.839%2F0001-73&nombre_proveedor_razon_social=ART+SERVICOS+EM+EVENTOS+LTDA&nombre_representante_legal=Fernando+Ruiz+Leit%C3%A3o&email=scarlet.araujo%40bisutti.com.br",
+      "previousEventHash": "94345b1eb8597c1c81014c47eba9d0d4050ae66dc2516d947dce34cdabbb32da",
+      "documentHash": "03a6fff6d0072e2185c207730455809a651d7eb0588542721f32d4887e5ca360",
+      "metadata": {
+        "proveedor": "ART SERVICOS EM EVENTOS LTDA",
+        "representante": "Fernando Ruiz Leitão"
+      },
+      "eventHash": "dd186b1b5fcab39838dbc95fd4f67590bdb8276dcbdc2a47519a687a1ace3aeb"
+    }
+  ]
 }
