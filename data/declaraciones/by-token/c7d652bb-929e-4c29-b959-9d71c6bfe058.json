@@ -3,8 +3,18 @@
   "declarationId": "0decae8e-874e-48c8-ab0c-215f6396b503",
   "token": "c7d652bb-929e-4c29-b959-9d71c6bfe058",
   "createdAt": "2026-10-20T20:06:00.480Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Miriam Vanelly Benitez Salmeron",
+    "nombre_representante_legal": "Miriam Vanelly Benítez Salmerón",
+    "email": "miriamvblog@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Miriam Vanelly Benitez Salmeron",
+    "nombre_representante_legal": "Miriam Vanelly Benítez Salmerón",
+    "email": "miriamvblog@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Miriam Vanelly Benitez Salmeron",
     "nombre_representante_legal": "Miriam Vanelly Benítez Salmerón",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "70c7876a2746904b88c96f448135844903a4957babb7b1b28085b5bc4377adce",
+  "auditTrail": [
+    {
+      "eventId": "887ded65-98f7-4b96-8d6c-195ccf885d1c",
+      "uid": "BESM960925EP9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-20T20:06:06.776Z",
+      "timestampLocal": "2026-10-20T20:06:06.776Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.239.152.47",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "70c7876a2746904b88c96f448135844903a4957babb7b1b28085b5bc4377adce",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b7f44390fae3bfc7aa80c309e1576d60ad9da588f63b3b4b95f58fe2580a6662"
+    },
+    {
+      "eventId": "8c82f152-3237-449e-8918-75f78cd2cd84",
+      "uid": "BESM960925EP9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-20T20:06:06.776Z",
+      "timestampLocal": "2026-10-20T20:06:06.776Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.239.152.47",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "b7f44390fae3bfc7aa80c309e1576d60ad9da588f63b3b4b95f58fe2580a6662",
+      "documentHash": "70c7876a2746904b88c96f448135844903a4957babb7b1b28085b5bc4377adce",
+      "metadata": {
+        "proveedor": "Miriam Vanelly Benitez Salmeron",
+        "representante": "Miriam Vanelly Benítez Salmerón"
+      },
+      "eventHash": "8ca0c504905a960d76aa7ddf30e0714ecdab560c6f647bf99d052e9f2ee7c861"
+    }
+  ]
 }
