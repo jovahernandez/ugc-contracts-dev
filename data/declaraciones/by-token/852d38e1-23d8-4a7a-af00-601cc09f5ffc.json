@@ -3,7 +3,7 @@
   "declarationId": "0c5ae064-33f4-44de-8471-817663bd3d0a",
   "token": "852d38e1-23d8-4a7a-af00-601cc09f5ffc",
   "createdAt": "2026-10-20T16:54:41.037Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "tania gabriela luevanos",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "tania gabriela luevanos",
     "email": "gabrielaluevanos05@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "32439042209cb9e405f39f84f92352b2cf7f0cf8a70d12a50c89e4ce43a9d058",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-20T16:57:10.862Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LURT930316PU6",
+  "signatureMetadata": {
+    "ip": "187.201.255.133",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-20T16:57:16.394Z",
+    "signedAtLocal": "2026-10-20T10:57:16.394Z"
+  },
+  "documentHash": "22d5fb9e7ae57e258596cc7371a955e7ddc53de3b884bb8d41e00a93f4e26477",
   "auditTrail": [
     {
       "eventId": "05163a89-8c4a-4774-8be6-26cf54118124",
@@ -66,6 +74,49 @@
         "representante": "tania gabriela luevanos"
       },
       "eventHash": "8481ca5169ce3a8d7b86483dbeaa97a18070220a265790d1cda15507b67a502e"
+    },
+    {
+      "eventId": "4e94c1f0-4506-487d-bf1d-2981a072992f",
+      "uid": "LURT930316PU6",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-20T16:54:51.072Z",
+      "timestampLocal": "2026-10-20T16:54:51.072Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.201.255.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,es-419;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LURT930316PU6&nombre_proveedor_razon_social=tania+gabriela+luevanos&nombre_representante_legal=tania+gabriela+luevanos&email=gabrielaluevanos05%40gmail.com",
+      "previousEventHash": "8481ca5169ce3a8d7b86483dbeaa97a18070220a265790d1cda15507b67a502e",
+      "documentHash": "32439042209cb9e405f39f84f92352b2cf7f0cf8a70d12a50c89e4ce43a9d058",
+      "eventHash": "1f9bcd79ce3fbbd7d1d6a7a662543ca6d51cfef4df1625de2c73d4dcd82bf4cb"
+    },
+    {
+      "eventId": "4bdb3bbf-a772-4485-b545-2db0afa3c681",
+      "uid": "LURT930316PU6",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-20T16:57:16.394Z",
+      "timestampLocal": "2026-10-20T10:57:16.394Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.201.255.133",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,es-419;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/852d38e1-23d8-4a7a-af00-601cc09f5ffc",
+      "previousEventHash": "1f9bcd79ce3fbbd7d1d6a7a662543ca6d51cfef4df1625de2c73d4dcd82bf4cb",
+      "documentHash": "22d5fb9e7ae57e258596cc7371a955e7ddc53de3b884bb8d41e00a93f4e26477",
+      "signatureHash": "69d5de0d831ca0f72da90191af6950764dee6f2c6896e0b36464519a451b05e3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-20T10:57:10.862Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "6b945aad92754b3cbdf89da93f578649d3c5833fa267b425aa61897a4021388f"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-20T16:57:16.866Z"
+  }
 }
