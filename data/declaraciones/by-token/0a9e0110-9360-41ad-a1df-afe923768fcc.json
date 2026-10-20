@@ -3,8 +3,18 @@
   "declarationId": "4a5033d5-6a84-4bec-85ae-8c56c423c48f",
   "token": "0a9e0110-9360-41ad-a1df-afe923768fcc",
   "createdAt": "2026-10-20T23:44:32.712Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "NICOLE MONTSERRAT REYES ROJAS",
+    "nombre_representante_legal": "Nicole Montserrat Reyes Rojas",
+    "email": "contactonicolereyes@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "NICOLE MONTSERRAT REYES ROJAS",
+    "nombre_representante_legal": "Nicole Montserrat Reyes Rojas",
+    "email": "contactonicolereyes@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "NICOLE MONTSERRAT REYES ROJAS",
     "nombre_representante_legal": "Nicole Montserrat Reyes Rojas",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d7ae669f4de7f0bf17963a9d00cb4ac7043b82e1d611b62ecc1252861f9dc620",
+  "auditTrail": [
+    {
+      "eventId": "cee345e7-8305-4c7e-8a9f-56d34e4e0cf3",
+      "uid": "RERN0106259Y2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-20T23:44:39.091Z",
+      "timestampLocal": "2026-10-20T23:44:39.091Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.186.219",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "d7ae669f4de7f0bf17963a9d00cb4ac7043b82e1d611b62ecc1252861f9dc620",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e16678a854f6c0ea45d82e4700b6eeee301a09cae100148cb42a34d9255ffaf3"
+    },
+    {
+      "eventId": "a9a30a0d-a2f0-4690-8a5d-4afa853e14f7",
+      "uid": "RERN0106259Y2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-20T23:44:39.091Z",
+      "timestampLocal": "2026-10-20T23:44:39.091Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.186.219",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "e16678a854f6c0ea45d82e4700b6eeee301a09cae100148cb42a34d9255ffaf3",
+      "documentHash": "d7ae669f4de7f0bf17963a9d00cb4ac7043b82e1d611b62ecc1252861f9dc620",
+      "metadata": {
+        "proveedor": "NICOLE MONTSERRAT REYES ROJAS",
+        "representante": "Nicole Montserrat Reyes Rojas"
+      },
+      "eventHash": "2fbc801b00b443936001946cc2ed46d7312745d3968a761c5388710ea5717d97"
+    }
+  ]
 }
