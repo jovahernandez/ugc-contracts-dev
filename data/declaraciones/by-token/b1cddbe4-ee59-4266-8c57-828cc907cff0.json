@@ -3,7 +3,7 @@
   "declarationId": "70d4252b-fa36-4fb1-9789-5cd7136fc721",
   "token": "b1cddbe4-ee59-4266-8c57-828cc907cff0",
   "createdAt": "2026-10-20T19:23:35.629Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MARIA EUGENIA LOPEZ VALLEJO CASTRO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Management Inspire",
     "email": "management@coinspire.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4abdd989256e5f07ddd89cb865ac3f5aa3a37f0b6617c0a09bb71b824528e1b2",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-20T19:27:18.013Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LOCE8103076Q2",
+  "signatureMetadata": {
+    "ip": "189.217.207.82",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-20T19:27:21.659Z",
+    "signedAtLocal": "2026-10-20T13:27:21.659Z"
+  },
+  "documentHash": "d2860f054f4b1460b282274bb311d726d4cfc0b6d675b24ccb2cbbb83309f049",
   "auditTrail": [
     {
       "eventId": "be481c94-aa04-481f-a2d3-63d62fab74f5",
@@ -103,6 +111,49 @@
         "representante": "Management Inspire"
       },
       "eventHash": "bedc444bc6c65d5c4b84b0fb83e69b136fd3f33189418dab40710fc45735973a"
+    },
+    {
+      "eventId": "66a94dc4-6671-4210-b3ea-695535e69515",
+      "uid": "LOCE8103076Q2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-20T19:24:38.400Z",
+      "timestampLocal": "2026-10-20T19:24:38.400Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.207.82",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LOCE8103076Q2&nombre_proveedor_razon_social=MARIA+EUGENIA+LOPEZ+VALLEJO+CASTRO&nombre_representante_legal=Management+Inspire&email=management%40coinspire.com.mx",
+      "previousEventHash": "bedc444bc6c65d5c4b84b0fb83e69b136fd3f33189418dab40710fc45735973a",
+      "documentHash": "4abdd989256e5f07ddd89cb865ac3f5aa3a37f0b6617c0a09bb71b824528e1b2",
+      "eventHash": "75744fa4c265977e4354d101e09541b7cebff97ee4cb2f21a3c2c8438dfe0bdf"
+    },
+    {
+      "eventId": "dab3ff07-0da4-4d16-9926-162a531ab5db",
+      "uid": "LOCE8103076Q2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-20T19:27:21.659Z",
+      "timestampLocal": "2026-10-20T13:27:21.659Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.207.82",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b1cddbe4-ee59-4266-8c57-828cc907cff0",
+      "previousEventHash": "75744fa4c265977e4354d101e09541b7cebff97ee4cb2f21a3c2c8438dfe0bdf",
+      "documentHash": "d2860f054f4b1460b282274bb311d726d4cfc0b6d675b24ccb2cbbb83309f049",
+      "signatureHash": "6d375f7e0c285a40f6054c98307c2c35257903325ea8611ecaca8cda3ac424d5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-20T13:27:18.013Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "034c8fb3c62d4dab06b6f9278a44b025c1fb55aa6478ded976f7e12495946fc8"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-20T19:27:21.900Z"
+  }
 }
