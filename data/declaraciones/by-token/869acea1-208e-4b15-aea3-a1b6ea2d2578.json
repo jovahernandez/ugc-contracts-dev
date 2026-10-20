@@ -3,8 +3,18 @@
   "declarationId": "b9b7aff8-9c42-46d8-bf15-c6f37e85e079",
   "token": "869acea1-208e-4b15-aea3-a1b6ea2d2578",
   "createdAt": "2026-10-20T18:27:06.069Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Aldo Foronda Medina",
+    "nombre_representante_legal": "Aldo Foronda Medina",
+    "email": "aldoforonda26@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Aldo Foronda Medina",
+    "nombre_representante_legal": "Aldo Foronda Medina",
+    "email": "aldoforonda26@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Aldo Foronda Medina",
     "nombre_representante_legal": "Aldo Foronda Medina",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a07094e908a6a439cb165d6275c698d8a92840ef6d65213860e0499b0c8939a4",
+  "auditTrail": [
+    {
+      "eventId": "52364cbc-5e6d-48f2-8e9e-fa84f157718b",
+      "uid": "FOMA030526QY2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-20T18:27:13.854Z",
+      "timestampLocal": "2026-10-20T18:27:13.854Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.245.223.41",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "a07094e908a6a439cb165d6275c698d8a92840ef6d65213860e0499b0c8939a4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8e7a3ea3b70b55f774d758360be750b2a8c9598247574c060003137e22e28156"
+    },
+    {
+      "eventId": "166d7e12-627a-48c6-bd71-26c021058c43",
+      "uid": "FOMA030526QY2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-20T18:27:13.854Z",
+      "timestampLocal": "2026-10-20T18:27:13.854Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.245.223.41",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8e7a3ea3b70b55f774d758360be750b2a8c9598247574c060003137e22e28156",
+      "documentHash": "a07094e908a6a439cb165d6275c698d8a92840ef6d65213860e0499b0c8939a4",
+      "metadata": {
+        "proveedor": "Aldo Foronda Medina",
+        "representante": "Aldo Foronda Medina"
+      },
+      "eventHash": "476e96299fbf9fd881bcacde64cdd44b18acbcec14e1900d5bdfe29dc912ab0a"
+    }
+  ]
 }
