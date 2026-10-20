@@ -3,7 +3,7 @@
   "declarationId": "4a5033d5-6a84-4bec-85ae-8c56c423c48f",
   "token": "0a9e0110-9360-41ad-a1df-afe923768fcc",
   "createdAt": "2026-10-20T23:44:32.712Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "NICOLE MONTSERRAT REYES ROJAS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Nicole Montserrat Reyes Rojas",
     "email": "contactonicolereyes@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "635bb49bf54aef47db29ac7b3a9801f22f8fe07b8a0a1a05290cd16985f3c601",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-20T23:46:21.952Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/RERN0106259Y2",
+  "signatureMetadata": {
+    "ip": "201.124.186.219",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-10-20T23:46:25.425Z",
+    "signedAtLocal": "2026-10-20T17:46:25.425Z"
+  },
+  "documentHash": "1182a631a6d385f652b578c570d21ab41872af7d1db7baac36286643da2a85cf",
   "auditTrail": [
     {
       "eventId": "cee345e7-8305-4c7e-8a9f-56d34e4e0cf3",
@@ -103,6 +111,49 @@
         "representante": "Nicole Montserrat Reyes Rojas"
       },
       "eventHash": "f1450727104363d65b824fb237e1aad2b158f41120710ba702d2e16fc1d0aa31"
+    },
+    {
+      "eventId": "cb05ebad-af2d-4e55-bb54-6ea6091ac8f7",
+      "uid": "RERN0106259Y2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-20T23:44:44.301Z",
+      "timestampLocal": "2026-10-20T23:44:44.301Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.124.186.219",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f1450727104363d65b824fb237e1aad2b158f41120710ba702d2e16fc1d0aa31",
+      "documentHash": "635bb49bf54aef47db29ac7b3a9801f22f8fe07b8a0a1a05290cd16985f3c601",
+      "eventHash": "3b2651e05260a841182646af59482751cb2ac76c3ae41b6dd5077f348919ba6a"
+    },
+    {
+      "eventId": "407396a0-dc28-4124-a034-57fb5e25f618",
+      "uid": "RERN0106259Y2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-20T23:46:25.425Z",
+      "timestampLocal": "2026-10-20T17:46:25.425Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.124.186.219",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "3b2651e05260a841182646af59482751cb2ac76c3ae41b6dd5077f348919ba6a",
+      "documentHash": "1182a631a6d385f652b578c570d21ab41872af7d1db7baac36286643da2a85cf",
+      "signatureHash": "46591c97591b91df2ee52a7db2a04123ad68c44412d431438196217777b4da6e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-20T17:46:21.952Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "f11555c9b50bc46f933c455bd8047a6f1a222b40299653073bed6da51af5263e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-20T23:46:25.661Z"
+  }
 }
