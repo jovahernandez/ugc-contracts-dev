@@ -3,8 +3,18 @@
   "declarationId": "7076e500-f464-48df-b75d-5f62ff400f52",
   "token": "12b8f912-f7a6-46f4-8789-ffb1f42bf593",
   "createdAt": "2026-10-20T06:26:00.018Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "YESAEL JIMENA VARGAS ASCENCIO",
+    "nombre_representante_legal": "Nilda Ascencio",
+    "email": "studyisel@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "YESAEL JIMENA VARGAS ASCENCIO",
+    "nombre_representante_legal": "Nilda Ascencio",
+    "email": "studyisel@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "YESAEL JIMENA VARGAS ASCENCIO",
     "nombre_representante_legal": "Nilda Ascencio",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a44e049f4c33280b0fdcce6bdd2327c07a5080f132bd201ed6c9c9be6f212fc6",
+  "auditTrail": [
+    {
+      "eventId": "cda5b42e-d843-4359-a1e7-4379df4053a9",
+      "uid": "10728982581",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-20T06:26:12.653Z",
+      "timestampLocal": "2026-10-20T06:26:12.653Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.66.207.111",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "a44e049f4c33280b0fdcce6bdd2327c07a5080f132bd201ed6c9c9be6f212fc6",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "358f1038964e6d02c1f6887dae04f56f3d0a7c5b670dda5a4352af6108d3098f"
+    },
+    {
+      "eventId": "2cea106d-e48b-4e68-9124-a5b3c9ae2754",
+      "uid": "10728982581",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-20T06:26:12.653Z",
+      "timestampLocal": "2026-10-20T06:26:12.653Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.66.207.111",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "358f1038964e6d02c1f6887dae04f56f3d0a7c5b670dda5a4352af6108d3098f",
+      "documentHash": "a44e049f4c33280b0fdcce6bdd2327c07a5080f132bd201ed6c9c9be6f212fc6",
+      "metadata": {
+        "proveedor": "YESAEL JIMENA VARGAS ASCENCIO",
+        "representante": "Nilda Ascencio"
+      },
+      "eventHash": "ece00e343f1eab38a1618f4d594b96a5e3f6dbb6aa6d4e424aec1029bb54e881"
+    }
+  ]
 }
