@@ -3,8 +3,18 @@
   "declarationId": "9f6a9297-04d6-44d1-a24b-f05e79abbf9a",
   "token": "f1b2935c-ca0c-4812-838e-b7b4d5964c8c",
   "createdAt": "2026-10-20T15:06:36.978Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MEHR ELIEZER",
+    "nombre_representante_legal": "MEHR ELIEZER",
+    "email": "inquiries.mehr@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MEHR ELIEZER",
+    "nombre_representante_legal": "MEHR ELIEZER",
+    "email": "inquiries.mehr@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MEHR ELIEZER",
     "nombre_representante_legal": "MEHR ELIEZER",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4703299b61b6037badb46ae187ae35f1bbb46400f30c3a50a7c01b9a312846ad",
+  "auditTrail": [
+    {
+      "eventId": "3645a553-0db7-466c-bd4d-d51c0a03d266",
+      "uid": "N-21-2485",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-20T15:06:44.055Z",
+      "timestampLocal": "2026-10-20T15:06:44.055Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.35.94.154",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=N-21-2485&nombre_proveedor_razon_social=MEHR+ELIEZER&nombre_representante_legal=MEHR+ELIEZER&email=inquiries.mehr%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "4703299b61b6037badb46ae187ae35f1bbb46400f30c3a50a7c01b9a312846ad",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ecd09252156a4d891e92f97dff401cd0e8b2cac32844a0288bb4dd32e9876624"
+    },
+    {
+      "eventId": "dad6778e-b43f-49ed-a9e7-a7b3361998c7",
+      "uid": "N-21-2485",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-20T15:06:44.055Z",
+      "timestampLocal": "2026-10-20T15:06:44.055Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.35.94.154",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=N-21-2485&nombre_proveedor_razon_social=MEHR+ELIEZER&nombre_representante_legal=MEHR+ELIEZER&email=inquiries.mehr%40gmail.com",
+      "previousEventHash": "ecd09252156a4d891e92f97dff401cd0e8b2cac32844a0288bb4dd32e9876624",
+      "documentHash": "4703299b61b6037badb46ae187ae35f1bbb46400f30c3a50a7c01b9a312846ad",
+      "metadata": {
+        "proveedor": "MEHR ELIEZER",
+        "representante": "MEHR ELIEZER"
+      },
+      "eventHash": "b1c9d439a099eda85e83c886098bc3ebec702f8e0d337c91981ca4fc14e828f5"
+    }
+  ]
 }
