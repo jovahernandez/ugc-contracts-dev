@@ -3,8 +3,18 @@
   "declarationId": "9f2575db-20ef-47ba-9b6f-d8fc81368796",
   "token": "b9c28610-888b-4aa7-87bc-1c5856e8b10c",
   "createdAt": "2026-10-20T17:29:22.517Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ARTGUSTO GASTRONOMIA LTDA",
+    "nombre_representante_legal": "Fernando Ruiz Leitão",
+    "email": "scarlet.araujo@bisutti.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ARTGUSTO GASTRONOMIA LTDA",
+    "nombre_representante_legal": "Fernando Ruiz Leitão",
+    "email": "scarlet.araujo@bisutti.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ARTGUSTO GASTRONOMIA LTDA",
     "nombre_representante_legal": "Fernando Ruiz Leitão",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "83034a8ffc6485e87c8a70ee0109d14b7e99563dc35a57778530e3c43e88d72d",
+  "auditTrail": [
+    {
+      "eventId": "36977448-3d07-47e5-a166-7510c5257935",
+      "uid": "12.956.226/0001-40",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-20T17:29:28.865Z",
+      "timestampLocal": "2026-10-20T17:29:28.865Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.8.166.91",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=12.956.226%2F0001-40&nombre_proveedor_razon_social=ARTGUSTO+GASTRONOMIA+LTDA&nombre_representante_legal=Fernando+Ruiz+Leit%C3%A3o&email=scarlet.araujo%40bisutti.com.br",
+      "previousEventHash": null,
+      "documentHash": "83034a8ffc6485e87c8a70ee0109d14b7e99563dc35a57778530e3c43e88d72d",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "318bf5fdc601f4f7087e5b0095978dba8354c2671a4dc6f8522bd1d5c3f73289"
+    },
+    {
+      "eventId": "f4820e7f-1ab0-4b11-85ab-7a38c288f579",
+      "uid": "12.956.226/0001-40",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-20T17:29:28.865Z",
+      "timestampLocal": "2026-10-20T17:29:28.865Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.8.166.91",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=12.956.226%2F0001-40&nombre_proveedor_razon_social=ARTGUSTO+GASTRONOMIA+LTDA&nombre_representante_legal=Fernando+Ruiz+Leit%C3%A3o&email=scarlet.araujo%40bisutti.com.br",
+      "previousEventHash": "318bf5fdc601f4f7087e5b0095978dba8354c2671a4dc6f8522bd1d5c3f73289",
+      "documentHash": "83034a8ffc6485e87c8a70ee0109d14b7e99563dc35a57778530e3c43e88d72d",
+      "metadata": {
+        "proveedor": "ARTGUSTO GASTRONOMIA LTDA",
+        "representante": "Fernando Ruiz Leitão"
+      },
+      "eventHash": "90e6821261f8fa65691172d029cc95789bc3a61029b3d8195a35352334d8a5f5"
+    }
+  ]
 }
