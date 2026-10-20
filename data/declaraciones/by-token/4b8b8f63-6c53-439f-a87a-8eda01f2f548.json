@@ -3,7 +3,7 @@
   "declarationId": "8c48f5aa-28c0-4531-ac5e-d9b1c8723e6b",
   "token": "4b8b8f63-6c53-439f-a87a-8eda01f2f548",
   "createdAt": "2026-10-20T19:14:57.041Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "FF Tecnologia Para Eventos LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Felipe Magosso Poveda",
     "email": "felipe.magosso@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "bfca87cebe2a5f2dc50e411e76e33974ccbbcb2c22f303cbd3b786c3ab6ce001",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-20T19:16:49.424Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/43.982.465%2F0001-06",
+  "signatureMetadata": {
+    "ip": "187.11.74.42",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-20T19:16:52.902Z",
+    "signedAtLocal": "2026-10-20T16:16:52.902Z"
+  },
+  "documentHash": "1790b5aeff3aec9dc5bbda4d93671d6485b192a6582db467409da41b95b059f3",
   "auditTrail": [
     {
       "eventId": "ceecb822-2d51-448c-a01a-cc567f497e41",
@@ -66,6 +74,49 @@
         "representante": "Felipe Magosso Poveda"
       },
       "eventHash": "3547826b0deb09fdf2ee0468de51b9db3e73ddd611cf818099c71822c3d073c1"
+    },
+    {
+      "eventId": "c56bb069-1c1f-4c66-ab54-3f1b7ccbce02",
+      "uid": "43.982.465/0001-06",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-20T19:15:05.398Z",
+      "timestampLocal": "2026-10-20T19:15:05.398Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.11.74.42",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,zh-TW;q=0.6,zh;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=43.982.465%2F0001-06&nombre_proveedor_razon_social=FF+Tecnologia+Para+Eventos+LTDA&nombre_representante_legal=Felipe+Magosso+Poveda&email=felipe.magosso%40gmail.com",
+      "previousEventHash": "3547826b0deb09fdf2ee0468de51b9db3e73ddd611cf818099c71822c3d073c1",
+      "documentHash": "bfca87cebe2a5f2dc50e411e76e33974ccbbcb2c22f303cbd3b786c3ab6ce001",
+      "eventHash": "167358131d510ee8753a0a94a4a05f22bc9fd3ba515dd30d81d147edeca40068"
+    },
+    {
+      "eventId": "55f41ea3-b5eb-44e8-badb-52bf7fc85f6f",
+      "uid": "43.982.465/0001-06",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-20T19:16:52.902Z",
+      "timestampLocal": "2026-10-20T16:16:52.902Z",
+      "timezone": "UTC-3",
+      "ipAddress": "187.11.74.42",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,zh-TW;q=0.6,zh;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/4b8b8f63-6c53-439f-a87a-8eda01f2f548",
+      "previousEventHash": "167358131d510ee8753a0a94a4a05f22bc9fd3ba515dd30d81d147edeca40068",
+      "documentHash": "1790b5aeff3aec9dc5bbda4d93671d6485b192a6582db467409da41b95b059f3",
+      "signatureHash": "816846ac09f687c47e52c2e883dd101e858378b453e50b714ca511ff9d596d0d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-20T16:16:49.424Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "736b64b5392f6aaa2468e760c202c9183aa57613f04794b2857dd783b510c9fc"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-20T19:16:53.094Z"
+  }
 }
