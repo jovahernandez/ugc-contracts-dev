@@ -3,8 +3,18 @@
   "declarationId": "6df47b2c-f408-43e0-ae00-b04f70bc6aba",
   "token": "004049a2-fb45-430f-ac0a-b835dd6fc943",
   "createdAt": "2026-10-20T05:06:25.347Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Sharon Itzel Fierro Gómez",
+    "nombre_representante_legal": "Evelyn Sanchez",
+    "email": "sharon_gz98@outlook.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Sharon Itzel Fierro Gómez",
+    "nombre_representante_legal": "Evelyn Sanchez",
+    "email": "sharon_gz98@outlook.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Sharon Itzel Fierro Gómez",
     "nombre_representante_legal": "Evelyn Sanchez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "3938e3f69bb7010307fa937de797a83aa074026dc36395db0d5fdc3f89fec15f",
+  "auditTrail": [
+    {
+      "eventId": "d91aacb1-99bf-4297-8f61-57ad0a670685",
+      "uid": "FIGS980406ED6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-20T05:06:34.060Z",
+      "timestampLocal": "2026-10-20T05:06:34.060Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.82.221",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "3938e3f69bb7010307fa937de797a83aa074026dc36395db0d5fdc3f89fec15f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "55abeccab5d9f69f8f200816f4eca61987b3e2540083d2326668ac4c34d659c6"
+    },
+    {
+      "eventId": "3ea94afd-c736-4a0d-869b-604ec7890db7",
+      "uid": "FIGS980406ED6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-20T05:06:34.061Z",
+      "timestampLocal": "2026-10-20T05:06:34.061Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.82.221",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "55abeccab5d9f69f8f200816f4eca61987b3e2540083d2326668ac4c34d659c6",
+      "documentHash": "3938e3f69bb7010307fa937de797a83aa074026dc36395db0d5fdc3f89fec15f",
+      "metadata": {
+        "proveedor": "Sharon Itzel Fierro Gómez",
+        "representante": "Evelyn Sanchez"
+      },
+      "eventHash": "992e17f812968ea74f2916fbae9f9ca05d59e6d526daee33d5a2940231269884"
+    }
+  ]
 }
