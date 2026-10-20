@@ -3,7 +3,7 @@
   "declarationId": "bf8dca4b-c2c8-473d-8bbf-27c33888d0b3",
   "token": "43f411c4-3592-40ce-8987-e7d5b4de36b5",
   "createdAt": "2026-10-20T21:21:08.312Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MEDIOS VIRALES PUBLICITARIOS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "CLAUDIA ROBERTA DE ALBA VALENCIA",
     "email": "claudia@mvpdigital.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8f8731e575a6966d2324ffac50df99887eca73775714a20c029940ad01e0a037",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-20T21:25:49.825Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MVP240207AI5",
+  "signatureMetadata": {
+    "ip": "187.190.205.168",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+    "signedAtUtc": "2026-10-20T21:25:54.042Z",
+    "signedAtLocal": "2026-10-20T15:25:54.042Z"
+  },
+  "documentHash": "fd276c1dae9cc94336c2ada3f47d4fcbc2933950c7211c236f7f7f3d8dadbed8",
   "auditTrail": [
     {
       "eventId": "6dddd0fd-3930-44c3-b872-dbbe0b926dc8",
@@ -66,6 +74,64 @@
         "representante": "CLAUDIA ROBERTA DE ALBA VALENCIA"
       },
       "eventHash": "4fba2640efcfd057b8d1758473107b674200f0da380d6e991bf4aea50fac023c"
+    },
+    {
+      "eventId": "23c0ec14-d2c7-4ebc-9d4a-74e789dba789",
+      "uid": "MVP240207AI5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-20T21:21:18.645Z",
+      "timestampLocal": "2026-10-20T21:21:18.645Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.205.168",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MVP240207AI5&nombre_proveedor_razon_social=MEDIOS+VIRALES+PUBLICITARIOS+&nombre_representante_legal=CLAUDIA+ROBERTA+DE+ALBA+VALENCIA+&email=claudia%40mvpdigital.mx",
+      "previousEventHash": "4fba2640efcfd057b8d1758473107b674200f0da380d6e991bf4aea50fac023c",
+      "documentHash": "8f8731e575a6966d2324ffac50df99887eca73775714a20c029940ad01e0a037",
+      "eventHash": "fd590f0f18f8c58b899483fd3861b02f4391066ffb4fa70e8745eb1fd59b856d"
+    },
+    {
+      "eventId": "b198a7cf-74d8-4ac8-8e26-51b1193f9fe6",
+      "uid": "MVP240207AI5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-20T21:21:56.862Z",
+      "timestampLocal": "2026-10-20T21:21:56.862Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.205.168",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "fd590f0f18f8c58b899483fd3861b02f4391066ffb4fa70e8745eb1fd59b856d",
+      "documentHash": "8f8731e575a6966d2324ffac50df99887eca73775714a20c029940ad01e0a037",
+      "eventHash": "4738e9fd8044365e2cd3caea9f05f2d97181c1dafde1eb18e1df61ca7bbc61c1"
+    },
+    {
+      "eventId": "2f8b4b5d-d962-4dc1-a0d6-841fc173b593",
+      "uid": "MVP240207AI5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-20T21:25:54.042Z",
+      "timestampLocal": "2026-10-20T15:25:54.042Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.205.168",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5,es-MX;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/43f411c4-3592-40ce-8987-e7d5b4de36b5",
+      "previousEventHash": "4738e9fd8044365e2cd3caea9f05f2d97181c1dafde1eb18e1df61ca7bbc61c1",
+      "documentHash": "fd276c1dae9cc94336c2ada3f47d4fcbc2933950c7211c236f7f7f3d8dadbed8",
+      "signatureHash": "3e2c11e37a0274c2aedbf499d86dbf485814f84d8422bbd019382013d929b4d3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-20T15:25:49.825Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "566d69be051be4a4ffd7379ea4fc0db676b4a2ea17144568d2151c766271ebf9"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-20T21:25:54.348Z"
+  }
 }
