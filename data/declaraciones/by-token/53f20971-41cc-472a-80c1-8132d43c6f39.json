@@ -3,7 +3,7 @@
   "declarationId": "31fb13ee-04e8-4d40-94ea-2fab5d23ca99",
   "token": "53f20971-41cc-472a-80c1-8132d43c6f39",
   "createdAt": "2026-10-21T20:11:26.719Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "STEVENS JOSEPH BERMUDEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Stevens Bermúdez",
     "email": "stevens_joseph@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "519e498ddb9d58c3070d5070ab6a8223cb5acf64b25413d388113b9706b4e919",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-21T20:12:12.067Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/88772147",
+  "signatureMetadata": {
+    "ip": "181.78.120.34",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-21T20:12:15.452Z",
+    "signedAtLocal": "2026-10-21T15:12:15.452Z"
+  },
+  "documentHash": "5c6c0a5901463385a7f9ff63c132db6946a632eb79d86e5470890b0645c412bd",
   "auditTrail": [
     {
       "eventId": "32580acd-5b9a-4dd9-8a04-8d25230c20bc",
@@ -177,6 +185,101 @@
         "representante": "Stevens Bermúdez"
       },
       "eventHash": "4caa1b81ec19e8b0054247202c9158f82116971673a47f165d94f72c611e65a7"
+    },
+    {
+      "eventId": "1b0295ab-3260-49d2-8efc-aadf066e49f7",
+      "uid": "88772147",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-21T20:11:42.157Z",
+      "timestampLocal": "2026-10-21T20:11:42.157Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.78.120.34",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=88772147&nombre_proveedor_razon_social=STEVENS+JOSEPH+BERMUDEZ&nombre_representante_legal=Stevens+Berm%C3%BAdez&email=stevens_joseph%40hotmail.com",
+      "previousEventHash": "4caa1b81ec19e8b0054247202c9158f82116971673a47f165d94f72c611e65a7",
+      "documentHash": "f13a942c0a58d1551860be65a87547f9f5517e9211626427a73f719d8d58c016",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "66b57bdcf1f958806a54c97f7b9401f6c645c2c460c4443ed299cef6a01c0bd4"
+    },
+    {
+      "eventId": "94207002-e737-40d0-aa07-eb76fa722c12",
+      "uid": "88772147",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-21T20:11:42.157Z",
+      "timestampLocal": "2026-10-21T20:11:42.157Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.78.120.34",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=88772147&nombre_proveedor_razon_social=STEVENS+JOSEPH+BERMUDEZ&nombre_representante_legal=Stevens+Berm%C3%BAdez&email=stevens_joseph%40hotmail.com",
+      "previousEventHash": "66b57bdcf1f958806a54c97f7b9401f6c645c2c460c4443ed299cef6a01c0bd4",
+      "documentHash": "f13a942c0a58d1551860be65a87547f9f5517e9211626427a73f719d8d58c016",
+      "metadata": {
+        "proveedor": "STEVENS JOSEPH BERMUDEZ",
+        "representante": "Stevens Bermúdez"
+      },
+      "eventHash": "f094bbac60d222656e38d5fcbdecf515a5d1040197e6231dcbda888e7c3bb6bc"
+    },
+    {
+      "eventId": "db0d1f8d-0826-4aab-b2e7-8a15c5d9a68e",
+      "uid": "88772147",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-21T20:11:45.128Z",
+      "timestampLocal": "2026-10-21T20:11:45.128Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.78.120.34",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=88772147&nombre_proveedor_razon_social=STEVENS+JOSEPH+BERMUDEZ&nombre_representante_legal=Stevens+Berm%C3%BAdez&email=stevens_joseph%40hotmail.com",
+      "previousEventHash": "f094bbac60d222656e38d5fcbdecf515a5d1040197e6231dcbda888e7c3bb6bc",
+      "documentHash": "f13a942c0a58d1551860be65a87547f9f5517e9211626427a73f719d8d58c016",
+      "eventHash": "bdc2873e8a460b172c5d80c9eefd43423d1adb55ada6113c06962570c16b72b0"
+    },
+    {
+      "eventId": "cb201d98-6e00-4098-9b7f-f751b62f5948",
+      "uid": "88772147",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-21T20:11:50.069Z",
+      "timestampLocal": "2026-10-21T20:11:50.069Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.78.120.34",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "bdc2873e8a460b172c5d80c9eefd43423d1adb55ada6113c06962570c16b72b0",
+      "documentHash": "f13a942c0a58d1551860be65a87547f9f5517e9211626427a73f719d8d58c016",
+      "eventHash": "89e2f2233f4f75bb31b4f7d7ff8ea8065c98ab189e421d771731605157f33f69"
+    },
+    {
+      "eventId": "5bc5d700-b9e7-46ee-94c0-01d8e05e0198",
+      "uid": "88772147",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-21T20:12:15.452Z",
+      "timestampLocal": "2026-10-21T15:12:15.452Z",
+      "timezone": "UTC-5",
+      "ipAddress": "181.78.120.34",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/53f20971-41cc-472a-80c1-8132d43c6f39",
+      "previousEventHash": "89e2f2233f4f75bb31b4f7d7ff8ea8065c98ab189e421d771731605157f33f69",
+      "documentHash": "5c6c0a5901463385a7f9ff63c132db6946a632eb79d86e5470890b0645c412bd",
+      "signatureHash": "5a53e5eebd6136295f70b8a9c8543049a13d2337a8dc66a0ed96677cec136759",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-21T15:12:12.067Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "37de6c4ee81567d3e6bc92bc2ad60b30eefa258e3b7e9d3791875ea48abbd3c9"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 13,
+    "verifiedAt": "2026-10-21T20:12:15.864Z"
+  }
 }
