@@ -3,8 +3,18 @@
   "declarationId": "40a7c1c8-ac6e-49d3-92d0-a287f630a570",
   "token": "c1281b8d-8ada-49a5-997c-2038847ca789",
   "createdAt": "2026-10-21T21:27:10.345Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "COLOR VOX COMUNICACION SA D CV",
+    "nombre_representante_legal": "Héctor Caldera Arellano",
+    "email": "liliana@colorvox.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "COLOR VOX COMUNICACION SA D CV",
+    "nombre_representante_legal": "Héctor Caldera Arellano",
+    "email": "liliana@colorvox.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "COLOR VOX COMUNICACION SA D CV",
     "nombre_representante_legal": "Héctor Caldera Arellano",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4fffa9a3045684457b7258d030df880b513051711b3bf4b16d3f5e808801b498",
+  "auditTrail": [
+    {
+      "eventId": "823f2eb0-6fd1-4a8f-ab08-2a8ea26c8cd7",
+      "uid": "CVC060406MI3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-21T21:27:22.383Z",
+      "timestampLocal": "2026-10-21T21:27:22.383Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.97.228",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CVC060406MI3&nombre_proveedor_razon_social=COLOR+VOX+COMUNICACION+SA+D+CV&nombre_representante_legal=H%C3%A9ctor+Caldera+Arellano&email=liliana%40colorvox.com",
+      "previousEventHash": null,
+      "documentHash": "4fffa9a3045684457b7258d030df880b513051711b3bf4b16d3f5e808801b498",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c30ff0e67bb72df35a3ab9cca743260a0e0f5afe5b079db724085368ab381125"
+    },
+    {
+      "eventId": "95d8696b-5aa2-4e33-b7aa-4d0b8c810df6",
+      "uid": "CVC060406MI3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-21T21:27:22.384Z",
+      "timestampLocal": "2026-10-21T21:27:22.384Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.97.228",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CVC060406MI3&nombre_proveedor_razon_social=COLOR+VOX+COMUNICACION+SA+D+CV&nombre_representante_legal=H%C3%A9ctor+Caldera+Arellano&email=liliana%40colorvox.com",
+      "previousEventHash": "c30ff0e67bb72df35a3ab9cca743260a0e0f5afe5b079db724085368ab381125",
+      "documentHash": "4fffa9a3045684457b7258d030df880b513051711b3bf4b16d3f5e808801b498",
+      "metadata": {
+        "proveedor": "COLOR VOX COMUNICACION SA D CV",
+        "representante": "Héctor Caldera Arellano"
+      },
+      "eventHash": "b1671635f13e01bb3a050b98434bd02f4424774159d4d0b635e0bbb5d6d29481"
+    }
+  ]
 }
