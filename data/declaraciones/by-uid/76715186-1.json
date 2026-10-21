@@ -3,8 +3,18 @@
   "declarationId": "85024f4b-f21d-48de-9241-17891ee2a449",
   "token": "cae1b37e-74ba-481e-9ee5-396a63931a19",
   "createdAt": "2026-10-21T14:53:29.528Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Brand Design SPA",
+    "nombre_representante_legal": "Felipe Ignacio Echeverría Moraga",
+    "email": "felipe@brand-design.cl"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Brand Design SPA",
+    "nombre_representante_legal": "Felipe Ignacio Echeverría Moraga",
+    "email": "felipe@brand-design.cl"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Brand Design SPA",
     "nombre_representante_legal": "Felipe Ignacio Echeverría Moraga",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d86f6642d216265f04b81a88ce3e736ee656b94df64003abca2f1bad1e3c3536",
+  "auditTrail": [
+    {
+      "eventId": "982870b3-e935-4302-bd78-967f8d63c6b0",
+      "uid": "76715186-1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-21T14:53:40.555Z",
+      "timestampLocal": "2026-10-21T14:53:40.555Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.230.217.125",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=76715186-1&nombre_proveedor_razon_social=Brand+Design+SPA&nombre_representante_legal=Felipe+Ignacio+Echeverr%C3%ADa+Moraga&email=felipe%40brand-design.cl",
+      "previousEventHash": null,
+      "documentHash": "d86f6642d216265f04b81a88ce3e736ee656b94df64003abca2f1bad1e3c3536",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f71ab79516d6acd8c5da1a3eea25067bf6304cec3bbd4cf4d80a7d9c0b825f06"
+    },
+    {
+      "eventId": "5dfb9cf1-32b0-4812-856c-ab05e9745bd7",
+      "uid": "76715186-1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-21T14:53:40.555Z",
+      "timestampLocal": "2026-10-21T14:53:40.555Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.230.217.125",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=76715186-1&nombre_proveedor_razon_social=Brand+Design+SPA&nombre_representante_legal=Felipe+Ignacio+Echeverr%C3%ADa+Moraga&email=felipe%40brand-design.cl",
+      "previousEventHash": "f71ab79516d6acd8c5da1a3eea25067bf6304cec3bbd4cf4d80a7d9c0b825f06",
+      "documentHash": "d86f6642d216265f04b81a88ce3e736ee656b94df64003abca2f1bad1e3c3536",
+      "metadata": {
+        "proveedor": "Brand Design SPA",
+        "representante": "Felipe Ignacio Echeverría Moraga"
+      },
+      "eventHash": "41ae76334d1449dc54b88ababcdb61bdc5f10de0dc4b7956c8087aded7baf54a"
+    }
+  ]
 }
