@@ -3,8 +3,18 @@
   "declarationId": "31fb13ee-04e8-4d40-94ea-2fab5d23ca99",
   "token": "53f20971-41cc-472a-80c1-8132d43c6f39",
   "createdAt": "2026-10-21T20:11:26.719Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "STEVENS JOSEPH BERMUDEZ",
+    "nombre_representante_legal": "Stevens Bermúdez",
+    "email": "stevens_joseph@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "STEVENS JOSEPH BERMUDEZ",
+    "nombre_representante_legal": "Stevens Bermúdez",
+    "email": "stevens_joseph@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "STEVENS JOSEPH BERMUDEZ",
     "nombre_representante_legal": "Stevens Bermúdez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "17bae5d51c586da9f996921c81e7d6461cf298595ce00a5b7f3f7154100c4056",
+  "auditTrail": [
+    {
+      "eventId": "32580acd-5b9a-4dd9-8a04-8d25230c20bc",
+      "uid": "88772147",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-21T20:11:34.222Z",
+      "timestampLocal": "2026-10-21T20:11:34.222Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.78.120.34",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=88772147&nombre_proveedor_razon_social=STEVENS+JOSEPH+BERMUDEZ&nombre_representante_legal=Stevens+Berm%C3%BAdez&email=stevens_joseph%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "17bae5d51c586da9f996921c81e7d6461cf298595ce00a5b7f3f7154100c4056",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c53be471391ea6dcce25185a23f7956b82720934d46a96656cbac2eb8d793158"
+    },
+    {
+      "eventId": "71b0fb8c-bc39-4330-acde-4b70204eca2d",
+      "uid": "88772147",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-21T20:11:34.222Z",
+      "timestampLocal": "2026-10-21T20:11:34.222Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.78.120.34",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=88772147&nombre_proveedor_razon_social=STEVENS+JOSEPH+BERMUDEZ&nombre_representante_legal=Stevens+Berm%C3%BAdez&email=stevens_joseph%40hotmail.com",
+      "previousEventHash": "c53be471391ea6dcce25185a23f7956b82720934d46a96656cbac2eb8d793158",
+      "documentHash": "17bae5d51c586da9f996921c81e7d6461cf298595ce00a5b7f3f7154100c4056",
+      "metadata": {
+        "proveedor": "STEVENS JOSEPH BERMUDEZ",
+        "representante": "Stevens Bermúdez"
+      },
+      "eventHash": "a0130482d456e9ad7f3f623e443c72c92b67720ab15680f4e02ce207fe30b0bb"
+    }
+  ]
 }
