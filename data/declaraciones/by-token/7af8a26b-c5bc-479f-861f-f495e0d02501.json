@@ -3,7 +3,7 @@
   "declarationId": "b0e378de-d906-4a8e-bc83-04e49de85117",
   "token": "7af8a26b-c5bc-479f-861f-f495e0d02501",
   "createdAt": "2026-10-21T00:17:01.754Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JOSUE SANTIAGO MARTINEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JOSUE SANTIAGO MARTINEZ",
     "email": "josuesantiagomtz@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "493f1962cba8b4bad93388dd78a4f5543aebd809aeafd8cabad9fd8e9d476a9f",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-21T00:20:22.395Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SAMJ970314V25",
+  "signatureMetadata": {
+    "ip": "189.217.96.202",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-21T00:20:25.872Z",
+    "signedAtLocal": "2026-10-20T18:20:25.872Z"
+  },
+  "documentHash": "ae903a9be6412c8ce81013a162b2d19a4fd62912e3f0839901ff936e25028300",
   "auditTrail": [
     {
       "eventId": "ddf49974-a32c-4a75-951d-ce6fdb5e4ac8",
@@ -214,6 +222,49 @@
         "representante": "JOSUE SANTIAGO MARTINEZ"
       },
       "eventHash": "74e1da4523ed5a8177361b0ab02bad787a9f6e76a024962bd18a168c837d5eab"
+    },
+    {
+      "eventId": "679d3911-c088-44ed-8cfb-d1dfa2d68f7d",
+      "uid": "SAMJ970314V25",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-21T00:18:26.651Z",
+      "timestampLocal": "2026-10-21T00:18:26.651Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.96.202",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAMJ970314V25&nombre_proveedor_razon_social=JOSUE+SANTIAGO+MARTINEZ&nombre_representante_legal=JOSUE+SANTIAGO+MARTINEZ&email=josuesantiagomtz%40gmail.com",
+      "previousEventHash": "74e1da4523ed5a8177361b0ab02bad787a9f6e76a024962bd18a168c837d5eab",
+      "documentHash": "493f1962cba8b4bad93388dd78a4f5543aebd809aeafd8cabad9fd8e9d476a9f",
+      "eventHash": "5d3b0fa737d7ec2d63a2b1898c2dadff6d4d799ef314e75f9e6bc66e4b65076e"
+    },
+    {
+      "eventId": "149963d7-7bbd-4430-b54f-10d7b3c155d8",
+      "uid": "SAMJ970314V25",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-21T00:20:25.872Z",
+      "timestampLocal": "2026-10-20T18:20:25.872Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.96.202",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7af8a26b-c5bc-479f-861f-f495e0d02501",
+      "previousEventHash": "5d3b0fa737d7ec2d63a2b1898c2dadff6d4d799ef314e75f9e6bc66e4b65076e",
+      "documentHash": "ae903a9be6412c8ce81013a162b2d19a4fd62912e3f0839901ff936e25028300",
+      "signatureHash": "8b8d288bfd8ac83c367c132447a8d188c12a294aa4e80bec6e8c46e2c6fc47ff",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-20T18:20:22.395Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "854bcae4ef0f15a3cc8df2e107c3818fec4d77250f1d1eee9c6106af96a4fb45"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 12,
+    "verifiedAt": "2026-10-21T00:20:26.187Z"
+  }
 }
