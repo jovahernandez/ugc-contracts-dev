@@ -3,7 +3,7 @@
   "declarationId": "40a7c1c8-ac6e-49d3-92d0-a287f630a570",
   "token": "c1281b8d-8ada-49a5-997c-2038847ca789",
   "createdAt": "2026-10-21T21:27:10.345Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "COLOR VOX COMUNICACION SA D CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Héctor Caldera Arellano",
     "email": "liliana@colorvox.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5ecaf49385601b0586c9b6fcb6c4440c14a0be728c961044b827067de4ab0543",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-21T22:04:18.079Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/CVC060406MI3",
+  "signatureMetadata": {
+    "ip": "187.168.97.228",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+    "signedAtUtc": "2026-10-21T22:04:21.633Z",
+    "signedAtLocal": "2026-10-21T16:04:21.633Z"
+  },
+  "documentHash": "5fb1c4ab43aea266af54d6bb0fd89a27f5525bafc57aeb2920bcb52796a28e0e",
   "auditTrail": [
     {
       "eventId": "823f2eb0-6fd1-4a8f-ab08-2a8ea26c8cd7",
@@ -103,6 +111,64 @@
         "representante": "Héctor Caldera Arellano"
       },
       "eventHash": "620d9d8f05cfc93ef08eb583c1f4151bd3395d627d2397b139aee98187cdd9e9"
+    },
+    {
+      "eventId": "8ec4c0d3-53f7-4a2e-b0d2-b9f7654140f1",
+      "uid": "CVC060406MI3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-21T21:27:28.590Z",
+      "timestampLocal": "2026-10-21T21:27:28.590Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.97.228",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CVC060406MI3&nombre_proveedor_razon_social=COLOR+VOX+COMUNICACION+SA+D+CV&nombre_representante_legal=H%C3%A9ctor+Caldera+Arellano&email=liliana%40colorvox.com",
+      "previousEventHash": "620d9d8f05cfc93ef08eb583c1f4151bd3395d627d2397b139aee98187cdd9e9",
+      "documentHash": "5ecaf49385601b0586c9b6fcb6c4440c14a0be728c961044b827067de4ab0543",
+      "eventHash": "feb429355a37d0296e115b0a54a5dc42b28abfcbfc031196f5f90dee77492e8a"
+    },
+    {
+      "eventId": "93f38254-1fc8-41b8-92df-80f76e81d6b0",
+      "uid": "CVC060406MI3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-21T21:29:18.777Z",
+      "timestampLocal": "2026-10-21T21:29:18.777Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.168.97.228",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "feb429355a37d0296e115b0a54a5dc42b28abfcbfc031196f5f90dee77492e8a",
+      "documentHash": "5ecaf49385601b0586c9b6fcb6c4440c14a0be728c961044b827067de4ab0543",
+      "eventHash": "a27d3c9a906b07a10a03af18d479032a9ae35a068baa79b769baf8136ba9bffb"
+    },
+    {
+      "eventId": "7efe25db-02e8-4199-99fa-8f5bedd14720",
+      "uid": "CVC060406MI3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-21T22:04:21.633Z",
+      "timestampLocal": "2026-10-21T16:04:21.633Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.168.97.228",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c1281b8d-8ada-49a5-997c-2038847ca789",
+      "previousEventHash": "a27d3c9a906b07a10a03af18d479032a9ae35a068baa79b769baf8136ba9bffb",
+      "documentHash": "5fb1c4ab43aea266af54d6bb0fd89a27f5525bafc57aeb2920bcb52796a28e0e",
+      "signatureHash": "44f51e78acc27b5b850110622a696b6136d3e963f64af9435f80d3d41387abfb",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-21T16:04:18.079Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "f763360c83221e6a86cb95688aae18af92c4b03c1ba6bc2c0b6a0791e5a6e707"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-10-21T22:04:21.922Z"
+  }
 }
