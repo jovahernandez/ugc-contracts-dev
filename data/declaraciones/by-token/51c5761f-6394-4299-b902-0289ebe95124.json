@@ -3,7 +3,7 @@
   "declarationId": "142c00c8-63cd-4c40-b46b-21df33dc793f",
   "token": "51c5761f-6394-4299-b902-0289ebe95124",
   "createdAt": "2026-10-21T17:29:31.547Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "26.870.104 VANI DE FATIMA GALDINO PEREIRA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Vani de Fatima Galdino Pereira",
     "email": "financeiro@onoff.marketing"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1d7a3df0b91c18b79964afaab771f92c63f124978faa46a7e7a8685adbe22e68",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-21T17:30:16.998Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/26.870.104%2F0001-40",
+  "signatureMetadata": {
+    "ip": "149.102.234.56",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-21T17:30:21.244Z",
+    "signedAtLocal": "2026-10-21T13:30:21.244Z"
+  },
+  "documentHash": "0e1313c97a7a529eeaee1e692109202c76b9ce2e9fe696557a30bb2fd22a121b",
   "auditTrail": [
     {
       "eventId": "80745ba1-d774-420f-9697-756308c147a1",
@@ -103,6 +111,49 @@
         "representante": "Vani de Fatima Galdino Pereira"
       },
       "eventHash": "74102b7154090ac1bd2bf131c36dcb0ba219ca304d0b47e4b3006b18766a2931"
+    },
+    {
+      "eventId": "9e67469e-838e-4819-a2f8-d43ac4bc754a",
+      "uid": "26.870.104/0001-40",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-21T17:29:52.641Z",
+      "timestampLocal": "2026-10-21T17:29:52.641Z",
+      "timezone": "UTC+0",
+      "ipAddress": "149.102.234.56",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,pt;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=26.870.104%2F0001-40&nombre_proveedor_razon_social=26.870.104+VANI+DE+FATIMA+GALDINO+PEREIRA&nombre_representante_legal=Vani+de+Fatima+Galdino+Pereira&email=financeiro%40onoff.marketing",
+      "previousEventHash": "74102b7154090ac1bd2bf131c36dcb0ba219ca304d0b47e4b3006b18766a2931",
+      "documentHash": "1d7a3df0b91c18b79964afaab771f92c63f124978faa46a7e7a8685adbe22e68",
+      "eventHash": "bfbb30ec9108e570b4c35d96e11a0dba52e97d0030c1f27bdae1fd71268c1de7"
+    },
+    {
+      "eventId": "08a2447e-8a9c-4053-afd5-1d41f04ef832",
+      "uid": "26.870.104/0001-40",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-21T17:30:21.244Z",
+      "timestampLocal": "2026-10-21T13:30:21.244Z",
+      "timezone": "UTC-4",
+      "ipAddress": "149.102.234.56",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,pt;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/51c5761f-6394-4299-b902-0289ebe95124",
+      "previousEventHash": "bfbb30ec9108e570b4c35d96e11a0dba52e97d0030c1f27bdae1fd71268c1de7",
+      "documentHash": "0e1313c97a7a529eeaee1e692109202c76b9ce2e9fe696557a30bb2fd22a121b",
+      "signatureHash": "b5b8824cb1078d33fc5592df9ad6b161f4985b459df4e32a4efdc9ddbd2894f3",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-21T13:30:16.998Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "355e098072422755d513cfa14acc535f7e7d8b1707e3f86d8c11c893ca76c510"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-21T17:30:21.585Z"
+  }
 }
