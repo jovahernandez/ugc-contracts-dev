@@ -3,8 +3,18 @@
   "declarationId": "8b9cf38d-b252-460a-a84f-744dcc51e03a",
   "token": "4047f153-45eb-4dd6-8df8-6c182a3cebaa",
   "createdAt": "2026-10-21T02:12:19.055Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PTMARKETING",
+    "nombre_representante_legal": "Héctor González Arteaga",
+    "email": "alejandro.armenta@pedrote.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PTMARKETING",
+    "nombre_representante_legal": "Héctor González Arteaga",
+    "email": "alejandro.armenta@pedrote.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "PTMARKETING",
     "nombre_representante_legal": "Héctor González Arteaga",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "3c1aef7b5f298f927e316528484b4e04a727ee9e8091b5a19d1261faa3f638a9",
+  "auditTrail": [
+    {
+      "eventId": "e67dcf50-263c-44b4-addd-38dd4a903024",
+      "uid": "PTM1408278Z7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-21T02:13:26.926Z",
+      "timestampLocal": "2026-10-21T02:13:26.926Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.50.94",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PTM1408278Z7&nombre_proveedor_razon_social=PTMARKETING&nombre_representante_legal=H%C3%A9ctor+Gonz%C3%A1lez+Arteaga&email=alejandro.armenta%40pedrote.com",
+      "previousEventHash": null,
+      "documentHash": "3c1aef7b5f298f927e316528484b4e04a727ee9e8091b5a19d1261faa3f638a9",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8c39a95bfabf4cd827ad5f1d75ab5f0e4ba1ea88282bca4080b2d5defe31f33a"
+    },
+    {
+      "eventId": "42846ec9-9730-40f7-8502-899142ec62c7",
+      "uid": "PTM1408278Z7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-21T02:13:26.927Z",
+      "timestampLocal": "2026-10-21T02:13:26.927Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.50.94",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PTM1408278Z7&nombre_proveedor_razon_social=PTMARKETING&nombre_representante_legal=H%C3%A9ctor+Gonz%C3%A1lez+Arteaga&email=alejandro.armenta%40pedrote.com",
+      "previousEventHash": "8c39a95bfabf4cd827ad5f1d75ab5f0e4ba1ea88282bca4080b2d5defe31f33a",
+      "documentHash": "3c1aef7b5f298f927e316528484b4e04a727ee9e8091b5a19d1261faa3f638a9",
+      "metadata": {
+        "proveedor": "PTMARKETING",
+        "representante": "Héctor González Arteaga"
+      },
+      "eventHash": "a20e96c97a66a2b7d824ad79e7b6c0b372356b68aaecec2fb29c7cb5d281f893"
+    }
+  ]
 }
