@@ -3,7 +3,7 @@
   "declarationId": "f9c23f56-caa2-4d56-bede-37b80378c7f2",
   "token": "8305ba25-c580-4225-9a2d-80a12bbf0e60",
   "createdAt": "2026-10-21T15:00:29.943Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "ON OFF SOLUCOES DE MARKETING LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Emmanoel Henryck Rocha Goncalves",
     "email": "financeiro@onoff.marketing"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0b1e415516867b4a4bdbdb5fff4fe9b91562992bc49319bb58c89b66605f4294",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-21T15:01:07.288Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/28.482.233%2F0001-97",
+  "signatureMetadata": {
+    "ip": "174.135.217.203",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-21T15:01:10.720Z",
+    "signedAtLocal": "2026-10-21T11:01:10.720Z"
+  },
+  "documentHash": "6dcf5d5cc88d1306df041a0d9abf69148ab4712f2de56c69c743fda323869d31",
   "auditTrail": [
     {
       "eventId": "98246e35-a0f2-48c8-97c1-80f133495017",
@@ -103,6 +111,86 @@
         "representante": "Emmanoel Henryck Rocha Goncalves"
       },
       "eventHash": "c3cdc2f2b4c1fec369265a57cf8409ff630826315c57ecf1c5636f3018f6db31"
+    },
+    {
+      "eventId": "6346f5b9-63de-47c3-90c7-b9c63fc46c03",
+      "uid": "28.482.233/0001-97",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-21T15:00:43.464Z",
+      "timestampLocal": "2026-10-21T15:00:43.464Z",
+      "timezone": "UTC+0",
+      "ipAddress": "174.135.217.203",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,pt;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=28.482.233%2F0001-97&nombre_proveedor_razon_social=ON+OFF+SOLUCOES+DE+MARKETING+LTDA&nombre_representante_legal=Emmanoel+Henryck+Rocha+Goncalves&email=financeiro%40onoff.marketing",
+      "previousEventHash": "c3cdc2f2b4c1fec369265a57cf8409ff630826315c57ecf1c5636f3018f6db31",
+      "documentHash": "10a79d07bc3313a66f7654b3bcb8e93e7af24211c1ec0120aad3538d46ba7883",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "414342ab347c792dfacf1641993dee6749318e9d932c43ef6117a70da85ae2ea"
+    },
+    {
+      "eventId": "4b453f64-702f-4ee9-a368-15f88adde752",
+      "uid": "28.482.233/0001-97",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-21T15:00:43.464Z",
+      "timestampLocal": "2026-10-21T15:00:43.464Z",
+      "timezone": "UTC+0",
+      "ipAddress": "174.135.217.203",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,pt;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=28.482.233%2F0001-97&nombre_proveedor_razon_social=ON+OFF+SOLUCOES+DE+MARKETING+LTDA&nombre_representante_legal=Emmanoel+Henryck+Rocha+Goncalves&email=financeiro%40onoff.marketing",
+      "previousEventHash": "414342ab347c792dfacf1641993dee6749318e9d932c43ef6117a70da85ae2ea",
+      "documentHash": "10a79d07bc3313a66f7654b3bcb8e93e7af24211c1ec0120aad3538d46ba7883",
+      "metadata": {
+        "proveedor": "ON OFF SOLUCOES DE MARKETING LTDA",
+        "representante": "Emmanoel Henryck Rocha Goncalves"
+      },
+      "eventHash": "e93f8d25988f22de0d49a75776ccb48142685f8615ed8c04ccdd617add4ce00a"
+    },
+    {
+      "eventId": "91e1303c-b33c-44ce-ab1c-a7a401ef49a1",
+      "uid": "28.482.233/0001-97",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-21T15:00:47.864Z",
+      "timestampLocal": "2026-10-21T15:00:47.864Z",
+      "timezone": "UTC+0",
+      "ipAddress": "174.135.217.203",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,pt;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=28.482.233%2F0001-97&nombre_proveedor_razon_social=ON+OFF+SOLUCOES+DE+MARKETING+LTDA&nombre_representante_legal=Emmanoel+Henryck+Rocha+Goncalves&email=financeiro%40onoff.marketing",
+      "previousEventHash": "e93f8d25988f22de0d49a75776ccb48142685f8615ed8c04ccdd617add4ce00a",
+      "documentHash": "10a79d07bc3313a66f7654b3bcb8e93e7af24211c1ec0120aad3538d46ba7883",
+      "eventHash": "3f6ee774d6b948fcdf6424117d3e0a61f184cce88052167d9dd5ef66cd5e54c1"
+    },
+    {
+      "eventId": "2d833078-d827-486a-8bb4-f9bdda535008",
+      "uid": "28.482.233/0001-97",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-21T15:01:10.720Z",
+      "timestampLocal": "2026-10-21T11:01:10.720Z",
+      "timezone": "UTC-4",
+      "ipAddress": "174.135.217.203",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,pt;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8305ba25-c580-4225-9a2d-80a12bbf0e60",
+      "previousEventHash": "3f6ee774d6b948fcdf6424117d3e0a61f184cce88052167d9dd5ef66cd5e54c1",
+      "documentHash": "6dcf5d5cc88d1306df041a0d9abf69148ab4712f2de56c69c743fda323869d31",
+      "signatureHash": "b54a905f7daf03b2a59a8cee21c222b8ca14797c6ed8f54ce2db17bfb8a5c4a9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-21T11:01:07.288Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "60e6d6ff2341bec412b9569f2c3dceda44620dfd5edc492af4c0370120cb7bef"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-10-21T15:01:11.147Z"
+  }
 }
