@@ -3,8 +3,18 @@
   "declarationId": "8ec9da60-fb8c-4ccf-a6c9-e9486d376bff",
   "token": "1347a25e-1cc0-44e8-91a3-0d8055f3d1e8",
   "createdAt": "2026-10-22T21:17:23.334Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Flor canzobre",
+    "nombre_representante_legal": "patricia Gálvez",
+    "email": "florenciacanzobre@icloud.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Flor canzobre",
+    "nombre_representante_legal": "patricia Gálvez",
+    "email": "florenciacanzobre@icloud.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Flor canzobre",
     "nombre_representante_legal": "patricia Gálvez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "213481fbacf1094909481e849fb048563bc82ce9f5b83e4fcc4113396bf9d8ff",
+  "auditTrail": [
+    {
+      "eventId": "bc231b9e-41d8-4454-9976-fc23ea9b4dc4",
+      "uid": "00215253410011",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-22T21:17:33.354Z",
+      "timestampLocal": "2026-10-22T21:17:33.354Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.48.69.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "213481fbacf1094909481e849fb048563bc82ce9f5b83e4fcc4113396bf9d8ff",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "58c874354214e700c8571686d8db09fb0fcf833f95c62ac5e152933aeff1c81b"
+    },
+    {
+      "eventId": "01fc4ac6-6048-4ba9-922c-806340ae05a1",
+      "uid": "00215253410011",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-22T21:17:33.354Z",
+      "timestampLocal": "2026-10-22T21:17:33.354Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.48.69.100",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "58c874354214e700c8571686d8db09fb0fcf833f95c62ac5e152933aeff1c81b",
+      "documentHash": "213481fbacf1094909481e849fb048563bc82ce9f5b83e4fcc4113396bf9d8ff",
+      "metadata": {
+        "proveedor": "Flor canzobre",
+        "representante": "patricia Gálvez"
+      },
+      "eventHash": "b0f4bcce3c2f835043ec31bee8d1584c0e3cdc8bcbdd1a19b67128d519e8056e"
+    }
+  ]
 }
