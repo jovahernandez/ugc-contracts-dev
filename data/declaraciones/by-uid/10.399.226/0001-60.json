@@ -3,7 +3,7 @@
   "declarationId": "8d51c1f8-93ae-4d49-b2da-d7de7aca05f1",
   "token": "5c8dc1c3-7aa3-4032-884c-9d8d276167b9",
   "createdAt": "2026-10-22T15:42:28.738Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "CEP Assessoria e Servios LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "LEONARDO ALEXANDRE GORGUEIRA PINHEIRO FONTES",
     "email": "contato@c41estudio.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "8959286d6f97eaff42dc2395ae8e17d006aa746031f203e6e655ae4462b07ea0",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-22T15:44:03.910Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/10.399.226%2F0001-60",
+  "signatureMetadata": {
+    "ip": "177.206.117.113",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-22T15:44:07.223Z",
+    "signedAtLocal": "2026-10-22T12:44:07.223Z"
+  },
+  "documentHash": "59445d7e637b539b1229fa99fe71489242c2593d6b7701d06864557b63def3b2",
   "auditTrail": [
     {
       "eventId": "3a9d9bcc-53f0-46cb-bbaa-bd37f49caf8c",
@@ -66,6 +74,64 @@
         "representante": "LEONARDO ALEXANDRE GORGUEIRA PINHEIRO FONTES"
       },
       "eventHash": "7178fc70c69cf9880e9b2ab868acf262c3366d89b6cc9bb59070cb8cf86c9a94"
+    },
+    {
+      "eventId": "cf9c3eba-e99a-4ed9-8fd0-22f3041524fb",
+      "uid": "10.399.226/0001-60",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-22T15:42:41.579Z",
+      "timestampLocal": "2026-10-22T15:42:41.579Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.206.117.113",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=10.399.226%2F0001-60&nombre_proveedor_razon_social=CEP+Assessoria+e+Servios+LTDA&nombre_representante_legal=LEONARDO+ALEXANDRE+GORGUEIRA+PINHEIRO+FONTES&email=contato%40c41estudio.com.br",
+      "previousEventHash": "7178fc70c69cf9880e9b2ab868acf262c3366d89b6cc9bb59070cb8cf86c9a94",
+      "documentHash": "8959286d6f97eaff42dc2395ae8e17d006aa746031f203e6e655ae4462b07ea0",
+      "eventHash": "53474248d86d9dbc127bdfde1cbd3410bd40eb001e89bcaa9cae59cda282bc35"
+    },
+    {
+      "eventId": "ad1b550a-2dc9-44ae-89ce-f293d462c90e",
+      "uid": "10.399.226/0001-60",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-22T15:43:36.889Z",
+      "timestampLocal": "2026-10-22T15:43:36.889Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.206.117.113",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "53474248d86d9dbc127bdfde1cbd3410bd40eb001e89bcaa9cae59cda282bc35",
+      "documentHash": "8959286d6f97eaff42dc2395ae8e17d006aa746031f203e6e655ae4462b07ea0",
+      "eventHash": "84e476a81be8e6502389549539e42b08d3a92ce97bcb5b853e597126f62aad42"
+    },
+    {
+      "eventId": "d1208a7d-6202-4c81-8915-1700efc4757e",
+      "uid": "10.399.226/0001-60",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-22T15:44:07.223Z",
+      "timestampLocal": "2026-10-22T12:44:07.223Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.206.117.113",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5c8dc1c3-7aa3-4032-884c-9d8d276167b9",
+      "previousEventHash": "84e476a81be8e6502389549539e42b08d3a92ce97bcb5b853e597126f62aad42",
+      "documentHash": "59445d7e637b539b1229fa99fe71489242c2593d6b7701d06864557b63def3b2",
+      "signatureHash": "26a50709ebcf143578adb10cbe6af26f68b15510277685fdcf0b85ae26d137d1",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-22T12:44:03.910Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "75a9d4aa7ec229d82a443876f424c351de786ab8ff4a2b8cba36d54e5961fec4"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-22T15:44:07.416Z"
+  }
 }
