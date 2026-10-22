@@ -3,7 +3,7 @@
   "declarationId": "506b003b-76c1-4bfe-9ab8-b553e8aaf7b7",
   "token": "d9b6fefa-236a-444f-a678-203e9db6bc11",
   "createdAt": "2026-10-22T16:28:54.059Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "MABRUCA PRODUCOES SERVICOS LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "CECILIA MARIA BUCHALLA",
     "email": "cica@buchalla.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "74eac9d61cc847d4dc5174b233ae80e43a46be7e9910e111ca8894f2c1fea241",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-22T16:30:13.274Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/52.800.588%2F0001-61",
+  "signatureMetadata": {
+    "ip": "177.81.78.97",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-22T16:30:16.568Z",
+    "signedAtLocal": "2026-10-22T13:30:16.568Z"
+  },
+  "documentHash": "fa33f4ac280555ed53e7b9e644de8dad310387bd389873f4215d65c9fa787779",
   "auditTrail": [
     {
       "eventId": "10f07bfb-4b44-4228-8dfd-db0d45a83447",
@@ -66,6 +74,49 @@
         "representante": "CECILIA MARIA BUCHALLA"
       },
       "eventHash": "d5d82cb2a020d49233bc2e8873ff4e1127de6168ac25a64e8dd38940343d5fc4"
+    },
+    {
+      "eventId": "210d75ef-c3d3-4ef4-86ef-58d4e760aabd",
+      "uid": "52.800.588/0001-61",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-22T16:29:12.632Z",
+      "timestampLocal": "2026-10-22T16:29:12.632Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.81.78.97",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=52.800.588%2F0001-61&nombre_proveedor_razon_social=MABRUCA+PRODUCOES+SERVICOS+LTDA&nombre_representante_legal=CECILIA+MARIA+BUCHALLA&email=cica%40buchalla.com.br",
+      "previousEventHash": "d5d82cb2a020d49233bc2e8873ff4e1127de6168ac25a64e8dd38940343d5fc4",
+      "documentHash": "74eac9d61cc847d4dc5174b233ae80e43a46be7e9910e111ca8894f2c1fea241",
+      "eventHash": "1076b85419c9e56ad6c97f6049a422fc0cc21b8429c369f96e4e70b33d4896cc"
+    },
+    {
+      "eventId": "42c703ba-85a3-4f25-9ea0-8ff044b5303c",
+      "uid": "52.800.588/0001-61",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-22T16:30:16.568Z",
+      "timestampLocal": "2026-10-22T13:30:16.568Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.81.78.97",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d9b6fefa-236a-444f-a678-203e9db6bc11",
+      "previousEventHash": "1076b85419c9e56ad6c97f6049a422fc0cc21b8429c369f96e4e70b33d4896cc",
+      "documentHash": "fa33f4ac280555ed53e7b9e644de8dad310387bd389873f4215d65c9fa787779",
+      "signatureHash": "233f0ec77b11a35648d52fb06fd6f928be405f5abd068137bc6a688f49e5354d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-22T13:30:13.274Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "3f79237c959b7d5cf536ff3b78f2ccb6005d4b6832e9002430455d6f45194fef"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-22T16:30:16.811Z"
+  }
 }
