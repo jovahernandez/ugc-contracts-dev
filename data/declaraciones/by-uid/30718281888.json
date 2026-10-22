@@ -3,7 +3,7 @@
   "declarationId": "d36a96c6-3d4a-4276-b4e5-6242acf8f5a3",
   "token": "cc4a1791-7901-4d8a-8fc4-a598480eb41c",
   "createdAt": "2026-10-05T19:02:36.420Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GAMAL DIGITAL S.R.L.",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "GAMAL DIGITAL S.R.L.",
     "email": "kmila@ciencialobo.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "87696d9ca991ad7a6bb261e32091eb9e4090bcf2f2bad1bd1a282b7feaa3f1a2",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-22T22:16:16.733Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/30718281888",
+  "signatureMetadata": {
+    "ip": "190.31.202.68",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-22T22:16:20.131Z",
+    "signedAtLocal": "2026-10-22T19:16:20.131Z"
+  },
+  "documentHash": "1418476076d875a80ec5b772fcbf38d82f313d45ee3d73a49b0a367363bd4eba",
   "auditTrail": [
     {
       "eventId": "f9619c37-1fce-4239-86d6-ef1a9f77e10f",
@@ -66,6 +74,64 @@
         "representante": "GAMAL DIGITAL S.R.L."
       },
       "eventHash": "509c2133517702fe545a0475fc175504c026030fc2c74fce15ede256d4f78b59"
+    },
+    {
+      "eventId": "d45c32ec-7514-429a-9f5f-cc6c08a153b0",
+      "uid": "30718281888",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-05T19:02:53.883Z",
+      "timestampLocal": "2026-10-05T19:02:53.883Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.31.202.68",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=30718281888&nombre_proveedor_razon_social=GAMAL+DIGITAL+S.R.L.&nombre_representante_legal=GAMAL+DIGITAL+S.R.L.&email=kmila%40ciencialobo.com",
+      "previousEventHash": "509c2133517702fe545a0475fc175504c026030fc2c74fce15ede256d4f78b59",
+      "documentHash": "87696d9ca991ad7a6bb261e32091eb9e4090bcf2f2bad1bd1a282b7feaa3f1a2",
+      "eventHash": "0289dd08fb87f225c4c3ce064c3e3a5833f0728f0045e7ee3da10e38f851d948"
+    },
+    {
+      "eventId": "ab6ed612-6213-436e-8196-7c81a750ece8",
+      "uid": "30718281888",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-22T22:15:20.225Z",
+      "timestampLocal": "2026-10-22T22:15:20.225Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.31.202.68",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "0289dd08fb87f225c4c3ce064c3e3a5833f0728f0045e7ee3da10e38f851d948",
+      "documentHash": "87696d9ca991ad7a6bb261e32091eb9e4090bcf2f2bad1bd1a282b7feaa3f1a2",
+      "eventHash": "8ee5362848f2fb2ff8ac874e8011c68b558c95d74594c6cbc21c07f59655bd24"
+    },
+    {
+      "eventId": "cfb4f876-815f-4315-91d5-df888c5c3b7f",
+      "uid": "30718281888",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-22T22:16:20.131Z",
+      "timestampLocal": "2026-10-22T19:16:20.131Z",
+      "timezone": "UTC-3",
+      "ipAddress": "190.31.202.68",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/cc4a1791-7901-4d8a-8fc4-a598480eb41c",
+      "previousEventHash": "8ee5362848f2fb2ff8ac874e8011c68b558c95d74594c6cbc21c07f59655bd24",
+      "documentHash": "1418476076d875a80ec5b772fcbf38d82f313d45ee3d73a49b0a367363bd4eba",
+      "signatureHash": "405b63f3099b7ade3e756ee9fa050876f702deb77036e385ade87f5dcc4b1761",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-22T19:16:16.733Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "f062dda8fa808087c14cde3a4a4048a219a24c7ba1bfd39583ec41226e9c56e3"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-22T22:16:20.364Z"
+  }
 }
