@@ -3,8 +3,18 @@
   "declarationId": "8d51c1f8-93ae-4d49-b2da-d7de7aca05f1",
   "token": "5c8dc1c3-7aa3-4032-884c-9d8d276167b9",
   "createdAt": "2026-10-22T15:42:28.738Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "CEP Assessoria e Servios LTDA",
+    "nombre_representante_legal": "LEONARDO ALEXANDRE GORGUEIRA PINHEIRO FONTES",
+    "email": "contato@c41estudio.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "CEP Assessoria e Servios LTDA",
+    "nombre_representante_legal": "LEONARDO ALEXANDRE GORGUEIRA PINHEIRO FONTES",
+    "email": "contato@c41estudio.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "CEP Assessoria e Servios LTDA",
     "nombre_representante_legal": "LEONARDO ALEXANDRE GORGUEIRA PINHEIRO FONTES",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8959286d6f97eaff42dc2395ae8e17d006aa746031f203e6e655ae4462b07ea0",
+  "auditTrail": [
+    {
+      "eventId": "3a9d9bcc-53f0-46cb-bbaa-bd37f49caf8c",
+      "uid": "10.399.226/0001-60",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-22T15:42:37.572Z",
+      "timestampLocal": "2026-10-22T15:42:37.572Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.206.117.113",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=10.399.226%2F0001-60&nombre_proveedor_razon_social=CEP+Assessoria+e+Servios+LTDA&nombre_representante_legal=LEONARDO+ALEXANDRE+GORGUEIRA+PINHEIRO+FONTES&email=contato%40c41estudio.com.br",
+      "previousEventHash": null,
+      "documentHash": "8959286d6f97eaff42dc2395ae8e17d006aa746031f203e6e655ae4462b07ea0",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "f973a1bc092ef2d037a96f36ef868e30eaa7244d55eb0ae65afc0f836f001467"
+    },
+    {
+      "eventId": "e2744cee-a224-4443-baf3-0cdc3b8818ef",
+      "uid": "10.399.226/0001-60",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-22T15:42:37.572Z",
+      "timestampLocal": "2026-10-22T15:42:37.572Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.206.117.113",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=10.399.226%2F0001-60&nombre_proveedor_razon_social=CEP+Assessoria+e+Servios+LTDA&nombre_representante_legal=LEONARDO+ALEXANDRE+GORGUEIRA+PINHEIRO+FONTES&email=contato%40c41estudio.com.br",
+      "previousEventHash": "f973a1bc092ef2d037a96f36ef868e30eaa7244d55eb0ae65afc0f836f001467",
+      "documentHash": "8959286d6f97eaff42dc2395ae8e17d006aa746031f203e6e655ae4462b07ea0",
+      "metadata": {
+        "proveedor": "CEP Assessoria e Servios LTDA",
+        "representante": "LEONARDO ALEXANDRE GORGUEIRA PINHEIRO FONTES"
+      },
+      "eventHash": "7178fc70c69cf9880e9b2ab868acf262c3366d89b6cc9bb59070cb8cf86c9a94"
+    }
+  ]
 }
