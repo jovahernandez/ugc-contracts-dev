@@ -3,8 +3,18 @@
   "declarationId": "cda319ef-4353-48e3-be21-e751162d96ab",
   "token": "d32d1b7d-aefe-4aae-be1e-cc162d81bb5f",
   "createdAt": "2026-10-22T15:47:58.545Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "LUNES A LUNES PROMOES E EVENTOS LTDA",
+    "nombre_representante_legal": "THAIS GOMES DE CARVALHO",
+    "email": "WALTER@DVSCASTING.COM.BR"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "LUNES A LUNES PROMOES E EVENTOS LTDA",
+    "nombre_representante_legal": "THAIS GOMES DE CARVALHO",
+    "email": "WALTER@DVSCASTING.COM.BR"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "LUNES A LUNES PROMOES E EVENTOS LTDA",
     "nombre_representante_legal": "THAIS GOMES DE CARVALHO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8d69afcdb93b0ee4d6ba5f370b809f17c19bd8e0c2c06ec8cf00be4aebf285b2",
+  "auditTrail": [
+    {
+      "eventId": "cfcae427-843a-4865-8856-e89147b956f9",
+      "uid": "53.107.704/0001-24",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-22T15:48:09.032Z",
+      "timestampLocal": "2026-10-22T15:48:09.032Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.33.67.104",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "8d69afcdb93b0ee4d6ba5f370b809f17c19bd8e0c2c06ec8cf00be4aebf285b2",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "a14842e5e52d99a83f86a710383db1c571bd8b0cf93193079d76e7ccfaf68771"
+    },
+    {
+      "eventId": "0a9746f3-9047-4146-af18-8a31ab113520",
+      "uid": "53.107.704/0001-24",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-22T15:48:09.032Z",
+      "timestampLocal": "2026-10-22T15:48:09.032Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.33.67.104",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a14842e5e52d99a83f86a710383db1c571bd8b0cf93193079d76e7ccfaf68771",
+      "documentHash": "8d69afcdb93b0ee4d6ba5f370b809f17c19bd8e0c2c06ec8cf00be4aebf285b2",
+      "metadata": {
+        "proveedor": "LUNES A LUNES PROMOES E EVENTOS LTDA",
+        "representante": "THAIS GOMES DE CARVALHO"
+      },
+      "eventHash": "acc97b1481175b458a6ce71ae3688cac5fd582c787da4e66660e249be285b5db"
+    }
+  ]
 }
