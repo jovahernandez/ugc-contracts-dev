@@ -3,7 +3,7 @@
   "declarationId": "225f450c-814d-4d58-ab3a-a78b55562f6d",
   "token": "a3be39fc-82f0-4f4e-9c86-960570812a28",
   "createdAt": "2026-10-22T17:44:20.460Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Marketing Powerplay SA DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Nayabel Rodriguez Herandez",
     "email": "cesar@artillero.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e4fe85a4473e76ea35fb910619b0d4157b236333f7308f0aff04d94ee3235061",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-22T17:52:36.640Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MPO241127330",
+  "signatureMetadata": {
+    "ip": "187.191.42.216",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-22T17:52:40.078Z",
+    "signedAtLocal": "2026-10-22T11:52:40.078Z"
+  },
+  "documentHash": "032225e7e555490cca52be66b87a3e59a6942166ef5028f37794a65c7dd731f0",
   "auditTrail": [
     {
       "eventId": "ed3d42f2-b371-4b0b-a3e6-969e98446e02",
@@ -177,6 +185,49 @@
         "representante": "Nayabel Rodriguez Herandez"
       },
       "eventHash": "08dba20041bc51481b8477705b7da9a904f94c10fa41aa883285c986afc63ed9"
+    },
+    {
+      "eventId": "8abcbcef-f5eb-47b7-9a95-91db87a7111c",
+      "uid": "MPO241127330",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-22T17:44:44.585Z",
+      "timestampLocal": "2026-10-22T17:44:44.585Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.42.216",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MPO241127330&nombre_proveedor_razon_social=Marketing+Powerplay+SA+DE+CV&nombre_representante_legal=Nayabel+Rodriguez+Herandez&email=cesar%40artillero.mx",
+      "previousEventHash": "08dba20041bc51481b8477705b7da9a904f94c10fa41aa883285c986afc63ed9",
+      "documentHash": "e4fe85a4473e76ea35fb910619b0d4157b236333f7308f0aff04d94ee3235061",
+      "eventHash": "ae540ac2694ab49bae0c06306e430625bce2cff8c48cb918683ac59c4fbbb1aa"
+    },
+    {
+      "eventId": "ed5fb9e6-00d3-483c-b86c-c12aebb9a163",
+      "uid": "MPO241127330",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-22T17:52:40.078Z",
+      "timestampLocal": "2026-10-22T11:52:40.078Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.191.42.216",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a3be39fc-82f0-4f4e-9c86-960570812a28",
+      "previousEventHash": "ae540ac2694ab49bae0c06306e430625bce2cff8c48cb918683ac59c4fbbb1aa",
+      "documentHash": "032225e7e555490cca52be66b87a3e59a6942166ef5028f37794a65c7dd731f0",
+      "signatureHash": "1fdc463303d4d7fb14c971db0424122240776a6b164474e1b0077187ee2343de",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-22T11:52:36.640Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "f4d4feeb3b334afe14b4c90e47cae34a1966f4dc6665fca3be26e09aa08b6885"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 10,
+    "verifiedAt": "2026-10-22T17:52:40.308Z"
+  }
 }
