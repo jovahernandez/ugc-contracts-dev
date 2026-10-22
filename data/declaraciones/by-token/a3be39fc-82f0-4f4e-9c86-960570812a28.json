@@ -3,8 +3,18 @@
   "declarationId": "225f450c-814d-4d58-ab3a-a78b55562f6d",
   "token": "a3be39fc-82f0-4f4e-9c86-960570812a28",
   "createdAt": "2026-10-22T17:44:20.460Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Marketing Powerplay SA DE CV",
+    "nombre_representante_legal": "Nayabel Rodriguez Herandez",
+    "email": "cesar@artillero.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Marketing Powerplay SA DE CV",
+    "nombre_representante_legal": "Nayabel Rodriguez Herandez",
+    "email": "cesar@artillero.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Marketing Powerplay SA DE CV",
     "nombre_representante_legal": "Nayabel Rodriguez Herandez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "158ca0587e45da28deff367eda35badf7fe2a43614115232c4510ca4b5a740ac",
+  "auditTrail": [
+    {
+      "eventId": "ed3d42f2-b371-4b0b-a3e6-969e98446e02",
+      "uid": "MPO241127330",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-22T17:44:28.312Z",
+      "timestampLocal": "2026-10-22T17:44:28.312Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.42.216",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MPO241127330&nombre_proveedor_razon_social=Marketing+Powerplay+SA+DE+CV&nombre_representante_legal=Nayabel+Rodriguez+Herandez&email=cesar%40artillero.mx",
+      "previousEventHash": null,
+      "documentHash": "158ca0587e45da28deff367eda35badf7fe2a43614115232c4510ca4b5a740ac",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8479125aba2a27b268f814836b660216949705bd6accd7ba02aadf27b2583fc7"
+    },
+    {
+      "eventId": "3e8d549c-da0c-4946-a97a-e8463f9a0483",
+      "uid": "MPO241127330",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-22T17:44:28.312Z",
+      "timestampLocal": "2026-10-22T17:44:28.312Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.191.42.216",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MPO241127330&nombre_proveedor_razon_social=Marketing+Powerplay+SA+DE+CV&nombre_representante_legal=Nayabel+Rodriguez+Herandez&email=cesar%40artillero.mx",
+      "previousEventHash": "8479125aba2a27b268f814836b660216949705bd6accd7ba02aadf27b2583fc7",
+      "documentHash": "158ca0587e45da28deff367eda35badf7fe2a43614115232c4510ca4b5a740ac",
+      "metadata": {
+        "proveedor": "Marketing Powerplay SA DE CV",
+        "representante": "Nayabel Rodriguez Herandez"
+      },
+      "eventHash": "446b44ecbe4fab9ca909d41916dc26c2253c36fc5534a284557026bce7686a4b"
+    }
+  ]
 }
