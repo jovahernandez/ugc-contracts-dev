@@ -3,8 +3,18 @@
   "declarationId": "4434dab8-c0af-4304-9d26-b85ac857edaa",
   "token": "009df541-77af-41a3-994c-69b4498e6baa",
   "createdAt": "2026-10-22T18:28:41.914Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "TOTEM MARKETING URBANO SA DE CV",
+    "nombre_representante_legal": "Alejandro Alberto Alva de León",
+    "email": "itzels@totem.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "TOTEM MARKETING URBANO SA DE CV",
+    "nombre_representante_legal": "Alejandro Alberto Alva de León",
+    "email": "itzels@totem.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "TOTEM MARKETING URBANO SA DE CV",
     "nombre_representante_legal": "Alejandro Alberto Alva de León",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "c6352cc9f0217b6eb911e0fd25adda0e754633debd4a5d3a0c9458f4b3392ea4",
+  "auditTrail": [
+    {
+      "eventId": "206f6338-23a1-4f0d-b48a-33f236d3491d",
+      "uid": "TMU100625KNA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-22T18:28:53.057Z",
+      "timestampLocal": "2026-10-22T18:28:53.057Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.92.77",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TMU100625KNA&nombre_proveedor_razon_social=TOTEM+MARKETING+URBANO+SA+DE+CV&nombre_representante_legal=Alejandro+Alberto+Alva+de+Le%C3%B3n&email=itzels%40totem.mx",
+      "previousEventHash": null,
+      "documentHash": "c6352cc9f0217b6eb911e0fd25adda0e754633debd4a5d3a0c9458f4b3392ea4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "32c301adcc386c131c5bc457bc7a18cb07ceeb9ed8ca6f75d0a2b47fe0f63453"
+    },
+    {
+      "eventId": "3c688ff8-4654-414a-8433-d0504562e678",
+      "uid": "TMU100625KNA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-22T18:28:53.058Z",
+      "timestampLocal": "2026-10-22T18:28:53.058Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.92.77",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TMU100625KNA&nombre_proveedor_razon_social=TOTEM+MARKETING+URBANO+SA+DE+CV&nombre_representante_legal=Alejandro+Alberto+Alva+de+Le%C3%B3n&email=itzels%40totem.mx",
+      "previousEventHash": "32c301adcc386c131c5bc457bc7a18cb07ceeb9ed8ca6f75d0a2b47fe0f63453",
+      "documentHash": "c6352cc9f0217b6eb911e0fd25adda0e754633debd4a5d3a0c9458f4b3392ea4",
+      "metadata": {
+        "proveedor": "TOTEM MARKETING URBANO SA DE CV",
+        "representante": "Alejandro Alberto Alva de León"
+      },
+      "eventHash": "596f3362761c226e4e16ee3f96d09d5bd0a11fbce7c970d853e242b4e61f53db"
+    }
+  ]
 }
