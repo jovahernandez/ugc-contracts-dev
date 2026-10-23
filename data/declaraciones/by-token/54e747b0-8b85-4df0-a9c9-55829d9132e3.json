@@ -3,8 +3,18 @@
   "declarationId": "a887f880-8858-400c-9aea-6a0d8cdd9e98",
   "token": "54e747b0-8b85-4df0-a9c9-55829d9132e3",
   "createdAt": "2026-10-23T19:44:12.935Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MARIA EMILIA BARQUERA CALATAYUD",
+    "nombre_representante_legal": "Paulina",
+    "email": "fluffcottoncandymx@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MARIA EMILIA BARQUERA CALATAYUD",
+    "nombre_representante_legal": "Paulina",
+    "email": "fluffcottoncandymx@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MARIA EMILIA BARQUERA CALATAYUD",
     "nombre_representante_legal": "Paulina",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "51dcc63b7249d723aee7d9018beca3e16079ac5d120f30a64e20a322c3ca1d5e",
+  "auditTrail": [
+    {
+      "eventId": "82659dc2-296e-4d34-aaa3-22dd3377018c",
+      "uid": "BACE930105P55",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-23T19:44:20.920Z",
+      "timestampLocal": "2026-10-23T19:44:20.920Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.198.112",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BACE930105P55&nombre_proveedor_razon_social=MARIA+EMILIA+BARQUERA+CALATAYUD&nombre_representante_legal=Paulina&email=fluffcottoncandymx%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "51dcc63b7249d723aee7d9018beca3e16079ac5d120f30a64e20a322c3ca1d5e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "bfcebe5d9434a4f7f19e6ebfc5fb1d3544b39f53a05ac1b9867bc60b543e46ef"
+    },
+    {
+      "eventId": "115932cd-c225-4a33-bf8a-33ab38baa0ad",
+      "uid": "BACE930105P55",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-23T19:44:20.920Z",
+      "timestampLocal": "2026-10-23T19:44:20.920Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.198.112",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BACE930105P55&nombre_proveedor_razon_social=MARIA+EMILIA+BARQUERA+CALATAYUD&nombre_representante_legal=Paulina&email=fluffcottoncandymx%40gmail.com",
+      "previousEventHash": "bfcebe5d9434a4f7f19e6ebfc5fb1d3544b39f53a05ac1b9867bc60b543e46ef",
+      "documentHash": "51dcc63b7249d723aee7d9018beca3e16079ac5d120f30a64e20a322c3ca1d5e",
+      "metadata": {
+        "proveedor": "MARIA EMILIA BARQUERA CALATAYUD",
+        "representante": "Paulina"
+      },
+      "eventHash": "240b7974ae6aed303bd9aed5e21a94f5c1b99e95cbb1ccdda43d0cf5fe7c80b8"
+    }
+  ]
 }
