@@ -3,7 +3,7 @@
   "declarationId": "ef2e7ccb-7a32-4c94-a1f6-b6217e6056dd",
   "token": "8a6a71be-f73c-41c4-9726-812ba5cd38bd",
   "createdAt": "2026-10-23T22:09:35.826Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ROSA MARIA SANCHEZ REYES",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ROSA MARIA SANCHEZ REYES",
     "email": "contactorosamers@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "57d4d2d73c1b5565beb430a74ace9daaf0772d4ecfd5ab6d88d509bf16ee69ec",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-23T22:43:15.802Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SARR9806235E0",
+  "signatureMetadata": {
+    "ip": "187.190.159.38",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-23T22:43:19.052Z",
+    "signedAtLocal": "2026-10-23T16:43:19.052Z"
+  },
+  "documentHash": "8a1d56196e3e5037d00740c1347c1fd69c8937261421a29417ee8090840c9068",
   "auditTrail": [
     {
       "eventId": "97e7715d-54ee-4e38-91d7-ad2c4609f6d0",
@@ -103,6 +111,49 @@
         "representante": "ROSA MARIA SANCHEZ REYES"
       },
       "eventHash": "736ebc1bb0a79f6feaa6f4c2890720aae6cde060c23e5b031c93b0ce73b0bca6"
+    },
+    {
+      "eventId": "8a71b5a6-ebfa-4abc-8714-2aae699ab26f",
+      "uid": "SARR9806235E0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-23T22:10:23.260Z",
+      "timestampLocal": "2026-10-23T22:10:23.260Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.159.38",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SARR9806235E0&nombre_proveedor_razon_social=ROSA+MARIA+SANCHEZ+REYES&nombre_representante_legal=ROSA+MARIA+SANCHEZ+REYES&email=contactorosamers%40gmail.com",
+      "previousEventHash": "736ebc1bb0a79f6feaa6f4c2890720aae6cde060c23e5b031c93b0ce73b0bca6",
+      "documentHash": "57d4d2d73c1b5565beb430a74ace9daaf0772d4ecfd5ab6d88d509bf16ee69ec",
+      "eventHash": "4516f6a575c801bef5b518fbbbf1411795e3d4704ca3be2ac421fc9568a4eb9b"
+    },
+    {
+      "eventId": "3da914b9-d73f-4453-a5da-46ac0a683d5c",
+      "uid": "SARR9806235E0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-23T22:43:19.053Z",
+      "timestampLocal": "2026-10-23T16:43:19.053Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.159.38",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8a6a71be-f73c-41c4-9726-812ba5cd38bd",
+      "previousEventHash": "4516f6a575c801bef5b518fbbbf1411795e3d4704ca3be2ac421fc9568a4eb9b",
+      "documentHash": "8a1d56196e3e5037d00740c1347c1fd69c8937261421a29417ee8090840c9068",
+      "signatureHash": "80b30965e21d985a46061c5709b6acd586544fefb7af9d13f7308bc8054bcb94",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-23T16:43:15.802Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "a0f8c48c2c22a25917e078e616e59927e8602bd5fea93519b725d9d493c9ea0f"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-23T22:43:19.261Z"
+  }
 }
