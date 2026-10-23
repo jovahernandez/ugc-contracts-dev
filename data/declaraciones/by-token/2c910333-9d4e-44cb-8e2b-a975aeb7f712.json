@@ -3,8 +3,18 @@
   "declarationId": "e3877d93-ec20-4ff6-89dd-388baa038b1f",
   "token": "2c910333-9d4e-44cb-8e2b-a975aeb7f712",
   "createdAt": "2026-10-23T00:22:55.072Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MUSIC VIP ENTERTAINMENT",
+    "nombre_representante_legal": "ISAEL GUTIERREZ ORBE",
+    "email": "iluna@ibcmexico.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MUSIC VIP ENTERTAINMENT",
+    "nombre_representante_legal": "ISAEL GUTIERREZ ORBE",
+    "email": "iluna@ibcmexico.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MUSIC VIP ENTERTAINMENT",
     "nombre_representante_legal": "ISAEL GUTIERREZ ORBE",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9c3b091b3f614fd96ceff4fc65f4c141d84d07ce69c4c9fe071cfb5f46a883ce",
+  "auditTrail": [
+    {
+      "eventId": "292d57c7-8983-40ec-aed5-d6b687cb27cc",
+      "uid": "MVE200724CZA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-23T02:37:04.182Z",
+      "timestampLocal": "2026-10-23T02:37:04.182Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.45.173",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MVE200724CZA&nombre_proveedor_razon_social=MUSIC+VIP+ENTERTAINMENT&nombre_representante_legal=ISAEL+GUTIERREZ+ORBE&email=iluna%40ibcmexico.com.mx",
+      "previousEventHash": null,
+      "documentHash": "9c3b091b3f614fd96ceff4fc65f4c141d84d07ce69c4c9fe071cfb5f46a883ce",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "892e662b6506d10570a72fa12e92dfa90e9782b9ef736203f33c07c0aa52fc13"
+    },
+    {
+      "eventId": "4274a5a7-7506-4ab9-9025-378038b3879c",
+      "uid": "MVE200724CZA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-23T02:37:04.182Z",
+      "timestampLocal": "2026-10-23T02:37:04.182Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.45.173",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MVE200724CZA&nombre_proveedor_razon_social=MUSIC+VIP+ENTERTAINMENT&nombre_representante_legal=ISAEL+GUTIERREZ+ORBE&email=iluna%40ibcmexico.com.mx",
+      "previousEventHash": "892e662b6506d10570a72fa12e92dfa90e9782b9ef736203f33c07c0aa52fc13",
+      "documentHash": "9c3b091b3f614fd96ceff4fc65f4c141d84d07ce69c4c9fe071cfb5f46a883ce",
+      "metadata": {
+        "proveedor": "MUSIC VIP ENTERTAINMENT",
+        "representante": "ISAEL GUTIERREZ ORBE"
+      },
+      "eventHash": "ff5cc38e9857796ab8e6f52e7eeeba6cb55a1c5e480bbaadc02108e0f9044983"
+    }
+  ]
 }
