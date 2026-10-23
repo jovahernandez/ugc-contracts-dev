@@ -3,7 +3,7 @@
   "declarationId": "b3af3424-d361-4147-a3ee-87f2d07efb1b",
   "token": "580d3290-959e-4d48-a289-63849f065968",
   "createdAt": "2026-10-23T16:49:24.088Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "RENATA C MANZANO MODESTO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Renata Collaboni Manzano Modesto",
     "email": "projetos@supernovatraducao.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4d32d4456f71425ac349e9f2a9297b756a45ffaaa172df65a3731fc92293c2e7",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-23T16:52:06.771Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/34.766.028%2F0001-56",
+  "signatureMetadata": {
+    "ip": "189.29.151.202",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-23T16:52:10.110Z",
+    "signedAtLocal": "2026-10-23T13:52:10.110Z"
+  },
+  "documentHash": "7b1038ab98402df35430587763169e3441aac1d557a82c1ab444cbbacd584cf3",
   "auditTrail": [
     {
       "eventId": "90fa87ff-c0d6-4a08-a713-788d84d597b1",
@@ -155,6 +163,86 @@
         "representante": "Renata Collaboni Manzano Modesto"
       },
       "eventHash": "5afa79467f998c309bb063b43b40e778f6fa8e6c88f1fa817d12469e7134d916"
+    },
+    {
+      "eventId": "9295f73e-34ed-4a56-8a26-09d61951fa3f",
+      "uid": "34.766.028/0001-56",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-23T16:49:42.117Z",
+      "timestampLocal": "2026-10-23T16:49:42.117Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.29.151.202",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=34.766.028%2F0001-56&nombre_proveedor_razon_social=RENATA+C+MANZANO+MODESTO&nombre_representante_legal=Renata+Collaboni+Manzano+Modesto&email=projetos%40supernovatraducao.com.br",
+      "previousEventHash": "5afa79467f998c309bb063b43b40e778f6fa8e6c88f1fa817d12469e7134d916",
+      "documentHash": "eb5cb5aa6eb968206ee6335643bbe005b15b869c20d9410b9b19e929a9cc208c",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "3a2084ed1c7d64ef9f496f90a02d0530fa27e95c71083dd008288f57bf740741"
+    },
+    {
+      "eventId": "76949a91-683f-4a01-b2ac-a3383f855790",
+      "uid": "34.766.028/0001-56",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-23T16:49:42.118Z",
+      "timestampLocal": "2026-10-23T16:49:42.118Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.29.151.202",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=34.766.028%2F0001-56&nombre_proveedor_razon_social=RENATA+C+MANZANO+MODESTO&nombre_representante_legal=Renata+Collaboni+Manzano+Modesto&email=projetos%40supernovatraducao.com.br",
+      "previousEventHash": "3a2084ed1c7d64ef9f496f90a02d0530fa27e95c71083dd008288f57bf740741",
+      "documentHash": "eb5cb5aa6eb968206ee6335643bbe005b15b869c20d9410b9b19e929a9cc208c",
+      "metadata": {
+        "proveedor": "RENATA C MANZANO MODESTO",
+        "representante": "Renata Collaboni Manzano Modesto"
+      },
+      "eventHash": "bbe4977495214d03a5dda3da25a83856aacdcfa56297775966cd83c986ff9e74"
+    },
+    {
+      "eventId": "da6cc8f4-72d2-4a4c-9285-b5e0f3ece947",
+      "uid": "34.766.028/0001-56",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-23T16:49:45.322Z",
+      "timestampLocal": "2026-10-23T16:49:45.322Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.29.151.202",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=34.766.028%2F0001-56&nombre_proveedor_razon_social=RENATA+C+MANZANO+MODESTO&nombre_representante_legal=Renata+Collaboni+Manzano+Modesto&email=projetos%40supernovatraducao.com.br",
+      "previousEventHash": "bbe4977495214d03a5dda3da25a83856aacdcfa56297775966cd83c986ff9e74",
+      "documentHash": "eb5cb5aa6eb968206ee6335643bbe005b15b869c20d9410b9b19e929a9cc208c",
+      "eventHash": "0eba28246188262afa30cef28c1d3b7eede2f8608bd856e2d2a9ecf05c64e854"
+    },
+    {
+      "eventId": "523d70be-9362-4419-a4fe-382acbfbdba0",
+      "uid": "34.766.028/0001-56",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-23T16:52:10.110Z",
+      "timestampLocal": "2026-10-23T13:52:10.110Z",
+      "timezone": "UTC-3",
+      "ipAddress": "189.29.151.202",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/580d3290-959e-4d48-a289-63849f065968",
+      "previousEventHash": "0eba28246188262afa30cef28c1d3b7eede2f8608bd856e2d2a9ecf05c64e854",
+      "documentHash": "7b1038ab98402df35430587763169e3441aac1d557a82c1ab444cbbacd584cf3",
+      "signatureHash": "093a4862ddba28ef4823c7e409bfcc939786007351e708f990912403a1c82fb6",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-23T13:52:06.771Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "ed761aede0632b7b15831ce317b514be56e47140a1b02cab4431f90dbf414645"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-10-23T16:52:10.402Z"
+  }
 }
