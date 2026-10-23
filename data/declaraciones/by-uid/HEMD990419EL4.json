@@ -3,8 +3,18 @@
   "declarationId": "40cbb37f-84ac-4534-bff0-3612da2e554d",
   "token": "c7bf989c-2180-4ed1-a141-6b4f130a826e",
   "createdAt": "2026-10-23T20:36:14.561Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "DIANA LIZETH HERNANDEZ MELENDEZ",
+    "nombre_representante_legal": "Diana Lizeth Hernandez",
+    "email": "lizeth_inc@icloud.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "DIANA LIZETH HERNANDEZ MELENDEZ",
+    "nombre_representante_legal": "Diana Lizeth Hernandez",
+    "email": "lizeth_inc@icloud.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "DIANA LIZETH HERNANDEZ MELENDEZ",
     "nombre_representante_legal": "Diana Lizeth Hernandez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "dc6bbad3a3a91935229f78913852106085ecb497f33819bd9cd709bad9be49fe",
+  "auditTrail": [
+    {
+      "eventId": "192735ef-2249-47f8-865e-d1cadaa81af5",
+      "uid": "HEMD990419EL4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-23T20:36:21.574Z",
+      "timestampLocal": "2026-10-23T20:36:21.574Z",
+      "timezone": "UTC+0",
+      "ipAddress": "172.226.122.41",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "dc6bbad3a3a91935229f78913852106085ecb497f33819bd9cd709bad9be49fe",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a9150839683142768d54469cfc753261b941070f3aa5d0f30ae5f26107761244"
+    },
+    {
+      "eventId": "d80f0356-5dee-4aa2-bdd9-3798207ff437",
+      "uid": "HEMD990419EL4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-23T20:36:21.574Z",
+      "timestampLocal": "2026-10-23T20:36:21.574Z",
+      "timezone": "UTC+0",
+      "ipAddress": "172.226.122.41",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a9150839683142768d54469cfc753261b941070f3aa5d0f30ae5f26107761244",
+      "documentHash": "dc6bbad3a3a91935229f78913852106085ecb497f33819bd9cd709bad9be49fe",
+      "metadata": {
+        "proveedor": "DIANA LIZETH HERNANDEZ MELENDEZ",
+        "representante": "Diana Lizeth Hernandez"
+      },
+      "eventHash": "171e9474b4fc5ec6531d14bf96e08a5fb416eee85281ae69c75671031644cb6a"
+    }
+  ]
 }
