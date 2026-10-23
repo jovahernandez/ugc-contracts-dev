@@ -3,7 +3,7 @@
   "declarationId": "0a46912a-b840-4b75-b10d-ab78c0e89826",
   "token": "1e459a6e-9c24-47bb-b739-212e6978155c",
   "createdAt": "2026-10-23T13:12:27.518Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "TORRE EMERGENCIAS MEDICAS LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ANDERON BEPPLER TAVARES",
     "email": "comercial@torreemergencias.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f453373f1574f594334f6a08fca5bbd8e7df8e90321f7f6ba0166b60e4d74372",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-23T13:14:10.770Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/08.279.286%2F0001-06",
+  "signatureMetadata": {
+    "ip": "177.115.218.141",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-23T13:14:14.387Z",
+    "signedAtLocal": "2026-10-23T10:14:14.387Z"
+  },
+  "documentHash": "00f0c46bca8ef6cff9bd0ae32b51fa29f6d67ae3308fa92ae52f936352ce36e8",
   "auditTrail": [
     {
       "eventId": "61bbd094-7687-4a97-8ba1-89f0a22fb013",
@@ -177,6 +185,64 @@
         "representante": "ANDERON BEPPLER TAVARES"
       },
       "eventHash": "c4756dda5eaecc8ed15fcbacde3159ed7bceb35d86e3cf1ae3785e68d74f5488"
+    },
+    {
+      "eventId": "703c0388-2ff1-480e-a524-25966bfd648b",
+      "uid": "08.279.286/0001-06",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-23T13:12:48.632Z",
+      "timestampLocal": "2026-10-23T13:12:48.632Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.115.218.141",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=08.279.286%2F0001-06&nombre_proveedor_razon_social=TORRE+EMERGENCIAS+MEDICAS+LTDA&nombre_representante_legal=ANDERON+BEPPLER+TAVARES&email=comercial%40torreemergencias.com.br",
+      "previousEventHash": "c4756dda5eaecc8ed15fcbacde3159ed7bceb35d86e3cf1ae3785e68d74f5488",
+      "documentHash": "f453373f1574f594334f6a08fca5bbd8e7df8e90321f7f6ba0166b60e4d74372",
+      "eventHash": "74b70f2ba94d062d3568e25d0f9e71af715a6f2b25603671508c92306e5e339d"
+    },
+    {
+      "eventId": "3ffeb720-7e9c-4b8b-aeb9-5151b5bcbf29",
+      "uid": "08.279.286/0001-06",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-23T13:13:36.562Z",
+      "timestampLocal": "2026-10-23T13:13:36.562Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.115.218.141",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "74b70f2ba94d062d3568e25d0f9e71af715a6f2b25603671508c92306e5e339d",
+      "documentHash": "f453373f1574f594334f6a08fca5bbd8e7df8e90321f7f6ba0166b60e4d74372",
+      "eventHash": "47e036cf01e5c403285ca767dde11204e28886474650b6b67d2d500ad996da03"
+    },
+    {
+      "eventId": "e41f3e63-8f6a-4b70-94d1-ce9333ad73a6",
+      "uid": "08.279.286/0001-06",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-23T13:14:14.387Z",
+      "timestampLocal": "2026-10-23T10:14:14.387Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.115.218.141",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1e459a6e-9c24-47bb-b739-212e6978155c",
+      "previousEventHash": "47e036cf01e5c403285ca767dde11204e28886474650b6b67d2d500ad996da03",
+      "documentHash": "00f0c46bca8ef6cff9bd0ae32b51fa29f6d67ae3308fa92ae52f936352ce36e8",
+      "signatureHash": "ca9b354209f6294333314b051dfdc605cbb3522c4d2759b7f4bfbacb542f73c4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-23T10:14:10.770Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "8316d90d6c22b1ef55b6a1adce345f294f212505e3489f800e2206bad00fd286"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-10-23T13:14:14.608Z"
+  }
 }
