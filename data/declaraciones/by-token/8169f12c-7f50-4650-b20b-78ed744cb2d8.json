@@ -3,7 +3,7 @@
   "declarationId": "39693387-54bd-45cd-999d-d592d153aee1",
   "token": "8169f12c-7f50-4650-b20b-78ed744cb2d8",
   "createdAt": "2026-10-26T18:36:23.293Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "Infratech Producoes Ltda",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Wyllamy de Almeida Rodrigues",
     "email": "financeiro@infratechproducoes.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "926caf52aa38783eac037036d32e9c794b75b2baae4e7b1f7bfc5094b3cde800",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-26T18:37:10.310Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/38.305.167%2F0001-33",
+  "signatureMetadata": {
+    "ip": "179.156.153.129",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-26T18:37:13.848Z",
+    "signedAtLocal": "2026-10-26T15:37:13.848Z"
+  },
+  "documentHash": "7586370a63989b0300e76036348838f2e446b25442ba14d6f60a0be3b66f46e2",
   "auditTrail": [
     {
       "eventId": "4e06a7ad-6e00-486a-95a0-25243d70ac31",
@@ -192,6 +200,49 @@
         "representante": "Wyllamy de Almeida Rodrigues"
       },
       "eventHash": "5cb4f29b0d96bd3fafe336d7a5033885b369f94443080ebc123e9997b18b3fcd"
+    },
+    {
+      "eventId": "eb2c6d73-19c2-469c-8294-ffc2a7a880ae",
+      "uid": "38.305.167/0001-33",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-26T18:36:51.916Z",
+      "timestampLocal": "2026-10-26T18:36:51.916Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.156.153.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=38.305.167%2F0001-33&nombre_proveedor_razon_social=Infratech+Producoes+Ltda&nombre_representante_legal=Wyllamy+de+Almeida+Rodrigues&email=financeiro%40infratechproducoes.com.br",
+      "previousEventHash": "5cb4f29b0d96bd3fafe336d7a5033885b369f94443080ebc123e9997b18b3fcd",
+      "documentHash": "926caf52aa38783eac037036d32e9c794b75b2baae4e7b1f7bfc5094b3cde800",
+      "eventHash": "ec3623ecd951556163e13d70369efa23a4a565111bb55ebf5ee38fc08770c1b4"
+    },
+    {
+      "eventId": "db33caee-ecb8-4dd6-bb7d-fadb28d60e0e",
+      "uid": "38.305.167/0001-33",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-26T18:37:13.849Z",
+      "timestampLocal": "2026-10-26T15:37:13.849Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.156.153.129",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8169f12c-7f50-4650-b20b-78ed744cb2d8",
+      "previousEventHash": "ec3623ecd951556163e13d70369efa23a4a565111bb55ebf5ee38fc08770c1b4",
+      "documentHash": "7586370a63989b0300e76036348838f2e446b25442ba14d6f60a0be3b66f46e2",
+      "signatureHash": "22e6bca5e0a9907eca2e4a1f53354b5a8a97d339652db5607bcee40f49ed93ea",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-26T15:37:10.310Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "c7ba56cb2018f7ba984a3c1edf5c553bf9aefc34fa88a278a782ec62d69331f9"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-10-26T18:37:14.249Z"
+  }
 }
