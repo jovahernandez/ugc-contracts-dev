@@ -3,7 +3,7 @@
   "declarationId": "7b478ad9-111f-4e5c-8a8c-ec17c1a6f207",
   "token": "d65d7f4c-3044-4956-9a18-8df061786f85",
   "createdAt": "2026-10-26T21:23:45.941Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "HERMANAS CABALLERO SPA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "VALENTINA CABALLERO",
     "email": "nancybravo.contabilidades@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "256ddccf709ea58caa8b98166dced32dd03bebce37f92ef71a259f7c7a7c2279",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-26T21:24:27.319Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/19",
+  "signatureMetadata": {
+    "ip": "181.42.190.139",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+    "signedAtUtc": "2026-10-26T21:24:33.121Z",
+    "signedAtLocal": "2026-10-26T18:24:33.121Z"
+  },
+  "documentHash": "1f2762d5830b2fbe2f88317aaf80fafe7393dabf1eb63a633c6903df45b11a80",
   "auditTrail": [
     {
       "eventId": "00ff84f7-d9a9-45c4-8101-8df9f4bc0cf2",
@@ -66,6 +74,49 @@
         "representante": "VALENTINA CABALLERO"
       },
       "eventHash": "aabdae9928ccb22142448f45d17c7e77d3a4ccb95611ecc7fa726db4ce4d107a"
+    },
+    {
+      "eventId": "c8899993-879b-406d-9c42-bc1f4337f5b0",
+      "uid": "19",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-26T21:23:59.575Z",
+      "timestampLocal": "2026-10-26T21:23:59.575Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.42.190.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-CL;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=19&nombre_proveedor_razon_social=HERMANAS+CABALLERO+SPA&nombre_representante_legal=VALENTINA+CABALLERO&email=nancybravo.contabilidades%40gmail.com",
+      "previousEventHash": "aabdae9928ccb22142448f45d17c7e77d3a4ccb95611ecc7fa726db4ce4d107a",
+      "documentHash": "256ddccf709ea58caa8b98166dced32dd03bebce37f92ef71a259f7c7a7c2279",
+      "eventHash": "84a425bbac3e90b5068071e246937937817b7ee7a5aa5adaf8620cdda53bc07f"
+    },
+    {
+      "eventId": "b2b25e29-43b6-449e-84ed-d9e8f26445c0",
+      "uid": "19",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-26T21:24:33.121Z",
+      "timestampLocal": "2026-10-26T18:24:33.121Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.42.190.139",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-CL;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d65d7f4c-3044-4956-9a18-8df061786f85",
+      "previousEventHash": "84a425bbac3e90b5068071e246937937817b7ee7a5aa5adaf8620cdda53bc07f",
+      "documentHash": "1f2762d5830b2fbe2f88317aaf80fafe7393dabf1eb63a633c6903df45b11a80",
+      "signatureHash": "60f1e619ed9b5873bf1af2f1c0e5d58768af41256e8a7b8d085d46ea758b818c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-26T18:24:27.319Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "66ebfbfcfb30dce506f71334de927967f0658f612b37f7f3bc59578dd27ceaa9"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-26T21:24:33.451Z"
+  }
 }
