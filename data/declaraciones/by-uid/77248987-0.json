@@ -3,7 +3,7 @@
   "declarationId": "94edc1d4-fbb4-490e-a9c8-43b2d4016544",
   "token": "b04eca8f-d6ee-4ddd-8be2-28c1aff1e349",
   "createdAt": "2026-10-26T17:02:28.739Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Zas Talents Spa",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "PILAR XIMENA GUTIERREZ XIMENA",
     "email": "admin.facturacion@zastalents.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "90f15ddf0610dff667c4352af06f1d14cf30579e160e64743466363ebe6610bf",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-26T17:07:37.686Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/77248987-0",
+  "signatureMetadata": {
+    "ip": "179.6.2.165",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-26T17:07:41.129Z",
+    "signedAtLocal": "2026-10-26T12:07:41.129Z"
+  },
+  "documentHash": "8d31aefd9ecdd03175748eb7bad9c4323a3d825fff79db93c4b5cab17cc2e003",
   "auditTrail": [
     {
       "eventId": "73bce64f-48df-426f-a9c3-edfc7c4a2092",
@@ -118,6 +126,64 @@
         "representante": "PILAR XIMENA GUTIERREZ XIMENA"
       },
       "eventHash": "379bb0d8c27b46bc3fa39b53e2e0b63e3ae7a624d693244d60d72e3338ac7ef3"
+    },
+    {
+      "eventId": "2f4b17a0-658d-49d8-9f7c-7a7320b71e5e",
+      "uid": "77248987-0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-26T17:02:46.175Z",
+      "timestampLocal": "2026-10-26T17:02:46.175Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.6.2.165",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CL,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=77248987-0&nombre_proveedor_razon_social=Zas+Talents+Spa+&nombre_representante_legal=PILAR+XIMENA+GUTIERREZ+XIMENA&email=admin.facturacion%40zastalents.com",
+      "previousEventHash": "379bb0d8c27b46bc3fa39b53e2e0b63e3ae7a624d693244d60d72e3338ac7ef3",
+      "documentHash": "90f15ddf0610dff667c4352af06f1d14cf30579e160e64743466363ebe6610bf",
+      "eventHash": "755f391d751449f745c164c7edeaffceefca402548bc63d4f18092a4beb2bb8f"
+    },
+    {
+      "eventId": "9cd5b08a-6c0c-4ea9-ab21-2c129b6f22fd",
+      "uid": "77248987-0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-26T17:06:30.713Z",
+      "timestampLocal": "2026-10-26T17:06:30.713Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.6.2.165",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CL,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "755f391d751449f745c164c7edeaffceefca402548bc63d4f18092a4beb2bb8f",
+      "documentHash": "90f15ddf0610dff667c4352af06f1d14cf30579e160e64743466363ebe6610bf",
+      "eventHash": "385b014aadf8e9aa412df65b0c7e374363429e72eaf6b9ca964b5e549c1b8d3d"
+    },
+    {
+      "eventId": "d0b96de1-229a-4368-8172-dfe76c823de7",
+      "uid": "77248987-0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-26T17:07:41.129Z",
+      "timestampLocal": "2026-10-26T12:07:41.129Z",
+      "timezone": "UTC-5",
+      "ipAddress": "179.6.2.165",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CL,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b04eca8f-d6ee-4ddd-8be2-28c1aff1e349",
+      "previousEventHash": "385b014aadf8e9aa412df65b0c7e374363429e72eaf6b9ca964b5e549c1b8d3d",
+      "documentHash": "8d31aefd9ecdd03175748eb7bad9c4323a3d825fff79db93c4b5cab17cc2e003",
+      "signatureHash": "2a217488307cc3e67a6d00e64a60c21f70c5944029ffc93046936bbeacf53832",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-26T12:07:37.686Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "85393d585934bdde4f64b23ec720cd82745b22ef7fe2aee3f857d3fabd27f05f"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-10-26T17:07:41.337Z"
+  }
 }
