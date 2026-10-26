@@ -3,8 +3,18 @@
   "declarationId": "bbc28666-6350-45f9-ad2d-e956d69a2572",
   "token": "5315fa29-b6b9-4a63-a60c-09c912613f79",
   "createdAt": "2026-10-26T14:01:49.086Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "TELEPONTO COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS ELETRÔNICOS LTDA",
+    "nombre_representante_legal": "Marcia Fernandes Pereira",
+    "email": "eventos@teleponto.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "TELEPONTO COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS ELETRÔNICOS LTDA",
+    "nombre_representante_legal": "Marcia Fernandes Pereira",
+    "email": "eventos@teleponto.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "TELEPONTO COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS ELETRÔNICOS LTDA",
     "nombre_representante_legal": "Marcia Fernandes Pereira",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "c33201c198a363c5dcbbedc0ade1f277a6b4adb071c463712492f9d91905e32d",
+  "auditTrail": [
+    {
+      "eventId": "5b15a639-5f14-4f5c-9a4c-2afb0dafe50b",
+      "uid": "59.986.406/0001-38",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-26T14:01:55.938Z",
+      "timestampLocal": "2026-10-26T14:01:55.938Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.13.252.214",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=59.986.406%2F0001-38&nombre_proveedor_razon_social=TELEPONTO+COM%C3%89RCIO+E+LOCA%C3%87%C3%83O+DE+EQUIPAMENTOS+ELETR%C3%94NICOS+LTDA&nombre_representante_legal=Marcia+Fernandes+Pereira&email=eventos%40teleponto.com.br",
+      "previousEventHash": null,
+      "documentHash": "c33201c198a363c5dcbbedc0ade1f277a6b4adb071c463712492f9d91905e32d",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "e0242293a9cafd5e848bd124e273651146d4ec5bd7bc5ae55ff31ff3a9f1fff0"
+    },
+    {
+      "eventId": "c11b4d3f-cae1-4866-898c-f3858a034aec",
+      "uid": "59.986.406/0001-38",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-26T14:01:55.939Z",
+      "timestampLocal": "2026-10-26T14:01:55.939Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.13.252.214",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=59.986.406%2F0001-38&nombre_proveedor_razon_social=TELEPONTO+COM%C3%89RCIO+E+LOCA%C3%87%C3%83O+DE+EQUIPAMENTOS+ELETR%C3%94NICOS+LTDA&nombre_representante_legal=Marcia+Fernandes+Pereira&email=eventos%40teleponto.com.br",
+      "previousEventHash": "e0242293a9cafd5e848bd124e273651146d4ec5bd7bc5ae55ff31ff3a9f1fff0",
+      "documentHash": "c33201c198a363c5dcbbedc0ade1f277a6b4adb071c463712492f9d91905e32d",
+      "metadata": {
+        "proveedor": "TELEPONTO COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS ELETRÔNICOS LTDA",
+        "representante": "Marcia Fernandes Pereira"
+      },
+      "eventHash": "82523b0513b58db91d3d808fcc9707e51290e91140c4e8ec7814f643c9fe4e11"
+    }
+  ]
 }
