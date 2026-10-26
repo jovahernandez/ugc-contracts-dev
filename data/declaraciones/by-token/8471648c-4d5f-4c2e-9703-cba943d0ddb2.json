@@ -3,8 +3,18 @@
   "declarationId": "e3ef7f1b-7ebc-4345-8cf6-c55e0ab490f2",
   "token": "8471648c-4d5f-4c2e-9703-cba943d0ddb2",
   "createdAt": "2026-10-26T13:08:29.403Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PICBRAND ATIVACOES LTDA",
+    "nombre_representante_legal": "Valmir Valverde Junior",
+    "email": "fran.ferreira@picbrand.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PICBRAND ATIVACOES LTDA",
+    "nombre_representante_legal": "Valmir Valverde Junior",
+    "email": "fran.ferreira@picbrand.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "PICBRAND ATIVACOES LTDA",
     "nombre_representante_legal": "Valmir Valverde Junior",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "54f136943733d525e71bfb8548d8c0735b2c9e4b6bff22447edc122b3eb5d252",
+  "auditTrail": [
+    {
+      "eventId": "ac963dce-ef1d-4ef0-8075-27435aea83d3",
+      "uid": "54.131.182/0001-69",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-26T13:08:37.470Z",
+      "timestampLocal": "2026-10-26T13:08:37.470Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.145.146.51",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=54.131.182%2F0001-69&nombre_proveedor_razon_social=PICBRAND+ATIVACOES+LTDA&nombre_representante_legal=Valmir+Valverde+Junior&email=fran.ferreira%40picbrand.com.br",
+      "previousEventHash": null,
+      "documentHash": "54f136943733d525e71bfb8548d8c0735b2c9e4b6bff22447edc122b3eb5d252",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "3c252e9f0ef0c5ccd09dcca8ae90ee67d58fcfd883cfee559aeb6fb6660d8f6c"
+    },
+    {
+      "eventId": "3f2b4acc-a5cd-4664-a92b-875181e81f68",
+      "uid": "54.131.182/0001-69",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-26T13:08:37.470Z",
+      "timestampLocal": "2026-10-26T13:08:37.470Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.145.146.51",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-ES;q=0.5,es;q=0.4",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=54.131.182%2F0001-69&nombre_proveedor_razon_social=PICBRAND+ATIVACOES+LTDA&nombre_representante_legal=Valmir+Valverde+Junior&email=fran.ferreira%40picbrand.com.br",
+      "previousEventHash": "3c252e9f0ef0c5ccd09dcca8ae90ee67d58fcfd883cfee559aeb6fb6660d8f6c",
+      "documentHash": "54f136943733d525e71bfb8548d8c0735b2c9e4b6bff22447edc122b3eb5d252",
+      "metadata": {
+        "proveedor": "PICBRAND ATIVACOES LTDA",
+        "representante": "Valmir Valverde Junior"
+      },
+      "eventHash": "2cfdf9c29fdc762d9d7c5e067ce6923deacd8c6df50d0e365514be097a177b57"
+    }
+  ]
 }
