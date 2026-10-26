@@ -3,8 +3,18 @@
   "declarationId": "5b06c292-6097-4257-ab9d-ba43267536d8",
   "token": "75076730-1674-40db-b460-b4d4f21fb298",
   "createdAt": "2026-10-26T18:46:24.680Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "SATO RAHAL EMPREENDIMENTOS ARTISTICOS LTDA",
+    "nombre_representante_legal": "KARIN SATO RAHAL",
+    "email": "SARAH@CONTABILASR.COM.BR"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "SATO RAHAL EMPREENDIMENTOS ARTISTICOS LTDA",
+    "nombre_representante_legal": "KARIN SATO RAHAL",
+    "email": "SARAH@CONTABILASR.COM.BR"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "SATO RAHAL EMPREENDIMENTOS ARTISTICOS LTDA",
     "nombre_representante_legal": "KARIN SATO RAHAL",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9db6bfeb77e0d903253c7eae1189a3bd0849a66725a202982b64d184273ee2b2",
+  "auditTrail": [
+    {
+      "eventId": "c40650ec-0085-4281-bcbf-a08743c142e5",
+      "uid": "05670895000195",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-26T18:46:37.984Z",
+      "timestampLocal": "2026-10-26T18:46:37.984Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.158.230.4",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=05670895000195&nombre_proveedor_razon_social=SATO+RAHAL+EMPREENDIMENTOS+ARTISTICOS+LTDA&nombre_representante_legal=KARIN+SATO+RAHAL&email=SARAH%40CONTABILASR.COM.BR",
+      "previousEventHash": null,
+      "documentHash": "9db6bfeb77e0d903253c7eae1189a3bd0849a66725a202982b64d184273ee2b2",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "3b9e0cf664ac785468e20f1f4d4bdf089d6909da01ce532396822b2ec5ab84ba"
+    },
+    {
+      "eventId": "d3be7822-526e-4101-be8a-a55675f817d7",
+      "uid": "05670895000195",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-26T18:46:37.985Z",
+      "timestampLocal": "2026-10-26T18:46:37.985Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.158.230.4",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=05670895000195&nombre_proveedor_razon_social=SATO+RAHAL+EMPREENDIMENTOS+ARTISTICOS+LTDA&nombre_representante_legal=KARIN+SATO+RAHAL&email=SARAH%40CONTABILASR.COM.BR",
+      "previousEventHash": "3b9e0cf664ac785468e20f1f4d4bdf089d6909da01ce532396822b2ec5ab84ba",
+      "documentHash": "9db6bfeb77e0d903253c7eae1189a3bd0849a66725a202982b64d184273ee2b2",
+      "metadata": {
+        "proveedor": "SATO RAHAL EMPREENDIMENTOS ARTISTICOS LTDA",
+        "representante": "KARIN SATO RAHAL"
+      },
+      "eventHash": "bfd4ffafb80b4795ea30db46e137e81988ad101fe7d6db1a666c93e16716ea1b"
+    }
+  ]
 }
