@@ -3,7 +3,7 @@
   "declarationId": "2b9283f6-d42c-4c8c-b915-7a83b1e3eb32",
   "token": "991e129c-fcdf-4938-8214-78c15b505410",
   "createdAt": "2026-10-26T22:28:39.472Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "KAREN REGALADO OLVERA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "KAREN REGALADO OLVERA",
     "email": "regaladolvera98@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a9c23daa4ebea7a13947c9dc60f3000cb50efce234821105596b5d7206c44226",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-26T22:30:10.340Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/REOK981006447",
+  "signatureMetadata": {
+    "ip": "201.141.110.18",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-26T22:30:13.767Z",
+    "signedAtLocal": "2026-10-26T16:30:13.767Z"
+  },
+  "documentHash": "ab836fca95339761be46321093639fa6e747843c8b7a9c593eb72b07665342a5",
   "auditTrail": [
     {
       "eventId": "01736580-89a6-442e-bb4e-0089adeb5dfd",
@@ -66,6 +74,49 @@
         "representante": "KAREN REGALADO OLVERA"
       },
       "eventHash": "6adf0eea4a0bd877965ddbe31f3aa2c7b27f08bea7a577a04df34aa6e478dfe2"
+    },
+    {
+      "eventId": "8bec12e1-6080-4939-a5eb-3a9a0bb67db5",
+      "uid": "REOK981006447",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-26T22:28:50.495Z",
+      "timestampLocal": "2026-10-26T22:28:50.495Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.110.18",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=REOK981006447&nombre_proveedor_razon_social=KAREN+REGALADO+OLVERA&nombre_representante_legal=KAREN+REGALADO+OLVERA&email=regaladolvera98%40gmail.com",
+      "previousEventHash": "6adf0eea4a0bd877965ddbe31f3aa2c7b27f08bea7a577a04df34aa6e478dfe2",
+      "documentHash": "a9c23daa4ebea7a13947c9dc60f3000cb50efce234821105596b5d7206c44226",
+      "eventHash": "216958752af4672aa0cd7c23a403aa95b337d6dbc6d9b902f562719bc6f683fc"
+    },
+    {
+      "eventId": "f43c775c-2f64-44b7-a6e3-202ed4cb5c37",
+      "uid": "REOK981006447",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-26T22:30:13.767Z",
+      "timestampLocal": "2026-10-26T16:30:13.767Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.110.18",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/991e129c-fcdf-4938-8214-78c15b505410",
+      "previousEventHash": "216958752af4672aa0cd7c23a403aa95b337d6dbc6d9b902f562719bc6f683fc",
+      "documentHash": "ab836fca95339761be46321093639fa6e747843c8b7a9c593eb72b07665342a5",
+      "signatureHash": "5cbdf7a7e35fe81e6bf962b9e876957060f88aa0db7fd1823f535a52515e6767",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-26T16:30:10.340Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "bba3a95e55470bcc3bbaf8f0ec9adf8b85c6440c16d6878fef0993e361592a4c"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-26T22:30:14.091Z"
+  }
 }
