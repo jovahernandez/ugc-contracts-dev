@@ -3,8 +3,18 @@
   "declarationId": "e18f1fa0-eb8f-4ab4-9676-b5ecb30770e2",
   "token": "1f3bd6b3-05dc-43c4-be68-1b1db8e9a7f4",
   "createdAt": "2026-10-26T22:00:28.630Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ANDREA MONSERRAT SUAREZ VALENCIA",
+    "nombre_representante_legal": "ANDREA MONSERRAT SUAREZ VALENCIA",
+    "email": "amonserrat.suarez@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ANDREA MONSERRAT SUAREZ VALENCIA",
+    "nombre_representante_legal": "ANDREA MONSERRAT SUAREZ VALENCIA",
+    "email": "amonserrat.suarez@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ANDREA MONSERRAT SUAREZ VALENCIA",
     "nombre_representante_legal": "ANDREA MONSERRAT SUAREZ VALENCIA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "59264312382c792b8783d55b984238aed979762a9fcb512e7bfc821cd3d39423",
+  "auditTrail": [
+    {
+      "eventId": "bc4cd718-fcfc-4620-a513-1ecb483fb1f0",
+      "uid": "SUVA9603285N1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-26T22:00:35.047Z",
+      "timestampLocal": "2026-10-26T22:00:35.047Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SUVA9603285N1&nombre_proveedor_razon_social=ANDREA+MONSERRAT+SUAREZ+VALENCIA&nombre_representante_legal=ANDREA+MONSERRAT+SUAREZ+VALENCIA&email=amonserrat.suarez%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "59264312382c792b8783d55b984238aed979762a9fcb512e7bfc821cd3d39423",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "74af311feffaa3313e86440d7215ee383e5a8bc89b3e9688eef0b92dc97e9d4a"
+    },
+    {
+      "eventId": "f68cb281-19cf-43b5-8eb3-12544aa2cc35",
+      "uid": "SUVA9603285N1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-26T22:00:35.047Z",
+      "timestampLocal": "2026-10-26T22:00:35.047Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SUVA9603285N1&nombre_proveedor_razon_social=ANDREA+MONSERRAT+SUAREZ+VALENCIA&nombre_representante_legal=ANDREA+MONSERRAT+SUAREZ+VALENCIA&email=amonserrat.suarez%40gmail.com",
+      "previousEventHash": "74af311feffaa3313e86440d7215ee383e5a8bc89b3e9688eef0b92dc97e9d4a",
+      "documentHash": "59264312382c792b8783d55b984238aed979762a9fcb512e7bfc821cd3d39423",
+      "metadata": {
+        "proveedor": "ANDREA MONSERRAT SUAREZ VALENCIA",
+        "representante": "ANDREA MONSERRAT SUAREZ VALENCIA"
+      },
+      "eventHash": "120eeada7af90df5a0970698bab4264318eba85ff02512b865a39f5f36d14737"
+    }
+  ]
 }
