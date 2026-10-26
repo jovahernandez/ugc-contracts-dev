@@ -3,7 +3,7 @@
   "declarationId": "e18f1fa0-eb8f-4ab4-9676-b5ecb30770e2",
   "token": "1f3bd6b3-05dc-43c4-be68-1b1db8e9a7f4",
   "createdAt": "2026-10-26T22:00:28.630Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "en",
   "proveedor": {
     "nombre_proveedor_razon_social": "ANDREA MONSERRAT SUAREZ VALENCIA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ANDREA MONSERRAT SUAREZ VALENCIA",
     "email": "amonserrat.suarez@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5e3dcff093cb97da21f2cb67221baa548908bcbcfb77fec8e71ad486d1949aaa",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-26T22:01:27.734Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SUVA9603285N1",
+  "signatureMetadata": {
+    "ip": "200.68.173.213",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-26T22:01:31.283Z",
+    "signedAtLocal": "2026-10-26T16:01:31.283Z"
+  },
+  "documentHash": "bda4f68ba37a214b83238ca081067373e49bde7febcd04f605614d547d25aa66",
   "auditTrail": [
     {
       "eventId": "bc4cd718-fcfc-4620-a513-1ecb483fb1f0",
@@ -290,11 +298,11 @@
       "eventHash": "290a873e37640004b359ddcf2131772d1f1662225fbba6e5ade4d501731ff741"
     },
     {
-      "eventId": "0bf19fa5-2241-4ce7-b5b3-72facd3f1226",
+      "eventId": "6e69dc5b-19de-4696-aba6-173fb80e0d60",
       "uid": "SUVA9603285N1",
       "eventType": "language_selected",
-      "timestampUtc": "2026-10-26T22:00:45.447Z",
-      "timestampLocal": "2026-10-26T22:00:45.447Z",
+      "timestampUtc": "2026-10-26T22:00:45.731Z",
+      "timestampLocal": "2026-10-26T22:00:45.731Z",
       "timezone": "UTC+0",
       "ipAddress": "200.68.173.213",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
@@ -305,26 +313,84 @@
       "metadata": {
         "language": "en"
       },
-      "eventHash": "5fe4d0ecd681964a8fbc268b601448550a17a9fd697b35a33d66d0bc4cc2b50e"
+      "eventHash": "58aae9b27694439a782d237e7356b8810e670e4cf6bfeaa8d00a26b4cb16446c"
     },
     {
-      "eventId": "5f324e72-5cde-4bdd-9ed5-84bb4044c11d",
+      "eventId": "9c3e158f-037d-4090-b285-b01f25bb7245",
       "uid": "SUVA9603285N1",
       "eventType": "document_created",
-      "timestampUtc": "2026-10-26T22:00:45.447Z",
-      "timestampLocal": "2026-10-26T22:00:45.447Z",
+      "timestampUtc": "2026-10-26T22:00:45.731Z",
+      "timestampLocal": "2026-10-26T22:00:45.731Z",
       "timezone": "UTC+0",
       "ipAddress": "200.68.173.213",
       "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
       "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SUVA9603285N1&nombre_proveedor_razon_social=ANDREA+MONSERRAT+SUAREZ+VALENCIA&nombre_representante_legal=ANDREA+MONSERRAT+SUAREZ+VALENCIA&email=amonserrat.suarez%40gmail.com",
-      "previousEventHash": "5fe4d0ecd681964a8fbc268b601448550a17a9fd697b35a33d66d0bc4cc2b50e",
+      "previousEventHash": "58aae9b27694439a782d237e7356b8810e670e4cf6bfeaa8d00a26b4cb16446c",
       "documentHash": "5e3dcff093cb97da21f2cb67221baa548908bcbcfb77fec8e71ad486d1949aaa",
       "metadata": {
         "proveedor": "ANDREA MONSERRAT SUAREZ VALENCIA",
         "representante": "ANDREA MONSERRAT SUAREZ VALENCIA"
       },
-      "eventHash": "21b67c8df639ae24da55e0403ab343bb3e73758713c1fe65ea72f27f9ad2a61e"
+      "eventHash": "f2524c5c4a373a17d80388a1116c4ad3ce6009f3e45eec0812ff2f2ee5d04fcf"
+    },
+    {
+      "eventId": "942a1005-34fd-4e1d-9b18-2a731e3c6412",
+      "uid": "SUVA9603285N1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-26T22:00:49.471Z",
+      "timestampLocal": "2026-10-26T22:00:49.471Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SUVA9603285N1&nombre_proveedor_razon_social=ANDREA+MONSERRAT+SUAREZ+VALENCIA&nombre_representante_legal=ANDREA+MONSERRAT+SUAREZ+VALENCIA&email=amonserrat.suarez%40gmail.com",
+      "previousEventHash": "f2524c5c4a373a17d80388a1116c4ad3ce6009f3e45eec0812ff2f2ee5d04fcf",
+      "documentHash": "5e3dcff093cb97da21f2cb67221baa548908bcbcfb77fec8e71ad486d1949aaa",
+      "eventHash": "b8075b3480bc5ed828373a2aad314f324e422dffc75f378a6f81947992eded83"
+    },
+    {
+      "eventId": "528708b6-8987-4a5f-bb20-65526d8d4d1d",
+      "uid": "SUVA9603285N1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-26T22:00:54.731Z",
+      "timestampLocal": "2026-10-26T22:00:54.731Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "b8075b3480bc5ed828373a2aad314f324e422dffc75f378a6f81947992eded83",
+      "documentHash": "5e3dcff093cb97da21f2cb67221baa548908bcbcfb77fec8e71ad486d1949aaa",
+      "eventHash": "62944c2d3922197beb95215f9034673b604806747800ebfaf97ace4317b2d78c"
+    },
+    {
+      "eventId": "acd63b4e-43e1-44f0-a10a-cb3b50493453",
+      "uid": "SUVA9603285N1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-26T22:01:31.283Z",
+      "timestampLocal": "2026-10-26T16:01:31.283Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.68.173.213",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/1f3bd6b3-05dc-43c4-be68-1b1db8e9a7f4",
+      "previousEventHash": "62944c2d3922197beb95215f9034673b604806747800ebfaf97ace4317b2d78c",
+      "documentHash": "bda4f68ba37a214b83238ca081067373e49bde7febcd04f605614d547d25aa66",
+      "signatureHash": "d7f031daceee34b4bd8da270efeb0c11dea05bc5be27d0220aca3b7de3f1c61d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-26T16:01:27.734Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "ca31019f8f01560f5db836f720a3f9051f0668fe0a431d1df4715d7d41091c19"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 19,
+    "verifiedAt": "2026-10-26T22:01:31.492Z"
+  }
 }
