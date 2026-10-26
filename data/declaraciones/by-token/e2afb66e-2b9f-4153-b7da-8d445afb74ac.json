@@ -3,8 +3,18 @@
   "declarationId": "9e7bf46d-915c-400e-a85a-f8ede3b871b1",
   "token": "e2afb66e-2b9f-4153-b7da-8d445afb74ac",
   "createdAt": "2026-10-26T11:25:29.777Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ALMANAQUE SOS SERVICOS LTDA",
+    "nombre_representante_legal": "Dario Centurione Leme",
+    "email": "comercial@almanaquesos.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ALMANAQUE SOS SERVICOS LTDA",
+    "nombre_representante_legal": "Dario Centurione Leme",
+    "email": "comercial@almanaquesos.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ALMANAQUE SOS SERVICOS LTDA",
     "nombre_representante_legal": "Dario Centurione Leme",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9b62db7624f5fa05ae8f4eb285081fcc13d0ab63cece73e7fd53c890296a17de",
+  "auditTrail": [
+    {
+      "eventId": "b5873370-6818-4c03-8abc-d1518971fd33",
+      "uid": "15.621.427/0001-84",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-26T11:25:45.875Z",
+      "timestampLocal": "2026-10-26T11:25:45.875Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.187.76.187",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=15.621.427%2F0001-84&nombre_proveedor_razon_social=ALMANAQUE+SOS+SERVICOS+LTDA&nombre_representante_legal=Dario+Centurione+Leme&email=comercial%40almanaquesos.com",
+      "previousEventHash": null,
+      "documentHash": "9b62db7624f5fa05ae8f4eb285081fcc13d0ab63cece73e7fd53c890296a17de",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "88504b23b9ae01a59ce733275e0c17890258ec3d448470e6d4829488e02f7f3f"
+    },
+    {
+      "eventId": "a785a910-62e3-46db-b245-5be138c19662",
+      "uid": "15.621.427/0001-84",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-26T11:25:45.876Z",
+      "timestampLocal": "2026-10-26T11:25:45.876Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.187.76.187",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=15.621.427%2F0001-84&nombre_proveedor_razon_social=ALMANAQUE+SOS+SERVICOS+LTDA&nombre_representante_legal=Dario+Centurione+Leme&email=comercial%40almanaquesos.com",
+      "previousEventHash": "88504b23b9ae01a59ce733275e0c17890258ec3d448470e6d4829488e02f7f3f",
+      "documentHash": "9b62db7624f5fa05ae8f4eb285081fcc13d0ab63cece73e7fd53c890296a17de",
+      "metadata": {
+        "proveedor": "ALMANAQUE SOS SERVICOS LTDA",
+        "representante": "Dario Centurione Leme"
+      },
+      "eventHash": "263022ce8c426122aad3b88cd97659fdbd401c8803433d6963dfec5385775040"
+    }
+  ]
 }
