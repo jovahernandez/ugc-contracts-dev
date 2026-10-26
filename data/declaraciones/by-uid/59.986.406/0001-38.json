@@ -3,7 +3,7 @@
   "declarationId": "bbc28666-6350-45f9-ad2d-e956d69a2572",
   "token": "5315fa29-b6b9-4a63-a60c-09c912613f79",
   "createdAt": "2026-10-26T14:01:49.086Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "TELEPONTO COMÉRCIO E LOCAÇÃO DE EQUIPAMENTOS ELETRÔNICOS LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Marcia Fernandes Pereira",
     "email": "eventos@teleponto.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c33201c198a363c5dcbbedc0ade1f277a6b4adb071c463712492f9d91905e32d",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-26T14:02:55.153Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/59.986.406%2F0001-38",
+  "signatureMetadata": {
+    "ip": "191.13.252.214",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+    "signedAtUtc": "2026-10-26T14:02:58.527Z",
+    "signedAtLocal": "2026-10-26T11:02:58.527Z"
+  },
+  "documentHash": "1d4f82e57b6041ab507815abbe2f922b8e788af10a504c6df8007925a43a8a49",
   "auditTrail": [
     {
       "eventId": "5b15a639-5f14-4f5c-9a4c-2afb0dafe50b",
@@ -66,6 +74,64 @@
         "representante": "Marcia Fernandes Pereira"
       },
       "eventHash": "82523b0513b58db91d3d808fcc9707e51290e91140c4e8ec7814f643c9fe4e11"
+    },
+    {
+      "eventId": "3c8a8c64-9d8c-4348-acb2-d7cf43599a63",
+      "uid": "59.986.406/0001-38",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-26T14:02:00.750Z",
+      "timestampLocal": "2026-10-26T14:02:00.750Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.13.252.214",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=59.986.406%2F0001-38&nombre_proveedor_razon_social=TELEPONTO+COM%C3%89RCIO+E+LOCA%C3%87%C3%83O+DE+EQUIPAMENTOS+ELETR%C3%94NICOS+LTDA&nombre_representante_legal=Marcia+Fernandes+Pereira&email=eventos%40teleponto.com.br",
+      "previousEventHash": "82523b0513b58db91d3d808fcc9707e51290e91140c4e8ec7814f643c9fe4e11",
+      "documentHash": "c33201c198a363c5dcbbedc0ade1f277a6b4adb071c463712492f9d91905e32d",
+      "eventHash": "bb889700e00f83c2c1793a324af599e602f51fe1f8280841a3d19d25f009ecd8"
+    },
+    {
+      "eventId": "0c9588bf-2c11-4e60-acda-28a972533117",
+      "uid": "59.986.406/0001-38",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-26T14:02:46.317Z",
+      "timestampLocal": "2026-10-26T14:02:46.317Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.13.252.214",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "bb889700e00f83c2c1793a324af599e602f51fe1f8280841a3d19d25f009ecd8",
+      "documentHash": "c33201c198a363c5dcbbedc0ade1f277a6b4adb071c463712492f9d91905e32d",
+      "eventHash": "aba815901de34f795dd34dfd8fa989d1479b369b70f7c62f161e0a7b591cf8f5"
+    },
+    {
+      "eventId": "417a498a-2bb8-44d7-a69e-36d165382460",
+      "uid": "59.986.406/0001-38",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-26T14:02:58.527Z",
+      "timestampLocal": "2026-10-26T11:02:58.527Z",
+      "timezone": "UTC-3",
+      "ipAddress": "191.13.252.214",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5315fa29-b6b9-4a63-a60c-09c912613f79",
+      "previousEventHash": "aba815901de34f795dd34dfd8fa989d1479b369b70f7c62f161e0a7b591cf8f5",
+      "documentHash": "1d4f82e57b6041ab507815abbe2f922b8e788af10a504c6df8007925a43a8a49",
+      "signatureHash": "06f74989db861abee79fc6c14239823d29a1ce8c7a20a469eb7dc49d68a3116c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-26T11:02:55.153Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "973159728f41b48a8cd3618f940938e6389540f5a5a11ae2902d92162cb5db6a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-26T14:02:58.807Z"
+  }
 }
