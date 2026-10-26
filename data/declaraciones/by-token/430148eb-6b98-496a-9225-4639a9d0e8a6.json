@@ -3,8 +3,18 @@
   "declarationId": "336a3eb2-19be-4e64-ae23-49d966d79123",
   "token": "430148eb-6b98-496a-9225-4639a9d0e8a6",
   "createdAt": "2026-10-26T16:57:28.025Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Gabriela Prieto Perez",
+    "nombre_representante_legal": "Gabriela Prieto Perez",
+    "email": "infogabrielap@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Gabriela Prieto Perez",
+    "nombre_representante_legal": "Gabriela Prieto Perez",
+    "email": "infogabrielap@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Gabriela Prieto Perez",
     "nombre_representante_legal": "Gabriela Prieto Perez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "fda6cdfdb01c55567e1334f48697959661e6322b9915b0a951bce35458a3d1d9",
+  "auditTrail": [
+    {
+      "eventId": "796a9dcc-ba3a-42ea-a637-4e82a3c46525",
+      "uid": "1098817668",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-26T16:57:36.734Z",
+      "timestampLocal": "2026-10-26T16:57:36.734Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.13.62.135",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1098817668&nombre_proveedor_razon_social=Gabriela+Prieto+Perez&nombre_representante_legal=Gabriela+Prieto+Perez&email=infogabrielap%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "fda6cdfdb01c55567e1334f48697959661e6322b9915b0a951bce35458a3d1d9",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "cc51af8dc68947814439ab1b0bf3496b394eaf0583a9ebc09cc4216e109baa02"
+    },
+    {
+      "eventId": "294eabba-df93-4293-ad27-fba63cf7f70a",
+      "uid": "1098817668",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-26T16:57:36.734Z",
+      "timestampLocal": "2026-10-26T16:57:36.734Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.13.62.135",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1098817668&nombre_proveedor_razon_social=Gabriela+Prieto+Perez&nombre_representante_legal=Gabriela+Prieto+Perez&email=infogabrielap%40gmail.com",
+      "previousEventHash": "cc51af8dc68947814439ab1b0bf3496b394eaf0583a9ebc09cc4216e109baa02",
+      "documentHash": "fda6cdfdb01c55567e1334f48697959661e6322b9915b0a951bce35458a3d1d9",
+      "metadata": {
+        "proveedor": "Gabriela Prieto Perez",
+        "representante": "Gabriela Prieto Perez"
+      },
+      "eventHash": "7b9ee67f996b22eea28370f37f8f586bce937ab3fccf6bcfbd198a6818ee9313"
+    }
+  ]
 }
