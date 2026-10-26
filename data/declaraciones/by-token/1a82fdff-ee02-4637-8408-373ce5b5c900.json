@@ -3,7 +3,7 @@
   "declarationId": "3917af43-51cd-48b3-b197-f57af625826d",
   "token": "1a82fdff-ee02-4637-8408-373ce5b5c900",
   "createdAt": "2026-10-26T18:35:33.298Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ISIS JOCELYN BONILLA PACHECO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "NO",
     "email": "isisbonilla.ugc@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "cc5315501d2b137507afb7d636f61d57ce8d9e93784d1a60900df0b1cd87931c",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-26T18:36:53.058Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BOPI970818D90",
+  "signatureMetadata": {
+    "ip": "189.250.162.186",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Safari/605.1.15",
+    "signedAtUtc": "2026-10-26T18:36:56.464Z",
+    "signedAtLocal": "2026-10-26T12:36:56.464Z"
+  },
+  "documentHash": "cbf567ca4c0efaa1b7e3d302dc7d1f4ec92faf65e1a7e08fb17a69e77249f773",
   "auditTrail": [
     {
       "eventId": "44f51709-2117-4e6d-8140-1f99766c02ac",
@@ -155,6 +163,86 @@
         "representante": "NO"
       },
       "eventHash": "2d7b932b601899c15134e260651fffc9c6f0ae4de14b9ef89c4d6b7c7ff4dc1d"
+    },
+    {
+      "eventId": "7c50455d-3cd2-4626-a47d-04cfe500ac43",
+      "uid": "BOPI970818D90",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-26T18:35:47.600Z",
+      "timestampLocal": "2026-10-26T18:35:47.600Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.250.162.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "2d7b932b601899c15134e260651fffc9c6f0ae4de14b9ef89c4d6b7c7ff4dc1d",
+      "documentHash": "cc5315501d2b137507afb7d636f61d57ce8d9e93784d1a60900df0b1cd87931c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "fb14b47f3d886ff03bf93512db4d03df5d29a2ea51a30408a9becfe3a4f2c33c"
+    },
+    {
+      "eventId": "8a95c4f8-9f14-4111-a020-c4c1021edf05",
+      "uid": "BOPI970818D90",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-26T18:35:47.600Z",
+      "timestampLocal": "2026-10-26T18:35:47.600Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.250.162.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "fb14b47f3d886ff03bf93512db4d03df5d29a2ea51a30408a9becfe3a4f2c33c",
+      "documentHash": "cc5315501d2b137507afb7d636f61d57ce8d9e93784d1a60900df0b1cd87931c",
+      "metadata": {
+        "proveedor": "ISIS JOCELYN BONILLA PACHECO",
+        "representante": "NO"
+      },
+      "eventHash": "53519f4395fb4aaf2e35677fc7c4de0ffbeda932428ce7e0c7b66f9b7c8cb695"
+    },
+    {
+      "eventId": "00841044-fe54-43a2-8d15-829f6980a83a",
+      "uid": "BOPI970818D90",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-26T18:35:49.670Z",
+      "timestampLocal": "2026-10-26T18:35:49.670Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.250.162.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "53519f4395fb4aaf2e35677fc7c4de0ffbeda932428ce7e0c7b66f9b7c8cb695",
+      "documentHash": "cc5315501d2b137507afb7d636f61d57ce8d9e93784d1a60900df0b1cd87931c",
+      "eventHash": "025f6a7aba2b667b5dbba64a7c20e69ddbb40bcb92747d4b7a7a5942dda51ef0"
+    },
+    {
+      "eventId": "2920d2ba-5308-4da7-b111-d736a5d65f67",
+      "uid": "BOPI970818D90",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-26T18:36:56.464Z",
+      "timestampLocal": "2026-10-26T12:36:56.464Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.250.162.186",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "025f6a7aba2b667b5dbba64a7c20e69ddbb40bcb92747d4b7a7a5942dda51ef0",
+      "documentHash": "cbf567ca4c0efaa1b7e3d302dc7d1f4ec92faf65e1a7e08fb17a69e77249f773",
+      "signatureHash": "affb4def75ca30a7008401a3b823213c248fa881d5d0c80ab380a4f58375c6e5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-26T12:36:53.058Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "3d7bec85e689d6393dfba798b3785288da181a9f6fcacfc68e3cb9f12aac23b9"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-10-26T18:36:56.888Z"
+  }
 }
