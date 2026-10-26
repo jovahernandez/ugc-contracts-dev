@@ -3,8 +3,18 @@
   "declarationId": "969279a7-ff0b-4dec-a20f-394c47edeb66",
   "token": "2c1bc5e7-5de2-4750-a502-44986603877f",
   "createdAt": "2026-10-26T20:54:36.366Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "comercial michelle  de carvalho",
+    "nombre_representante_legal": "michelle de carvalho",
+    "email": "claudiaretamal15@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "comercial michelle  de carvalho",
+    "nombre_representante_legal": "michelle de carvalho",
+    "email": "claudiaretamal15@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "comercial michelle  de carvalho",
     "nombre_representante_legal": "michelle de carvalho",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "c8f597d00205f9a289f5e1d167be436869b776b2a683b3e5cdf87d811c858ca4",
+  "auditTrail": [
+    {
+      "eventId": "0be0f9ec-abfe-458f-86cd-db672a857cb0",
+      "uid": "77415072-2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-26T20:54:44.372Z",
+      "timestampLocal": "2026-10-26T20:54:44.372Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.43.120.213",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,es-CL;q=0.9,es-419;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=77415072-2&nombre_proveedor_razon_social=comercial+michelle++de+carvalho+&nombre_representante_legal=michelle+de+carvalho+&email=claudiaretamal15%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "c8f597d00205f9a289f5e1d167be436869b776b2a683b3e5cdf87d811c858ca4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c1b87fb2ca2830f4c6ec1a6108ae40d21b636acd70a61dc663676ebdc21c54c8"
+    },
+    {
+      "eventId": "4dd2a6a6-4449-41e1-b3da-f981b96a0ae0",
+      "uid": "77415072-2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-26T20:54:44.372Z",
+      "timestampLocal": "2026-10-26T20:54:44.372Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.43.120.213",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es,es-CL;q=0.9,es-419;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=77415072-2&nombre_proveedor_razon_social=comercial+michelle++de+carvalho+&nombre_representante_legal=michelle+de+carvalho+&email=claudiaretamal15%40gmail.com",
+      "previousEventHash": "c1b87fb2ca2830f4c6ec1a6108ae40d21b636acd70a61dc663676ebdc21c54c8",
+      "documentHash": "c8f597d00205f9a289f5e1d167be436869b776b2a683b3e5cdf87d811c858ca4",
+      "metadata": {
+        "proveedor": "comercial michelle  de carvalho",
+        "representante": "michelle de carvalho"
+      },
+      "eventHash": "ae2bc22d9b3adedec0f5898342c8fb69f4aa68ddcb4ece666b45d7efe3a2276f"
+    }
+  ]
 }
