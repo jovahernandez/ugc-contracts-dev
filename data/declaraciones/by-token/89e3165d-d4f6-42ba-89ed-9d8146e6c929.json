@@ -3,8 +3,18 @@
   "declarationId": "b01d36aa-1bf8-4f3d-9c44-006a0536ea2c",
   "token": "89e3165d-d4f6-42ba-89ed-9d8146e6c929",
   "createdAt": "2026-10-26T13:32:43.588Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "KARYN THAYNA SOUSA COSTA LTDA",
+    "nombre_representante_legal": "Karyn Sousa",
+    "email": "publicidades.karyn@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "KARYN THAYNA SOUSA COSTA LTDA",
+    "nombre_representante_legal": "Karyn Sousa",
+    "email": "publicidades.karyn@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "KARYN THAYNA SOUSA COSTA LTDA",
     "nombre_representante_legal": "Karyn Sousa",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "90c063b8731f4f33fb87f55de167f01c77940cb857c5eb8b63078b936e48cc34",
+  "auditTrail": [
+    {
+      "eventId": "d4a65511-3004-4151-bde2-783f9f10dac3",
+      "uid": "69.089.026/0001-54",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-26T13:32:50.297Z",
+      "timestampLocal": "2026-10-26T13:32:50.297Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.181.34.3",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=69.089.026%2F0001-54&nombre_proveedor_razon_social=KARYN+THAYNA+SOUSA+COSTA+LTDA&nombre_representante_legal=Karyn+Sousa+&email=publicidades.karyn%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "90c063b8731f4f33fb87f55de167f01c77940cb857c5eb8b63078b936e48cc34",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "6b21d67a1b4f873acd7479162e31b3c8741fcff1fd836dd0670c13a587cd4f09"
+    },
+    {
+      "eventId": "a1e92ca0-1f97-4bd2-a39e-e617ad335c64",
+      "uid": "69.089.026/0001-54",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-26T13:32:50.297Z",
+      "timestampLocal": "2026-10-26T13:32:50.297Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.181.34.3",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=69.089.026%2F0001-54&nombre_proveedor_razon_social=KARYN+THAYNA+SOUSA+COSTA+LTDA&nombre_representante_legal=Karyn+Sousa+&email=publicidades.karyn%40gmail.com",
+      "previousEventHash": "6b21d67a1b4f873acd7479162e31b3c8741fcff1fd836dd0670c13a587cd4f09",
+      "documentHash": "90c063b8731f4f33fb87f55de167f01c77940cb857c5eb8b63078b936e48cc34",
+      "metadata": {
+        "proveedor": "KARYN THAYNA SOUSA COSTA LTDA",
+        "representante": "Karyn Sousa"
+      },
+      "eventHash": "16c8d7096fbd91bd815bcc7e3bde1256cf902057c1df7406fda2555f407ce1b8"
+    }
+  ]
 }
