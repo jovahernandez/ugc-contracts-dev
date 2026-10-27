@@ -3,8 +3,18 @@
   "declarationId": "48b5bd91-be59-4956-9769-65a8f9f41785",
   "token": "7ad628e0-c725-4207-8090-bac53c7840f9",
   "createdAt": "2026-10-27T15:39:11.423Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Jéssica Monge - Penteado e maquiagem para eventos e publicidade ltda",
+    "nombre_representante_legal": "Jéssica Andrade Monge",
+    "email": "contatojessmonge@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Jéssica Monge - Penteado e maquiagem para eventos e publicidade ltda",
+    "nombre_representante_legal": "Jéssica Andrade Monge",
+    "email": "contatojessmonge@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Jéssica Monge - Penteado e maquiagem para eventos e publicidade ltda",
     "nombre_representante_legal": "Jéssica Andrade Monge",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "6dd2633eeae580933c158598c37feeb8218d2830238742d3253d7b3241043fbc",
+  "auditTrail": [
+    {
+      "eventId": "1fc4d47f-61fd-4822-9857-95c30ce602ef",
+      "uid": "18.110.157/0001-35",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-27T15:39:23.035Z",
+      "timestampLocal": "2026-10-27T15:39:23.035Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.81.76.135",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=18.110.157%2F0001-35&nombre_proveedor_razon_social=J%C3%A9ssica+Monge+-+Penteado+e+maquiagem+para+eventos+e+publicidade+ltda&nombre_representante_legal=J%C3%A9ssica+Andrade+Monge&email=contatojessmonge%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "6dd2633eeae580933c158598c37feeb8218d2830238742d3253d7b3241043fbc",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "458cadf0739350b621ac2e7ef2c757a427b27ceb07504c32f29188a175123125"
+    },
+    {
+      "eventId": "c4854979-e24f-477c-bbdc-25212fc84678",
+      "uid": "18.110.157/0001-35",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-27T15:39:23.035Z",
+      "timestampLocal": "2026-10-27T15:39:23.035Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.81.76.135",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=18.110.157%2F0001-35&nombre_proveedor_razon_social=J%C3%A9ssica+Monge+-+Penteado+e+maquiagem+para+eventos+e+publicidade+ltda&nombre_representante_legal=J%C3%A9ssica+Andrade+Monge&email=contatojessmonge%40gmail.com",
+      "previousEventHash": "458cadf0739350b621ac2e7ef2c757a427b27ceb07504c32f29188a175123125",
+      "documentHash": "6dd2633eeae580933c158598c37feeb8218d2830238742d3253d7b3241043fbc",
+      "metadata": {
+        "proveedor": "Jéssica Monge - Penteado e maquiagem para eventos e publicidade ltda",
+        "representante": "Jéssica Andrade Monge"
+      },
+      "eventHash": "0da575954e7dc0d16e9e1a50af6f4ba05c5401e26730e9e025eb1ac9804728f7"
+    }
+  ]
 }
