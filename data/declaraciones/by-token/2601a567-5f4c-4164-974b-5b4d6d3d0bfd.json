@@ -3,8 +3,18 @@
   "declarationId": "45067834-358b-4d6a-9a3c-0dbeae3f7ff4",
   "token": "2601a567-5f4c-4164-974b-5b4d6d3d0bfd",
   "createdAt": "2026-10-27T19:00:24.212Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MKT ACTIVACIONES Y EDECANIA SA DE CV",
+    "nombre_representante_legal": "SUSANA LOPEZ MONTES",
+    "email": "SUSANA.LOPEZ@EXPRESA.COM.MX"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MKT ACTIVACIONES Y EDECANIA SA DE CV",
+    "nombre_representante_legal": "SUSANA LOPEZ MONTES",
+    "email": "SUSANA.LOPEZ@EXPRESA.COM.MX"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MKT ACTIVACIONES Y EDECANIA SA DE CV",
     "nombre_representante_legal": "SUSANA LOPEZ MONTES",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "72182cd8956273af1280b835badfbc39030496fda5359b0483cf2f2c6c17826e",
+  "auditTrail": [
+    {
+      "eventId": "9c599bd4-35db-4932-9e19-1cb1f38ccbb1",
+      "uid": "MAE140912NZA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-27T19:00:32.323Z",
+      "timestampLocal": "2026-10-27T19:00:32.323Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.232.1.33",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAE140912NZA&nombre_proveedor_razon_social=MKT+ACTIVACIONES+Y+EDECANIA+SA+DE+CV&nombre_representante_legal=SUSANA+LOPEZ+MONTES&email=SUSANA.LOPEZ%40EXPRESA.COM.MX",
+      "previousEventHash": null,
+      "documentHash": "72182cd8956273af1280b835badfbc39030496fda5359b0483cf2f2c6c17826e",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d222b7320cb9791c86bd47f1b7d9f8cd06824cd3fe0e47a7e62df0edf2d7fe75"
+    },
+    {
+      "eventId": "9ecfafc0-58a2-4894-838d-9949e00f3b82",
+      "uid": "MAE140912NZA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-27T19:00:32.323Z",
+      "timestampLocal": "2026-10-27T19:00:32.323Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.232.1.33",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAE140912NZA&nombre_proveedor_razon_social=MKT+ACTIVACIONES+Y+EDECANIA+SA+DE+CV&nombre_representante_legal=SUSANA+LOPEZ+MONTES&email=SUSANA.LOPEZ%40EXPRESA.COM.MX",
+      "previousEventHash": "d222b7320cb9791c86bd47f1b7d9f8cd06824cd3fe0e47a7e62df0edf2d7fe75",
+      "documentHash": "72182cd8956273af1280b835badfbc39030496fda5359b0483cf2f2c6c17826e",
+      "metadata": {
+        "proveedor": "MKT ACTIVACIONES Y EDECANIA SA DE CV",
+        "representante": "SUSANA LOPEZ MONTES"
+      },
+      "eventHash": "6979920813914a1f679e6c0215d1d774c1b32e255b97efee8c6dffc25d6003b2"
+    }
+  ]
 }
