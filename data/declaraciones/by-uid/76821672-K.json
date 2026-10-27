@@ -3,8 +3,18 @@
   "declarationId": "056a21c0-6d3d-462c-a606-0ad41cab11e1",
   "token": "3518fe42-6c32-45c6-a27f-90dff8ed15df",
   "createdAt": "2026-10-27T20:40:25.058Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ARTES ESCÉNICAS VIVIANNE BELÉN DIETZ CÁRDENAS E.I.R.L.",
+    "nombre_representante_legal": "VIVIANNE BELÉN DIETZ CÁRDENAS",
+    "email": "asesortributario@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ARTES ESCÉNICAS VIVIANNE BELÉN DIETZ CÁRDENAS E.I.R.L.",
+    "nombre_representante_legal": "VIVIANNE BELÉN DIETZ CÁRDENAS",
+    "email": "asesortributario@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ARTES ESCÉNICAS VIVIANNE BELÉN DIETZ CÁRDENAS E.I.R.L.",
     "nombre_representante_legal": "VIVIANNE BELÉN DIETZ CÁRDENAS",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8077c4d3d4b0f4c86704ada08541fd485aec106824430794de36ebf0ea1c1bf0",
+  "auditTrail": [
+    {
+      "eventId": "95514219-7af9-4539-a6af-9400838e85c4",
+      "uid": "76821672-K",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-27T20:40:32.087Z",
+      "timestampLocal": "2026-10-27T20:40:32.087Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.43.241.183",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=76821672-K&nombre_proveedor_razon_social=ARTES+ESC%C3%89NICAS+VIVIANNE+BEL%C3%89N+DIETZ+C%C3%81RDENAS+E.I.R.L.&nombre_representante_legal=VIVIANNE+BEL%C3%89N+DIETZ+C%C3%81RDENAS&email=asesortributario%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "8077c4d3d4b0f4c86704ada08541fd485aec106824430794de36ebf0ea1c1bf0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "12b445ed3edf58f7e015115d3c98154bc002174f7c691c5c2710ebd83bd68749"
+    },
+    {
+      "eventId": "b8200295-ab6a-4f49-bf46-104e5acd91eb",
+      "uid": "76821672-K",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-27T20:40:32.087Z",
+      "timestampLocal": "2026-10-27T20:40:32.087Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.43.241.183",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=76821672-K&nombre_proveedor_razon_social=ARTES+ESC%C3%89NICAS+VIVIANNE+BEL%C3%89N+DIETZ+C%C3%81RDENAS+E.I.R.L.&nombre_representante_legal=VIVIANNE+BEL%C3%89N+DIETZ+C%C3%81RDENAS&email=asesortributario%40hotmail.com",
+      "previousEventHash": "12b445ed3edf58f7e015115d3c98154bc002174f7c691c5c2710ebd83bd68749",
+      "documentHash": "8077c4d3d4b0f4c86704ada08541fd485aec106824430794de36ebf0ea1c1bf0",
+      "metadata": {
+        "proveedor": "ARTES ESCÉNICAS VIVIANNE BELÉN DIETZ CÁRDENAS E.I.R.L.",
+        "representante": "VIVIANNE BELÉN DIETZ CÁRDENAS"
+      },
+      "eventHash": "d30ad6741faf08928400197327ce06fc35f24718d740242cae45791caacc8153"
+    }
+  ]
 }
