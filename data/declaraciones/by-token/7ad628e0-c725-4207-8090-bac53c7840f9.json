@@ -3,7 +3,7 @@
   "declarationId": "48b5bd91-be59-4956-9769-65a8f9f41785",
   "token": "7ad628e0-c725-4207-8090-bac53c7840f9",
   "createdAt": "2026-10-27T15:39:11.423Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "Jéssica Monge - Penteado e maquiagem para eventos e publicidade ltda",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Jéssica Andrade Monge",
     "email": "contatojessmonge@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c76ea78146d61f3521259d167f9210e709fea6dc91c8802f7f658e18b07f60c5",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-27T15:40:20.060Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/18.110.157%2F0001-35",
+  "signatureMetadata": {
+    "ip": "201.81.76.135",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-27T15:40:23.375Z",
+    "signedAtLocal": "2026-10-27T12:40:23.375Z"
+  },
+  "documentHash": "21c60a70a3ee475b5cba1e67e3dd76843717b693fc98e82848aab41757e020b5",
   "auditTrail": [
     {
       "eventId": "1fc4d47f-61fd-4822-9857-95c30ce602ef",
@@ -103,6 +111,49 @@
         "representante": "Jéssica Andrade Monge"
       },
       "eventHash": "f0e8457d5b346ce0547fe201f13eda9a054836cb374bef9cb22b221f234f216c"
+    },
+    {
+      "eventId": "7721580c-f029-4f7f-8705-aa9ff24b5e34",
+      "uid": "18.110.157/0001-35",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-27T15:39:30.397Z",
+      "timestampLocal": "2026-10-27T15:39:30.397Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.81.76.135",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=18.110.157%2F0001-35&nombre_proveedor_razon_social=J%C3%A9ssica+Monge+-+Penteado+e+maquiagem+para+eventos+e+publicidade+ltda&nombre_representante_legal=J%C3%A9ssica+Andrade+Monge&email=contatojessmonge%40gmail.com",
+      "previousEventHash": "f0e8457d5b346ce0547fe201f13eda9a054836cb374bef9cb22b221f234f216c",
+      "documentHash": "c76ea78146d61f3521259d167f9210e709fea6dc91c8802f7f658e18b07f60c5",
+      "eventHash": "be8077d04686ff97d19e215af1682be1a052979b7d3da667e65916e62a71a224"
+    },
+    {
+      "eventId": "df602166-a380-41dd-9b85-94907833a1ce",
+      "uid": "18.110.157/0001-35",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-27T15:40:23.376Z",
+      "timestampLocal": "2026-10-27T12:40:23.376Z",
+      "timezone": "UTC-3",
+      "ipAddress": "201.81.76.135",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/7ad628e0-c725-4207-8090-bac53c7840f9",
+      "previousEventHash": "be8077d04686ff97d19e215af1682be1a052979b7d3da667e65916e62a71a224",
+      "documentHash": "21c60a70a3ee475b5cba1e67e3dd76843717b693fc98e82848aab41757e020b5",
+      "signatureHash": "a8434f135f09ac007c51ab5e834b82d1889f26c5bfb4ff3e000584688c8b3978",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-27T12:40:20.060Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "30538b9709eb85377bafbc6c50d5cd44d2ce406992251007f88647ee62d04343"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-27T15:40:23.778Z"
+  }
 }
