@@ -3,8 +3,18 @@
   "declarationId": "a1cfa17b-5e25-4da2-87fc-4b5449068e13",
   "token": "2c6878f6-8956-4fc0-ae62-342b8f8ca7c1",
   "createdAt": "2026-10-28T19:38:03.842Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "EDICIONES GAMMA S.A.",
+    "nombre_representante_legal": "NIDIA ALEXANDRA RODRIGUEZ LINARES",
+    "email": "publicidad@revistadiners.com.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "EDICIONES GAMMA S.A.",
+    "nombre_representante_legal": "NIDIA ALEXANDRA RODRIGUEZ LINARES",
+    "email": "publicidad@revistadiners.com.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "EDICIONES GAMMA S.A.",
     "nombre_representante_legal": "NIDIA ALEXANDRA RODRIGUEZ LINARES",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "5aaebb99b0eaf179dcfafb79b1e25197a91e5f50e1a29957607798bbfc341086",
+  "auditTrail": [
+    {
+      "eventId": "ffb30d52-3cde-4a5d-80f8-40852ab80757",
+      "uid": "8600620013",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-28T19:38:27.362Z",
+      "timestampLocal": "2026-10-28T19:38:27.362Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.145.17.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=8600620013&nombre_proveedor_razon_social=EDICIONES+GAMMA+S.A.&nombre_representante_legal=NIDIA+ALEXANDRA+RODRIGUEZ+LINARES&email=publicidad%40revistadiners.com.co",
+      "previousEventHash": null,
+      "documentHash": "5aaebb99b0eaf179dcfafb79b1e25197a91e5f50e1a29957607798bbfc341086",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8e68113b77de8f86daa59e0a3dd3793286666b6c6a6117293953f3782a1626fe"
+    },
+    {
+      "eventId": "e2ff5216-dc78-478e-91ac-cbf47318292c",
+      "uid": "8600620013",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-28T19:38:27.362Z",
+      "timestampLocal": "2026-10-28T19:38:27.362Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.145.17.98",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=8600620013&nombre_proveedor_razon_social=EDICIONES+GAMMA+S.A.&nombre_representante_legal=NIDIA+ALEXANDRA+RODRIGUEZ+LINARES&email=publicidad%40revistadiners.com.co",
+      "previousEventHash": "8e68113b77de8f86daa59e0a3dd3793286666b6c6a6117293953f3782a1626fe",
+      "documentHash": "5aaebb99b0eaf179dcfafb79b1e25197a91e5f50e1a29957607798bbfc341086",
+      "metadata": {
+        "proveedor": "EDICIONES GAMMA S.A.",
+        "representante": "NIDIA ALEXANDRA RODRIGUEZ LINARES"
+      },
+      "eventHash": "8d49fcaeb490b87c34c49e7807fcc2da0179b7d40eae66c176371ea9271eb62d"
+    }
+  ]
 }
