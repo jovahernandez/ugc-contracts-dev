@@ -3,7 +3,7 @@
   "declarationId": "253fd4a3-7557-409c-b6c4-4313946d6529",
   "token": "728954fc-0731-4ff3-8957-b734fbc24b74",
   "createdAt": "2026-10-28T19:58:22.912Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "The Other Way LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Jessica Santos Tedesco",
     "email": "nfs@theotherway.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "cd2f54424be46e537a3b26079006a6b7ed4e18ecbd411039c1e7776925c64200",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-28T19:59:18.615Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/39.892.263%2F0001-98",
+  "signatureMetadata": {
+    "ip": "187.10.122.223",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-28T19:59:21.960Z",
+    "signedAtLocal": "2026-10-28T16:59:21.960Z"
+  },
+  "documentHash": "5ff5a46addeb48196a2a5a69d1c2fa468fda43deb8838f2dbe4ce333b8f0398c",
   "auditTrail": [
     {
       "eventId": "2efedd1a-0644-4622-93f2-24e0f0aee6b5",
@@ -103,6 +111,49 @@
         "representante": "Jessica Santos Tedesco"
       },
       "eventHash": "9de836be23c362da0a9d412304837e29de1b66541609bb5cc3ccfefbeeecb51f"
+    },
+    {
+      "eventId": "05b8c7ee-e41a-4d75-9d83-6eeb90b0b67f",
+      "uid": "39.892.263/0001-98",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-28T19:58:39.547Z",
+      "timestampLocal": "2026-10-28T19:58:39.547Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.10.122.223",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=39.892.263%2F0001-98&nombre_proveedor_razon_social=The+Other+Way+LTDA&nombre_representante_legal=Jessica+Santos+Tedesco&email=nfs%40theotherway.com.br",
+      "previousEventHash": "9de836be23c362da0a9d412304837e29de1b66541609bb5cc3ccfefbeeecb51f",
+      "documentHash": "cd2f54424be46e537a3b26079006a6b7ed4e18ecbd411039c1e7776925c64200",
+      "eventHash": "66bae52f798102075c7b299a3af6a2fe06449905ab9e640d26e5abbb626df199"
+    },
+    {
+      "eventId": "a13ee3b0-a9e5-4973-a6a1-e25eaa6af446",
+      "uid": "39.892.263/0001-98",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-28T19:59:21.960Z",
+      "timestampLocal": "2026-10-28T16:59:21.960Z",
+      "timezone": "UTC-3",
+      "ipAddress": "187.10.122.223",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/728954fc-0731-4ff3-8957-b734fbc24b74",
+      "previousEventHash": "66bae52f798102075c7b299a3af6a2fe06449905ab9e640d26e5abbb626df199",
+      "documentHash": "5ff5a46addeb48196a2a5a69d1c2fa468fda43deb8838f2dbe4ce333b8f0398c",
+      "signatureHash": "73ee9f25e42e897f0903cecadddd88114ed535b583d003414b71120413066727",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-28T16:59:18.615Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "b2d22f5f39e54b1a85d11b25fb5cc91021b6b56d3339893cb6be30d6ff2ad15a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-28T19:59:22.297Z"
+  }
 }
