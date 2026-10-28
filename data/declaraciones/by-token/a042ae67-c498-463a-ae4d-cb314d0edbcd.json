@@ -3,7 +3,7 @@
   "declarationId": "702df6c1-787b-4b4e-907c-92d76270514e",
   "token": "a042ae67-c498-463a-ae4d-cb314d0edbcd",
   "createdAt": "2026-10-28T00:23:28.606Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IMAGENES DE GUADALAJARA SA DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JUAN CARLOS ALVAREZ DEL CASTILLO BARRAGAN",
     "email": "jacobo@informador.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ef504470e38ab699fd420854391dcf24106a37d4dcfb197374b5b87d2c504cf5",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-28T18:22:21.833Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/IGU970421BJ1",
+  "signatureMetadata": {
+    "ip": "148.245.26.240",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-28T18:22:25.178Z",
+    "signedAtLocal": "2026-10-28T12:22:25.178Z"
+  },
+  "documentHash": "1da342069403d6ce55eed0d7f424a68b51b0580ad0a7ad934225e68b6bae8f27",
   "auditTrail": [
     {
       "eventId": "568341d9-3c24-4db6-8871-3d601fd0a35e",
@@ -66,6 +74,64 @@
         "representante": "JUAN CARLOS ALVAREZ DEL CASTILLO BARRAGAN"
       },
       "eventHash": "f9aadb32b37156a7bce64885945a39469308f4a2c217435fb33bb6dd1236d2b5"
+    },
+    {
+      "eventId": "4356c727-da69-4f0e-9ded-7d44d1d514be",
+      "uid": "IGU970421BJ1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-28T00:23:42.346Z",
+      "timestampLocal": "2026-10-28T00:23:42.346Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.204.177.210",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=IGU970421BJ1&nombre_proveedor_razon_social=IMAGENES+DE+GUADALAJARA+SA+DE+CV&nombre_representante_legal=JUAN+CARLOS+ALVAREZ+DEL+CASTILLO+BARRAGAN&email=jacobo%40informador.com.mx",
+      "previousEventHash": "f9aadb32b37156a7bce64885945a39469308f4a2c217435fb33bb6dd1236d2b5",
+      "documentHash": "ef504470e38ab699fd420854391dcf24106a37d4dcfb197374b5b87d2c504cf5",
+      "eventHash": "c0d501ec29c7b58cf9a697d90933153ed206efea41dde7357b454a487385ad22"
+    },
+    {
+      "eventId": "89f66e1e-4e17-4689-b3a3-0a8fb8100bbc",
+      "uid": "IGU970421BJ1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-28T18:21:26.951Z",
+      "timestampLocal": "2026-10-28T18:21:26.951Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.245.26.240",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "c0d501ec29c7b58cf9a697d90933153ed206efea41dde7357b454a487385ad22",
+      "documentHash": "ef504470e38ab699fd420854391dcf24106a37d4dcfb197374b5b87d2c504cf5",
+      "eventHash": "64c7a2c7ccf9d3c25626779e86ce1005da8e8c059fc508d61435267bf9af6687"
+    },
+    {
+      "eventId": "8186ca76-e1bc-41fb-868f-377f2b5b4f3a",
+      "uid": "IGU970421BJ1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-28T18:22:25.178Z",
+      "timestampLocal": "2026-10-28T12:22:25.178Z",
+      "timezone": "UTC-6",
+      "ipAddress": "148.245.26.240",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/a042ae67-c498-463a-ae4d-cb314d0edbcd",
+      "previousEventHash": "64c7a2c7ccf9d3c25626779e86ce1005da8e8c059fc508d61435267bf9af6687",
+      "documentHash": "1da342069403d6ce55eed0d7f424a68b51b0580ad0a7ad934225e68b6bae8f27",
+      "signatureHash": "6396595b2a95892b3de656ce8f1a9e398356bc3033fbb24c3f453efed5970847",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-28T12:22:21.833Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "f3a470bae7ddab1ec498296b5544e450206dc14361496c704ca05796b8aa9f24"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-28T18:22:25.481Z"
+  }
 }
