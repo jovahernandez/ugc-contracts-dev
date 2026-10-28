@@ -3,8 +3,18 @@
   "declarationId": "3692e705-4785-4849-aef8-613e66183a0d",
   "token": "cfcef2cf-574b-4b04-ab49-0663d321cb37",
   "createdAt": "2026-10-28T20:31:17.448Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GABRIELA CLAUDINO DE SOBRAL LTDA",
+    "nombre_representante_legal": "GABRIELA CLAUDINO DE SOBRAL",
+    "email": "thais.ferreira@gruposoller.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GABRIELA CLAUDINO DE SOBRAL LTDA",
+    "nombre_representante_legal": "GABRIELA CLAUDINO DE SOBRAL",
+    "email": "thais.ferreira@gruposoller.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GABRIELA CLAUDINO DE SOBRAL LTDA",
     "nombre_representante_legal": "GABRIELA CLAUDINO DE SOBRAL",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "4a007a0cea873c9de8daf21248988bae2df826ec99437281922dc4a0cc45a7e6",
+  "auditTrail": [
+    {
+      "eventId": "e29ae82a-2936-4e95-8676-1a8999201dbd",
+      "uid": "48.271.281/0001-43",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-28T20:31:40.263Z",
+      "timestampLocal": "2026-10-28T20:31:40.263Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.142.47",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=48.271.281%2F0001-43&nombre_proveedor_razon_social=+GABRIELA+CLAUDINO+DE+SOBRAL+LTDA&nombre_representante_legal=+GABRIELA+CLAUDINO+DE+SOBRAL+&email=thais.ferreira%40gruposoller.com.br",
+      "previousEventHash": null,
+      "documentHash": "4a007a0cea873c9de8daf21248988bae2df826ec99437281922dc4a0cc45a7e6",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "00216022a58c5d3cfc346ab8182f0ea78903b59257cc6a731ff3e0ae90bb48f6"
+    },
+    {
+      "eventId": "3a0dbf6c-fc2d-4182-8d17-aa73ec55967d",
+      "uid": "48.271.281/0001-43",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-28T20:31:40.263Z",
+      "timestampLocal": "2026-10-28T20:31:40.263Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.142.47",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=48.271.281%2F0001-43&nombre_proveedor_razon_social=+GABRIELA+CLAUDINO+DE+SOBRAL+LTDA&nombre_representante_legal=+GABRIELA+CLAUDINO+DE+SOBRAL+&email=thais.ferreira%40gruposoller.com.br",
+      "previousEventHash": "00216022a58c5d3cfc346ab8182f0ea78903b59257cc6a731ff3e0ae90bb48f6",
+      "documentHash": "4a007a0cea873c9de8daf21248988bae2df826ec99437281922dc4a0cc45a7e6",
+      "metadata": {
+        "proveedor": "GABRIELA CLAUDINO DE SOBRAL LTDA",
+        "representante": "GABRIELA CLAUDINO DE SOBRAL"
+      },
+      "eventHash": "36858e3948bd4e84528555730c6b8f16f2a8ed8e3fcf4c8caa642d5f2145336d"
+    }
+  ]
 }
