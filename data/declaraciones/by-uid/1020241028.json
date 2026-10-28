@@ -3,8 +3,18 @@
   "declarationId": "ed970470-39d2-44bf-8dc1-7acf78793c9e",
   "token": "4ceaaf90-c48b-4d2f-b058-d5be4fff2d2d",
   "createdAt": "2026-10-28T17:06:35.167Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "COMUNICACIONES EL PAÍS S.A.",
+    "nombre_representante_legal": "DANNY FERNÁNDEZ ROCHA",
+    "email": "allave@la-razon.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "COMUNICACIONES EL PAÍS S.A.",
+    "nombre_representante_legal": "DANNY FERNÁNDEZ ROCHA",
+    "email": "allave@la-razon.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "COMUNICACIONES EL PAÍS S.A.",
     "nombre_representante_legal": "DANNY FERNÁNDEZ ROCHA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "e917db92979852e066370b2355e32c3d7a783cf41b8acd03f42c7024278f4624",
+  "auditTrail": [
+    {
+      "eventId": "2634623e-8cb5-4641-9854-8811f1e624c3",
+      "uid": "1020241028",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-28T17:06:45.683Z",
+      "timestampLocal": "2026-10-28T17:06:45.683Z",
+      "timezone": "UTC+0",
+      "ipAddress": "166.114.66.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1020241028&nombre_proveedor_razon_social=COMUNICACIONES+EL+PA%C3%8DS+S.A.+&nombre_representante_legal=DANNY+FERN%C3%81NDEZ+ROCHA+&email=allave%40la-razon.com",
+      "previousEventHash": null,
+      "documentHash": "e917db92979852e066370b2355e32c3d7a783cf41b8acd03f42c7024278f4624",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "940a55b03a94128be51a69ea0addfdb485c4dbde3ca605d43e24aa3cebca6608"
+    },
+    {
+      "eventId": "c03bfab3-3ae6-437e-8d58-7e0ff20568f1",
+      "uid": "1020241028",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-28T17:06:45.683Z",
+      "timestampLocal": "2026-10-28T17:06:45.683Z",
+      "timezone": "UTC+0",
+      "ipAddress": "166.114.66.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1020241028&nombre_proveedor_razon_social=COMUNICACIONES+EL+PA%C3%8DS+S.A.+&nombre_representante_legal=DANNY+FERN%C3%81NDEZ+ROCHA+&email=allave%40la-razon.com",
+      "previousEventHash": "940a55b03a94128be51a69ea0addfdb485c4dbde3ca605d43e24aa3cebca6608",
+      "documentHash": "e917db92979852e066370b2355e32c3d7a783cf41b8acd03f42c7024278f4624",
+      "metadata": {
+        "proveedor": "COMUNICACIONES EL PAÍS S.A.",
+        "representante": "DANNY FERNÁNDEZ ROCHA"
+      },
+      "eventHash": "52d607821ea291002cc0625b377f468f3f5f61b5498351fc2535ffa8fcaec110"
+    }
+  ]
 }
