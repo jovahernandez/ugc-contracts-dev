@@ -3,8 +3,18 @@
   "declarationId": "c870c96d-e1ae-4d7f-9e9d-1daf666f642b",
   "token": "90b7fedc-00f3-4a47-8cb9-4ef4df371701",
   "createdAt": "2026-10-28T00:43:26.096Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Sofia Pachano",
+    "nombre_representante_legal": "Sofia Pachano",
+    "email": "sofiapachano20@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Sofia Pachano",
+    "nombre_representante_legal": "Sofia Pachano",
+    "email": "sofiapachano20@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Sofia Pachano",
     "nombre_representante_legal": "Sofia Pachano",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "af9eb762c2b189f324f3c4104d1d744e1b45ebfb001f4e3c7074b6741f9699aa",
+  "auditTrail": [
+    {
+      "eventId": "844a297c-243f-47de-9f2c-76f44be83258",
+      "uid": "Sofia Pachano",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-28T00:43:42.896Z",
+      "timestampLocal": "2026-10-28T00:43:42.896Z",
+      "timezone": "UTC+0",
+      "ipAddress": "24.232.216.195",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "af9eb762c2b189f324f3c4104d1d744e1b45ebfb001f4e3c7074b6741f9699aa",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b68563b5a617a7de9997753c5436c34f42e962ec373083a7a2eabc00139f7623"
+    },
+    {
+      "eventId": "eb9ec2f8-2c86-44ef-9986-227cd48e2694",
+      "uid": "Sofia Pachano",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-28T00:43:42.896Z",
+      "timestampLocal": "2026-10-28T00:43:42.896Z",
+      "timezone": "UTC+0",
+      "ipAddress": "24.232.216.195",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "b68563b5a617a7de9997753c5436c34f42e962ec373083a7a2eabc00139f7623",
+      "documentHash": "af9eb762c2b189f324f3c4104d1d744e1b45ebfb001f4e3c7074b6741f9699aa",
+      "metadata": {
+        "proveedor": "Sofia Pachano",
+        "representante": "Sofia Pachano"
+      },
+      "eventHash": "d8bfa447990ce2cae183621a25015400591568d658d0a1927082755c074fddc0"
+    }
+  ]
 }
