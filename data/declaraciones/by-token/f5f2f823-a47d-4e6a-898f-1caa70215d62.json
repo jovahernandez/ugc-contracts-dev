@@ -3,8 +3,18 @@
   "declarationId": "ccc2af3e-e1b6-41a6-9609-e4fa99d3a7f5",
   "token": "f5f2f823-a47d-4e6a-898f-1caa70215d62",
   "createdAt": "2026-10-29T18:35:33.906Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "IN CREW BUSINESS",
+    "nombre_representante_legal": "José Leonardo Gonzáles del Toro",
+    "email": "leonardo@increw.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "IN CREW BUSINESS",
+    "nombre_representante_legal": "José Leonardo Gonzáles del Toro",
+    "email": "leonardo@increw.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "IN CREW BUSINESS",
     "nombre_representante_legal": "José Leonardo Gonzáles del Toro",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "0e9ab3132cea529a6344b064e8bd66b3e8d102576e1a355937ef3133885a85ff",
+  "auditTrail": [
+    {
+      "eventId": "87784290-f0df-417e-b6f9-33c643621623",
+      "uid": "ICB260217PC3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-29T18:35:41.008Z",
+      "timestampLocal": "2026-10-29T18:35:41.008Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.19.105",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ICB260217PC3&nombre_proveedor_razon_social=IN+CREW+BUSINESS&nombre_representante_legal=Jos%C3%A9+Leonardo+Gonz%C3%A1les+del+Toro+&email=leonardo%40increw.mx",
+      "previousEventHash": null,
+      "documentHash": "0e9ab3132cea529a6344b064e8bd66b3e8d102576e1a355937ef3133885a85ff",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ffd4c59cee93b3447903b9e0b5d99f605af801337eb58cb62241be48df9be7d2"
+    },
+    {
+      "eventId": "6fccd5d8-796e-4406-bb71-14c3aca3ca88",
+      "uid": "ICB260217PC3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-29T18:35:41.008Z",
+      "timestampLocal": "2026-10-29T18:35:41.008Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.19.105",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ICB260217PC3&nombre_proveedor_razon_social=IN+CREW+BUSINESS&nombre_representante_legal=Jos%C3%A9+Leonardo+Gonz%C3%A1les+del+Toro+&email=leonardo%40increw.mx",
+      "previousEventHash": "ffd4c59cee93b3447903b9e0b5d99f605af801337eb58cb62241be48df9be7d2",
+      "documentHash": "0e9ab3132cea529a6344b064e8bd66b3e8d102576e1a355937ef3133885a85ff",
+      "metadata": {
+        "proveedor": "IN CREW BUSINESS",
+        "representante": "José Leonardo Gonzáles del Toro"
+      },
+      "eventHash": "74ab5496e7f451882d9ae5fc22e0bf79569f1fc9914e0a579a70d7ca8e30f5f4"
+    }
+  ]
 }
