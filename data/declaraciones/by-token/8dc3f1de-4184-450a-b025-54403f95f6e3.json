@@ -3,7 +3,7 @@
   "declarationId": "ef248321-49bd-494a-8258-f66e38908816",
   "token": "8dc3f1de-4184-450a-b025-54403f95f6e3",
   "createdAt": "2026-10-29T19:06:11.654Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "MC SERVICOS LOGISTICO LTDA.",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Vinicius Santos",
     "email": "financeiro@mcprestacaodeservicos.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "34b0d9884b001a63264d4a6f5d72d1d38f6d85d661788e7320ba96cafc5fbba0",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-29T19:12:22.257Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/54.040.744%2F0001-69",
+  "signatureMetadata": {
+    "ip": "191.32.156.78",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-29T19:12:25.544Z",
+    "signedAtLocal": "2026-10-29T16:12:25.544Z"
+  },
+  "documentHash": "84217ef63e974b83758e069aac37d49c5f7df16cae3d3831e728815ae9806387",
   "auditTrail": [
     {
       "eventId": "5d3d469e-705c-4c8c-826a-8414add098d1",
@@ -140,6 +148,86 @@
         "representante": "Vinicius Santos"
       },
       "eventHash": "c30c58642f8aac8fe26d2343635712619dfb000752d78a44071127397fe0f454"
+    },
+    {
+      "eventId": "7411064e-c9b1-4be1-aa7b-d4855f8fbbde",
+      "uid": "54.040.744/0001-69",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-29T19:06:27.698Z",
+      "timestampLocal": "2026-10-29T19:06:27.698Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.32.156.78",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=54.040.744%2F0001-69&nombre_proveedor_razon_social=MC+SERVICOS+LOGISTICO+LTDA.&nombre_representante_legal=+Vinicius+Santos&email=financeiro%40mcprestacaodeservicos.com.br",
+      "previousEventHash": "c30c58642f8aac8fe26d2343635712619dfb000752d78a44071127397fe0f454",
+      "documentHash": "34b0d9884b001a63264d4a6f5d72d1d38f6d85d661788e7320ba96cafc5fbba0",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "d2da5256189c1b28fe1aa7b29b9fb6c12a7c0cc9665a1bc27996acca2500b0a1"
+    },
+    {
+      "eventId": "d3ccb7c8-79ef-4dc5-b715-2cb2d42aa2fd",
+      "uid": "54.040.744/0001-69",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-29T19:06:27.698Z",
+      "timestampLocal": "2026-10-29T19:06:27.698Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.32.156.78",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=54.040.744%2F0001-69&nombre_proveedor_razon_social=MC+SERVICOS+LOGISTICO+LTDA.&nombre_representante_legal=+Vinicius+Santos&email=financeiro%40mcprestacaodeservicos.com.br",
+      "previousEventHash": "d2da5256189c1b28fe1aa7b29b9fb6c12a7c0cc9665a1bc27996acca2500b0a1",
+      "documentHash": "34b0d9884b001a63264d4a6f5d72d1d38f6d85d661788e7320ba96cafc5fbba0",
+      "metadata": {
+        "proveedor": "MC SERVICOS LOGISTICO LTDA.",
+        "representante": "Vinicius Santos"
+      },
+      "eventHash": "cb2d8e104573303c32a002ed8498e03c868a8bc984727d3a19509dd8405a1ce9"
+    },
+    {
+      "eventId": "4286f72e-f820-4ab2-af87-f087c21ee3af",
+      "uid": "54.040.744/0001-69",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-29T19:06:30.387Z",
+      "timestampLocal": "2026-10-29T19:06:30.387Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.32.156.78",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=54.040.744%2F0001-69&nombre_proveedor_razon_social=MC+SERVICOS+LOGISTICO+LTDA.&nombre_representante_legal=+Vinicius+Santos&email=financeiro%40mcprestacaodeservicos.com.br",
+      "previousEventHash": "cb2d8e104573303c32a002ed8498e03c868a8bc984727d3a19509dd8405a1ce9",
+      "documentHash": "34b0d9884b001a63264d4a6f5d72d1d38f6d85d661788e7320ba96cafc5fbba0",
+      "eventHash": "afb0b8eadb31959b13bd718801cf23f8de3fa42dfc1da6c3aab1454c04dcab8a"
+    },
+    {
+      "eventId": "945f4d6d-63ac-4af4-8f03-afeec1bbe74c",
+      "uid": "54.040.744/0001-69",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-29T19:12:25.544Z",
+      "timestampLocal": "2026-10-29T16:12:25.544Z",
+      "timezone": "UTC-3",
+      "ipAddress": "191.32.156.78",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/8dc3f1de-4184-450a-b025-54403f95f6e3",
+      "previousEventHash": "afb0b8eadb31959b13bd718801cf23f8de3fa42dfc1da6c3aab1454c04dcab8a",
+      "documentHash": "84217ef63e974b83758e069aac37d49c5f7df16cae3d3831e728815ae9806387",
+      "signatureHash": "2cf164728ccccab9d498ccb234fa11a2652337de0e8b1bfef9edc5ebc833a7a8",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-29T16:12:22.257Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "d166963bdfbf7fad2f6386f5dda4dde1d83e6fbb4ce56fa3526c550b600f31dd"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 10,
+    "verifiedAt": "2026-10-29T19:12:25.780Z"
+  }
 }
