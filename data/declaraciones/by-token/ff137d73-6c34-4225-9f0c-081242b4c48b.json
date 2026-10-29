@@ -3,8 +3,18 @@
   "declarationId": "1f962999-1ba5-41a3-9b05-5ac8af174e05",
   "token": "ff137d73-6c34-4225-9f0c-081242b4c48b",
   "createdAt": "2026-10-29T20:02:39.938Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GABE ZANQUI ENTRETENIMENTO DIGITAL LTDA",
+    "nombre_representante_legal": "Gabriella Barbosa Zanqui de Macedo",
+    "email": "contato@gabezanqui.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GABE ZANQUI ENTRETENIMENTO DIGITAL LTDA",
+    "nombre_representante_legal": "Gabriella Barbosa Zanqui de Macedo",
+    "email": "contato@gabezanqui.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GABE ZANQUI ENTRETENIMENTO DIGITAL LTDA",
     "nombre_representante_legal": "Gabriella Barbosa Zanqui de Macedo",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d18ae173c704422e5520b025e3b05c090b0b10ef864ea50aea65c6cd7a1c0d1c",
+  "auditTrail": [
+    {
+      "eventId": "9586672c-cc90-4ae5-83bb-894b34ba4c81",
+      "uid": "33.789.833/0001-32",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-29T20:02:45.937Z",
+      "timestampLocal": "2026-10-29T20:02:45.937Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.172.68.246",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=33.789.833%2F0001-32&nombre_proveedor_razon_social=GABE+ZANQUI+ENTRETENIMENTO+DIGITAL+LTDA&nombre_representante_legal=Gabriella+Barbosa+Zanqui+de+Macedo&email=contato%40gabezanqui.com.br",
+      "previousEventHash": null,
+      "documentHash": "d18ae173c704422e5520b025e3b05c090b0b10ef864ea50aea65c6cd7a1c0d1c",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "7b328ce79f88ed4f0ce2e7e383a2d825ae56c0fee7621aac8e8ef41f41241682"
+    },
+    {
+      "eventId": "d09fb7fa-b808-4da9-9cb5-661fa006888b",
+      "uid": "33.789.833/0001-32",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-29T20:02:45.938Z",
+      "timestampLocal": "2026-10-29T20:02:45.938Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.172.68.246",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=33.789.833%2F0001-32&nombre_proveedor_razon_social=GABE+ZANQUI+ENTRETENIMENTO+DIGITAL+LTDA&nombre_representante_legal=Gabriella+Barbosa+Zanqui+de+Macedo&email=contato%40gabezanqui.com.br",
+      "previousEventHash": "7b328ce79f88ed4f0ce2e7e383a2d825ae56c0fee7621aac8e8ef41f41241682",
+      "documentHash": "d18ae173c704422e5520b025e3b05c090b0b10ef864ea50aea65c6cd7a1c0d1c",
+      "metadata": {
+        "proveedor": "GABE ZANQUI ENTRETENIMENTO DIGITAL LTDA",
+        "representante": "Gabriella Barbosa Zanqui de Macedo"
+      },
+      "eventHash": "c17ea018beda4a16bf4156b594fe01cf83dbf55dee3fe929e038a3b61b9cffca"
+    }
+  ]
 }
