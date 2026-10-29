@@ -3,8 +3,18 @@
   "declarationId": "187ef8c3-f6e8-412e-9bfe-7edb6f31d1a1",
   "token": "8d51c869-1c59-4a86-839a-17d4d7f0d6fe",
   "createdAt": "2026-10-29T14:37:19.738Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Julia Santos Tedesco",
+    "nombre_representante_legal": "Julia Santos Tedesco",
+    "email": "julia@theotherway.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Julia Santos Tedesco",
+    "nombre_representante_legal": "Julia Santos Tedesco",
+    "email": "julia@theotherway.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Julia Santos Tedesco",
     "nombre_representante_legal": "Julia Santos Tedesco",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "54ee73f1265ba9ca752b51c7c977dd611fa74dac3fb25e77fc012bec162a631c",
+  "auditTrail": [
+    {
+      "eventId": "8985d9c6-3789-4a86-b702-d8b823f5b0c2",
+      "uid": "31.314.722/0001-44",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-29T14:37:26.340Z",
+      "timestampLocal": "2026-10-29T14:37:26.340Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.10.125.238",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31.314.722%2F0001-44&nombre_proveedor_razon_social=Julia+Santos+Tedesco&nombre_representante_legal=Julia+Santos+Tedesco&email=julia%40theotherway.com.br",
+      "previousEventHash": null,
+      "documentHash": "54ee73f1265ba9ca752b51c7c977dd611fa74dac3fb25e77fc012bec162a631c",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "3205efc5f5923b4cb9011557a33eba7004954281f8d56ae531829a6ef12143f2"
+    },
+    {
+      "eventId": "5c322f34-fb71-432d-8332-ba2a92e1c69d",
+      "uid": "31.314.722/0001-44",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-29T14:37:26.341Z",
+      "timestampLocal": "2026-10-29T14:37:26.341Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.10.125.238",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31.314.722%2F0001-44&nombre_proveedor_razon_social=Julia+Santos+Tedesco&nombre_representante_legal=Julia+Santos+Tedesco&email=julia%40theotherway.com.br",
+      "previousEventHash": "3205efc5f5923b4cb9011557a33eba7004954281f8d56ae531829a6ef12143f2",
+      "documentHash": "54ee73f1265ba9ca752b51c7c977dd611fa74dac3fb25e77fc012bec162a631c",
+      "metadata": {
+        "proveedor": "Julia Santos Tedesco",
+        "representante": "Julia Santos Tedesco"
+      },
+      "eventHash": "ba692fa96d8c07683d8c35d56d674babf563e41390c927bfb376d265b3a4820d"
+    }
+  ]
 }
