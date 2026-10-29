@@ -3,8 +3,18 @@
   "declarationId": "7dbd823e-f533-4ed7-8742-aebd3293e08d",
   "token": "cc719dac-62eb-4db2-ab7e-8cd99f8da2d1",
   "createdAt": "2026-10-29T16:10:25.741Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JAVIER FERNANDO ZAMUDIO HERNANDEZ",
+    "nombre_representante_legal": "Javier Fernando Zamudio Hernández",
+    "email": "javierfernando64@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JAVIER FERNANDO ZAMUDIO HERNANDEZ",
+    "nombre_representante_legal": "Javier Fernando Zamudio Hernández",
+    "email": "javierfernando64@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "JAVIER FERNANDO ZAMUDIO HERNANDEZ",
     "nombre_representante_legal": "Javier Fernando Zamudio Hernández",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "7b443d311a671c3a85e94085c17f3d940f6f7613a341e96b0163747d546971ba",
+  "auditTrail": [
+    {
+      "eventId": "2692a7d1-7b9a-4bb1-a233-0d67a7db4b6e",
+      "uid": "ZAHJ000901SB1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-29T16:10:31.992Z",
+      "timestampLocal": "2026-10-29T16:10:31.992Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.105.152",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ZAHJ000901SB1&nombre_proveedor_razon_social=JAVIER+FERNANDO+ZAMUDIO+HERNANDEZ&nombre_representante_legal=Javier+Fernando+Zamudio+Hern%C3%A1ndez&email=javierfernando64%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "7b443d311a671c3a85e94085c17f3d940f6f7613a341e96b0163747d546971ba",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b4d47a19d7888fe05649238043215f7843da3e5d18c3e6e6b87ae769eed6da1b"
+    },
+    {
+      "eventId": "fa744328-91dc-482e-aa3d-d363d48b22c5",
+      "uid": "ZAHJ000901SB1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-29T16:10:31.993Z",
+      "timestampLocal": "2026-10-29T16:10:31.993Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.105.152",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ZAHJ000901SB1&nombre_proveedor_razon_social=JAVIER+FERNANDO+ZAMUDIO+HERNANDEZ&nombre_representante_legal=Javier+Fernando+Zamudio+Hern%C3%A1ndez&email=javierfernando64%40hotmail.com",
+      "previousEventHash": "b4d47a19d7888fe05649238043215f7843da3e5d18c3e6e6b87ae769eed6da1b",
+      "documentHash": "7b443d311a671c3a85e94085c17f3d940f6f7613a341e96b0163747d546971ba",
+      "metadata": {
+        "proveedor": "JAVIER FERNANDO ZAMUDIO HERNANDEZ",
+        "representante": "Javier Fernando Zamudio Hernández"
+      },
+      "eventHash": "2be007db25bfc20ace43f3ae5088c1cc0ffb4fbe07ed2f0be9d67062743e770c"
+    }
+  ]
 }
