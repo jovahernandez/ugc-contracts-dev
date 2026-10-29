@@ -3,8 +3,18 @@
   "declarationId": "71799f3c-e019-4dd0-ab60-4514d2ba3184",
   "token": "a3a6c6ab-a324-4bab-9bb4-6b142dd6a890",
   "createdAt": "2026-10-29T22:41:39.119Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JULIA MARÍA RODRÍGUEZ VARELA",
+    "nombre_representante_legal": "Julia María Rodríguez Varela",
+    "email": "juju_rova@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JULIA MARÍA RODRÍGUEZ VARELA",
+    "nombre_representante_legal": "Julia María Rodríguez Varela",
+    "email": "juju_rova@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "JULIA MARÍA RODRÍGUEZ VARELA",
     "nombre_representante_legal": "Julia María Rodríguez Varela",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8314f036ae623a4271ec0ca6d431bb2ea581a0d6684c9334dcfc14a8c2809f48",
+  "auditTrail": [
+    {
+      "eventId": "50865aed-eb97-4a31-8ec1-e66942a6e12c",
+      "uid": "ROVJ000311S78",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-29T22:41:45.646Z",
+      "timestampLocal": "2026-10-29T22:41:45.646Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.14.115",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "8314f036ae623a4271ec0ca6d431bb2ea581a0d6684c9334dcfc14a8c2809f48",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "69ca5158347146fad5cb24e8120888a24d504f9f254f56bb26746c884c3da4e4"
+    },
+    {
+      "eventId": "33b7730a-0b00-4b78-a735-56f1fa14c7e1",
+      "uid": "ROVJ000311S78",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-29T22:41:45.646Z",
+      "timestampLocal": "2026-10-29T22:41:45.646Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.14.115",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "69ca5158347146fad5cb24e8120888a24d504f9f254f56bb26746c884c3da4e4",
+      "documentHash": "8314f036ae623a4271ec0ca6d431bb2ea581a0d6684c9334dcfc14a8c2809f48",
+      "metadata": {
+        "proveedor": "JULIA MARÍA RODRÍGUEZ VARELA",
+        "representante": "Julia María Rodríguez Varela"
+      },
+      "eventHash": "4708aaa95670fa118d029c5edb6cc22ea06d97fbc9dc28674ff23a0d8f8977a2"
+    }
+  ]
 }
