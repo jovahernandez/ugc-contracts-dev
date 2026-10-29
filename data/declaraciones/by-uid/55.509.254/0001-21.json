@@ -3,7 +3,7 @@
   "declarationId": "4120b826-70f4-4ac7-9446-b3c72992b076",
   "token": "d34d42c3-1027-40ab-b1b4-21f2e649862c",
   "createdAt": "2026-10-29T17:31:36.810Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "Morais Eventos LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Elizangela Ribeiro Rodrigues",
     "email": "tiego@evomindeventos.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "693bf19e065f3c3b1ce12a1d77f0a309e8781dcd9bbbf6c7733ad6ab9d141d4b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-29T17:33:36.706Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/55.509.254%2F0001-21",
+  "signatureMetadata": {
+    "ip": "177.9.2.123",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+    "signedAtUtc": "2026-10-29T17:33:40.088Z",
+    "signedAtLocal": "2026-10-29T14:33:40.088Z"
+  },
+  "documentHash": "599ce141bd4922182ef4921246cc52ee5676a47dee8c3bfd50f585278afb8110",
   "auditTrail": [
     {
       "eventId": "87a877fb-15d4-49f1-b5be-5e73a3b8c72f",
@@ -66,6 +74,49 @@
         "representante": "Elizangela Ribeiro Rodrigues"
       },
       "eventHash": "66de391f0ae734338240291549db8127f04cb6a8b31872ec98f3aaa05d0b8bc6"
+    },
+    {
+      "eventId": "0716cb30-db1c-41b0-b69e-0af9f9b660c1",
+      "uid": "55.509.254/0001-21",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-29T17:31:47.975Z",
+      "timestampLocal": "2026-10-29T17:31:47.975Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.9.2.123",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=55.509.254%2F0001-21&nombre_proveedor_razon_social=Morais+Eventos+LTDA&nombre_representante_legal=Elizangela+Ribeiro+Rodrigues&email=tiego%40evomindeventos.com.br",
+      "previousEventHash": "66de391f0ae734338240291549db8127f04cb6a8b31872ec98f3aaa05d0b8bc6",
+      "documentHash": "693bf19e065f3c3b1ce12a1d77f0a309e8781dcd9bbbf6c7733ad6ab9d141d4b",
+      "eventHash": "6d6ec0a66ccb5b9fd1ee6d81d583464b28940a1b12c5862197f4ac60dd5faa4d"
+    },
+    {
+      "eventId": "d935cea1-fc6a-4fc4-b097-5d0a797c7c1e",
+      "uid": "55.509.254/0001-21",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-29T17:33:40.088Z",
+      "timestampLocal": "2026-10-29T14:33:40.088Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.9.2.123",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d34d42c3-1027-40ab-b1b4-21f2e649862c",
+      "previousEventHash": "6d6ec0a66ccb5b9fd1ee6d81d583464b28940a1b12c5862197f4ac60dd5faa4d",
+      "documentHash": "599ce141bd4922182ef4921246cc52ee5676a47dee8c3bfd50f585278afb8110",
+      "signatureHash": "7c60d8e3222267cc1df2a49a86c773dd6ec36dda02795ff1920949c48a662b36",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-29T14:33:36.706Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "44ea148f31c4d12062b6710469749256a71c448ef376c4294c9e1261ecb2ccca"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-10-29T17:33:40.321Z"
+  }
 }
