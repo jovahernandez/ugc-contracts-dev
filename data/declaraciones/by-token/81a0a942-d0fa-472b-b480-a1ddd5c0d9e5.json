@@ -3,7 +3,7 @@
   "declarationId": "1ae0ebbd-377a-4473-8078-fc964f58e442",
   "token": "81a0a942-d0fa-472b-b480-a1ddd5c0d9e5",
   "createdAt": "2026-10-29T00:28:35.312Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "Fernanda Ribas Produçoes Artisticas Ltda",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "PALOMA FIGUEIREDO DO AMARAL G MARQUEZ",
     "email": "financeiro2@frproducoes.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "084c1f9436e6423267a9a355c4999622bdf4697f93b094a8291ed7f93d204996",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-29T00:28:59.571Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/01.407.219%2F0001-72",
+  "signatureMetadata": {
+    "ip": "177.192.90.194",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-29T00:29:03.065Z",
+    "signedAtLocal": "2026-10-28T21:29:03.065Z"
+  },
+  "documentHash": "cbe9943961d5b29a9caf714f9e08f7d20bd17c688f75acd3d99100ce0fe254d0",
   "auditTrail": [
     {
       "eventId": "f7f6b90b-ff1d-4889-af02-1c10e3e4bf9b",
@@ -118,6 +126,49 @@
         "representante": "PALOMA FIGUEIREDO DO AMARAL G MARQUEZ"
       },
       "eventHash": "e0ee3d67d5e9cfc4ad05b88428ce710cdfad6405306bb8ee54d928f203e92ec2"
+    },
+    {
+      "eventId": "6bf6728b-fd5e-420a-bcd6-e4630c5ecb8e",
+      "uid": "01.407.219/0001-72",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-29T00:28:49.180Z",
+      "timestampLocal": "2026-10-29T00:28:49.180Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.192.90.194",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=01.407.219%2F0001-72&nombre_proveedor_razon_social=Fernanda+Ribas+Produ%C3%A7oes+Artisticas+Ltda&nombre_representante_legal=PALOMA+FIGUEIREDO+DO+AMARAL+G+MARQUEZ&email=financeiro2%40frproducoes.com.br",
+      "previousEventHash": "e0ee3d67d5e9cfc4ad05b88428ce710cdfad6405306bb8ee54d928f203e92ec2",
+      "documentHash": "084c1f9436e6423267a9a355c4999622bdf4697f93b094a8291ed7f93d204996",
+      "eventHash": "3ecf18a7b4de30723700b40a96e2cd14aba51d6658b8f9ed0a088c2a029c8269"
+    },
+    {
+      "eventId": "a4bb44bd-cc91-4b5d-afe4-72c6aec54ff3",
+      "uid": "01.407.219/0001-72",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-29T00:29:03.066Z",
+      "timestampLocal": "2026-10-28T21:29:03.066Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.192.90.194",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/81a0a942-d0fa-472b-b480-a1ddd5c0d9e5",
+      "previousEventHash": "3ecf18a7b4de30723700b40a96e2cd14aba51d6658b8f9ed0a088c2a029c8269",
+      "documentHash": "cbe9943961d5b29a9caf714f9e08f7d20bd17c688f75acd3d99100ce0fe254d0",
+      "signatureHash": "c44d44accad3393f135395de64574b8a45bce2c1e45623c2836a3c053969c8ac",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-28T21:28:59.571Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "a6e55bdd23ca48b804fe06fd124c1bbf8c757a3069139da55ad3e50488ecb461"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-10-29T00:29:03.345Z"
+  }
 }
