@@ -3,7 +3,7 @@
   "declarationId": "2f76e37f-b8a4-4c43-bf78-ad59a9a57f72",
   "token": "41ac89c7-29e7-48be-87c6-e331c430ce17",
   "createdAt": "2026-10-29T17:54:47.966Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "SATO RAHAL EMPREENDIMENTOS ARTÍSTICOS LTDA.",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Karina Sato Rahal de Abreu",
     "email": "atendimento@satorahal.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a9912e7fa8791746836a980af9af0b07117047ec56e4e807400747e6ccab62ca",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-29T18:12:16.294Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/05.670.895%2F0001-95",
+  "signatureMetadata": {
+    "ip": "177.26.254.146",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-29T18:12:19.639Z",
+    "signedAtLocal": "2026-10-29T15:12:19.639Z"
+  },
+  "documentHash": "3ea680088bfceae749793da76cabaffd7f783bc5b366e2dc8004a711da303117",
   "auditTrail": [
     {
       "eventId": "ccc471ef-b002-4a92-812e-7b907e57e9ab",
@@ -214,6 +222,86 @@
         "representante": "Karina Sato Rahal de Abreu"
       },
       "eventHash": "93480f33f6c7f03ea0568f1b03381a237f36ad4cc8ba0efd873297b24dc957d1"
+    },
+    {
+      "eventId": "04b0b7d2-2705-4a6e-8e82-c0f03f9f3b3e",
+      "uid": "05.670.895/0001-95",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-29T17:55:09.220Z",
+      "timestampLocal": "2026-10-29T17:55:09.220Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.26.254.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=05.670.895%2F0001-95&nombre_proveedor_razon_social=+SATO+RAHAL+EMPREENDIMENTOS+ART%C3%8DSTICOS+LTDA.&nombre_representante_legal=Karina+Sato+Rahal+de+Abreu&email=atendimento%40satorahal.com.br",
+      "previousEventHash": "93480f33f6c7f03ea0568f1b03381a237f36ad4cc8ba0efd873297b24dc957d1",
+      "documentHash": "a9912e7fa8791746836a980af9af0b07117047ec56e4e807400747e6ccab62ca",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "3254c4c3825e2898c3b2c71ce1cc0fe5cddcb70812dbb32bf6e9abcd58eadcfc"
+    },
+    {
+      "eventId": "b0ae6da4-0892-4285-a39b-54071a016050",
+      "uid": "05.670.895/0001-95",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-29T17:55:09.220Z",
+      "timestampLocal": "2026-10-29T17:55:09.220Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.26.254.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=05.670.895%2F0001-95&nombre_proveedor_razon_social=+SATO+RAHAL+EMPREENDIMENTOS+ART%C3%8DSTICOS+LTDA.&nombre_representante_legal=Karina+Sato+Rahal+de+Abreu&email=atendimento%40satorahal.com.br",
+      "previousEventHash": "3254c4c3825e2898c3b2c71ce1cc0fe5cddcb70812dbb32bf6e9abcd58eadcfc",
+      "documentHash": "a9912e7fa8791746836a980af9af0b07117047ec56e4e807400747e6ccab62ca",
+      "metadata": {
+        "proveedor": "SATO RAHAL EMPREENDIMENTOS ARTÍSTICOS LTDA.",
+        "representante": "Karina Sato Rahal de Abreu"
+      },
+      "eventHash": "ce105eb80e3e2f85e683a9403013e4f589cdefcb948f862362926aa9706391a5"
+    },
+    {
+      "eventId": "d8b67690-642f-478f-8d35-b565069d4d8e",
+      "uid": "05.670.895/0001-95",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-29T17:55:14.015Z",
+      "timestampLocal": "2026-10-29T17:55:14.015Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.26.254.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "ce105eb80e3e2f85e683a9403013e4f589cdefcb948f862362926aa9706391a5",
+      "documentHash": "a9912e7fa8791746836a980af9af0b07117047ec56e4e807400747e6ccab62ca",
+      "eventHash": "eb5614a22ff4c033773854715387ddcb99bab477b31a5fd27fbe06b6731669a6"
+    },
+    {
+      "eventId": "baa3c86a-0dac-4a3e-8beb-48bd76e3a44d",
+      "uid": "05.670.895/0001-95",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-29T18:12:19.640Z",
+      "timestampLocal": "2026-10-29T15:12:19.640Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.26.254.146",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/41ac89c7-29e7-48be-87c6-e331c430ce17",
+      "previousEventHash": "eb5614a22ff4c033773854715387ddcb99bab477b31a5fd27fbe06b6731669a6",
+      "documentHash": "3ea680088bfceae749793da76cabaffd7f783bc5b366e2dc8004a711da303117",
+      "signatureHash": "9684ccb409e95848a66d0f00f4d6dec388ff99910498551d81d16edc196d3b03",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-29T15:12:16.294Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "46c99ec73afbe65723688b8f5d48a801ee336e439af2028ce7cd773bd4d4afb5"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 14,
+    "verifiedAt": "2026-10-29T18:12:19.828Z"
+  }
 }
