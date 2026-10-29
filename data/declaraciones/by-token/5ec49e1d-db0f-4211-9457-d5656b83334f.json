@@ -3,7 +3,7 @@
   "declarationId": "881f59d8-b8fc-4032-9b2b-fcc3561f7832",
   "token": "5ec49e1d-db0f-4211-9457-d5656b83334f",
   "createdAt": "2026-10-29T20:12:31.461Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "Coolab Agencia de Marketing Ltda.",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Kauê Lombardi",
     "email": "cristiane.silva@coolabdigital.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b312c577919d99101b2d8dfdc8a226f20208b7eb79bb990ad80b45bbeaa69f6c",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-29T20:13:08.656Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/31.588.850%2F0001-86",
+  "signatureMetadata": {
+    "ip": "187.102.176.9",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-29T20:13:12.890Z",
+    "signedAtLocal": "2026-10-29T17:13:12.890Z"
+  },
+  "documentHash": "e6590ebf3815ea8e27ab5dc022ef1a9c8279cfc9ed4a3454c881731ca8ff33e6",
   "auditTrail": [
     {
       "eventId": "758f7ed0-3bf0-4dcd-b843-689837e0929e",
@@ -362,6 +370,101 @@
         "representante": "Kauê Lombardi"
       },
       "eventHash": "aff8cbe546c53666e2f02fad2d0f87d051b701ab6ff8490705745b9f353f05ab"
+    },
+    {
+      "eventId": "d75623c8-4fc3-4848-8c90-fba7ea935bc4",
+      "uid": "31.588.850/0001-86",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-29T20:12:49.514Z",
+      "timestampLocal": "2026-10-29T20:12:49.514Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.102.176.9",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31.588.850%2F0001-86&nombre_proveedor_razon_social=Coolab+Agencia+de+Marketing+Ltda.&nombre_representante_legal=Kau%C3%AA+Lombardi&email=cristiane.silva%40coolabdigital.com",
+      "previousEventHash": "aff8cbe546c53666e2f02fad2d0f87d051b701ab6ff8490705745b9f353f05ab",
+      "documentHash": "b312c577919d99101b2d8dfdc8a226f20208b7eb79bb990ad80b45bbeaa69f6c",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "ea96fe98cfaee67104ab59109a709f01710ef9745730efacea916fa33d27ab29"
+    },
+    {
+      "eventId": "70411798-e549-4839-b5c5-5fc47d72b83e",
+      "uid": "31.588.850/0001-86",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-29T20:12:49.514Z",
+      "timestampLocal": "2026-10-29T20:12:49.514Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.102.176.9",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31.588.850%2F0001-86&nombre_proveedor_razon_social=Coolab+Agencia+de+Marketing+Ltda.&nombre_representante_legal=Kau%C3%AA+Lombardi&email=cristiane.silva%40coolabdigital.com",
+      "previousEventHash": "ea96fe98cfaee67104ab59109a709f01710ef9745730efacea916fa33d27ab29",
+      "documentHash": "b312c577919d99101b2d8dfdc8a226f20208b7eb79bb990ad80b45bbeaa69f6c",
+      "metadata": {
+        "proveedor": "Coolab Agencia de Marketing Ltda.",
+        "representante": "Kauê Lombardi"
+      },
+      "eventHash": "fef74ce8f13e43a9eaf39fb915c2238f3ea83fd92517d883d2f537b4b30fe530"
+    },
+    {
+      "eventId": "49ce59e4-4df6-4ecc-b436-10f59a27119a",
+      "uid": "31.588.850/0001-86",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-29T20:12:52.210Z",
+      "timestampLocal": "2026-10-29T20:12:52.210Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.102.176.9",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=31.588.850%2F0001-86&nombre_proveedor_razon_social=Coolab+Agencia+de+Marketing+Ltda.&nombre_representante_legal=Kau%C3%AA+Lombardi&email=cristiane.silva%40coolabdigital.com",
+      "previousEventHash": "fef74ce8f13e43a9eaf39fb915c2238f3ea83fd92517d883d2f537b4b30fe530",
+      "documentHash": "b312c577919d99101b2d8dfdc8a226f20208b7eb79bb990ad80b45bbeaa69f6c",
+      "eventHash": "54152c04311052ec876ad3f94cdd0ceca4635f7e5ef475333edf7eef9216a728"
+    },
+    {
+      "eventId": "b60b3c45-819a-45d4-9cee-5075ec14ea59",
+      "uid": "31.588.850/0001-86",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-29T20:12:56.986Z",
+      "timestampLocal": "2026-10-29T20:12:56.986Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.102.176.9",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "54152c04311052ec876ad3f94cdd0ceca4635f7e5ef475333edf7eef9216a728",
+      "documentHash": "b312c577919d99101b2d8dfdc8a226f20208b7eb79bb990ad80b45bbeaa69f6c",
+      "eventHash": "fda1af3fa68991479a021e9f405dc23a8cfa231f57b279a859a7ad5f4c9adbd3"
+    },
+    {
+      "eventId": "8df7b44b-5268-4d85-8504-fe370872e7cc",
+      "uid": "31.588.850/0001-86",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-29T20:13:12.890Z",
+      "timestampLocal": "2026-10-29T17:13:12.890Z",
+      "timezone": "UTC-3",
+      "ipAddress": "187.102.176.9",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/5ec49e1d-db0f-4211-9457-d5656b83334f",
+      "previousEventHash": "fda1af3fa68991479a021e9f405dc23a8cfa231f57b279a859a7ad5f4c9adbd3",
+      "documentHash": "e6590ebf3815ea8e27ab5dc022ef1a9c8279cfc9ed4a3454c881731ca8ff33e6",
+      "signatureHash": "854308c4d4ec26654aa5cbf8d5ffbab7ac8d10a3adcf5f7f4c53ba44ae31f7bb",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-29T17:13:08.656Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "fe6281c79796a9c52343c76eeb503627c71ff90aeed512ff9b058d2dd76f1fa5"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 23,
+    "verifiedAt": "2026-10-29T20:13:13.197Z"
+  }
 }
