@@ -3,8 +3,18 @@
   "declarationId": "4834c987-d9a7-4e4d-9eba-4c6e98609c41",
   "token": "d9715d8b-3693-4919-8c4b-6a40080ac750",
   "createdAt": "2026-10-29T16:32:03.822Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GRUPO LA REPUBLICA PUBLICACIONES SA",
+    "nombre_representante_legal": "Abdala Rubén Ahomed Chavez",
+    "email": "erika.ramos@glr.pe"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GRUPO LA REPUBLICA PUBLICACIONES SA",
+    "nombre_representante_legal": "Abdala Rubén Ahomed Chavez",
+    "email": "erika.ramos@glr.pe"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GRUPO LA REPUBLICA PUBLICACIONES SA",
     "nombre_representante_legal": "Abdala Rubén Ahomed Chavez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "54e6bb0bf77716ffdc064802177d13e1f89ddf3d01538b32af57a2350190b544",
+  "auditTrail": [
+    {
+      "eventId": "ce0d7897-f898-46de-897f-986a3a7381ce",
+      "uid": "20517374661",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-29T16:32:49.135Z",
+      "timestampLocal": "2026-10-29T16:32:49.135Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.214.83.83",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20517374661&nombre_proveedor_razon_social=GRUPO+LA+REPUBLICA+PUBLICACIONES+SA&nombre_representante_legal=Abdala+Rub%C3%A9n+Ahomed+Chavez&email=erika.ramos%40glr.pe",
+      "previousEventHash": null,
+      "documentHash": "54e6bb0bf77716ffdc064802177d13e1f89ddf3d01538b32af57a2350190b544",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b90bad755ed1ad9764a1917041f46405451a0e9a769eb1e788f10ac22053a771"
+    },
+    {
+      "eventId": "47b0da37-604a-496e-821d-127be554d47f",
+      "uid": "20517374661",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-29T16:32:49.135Z",
+      "timestampLocal": "2026-10-29T16:32:49.135Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.214.83.83",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20517374661&nombre_proveedor_razon_social=GRUPO+LA+REPUBLICA+PUBLICACIONES+SA&nombre_representante_legal=Abdala+Rub%C3%A9n+Ahomed+Chavez&email=erika.ramos%40glr.pe",
+      "previousEventHash": "b90bad755ed1ad9764a1917041f46405451a0e9a769eb1e788f10ac22053a771",
+      "documentHash": "54e6bb0bf77716ffdc064802177d13e1f89ddf3d01538b32af57a2350190b544",
+      "metadata": {
+        "proveedor": "GRUPO LA REPUBLICA PUBLICACIONES SA",
+        "representante": "Abdala Rubén Ahomed Chavez"
+      },
+      "eventHash": "3f1d1970c06b17c7c7991bd20d00502f4050e496e14817e3e52f78975ae57fa9"
+    }
+  ]
 }
