@@ -3,7 +3,7 @@
   "declarationId": "7dbd823e-f533-4ed7-8742-aebd3293e08d",
   "token": "cc719dac-62eb-4db2-ab7e-8cd99f8da2d1",
   "createdAt": "2026-10-29T16:10:25.741Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JAVIER FERNANDO ZAMUDIO HERNANDEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Javier Fernando Zamudio Hernández",
     "email": "javierfernando64@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e79fccd68f72c9b9cb0bf77987210f4b70d041b3036e2d8f86b32715e77cb543",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-29T16:10:50.760Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ZAHJ000901SB1",
+  "signatureMetadata": {
+    "ip": "189.203.105.152",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-10-29T16:10:54.090Z",
+    "signedAtLocal": "2026-10-29T10:10:54.090Z"
+  },
+  "documentHash": "ea96e5b1bb8aa4e715ac0e2c642af7bcf4a27e87e6be7fedcaf5ab6aea1baf76",
   "auditTrail": [
     {
       "eventId": "2692a7d1-7b9a-4bb1-a233-0d67a7db4b6e",
@@ -103,6 +111,49 @@
         "representante": "Javier Fernando Zamudio Hernández"
       },
       "eventHash": "d2cd98ecbd7f2e3d751520d6f0a2694b0ae1e420598b495361a3cd011ffac9c2"
+    },
+    {
+      "eventId": "72a0e90c-9f3d-483f-8ca3-853e405d9ee0",
+      "uid": "ZAHJ000901SB1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-29T16:10:39.668Z",
+      "timestampLocal": "2026-10-29T16:10:39.668Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.105.152",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ZAHJ000901SB1&nombre_proveedor_razon_social=JAVIER+FERNANDO+ZAMUDIO+HERNANDEZ&nombre_representante_legal=Javier+Fernando+Zamudio+Hern%C3%A1ndez&email=javierfernando64%40hotmail.com",
+      "previousEventHash": "d2cd98ecbd7f2e3d751520d6f0a2694b0ae1e420598b495361a3cd011ffac9c2",
+      "documentHash": "e79fccd68f72c9b9cb0bf77987210f4b70d041b3036e2d8f86b32715e77cb543",
+      "eventHash": "64f25fc8866800218f22c3df5160efda8d383b2a2942e30b4350090035fb6921"
+    },
+    {
+      "eventId": "16e5c411-cdef-4789-b9a5-d6182b52675a",
+      "uid": "ZAHJ000901SB1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-29T16:10:54.091Z",
+      "timestampLocal": "2026-10-29T10:10:54.091Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.105.152",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/cc719dac-62eb-4db2-ab7e-8cd99f8da2d1",
+      "previousEventHash": "64f25fc8866800218f22c3df5160efda8d383b2a2942e30b4350090035fb6921",
+      "documentHash": "ea96e5b1bb8aa4e715ac0e2c642af7bcf4a27e87e6be7fedcaf5ab6aea1baf76",
+      "signatureHash": "68e70a1e03c927fbff6a486ec91e7544e941b251211d307ee75be520fd65547d",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-29T10:10:50.760Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "541fc5e5ad54892b8c9f0e8b6292045fb45462e998cc6eef58dbdfa59ec6935d"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-29T16:10:54.374Z"
+  }
 }
