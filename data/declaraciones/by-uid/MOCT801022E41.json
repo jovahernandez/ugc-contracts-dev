@@ -3,8 +3,18 @@
   "declarationId": "5cb7d793-a635-43ad-9b77-4dd652e73348",
   "token": "4d779f64-4d84-405d-8bb6-404b3335c255",
   "createdAt": "2026-10-29T19:41:14.321Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "TAYDE MUSMEED MONTERROSAS CASTILLO",
+    "nombre_representante_legal": "TAYDE MUSMEED MONTERROSAS CASTILLO",
+    "email": "jfernandoibarra@yahoo.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "TAYDE MUSMEED MONTERROSAS CASTILLO",
+    "nombre_representante_legal": "TAYDE MUSMEED MONTERROSAS CASTILLO",
+    "email": "jfernandoibarra@yahoo.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "TAYDE MUSMEED MONTERROSAS CASTILLO",
     "nombre_representante_legal": "TAYDE MUSMEED MONTERROSAS CASTILLO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d69e161d81a5393c98494eb7875b86ed48221f2107f4d5a6ed21a10be5a84300",
+  "auditTrail": [
+    {
+      "eventId": "39e2190a-8538-4b7c-b42f-c880c0860c2a",
+      "uid": "MOCT801022E41",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-29T19:41:28.519Z",
+      "timestampLocal": "2026-10-29T19:41:28.519Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.223.59",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MOCT801022E41&nombre_proveedor_razon_social=TAYDE+MUSMEED+MONTERROSAS+CASTILLO&nombre_representante_legal=TAYDE+MUSMEED+MONTERROSAS+CASTILLO&email=jfernandoibarra%40yahoo.com.mx",
+      "previousEventHash": null,
+      "documentHash": "d69e161d81a5393c98494eb7875b86ed48221f2107f4d5a6ed21a10be5a84300",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "67f5653daddac976b8a4de6cec9d5182d00a7d39ee1dffff078fd5dde12f8ea1"
+    },
+    {
+      "eventId": "a7120882-66c3-4679-bf9b-d18816390c95",
+      "uid": "MOCT801022E41",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-29T19:41:28.519Z",
+      "timestampLocal": "2026-10-29T19:41:28.519Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.223.59",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MOCT801022E41&nombre_proveedor_razon_social=TAYDE+MUSMEED+MONTERROSAS+CASTILLO&nombre_representante_legal=TAYDE+MUSMEED+MONTERROSAS+CASTILLO&email=jfernandoibarra%40yahoo.com.mx",
+      "previousEventHash": "67f5653daddac976b8a4de6cec9d5182d00a7d39ee1dffff078fd5dde12f8ea1",
+      "documentHash": "d69e161d81a5393c98494eb7875b86ed48221f2107f4d5a6ed21a10be5a84300",
+      "metadata": {
+        "proveedor": "TAYDE MUSMEED MONTERROSAS CASTILLO",
+        "representante": "TAYDE MUSMEED MONTERROSAS CASTILLO"
+      },
+      "eventHash": "c22152beeb58726fccdb919f9ce690e706edea3988074cee996bbdefeb47700c"
+    }
+  ]
 }
