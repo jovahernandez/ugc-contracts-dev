@@ -3,8 +3,18 @@
   "declarationId": "0868386c-7ba4-4188-9d03-a5fc43e735cb",
   "token": "04ecbb2d-c02f-4e8f-9f6a-b16a92feea72",
   "createdAt": "2026-10-30T18:47:24.745Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ZUKERAM FILMES LTDA",
+    "nombre_representante_legal": "Thalita Sayuri dos Santos Zukeram",
+    "email": "rose@twolostkids.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ZUKERAM FILMES LTDA",
+    "nombre_representante_legal": "Thalita Sayuri dos Santos Zukeram",
+    "email": "rose@twolostkids.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ZUKERAM FILMES LTDA",
     "nombre_representante_legal": "Thalita Sayuri dos Santos Zukeram",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a908b502fee17392663c8a015700a3b8bf3ff92e2db2fa17bff23fb252399999",
+  "auditTrail": [
+    {
+      "eventId": "6eb59f93-b1b7-4627-9332-ff6e760f6074",
+      "uid": "28.334.343/0001-01",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-30T18:47:31.408Z",
+      "timestampLocal": "2026-10-30T18:47:31.408Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.77.226.99",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "a908b502fee17392663c8a015700a3b8bf3ff92e2db2fa17bff23fb252399999",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "474058b07699b68786921ea4f48cfa845d25e9f80d6da9cb6397a944aead5d07"
+    },
+    {
+      "eventId": "1cbc34fa-502c-4ae6-8c21-1ae865672f35",
+      "uid": "28.334.343/0001-01",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-30T18:47:31.408Z",
+      "timestampLocal": "2026-10-30T18:47:31.408Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.77.226.99",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "474058b07699b68786921ea4f48cfa845d25e9f80d6da9cb6397a944aead5d07",
+      "documentHash": "a908b502fee17392663c8a015700a3b8bf3ff92e2db2fa17bff23fb252399999",
+      "metadata": {
+        "proveedor": "ZUKERAM FILMES LTDA",
+        "representante": "Thalita Sayuri dos Santos Zukeram"
+      },
+      "eventHash": "8dadf99d5612734702a1ea7da39cdc17b9f5607ba21b6807b5d9786b55db1333"
+    }
+  ]
 }
