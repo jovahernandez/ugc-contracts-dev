@@ -3,8 +3,18 @@
   "declarationId": "55a252b1-7c68-4fc6-913a-0adfb3c5dcc5",
   "token": "a0fe5793-57b6-4d78-9f47-52f99c184efd",
   "createdAt": "2026-10-30T19:25:21.610Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "BUDA ENTERTAINMENT SAS",
+    "nombre_representante_legal": "Monica Zenid Lopera Muñoz",
+    "email": "administracion@budaentertainment.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "BUDA ENTERTAINMENT SAS",
+    "nombre_representante_legal": "Monica Zenid Lopera Muñoz",
+    "email": "administracion@budaentertainment.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "BUDA ENTERTAINMENT SAS",
     "nombre_representante_legal": "Monica Zenid Lopera Muñoz",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "5f3ff4a32fd1a5888a86c627ae1fb2e22c824c3ed7bda2326b7d094e70a1eec5",
+  "auditTrail": [
+    {
+      "eventId": "2f40af14-247f-4dd0-aab6-43f1e65206f9",
+      "uid": "901585263",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-30T19:25:27.264Z",
+      "timestampLocal": "2026-10-30T19:25:27.264Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.238.182.79",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901585263&nombre_proveedor_razon_social=BUDA+ENTERTAINMENT+SAS&nombre_representante_legal=Monica+Zenid+Lopera+Mu%C3%B1oz&email=administracion%40budaentertainment.com",
+      "previousEventHash": null,
+      "documentHash": "5f3ff4a32fd1a5888a86c627ae1fb2e22c824c3ed7bda2326b7d094e70a1eec5",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4deb1807d329d59fc7ebca9cc13932fd57ed9dcb4136e98e4eef1ac2fe76c89f"
+    },
+    {
+      "eventId": "e2ae0268-53bf-430d-bf56-2117ebb8db5d",
+      "uid": "901585263",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-30T19:25:27.265Z",
+      "timestampLocal": "2026-10-30T19:25:27.265Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.238.182.79",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=901585263&nombre_proveedor_razon_social=BUDA+ENTERTAINMENT+SAS&nombre_representante_legal=Monica+Zenid+Lopera+Mu%C3%B1oz&email=administracion%40budaentertainment.com",
+      "previousEventHash": "4deb1807d329d59fc7ebca9cc13932fd57ed9dcb4136e98e4eef1ac2fe76c89f",
+      "documentHash": "5f3ff4a32fd1a5888a86c627ae1fb2e22c824c3ed7bda2326b7d094e70a1eec5",
+      "metadata": {
+        "proveedor": "BUDA ENTERTAINMENT SAS",
+        "representante": "Monica Zenid Lopera Muñoz"
+      },
+      "eventHash": "362f39ec59aaf8d1127794f72d2eb06d00f485dafd8c25258dd2c0c1a1447fcc"
+    }
+  ]
 }
