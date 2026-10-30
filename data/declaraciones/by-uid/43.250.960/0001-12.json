@@ -3,7 +3,7 @@
   "declarationId": "6cacc552-2e9b-45f6-a1e1-58b2235a4df1",
   "token": "d430bc1e-d810-4590-a15a-936858f5140c",
   "createdAt": "2026-10-30T19:14:21.216Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "ROSEANNE ALVES LOPES DA SILVA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Roseanne Alves Lopes da Silva",
     "email": "leandra.financeiro@wehaveagency.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "513a03974167fee7e4c7f3216212143a4e5165af7425a8e1c955b0fe5bda742e",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-30T19:14:54.448Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/43.250.960%2F0001-12",
+  "signatureMetadata": {
+    "ip": "181.77.226.99",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-10-30T19:15:00.094Z",
+    "signedAtLocal": "2026-10-30T16:15:00.094Z"
+  },
+  "documentHash": "a22798b15a210c355fab88f0fbba62c6af9dd7c2c72f5d537e269642b5f1f054",
   "auditTrail": [
     {
       "eventId": "04e59873-6d28-400a-83f9-b266d1bc652c",
@@ -140,6 +148,49 @@
         "representante": "Roseanne Alves Lopes da Silva"
       },
       "eventHash": "856f89edd0e60a28bdba7e30767081fbd94e832e3494463acbe49948d278574f"
+    },
+    {
+      "eventId": "5608f577-a5a9-4c5f-a227-2d552a10ca76",
+      "uid": "43.250.960/0001-12",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-30T19:14:39.154Z",
+      "timestampLocal": "2026-10-30T19:14:39.154Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.77.226.99",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "856f89edd0e60a28bdba7e30767081fbd94e832e3494463acbe49948d278574f",
+      "documentHash": "513a03974167fee7e4c7f3216212143a4e5165af7425a8e1c955b0fe5bda742e",
+      "eventHash": "a439b01c55687ab08e98f8544f57dad576516c41873ff2dc23dbdcc612edb4a1"
+    },
+    {
+      "eventId": "0cc9aeb8-1cef-4a59-8c95-5e51a2bfeb95",
+      "uid": "43.250.960/0001-12",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-30T19:15:00.095Z",
+      "timestampLocal": "2026-10-30T16:15:00.095Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.77.226.99",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a439b01c55687ab08e98f8544f57dad576516c41873ff2dc23dbdcc612edb4a1",
+      "documentHash": "a22798b15a210c355fab88f0fbba62c6af9dd7c2c72f5d537e269642b5f1f054",
+      "signatureHash": "de6f73572debe4b099a8aa078100e77beaa299a077bea7361bd49d5e501bf8e2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-30T16:14:54.448Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "56cbfddcb38db2041b20f21aba6db96e14f5736288bd25a60b151ccd91082342"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-10-30T19:15:00.497Z"
+  }
 }
