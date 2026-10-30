@@ -3,8 +3,18 @@
   "declarationId": "41758181-957b-4b7e-875f-6bf13a604f1c",
   "token": "86db9db9-3a75-4a94-9c95-b086cd0673fb",
   "createdAt": "2026-10-30T18:03:29.672Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "FRAN PRODUCOES ARTISTICAS E PUBLICIDADE LTDA",
+    "nombre_representante_legal": "Julia Francine de Paula Oliveira",
+    "email": "oifrancinek@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "FRAN PRODUCOES ARTISTICAS E PUBLICIDADE LTDA",
+    "nombre_representante_legal": "Julia Francine de Paula Oliveira",
+    "email": "oifrancinek@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "FRAN PRODUCOES ARTISTICAS E PUBLICIDADE LTDA",
     "nombre_representante_legal": "Julia Francine de Paula Oliveira",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "b0a65d450450977a9ad06a316e304dc8aafa3bf1d6140d8fb351e1406c755d7f",
+  "auditTrail": [
+    {
+      "eventId": "0494239f-26aa-4f8b-98f6-088664c82f37",
+      "uid": "39.547.754/0001-00",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-30T18:03:37.462Z",
+      "timestampLocal": "2026-10-30T18:03:37.462Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.208.46.66",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=39.547.754%2F0001-00&nombre_proveedor_razon_social=FRAN+PRODUCOES+ARTISTICAS+E+PUBLICIDADE+LTDA&nombre_representante_legal=Julia+Francine+de+Paula+Oliveira&email=oifrancinek%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "b0a65d450450977a9ad06a316e304dc8aafa3bf1d6140d8fb351e1406c755d7f",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "d6326d64e03370c176d4251a8cab78a39baab2ba149ca02d84297ee7a93c0572"
+    },
+    {
+      "eventId": "65c103dd-4191-4568-8584-11735034d428",
+      "uid": "39.547.754/0001-00",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-30T18:03:37.462Z",
+      "timestampLocal": "2026-10-30T18:03:37.462Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.208.46.66",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=39.547.754%2F0001-00&nombre_proveedor_razon_social=FRAN+PRODUCOES+ARTISTICAS+E+PUBLICIDADE+LTDA&nombre_representante_legal=Julia+Francine+de+Paula+Oliveira&email=oifrancinek%40gmail.com",
+      "previousEventHash": "d6326d64e03370c176d4251a8cab78a39baab2ba149ca02d84297ee7a93c0572",
+      "documentHash": "b0a65d450450977a9ad06a316e304dc8aafa3bf1d6140d8fb351e1406c755d7f",
+      "metadata": {
+        "proveedor": "FRAN PRODUCOES ARTISTICAS E PUBLICIDADE LTDA",
+        "representante": "Julia Francine de Paula Oliveira"
+      },
+      "eventHash": "e5bc2c8ce3719fbece7d0d13f740262b76306f28e16d4073e0e0257a871eaab6"
+    }
+  ]
 }
