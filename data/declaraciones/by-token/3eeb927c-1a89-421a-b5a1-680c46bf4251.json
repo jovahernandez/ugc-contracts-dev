@@ -3,8 +3,18 @@
   "declarationId": "ef9e0956-7c18-4dc7-af16-9bd91e883273",
   "token": "3eeb927c-1a89-421a-b5a1-680c46bf4251",
   "createdAt": "2026-10-30T18:17:16.889Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "FRONTALL MEDIA",
+    "nombre_representante_legal": "GUILLERMO HERIBERTO ARRIAGA DIAZ",
+    "email": "memo@frontallmedia.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "FRONTALL MEDIA",
+    "nombre_representante_legal": "GUILLERMO HERIBERTO ARRIAGA DIAZ",
+    "email": "memo@frontallmedia.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "FRONTALL MEDIA",
     "nombre_representante_legal": "GUILLERMO HERIBERTO ARRIAGA DIAZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "3ae78ae554ba0dfddeef53526ed2cdf419a922051a3ca6f7eca190995652bae5",
+  "auditTrail": [
+    {
+      "eventId": "c4821436-8537-4af1-90d1-ab5c44c1bd4b",
+      "uid": "FME2308097W9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-30T18:17:26.491Z",
+      "timestampLocal": "2026-10-30T18:17:26.491Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.99.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FME2308097W9&nombre_proveedor_razon_social=FRONTALL+MEDIA&nombre_representante_legal=GUILLERMO+HERIBERTO+ARRIAGA+DIAZ&email=memo%40frontallmedia.com",
+      "previousEventHash": null,
+      "documentHash": "3ae78ae554ba0dfddeef53526ed2cdf419a922051a3ca6f7eca190995652bae5",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9a1e5d298a57e1f7759a7b1133095fc9695df2c4c16a6a0f934f70e94913be43"
+    },
+    {
+      "eventId": "8b9465e5-9544-4f5c-9373-02b68628e2b6",
+      "uid": "FME2308097W9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-30T18:17:26.491Z",
+      "timestampLocal": "2026-10-30T18:17:26.491Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.99.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FME2308097W9&nombre_proveedor_razon_social=FRONTALL+MEDIA&nombre_representante_legal=GUILLERMO+HERIBERTO+ARRIAGA+DIAZ&email=memo%40frontallmedia.com",
+      "previousEventHash": "9a1e5d298a57e1f7759a7b1133095fc9695df2c4c16a6a0f934f70e94913be43",
+      "documentHash": "3ae78ae554ba0dfddeef53526ed2cdf419a922051a3ca6f7eca190995652bae5",
+      "metadata": {
+        "proveedor": "FRONTALL MEDIA",
+        "representante": "GUILLERMO HERIBERTO ARRIAGA DIAZ"
+      },
+      "eventHash": "0c4c25f7fff122f1680ea615ccefa1236b477b2a298afe93038bebf8803d7394"
+    }
+  ]
 }
