@@ -3,8 +3,18 @@
   "declarationId": "6cacc552-2e9b-45f6-a1e1-58b2235a4df1",
   "token": "d430bc1e-d810-4590-a15a-936858f5140c",
   "createdAt": "2026-10-30T19:14:21.216Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ROSEANNE ALVES LOPES DA SILVA",
+    "nombre_representante_legal": "Roseanne Alves Lopes da Silva",
+    "email": "leandra.financeiro@wehaveagency.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ROSEANNE ALVES LOPES DA SILVA",
+    "nombre_representante_legal": "Roseanne Alves Lopes da Silva",
+    "email": "leandra.financeiro@wehaveagency.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ROSEANNE ALVES LOPES DA SILVA",
     "nombre_representante_legal": "Roseanne Alves Lopes da Silva",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "1fa3dfdd9410da06a401e5ae946d10121d19e7baad5275572f2ced6a338b5ada",
+  "auditTrail": [
+    {
+      "eventId": "04e59873-6d28-400a-83f9-b266d1bc652c",
+      "uid": "43.250.960/0001-12",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-30T19:14:28.220Z",
+      "timestampLocal": "2026-10-30T19:14:28.220Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.77.226.99",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "1fa3dfdd9410da06a401e5ae946d10121d19e7baad5275572f2ced6a338b5ada",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "0fd4f8ce5b2327e26b0d5a2c4f4af92341535d719ace7cadbb232750a407da70"
+    },
+    {
+      "eventId": "62fe3ad7-f3e3-4fe1-8c56-44d16a64a1f3",
+      "uid": "43.250.960/0001-12",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-30T19:14:28.220Z",
+      "timestampLocal": "2026-10-30T19:14:28.220Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.77.226.99",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "0fd4f8ce5b2327e26b0d5a2c4f4af92341535d719ace7cadbb232750a407da70",
+      "documentHash": "1fa3dfdd9410da06a401e5ae946d10121d19e7baad5275572f2ced6a338b5ada",
+      "metadata": {
+        "proveedor": "ROSEANNE ALVES LOPES DA SILVA",
+        "representante": "Roseanne Alves Lopes da Silva"
+      },
+      "eventHash": "98bb5079bb01d2ac7c95c010c803761ab1a4c4d901a087492592bdf21f101cce"
+    }
+  ]
 }
