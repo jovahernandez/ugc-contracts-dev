@@ -3,8 +3,18 @@
   "declarationId": "d99b2128-d27e-4104-b2a5-227a5d023e1c",
   "token": "effe43aa-2ec4-4db0-9af6-1ac725d7f5cb",
   "createdAt": "2026-10-30T12:55:45.668Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Camila Rodríguez",
+    "nombre_representante_legal": "Camila Rodríguez",
+    "email": "camilarodriguez782@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Camila Rodríguez",
+    "nombre_representante_legal": "Camila Rodríguez",
+    "email": "camilarodriguez782@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Camila Rodríguez",
     "nombre_representante_legal": "Camila Rodríguez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d933fa348fd3f965c6d903290fabfec2d8169b2ee4bc9bc98b30bf1970dacb89",
+  "auditTrail": [
+    {
+      "eventId": "b3490767-dc0c-4355-a952-619fe95544a7",
+      "uid": "19313274-K",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-30T12:55:54.278Z",
+      "timestampLocal": "2026-10-30T12:55:54.278Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.20.58.86",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "d933fa348fd3f965c6d903290fabfec2d8169b2ee4bc9bc98b30bf1970dacb89",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "375a967898179a138f05ef19e940e84fbcd138af88c76a450de2229e24e63f27"
+    },
+    {
+      "eventId": "5325ac79-f267-4616-925d-886476d01d9b",
+      "uid": "19313274-K",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-30T12:55:54.278Z",
+      "timestampLocal": "2026-10-30T12:55:54.278Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.20.58.86",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "375a967898179a138f05ef19e940e84fbcd138af88c76a450de2229e24e63f27",
+      "documentHash": "d933fa348fd3f965c6d903290fabfec2d8169b2ee4bc9bc98b30bf1970dacb89",
+      "metadata": {
+        "proveedor": "Camila Rodríguez",
+        "representante": "Camila Rodríguez"
+      },
+      "eventHash": "afeb56029922ecee35abcd9d048c4b0ad6e1b235ca56c7fcbc502bc08ffb6eae"
+    }
+  ]
 }
