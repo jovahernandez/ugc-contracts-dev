@@ -3,7 +3,7 @@
   "declarationId": "3ea908fd-8781-4252-b47f-b50ae1cd7f5a",
   "token": "843ab956-61a3-422a-847f-af360cb34877",
   "createdAt": "2026-10-27T22:19:11.635Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "BACKTEAM COLOMBIA SAS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JAIME EDUARDO DIAZ ARISTIZABAL",
     "email": "JDIAZ@BACKTEAM.CO"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "896d21eb41a915e68471712b40386b60b6d356d26979e7996312e765c02f0573",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-30T13:24:28.388Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/9012746081",
+  "signatureMetadata": {
+    "ip": "212.102.41.10",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15",
+    "signedAtUtc": "2026-10-30T13:24:31.695Z",
+    "signedAtLocal": "2026-10-30T07:24:31.695Z"
+  },
+  "documentHash": "06a770a9a3bb494f14d07ab968656301ecfc23139c6a71b137be38efb2e95335",
   "auditTrail": [
     {
       "eventId": "118cae89-4883-497d-80e9-731130c03490",
@@ -118,6 +126,64 @@
         "representante": "JAIME EDUARDO DIAZ ARISTIZABAL"
       },
       "eventHash": "294f6e19dcecd7959402493cc13d6b550abedc7c7747eb8622af77ee1f26fbf2"
+    },
+    {
+      "eventId": "7e0f9a1a-dff2-46c7-8bb1-dae93bfa05d0",
+      "uid": "9012746081",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-27T22:19:26.274Z",
+      "timestampLocal": "2026-10-27T22:19:26.274Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.53.96.21",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CO,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=9012746081&nombre_proveedor_razon_social=BACKTEAM+COLOMBIA+SAS&nombre_representante_legal=JAIME+EDUARDO+DIAZ+ARISTIZABAL&email=JDIAZ%40BACKTEAM.CO",
+      "previousEventHash": "294f6e19dcecd7959402493cc13d6b550abedc7c7747eb8622af77ee1f26fbf2",
+      "documentHash": "896d21eb41a915e68471712b40386b60b6d356d26979e7996312e765c02f0573",
+      "eventHash": "7bd9581b4838c4fbec2d15242946aeed5c7237cb22bd22395e2bfe8e95be8f83"
+    },
+    {
+      "eventId": "54246683-14fb-41b0-aff6-6e7bd6997177",
+      "uid": "9012746081",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-30T13:24:10.200Z",
+      "timestampLocal": "2026-10-30T13:24:10.200Z",
+      "timezone": "UTC+0",
+      "ipAddress": "212.102.41.10",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "7bd9581b4838c4fbec2d15242946aeed5c7237cb22bd22395e2bfe8e95be8f83",
+      "documentHash": "896d21eb41a915e68471712b40386b60b6d356d26979e7996312e765c02f0573",
+      "eventHash": "efc545390a1a7b31556f9a94993ca5f7efdc3dfa18b55448fa8b7759c0975c21"
+    },
+    {
+      "eventId": "4f6074a9-13ef-4030-9e2f-c0544a70c925",
+      "uid": "9012746081",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-30T13:24:31.695Z",
+      "timestampLocal": "2026-10-30T07:24:31.695Z",
+      "timezone": "UTC-6",
+      "ipAddress": "212.102.41.10",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "efc545390a1a7b31556f9a94993ca5f7efdc3dfa18b55448fa8b7759c0975c21",
+      "documentHash": "06a770a9a3bb494f14d07ab968656301ecfc23139c6a71b137be38efb2e95335",
+      "signatureHash": "37e6c6b825cf15f7e18168c3b5446773beb4cbf15c0dcdbe27a0632adfcbfcc2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-30T07:24:28.388Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "9320d2b682278eb88dfe877f0a5821c1e131d3a48626379810d6a9a468be6e63"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-10-30T13:24:31.921Z"
+  }
 }
