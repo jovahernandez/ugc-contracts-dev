@@ -3,7 +3,7 @@
   "declarationId": "ccc2af3e-e1b6-41a6-9609-e4fa99d3a7f5",
   "token": "f5f2f823-a47d-4e6a-898f-1caa70215d62",
   "createdAt": "2026-10-29T18:35:33.906Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IN CREW BUSINESS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "José Leonardo Gonzáles del Toro",
     "email": "leonardo@increw.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0e9ab3132cea529a6344b064e8bd66b3e8d102576e1a355937ef3133885a85ff",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-30T00:43:28.217Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ICB260217PC3",
+  "signatureMetadata": {
+    "ip": "187.190.16.217",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-10-30T00:43:31.513Z",
+    "signedAtLocal": "2026-10-29T18:43:31.513Z"
+  },
+  "documentHash": "14e33acd8b32c575a5def663877a35dc8acd8bc34d5f33f21aff9ce15ae06caf",
   "auditTrail": [
     {
       "eventId": "87784290-f0df-417e-b6f9-33c643621623",
@@ -66,6 +74,116 @@
         "representante": "José Leonardo Gonzáles del Toro"
       },
       "eventHash": "74ab5496e7f451882d9ae5fc22e0bf79569f1fc9914e0a579a70d7ca8e30f5f4"
+    },
+    {
+      "eventId": "4e55361f-e854-415b-bd8d-875ac1a4f84f",
+      "uid": "ICB260217PC3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-29T18:35:42.582Z",
+      "timestampLocal": "2026-10-29T18:35:42.582Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.19.105",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ICB260217PC3&nombre_proveedor_razon_social=IN+CREW+BUSINESS&nombre_representante_legal=Jos%C3%A9+Leonardo+Gonz%C3%A1les+del+Toro+&email=leonardo%40increw.mx",
+      "previousEventHash": "74ab5496e7f451882d9ae5fc22e0bf79569f1fc9914e0a579a70d7ca8e30f5f4",
+      "documentHash": "1d70827c9bd73721f6a66adf4c613b62c56a663335c77a6a1cd13367fb6afde2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "05a39063d287176eab6f933f619e0cdf56aff34c871f8ded8da181bee18cfb3f"
+    },
+    {
+      "eventId": "141ab97f-ef79-49ab-9963-a862d968caac",
+      "uid": "ICB260217PC3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-29T18:35:42.582Z",
+      "timestampLocal": "2026-10-29T18:35:42.582Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.19.105",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ICB260217PC3&nombre_proveedor_razon_social=IN+CREW+BUSINESS&nombre_representante_legal=Jos%C3%A9+Leonardo+Gonz%C3%A1les+del+Toro+&email=leonardo%40increw.mx",
+      "previousEventHash": "05a39063d287176eab6f933f619e0cdf56aff34c871f8ded8da181bee18cfb3f",
+      "documentHash": "1d70827c9bd73721f6a66adf4c613b62c56a663335c77a6a1cd13367fb6afde2",
+      "metadata": {
+        "proveedor": "IN CREW BUSINESS",
+        "representante": "José Leonardo Gonzáles del Toro"
+      },
+      "eventHash": "19ffdf9e4f4f1a2bc42474b74c77d53db312d8a3c72049784f56808313afe407"
+    },
+    {
+      "eventId": "b50dbf83-4f3d-464c-b0ae-270d45275bf7",
+      "uid": "ICB260217PC3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-29T18:35:45.578Z",
+      "timestampLocal": "2026-10-29T18:35:45.578Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.19.105",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ICB260217PC3&nombre_proveedor_razon_social=IN+CREW+BUSINESS&nombre_representante_legal=Jos%C3%A9+Leonardo+Gonz%C3%A1les+del+Toro+&email=leonardo%40increw.mx",
+      "previousEventHash": "19ffdf9e4f4f1a2bc42474b74c77d53db312d8a3c72049784f56808313afe407",
+      "documentHash": "1d70827c9bd73721f6a66adf4c613b62c56a663335c77a6a1cd13367fb6afde2",
+      "eventHash": "dc640f62657a4d9230506fe17dce6d3a1aff7d900bcdc1acb4831d3fa2afd213"
+    },
+    {
+      "eventId": "53354c72-43b9-423b-9108-aff8b489ce67",
+      "uid": "ICB260217PC3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-29T18:39:57.244Z",
+      "timestampLocal": "2026-10-29T18:39:57.244Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.19.105",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "dc640f62657a4d9230506fe17dce6d3a1aff7d900bcdc1acb4831d3fa2afd213",
+      "documentHash": "1d70827c9bd73721f6a66adf4c613b62c56a663335c77a6a1cd13367fb6afde2",
+      "eventHash": "5c9bfb6fb52bb5c435da19a38949ec81122bf5e2f351c1d1472d66ddf9fccc48"
+    },
+    {
+      "eventId": "d3e6c687-7025-49ff-9ac7-491a9f1da6da",
+      "uid": "ICB260217PC3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-30T00:43:01.582Z",
+      "timestampLocal": "2026-10-30T00:43:01.582Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.16.217",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "5c9bfb6fb52bb5c435da19a38949ec81122bf5e2f351c1d1472d66ddf9fccc48",
+      "documentHash": "1d70827c9bd73721f6a66adf4c613b62c56a663335c77a6a1cd13367fb6afde2",
+      "eventHash": "7f9d4c3bccf43815895fadeaff5fa91f3c3c671ee59283832993977fb15aac5e"
+    },
+    {
+      "eventId": "2be9d2c6-26fb-4986-87fe-79be40786f93",
+      "uid": "ICB260217PC3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-30T00:43:31.513Z",
+      "timestampLocal": "2026-10-29T18:43:31.513Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.16.217",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "7f9d4c3bccf43815895fadeaff5fa91f3c3c671ee59283832993977fb15aac5e",
+      "documentHash": "14e33acd8b32c575a5def663877a35dc8acd8bc34d5f33f21aff9ce15ae06caf",
+      "signatureHash": "0ec9919023614ee2e4dea8c380c988aeceb1cb6967a3906880c056c34a80ad9a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-29T18:43:28.217Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "b9f991ea88dc5db575d3d778ed379108b9948f0ac686d4e6eef309a0551bf9c6"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-10-30T00:43:31.788Z"
+  }
 }
