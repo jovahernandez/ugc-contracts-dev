@@ -3,8 +3,18 @@
   "declarationId": "6e4623d0-8243-4bdb-b7d7-bed47a0854af",
   "token": "26cfba67-a626-4df1-8f0e-4455b327640b",
   "createdAt": "2026-10-30T18:42:27.016Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "368 PRODUCOES LTDA",
+    "nombre_representante_legal": "ANA JULIA DORIGON PEREIRA",
+    "email": "contatoanajudorigon@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "368 PRODUCOES LTDA",
+    "nombre_representante_legal": "ANA JULIA DORIGON PEREIRA",
+    "email": "contatoanajudorigon@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "368 PRODUCOES LTDA",
     "nombre_representante_legal": "ANA JULIA DORIGON PEREIRA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "68f37f0292efd82b8f6b1ab4b130d87952dded87b3c1202aa46cba6e0fdd8f4d",
+  "auditTrail": [
+    {
+      "eventId": "95a634e8-2a8d-460a-9f33-b9c312926513",
+      "uid": "26.450.153/0001-24",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-10-30T18:42:36.077Z",
+      "timestampLocal": "2026-10-30T18:42:36.077Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.92.122.154",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,pt-PT;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=26.450.153%2F0001-24&nombre_proveedor_razon_social=368+PRODUCOES+LTDA&nombre_representante_legal=ANA+JULIA+DORIGON+PEREIRA&email=contatoanajudorigon%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "68f37f0292efd82b8f6b1ab4b130d87952dded87b3c1202aa46cba6e0fdd8f4d",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "4fe67d15604be05277addaa1493c1d3162d52f2183508ba808b07104badbc4bf"
+    },
+    {
+      "eventId": "9b51a843-e13c-43da-9087-b122169e0ebb",
+      "uid": "26.450.153/0001-24",
+      "eventType": "document_created",
+      "timestampUtc": "2026-10-30T18:42:36.077Z",
+      "timestampLocal": "2026-10-30T18:42:36.077Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.92.122.154",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,pt-PT;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=26.450.153%2F0001-24&nombre_proveedor_razon_social=368+PRODUCOES+LTDA&nombre_representante_legal=ANA+JULIA+DORIGON+PEREIRA&email=contatoanajudorigon%40gmail.com",
+      "previousEventHash": "4fe67d15604be05277addaa1493c1d3162d52f2183508ba808b07104badbc4bf",
+      "documentHash": "68f37f0292efd82b8f6b1ab4b130d87952dded87b3c1202aa46cba6e0fdd8f4d",
+      "metadata": {
+        "proveedor": "368 PRODUCOES LTDA",
+        "representante": "ANA JULIA DORIGON PEREIRA"
+      },
+      "eventHash": "47ae8319dff21726ad17ad0b678496123bf9dcfdf6cc6dbcb71766f884b54fa4"
+    }
+  ]
 }
