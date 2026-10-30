@@ -3,7 +3,7 @@
   "declarationId": "0868386c-7ba4-4188-9d03-a5fc43e735cb",
   "token": "04ecbb2d-c02f-4e8f-9f6a-b16a92feea72",
   "createdAt": "2026-10-30T18:47:24.745Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "ZUKERAM FILMES LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Thalita Sayuri dos Santos Zukeram",
     "email": "rose@twolostkids.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a908b502fee17392663c8a015700a3b8bf3ff92e2db2fa17bff23fb252399999",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-30T18:56:26.298Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/28.334.343%2F0001-01",
+  "signatureMetadata": {
+    "ip": "181.77.226.99",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-10-30T18:56:29.705Z",
+    "signedAtLocal": "2026-10-30T15:56:29.705Z"
+  },
+  "documentHash": "7f827f08a40cfbc708639dfa985811a5c221c11ea35777bc6ee22e469d10bf96",
   "auditTrail": [
     {
       "eventId": "6eb59f93-b1b7-4627-9332-ff6e760f6074",
@@ -66,6 +74,64 @@
         "representante": "Thalita Sayuri dos Santos Zukeram"
       },
       "eventHash": "8dadf99d5612734702a1ea7da39cdc17b9f5607ba21b6807b5d9786b55db1333"
+    },
+    {
+      "eventId": "7f5bcf74-53d5-4457-b7af-2fd6af7634c5",
+      "uid": "28.334.343/0001-01",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-30T18:47:34.752Z",
+      "timestampLocal": "2026-10-30T18:47:34.752Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.77.226.99",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "8dadf99d5612734702a1ea7da39cdc17b9f5607ba21b6807b5d9786b55db1333",
+      "documentHash": "a908b502fee17392663c8a015700a3b8bf3ff92e2db2fa17bff23fb252399999",
+      "eventHash": "642f38ae4edbde5cbbae47038a6d0e8a193d32f1887cb62225ed4f14848fb778"
+    },
+    {
+      "eventId": "66f92214-9c66-438a-b6c7-c1ccecd6b503",
+      "uid": "28.334.343/0001-01",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-30T18:55:47.746Z",
+      "timestampLocal": "2026-10-30T18:55:47.746Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.77.226.99",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "642f38ae4edbde5cbbae47038a6d0e8a193d32f1887cb62225ed4f14848fb778",
+      "documentHash": "a908b502fee17392663c8a015700a3b8bf3ff92e2db2fa17bff23fb252399999",
+      "eventHash": "31663c3b851fc6934f02187dcbaa5c1bf6d6242d58a9357c6e5879f88146c8aa"
+    },
+    {
+      "eventId": "92289756-9fe2-4522-8c00-f840c196f1b2",
+      "uid": "28.334.343/0001-01",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-30T18:56:29.705Z",
+      "timestampLocal": "2026-10-30T15:56:29.705Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.77.226.99",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/156.0.8078.54 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/04ecbb2d-c02f-4e8f-9f6a-b16a92feea72",
+      "previousEventHash": "31663c3b851fc6934f02187dcbaa5c1bf6d6242d58a9357c6e5879f88146c8aa",
+      "documentHash": "7f827f08a40cfbc708639dfa985811a5c221c11ea35777bc6ee22e469d10bf96",
+      "signatureHash": "e3f2131bfa1a9598d1960bd1d6cb106cda943af91bfac76ee3e917433ec656df",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-30T15:56:26.298Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "50acb4a1f80db22f5d814b879fce8ab15731cae61e543f1355819ef314933cb8"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-10-30T18:56:29.938Z"
+  }
 }
