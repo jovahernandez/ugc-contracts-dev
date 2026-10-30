@@ -3,7 +3,7 @@
   "declarationId": "6e4623d0-8243-4bdb-b7d7-bed47a0854af",
   "token": "26cfba67-a626-4df1-8f0e-4455b327640b",
   "createdAt": "2026-10-30T18:42:27.016Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "368 PRODUCOES LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ANA JULIA DORIGON PEREIRA",
     "email": "contatoanajudorigon@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "68f37f0292efd82b8f6b1ab4b130d87952dded87b3c1202aa46cba6e0fdd8f4d",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-10-30T18:46:50.436Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/26.450.153%2F0001-24",
+  "signatureMetadata": {
+    "ip": "172.225.83.35",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-10-30T18:46:56.062Z",
+    "signedAtLocal": "2026-10-30T15:46:56.062Z"
+  },
+  "documentHash": "279224df305bb732b1b2992f3a6d3f1a7d10a0e1de2d20e32394e12a7e48fcd9",
   "auditTrail": [
     {
       "eventId": "95a634e8-2a8d-460a-9f33-b9c312926513",
@@ -66,6 +74,79 @@
         "representante": "ANA JULIA DORIGON PEREIRA"
       },
       "eventHash": "47ae8319dff21726ad17ad0b678496123bf9dcfdf6cc6dbcb71766f884b54fa4"
+    },
+    {
+      "eventId": "ebdb37cc-06d3-4292-b996-b04a7af022ba",
+      "uid": "26.450.153/0001-24",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-30T18:42:40.087Z",
+      "timestampLocal": "2026-10-30T18:42:40.087Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.92.122.154",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,pt-PT;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=26.450.153%2F0001-24&nombre_proveedor_razon_social=368+PRODUCOES+LTDA&nombre_representante_legal=ANA+JULIA+DORIGON+PEREIRA&email=contatoanajudorigon%40gmail.com",
+      "previousEventHash": "47ae8319dff21726ad17ad0b678496123bf9dcfdf6cc6dbcb71766f884b54fa4",
+      "documentHash": "68f37f0292efd82b8f6b1ab4b130d87952dded87b3c1202aa46cba6e0fdd8f4d",
+      "eventHash": "e2e19657cc931ab626d7cbf21df925928c1b388c33edce948dd3e997ed29a61b"
+    },
+    {
+      "eventId": "1bae4205-2377-43d6-94e8-9ab6bd0b5e73",
+      "uid": "26.450.153/0001-24",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-30T18:45:28.490Z",
+      "timestampLocal": "2026-10-30T18:45:28.490Z",
+      "timezone": "UTC+0",
+      "ipAddress": "172.225.83.35",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "e2e19657cc931ab626d7cbf21df925928c1b388c33edce948dd3e997ed29a61b",
+      "documentHash": "68f37f0292efd82b8f6b1ab4b130d87952dded87b3c1202aa46cba6e0fdd8f4d",
+      "eventHash": "30d0a43799e688fec3357122e20460e6b4693a6d8aa59efab3a561e01e7665fe"
+    },
+    {
+      "eventId": "4cf2fd86-adf6-4deb-b746-98068ab219c1",
+      "uid": "26.450.153/0001-24",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-30T18:45:54.283Z",
+      "timestampLocal": "2026-10-30T18:45:54.283Z",
+      "timezone": "UTC+0",
+      "ipAddress": "172.225.83.35",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "30d0a43799e688fec3357122e20460e6b4693a6d8aa59efab3a561e01e7665fe",
+      "documentHash": "68f37f0292efd82b8f6b1ab4b130d87952dded87b3c1202aa46cba6e0fdd8f4d",
+      "eventHash": "62421c374a9de3ab8fc8d377437ac901465619835797e72ac4b35ac8e2fcee87"
+    },
+    {
+      "eventId": "dd1c41e5-79f9-4c6c-b012-ee0291fab939",
+      "uid": "26.450.153/0001-24",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-10-30T18:46:56.062Z",
+      "timestampLocal": "2026-10-30T15:46:56.062Z",
+      "timezone": "UTC-3",
+      "ipAddress": "172.225.83.35",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "62421c374a9de3ab8fc8d377437ac901465619835797e72ac4b35ac8e2fcee87",
+      "documentHash": "279224df305bb732b1b2992f3a6d3f1a7d10a0e1de2d20e32394e12a7e48fcd9",
+      "signatureHash": "88ad5e47e64b336132c47d31c70010eb406a5b7d49a14b51e1afcc2951a4a4b9",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-10-30T15:46:50.436Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "87f4d906b48b12a46fe474841d3658fecf7ad0ec8b9397eb57f7a3e7dc64909e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-10-30T18:46:56.424Z"
+  }
 }
