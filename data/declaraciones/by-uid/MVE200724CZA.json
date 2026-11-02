@@ -3,7 +3,7 @@
   "declarationId": "e3877d93-ec20-4ff6-89dd-388baa038b1f",
   "token": "2c910333-9d4e-44cb-8e2b-a975aeb7f712",
   "createdAt": "2026-10-23T00:22:55.072Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MUSIC VIP ENTERTAINMENT",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ISAEL GUTIERREZ ORBE",
     "email": "iluna@ibcmexico.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ba9a3d25aa2c37ab342723ac7bb28ac621c281557984eb868e6fc46ecce3bdf9",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-02T03:43:58.354Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MVE200724CZA",
+  "signatureMetadata": {
+    "ip": "189.193.237.70",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-02T03:44:01.657Z",
+    "signedAtLocal": "2026-11-01T21:44:01.657Z"
+  },
+  "documentHash": "31b8921201536a5f981b1106d205cf59120a4b912e5f88273f50a2a3718c7730",
   "auditTrail": [
     {
       "eventId": "292d57c7-8983-40ec-aed5-d6b687cb27cc",
@@ -155,6 +163,79 @@
         "representante": "ISAEL GUTIERREZ ORBE"
       },
       "eventHash": "22a61530491424bbaa04611bc40a104a169bca690bf2a549f3d64e267ab97286"
+    },
+    {
+      "eventId": "cb637053-8242-4005-9bf5-d7a2c7e60296",
+      "uid": "MVE200724CZA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-10-23T02:37:12.421Z",
+      "timestampLocal": "2026-10-23T02:37:12.421Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.45.173",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MVE200724CZA&nombre_proveedor_razon_social=MUSIC+VIP+ENTERTAINMENT&nombre_representante_legal=ISAEL+GUTIERREZ+ORBE&email=iluna%40ibcmexico.com.mx",
+      "previousEventHash": "22a61530491424bbaa04611bc40a104a169bca690bf2a549f3d64e267ab97286",
+      "documentHash": "ba9a3d25aa2c37ab342723ac7bb28ac621c281557984eb868e6fc46ecce3bdf9",
+      "eventHash": "37f4a816d04abea9c8951420edb7bc6d07352c26f65023a05fc05db89213f99f"
+    },
+    {
+      "eventId": "547bf6de-c9c7-4471-b6ef-aa8333601a4b",
+      "uid": "MVE200724CZA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-01T06:25:16.352Z",
+      "timestampLocal": "2026-11-01T06:25:16.352Z",
+      "timezone": "UTC+0",
+      "ipAddress": "149.19.169.99",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "37f4a816d04abea9c8951420edb7bc6d07352c26f65023a05fc05db89213f99f",
+      "documentHash": "ba9a3d25aa2c37ab342723ac7bb28ac621c281557984eb868e6fc46ecce3bdf9",
+      "eventHash": "5c3bec66f2bfe423d5a71a32d6ffa684ccc18014329c007df33e2383cf921fbd"
+    },
+    {
+      "eventId": "c8b74dbe-d400-45d9-ba19-787983f96977",
+      "uid": "MVE200724CZA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-02T03:39:22.826Z",
+      "timestampLocal": "2026-11-02T03:39:22.826Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.193.237.70",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "5c3bec66f2bfe423d5a71a32d6ffa684ccc18014329c007df33e2383cf921fbd",
+      "documentHash": "ba9a3d25aa2c37ab342723ac7bb28ac621c281557984eb868e6fc46ecce3bdf9",
+      "eventHash": "5aa33a46382a1f102b81afaafc834f6bbeca05153b5b62af574ab5a56d511b3d"
+    },
+    {
+      "eventId": "d7b8065b-79df-4ad0-82f8-2b36858eda05",
+      "uid": "MVE200724CZA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-02T03:44:01.657Z",
+      "timestampLocal": "2026-11-01T21:44:01.657Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.193.237.70",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/2c910333-9d4e-44cb-8e2b-a975aeb7f712",
+      "previousEventHash": "5aa33a46382a1f102b81afaafc834f6bbeca05153b5b62af574ab5a56d511b3d",
+      "documentHash": "31b8921201536a5f981b1106d205cf59120a4b912e5f88273f50a2a3718c7730",
+      "signatureHash": "9c18d7c15df4cba6115ea281074a7a4227fb21d091439fd3dce5c613373dc36c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-01T21:43:58.354Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "f5def016fee8ed7ac5e68e71b17ca63ed3a0e06f7855d544473a1ce99023d03b"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-11-02T03:44:01.851Z"
+  }
 }
