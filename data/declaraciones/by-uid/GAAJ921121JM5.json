@@ -3,7 +3,7 @@
   "declarationId": "729d8a83-79b4-4898-a2f6-780b29fccb45",
   "token": "e5541a04-0834-4946-aa58-07380e7fd175",
   "createdAt": "2026-11-03T22:38:48.654Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JUAN MANUEL GARCIA MARTINEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Ana Perla García Aquino",
     "email": "eugenia-mar@outlook.es"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "f98129b6173cebd2233107f525e763569b8a4bcf9bdfddff418b1aa919b9f587",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-03T22:44:54.857Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GAAJ921121JM5",
+  "signatureMetadata": {
+    "ip": "189.203.231.45",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-03T22:44:58.275Z",
+    "signedAtLocal": "2026-11-03T16:44:58.275Z"
+  },
+  "documentHash": "107c28b85ce665df4afa2e08ac8f8cdee7b9338647bb8e71cdadba958494ed3f",
   "auditTrail": [
     {
       "eventId": "427e19a9-30bf-4aad-b986-98eadc01e456",
@@ -66,6 +74,49 @@
         "representante": "Ana Perla García Aquino"
       },
       "eventHash": "0e9a3bc2ba82e5cda9ff5021cbcdd8ca4501bacf708407c4cc685edbee06cfe0"
+    },
+    {
+      "eventId": "5b2c27e4-4c86-4398-897d-7ae6855830c1",
+      "uid": "GAAJ921121JM5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-03T22:39:02.386Z",
+      "timestampLocal": "2026-11-03T22:39:02.386Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.231.45",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAAJ921121JM5&nombre_proveedor_razon_social=JUAN+MANUEL+GARCIA+MARTINEZ&nombre_representante_legal=Ana+Perla+Garc%C3%ADa+Aquino&email=eugenia-mar%40outlook.es",
+      "previousEventHash": "0e9a3bc2ba82e5cda9ff5021cbcdd8ca4501bacf708407c4cc685edbee06cfe0",
+      "documentHash": "f98129b6173cebd2233107f525e763569b8a4bcf9bdfddff418b1aa919b9f587",
+      "eventHash": "3499fd1b64f1f09ab38cb54c0a7265259ef091c09823391f33eaad4292461c23"
+    },
+    {
+      "eventId": "a8844a0f-946d-456d-98dd-6b47d035ce02",
+      "uid": "GAAJ921121JM5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-03T22:44:58.275Z",
+      "timestampLocal": "2026-11-03T16:44:58.275Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.231.45",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e5541a04-0834-4946-aa58-07380e7fd175",
+      "previousEventHash": "3499fd1b64f1f09ab38cb54c0a7265259ef091c09823391f33eaad4292461c23",
+      "documentHash": "107c28b85ce665df4afa2e08ac8f8cdee7b9338647bb8e71cdadba958494ed3f",
+      "signatureHash": "05c1caa6953bab7c5247ea5bbaa55d42383fae98d01d305f1836a0ce58b1f9da",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-03T16:44:54.857Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "a786bbb2f8b2caabbaa5149adb09ed28461b65303b712b690dcb7e7752ac3fa5"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-03T22:44:58.669Z"
+  }
 }
