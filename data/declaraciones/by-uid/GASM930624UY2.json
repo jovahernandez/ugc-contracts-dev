@@ -3,7 +3,7 @@
   "declarationId": "c5015cb7-6497-476c-823b-f5fc76ea17cb",
   "token": "4d0d33e6-fba0-42c5-9389-8317ebcccbcd",
   "createdAt": "2026-11-03T00:15:53.244Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Martha Andrea García Teruel Salcido",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Tequila Patron",
     "email": "martha-24@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "45b5a3fe9032fa2fb1f863b78d887bd782e6bf80c74004710b6ccc1b59c37c89",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-03T00:16:30.239Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GASM930624UY2",
+  "signatureMetadata": {
+    "ip": "187.189.36.178",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-11-03T00:16:33.677Z",
+    "signedAtLocal": "2026-11-02T18:16:33.677Z"
+  },
+  "documentHash": "01996fd26180dc8b2c296bb8f22bdeed2671d920b0faf55eb811a5fe6a85b73b",
   "auditTrail": [
     {
       "eventId": "9e8d8f3d-c765-4c97-9ea9-7586bed242c4",
@@ -140,6 +148,86 @@
         "representante": "Tequila Patron"
       },
       "eventHash": "81bbe940ced4abd8b71f07a1d80f22b4a90d9fdc30095603e3a6ca3801643554"
+    },
+    {
+      "eventId": "6b515efb-57c6-4e79-a4cb-c9940b9efc9d",
+      "uid": "GASM930624UY2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-03T00:16:06.459Z",
+      "timestampLocal": "2026-11-03T00:16:06.459Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.36.178",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "81bbe940ced4abd8b71f07a1d80f22b4a90d9fdc30095603e3a6ca3801643554",
+      "documentHash": "11d18009c0227db41e85d1f21454db73e54adf190241f524cd3722c7f6fb09ed",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3e791f7baa44d4e77ca3616dfbe044f04c84aefc50ede36357ac71dddedef869"
+    },
+    {
+      "eventId": "d7ae113e-f836-41ee-b10d-60f68c3eb7e3",
+      "uid": "GASM930624UY2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-03T00:16:06.459Z",
+      "timestampLocal": "2026-11-03T00:16:06.459Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.36.178",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "3e791f7baa44d4e77ca3616dfbe044f04c84aefc50ede36357ac71dddedef869",
+      "documentHash": "11d18009c0227db41e85d1f21454db73e54adf190241f524cd3722c7f6fb09ed",
+      "metadata": {
+        "proveedor": "Martha Andrea García Teruel Salcido",
+        "representante": "Tequila Patron"
+      },
+      "eventHash": "807cae6749671924ec2fc42294613a354c7b2f9475d17e261da328e9003e88f8"
+    },
+    {
+      "eventId": "1581b2c6-ebbe-4da4-abd4-4a744de149f8",
+      "uid": "GASM930624UY2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-03T00:16:08.825Z",
+      "timestampLocal": "2026-11-03T00:16:08.825Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.36.178",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "807cae6749671924ec2fc42294613a354c7b2f9475d17e261da328e9003e88f8",
+      "documentHash": "11d18009c0227db41e85d1f21454db73e54adf190241f524cd3722c7f6fb09ed",
+      "eventHash": "7b8c195098beca31a69d188e725e189c3d93c9276bb6d353b09feb423a965d1b"
+    },
+    {
+      "eventId": "3526d742-9494-459d-80d7-21d948ee6af1",
+      "uid": "GASM930624UY2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-03T00:16:33.677Z",
+      "timestampLocal": "2026-11-02T18:16:33.677Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.36.178",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "7b8c195098beca31a69d188e725e189c3d93c9276bb6d353b09feb423a965d1b",
+      "documentHash": "01996fd26180dc8b2c296bb8f22bdeed2671d920b0faf55eb811a5fe6a85b73b",
+      "signatureHash": "eda12e975148e8cc7f8db3bb37e138f08e05747a84d90ce9e7bfb7adc635bb2b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-02T18:16:30.239Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "2a127e5c333cd41d0031c06d92b65bbfec465bac8a808c0623a4165aa4128040"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 10,
+    "verifiedAt": "2026-11-03T00:16:33.913Z"
+  }
 }
