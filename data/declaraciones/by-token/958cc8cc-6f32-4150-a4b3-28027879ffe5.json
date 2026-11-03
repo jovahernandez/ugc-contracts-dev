@@ -3,8 +3,18 @@
   "declarationId": "17e740f1-1138-44b8-a61d-39a7103a34f7",
   "token": "958cc8cc-6f32-4150-a4b3-28027879ffe5",
   "createdAt": "2026-11-03T20:19:33.562Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ZCOPS SEGURANA PATRIMONIAL EIRELI",
+    "nombre_representante_legal": "Edina Bittencourt Zaitune",
+    "email": "comercial@zcops.seg.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ZCOPS SEGURANA PATRIMONIAL EIRELI",
+    "nombre_representante_legal": "Edina Bittencourt Zaitune",
+    "email": "comercial@zcops.seg.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ZCOPS SEGURANA PATRIMONIAL EIRELI",
     "nombre_representante_legal": "Edina Bittencourt Zaitune",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "bef26c82c31a506fa47d1d110f9bfd387935522f2348d97f3a31adb67a53d46c",
+  "auditTrail": [
+    {
+      "eventId": "e49b9547-db62-4329-85df-071759633cb1",
+      "uid": "04.492.592/0001-67",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-03T20:19:39.943Z",
+      "timestampLocal": "2026-11-03T20:19:39.943Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.114.84.94",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=04.492.592%2F0001-67&nombre_proveedor_razon_social=ZCOPS+SEGURANA+PATRIMONIAL+EIRELI&nombre_representante_legal=Edina+Bittencourt+Zaitune&email=comercial%40zcops.seg.br",
+      "previousEventHash": null,
+      "documentHash": "bef26c82c31a506fa47d1d110f9bfd387935522f2348d97f3a31adb67a53d46c",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "0373b07ffcef8211db1a29788093e7df61c4c7e7f63575865a1ffabe27dbd163"
+    },
+    {
+      "eventId": "fc83a7ef-f483-4644-80da-bc8dba4b2d73",
+      "uid": "04.492.592/0001-67",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-03T20:19:39.944Z",
+      "timestampLocal": "2026-11-03T20:19:39.944Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.114.84.94",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=04.492.592%2F0001-67&nombre_proveedor_razon_social=ZCOPS+SEGURANA+PATRIMONIAL+EIRELI&nombre_representante_legal=Edina+Bittencourt+Zaitune&email=comercial%40zcops.seg.br",
+      "previousEventHash": "0373b07ffcef8211db1a29788093e7df61c4c7e7f63575865a1ffabe27dbd163",
+      "documentHash": "bef26c82c31a506fa47d1d110f9bfd387935522f2348d97f3a31adb67a53d46c",
+      "metadata": {
+        "proveedor": "ZCOPS SEGURANA PATRIMONIAL EIRELI",
+        "representante": "Edina Bittencourt Zaitune"
+      },
+      "eventHash": "3e20e3f77f9301168d85aca18be928ec70cbf8053b9949abac50e0c7cf33aae7"
+    }
+  ]
 }
