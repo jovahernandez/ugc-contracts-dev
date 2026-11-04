@@ -3,7 +3,7 @@
   "declarationId": "8bc25a09-342a-4c81-a149-e32a413b42d2",
   "token": "def9476f-78de-4980-bd43-a98500a03b8d",
   "createdAt": "2026-09-03T13:44:13.066Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "MMCONSTROI CONSTRUCAO E PUBLICIDADE LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "CONTAFI",
     "email": "mmconstroiofc@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d2844bc5f03ea790af445a1b2044f4037821ec17a71530ccf543d41fd053c4ff",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-04T14:41:52.177Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/27.472.037%2F0001-79",
+  "signatureMetadata": {
+    "ip": "191.242.55.101",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+    "signedAtUtc": "2026-11-04T14:41:55.435Z",
+    "signedAtLocal": "2026-11-04T11:41:55.435Z"
+  },
+  "documentHash": "807d918cfeba94a1884a604d8495d0434dd3ed71d44597709de2b61911d0644d",
   "auditTrail": [
     {
       "eventId": "6e73044d-dfcb-46b7-8b1c-07ae6af2ad29",
@@ -414,6 +422,64 @@
         "representante": "CONTAFI"
       },
       "eventHash": "57ea089c7a33c156114525e789a6850d69889137d53667f498cf17bdd2efc2fd"
+    },
+    {
+      "eventId": "728b29ff-c70f-46ab-87f0-9634f9a3d695",
+      "uid": "27.472.037/0001-79",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-09-03T13:44:36.716Z",
+      "timestampLocal": "2026-09-03T13:44:36.716Z",
+      "timezone": "UTC+0",
+      "ipAddress": "170.83.203.140",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=27.472.037%2F0001-79&nombre_proveedor_razon_social=MMCONSTROI+CONSTRUCAO+E+PUBLICIDADE+LTDA&nombre_representante_legal=CONTAFI+&email=mmconstroiofc%40gmail.com",
+      "previousEventHash": "57ea089c7a33c156114525e789a6850d69889137d53667f498cf17bdd2efc2fd",
+      "documentHash": "d2844bc5f03ea790af445a1b2044f4037821ec17a71530ccf543d41fd053c4ff",
+      "eventHash": "39ec922dbde98963703360ee86fe8870b32d5be24f60d5d81ba79f67ad96cdc6"
+    },
+    {
+      "eventId": "5273dd0d-394a-40bd-8339-0f0cb88eed69",
+      "uid": "27.472.037/0001-79",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-04T14:41:03.164Z",
+      "timestampLocal": "2026-11-04T14:41:03.164Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.242.55.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "39ec922dbde98963703360ee86fe8870b32d5be24f60d5d81ba79f67ad96cdc6",
+      "documentHash": "d2844bc5f03ea790af445a1b2044f4037821ec17a71530ccf543d41fd053c4ff",
+      "eventHash": "7e8f0e27ae07223c11358d48f6e5ee7ce36fcc13336552a018077db0e6eb2870"
+    },
+    {
+      "eventId": "4c34406b-ba4a-468d-a9bf-79510168f754",
+      "uid": "27.472.037/0001-79",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-04T14:41:55.435Z",
+      "timestampLocal": "2026-11-04T11:41:55.435Z",
+      "timezone": "UTC-3",
+      "ipAddress": "191.242.55.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/def9476f-78de-4980-bd43-a98500a03b8d",
+      "previousEventHash": "7e8f0e27ae07223c11358d48f6e5ee7ce36fcc13336552a018077db0e6eb2870",
+      "documentHash": "807d918cfeba94a1884a604d8495d0434dd3ed71d44597709de2b61911d0644d",
+      "signatureHash": "16d1de46b412a095bb0ea2b421c26072f8a9ddff448a6db112bf842b96be4bb5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-04T11:41:52.177Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "998ad84ed5cc5440c55856fa97ea8e23f3f2f79fe3a023e00daefab2d5276eb2"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 24,
+    "verifiedAt": "2026-11-04T14:41:56.003Z"
+  }
 }
