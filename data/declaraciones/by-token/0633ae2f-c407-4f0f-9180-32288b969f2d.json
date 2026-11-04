@@ -3,8 +3,18 @@
   "declarationId": "561b0003-b881-452e-99c5-8b1b2dae0fb4",
   "token": "0633ae2f-c407-4f0f-9180-32288b969f2d",
   "createdAt": "2026-11-04T20:01:49.567Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GUSTAVO GONZALEZ ANDRADE",
+    "nombre_representante_legal": "Gustavo González Andrade",
+    "email": "gooseglz@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GUSTAVO GONZALEZ ANDRADE",
+    "nombre_representante_legal": "Gustavo González Andrade",
+    "email": "gooseglz@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GUSTAVO GONZALEZ ANDRADE",
     "nombre_representante_legal": "Gustavo González Andrade",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "e206c27cb509e6dc5b3f07d4b1dfbc9eed32521106657407aa97e467ec187934",
+  "auditTrail": [
+    {
+      "eventId": "c81e7d74-1da5-4502-bbbc-9a2a056362c6",
+      "uid": "GOAG881020837",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-04T20:02:09.962Z",
+      "timestampLocal": "2026-11-04T20:02:09.962Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.195.155",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOAG881020837&nombre_proveedor_razon_social=GUSTAVO+GONZALEZ+ANDRADE&nombre_representante_legal=Gustavo+Gonz%C3%A1lez+Andrade&email=gooseglz%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "e206c27cb509e6dc5b3f07d4b1dfbc9eed32521106657407aa97e467ec187934",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4307f40b3b4c1a08818e28d0175e10cd35776ba48a925dd9f8a694a31217bce9"
+    },
+    {
+      "eventId": "dea27212-5cbf-499b-ad27-f3e8c9f4cd1c",
+      "uid": "GOAG881020837",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-04T20:02:09.963Z",
+      "timestampLocal": "2026-11-04T20:02:09.963Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.195.155",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOAG881020837&nombre_proveedor_razon_social=GUSTAVO+GONZALEZ+ANDRADE&nombre_representante_legal=Gustavo+Gonz%C3%A1lez+Andrade&email=gooseglz%40gmail.com",
+      "previousEventHash": "4307f40b3b4c1a08818e28d0175e10cd35776ba48a925dd9f8a694a31217bce9",
+      "documentHash": "e206c27cb509e6dc5b3f07d4b1dfbc9eed32521106657407aa97e467ec187934",
+      "metadata": {
+        "proveedor": "GUSTAVO GONZALEZ ANDRADE",
+        "representante": "Gustavo González Andrade"
+      },
+      "eventHash": "ec30da919dbc78fb445fb7909ab8a78d5756d785f717d54db0ee9bba0f8f7424"
+    }
+  ]
 }
