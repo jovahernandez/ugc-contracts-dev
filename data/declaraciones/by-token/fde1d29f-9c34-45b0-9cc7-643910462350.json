@@ -3,8 +3,18 @@
   "declarationId": "8d0b35df-9786-4eb9-8950-4815beeb9713",
   "token": "fde1d29f-9c34-45b0-9cc7-643910462350",
   "createdAt": "2026-11-04T23:45:34.084Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JUAN MANUEL GARCIA MARTINEZ",
+    "nombre_representante_legal": "Ana Perla García Aquino",
+    "email": "eugenia-mar@outlook.es"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JUAN MANUEL GARCIA MARTINEZ",
+    "nombre_representante_legal": "Ana Perla García Aquino",
+    "email": "eugenia-mar@outlook.es"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "JUAN MANUEL GARCIA MARTINEZ",
     "nombre_representante_legal": "Ana Perla García Aquino",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "34232679e974896252a02119f3c853a13ec35770835ace4949f412b9316e4aca",
+  "auditTrail": [
+    {
+      "eventId": "d400fbcf-6908-4afc-8511-05b8ca0c7eea",
+      "uid": "GAAJ921121JM5",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-04T23:45:46.922Z",
+      "timestampLocal": "2026-11-04T23:45:46.922Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.231.45",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAAJ921121JM5&nombre_proveedor_razon_social=JUAN+MANUEL+GARCIA+MARTINEZ&nombre_representante_legal=Ana+Perla+Garc%C3%ADa+Aquino&email=eugenia-mar%40outlook.es",
+      "previousEventHash": null,
+      "documentHash": "34232679e974896252a02119f3c853a13ec35770835ace4949f412b9316e4aca",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b668925ee68fb76a6317dcfc4f5bc00c5db75acca442f2865d2ad9de85699af7"
+    },
+    {
+      "eventId": "937b4bde-6340-4042-baae-9fc38c753bdb",
+      "uid": "GAAJ921121JM5",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-04T23:45:46.922Z",
+      "timestampLocal": "2026-11-04T23:45:46.922Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.231.45",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAAJ921121JM5&nombre_proveedor_razon_social=JUAN+MANUEL+GARCIA+MARTINEZ&nombre_representante_legal=Ana+Perla+Garc%C3%ADa+Aquino&email=eugenia-mar%40outlook.es",
+      "previousEventHash": "b668925ee68fb76a6317dcfc4f5bc00c5db75acca442f2865d2ad9de85699af7",
+      "documentHash": "34232679e974896252a02119f3c853a13ec35770835ace4949f412b9316e4aca",
+      "metadata": {
+        "proveedor": "JUAN MANUEL GARCIA MARTINEZ",
+        "representante": "Ana Perla García Aquino"
+      },
+      "eventHash": "8b74c7063f133aaac64d48fd8429344ea1edf417efd5484999b3c9ed11f368c1"
+    }
+  ]
 }
