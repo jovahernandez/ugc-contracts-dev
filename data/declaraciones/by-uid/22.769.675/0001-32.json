@@ -3,7 +3,7 @@
   "declarationId": "c95839dc-f135-4b2a-9bb2-85e818163bc6",
   "token": "dad899a0-4a8c-4578-bbbd-30d75a807100",
   "createdAt": "2026-11-04T16:51:01.159Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "PB PR PROMOÇOES E EVENTOS LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "PRISCILA APARECIDA AUGUSTO BORGONOVI",
     "email": "adm@priscilaborgonovi.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2552700812b2f3db8b172f600aeecaca5bd8182ec48964062fc12f69ee1edc10",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-04T17:07:42.075Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/22.769.675%2F0001-32",
+  "signatureMetadata": {
+    "ip": "177.32.228.210",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-04T17:07:45.425Z",
+    "signedAtLocal": "2026-11-04T14:07:45.425Z"
+  },
+  "documentHash": "113bd98e3ca6b20a703ef2bec5f0ed6639fa66e693c97b21baf3757c8dacf275",
   "auditTrail": [
     {
       "eventId": "c9037331-0b9b-48eb-bf95-1e884bfff07a",
@@ -66,6 +74,49 @@
         "representante": "PRISCILA APARECIDA AUGUSTO BORGONOVI"
       },
       "eventHash": "e83f0f2d45241189514cf5fc84244184a96e099f2abdb2e849c09dd3e1ce6e23"
+    },
+    {
+      "eventId": "4c40bdfb-a3a3-41d4-9490-1f75ddc637fb",
+      "uid": "22.769.675/0001-32",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-04T16:51:13.822Z",
+      "timestampLocal": "2026-11-04T16:51:13.822Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.32.228.210",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=22.769.675%2F0001-32&nombre_proveedor_razon_social=PB+PR+PROMO%C3%87OES+E+EVENTOS+LTDA&nombre_representante_legal=PRISCILA+APARECIDA+AUGUSTO+BORGONOVI&email=adm%40priscilaborgonovi.com",
+      "previousEventHash": "e83f0f2d45241189514cf5fc84244184a96e099f2abdb2e849c09dd3e1ce6e23",
+      "documentHash": "2552700812b2f3db8b172f600aeecaca5bd8182ec48964062fc12f69ee1edc10",
+      "eventHash": "4b6b8d1bc87bfbde394ad5c61f3aeaf357557c879f7436dc9f358fa2fa624ec2"
+    },
+    {
+      "eventId": "b10e4a2e-3088-4022-82d7-4957fd9b3fb7",
+      "uid": "22.769.675/0001-32",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-04T17:07:45.425Z",
+      "timestampLocal": "2026-11-04T14:07:45.425Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.32.228.210",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/dad899a0-4a8c-4578-bbbd-30d75a807100",
+      "previousEventHash": "4b6b8d1bc87bfbde394ad5c61f3aeaf357557c879f7436dc9f358fa2fa624ec2",
+      "documentHash": "113bd98e3ca6b20a703ef2bec5f0ed6639fa66e693c97b21baf3757c8dacf275",
+      "signatureHash": "a260b344719ed0baf054ccef56acb2ebb379f85462dc679e2fe01e9af70b90fe",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-04T14:07:42.075Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "2c54c509e1758bd888de942c6cc77ffce88dcad1da95db91b059572e9510d949"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-04T17:07:45.888Z"
+  }
 }
