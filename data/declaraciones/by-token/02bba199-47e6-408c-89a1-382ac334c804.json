@@ -3,8 +3,18 @@
   "declarationId": "accc832c-01ea-4e9b-8ba1-a62943ced468",
   "token": "02bba199-47e6-408c-89a1-382ac334c804",
   "createdAt": "2026-11-04T22:12:58.977Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "60.318.421 ANA BEATRIZ FONTES ROCHA",
+    "nombre_representante_legal": "Ana Beatriz Fontes Rocha",
+    "email": "anabeatrizfontes@archiveagencycc.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "60.318.421 ANA BEATRIZ FONTES ROCHA",
+    "nombre_representante_legal": "Ana Beatriz Fontes Rocha",
+    "email": "anabeatrizfontes@archiveagencycc.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "60.318.421 ANA BEATRIZ FONTES ROCHA",
     "nombre_representante_legal": "Ana Beatriz Fontes Rocha",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a5e0c669df2dcb319fa51b3c9d1722163f187d14c6fd5b418f0938e773932d11",
+  "auditTrail": [
+    {
+      "eventId": "1d7988b0-f76a-4bd7-a9be-f63d27afda30",
+      "uid": "60.318.421/0001-97",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-04T22:13:05.916Z",
+      "timestampLocal": "2026-11-04T22:13:05.916Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.57.18",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=60.318.421%2F0001-97&nombre_proveedor_razon_social=60.318.421+ANA+BEATRIZ+FONTES+ROCHA&nombre_representante_legal=Ana+Beatriz+Fontes+Rocha&email=anabeatrizfontes%40archiveagencycc.com",
+      "previousEventHash": null,
+      "documentHash": "a5e0c669df2dcb319fa51b3c9d1722163f187d14c6fd5b418f0938e773932d11",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "4c6516ab4438b9030d1dfcb787ed91d5c0d95c606979663ff5f45b6f24f609fe"
+    },
+    {
+      "eventId": "cb837961-55dc-48cd-8b04-1e8a35632dd6",
+      "uid": "60.318.421/0001-97",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-04T22:13:05.916Z",
+      "timestampLocal": "2026-11-04T22:13:05.916Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.204.57.18",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=60.318.421%2F0001-97&nombre_proveedor_razon_social=60.318.421+ANA+BEATRIZ+FONTES+ROCHA&nombre_representante_legal=Ana+Beatriz+Fontes+Rocha&email=anabeatrizfontes%40archiveagencycc.com",
+      "previousEventHash": "4c6516ab4438b9030d1dfcb787ed91d5c0d95c606979663ff5f45b6f24f609fe",
+      "documentHash": "a5e0c669df2dcb319fa51b3c9d1722163f187d14c6fd5b418f0938e773932d11",
+      "metadata": {
+        "proveedor": "60.318.421 ANA BEATRIZ FONTES ROCHA",
+        "representante": "Ana Beatriz Fontes Rocha"
+      },
+      "eventHash": "7c3f85da50b5da75cbbeca45f76f859fe0ea4f56678ad2e658f8053fe46fa55c"
+    }
+  ]
 }
