@@ -3,7 +3,7 @@
   "declarationId": "561b0003-b881-452e-99c5-8b1b2dae0fb4",
   "token": "0633ae2f-c407-4f0f-9180-32288b969f2d",
   "createdAt": "2026-11-04T20:01:49.567Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GUSTAVO GONZALEZ ANDRADE",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Gustavo González Andrade",
     "email": "gooseglz@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "166b0716d5841d6e1f3c2344d75b01bf7eaef1b2b8b68f543c02ab5d1b8b9113",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-04T20:03:00.180Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GOAG881020837",
+  "signatureMetadata": {
+    "ip": "187.190.195.155",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+    "signedAtUtc": "2026-11-04T20:03:03.641Z",
+    "signedAtLocal": "2026-11-04T14:03:03.641Z"
+  },
+  "documentHash": "0dd9c905bf06c078854c5a7d3205290e4caa438ae3270d701135215eb979e263",
   "auditTrail": [
     {
       "eventId": "c81e7d74-1da5-4502-bbbc-9a2a056362c6",
@@ -68,11 +76,11 @@
       "eventHash": "ec30da919dbc78fb445fb7909ab8a78d5756d785f717d54db0ee9bba0f8f7424"
     },
     {
-      "eventId": "0c9d43d7-b67c-4a4b-ad02-fc01fb5b3893",
+      "eventId": "7cb59eea-e120-476f-b0c4-3da26961658d",
       "uid": "GOAG881020837",
       "eventType": "language_selected",
-      "timestampUtc": "2026-11-04T20:02:12.431Z",
-      "timestampLocal": "2026-11-04T20:02:12.431Z",
+      "timestampUtc": "2026-11-04T20:02:12.949Z",
+      "timestampLocal": "2026-11-04T20:02:12.949Z",
       "timezone": "UTC+0",
       "ipAddress": "187.190.195.155",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
@@ -83,26 +91,69 @@
       "metadata": {
         "language": "es"
       },
-      "eventHash": "3de49ee51eeae07611e95938c78fba4be014e993f5ba298c953b9d0d33389826"
+      "eventHash": "449b3e47b05b596925683baebe9c4e5aaa4def51e1d16410832811dc63d9f9eb"
     },
     {
-      "eventId": "876f8591-d9ba-42e1-8395-74e4239ec396",
+      "eventId": "93beba27-9af7-42e7-9a0e-fc3fe93d80f7",
       "uid": "GOAG881020837",
       "eventType": "document_created",
-      "timestampUtc": "2026-11-04T20:02:12.431Z",
-      "timestampLocal": "2026-11-04T20:02:12.431Z",
+      "timestampUtc": "2026-11-04T20:02:12.949Z",
+      "timestampLocal": "2026-11-04T20:02:12.949Z",
       "timezone": "UTC+0",
       "ipAddress": "187.190.195.155",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
       "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
       "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOAG881020837&nombre_proveedor_razon_social=GUSTAVO+GONZALEZ+ANDRADE&nombre_representante_legal=Gustavo+Gonz%C3%A1lez+Andrade&email=gooseglz%40gmail.com",
-      "previousEventHash": "3de49ee51eeae07611e95938c78fba4be014e993f5ba298c953b9d0d33389826",
+      "previousEventHash": "449b3e47b05b596925683baebe9c4e5aaa4def51e1d16410832811dc63d9f9eb",
       "documentHash": "166b0716d5841d6e1f3c2344d75b01bf7eaef1b2b8b68f543c02ab5d1b8b9113",
       "metadata": {
         "proveedor": "GUSTAVO GONZALEZ ANDRADE",
         "representante": "Gustavo González Andrade"
       },
-      "eventHash": "54741e21a239499fd85e64b95c3203c253d3a97f05f1a0b48f0e4a2b7568b802"
+      "eventHash": "7a92416d8da1cd62e87e1e70582da0b41d928d5c1182af681432982d3cab5c83"
+    },
+    {
+      "eventId": "31411328-cbe8-408b-b503-7b25830a3c47",
+      "uid": "GOAG881020837",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-04T20:02:15.799Z",
+      "timestampLocal": "2026-11-04T20:02:15.799Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.195.155",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOAG881020837&nombre_proveedor_razon_social=GUSTAVO+GONZALEZ+ANDRADE&nombre_representante_legal=Gustavo+Gonz%C3%A1lez+Andrade&email=gooseglz%40gmail.com",
+      "previousEventHash": "7a92416d8da1cd62e87e1e70582da0b41d928d5c1182af681432982d3cab5c83",
+      "documentHash": "166b0716d5841d6e1f3c2344d75b01bf7eaef1b2b8b68f543c02ab5d1b8b9113",
+      "eventHash": "811e1b9da897880d7ae2e9aaabc10d1ec0ef4b30930d10114ccc237678676004"
+    },
+    {
+      "eventId": "b7b36d98-f1cb-4529-bfa8-0c8110878adb",
+      "uid": "GOAG881020837",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-04T20:03:03.641Z",
+      "timestampLocal": "2026-11-04T14:03:03.641Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.195.155",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/0633ae2f-c407-4f0f-9180-32288b969f2d",
+      "previousEventHash": "811e1b9da897880d7ae2e9aaabc10d1ec0ef4b30930d10114ccc237678676004",
+      "documentHash": "0dd9c905bf06c078854c5a7d3205290e4caa438ae3270d701135215eb979e263",
+      "signatureHash": "aadb4f5dc140b3379cf1cc4bfc3c5f1dfc98a020e9b7833661bf1d633e77315e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-04T14:03:00.180Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "84f86bea12cc448ab75dabcf82e30085d9d025f7e31352c7ab519fcdf5b43479"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-11-04T20:03:04.200Z"
+  }
 }
