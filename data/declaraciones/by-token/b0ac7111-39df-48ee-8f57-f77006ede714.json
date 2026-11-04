@@ -3,7 +3,7 @@
   "declarationId": "7d83fe4e-0d11-4126-9049-0a93849448ef",
   "token": "b0ac7111-39df-48ee-8f57-f77006ede714",
   "createdAt": "2026-11-04T19:20:28.737Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ZAS TALENTS SpA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "PILAR XIMENA GUTIERREZ XIMENA",
     "email": "admin.facturacion@zastalents.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b773c68963d380bda9f611771e79171c1e09343342599e5a765a00493b8e98c6",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-04T19:21:14.865Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/77248987-0",
+  "signatureMetadata": {
+    "ip": "161.132.91.82",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-04T19:21:18.318Z",
+    "signedAtLocal": "2026-11-04T14:21:18.318Z"
+  },
+  "documentHash": "989050292b45e3346a0217557b805b8aab560c4fc692c70126720783aff90f3b",
   "auditTrail": [
     {
       "eventId": "4fddf728-a60d-45ca-90d0-0845caafa215",
@@ -103,6 +111,49 @@
         "representante": "PILAR XIMENA GUTIERREZ XIMENA"
       },
       "eventHash": "a2352e9abd775e43c2edb0eb17f294fea720b3ac40723640a37708809af714ae"
+    },
+    {
+      "eventId": "5103bca1-75d2-4f0f-8aac-af14ec393b27",
+      "uid": "77248987-0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-04T19:20:47.762Z",
+      "timestampLocal": "2026-11-04T19:20:47.762Z",
+      "timezone": "UTC+0",
+      "ipAddress": "161.132.91.82",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CL,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=77248987-0&nombre_proveedor_razon_social=ZAS+TALENTS+SpA&nombre_representante_legal=PILAR+XIMENA+GUTIERREZ+XIMENA&email=admin.facturacion%40zastalents.com",
+      "previousEventHash": "a2352e9abd775e43c2edb0eb17f294fea720b3ac40723640a37708809af714ae",
+      "documentHash": "b773c68963d380bda9f611771e79171c1e09343342599e5a765a00493b8e98c6",
+      "eventHash": "a1bacb5ab3e302df3e07552645be24a7e871ec8ed15b3af34285cb099b027195"
+    },
+    {
+      "eventId": "3f548cde-6420-41b6-814d-4d62387a33cf",
+      "uid": "77248987-0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-04T19:21:18.318Z",
+      "timestampLocal": "2026-11-04T14:21:18.318Z",
+      "timezone": "UTC-5",
+      "ipAddress": "161.132.91.82",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-CL,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b0ac7111-39df-48ee-8f57-f77006ede714",
+      "previousEventHash": "a1bacb5ab3e302df3e07552645be24a7e871ec8ed15b3af34285cb099b027195",
+      "documentHash": "989050292b45e3346a0217557b805b8aab560c4fc692c70126720783aff90f3b",
+      "signatureHash": "7c60cf6227d8bcbf6581b483a436276d551943cfc34877d5393ea44577adac87",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-04T14:21:14.865Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "57fcaff708263746b2322212d3d9c52d24a33d5e6114f2297f472f3daeaea008"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-11-04T19:21:18.587Z"
+  }
 }
