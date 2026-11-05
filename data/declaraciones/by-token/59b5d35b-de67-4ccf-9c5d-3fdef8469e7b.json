@@ -3,7 +3,7 @@
   "declarationId": "b95de57d-fca6-4905-b7e7-24d5375816f7",
   "token": "59b5d35b-de67-4ccf-9c5d-3fdef8469e7b",
   "createdAt": "2026-11-05T22:26:04.388Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EDICIONES GAMMA S.A.",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "NIDIA ALEXANDRA RODRIGUEZ LINARES",
     "email": "publicidad@revistadiners.com.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "425dcf54dbc49bccf401089599e71805e6402dfba41c6f6a0a191fd673403231",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-05T22:28:24.456Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/8600620013",
+  "signatureMetadata": {
+    "ip": "201.245.172.14",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-05T22:28:30.152Z",
+    "signedAtLocal": "2026-11-05T17:28:30.152Z"
+  },
+  "documentHash": "ffdd1fedff386fd6813a16932382694ae13518221cf1fa2e918b764d413fc0d2",
   "auditTrail": [
     {
       "eventId": "9505710b-35d3-42c7-8abe-b5122cd6a8bd",
@@ -103,6 +111,49 @@
         "representante": "NIDIA ALEXANDRA RODRIGUEZ LINARES"
       },
       "eventHash": "217950768203f628c2eb85e36f2e13c3508a3a036145a38c035172532e8a2af2"
+    },
+    {
+      "eventId": "1b0703a6-2077-4e47-b8f5-66cfc82e83f5",
+      "uid": "8600620013",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-05T22:26:18.070Z",
+      "timestampLocal": "2026-11-05T22:26:18.070Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.245.172.14",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=8600620013&nombre_proveedor_razon_social=EDICIONES+GAMMA+S.A.&nombre_representante_legal=NIDIA+ALEXANDRA+RODRIGUEZ+LINARES&email=publicidad%40revistadiners.com.co",
+      "previousEventHash": "217950768203f628c2eb85e36f2e13c3508a3a036145a38c035172532e8a2af2",
+      "documentHash": "425dcf54dbc49bccf401089599e71805e6402dfba41c6f6a0a191fd673403231",
+      "eventHash": "9a6a4376663fc983fbdf8317dfcd7107bbabd11a4cd67d69c3a06e70e1fd7f10"
+    },
+    {
+      "eventId": "1eacd358-2b50-4ffd-8c8a-5127892453aa",
+      "uid": "8600620013",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-05T22:28:30.152Z",
+      "timestampLocal": "2026-11-05T17:28:30.152Z",
+      "timezone": "UTC-5",
+      "ipAddress": "201.245.172.14",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/59b5d35b-de67-4ccf-9c5d-3fdef8469e7b",
+      "previousEventHash": "9a6a4376663fc983fbdf8317dfcd7107bbabd11a4cd67d69c3a06e70e1fd7f10",
+      "documentHash": "ffdd1fedff386fd6813a16932382694ae13518221cf1fa2e918b764d413fc0d2",
+      "signatureHash": "c5e0149cacca1013dfa4aa587c15569d0293710189ac4f3d9ee9ac063d4b89a0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-05T17:28:24.456Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "5bd0bcd2fd8e311aab430af9ae7ac219dabd9bd833c8d2b51e129da07f9c2246"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-11-05T22:28:30.500Z"
+  }
 }
