@@ -3,7 +3,7 @@
   "declarationId": "08e881af-a717-404d-88a3-c8691fa42aa6",
   "token": "14dfc162-ec9b-4926-a9e8-1c17f884ce67",
   "createdAt": "2026-11-05T05:02:49.605Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Oscar Mauricio king Collins",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Oscar Mauricio king Collins",
     "email": "mauriciokingc1@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "81755b98c5952bacefc862d13265f25e8ec0ad1e7456f1cbad856e513fe7bcd1",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-05T05:06:18.501Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/KICO960924E45",
+  "signatureMetadata": {
+    "ip": "189.222.225.12",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+    "signedAtUtc": "2026-11-05T05:06:21.913Z",
+    "signedAtLocal": "2026-11-04T21:06:21.913Z"
+  },
+  "documentHash": "622a92debd81b2a11198155f6c25e0a6f2501624ab63076a1bd327a9f98713ef",
   "auditTrail": [
     {
       "eventId": "31ea894a-4ac6-41e5-bd70-782c667c4e48",
@@ -66,6 +74,49 @@
         "representante": "Oscar Mauricio king Collins"
       },
       "eventHash": "4a4331edd5a38c1cbdfeca03180b5f06dca5c85c83bde3769645d1812d3277df"
+    },
+    {
+      "eventId": "d17d339e-c4ce-4b6e-bf49-2ba25fe8dfe8",
+      "uid": "KICO960924E45",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-05T05:03:05.293Z",
+      "timestampLocal": "2026-11-05T05:03:05.293Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.222.225.12",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8,es-MX;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=KICO960924E45&nombre_proveedor_razon_social=Oscar+Mauricio+king+Collins&nombre_representante_legal=Oscar+Mauricio+king+Collins&email=mauriciokingc1%40gmail.com",
+      "previousEventHash": "4a4331edd5a38c1cbdfeca03180b5f06dca5c85c83bde3769645d1812d3277df",
+      "documentHash": "81755b98c5952bacefc862d13265f25e8ec0ad1e7456f1cbad856e513fe7bcd1",
+      "eventHash": "56c5d2e5284b20844e5cf7e04cad8785b618ad2b59ee6eda1228f8939657c1b8"
+    },
+    {
+      "eventId": "828a2bba-47ec-48a3-bd7f-898bc3118dfc",
+      "uid": "KICO960924E45",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-05T05:06:21.913Z",
+      "timestampLocal": "2026-11-04T21:06:21.913Z",
+      "timezone": "UTC-8",
+      "ipAddress": "189.222.225.12",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36 Edg/156.0.0.0",
+      "acceptLanguage": "es,en-US;q=0.9,en;q=0.8,es-MX;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/14dfc162-ec9b-4926-a9e8-1c17f884ce67",
+      "previousEventHash": "56c5d2e5284b20844e5cf7e04cad8785b618ad2b59ee6eda1228f8939657c1b8",
+      "documentHash": "622a92debd81b2a11198155f6c25e0a6f2501624ab63076a1bd327a9f98713ef",
+      "signatureHash": "bd1c65a354b9f73346e52afd06f6aad8b6625077ef92873559428eb21f2261ba",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-04T21:06:18.501Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "e9efee415ac3b458f9b8974dc2fda4e404f1f5da0929d8ad83a401e35c82ec67"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-05T05:06:22.328Z"
+  }
 }
