@@ -3,7 +3,7 @@
   "declarationId": "c47729a8-bf2f-4178-af39-ecf75d95a32d",
   "token": "eaa8168c-1c27-4a8f-8b32-d892f86d50f5",
   "createdAt": "2026-11-05T11:27:25.689Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "G GRASSI CONSULTORIA & STYLING LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "GIOVANNA GRASSSI SENE DA COSTA",
     "email": "financeiro.ggrassi@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1fd99889721663412412e4ad020e174697c038b41bfd0fd68512e494565777bf",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-05T11:27:58.657Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/35.590.138%2F0001-72",
+  "signatureMetadata": {
+    "ip": "177.138.101.247",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-05T11:28:02.005Z",
+    "signedAtLocal": "2026-11-05T08:28:02.005Z"
+  },
+  "documentHash": "39a6c51ecf79db77eeec6789b2a789aaf81d5a0e980375c1f9f3548c01e8a2e8",
   "auditTrail": [
     {
       "eventId": "df48d75c-778e-4bc9-9df4-0029281f6f4d",
@@ -66,6 +74,49 @@
         "representante": "GIOVANNA GRASSSI SENE DA COSTA"
       },
       "eventHash": "649f9051d956ad77354b1074ae48bc99e79ee937a0a8438dd04201f1cdb23336"
+    },
+    {
+      "eventId": "4f7c8832-e373-49bb-82a3-ca22a3ec09c8",
+      "uid": "35.590.138/0001-72",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-05T11:27:37.811Z",
+      "timestampLocal": "2026-11-05T11:27:37.811Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.138.101.247",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=35.590.138%2F0001-72&nombre_proveedor_razon_social=G+GRASSI+CONSULTORIA+%26+STYLING+LTDA&nombre_representante_legal=GIOVANNA+GRASSSI+SENE+DA+COSTA&email=financeiro.ggrassi%40gmail.com",
+      "previousEventHash": "649f9051d956ad77354b1074ae48bc99e79ee937a0a8438dd04201f1cdb23336",
+      "documentHash": "1fd99889721663412412e4ad020e174697c038b41bfd0fd68512e494565777bf",
+      "eventHash": "18c7e174f79a6a5dd7bc37712de4425783eb27e237dc350a4e60dc4c3bf4cf20"
+    },
+    {
+      "eventId": "cd149b93-b70c-4b60-b464-b478fb2a2797",
+      "uid": "35.590.138/0001-72",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-05T11:28:02.005Z",
+      "timestampLocal": "2026-11-05T08:28:02.005Z",
+      "timezone": "UTC-3",
+      "ipAddress": "177.138.101.247",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/eaa8168c-1c27-4a8f-8b32-d892f86d50f5",
+      "previousEventHash": "18c7e174f79a6a5dd7bc37712de4425783eb27e237dc350a4e60dc4c3bf4cf20",
+      "documentHash": "39a6c51ecf79db77eeec6789b2a789aaf81d5a0e980375c1f9f3548c01e8a2e8",
+      "signatureHash": "057658ba02116d6b7c69451f60711066494925aae145e159a94e985d3d254bef",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-05T08:27:58.657Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "180f0f25fa7aed879160fbda401067d9e9cd14cec9e6c8bd4542cb9f4b055459"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-05T11:28:02.483Z"
+  }
 }
