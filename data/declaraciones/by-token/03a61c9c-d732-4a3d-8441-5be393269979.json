@@ -3,7 +3,7 @@
   "declarationId": "2a2ceef1-e61b-43f0-b0a0-887c14e79194",
   "token": "03a61c9c-d732-4a3d-8441-5be393269979",
   "createdAt": "2026-11-06T19:25:29.854Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Dulce Maria Gaspar Urias",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Dulce Maria Gaspar Urias",
     "email": "gaspardulce13m@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6d6b2dc720c646f2ce0cd84366ca755bd366500e81bdf70039a9330676f95fb1",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-06T19:28:34.725Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GAUD000803A96",
+  "signatureMetadata": {
+    "ip": "187.223.69.141",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-06T19:28:37.869Z",
+    "signedAtLocal": "2026-11-06T12:28:37.869Z"
+  },
+  "documentHash": "7b207131f42776b8a03645fa74001d400765bcedb0368aba10bb2b6e22d91cab",
   "auditTrail": [
     {
       "eventId": "de83ed69-3f2f-442f-9109-3c05c113fd88",
@@ -66,6 +74,49 @@
         "representante": "Dulce Maria Gaspar Urias"
       },
       "eventHash": "961681dd717f04b6589dab64ea547584c927f5044740903be6cfeb9905276eb7"
+    },
+    {
+      "eventId": "a044e081-a6a4-42a2-83ee-272e88d7ea7a",
+      "uid": "GAUD000803A96",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-06T19:25:50.042Z",
+      "timestampLocal": "2026-11-06T19:25:50.042Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.223.69.141",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAUD000803A96&nombre_proveedor_razon_social=Dulce+Maria+Gaspar+Urias&nombre_representante_legal=Dulce+Maria+Gaspar+Urias&email=gaspardulce13m%40gmail.com",
+      "previousEventHash": "961681dd717f04b6589dab64ea547584c927f5044740903be6cfeb9905276eb7",
+      "documentHash": "6d6b2dc720c646f2ce0cd84366ca755bd366500e81bdf70039a9330676f95fb1",
+      "eventHash": "77a6a4e0483ea19ca731a3a91ccab30b3a5201ea32d7d45159b2cb3e4aa764c8"
+    },
+    {
+      "eventId": "b9c098fc-6316-4363-b35c-b22bb20ed7ee",
+      "uid": "GAUD000803A96",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-06T19:28:37.869Z",
+      "timestampLocal": "2026-11-06T12:28:37.869Z",
+      "timezone": "UTC-7",
+      "ipAddress": "187.223.69.141",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/03a61c9c-d732-4a3d-8441-5be393269979",
+      "previousEventHash": "77a6a4e0483ea19ca731a3a91ccab30b3a5201ea32d7d45159b2cb3e4aa764c8",
+      "documentHash": "7b207131f42776b8a03645fa74001d400765bcedb0368aba10bb2b6e22d91cab",
+      "signatureHash": "22dea359b41a03902264557f05383d0ce91e8c31fbadc4552a796330209bb432",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-06T12:28:34.725Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "d13e8e8405b2e341b22ec22dc6b32622bbb7358ca2aabc6a1d0d53047c4b0d02"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-06T19:28:38.136Z"
+  }
 }
