@@ -3,7 +3,7 @@
   "declarationId": "20e0c780-1000-4231-a6da-84c90a6cdebc",
   "token": "79720c9d-a9ca-4845-bc94-3b27312ddc99",
   "createdAt": "2026-11-06T20:05:13.467Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ANDREA SANCHEZ ALCALA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "ANDREA SANCHEZ ALCALA",
     "email": "andreaasaanchez29@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c9307397966ee0ae7614469b2cb4b0cb249d2f18b7a125c6595e54be807f68cc",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-06T20:11:01.408Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SAAA020729C51",
+  "signatureMetadata": {
+    "ip": "187.157.229.243",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-06T20:11:05.108Z",
+    "signedAtLocal": "2026-11-06T14:11:05.108Z"
+  },
+  "documentHash": "ce3407b42808046fa4feac3b5e467430763cc2778d28ce8dbdc8378277901054",
   "auditTrail": [
     {
       "eventId": "486def49-cea0-4ab5-abcb-94ad592e3250",
@@ -214,6 +222,49 @@
         "representante": "ANDREA SANCHEZ ALCALA"
       },
       "eventHash": "07a8bea5c65c47e44d01be80ff4d0b0f40bd2fdafe7ef82e56ca372fab53a398"
+    },
+    {
+      "eventId": "67e6603b-9721-4f29-a360-129cb4461ffa",
+      "uid": "SAAA020729C51",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-06T20:05:28.839Z",
+      "timestampLocal": "2026-11-06T20:05:28.839Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.157.229.243",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAAA020729C51&nombre_proveedor_razon_social=ANDREA+SANCHEZ+ALCALA&nombre_representante_legal=ANDREA+SANCHEZ+ALCALA&email=andreaasaanchez29%40gmail.com",
+      "previousEventHash": "07a8bea5c65c47e44d01be80ff4d0b0f40bd2fdafe7ef82e56ca372fab53a398",
+      "documentHash": "c9307397966ee0ae7614469b2cb4b0cb249d2f18b7a125c6595e54be807f68cc",
+      "eventHash": "a2fd12aa68ebb26818618f13c868ec5eb501cc88982a27ac71b0fd81dfd2c3ff"
+    },
+    {
+      "eventId": "d915339f-5930-4968-8fdd-d7b4b608685f",
+      "uid": "SAAA020729C51",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-06T20:11:05.108Z",
+      "timestampLocal": "2026-11-06T14:11:05.108Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.157.229.243",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/79720c9d-a9ca-4845-bc94-3b27312ddc99",
+      "previousEventHash": "a2fd12aa68ebb26818618f13c868ec5eb501cc88982a27ac71b0fd81dfd2c3ff",
+      "documentHash": "ce3407b42808046fa4feac3b5e467430763cc2778d28ce8dbdc8378277901054",
+      "signatureHash": "6276680790c1d7efc132ab483e396080dab1f24ea1578fdf9e3d0da937897c80",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-06T14:11:01.408Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "8649a4ec899291e8e0cabafedd47864071dead140452f22b72f099935f912308"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 12,
+    "verifiedAt": "2026-11-06T20:11:05.371Z"
+  }
 }
