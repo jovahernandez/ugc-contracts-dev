@@ -3,8 +3,18 @@
   "declarationId": "65af9020-2c8a-48f3-8ed8-1c46cd858ea9",
   "token": "194aa824-87c8-4b92-b1f5-ba93f26b9a8f",
   "createdAt": "2026-11-07T00:32:53.707Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Valeria Parra Mardueño",
+    "nombre_representante_legal": "Valeria Parra",
+    "email": "valeriaparmar@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Valeria Parra Mardueño",
+    "nombre_representante_legal": "Valeria Parra",
+    "email": "valeriaparmar@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Valeria Parra Mardueño",
     "nombre_representante_legal": "Valeria Parra",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "fa1f772cc856454527068b35a41790bea6abe730a109bbf0b4c0443c4db5db63",
+  "auditTrail": [
+    {
+      "eventId": "bf00f191-f2ba-4294-afb5-bb0a70be0f3d",
+      "uid": "PAMV970618JB0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-07T00:32:59.736Z",
+      "timestampLocal": "2026-11-07T00:32:59.736Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.41.243",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PAMV970618JB0&nombre_proveedor_razon_social=Valeria+Parra+Mardue%C3%B1o&nombre_representante_legal=Valeria+Parra&email=valeriaparmar%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "fa1f772cc856454527068b35a41790bea6abe730a109bbf0b4c0443c4db5db63",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "24fa4a5d098c21401d3ece4040b598bfc85a26648a958ab567f50aad32defac7"
+    },
+    {
+      "eventId": "73e83e8a-4dff-413a-af19-6e4f7beea8f3",
+      "uid": "PAMV970618JB0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-07T00:32:59.736Z",
+      "timestampLocal": "2026-11-07T00:32:59.736Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.41.243",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PAMV970618JB0&nombre_proveedor_razon_social=Valeria+Parra+Mardue%C3%B1o&nombre_representante_legal=Valeria+Parra&email=valeriaparmar%40gmail.com",
+      "previousEventHash": "24fa4a5d098c21401d3ece4040b598bfc85a26648a958ab567f50aad32defac7",
+      "documentHash": "fa1f772cc856454527068b35a41790bea6abe730a109bbf0b4c0443c4db5db63",
+      "metadata": {
+        "proveedor": "Valeria Parra Mardueño",
+        "representante": "Valeria Parra"
+      },
+      "eventHash": "0ea3487dc17c459389396a072377bbe086e045f57457bd104f38f670c0480596"
+    }
+  ]
 }
