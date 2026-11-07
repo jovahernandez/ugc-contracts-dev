@@ -3,8 +3,18 @@
   "declarationId": "d2c36bd6-abec-4229-a7a3-bffef5000954",
   "token": "a5414a0a-0a5e-49b6-9b74-b25bc052ba54",
   "createdAt": "2026-11-07T01:03:36.860Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Juliana Figueroa Garibay",
+    "nombre_representante_legal": "Juliana Figueroa Garibay",
+    "email": "juliana.figueroagari@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Juliana Figueroa Garibay",
+    "nombre_representante_legal": "Juliana Figueroa Garibay",
+    "email": "juliana.figueroagari@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Juliana Figueroa Garibay",
     "nombre_representante_legal": "Juliana Figueroa Garibay",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "e13d5440b627d513592846d7e335e82bf9985b81fa10a22d894d201e23aa93ce",
+  "auditTrail": [
+    {
+      "eventId": "73c623d1-0242-491d-90f0-ddbca3273bda",
+      "uid": "FIGJ001031SB1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-07T01:03:48.610Z",
+      "timestampLocal": "2026-11-07T01:03:48.610Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.212.1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "e13d5440b627d513592846d7e335e82bf9985b81fa10a22d894d201e23aa93ce",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "72d27fff1c865b21be8b1f746389a81983e71e0977d72aeec7954018c96d1f5f"
+    },
+    {
+      "eventId": "7016fd45-a029-491a-82df-eee7cfd597ee",
+      "uid": "FIGJ001031SB1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-07T01:03:48.610Z",
+      "timestampLocal": "2026-11-07T01:03:48.610Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.212.1",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "72d27fff1c865b21be8b1f746389a81983e71e0977d72aeec7954018c96d1f5f",
+      "documentHash": "e13d5440b627d513592846d7e335e82bf9985b81fa10a22d894d201e23aa93ce",
+      "metadata": {
+        "proveedor": "Juliana Figueroa Garibay",
+        "representante": "Juliana Figueroa Garibay"
+      },
+      "eventHash": "f25ac9f64c19aa7dbef1831c8709e34fc0b7147242f832e64020b31dfa0e1a60"
+    }
+  ]
 }
