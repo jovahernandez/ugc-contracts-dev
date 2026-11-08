@@ -3,7 +3,7 @@
   "declarationId": "e8dc8a31-08d3-4af2-877a-4f323174c7b1",
   "token": "820c997f-1610-4ce1-92a1-bbbb4caf20c8",
   "createdAt": "2026-11-08T20:19:40.758Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "PP PRODUCAO AUDIO VISUAL LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Maria do Rosário Feitosa Noronha Xavier",
     "email": "contato.pedropucci@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "fcb13ee8724e5d2b4bb2513d42f53732777e417049da49588d0565eb7ed5b78d",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-08T20:20:11.908Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/36.524.875%2F0001-30",
+  "signatureMetadata": {
+    "ip": "191.190.98.17",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-08T20:20:15.601Z",
+    "signedAtLocal": "2026-11-08T17:20:15.601Z"
+  },
+  "documentHash": "a6b0ff4a621589cc6ebab8c7b248cb914e12cc0cbfc0818b130e476f6cd51430",
   "auditTrail": [
     {
       "eventId": "bbf1ce1b-c5fe-4b01-92d0-36cfe3b8c5d6",
@@ -66,6 +74,49 @@
         "representante": "Maria do Rosário Feitosa Noronha Xavier"
       },
       "eventHash": "0e8429c8a72f11cc14da423c78733ffe33813f97f56ed8e42a9785ea2cf9aa35"
+    },
+    {
+      "eventId": "0224bf47-bab4-4874-99ff-5086c135f981",
+      "uid": "36.524.875/0001-30",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-08T20:19:51.724Z",
+      "timestampLocal": "2026-11-08T20:19:51.724Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.190.98.17",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=36.524.875%2F0001-30&nombre_proveedor_razon_social=PP+PRODUCAO+AUDIO+VISUAL+LTDA&nombre_representante_legal=Maria+do+Ros%C3%A1rio+Feitosa+Noronha+Xavier&email=contato.pedropucci%40gmail.com",
+      "previousEventHash": "0e8429c8a72f11cc14da423c78733ffe33813f97f56ed8e42a9785ea2cf9aa35",
+      "documentHash": "fcb13ee8724e5d2b4bb2513d42f53732777e417049da49588d0565eb7ed5b78d",
+      "eventHash": "fea79e5c0f9907accf1b088399b73b72d5dd67524b676b0654a3f5a3eac680d7"
+    },
+    {
+      "eventId": "d958f866-9f1d-4f25-8871-79344968e785",
+      "uid": "36.524.875/0001-30",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-08T20:20:15.601Z",
+      "timestampLocal": "2026-11-08T17:20:15.601Z",
+      "timezone": "UTC-3",
+      "ipAddress": "191.190.98.17",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/820c997f-1610-4ce1-92a1-bbbb4caf20c8",
+      "previousEventHash": "fea79e5c0f9907accf1b088399b73b72d5dd67524b676b0654a3f5a3eac680d7",
+      "documentHash": "a6b0ff4a621589cc6ebab8c7b248cb914e12cc0cbfc0818b130e476f6cd51430",
+      "signatureHash": "3beea087085b373c636385a1618eb0b9aa9d5aee1a5b2876b2d572dba7e091ac",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-08T17:20:11.908Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "0df9a0cb62ec4e6c956b1acc9603d8ce21fa2d46b06160efac96f9900352b859"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-08T20:20:15.833Z"
+  }
 }
