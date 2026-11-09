@@ -3,7 +3,7 @@
   "declarationId": "26ad89d7-bb1f-4986-91e6-c9636b949b5b",
   "token": "df1e95b2-1354-4748-9c36-dcda6682c874",
   "createdAt": "2026-11-09T21:43:12.670Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "AMAURI CAMARGO MAZZUCO VIDEO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Amauri Camargo Mazzuco",
     "email": "falacom@amaurimazzuco.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "2f0ccb5b66687db2a72d909e2d5cd3082382e5a30d064ff5ea1684828e16b82b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-09T21:45:24.177Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/58.159.660%2F0001-08",
+  "signatureMetadata": {
+    "ip": "191.17.204.130",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-11-09T21:45:29.848Z",
+    "signedAtLocal": "2026-11-09T18:45:29.848Z"
+  },
+  "documentHash": "63dea2200d7d7b7076074f0259c8dc5d8830bb47e41f874a0bdbe970ad6aa132",
   "auditTrail": [
     {
       "eventId": "36997a8a-ab7b-402a-8b5a-967df97bc2a7",
@@ -177,6 +185,86 @@
         "representante": "Amauri Camargo Mazzuco"
       },
       "eventHash": "43bf13b607157d96f73857c1c41e681ee73dbf3f3ee0e9294c55eb6cef412531"
+    },
+    {
+      "eventId": "bdb482e7-34a8-45e6-88b6-52385bcbcde6",
+      "uid": "58.159.660/0001-08",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-09T21:43:28.261Z",
+      "timestampLocal": "2026-11-09T21:43:28.261Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.17.204.130",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "43bf13b607157d96f73857c1c41e681ee73dbf3f3ee0e9294c55eb6cef412531",
+      "documentHash": "f22a2689c03e1cde840aeda2a01f2f960e404ed41cd714105ade10736a0c3407",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "572d68f6590555dd30ccb117ffe0f9da47b48d18010e5e0082e24a7ead640458"
+    },
+    {
+      "eventId": "ea8cbae3-cb34-4a6e-ab12-368258352e26",
+      "uid": "58.159.660/0001-08",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-09T21:43:28.261Z",
+      "timestampLocal": "2026-11-09T21:43:28.261Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.17.204.130",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "572d68f6590555dd30ccb117ffe0f9da47b48d18010e5e0082e24a7ead640458",
+      "documentHash": "f22a2689c03e1cde840aeda2a01f2f960e404ed41cd714105ade10736a0c3407",
+      "metadata": {
+        "proveedor": "AMAURI CAMARGO MAZZUCO VIDEO",
+        "representante": "Amauri Camargo Mazzuco"
+      },
+      "eventHash": "60bebe7a1823e2c9b7a7acac3561c4865761a80d75695a4a86da116b081696a0"
+    },
+    {
+      "eventId": "a5053bb4-40fc-4b08-8fb8-115ce012a60e",
+      "uid": "58.159.660/0001-08",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-09T21:43:30.456Z",
+      "timestampLocal": "2026-11-09T21:43:30.456Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.17.204.130",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "60bebe7a1823e2c9b7a7acac3561c4865761a80d75695a4a86da116b081696a0",
+      "documentHash": "f22a2689c03e1cde840aeda2a01f2f960e404ed41cd714105ade10736a0c3407",
+      "eventHash": "e7f4d39f0b9b31a0efd55376829389570172fb602c8137fe2ec0a45f25647adc"
+    },
+    {
+      "eventId": "85c72b16-5b0e-4117-a741-e2c0b4215bf7",
+      "uid": "58.159.660/0001-08",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-09T21:45:29.849Z",
+      "timestampLocal": "2026-11-09T18:45:29.849Z",
+      "timezone": "UTC-3",
+      "ipAddress": "191.17.204.130",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "e7f4d39f0b9b31a0efd55376829389570172fb602c8137fe2ec0a45f25647adc",
+      "documentHash": "63dea2200d7d7b7076074f0259c8dc5d8830bb47e41f874a0bdbe970ad6aa132",
+      "signatureHash": "1560f4ceeb7bb00b9f23efafa667d144beeae590bc5f60e4a11105a690b8b7f6",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-09T18:45:24.177Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "7dbe6573e3006865a5cb46d0b3c0a1ee3c70264d15d51307d08b9bd4fe207739"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 12,
+    "verifiedAt": "2026-11-09T21:45:30.094Z"
+  }
 }
