@@ -3,8 +3,18 @@
   "declarationId": "3249b46b-ad74-45c5-a766-ca54dbddfaf0",
   "token": "f8038c24-8df8-4994-9ebc-b8c1d1759489",
   "createdAt": "2026-11-10T02:53:07.493Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GABRIEL CAMACHO MARTINEZ",
+    "nombre_representante_legal": "GABRIEL CAMACHO MARTINEZ",
+    "email": "contabilidad@xulolab.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GABRIEL CAMACHO MARTINEZ",
+    "nombre_representante_legal": "GABRIEL CAMACHO MARTINEZ",
+    "email": "contabilidad@xulolab.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GABRIEL CAMACHO MARTINEZ",
     "nombre_representante_legal": "GABRIEL CAMACHO MARTINEZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "63ab8c3378003827c470092a3f594e07575156cddaf766799068135dd8b1b56f",
+  "auditTrail": [
+    {
+      "eventId": "0b634913-3b33-4238-8add-14e4f2cf1cd8",
+      "uid": "CAMG990326SL0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-10T02:53:17.405Z",
+      "timestampLocal": "2026-11-10T02:53:17.405Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.241.198",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAMG990326SL0&nombre_proveedor_razon_social=GABRIEL+CAMACHO+MARTINEZ&nombre_representante_legal=GABRIEL+CAMACHO+MARTINEZ&email=contabilidad%40xulolab.com",
+      "previousEventHash": null,
+      "documentHash": "63ab8c3378003827c470092a3f594e07575156cddaf766799068135dd8b1b56f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4ff195f033d5f678caa1eb645cf87b0d54d819ea635911bbd27bf0aed696e2de"
+    },
+    {
+      "eventId": "a3ffc1c9-e4d0-4b4b-a6e5-248c73626021",
+      "uid": "CAMG990326SL0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-10T02:53:17.405Z",
+      "timestampLocal": "2026-11-10T02:53:17.405Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.241.198",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CAMG990326SL0&nombre_proveedor_razon_social=GABRIEL+CAMACHO+MARTINEZ&nombre_representante_legal=GABRIEL+CAMACHO+MARTINEZ&email=contabilidad%40xulolab.com",
+      "previousEventHash": "4ff195f033d5f678caa1eb645cf87b0d54d819ea635911bbd27bf0aed696e2de",
+      "documentHash": "63ab8c3378003827c470092a3f594e07575156cddaf766799068135dd8b1b56f",
+      "metadata": {
+        "proveedor": "GABRIEL CAMACHO MARTINEZ",
+        "representante": "GABRIEL CAMACHO MARTINEZ"
+      },
+      "eventHash": "5197d77912216affe354ede865692a8d1528672e2f36ff8dbe08852a89d05fdf"
+    }
+  ]
 }
