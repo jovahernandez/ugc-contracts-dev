@@ -3,8 +3,18 @@
   "declarationId": "2bcaa6b9-0e2d-4c64-844d-f2ae1551d36b",
   "token": "8852f58f-9a1a-439f-a406-5a526afb712a",
   "createdAt": "2026-11-10T22:46:35.337Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "CONSORCIO INTERAMERICANO DE COMUNICACION SA DE CV",
+    "nombre_representante_legal": "Katia Lucia Santaolaya Ramirez",
+    "email": "cyc@reforma.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "CONSORCIO INTERAMERICANO DE COMUNICACION SA DE CV",
+    "nombre_representante_legal": "Katia Lucia Santaolaya Ramirez",
+    "email": "cyc@reforma.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "CONSORCIO INTERAMERICANO DE COMUNICACION SA DE CV",
     "nombre_representante_legal": "Katia Lucia Santaolaya Ramirez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "b2863355058158ed305ac16f825a5079f7881f686d6f01e4388228b416dae07d",
+  "auditTrail": [
+    {
+      "eventId": "5ad4b28f-e683-4136-b16d-cbd618d974dc",
+      "uid": "CIC970922LKA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-10T22:46:49.236Z",
+      "timestampLocal": "2026-11-10T22:46:49.236Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.78.137.70",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CIC970922LKA&nombre_proveedor_razon_social=CONSORCIO+INTERAMERICANO+DE+COMUNICACION+SA+DE+CV&nombre_representante_legal=Katia+Lucia+Santaolaya+Ramirez&email=cyc%40reforma.com",
+      "previousEventHash": null,
+      "documentHash": "b2863355058158ed305ac16f825a5079f7881f686d6f01e4388228b416dae07d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "117d66db31cc2ed2ddc27475f746f39d60df4b1be65733c860fb0681a361167f"
+    },
+    {
+      "eventId": "307f019f-42c9-4017-84c5-bd776faef441",
+      "uid": "CIC970922LKA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-10T22:46:49.236Z",
+      "timestampLocal": "2026-11-10T22:46:49.236Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.78.137.70",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=CIC970922LKA&nombre_proveedor_razon_social=CONSORCIO+INTERAMERICANO+DE+COMUNICACION+SA+DE+CV&nombre_representante_legal=Katia+Lucia+Santaolaya+Ramirez&email=cyc%40reforma.com",
+      "previousEventHash": "117d66db31cc2ed2ddc27475f746f39d60df4b1be65733c860fb0681a361167f",
+      "documentHash": "b2863355058158ed305ac16f825a5079f7881f686d6f01e4388228b416dae07d",
+      "metadata": {
+        "proveedor": "CONSORCIO INTERAMERICANO DE COMUNICACION SA DE CV",
+        "representante": "Katia Lucia Santaolaya Ramirez"
+      },
+      "eventHash": "78e297bda426c54822fbb1a8a6679594731c217f16f42d27e3236d83a2d48a89"
+    }
+  ]
 }
