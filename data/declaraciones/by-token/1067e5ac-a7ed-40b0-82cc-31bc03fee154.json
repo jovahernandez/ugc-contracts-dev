@@ -3,8 +3,18 @@
   "declarationId": "56ed80e0-dcd4-4a23-a6b4-b22ac62bed13",
   "token": "1067e5ac-a7ed-40b0-82cc-31bc03fee154",
   "createdAt": "2026-11-10T18:23:17.124Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Hugo Eduardo Carrasco Mociños",
+    "nombre_representante_legal": "Hugo Eduardo Carrasco Mociños",
+    "email": "hugopethead@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Hugo Eduardo Carrasco Mociños",
+    "nombre_representante_legal": "Hugo Eduardo Carrasco Mociños",
+    "email": "hugopethead@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Hugo Eduardo Carrasco Mociños",
     "nombre_representante_legal": "Hugo Eduardo Carrasco Mociños",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8bf8177eafbbc5964fc9af48f340d9a855e9995893cb811a4f84781b2040a24d",
+  "auditTrail": [
+    {
+      "eventId": "08f39901-b6af-43f5-b455-44f6888f0253",
+      "uid": "CAMH910716S78",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-10T18:23:25.086Z",
+      "timestampLocal": "2026-11-10T18:23:25.086Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.121.154.83",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "en-GB,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "8bf8177eafbbc5964fc9af48f340d9a855e9995893cb811a4f84781b2040a24d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "daeedae4497e894bcabdccc73b5c77c479e03b7581cef38bed03c998d72c6a9b"
+    },
+    {
+      "eventId": "1b5d9fac-9d43-437c-825d-cbf93d1ac7e0",
+      "uid": "CAMH910716S78",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-10T18:23:25.086Z",
+      "timestampLocal": "2026-11-10T18:23:25.086Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.121.154.83",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "acceptLanguage": "en-GB,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "daeedae4497e894bcabdccc73b5c77c479e03b7581cef38bed03c998d72c6a9b",
+      "documentHash": "8bf8177eafbbc5964fc9af48f340d9a855e9995893cb811a4f84781b2040a24d",
+      "metadata": {
+        "proveedor": "Hugo Eduardo Carrasco Mociños",
+        "representante": "Hugo Eduardo Carrasco Mociños"
+      },
+      "eventHash": "01ec96a02140df4f26b30f8b08f8ff3369aca583920464fa6efc3f6230eef0ab"
+    }
+  ]
 }
