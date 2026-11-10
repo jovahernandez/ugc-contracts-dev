@@ -3,7 +3,7 @@
   "declarationId": "71a6e6e0-51f4-45ee-9d44-a541b2513b86",
   "token": "e6b8416f-4932-4f4d-98bd-3dc9016980e7",
   "createdAt": "2026-11-10T16:09:53.923Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IVAN NAVA GARFIAS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Ivan nava Garfias",
     "email": "stephanivan92@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d51393ce22dda6c38fc77865857646176f28bac1543ca3c93e23ece7449b95eb",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-10T16:11:09.616Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/NAGI000627D89",
+  "signatureMetadata": {
+    "ip": "189.253.57.33",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-10T16:11:15.305Z",
+    "signedAtLocal": "2026-11-10T10:11:15.305Z"
+  },
+  "documentHash": "800cce6a5afc294672da30cbd598866b7fe027982fd4b33400adb1d3248855d3",
   "auditTrail": [
     {
       "eventId": "65d1f468-f683-4abd-9cac-6dd2c2d9b3a6",
@@ -155,6 +163,123 @@
         "representante": "Ivan nava Garfias"
       },
       "eventHash": "67f45c7f7e764f6933144009914a652f57cf29168dd34ea06ca2c195269a0837"
+    },
+    {
+      "eventId": "87d7cdef-9594-4837-b185-5a629d83eaef",
+      "uid": "NAGI000627D89",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-10T16:10:09.968Z",
+      "timestampLocal": "2026-11-10T16:10:09.968Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.57.33",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=NAGI000627D89&nombre_proveedor_razon_social=IVAN+NAVA+GARFIAS&nombre_representante_legal=Ivan+nava+Garfias&email=stephanivan92%40gmail.com",
+      "previousEventHash": "67f45c7f7e764f6933144009914a652f57cf29168dd34ea06ca2c195269a0837",
+      "documentHash": "d51393ce22dda6c38fc77865857646176f28bac1543ca3c93e23ece7449b95eb",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "84d424ebdc4d9d25acea1d6ff92370e999690816252a15f5bcbc4362eda509d5"
+    },
+    {
+      "eventId": "b0fae757-85cd-4b9a-a807-3e87cf5ba15c",
+      "uid": "NAGI000627D89",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-10T16:10:09.969Z",
+      "timestampLocal": "2026-11-10T16:10:09.969Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.57.33",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=NAGI000627D89&nombre_proveedor_razon_social=IVAN+NAVA+GARFIAS&nombre_representante_legal=Ivan+nava+Garfias&email=stephanivan92%40gmail.com",
+      "previousEventHash": "84d424ebdc4d9d25acea1d6ff92370e999690816252a15f5bcbc4362eda509d5",
+      "documentHash": "d51393ce22dda6c38fc77865857646176f28bac1543ca3c93e23ece7449b95eb",
+      "metadata": {
+        "proveedor": "IVAN NAVA GARFIAS",
+        "representante": "Ivan nava Garfias"
+      },
+      "eventHash": "862bbf87f582fe4d3b195cda62d142bd7f4a008b93278e6f559798986b2de735"
+    },
+    {
+      "eventId": "780df47f-b1bc-4dc9-a82b-7a5b24e5481c",
+      "uid": "NAGI000627D89",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-10T16:10:10.737Z",
+      "timestampLocal": "2026-11-10T16:10:10.737Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.57.33",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=NAGI000627D89&nombre_proveedor_razon_social=IVAN+NAVA+GARFIAS&nombre_representante_legal=Ivan+nava+Garfias&email=stephanivan92%40gmail.com",
+      "previousEventHash": "862bbf87f582fe4d3b195cda62d142bd7f4a008b93278e6f559798986b2de735",
+      "documentHash": "10dd5466825fefed699b69eead281658c5bf4a444d64f263036230da5feedac7",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "b5439083266b9d35d98321c6b9c81ea0b48a2b64780a7ab4748ba2e379fc6a29"
+    },
+    {
+      "eventId": "aaefba3e-5035-4192-8f75-6924eb098df6",
+      "uid": "NAGI000627D89",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-10T16:10:10.737Z",
+      "timestampLocal": "2026-11-10T16:10:10.737Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.57.33",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=NAGI000627D89&nombre_proveedor_razon_social=IVAN+NAVA+GARFIAS&nombre_representante_legal=Ivan+nava+Garfias&email=stephanivan92%40gmail.com",
+      "previousEventHash": "b5439083266b9d35d98321c6b9c81ea0b48a2b64780a7ab4748ba2e379fc6a29",
+      "documentHash": "10dd5466825fefed699b69eead281658c5bf4a444d64f263036230da5feedac7",
+      "metadata": {
+        "proveedor": "IVAN NAVA GARFIAS",
+        "representante": "Ivan nava Garfias"
+      },
+      "eventHash": "1da0fb758ab93db9df7c98c7160381573cb38a1d60b64bfc121caa9617ee11fd"
+    },
+    {
+      "eventId": "74a292c4-a0c6-4d15-9b95-89a0a23ae18f",
+      "uid": "NAGI000627D89",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-10T16:10:20.349Z",
+      "timestampLocal": "2026-11-10T16:10:20.349Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.253.57.33",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "1da0fb758ab93db9df7c98c7160381573cb38a1d60b64bfc121caa9617ee11fd",
+      "documentHash": "10dd5466825fefed699b69eead281658c5bf4a444d64f263036230da5feedac7",
+      "eventHash": "cad269016d4b0f3b01b839fd818e71774c1ae7acfdd1c077f0801c40a7ecf2d8"
+    },
+    {
+      "eventId": "979a85e6-1205-43ed-9f46-149b074048f6",
+      "uid": "NAGI000627D89",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-10T16:11:15.306Z",
+      "timestampLocal": "2026-11-10T10:11:15.306Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.253.57.33",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e6b8416f-4932-4f4d-98bd-3dc9016980e7",
+      "previousEventHash": "cad269016d4b0f3b01b839fd818e71774c1ae7acfdd1c077f0801c40a7ecf2d8",
+      "documentHash": "800cce6a5afc294672da30cbd598866b7fe027982fd4b33400adb1d3248855d3",
+      "signatureHash": "012950748f9b3df6c6f9cd6593f8a98bec91e2450e862ab8c9d07e0a06d45c88",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-10T10:11:09.616Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "c5164ec75025a2a1ac9ebe0938f372d438b0b017817c0670720be8413482120f"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 13,
+    "verifiedAt": "2026-11-10T16:11:15.715Z"
+  }
 }
