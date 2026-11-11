@@ -3,8 +3,18 @@
   "declarationId": "03f6df04-19d4-4ad8-a8a4-136c79780c44",
   "token": "183f498f-a0b7-4800-9506-b9b8f5c23a60",
   "createdAt": "2026-11-11T18:22:07.848Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JAVIER MIGUEL BERNAL GRIMALDO",
+    "nombre_representante_legal": "Javier Bernal",
+    "email": "Shefvier@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JAVIER MIGUEL BERNAL GRIMALDO",
+    "nombre_representante_legal": "Javier Bernal",
+    "email": "Shefvier@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "JAVIER MIGUEL BERNAL GRIMALDO",
     "nombre_representante_legal": "Javier Bernal",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d049a35ba58c4ecb4a76f35e600d45e700f2a272affaacff39b3380bf5075368",
+  "auditTrail": [
+    {
+      "eventId": "9090a0be-11f9-4696-8b11-12b1ab16086f",
+      "uid": "8-967-1898",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-11T18:22:16.606Z",
+      "timestampLocal": "2026-11-11T18:22:16.606Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.188.248.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=8-967-1898&nombre_proveedor_razon_social=JAVIER+MIGUEL+BERNAL+GRIMALDO&nombre_representante_legal=Javier+Bernal&email=Shefvier%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "d049a35ba58c4ecb4a76f35e600d45e700f2a272affaacff39b3380bf5075368",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2f702903f38db2fb5a8ca4ea1ab7f2f76d62f6b69fbda1f301f8170a7cc98b5e"
+    },
+    {
+      "eventId": "ac942660-e93c-4e31-9e48-999cb84f5b4c",
+      "uid": "8-967-1898",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-11T18:22:16.606Z",
+      "timestampLocal": "2026-11-11T18:22:16.606Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.188.248.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=8-967-1898&nombre_proveedor_razon_social=JAVIER+MIGUEL+BERNAL+GRIMALDO&nombre_representante_legal=Javier+Bernal&email=Shefvier%40gmail.com",
+      "previousEventHash": "2f702903f38db2fb5a8ca4ea1ab7f2f76d62f6b69fbda1f301f8170a7cc98b5e",
+      "documentHash": "d049a35ba58c4ecb4a76f35e600d45e700f2a272affaacff39b3380bf5075368",
+      "metadata": {
+        "proveedor": "JAVIER MIGUEL BERNAL GRIMALDO",
+        "representante": "Javier Bernal"
+      },
+      "eventHash": "1ac65e9c75aa9da2b827f78f694dce78cfc4609237d4849e8d7d08b38e70a640"
+    }
+  ]
 }
