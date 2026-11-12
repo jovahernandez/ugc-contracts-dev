@@ -3,8 +3,18 @@
   "declarationId": "e63afbad-011b-46f9-a69c-427385245480",
   "token": "0f3b933e-70a3-4f68-9c0d-623f512082d0",
   "createdAt": "2026-11-12T13:02:05.226Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ACE MARKETING DIGITAL LTDA",
+    "nombre_representante_legal": "Martin Kothe Gonalves",
+    "email": "creators@acesquad.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ACE MARKETING DIGITAL LTDA",
+    "nombre_representante_legal": "Martin Kothe Gonalves",
+    "email": "creators@acesquad.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ACE MARKETING DIGITAL LTDA",
     "nombre_representante_legal": "Martin Kothe Gonalves",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "247aa6c753088e862378109a6dc9bb4604ee1332429ddefce99eb9cdb1cde98f",
+  "auditTrail": [
+    {
+      "eventId": "6e634c28-09d0-4178-a3d0-d9b7216f9e86",
+      "uid": "59.751.385/0001-71",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-12T13:02:20.560Z",
+      "timestampLocal": "2026-11-12T13:02:20.560Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.161.127.235",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=59.751.385%2F0001-71&nombre_proveedor_razon_social=ACE+MARKETING+DIGITAL+LTDA&nombre_representante_legal=Martin+Kothe+Gonalves&email=creators%40acesquad.com.br",
+      "previousEventHash": null,
+      "documentHash": "247aa6c753088e862378109a6dc9bb4604ee1332429ddefce99eb9cdb1cde98f",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "099e2660aa8bff3d37d79b092c05e1c04064862a0b7667b94972c0749feb27e8"
+    },
+    {
+      "eventId": "024b085d-f1a4-462f-be4a-52881257635b",
+      "uid": "59.751.385/0001-71",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-12T13:02:20.560Z",
+      "timestampLocal": "2026-11-12T13:02:20.560Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.161.127.235",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=59.751.385%2F0001-71&nombre_proveedor_razon_social=ACE+MARKETING+DIGITAL+LTDA&nombre_representante_legal=Martin+Kothe+Gonalves&email=creators%40acesquad.com.br",
+      "previousEventHash": "099e2660aa8bff3d37d79b092c05e1c04064862a0b7667b94972c0749feb27e8",
+      "documentHash": "247aa6c753088e862378109a6dc9bb4604ee1332429ddefce99eb9cdb1cde98f",
+      "metadata": {
+        "proveedor": "ACE MARKETING DIGITAL LTDA",
+        "representante": "Martin Kothe Gonalves"
+      },
+      "eventHash": "8f3dfaa6e73031356aeae388c18a5073a8eb924c699b128e858934906e38afe1"
+    }
+  ]
 }
