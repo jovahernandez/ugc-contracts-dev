@@ -3,8 +3,18 @@
   "declarationId": "0ab7b4e7-b848-4b6d-bff5-55543b007d54",
   "token": "2083f658-ba6c-42ca-b0c5-ded356c37ac9",
   "createdAt": "2026-11-12T14:37:31.379Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GBV Produção e Negócios Artísticos LTDa",
+    "nombre_representante_legal": "giullia Buscacio",
+    "email": "contato@buscaccio.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GBV Produção e Negócios Artísticos LTDa",
+    "nombre_representante_legal": "giullia Buscacio",
+    "email": "contato@buscaccio.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GBV Produção e Negócios Artísticos LTDa",
     "nombre_representante_legal": "giullia Buscacio",
@@ -18,5 +28,81 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d565ed72a724cf6e61b9b1f6d6387e46d3187ca810888c3a042325b9d3efcc8c",
+  "auditTrail": [
+    {
+      "eventId": "a790c666-3fe4-4351-9dc6-df46090e2012",
+      "uid": "36.413.800/0001-81",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-12T14:37:40.115Z",
+      "timestampLocal": "2026-11-12T14:37:40.115Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.164.215.103",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "d565ed72a724cf6e61b9b1f6d6387e46d3187ca810888c3a042325b9d3efcc8c",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "7c1993795042e97175afe4123abf815dc8f95808e675820dbe73ab8cb54e92a3"
+    },
+    {
+      "eventId": "d4970c07-70d7-4db4-9300-0d17111a8c6d",
+      "uid": "36.413.800/0001-81",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-12T14:37:40.115Z",
+      "timestampLocal": "2026-11-12T14:37:40.115Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.164.215.103",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "7c1993795042e97175afe4123abf815dc8f95808e675820dbe73ab8cb54e92a3",
+      "documentHash": "d565ed72a724cf6e61b9b1f6d6387e46d3187ca810888c3a042325b9d3efcc8c",
+      "metadata": {
+        "proveedor": "GBV Produção e Negócios Artísticos LTDa",
+        "representante": "giullia Buscacio"
+      },
+      "eventHash": "629c7ef968aadbec8fec89edc3a9affec0461eeb4e499cd2b7f021293f361569"
+    },
+    {
+      "eventId": "506283f6-42e8-49ed-9ced-307f190f7d1b",
+      "uid": "36.413.800/0001-81",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-12T14:37:41.563Z",
+      "timestampLocal": "2026-11-12T14:37:41.563Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.164.215.103",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "629c7ef968aadbec8fec89edc3a9affec0461eeb4e499cd2b7f021293f361569",
+      "documentHash": "d565ed72a724cf6e61b9b1f6d6387e46d3187ca810888c3a042325b9d3efcc8c",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "e3463732b8711117508fd1fc6c7b2c4e7e95621b3f6e06c4f0f1a31020acec17"
+    },
+    {
+      "eventId": "ff1aa6c2-52ec-4ea6-9d72-bdc53257a53e",
+      "uid": "36.413.800/0001-81",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-12T14:37:41.563Z",
+      "timestampLocal": "2026-11-12T14:37:41.563Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.164.215.103",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "e3463732b8711117508fd1fc6c7b2c4e7e95621b3f6e06c4f0f1a31020acec17",
+      "documentHash": "d565ed72a724cf6e61b9b1f6d6387e46d3187ca810888c3a042325b9d3efcc8c",
+      "metadata": {
+        "proveedor": "GBV Produção e Negócios Artísticos LTDa",
+        "representante": "giullia Buscacio"
+      },
+      "eventHash": "b00cd8e1346a4ac4644e5e11ec858fa943806acbdd71d40896f083f28022b19e"
+    }
+  ]
 }
