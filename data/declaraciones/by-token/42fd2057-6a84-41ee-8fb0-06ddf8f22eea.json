@@ -3,7 +3,7 @@
   "declarationId": "525ba51e-6732-4566-bf36-c4d7f0e14f51",
   "token": "42fd2057-6a84-41ee-8fb0-06ddf8f22eea",
   "createdAt": "2026-11-12T21:11:18.011Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Daniela Azareel Gonzalez Brito",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "DANIELA AZAREEL GONZALEZ BRITO",
     "email": "danielabritognz@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a6b975eeef47e868e16a27ef3b5a09809ea22609d03cd915219626c56bf70640",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-12T21:12:41.382Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GOBD9711209P3",
+  "signatureMetadata": {
+    "ip": "189.245.81.96",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+    "signedAtUtc": "2026-11-12T21:12:44.796Z",
+    "signedAtLocal": "2026-11-12T15:12:44.796Z"
+  },
+  "documentHash": "468b858878aa935fc242c5c5bd7c40f702b32a9374ce468e6a12f9061b11543d",
   "auditTrail": [
     {
       "eventId": "7b8e2f08-dfac-4433-8cb5-9af06735554a",
@@ -103,6 +111,49 @@
         "representante": "DANIELA AZAREEL GONZALEZ BRITO"
       },
       "eventHash": "c8897c5bc44c32d6de110f94211b939e4e751b5ee4ea48c39effec78b98389d0"
+    },
+    {
+      "eventId": "84724fa2-eb21-4a0a-a97b-da358baa283a",
+      "uid": "GOBD9711209P3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-12T21:11:30.122Z",
+      "timestampLocal": "2026-11-12T21:11:30.122Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.245.81.96",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GOBD9711209P3&nombre_proveedor_razon_social=Daniela+Azareel+Gonzalez+Brito&nombre_representante_legal=DANIELA+AZAREEL+GONZALEZ+BRITO&email=danielabritognz%40gmail.com",
+      "previousEventHash": "c8897c5bc44c32d6de110f94211b939e4e751b5ee4ea48c39effec78b98389d0",
+      "documentHash": "a6b975eeef47e868e16a27ef3b5a09809ea22609d03cd915219626c56bf70640",
+      "eventHash": "ab62a839c55e89a4874f2d330e1d047176a5d46850394b26573844e925eb9f56"
+    },
+    {
+      "eventId": "1a8d3edd-6ca9-4092-abb5-f2df6e09dfa6",
+      "uid": "GOBD9711209P3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-12T21:12:44.796Z",
+      "timestampLocal": "2026-11-12T15:12:44.796Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.245.81.96",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/42fd2057-6a84-41ee-8fb0-06ddf8f22eea",
+      "previousEventHash": "ab62a839c55e89a4874f2d330e1d047176a5d46850394b26573844e925eb9f56",
+      "documentHash": "468b858878aa935fc242c5c5bd7c40f702b32a9374ce468e6a12f9061b11543d",
+      "signatureHash": "5c630366d6d9c11f65a0feb34d7af2691e04dce7764e1d2500258c6fe6fa305e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-12T15:12:41.382Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "d0123728ce9a8e8f5438cf6dbe91927f05592a39b1c6732e6fa82956e39e6fab"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-11-12T21:12:44.997Z"
+  }
 }
