@@ -3,7 +3,7 @@
   "declarationId": "2e94b6be-ea58-476d-aa2f-c0183ecc0a2e",
   "token": "66ede928-8a93-47e6-a2f0-1ccdf1d77947",
   "createdAt": "2026-11-12T13:15:57.905Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "CALANGO PRODUCOES ARTISTICAS LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Thiago Elias Lima Campos",
     "email": "eu@calango.tv"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "bd7d05beca98e83ef08c2e684fadf9c301712b8c42bc2a2632417d1c69afdf02",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-12T13:16:30.637Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/32299897000192",
+  "signatureMetadata": {
+    "ip": "45.161.127.235",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-12T13:16:33.951Z",
+    "signedAtLocal": "2026-11-12T10:16:33.951Z"
+  },
+  "documentHash": "00ec2715fcc4151ee3cd6064853700f84aeb39d7147d5a8a46616e0ae30418a3",
   "auditTrail": [
     {
       "eventId": "965d6e9c-5aa0-41b0-84b2-bfd382966197",
@@ -66,6 +74,49 @@
         "representante": "Thiago Elias Lima Campos"
       },
       "eventHash": "46c81345e134c2b61df85c99885a325ff001547d62f797e3ceef22c58a5fdddb"
+    },
+    {
+      "eventId": "fd323f23-c66a-4f23-b7c3-bd8c0ba537a7",
+      "uid": "32299897000192",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-12T13:16:09.443Z",
+      "timestampLocal": "2026-11-12T13:16:09.443Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.161.127.235",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,pt-BR;q=0.8,pt;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=32299897000192&nombre_proveedor_razon_social=CALANGO+PRODUCOES+ARTISTICAS+LTDA&nombre_representante_legal=Thiago+Elias+Lima+Campos&email=eu%40calango.tv",
+      "previousEventHash": "46c81345e134c2b61df85c99885a325ff001547d62f797e3ceef22c58a5fdddb",
+      "documentHash": "bd7d05beca98e83ef08c2e684fadf9c301712b8c42bc2a2632417d1c69afdf02",
+      "eventHash": "8c2aaff76aab16556a59d2d7ea1dfb74b7e632e8794c1b44fcaae89712f3bfe8"
+    },
+    {
+      "eventId": "a715f54f-65ae-4fe6-b56c-426f25355222",
+      "uid": "32299897000192",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-12T13:16:33.951Z",
+      "timestampLocal": "2026-11-12T10:16:33.951Z",
+      "timezone": "UTC-3",
+      "ipAddress": "45.161.127.235",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,pt-BR;q=0.8,pt;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/66ede928-8a93-47e6-a2f0-1ccdf1d77947",
+      "previousEventHash": "8c2aaff76aab16556a59d2d7ea1dfb74b7e632e8794c1b44fcaae89712f3bfe8",
+      "documentHash": "00ec2715fcc4151ee3cd6064853700f84aeb39d7147d5a8a46616e0ae30418a3",
+      "signatureHash": "04cfb0b2f6ae27469d65819bb1adaaf6dcb9c1a435f418742db29c4cdc9c1c35",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-12T10:16:30.637Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "52dbba6c34ab3a85eacfebc4e0789628886bb7cf1bb74e6a0cb425498a662871"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-12T13:16:34.234Z"
+  }
 }
