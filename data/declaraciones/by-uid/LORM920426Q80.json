@@ -3,7 +3,7 @@
   "declarationId": "110bcdb8-04dc-4182-a215-0d0fb20c9c8c",
   "token": "669e68a2-0074-434c-9dba-488692602c9f",
   "createdAt": "2026-11-12T23:36:26.774Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Mario Christian Lozano Rivera",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Mario Christian Lozano Rivera",
     "email": "nadamascorres@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "67d5215b766985cedcaffb6b996079d58caee0236c42b6cc58256741aea505b0",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-12T23:37:10.143Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LORM920426Q80",
+  "signatureMetadata": {
+    "ip": "189.217.198.125",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-12T23:37:15.785Z",
+    "signedAtLocal": "2026-11-12T17:37:15.785Z"
+  },
+  "documentHash": "09a8b7d7fb2a6c1a1f4d5018263a897704c11d6939b47dfc307d24c3d0f1a31d",
   "auditTrail": [
     {
       "eventId": "2a9d4e71-1996-4160-a787-8bcc390377f4",
@@ -118,6 +126,49 @@
         "representante": "Mario Christian Lozano Rivera"
       },
       "eventHash": "e3afd80ba83e2548711f9f903d75453a90e71a7c5fe126c09443d10d55a5375d"
+    },
+    {
+      "eventId": "a1b1647a-74f0-426f-9f3c-f5446225f623",
+      "uid": "LORM920426Q80",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-12T23:36:41.154Z",
+      "timestampLocal": "2026-11-12T23:36:41.154Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.198.125",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LORM920426Q80&nombre_proveedor_razon_social=Mario+Christian+Lozano+Rivera&nombre_representante_legal=Mario+Christian+Lozano+Rivera&email=nadamascorres%40gmail.com",
+      "previousEventHash": "e3afd80ba83e2548711f9f903d75453a90e71a7c5fe126c09443d10d55a5375d",
+      "documentHash": "67d5215b766985cedcaffb6b996079d58caee0236c42b6cc58256741aea505b0",
+      "eventHash": "6f7227d5b92f56ad480be2a16521d9d8b04218ba9ed6b0f41ae66494db30fa0f"
+    },
+    {
+      "eventId": "1a5729e0-67d4-4bf0-a522-750df2852c6b",
+      "uid": "LORM920426Q80",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-12T23:37:15.785Z",
+      "timestampLocal": "2026-11-12T17:37:15.785Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.217.198.125",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/669e68a2-0074-434c-9dba-488692602c9f",
+      "previousEventHash": "6f7227d5b92f56ad480be2a16521d9d8b04218ba9ed6b0f41ae66494db30fa0f",
+      "documentHash": "09a8b7d7fb2a6c1a1f4d5018263a897704c11d6939b47dfc307d24c3d0f1a31d",
+      "signatureHash": "d9f788759ececcfbaf327d4c322d00e283054ee7c34851353a8b860619274d8c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-12T17:37:10.143Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "1a09ec066632fc3fab1d30015aaf723ea02033e85015d9259ac6915788b89245"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-11-12T23:37:16.084Z"
+  }
 }
