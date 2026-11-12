@@ -3,8 +3,18 @@
   "declarationId": "b638c2ad-bdc7-4475-b116-2b3d215e02ed",
   "token": "3c3ba479-417e-4da4-9a99-c2634ace8915",
   "createdAt": "2026-11-12T20:42:50.259Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Sebastián Abarca Romero",
+    "nombre_representante_legal": "Sebastián Abarca",
+    "email": "schmaslowsebastian@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Sebastián Abarca Romero",
+    "nombre_representante_legal": "Sebastián Abarca",
+    "email": "schmaslowsebastian@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Sebastián Abarca Romero",
     "nombre_representante_legal": "Sebastián Abarca",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "417be417142eed910b6ddd56866e96761a1e61fa3fc50385532108f8cf57027c",
+  "auditTrail": [
+    {
+      "eventId": "1b9dd2be-b83c-4be4-a1a2-a165f1812c06",
+      "uid": "AARS0409136D6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-12T20:42:59.516Z",
+      "timestampLocal": "2026-11-12T20:42:59.516Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.119.45",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "417be417142eed910b6ddd56866e96761a1e61fa3fc50385532108f8cf57027c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "db2db620e97bcfdffb5b82e8bedd0e50eae74ce332212e6cdfa23d459415317b"
+    },
+    {
+      "eventId": "a0db06d2-b199-4a53-ae6b-6ebf35b9ed8d",
+      "uid": "AARS0409136D6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-12T20:42:59.516Z",
+      "timestampLocal": "2026-11-12T20:42:59.516Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.119.45",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "db2db620e97bcfdffb5b82e8bedd0e50eae74ce332212e6cdfa23d459415317b",
+      "documentHash": "417be417142eed910b6ddd56866e96761a1e61fa3fc50385532108f8cf57027c",
+      "metadata": {
+        "proveedor": "Sebastián Abarca Romero",
+        "representante": "Sebastián Abarca"
+      },
+      "eventHash": "524240459c36c6aa3ffa0450e661d4a373b2ea54a0fef4dcd1c3f2163f9f1a5a"
+    }
+  ]
 }
