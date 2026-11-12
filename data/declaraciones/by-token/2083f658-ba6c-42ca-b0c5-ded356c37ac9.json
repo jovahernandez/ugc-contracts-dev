@@ -3,7 +3,7 @@
   "declarationId": "0ab7b4e7-b848-4b6d-bff5-55543b007d54",
   "token": "2083f658-ba6c-42ca-b0c5-ded356c37ac9",
   "createdAt": "2026-11-12T14:37:31.379Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "GBV Produção e Negócios Artísticos LTDa",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "giullia Buscacio",
     "email": "contato@buscaccio.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e2cc1537580c795be1bdaf7231af98bb3ba1a4808031cee41fc3023ae44582ae",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-12T14:39:30.835Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/36.413.800%2F0001-81",
+  "signatureMetadata": {
+    "ip": "200.164.215.103",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15",
+    "signedAtUtc": "2026-11-12T14:39:34.213Z",
+    "signedAtLocal": "2026-11-12T11:39:34.213Z"
+  },
+  "documentHash": "fd40a49ff91672f6792f7c3e54a5fdd8ae348c41d87a60599722204a34b08a7f",
   "auditTrail": [
     {
       "eventId": "a790c666-3fe4-4351-9dc6-df46090e2012",
@@ -266,6 +274,64 @@
         "representante": "giullia Buscacio"
       },
       "eventHash": "1eac48f4445d4bae43614a9ea41edf4e1e43def336d36b690d6cf1fd7fde7158"
+    },
+    {
+      "eventId": "3cf35d96-1c32-43d6-855a-cc1edd5a781e",
+      "uid": "36.413.800/0001-81",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-12T14:37:53.186Z",
+      "timestampLocal": "2026-11-12T14:37:53.186Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.164.215.103",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "1eac48f4445d4bae43614a9ea41edf4e1e43def336d36b690d6cf1fd7fde7158",
+      "documentHash": "e2cc1537580c795be1bdaf7231af98bb3ba1a4808031cee41fc3023ae44582ae",
+      "eventHash": "d32926465f605be6f28c81749da40f2d537a126f72ee89fe73fdacaaa71adf9f"
+    },
+    {
+      "eventId": "193a2a14-e48c-4882-96da-e54757094549",
+      "uid": "36.413.800/0001-81",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-12T14:38:06.757Z",
+      "timestampLocal": "2026-11-12T14:38:06.757Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.164.215.103",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "d32926465f605be6f28c81749da40f2d537a126f72ee89fe73fdacaaa71adf9f",
+      "documentHash": "e2cc1537580c795be1bdaf7231af98bb3ba1a4808031cee41fc3023ae44582ae",
+      "eventHash": "bb43d01cc736427dfca4b7d6dae3f37f4188443905b662a04502250a02bb9124"
+    },
+    {
+      "eventId": "699a9d69-590d-46c4-92fd-a17d2ce5ee49",
+      "uid": "36.413.800/0001-81",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-12T14:39:34.213Z",
+      "timestampLocal": "2026-11-12T11:39:34.213Z",
+      "timezone": "UTC-3",
+      "ipAddress": "200.164.215.103",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Safari/605.1.15",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "bb43d01cc736427dfca4b7d6dae3f37f4188443905b662a04502250a02bb9124",
+      "documentHash": "fd40a49ff91672f6792f7c3e54a5fdd8ae348c41d87a60599722204a34b08a7f",
+      "signatureHash": "28e593125c62664e94ce767954d4680976016c375cc1f0a5297769f8f50dc9b0",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-12T11:39:30.835Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "500c398d105454da77422e8267a1e07bf15212e07b77ff50f3cf484391335339"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 16,
+    "verifiedAt": "2026-11-12T14:39:34.500Z"
+  }
 }
