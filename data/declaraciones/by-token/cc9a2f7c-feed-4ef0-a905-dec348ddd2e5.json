@@ -3,7 +3,7 @@
   "declarationId": "52039c59-75bc-47c3-9aad-e2e096c32a3d",
   "token": "cc9a2f7c-feed-4ef0-a905-dec348ddd2e5",
   "createdAt": "2026-11-13T19:12:05.355Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "QILIN MEDIA, S.A de C.V.",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "MATIAS ALEJANDRO GUERRERO RODRIGUEZ",
     "email": "contacto@qilin.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ca8c7f6033e00423b618106cf6cfc5774a8a2e8c56342fab5868b44374e701c6",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-13T19:56:49.777Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/QME241120RX7",
+  "signatureMetadata": {
+    "ip": "200.68.183.12",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-11-13T19:56:55.282Z",
+    "signedAtLocal": "2026-11-13T13:56:55.282Z"
+  },
+  "documentHash": "1756d4b0eec82763a24a079622c9834b36832942e96941c77659fdab6e0f7c76",
   "auditTrail": [
     {
       "eventId": "2fce4404-ff42-4bc4-ac40-2b07f02fcb3c",
@@ -66,6 +74,79 @@
         "representante": "MATIAS ALEJANDRO GUERRERO RODRIGUEZ"
       },
       "eventHash": "4b6e7615038fb2ab508dbaf7c1e5c2bd8ffde5bfbbcce3630924db54bc1880ec"
+    },
+    {
+      "eventId": "37f9a731-4786-4cf2-869d-190ef0b32274",
+      "uid": "QME241120RX7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-13T19:18:53.682Z",
+      "timestampLocal": "2026-11-13T19:18:53.682Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.87.201",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=QME241120RX7&nombre_proveedor_razon_social=QILIN+MEDIA%2C+S.A+de+C.V.&nombre_representante_legal=MATIAS+ALEJANDRO+GUERRERO+RODRIGUEZ&email=contacto%40qilin.com.mx",
+      "previousEventHash": "4b6e7615038fb2ab508dbaf7c1e5c2bd8ffde5bfbbcce3630924db54bc1880ec",
+      "documentHash": "ca8c7f6033e00423b618106cf6cfc5774a8a2e8c56342fab5868b44374e701c6",
+      "eventHash": "ac36f3a010260d29ff07c29707e2d8d9fe1bab73d884a6e9eed1105ab9c86580"
+    },
+    {
+      "eventId": "e4a8ca5e-9c2e-423e-a9c9-78a01898444f",
+      "uid": "QME241120RX7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-13T19:20:07.031Z",
+      "timestampLocal": "2026-11-13T19:20:07.031Z",
+      "timezone": "UTC+0",
+      "ipAddress": "23.23.253.54",
+      "userAgent": "Mozilla/5.0 (compatible)",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": "ac36f3a010260d29ff07c29707e2d8d9fe1bab73d884a6e9eed1105ab9c86580",
+      "documentHash": "ca8c7f6033e00423b618106cf6cfc5774a8a2e8c56342fab5868b44374e701c6",
+      "eventHash": "06258e1a8d8336be792ce377595e6c6b846606d08ba5d46c816505a93ec0ed99"
+    },
+    {
+      "eventId": "c484065b-c543-4ccc-bcb1-bd1850a9e3ac",
+      "uid": "QME241120RX7",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-13T19:50:45.998Z",
+      "timestampLocal": "2026-11-13T19:50:45.998Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.183.12",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "06258e1a8d8336be792ce377595e6c6b846606d08ba5d46c816505a93ec0ed99",
+      "documentHash": "ca8c7f6033e00423b618106cf6cfc5774a8a2e8c56342fab5868b44374e701c6",
+      "eventHash": "f8de6a12c73534146e01471ab837c99eab6ebd0b5f980e695e44374f91ddca66"
+    },
+    {
+      "eventId": "ada9ad37-c1d3-431b-ba41-0076bf40dd5b",
+      "uid": "QME241120RX7",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-13T19:56:55.282Z",
+      "timestampLocal": "2026-11-13T13:56:55.282Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.68.183.12",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f8de6a12c73534146e01471ab837c99eab6ebd0b5f980e695e44374f91ddca66",
+      "documentHash": "1756d4b0eec82763a24a079622c9834b36832942e96941c77659fdab6e0f7c76",
+      "signatureHash": "3d6968040dc2a9cfedb27745c7777093619bf03d7f1d4f2cc29612731f2a3e55",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-13T13:56:49.777Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "255c24f74ccc1aee120bc9c50448c12b3002a5d6802b1a466d61404f32c73f56"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-11-13T19:56:55.608Z"
+  }
 }
