@@ -3,7 +3,7 @@
   "declarationId": "19a6966f-0f4a-4acd-b910-81410c7b642f",
   "token": "6c466e3a-72ee-4c32-ac79-5fa4d91e984c",
   "createdAt": "2026-11-13T22:58:20.506Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Jimena Maldonado Salinas",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Jimena Maldonado Salinas",
     "email": "jimena.salinasugc@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c7564ec9b5f6752f6b415bbcd3f17639ea263143b8300d6739e7cdf06aeaf650",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-13T22:59:10.055Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MASJ010516U70",
+  "signatureMetadata": {
+    "ip": "187.190.132.38",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+    "signedAtUtc": "2026-11-13T22:59:13.402Z",
+    "signedAtLocal": "2026-11-13T16:59:13.402Z"
+  },
+  "documentHash": "0c26188e5a89c0c89015e5a39d7ae87528d56afacc52ab68798de9ceb50f4352",
   "auditTrail": [
     {
       "eventId": "164d70cb-18e8-467c-a9e8-258c112c88aa",
@@ -66,6 +74,86 @@
         "representante": "Jimena Maldonado Salinas"
       },
       "eventHash": "626aecd6780394512a0bd72f19b393b1fd6d0f4817ca12ad5e86a2d0e7fcd487"
+    },
+    {
+      "eventId": "094dc7fb-aded-4f45-b0d9-246b9ae52997",
+      "uid": "MASJ010516U70",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-13T22:58:47.431Z",
+      "timestampLocal": "2026-11-13T22:58:47.431Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.132.38",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "626aecd6780394512a0bd72f19b393b1fd6d0f4817ca12ad5e86a2d0e7fcd487",
+      "documentHash": "66188a48bd5f0280788308ee9fe00441c1a6d2ce19a25214ee6b46b71fa0b317",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e4e92a7f8408d4ab8e4e378525e5c3486a1df105aa6b69025f662b914b820583"
+    },
+    {
+      "eventId": "0a2760c6-0351-486c-a781-bafcc62103ab",
+      "uid": "MASJ010516U70",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-13T22:58:47.431Z",
+      "timestampLocal": "2026-11-13T22:58:47.431Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.132.38",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "e4e92a7f8408d4ab8e4e378525e5c3486a1df105aa6b69025f662b914b820583",
+      "documentHash": "66188a48bd5f0280788308ee9fe00441c1a6d2ce19a25214ee6b46b71fa0b317",
+      "metadata": {
+        "proveedor": "Jimena Maldonado Salinas",
+        "representante": "Jimena Maldonado Salinas"
+      },
+      "eventHash": "f7bcc601230e2f6259e029fd9d4c48abb32b0a85ab2b30ca5fab5b7f3ee532b2"
+    },
+    {
+      "eventId": "c7593da8-deb8-4f9f-9a4e-16da997012d4",
+      "uid": "MASJ010516U70",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-13T22:58:52.908Z",
+      "timestampLocal": "2026-11-13T22:58:52.908Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.132.38",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f7bcc601230e2f6259e029fd9d4c48abb32b0a85ab2b30ca5fab5b7f3ee532b2",
+      "documentHash": "66188a48bd5f0280788308ee9fe00441c1a6d2ce19a25214ee6b46b71fa0b317",
+      "eventHash": "c20036d85ac3f40cf1dfec20bbc5e2eb09fd0318df2cf8fdac777ef05863488e"
+    },
+    {
+      "eventId": "4d75fc69-047d-4233-87fb-270b9e07104b",
+      "uid": "MASJ010516U70",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-13T22:59:13.402Z",
+      "timestampLocal": "2026-11-13T16:59:13.402Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.132.38",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "c20036d85ac3f40cf1dfec20bbc5e2eb09fd0318df2cf8fdac777ef05863488e",
+      "documentHash": "0c26188e5a89c0c89015e5a39d7ae87528d56afacc52ab68798de9ceb50f4352",
+      "signatureHash": "70ca041e1688d87323f2e59b0c6bbc58ea3681d535cd70ce136a6cb43209ee57",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-13T16:59:10.055Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "e28be50b69b3a6527971e84c7135389271bde46581c6bf83c5cb8e12f2660d66"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-11-13T22:59:13.623Z"
+  }
 }
