@@ -3,8 +3,18 @@
   "declarationId": "19a6966f-0f4a-4acd-b910-81410c7b642f",
   "token": "6c466e3a-72ee-4c32-ac79-5fa4d91e984c",
   "createdAt": "2026-11-13T22:58:20.506Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Jimena Maldonado Salinas",
+    "nombre_representante_legal": "Jimena Maldonado Salinas",
+    "email": "jimena.salinasugc@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Jimena Maldonado Salinas",
+    "nombre_representante_legal": "Jimena Maldonado Salinas",
+    "email": "jimena.salinasugc@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Jimena Maldonado Salinas",
     "nombre_representante_legal": "Jimena Maldonado Salinas",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "c7564ec9b5f6752f6b415bbcd3f17639ea263143b8300d6739e7cdf06aeaf650",
+  "auditTrail": [
+    {
+      "eventId": "164d70cb-18e8-467c-a9e8-258c112c88aa",
+      "uid": "MASJ010516U70",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-13T22:58:44.882Z",
+      "timestampLocal": "2026-11-13T22:58:44.882Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.132.38",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "c7564ec9b5f6752f6b415bbcd3f17639ea263143b8300d6739e7cdf06aeaf650",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "794c27cfc19b14bfcab154c4a1069290f57e9c4ae3282bddf16c6db9e4f2446a"
+    },
+    {
+      "eventId": "9025d7e5-22b2-4684-8419-be583aa9c98f",
+      "uid": "MASJ010516U70",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-13T22:58:44.882Z",
+      "timestampLocal": "2026-11-13T22:58:44.882Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.132.38",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "794c27cfc19b14bfcab154c4a1069290f57e9c4ae3282bddf16c6db9e4f2446a",
+      "documentHash": "c7564ec9b5f6752f6b415bbcd3f17639ea263143b8300d6739e7cdf06aeaf650",
+      "metadata": {
+        "proveedor": "Jimena Maldonado Salinas",
+        "representante": "Jimena Maldonado Salinas"
+      },
+      "eventHash": "626aecd6780394512a0bd72f19b393b1fd6d0f4817ca12ad5e86a2d0e7fcd487"
+    }
+  ]
 }
