@@ -3,7 +3,7 @@
   "declarationId": "23411ffe-1086-45cb-9c79-3efe5babf7f4",
   "token": "b83da677-11cc-48d0-9f8c-9ee1643456a6",
   "createdAt": "2026-11-13T23:01:35.954Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Rafaella Proaño Paris",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Rafaella Proaño",
     "email": "rafaellaproano@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0cf21a263afd17e362eed4648331a19e67bf4dc921107d920ab7135049a2ed92",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-13T23:04:24.009Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/1714231634001",
+  "signatureMetadata": {
+    "ip": "38.19.73.141",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15",
+    "signedAtUtc": "2026-11-13T23:04:27.323Z",
+    "signedAtLocal": "2026-11-13T18:04:27.323Z"
+  },
+  "documentHash": "ee85fb9a377b4a0fdcc7236b43ee732e18775cd988f9af9fea79e6ef1c6e9fda",
   "auditTrail": [
     {
       "eventId": "3d46c4e9-0182-4ca8-b4b3-3e1d042d40cd",
@@ -103,6 +111,86 @@
         "representante": "Rafaella Proaño"
       },
       "eventHash": "078685d451c0f3324f886b95eec7c7794de437a5d9f274d8dfbe43206a17bb76"
+    },
+    {
+      "eventId": "d1dd730e-1694-4c6a-83aa-cd2e670ae97a",
+      "uid": "1714231634001",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-13T23:01:47.987Z",
+      "timestampLocal": "2026-11-13T23:01:47.987Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.19.73.141",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1714231634001&nombre_proveedor_razon_social=Rafaella+Proa%C3%B1o+Paris+&nombre_representante_legal=Rafaella+Proa%C3%B1o&email=rafaellaproano%40gmail.com",
+      "previousEventHash": "078685d451c0f3324f886b95eec7c7794de437a5d9f274d8dfbe43206a17bb76",
+      "documentHash": "0cf21a263afd17e362eed4648331a19e67bf4dc921107d920ab7135049a2ed92",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "27c095f41ac38063de751bffc3c7268d5caca2862dde99d8125648af3c0882c3"
+    },
+    {
+      "eventId": "22025d3b-a5c2-4539-9761-0dd3e1cba816",
+      "uid": "1714231634001",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-13T23:01:47.987Z",
+      "timestampLocal": "2026-11-13T23:01:47.987Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.19.73.141",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1714231634001&nombre_proveedor_razon_social=Rafaella+Proa%C3%B1o+Paris+&nombre_representante_legal=Rafaella+Proa%C3%B1o&email=rafaellaproano%40gmail.com",
+      "previousEventHash": "27c095f41ac38063de751bffc3c7268d5caca2862dde99d8125648af3c0882c3",
+      "documentHash": "0cf21a263afd17e362eed4648331a19e67bf4dc921107d920ab7135049a2ed92",
+      "metadata": {
+        "proveedor": "Rafaella Proaño Paris",
+        "representante": "Rafaella Proaño"
+      },
+      "eventHash": "b9481590a24377861392d2e7e209c6b8c839a3428fd8d3c58f4b98b32d918147"
+    },
+    {
+      "eventId": "4ccfed92-f334-4fcb-b992-396988d4f8b3",
+      "uid": "1714231634001",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-13T23:01:50.355Z",
+      "timestampLocal": "2026-11-13T23:01:50.355Z",
+      "timezone": "UTC+0",
+      "ipAddress": "38.19.73.141",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1714231634001&nombre_proveedor_razon_social=Rafaella+Proa%C3%B1o+Paris+&nombre_representante_legal=Rafaella+Proa%C3%B1o&email=rafaellaproano%40gmail.com",
+      "previousEventHash": "b9481590a24377861392d2e7e209c6b8c839a3428fd8d3c58f4b98b32d918147",
+      "documentHash": "0cf21a263afd17e362eed4648331a19e67bf4dc921107d920ab7135049a2ed92",
+      "eventHash": "dc0fe34077f9581614c17e29aed7ba3694a275f4b6b26004e5f724c3bdaedc53"
+    },
+    {
+      "eventId": "4427dd2c-80a5-4b60-9d48-8aebdbc3ce3d",
+      "uid": "1714231634001",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-13T23:04:27.323Z",
+      "timestampLocal": "2026-11-13T18:04:27.323Z",
+      "timezone": "UTC-5",
+      "ipAddress": "38.19.73.141",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b83da677-11cc-48d0-9f8c-9ee1643456a6",
+      "previousEventHash": "dc0fe34077f9581614c17e29aed7ba3694a275f4b6b26004e5f724c3bdaedc53",
+      "documentHash": "ee85fb9a377b4a0fdcc7236b43ee732e18775cd988f9af9fea79e6ef1c6e9fda",
+      "signatureHash": "80f872d173f69f7f51b57508a4ce78c295474403bc8d39df86189a9a1b584d4f",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-13T18:04:24.009Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "ec1575a3536a8fe1c5268c0c1d0431ff53d8827bdf6aab499562125e8a8102e6"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-11-13T23:04:27.575Z"
+  }
 }
