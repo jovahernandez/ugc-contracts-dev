@@ -3,8 +3,18 @@
   "declarationId": "5cb4d42d-2725-44de-9d57-38c7f377e664",
   "token": "37f6400f-bd14-418b-b900-1c3f4f3152ab",
   "createdAt": "2026-11-13T18:05:01.868Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "QILIN MEDIA, S.A de C.V.",
+    "nombre_representante_legal": "MATIAS ALEJANDRO GUERRERO RODRIGUEZ",
+    "email": "contacto@qilin.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "QILIN MEDIA, S.A de C.V.",
+    "nombre_representante_legal": "MATIAS ALEJANDRO GUERRERO RODRIGUEZ",
+    "email": "contacto@qilin.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "QILIN MEDIA, S.A de C.V.",
     "nombre_representante_legal": "MATIAS ALEJANDRO GUERRERO RODRIGUEZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "abc09cfaf7001dab36ba158d709e6800464df0cec3ad594f8cf31b19878f0919",
+  "auditTrail": [
+    {
+      "eventId": "8b31823e-2e5b-414b-8c12-01ef90f62561",
+      "uid": "QME241120RX7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-13T18:05:15.354Z",
+      "timestampLocal": "2026-11-13T18:05:15.354Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.87.201",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=QME241120RX7&nombre_proveedor_razon_social=QILIN+MEDIA%2C+S.A+de+C.V.&nombre_representante_legal=MATIAS+ALEJANDRO+GUERRERO+RODRIGUEZ&email=contacto%40qilin.com.mx",
+      "previousEventHash": null,
+      "documentHash": "abc09cfaf7001dab36ba158d709e6800464df0cec3ad594f8cf31b19878f0919",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1a3531e4d84624e37d44816618f1143133088dba59db0da12ece61d72e102212"
+    },
+    {
+      "eventId": "96e1ff71-d4f5-4b60-873b-757680c971ca",
+      "uid": "QME241120RX7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-13T18:05:15.354Z",
+      "timestampLocal": "2026-11-13T18:05:15.354Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.87.201",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=QME241120RX7&nombre_proveedor_razon_social=QILIN+MEDIA%2C+S.A+de+C.V.&nombre_representante_legal=MATIAS+ALEJANDRO+GUERRERO+RODRIGUEZ&email=contacto%40qilin.com.mx",
+      "previousEventHash": "1a3531e4d84624e37d44816618f1143133088dba59db0da12ece61d72e102212",
+      "documentHash": "abc09cfaf7001dab36ba158d709e6800464df0cec3ad594f8cf31b19878f0919",
+      "metadata": {
+        "proveedor": "QILIN MEDIA, S.A de C.V.",
+        "representante": "MATIAS ALEJANDRO GUERRERO RODRIGUEZ"
+      },
+      "eventHash": "7474d4312be400b841a22ea2151d45894624e2edf9d8efdcdb755db3b496f7d7"
+    }
+  ]
 }
