@@ -3,7 +3,7 @@
   "declarationId": "edee16c7-84b0-43fb-a72b-f08463f98339",
   "token": "96cdd040-a9ad-4828-8205-0c90eccccbb0",
   "createdAt": "2026-11-13T19:06:53.178Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "XY AD  SAS DE CV",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "MARIA GUADALUPE CARRANZA LEYVA",
     "email": "maggie@xyasociados.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c0800a828f29fd6d61f0649974181922fa942ead78d7f70374c289d79082685f",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-13T19:08:22.397Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/XAD170816RL0",
+  "signatureMetadata": {
+    "ip": "187.188.11.55",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-13T19:08:25.767Z",
+    "signedAtLocal": "2026-11-13T13:08:25.767Z"
+  },
+  "documentHash": "f470d4775b9a03310023dbb2a7ef0a857d188be412e4cb5447cc6feaf72016df",
   "auditTrail": [
     {
       "eventId": "2f6121b3-5e57-4a52-b863-6a9a94f7ede6",
@@ -103,6 +111,49 @@
         "representante": "MARIA GUADALUPE CARRANZA LEYVA"
       },
       "eventHash": "61753af25744a6b56b6e4e32d20dcc20d9829be0443c8f1fc94ed7d39931019d"
+    },
+    {
+      "eventId": "1ad5b334-f422-43ca-8022-0d9e17694caf",
+      "uid": "XAD170816RL0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-13T19:07:18.751Z",
+      "timestampLocal": "2026-11-13T19:07:18.751Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.11.55",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "61753af25744a6b56b6e4e32d20dcc20d9829be0443c8f1fc94ed7d39931019d",
+      "documentHash": "c0800a828f29fd6d61f0649974181922fa942ead78d7f70374c289d79082685f",
+      "eventHash": "801cc0b1113aa852843bd180ee554b77972c411125e637280374c5e99c076f2a"
+    },
+    {
+      "eventId": "94732889-5c3f-495c-b10f-1a123093c60f",
+      "uid": "XAD170816RL0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-13T19:08:25.767Z",
+      "timestampLocal": "2026-11-13T13:08:25.767Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.188.11.55",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/96cdd040-a9ad-4828-8205-0c90eccccbb0",
+      "previousEventHash": "801cc0b1113aa852843bd180ee554b77972c411125e637280374c5e99c076f2a",
+      "documentHash": "f470d4775b9a03310023dbb2a7ef0a857d188be412e4cb5447cc6feaf72016df",
+      "signatureHash": "d00ab6ee9077155f78501313df835b3db4a17c11d712f5a998194e10a5656e75",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-13T13:08:22.397Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "4fb6338c02561ed3a9d3505bc3d378ac7f151bb9c8a0d7d2d5ac48e872af4a70"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-11-13T19:08:26.078Z"
+  }
 }
