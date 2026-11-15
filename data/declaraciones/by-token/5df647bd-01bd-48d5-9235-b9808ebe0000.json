@@ -3,7 +3,7 @@
   "declarationId": "857eacca-c91e-4a9c-9fc7-99eca7a68884",
   "token": "5df647bd-01bd-48d5-9235-b9808ebe0000",
   "createdAt": "2026-11-15T19:09:26.074Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Luis ulett",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Luis Manuel Ulett Hernández",
     "email": "mlulett@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ca58369c809a6723cfb323cde55d8b41795ad321f071614228625e163d85a806",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-15T19:16:31.717Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/304110570",
+  "signatureMetadata": {
+    "ip": "186.177.184.68",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-11-15T19:16:34.837Z",
+    "signedAtLocal": "2026-11-15T13:16:34.837Z"
+  },
+  "documentHash": "d1b083646e7e2ce76dc1f94cf34e4c367515e1d76f1d8f828de80020bf78a352",
   "auditTrail": [
     {
       "eventId": "4956c9ed-d2f5-4982-9627-463615222881",
@@ -141,6 +149,64 @@
         "representante": "Luis Manuel Ulett Hernández"
       },
       "eventHash": "1e47cd67938647b7956b853596306cff909664ac80da3ac0d7fa3c138801a70f"
+    },
+    {
+      "eventId": "5a09c674-af25-4ccc-b5a2-afc479972001",
+      "uid": "304110570",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-15T19:14:48.029Z",
+      "timestampLocal": "2026-11-15T19:14:48.029Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.177.184.68",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "1e47cd67938647b7956b853596306cff909664ac80da3ac0d7fa3c138801a70f",
+      "documentHash": "ca58369c809a6723cfb323cde55d8b41795ad321f071614228625e163d85a806",
+      "eventHash": "336d1f9f1221c31d0d155bc3f395d4b22309fa6409f3e913000cdeb40b16bee7"
+    },
+    {
+      "eventId": "fa2cfc15-859c-4943-8195-9c5821349115",
+      "uid": "304110570",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-15T19:15:37.166Z",
+      "timestampLocal": "2026-11-15T19:15:37.166Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.177.184.68",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "336d1f9f1221c31d0d155bc3f395d4b22309fa6409f3e913000cdeb40b16bee7",
+      "documentHash": "ca58369c809a6723cfb323cde55d8b41795ad321f071614228625e163d85a806",
+      "eventHash": "9b2a2da0a55dbb35b6cc6d3642a4d15531504a325a7508ac9688ec4ad778caa3"
+    },
+    {
+      "eventId": "9e1857da-dd55-49bb-896b-a9931b3d293b",
+      "uid": "304110570",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-15T19:16:34.837Z",
+      "timestampLocal": "2026-11-15T13:16:34.837Z",
+      "timezone": "UTC-6",
+      "ipAddress": "186.177.184.68",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "9b2a2da0a55dbb35b6cc6d3642a4d15531504a325a7508ac9688ec4ad778caa3",
+      "documentHash": "d1b083646e7e2ce76dc1f94cf34e4c367515e1d76f1d8f828de80020bf78a352",
+      "signatureHash": "b9507a64d5882121f14e692603e714c0ba3f23d6a9e01cc4afba5e7842d875c4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-15T13:16:31.717Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "332c3d2c1c7a22f2acea85235ac4b1db6ae7f5fde686392257da3369c2cb8ed0"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 9,
+    "verifiedAt": "2026-11-15T19:16:35.132Z"
+  }
 }
