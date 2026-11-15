@@ -3,8 +3,18 @@
   "declarationId": "857eacca-c91e-4a9c-9fc7-99eca7a68884",
   "token": "5df647bd-01bd-48d5-9235-b9808ebe0000",
   "createdAt": "2026-11-15T19:09:26.074Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Luis ulett",
+    "nombre_representante_legal": "Luis Manuel Ulett Hernández",
+    "email": "mlulett@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Luis ulett",
+    "nombre_representante_legal": "Luis Manuel Ulett Hernández",
+    "email": "mlulett@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Luis ulett",
     "nombre_representante_legal": "Luis Manuel Ulett Hernández",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "8a38eee918fd9e4095e3ef95ba6c4ab53bc0a7d544c6569e8228feb947ac2c46",
+  "auditTrail": [
+    {
+      "eventId": "4956c9ed-d2f5-4982-9627-463615222881",
+      "uid": "304110570",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-15T19:09:34.188Z",
+      "timestampLocal": "2026-11-15T19:09:34.188Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.177.184.68",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "8a38eee918fd9e4095e3ef95ba6c4ab53bc0a7d544c6569e8228feb947ac2c46",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "932294e74e2fcf8351795c4a612ee660ef7f5d5bba84128c8d09e8ef0c03df19"
+    },
+    {
+      "eventId": "c2663577-bd33-4ab4-9353-65e9f1da1e62",
+      "uid": "304110570",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-15T19:09:34.188Z",
+      "timestampLocal": "2026-11-15T19:09:34.188Z",
+      "timezone": "UTC+0",
+      "ipAddress": "186.177.184.68",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "932294e74e2fcf8351795c4a612ee660ef7f5d5bba84128c8d09e8ef0c03df19",
+      "documentHash": "8a38eee918fd9e4095e3ef95ba6c4ab53bc0a7d544c6569e8228feb947ac2c46",
+      "metadata": {
+        "proveedor": "Luis ulett",
+        "representante": "Luis Manuel Ulett Hernández"
+      },
+      "eventHash": "d565bce9a39c00e5f5eab9ed214a2e71154c8991ee3cb1e13a54131ce3af37c3"
+    }
+  ]
 }
