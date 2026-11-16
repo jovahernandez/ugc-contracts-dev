@@ -3,7 +3,7 @@
   "declarationId": "8cf40e8b-3ba0-4080-9aa4-e510c8677caa",
   "token": "93c32603-d16a-4230-a363-be81b4b2867c",
   "createdAt": "2026-11-16T14:52:19.663Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "PR Socias SpA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Patricia Bañados",
     "email": "eduardo@sociaspr.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "7406cb1b57e2b048531fcfc0896ca42ad74f27128e77f157c34e7e3f0cd18d1a",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-16T14:54:14.349Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/77126986-9",
+  "signatureMetadata": {
+    "ip": "181.190.24.114",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+    "signedAtUtc": "2026-11-16T14:54:19.997Z",
+    "signedAtLocal": "2026-11-16T11:54:19.997Z"
+  },
+  "documentHash": "c9dc8a187b503b492383fdec714401e5c9388b5022ef66aa438c873afd800c5a",
   "auditTrail": [
     {
       "eventId": "41f78e21-7a9e-424d-8edb-0f5dac20bc6b",
@@ -103,6 +111,49 @@
         "representante": "Patricia Bañados"
       },
       "eventHash": "64898ff2d72eef64a2547f43d2b75e7cdbed50b30abf8141636dac3a9c9c2e8c"
+    },
+    {
+      "eventId": "da569e0a-e5c6-4284-8e25-75faf01b51c4",
+      "uid": "77126986-9",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-16T14:52:41.015Z",
+      "timestampLocal": "2026-11-16T14:52:41.015Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.190.24.114",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "64898ff2d72eef64a2547f43d2b75e7cdbed50b30abf8141636dac3a9c9c2e8c",
+      "documentHash": "7406cb1b57e2b048531fcfc0896ca42ad74f27128e77f157c34e7e3f0cd18d1a",
+      "eventHash": "c808958d04bb248c4a21dba41387dadecc07cd97be58639efe76f6663c21f146"
+    },
+    {
+      "eventId": "f85f22f0-b86b-48b0-a8c9-b1897a35fb52",
+      "uid": "77126986-9",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-16T14:54:19.998Z",
+      "timestampLocal": "2026-11-16T11:54:19.998Z",
+      "timezone": "UTC-3",
+      "ipAddress": "181.190.24.114",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "c808958d04bb248c4a21dba41387dadecc07cd97be58639efe76f6663c21f146",
+      "documentHash": "c9dc8a187b503b492383fdec714401e5c9388b5022ef66aa438c873afd800c5a",
+      "signatureHash": "0f4af2fc62d7b34edda3d86fefb040271ce8850a0124a25e8b5002428626a062",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-16T11:54:14.349Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "83be459c221d772409ebb1a4bf0c9a956bce37d0e9e6e9381f34c3a27243b122"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-11-16T14:54:20.355Z"
+  }
 }
