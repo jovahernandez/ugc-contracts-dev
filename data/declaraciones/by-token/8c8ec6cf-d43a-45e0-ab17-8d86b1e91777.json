@@ -3,8 +3,18 @@
   "declarationId": "320568e8-f59b-4d52-965f-7b8f52b5d200",
   "token": "8c8ec6cf-d43a-45e0-ab17-8d86b1e91777",
   "createdAt": "2026-11-16T20:58:19.483Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Andrea Isabella Contreras toloza",
+    "nombre_representante_legal": "Andrea Isabella Contreras toloza",
+    "email": "isabellacontrerast@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Andrea Isabella Contreras toloza",
+    "nombre_representante_legal": "Andrea Isabella Contreras toloza",
+    "email": "isabellacontrerast@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Andrea Isabella Contreras toloza",
     "nombre_representante_legal": "Andrea Isabella Contreras toloza",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "128f7aae8dd5fa571fc77b87ef03cd9b0615228c3eeb421d187d870f5729f492",
+  "auditTrail": [
+    {
+      "eventId": "d00f9eed-eea2-4cd1-96eb-eb2f83472251",
+      "uid": "10050528197",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-16T20:58:27.627Z",
+      "timestampLocal": "2026-11-16T20:58:27.627Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.32.118.75",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/148.0.7778.166 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "128f7aae8dd5fa571fc77b87ef03cd9b0615228c3eeb421d187d870f5729f492",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "9ac5540bb8226ffee78c64417228f095e28e6723b2bdc0f3aa5319e0c1982b3e"
+    },
+    {
+      "eventId": "5283639b-808e-4afe-a25d-232a26d60eb0",
+      "uid": "10050528197",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-16T20:58:27.628Z",
+      "timestampLocal": "2026-11-16T20:58:27.628Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.32.118.75",
+      "userAgent": "Mozilla/5.0 (iPad; CPU OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/148.0.7778.166 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "9ac5540bb8226ffee78c64417228f095e28e6723b2bdc0f3aa5319e0c1982b3e",
+      "documentHash": "128f7aae8dd5fa571fc77b87ef03cd9b0615228c3eeb421d187d870f5729f492",
+      "metadata": {
+        "proveedor": "Andrea Isabella Contreras toloza",
+        "representante": "Andrea Isabella Contreras toloza"
+      },
+      "eventHash": "1d3e38b0ff34d0753d7a5764f3685915113d14c57742cb552a915833067cd1da"
+    }
+  ]
 }
