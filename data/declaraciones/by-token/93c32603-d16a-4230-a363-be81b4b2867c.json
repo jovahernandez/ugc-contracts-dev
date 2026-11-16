@@ -3,8 +3,18 @@
   "declarationId": "8cf40e8b-3ba0-4080-9aa4-e510c8677caa",
   "token": "93c32603-d16a-4230-a363-be81b4b2867c",
   "createdAt": "2026-11-16T14:52:19.663Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PR Socias SpA",
+    "nombre_representante_legal": "Patricia Bañados",
+    "email": "eduardo@sociaspr.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PR Socias SpA",
+    "nombre_representante_legal": "Patricia Bañados",
+    "email": "eduardo@sociaspr.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "PR Socias SpA",
     "nombre_representante_legal": "Patricia Bañados",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "f4bd9fc283517c759c94e9190158d5083b2709248b67eaf7a9dce2e57feb07f8",
+  "auditTrail": [
+    {
+      "eventId": "41f78e21-7a9e-424d-8edb-0f5dac20bc6b",
+      "uid": "77126986-9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-16T14:52:31.061Z",
+      "timestampLocal": "2026-11-16T14:52:31.061Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.190.24.114",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "f4bd9fc283517c759c94e9190158d5083b2709248b67eaf7a9dce2e57feb07f8",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "47cd95572e9dca5841c67c47782c901d22942c34b2fe86caa63b06f14a4add0f"
+    },
+    {
+      "eventId": "9cad024e-6d32-4365-a7d7-b3dae56ce96b",
+      "uid": "77126986-9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-16T14:52:31.061Z",
+      "timestampLocal": "2026-11-16T14:52:31.061Z",
+      "timezone": "UTC+0",
+      "ipAddress": "181.190.24.114",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "47cd95572e9dca5841c67c47782c901d22942c34b2fe86caa63b06f14a4add0f",
+      "documentHash": "f4bd9fc283517c759c94e9190158d5083b2709248b67eaf7a9dce2e57feb07f8",
+      "metadata": {
+        "proveedor": "PR Socias SpA",
+        "representante": "Patricia Bañados"
+      },
+      "eventHash": "218f24a33f36aec0bb1fc40a568689743ffd04b764b061f76306d09233063a6f"
+    }
+  ]
 }
