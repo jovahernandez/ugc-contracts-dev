@@ -3,7 +3,7 @@
   "declarationId": "75c542b4-7066-4092-97fb-8b6110e7b5a3",
   "token": "f076284d-47f1-4a37-b523-9eebe4cd7a42",
   "createdAt": "2026-11-17T10:10:49.270Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "JACIRA DOCE PRODUCOES LTDA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JACIRA ANDREIA DOCE TEIXEIRA",
     "email": "financeiro@jaciradoce.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "c93e63acb403e6774416a65b96bc6a66ba20c5d77249607ae70163b8cd2462fa",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-17T14:06:43.940Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/49.214.390%2F0001-91",
+  "signatureMetadata": {
+    "ip": "189.6.15.140",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-17T14:06:47.345Z",
+    "signedAtLocal": "2026-11-17T11:06:47.345Z"
+  },
+  "documentHash": "5223f2f7665f98d8f956929f8664b3e87fda7832b9be209ca40ed44d87f1d879",
   "auditTrail": [
     {
       "eventId": "cd4f4fd4-8406-4541-a874-aa3853064081",
@@ -103,6 +111,64 @@
         "representante": "JACIRA ANDREIA DOCE TEIXEIRA"
       },
       "eventHash": "3d4a57e35354adecd4d57dcbd07d7af9cf12cba3f7a03b340be7c068b301d9b8"
+    },
+    {
+      "eventId": "60e7d111-ab81-40cb-8b73-7ac4db3a9d4b",
+      "uid": "49.214.390/0001-91",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-17T10:11:02.662Z",
+      "timestampLocal": "2026-11-17T10:11:02.662Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.6.15.140",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=49.214.390%2F0001-91&nombre_proveedor_razon_social=JACIRA+DOCE+PRODUCOES+LTDA&nombre_representante_legal=JACIRA+ANDREIA+DOCE+TEIXEIRA&email=financeiro%40jaciradoce.com.br",
+      "previousEventHash": "3d4a57e35354adecd4d57dcbd07d7af9cf12cba3f7a03b340be7c068b301d9b8",
+      "documentHash": "c93e63acb403e6774416a65b96bc6a66ba20c5d77249607ae70163b8cd2462fa",
+      "eventHash": "072e1b1b6fcd2cdd89c8674054e23622a46ccd4813940392e08882aaba952b63"
+    },
+    {
+      "eventId": "83a21953-596d-4064-8ea5-d9674add9829",
+      "uid": "49.214.390/0001-91",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-17T14:04:50.949Z",
+      "timestampLocal": "2026-11-17T14:04:50.949Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.6.15.140",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "072e1b1b6fcd2cdd89c8674054e23622a46ccd4813940392e08882aaba952b63",
+      "documentHash": "c93e63acb403e6774416a65b96bc6a66ba20c5d77249607ae70163b8cd2462fa",
+      "eventHash": "611a6ca04635d03efaee57e3d03e104c634e356c17521703959a5ff61228b350"
+    },
+    {
+      "eventId": "eea001a9-80ab-46bf-b7ad-88f647f6b8ad",
+      "uid": "49.214.390/0001-91",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-17T14:06:47.346Z",
+      "timestampLocal": "2026-11-17T11:06:47.346Z",
+      "timezone": "UTC-3",
+      "ipAddress": "189.6.15.140",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f076284d-47f1-4a37-b523-9eebe4cd7a42",
+      "previousEventHash": "611a6ca04635d03efaee57e3d03e104c634e356c17521703959a5ff61228b350",
+      "documentHash": "5223f2f7665f98d8f956929f8664b3e87fda7832b9be209ca40ed44d87f1d879",
+      "signatureHash": "07bf8d4d9aaf015f8cc00c80a471cc48dbe06d2cad75c2324f5b3b14147ba291",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-17T11:06:43.940Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "b448504ac48c5dfd4116dc8c881854ea734915e2f8e756a821dbcce5c193dc3e"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 7,
+    "verifiedAt": "2026-11-17T14:06:47.571Z"
+  }
 }
