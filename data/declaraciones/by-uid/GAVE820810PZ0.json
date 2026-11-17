@@ -3,7 +3,7 @@
   "declarationId": "25c89af9-ba08-45ca-9b72-463142913fa4",
   "token": "f91cc68d-3407-4f0d-9110-c445fc1fd73a",
   "createdAt": "2026-11-17T19:41:55.452Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Efraín Galván Villa",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Efraín Galván",
     "email": "murarsdecoracion@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "e6527fcf063096e8f14f4c33917bf1e779c7566c3a434a5939f99c1a0f5e428e",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-17T19:43:25.733Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GAVE820810PZ0",
+  "signatureMetadata": {
+    "ip": "177.226.190.105",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-17T19:43:29.149Z",
+    "signedAtLocal": "2026-11-17T13:43:29.149Z"
+  },
+  "documentHash": "5a58be477c9c410334ef4ebb7d8fea08c8d32e3bef78e8d11454f4dad3b7a2c4",
   "auditTrail": [
     {
       "eventId": "50896a74-d4e3-44f2-9955-22da5a58fb0c",
@@ -103,6 +111,49 @@
         "representante": "Efraín Galván"
       },
       "eventHash": "cd7e66fafea3ee9a475d0c2fd782efe8a24ccc8917bfd937379d6db0d7440612"
+    },
+    {
+      "eventId": "fe15638f-c490-424c-b078-19c2568e5fae",
+      "uid": "GAVE820810PZ0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-17T19:42:09.941Z",
+      "timestampLocal": "2026-11-17T19:42:09.941Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.226.190.105",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAVE820810PZ0&nombre_proveedor_razon_social=Efra%C3%ADn+Galv%C3%A1n+Villa&nombre_representante_legal=Efra%C3%ADn+Galv%C3%A1n&email=murarsdecoracion%40gmail.com",
+      "previousEventHash": "cd7e66fafea3ee9a475d0c2fd782efe8a24ccc8917bfd937379d6db0d7440612",
+      "documentHash": "e6527fcf063096e8f14f4c33917bf1e779c7566c3a434a5939f99c1a0f5e428e",
+      "eventHash": "0839d66f958ad46c9750cc86f9dea5255befe35f15401a8e4ed218004e530e78"
+    },
+    {
+      "eventId": "539309d5-b0b6-4aa6-a367-ec6488cd79e2",
+      "uid": "GAVE820810PZ0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-17T19:43:29.149Z",
+      "timestampLocal": "2026-11-17T13:43:29.149Z",
+      "timezone": "UTC-6",
+      "ipAddress": "177.226.190.105",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f91cc68d-3407-4f0d-9110-c445fc1fd73a",
+      "previousEventHash": "0839d66f958ad46c9750cc86f9dea5255befe35f15401a8e4ed218004e530e78",
+      "documentHash": "5a58be477c9c410334ef4ebb7d8fea08c8d32e3bef78e8d11454f4dad3b7a2c4",
+      "signatureHash": "7ceb7d81df8318de0050b7b3229877e07c08931d8cacc2be72c37708f87155c8",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-17T13:43:25.733Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "cce2540a4cf51865a6fd5675e06294089a3081f3515dc762814d15909bc09b49"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-11-17T19:43:29.330Z"
+  }
 }
