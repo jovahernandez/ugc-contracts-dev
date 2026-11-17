@@ -3,7 +3,7 @@
   "declarationId": "d33ee566-0226-4ecb-b705-d328b913b133",
   "token": "344c7891-e972-4895-b29e-825681e3b37d",
   "createdAt": "2026-11-16T22:49:59.887Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "LAS BERMANITA5",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Karla Paola Berman Martin",
     "email": "nurit@karlaberman.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a1be6b37566fd7900bca7204c01312d57c7b85bd4b8c67fc62a5081ed5e69086",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-17T00:56:13.435Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BER241219R37",
+  "signatureMetadata": {
+    "ip": "187.190.193.219",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-17T00:56:16.796Z",
+    "signedAtLocal": "2026-11-16T18:56:16.796Z"
+  },
+  "documentHash": "87c0e5a49634a8303db5ee27082e5a99defbc6031b68266a4281918cc519d768",
   "auditTrail": [
     {
       "eventId": "bd2aa622-8d06-4e7c-85ec-fbbe074cd7ef",
@@ -66,6 +74,64 @@
         "representante": "Karla Paola Berman Martin"
       },
       "eventHash": "a2b98a4eafd38be0b30bffda9dfc54bd2a39bafd0b56b3e0a308f0dae5d28714"
+    },
+    {
+      "eventId": "47b69b71-798e-4a58-ac47-4223695a8793",
+      "uid": "BER241219R37",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-16T22:50:11.442Z",
+      "timestampLocal": "2026-11-16T22:50:11.442Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.202.140.134",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BER241219R37&nombre_proveedor_razon_social=LAS+BERMANITA5&nombre_representante_legal=Karla+Paola+Berman+Martin+&email=nurit%40karlaberman.com",
+      "previousEventHash": "a2b98a4eafd38be0b30bffda9dfc54bd2a39bafd0b56b3e0a308f0dae5d28714",
+      "documentHash": "a1be6b37566fd7900bca7204c01312d57c7b85bd4b8c67fc62a5081ed5e69086",
+      "eventHash": "1ade51f4a76593062d95452d7e8b7d5f579d0eb84975d216472c0a26c3804a21"
+    },
+    {
+      "eventId": "95717415-e09f-41ff-9b91-b159e1584427",
+      "uid": "BER241219R37",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-17T00:56:04.889Z",
+      "timestampLocal": "2026-11-17T00:56:04.889Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.193.219",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "1ade51f4a76593062d95452d7e8b7d5f579d0eb84975d216472c0a26c3804a21",
+      "documentHash": "a1be6b37566fd7900bca7204c01312d57c7b85bd4b8c67fc62a5081ed5e69086",
+      "eventHash": "17cd5adf566319196e198a4b6a556e3f47905f93316e512c33f8dd62d8354425"
+    },
+    {
+      "eventId": "f434b4db-d8fd-4a31-a284-8ecc941270ef",
+      "uid": "BER241219R37",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-17T00:56:16.796Z",
+      "timestampLocal": "2026-11-16T18:56:16.796Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.193.219",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/344c7891-e972-4895-b29e-825681e3b37d",
+      "previousEventHash": "17cd5adf566319196e198a4b6a556e3f47905f93316e512c33f8dd62d8354425",
+      "documentHash": "87c0e5a49634a8303db5ee27082e5a99defbc6031b68266a4281918cc519d768",
+      "signatureHash": "9735feebd9b3789152d478c8d89bfcc7718fe672a4ade0898df9e52ac7a2d274",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-16T18:56:13.435Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "a182f82c7d16345eedff7df55a89530066bb0f7ca7b126153cf018ba516c2311"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-11-17T00:56:17.260Z"
+  }
 }
