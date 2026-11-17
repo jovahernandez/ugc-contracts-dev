@@ -3,8 +3,18 @@
   "declarationId": "3e427cb6-6724-4b1a-aeb4-1a2331aefce3",
   "token": "0fbe01e1-03f7-4a82-8b59-9a5eeb514382",
   "createdAt": "2026-11-17T16:21:56.156Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "INFOBAE MEXICO",
+    "nombre_representante_legal": "JULIET MAS TAMARGO",
+    "email": "juliet.mas@corporativomueta.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "INFOBAE MEXICO",
+    "nombre_representante_legal": "JULIET MAS TAMARGO",
+    "email": "juliet.mas@corporativomueta.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "INFOBAE MEXICO",
     "nombre_representante_legal": "JULIET MAS TAMARGO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "999fd6153dbc1c85856158b4a2220bebba45cd8f6b8dfbd03c3675a9de08129f",
+  "auditTrail": [
+    {
+      "eventId": "cbf54b8e-a0b2-46b7-9d63-e5d2e0928059",
+      "uid": "VNE1308144H2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-17T16:22:03.879Z",
+      "timestampLocal": "2026-11-17T16:22:03.879Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.222.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:160.0) Gecko/20100101 Firefox/160.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VNE1308144H2&nombre_proveedor_razon_social=INFOBAE+MEXICO&nombre_representante_legal=JULIET+MAS+TAMARGO&email=juliet.mas%40corporativomueta.com.mx",
+      "previousEventHash": null,
+      "documentHash": "999fd6153dbc1c85856158b4a2220bebba45cd8f6b8dfbd03c3675a9de08129f",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "de167ca3d8a5d240f352830515674e7f767b131d8c2932aecd186dca8facb7a4"
+    },
+    {
+      "eventId": "a64f22eb-7f6b-42c4-a77e-954d0ac93aed",
+      "uid": "VNE1308144H2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-17T16:22:03.879Z",
+      "timestampLocal": "2026-11-17T16:22:03.879Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.222.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:160.0) Gecko/20100101 Firefox/160.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VNE1308144H2&nombre_proveedor_razon_social=INFOBAE+MEXICO&nombre_representante_legal=JULIET+MAS+TAMARGO&email=juliet.mas%40corporativomueta.com.mx",
+      "previousEventHash": "de167ca3d8a5d240f352830515674e7f767b131d8c2932aecd186dca8facb7a4",
+      "documentHash": "999fd6153dbc1c85856158b4a2220bebba45cd8f6b8dfbd03c3675a9de08129f",
+      "metadata": {
+        "proveedor": "INFOBAE MEXICO",
+        "representante": "JULIET MAS TAMARGO"
+      },
+      "eventHash": "fef46f79e8057b0f06669df054ab3c2491aebc4ad742c20b4dd243b85700ddec"
+    }
+  ]
 }
