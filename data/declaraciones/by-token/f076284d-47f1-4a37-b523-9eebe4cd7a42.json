@@ -3,8 +3,18 @@
   "declarationId": "75c542b4-7066-4092-97fb-8b6110e7b5a3",
   "token": "f076284d-47f1-4a37-b523-9eebe4cd7a42",
   "createdAt": "2026-11-17T10:10:49.270Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JACIRA DOCE PRODUCOES LTDA",
+    "nombre_representante_legal": "JACIRA ANDREIA DOCE TEIXEIRA",
+    "email": "financeiro@jaciradoce.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JACIRA DOCE PRODUCOES LTDA",
+    "nombre_representante_legal": "JACIRA ANDREIA DOCE TEIXEIRA",
+    "email": "financeiro@jaciradoce.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "JACIRA DOCE PRODUCOES LTDA",
     "nombre_representante_legal": "JACIRA ANDREIA DOCE TEIXEIRA",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9e8cbd6d38435c9a4badea033d1a4c714e459eec948b21c13927936749e2aad4",
+  "auditTrail": [
+    {
+      "eventId": "cd4f4fd4-8406-4541-a874-aa3853064081",
+      "uid": "49.214.390/0001-91",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-17T10:10:56.146Z",
+      "timestampLocal": "2026-11-17T10:10:56.146Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.6.15.140",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=49.214.390%2F0001-91&nombre_proveedor_razon_social=JACIRA+DOCE+PRODUCOES+LTDA&nombre_representante_legal=JACIRA+ANDREIA+DOCE+TEIXEIRA&email=financeiro%40jaciradoce.com.br",
+      "previousEventHash": null,
+      "documentHash": "9e8cbd6d38435c9a4badea033d1a4c714e459eec948b21c13927936749e2aad4",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "739d7f62ecdf3fc9eb0470a2c414c6939be83b030f95482509986639599eccdf"
+    },
+    {
+      "eventId": "d0107bc0-017a-4727-a5a2-29e16c2a5812",
+      "uid": "49.214.390/0001-91",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-17T10:10:56.146Z",
+      "timestampLocal": "2026-11-17T10:10:56.146Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.6.15.140",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=49.214.390%2F0001-91&nombre_proveedor_razon_social=JACIRA+DOCE+PRODUCOES+LTDA&nombre_representante_legal=JACIRA+ANDREIA+DOCE+TEIXEIRA&email=financeiro%40jaciradoce.com.br",
+      "previousEventHash": "739d7f62ecdf3fc9eb0470a2c414c6939be83b030f95482509986639599eccdf",
+      "documentHash": "9e8cbd6d38435c9a4badea033d1a4c714e459eec948b21c13927936749e2aad4",
+      "metadata": {
+        "proveedor": "JACIRA DOCE PRODUCOES LTDA",
+        "representante": "JACIRA ANDREIA DOCE TEIXEIRA"
+      },
+      "eventHash": "f2598638a2a07e4cfa5a3eeec806b39923337a324bc44f8d8e08d57757da3496"
+    }
+  ]
 }
