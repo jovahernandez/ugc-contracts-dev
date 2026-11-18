@@ -3,8 +3,18 @@
   "declarationId": "e3061b3c-ac6c-4a6c-a4d9-3a5c736a0321",
   "token": "8dde6bb4-acc0-4fd0-aeba-75e418e90fbf",
   "createdAt": "2026-11-18T21:32:18.656Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PUBLICIDADIMPRESSABANFORT",
+    "nombre_representante_legal": "Brian Cruz Velazquez",
+    "email": "briancv50@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PUBLICIDADIMPRESSABANFORT",
+    "nombre_representante_legal": "Brian Cruz Velazquez",
+    "email": "briancv50@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "PUBLICIDADIMPRESSABANFORT",
     "nombre_representante_legal": "Brian Cruz Velazquez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "184e12f93693022f7c9bab1f749be4461b85b5d2d0269364711f410b54f07572",
+  "auditTrail": [
+    {
+      "eventId": "7ab76dde-324f-407b-948d-860a400c1fb8",
+      "uid": "PIB240212IU6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-18T21:32:26.706Z",
+      "timestampLocal": "2026-11-18T21:32:26.706Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.146.154",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PIB240212IU6&nombre_proveedor_razon_social=PUBLICIDADIMPRESSABANFORT&nombre_representante_legal=Brian+Cruz+Velazquez&email=briancv50%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "184e12f93693022f7c9bab1f749be4461b85b5d2d0269364711f410b54f07572",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "0769eabb65231253f1d42daea41001b2d6c350fd8def0fd74b7019a9a6a51aa4"
+    },
+    {
+      "eventId": "eccec4bc-433a-4e8f-a416-9469fa015c53",
+      "uid": "PIB240212IU6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-18T21:32:26.706Z",
+      "timestampLocal": "2026-11-18T21:32:26.706Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.146.154",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es;q=0.9,en-US;q=0.8,en;q=0.7,es-419;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PIB240212IU6&nombre_proveedor_razon_social=PUBLICIDADIMPRESSABANFORT&nombre_representante_legal=Brian+Cruz+Velazquez&email=briancv50%40gmail.com",
+      "previousEventHash": "0769eabb65231253f1d42daea41001b2d6c350fd8def0fd74b7019a9a6a51aa4",
+      "documentHash": "184e12f93693022f7c9bab1f749be4461b85b5d2d0269364711f410b54f07572",
+      "metadata": {
+        "proveedor": "PUBLICIDADIMPRESSABANFORT",
+        "representante": "Brian Cruz Velazquez"
+      },
+      "eventHash": "7495601951d5c733a822535b60bb4822c5b4ee397073b380ea0e8a0c0fb38467"
+    }
+  ]
 }
