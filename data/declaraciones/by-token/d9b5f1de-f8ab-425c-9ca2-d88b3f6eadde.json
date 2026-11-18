@@ -3,7 +3,7 @@
   "declarationId": "b46e5f76-ef1c-49ad-841a-8f672de35b2f",
   "token": "d9b5f1de-f8ab-425c-9ca2-d88b3f6eadde",
   "createdAt": "2026-11-18T18:28:11.415Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ERICK ISRAEL ARIAS ALVAREZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "NA",
     "email": "colaboracionestallerdeideas@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "4fc0489d92f37bd389d35b45ee44c0486ed4f964e984650e929afbded930cf42",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-18T18:28:58.845Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AIAE9412159H0",
+  "signatureMetadata": {
+    "ip": "187.234.18.64",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-18T18:29:02.497Z",
+    "signedAtLocal": "2026-11-18T12:29:02.497Z"
+  },
+  "documentHash": "55d7fc8358ad7d475e47a13e76b7062ef40a8dcf6706fa6453cb7d071a3da1c0",
   "auditTrail": [
     {
       "eventId": "8c29c766-13ae-4878-8932-20ecf25946af",
@@ -66,6 +74,49 @@
         "representante": "NA"
       },
       "eventHash": "19842fd0025627a83780860d1582bb58aa3b3d7181c88175ef7fd826bb6517bd"
+    },
+    {
+      "eventId": "6ccc0e7e-f519-443a-b3f2-5d83f91fff31",
+      "uid": "AIAE9412159H0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-18T18:28:22.852Z",
+      "timestampLocal": "2026-11-18T18:28:22.852Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.234.18.64",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AIAE9412159H0&nombre_proveedor_razon_social=ERICK+ISRAEL+ARIAS+ALVAREZ&nombre_representante_legal=NA&email=colaboracionestallerdeideas%40gmail.com",
+      "previousEventHash": "19842fd0025627a83780860d1582bb58aa3b3d7181c88175ef7fd826bb6517bd",
+      "documentHash": "4fc0489d92f37bd389d35b45ee44c0486ed4f964e984650e929afbded930cf42",
+      "eventHash": "9b6b4aad121619848b1af2c8df85d8d47bf80a37226268bff7277d2f311eb0d6"
+    },
+    {
+      "eventId": "583aa804-d96c-4d52-b8ec-29cd16bcb3ab",
+      "uid": "AIAE9412159H0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-18T18:29:02.497Z",
+      "timestampLocal": "2026-11-18T12:29:02.497Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.234.18.64",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d9b5f1de-f8ab-425c-9ca2-d88b3f6eadde",
+      "previousEventHash": "9b6b4aad121619848b1af2c8df85d8d47bf80a37226268bff7277d2f311eb0d6",
+      "documentHash": "55d7fc8358ad7d475e47a13e76b7062ef40a8dcf6706fa6453cb7d071a3da1c0",
+      "signatureHash": "ac6f0c63dfa1ac5ea35c881d4004d952d8f07b915abf6cd36a5cc5c4d833823e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-18T12:28:58.845Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "d93957c32cd4b5eecb191aba1ad6ac3dbdb5755094d965fc85a7c6d78727cbe5"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-18T18:29:02.696Z"
+  }
 }
