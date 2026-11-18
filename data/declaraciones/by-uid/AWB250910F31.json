@@ -3,8 +3,18 @@
   "declarationId": "52d0f863-8558-4c96-8927-855c6770e6b7",
   "token": "1752b4ff-f067-4076-a8e6-00f89c10e243",
   "createdAt": "2026-11-18T17:32:39.009Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ALL WOOD BBQ",
+    "nombre_representante_legal": "DIEGO EDSON LARA SANDOVAL",
+    "email": "head@beerhub.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ALL WOOD BBQ",
+    "nombre_representante_legal": "DIEGO EDSON LARA SANDOVAL",
+    "email": "head@beerhub.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ALL WOOD BBQ",
     "nombre_representante_legal": "DIEGO EDSON LARA SANDOVAL",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "eccc3bf96cbf438c4d0b4ce8731bf86d351509f60fc07f47cbc03c40995f7e9b",
+  "auditTrail": [
+    {
+      "eventId": "ce2c34e5-a0a1-4380-adc1-e63e55e5e71f",
+      "uid": "AWB250910F31",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-18T17:32:46.319Z",
+      "timestampLocal": "2026-11-18T17:32:46.319Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.137.161.222",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AWB250910F31&nombre_proveedor_razon_social=ALL+WOOD+BBQ&nombre_representante_legal=DIEGO+EDSON+LARA+SANDOVAL&email=head%40beerhub.mx",
+      "previousEventHash": null,
+      "documentHash": "eccc3bf96cbf438c4d0b4ce8731bf86d351509f60fc07f47cbc03c40995f7e9b",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "aeb49ae4bb9b259664fa18bddffd6e8ab45dee9b20690edc3acc9590c3e9de33"
+    },
+    {
+      "eventId": "f5d8ae74-37dc-4c0a-b7f1-879ca89717d5",
+      "uid": "AWB250910F31",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-18T17:32:46.319Z",
+      "timestampLocal": "2026-11-18T17:32:46.319Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.137.161.222",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AWB250910F31&nombre_proveedor_razon_social=ALL+WOOD+BBQ&nombre_representante_legal=DIEGO+EDSON+LARA+SANDOVAL&email=head%40beerhub.mx",
+      "previousEventHash": "aeb49ae4bb9b259664fa18bddffd6e8ab45dee9b20690edc3acc9590c3e9de33",
+      "documentHash": "eccc3bf96cbf438c4d0b4ce8731bf86d351509f60fc07f47cbc03c40995f7e9b",
+      "metadata": {
+        "proveedor": "ALL WOOD BBQ",
+        "representante": "DIEGO EDSON LARA SANDOVAL"
+      },
+      "eventHash": "8f866448f61a4aee1c63931bd8fb9c08167b0604ba4d8926928311e605e44eaf"
+    }
+  ]
 }
