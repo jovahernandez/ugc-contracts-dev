@@ -3,8 +3,18 @@
   "declarationId": "daa69988-a73d-4a81-8474-604bd1933aef",
   "token": "3b6f92a1-00f9-4106-8fbd-199c40f6d1f7",
   "createdAt": "2026-11-18T20:50:52.659Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "ANA LORENA BUENTELLO IBARROLA",
+    "nombre_representante_legal": "N/A",
+    "email": "buentello.ana@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "ANA LORENA BUENTELLO IBARROLA",
+    "nombre_representante_legal": "N/A",
+    "email": "buentello.ana@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "ANA LORENA BUENTELLO IBARROLA",
     "nombre_representante_legal": "N/A",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "36be4001274ba30ec2a2c2c620b72c9bac8441088fd6d27bd195d42da2d73df9",
+  "auditTrail": [
+    {
+      "eventId": "2b1b9be5-a8ff-4f0a-9beb-fdd0bdccd662",
+      "uid": "BUIA990417E61",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-18T20:51:02.376Z",
+      "timestampLocal": "2026-11-18T20:51:02.376Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.201.100.26",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/157.0.8103.37 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "36be4001274ba30ec2a2c2c620b72c9bac8441088fd6d27bd195d42da2d73df9",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "62b2379371cb0e0076ca6157eb10bd28a86c9c197316fc5791266dcdb915771a"
+    },
+    {
+      "eventId": "0e6a218c-115d-43a6-bad7-b6f7b8ab1ca8",
+      "uid": "BUIA990417E61",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-18T20:51:02.376Z",
+      "timestampLocal": "2026-11-18T20:51:02.376Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.201.100.26",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/157.0.8103.37 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "62b2379371cb0e0076ca6157eb10bd28a86c9c197316fc5791266dcdb915771a",
+      "documentHash": "36be4001274ba30ec2a2c2c620b72c9bac8441088fd6d27bd195d42da2d73df9",
+      "metadata": {
+        "proveedor": "ANA LORENA BUENTELLO IBARROLA",
+        "representante": "N/A"
+      },
+      "eventHash": "4eae1c33e855f9f55ddb20eddd58c9fc5ca0b62d3170ba341c863db2ffc4e13f"
+    }
+  ]
 }
