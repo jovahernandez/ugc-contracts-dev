@@ -3,8 +3,18 @@
   "declarationId": "c14a430f-d6eb-4ab7-a44f-e68746a5cb0c",
   "token": "1e870e26-6d14-4ee1-8393-57b33ba92192",
   "createdAt": "2026-11-19T13:13:11.311Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "TATIANA ZULUAGA PRODUCCION Y REPRESENTACION SAS",
+    "nombre_representante_legal": "Tatiana Augusta Zuluaga laserna",
+    "email": "director.contable@tzl.com.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "TATIANA ZULUAGA PRODUCCION Y REPRESENTACION SAS",
+    "nombre_representante_legal": "Tatiana Augusta Zuluaga laserna",
+    "email": "director.contable@tzl.com.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "TATIANA ZULUAGA PRODUCCION Y REPRESENTACION SAS",
     "nombre_representante_legal": "Tatiana Augusta Zuluaga laserna",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "87e3da21eb4954eadb5d959de2fbb4f4571160e35bb9488c14c8c364acc2a143",
+  "auditTrail": [
+    {
+      "eventId": "b482a5ba-a44b-4029-9d02-4885d15557c4",
+      "uid": "900350625",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-19T13:13:20.396Z",
+      "timestampLocal": "2026-11-19T13:13:20.396Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.203.182.158",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=900350625&nombre_proveedor_razon_social=TATIANA+ZULUAGA+PRODUCCION+Y+REPRESENTACION+SAS+&nombre_representante_legal=Tatiana+Augusta+Zuluaga+laserna+&email=director.contable%40tzl.com.co",
+      "previousEventHash": null,
+      "documentHash": "87e3da21eb4954eadb5d959de2fbb4f4571160e35bb9488c14c8c364acc2a143",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "234f9fcddd395a79417d332ed87c9eb6ec710b32575f5f3385ff9a742b63d428"
+    },
+    {
+      "eventId": "2329118e-30bf-4c8c-868f-54c8d4ba0244",
+      "uid": "900350625",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-19T13:13:20.396Z",
+      "timestampLocal": "2026-11-19T13:13:20.396Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.203.182.158",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=900350625&nombre_proveedor_razon_social=TATIANA+ZULUAGA+PRODUCCION+Y+REPRESENTACION+SAS+&nombre_representante_legal=Tatiana+Augusta+Zuluaga+laserna+&email=director.contable%40tzl.com.co",
+      "previousEventHash": "234f9fcddd395a79417d332ed87c9eb6ec710b32575f5f3385ff9a742b63d428",
+      "documentHash": "87e3da21eb4954eadb5d959de2fbb4f4571160e35bb9488c14c8c364acc2a143",
+      "metadata": {
+        "proveedor": "TATIANA ZULUAGA PRODUCCION Y REPRESENTACION SAS",
+        "representante": "Tatiana Augusta Zuluaga laserna"
+      },
+      "eventHash": "b6ceeafda30a1fb710b22cb6ec58931ab92f4362d420909692b80105acc2cfca"
+    }
+  ]
 }
