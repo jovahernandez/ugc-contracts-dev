@@ -3,7 +3,7 @@
   "declarationId": "3e427cb6-6724-4b1a-aeb4-1a2331aefce3",
   "token": "0fbe01e1-03f7-4a82-8b59-9a5eeb514382",
   "createdAt": "2026-11-17T16:21:56.156Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "INFOBAE MEXICO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "JULIET MAS TAMARGO",
     "email": "juliet.mas@corporativomueta.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6c3f2d99344ad91ad6a780cd91b20e9b9f338592f8486894f11dcaaa4b03fb4b",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-19T02:04:17.273Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/VNE1308144H2",
+  "signatureMetadata": {
+    "ip": "187.237.119.180",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-19T02:04:20.701Z",
+    "signedAtLocal": "2026-11-18T20:04:20.701Z"
+  },
+  "documentHash": "f40f486d7e041bd6f3003031e50bded95b95fc0bff71bb05fe226767ae2075b4",
   "auditTrail": [
     {
       "eventId": "cbf54b8e-a0b2-46b7-9d63-e5d2e0928059",
@@ -140,6 +148,109 @@
         "representante": "JULIET MAS TAMARGO"
       },
       "eventHash": "3fe6464b37dfe9da712d3293c8631defb45ee9152198811e0b1c1484578e4a88"
+    },
+    {
+      "eventId": "626c4a9d-6d58-4243-8911-b5faef334607",
+      "uid": "VNE1308144H2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-17T16:22:13.769Z",
+      "timestampLocal": "2026-11-17T16:22:13.769Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.222.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:160.0) Gecko/20100101 Firefox/160.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=VNE1308144H2&nombre_proveedor_razon_social=INFOBAE+MEXICO&nombre_representante_legal=JULIET+MAS+TAMARGO&email=juliet.mas%40corporativomueta.com.mx",
+      "previousEventHash": "3fe6464b37dfe9da712d3293c8631defb45ee9152198811e0b1c1484578e4a88",
+      "documentHash": "6c3f2d99344ad91ad6a780cd91b20e9b9f338592f8486894f11dcaaa4b03fb4b",
+      "eventHash": "381747df8d70666697d06b0fec7e9585ab45dc76b2d35f8d17a85abf9cc27fe1"
+    },
+    {
+      "eventId": "984d50ab-9c60-438c-9b81-79026df3bee3",
+      "uid": "VNE1308144H2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-17T16:22:53.744Z",
+      "timestampLocal": "2026-11-17T16:22:53.744Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.222.22",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:160.0) Gecko/20100101 Firefox/160.0",
+      "acceptLanguage": "es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "381747df8d70666697d06b0fec7e9585ab45dc76b2d35f8d17a85abf9cc27fe1",
+      "documentHash": "6c3f2d99344ad91ad6a780cd91b20e9b9f338592f8486894f11dcaaa4b03fb4b",
+      "eventHash": "983e430d41d8af55904a0b5994b6c8153ff3c493520d69f6476f7da40e76b373"
+    },
+    {
+      "eventId": "8f75cdb2-5b65-4411-98ab-f6fc61454c66",
+      "uid": "VNE1308144H2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-17T17:22:19.076Z",
+      "timestampLocal": "2026-11-17T17:22:19.076Z",
+      "timezone": "UTC+0",
+      "ipAddress": "23.23.253.54",
+      "userAgent": "Mozilla/5.0 (compatible)",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": "983e430d41d8af55904a0b5994b6c8153ff3c493520d69f6476f7da40e76b373",
+      "documentHash": "6c3f2d99344ad91ad6a780cd91b20e9b9f338592f8486894f11dcaaa4b03fb4b",
+      "eventHash": "7d3ace5e53133ecdc903d4f3ce259bcc79bac113df1d187dd4e59923039d255d"
+    },
+    {
+      "eventId": "3f97a256-7f77-4372-af9c-3dc5382fd843",
+      "uid": "VNE1308144H2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-18T15:48:49.841Z",
+      "timestampLocal": "2026-11-18T15:48:49.841Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.217.192.101",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "7d3ace5e53133ecdc903d4f3ce259bcc79bac113df1d187dd4e59923039d255d",
+      "documentHash": "6c3f2d99344ad91ad6a780cd91b20e9b9f338592f8486894f11dcaaa4b03fb4b",
+      "eventHash": "6776c1caada15ff99e9512ae7dccaaeed4f6f9455bf3d9161315cdae18df080a"
+    },
+    {
+      "eventId": "3144ac31-1dc0-4cb0-8f8e-340c9539ed5b",
+      "uid": "VNE1308144H2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-19T02:03:45.045Z",
+      "timestampLocal": "2026-11-19T02:03:45.045Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.237.119.180",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "6776c1caada15ff99e9512ae7dccaaeed4f6f9455bf3d9161315cdae18df080a",
+      "documentHash": "6c3f2d99344ad91ad6a780cd91b20e9b9f338592f8486894f11dcaaa4b03fb4b",
+      "eventHash": "a609f1c6ec400a1ce5c300e49bf8c2680c245c015da16f309acd5fb0893a7b5c"
+    },
+    {
+      "eventId": "ee8695fa-e4e3-450d-8baf-43dad1165ab7",
+      "uid": "VNE1308144H2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-19T02:04:20.701Z",
+      "timestampLocal": "2026-11-18T20:04:20.701Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.237.119.180",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/0fbe01e1-03f7-4a82-8b59-9a5eeb514382",
+      "previousEventHash": "a609f1c6ec400a1ce5c300e49bf8c2680c245c015da16f309acd5fb0893a7b5c",
+      "documentHash": "f40f486d7e041bd6f3003031e50bded95b95fc0bff71bb05fe226767ae2075b4",
+      "signatureHash": "fbf40cbb21c4502a0b35f7b8cf054425d89d2559851d091393f682838a557ae2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-18T20:04:17.273Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "e4143acbcd87688d7af9e998dc3e1968c5c6b3a930bac465175231c60c66d91d"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 12,
+    "verifiedAt": "2026-11-19T02:04:21.163Z"
+  }
 }
