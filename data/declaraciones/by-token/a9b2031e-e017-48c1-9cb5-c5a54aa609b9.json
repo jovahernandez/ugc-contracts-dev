@@ -3,8 +3,18 @@
   "declarationId": "0e64f982-e32d-47e2-8de6-d683e28ab912",
   "token": "a9b2031e-e017-48c1-9cb5-c5a54aa609b9",
   "createdAt": "2026-11-19T01:11:50.909Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MARIELLA SALVATORI SANCHEZ",
+    "nombre_representante_legal": "MARIELLA SALVATORI SANCHEZ",
+    "email": "mariellasalvatorisanchez@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MARIELLA SALVATORI SANCHEZ",
+    "nombre_representante_legal": "MARIELLA SALVATORI SANCHEZ",
+    "email": "mariellasalvatorisanchez@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MARIELLA SALVATORI SANCHEZ",
     "nombre_representante_legal": "MARIELLA SALVATORI SANCHEZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "125058ba8329a9cd1f06006ee5c493c8170bfbc91692da82135d82adfdf3ed26",
+  "auditTrail": [
+    {
+      "eventId": "b7f48139-7c77-4495-ab56-5bc84652df35",
+      "uid": "SASM050815TK8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-19T01:11:58.587Z",
+      "timestampLocal": "2026-11-19T01:11:58.587Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.194.46",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SASM050815TK8&nombre_proveedor_razon_social=MARIELLA+SALVATORI+SANCHEZ&nombre_representante_legal=MARIELLA+SALVATORI+SANCHEZ&email=mariellasalvatorisanchez%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "125058ba8329a9cd1f06006ee5c493c8170bfbc91692da82135d82adfdf3ed26",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "8cbff2aff9ea044238aa89b86cb7d583ba72a22102366dc0f8d3cb250f0746b4"
+    },
+    {
+      "eventId": "31af6d04-7050-4187-b1c5-0da6eb903e79",
+      "uid": "SASM050815TK8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-19T01:11:58.587Z",
+      "timestampLocal": "2026-11-19T01:11:58.587Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.194.46",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SASM050815TK8&nombre_proveedor_razon_social=MARIELLA+SALVATORI+SANCHEZ&nombre_representante_legal=MARIELLA+SALVATORI+SANCHEZ&email=mariellasalvatorisanchez%40gmail.com",
+      "previousEventHash": "8cbff2aff9ea044238aa89b86cb7d583ba72a22102366dc0f8d3cb250f0746b4",
+      "documentHash": "125058ba8329a9cd1f06006ee5c493c8170bfbc91692da82135d82adfdf3ed26",
+      "metadata": {
+        "proveedor": "MARIELLA SALVATORI SANCHEZ",
+        "representante": "MARIELLA SALVATORI SANCHEZ"
+      },
+      "eventHash": "acc1e36cd74d984ce8003127f8e8641453ec760ca1b8a609cc502d69a6e437c8"
+    }
+  ]
 }
