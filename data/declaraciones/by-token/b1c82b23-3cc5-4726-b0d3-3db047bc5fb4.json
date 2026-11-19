@@ -3,7 +3,7 @@
   "declarationId": "f48a2df0-a74b-41ae-9354-1940c1000315",
   "token": "b1c82b23-3cc5-4726-b0d3-3db047bc5fb4",
   "createdAt": "2026-11-18T22:28:38.800Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "CIA. PERIODISTICA DEL SOL DE QUERETARO S.A. DE C.V.",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "L.A. RUTH TORRES DE LA LUZ",
     "email": "e.cruz@diariodequeretaro.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "5c6e1dad87f68dafc745b8d1fb70897f2d8a62ad7f6a4e76e50f53d58cd79d71",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-19T17:15:45.456Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/PSQ790724C90",
+  "signatureMetadata": {
+    "ip": "148.224.127.61",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-19T17:15:48.690Z",
+    "signedAtLocal": "2026-11-19T11:15:48.690Z"
+  },
+  "documentHash": "4b4f287388e00a281891d9fad2b1fbc4f5edf333997c83143ecc0e3396e303b1",
   "auditTrail": [
     {
       "eventId": "606870ec-21d3-4342-aced-1f19f30adb45",
@@ -103,6 +111,124 @@
         "representante": "L.A. RUTH TORRES DE LA LUZ"
       },
       "eventHash": "0c05ccf7f08aa72b579faa3ca39ff1bf0cd6b729d84216646b9fc2f09f2f2bbd"
+    },
+    {
+      "eventId": "fc3e45ca-9a54-44f1-aeca-093f20cd41d9",
+      "uid": "PSQ790724C90",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-18T22:28:56.424Z",
+      "timestampLocal": "2026-11-18T22:28:56.424Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.116.248.170",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PSQ790724C90&nombre_proveedor_razon_social=CIA.+PERIODISTICA+DEL+SOL+DE+QUERETARO+S.A.+DE+C.V.&nombre_representante_legal=L.A.+RUTH+TORRES+DE+LA+LUZ&email=e.cruz%40diariodequeretaro.com.mx",
+      "previousEventHash": "0c05ccf7f08aa72b579faa3ca39ff1bf0cd6b729d84216646b9fc2f09f2f2bbd",
+      "documentHash": "5c6e1dad87f68dafc745b8d1fb70897f2d8a62ad7f6a4e76e50f53d58cd79d71",
+      "eventHash": "34787cc13fbfb3245bffd140733f67d24a9a2bc046e34180970a364fc6808190"
+    },
+    {
+      "eventId": "03731dcb-eb83-437e-8c50-e501afb42e78",
+      "uid": "PSQ790724C90",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-18T22:43:56.223Z",
+      "timestampLocal": "2026-11-18T22:43:56.223Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.224.127.61",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "34787cc13fbfb3245bffd140733f67d24a9a2bc046e34180970a364fc6808190",
+      "documentHash": "5c6e1dad87f68dafc745b8d1fb70897f2d8a62ad7f6a4e76e50f53d58cd79d71",
+      "eventHash": "814501df44209429ef2a51c3152e94a4126fb6e656e687d0a1b2814e0dbf0d3e"
+    },
+    {
+      "eventId": "bd5a45e0-1479-45d9-8a6d-eba2c9c414a4",
+      "uid": "PSQ790724C90",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-18T22:46:07.552Z",
+      "timestampLocal": "2026-11-18T22:46:07.552Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.224.127.61",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "814501df44209429ef2a51c3152e94a4126fb6e656e687d0a1b2814e0dbf0d3e",
+      "documentHash": "5c6e1dad87f68dafc745b8d1fb70897f2d8a62ad7f6a4e76e50f53d58cd79d71",
+      "eventHash": "dc9b1720a355960a10d4ef9bded80a9d4d2fffc513b806315d2214809b2db9e1"
+    },
+    {
+      "eventId": "4fc95824-db1a-4c25-bb20-9a08965fe0c8",
+      "uid": "PSQ790724C90",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-18T23:03:51.276Z",
+      "timestampLocal": "2026-11-18T23:03:51.276Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.116.248.170",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "dc9b1720a355960a10d4ef9bded80a9d4d2fffc513b806315d2214809b2db9e1",
+      "documentHash": "5c6e1dad87f68dafc745b8d1fb70897f2d8a62ad7f6a4e76e50f53d58cd79d71",
+      "eventHash": "658ccc897fa067312141f93cf448e1bd5d6d24808e3b9fb2fa99072b2c75aef7"
+    },
+    {
+      "eventId": "f9399e5c-a614-4804-a312-aeb79b996977",
+      "uid": "PSQ790724C90",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-18T23:29:07.378Z",
+      "timestampLocal": "2026-11-18T23:29:07.378Z",
+      "timezone": "UTC+0",
+      "ipAddress": "98.91.77.46",
+      "userAgent": "Mozilla/5.0 (compatible)",
+      "acceptLanguage": "unknown",
+      "referer": "direct",
+      "previousEventHash": "658ccc897fa067312141f93cf448e1bd5d6d24808e3b9fb2fa99072b2c75aef7",
+      "documentHash": "5c6e1dad87f68dafc745b8d1fb70897f2d8a62ad7f6a4e76e50f53d58cd79d71",
+      "eventHash": "150978b951feef21d98282ec2a8edfa43e03fe3f1fee1afe6be4bc3b6f72bedd"
+    },
+    {
+      "eventId": "2f49241b-2a93-4e25-8afb-95946b7bcaff",
+      "uid": "PSQ790724C90",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-19T17:11:28.402Z",
+      "timestampLocal": "2026-11-19T17:11:28.402Z",
+      "timezone": "UTC+0",
+      "ipAddress": "148.224.127.61",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "150978b951feef21d98282ec2a8edfa43e03fe3f1fee1afe6be4bc3b6f72bedd",
+      "documentHash": "5c6e1dad87f68dafc745b8d1fb70897f2d8a62ad7f6a4e76e50f53d58cd79d71",
+      "eventHash": "73cf51258fd1e3928e3b4c3dc5b37ac69f20aa719af0913d446ce256d4c6f7d6"
+    },
+    {
+      "eventId": "965f2f2f-0ca8-4c5c-8b8a-c9db34514607",
+      "uid": "PSQ790724C90",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-19T17:15:48.690Z",
+      "timestampLocal": "2026-11-19T11:15:48.690Z",
+      "timezone": "UTC-6",
+      "ipAddress": "148.224.127.61",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b1c82b23-3cc5-4726-b0d3-3db047bc5fb4",
+      "previousEventHash": "73cf51258fd1e3928e3b4c3dc5b37ac69f20aa719af0913d446ce256d4c6f7d6",
+      "documentHash": "4b4f287388e00a281891d9fad2b1fbc4f5edf333997c83143ecc0e3396e303b1",
+      "signatureHash": "807e6687a0155a3599d9fb7b00dc0f303cf42d1b2eed08bfaea47f7ed4cdbccc",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-19T11:15:45.456Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "98ff4afce1af176fdcbc597cb05d7721fe4c8f5d9c4bffd5326c937970a3134a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 11,
+    "verifiedAt": "2026-11-19T17:15:49.020Z"
+  }
 }
