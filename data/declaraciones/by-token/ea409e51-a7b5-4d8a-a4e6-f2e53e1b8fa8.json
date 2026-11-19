@@ -3,7 +3,7 @@
   "declarationId": "20937d92-f582-44f3-a41b-d8ecd260311e",
   "token": "ea409e51-a7b5-4d8a-a4e6-f2e53e1b8fa8",
   "createdAt": "2026-11-19T21:46:32.367Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "REGINA GARCIA GONZALEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "N/H",
     "email": "regina.garcia@another.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "177988600319a3594765718631f56e08fbbd05f2148f86541a82981695a43ac9",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-19T21:47:47.442Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GAGR0108114P0",
+  "signatureMetadata": {
+    "ip": "187.170.162.48",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-19T21:47:51.114Z",
+    "signedAtLocal": "2026-11-19T15:47:51.114Z"
+  },
+  "documentHash": "1ffcb0e0fa856423cc3b2aead3c6e78474d3e167c5f96f3d6898d16d52c8e39f",
   "auditTrail": [
     {
       "eventId": "ba586a10-39f6-463c-bdf5-280a1d3e9fce",
@@ -303,6 +311,116 @@
         "representante": "N/H"
       },
       "eventHash": "79ba6c8fcc05f33cd42c00f770630de5ab3bf80a4f42c0c5a4e4f4af7b4b85b6"
+    },
+    {
+      "eventId": "c79e0988-bf1f-46ad-96cf-54015bfdbe5e",
+      "uid": "GAGR0108114P0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-19T21:46:49.510Z",
+      "timestampLocal": "2026-11-19T21:46:49.510Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.162.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAGR0108114P0&nombre_proveedor_razon_social=REGINA+GARCIA+GONZALEZ&nombre_representante_legal=N%2FH&email=regina.garcia%40another.co",
+      "previousEventHash": "79ba6c8fcc05f33cd42c00f770630de5ab3bf80a4f42c0c5a4e4f4af7b4b85b6",
+      "documentHash": "177988600319a3594765718631f56e08fbbd05f2148f86541a82981695a43ac9",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "44bba7a1b3ad27bc78da9859d81d514f9b7bb509c7789dc47d100391745b8d4f"
+    },
+    {
+      "eventId": "9a12ca14-8904-47ea-8e97-a9fdc4ba996f",
+      "uid": "GAGR0108114P0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-19T21:46:49.510Z",
+      "timestampLocal": "2026-11-19T21:46:49.510Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.162.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAGR0108114P0&nombre_proveedor_razon_social=REGINA+GARCIA+GONZALEZ&nombre_representante_legal=N%2FH&email=regina.garcia%40another.co",
+      "previousEventHash": "44bba7a1b3ad27bc78da9859d81d514f9b7bb509c7789dc47d100391745b8d4f",
+      "documentHash": "177988600319a3594765718631f56e08fbbd05f2148f86541a82981695a43ac9",
+      "metadata": {
+        "proveedor": "REGINA GARCIA GONZALEZ",
+        "representante": "N/H"
+      },
+      "eventHash": "f00aed43d5d00a9c18ee98f79a0572c88cde82eab3ed941ba6a8117cf83d87be"
+    },
+    {
+      "eventId": "847be830-df79-4174-9c2e-25af0d601c79",
+      "uid": "GAGR0108114P0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-19T21:46:51.789Z",
+      "timestampLocal": "2026-11-19T21:46:51.789Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.162.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAGR0108114P0&nombre_proveedor_razon_social=REGINA+GARCIA+GONZALEZ&nombre_representante_legal=N%2FH&email=regina.garcia%40another.co",
+      "previousEventHash": "f00aed43d5d00a9c18ee98f79a0572c88cde82eab3ed941ba6a8117cf83d87be",
+      "documentHash": "177988600319a3594765718631f56e08fbbd05f2148f86541a82981695a43ac9",
+      "eventHash": "1f2c269799360d0a9f531020d6fbca992c9bea19c83a58f03cf953e1e8052206"
+    },
+    {
+      "eventId": "2a1753d6-d778-4fde-ba2b-b5bc71bc4625",
+      "uid": "GAGR0108114P0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-19T21:47:03.832Z",
+      "timestampLocal": "2026-11-19T21:47:03.832Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.162.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "1f2c269799360d0a9f531020d6fbca992c9bea19c83a58f03cf953e1e8052206",
+      "documentHash": "177988600319a3594765718631f56e08fbbd05f2148f86541a82981695a43ac9",
+      "eventHash": "192f0ca1be6e56fec690f78d2405f088eb35861b3cc5e667ab3ab5dced6007a8"
+    },
+    {
+      "eventId": "59573444-6b5d-417d-ab8e-97806bb12cae",
+      "uid": "GAGR0108114P0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-19T21:47:31.705Z",
+      "timestampLocal": "2026-11-19T21:47:31.705Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.162.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "192f0ca1be6e56fec690f78d2405f088eb35861b3cc5e667ab3ab5dced6007a8",
+      "documentHash": "177988600319a3594765718631f56e08fbbd05f2148f86541a82981695a43ac9",
+      "eventHash": "16f7bbb56f0af655c3c4c70981c6927e0ece39355782651cb3a577f5d30c44e1"
+    },
+    {
+      "eventId": "23391344-537d-485d-9c7c-c7d12fcf36f5",
+      "uid": "GAGR0108114P0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-19T21:47:51.114Z",
+      "timestampLocal": "2026-11-19T15:47:51.114Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.170.162.48",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ea409e51-a7b5-4d8a-a4e6-f2e53e1b8fa8",
+      "previousEventHash": "16f7bbb56f0af655c3c4c70981c6927e0ece39355782651cb3a577f5d30c44e1",
+      "documentHash": "1ffcb0e0fa856423cc3b2aead3c6e78474d3e167c5f96f3d6898d16d52c8e39f",
+      "signatureHash": "6ca1f3c0a44275028a200b7ba026247d3b05fcaf9033568799be7538a47d8942",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-19T15:47:47.442Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "157ade6484e32e00f147ab5a08b5d88b3be842a18ebc8507d87eecd0c011742a"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 21,
+    "verifiedAt": "2026-11-19T21:47:51.339Z"
+  }
 }
