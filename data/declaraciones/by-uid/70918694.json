@@ -3,7 +3,7 @@
   "declarationId": "770b5b11-041f-4c45-b878-516d3cf700d3",
   "token": "b6dbfcf1-e024-47c5-be46-23cb8ba46dd1",
   "createdAt": "2026-11-19T16:55:48.598Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Maria Alessandra Bregni Pickett",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Maria Alessandra Bregni",
     "email": "alebregni92@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3663a0fa4e4cb77023b3a0b0cf0eb7d542b91ebe1c13d1e13a1eee7436028561",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-19T16:56:22.732Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/70918694",
+  "signatureMetadata": {
+    "ip": "200.119.180.127",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-19T16:56:26.217Z",
+    "signedAtLocal": "2026-11-19T10:56:26.217Z"
+  },
+  "documentHash": "81a7ce77b0087721aee181f1512f6f59284e38bee9816bbf072413125eea8b5f",
   "auditTrail": [
     {
       "eventId": "8e3e0ad0-ee7c-4575-9ca6-0707795280d9",
@@ -66,6 +74,49 @@
         "representante": "Maria Alessandra Bregni"
       },
       "eventHash": "9f433ad3be1be345fa3ef8767bc7eed46253760f4e31e1f12306ae6280ba9474"
+    },
+    {
+      "eventId": "14933a97-99a2-4ccb-9ce8-ea640b0e4fb1",
+      "uid": "70918694",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-19T16:55:58.793Z",
+      "timestampLocal": "2026-11-19T16:55:58.793Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.119.180.127",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=70918694&nombre_proveedor_razon_social=Maria+Alessandra+Bregni+Pickett&nombre_representante_legal=Maria+Alessandra+Bregni&email=alebregni92%40gmail.com",
+      "previousEventHash": "9f433ad3be1be345fa3ef8767bc7eed46253760f4e31e1f12306ae6280ba9474",
+      "documentHash": "3663a0fa4e4cb77023b3a0b0cf0eb7d542b91ebe1c13d1e13a1eee7436028561",
+      "eventHash": "881506b4c6a40d60c87f219494f99d6a5c908ae58c092c65bf0b365e5270c285"
+    },
+    {
+      "eventId": "602f18e5-fed9-489f-b04b-bacf833fe8ce",
+      "uid": "70918694",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-19T16:56:26.217Z",
+      "timestampLocal": "2026-11-19T10:56:26.217Z",
+      "timezone": "UTC-6",
+      "ipAddress": "200.119.180.127",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b6dbfcf1-e024-47c5-be46-23cb8ba46dd1",
+      "previousEventHash": "881506b4c6a40d60c87f219494f99d6a5c908ae58c092c65bf0b365e5270c285",
+      "documentHash": "81a7ce77b0087721aee181f1512f6f59284e38bee9816bbf072413125eea8b5f",
+      "signatureHash": "06cdb40e23907cd3e9396c8193176250354bdcd0eb490d20e34eb6f51dc2ba5a",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-19T10:56:22.732Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "8b25b6584703a68fa22aa85ea422b68f781ca02306c5208bea21463ee683781b"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-19T16:56:26.513Z"
+  }
 }
