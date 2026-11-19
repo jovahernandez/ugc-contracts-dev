@@ -3,7 +3,7 @@
   "declarationId": "1ae50bd8-ebba-444c-8d73-b7ca1e6231fa",
   "token": "6cc0b86f-e6ae-4cf3-9006-0eb42b099492",
   "createdAt": "2026-11-19T17:56:15.608Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "GLOBALSIS S.A DE C.V",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "EMILIO CAJIGAS LUSARRETA",
     "email": "ventascpsuc1@globalsis.com.mx"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b618e29ebb7a0143f11f7ded03bc89b5ba9219a47b513bb3106e9b390db605cb",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-19T18:07:43.147Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GLO0104202K1",
+  "signatureMetadata": {
+    "ip": "187.251.241.190",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-19T18:07:46.550Z",
+    "signedAtLocal": "2026-11-19T12:07:46.550Z"
+  },
+  "documentHash": "ed6f2d8c2690b819198c09549340f52c8223ea4a7e22ab5eb96b3628fefece3a",
   "auditTrail": [
     {
       "eventId": "f04bab56-59dc-4a85-ba6c-f244c83235fb",
@@ -66,6 +74,64 @@
         "representante": "EMILIO CAJIGAS LUSARRETA"
       },
       "eventHash": "840354327c7d79bb11f7b136563dbb79926eca73c9ceb717c963e95a1516f664"
+    },
+    {
+      "eventId": "dc6cdfd2-7c92-455b-8721-e24d25d39bd3",
+      "uid": "GLO0104202K1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-19T17:58:22.359Z",
+      "timestampLocal": "2026-11-19T17:58:22.359Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.241.190",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GLO0104202K1&nombre_proveedor_razon_social=GLOBALSIS+S.A+DE+C.V&nombre_representante_legal=EMILIO+CAJIGAS+LUSARRETA&email=ventascpsuc1%40globalsis.com.mx",
+      "previousEventHash": "840354327c7d79bb11f7b136563dbb79926eca73c9ceb717c963e95a1516f664",
+      "documentHash": "b618e29ebb7a0143f11f7ded03bc89b5ba9219a47b513bb3106e9b390db605cb",
+      "eventHash": "040314669c6a0bccb5dbe2ad5dcb2c108f1bb98ef16ff2bc5ef4e9ca9fb4e79d"
+    },
+    {
+      "eventId": "7d011fb3-dc92-451e-814a-6a283750a8e8",
+      "uid": "GLO0104202K1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-19T18:02:17.311Z",
+      "timestampLocal": "2026-11-19T18:02:17.311Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.251.241.190",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "040314669c6a0bccb5dbe2ad5dcb2c108f1bb98ef16ff2bc5ef4e9ca9fb4e79d",
+      "documentHash": "b618e29ebb7a0143f11f7ded03bc89b5ba9219a47b513bb3106e9b390db605cb",
+      "eventHash": "76d6e6acf0c2d80b71dd407f8cd2112f54b4367a1dfcbf2bec15fcc23c1aaea0"
+    },
+    {
+      "eventId": "420620bc-d481-4b31-828b-85ae23f8aaa2",
+      "uid": "GLO0104202K1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-19T18:07:46.550Z",
+      "timestampLocal": "2026-11-19T12:07:46.550Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.251.241.190",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/6cc0b86f-e6ae-4cf3-9006-0eb42b099492",
+      "previousEventHash": "76d6e6acf0c2d80b71dd407f8cd2112f54b4367a1dfcbf2bec15fcc23c1aaea0",
+      "documentHash": "ed6f2d8c2690b819198c09549340f52c8223ea4a7e22ab5eb96b3628fefece3a",
+      "signatureHash": "3ad502bac28acdb3651c88a336468168c45ef3090f624506b1f9369b066448fa",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-19T12:07:43.147Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "74d72347b5bf1231ecd85590083e49778a1c1f22a00fff9522450b2be83d94b5"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-11-19T18:07:46.864Z"
+  }
 }
