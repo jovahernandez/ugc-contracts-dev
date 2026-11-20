@@ -3,7 +3,7 @@
   "declarationId": "ba5af133-b366-47e2-ab41-b88d7a1c8534",
   "token": "599e89c8-32c5-4b33-a2fe-9dc684918907",
   "createdAt": "2026-11-20T18:32:13.921Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DANIEL ALBERTO MIRANDA ARREDONDO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "DANIEL ALBERTO MIRANDA ARREDONDO",
     "email": "d.miranda@tinto360.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "a7f0e86bda905e9780fb605a03b229d61abff8c2f9b9774f0a9340d4506c7891",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-20T18:34:12.508Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MIAD9203212N1",
+  "signatureMetadata": {
+    "ip": "201.141.19.188",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-20T18:34:15.979Z",
+    "signedAtLocal": "2026-11-20T12:34:15.979Z"
+  },
+  "documentHash": "eaaaf97469414b51e6dc16b668c843cbcf6ff477508f5eea154a7d7fcbe59fbb",
   "auditTrail": [
     {
       "eventId": "c4e6b9fa-5dba-411a-9c0b-c8bed8a2c7f1",
@@ -103,6 +111,49 @@
         "representante": "DANIEL ALBERTO MIRANDA ARREDONDO"
       },
       "eventHash": "0bc5e74be1cfe23800eae91c392765c1252fc810ad01688b0d9b58062e616d51"
+    },
+    {
+      "eventId": "5a5ad500-571f-4845-8e20-e50af853fd46",
+      "uid": "MIAD9203212N1",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-20T18:32:33.712Z",
+      "timestampLocal": "2026-11-20T18:32:33.712Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.141.19.188",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MIAD9203212N1&nombre_proveedor_razon_social=DANIEL+ALBERTO+MIRANDA+ARREDONDO&nombre_representante_legal=DANIEL+ALBERTO+MIRANDA+ARREDONDO&email=d.miranda%40tinto360.com",
+      "previousEventHash": "0bc5e74be1cfe23800eae91c392765c1252fc810ad01688b0d9b58062e616d51",
+      "documentHash": "a7f0e86bda905e9780fb605a03b229d61abff8c2f9b9774f0a9340d4506c7891",
+      "eventHash": "c0ace3c8d78b4f32958dd3d03ffa51f79894aff403d3713838296883495195b9"
+    },
+    {
+      "eventId": "8bbc17ae-1459-4896-91fc-1475b77fcf13",
+      "uid": "MIAD9203212N1",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-20T18:34:15.979Z",
+      "timestampLocal": "2026-11-20T12:34:15.979Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.141.19.188",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/599e89c8-32c5-4b33-a2fe-9dc684918907",
+      "previousEventHash": "c0ace3c8d78b4f32958dd3d03ffa51f79894aff403d3713838296883495195b9",
+      "documentHash": "eaaaf97469414b51e6dc16b668c843cbcf6ff477508f5eea154a7d7fcbe59fbb",
+      "signatureHash": "bfa4bb1585fa677607ed6a12db9807bed89efc5d41c8b39b6915e6bb3e6558a4",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-20T12:34:12.508Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "fd605914845acbeec0638063e665352ec96f539ca3f075d655b67d0c1bd49a56"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-11-20T18:34:16.193Z"
+  }
 }
