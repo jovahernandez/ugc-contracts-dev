@@ -3,8 +3,18 @@
   "declarationId": "b17b9896-5cde-44a5-a884-87cf50820e3f",
   "token": "e7b1bda6-bee1-40b5-969d-300a243a335e",
   "createdAt": "2026-11-20T15:48:52.409Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PUBLICIDADIMPRESSABANFORT",
+    "nombre_representante_legal": "Violeta Juarez Recio",
+    "email": "briancv50@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PUBLICIDADIMPRESSABANFORT",
+    "nombre_representante_legal": "Violeta Juarez Recio",
+    "email": "briancv50@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "PUBLICIDADIMPRESSABANFORT",
     "nombre_representante_legal": "Violeta Juarez Recio",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "f085e317ad857df52db49b0a4eebdd4e9c2014d0e630f48e6006f65cc8bba5d7",
+  "auditTrail": [
+    {
+      "eventId": "de76f59b-c97b-4611-82cb-4f64886cc431",
+      "uid": "PIB240212IU6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-20T15:48:58.309Z",
+      "timestampLocal": "2026-11-20T15:48:58.309Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.188.224.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PIB240212IU6&nombre_proveedor_razon_social=PUBLICIDADIMPRESSABANFORT&nombre_representante_legal=Violeta+Juarez+Recio+&email=briancv50%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "f085e317ad857df52db49b0a4eebdd4e9c2014d0e630f48e6006f65cc8bba5d7",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "90a13c3c845c75bcad1b2aa3fdeff457e887a5ca45172c54b8e52bc3b78d4f12"
+    },
+    {
+      "eventId": "06905db9-de9b-484d-a328-17b2f36989a9",
+      "uid": "PIB240212IU6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-20T15:48:58.309Z",
+      "timestampLocal": "2026-11-20T15:48:58.309Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.188.224.88",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es-MX;q=0.8,es;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PIB240212IU6&nombre_proveedor_razon_social=PUBLICIDADIMPRESSABANFORT&nombre_representante_legal=Violeta+Juarez+Recio+&email=briancv50%40gmail.com",
+      "previousEventHash": "90a13c3c845c75bcad1b2aa3fdeff457e887a5ca45172c54b8e52bc3b78d4f12",
+      "documentHash": "f085e317ad857df52db49b0a4eebdd4e9c2014d0e630f48e6006f65cc8bba5d7",
+      "metadata": {
+        "proveedor": "PUBLICIDADIMPRESSABANFORT",
+        "representante": "Violeta Juarez Recio"
+      },
+      "eventHash": "6c5695ee1001f4862b953c900f59a5867e87bea26b6a2f1929316555c58e5f3e"
+    }
+  ]
 }
