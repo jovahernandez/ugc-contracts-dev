@@ -3,8 +3,18 @@
   "declarationId": "447908f7-8b1d-4773-934c-d35df44b5c55",
   "token": "a9c2dcdc-62ee-4ba7-91af-43e7f8b3c187",
   "createdAt": "2026-11-20T18:05:29.340Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Alejandro Ganem Sanchez",
+    "nombre_representante_legal": "Alejandro Ganem Sanchez",
+    "email": "menag99@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Alejandro Ganem Sanchez",
+    "nombre_representante_legal": "Alejandro Ganem Sanchez",
+    "email": "menag99@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Alejandro Ganem Sanchez",
     "nombre_representante_legal": "Alejandro Ganem Sanchez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "84b404f57884e26edd457e41be7cb3638b92d7c46c004b4bec23483b377c06d2",
+  "auditTrail": [
+    {
+      "eventId": "decd7097-f033-4f91-9885-f02186a943eb",
+      "uid": "GASA6604285R4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-20T18:05:37.716Z",
+      "timestampLocal": "2026-11-20T18:05:37.716Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.245.218.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GASA6604285R4&nombre_proveedor_razon_social=Alejandro+Ganem+Sanchez&nombre_representante_legal=Alejandro+Ganem+Sanchez&email=menag99%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "84b404f57884e26edd457e41be7cb3638b92d7c46c004b4bec23483b377c06d2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "5c0fd826f45304b52021d95f172e325e9233b8200ad66513b9d26c6957e01547"
+    },
+    {
+      "eventId": "1e66c52d-14eb-4c18-9dd0-ba56baf0a00e",
+      "uid": "GASA6604285R4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-20T18:05:37.716Z",
+      "timestampLocal": "2026-11-20T18:05:37.716Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.245.218.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GASA6604285R4&nombre_proveedor_razon_social=Alejandro+Ganem+Sanchez&nombre_representante_legal=Alejandro+Ganem+Sanchez&email=menag99%40hotmail.com",
+      "previousEventHash": "5c0fd826f45304b52021d95f172e325e9233b8200ad66513b9d26c6957e01547",
+      "documentHash": "84b404f57884e26edd457e41be7cb3638b92d7c46c004b4bec23483b377c06d2",
+      "metadata": {
+        "proveedor": "Alejandro Ganem Sanchez",
+        "representante": "Alejandro Ganem Sanchez"
+      },
+      "eventHash": "2bde74ddc5437c4a1b1a5c57418226ba40c9259af28aee4e9ce5d374594eb993"
+    }
+  ]
 }
