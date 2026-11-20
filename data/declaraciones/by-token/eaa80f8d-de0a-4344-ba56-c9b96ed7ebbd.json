@@ -3,8 +3,18 @@
   "declarationId": "d87b5abe-e059-4aae-8ba0-ce52b08c7333",
   "token": "eaa80f8d-de0a-4344-ba56-c9b96ed7ebbd",
   "createdAt": "2026-11-20T22:37:48.480Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Niza",
+    "nombre_representante_legal": "Omar Gerardo Gil Lopez",
+    "email": "nizabuenrostro@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Niza",
+    "nombre_representante_legal": "Omar Gerardo Gil Lopez",
+    "email": "nizabuenrostro@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Niza",
     "nombre_representante_legal": "Omar Gerardo Gil Lopez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "b1aff117f6c265e5357f6a525f3aa6d703606ede65c8595b626d82545fb40f73",
+  "auditTrail": [
+    {
+      "eventId": "ef775ceb-715c-494d-bdfa-abe00f0c5ded",
+      "uid": "GILO760714VE7",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-20T22:37:55.487Z",
+      "timestampLocal": "2026-11-20T22:37:55.487Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.245.196.62",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "b1aff117f6c265e5357f6a525f3aa6d703606ede65c8595b626d82545fb40f73",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6448f48b4676d80b346eaad64914b57d561909cdb79addc1d0b60e94f03b6a27"
+    },
+    {
+      "eventId": "875ee972-0492-4dd1-973a-7e397418cb6e",
+      "uid": "GILO760714VE7",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-20T22:37:55.487Z",
+      "timestampLocal": "2026-11-20T22:37:55.487Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.245.196.62",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "6448f48b4676d80b346eaad64914b57d561909cdb79addc1d0b60e94f03b6a27",
+      "documentHash": "b1aff117f6c265e5357f6a525f3aa6d703606ede65c8595b626d82545fb40f73",
+      "metadata": {
+        "proveedor": "Niza",
+        "representante": "Omar Gerardo Gil Lopez"
+      },
+      "eventHash": "facab997bfae45b6fd540ae63d30716922d939eb7df195d621fe635edfa5b6ca"
+    }
+  ]
 }
