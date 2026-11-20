@@ -3,8 +3,18 @@
   "declarationId": "26ddc904-f35e-4ba3-abef-3051c1a35530",
   "token": "1e74f99c-1087-471d-a951-41afbda50bf5",
   "createdAt": "2026-11-20T20:24:44.104Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "PUBLICIDAD JAOMI S.A. DE C.V.",
+    "nombre_representante_legal": "JANETH MARLEN TERCERO JIMENEZ",
+    "email": "jaomipublicidad@outlook.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "PUBLICIDAD JAOMI S.A. DE C.V.",
+    "nombre_representante_legal": "JANETH MARLEN TERCERO JIMENEZ",
+    "email": "jaomipublicidad@outlook.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "PUBLICIDAD JAOMI S.A. DE C.V.",
     "nombre_representante_legal": "JANETH MARLEN TERCERO JIMENEZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "7ab8f2caffc99549afe1d010f3e57e9684f2bd95a15885387122ef176039895c",
+  "auditTrail": [
+    {
+      "eventId": "f5361324-6fcd-4f5a-b35a-446347bf3fcc",
+      "uid": "PJA2410216G9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-20T20:25:14.707Z",
+      "timestampLocal": "2026-11-20T20:25:14.707Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.118.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PJA2410216G9&nombre_proveedor_razon_social=PUBLICIDAD+JAOMI+S.A.+DE+C.V.+&nombre_representante_legal=JANETH+MARLEN+TERCERO+JIMENEZ&email=jaomipublicidad%40outlook.com",
+      "previousEventHash": null,
+      "documentHash": "7ab8f2caffc99549afe1d010f3e57e9684f2bd95a15885387122ef176039895c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "68f42920e7d1d669f6bf512966f5f80e2f22f650cc65e1273383205ac8426df1"
+    },
+    {
+      "eventId": "5ca671aa-da2e-4a17-a8fe-3f16b5be5921",
+      "uid": "PJA2410216G9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-20T20:25:14.707Z",
+      "timestampLocal": "2026-11-20T20:25:14.707Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.216.118.207",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,es-MX;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=PJA2410216G9&nombre_proveedor_razon_social=PUBLICIDAD+JAOMI+S.A.+DE+C.V.+&nombre_representante_legal=JANETH+MARLEN+TERCERO+JIMENEZ&email=jaomipublicidad%40outlook.com",
+      "previousEventHash": "68f42920e7d1d669f6bf512966f5f80e2f22f650cc65e1273383205ac8426df1",
+      "documentHash": "7ab8f2caffc99549afe1d010f3e57e9684f2bd95a15885387122ef176039895c",
+      "metadata": {
+        "proveedor": "PUBLICIDAD JAOMI S.A. DE C.V.",
+        "representante": "JANETH MARLEN TERCERO JIMENEZ"
+      },
+      "eventHash": "3aa5c03a218a9bc95ea81a338784a47a2bec7d7cb98aa0ce193959c4349c0134"
+    }
+  ]
 }
