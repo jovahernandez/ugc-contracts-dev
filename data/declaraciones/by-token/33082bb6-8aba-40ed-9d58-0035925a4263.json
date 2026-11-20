@@ -3,8 +3,18 @@
   "declarationId": "37b60046-6394-43a0-92c5-f1944b0fa773",
   "token": "33082bb6-8aba-40ed-9d58-0035925a4263",
   "createdAt": "2026-11-20T00:57:19.100Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Ericka Paola Gomez Colin",
+    "nombre_representante_legal": "Ericka Paola Gomez Colin",
+    "email": "erickagomezco@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Ericka Paola Gomez Colin",
+    "nombre_representante_legal": "Ericka Paola Gomez Colin",
+    "email": "erickagomezco@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Ericka Paola Gomez Colin",
     "nombre_representante_legal": "Ericka Paola Gomez Colin",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "318e0ea8681f5f57183f8c891a369d7ae1df639aeefbd44ec13cd43233d06374",
+  "auditTrail": [
+    {
+      "eventId": "12598102-571f-48dc-9366-23f4563d48ef",
+      "uid": "GOCE000513SA1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-20T00:57:30.090Z",
+      "timestampLocal": "2026-11-20T00:57:30.090Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.45.2",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/447.9.1016606130 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "318e0ea8681f5f57183f8c891a369d7ae1df639aeefbd44ec13cd43233d06374",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "f14da67a63a7d2750435afb8ffc4c2ad0c961ffd1b13f58d588c8d71458f4f45"
+    },
+    {
+      "eventId": "6ff3f332-cc2d-4e50-9059-dbf42541c90a",
+      "uid": "GOCE000513SA1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-20T00:57:30.090Z",
+      "timestampLocal": "2026-11-20T00:57:30.090Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.45.2",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/447.9.1016606130 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f14da67a63a7d2750435afb8ffc4c2ad0c961ffd1b13f58d588c8d71458f4f45",
+      "documentHash": "318e0ea8681f5f57183f8c891a369d7ae1df639aeefbd44ec13cd43233d06374",
+      "metadata": {
+        "proveedor": "Ericka Paola Gomez Colin",
+        "representante": "Ericka Paola Gomez Colin"
+      },
+      "eventHash": "f87e1d9a9d76cc78b3f4be247b4b8572ce39adce38e90dd9ad404d20b8799487"
+    }
+  ]
 }
