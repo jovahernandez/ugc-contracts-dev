@@ -3,7 +3,7 @@
   "declarationId": "516ea530-abda-4777-acfe-06608616414f",
   "token": "3ec2da19-5bc0-4c96-8bc0-09dde9df7d09",
   "createdAt": "2026-11-23T22:28:02.013Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "PAULO FRANCISCO SCHNEL JUNIOR",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Vinícius",
     "email": "contato@juniorschnel.com.br"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "efb84874ad9fa11aa83020c9d25ddd69564f5ab263252445244ecf23e27fac38",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-23T22:29:21.342Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/24.072.846%2F0001-03",
+  "signatureMetadata": {
+    "ip": "191.255.217.134",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-23T22:29:24.716Z",
+    "signedAtLocal": "2026-11-23T19:29:24.716Z"
+  },
+  "documentHash": "e6d719c92c9f12b906a6b347225f83edee462ed7996af1f4c791470c963475c1",
   "auditTrail": [
     {
       "eventId": "c50ce2a5-77b3-44ff-86ac-c3ab6825eeae",
@@ -66,6 +74,49 @@
         "representante": "Vinícius"
       },
       "eventHash": "289ebd098fd7b19201b82ed4a81fbb12eb2898daf47489fc8d424c6128c0008c"
+    },
+    {
+      "eventId": "5877f346-fbe0-4643-ba26-4d36955f3f6b",
+      "uid": "24.072.846/0001-03",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-23T22:28:12.383Z",
+      "timestampLocal": "2026-11-23T22:28:12.383Z",
+      "timezone": "UTC+0",
+      "ipAddress": "191.255.217.134",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=24.072.846%2F0001-03&nombre_proveedor_razon_social=PAULO+FRANCISCO+SCHNEL+JUNIOR&nombre_representante_legal=Vin%C3%ADcius&email=contato%40juniorschnel.com.br",
+      "previousEventHash": "289ebd098fd7b19201b82ed4a81fbb12eb2898daf47489fc8d424c6128c0008c",
+      "documentHash": "efb84874ad9fa11aa83020c9d25ddd69564f5ab263252445244ecf23e27fac38",
+      "eventHash": "b5183126586a09823957eff7c148311509cef5b839aae37d897e428d44a64e75"
+    },
+    {
+      "eventId": "38b4bc74-f8af-48fd-8b2e-05a7da94e8d8",
+      "uid": "24.072.846/0001-03",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-23T22:29:24.716Z",
+      "timestampLocal": "2026-11-23T19:29:24.716Z",
+      "timezone": "UTC-3",
+      "ipAddress": "191.255.217.134",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/3ec2da19-5bc0-4c96-8bc0-09dde9df7d09",
+      "previousEventHash": "b5183126586a09823957eff7c148311509cef5b839aae37d897e428d44a64e75",
+      "documentHash": "e6d719c92c9f12b906a6b347225f83edee462ed7996af1f4c791470c963475c1",
+      "signatureHash": "2ae44a728b0ee672eab1273d0aae2037de51e4e8461a0368dd8bdfed5a72ba16",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-23T19:29:21.342Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "ea379b7071f4858811b1ca511f904f60b7c0f0ebc15886ff572b33b1d20e4edd"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-23T22:29:24.999Z"
+  }
 }
