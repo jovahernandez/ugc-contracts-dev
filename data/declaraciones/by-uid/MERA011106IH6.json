@@ -3,8 +3,18 @@
   "declarationId": "ca06707a-347a-4063-bb54-2b9c7a8be0b6",
   "token": "0ef2c4b7-8d17-4d56-9d19-4fae9904bfa6",
   "createdAt": "2026-11-23T16:43:13.982Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Ana Paula Medina Ramirez",
+    "nombre_representante_legal": "Ana Paula Medina Ramirez",
+    "email": "anamedinaramirez3@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Ana Paula Medina Ramirez",
+    "nombre_representante_legal": "Ana Paula Medina Ramirez",
+    "email": "anamedinaramirez3@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Ana Paula Medina Ramirez",
     "nombre_representante_legal": "Ana Paula Medina Ramirez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "40c5a1d04da54c7417c6cfe2712cbdb60aeb8dc968aee3f683f7949be15a24d4",
+  "auditTrail": [
+    {
+      "eventId": "9153151b-62be-4207-93fa-4d2058d6dcc5",
+      "uid": "MERA011106IH6",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-23T16:43:20.366Z",
+      "timestampLocal": "2026-11-23T16:43:20.366Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.220.231",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MERA011106IH6&nombre_proveedor_razon_social=Ana+Paula+Medina+Ramirez+&nombre_representante_legal=Ana+Paula+Medina+Ramirez+&email=anamedinaramirez3%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "40c5a1d04da54c7417c6cfe2712cbdb60aeb8dc968aee3f683f7949be15a24d4",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "aa4dfff173950296ce09e5883aa6e2df671e744ed9f8df7f058cdfc8bce13e41"
+    },
+    {
+      "eventId": "27d6e17c-475c-44d7-bf1b-ead3c6d13ffd",
+      "uid": "MERA011106IH6",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-23T16:43:20.366Z",
+      "timestampLocal": "2026-11-23T16:43:20.366Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.188.220.231",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MERA011106IH6&nombre_proveedor_razon_social=Ana+Paula+Medina+Ramirez+&nombre_representante_legal=Ana+Paula+Medina+Ramirez+&email=anamedinaramirez3%40gmail.com",
+      "previousEventHash": "aa4dfff173950296ce09e5883aa6e2df671e744ed9f8df7f058cdfc8bce13e41",
+      "documentHash": "40c5a1d04da54c7417c6cfe2712cbdb60aeb8dc968aee3f683f7949be15a24d4",
+      "metadata": {
+        "proveedor": "Ana Paula Medina Ramirez",
+        "representante": "Ana Paula Medina Ramirez"
+      },
+      "eventHash": "d658ec51819f30dd9129095d475d97c7ce12d2b90545edf2ce9bfdbc3084a995"
+    }
+  ]
 }
