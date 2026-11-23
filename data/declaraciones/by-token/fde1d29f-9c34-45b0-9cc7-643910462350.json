@@ -3,7 +3,7 @@
   "declarationId": "8d0b35df-9786-4eb9-8950-4815beeb9713",
   "token": "fde1d29f-9c34-45b0-9cc7-643910462350",
   "createdAt": "2026-11-04T23:45:34.084Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "JUAN MANUEL GARCIA MARTINEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Ana Perla García Aquino",
     "email": "eugenia-mar@outlook.es"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "34232679e974896252a02119f3c853a13ec35770835ace4949f412b9316e4aca",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-23T20:40:34.309Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/GAAJ921121JM5",
+  "signatureMetadata": {
+    "ip": "187.190.193.230",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-23T20:40:39.989Z",
+    "signedAtLocal": "2026-11-23T14:40:39.989Z"
+  },
+  "documentHash": "f3a584433686da36824ea1b42e23bdccda464c6dd0f9a780cda59d6d44898eb9",
   "auditTrail": [
     {
       "eventId": "d400fbcf-6908-4afc-8511-05b8ca0c7eea",
@@ -66,6 +74,109 @@
         "representante": "Ana Perla García Aquino"
       },
       "eventHash": "8b74c7063f133aaac64d48fd8429344ea1edf417efd5484999b3c9ed11f368c1"
+    },
+    {
+      "eventId": "f64c8894-39ab-409c-9f5d-bcd5d7c9877d",
+      "uid": "GAAJ921121JM5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-04T23:45:51.147Z",
+      "timestampLocal": "2026-11-04T23:45:51.147Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.231.45",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=GAAJ921121JM5&nombre_proveedor_razon_social=JUAN+MANUEL+GARCIA+MARTINEZ&nombre_representante_legal=Ana+Perla+Garc%C3%ADa+Aquino&email=eugenia-mar%40outlook.es",
+      "previousEventHash": "8b74c7063f133aaac64d48fd8429344ea1edf417efd5484999b3c9ed11f368c1",
+      "documentHash": "34232679e974896252a02119f3c853a13ec35770835ace4949f412b9316e4aca",
+      "eventHash": "fbd915193be68e97ed257939705074a70f9f02171b48b445c7d4cb2a0e23211e"
+    },
+    {
+      "eventId": "ea99e162-ea7b-4ed5-9076-c181c4b205b8",
+      "uid": "GAAJ921121JM5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-18T14:25:30.308Z",
+      "timestampLocal": "2026-11-18T14:25:30.308Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.162.198.10",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "fbd915193be68e97ed257939705074a70f9f02171b48b445c7d4cb2a0e23211e",
+      "documentHash": "34232679e974896252a02119f3c853a13ec35770835ace4949f412b9316e4aca",
+      "eventHash": "ee740d399f07c891da6f214effaaf6a1122a5d2b5fd7d6b33d720eb52880e570"
+    },
+    {
+      "eventId": "a909df2e-cc68-4bee-aaf1-4162cca5bf37",
+      "uid": "GAAJ921121JM5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-18T22:09:53.269Z",
+      "timestampLocal": "2026-11-18T22:09:53.269Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.231.45",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "ee740d399f07c891da6f214effaaf6a1122a5d2b5fd7d6b33d720eb52880e570",
+      "documentHash": "34232679e974896252a02119f3c853a13ec35770835ace4949f412b9316e4aca",
+      "eventHash": "162a02a5509bbe565b0e16f8862e801f004d559a0b8887ed3f465bee1763f9b2"
+    },
+    {
+      "eventId": "8d1bda7c-2d70-4328-87b3-3b8e9c70a486",
+      "uid": "GAAJ921121JM5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-23T19:19:34.277Z",
+      "timestampLocal": "2026-11-23T19:19:34.277Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.193.230",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "162a02a5509bbe565b0e16f8862e801f004d559a0b8887ed3f465bee1763f9b2",
+      "documentHash": "34232679e974896252a02119f3c853a13ec35770835ace4949f412b9316e4aca",
+      "eventHash": "78af76ba015b1ec471a9ad4e4a88dca6c7823eb5edebedfa2c14fdf2eef49f94"
+    },
+    {
+      "eventId": "b5242ccd-70ce-499c-9c38-2e31df444b3e",
+      "uid": "GAAJ921121JM5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-23T20:32:19.472Z",
+      "timestampLocal": "2026-11-23T20:32:19.472Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.193.230",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "78af76ba015b1ec471a9ad4e4a88dca6c7823eb5edebedfa2c14fdf2eef49f94",
+      "documentHash": "34232679e974896252a02119f3c853a13ec35770835ace4949f412b9316e4aca",
+      "eventHash": "57bb118980884f60b571791a14cc54733f84597117eb73792400f0d0e6536c8a"
+    },
+    {
+      "eventId": "38903212-fa8a-4831-8578-5da21f5191a7",
+      "uid": "GAAJ921121JM5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-23T20:40:39.989Z",
+      "timestampLocal": "2026-11-23T14:40:39.989Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.193.230",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/fde1d29f-9c34-45b0-9cc7-643910462350",
+      "previousEventHash": "57bb118980884f60b571791a14cc54733f84597117eb73792400f0d0e6536c8a",
+      "documentHash": "f3a584433686da36824ea1b42e23bdccda464c6dd0f9a780cda59d6d44898eb9",
+      "signatureHash": "44c4eb78ab294c8318df0bbccf45f912b59919928044db54cda92b5ae4b7a255",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-23T14:40:34.309Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "8860513804f63d39bcfdebf68aa48b3d7d40149f7b5ff15cf58b9bed0651d169"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-11-23T20:40:40.599Z"
+  }
 }
