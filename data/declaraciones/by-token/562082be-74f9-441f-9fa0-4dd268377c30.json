@@ -3,8 +3,18 @@
   "declarationId": "1163b31e-f826-418b-9fda-9e74f99799fd",
   "token": "562082be-74f9-441f-9fa0-4dd268377c30",
   "createdAt": "2026-11-19T22:54:34.032Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "EDITORIAL ACONTCER S.A. DE C.V.",
+    "nombre_representante_legal": "Francisco José De la Peña de León",
+    "email": "redaccion_elheraldo@yahoo.com.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "EDITORIAL ACONTCER S.A. DE C.V.",
+    "nombre_representante_legal": "Francisco José De la Peña de León",
+    "email": "redaccion_elheraldo@yahoo.com.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "EDITORIAL ACONTCER S.A. DE C.V.",
     "nombre_representante_legal": "Francisco José De la Peña de León",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "7530822b4d74a9ffb7ffb1af787bd3a3093c83001d5567f61e81f28db4702c76",
+  "auditTrail": [
+    {
+      "eventId": "9dc65444-0920-4c79-8a9c-e9d255178254",
+      "uid": "EAC040824RZ3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-23T15:24:22.483Z",
+      "timestampLocal": "2026-11-23T15:24:22.483Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.156.33.145",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EAC040824RZ3&nombre_proveedor_razon_social=EDITORIAL+ACONTCER+S.A.+DE+C.V.+&nombre_representante_legal=Francisco+Jos%C3%A9+De+la+Pe%C3%B1a+de+Le%C3%B3n+&email=redaccion_elheraldo%40yahoo.com.mx",
+      "previousEventHash": null,
+      "documentHash": "7530822b4d74a9ffb7ffb1af787bd3a3093c83001d5567f61e81f28db4702c76",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "6ecba39e7d2d35b987e5e3498a0601d41c9cefa31b388ebc9ecebfd661b08fa0"
+    },
+    {
+      "eventId": "5967518f-ebe5-40c8-8875-2ecb148fabb5",
+      "uid": "EAC040824RZ3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-23T15:24:22.483Z",
+      "timestampLocal": "2026-11-23T15:24:22.483Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.156.33.145",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=EAC040824RZ3&nombre_proveedor_razon_social=EDITORIAL+ACONTCER+S.A.+DE+C.V.+&nombre_representante_legal=Francisco+Jos%C3%A9+De+la+Pe%C3%B1a+de+Le%C3%B3n+&email=redaccion_elheraldo%40yahoo.com.mx",
+      "previousEventHash": "6ecba39e7d2d35b987e5e3498a0601d41c9cefa31b388ebc9ecebfd661b08fa0",
+      "documentHash": "7530822b4d74a9ffb7ffb1af787bd3a3093c83001d5567f61e81f28db4702c76",
+      "metadata": {
+        "proveedor": "EDITORIAL ACONTCER S.A. DE C.V.",
+        "representante": "Francisco José De la Peña de León"
+      },
+      "eventHash": "08ee9382dc6aac16f1c74dd1a3f9cd42d5b6e67ec0e02648bc8dc00a36fe9075"
+    }
+  ]
 }
