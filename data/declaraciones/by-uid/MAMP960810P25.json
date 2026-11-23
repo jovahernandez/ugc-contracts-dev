@@ -3,8 +3,18 @@
   "declarationId": "108bf30c-57c5-409f-b68f-8c15286e9cd7",
   "token": "401962ee-4e5a-4160-babb-671c4fbdfd90",
   "createdAt": "2026-11-23T23:59:01.010Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Paula Martinez Montes",
+    "nombre_representante_legal": "Paula Martinez Montes",
+    "email": "themexifoodieblog@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Paula Martinez Montes",
+    "nombre_representante_legal": "Paula Martinez Montes",
+    "email": "themexifoodieblog@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Paula Martinez Montes",
     "nombre_representante_legal": "Paula Martinez Montes",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "fd38fa8ebdb0ccde45fe91b61070aca54b99d076f50a611e7b44ce1c9115ed71",
+  "auditTrail": [
+    {
+      "eventId": "e0a55a92-9329-4932-a282-9600939e5f17",
+      "uid": "MAMP960810P25",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-23T23:59:10.723Z",
+      "timestampLocal": "2026-11-23T23:59:10.723Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.91.12",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAMP960810P25&nombre_proveedor_razon_social=Paula+Martinez+Montes&nombre_representante_legal=Paula+Martinez+Montes&email=themexifoodieblog%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "fd38fa8ebdb0ccde45fe91b61070aca54b99d076f50a611e7b44ce1c9115ed71",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a7c8cb6d764b8732ff0cbddd2a5fe45c30a9274d06022ce7a974ec52a3607374"
+    },
+    {
+      "eventId": "04d2e81f-6116-4490-99c2-48b941e23fb2",
+      "uid": "MAMP960810P25",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-23T23:59:10.723Z",
+      "timestampLocal": "2026-11-23T23:59:10.723Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.91.12",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAMP960810P25&nombre_proveedor_razon_social=Paula+Martinez+Montes&nombre_representante_legal=Paula+Martinez+Montes&email=themexifoodieblog%40gmail.com",
+      "previousEventHash": "a7c8cb6d764b8732ff0cbddd2a5fe45c30a9274d06022ce7a974ec52a3607374",
+      "documentHash": "fd38fa8ebdb0ccde45fe91b61070aca54b99d076f50a611e7b44ce1c9115ed71",
+      "metadata": {
+        "proveedor": "Paula Martinez Montes",
+        "representante": "Paula Martinez Montes"
+      },
+      "eventHash": "13259f28ae5b71343e101e68ffd7b74e51f36b84e6ce02c93b3b23f9969f8d6e"
+    }
+  ]
 }
