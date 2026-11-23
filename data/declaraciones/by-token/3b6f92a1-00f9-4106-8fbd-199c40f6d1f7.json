@@ -3,7 +3,7 @@
   "declarationId": "daa69988-a73d-4a81-8474-604bd1933aef",
   "token": "3b6f92a1-00f9-4106-8fbd-199c40f6d1f7",
   "createdAt": "2026-11-18T20:50:52.659Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "ANA LORENA BUENTELLO IBARROLA",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "N/A",
     "email": "buentello.ana@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "36be4001274ba30ec2a2c2c620b72c9bac8441088fd6d27bd195d42da2d73df9",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-23T16:08:17.242Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/BUIA990417E61",
+  "signatureMetadata": {
+    "ip": "189.203.99.197",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-11-23T16:08:20.597Z",
+    "signedAtLocal": "2026-11-23T10:08:20.597Z"
+  },
+  "documentHash": "e0a4794d69a69322f2cab0f40db448f0470d00a92502e3d952979b2b5e6b9d89",
   "auditTrail": [
     {
       "eventId": "2b1b9be5-a8ff-4f0a-9beb-fdd0bdccd662",
@@ -66,6 +74,79 @@
         "representante": "N/A"
       },
       "eventHash": "4eae1c33e855f9f55ddb20eddd58c9fc5ca0b62d3170ba341c863db2ffc4e13f"
+    },
+    {
+      "eventId": "e7962b88-82fd-4b04-8b30-bd4923f091a6",
+      "uid": "BUIA990417E61",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-18T20:51:05.522Z",
+      "timestampLocal": "2026-11-18T20:51:05.522Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.201.100.26",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/157.0.8103.37 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4eae1c33e855f9f55ddb20eddd58c9fc5ca0b62d3170ba341c863db2ffc4e13f",
+      "documentHash": "36be4001274ba30ec2a2c2c620b72c9bac8441088fd6d27bd195d42da2d73df9",
+      "eventHash": "7e8d279ef772ed3fdfc8a1891e6a66d9c2c3320ce0b66a8e255a377192fbe834"
+    },
+    {
+      "eventId": "72a8d156-25f8-4425-8677-1dbfe2baed76",
+      "uid": "BUIA990417E61",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-19T20:19:21.755Z",
+      "timestampLocal": "2026-11-19T20:19:21.755Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.201.103.31",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "7e8d279ef772ed3fdfc8a1891e6a66d9c2c3320ce0b66a8e255a377192fbe834",
+      "documentHash": "36be4001274ba30ec2a2c2c620b72c9bac8441088fd6d27bd195d42da2d73df9",
+      "eventHash": "31e88a8ecec7475b1abff9046d88b08398e3e21333545b9d7c996fa2602bd697"
+    },
+    {
+      "eventId": "dc174ef3-1430-41f1-be36-4b331dcec812",
+      "uid": "BUIA990417E61",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-23T16:07:55.095Z",
+      "timestampLocal": "2026-11-23T16:07:55.095Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.99.197",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-CA,en-US;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "31e88a8ecec7475b1abff9046d88b08398e3e21333545b9d7c996fa2602bd697",
+      "documentHash": "36be4001274ba30ec2a2c2c620b72c9bac8441088fd6d27bd195d42da2d73df9",
+      "eventHash": "a187abc6ebe105f9fbe0ea7c6a1e10b722cf9bc8c780500c991a22fff6ec0cc9"
+    },
+    {
+      "eventId": "4ddd8273-54c7-4115-bb37-a35ecde0a22a",
+      "uid": "BUIA990417E61",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-23T16:08:20.597Z",
+      "timestampLocal": "2026-11-23T10:08:20.597Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.203.99.197",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-CA,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a187abc6ebe105f9fbe0ea7c6a1e10b722cf9bc8c780500c991a22fff6ec0cc9",
+      "documentHash": "e0a4794d69a69322f2cab0f40db448f0470d00a92502e3d952979b2b5e6b9d89",
+      "signatureHash": "e24537216b2641be6c5fd9204c9edb6b0d9fb575727437f27cd641b9eebb31f2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-23T10:08:17.242Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "edee7900afc12861090a93061754e7217e8ebdfba3ce2ffdc4bd55917d975b89"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-11-23T16:08:20.951Z"
+  }
 }
