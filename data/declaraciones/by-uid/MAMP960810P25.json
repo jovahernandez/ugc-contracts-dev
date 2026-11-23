@@ -3,7 +3,7 @@
   "declarationId": "108bf30c-57c5-409f-b68f-8c15286e9cd7",
   "token": "401962ee-4e5a-4160-babb-671c4fbdfd90",
   "createdAt": "2026-11-23T23:59:01.010Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Paula Martinez Montes",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Paula Martinez Montes",
     "email": "themexifoodieblog@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "baa23585631004abce45953c197b1e329861a4325b393f6229a81bfc5031519f",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-23T23:59:43.605Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MAMP960810P25",
+  "signatureMetadata": {
+    "ip": "187.189.91.12",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-23T23:59:46.926Z",
+    "signedAtLocal": "2026-11-23T17:59:46.926Z"
+  },
+  "documentHash": "bb335b6ef2e3c9ee081e0cccc1affabf2e2524f4dbf17fefd12a0bdfe72a5695",
   "auditTrail": [
     {
       "eventId": "e0a55a92-9329-4932-a282-9600939e5f17",
@@ -155,6 +163,49 @@
         "representante": "Paula Martinez Montes"
       },
       "eventHash": "fbc03f7762239118b581d551366fe40853a31fe21dc60592b430f331125d1b14"
+    },
+    {
+      "eventId": "00f06cf5-a90f-4399-b3fe-658e37a7ac5f",
+      "uid": "MAMP960810P25",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-23T23:59:18.515Z",
+      "timestampLocal": "2026-11-23T23:59:18.515Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.91.12",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAMP960810P25&nombre_proveedor_razon_social=Paula+Martinez+Montes&nombre_representante_legal=Paula+Martinez+Montes&email=themexifoodieblog%40gmail.com",
+      "previousEventHash": "fbc03f7762239118b581d551366fe40853a31fe21dc60592b430f331125d1b14",
+      "documentHash": "baa23585631004abce45953c197b1e329861a4325b393f6229a81bfc5031519f",
+      "eventHash": "d78be9b568ff472677ffae3481ae2ea3718f5b6cccb3af0c97a9af65cb1f4b71"
+    },
+    {
+      "eventId": "fbcd53c3-ddc8-4fd0-b786-45d65fdc70ad",
+      "uid": "MAMP960810P25",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-23T23:59:46.926Z",
+      "timestampLocal": "2026-11-23T17:59:46.926Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.189.91.12",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/401962ee-4e5a-4160-babb-671c4fbdfd90",
+      "previousEventHash": "d78be9b568ff472677ffae3481ae2ea3718f5b6cccb3af0c97a9af65cb1f4b71",
+      "documentHash": "bb335b6ef2e3c9ee081e0cccc1affabf2e2524f4dbf17fefd12a0bdfe72a5695",
+      "signatureHash": "23b3f8a1f43e5ddf5b51a367c859acc212ae6a43978bdca8c0c325cb3ac0c66e",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-23T17:59:43.605Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "3187ea5e10c159f6c473641d472c6b1ce6fd17fb1782adf51a60a63be866f3a5"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 9,
+    "verifiedAt": "2026-11-23T23:59:47.232Z"
+  }
 }
