@@ -3,7 +3,7 @@
   "declarationId": "1fc7d476-9083-4199-baae-994cd47cc729",
   "token": "d34256d7-b07e-4b77-b6c3-3d05d678f0bd",
   "createdAt": "2026-11-20T19:30:36.241Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "TATIANA ZULUAGA PRODUCCION Y REPRESENTACION SAS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Tatiana Augusta Zuluaga laserna",
     "email": "director.contable@tzl.com.co"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "1e4dad1432932c1048db9e780803556b7782cd126ead540ea5451275a90f66ee",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-24T20:10:12.394Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/900350625",
+  "signatureMetadata": {
+    "ip": "152.203.182.158",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/158.0.8127.35 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-11-24T20:10:18.209Z",
+    "signedAtLocal": "2026-11-24T15:10:18.209Z"
+  },
+  "documentHash": "30f07a8dc5c874be890cd0cfc0bbfa8fb0765ee94683ff65e85dfb159083e074",
   "auditTrail": [
     {
       "eventId": "451b658b-0209-4ce6-b24f-83aad3cf739d",
@@ -177,6 +185,131 @@
         "representante": "Tatiana Augusta Zuluaga laserna"
       },
       "eventHash": "697b99aa9fcaae9a6f70f205721d611aa49cbff835786aad6aeef0243290078d"
+    },
+    {
+      "eventId": "ee815527-8444-491b-acb4-fe8167f2a43a",
+      "uid": "900350625",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-20T19:30:52.416Z",
+      "timestampLocal": "2026-11-20T19:30:52.416Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.203.182.158",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=900350625&nombre_proveedor_razon_social=TATIANA+ZULUAGA+PRODUCCION+Y+REPRESENTACION+SAS+&nombre_representante_legal=Tatiana+Augusta+Zuluaga+laserna+&email=director.contable%40tzl.com.co",
+      "previousEventHash": "697b99aa9fcaae9a6f70f205721d611aa49cbff835786aad6aeef0243290078d",
+      "documentHash": "41ba9972d377383a1527eec87a1b6a4509c0e3b2bbe8411b04c6050bbdb32406",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c9359c51e3d115def90dc37cb67fbf8c1c61a91ddb6d870006ddbd7a8040fb1b"
+    },
+    {
+      "eventId": "6f6ae700-cc53-43c8-b207-812c4295f428",
+      "uid": "900350625",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-20T19:30:52.416Z",
+      "timestampLocal": "2026-11-20T19:30:52.416Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.203.182.158",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=900350625&nombre_proveedor_razon_social=TATIANA+ZULUAGA+PRODUCCION+Y+REPRESENTACION+SAS+&nombre_representante_legal=Tatiana+Augusta+Zuluaga+laserna+&email=director.contable%40tzl.com.co",
+      "previousEventHash": "c9359c51e3d115def90dc37cb67fbf8c1c61a91ddb6d870006ddbd7a8040fb1b",
+      "documentHash": "41ba9972d377383a1527eec87a1b6a4509c0e3b2bbe8411b04c6050bbdb32406",
+      "metadata": {
+        "proveedor": "TATIANA ZULUAGA PRODUCCION Y REPRESENTACION SAS",
+        "representante": "Tatiana Augusta Zuluaga laserna"
+      },
+      "eventHash": "3eba4fdf3de51c735d5ed34ff17f5612b9e4d0c1803ccdbcc880f6aa8bc70e8b"
+    },
+    {
+      "eventId": "ad435598-9289-49b9-b5ee-ae13fa29cc5f",
+      "uid": "900350625",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-20T19:30:54.661Z",
+      "timestampLocal": "2026-11-20T19:30:54.661Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.203.182.158",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=900350625&nombre_proveedor_razon_social=TATIANA+ZULUAGA+PRODUCCION+Y+REPRESENTACION+SAS+&nombre_representante_legal=Tatiana+Augusta+Zuluaga+laserna+&email=director.contable%40tzl.com.co",
+      "previousEventHash": "3eba4fdf3de51c735d5ed34ff17f5612b9e4d0c1803ccdbcc880f6aa8bc70e8b",
+      "documentHash": "41ba9972d377383a1527eec87a1b6a4509c0e3b2bbe8411b04c6050bbdb32406",
+      "eventHash": "ab2a1e57e7c23c72dd6cd1fe0b7ab45743033974a268082a0e8d45961bc66ad7"
+    },
+    {
+      "eventId": "088b10f5-99c0-448c-85b2-35bcc292e803",
+      "uid": "900350625",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-20T19:30:59.863Z",
+      "timestampLocal": "2026-11-20T19:30:59.863Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.203.182.158",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "ab2a1e57e7c23c72dd6cd1fe0b7ab45743033974a268082a0e8d45961bc66ad7",
+      "documentHash": "41ba9972d377383a1527eec87a1b6a4509c0e3b2bbe8411b04c6050bbdb32406",
+      "eventHash": "8127c3b4894d642a425e578dade334b098ffed806748b4acda5f8234b24cc412"
+    },
+    {
+      "eventId": "fe4b05e8-b2e3-442e-81f4-a56016d0c724",
+      "uid": "900350625",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-24T20:07:47.135Z",
+      "timestampLocal": "2026-11-24T20:07:47.135Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.203.182.158",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "8127c3b4894d642a425e578dade334b098ffed806748b4acda5f8234b24cc412",
+      "documentHash": "41ba9972d377383a1527eec87a1b6a4509c0e3b2bbe8411b04c6050bbdb32406",
+      "eventHash": "0ee51346febf255484b5b349503e1a9c4f0156a242a67b7ab086944afc656cce"
+    },
+    {
+      "eventId": "95669bf6-36b5-4976-b613-4fbf9ef39e3b",
+      "uid": "900350625",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-24T20:09:43.266Z",
+      "timestampLocal": "2026-11-24T20:09:43.266Z",
+      "timezone": "UTC+0",
+      "ipAddress": "152.203.182.158",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/158.0.8127.35 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "0ee51346febf255484b5b349503e1a9c4f0156a242a67b7ab086944afc656cce",
+      "documentHash": "41ba9972d377383a1527eec87a1b6a4509c0e3b2bbe8411b04c6050bbdb32406",
+      "eventHash": "21d6f6fe3447918bc2c12de467be1d20f235b18bf8d306b909f8138c1b1bfa24"
+    },
+    {
+      "eventId": "36b0eadc-73c7-448b-96dc-deac679b57c8",
+      "uid": "900350625",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-24T20:10:18.209Z",
+      "timestampLocal": "2026-11-24T15:10:18.209Z",
+      "timezone": "UTC-5",
+      "ipAddress": "152.203.182.158",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/158.0.8127.35 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "21d6f6fe3447918bc2c12de467be1d20f235b18bf8d306b909f8138c1b1bfa24",
+      "documentHash": "30f07a8dc5c874be890cd0cfc0bbfa8fb0765ee94683ff65e85dfb159083e074",
+      "signatureHash": "d2e6f8e32a67a7fc5bf1815b52a64cb4a8dfebd5a305a2fd3be4a9c3def5aeee",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-24T15:10:12.394Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "3666db093220c35fb3d9e0fdbb025e0a6bcc443c4355d196ed84ff1540f69d7b"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 15,
+    "verifiedAt": "2026-11-24T20:10:18.418Z"
+  }
 }
