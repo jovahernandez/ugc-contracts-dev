@@ -3,8 +3,18 @@
   "declarationId": "4a8fdcc9-a3d8-4e9c-b2ec-9df9ec12fc0c",
   "token": "c2bde541-9932-4e3f-bf84-93eea939ec45",
   "createdAt": "2026-11-24T18:43:09.610Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MEDIOS DEL CARIBE SA DE CV",
+    "nombre_representante_legal": "ISRAEL MIJARES ARROYO",
+    "email": "pedro@lajornadamaya.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MEDIOS DEL CARIBE SA DE CV",
+    "nombre_representante_legal": "ISRAEL MIJARES ARROYO",
+    "email": "pedro@lajornadamaya.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MEDIOS DEL CARIBE SA DE CV",
     "nombre_representante_legal": "ISRAEL MIJARES ARROYO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "9a3b05c0f1442fc6625d32d2e86ce01a503d9b3e251dcf8776e893625e2aff3a",
+  "auditTrail": [
+    {
+      "eventId": "a6de0101-6d2c-49cb-b35f-700cf60f2519",
+      "uid": "MCA140828A9A",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-24T18:43:20.453Z",
+      "timestampLocal": "2026-11-24T18:43:20.453Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.107.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MCA140828A9A&nombre_proveedor_razon_social=MEDIOS+DEL+CARIBE+SA+DE+CV&nombre_representante_legal=ISRAEL+MIJARES+ARROYO&email=pedro%40lajornadamaya.mx",
+      "previousEventHash": null,
+      "documentHash": "9a3b05c0f1442fc6625d32d2e86ce01a503d9b3e251dcf8776e893625e2aff3a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e035065081587a39745ec3ba833971bd3dd3d6c4da241c632da96a242f93b601"
+    },
+    {
+      "eventId": "df7b8847-cdf4-41d7-8869-5712060beb3c",
+      "uid": "MCA140828A9A",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-24T18:43:20.453Z",
+      "timestampLocal": "2026-11-24T18:43:20.453Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.107.109",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MCA140828A9A&nombre_proveedor_razon_social=MEDIOS+DEL+CARIBE+SA+DE+CV&nombre_representante_legal=ISRAEL+MIJARES+ARROYO&email=pedro%40lajornadamaya.mx",
+      "previousEventHash": "e035065081587a39745ec3ba833971bd3dd3d6c4da241c632da96a242f93b601",
+      "documentHash": "9a3b05c0f1442fc6625d32d2e86ce01a503d9b3e251dcf8776e893625e2aff3a",
+      "metadata": {
+        "proveedor": "MEDIOS DEL CARIBE SA DE CV",
+        "representante": "ISRAEL MIJARES ARROYO"
+      },
+      "eventHash": "cb29eaebeaecd163841d5068fcdf24ddbc32cb94125c1551a26e29bc4992d873"
+    }
+  ]
 }
