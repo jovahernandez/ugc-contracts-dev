@@ -3,8 +3,18 @@
   "declarationId": "a7860d16-6018-4435-898d-307ef5eab6df",
   "token": "aa0d9fdd-fc03-4543-89a4-7271a3b4b93d",
   "createdAt": "2026-11-24T21:57:38.132Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "LAS BERMANITA5",
+    "nombre_representante_legal": "Karla Paola Berman Martin",
+    "email": "nurit@karlaberman.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "LAS BERMANITA5",
+    "nombre_representante_legal": "Karla Paola Berman Martin",
+    "email": "nurit@karlaberman.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "LAS BERMANITA5",
     "nombre_representante_legal": "Karla Paola Berman Martin",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "1811a617c6b3fc6276c252f519afba7da5a43784cf6b7f0581a317b732a0d38d",
+  "auditTrail": [
+    {
+      "eventId": "a995c85e-7d4c-4467-aa90-1900e4eb43d2",
+      "uid": "BER241219R37",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-24T21:57:44.151Z",
+      "timestampLocal": "2026-11-24T21:57:44.151Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.93.90",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BER241219R37&nombre_proveedor_razon_social=LAS+BERMANITA5&nombre_representante_legal=Karla+Paola+Berman+Martin+&email=nurit%40karlaberman.com",
+      "previousEventHash": null,
+      "documentHash": "1811a617c6b3fc6276c252f519afba7da5a43784cf6b7f0581a317b732a0d38d",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "527dfbfdd8b3722637d8a30144d7c8b78c14d5b30c5bb498a586beed99a45ff5"
+    },
+    {
+      "eventId": "d29a8d46-97fd-4267-9008-4f6581660657",
+      "uid": "BER241219R37",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-24T21:57:44.151Z",
+      "timestampLocal": "2026-11-24T21:57:44.151Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.189.93.90",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=BER241219R37&nombre_proveedor_razon_social=LAS+BERMANITA5&nombre_representante_legal=Karla+Paola+Berman+Martin+&email=nurit%40karlaberman.com",
+      "previousEventHash": "527dfbfdd8b3722637d8a30144d7c8b78c14d5b30c5bb498a586beed99a45ff5",
+      "documentHash": "1811a617c6b3fc6276c252f519afba7da5a43784cf6b7f0581a317b732a0d38d",
+      "metadata": {
+        "proveedor": "LAS BERMANITA5",
+        "representante": "Karla Paola Berman Martin"
+      },
+      "eventHash": "d6310a55e0aaed93852593106f6ae8e9561a03384e2f4e265b4eee13ecdd5bd3"
+    }
+  ]
 }
