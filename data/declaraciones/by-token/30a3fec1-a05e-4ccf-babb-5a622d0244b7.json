@@ -3,8 +3,18 @@
   "declarationId": "ec0ef410-fd09-4220-b5ee-2f448df7224a",
   "token": "30a3fec1-a05e-4ccf-babb-5a622d0244b7",
   "createdAt": "2026-11-24T16:02:34.881Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Jimena Guadalupe Álvarez torales",
+    "nombre_representante_legal": "Jimena Álvarez",
+    "email": "thewhipmx@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Jimena Guadalupe Álvarez torales",
+    "nombre_representante_legal": "Jimena Álvarez",
+    "email": "thewhipmx@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Jimena Guadalupe Álvarez torales",
     "nombre_representante_legal": "Jimena Álvarez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "97fecca480f47f900abf60615decde06356936df8d8d8c1264945be223f0fb9a",
+  "auditTrail": [
+    {
+      "eventId": "a4c3cd3d-5227-403a-9421-8cd8657e3731",
+      "uid": "AATJ890513T99",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-24T16:03:44.099Z",
+      "timestampLocal": "2026-11-24T16:03:44.099Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.173.130.158",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AATJ890513T99&nombre_proveedor_razon_social=Jimena+Guadalupe+%C3%81lvarez+torales+&nombre_representante_legal=Jimena+%C3%81lvarez+&email=thewhipmx%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "97fecca480f47f900abf60615decde06356936df8d8d8c1264945be223f0fb9a",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "c9948f1b0cb93565e9ea385106d7815c4543c0ba27f56c035c2ef2f9686e4fa4"
+    },
+    {
+      "eventId": "d596e098-53b8-4926-8a8f-2f5ef5f3863a",
+      "uid": "AATJ890513T99",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-24T16:03:44.099Z",
+      "timestampLocal": "2026-11-24T16:03:44.099Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.173.130.158",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AATJ890513T99&nombre_proveedor_razon_social=Jimena+Guadalupe+%C3%81lvarez+torales+&nombre_representante_legal=Jimena+%C3%81lvarez+&email=thewhipmx%40gmail.com",
+      "previousEventHash": "c9948f1b0cb93565e9ea385106d7815c4543c0ba27f56c035c2ef2f9686e4fa4",
+      "documentHash": "97fecca480f47f900abf60615decde06356936df8d8d8c1264945be223f0fb9a",
+      "metadata": {
+        "proveedor": "Jimena Guadalupe Álvarez torales",
+        "representante": "Jimena Álvarez"
+      },
+      "eventHash": "72144fd22560f49a2d5c3825eb8be8013744ab893fd84cd1504967c3b8c7b8ad"
+    }
+  ]
 }
