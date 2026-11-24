@@ -3,8 +3,18 @@
   "declarationId": "a2f5e19f-63b5-4014-99e8-93b5af6477da",
   "token": "32f99140-4b81-490b-8b2f-7ae60c5df325",
   "createdAt": "2026-11-24T19:05:32.586Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "DESPACHO DURANGO",
+    "nombre_representante_legal": "MARTIN CASAS ALATRISTE PARLANGE",
+    "email": "IRENE@ANFITEATRO.MANAGEMENT"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "DESPACHO DURANGO",
+    "nombre_representante_legal": "MARTIN CASAS ALATRISTE PARLANGE",
+    "email": "IRENE@ANFITEATRO.MANAGEMENT"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "DESPACHO DURANGO",
     "nombre_representante_legal": "MARTIN CASAS ALATRISTE PARLANGE",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "b38216f5b31f9d594b2f9c6a7fa34ebf5adf81c713823b23079170a532adabf3",
+  "auditTrail": [
+    {
+      "eventId": "0aedccb9-9ee6-494f-964b-c3ef1b422738",
+      "uid": "DDU160203JY0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-24T19:05:39.170Z",
+      "timestampLocal": "2026-11-24T19:05:39.170Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.185.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DDU160203JY0&nombre_proveedor_razon_social=DESPACHO+DURANGO&nombre_representante_legal=MARTIN+CASAS+ALATRISTE+PARLANGE&email=IRENE%40ANFITEATRO.MANAGEMENT",
+      "previousEventHash": null,
+      "documentHash": "b38216f5b31f9d594b2f9c6a7fa34ebf5adf81c713823b23079170a532adabf3",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "d824c5725e503592f53f2d7251c7772f59e50411618fb05ff6926d403ab38096"
+    },
+    {
+      "eventId": "fc623ee1-5357-4830-bbca-7bcba19f87f8",
+      "uid": "DDU160203JY0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-24T19:05:39.171Z",
+      "timestampLocal": "2026-11-24T19:05:39.171Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.185.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DDU160203JY0&nombre_proveedor_razon_social=DESPACHO+DURANGO&nombre_representante_legal=MARTIN+CASAS+ALATRISTE+PARLANGE&email=IRENE%40ANFITEATRO.MANAGEMENT",
+      "previousEventHash": "d824c5725e503592f53f2d7251c7772f59e50411618fb05ff6926d403ab38096",
+      "documentHash": "b38216f5b31f9d594b2f9c6a7fa34ebf5adf81c713823b23079170a532adabf3",
+      "metadata": {
+        "proveedor": "DESPACHO DURANGO",
+        "representante": "MARTIN CASAS ALATRISTE PARLANGE"
+      },
+      "eventHash": "273d63d8911a549871c389a0ac0221ce578f6ca4825645a62584e27d953c295f"
+    }
+  ]
 }
