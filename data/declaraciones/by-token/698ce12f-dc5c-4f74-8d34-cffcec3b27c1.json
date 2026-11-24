@@ -3,8 +3,18 @@
   "declarationId": "99fac5a2-460f-4e3f-85b6-3c26eef50a73",
   "token": "698ce12f-dc5c-4f74-8d34-cffcec3b27c1",
   "createdAt": "2026-11-24T02:32:54.081Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "AGURA INTELIGENCIA DE NEGOCIOS",
+    "nombre_representante_legal": "Ricardo Gonzalo Alcalde Tellez",
+    "email": "napkingmx@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "AGURA INTELIGENCIA DE NEGOCIOS",
+    "nombre_representante_legal": "Ricardo Gonzalo Alcalde Tellez",
+    "email": "napkingmx@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "AGURA INTELIGENCIA DE NEGOCIOS",
     "nombre_representante_legal": "Ricardo Gonzalo Alcalde Tellez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "023dc9e9d2d35a3c28d3bdda17926a1a2f7e256dd4b6ad78ae7d2c8546b041e2",
+  "auditTrail": [
+    {
+      "eventId": "7f477f3c-b12b-478c-84e1-c6f29df36831",
+      "uid": "AIN200124TJ3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-24T02:33:03.668Z",
+      "timestampLocal": "2026-11-24T02:33:03.668Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.90.29",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "023dc9e9d2d35a3c28d3bdda17926a1a2f7e256dd4b6ad78ae7d2c8546b041e2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a57ee217bc7d224be03ebabb39726d22b277c283b5bdb1f26f152604b6265da3"
+    },
+    {
+      "eventId": "9db1a484-eb02-43e7-9ce8-5663dabb2333",
+      "uid": "AIN200124TJ3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-24T02:33:03.668Z",
+      "timestampLocal": "2026-11-24T02:33:03.668Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.90.29",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a57ee217bc7d224be03ebabb39726d22b277c283b5bdb1f26f152604b6265da3",
+      "documentHash": "023dc9e9d2d35a3c28d3bdda17926a1a2f7e256dd4b6ad78ae7d2c8546b041e2",
+      "metadata": {
+        "proveedor": "AGURA INTELIGENCIA DE NEGOCIOS",
+        "representante": "Ricardo Gonzalo Alcalde Tellez"
+      },
+      "eventHash": "c497245f755478e16a3251a026d565eefbb38e393511c0d60790c3ee87bfacde"
+    }
+  ]
 }
