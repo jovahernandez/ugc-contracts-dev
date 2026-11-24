@@ -3,8 +3,18 @@
   "declarationId": "a9b882cd-d60c-4a34-bf6a-338af397d7c5",
   "token": "b0f178df-ce5b-42ec-8deb-ecf45412eb21",
   "createdAt": "2026-11-24T22:20:39.174Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "SANTIE ASESORES SA DE CV",
+    "nombre_representante_legal": "ERIKA MENDIETA SANTIAGO",
+    "email": "coss@3dprintlabshop.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "SANTIE ASESORES SA DE CV",
+    "nombre_representante_legal": "ERIKA MENDIETA SANTIAGO",
+    "email": "coss@3dprintlabshop.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "SANTIE ASESORES SA DE CV",
     "nombre_representante_legal": "ERIKA MENDIETA SANTIAGO",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "590b69f46c0e9e73351e2e54822dbb57d7fbc3172e0087b3d9f4d10d328957fa",
+  "auditTrail": [
+    {
+      "eventId": "d339985e-a8d0-46d6-8d5d-395d7c5c50b7",
+      "uid": "SAS2311279H3",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-24T22:20:46.485Z",
+      "timestampLocal": "2026-11-24T22:20:46.485Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.193.45",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAS2311279H3&nombre_proveedor_razon_social=SANTIE+ASESORES+SA+DE+CV&nombre_representante_legal=ERIKA+MENDIETA+SANTIAGO+&email=coss%403dprintlabshop.com",
+      "previousEventHash": null,
+      "documentHash": "590b69f46c0e9e73351e2e54822dbb57d7fbc3172e0087b3d9f4d10d328957fa",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "1e0d0f26e483d8aef944c8bcca198db8c598e9baebfe0afe19850281e4df3d02"
+    },
+    {
+      "eventId": "3303945d-e0d2-497a-851a-db3616dde4d0",
+      "uid": "SAS2311279H3",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-24T22:20:46.485Z",
+      "timestampLocal": "2026-11-24T22:20:46.485Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.203.193.45",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SAS2311279H3&nombre_proveedor_razon_social=SANTIE+ASESORES+SA+DE+CV&nombre_representante_legal=ERIKA+MENDIETA+SANTIAGO+&email=coss%403dprintlabshop.com",
+      "previousEventHash": "1e0d0f26e483d8aef944c8bcca198db8c598e9baebfe0afe19850281e4df3d02",
+      "documentHash": "590b69f46c0e9e73351e2e54822dbb57d7fbc3172e0087b3d9f4d10d328957fa",
+      "metadata": {
+        "proveedor": "SANTIE ASESORES SA DE CV",
+        "representante": "ERIKA MENDIETA SANTIAGO"
+      },
+      "eventHash": "1816f2cd898b91f6e795fc24f4de8870912b7884df0a5dfc2efe82bff7e7d0dd"
+    }
+  ]
 }
