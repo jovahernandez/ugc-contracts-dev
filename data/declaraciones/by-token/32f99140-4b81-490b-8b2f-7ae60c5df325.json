@@ -3,7 +3,7 @@
   "declarationId": "a2f5e19f-63b5-4014-99e8-93b5af6477da",
   "token": "32f99140-4b81-490b-8b2f-7ae60c5df325",
   "createdAt": "2026-11-24T19:05:32.586Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "DESPACHO DURANGO",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "MARTIN CASAS ALATRISTE PARLANGE",
     "email": "IRENE@ANFITEATRO.MANAGEMENT"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "b38216f5b31f9d594b2f9c6a7fa34ebf5adf81c713823b23079170a532adabf3",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-24T19:06:13.042Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/DDU160203JY0",
+  "signatureMetadata": {
+    "ip": "187.190.185.146",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-24T19:06:16.513Z",
+    "signedAtLocal": "2026-11-24T13:06:16.513Z"
+  },
+  "documentHash": "e97c2c839f23d782d6d7cdb0c705d5793bbc4ee8b80b586af319a1229e6c011f",
   "auditTrail": [
     {
       "eventId": "0aedccb9-9ee6-494f-964b-c3ef1b422738",
@@ -66,6 +74,64 @@
         "representante": "MARTIN CASAS ALATRISTE PARLANGE"
       },
       "eventHash": "273d63d8911a549871c389a0ac0221ce578f6ca4825645a62584e27d953c295f"
+    },
+    {
+      "eventId": "986fe4c6-7472-4160-83af-dab4a83e0996",
+      "uid": "DDU160203JY0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-24T19:05:42.740Z",
+      "timestampLocal": "2026-11-24T19:05:42.740Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.185.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=DDU160203JY0&nombre_proveedor_razon_social=DESPACHO+DURANGO&nombre_representante_legal=MARTIN+CASAS+ALATRISTE+PARLANGE&email=IRENE%40ANFITEATRO.MANAGEMENT",
+      "previousEventHash": "273d63d8911a549871c389a0ac0221ce578f6ca4825645a62584e27d953c295f",
+      "documentHash": "b38216f5b31f9d594b2f9c6a7fa34ebf5adf81c713823b23079170a532adabf3",
+      "eventHash": "04d58c2663a3a07979518e4e63c9ed89bf32940d0a9fc842c07747d3d4f0374c"
+    },
+    {
+      "eventId": "c30a1557-ed4c-470d-8a9a-83bf6d711554",
+      "uid": "DDU160203JY0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-24T19:05:52.879Z",
+      "timestampLocal": "2026-11-24T19:05:52.879Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.185.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "04d58c2663a3a07979518e4e63c9ed89bf32940d0a9fc842c07747d3d4f0374c",
+      "documentHash": "b38216f5b31f9d594b2f9c6a7fa34ebf5adf81c713823b23079170a532adabf3",
+      "eventHash": "6770beb33f323c6d2dae80a85531d03ea99e336a16f84ba2e330d8dc975756c8"
+    },
+    {
+      "eventId": "4a48c602-96d8-4061-92b4-ab7935f5915d",
+      "uid": "DDU160203JY0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-24T19:06:16.513Z",
+      "timestampLocal": "2026-11-24T13:06:16.513Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.185.146",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-GB,en-US;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/32f99140-4b81-490b-8b2f-7ae60c5df325",
+      "previousEventHash": "6770beb33f323c6d2dae80a85531d03ea99e336a16f84ba2e330d8dc975756c8",
+      "documentHash": "e97c2c839f23d782d6d7cdb0c705d5793bbc4ee8b80b586af319a1229e6c011f",
+      "signatureHash": "acffe1e401c7e8729b3aa8f2799a2391ec8eb38c334bf4103cb7e97128b3a9d2",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-24T13:06:13.042Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "806a7bb22698f3d1087e162f64e3deb7f5c26610ffa55e905903f7d926403fc1"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-11-24T19:06:16.844Z"
+  }
 }
