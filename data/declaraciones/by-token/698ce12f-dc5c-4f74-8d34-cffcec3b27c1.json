@@ -3,7 +3,7 @@
   "declarationId": "99fac5a2-460f-4e3f-85b6-3c26eef50a73",
   "token": "698ce12f-dc5c-4f74-8d34-cffcec3b27c1",
   "createdAt": "2026-11-24T02:32:54.081Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "AGURA INTELIGENCIA DE NEGOCIOS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Ricardo Gonzalo Alcalde Tellez",
     "email": "napkingmx@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "023dc9e9d2d35a3c28d3bdda17926a1a2f7e256dd4b6ad78ae7d2c8546b041e2",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-24T02:35:56.929Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AIN200124TJ3",
+  "signatureMetadata": {
+    "ip": "201.137.90.29",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+    "signedAtUtc": "2026-11-24T02:36:00.292Z",
+    "signedAtLocal": "2026-11-23T20:36:00.292Z"
+  },
+  "documentHash": "7ad4b54116a636cc2cee8067ab2a901a734bcac6c9f061655672fad6300468b5",
   "auditTrail": [
     {
       "eventId": "7f477f3c-b12b-478c-84e1-c6f29df36831",
@@ -66,6 +74,49 @@
         "representante": "Ricardo Gonzalo Alcalde Tellez"
       },
       "eventHash": "c497245f755478e16a3251a026d565eefbb38e393511c0d60790c3ee87bfacde"
+    },
+    {
+      "eventId": "5643ab77-efb0-4a9b-91d7-648772b2ac2d",
+      "uid": "AIN200124TJ3",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-24T02:33:06.765Z",
+      "timestampLocal": "2026-11-24T02:33:06.765Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.137.90.29",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "c497245f755478e16a3251a026d565eefbb38e393511c0d60790c3ee87bfacde",
+      "documentHash": "023dc9e9d2d35a3c28d3bdda17926a1a2f7e256dd4b6ad78ae7d2c8546b041e2",
+      "eventHash": "f54681aef4793aadea791263504ed80017b65907dc7c1696eecf956048b61969"
+    },
+    {
+      "eventId": "b8f19b74-38a4-4a79-8a85-ae72b787ea6c",
+      "uid": "AIN200124TJ3",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-24T02:36:00.292Z",
+      "timestampLocal": "2026-11-23T20:36:00.292Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.137.90.29",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "f54681aef4793aadea791263504ed80017b65907dc7c1696eecf956048b61969",
+      "documentHash": "7ad4b54116a636cc2cee8067ab2a901a734bcac6c9f061655672fad6300468b5",
+      "signatureHash": "db147940a49f15290d587237a324706275f85759f93cb76f77ecf3b109dad37b",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-23T20:35:56.929Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "d447489d4b4740b33f0b49ad36d01e75f2f5fd3f6ad83113536c62c05fe94892"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-24T02:36:00.477Z"
+  }
 }
