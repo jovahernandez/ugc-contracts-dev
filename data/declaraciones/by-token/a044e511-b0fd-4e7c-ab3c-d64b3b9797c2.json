@@ -3,8 +3,18 @@
   "declarationId": "fef7c1c1-27db-411b-86bb-f4cae1bb87b7",
   "token": "a044e511-b0fd-4e7c-ab3c-d64b3b9797c2",
   "createdAt": "2026-11-25T14:39:23.153Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "57.614.652 Bruno Evangelista Moreira Mendes",
+    "nombre_representante_legal": "Bruno Evangelista Moreira Mendes",
+    "email": "brunoevm@hotmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "57.614.652 Bruno Evangelista Moreira Mendes",
+    "nombre_representante_legal": "Bruno Evangelista Moreira Mendes",
+    "email": "brunoevm@hotmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "57.614.652 Bruno Evangelista Moreira Mendes",
     "nombre_representante_legal": "Bruno Evangelista Moreira Mendes",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "56293ce48f3682af34ced27225975cd339744beab465f227303da36f5c8a5cb6",
+  "auditTrail": [
+    {
+      "eventId": "d4be29d4-ca1d-46bf-82d0-6aa44a896f83",
+      "uid": "57.614.652/0001-33",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-25T14:39:34.806Z",
+      "timestampLocal": "2026-11-25T14:39:34.806Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.187.170.172",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 OPR/139.0.0.0 (Edition std-2)",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=57.614.652%2F0001-33&nombre_proveedor_razon_social=57.614.652+Bruno+Evangelista+Moreira+Mendes&nombre_representante_legal=Bruno+Evangelista+Moreira+Mendes&email=brunoevm%40hotmail.com",
+      "previousEventHash": null,
+      "documentHash": "56293ce48f3682af34ced27225975cd339744beab465f227303da36f5c8a5cb6",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "1032c28954f83221779c7fb2280b42ca9eb70ab4873bf2171657f4126fd17f58"
+    },
+    {
+      "eventId": "14fc383d-e9fd-4f44-a821-be51f0a2658f",
+      "uid": "57.614.652/0001-33",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-25T14:39:34.806Z",
+      "timestampLocal": "2026-11-25T14:39:34.806Z",
+      "timezone": "UTC+0",
+      "ipAddress": "45.187.170.172",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 OPR/139.0.0.0 (Edition std-2)",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=57.614.652%2F0001-33&nombre_proveedor_razon_social=57.614.652+Bruno+Evangelista+Moreira+Mendes&nombre_representante_legal=Bruno+Evangelista+Moreira+Mendes&email=brunoevm%40hotmail.com",
+      "previousEventHash": "1032c28954f83221779c7fb2280b42ca9eb70ab4873bf2171657f4126fd17f58",
+      "documentHash": "56293ce48f3682af34ced27225975cd339744beab465f227303da36f5c8a5cb6",
+      "metadata": {
+        "proveedor": "57.614.652 Bruno Evangelista Moreira Mendes",
+        "representante": "Bruno Evangelista Moreira Mendes"
+      },
+      "eventHash": "64b126ab7bdd58ae0b8148b7dba5c870e3aa3b78991d5b88e51f08e2f5ef4ebd"
+    }
+  ]
 }
