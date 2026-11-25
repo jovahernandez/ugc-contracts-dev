@@ -3,7 +3,7 @@
   "declarationId": "8c0dd90c-b877-4af7-ba31-d1787bb58a36",
   "token": "77e0f3a9-25fd-439c-a36c-e2b119a1f2aa",
   "createdAt": "2026-11-25T16:53:21.568Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "IMPRIME TUS IDEAS",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Juan Pablo Monroy Siller",
     "email": "jpsiller@imprimetusideas.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "0fa281d24cda17e866e6b5c4ef1b886a4e53963635f170c2f03fa54e5d4ad451",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-25T16:54:03.303Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/ITI020425G73",
+  "signatureMetadata": {
+    "ip": "189.228.74.234",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-25T16:54:08.846Z",
+    "signedAtLocal": "2026-11-25T10:54:08.846Z"
+  },
+  "documentHash": "8994e5ad1e4781a15d64c29d82b6f2eae8c03cad55cd282b0170a3334b34d5b8",
   "auditTrail": [
     {
       "eventId": "d4bb69da-a9e6-4428-b51f-377a97999828",
@@ -66,6 +74,49 @@
         "representante": "Juan Pablo Monroy Siller"
       },
       "eventHash": "75a1daa53e354ad8ba10ea2861221dc93b754fd9fc4db14e286c1a09dfe9ba25"
+    },
+    {
+      "eventId": "3c9d9a1b-802a-40e1-b0c6-cddfefc1cf12",
+      "uid": "ITI020425G73",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-25T16:53:32.981Z",
+      "timestampLocal": "2026-11-25T16:53:32.981Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.228.74.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ITI020425G73&nombre_proveedor_razon_social=IMPRIME+TUS+IDEAS&nombre_representante_legal=Juan+Pablo+Monroy+Siller&email=jpsiller%40imprimetusideas.com",
+      "previousEventHash": "75a1daa53e354ad8ba10ea2861221dc93b754fd9fc4db14e286c1a09dfe9ba25",
+      "documentHash": "0fa281d24cda17e866e6b5c4ef1b886a4e53963635f170c2f03fa54e5d4ad451",
+      "eventHash": "81390dddc44c0c848347c52f82a875a1b7f56de9061ca24bb1239782e0b758f1"
+    },
+    {
+      "eventId": "236e04f9-9490-484a-ae9e-fe52baf28359",
+      "uid": "ITI020425G73",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-25T16:54:08.846Z",
+      "timestampLocal": "2026-11-25T10:54:08.846Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.228.74.234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/77e0f3a9-25fd-439c-a36c-e2b119a1f2aa",
+      "previousEventHash": "81390dddc44c0c848347c52f82a875a1b7f56de9061ca24bb1239782e0b758f1",
+      "documentHash": "8994e5ad1e4781a15d64c29d82b6f2eae8c03cad55cd282b0170a3334b34d5b8",
+      "signatureHash": "7ac9341a43befe20f5535a8b4d59372cc5c75aac161cfd85f2c6ee3437fb7749",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-25T10:54:03.303Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "f2b4fd92a929f35191c112e87037271ef3b37c0075aee10163aba1b0879811f8"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-25T16:54:09.138Z"
+  }
 }
