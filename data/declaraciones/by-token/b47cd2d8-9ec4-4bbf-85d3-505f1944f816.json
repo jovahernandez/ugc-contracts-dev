@@ -3,8 +3,18 @@
   "declarationId": "9f161562-1ea7-44bc-965e-b1d8a0f56595",
   "token": "b47cd2d8-9ec4-4bbf-85d3-505f1944f816",
   "createdAt": "2026-11-25T23:36:41.695Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Actitud Wasausky",
+    "nombre_representante_legal": "Erick García Ceballos",
+    "email": "erickgarciaceballos@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Actitud Wasausky",
+    "nombre_representante_legal": "Erick García Ceballos",
+    "email": "erickgarciaceballos@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Actitud Wasausky",
     "nombre_representante_legal": "Erick García Ceballos",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "69d7d6b9e8b167edbb47da80292f0750ae5cb3b2ad2fa6e1f479d2f286fdccd0",
+  "auditTrail": [
+    {
+      "eventId": "03ebc771-7159-4c86-87d2-7101ab02a9b1",
+      "uid": "AWA140903DRA",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-25T23:36:48.811Z",
+      "timestampLocal": "2026-11-25T23:36:48.811Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.162.47.117",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AWA140903DRA&nombre_proveedor_razon_social=Actitud+Wasausky&nombre_representante_legal=Erick+Garc%C3%ADa+Ceballos&email=erickgarciaceballos%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "69d7d6b9e8b167edbb47da80292f0750ae5cb3b2ad2fa6e1f479d2f286fdccd0",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "908c94603bc1fb4f60028f80068856a11e0f53a432d290db08dd94453c88afa7"
+    },
+    {
+      "eventId": "149a2045-91bb-4cc6-b055-827886d0aee2",
+      "uid": "AWA140903DRA",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-25T23:36:48.812Z",
+      "timestampLocal": "2026-11-25T23:36:48.812Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.162.47.117",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AWA140903DRA&nombre_proveedor_razon_social=Actitud+Wasausky&nombre_representante_legal=Erick+Garc%C3%ADa+Ceballos&email=erickgarciaceballos%40gmail.com",
+      "previousEventHash": "908c94603bc1fb4f60028f80068856a11e0f53a432d290db08dd94453c88afa7",
+      "documentHash": "69d7d6b9e8b167edbb47da80292f0750ae5cb3b2ad2fa6e1f479d2f286fdccd0",
+      "metadata": {
+        "proveedor": "Actitud Wasausky",
+        "representante": "Erick García Ceballos"
+      },
+      "eventHash": "fbc0150870b90b2e1de2a6f335e514b966878fe02e1fa591d1c601c2bc892c01"
+    }
+  ]
 }
