@@ -3,7 +3,7 @@
   "declarationId": "b06698a6-82f0-4ebd-b71e-e498c595822b",
   "token": "f393d888-f31e-4a55-9e69-7d83e2967805",
   "createdAt": "2026-11-25T23:56:16.391Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MONICA SOFIA NAVARRO FERNANDEZ",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Mónica Sofía Navarro Fernández",
     "email": "sofianavfer97@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "d815347affe85a3ede1b968282169a4c1fcb90fdd81840e059a82f5c2dcd673a",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-25T23:56:48.738Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/NAFM9706124Z4",
+  "signatureMetadata": {
+    "ip": "201.110.212.215",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0",
+    "signedAtUtc": "2026-11-25T23:56:52.717Z",
+    "signedAtLocal": "2026-11-25T17:56:52.717Z"
+  },
+  "documentHash": "a846ee0fe72a8abe30e47c9de7db5942cce720d95bd7c7750ce078804859a77f",
   "auditTrail": [
     {
       "eventId": "69213d5b-c912-457d-89b8-1da0ea44ed2f",
@@ -66,6 +74,49 @@
         "representante": "Mónica Sofía Navarro Fernández"
       },
       "eventHash": "e0e148535af60268b9b15a1335a6b33b6b32046e192795f2fc8da7acc91a731e"
+    },
+    {
+      "eventId": "60ab328a-5367-4899-96f1-e0141075fa9b",
+      "uid": "NAFM9706124Z4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-25T23:56:25.985Z",
+      "timestampLocal": "2026-11-25T23:56:25.985Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.110.212.215",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=NAFM9706124Z4&nombre_proveedor_razon_social=MONICA+SOFIA+NAVARRO+FERNANDEZ&nombre_representante_legal=M%C3%B3nica+Sof%C3%ADa+Navarro+Fern%C3%A1ndez&email=sofianavfer97%40gmail.com",
+      "previousEventHash": "e0e148535af60268b9b15a1335a6b33b6b32046e192795f2fc8da7acc91a731e",
+      "documentHash": "d815347affe85a3ede1b968282169a4c1fcb90fdd81840e059a82f5c2dcd673a",
+      "eventHash": "0479b0a64b5c12cf4e97f217cc09c9a3fe2e925618c8eecd121c15ef398577bd"
+    },
+    {
+      "eventId": "b7f1bad4-d6f1-47d9-bb6a-35f551d3c792",
+      "uid": "NAFM9706124Z4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-25T23:56:52.717Z",
+      "timestampLocal": "2026-11-25T17:56:52.717Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.110.212.215",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0",
+      "acceptLanguage": "es,es-ES;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/f393d888-f31e-4a55-9e69-7d83e2967805",
+      "previousEventHash": "0479b0a64b5c12cf4e97f217cc09c9a3fe2e925618c8eecd121c15ef398577bd",
+      "documentHash": "a846ee0fe72a8abe30e47c9de7db5942cce720d95bd7c7750ce078804859a77f",
+      "signatureHash": "4fb89b08fddaf997dff5711e998b7b10260bd1e3623f2f0d5f93e192ba7ebe57",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-25T17:56:48.738Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "ba64254b6f51f5ca36c0eee6175bcdb6ed31742b5e470e4ec242966e341d364d"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-25T23:56:52.928Z"
+  }
 }
