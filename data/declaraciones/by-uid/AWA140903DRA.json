@@ -3,7 +3,7 @@
   "declarationId": "9f161562-1ea7-44bc-965e-b1d8a0f56595",
   "token": "b47cd2d8-9ec4-4bbf-85d3-505f1944f816",
   "createdAt": "2026-11-25T23:36:41.695Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Actitud Wasausky",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Erick García Ceballos",
     "email": "erickgarciaceballos@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "69d7d6b9e8b167edbb47da80292f0750ae5cb3b2ad2fa6e1f479d2f286fdccd0",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-25T23:37:33.553Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/AWA140903DRA",
+  "signatureMetadata": {
+    "ip": "189.162.47.117",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-25T23:37:36.942Z",
+    "signedAtLocal": "2026-11-25T17:37:36.942Z"
+  },
+  "documentHash": "5a038c9f67790608994d60edae649b6f60697ccfd426c8afe022d72f7fcf44c7",
   "auditTrail": [
     {
       "eventId": "03ebc771-7159-4c86-87d2-7101ab02a9b1",
@@ -66,6 +74,49 @@
         "representante": "Erick García Ceballos"
       },
       "eventHash": "fbc0150870b90b2e1de2a6f335e514b966878fe02e1fa591d1c601c2bc892c01"
+    },
+    {
+      "eventId": "4d29b607-9ece-4767-83fa-b6f956a0c01f",
+      "uid": "AWA140903DRA",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-25T23:36:51.900Z",
+      "timestampLocal": "2026-11-25T23:36:51.900Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.162.47.117",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AWA140903DRA&nombre_proveedor_razon_social=Actitud+Wasausky&nombre_representante_legal=Erick+Garc%C3%ADa+Ceballos&email=erickgarciaceballos%40gmail.com",
+      "previousEventHash": "fbc0150870b90b2e1de2a6f335e514b966878fe02e1fa591d1c601c2bc892c01",
+      "documentHash": "69d7d6b9e8b167edbb47da80292f0750ae5cb3b2ad2fa6e1f479d2f286fdccd0",
+      "eventHash": "069c7453bcca14e2955c266decbb04a0c9aaaaa923c23283b45a0388ecdbad8d"
+    },
+    {
+      "eventId": "dd501fc5-9aa8-44f2-90cc-a0cd312d8f4b",
+      "uid": "AWA140903DRA",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-25T23:37:36.943Z",
+      "timestampLocal": "2026-11-25T17:37:36.943Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.162.47.117",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/b47cd2d8-9ec4-4bbf-85d3-505f1944f816",
+      "previousEventHash": "069c7453bcca14e2955c266decbb04a0c9aaaaa923c23283b45a0388ecdbad8d",
+      "documentHash": "5a038c9f67790608994d60edae649b6f60697ccfd426c8afe022d72f7fcf44c7",
+      "signatureHash": "4eb1baa370a0d1d108eb80b37edeb5ca0ae10797fd716d6f4c03f0c305307834",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-25T17:37:33.553Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "a33a84df2ca1097dfcf6678074c2621e86768d573568e6182951bab6fad694de"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-25T23:37:37.118Z"
+  }
 }
