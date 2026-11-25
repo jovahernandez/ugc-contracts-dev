@@ -3,7 +3,7 @@
   "declarationId": "26c6b125-4372-4b90-b252-db79b0a52011",
   "token": "d0c76fe8-a08b-48ad-811b-97804214b73e",
   "createdAt": "2026-11-25T20:14:41.568Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "EDUARDO MAYEN MARIN",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Eduardo Mayen Marin",
     "email": "eduardomayenmarin9@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "9d7c90777ae605ca6970f4d16de9e6ea2d9905a26ec89d3f715e53b600a7940f",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-25T20:16:33.440Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/MAMX0111172S5",
+  "signatureMetadata": {
+    "ip": "189.128.93.71",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-25T20:16:38.965Z",
+    "signedAtLocal": "2026-11-25T14:16:38.965Z"
+  },
+  "documentHash": "ae3bc426bcab678f8b9dca66a693c0d0e1a9711627679573f5c554d02a4af4eb",
   "auditTrail": [
     {
       "eventId": "6ec33b59-a30d-4dd6-b5e8-1594e3c216e8",
@@ -103,6 +111,49 @@
         "representante": "Eduardo Mayen Marin"
       },
       "eventHash": "57f4f5360e74d8f783773d5a86cc44140c1e0aa56a3cf52e33f928095df72077"
+    },
+    {
+      "eventId": "9396e1d3-e5ed-49c1-b5e4-99cef24cf5cf",
+      "uid": "MAMX0111172S5",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-25T20:14:54.467Z",
+      "timestampLocal": "2026-11-25T20:14:54.467Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.128.93.71",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=MAMX0111172S5&nombre_proveedor_razon_social=EDUARDO+MAYEN+MARIN&nombre_representante_legal=Eduardo+Mayen+Marin&email=eduardomayenmarin9%40gmail.com",
+      "previousEventHash": "57f4f5360e74d8f783773d5a86cc44140c1e0aa56a3cf52e33f928095df72077",
+      "documentHash": "9d7c90777ae605ca6970f4d16de9e6ea2d9905a26ec89d3f715e53b600a7940f",
+      "eventHash": "281bd0d5d46114d57f61051405f12f33cc2c46f994b133c576b81e3e24c279e4"
+    },
+    {
+      "eventId": "78adc468-952c-4df2-89bc-17f20bfa0834",
+      "uid": "MAMX0111172S5",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-25T20:16:38.965Z",
+      "timestampLocal": "2026-11-25T14:16:38.965Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.128.93.71",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/d0c76fe8-a08b-48ad-811b-97804214b73e",
+      "previousEventHash": "281bd0d5d46114d57f61051405f12f33cc2c46f994b133c576b81e3e24c279e4",
+      "documentHash": "ae3bc426bcab678f8b9dca66a693c0d0e1a9711627679573f5c554d02a4af4eb",
+      "signatureHash": "4fb2c0095bf3f3ea3580d47c0ee3b5480a379d4cc76558548038ae22f8172deb",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-25T14:16:33.440Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "893f5ad852827e6b87b4321ee721d4d7095481f4d70072ef4757e119834b2a68"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 6,
+    "verifiedAt": "2026-11-25T20:16:39.176Z"
+  }
 }
