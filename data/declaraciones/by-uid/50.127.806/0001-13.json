@@ -3,8 +3,8 @@
   "declarationId": "9b90192d-f032-484d-ab8f-a33761e54b81",
   "token": "987ef556-414c-429a-bd98-eb1f30a0c3f6",
   "createdAt": "2026-11-25T15:33:31.207Z",
-  "status": "pending_signature",
-  "language": "es",
+  "status": "signed",
+  "language": "pt",
   "proveedor": {
     "nombre_proveedor_razon_social": "Richard Abelha Produes LTDA",
     "nombre_representante_legal": "abelharichard@gmail.com",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "abelharichard@gmail.com",
     "email": "richardvillanueva642001@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3f809e2866b0ca7721ff2cbd2bb21b986e211313be9b922dbe1ac31f5f0ccec3",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-25T15:35:25.496Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/50.127.806%2F0001-13",
+  "signatureMetadata": {
+    "ip": "179.218.93.30",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+    "signedAtUtc": "2026-11-25T15:35:28.882Z",
+    "signedAtLocal": "2026-11-25T12:35:28.882Z"
+  },
+  "documentHash": "d2f2c823c46b9fb7237b695f7c34f9c0a2a4c7a761284ec14f2e66d7c84f2b9a",
   "auditTrail": [
     {
       "eventId": "5b06df0d-0453-4d7c-976a-a5516a8f65a4",
@@ -266,6 +274,123 @@
         "representante": "abelharichard@gmail.com"
       },
       "eventHash": "ee334f5a71c1bc3789d4b54e193b2d56cab25d88cfd37494fbb5d71b4b2eeb15"
+    },
+    {
+      "eventId": "2c5372cd-50b2-4336-a6ea-cdedc7751e43",
+      "uid": "50.127.806/0001-13",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-25T15:33:56.375Z",
+      "timestampLocal": "2026-11-25T15:33:56.375Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.218.93.30",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "ee334f5a71c1bc3789d4b54e193b2d56cab25d88cfd37494fbb5d71b4b2eeb15",
+      "documentHash": "8861e8730009815d264648b16070b5f00fc6a5c3c4840ca97c61ca65d5971930",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "302a920356b27a34f7097be92d428fa0dbf67206554ad4838be677dafefb8b41"
+    },
+    {
+      "eventId": "b9821aa7-a3b0-4a88-ab79-e34f522288ca",
+      "uid": "50.127.806/0001-13",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-25T15:33:56.375Z",
+      "timestampLocal": "2026-11-25T15:33:56.375Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.218.93.30",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "302a920356b27a34f7097be92d428fa0dbf67206554ad4838be677dafefb8b41",
+      "documentHash": "8861e8730009815d264648b16070b5f00fc6a5c3c4840ca97c61ca65d5971930",
+      "metadata": {
+        "proveedor": "Richard Abelha Produes LTDA",
+        "representante": "abelharichard@gmail.com"
+      },
+      "eventHash": "e97b6e33fcab196aa546e77df6f7f0ef97a5771326b0e29f76c12c2a2b5322b9"
+    },
+    {
+      "eventId": "5ae356c3-4983-4f97-95e8-1c47c9d29438",
+      "uid": "50.127.806/0001-13",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-25T15:33:57.414Z",
+      "timestampLocal": "2026-11-25T15:33:57.414Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.218.93.30",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "e97b6e33fcab196aa546e77df6f7f0ef97a5771326b0e29f76c12c2a2b5322b9",
+      "documentHash": "cfc83bc28ad9ec3039e4a78f5dbeb7388334162870c38d9623117981487bcb52",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "6d55ca27ad302142d001ff42c2689a92437bdd15990ff5f53355900aa8fcf15e"
+    },
+    {
+      "eventId": "cf67848f-0ca3-474d-8e17-7b576ec6010a",
+      "uid": "50.127.806/0001-13",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-25T15:33:57.414Z",
+      "timestampLocal": "2026-11-25T15:33:57.414Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.218.93.30",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "6d55ca27ad302142d001ff42c2689a92437bdd15990ff5f53355900aa8fcf15e",
+      "documentHash": "cfc83bc28ad9ec3039e4a78f5dbeb7388334162870c38d9623117981487bcb52",
+      "metadata": {
+        "proveedor": "Richard Abelha Produes LTDA",
+        "representante": "abelharichard@gmail.com"
+      },
+      "eventHash": "a144d167886b0ea94f932fad6f21c6ee93254f814ce0fea2be154aeddf7968d3"
+    },
+    {
+      "eventId": "e3d386d0-5511-4caf-8778-a5380b069935",
+      "uid": "50.127.806/0001-13",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-25T15:34:00.800Z",
+      "timestampLocal": "2026-11-25T15:34:00.800Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.218.93.30",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "a144d167886b0ea94f932fad6f21c6ee93254f814ce0fea2be154aeddf7968d3",
+      "documentHash": "cfc83bc28ad9ec3039e4a78f5dbeb7388334162870c38d9623117981487bcb52",
+      "eventHash": "88beff7e59ce2927478f8e203186b0742ddbea24c83564877db499d544fcbb3f"
+    },
+    {
+      "eventId": "50b514e0-d1b6-4a71-97c3-5d9a9ea9ada1",
+      "uid": "50.127.806/0001-13",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-25T15:35:28.882Z",
+      "timestampLocal": "2026-11-25T12:35:28.882Z",
+      "timezone": "UTC-3",
+      "ipAddress": "179.218.93.30",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "pt-BR,pt;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "88beff7e59ce2927478f8e203186b0742ddbea24c83564877db499d544fcbb3f",
+      "documentHash": "d2f2c823c46b9fb7237b695f7c34f9c0a2a4c7a761284ec14f2e66d7c84f2b9a",
+      "signatureHash": "de0a40c2c66e9c522006e0622920d5d79386ba183828dc849f10b7537a7927f5",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-25T12:35:25.496Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "090b915785af7fed92ad207169f5531195dcf94604c4a7c6132d0c44c0a97631"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 19,
+    "verifiedAt": "2026-11-25T15:35:29.168Z"
+  }
 }
