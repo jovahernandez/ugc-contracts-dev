@@ -3,8 +3,18 @@
   "declarationId": "eb5d838b-14b4-4767-99d5-ade1f5a9f974",
   "token": "4054ec30-5c99-4425-a5cf-8981c8ab91a9",
   "createdAt": "2026-11-26T19:21:02.752Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "pt",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "GAMPMED - GESTAO EM SAUDE E SEGURANCA NO TRABALHO LTDA",
+    "nombre_representante_legal": "PAULO FERNANDO MEDEIROS BORGES",
+    "email": "financeiro@gampmed.com.br"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "GAMPMED - GESTAO EM SAUDE E SEGURANCA NO TRABALHO LTDA",
+    "nombre_representante_legal": "PAULO FERNANDO MEDEIROS BORGES",
+    "email": "financeiro@gampmed.com.br"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "GAMPMED - GESTAO EM SAUDE E SEGURANCA NO TRABALHO LTDA",
     "nombre_representante_legal": "PAULO FERNANDO MEDEIROS BORGES",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "97006f51fe8d145dbfa6de83e99c7d02a52e506a57b63ede46fcec138feef2c6",
+  "auditTrail": [
+    {
+      "eventId": "04d14003-055e-4fbf-8e06-80f1216104ef",
+      "uid": "58.373.267/0001-04",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-26T19:21:10.407Z",
+      "timestampLocal": "2026-11-26T19:21:10.407Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.68.194.23",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=58.373.267%2F0001-04&nombre_proveedor_razon_social=GAMPMED+-+GESTAO+EM+SAUDE+E+SEGURANCA+NO+TRABALHO+LTDA&nombre_representante_legal=PAULO+FERNANDO+MEDEIROS+BORGES&email=financeiro%40gampmed.com.br",
+      "previousEventHash": null,
+      "documentHash": "97006f51fe8d145dbfa6de83e99c7d02a52e506a57b63ede46fcec138feef2c6",
+      "metadata": {
+        "language": "pt"
+      },
+      "eventHash": "8a538f16fb42aa03153ba16476b49027343495e7955a4de4ceda20cc37e005a7"
+    },
+    {
+      "eventId": "c847aa03-4533-4ba0-b1f2-21964476fb56",
+      "uid": "58.373.267/0001-04",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-26T19:21:10.407Z",
+      "timestampLocal": "2026-11-26T19:21:10.407Z",
+      "timezone": "UTC+0",
+      "ipAddress": "177.68.194.23",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=58.373.267%2F0001-04&nombre_proveedor_razon_social=GAMPMED+-+GESTAO+EM+SAUDE+E+SEGURANCA+NO+TRABALHO+LTDA&nombre_representante_legal=PAULO+FERNANDO+MEDEIROS+BORGES&email=financeiro%40gampmed.com.br",
+      "previousEventHash": "8a538f16fb42aa03153ba16476b49027343495e7955a4de4ceda20cc37e005a7",
+      "documentHash": "97006f51fe8d145dbfa6de83e99c7d02a52e506a57b63ede46fcec138feef2c6",
+      "metadata": {
+        "proveedor": "GAMPMED - GESTAO EM SAUDE E SEGURANCA NO TRABALHO LTDA",
+        "representante": "PAULO FERNANDO MEDEIROS BORGES"
+      },
+      "eventHash": "d791d566dd83d30fbcddfb4469cf8bea5713ec0340a21aae3f332df041ddc591"
+    }
+  ]
 }
