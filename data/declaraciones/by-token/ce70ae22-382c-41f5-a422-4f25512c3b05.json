@@ -3,7 +3,7 @@
   "declarationId": "9989d5eb-d1ad-4b3f-8442-a890c81e7be2",
   "token": "ce70ae22-382c-41f5-a422-4f25512c3b05",
   "createdAt": "2026-11-26T23:26:55.323Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Sharid Josué Hernández Huerta",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Sharid Josué Hernández Huerta",
     "email": "sharidjhdez@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "6de849c90d3d4daf122f51878a8f590d2d2283fa42cbcbd7116c2ebb3701ba8f",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-26T23:27:51.477Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/HEHS0407135I4",
+  "signatureMetadata": {
+    "ip": "187.243.195.232",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 OPR/140.0.0.0",
+    "signedAtUtc": "2026-11-26T23:27:54.811Z",
+    "signedAtLocal": "2026-11-26T17:27:54.811Z"
+  },
+  "documentHash": "66008767e1cf489bcf6736a1e04da5c4af3cb3527082a867b5c09e653eb9fab6",
   "auditTrail": [
     {
       "eventId": "3e171ff9-a9a9-400f-a118-5248330f8eec",
@@ -140,6 +148,49 @@
         "representante": "Sharid Josué Hernández Huerta"
       },
       "eventHash": "356abb9afae7931b7c92b3f674a87e572d0e1a59e04ad426cbd56fe6857b75f9"
+    },
+    {
+      "eventId": "a34829d5-e4bf-4c13-8a67-81606f195e80",
+      "uid": "HEHS0407135I4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-26T23:27:10.778Z",
+      "timestampLocal": "2026-11-26T23:27:10.778Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.243.195.232",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 OPR/140.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HEHS0407135I4&nombre_proveedor_razon_social=Sharid+Josu%C3%A9+Hern%C3%A1ndez+Huerta&nombre_representante_legal=Sharid+Josu%C3%A9+Hern%C3%A1ndez+Huerta&email=sharidjhdez%40gmail.com",
+      "previousEventHash": "356abb9afae7931b7c92b3f674a87e572d0e1a59e04ad426cbd56fe6857b75f9",
+      "documentHash": "6de849c90d3d4daf122f51878a8f590d2d2283fa42cbcbd7116c2ebb3701ba8f",
+      "eventHash": "586a1e489bb259f9bdfa361c622009f14f9d3e691e812b66b99940bbe2305671"
+    },
+    {
+      "eventId": "ccf5b7f7-208e-401b-b6f2-05a72e97e4fe",
+      "uid": "HEHS0407135I4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-26T23:27:54.811Z",
+      "timestampLocal": "2026-11-26T17:27:54.811Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.243.195.232",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36 OPR/140.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,en;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/ce70ae22-382c-41f5-a422-4f25512c3b05",
+      "previousEventHash": "586a1e489bb259f9bdfa361c622009f14f9d3e691e812b66b99940bbe2305671",
+      "documentHash": "66008767e1cf489bcf6736a1e04da5c4af3cb3527082a867b5c09e653eb9fab6",
+      "signatureHash": "c2756f4edf09208f3a8c36aea18aafdfd9a0362bcbfc7f0902c39a5b46eaa19c",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-26T17:27:51.477Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "53bbac9d83b2e57cd7d96720f5e51b4e7131684c2fec7e57b35224eb3d09fb32"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 8,
+    "verifiedAt": "2026-11-26T23:27:55.200Z"
+  }
 }
