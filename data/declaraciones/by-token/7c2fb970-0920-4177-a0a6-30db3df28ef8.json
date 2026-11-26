@@ -3,8 +3,18 @@
   "declarationId": "4dbbfe5e-3c8c-4867-a32d-4e99ebd1145d",
   "token": "7c2fb970-0920-4177-a0a6-30db3df28ef8",
   "createdAt": "2026-11-26T23:49:05.997Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Aura Luz Abrego Castillo",
+    "nombre_representante_legal": "Aura Luz Abrego Castillo",
+    "email": "aura.abrego@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Aura Luz Abrego Castillo",
+    "nombre_representante_legal": "Aura Luz Abrego Castillo",
+    "email": "aura.abrego@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Aura Luz Abrego Castillo",
     "nombre_representante_legal": "Aura Luz Abrego Castillo",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "35eb57de8fa50c65c452df37a46659c15e2856872f73244278c91ad36174d4bb",
+  "auditTrail": [
+    {
+      "eventId": "67e3da42-8052-47bf-95b2-7eb889f63f27",
+      "uid": "AECA791207HT2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-26T23:49:16.099Z",
+      "timestampLocal": "2026-11-26T23:49:16.099Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.220.213.166",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AECA791207HT2&nombre_proveedor_razon_social=Aura+Luz+Abrego+Castillo&nombre_representante_legal=Aura+Luz+Abrego+Castillo&email=aura.abrego%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "35eb57de8fa50c65c452df37a46659c15e2856872f73244278c91ad36174d4bb",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "e08d4676ca463963bd5baceaf77a70d044f64a017092920afd8e8da6818aa671"
+    },
+    {
+      "eventId": "b77604b8-1910-489c-9afb-519cc649a4ba",
+      "uid": "AECA791207HT2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-26T23:49:16.099Z",
+      "timestampLocal": "2026-11-26T23:49:16.099Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.220.213.166",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=AECA791207HT2&nombre_proveedor_razon_social=Aura+Luz+Abrego+Castillo&nombre_representante_legal=Aura+Luz+Abrego+Castillo&email=aura.abrego%40gmail.com",
+      "previousEventHash": "e08d4676ca463963bd5baceaf77a70d044f64a017092920afd8e8da6818aa671",
+      "documentHash": "35eb57de8fa50c65c452df37a46659c15e2856872f73244278c91ad36174d4bb",
+      "metadata": {
+        "proveedor": "Aura Luz Abrego Castillo",
+        "representante": "Aura Luz Abrego Castillo"
+      },
+      "eventHash": "08c6b2f9993c477d8703983d3c17a18dfdca3e0e11874b0ea301bfa77c9a1d68"
+    }
+  ]
 }
