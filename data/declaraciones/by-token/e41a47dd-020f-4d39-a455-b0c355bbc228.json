@@ -3,8 +3,18 @@
   "declarationId": "7d3ee28c-f329-4e56-9ca6-620396905ce7",
   "token": "e41a47dd-020f-4d39-a455-b0c355bbc228",
   "createdAt": "2026-11-26T19:49:40.722Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "AGENCIA DIGITAL",
+    "nombre_representante_legal": "Claudia Basaldud Chavez",
+    "email": "veronica.flores@milenio.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "AGENCIA DIGITAL",
+    "nombre_representante_legal": "Claudia Basaldud Chavez",
+    "email": "veronica.flores@milenio.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "AGENCIA DIGITAL",
     "nombre_representante_legal": "Claudia Basaldud Chavez",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "0181c6883c750f5fe2ae703b87dabbbf2e6898de5fe5c556281fd2f648aaf538",
+  "auditTrail": [
+    {
+      "eventId": "1f8f1832-a414-4a44-bfed-88068f69d79e",
+      "uid": "ADI0809035M0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-26T19:49:55.511Z",
+      "timestampLocal": "2026-11-26T19:49:55.511Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.82.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ADI0809035M0&nombre_proveedor_razon_social=AGENCIA+DIGITAL&nombre_representante_legal=Claudia+Basaldud+Chavez&email=veronica.flores%40milenio.com",
+      "previousEventHash": null,
+      "documentHash": "0181c6883c750f5fe2ae703b87dabbbf2e6898de5fe5c556281fd2f648aaf538",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "3db1b906444f537f890fa06a0075e2a577e5bb544f76029e8c785915bb29e542"
+    },
+    {
+      "eventId": "b63f25fd-5f0f-4bd3-849d-bc79d643dae7",
+      "uid": "ADI0809035M0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-26T19:49:55.511Z",
+      "timestampLocal": "2026-11-26T19:49:55.511Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.170.82.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=ADI0809035M0&nombre_proveedor_razon_social=AGENCIA+DIGITAL&nombre_representante_legal=Claudia+Basaldud+Chavez&email=veronica.flores%40milenio.com",
+      "previousEventHash": "3db1b906444f537f890fa06a0075e2a577e5bb544f76029e8c785915bb29e542",
+      "documentHash": "0181c6883c750f5fe2ae703b87dabbbf2e6898de5fe5c556281fd2f648aaf538",
+      "metadata": {
+        "proveedor": "AGENCIA DIGITAL",
+        "representante": "Claudia Basaldud Chavez"
+      },
+      "eventHash": "7b93b2bfa7fbe2b8fee132a40d9850d304080ef65f41113521e551884b991126"
+    }
+  ]
 }
