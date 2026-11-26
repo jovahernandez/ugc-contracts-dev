@@ -3,8 +3,18 @@
   "declarationId": "9c00cffe-8854-416e-8fcd-8484c7cc3fe5",
   "token": "25dc9f15-5671-4851-8c6d-5495a573c14a",
   "createdAt": "2026-11-26T17:27:40.257Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "FULLFRAME S DE RL DE CV",
+    "nombre_representante_legal": "Miguel Ángel Urzúa Aréchiga",
+    "email": "mariel@fullframe.mx"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "FULLFRAME S DE RL DE CV",
+    "nombre_representante_legal": "Miguel Ángel Urzúa Aréchiga",
+    "email": "mariel@fullframe.mx"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "FULLFRAME S DE RL DE CV",
     "nombre_representante_legal": "Miguel Ángel Urzúa Aréchiga",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "6bed3c9579cc2539190f67a13d32819a4a0add1060825d112c339bfadc7499b2",
+  "auditTrail": [
+    {
+      "eventId": "8ce53d97-e8f0-40e4-8edd-121a08edd245",
+      "uid": "FUL160727HF0",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-26T17:27:51.671Z",
+      "timestampLocal": "2026-11-26T17:27:51.671Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.116.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FUL160727HF0&nombre_proveedor_razon_social=FULLFRAME+S+DE+RL+DE+CV&nombre_representante_legal=Miguel+%C3%81ngel+Urz%C3%BAa+Ar%C3%A9chiga&email=mariel%40fullframe.mx",
+      "previousEventHash": null,
+      "documentHash": "6bed3c9579cc2539190f67a13d32819a4a0add1060825d112c339bfadc7499b2",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "dcdababf82317b8edcd004072135d2f64c44491726ba6f6670884b2a764f5c93"
+    },
+    {
+      "eventId": "325fd2f5-38e4-405e-a58c-9af26416fb2e",
+      "uid": "FUL160727HF0",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-26T17:27:51.671Z",
+      "timestampLocal": "2026-11-26T17:27:51.671Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.116.132",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8,en;q=0.7",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FUL160727HF0&nombre_proveedor_razon_social=FULLFRAME+S+DE+RL+DE+CV&nombre_representante_legal=Miguel+%C3%81ngel+Urz%C3%BAa+Ar%C3%A9chiga&email=mariel%40fullframe.mx",
+      "previousEventHash": "dcdababf82317b8edcd004072135d2f64c44491726ba6f6670884b2a764f5c93",
+      "documentHash": "6bed3c9579cc2539190f67a13d32819a4a0add1060825d112c339bfadc7499b2",
+      "metadata": {
+        "proveedor": "FULLFRAME S DE RL DE CV",
+        "representante": "Miguel Ángel Urzúa Aréchiga"
+      },
+      "eventHash": "b7058d9f43310feaa08861459273631705f19b731eacc410db107edf4dccc43d"
+    }
+  ]
 }
