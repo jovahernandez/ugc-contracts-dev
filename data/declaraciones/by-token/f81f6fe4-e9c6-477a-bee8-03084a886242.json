@@ -3,8 +3,18 @@
   "declarationId": "6b3dd15a-bc26-404b-9229-ebfe6bc50cc6",
   "token": "f81f6fe4-e9c6-477a-bee8-03084a886242",
   "createdAt": "2026-11-26T22:55:13.327Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Sara Maria Hidalgo Bouchez",
+    "nombre_representante_legal": "Sara Maria Hidalgo Bouchez",
+    "email": "saramahbz@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Sara Maria Hidalgo Bouchez",
+    "nombre_representante_legal": "Sara Maria Hidalgo Bouchez",
+    "email": "saramahbz@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Sara Maria Hidalgo Bouchez",
     "nombre_representante_legal": "Sara Maria Hidalgo Bouchez",
@@ -18,5 +28,81 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "e52bad39d7689434becc2c0bf751b81f5fe2a57f1bacca92d2d7e1b2e14a7bad",
+  "auditTrail": [
+    {
+      "eventId": "baa4b1ef-f188-45d1-b9a2-f97cac7fd5c6",
+      "uid": "HIBS840806SK4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-26T22:55:19.781Z",
+      "timestampLocal": "2026-11-26T22:55:19.781Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.116",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HIBS840806SK4&nombre_proveedor_razon_social=Sara+Maria+Hidalgo+Bouchez&nombre_representante_legal=Sara+Maria+Hidalgo+Bouchez&email=saramahbz%40gmail.com",
+      "previousEventHash": null,
+      "documentHash": "1e0f95cc26aa1ac1be71696666c6bfd0353d1f876e91d9f5820aab6ddfa22bbc",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4e76721a2fbe50b2b2dde4649c9dc64825cb435fd4e93c4aa79d4336be7aa611"
+    },
+    {
+      "eventId": "0f0f2165-1e01-4c16-adda-533384832d65",
+      "uid": "HIBS840806SK4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-26T22:55:19.781Z",
+      "timestampLocal": "2026-11-26T22:55:19.781Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.116",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HIBS840806SK4&nombre_proveedor_razon_social=Sara+Maria+Hidalgo+Bouchez&nombre_representante_legal=Sara+Maria+Hidalgo+Bouchez&email=saramahbz%40gmail.com",
+      "previousEventHash": "4e76721a2fbe50b2b2dde4649c9dc64825cb435fd4e93c4aa79d4336be7aa611",
+      "documentHash": "1e0f95cc26aa1ac1be71696666c6bfd0353d1f876e91d9f5820aab6ddfa22bbc",
+      "metadata": {
+        "proveedor": "Sara Maria Hidalgo Bouchez",
+        "representante": "Sara Maria Hidalgo Bouchez"
+      },
+      "eventHash": "fdfd041dd3d2c9e91119445b59da0a0266568f28e623f74b93225fc410a35561"
+    },
+    {
+      "eventId": "0b7dff86-cfc1-485f-8b81-985710f4294a",
+      "uid": "HIBS840806SK4",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-26T22:55:20.706Z",
+      "timestampLocal": "2026-11-26T22:55:20.706Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.116",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HIBS840806SK4&nombre_proveedor_razon_social=Sara+Maria+Hidalgo+Bouchez&nombre_representante_legal=Sara+Maria+Hidalgo+Bouchez&email=saramahbz%40gmail.com",
+      "previousEventHash": "fdfd041dd3d2c9e91119445b59da0a0266568f28e623f74b93225fc410a35561",
+      "documentHash": "e52bad39d7689434becc2c0bf751b81f5fe2a57f1bacca92d2d7e1b2e14a7bad",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "10c8c05294fb87b88d94cb2d83b7a926d70cd878db63161db42d659f004a44fe"
+    },
+    {
+      "eventId": "e3302039-6ca6-43ad-9510-3444481030d2",
+      "uid": "HIBS840806SK4",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-26T22:55:20.706Z",
+      "timestampLocal": "2026-11-26T22:55:20.706Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.173.116",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-US,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=HIBS840806SK4&nombre_proveedor_razon_social=Sara+Maria+Hidalgo+Bouchez&nombre_representante_legal=Sara+Maria+Hidalgo+Bouchez&email=saramahbz%40gmail.com",
+      "previousEventHash": "10c8c05294fb87b88d94cb2d83b7a926d70cd878db63161db42d659f004a44fe",
+      "documentHash": "e52bad39d7689434becc2c0bf751b81f5fe2a57f1bacca92d2d7e1b2e14a7bad",
+      "metadata": {
+        "proveedor": "Sara Maria Hidalgo Bouchez",
+        "representante": "Sara Maria Hidalgo Bouchez"
+      },
+      "eventHash": "0e66d8cb21e863ed2fc3b4338ff8c50bd33f1fc226c666679812e694cd4f6020"
+    }
+  ]
 }
