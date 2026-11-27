@@ -3,8 +3,18 @@
   "declarationId": "6f960756-55df-47ac-b495-656f6799f8f4",
   "token": "b358cb59-cf4c-4601-b1c2-b4a4ce95a7a4",
   "createdAt": "2026-11-27T19:13:01.146Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Montserrat Soto Zamorano",
+    "nombre_representante_legal": "Montserrat Soto Zamorano",
+    "email": "montsesoto.contacto@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Montserrat Soto Zamorano",
+    "nombre_representante_legal": "Montserrat Soto Zamorano",
+    "email": "montsesoto.contacto@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Montserrat Soto Zamorano",
     "nombre_representante_legal": "Montserrat Soto Zamorano",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "83ee370283b38c4982d08fad302c65eeb0bfa20b679d81d75135850b66fc7acd",
+  "auditTrail": [
+    {
+      "eventId": "5d1fe3c2-b9c9-474f-b7bd-e9cacc52ee3f",
+      "uid": "SOZM950822KA2",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-27T19:13:06.498Z",
+      "timestampLocal": "2026-11-27T19:13:06.498Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.111.25",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "83ee370283b38c4982d08fad302c65eeb0bfa20b679d81d75135850b66fc7acd",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "fbd141ba170cc38ac5731960384628ad5bb3a01f39e7f02be5cbdcceb588cea2"
+    },
+    {
+      "eventId": "d355e891-4d3c-4380-bad6-17247f2e82f6",
+      "uid": "SOZM950822KA2",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-27T19:13:06.498Z",
+      "timestampLocal": "2026-11-27T19:13:06.498Z",
+      "timezone": "UTC+0",
+      "ipAddress": "104.28.111.25",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "en-US,en;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "fbd141ba170cc38ac5731960384628ad5bb3a01f39e7f02be5cbdcceb588cea2",
+      "documentHash": "83ee370283b38c4982d08fad302c65eeb0bfa20b679d81d75135850b66fc7acd",
+      "metadata": {
+        "proveedor": "Montserrat Soto Zamorano",
+        "representante": "Montserrat Soto Zamorano"
+      },
+      "eventHash": "421b383145c1c1c834fc45eca4885de0aa5a9bda202b9685da2c9a3d23e1c8e3"
+    }
+  ]
 }
