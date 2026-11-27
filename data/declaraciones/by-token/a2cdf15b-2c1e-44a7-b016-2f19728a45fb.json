@@ -3,8 +3,18 @@
   "declarationId": "04fd6dcf-fb83-480a-88ce-de21a4fecd3a",
   "token": "a2cdf15b-2c1e-44a7-b016-2f19728a45fb",
   "createdAt": "2026-11-27T17:47:21.697Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "MONTSERRAT SILVA LAMAS",
+    "nombre_representante_legal": "Montserrat Silva",
+    "email": "conoceconmontse@gmail.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "MONTSERRAT SILVA LAMAS",
+    "nombre_representante_legal": "Montserrat Silva",
+    "email": "conoceconmontse@gmail.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "MONTSERRAT SILVA LAMAS",
     "nombre_representante_legal": "Montserrat Silva",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "d9cb14f4a47fe56813467456c9fbb2c3c2df5686ff989772e5b80a21e1953f16",
+  "auditTrail": [
+    {
+      "eventId": "ce088998-e123-43ba-80fb-578bd1e42199",
+      "uid": "SILM930510CS9",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-27T17:47:27.790Z",
+      "timestampLocal": "2026-11-27T17:47:27.790Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.159.139",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "d9cb14f4a47fe56813467456c9fbb2c3c2df5686ff989772e5b80a21e1953f16",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "2647e08fe7a7f6bc11dbf19db7dc96e4301ff11a7f584f388bb6460246edf781"
+    },
+    {
+      "eventId": "e4a0d61f-c9ee-48e2-81f2-3ad4dbaa9a8a",
+      "uid": "SILM930510CS9",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-27T17:47:27.790Z",
+      "timestampLocal": "2026-11-27T17:47:27.790Z",
+      "timezone": "UTC+0",
+      "ipAddress": "200.68.159.139",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-MX,es-419;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "2647e08fe7a7f6bc11dbf19db7dc96e4301ff11a7f584f388bb6460246edf781",
+      "documentHash": "d9cb14f4a47fe56813467456c9fbb2c3c2df5686ff989772e5b80a21e1953f16",
+      "metadata": {
+        "proveedor": "MONTSERRAT SILVA LAMAS",
+        "representante": "Montserrat Silva"
+      },
+      "eventHash": "68c8f773030c293f335afbf3112999f7288074b15ff1ccd8091017e8eb2967b4"
+    }
+  ]
 }
