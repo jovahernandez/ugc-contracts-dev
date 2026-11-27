@@ -3,7 +3,7 @@
   "declarationId": "ccd22dce-d225-4288-ab45-24a86916af82",
   "token": "c2cb203e-1f85-4fcc-b254-3c508cb86c1d",
   "createdAt": "2026-11-27T18:45:07.765Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Montserrat Soto Zamorano",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Montserrat Soto Zamorano",
     "email": "montsesoto.contacto@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "3737ea2fab9820eed03bab13c267e7033791941c06787f4ba6d9cf77a61644b5",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-27T18:45:30.689Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/SOZM950822KA2",
+  "signatureMetadata": {
+    "ip": "201.103.12.61",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-27T18:45:34.012Z",
+    "signedAtLocal": "2026-11-27T12:45:34.012Z"
+  },
+  "documentHash": "9b9c656c86d665acb3643db1762951ca0800db9890410acd1d453a798eb721b2",
   "auditTrail": [
     {
       "eventId": "ada4503e-4721-44f0-9ad2-3940a873c51c",
@@ -66,6 +74,49 @@
         "representante": "Montserrat Soto Zamorano"
       },
       "eventHash": "b55192d98896125c41511a2b3cf938155cdea6a41c5381412902e7a60c38099c"
+    },
+    {
+      "eventId": "ebca3054-834f-46f7-bff3-b38900372d5d",
+      "uid": "SOZM950822KA2",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-27T18:45:17.271Z",
+      "timestampLocal": "2026-11-27T18:45:17.271Z",
+      "timezone": "UTC+0",
+      "ipAddress": "201.103.12.61",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=SOZM950822KA2&nombre_proveedor_razon_social=Montserrat+Soto+Zamorano&nombre_representante_legal=Montserrat+Soto+Zamorano&email=montsesoto.contacto%40gmail.com",
+      "previousEventHash": "b55192d98896125c41511a2b3cf938155cdea6a41c5381412902e7a60c38099c",
+      "documentHash": "3737ea2fab9820eed03bab13c267e7033791941c06787f4ba6d9cf77a61644b5",
+      "eventHash": "1a45e2db53a69d472323a09f3c5cee616182f36942758f3a63e94cccdc460e8f"
+    },
+    {
+      "eventId": "447a4817-6bfe-4801-adf6-f1a0f70d920d",
+      "uid": "SOZM950822KA2",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-27T18:45:34.012Z",
+      "timestampLocal": "2026-11-27T12:45:34.012Z",
+      "timezone": "UTC-6",
+      "ipAddress": "201.103.12.61",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "en-US,en;q=0.9,es;q=0.8",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/c2cb203e-1f85-4fcc-b254-3c508cb86c1d",
+      "previousEventHash": "1a45e2db53a69d472323a09f3c5cee616182f36942758f3a63e94cccdc460e8f",
+      "documentHash": "9b9c656c86d665acb3643db1762951ca0800db9890410acd1d453a798eb721b2",
+      "signatureHash": "d83c8f44ef917ae1fccfeb15b9915bad237177972fbdca79ab7264e45d39cf67",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-27T12:45:30.689Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "7f29f4469c03d24da63e046526406b05ac9b05c378461ec35580347bad4629ed"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-27T18:45:34.258Z"
+  }
 }
