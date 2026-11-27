@@ -3,8 +3,18 @@
   "declarationId": "efb06765-86be-45b3-b4d4-5b8fd318576b",
   "token": "bcefe83b-364b-47b2-9dde-9cf3687620e9",
   "createdAt": "2026-11-27T21:20:09.392Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "VPS PERU SAC",
+    "nombre_representante_legal": "ENRIQUE PEREZ SUAREZ",
+    "email": "b.paucar@vpslatam.pe"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "VPS PERU SAC",
+    "nombre_representante_legal": "ENRIQUE PEREZ SUAREZ",
+    "email": "b.paucar@vpslatam.pe"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "VPS PERU SAC",
     "nombre_representante_legal": "ENRIQUE PEREZ SUAREZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "f9437e192e1b283161a46acb5a263b0ebf990f1877ff88471c6274729d6ad17c",
+  "auditTrail": [
+    {
+      "eventId": "6e48a12e-1726-4a6d-baa8-1d89931a6719",
+      "uid": "20557169785",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-27T21:20:17.338Z",
+      "timestampLocal": "2026-11-27T21:20:17.338Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.6.16.190",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": null,
+      "documentHash": "f9437e192e1b283161a46acb5a263b0ebf990f1877ff88471c6274729d6ad17c",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "4302fb113afa4e2b2084ab7459038232e857300a7ea1a358719295cc7db920f6"
+    },
+    {
+      "eventId": "a23a1c97-24c1-458d-acda-4ebf4bc836da",
+      "uid": "20557169785",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-27T21:20:17.338Z",
+      "timestampLocal": "2026-11-27T21:20:17.338Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.6.16.190",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Mobile/15E148 Safari/604.1",
+      "acceptLanguage": "es-419,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/",
+      "previousEventHash": "4302fb113afa4e2b2084ab7459038232e857300a7ea1a358719295cc7db920f6",
+      "documentHash": "f9437e192e1b283161a46acb5a263b0ebf990f1877ff88471c6274729d6ad17c",
+      "metadata": {
+        "proveedor": "VPS PERU SAC",
+        "representante": "ENRIQUE PEREZ SUAREZ"
+      },
+      "eventHash": "f30c12e0d8cedb4132c655e8f9b2e93e8cd0fdaadc7f078ec95e03426af0f170"
+    }
+  ]
 }
