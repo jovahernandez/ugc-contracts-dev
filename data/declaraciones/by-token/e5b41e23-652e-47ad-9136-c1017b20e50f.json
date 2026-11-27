@@ -3,7 +3,7 @@
   "declarationId": "f8f97ef9-910e-4ef1-88d4-eb36bb59c6f1",
   "token": "e5b41e23-652e-47ad-9136-c1017b20e50f",
   "createdAt": "2026-11-27T14:54:43.211Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "Victor Hugo Torres Martinez",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "Victor Hugo Torres Martinez",
     "email": "victorvideomx@gmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "ff89053a1b203c2cf00a9c80273eeb76ec069e971867daaaf0f8f8abb40066b6",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-27T14:56:07.206Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/TOMV931223QN4",
+  "signatureMetadata": {
+    "ip": "187.190.27.138",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+    "signedAtUtc": "2026-11-27T14:56:10.590Z",
+    "signedAtLocal": "2026-11-27T08:56:10.590Z"
+  },
+  "documentHash": "2539e5b9e5e7b2aaeb995fe1c680a3d7f2b963edb940149dec0473ae82186270",
   "auditTrail": [
     {
       "eventId": "83e01749-94bc-4178-935a-81e2cefaf3df",
@@ -66,6 +74,49 @@
         "representante": "Victor Hugo Torres Martinez"
       },
       "eventHash": "c3c974360431db03efef3b3e6b5e120767d02b2af2a2ddbb723597bcc61eb03e"
+    },
+    {
+      "eventId": "08a201ad-1b04-49fc-8119-9d1cfbb8f4b9",
+      "uid": "TOMV931223QN4",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-27T14:54:55.472Z",
+      "timestampLocal": "2026-11-27T14:54:55.472Z",
+      "timezone": "UTC+0",
+      "ipAddress": "187.190.27.138",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=TOMV931223QN4&nombre_proveedor_razon_social=Victor+Hugo+Torres+Martinez&nombre_representante_legal=Victor+Hugo+Torres+Martinez&email=victorvideomx%40gmail.com",
+      "previousEventHash": "c3c974360431db03efef3b3e6b5e120767d02b2af2a2ddbb723597bcc61eb03e",
+      "documentHash": "ff89053a1b203c2cf00a9c80273eeb76ec069e971867daaaf0f8f8abb40066b6",
+      "eventHash": "965b1290aab92d830394e377b398d4f6c1bf9eb4f848f338fa42f12728506030"
+    },
+    {
+      "eventId": "c7425854-0243-4471-b29a-85d33558c84a",
+      "uid": "TOMV931223QN4",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-27T14:56:10.590Z",
+      "timestampLocal": "2026-11-27T08:56:10.590Z",
+      "timezone": "UTC-6",
+      "ipAddress": "187.190.27.138",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/e5b41e23-652e-47ad-9136-c1017b20e50f",
+      "previousEventHash": "965b1290aab92d830394e377b398d4f6c1bf9eb4f848f338fa42f12728506030",
+      "documentHash": "2539e5b9e5e7b2aaeb995fe1c680a3d7f2b963edb940149dec0473ae82186270",
+      "signatureHash": "612e5f1706b10be8a0f0a6cf0d977b44f97747e465b7746790a942f4164db233",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-27T08:56:07.206Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "72ea6dc4f991f9c0f6cdda5fe511d8f22dc181d835d905beaa2c8a40005e0111"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 4,
+    "verifiedAt": "2026-11-27T14:56:10.801Z"
+  }
 }
