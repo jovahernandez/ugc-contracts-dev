@@ -3,8 +3,18 @@
   "declarationId": "e3ee1528-5d31-4566-8634-0d9e6c5b74f6",
   "token": "ddff5f09-25b3-4acb-9ea3-3df798c1cfe4",
   "createdAt": "2026-11-27T19:28:57.661Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "JORGE EDUARDO BARON BERNAL",
+    "nombre_representante_legal": "JORGE EDUARDO BARON BERNAL",
+    "email": "administracion@jorgebarontelevision.com.co"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "JORGE EDUARDO BARON BERNAL",
+    "nombre_representante_legal": "JORGE EDUARDO BARON BERNAL",
+    "email": "administracion@jorgebarontelevision.com.co"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "JORGE EDUARDO BARON BERNAL",
     "nombre_representante_legal": "JORGE EDUARDO BARON BERNAL",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "67848fadc33a401c042f67a051095f9fd914613c0ef4b5f1fb9eed1d44231cee",
+  "auditTrail": [
+    {
+      "eventId": "cd5999f1-78f3-49d7-b4ab-80ddb9365112",
+      "uid": "1000954077-1",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-27T19:29:05.684Z",
+      "timestampLocal": "2026-11-27T19:29:05.684Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.144.34.58",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1000954077-1&nombre_proveedor_razon_social=JORGE+EDUARDO+BARON+BERNAL&nombre_representante_legal=JORGE+EDUARDO+BARON+BERNAL&email=administracion%40jorgebarontelevision.com.co",
+      "previousEventHash": null,
+      "documentHash": "67848fadc33a401c042f67a051095f9fd914613c0ef4b5f1fb9eed1d44231cee",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "a9e1df85067f51424e8723121a0af6801d08b98438bebc4c13199622c2e0fbd9"
+    },
+    {
+      "eventId": "e2538e4a-59a8-4929-9ea3-18ea915b84d7",
+      "uid": "1000954077-1",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-27T19:29:05.684Z",
+      "timestampLocal": "2026-11-27T19:29:05.684Z",
+      "timezone": "UTC+0",
+      "ipAddress": "190.144.34.58",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=1000954077-1&nombre_proveedor_razon_social=JORGE+EDUARDO+BARON+BERNAL&nombre_representante_legal=JORGE+EDUARDO+BARON+BERNAL&email=administracion%40jorgebarontelevision.com.co",
+      "previousEventHash": "a9e1df85067f51424e8723121a0af6801d08b98438bebc4c13199622c2e0fbd9",
+      "documentHash": "67848fadc33a401c042f67a051095f9fd914613c0ef4b5f1fb9eed1d44231cee",
+      "metadata": {
+        "proveedor": "JORGE EDUARDO BARON BERNAL",
+        "representante": "JORGE EDUARDO BARON BERNAL"
+      },
+      "eventHash": "73419150444c3c6681214774eff16e26d5961a9f58ba1c7e6b943fff39d88573"
+    }
+  ]
 }
