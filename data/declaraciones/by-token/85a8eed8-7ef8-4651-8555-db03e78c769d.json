@@ -3,8 +3,18 @@
   "declarationId": "fcde7a30-2b2f-48f6-b45a-89c4385f3ce4",
   "token": "85a8eed8-7ef8-4651-8555-db03e78c769d",
   "createdAt": "2026-11-27T16:54:20.786Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "VPS PERU SAC",
+    "nombre_representante_legal": "ENRIQUE PEREZ SUAREZ",
+    "email": "b.paucar@vpslatam.pe"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "VPS PERU SAC",
+    "nombre_representante_legal": "ENRIQUE PEREZ SUAREZ",
+    "email": "b.paucar@vpslatam.pe"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "VPS PERU SAC",
     "nombre_representante_legal": "ENRIQUE PEREZ SUAREZ",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "586c5cf1cdf6780f27c1a7e238cf5c1f5da650811713a79e58a03221b1388881",
+  "auditTrail": [
+    {
+      "eventId": "e0637bac-cd05-4f61-9dbc-623bb467e982",
+      "uid": "20557169785",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-27T19:43:08.298Z",
+      "timestampLocal": "2026-11-27T19:43:08.298Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.6.16.190",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20557169785&nombre_proveedor_razon_social=VPS+PERU+SAC&nombre_representante_legal=ENRIQUE+PEREZ+SUAREZ&email=b.paucar%40vpslatam.pe",
+      "previousEventHash": null,
+      "documentHash": "586c5cf1cdf6780f27c1a7e238cf5c1f5da650811713a79e58a03221b1388881",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "ba6bf48bb9ceb5eb76a3cd64de478af38171fe8fefe3aefeb54abce0e0fa370b"
+    },
+    {
+      "eventId": "86c85b85-b65b-431a-8868-2412adcda77f",
+      "uid": "20557169785",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-27T19:43:08.298Z",
+      "timestampLocal": "2026-11-27T19:43:08.298Z",
+      "timezone": "UTC+0",
+      "ipAddress": "179.6.16.190",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "acceptLanguage": "es-ES,es;q=0.9",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=20557169785&nombre_proveedor_razon_social=VPS+PERU+SAC&nombre_representante_legal=ENRIQUE+PEREZ+SUAREZ&email=b.paucar%40vpslatam.pe",
+      "previousEventHash": "ba6bf48bb9ceb5eb76a3cd64de478af38171fe8fefe3aefeb54abce0e0fa370b",
+      "documentHash": "586c5cf1cdf6780f27c1a7e238cf5c1f5da650811713a79e58a03221b1388881",
+      "metadata": {
+        "proveedor": "VPS PERU SAC",
+        "representante": "ENRIQUE PEREZ SUAREZ"
+      },
+      "eventHash": "043386fc07052f0d2f9cfd68bd22f6c340c72de26f8e0fe83e5426b35dee3048"
+    }
+  ]
 }
