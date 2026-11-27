@@ -3,7 +3,7 @@
   "declarationId": "e079d581-bbc0-4eb8-86b9-215b6165cd46",
   "token": "43726504-0dcc-450b-aa0c-3ec93c9bd38f",
   "createdAt": "2026-11-27T17:08:45.028Z",
-  "status": "pending_signature",
+  "status": "signed",
   "language": "es",
   "proveedor": {
     "nombre_proveedor_razon_social": "MIGUEL ANGEL LARA MOTE",
@@ -25,10 +25,18 @@
     "nombre_representante_legal": "MIGUEL ANGEL LARA MOTE",
     "email": "miguellara285@hotmail.com"
   },
-  "signedAt": null,
-  "signedPdfUrl": null,
-  "signatureMetadata": null,
-  "documentHash": "551f688a24f6020e6675627e139e4c6e357387b91200c51c3ca06c52b179f5c5",
+  "personaAutorizada": null,
+  "tieneConflicto": false,
+  "conflicto": null,
+  "signedAt": "2026-11-27T17:22:04.821Z",
+  "signedPdfUrl": " https://coi-acuerdo.up.railway.app/declaracion/download/LAMM7202172J0",
+  "signatureMetadata": {
+    "ip": "189.229.184.62",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0",
+    "signedAtUtc": "2026-11-27T17:22:08.188Z",
+    "signedAtLocal": "2026-11-27T11:22:08.188Z"
+  },
+  "documentHash": "fd4af5ec39aa0848d9124040c9ed983c68b020a53d9e55e0742a9781bfb048e1",
   "auditTrail": [
     {
       "eventId": "6871bfb0-6f74-4875-b709-fa2a0928f627",
@@ -66,6 +74,64 @@
         "representante": "MIGUEL ANGEL LARA MOTE"
       },
       "eventHash": "e9373368de6426ec7654f50704111d0655115515c9fafcf074eac6432bc12086"
+    },
+    {
+      "eventId": "5d1b6389-0df9-4017-9aeb-df69f17057b8",
+      "uid": "LAMM7202172J0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-27T17:09:26.207Z",
+      "timestampLocal": "2026-11-27T17:09:26.207Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.229.184.62",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=LAMM7202172J0&nombre_proveedor_razon_social=MIGUEL+ANGEL+LARA+MOTE&nombre_representante_legal=MIGUEL+ANGEL+LARA+MOTE&email=miguellara285%40hotmail.com",
+      "previousEventHash": "e9373368de6426ec7654f50704111d0655115515c9fafcf074eac6432bc12086",
+      "documentHash": "551f688a24f6020e6675627e139e4c6e357387b91200c51c3ca06c52b179f5c5",
+      "eventHash": "236b4658e2e2f004d578729ce9e04dafa43b02dad28bd65834b0dc8fe88ff845"
+    },
+    {
+      "eventId": "c57541d8-7b72-4f4a-a408-3e0ac8d5f6a9",
+      "uid": "LAMM7202172J0",
+      "eventType": "document_viewed",
+      "timestampUtc": "2026-11-27T17:17:55.333Z",
+      "timestampLocal": "2026-11-27T17:17:55.333Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.229.184.62",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://anothergroup-proveedores.portalhib2b.com/",
+      "previousEventHash": "236b4658e2e2f004d578729ce9e04dafa43b02dad28bd65834b0dc8fe88ff845",
+      "documentHash": "551f688a24f6020e6675627e139e4c6e357387b91200c51c3ca06c52b179f5c5",
+      "eventHash": "aae697d9cbaff46749feebdaa68f49ab43f929ec5897a96775bf4b1146abc2d8"
+    },
+    {
+      "eventId": "04e20453-5a90-423d-9b67-59dd54be2fe6",
+      "uid": "LAMM7202172J0",
+      "eventType": "signature_completed",
+      "timestampUtc": "2026-11-27T17:22:08.188Z",
+      "timestampLocal": "2026-11-27T11:22:08.188Z",
+      "timezone": "UTC-6",
+      "ipAddress": "189.229.184.62",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion/firmar/43726504-0dcc-450b-aa0c-3ec93c9bd38f",
+      "previousEventHash": "aae697d9cbaff46749feebdaa68f49ab43f929ec5897a96775bf4b1146abc2d8",
+      "documentHash": "fd4af5ec39aa0848d9124040c9ed983c68b020a53d9e55e0742a9781bfb048e1",
+      "signatureHash": "8d931d05a7730e7e6c778f48616683b8e3ea4cb6ba0572b5bb436f65852fea23",
+      "metadata": {
+        "personaAutorizada": null,
+        "conversionMethod": "cloudconvert",
+        "signedAtLocal": "2026-11-27T11:22:04.821Z",
+        "tieneConflicto": false,
+        "conflicto": null
+      },
+      "eventHash": "5340556c7353ccce73c8e150f023e9768811ea294a9634b0457f08c044309ccb"
     }
-  ]
+  ],
+  "auditTrailVerification": {
+    "chainValid": true,
+    "eventCount": 5,
+    "verifiedAt": "2026-11-27T17:22:08.383Z"
+  }
 }
