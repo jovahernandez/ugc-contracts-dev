@@ -3,8 +3,18 @@
   "declarationId": "4bfaddc5-5dbd-42ee-bb83-4f75fde71c67",
   "token": "05fb8609-fca9-424e-b914-d784ec3fefd8",
   "createdAt": "2026-11-28T00:56:20.246Z",
-  "status": "pending_language",
-  "proveedor": null,
+  "status": "pending_signature",
+  "language": "es",
+  "proveedor": {
+    "nombre_proveedor_razon_social": "Jesús Moisés Flores Hernández",
+    "nombre_representante_legal": "Jesús Moisés Flores Hernández",
+    "email": "contact@mirandafloresmusic.com"
+  },
+  "proveedorData": {
+    "nombre_proveedor_razon_social": "Jesús Moisés Flores Hernández",
+    "nombre_representante_legal": "Jesús Moisés Flores Hernández",
+    "email": "contact@mirandafloresmusic.com"
+  },
   "expectedProveedor": {
     "nombre_proveedor_razon_social": "Jesús Moisés Flores Hernández",
     "nombre_representante_legal": "Jesús Moisés Flores Hernández",
@@ -18,5 +28,44 @@
   "signedAt": null,
   "signedPdfUrl": null,
   "signatureMetadata": null,
-  "documentHash": null
+  "documentHash": "a3127236f20c6610e81466bc70b2a276e45907d2437b99d81c79023c82bcf893",
+  "auditTrail": [
+    {
+      "eventId": "06a29828-f7f7-47e9-bc2a-3ca5692ee45c",
+      "uid": "FOHJ9709255Z8",
+      "eventType": "language_selected",
+      "timestampUtc": "2026-11-28T00:56:27.152Z",
+      "timestampLocal": "2026-11-28T00:56:27.152Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.144.22.240",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FOHJ9709255Z8&nombre_proveedor_razon_social=Jes%C3%BAs+Mois%C3%A9s+Flores+Hern%C3%A1ndez&nombre_representante_legal=Jes%C3%BAs+Mois%C3%A9s+Flores+Hern%C3%A1ndez&email=contact%40mirandafloresmusic.com",
+      "previousEventHash": null,
+      "documentHash": "a3127236f20c6610e81466bc70b2a276e45907d2437b99d81c79023c82bcf893",
+      "metadata": {
+        "language": "es"
+      },
+      "eventHash": "7bb8f2363ec55208b5af7b175a2296fda9152cd70b7fd8cadd0c4ac02d23cf67"
+    },
+    {
+      "eventId": "c2ac56e4-77a0-4353-9837-2c22a90fbd12",
+      "uid": "FOHJ9709255Z8",
+      "eventType": "document_created",
+      "timestampUtc": "2026-11-28T00:56:27.152Z",
+      "timestampLocal": "2026-11-28T00:56:27.152Z",
+      "timezone": "UTC+0",
+      "ipAddress": "189.144.22.240",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0",
+      "acceptLanguage": "es-419,es;q=0.9,es-ES;q=0.8,en;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+      "referer": "https://coi-acuerdo.up.railway.app/declaracion?uid=FOHJ9709255Z8&nombre_proveedor_razon_social=Jes%C3%BAs+Mois%C3%A9s+Flores+Hern%C3%A1ndez&nombre_representante_legal=Jes%C3%BAs+Mois%C3%A9s+Flores+Hern%C3%A1ndez&email=contact%40mirandafloresmusic.com",
+      "previousEventHash": "7bb8f2363ec55208b5af7b175a2296fda9152cd70b7fd8cadd0c4ac02d23cf67",
+      "documentHash": "a3127236f20c6610e81466bc70b2a276e45907d2437b99d81c79023c82bcf893",
+      "metadata": {
+        "proveedor": "Jesús Moisés Flores Hernández",
+        "representante": "Jesús Moisés Flores Hernández"
+      },
+      "eventHash": "17ecba58761cbf5bd1b008e491b43b4bb84aee54f13f3fb6c10cf0425182c757"
+    }
+  ]
 }
